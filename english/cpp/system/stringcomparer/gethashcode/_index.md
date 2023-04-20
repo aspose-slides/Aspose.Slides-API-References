@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/stringcomparer/gethashcode/
 ---
-## StringComparer::GetHashCode([String](../../string/)) const method
+## StringComparer::GetHashCode(String) const method
 
 
 Gets string's hash code.

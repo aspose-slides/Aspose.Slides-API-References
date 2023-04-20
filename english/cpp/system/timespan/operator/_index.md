@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system/timespan/operator//
 ---
-## TimeSpan::operator/(**double**) const method
+## TimeSpan::operator/(double) const method
 
 
 
@@ -15,13 +15,7 @@ url: /cpp/system/timespan/operator//
 TimeSpan System::TimeSpan::operator/(double divisor) const
 ```
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::operator/([TimeSpan](../)) const method
+## TimeSpan::operator/(TimeSpan) const method
 
 
 
@@ -32,7 +26,6 @@ constexpr double System::TimeSpan::operator/(TimeSpan value) const
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

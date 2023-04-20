@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.drawing/rectangle/intersect/
 ---
-## Rectangle::Intersect(const [Rectangle](../)\&) method
+## Rectangle::Intersect(const Rectangle\&) method
 
 
 Replaces the rectangle represented by the current object with the rectangle that results from the its intersection with the rectangle represented by the specified object.
@@ -22,13 +22,7 @@ void System::Drawing::Rectangle::Intersect(const Rectangle &rect)
 | --- | --- | --- |
 | rect | const [Rectangle](../)\& | The [Rectangle](../) object that represents the rectangle to intersect the rectangle represented by the current object with |
 
-## See Also
-
-* Class [Rectangle](../)
-* Class [Rectangle](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Rectangle::Intersect(const [Rectangle](../)\&, const [Rectangle](../)\&) method
+## Rectangle::Intersect(const Rectangle\&, const Rectangle\&) method
 
 
 Returns a rectangle that is a result of intersection of the specified rectangles.
@@ -51,7 +45,6 @@ The result of intersection of **a** with **b**
 
 ## See Also
 
-* Class [Rectangle](../)
 * Class [Rectangle](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

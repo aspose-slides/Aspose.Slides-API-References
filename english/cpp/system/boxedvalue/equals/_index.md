@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system/boxedvalue/equals/
 ---
-## BoxedValue::Equals([ptr](../../object/ptr/)) method
+## BoxedValue::Equals(ptr) method
 
 
 Determines the equality of the boxed values represented by the current and specified objects.

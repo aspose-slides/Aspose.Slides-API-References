@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.net/webheadercollection/isrestricted/
 ---
-## WebHeaderCollection::IsRestricted(const [String](../../../system/string/)\&) method
+## WebHeaderCollection::IsRestricted(const String\&) method
 
 
 Not implemented.

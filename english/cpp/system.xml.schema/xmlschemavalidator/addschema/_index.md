@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml.schema/xmlschemavalidator/addschema/
 ---
-## XmlSchemaValidator::AddSchema(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\&) method
+## XmlSchemaValidator::AddSchema(const SharedPtr\<XmlSchema\>\&) method
 
 
 Adds an XML [Schema](../../) Definition Language (XSD) schema to the set of schemas used for validation.

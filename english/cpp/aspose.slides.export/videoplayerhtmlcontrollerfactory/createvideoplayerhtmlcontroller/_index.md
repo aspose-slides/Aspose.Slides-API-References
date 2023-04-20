@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.export/videoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
-## VideoPlayerHtmlControllerFactory::CreateVideoPlayerHtmlController([System::String](../../../system/string/), [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## VideoPlayerHtmlControllerFactory::CreateVideoPlayerHtmlController(System::String, System::String, System::String) method
 
 
 Creates new **[VideoPlayerHtmlController](../../videoplayerhtmlcontroller/)**.

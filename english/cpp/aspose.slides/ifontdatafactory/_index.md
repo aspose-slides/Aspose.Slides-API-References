@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifontdatafactory/
 [FontData](../fontdata/) factory interface
 
 ```cpp
-class IFontDataFactory : public System::Object
+class IFontDataFactory : public virtual System::Object
 ```
 
 ## Methods

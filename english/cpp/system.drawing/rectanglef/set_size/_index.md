@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/rectanglef/set_size/
 ---
-## RectangleF::set_Size([SizeF](../../sizef/)) method
+## RectangleF::set_Size(SizeF) method
 
 
 Sets the width and height of the rectangle represented by the current object.

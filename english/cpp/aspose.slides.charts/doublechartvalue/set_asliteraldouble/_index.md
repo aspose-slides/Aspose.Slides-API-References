@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/doublechartvalue/set_asliteraldouble/
 ---
-## DoubleChartValue::set_AsLiteralDouble(**double**) method
+## DoubleChartValue::set_AsLiteralDouble(double) method
 
 
 Sets value as literal double. Write **double**.

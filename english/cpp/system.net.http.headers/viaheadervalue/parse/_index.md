@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/viaheadervalue/parse/
 ---
-## ViaHeaderValue::Parse([String](../../../system/string/)) method
+## ViaHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [ViaHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [ViaHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ViaHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [ViaHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

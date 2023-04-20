@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides.export/pdfoptions/set_accesspermissions/
 ---
-## PdfOptions::set_AccessPermissions([PdfAccessPermissions](../../pdfaccesspermissions/)) method
+## PdfOptions::set_AccessPermissions(PdfAccessPermissions) method
 
 
 Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [PdfAccessPermissions](../../pdfaccesspermissions/).

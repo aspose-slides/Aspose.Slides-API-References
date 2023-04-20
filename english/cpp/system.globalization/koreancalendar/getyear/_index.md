@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.globalization/koreancalendar/getyear/
 ---
-## KoreanCalendar::GetYear([DateTime](../../../system/datetime/)) const method
+## KoreanCalendar::GetYear(DateTime) const method
 
 
 Gets year for the specified time point.

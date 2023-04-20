@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography.xml/reference/set_uri/
 ---
-## Reference::set_Uri([String](../../../system/string/)) method
+## Reference::set_Uri(String) method
 
 
 

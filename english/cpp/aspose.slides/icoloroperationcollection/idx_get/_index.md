@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/icoloroperationcollection/idx_get/
 ---
-## IColorOperationCollection::idx_get(**int32_t**) method
+## IColorOperationCollection::idx_get(int32_t) method
 
 
 Returns the operation at the specified index. Read [IColorOperation](../../icoloroperation/).

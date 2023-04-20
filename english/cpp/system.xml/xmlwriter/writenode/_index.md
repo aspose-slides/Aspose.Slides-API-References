@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.xml/xmlwriter/writenode/
 ---
-## XmlWriter::WriteNode([SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\>, **bool**) method
+## XmlWriter::WriteNode(SharedPtr\<XmlReader\>, bool) method
 
 
 When overridden in a derived class, copies everything from the reader to the writer and moves the reader to the start of the next sibling.
@@ -23,14 +23,7 @@ virtual void System::Xml::XmlWriter::WriteNode(SharedPtr<XmlReader> reader, bool
 | reader | [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\> | The [XmlReader](../../xmlreader/) to read from. |
 | defattr | **bool** | **true** to copy the default attributes from the [XmlReader](../../xmlreader/); otherwise, **false**. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../xmlreader/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteNode([SharedPtr](../../../system/sharedptr/)\<[XPath::XPathNavigator](../../../system.xml.xpath/xpathnavigator/)\>, **bool**) method
+## XmlWriter::WriteNode(SharedPtr\<XPath::XPathNavigator\>, bool) method
 
 
 Copies everything from the XPathNavigator object to the writer. The position of the XPathNavigator remains unchanged.
@@ -50,7 +43,8 @@ virtual void System::Xml::XmlWriter::WriteNode(SharedPtr<XPath::XPathNavigator> 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../../../system.xml.xpath/xpathnavigator/)
+* Class [XmlReader](../../xmlreader/)
 * Class [XmlWriter](../)
+* Class [XPathNavigator](../../../system.xml.xpath/xpathnavigator/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

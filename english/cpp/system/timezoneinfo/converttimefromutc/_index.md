@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system/timezoneinfo/converttimefromutc/
 ---
-## TimeZoneInfo::ConvertTimeFromUtc([DateTime](../../datetime/), const [TimeZoneInfoPtr](../../timezoneinfoptr/)\&) method
+## TimeZoneInfo::ConvertTimeFromUtc(DateTime, const TimeZoneInfoPtr\&) method
 
 
 Converts UTC-time to the time in a specified time zone.
@@ -29,8 +29,8 @@ Converted date and time.
 
 ## See Also
 
-* Class [DateTime](../../datetime/)
 * Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
+* Class [DateTime](../../datetime/)
 * Class [TimeZoneInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

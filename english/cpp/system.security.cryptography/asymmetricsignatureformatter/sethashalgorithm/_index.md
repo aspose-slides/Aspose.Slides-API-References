@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/asymmetricsignatureformatter/sethashalgorithm/
 ---
-## AsymmetricSignatureFormatter::SetHashAlgorithm([System::String](../../../system/string/)) method
+## AsymmetricSignatureFormatter::SetHashAlgorithm(System::String) method
 
 
 Sets hash algorithm to use.

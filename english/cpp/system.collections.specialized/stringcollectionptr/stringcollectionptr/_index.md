@@ -15,12 +15,7 @@ Constructs null pointer.
 System::Collections::Specialized::StringCollectionPtr::StringCollectionPtr()
 ```
 
-## See Also
-
-* Class [StringCollectionPtr](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## StringCollectionPtr::StringCollectionPtr(const [SharedPtr](../../../system/sharedptr/)\<[StringCollection](../../stringcollection/)\>\&) constructor
+## StringCollectionPtr::StringCollectionPtr(const SharedPtr\<StringCollection\>\&) constructor
 
 
 Constructs pointer to specific collection.
@@ -39,7 +34,7 @@ System::Collections::Specialized::StringCollectionPtr::StringCollectionPtr(const
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [StringCollection](../../stringcollection/)
 * Class [StringCollectionPtr](../)
+* Class [StringCollection](../../stringcollection/)
 * Namespace [System::Collections::Specialized](../../)
 * Library [Aspose.Slides](../../../)

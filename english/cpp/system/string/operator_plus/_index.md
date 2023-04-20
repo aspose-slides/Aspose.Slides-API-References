@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system/string/operator_plus/
 ---
-## String::operator+(const [String](../)\&) const method
+## String::operator+(const String\&) const method
 
 
 [String](../) concatenation operator.
@@ -26,12 +26,6 @@ String System::String::operator+(const String &str) const
 
 Concatenated string.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator+(const T\&) const method
 
 
@@ -58,12 +52,6 @@ template<typename T,std::enable_if_t< IsStringLiteral< T, char_t >::value > *> S
 
 Concatenated string.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator+(char_t) const method
 
 
@@ -84,12 +72,6 @@ String System::String::operator+(char_t x) const
 
 [String](../) concatenation result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator+(int) const method
 
 
@@ -110,13 +92,7 @@ String System::String::operator+(int i) const
 
 [String](../) concatenation result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+(**uint32_t**) const method
+## String::operator+(uint32_t) const method
 
 
 Adds unsigned integer value string representation to the end of the string.
@@ -136,13 +112,7 @@ String System::String::operator+(uint32_t i) const
 
 [String](../) concatenation result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+(**double**) const method
+## String::operator+(double) const method
 
 
 Adds floating point value string representation to the end of the string.
@@ -162,13 +132,7 @@ String System::String::operator+(double d) const
 
 [String](../) concatenation result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+(**int64_t**) const method
+## String::operator+(int64_t) const method
 
 
 Adds integer value string representation to the end of the string.
@@ -188,12 +152,6 @@ String System::String::operator+(int64_t v) const
 
 [String](../) concatenation result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator+(const T\&) const method
 
 
@@ -220,12 +178,6 @@ template<typename T,std::enable_if_t< IsSmartPtr< T >::value > *> String System:
 
 [String](../) concatenation result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator+(const T\&) const method
 
 
@@ -252,12 +204,6 @@ template<typename T,std::enable_if_t<!IsSmartPtr< T >::value &&!std::is_scalar< 
 
 [String](../) concatenation result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator+(T) const method
 
 
@@ -286,7 +232,6 @@ template<typename T,std::enable_if_t< std::is_same< T, bool >::value > *> String
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/isplittransition/set_direction/
 ---
-## ISplitTransition::set_Direction([TransitionInOutDirectionType](../../transitioninoutdirectiontype/)) method
+## ISplitTransition::set_Direction(TransitionInOutDirectionType) method
 
 
 Direction of transition split. Write [TransitionInOutDirectionType](../../transitioninoutdirectiontype/).

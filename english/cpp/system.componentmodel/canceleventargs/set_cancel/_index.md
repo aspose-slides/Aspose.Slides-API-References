@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.componentmodel/canceleventargs/set_cancel/
 ---
-## CancelEventArgs::set_Cancel(**bool**) method
+## CancelEventArgs::set_Cancel(bool) method
 
 
 Sets value indicating whether the event should be cancelled.

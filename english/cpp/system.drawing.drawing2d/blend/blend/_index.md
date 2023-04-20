@@ -15,11 +15,6 @@ Constructs a new instance of [Blend](../) class.
 System::Drawing::Drawing2D::Blend::Blend()
 ```
 
-## See Also
-
-* Class [Blend](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
 ## Blend::Blend(int) constructor
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaattributegroupref/set_refname/
 ---
-## XmlSchemaAttributeGroupRef::set_RefName(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaAttributeGroupRef::set_RefName(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Sets the name of the referenced **attributeGroup** element.

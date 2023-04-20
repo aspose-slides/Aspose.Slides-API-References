@@ -26,12 +26,7 @@ int System::Collections::Generic::List<T>::BinarySearch(const T &item) const
 
 Index of the item in sorted list or complement of closest index.
 
-## See Also
-
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::BinarySearch(const T\&, const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\&) const method
+## List::BinarySearch(const T\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) const method
 
 
 Looks for item in a sorted list.
@@ -52,14 +47,7 @@ int System::Collections::Generic::List<T>::BinarySearch(const T &item, const Sha
 
 Index of the item in sorted list or complement of closest index.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IComparer](../../icomparer/)
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::BinarySearch(int, int, const T\&, const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\&) const method
+## List::BinarySearch(int, int, const T\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) const method
 
 
 Looks for item in a sorted list.
@@ -85,7 +73,7 @@ Index of the item in sorted list or complement of closest index.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IComparer](../../icomparer/)
 * Class [List](../)
+* Class [IComparer](../../icomparer/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

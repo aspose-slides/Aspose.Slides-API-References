@@ -20,12 +20,6 @@ iterator Aspose::Slides::MathText::MathParagraph::begin() noexcept
 
 An iterator pointing to the first element (if any) of the collection
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [MathParagraph](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
 ## MathParagraph::begin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the first element (if any) of the const-qualified instan
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [MathParagraph](../)
 * Namespace [Aspose::Slides::MathText](../../)

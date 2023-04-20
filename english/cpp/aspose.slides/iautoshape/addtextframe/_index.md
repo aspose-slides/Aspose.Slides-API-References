@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/iautoshape/addtextframe/
 ---
-## IAutoShape::AddTextFrame([System::String](../../../system/string/)) method
+## IAutoShape::AddTextFrame(System::String) method
 
 
 Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply changes its text.

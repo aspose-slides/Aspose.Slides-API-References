@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.http.headers/productinfoheadervalue/tryparse/
 ---
-## ProductInfoHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[ProductInfoHeaderValue](../)\>\&) method
+## ProductInfoHeaderValue::TryParse(String, System::SharedPtr\<ProductInfoHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [ProductInfoHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ProductInfoHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [ProductInfoHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

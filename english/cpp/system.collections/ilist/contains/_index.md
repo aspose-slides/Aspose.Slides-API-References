@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.collections/ilist/contains/
 ---
-## IList::Contains([SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) const method
+## IList::Contains(SharedPtr\<System::Object\>) const method
 
 
 Checks if the item is in the list.

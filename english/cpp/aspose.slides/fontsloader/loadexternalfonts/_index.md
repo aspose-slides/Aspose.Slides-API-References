@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/fontsloader/loadexternalfonts/
 ---
-## FontsLoader::LoadExternalFonts([System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>) method
+## FontsLoader::LoadExternalFonts(System::ArrayPtr\<System::String\>) method
 
 
 Adds additional folders to seek fonts.

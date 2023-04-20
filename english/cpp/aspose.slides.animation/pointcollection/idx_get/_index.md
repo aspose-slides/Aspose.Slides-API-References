@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/pointcollection/idx_get/
 ---
-## PointCollection::idx_get(**int32_t**) method
+## PointCollection::idx_get(int32_t) method
 
 
 Returns a point at the specified index.

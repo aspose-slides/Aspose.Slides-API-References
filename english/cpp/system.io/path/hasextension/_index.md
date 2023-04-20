@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.io/path/hasextension/
 ---
-## Path::HasExtension(const [String](../../../system/string/)\&) method
+## Path::HasExtension(const String\&) method
 
 
 Determines if the specified path references a file with extension.

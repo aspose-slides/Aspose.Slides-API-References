@@ -12,7 +12,7 @@ url: /cpp/system/isboxable/
 Template predicate that checks if boxing of the specified type is supported.
 
 ```cpp
-template<typename T>class IsBoxable : public std::integral_constant<bool, std::is_base_of<Details::BoxableObjectBase, T>::value||std::is_arithmetic<T>::value||std::is_enum<T>::value||IsExceptionWrapper<T>::value>
+template<typename T>class IsBoxable : public std::integral_constant<bool, std::is_base_of<Details::BoxableObjectBase, T>::value||std::is_arithmetic<T>::value||std::is_enum<T>::value>
 ```
 
 

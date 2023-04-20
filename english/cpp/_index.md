@@ -1,5 +1,5 @@
 ---
-title: Aspose.Slides for C++ API Reference (version 23.3)
+title: Aspose.Slides for C++ API Reference (version 23.4)
 type: docs
 weight: 12
 url: /cpp/
@@ -23,7 +23,6 @@ is_root: true
 - [Aspose::Slides::MathText](./aspose.slides.mathtext/)
 - [Aspose::Slides::MathText::Rendering](./aspose.slides.mathtext.rendering/)
 - [Aspose::Slides::Patterns](./aspose.slides.patterns/)
-- [Aspose::Slides::PptSerialization](./aspose.slides.pptserialization/)
 - [Aspose::Slides::SlideShow](./aspose.slides.slideshow/)
 - [Aspose::Slides::SmartArt](./aspose.slides.smartart/)
 - [Aspose::Slides::Spreadsheet](./aspose.slides.spreadsheet/)

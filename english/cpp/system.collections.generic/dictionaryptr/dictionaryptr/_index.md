@@ -15,12 +15,7 @@ Initializes null pointer.
 System::Collections::Generic::DictionaryPtr<T, V>::DictionaryPtr()
 ```
 
-## See Also
-
-* Class [DictionaryPtr](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## DictionaryPtr::DictionaryPtr(const [SharedPtr](../../../system/sharedptr/)\<[Dictionary](../../dictionary/)\<T, V\>\>\&) constructor
+## DictionaryPtr::DictionaryPtr(const SharedPtr\<Dictionary\<T, V\>\>\&) constructor
 
 
 Converts pointer type.
@@ -39,7 +34,7 @@ System::Collections::Generic::DictionaryPtr<T, V>::DictionaryPtr(const SharedPtr
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Dictionary](../../dictionary/)
 * Class [DictionaryPtr](../)
+* Class [Dictionary](../../dictionary/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

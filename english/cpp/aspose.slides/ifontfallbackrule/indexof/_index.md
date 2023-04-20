@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/ifontfallbackrule/indexof/
 ---
-## IFontFallBackRule::IndexOf([System::String](../../../system/string/)) method
+## IFontFallBackRule::IndexOf(System::String) method
 
 
 Returns an index of the specified rule in the collection.

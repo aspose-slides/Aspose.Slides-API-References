@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/shape/set_rawframe/
 ---
-## Shape::set_RawFrame([System::SharedPtr](../../../system/sharedptr/)\<[IShapeFrame](../../ishapeframe/)\>) method
+## Shape::set_RawFrame(System::SharedPtr\<IShapeFrame\>) method
 
 
 Sets the raw shape frame's properties. Write [IShapeFrame](../../ishapeframe/).

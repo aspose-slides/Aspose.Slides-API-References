@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.runtime.serialization/iformatterconverter/toint64/
 ---
-## IFormatterConverter::ToInt64([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## IFormatterConverter::ToInt64(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a **int64_t**.

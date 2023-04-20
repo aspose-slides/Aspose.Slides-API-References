@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.slides.export/swfoptions/set_jpegquality/
 ---
-## SwfOptions::set_JpegQuality(**int32_t**) method
+## SwfOptions::set_JpegQuality(int32_t) method
 
 
 Specifies the quality of JPEG images. Default is 95.

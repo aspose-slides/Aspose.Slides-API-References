@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/fontsubstrulecollection/copyto/
 ---
-## FontSubstRuleCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IFontSubstRule](../../ifontsubstrule/)\>\>, **int32_t**) method
+## FontSubstRuleCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IFontSubstRule\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

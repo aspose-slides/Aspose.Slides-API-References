@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/lineargradientbrush/
 ---
-## LinearGradientBrush::LinearGradientBrush(const [PointF](../../../system.drawing/pointf/)\&, const [PointF](../../../system.drawing/pointf/)\&, const [Color](../../../system.drawing/color/)\&, const [Color](../../../system.drawing/color/)\&) constructor
+## LinearGradientBrush::LinearGradientBrush(const PointF\&, const PointF\&, const Color\&, const Color\&) constructor
 
 
 Constructs a new instance of [LinearGradientBrush](../).
@@ -25,14 +25,7 @@ System::Drawing::Drawing2D::LinearGradientBrush::LinearGradientBrush(const Point
 | color1 | const [Color](../../../system.drawing/color/)\& | The start color of the gradient |
 | color2 | const [Color](../../../system.drawing/color/)\& | The end color of the gradient |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [Color](../../../system.drawing/color/)
-* Class [LinearGradientBrush](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## LinearGradientBrush::LinearGradientBrush(const [Point](../../../system.drawing/point/)\&, const [Point](../../../system.drawing/point/)\&, const [Color](../../../system.drawing/color/)\&, const [Color](../../../system.drawing/color/)\&) constructor
+## LinearGradientBrush::LinearGradientBrush(const Point\&, const Point\&, const Color\&, const Color\&) constructor
 
 
 Constructs a new instance of [LinearGradientBrush](../).
@@ -51,14 +44,7 @@ System::Drawing::Drawing2D::LinearGradientBrush::LinearGradientBrush(const Point
 | color1 | const [Color](../../../system.drawing/color/)\& | The start color of the gradient |
 | color2 | const [Color](../../../system.drawing/color/)\& | The end color of the gradient |
 
-## See Also
-
-* Class [Point](../../../system.drawing/point/)
-* Class [Color](../../../system.drawing/color/)
-* Class [LinearGradientBrush](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## LinearGradientBrush::LinearGradientBrush(const [RectangleF](../../../system.drawing/rectanglef/)\&, const [Color](../../../system.drawing/color/)\&, const [Color](../../../system.drawing/color/)\&, [LinearGradientMode](../../lineargradientmode/)) constructor
+## LinearGradientBrush::LinearGradientBrush(const RectangleF\&, const Color\&, const Color\&, LinearGradientMode) constructor
 
 
 Constructs a new instance of [LinearGradientBrush](../).
@@ -77,15 +63,7 @@ System::Drawing::Drawing2D::LinearGradientBrush::LinearGradientBrush(const Recta
 | color2 | const [Color](../../../system.drawing/color/)\& | The end color of the gradient |
 | linearGradientMode | [LinearGradientMode](../../lineargradientmode/) | The gradient direction |
 
-## See Also
-
-* Class [RectangleF](../../../system.drawing/rectanglef/)
-* Class [Color](../../../system.drawing/color/)
-* Enum [LinearGradientMode](../../lineargradientmode/)
-* Class [LinearGradientBrush](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## LinearGradientBrush::LinearGradientBrush(const [Rectangle](../../../system.drawing/rectangle/)\&, const [Color](../../../system.drawing/color/)\&, const [Color](../../../system.drawing/color/)\&, [LinearGradientMode](../../lineargradientmode/)) constructor
+## LinearGradientBrush::LinearGradientBrush(const Rectangle\&, const Color\&, const Color\&, LinearGradientMode) constructor
 
 
 Constructs a new instance of [LinearGradientBrush](../).
@@ -104,15 +82,7 @@ System::Drawing::Drawing2D::LinearGradientBrush::LinearGradientBrush(const Recta
 | color2 | const [Color](../../../system.drawing/color/)\& | The end color of the gradient |
 | linearGradientMode | [LinearGradientMode](../../lineargradientmode/) | The gradient direction |
 
-## See Also
-
-* Class [Rectangle](../../../system.drawing/rectangle/)
-* Class [Color](../../../system.drawing/color/)
-* Enum [LinearGradientMode](../../lineargradientmode/)
-* Class [LinearGradientBrush](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## LinearGradientBrush::LinearGradientBrush(const [RectangleF](../../../system.drawing/rectanglef/)\&, const [Color](../../../system.drawing/color/)\&, const [Color](../../../system.drawing/color/)\&, **float**, **bool**) constructor
+## LinearGradientBrush::LinearGradientBrush(const RectangleF\&, const Color\&, const Color\&, float, bool) constructor
 
 
 Constructs a new instance of [LinearGradientBrush](../).
@@ -132,14 +102,7 @@ System::Drawing::Drawing2D::LinearGradientBrush::LinearGradientBrush(const Recta
 | angle | **float** | The angle of the gradient orientation line; measured in degrees clockwise from the x-axis |
 | isAngleScaleable | **bool** | Specifies if the angle of the gradient is affected by the transformation associated with the brush |
 
-## See Also
-
-* Class [RectangleF](../../../system.drawing/rectanglef/)
-* Class [Color](../../../system.drawing/color/)
-* Class [LinearGradientBrush](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## LinearGradientBrush::LinearGradientBrush(const [Rectangle](../../../system.drawing/rectangle/)\&, const [Color](../../../system.drawing/color/)\&, const [Color](../../../system.drawing/color/)\&, **float**, **bool**) constructor
+## LinearGradientBrush::LinearGradientBrush(const Rectangle\&, const Color\&, const Color\&, float, bool) constructor
 
 
 Constructs a new instance of [LinearGradientBrush](../).
@@ -161,8 +124,12 @@ System::Drawing::Drawing2D::LinearGradientBrush::LinearGradientBrush(const Recta
 
 ## See Also
 
-* Class [Rectangle](../../../system.drawing/rectangle/)
+* Enum [LinearGradientMode](../../lineargradientmode/)
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [Color](../../../system.drawing/color/)
 * Class [LinearGradientBrush](../)
+* Class [Point](../../../system.drawing/point/)
+* Class [RectangleF](../../../system.drawing/rectanglef/)
+* Class [Rectangle](../../../system.drawing/rectangle/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

@@ -20,12 +20,7 @@ int32_t System::Net::Http::Headers::NameValueHeaderValue::GetHashCode() const ov
 
 Hash code value as calculated by corresponding class.
 
-## See Also
-
-* Class [NameValueHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueHeaderValue::GetHashCode([System::SharedPtr](../../../system/sharedptr/)\<[ObjectCollection](../../objectcollection/)\<[System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\>\>) method
+## NameValueHeaderValue::GetHashCode(System::SharedPtr\<ObjectCollection\<System::SharedPtr\<NameValueHeaderValue\>\>\>) method
 
 
 Returns a hash code of all the collection items.
@@ -48,8 +43,7 @@ A hash code of all the collection items.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [NameValueHeaderValue](../)
 * Class [ObjectCollection](../../objectcollection/)
-* Class [NameValueHeaderValue](../)
-* Class [NameValueHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

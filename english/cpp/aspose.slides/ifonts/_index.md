@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifonts/
 Represents fonts collection.
 
 ```cpp
-class IFonts : public System::Object
+class IFonts : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles/
 ---
-## IFormatSchemeEffectiveData::GetEffectStyles([System::Drawing::Color](../../../system.drawing/color/)) method
+## IFormatSchemeEffectiveData::GetEffectStyles(System::Drawing::Color) method
 
 
 Returns a collection of theme defined effect styles.

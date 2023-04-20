@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export.xaml/ixamloutputsaver/
 Represents an output saver implementation for transfer data to the external storage.
 
 ```cpp
-class IXamlOutputSaver : public System::Object
+class IXamlOutputSaver : public virtual System::Object
 ```
 
 ## Methods

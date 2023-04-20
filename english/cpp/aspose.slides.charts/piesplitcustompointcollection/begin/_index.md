@@ -20,12 +20,6 @@ iterator Aspose::Slides::Charts::PieSplitCustomPointCollection::begin() noexcept
 
 An iterator pointing to the first element (if any) of the collection
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [PieSplitCustomPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
 ## PieSplitCustomPointCollection::begin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the first element (if any) of the const-qualified instan
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [PieSplitCustomPointCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)

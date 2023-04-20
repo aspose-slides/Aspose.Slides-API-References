@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/system.globalization/numberformatinfo/set_percentdecimalseparator/
 ---
-## NumberFormatInfo::set_PercentDecimalSeparator(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_PercentDecimalSeparator(const String\&) method
 
 
 Sets decimal separator in percent values.

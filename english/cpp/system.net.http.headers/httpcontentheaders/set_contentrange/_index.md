@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.net.http.headers/httpcontentheaders/set_contentrange/
 ---
-## HttpContentHeaders::set_ContentRange([System::SharedPtr](../../../system/sharedptr/)\<[ContentRangeHeaderValue](../../contentrangeheadervalue/)\>) method
+## HttpContentHeaders::set_ContentRange(System::SharedPtr\<ContentRangeHeaderValue\>) method
 
 
 Sets a value of the 'Content-Range' header.

@@ -3,7 +3,7 @@ title: AreEqualData()
 second_title: Aspose.Slides for C++ API Reference
 description: "Equal-compares two containers using System::Object::Equals on elements. Works for SmartPtr elements."
 type: docs
-weight: 14
+weight: 1
 url: /cpp/system.testpredicates.details.sharedptrasserts/areequaldata/
 ---
 ## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T1\&, const T2\&) function
@@ -34,11 +34,6 @@ template<typename T1,typename T2> std::enable_if<System::IsSmartPtr<typenameT1::
 
 True if contained elements and sizes match, false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T1\&, const T2\&) function
 
 
@@ -67,11 +62,6 @@ template<typename T1,typename T2> std::enable_if<!System::IsSmartPtr<typenameT1:
 
 True if contained elements and sizes match, false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T\&, const T\&) function
 
 

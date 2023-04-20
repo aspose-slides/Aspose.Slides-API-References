@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml.schema/xmlatomicvalue/valueas/
 ---
-## XmlAtomicValue::ValueAs(const [TypeInfo](../../../system/typeinfo/)\&, [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>) method
+## XmlAtomicValue::ValueAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Returns the validated XML element or attribute's value as the type specified using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes.

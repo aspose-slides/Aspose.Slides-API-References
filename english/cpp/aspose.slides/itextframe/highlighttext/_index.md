@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/itextframe/highlighttext/
 ---
-## ITextFrame::HighlightText([System::String](../../../system/string/), [System::Drawing::Color](../../../system.drawing/color/)) method
+## ITextFrame::HighlightText(System::String, System::Drawing::Color) method
 
 
 Highlight all matches of sample in text frame text using specified color.
@@ -23,14 +23,7 @@ virtual void Aspose::Slides::ITextFrame::HighlightText(System::String text, Syst
 | text | [System::String](../../../system/string/) | Text sample to highlight. |
 | highlightColor | [System::Drawing::Color](../../../system.drawing/color/) | Highlighting color. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Color](../../../system.drawing/color/)
-* Class [ITextFrame](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ITextFrame::HighlightText([System::String](../../../system/string/), [System::Drawing::Color](../../../system.drawing/color/), [System::SharedPtr](../../../system/sharedptr/)\<[ITextHighlightingOptions](../../itexthighlightingoptions/)\>) method
+## ITextFrame::HighlightText(System::String, System::Drawing::Color, System::SharedPtr\<ITextHighlightingOptions\>) method
 
 
 Highlight all matches of sample in text frame text using specified color.
@@ -50,10 +43,10 @@ virtual void Aspose::Slides::ITextFrame::HighlightText(System::String text, Syst
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [String](../../../system/string/)
 * Class [Color](../../../system.drawing/color/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITextHighlightingOptions](../../itexthighlightingoptions/)
 * Class [ITextFrame](../)
+* Class [ITextHighlightingOptions](../../itexthighlightingoptions/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

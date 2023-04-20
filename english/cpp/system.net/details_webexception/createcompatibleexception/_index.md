@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/details_webexception/createcompatibleexception/
 ---
-## Details_WebException::CreateCompatibleException([Exception](../../../system/exception/)) method
+## Details_WebException::CreateCompatibleException(Exception) method
 
 
 Is not implemented.

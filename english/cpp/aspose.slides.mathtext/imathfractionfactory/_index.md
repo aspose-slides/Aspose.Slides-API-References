@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathfractionfactory/
 Allows to create a math fraction
 
 ```cpp
-class IMathFractionFactory : public System::Object
+class IMathFractionFactory : public virtual System::Object
 ```
 
 ## Methods

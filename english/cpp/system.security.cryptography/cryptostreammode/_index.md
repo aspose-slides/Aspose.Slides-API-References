@@ -3,7 +3,7 @@ title: CryptoStreamMode
 second_title: Aspose.Slides for C++ API Reference
 description: CryptoStream direction.
 type: docs
-weight: 898
+weight: 807
 url: /cpp/system.security.cryptography/cryptostreammode/
 ---
 ## CryptoStreamMode enum

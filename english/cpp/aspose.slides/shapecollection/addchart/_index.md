@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/shapecollection/addchart/
 ---
-## ShapeCollection::AddChart([Charts::ChartType](../../../aspose.slides.charts/charttype/), **float**, **float**, **float**, **float**) method
+## ShapeCollection::AddChart(Charts::ChartType, float, float, float, float) method
 
 
 Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
@@ -102,15 +102,7 @@ lbl->get_DataLabelFormat()->set_Separator(u"/");
 pres->Save(u"AsposeChart_out.pptx", SaveFormat::Pptx);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [ChartType](../../../aspose.slides.charts/charttype/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::AddChart([Charts::ChartType](../../../aspose.slides.charts/charttype/), **float**, **float**, **float**, **float**, **bool**) method
+## ShapeCollection::AddChart(Charts::ChartType, float, float, float, float, bool) method
 
 
 Creates a new Chart and adds it to the end of the collection.
@@ -137,9 +129,9 @@ Created chart.
 
 ## See Also
 
+* Enum [ChartType](../../../aspose.slides.charts/charttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [ChartType](../../../aspose.slides.charts/charttype/)
 * Class [ShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

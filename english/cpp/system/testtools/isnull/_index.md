@@ -32,11 +32,6 @@ template<typename T> static std::enable_if<std::is_arithmetic<T>::value||std::is
 
 Always returns false.
 
-## See Also
-
-* Struct [TestTools](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TestTools::IsNull(const T\&) method
 
 
@@ -63,12 +58,7 @@ template<typename T> static std::enable_if<!std::is_arithmetic<T>::value &&!std:
 
 True if object is compared to nullptr as true, false otherwise.
 
-## See Also
-
-* Struct [TestTools](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestTools::IsNull(const [SharedPtr](../../sharedptr/)\<T\>\&) method
+## TestTools::IsNull(const SharedPtr\<T\>\&) method
 
 
 Checks if specific value is null. [Version](../../version/) for non-arithmetic value types.
@@ -94,13 +84,7 @@ template<typename T> static bool System::TestTools::IsNull(const SharedPtr<T> &o
 
 True if object is compared to nullptr as true, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Struct [TestTools](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestTools::IsNull([System::Collections::Generic::KeyValuePair](../../../system.collections.generic/keyvaluepair/)\<K, V\>\&) method
+## TestTools::IsNull(System::Collections::Generic::KeyValuePair\<K, V\>\&) method
 
 
 Checks if specific value is null. [Version](../../version/) for key-value pairs.
@@ -127,13 +111,7 @@ template<typename K,typename V> static bool System::TestTools::IsNull(System::Co
 
 True if pair is considered null, false otherwise.
 
-## See Also
-
-* Class [KeyValuePair](../../../system.collections.generic/keyvaluepair/)
-* Struct [TestTools](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestTools::IsNull(const [System::String](../../string/)\&) method
+## TestTools::IsNull(const System::String\&) method
 
 
 Checks if string is null.
@@ -155,6 +133,8 @@ True if string is considered null, false otherwise.
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [KeyValuePair](../../../system.collections.generic/keyvaluepair/)
 * Class [String](../../string/)
 * Struct [TestTools](../)
 * Namespace [System](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/gradientstopcollection/copyto/
 ---
-## GradientStopCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IGradientStop](../../igradientstop/)\>\>, **int32_t**) method
+## GradientStopCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IGradientStop\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

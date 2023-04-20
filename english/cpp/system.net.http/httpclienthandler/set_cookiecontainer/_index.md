@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http/httpclienthandler/set_cookiecontainer/
 ---
-## HttpClientHandler::set_CookieContainer([System::SharedPtr](../../../system/sharedptr/)\<[System::Net::CookieContainer](../../../system.net/cookiecontainer/)\>) method
+## HttpClientHandler::set_CookieContainer(System::SharedPtr\<System::Net::CookieContainer\>) method
 
 
 Sets the cookie container that is used to store server cookies.

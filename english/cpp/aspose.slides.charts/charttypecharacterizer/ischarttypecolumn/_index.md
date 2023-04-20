@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/charttypecharacterizer/ischarttypecolumn/
 ---
-## ChartTypeCharacterizer::IsChartTypeColumn([ChartType](../../charttype/)) method
+## ChartTypeCharacterizer::IsChartTypeColumn(ChartType) method
 
 
 Return true if chartType is one of [Column](../../../aspose.slides/column/) subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see \"Change Chart Type\" dialog in PowerPoint): [ChartType::ClusteredColumn](../../charttype/), [ChartType::ClusteredColumn3D](../../charttype/), [ChartType::ClusteredCone](../../charttype/), [ChartType::ClusteredCylinder](../../charttype/), [ChartType::ClusteredPyramid](../../charttype/), [ChartType::PercentsStackedColumn](../../charttype/), [ChartType::PercentsStackedColumn3D](../../charttype/), [ChartType::PercentsStackedCone](../../charttype/), [ChartType::PercentsStackedCylinder](../../charttype/), [ChartType::PercentsStackedPyramid](../../charttype/), [ChartType::StackedColumn](../../charttype/), [ChartType::StackedColumn3D](../../charttype/), [ChartType::StackedCone](../../charttype/), [ChartType::StackedCylinder](../../charttype/), [ChartType::StackedPyramid](../../charttype/), [ChartType::Column3D](../../charttype/), [ChartType::Cylinder3D](../../charttype/), [ChartType::Cone3D](../../charttype/), [ChartType::Pyramid3D](../../charttype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.web.services/webserviceattribute/set_namespace/
 ---
-## WebServiceAttribute::set_Namespace([String](../../../system/string/)) method
+## WebServiceAttribute::set_Namespace(String) method
 
 
 Sets the default namespace to use for the XML [Web](../../../system.web/) service.

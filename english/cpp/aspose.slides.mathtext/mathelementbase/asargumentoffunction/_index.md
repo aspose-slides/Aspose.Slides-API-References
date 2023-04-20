@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.mathtext/mathelementbase/asargumentoffunction/
 ---
-## MathElementBase::AsArgumentOfFunction([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathElementBase::AsArgumentOfFunction(System::SharedPtr\<IMathElement\>) method
 
 
 Takes specified function using this instance as the argument
@@ -36,15 +36,7 @@ auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto func = functionArg->AsArgumentOfFunction(functionName);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::AsArgumentOfFunction([System::String](../../../system/string/)) method
+## MathElementBase::AsArgumentOfFunction(System::String) method
 
 
 Takes specified function using this instance as the argument
@@ -73,15 +65,7 @@ auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto func = functionArg->AsArgumentOfFunction(u"cos");
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Class [String](../../../system/string/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::AsArgumentOfFunction([MathFunctionsOfOneArgument](../../mathfunctionsofoneargument/)) method
+## MathElementBase::AsArgumentOfFunction(MathFunctionsOfOneArgument) method
 
 
 Takes specified function using this instance as the argument
@@ -111,15 +95,7 @@ auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto func = functionArg->AsArgumentOfFunction(functionName);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::AsArgumentOfFunction([MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathElementBase::AsArgumentOfFunction(MathFunctionsOfTwoArguments, System::SharedPtr\<IMathElement\>) method
 
 
 Takes specified function using this instance as the argument and specified additional argument
@@ -151,16 +127,7 @@ auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunc
 // Returns the logarithm of 'x' to the base '5'
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::AsArgumentOfFunction([MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/), [System::String](../../../system/string/)) method
+## MathElementBase::AsArgumentOfFunction(MathFunctionsOfTwoArguments, System::String) method
 
 
 Takes specified function using this instance as the argument and specified additional argument
@@ -193,10 +160,12 @@ auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunc
 
 ## See Also
 
+* Enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument/)
+* Enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathFunction](../../imathfunction/)
-* Enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/)
-* Class [String](../../../system/string/)
+* Class [IMathElement](../../imathelement/)
 * Class [MathElementBase](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

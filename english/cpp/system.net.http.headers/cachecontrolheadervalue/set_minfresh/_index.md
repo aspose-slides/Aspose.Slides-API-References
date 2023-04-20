@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.net.http.headers/cachecontrolheadervalue/set_minfresh/
 ---
-## CacheControlHeaderValue::set_MinFresh([Nullable](../../../system/nullable/)\<[TimeSpan](../../../system/timespan/)\>) method
+## CacheControlHeaderValue::set_MinFresh(Nullable\<TimeSpan\>) method
 
 
 Sets the value that determines the freshness lifetime.

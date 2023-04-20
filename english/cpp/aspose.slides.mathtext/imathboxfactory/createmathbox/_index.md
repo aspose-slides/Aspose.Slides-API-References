@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/imathboxfactory/createmathbox/
 ---
-## IMathBoxFactory::CreateMathBox([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathBoxFactory::CreateMathBox(System::SharedPtr\<IMathElement\>) method
 
 
 Create a math box by applying to the element

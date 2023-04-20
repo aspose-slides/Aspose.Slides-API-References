@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net/filewebrequest/filewebrequest/
 ---
-## FileWebRequest::FileWebRequest([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) constructor
+## FileWebRequest::FileWebRequest(System::SharedPtr\<Uri\>) constructor
 
 
 Constructs a new instance.

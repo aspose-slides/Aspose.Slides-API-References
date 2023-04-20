@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides.charts/chartdatapointcollection/adddatapointforbarseries/
 ---
-## ChartDataPointCollection::AddDataPointForBarSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForBarSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of [Column](../../../aspose.slides/column/) or Bar subtypes (see also [ChartTypeCharacterizer::IsChartTypeColumn(ChartType)](../../charttypecharacterizer/ischarttypecolumn/) and [ChartTypeCharacterizer::IsChartTypeBar(ChartType)](../../charttypecharacterizer/ischarttypebar/) method).
@@ -26,15 +26,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBarSeries(**double**) method
+## ChartDataPointCollection::AddDataPointForBarSeries(double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of [Column](../../../aspose.slides/column/) or Bar subtypes (see also [ChartTypeCharacterizer::IsChartTypeColumn(ChartType)](../../charttypecharacterizer/ischarttypecolumn/) and [ChartTypeCharacterizer::IsChartTypeBar(ChartType)](../../charttypecharacterizer/ischarttypebar/) method).
@@ -58,6 +50,7 @@ New data point.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartDataPoint](../../ichartdatapoint/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [ChartDataPointCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

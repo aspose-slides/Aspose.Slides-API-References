@@ -15,12 +15,7 @@ Constructs unowned mutex.
 System::Threading::Mutex::Mutex()
 ```
 
-## See Also
-
-* Class [Mutex](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Mutex::Mutex(**bool**) constructor
+## Mutex::Mutex(bool) constructor
 
 
 Constructor.
@@ -36,12 +31,7 @@ System::Threading::Mutex::Mutex(bool initiallyOwned)
 | --- | --- | --- |
 | initiallyOwned | **bool** | If true, the mutex being constructed is owned initially. |
 
-## See Also
-
-* Class [Mutex](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Mutex::Mutex(**bool**, const [String](../../../system/string/)\&) constructor
+## Mutex::Mutex(bool, const String\&) constructor
 
 
 Constructor.
@@ -60,7 +50,7 @@ System::Threading::Mutex::Mutex(bool initiallyOwned, const String &name)
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [Mutex](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

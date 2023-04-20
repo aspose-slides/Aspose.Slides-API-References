@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/videocollection/idx_get/
 ---
-## VideoCollection::idx_get(**int32_t**) method
+## VideoCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [IVideo](../../ivideo/).

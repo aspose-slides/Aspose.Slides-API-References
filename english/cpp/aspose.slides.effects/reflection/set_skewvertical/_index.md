@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.effects/reflection/set_skewvertical/
 ---
-## Reflection::set_SkewVertical(**double**) method
+## Reflection::set_SkewVertical(double) method
 
 
 Specifies the vertical skew angle. Write **double**.

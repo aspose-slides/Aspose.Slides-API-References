@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.globalization/calendar/addminutes/
 ---
-## Calendar::AddMinutes([DateTime](../../../system/datetime/), int) const method
+## Calendar::AddMinutes(DateTime, int) const method
 
 
 Adds minutes to time point.

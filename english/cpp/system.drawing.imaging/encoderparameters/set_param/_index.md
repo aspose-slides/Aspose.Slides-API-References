@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing.imaging/encoderparameters/set_param/
 ---
-## EncoderParameters::set_Param(const [System::ArrayPtr](../../../system/arrayptr/)\<[EncoderParameterPtr](../../encoderparameterptr/)\>\&) method
+## EncoderParameters::set_Param(const System::ArrayPtr\<EncoderParameterPtr\>\&) method
 
 
 Assigns an array of [EncoderParameter](../../encoderparameter/) objects to the current [EncoderParameters](../) object.

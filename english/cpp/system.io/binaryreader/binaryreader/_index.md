@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/binaryreader/binaryreader/
 ---
-## BinaryReader::BinaryReader(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&) constructor
+## BinaryReader::BinaryReader(const SharedPtr\<Stream\>\&) constructor
 
 
 Constructs an instance of [BinaryReader](../) class that reads data from the specified stream using UTF-8 encoding.
@@ -22,14 +22,7 @@ System::IO::BinaryReader::BinaryReader(const SharedPtr<Stream> &input)
 | --- | --- | --- |
 | input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The input stream |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Class [BinaryReader](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BinaryReader::BinaryReader(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\&) constructor
+## BinaryReader::BinaryReader(const SharedPtr\<Stream\>\&, const SharedPtr\<Text::Encoding\>\&) constructor
 
 
 Constructs an instance of [BinaryReader](../) class that reads data from the specified stream using the specified encoding.
@@ -46,15 +39,7 @@ System::IO::BinaryReader::BinaryReader(const SharedPtr<Stream> &input, const Sha
 | input | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The input stream |
 | encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to use |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Class [Encoding](../../../system.text/encoding/)
-* Class [BinaryReader](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BinaryReader::BinaryReader(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\&, **bool**) constructor
+## BinaryReader::BinaryReader(const SharedPtr\<Stream\>\&, const SharedPtr\<Text::Encoding\>\&, bool) constructor
 
 
 Constructs an instance of [BinaryReader](../) class that reads data from the specified stream using the specified encoding.
@@ -76,7 +61,7 @@ System::IO::BinaryReader::BinaryReader(const SharedPtr<Stream> &input, const Sha
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Stream](../../stream/)
-* Class [Encoding](../../../system.text/encoding/)
 * Class [BinaryReader](../)
+* Class [Encoding](../../../system.text/encoding/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

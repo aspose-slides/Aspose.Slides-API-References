@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/imasterslide/set_preserve/
 ---
-## IMasterSlide::set_Preserve(**bool**) method
+## IMasterSlide::set_Preserve(bool) method
 
 
 Determines whether the corresponding master is deleted when all the slides that follow that master are deleted. Note: [Aspose.Slides](../../) will never remove any unused master by itself, to actually remove unused masters call [IMasterSlideCollection::RemoveUnused](../../imasterslidecollection/removeunused/) Write **bool**.

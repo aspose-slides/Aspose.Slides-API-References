@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.runtime.serialization/formatterconverter/tostring/
 ---
-## FormatterConverter::ToString([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FormatterConverter::ToString(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a [String](../../../system/string/).
@@ -28,8 +28,8 @@ The converted value.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [FormatterConverter](../)
 * Namespace [System::Runtime::Serialization](../../)

@@ -20,13 +20,7 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 
 The hash value.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::GetCertHash(const [HashAlgorithmName](../../../system.security.cryptography/hashalgorithmname/)\&) const method
+## X509Certificate::GetCertHash(const HashAlgorithmName\&) const method
 
 
 Gets hash for the current object as an array of bytes.
@@ -49,7 +43,7 @@ The hash value.
 ## See Also
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../../system.security.cryptography/hashalgorithmname/)
 * Class [X509Certificate](../)
+* Struct [HashAlgorithmName](../../../system.security.cryptography/hashalgorithmname/)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

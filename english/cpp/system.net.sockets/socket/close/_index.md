@@ -15,11 +15,6 @@ Closes the socket connection.
 void System::Net::Sockets::Socket::Close()
 ```
 
-## See Also
-
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
 ## Socket::Close(int) method
 
 

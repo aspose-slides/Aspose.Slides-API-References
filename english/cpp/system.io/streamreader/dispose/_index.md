@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.io/streamreader/dispose/
 ---
-## StreamReader::Dispose(**bool**) method
+## StreamReader::Dispose(bool) method
 
 
 Releases all resources used by the current object and closes the undelying stream.
@@ -22,11 +22,6 @@ virtual void System::IO::TextReader::Dispose(bool disposing)
 | --- | --- | --- |
 | disposing | **bool** | Specifies whether the undelying stream should be closed. |
 
-## See Also
-
-* Class [StreamReader](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
 ## StreamReader::Dispose() method
 
 

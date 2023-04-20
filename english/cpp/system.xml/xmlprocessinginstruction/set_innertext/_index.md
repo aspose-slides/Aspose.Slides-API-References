@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml/xmlprocessinginstruction/set_innertext/
 ---
-## XmlProcessingInstruction::set_InnerText([String](../../../system/string/)) method
+## XmlProcessingInstruction::set_InnerText(String) method
 
 
 Sets the concatenated values of the node and all its children.

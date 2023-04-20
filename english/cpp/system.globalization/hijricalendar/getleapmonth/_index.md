@@ -27,11 +27,6 @@ int System::Globalization::HijriCalendar::GetLeapMonth(int year, int era) const 
 
 Leap month of the speicified year of the specified era or zero if the year has no leap month.
 
-## See Also
-
-* Class [HijriCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HijriCalendar::GetLeapMonth(int) const method
 
 
@@ -41,11 +36,6 @@ RTTI information.
 virtual int System::Globalization::Calendar::GetLeapMonth(int year) const
 ```
 
-## See Also
-
-* Class [HijriCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HijriCalendar::GetLeapMonth(int, int) const method
 
 

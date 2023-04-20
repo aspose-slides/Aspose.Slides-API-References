@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.slides/iparagraphformat/set_marginright/
 ---
-## IParagraphFormat::set_MarginRight(**float**) method
+## IParagraphFormat::set_MarginRight(float) method
 
 
 Sets the right margin in a paragraph with no inheritance. Write **float**.

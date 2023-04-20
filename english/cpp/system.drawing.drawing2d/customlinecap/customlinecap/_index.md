@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.drawing2d/customlinecap/customlinecap/
 ---
-## CustomLineCap::CustomLineCap(const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>\&, [LineCap](../../linecap/), **float**) constructor
+## CustomLineCap::CustomLineCap(const SharedPtr\<GraphicsPath\>\&, const SharedPtr\<GraphicsPath\>\&, LineCap, float) constructor
 
 
 Constructs a new instance of [CustomLineCap](../) class that represents a user-defined line cap with the specified properties.
@@ -27,9 +27,9 @@ System::Drawing::Drawing2D::CustomLineCap::CustomLineCap(const SharedPtr<Graphic
 
 ## See Also
 
+* Enum [LineCap](../../linecap/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [GraphicsPath](../../graphicspath/)
-* Enum [LineCap](../../linecap/)
 * Class [CustomLineCap](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

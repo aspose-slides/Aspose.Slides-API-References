@@ -6,7 +6,7 @@ type: docs
 weight: 963
 url: /cpp/system.xml.xpath/xpathnavigator/deleterange/
 ---
-## XPathNavigator::DeleteRange([SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::DeleteRange(SharedPtr\<XPathNavigator\>) method
 
 
 Deletes a range of sibling nodes from the current node to the node specified.
@@ -25,7 +25,6 @@ virtual void System::Xml::XPath::XPathNavigator::DeleteRange(SharedPtr<XPathNavi
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/fieldtype/set_internalstring/
 ---
-## FieldType::set_InternalString([System::String](../../../system/string/)) method
+## FieldType::set_InternalString(System::String) method
 
 
 Returns the internal name of this [FieldType](../) object. Write [System::String](../../../system/string/).

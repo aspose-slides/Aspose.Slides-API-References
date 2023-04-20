@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.slides.charts/axis/set_isvisible/
 ---
-## Axis::set_IsVisible(**bool**) method
+## Axis::set_IsVisible(bool) method
 
 
 Represents if the axis is visible. Write **bool**.

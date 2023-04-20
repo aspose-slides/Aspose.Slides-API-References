@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::Headers::MediaTypeHeaderValue::MediaTypeHeaderValue()
 ```
 
-## See Also
-
-* Class [MediaTypeHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## MediaTypeHeaderValue::MediaTypeHeaderValue([String](../../../system/string/)) constructor
+## MediaTypeHeaderValue::MediaTypeHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -38,7 +33,7 @@ System::Net::Http::Headers::MediaTypeHeaderValue::MediaTypeHeaderValue(String me
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [MediaTypeHeaderValue](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

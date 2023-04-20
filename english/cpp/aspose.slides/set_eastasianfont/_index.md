@@ -3,10 +3,10 @@ title: set_EastAsianFont()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the East Asian font. Write IFontData.
 type: docs
-weight: 5396
+weight: 5331
 url: /cpp/aspose.slides/set_eastasianfont/
 ---
-## Aspose::Slides::set_EastAsianFont([System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\>) function
+## Aspose::Slides::set_EastAsianFont(System::SharedPtr\<IFontData\>) function
 
 
 Sets the East Asian font. Write [IFontData](../ifontdata/).

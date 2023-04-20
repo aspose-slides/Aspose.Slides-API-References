@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.io/file/writeallbytes/
 ---
-## File::WriteAllBytes(const [String](../../../system/string/)\&, const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) method
+## File::WriteAllBytes(const String\&, const ArrayPtr\<uint8_t\>\&) method
 
 
 Overwrites the specified binary file and writes the specified bytes to it.
@@ -25,8 +25,8 @@ static void System::IO::File::WriteAllBytes(const String &path, const ArrayPtr<u
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

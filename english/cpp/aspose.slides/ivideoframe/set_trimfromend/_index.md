@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides/ivideoframe/set_trimfromend/
 ---
-## IVideoFrame::set_TrimFromEnd(**float**) method
+## IVideoFrame::set_TrimFromEnd(float) method
 
 
 Trim end [ms]

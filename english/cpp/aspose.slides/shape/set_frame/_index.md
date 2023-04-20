@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/shape/set_frame/
 ---
-## Shape::set_Frame([System::SharedPtr](../../../system/sharedptr/)\<[IShapeFrame](../../ishapeframe/)\>) method
+## Shape::set_Frame(System::SharedPtr\<IShapeFrame\>) method
 
 
 Sets the shape frame's properties. Write [IShapeFrame](../../ishapeframe/).

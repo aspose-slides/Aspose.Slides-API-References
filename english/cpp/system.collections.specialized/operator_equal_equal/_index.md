@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections.specialized/operator_equal_equal/
 ---
-## System::Collections::Specialized::operator==(**BitVector32::Section**, **BitVector32::Section**) function
+## System::Collections::Specialized::operator==(BitVector32::Section, BitVector32::Section) function
 
 
 Checks if two specified objects are equal.

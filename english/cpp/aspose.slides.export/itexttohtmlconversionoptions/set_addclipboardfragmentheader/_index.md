@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/itexttohtmlconversionoptions/set_addclipboardfragmentheader/
 ---
-## ITextToHtmlConversionOptions::set_AddClipboardFragmentHeader(**bool**) method
+## ITextToHtmlConversionOptions::set_AddClipboardFragmentHeader(bool) method
 
 
 Sets value, indicating if Clipboard headers should be added. Write **bool**.

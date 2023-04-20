@@ -27,11 +27,6 @@ bool System::Globalization::HijriCalendar::IsLeapYear(int year, int era) const o
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [HijriCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HijriCalendar::IsLeapYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual bool System::Globalization::Calendar::IsLeapYear(int year) const
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [HijriCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HijriCalendar::IsLeapYear(int, int) const method
 
 

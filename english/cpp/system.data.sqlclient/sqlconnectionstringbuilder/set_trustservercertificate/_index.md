@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.data.sqlclient/sqlconnectionstringbuilder/set_trustservercertificate/
 ---
-## SqlConnectionStringBuilder::set_TrustServerCertificate(**bool**) method
+## SqlConnectionStringBuilder::set_TrustServerCertificate(bool) method
 
 
 Determines whether connection is protected using trust server certificate.

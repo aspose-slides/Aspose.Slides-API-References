@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadervisibility/
 ---
-## BaseHandoutNotesSlideHeaderFooterManager::SetHeaderVisibility(**bool**) method
+## BaseHandoutNotesSlideHeaderFooterManager::SetHeaderVisibility(bool) method
 
 
 Changes slide header placeholder visibility.

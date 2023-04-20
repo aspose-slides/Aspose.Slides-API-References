@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/grayscale/equals/
 ---
-## GrayScale::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## GrayScale::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [GrayScale](../) is equal to the current [GrayScale](../).

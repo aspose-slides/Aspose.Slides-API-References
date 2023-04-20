@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /cpp/system.globalization/numberformatinfo/getinstance/
 ---
-## NumberFormatInfo::GetInstance(const [IFormatProviderPtr](../../../system/iformatproviderptr/)\&) method
+## NumberFormatInfo::GetInstance(const IFormatProviderPtr\&) method
 
 
 Gets formatter associated with format provider.

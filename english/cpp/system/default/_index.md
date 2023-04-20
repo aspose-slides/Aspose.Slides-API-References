@@ -3,7 +3,7 @@ title: Default()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns the default-constructed instance of the specified type.
 type: docs
-weight: 2055
+weight: 1860
 url: /cpp/system/default/
 ---
 ## System::Default() function
@@ -22,11 +22,6 @@ template<typename T> std::enable_if<IsExceptionWrapper<T>::value, constT &>::typ
 | --- | --- |
 | T | The type whose instance is returned |
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::Default() function
 
 

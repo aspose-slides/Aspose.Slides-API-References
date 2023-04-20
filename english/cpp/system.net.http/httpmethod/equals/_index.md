@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http/httpmethod/equals/
 ---
-## HttpMethod::Equals([System::SharedPtr](../../../system/sharedptr/)\<[HttpMethod](../)\>) method
+## HttpMethod::Equals(System::SharedPtr\<HttpMethod\>) method
 
 
 Determines if the the current and specified objects are equal.
@@ -26,14 +26,7 @@ bool System::Net::Http::HttpMethod::Equals(System::SharedPtr<HttpMethod> other) 
 
 True if the objects are equal, otherwise - false
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpMethod](../)
-* Class [HttpMethod](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## HttpMethod::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpMethod::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.
@@ -56,7 +49,7 @@ True if objects are considered equal and false otherwise.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [HttpMethod](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

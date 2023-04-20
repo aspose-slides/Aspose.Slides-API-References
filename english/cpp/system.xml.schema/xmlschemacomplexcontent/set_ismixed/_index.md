@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemacomplexcontent/set_ismixed/
 ---
-## XmlSchemaComplexContent::set_IsMixed(**bool**) method
+## XmlSchemaComplexContent::set_IsMixed(bool) method
 
 
 Sets information that determines if the type has a mixed content model.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/urishim/escapeasciichar/
 ---
-## UriShim::EscapeAsciiChar(char16_t, const [System::ArrayPtr](../../arrayptr/)\<char16_t\>\&, **int32_t**\&) method
+## UriShim::EscapeAsciiChar(char16_t, const System::ArrayPtr\<char16_t\>\&, int32_t\&) method
 
 
 Converts character to escaped hex form.

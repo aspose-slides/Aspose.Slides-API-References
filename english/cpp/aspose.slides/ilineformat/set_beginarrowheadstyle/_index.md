@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides/ilineformat/set_beginarrowheadstyle/
 ---
-## ILineFormat::set_BeginArrowheadStyle([LineArrowheadStyle](../../linearrowheadstyle/)) method
+## ILineFormat::set_BeginArrowheadStyle(LineArrowheadStyle) method
 
 
 Sets the arrowhead style at the beginning of a line. Write [LineArrowheadStyle](../../linearrowheadstyle/).

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ibaseshapelock/
 Represents [Shape](../shape/) lock (disabled operation).
 
 ```cpp
-class IBaseShapeLock : public System::Object
+class IBaseShapeLock : public virtual System::Object
 ```
 
 ## Methods

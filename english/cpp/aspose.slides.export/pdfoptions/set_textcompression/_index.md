@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.export/pdfoptions/set_textcompression/
 ---
-## PdfOptions::set_TextCompression([PdfTextCompression](../../pdftextcompression/)) method
+## PdfOptions::set_TextCompression(PdfTextCompression) method
 
 
 Specifies compression type to be used for all textual content in the document. Write [PdfTextCompression](../../pdftextcompression/).

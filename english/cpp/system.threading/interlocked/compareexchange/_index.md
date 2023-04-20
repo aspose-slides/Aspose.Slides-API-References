@@ -34,11 +34,6 @@ template<typename T> static std::enable_if<IsSupportedInt<T>, T>::type System::T
 
 Value of variable on operation start regardless whether it was changed or not.
 
-## See Also
-
-* Class [Interlocked](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
 ## Interlocked::CompareExchange(T\&, T, T) method
 
 
@@ -67,12 +62,7 @@ template<typename T> static std::enable_if<!IsSupportedInt<T>, T>::type System::
 
 Value of variable on operation start regardless whether it was changed or not.
 
-## See Also
-
-* Class [Interlocked](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Interlocked::CompareExchange(**int32_t**\&, **int32_t**, **int32_t**, **bool**\&) method
+## Interlocked::CompareExchange(int32_t\&, int32_t, int32_t, bool\&) method
 
 
 Compare-exchanges value on variable: checks if variable is equal to specific value and stores the new value only if stored value matches expected.

@@ -3,7 +3,7 @@ title: ObjectExt
 second_title: Aspose.Slides for C++ API Reference
 description: Provides static methods that emulate C# Object methods called for non-Object C++ types (strings, numbers, etc.). This is a static type with no instance services. You should never create instances of it by any means.
 type: docs
-weight: 1067
+weight: 1054
 url: /cpp/system/objectext/
 ---
 ## ObjectExt class
@@ -12,7 +12,7 @@ url: /cpp/system/objectext/
 Provides static methods that emulate C# [Object](../object/) methods called for non-Object C++ types (strings, numbers, etc.). This is a static type with no instance services. You should never create instances of it by any means.
 
 ```cpp
-class ObjectExt
+class ObjectExt : public System::ObjectType
 ```
 
 ## Methods
@@ -39,23 +39,24 @@ class ObjectExt
 | static std::enable_if\<[System::IsBoxable](../isboxable/)\<T\>::value, [System::SharedPtr](../sharedptr/)\<[System::Object](../object/)\>\>::type [ExplicitCastToObject](./explicitcasttoobject/)(const T\&) |  |
 | static std::enable_if\<[System::IsSmartPtr](../issmartptr/)\<T\>::value, [System::SharedPtr](../sharedptr/)\<[System::Object](../object/)\>\>::type [ExplicitCastToObject](./explicitcasttoobject/)(const T\&) |  |
 | static int [GetHashCode](./gethashcode/)(const T\&) | Implements [GetHashCode()](./gethashcode/) calls; works on both [Object](../object/) subclasses and unrelated types. |
-| static std::enable_if\<[IsSmartPtr](../issmartptr/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)(const T\&) | Implements typeof() translation. Overload for smart pointers. |
-| static std::enable_if<\![IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value\&&\![IsSmartPtr](../issmartptr/)\<T\>::value\&&\!std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value\&&\![IsNullable](../isnullable/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)(const T\&) | Implements typeof() translation. Overload for structures. |
-| static std::enable_if\<[IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)(const T\&) | Implements typeof() translation. Overload for exceptions. |
-| static std::enable_if\<std::is_fundamental\<T\>::value||std::is_enum\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)(const T) | Implements typeof() translation. Overload for primitive types. |
-| static std::enable_if\<[IsNullable](../isnullable/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)(const T) | Implements typeof() translation. Overload for [Nullable](../nullable/) types. |
-| static std::enable_if\<std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)() | Implements typeof() translation. Overload for primitive types. |
-| static std::enable_if\<std::is_enum\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)() | Implements typeof() translation. Overload for enum types. |
-| static std::enable_if<(\!std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value\&&\!IsFullyBoxable\<T\>::value)||[IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)() | Implements typeof() translation. Overload for structures and pointers. |
-| static std::enable_if\<[IsNullable](../isnullable/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)() | Implements typeof() translation. Overload for [Nullable](../nullable/). |
-| static std::enable_if<\!std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value\&&IsFullyBoxable\<T\>::value\&&\![IsNullable](../isnullable/)\<T\>::value\&&\![IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](./gettype/)() | Implements typeof() translation. Overload for structures and pointers. IsFullyBoxable used because trying to specify [BoxedValue](../boxedvalue/) template without equal operator will cause compilation error. |
-| static const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)(const [String](../string/)\&) | Implements typeof() translation. Overload for string type. |
-| static const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
-| static const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
-| static const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
-| static const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
-| static const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
-| static const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
+| static std::enable_if\<[IsSmartPtr](../issmartptr/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)(const T\&) | Implements typeof() translation. Overload for smart pointers. |
+| static std::enable_if<\![IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value\&&\![IsSmartPtr](../issmartptr/)\<T\>::value\&&\!std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value\&&\![IsNullable](../isnullable/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)(const T\&) | Implements typeof() translation. Overload for structures. |
+| static std::enable_if\<[IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)(const T\&) | Implements typeof() translation. Overload for exceptions. |
+| static std::enable_if\<std::is_fundamental\<T\>::value||std::is_enum\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)(const T) | Implements typeof() translation. Overload for primitive types. |
+| static std::enable_if\<[IsNullable](../isnullable/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)(const T) | Implements typeof() translation. Overload for [Nullable](../nullable/) types. |
+| static std::enable_if\<std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for primitive types. |
+| static std::enable_if\<std::is_enum\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for enum types. |
+| static std::enable_if<(\!std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value\&&\![IsBoxable](../isboxable/)\<T\>::value)||[IsExceptionWrapper](../isexceptionwrapper/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for structures and pointers. |
+| static std::enable_if\<[IsNullable](../isnullable/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for [Nullable](../nullable/). |
+| static std::enable_if\<detail::is_a\<T, MulticastDelegate\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for MutlicastDelegate. |
+| static std::enable_if<\!std::is_fundamental\<T\>::value\&&\!std::is_enum\<T\>::value\&&[IsBoxable](../isboxable/)\<T\>::value\&&\!detail::is_a\<T, MulticastDelegate\>::value\&&\![IsNullable](../isnullable/)\<T\>::value, constSystem::TypeInfo\&\>::type [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for structures and pointers. |
+| static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)(const [String](../string/)\&) | Implements typeof() translation. Overload for string type. |
+| static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
+| static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
+| static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
+| static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
+| static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
+| static const [System::TypeInfo](../typeinfo/)\& [GetType](../objecttype/gettype/)() | Implements typeof() translation. Overload for **uint8_t**. |
 | static std::enable_if\<std::is_convertible\<T, [Object](../object/)\>::value\&&std::is_final\<T\>::value\&&\![System::IsBoxable](../isboxable/)\<T\>::value\&&[System::IsSmartPtr](../issmartptr/)\<U\>::value, **bool**\>::type [Is](./is/)(const U\&) | Implements 'is' operator translation. Specialization for pointer types optimized for 'final' classes. |
 | static std::enable_if\<std::is_convertible\<T, [Object](../object/)\>::value\&&\!std::is_final\<T\>::value\&&\![System::IsBoxable](../isboxable/)\<T\>::value\&&[System::IsSmartPtr](../issmartptr/)\<U\>::value, **bool**\>::type [Is](./is/)(const U\&) | Implements 'is' operator translation. Specialization for pointer types. |
 | static std::enable_if\<std::is_convertible\<T, [Object](../object/)\>::value, **bool**\>::type [Is](./is/)(const [Object](../object/)\&) | Implements 'is' operator translation. Specialization for value types. |
@@ -97,5 +98,6 @@ class ObjectExt
 | static std::enable_if<\![IsSmartPtr](../issmartptr/)\<T\>::value, [System::SmartPtr](../smartptr/)\<[Object](../object/)\>\>::type [UnknownToObject](./unknowntoobject/)(const T\&) | Converts unknown type to [Object](../object/), handling both smart pointer type and value type situations. |
 ## See Also
 
+* Class [ObjectType](../objecttype/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

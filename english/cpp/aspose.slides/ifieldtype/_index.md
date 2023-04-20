@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifieldtype/
 Represents a type of field. This value determines which text will be set to the field portion when it will be updated.
 
 ```cpp
-class IFieldType : public System::Object
+class IFieldType : public virtual System::Object
 ```
 
 ## Methods

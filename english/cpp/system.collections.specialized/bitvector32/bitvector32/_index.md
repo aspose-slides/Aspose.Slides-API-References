@@ -15,12 +15,7 @@ Initializes a new empty instance of the [BitVector32](../).
 System::Collections::Specialized::BitVector32::BitVector32()
 ```
 
-## See Also
-
-* Class [BitVector32](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## BitVector32::BitVector32(**int32_t**) constructor
+## BitVector32::BitVector32(int32_t) constructor
 
 
 Initializes a new instance of the [BitVector32](../) structure with the specified internal data.
@@ -36,12 +31,7 @@ System::Collections::Specialized::BitVector32::BitVector32(int32_t data)
 | --- | --- | --- |
 | data | **int32_t** | internal data |
 
-## See Also
-
-* Class [BitVector32](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## BitVector32::BitVector32(const [BitVector32](../)\&) constructor
+## BitVector32::BitVector32(const BitVector32\&) constructor
 
 
 Initializes a new instance of the [BitVector32](../) structure with the information in the specified value.
@@ -59,7 +49,6 @@ System::Collections::Specialized::BitVector32::BitVector32(const BitVector32 &va
 
 ## See Also
 
-* Class [BitVector32](../)
 * Class [BitVector32](../)
 * Namespace [System::Collections::Specialized](../../)
 * Library [Aspose.Slides](../../../)

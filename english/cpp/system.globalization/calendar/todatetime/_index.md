@@ -32,12 +32,6 @@ virtual DateTime System::Globalization::Calendar::ToDateTime(int year, int month
 
 [DateTime](../../../system/datetime/) object that has specified components.
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [Calendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## Calendar::ToDateTime(int, int, int, int, int, int, int, int) const method
 
 

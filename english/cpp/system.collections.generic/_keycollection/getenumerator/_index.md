@@ -23,8 +23,8 @@ Pointer to newly created enumerator.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerator](../../ienumerator/)
 * Typedef [TKey](../tkey/)
+* Class [IEnumerator](../../ienumerator/)
 * Class [_KeyCollection](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

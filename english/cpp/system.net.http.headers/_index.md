@@ -3,7 +3,7 @@ title: "System::Net::Http::Headers"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 664
+weight: 651
 url: /cpp/system.net.http.headers/
 ---
 

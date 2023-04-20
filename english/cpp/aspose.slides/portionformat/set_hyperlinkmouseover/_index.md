@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/portionformat/set_hyperlinkmouseover/
 ---
-## PortionFormat::set_HyperlinkMouseOver([System::SharedPtr](../../../system/sharedptr/)\<[IHyperlink](../../ihyperlink/)\>) method
+## PortionFormat::set_HyperlinkMouseOver(System::SharedPtr\<IHyperlink\>) method
 
 
 Sets the hyperlink defined for mouse over. Write [IHyperlink](../../ihyperlink/).

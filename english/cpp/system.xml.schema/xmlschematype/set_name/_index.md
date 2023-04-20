@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschematype/set_name/
 ---
-## XmlSchemaType::set_Name(const [String](../../../system/string/)\&) method
+## XmlSchemaType::set_Name(const String\&) method
 
 
 Sets the name of the type.

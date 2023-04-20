@@ -15,11 +15,6 @@ Constructor.
 System::Security::Cryptography::CspParameters::CspParameters()
 ```
 
-## See Also
-
-* Class [CspParameters](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
 ## CspParameters::CspParameters(int) constructor
 
 
@@ -36,12 +31,7 @@ System::Security::Cryptography::CspParameters::CspParameters(int dwTypeIn)
 | --- | --- | --- |
 | dwTypeIn | int | Provider type code; ignored. |
 
-## See Also
-
-* Class [CspParameters](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## CspParameters::CspParameters(int, const [System::String](../../../system/string/)\&) constructor
+## CspParameters::CspParameters(int, const System::String\&) constructor
 
 
 Constructor.
@@ -58,13 +48,7 @@ System::Security::Cryptography::CspParameters::CspParameters(int dwTypeIn, const
 | dwTypeIn | int | Provider type code; ignored. |
 | strProviderNameIn | const [System::String](../../../system/string/)\& | Provider name; ignored. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CspParameters](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## CspParameters::CspParameters(int, const [System::String](../../../system/string/)\&, const [System::String](../../../system/string/)\&) constructor
+## CspParameters::CspParameters(int, const System::String\&, const System::String\&) constructor
 
 
 Constructor.
@@ -84,7 +68,7 @@ System::Security::Cryptography::CspParameters::CspParameters(int dwTypeIn, const
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [CspParameters](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

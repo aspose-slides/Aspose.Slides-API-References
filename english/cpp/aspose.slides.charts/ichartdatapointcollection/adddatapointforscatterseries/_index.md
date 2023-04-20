@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.charts/ichartdatapointcollection/adddatapointforscatterseries/
 ---
-## IChartDataPointCollection::AddDataPointForScatterSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## IChartDataPointCollection::AddDataPointForScatterSeries(System::SharedPtr\<IChartDataCell\>, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer.IsChartTypeScatter(ChartType)](../../charttypecharacterizer/ischarttypescatter/) method).
@@ -27,15 +27,7 @@ virtual System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::IChartDataPoi
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [IChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartDataPointCollection::AddDataPointForScatterSeries(**double**, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## IChartDataPointCollection::AddDataPointForScatterSeries(double, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer.IsChartTypeScatter(ChartType)](../../charttypecharacterizer/ischarttypescatter/) method).
@@ -56,15 +48,7 @@ virtual System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::IChartDataPoi
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [IChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartDataPointCollection::AddDataPointForScatterSeries([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## IChartDataPointCollection::AddDataPointForScatterSeries(System::String, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer.IsChartTypeScatter(ChartType)](../../charttypecharacterizer/ischarttypescatter/) method).
@@ -85,16 +69,7 @@ virtual System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::IChartDataPoi
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [String](../../../system/string/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [IChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartDataPointCollection::AddDataPointForScatterSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, **double**) method
+## IChartDataPointCollection::AddDataPointForScatterSeries(System::SharedPtr\<IChartDataCell\>, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer.IsChartTypeScatter(ChartType)](../../charttypecharacterizer/ischarttypescatter/) method).
@@ -115,15 +90,7 @@ virtual System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::IChartDataPoi
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [IChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartDataPointCollection::AddDataPointForScatterSeries(**double**, **double**) method
+## IChartDataPointCollection::AddDataPointForScatterSeries(double, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer.IsChartTypeScatter(ChartType)](../../charttypecharacterizer/ischarttypescatter/) method).
@@ -144,14 +111,7 @@ virtual System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::IChartDataPoi
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartDataPointCollection::AddDataPointForScatterSeries([System::String](../../../system/string/), **double**) method
+## IChartDataPointCollection::AddDataPointForScatterSeries(System::String, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also [ChartTypeCharacterizer.IsChartTypeScatter(ChartType)](../../charttypecharacterizer/ischarttypescatter/) method).
@@ -176,7 +136,8 @@ New data point.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [String](../../../system/string/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [IChartDataPointCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/bilevel/equals/
 ---
-## BiLevel::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## BiLevel::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [BiLevel](../) is equal to the current [BiLevel](../).

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic.details/groupenumerable/groupenumerable/
 ---
-## GroupEnumerable::GroupEnumerable([SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../../system.collections.generic/ienumerable/)\<Source\>\>, const [Func](../../../system/func/)\<Source, Key\>\&) constructor
+## GroupEnumerable::GroupEnumerable(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, Key\>\&) constructor
 
 
 

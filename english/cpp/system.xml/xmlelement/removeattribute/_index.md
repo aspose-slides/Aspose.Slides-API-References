@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.xml/xmlelement/removeattribute/
 ---
-## XmlElement::RemoveAttribute([String](../../../system/string/)) method
+## XmlElement::RemoveAttribute(String) method
 
 
 Removes an attribute by name.
@@ -22,13 +22,7 @@ virtual void System::Xml::XmlElement::RemoveAttribute(String name)
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The name of the attribute to remove. This is a qualified name. It is matched against the **get_Name** value of the matching node. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlElement](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlElement::RemoveAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::RemoveAttribute(String, String) method
 
 
 Removes an attribute with the specified local name and namespace URI. (If the removed attribute has a default value, it is immediately replaced).

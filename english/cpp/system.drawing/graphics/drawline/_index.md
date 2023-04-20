@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.drawing/graphics/drawline/
 ---
-## Graphics::DrawLine(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, [Point](../../point/), [Point](../../point/)) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>\&, Point, Point) method
 
 
 Draws the specified line using the specified pen.
@@ -24,15 +24,7 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, Point pt1, P
 | pt1 | [Point](../../point/) | The first point defining the line to draw |
 | pt2 | [Point](../../point/) | The second point defining the line to draw |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Point](../../point/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawLine(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, [PointF](../../pointf/), [PointF](../../pointf/)) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>\&, PointF, PointF) method
 
 
 Draws the specified line using the specified pen.
@@ -50,15 +42,7 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, PointF pt1, 
 | pt1 | [PointF](../../pointf/) | The first point defining the line to draw |
 | pt2 | [PointF](../../pointf/) | The second point defining the line to draw |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [PointF](../../pointf/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawLine(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, int, int, int, int) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>\&, int, int, int, int) method
 
 
 Draws the specified line using the specified pen.
@@ -78,14 +62,7 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, int x1, int 
 | x2 | int | The X-coordinate of the second point defining the line to draw |
 | y2 | int | The Y-coordinate of the second point defining the line to draw |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawLine(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, **float**, **float**, **float**, **float**) method
+## Graphics::DrawLine(const SharedPtr\<Pen\>\&, float, float, float, float) method
 
 
 Draws the specified line using the specified pen.
@@ -109,6 +86,8 @@ void System::Drawing::Graphics::DrawLine(const SharedPtr<Pen> &pen, float x1, fl
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Pen](../../pen/)
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

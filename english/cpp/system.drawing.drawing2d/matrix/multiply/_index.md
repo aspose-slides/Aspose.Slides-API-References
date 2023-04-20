@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing.drawing2d/matrix/multiply/
 ---
-## Matrix::Multiply(const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../)\>\&) method
+## Matrix::Multiply(const SharedPtr\<Matrix\>\&) method
 
 
 Multiplies the matrix represented by the current object by the specified matrix.
@@ -22,14 +22,7 @@ void System::Drawing::Drawing2D::Matrix::Multiply(const SharedPtr<Matrix> &matri
 | --- | --- | --- |
 | matrix | const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../)\>\& | The matrix to multiply the matrix represented by the current object by |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Matrix](../)
-* Class [Matrix](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## Matrix::Multiply(const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../)\>\&, [MatrixOrder](../../matrixorder/)) method
+## Matrix::Multiply(const SharedPtr\<Matrix\>\&, MatrixOrder) method
 
 
 Multiplies the matrix represented by the current object by the specified matrix.
@@ -48,9 +41,8 @@ void System::Drawing::Drawing2D::Matrix::Multiply(const SharedPtr<Matrix> &matri
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Matrix](../)
 * Enum [MatrixOrder](../../matrixorder/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Matrix](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

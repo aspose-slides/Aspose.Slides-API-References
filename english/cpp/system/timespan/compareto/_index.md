@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/timespan/compareto/
 ---
-## TimeSpan::CompareTo([TimeSpan](../)) const method
+## TimeSpan::CompareTo(TimeSpan) const method
 
 
 Compares current and the specified objects.
@@ -26,13 +26,7 @@ constexpr int System::TimeSpan::CompareTo(TimeSpan value) const
 
 -1 if the current object represents the interval that is shorter than **value**; 0 if the current object represents the interval that is equal to **value**; 1 if the current object represents the interval that is longer than **value**
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::CompareTo(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) const method
+## TimeSpan::CompareTo(const SharedPtr\<Object\>\&) const method
 
 
 Compares current and the specified objects.
@@ -55,7 +49,7 @@ int System::TimeSpan::CompareTo(const SharedPtr<Object> &obj) const
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
 * Class [TimeSpan](../)
+* Class [Object](../../object/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

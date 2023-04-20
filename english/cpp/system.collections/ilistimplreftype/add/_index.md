@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections/ilistimplreftype/add/
 ---
-## IListImplRefType::Add([SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IListImplRefType::Add(SharedPtr\<System::Object\>) method
 
 
 Adds element to the end of list.

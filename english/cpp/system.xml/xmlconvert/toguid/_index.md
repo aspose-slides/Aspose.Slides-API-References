@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.xml/xmlconvert/toguid/
 ---
-## XmlConvert::ToGuid(const [String](../../../system/string/)\&) method
+## XmlConvert::ToGuid(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [Guid](../../../system/guid/) equivalent.

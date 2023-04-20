@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.reflection/constructorinfo/invoke/
 ---
-## ConstructorInfo::Invoke(const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\>\&) method
+## ConstructorInfo::Invoke(const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) method
 
 
 Invokes the method or constructor represented by the current instance, using the specified parameters.
@@ -25,8 +25,8 @@ System::SharedPtr<System::Object> System::Reflection::ConstructorInfo::Invoke(co
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [Object](../../../system/object/)
 * Class [ConstructorInfo](../)
 * Namespace [System::Reflection](../../)
 * Library [Aspose.Slides](../../../)

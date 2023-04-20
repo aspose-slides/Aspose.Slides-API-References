@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.globalization/gregoriancalendar/getdayofyear/
 ---
-## GregorianCalendar::GetDayOfYear([DateTime](../../../system/datetime/)) const method
+## GregorianCalendar::GetDayOfYear(DateTime) const method
 
 
 Gets day of year for the specified time point.

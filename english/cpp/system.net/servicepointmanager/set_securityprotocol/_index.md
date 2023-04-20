@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/servicepointmanager/set_securityprotocol/
 ---
-## ServicePointManager::set_SecurityProtocol([SecurityProtocolType](../../securityprotocoltype/)) method
+## ServicePointManager::set_SecurityProtocol(SecurityProtocolType) method
 
 
 Sets the security protocol type used by the ServicePoint-class instances that are managed by the current instance.

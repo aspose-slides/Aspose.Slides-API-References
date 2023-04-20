@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.slides/colorformat/copyfrom/
 ---
-## ColorFormat::CopyFrom([System::SharedPtr](../../../system/sharedptr/)\<[IColorFormat](../../icolorformat/)\>) method
+## ColorFormat::CopyFrom(System::SharedPtr\<IColorFormat\>) method
 
 
 Copy color format from \"color\".

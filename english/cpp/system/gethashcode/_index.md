@@ -3,7 +3,7 @@ title: GetHashCode()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a hash code for the specified scalar value.
 type: docs
-weight: 2107
+weight: 1860
 url: /cpp/system/gethashcode/
 ---
 ## System::GetHashCode(const T\&) function
@@ -32,10 +32,6 @@ template<typename T> std::enable_if<std::is_scalar<T>::value, int>::type System:
 
 The hash code generated for the specified value
 
-## See Also
-
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::GetHashCode(const T\&) function
 
 
@@ -62,11 +58,6 @@ template<typename T> std::enable_if<!std::is_scalar<T>::value &&System::IsSmartP
 
 The hash code generated for the specified object
 
-## See Also
-
-* Struct [IsSmartPtr](../issmartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::GetHashCode(const T\&) function
 
 
@@ -93,11 +84,6 @@ template<typename T> std::enable_if<System::IsExceptionWrapper<T>::value, int>::
 
 The hash code generated for the specified object
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::GetHashCode(const T\&) function
 
 
@@ -124,12 +110,6 @@ template<typename T> std::enable_if<!std::is_scalar<T>::value &&!System::IsSmart
 
 The hash code generated for the specified object
 
-## See Also
-
-* Struct [IsSmartPtr](../issmartptr/)
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::GetHashCode(const std::thread::id\&) function
 
 
@@ -141,5 +121,7 @@ int System::GetHashCode(const std::thread::id &id)
 
 ## See Also
 
+* Struct [IsSmartPtr](../issmartptr/)
+* Struct [IsExceptionWrapper](../isexceptionwrapper/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

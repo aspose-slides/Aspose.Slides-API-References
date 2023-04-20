@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.globalization/hebrewcalendar/getera/
 ---
-## HebrewCalendar::GetEra([DateTime](../../../system/datetime/)) const method
+## HebrewCalendar::GetEra(DateTime) const method
 
 
 Gets era for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/stringinfo/getnexttextelement/
 ---
-## StringInfo::GetNextTextElement(const [String](../../../system/string/)\&) method
+## StringInfo::GetNextTextElement(const String\&) method
 
 
 Gets first element in the specified string.
@@ -26,13 +26,7 @@ static String System::Globalization::StringInfo::GetNextTextElement(const String
 
 First text element.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## StringInfo::GetNextTextElement(const [String](../../../system/string/)\&, int) method
+## StringInfo::GetNextTextElement(const String\&, int) method
 
 
 Gets element at the specified index of the specified string.

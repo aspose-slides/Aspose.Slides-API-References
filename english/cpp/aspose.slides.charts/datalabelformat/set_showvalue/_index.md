@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.charts/datalabelformat/set_showvalue/
 ---
-## DataLabelFormat::set_ShowValue(**bool**) method
+## DataLabelFormat::set_ShowValue(bool) method
 
 
 Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.export/ihtmloptions/set_slideimageformat/
 ---
-## IHtmlOptions::set_SlideImageFormat([System::SharedPtr](../../../system/sharedptr/)\<[ISlideImageFormat](../../islideimageformat/)\>) method
+## IHtmlOptions::set_SlideImageFormat(System::SharedPtr\<ISlideImageFormat\>) method
 
 
 Sets slide image format options. Write [ISlideImageFormat](../../islideimageformat/).

@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system.xml/xmlreader/readelementcontentas/
 ---
-## XmlReader::ReadElementContentAs(const [TypeInfo](../../../system/typeinfo/)\&, [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../ixmlnamespaceresolver/)\>) method
+## XmlReader::ReadElementContentAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Reads the element content as the requested type.
@@ -27,16 +27,7 @@ virtual SharedPtr<Object> System::Xml::XmlReader::ReadElementContentAs(const Typ
 
 The element content converted to the requested typed object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TypeInfo](../../../system/typeinfo/)
-* Class [IXmlNamespaceResolver](../../ixmlnamespaceresolver/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAs(const [TypeInfo](../../../system/typeinfo/)\&, [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../ixmlnamespaceresolver/)\>, [String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>, String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the element content as the requested type.
@@ -65,7 +56,7 @@ The element content converted to the requested typed object.
 * Class [Object](../../../system/object/)
 * Class [TypeInfo](../../../system/typeinfo/)
 * Class [IXmlNamespaceResolver](../../ixmlnamespaceresolver/)
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

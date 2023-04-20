@@ -3,7 +3,7 @@ title: XmlNodeType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the type of node.
 type: docs
-weight: 833
+weight: 807
 url: /cpp/system.xml/xmlnodetype/
 ---
 ## XmlNodeType enum

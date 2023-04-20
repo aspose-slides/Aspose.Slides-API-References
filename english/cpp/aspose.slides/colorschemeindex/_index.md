@@ -3,7 +3,7 @@ title: ColorSchemeIndex
 second_title: Aspose.Slides for C++ API Reference
 description: Represents an index in a colorscheme.
 type: docs
-weight: 5682
+weight: 5422
 url: /cpp/aspose.slides/colorschemeindex/
 ---
 ## ColorSchemeIndex enum

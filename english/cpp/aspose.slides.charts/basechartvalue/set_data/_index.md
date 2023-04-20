@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/basechartvalue/set_data/
 ---
-## BaseChartValue::set_Data([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## BaseChartValue::set_Data(System::SharedPtr\<System::Object\>) method
 
 
 Data. Write [System::Object](../../../system/object/).

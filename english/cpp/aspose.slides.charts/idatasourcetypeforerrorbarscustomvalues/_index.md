@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.charts/idatasourcetypeforerrorbarscustomvalues/
 Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list
 
 ```cpp
-class IDataSourceTypeForErrorBarsCustomValues : public System::Object
+class IDataSourceTypeForErrorBarsCustomValues : public virtual System::Object
 ```
 
 ## Methods

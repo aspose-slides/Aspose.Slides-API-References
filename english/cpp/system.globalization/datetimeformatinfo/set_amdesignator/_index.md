@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.globalization/datetimeformatinfo/set_amdesignator/
 ---
-## DateTimeFormatInfo::set_AMDesignator(const [String](../../../system/string/)\&) method
+## DateTimeFormatInfo::set_AMDesignator(const String\&) method
 
 
 Sets AM designator.

@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.xml/xmldocument/createdocumenttype/
 ---
-## XmlDocument::CreateDocumentType(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateDocumentType(const String\&, const String\&, const String\&, const String\&) method
 
 
 Returns a new [XmlDocumentType](../../xmldocumenttype/) object.

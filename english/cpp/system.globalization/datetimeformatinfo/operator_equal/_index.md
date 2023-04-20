@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/system.globalization/datetimeformatinfo/operator_equal/
 ---
-## DateTimeFormatInfo::operator=(const [DateTimeFormatInfo](../)\&) method
+## DateTimeFormatInfo::operator=(const DateTimeFormatInfo\&) method
 
 
 
@@ -17,7 +17,6 @@ DateTimeFormatInfo & System::Globalization::DateTimeFormatInfo::operator=(const 
 
 ## See Also
 
-* Class [DateTimeFormatInfo](../)
 * Class [DateTimeFormatInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaany/set_namespace/
 ---
-## XmlSchemaAny::set_Namespace(const [String](../../../system/string/)\&) method
+## XmlSchemaAny::set_Namespace(const String\&) method
 
 
 Sets the namespaces containing the elements that can be used.

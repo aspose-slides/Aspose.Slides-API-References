@@ -20,12 +20,6 @@ reverse_iterator System::Array<T>::rbegin() noexcept
 
 An iterator pointing to the last element of the container.
 
-## See Also
-
-* Typedef [reverse_iterator](../reverse_iterator/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::rbegin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the last element of the const-qualified container.
 
 ## See Also
 
+* Typedef [reverse_iterator](../reverse_iterator/)
 * Typedef [const_reverse_iterator](../const_reverse_iterator/)
 * Class [Array](../)
 * Namespace [System](../../)

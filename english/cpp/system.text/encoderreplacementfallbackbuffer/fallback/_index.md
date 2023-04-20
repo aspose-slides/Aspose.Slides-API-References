@@ -27,11 +27,6 @@ virtual bool System::Text::EncoderReplacementFallbackBuffer::Fallback(char_t cha
 
 True if replacement string is provided and is not empty, false otherwise.
 
-## See Also
-
-* Class [EncoderReplacementFallbackBuffer](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## EncoderReplacementFallbackBuffer::Fallback(char_t, char_t, int) method
 
 

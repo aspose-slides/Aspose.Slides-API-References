@@ -6,7 +6,7 @@ type: docs
 weight: 898
 url: /cpp/system.xml/xmlreader/readtofollowing/
 ---
-## XmlReader::ReadToFollowing([String](../../../system/string/)) method
+## XmlReader::ReadToFollowing(String) method
 
 
 Reads until an element with the specified qualified name is found.
@@ -26,13 +26,7 @@ virtual bool System::Xml::XmlReader::ReadToFollowing(String name)
 
 **true** if a matching element is found; otherwise **false** and the [XmlReader](../) is in an end of file state.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadToFollowing([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadToFollowing(String, String) method
 
 
 Reads until an element with the specified local name and namespace URI is found.

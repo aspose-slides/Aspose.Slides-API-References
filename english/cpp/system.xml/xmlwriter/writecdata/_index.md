@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml/xmlwriter/writecdata/
 ---
-## XmlWriter::WriteCData([String](../../../system/string/)) method
+## XmlWriter::WriteCData(String) method
 
 
 When overridden in a derived class, writes out a **...** block containing the specified text.

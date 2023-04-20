@@ -20,6 +20,5 @@ static SharedPtr<HMAC> System::Security::Cryptography::HMAC::Create()
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [HMAC](../)
-* Class [HMAC](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

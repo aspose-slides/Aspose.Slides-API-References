@@ -19,6 +19,5 @@ static SharedPtr<StringFormat> System::Drawing::StringFormat::get_GenericDefault
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [StringFormat](../)
-* Class [StringFormat](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

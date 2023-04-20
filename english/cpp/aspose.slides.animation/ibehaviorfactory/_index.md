@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.animation/ibehaviorfactory/
 Allows to create animation effects
 
 ```cpp
-class IBehaviorFactory : public System::Object
+class IBehaviorFactory : public virtual System::Object
 ```
 
 ## Methods

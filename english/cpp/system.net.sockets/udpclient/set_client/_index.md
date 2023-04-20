@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.sockets/udpclient/set_client/
 ---
-## UdpClient::set_Client([System::SharedPtr](../../../system/sharedptr/)\<[Socket](../../socket/)\>) method
+## UdpClient::set_Client(System::SharedPtr\<Socket\>) method
 
 
 Used to provide the underlying network socket.

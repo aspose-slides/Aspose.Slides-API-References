@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography.xml/keyinfox509data/addsubjectname/
 ---
-## KeyInfoX509Data::AddSubjectName([String](../../../system/string/)) method
+## KeyInfoX509Data::AddSubjectName(String) method
 
 
 

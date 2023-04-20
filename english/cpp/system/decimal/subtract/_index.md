@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/system/decimal/subtract/
 ---
-## Decimal::Subtract(const [Decimal](../)\&, const [Decimal](../)\&) method
+## Decimal::Subtract(const Decimal\&, const Decimal\&) method
 
 
 Subtracts one specified [Decimal](../) value from another.
@@ -29,7 +29,6 @@ The result of subtracting **d2** from **d1**.
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

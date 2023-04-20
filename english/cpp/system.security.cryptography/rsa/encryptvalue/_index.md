@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/rsa/encryptvalue/
 ---
-## RSA::EncryptValue([ByteArrayPtr](../../../system/bytearrayptr/)) method
+## RSA::EncryptValue(ByteArrayPtr) method
 
 
 Encrypts value using private key.

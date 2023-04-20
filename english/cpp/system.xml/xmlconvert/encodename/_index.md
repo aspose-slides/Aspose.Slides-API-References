@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml/xmlconvert/encodename/
 ---
-## XmlConvert::EncodeName(const [String](../../../system/string/)\&) method
+## XmlConvert::EncodeName(const String\&) method
 
 
 Converts the name to a valid XML name.

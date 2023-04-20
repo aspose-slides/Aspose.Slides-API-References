@@ -27,11 +27,6 @@ int System::Globalization::ThaiBuddhistCalendar::GetDaysInYear(int year, int era
 
 Number of days in specified year of specified era.
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::GetDaysInYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetDaysInYear(int year) const
 
 Number of days in specified year.
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::GetDaysInYear(int, int) const method
 
 

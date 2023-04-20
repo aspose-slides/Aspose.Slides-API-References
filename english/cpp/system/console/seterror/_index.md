@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/console/seterror/
 ---
-## Console::SetError(const [SharedPtr](../../sharedptr/)\<[System::IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## Console::SetError(const SharedPtr\<System::IO::TextWriter\>\&) method
 
 
 Assigns the specified object to the class' Error property.

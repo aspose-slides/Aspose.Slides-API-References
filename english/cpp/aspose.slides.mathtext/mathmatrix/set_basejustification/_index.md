@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.mathtext/mathmatrix/set_basejustification/
 ---
-## MathMatrix::set_BaseJustification([MathVerticalAlignment](../../mathverticalalignment/)) method
+## MathMatrix::set_BaseJustification(MathVerticalAlignment) method
 
 
 Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center

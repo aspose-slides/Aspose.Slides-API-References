@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/coloroperation/coloroperation/
 ---
-## ColorOperation::ColorOperation([ColorTransformOperation](../../colortransformoperation/)) constructor
+## ColorOperation::ColorOperation(ColorTransformOperation) constructor
 
 
 Creates new color transform operation.
@@ -22,13 +22,7 @@ Aspose::Slides::ColorOperation::ColorOperation(ColorTransformOperation op)
 | --- | --- | --- |
 | op | [ColorTransformOperation](../../colortransformoperation/) | Operation type. |
 
-## See Also
-
-* Enum [ColorTransformOperation](../../colortransformoperation/)
-* Class [ColorOperation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ColorOperation::ColorOperation([ColorTransformOperation](../../colortransformoperation/), **float**) constructor
+## ColorOperation::ColorOperation(ColorTransformOperation, float) constructor
 
 
 Creates new color transform operation.

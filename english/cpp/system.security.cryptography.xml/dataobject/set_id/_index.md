@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.xml/dataobject/set_id/
 ---
-## DataObject::set_Id([String](../../../system/string/)) method
+## DataObject::set_Id(String) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/imoderncomment/set_status/
 ---
-## IModernComment::set_Status([ModernCommentStatus](../../moderncommentstatus/)) method
+## IModernComment::set_Status(ModernCommentStatus) method
 
 
 Sets the status of the comment. Write [ModernCommentStatus](../../moderncommentstatus/).

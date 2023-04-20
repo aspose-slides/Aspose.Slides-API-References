@@ -15,12 +15,7 @@ Constructs a new instance of [ColorMatrix](../) class and initializes it with th
 System::Drawing::Imaging::ColorMatrix::ColorMatrix()
 ```
 
-## See Also
-
-* Class [ColorMatrix](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## ColorMatrix::ColorMatrix(const [System::ArrayPtr](../../../system/arrayptr/)\<[System::ArrayPtr](../../../system/arrayptr/)\<**float**\>\>\&) constructor
+## ColorMatrix::ColorMatrix(const System::ArrayPtr\<System::ArrayPtr\<float\>\>\&) constructor
 
 
 Constructs a new instance of [ColorMatrix](../) class and initializes it with the specified values.

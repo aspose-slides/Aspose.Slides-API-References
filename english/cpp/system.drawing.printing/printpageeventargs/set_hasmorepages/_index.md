@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing.printing/printpageeventargs/set_hasmorepages/
 ---
-## PrintPageEventArgs::set_HasMorePages(**bool**) method
+## PrintPageEventArgs::set_HasMorePages(bool) method
 
 
 NOT IMPLEMENTED.

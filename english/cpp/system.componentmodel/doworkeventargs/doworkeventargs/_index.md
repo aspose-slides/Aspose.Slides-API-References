@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.componentmodel/doworkeventargs/doworkeventargs/
 ---
-## DoWorkEventArgs::DoWorkEventArgs(const [SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) constructor
+## DoWorkEventArgs::DoWorkEventArgs(const SharedPtr\<System::Object\>\&) constructor
 
 
 Constructs arguments instance.

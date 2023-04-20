@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.drawing/image/isalphapixelformat/
 ---
-## Image::IsAlphaPixelFormat([Imaging::PixelFormat](../../../system.drawing.imaging/pixelformat/)) method
+## Image::IsAlphaPixelFormat(Imaging::PixelFormat) method
 
 
 Determines if the specified pixel format contains alpha information.

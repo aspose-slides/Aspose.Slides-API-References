@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography.x509certificates/x509chain/build/
 ---
-## X509Chain::Build([SharedPtr](../../../system/sharedptr/)\<[X509Certificate2](../../x509certificate2/)\>) method
+## X509Chain::Build(SharedPtr\<X509Certificate2\>) method
 
 
 NOT IMPLEMENTED.

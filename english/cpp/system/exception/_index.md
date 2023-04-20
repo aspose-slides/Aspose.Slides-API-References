@@ -3,7 +3,7 @@ title: Exception
 second_title: Aspose.Slides for C++ API Reference
 description: "Alias to be used instead of Details::Exception."
 type: docs
-weight: 3212
+weight: 2432
 url: /cpp/system/exception/
 ---
 ## Exception typedef

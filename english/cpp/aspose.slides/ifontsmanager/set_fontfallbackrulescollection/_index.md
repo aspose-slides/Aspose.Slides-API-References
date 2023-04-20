@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ifontsmanager/set_fontfallbackrulescollection/
 ---
-## IFontsManager::set_FontFallBackRulesCollection([System::SharedPtr](../../../system/sharedptr/)\<[IFontFallBackRulesCollection](../../ifontfallbackrulescollection/)\>) method
+## IFontsManager::set_FontFallBackRulesCollection(System::SharedPtr\<IFontFallBackRulesCollection\>) method
 
 
 Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Write [IFontFallBackRulesCollection](../../ifontfallbackrulescollection/).

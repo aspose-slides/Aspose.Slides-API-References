@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ibackground/set_type/
 ---
-## IBackground::set_Type([BackgroundType](../../backgroundtype/)) method
+## IBackground::set_Type(BackgroundType) method
 
 
 Returns a type of background fill. Write [BackgroundType](../../backgroundtype/).

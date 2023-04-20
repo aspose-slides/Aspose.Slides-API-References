@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.web/httputility/urlencodeunicodetobytes/
 ---
-## HttpUtility::UrlEncodeUnicodeToBytes(const [String](../../../system/string/)\&) method
+## HttpUtility::UrlEncodeUnicodeToBytes(const String\&) method
 
 
 Encodes URI fragment usign Unicode.

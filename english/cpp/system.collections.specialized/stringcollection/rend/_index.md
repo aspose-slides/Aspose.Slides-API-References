@@ -20,12 +20,6 @@ reverse_iterator System::Collections::Specialized::StringCollection::rend() noex
 
 An iterator pointing to the theoretical element preceding the first element of the container.
 
-## See Also
-
-* Typedef [reverse_iterator](../reverse_iterator/)
-* Class [StringCollection](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
 ## StringCollection::rend() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the theoretical element preceding the first element of t
 
 ## See Also
 
+* Typedef [reverse_iterator](../reverse_iterator/)
 * Typedef [const_reverse_iterator](../const_reverse_iterator/)
 * Class [StringCollection](../)
 * Namespace [System::Collections::Specialized](../../)

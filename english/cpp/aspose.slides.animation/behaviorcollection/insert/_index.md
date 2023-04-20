@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.animation/behaviorcollection/insert/
 ---
-## BehaviorCollection::Insert(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IBehavior](../../ibehavior/)\>) method
+## BehaviorCollection::Insert(int32_t, System::SharedPtr\<IBehavior\>) method
 
 
 Inserts new behavior to a collection at the specified index.

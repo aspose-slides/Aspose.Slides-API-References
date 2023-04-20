@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/entitytagheadervalue/tryparse/
 ---
-## EntityTagHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../)\>\&) method
+## EntityTagHeaderValue::TryParse(String, System::SharedPtr\<EntityTagHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [EntityTagHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EntityTagHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [EntityTagHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

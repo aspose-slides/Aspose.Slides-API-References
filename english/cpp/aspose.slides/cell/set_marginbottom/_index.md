@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/cell/set_marginbottom/
 ---
-## Cell::set_MarginBottom(**double**) method
+## Cell::set_MarginBottom(double) method
 
 
 Sets the bottom margin in a [TextFrame](../../textframe/). Write **double**.

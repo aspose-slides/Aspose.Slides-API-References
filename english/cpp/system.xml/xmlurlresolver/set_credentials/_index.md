@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml/xmlurlresolver/set_credentials/
 ---
-## XmlUrlResolver::set_Credentials([SharedPtr](../../../system/sharedptr/)\<[Net::ICredentials](../../../system.net/icredentials/)\>) method
+## XmlUrlResolver::set_Credentials(SharedPtr\<Net::ICredentials\>) method
 
 
 Sets credentials used to authenticate web requests.

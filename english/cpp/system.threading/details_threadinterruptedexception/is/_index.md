@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.threading/details_threadinterruptedexception/is/
 ---
-## Details_ThreadInterruptedException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_ThreadInterruptedException::Is(const System::TypeInfo\&) const method
 
 
 

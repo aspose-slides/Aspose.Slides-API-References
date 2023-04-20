@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides.export/swfoptions/set_logolink/
 ---
-## SwfOptions::set_LogoLink([System::String](../../../system/string/)) method
+## SwfOptions::set_LogoLink(System::String) method
 
 
 Sets the full hyperlink address for a logo. Has an effect only if a [set_LogoImageBytes()](../set_logoimagebytes/) is specified.

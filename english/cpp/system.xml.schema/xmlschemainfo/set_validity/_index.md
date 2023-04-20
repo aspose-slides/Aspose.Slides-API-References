@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemainfo/set_validity/
 ---
-## XmlSchemaInfo::set_Validity([XmlSchemaValidity](../../xmlschemavalidity/)) method
+## XmlSchemaInfo::set_Validity(XmlSchemaValidity) method
 
 
 Sets the XmlSchemaValidity value of this validated XML node.

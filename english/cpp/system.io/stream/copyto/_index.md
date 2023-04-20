@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.io/stream/copyto/
 ---
-## Stream::CopyTo(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../)\>\&) method
+## Stream::CopyTo(const SharedPtr\<Stream\>\&) method
 
 
 Copies bytes to the specified stream.
@@ -22,14 +22,7 @@ void System::IO::Stream::CopyTo(const SharedPtr<Stream> &destination)
 | --- | --- | --- |
 | destination | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../)\>\& | [Stream](../) to which data will be copied. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../)
-* Class [Stream](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## Stream::CopyTo(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../)\>\&, **int32_t**) method
+## Stream::CopyTo(const SharedPtr\<Stream\>\&, int32_t) method
 
 
 Copies bytes to the specified stream, using the specified buffer size.
@@ -49,7 +42,6 @@ void System::IO::Stream::CopyTo(const SharedPtr<Stream> &destination, int32_t bu
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../)
 * Class [Stream](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

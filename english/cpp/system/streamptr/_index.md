@@ -3,7 +3,7 @@ title: StreamPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::IO::Stream class."
 type: docs
-weight: 3004
+weight: 2211
 url: /cpp/system/streamptr/
 ---
 ## StreamPtr typedef

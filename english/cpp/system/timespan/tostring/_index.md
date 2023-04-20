@@ -15,13 +15,7 @@ Returns the string representation of the time interval represented by the curren
 String System::TimeSpan::ToString() const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ToString(const [String](../../string/)\&) const method
+## TimeSpan::ToString(const String\&) const method
 
 
 Converts the value of the current object to equivalent string representation, using the specified format.
@@ -30,13 +24,7 @@ Converts the value of the current object to equivalent string representation, us
 String System::TimeSpan::ToString(const String &format) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## TimeSpan::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Converts the value of the current object to equivalent string representation, using the specified format and format provider.
@@ -45,15 +33,7 @@ Converts the value of the current object to equivalent string representation, us
 String System::TimeSpan::ToString(const String &format, const SharedPtr<IFormatProvider> &provider) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## TimeSpan::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
 
 
 
@@ -62,15 +42,7 @@ String System::TimeSpan::ToString(const String &format, const SharedPtr<IFormatP
 String System::TimeSpan::ToString(const String &format, const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&) const method
+## TimeSpan::ToString(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) const method
 
 
 
@@ -79,15 +51,7 @@ String System::TimeSpan::ToString(const String &format, const SharedPtr<Globaliz
 String System::TimeSpan::ToString(const String &format, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ToString(const [String](../../string/)\&, std::nullptr_t) const method
+## TimeSpan::ToString(const String\&, std::nullptr_t) const method
 
 
 
@@ -98,7 +62,11 @@ String System::TimeSpan::ToString(const String &format, std::nullptr_t) const
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [String](../../string/)
 * Class [TimeSpan](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/dns/endgethostbyname/
 ---
-## Dns::EndGetHostByName([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## Dns::EndGetHostByName(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous operation to create a new IPHostEntry-class instance completes.

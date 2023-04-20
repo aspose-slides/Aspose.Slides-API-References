@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/commentauthorcollection/removeat/
 ---
-## CommentAuthorCollection::RemoveAt(**int32_t**) method
+## CommentAuthorCollection::RemoveAt(int32_t) method
 
 
 Removes the author at the specified index of the collection.

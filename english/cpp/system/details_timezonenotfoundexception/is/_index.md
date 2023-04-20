@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_timezonenotfoundexception/is/
 ---
-## Details_TimeZoneNotFoundException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_TimeZoneNotFoundException::Is(const System::TypeInfo\&) const method
 
 
 

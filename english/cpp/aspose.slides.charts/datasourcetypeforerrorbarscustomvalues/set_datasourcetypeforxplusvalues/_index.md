@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/set_datasourcetypeforxplusvalues/
 ---
-## DataSourceTypeForErrorBarsCustomValues::set_DataSourceTypeForXPlusValues([DataSourceType](../../datasourcetype/)) method
+## DataSourceTypeForErrorBarsCustomValues::set_DataSourceTypeForXPlusValues(DataSourceType) method
 
 
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XPlus property object for error bars custom values. In other words it specifies the type of value of ChartDataPoint.ErrorBarsCustomValues.XPlus.Data property. Write [DataSourceType](../../datasourcetype/).

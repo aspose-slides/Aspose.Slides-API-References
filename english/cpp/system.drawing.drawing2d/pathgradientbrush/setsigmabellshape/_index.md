@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/setsigmabellshape/
 ---
-## PathGradientBrush::SetSigmaBellShape(**float**, **float**) method
+## PathGradientBrush::SetSigmaBellShape(float, float) method
 
 
 NOT IMPLEMENTED.

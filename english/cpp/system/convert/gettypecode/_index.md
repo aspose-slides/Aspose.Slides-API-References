@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system/convert/gettypecode/
 ---
-## Convert::GetTypeCode(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) method
+## Convert::GetTypeCode(const SharedPtr\<Object\>\&) method
 
 
 Returns a TypeCode value representing the type of the specified boxed value.

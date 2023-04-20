@@ -32,11 +32,6 @@ template<typename T> ArrayPtr<T> System::MakeArray(std::initializer_list<T> init
 
 A smart pointer pointing to the constructed [Array](../array/) object
 
-## See Also
-
-* Typedef [ArrayPtr](../arrayptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::MakeArray(Args\&&...) function
 
 
@@ -63,11 +58,6 @@ template<class T,class...> ArrayPtr<T> System::MakeArray(Args &&... args)
 
 A smart pointer pointing to the constructed [Array](../array/) object
 
-## See Also
-
-* Typedef [ArrayPtr](../arrayptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::MakeArray(Integral, Args\&&...) function
 
 

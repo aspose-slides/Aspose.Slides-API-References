@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/picturefillformat/set_cropright/
 ---
-## PictureFillFormat::set_CropRight(**float**) method
+## PictureFillFormat::set_CropRight(float) method
 
 
 Sets the number of percents of real image width that are cropped off the right of the picture. Write **float**.

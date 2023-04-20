@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_arithmeticexception/is/
 ---
-## Details_ArithmeticException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_ArithmeticException::Is(const System::TypeInfo\&) const method
 
 
 

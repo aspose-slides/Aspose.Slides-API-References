@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/videocollection/addvideo/
 ---
-## VideoCollection::AddVideo([System::SharedPtr](../../../system/sharedptr/)\<[IVideo](../../ivideo/)\>) method
+## VideoCollection::AddVideo(System::SharedPtr\<IVideo\>) method
 
 
 Adds a copy of an video file from an another presentation.
@@ -26,14 +26,7 @@ System::SharedPtr<IVideo> Aspose::Slides::VideoCollection::AddVideo(System::Shar
 
 Added video.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IVideo](../../ivideo/)
-* Class [VideoCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## VideoCollection::AddVideo([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## VideoCollection::AddVideo(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Creates and adds a video to a presentation from stream.
@@ -53,15 +46,7 @@ System::SharedPtr<IVideo> Aspose::Slides::VideoCollection::AddVideo(System::Shar
 
 Added [Video](../../video/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IVideo](../../ivideo/)
-* Class [Stream](../../../system.io/stream/)
-* Class [VideoCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## VideoCollection::AddVideo([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [LoadingStreamBehavior](../../loadingstreambehavior/)) method
+## VideoCollection::AddVideo(System::SharedPtr\<System::IO::Stream\>, LoadingStreamBehavior) method
 
 
 Creates and adds a video to a presentation from stream.
@@ -82,16 +67,7 @@ System::SharedPtr<IVideo> Aspose::Slides::VideoCollection::AddVideo(System::Shar
 
 Added [IVideo](../../ivideo/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IVideo](../../ivideo/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [LoadingStreamBehavior](../../loadingstreambehavior/)
-* Class [VideoCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## VideoCollection::AddVideo([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## VideoCollection::AddVideo(System::ArrayPtr\<uint8_t\>) method
 
 
 Creates and adds a video to a presentation from byte array.
@@ -113,9 +89,11 @@ Added video.
 
 ## See Also
 
+* Enum [LoadingStreamBehavior](../../loadingstreambehavior/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IVideo](../../ivideo/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [IVideo](../../ivideo/)
 * Class [VideoCollection](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

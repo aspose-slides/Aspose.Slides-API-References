@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/icspasymmetricalgorithm/importcspblob/
 ---
-## ICspAsymmetricAlgorithm::ImportCspBlob([ByteArrayPtr](../../../system/bytearrayptr/)) method
+## ICspAsymmetricAlgorithm::ImportCspBlob(ByteArrayPtr) method
 
 
 Imports key information from data blob.

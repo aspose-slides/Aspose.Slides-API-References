@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.io/file/createtext/
 ---
-## File::CreateText(const [String](../../../system/string/)\&) method
+## File::CreateText(const String\&) method
 
 
 Creates a new or opens existing file for writing UTF-8 encoded text.

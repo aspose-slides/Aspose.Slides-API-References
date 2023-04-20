@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/propertyeffect/set_from/
 ---
-## PropertyEffect::set_From([System::String](../../../system/string/)) method
+## PropertyEffect::set_From(System::String) method
 
 
 Specifies the starting value of the animation. Write [System::String](../../../system/string/).

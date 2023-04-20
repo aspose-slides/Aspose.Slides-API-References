@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/mathblock/idx_set/
 ---
-## MathBlock::idx_set(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathBlock::idx_set(int32_t, System::SharedPtr\<IMathElement\>) method
 
 
 Sets [IMathElement](../../imathelement/) at the specified index.

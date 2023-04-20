@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/icustomdata/set_tag/
 ---
-## ICustomData::set_Tag([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## ICustomData::set_Tag(System::String, System::String) method
 
 
 Set the Customer Data Tag specified at the index.

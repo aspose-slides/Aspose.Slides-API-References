@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.io/file/setlastaccesstimeutc/
 ---
-## File::SetLastAccessTimeUtc(const [String](../../../system/string/)\&, [DateTime](../../../system/datetime/)) method
+## File::SetLastAccessTimeUtc(const String\&, DateTime) method
 
 
 NOT IMPLEMENTED.

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.net/httpwebrequest/set_credentials/
 ---
-## HttpWebRequest::set_Credentials([System::SharedPtr](../../../system/sharedptr/)\<[ICredentials](../../icredentials/)\>) method
+## HttpWebRequest::set_Credentials(System::SharedPtr\<ICredentials\>) method
 
 
 Sets authentication information that is associated with the current request.

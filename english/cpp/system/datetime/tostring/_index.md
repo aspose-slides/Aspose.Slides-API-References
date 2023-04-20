@@ -20,13 +20,7 @@ String System::DateTime::ToString() const
 
 The string representation of the value represented by the current object
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [String](../../string/)\&) const method
+## DateTime::ToString(const String\&) const method
 
 
 Returns a string representation of the date and time value represented by the current object using the specified format and formatting conventions defined by the current culture.
@@ -46,13 +40,7 @@ String System::DateTime::ToString(const String &format) const
 
 The string representation of the value represented by the current object formatted according to format defined by **format** and the current culture.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## DateTime::ToString(const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Returns a string representation of the date and time value represented by the current object using the specified format information.
@@ -72,15 +60,7 @@ String System::DateTime::ToString(const SharedPtr<IFormatProvider> &provider) co
 
 The string representation of the value represented by the current object formatted according to format information provided by **formatProvider**.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## DateTime::ToString(const SharedPtr\<Globalization::CultureInfo\>\&) const method
 
 
 
@@ -89,15 +69,7 @@ The string representation of the value represented by the current object formatt
 String System::DateTime::ToString(const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&) const method
+## DateTime::ToString(const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) const method
 
 
 
@@ -106,14 +78,6 @@ String System::DateTime::ToString(const SharedPtr<Globalization::CultureInfo> &c
 String System::DateTime::ToString(const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTime::ToString(std::nullptr_t) const method
 
 
@@ -123,13 +87,7 @@ String System::DateTime::ToString(const SharedPtr<Globalization::DateTimeFormatI
 String System::DateTime::ToString(std::nullptr_t) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## DateTime::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Returns a string representation of the date and time value represented by the current object using the specified format information.
@@ -150,15 +108,7 @@ String System::DateTime::ToString(const String &format, const SharedPtr<IFormatP
 
 The string representation of the value represented by the current object formatted according to format information provided by **provider** and format string **format**.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## DateTime::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
 
 
 
@@ -167,15 +117,7 @@ The string representation of the value represented by the current object formatt
 String System::DateTime::ToString(const String &format, const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&) const method
+## DateTime::ToString(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) const method
 
 
 
@@ -184,15 +126,7 @@ String System::DateTime::ToString(const String &format, const SharedPtr<Globaliz
 String System::DateTime::ToString(const String &format, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ToString(const [String](../../string/)\&, std::nullptr_t) const method
+## DateTime::ToString(const String\&, std::nullptr_t) const method
 
 
 
@@ -203,7 +137,11 @@ String System::DateTime::ToString(const String &format, std::nullptr_t) const
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [String](../../string/)
 * Class [DateTime](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

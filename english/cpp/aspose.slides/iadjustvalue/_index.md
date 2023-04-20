@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iadjustvalue/
 Represents a geometry shape's adjustment value. These values affect shape's form.
 
 ```cpp
-class IAdjustValue : public System::Object
+class IAdjustValue : public virtual System::Object
 ```
 
 ## Methods

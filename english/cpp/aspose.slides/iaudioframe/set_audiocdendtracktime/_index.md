@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/iaudioframe/set_audiocdendtracktime/
 ---
-## IAudioFrame::set_AudioCdEndTrackTime(**int32_t**) method
+## IAudioFrame::set_AudioCdEndTrackTime(int32_t) method
 
 
 Sets a last track time. Write **int32_t**.

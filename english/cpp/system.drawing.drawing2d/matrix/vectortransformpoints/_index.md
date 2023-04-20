@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing.drawing2d/matrix/vectortransformpoints/
 ---
-## Matrix::VectorTransformPoints(const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\&) method
+## Matrix::VectorTransformPoints(const ArrayPtr\<Point\>\&) method
 
 
 Multiplies each vector in an array by the matrix represented by the current object.
@@ -22,14 +22,7 @@ void System::Drawing::Drawing2D::Matrix::VectorTransformPoints(const ArrayPtr<Po
 | --- | --- | --- |
 | pts | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | An array containing the points to transform |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../../system.drawing/point/)
-* Class [Matrix](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## Matrix::VectorTransformPoints(const System::Details::ArrayView\<[Point](../../../system.drawing/point/)\>\&) method
+## Matrix::VectorTransformPoints(const System::Details::ArrayView\<Point\>\&) method
 
 
 Multiplies each vector in an array by the matrix represented by the current object.
@@ -47,6 +40,7 @@ void System::Drawing::Drawing2D::Matrix::VectorTransformPoints(const System::Det
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Point](../../../system.drawing/point/)
 * Class [Matrix](../)
 * Namespace [System::Drawing::Drawing2D](../../)

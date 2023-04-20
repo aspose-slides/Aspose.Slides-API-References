@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing.drawing2d/colorblend/set_colors/
 ---
-## ColorBlend::set_Colors(const [ArrayPtr](../../../system/arrayptr/)\<[Color](../../../system.drawing/color/)\>\&) method
+## ColorBlend::set_Colors(const ArrayPtr\<Color\>\&) method
 
 
 Sets an array of colors to use at corresponding positions along a gradient.

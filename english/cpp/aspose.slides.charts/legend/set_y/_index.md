@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/legend/set_y/
 ---
-## Legend::set_Y(**float**) method
+## Legend::set_Y(float) method
 
 
 Sets the y coordinate of a legend as a fraction of the height of the chart. Write **float**.

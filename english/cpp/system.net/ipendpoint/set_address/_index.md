@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net/ipendpoint/set_address/
 ---
-## IPEndPoint::set_Address([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../ipaddress/)\>) method
+## IPEndPoint::set_Address(System::SharedPtr\<IPAddress\>) method
 
 
 Sets the endpoint address.

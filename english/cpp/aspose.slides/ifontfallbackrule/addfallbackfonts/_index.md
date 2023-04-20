@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ifontfallbackrule/addfallbackfonts/
 ---
-## IFontFallBackRule::AddFallBackFonts([System::String](../../../system/string/)) method
+## IFontFallBackRule::AddFallBackFonts(System::String) method
 
 
 Adds a new font(s) to the list of FallBack fonts.
@@ -35,13 +35,7 @@ newRule->AddFallBackFonts(u"Tahoma, Times New Roman");
 ```
 
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IFontFallBackRule](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IFontFallBackRule::AddFallBackFonts([System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>) method
+## IFontFallBackRule::AddFallBackFonts(System::ArrayPtr\<System::String\>) method
 
 
 Adds a new fonts to the list of FallBack fonts.

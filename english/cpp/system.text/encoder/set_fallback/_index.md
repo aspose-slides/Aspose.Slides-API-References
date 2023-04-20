@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.text/encoder/set_fallback/
 ---
-## Encoder::set_Fallback(const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)\&) method
+## Encoder::set_Fallback(const EncoderFallbackPtr\&) method
 
 
 Sets error handling fallback.

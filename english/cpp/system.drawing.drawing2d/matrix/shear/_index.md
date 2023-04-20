@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.drawing.drawing2d/matrix/shear/
 ---
-## Matrix::Shear(**float**, **float**) method
+## Matrix::Shear(float, float) method
 
 
 Applies the specified shear vector to the matrix represented by the current object.
@@ -23,12 +23,7 @@ void System::Drawing::Drawing2D::Matrix::Shear(float shearX, float shearY)
 | shearX | **float** | The horizontal shear factor |
 | shearY | **float** | The vertical shear factor |
 
-## See Also
-
-* Class [Matrix](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## Matrix::Shear(**float**, **float**, [MatrixOrder](../../matrixorder/)) method
+## Matrix::Shear(float, float, MatrixOrder) method
 
 
 Applies the specified shear vector to the matrix represented by the current object.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/networkcredential/set_username/
 ---
-## NetworkCredential::set_UserName([String](../../../system/string/)) method
+## NetworkCredential::set_UserName(String) method
 
 
 Sets the username.

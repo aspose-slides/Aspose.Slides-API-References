@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_stackoverflowexception/is/
 ---
-## Details_StackOverflowException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_StackOverflowException::Is(const System::TypeInfo\&) const method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.serialization/xmlserializer/deserialize/
 ---
-## XmlSerializer::Deserialize([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>) method
+## XmlSerializer::Deserialize(System::SharedPtr\<IO::Stream\>) method
 
 
 Deserializes XML document into object.
@@ -26,15 +26,7 @@ System::SharedPtr<Object> System::Xml::Serialization::XmlSerializer::Deserialize
 
 [Object](../../../system/object/) that was previously serialized into the document given.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Deserialize([System::SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>) method
+## XmlSerializer::Deserialize(System::SharedPtr\<IO::TextReader\>) method
 
 
 Deserializes XML document into object.
@@ -54,15 +46,7 @@ System::SharedPtr<Object> System::Xml::Serialization::XmlSerializer::Deserialize
 
 [Object](../../../system/object/) that was previously serialized into the document given.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Deserialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>) method
+## XmlSerializer::Deserialize(System::SharedPtr\<XmlReader\>) method
 
 
 Deserializes XML document into object.
@@ -82,15 +66,7 @@ System::SharedPtr<Object> System::Xml::Serialization::XmlSerializer::Deserialize
 
 [Object](../../../system/object/) that was previously serialized into the document given.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Deserialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>, [String](../../../system/string/)) method
+## XmlSerializer::Deserialize(System::SharedPtr\<XmlReader\>, String) method
 
 
 Deserializes XML document into object.
@@ -115,8 +91,10 @@ System::SharedPtr<Object> System::Xml::Serialization::XmlSerializer::Deserialize
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
+* Class [Stream](../../../system.io/stream/)
+* Class [XmlSerializer](../)
+* Class [TextReader](../../../system.io/textreader/)
 * Class [XmlReader](../../../system.xml/xmlreader/)
 * Class [String](../../../system/string/)
-* Class [XmlSerializer](../)
 * Namespace [System::Xml::Serialization](../../)
 * Library [Aspose.Slides](../../../)

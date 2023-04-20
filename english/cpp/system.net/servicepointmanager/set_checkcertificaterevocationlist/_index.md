@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.net/servicepointmanager/set_checkcertificaterevocationlist/
 ---
-## ServicePointManager::set_CheckCertificateRevocationList(**bool**) method
+## ServicePointManager::set_CheckCertificateRevocationList(bool) method
 
 
 Sets a value that indicates if the certificate must be checked against the certificate authority revocation list.

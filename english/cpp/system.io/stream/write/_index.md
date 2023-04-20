@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.io/stream/write/
 ---
-## Stream::Write(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## Stream::Write(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the stream.
@@ -24,13 +24,7 @@ virtual void System::IO::Stream::Write(const ArrayPtr<uint8_t> &buffer, int32_t 
 | offset | **int32_t** | A 0-based index of the element in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of elements in the subrange to write |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Stream](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## Stream::Write(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## Stream::Write(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the stream.
@@ -48,12 +42,7 @@ virtual void System::IO::Stream::Write(const System::Details::ArrayView<uint8_t>
 | offset | **int32_t** | A 0-based index of the element in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of elements in the subrange to write |
 
-## See Also
-
-* Class [Stream](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## Stream::Write(const System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**) method
+## Stream::Write(const System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the stream.
@@ -79,6 +68,7 @@ template<std::size_t> void System::IO::Stream::Write(const System::Details::Stac
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Stream](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

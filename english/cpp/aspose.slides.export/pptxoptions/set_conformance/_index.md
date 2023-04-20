@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/pptxoptions/set_conformance/
 ---
-## PptxOptions::set_Conformance([Aspose::Slides::Export::Conformance](../../conformance/)) method
+## PptxOptions::set_Conformance(Aspose::Slides::Export::Conformance) method
 
 
 Specifies the conformance class to which the [Presentation](../../../aspose.slides/presentation/) document conforms. Default value is [Aspose::Slides::Export::Conformance::Ecma376_2006](../../conformance/)

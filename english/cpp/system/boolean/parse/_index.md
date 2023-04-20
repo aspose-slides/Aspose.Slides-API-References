@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/boolean/parse/
 ---
-## Boolean::Parse(const [String](../../string/)\&) method
+## Boolean::Parse(const String\&) method
 
 
 Converts the specified string to a value of bool type.

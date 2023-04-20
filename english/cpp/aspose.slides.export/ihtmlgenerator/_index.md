@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/ihtmlgenerator/
 Html generator.
 
 ```cpp
-class IHtmlGenerator : public System::Object
+class IHtmlGenerator : public virtual System::Object
 ```
 
 ## Methods

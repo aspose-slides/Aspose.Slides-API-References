@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.animation/behaviorpropertycollection/idx_get/
 ---
-## BehaviorPropertyCollection::idx_get(**int32_t**) const method
+## BehaviorPropertyCollection::idx_get(int32_t) const method
 
 
 Returns a property at the specified index.

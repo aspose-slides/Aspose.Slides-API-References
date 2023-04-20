@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system/object/referenceequals/
 ---
-## Object::ReferenceEquals([String](../../string/) const\&, std::nullptr_t) method
+## Object::ReferenceEquals(String const\&, std::nullptr_t) method
 
 
 Specialization of [Object::ReferenceEquals](./) for case of string and nullptr.
@@ -26,13 +26,7 @@ bool System::Object::ReferenceEquals(String const &str, std::nullptr_t)
 
 true if string is null, false otherwise.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Object::ReferenceEquals([String](../../string/) const\&, [String](../../string/) const\&) method
+## Object::ReferenceEquals(String const\&, String const\&) method
 
 
 Specialization of [Object::ReferenceEquals](./) for case of strings.
@@ -53,13 +47,7 @@ bool System::Object::ReferenceEquals(String const &str1, String const &str2)
 
 true if strings match, false otherwise.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Object::ReferenceEquals([ptr](../ptr/) const\&, [ptr](../ptr/) const\&) method
+## Object::ReferenceEquals(ptr const\&, ptr const\&) method
 
 
 Compares objects by reference.
@@ -80,12 +68,6 @@ static bool System::Object::ReferenceEquals(ptr const &objA, ptr const &objB)
 
 True if pointers match and false otherwise.
 
-## See Also
-
-* Typedef [ptr](../ptr/)
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Object::ReferenceEquals(T const\&, T const\&) method
 
 
@@ -113,12 +95,6 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value, bool>::type Sy
 
 True if object addresses match and false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Object::ReferenceEquals(T const\&, std::nullptr_t) method
 
 
@@ -147,7 +123,9 @@ Always returns false as value types cannot be nulled.
 
 ## See Also
 
-* Struct [IsSmartPtr](../../issmartptr/)
+* Typedef [ptr](../ptr/)
+* Class [String](../../string/)
 * Class [Object](../)
+* Struct [IsSmartPtr](../../issmartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

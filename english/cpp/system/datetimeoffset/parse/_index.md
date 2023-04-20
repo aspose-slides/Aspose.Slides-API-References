@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/system/datetimeoffset/parse/
 ---
-## DateTimeOffset::Parse(const [String](../../string/)\&) method
+## DateTimeOffset::Parse(const String\&) method
 
 
 Converts the specified string to [DateTimeOffset](../) equivalent.
@@ -26,14 +26,7 @@ static DateTimeOffset System::DateTimeOffset::Parse(const String &input)
 
 [DateTimeOffset](../) that is equivalent to the **input**.
 
-## See Also
-
-* Class [DateTimeOffset](../)
-* Class [String](../../string/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTimeOffset::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles) method
 
 
 Converts the specified string to [DateTimeOffset](../) object using the specified format provider and formatting style.
@@ -57,11 +50,10 @@ static DateTimeOffset System::DateTimeOffset::Parse(const String &input, const S
 
 ## See Also
 
+* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [DateTimeOffset](../)
 * Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
 * Class [IFormatProvider](../../iformatprovider/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

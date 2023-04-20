@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.animation/motionpath/insert/
 ---
-## MotionPath::Insert(**int32_t**, [MotionCommandPathType](../../motioncommandpathtype/), [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../../system.drawing/pointf/)\>, [MotionPathPointsType](../../motionpathpointstype/), **bool**) method
+## MotionPath::Insert(int32_t, MotionCommandPathType, System::ArrayPtr\<System::Drawing::PointF\>, MotionPathPointsType, bool) method
 
 
 Insert new command to path
@@ -29,9 +29,9 @@ void Aspose::Slides::Animation::MotionPath::Insert(int32_t index, MotionCommandP
 ## See Also
 
 * Enum [MotionCommandPathType](../../motioncommandpathtype/)
+* Enum [MotionPathPointsType](../../motionpathpointstype/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [PointF](../../../system.drawing/pointf/)
-* Enum [MotionPathPointsType](../../motionpathpointstype/)
 * Class [MotionPath](../)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

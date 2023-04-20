@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml/xmlwriter/writestartelement/
 ---
-## XmlWriter::WriteStartElement(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlWriter::WriteStartElement(const String\&, const String\&) method
 
 
 When overridden in a derived class, writes the specified start tag and associates it with the given namespace.
@@ -23,13 +23,7 @@ void System::Xml::XmlWriter::WriteStartElement(const String &localName, const St
 | localName | const [String](../../../system/string/)\& | The local name of the element. |
 | ns | const [String](../../../system/string/)\& | The namespace URI to associate with the element. If this namespace is already in scope and has an associated prefix, the writer automatically writes that prefix also. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteStartElement(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlWriter::WriteStartElement(const String\&, const String\&, const String\&) method
 
 
 When overridden in a derived class, writes the specified start tag and associates it with the given namespace and prefix.
@@ -47,13 +41,7 @@ virtual void System::Xml::XmlWriter::WriteStartElement(const String &prefix, con
 | localName | const [String](../../../system/string/)\& | The local name of the element. |
 | ns | const [String](../../../system/string/)\& | The namespace URI to associate with the element. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteStartElement(const [String](../../../system/string/)\&) method
+## XmlWriter::WriteStartElement(const String\&) method
 
 
 When overridden in a derived class, writes out a start tag with the specified local name.

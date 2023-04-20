@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.sockets/tcpclient/set_client/
 ---
-## TcpClient::set_Client([System::SharedPtr](../../../system/sharedptr/)\<[Socket](../../socket/)\>) method
+## TcpClient::set_Client(System::SharedPtr\<Socket\>) method
 
 
 Sets the socket.

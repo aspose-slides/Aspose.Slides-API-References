@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.effects/reflection/set_startreflectionopacity/
 ---
-## Reflection::set_StartReflectionOpacity(**float**) method
+## Reflection::set_StartReflectionOpacity(float) method
 
 
 Starting reflection opacity. (percents). Write **float**.

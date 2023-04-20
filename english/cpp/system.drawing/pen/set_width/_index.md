@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/pen/set_width/
 ---
-## Pen::set_Width(**float**) method
+## Pen::set_Width(float) method
 
 
 Sets the width of the current [Pen](../) object.

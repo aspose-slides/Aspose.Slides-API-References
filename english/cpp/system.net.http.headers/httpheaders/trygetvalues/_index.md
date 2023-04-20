@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.http.headers/httpheaders/trygetvalues/
 ---
-## HttpHeaders::TryGetValues([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>\&) method
+## HttpHeaders::TryGetValues(String, System::SharedPtr\<Collections::Generic::IEnumerable\<String\>\>\&) method
 
 
 Tries to get corresponding values by the specified name.
@@ -29,8 +29,8 @@ True when the header values are found by the specified name, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Class [HttpHeaders](../)
 * Namespace [System::Net::Http::Headers](../../)

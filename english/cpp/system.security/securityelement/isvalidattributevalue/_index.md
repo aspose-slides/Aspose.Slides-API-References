@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.security/securityelement/isvalidattributevalue/
 ---
-## SecurityElement::IsValidAttributeValue(const [String](../../../system/string/)\&) method
+## SecurityElement::IsValidAttributeValue(const String\&) method
 
 
 Checks if attribute value is valid.

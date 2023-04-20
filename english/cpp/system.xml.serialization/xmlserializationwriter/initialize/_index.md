@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml.serialization/xmlserializationwriter/initialize/
 ---
-## XmlSerializationWriter::Initialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\>) method
+## XmlSerializationWriter::Initialize(System::SharedPtr\<XmlWriter\>, System::SharedPtr\<XmlSerializerNamespaces\>) method
 
 
 Initializes [XmlSerializationReader](../../xmlserializationreader/) class.

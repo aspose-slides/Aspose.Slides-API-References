@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/createmathrightsubsuperscriptelement/
 ---
-## IMathRightSubSuperscriptElementFactory::CreateMathRightSubSuperscriptElement([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathRightSubSuperscriptElementFactory::CreateMathRightSubSuperscriptElement(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates [IMathRightSubSuperscriptElementFactory](../)

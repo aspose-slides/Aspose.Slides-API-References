@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/addhsleffect/
 ---
-## ImageTransformOperationCollection::AddHSLEffect(**float**, **float**, **float**) method
+## ImageTransformOperationCollection::AddHSLEffect(float, float, float) method
 
 
 Adds the new Hue/Saturation/Luminance effect to the end of a collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net/ipaddress/equals/
 ---
-## IPAddress::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## IPAddress::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

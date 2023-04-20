@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.xml/xmltextwriter/writedoctype/
 ---
-## XmlTextWriter::WriteDocType(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlTextWriter::WriteDocType(const String\&, const String\&, const String\&, const String\&) method
 
 
 Writes the DOCTYPE declaration with the specified name and optional attributes.

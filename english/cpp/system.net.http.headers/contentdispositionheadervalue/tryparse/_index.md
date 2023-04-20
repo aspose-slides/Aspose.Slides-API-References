@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/tryparse/
 ---
-## ContentDispositionHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[ContentDispositionHeaderValue](../)\>\&) method
+## ContentDispositionHeaderValue::TryParse(String, System::SharedPtr\<ContentDispositionHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [ContentDispositionHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ContentDispositionHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [ContentDispositionHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

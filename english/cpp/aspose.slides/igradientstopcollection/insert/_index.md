@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/igradientstopcollection/insert/
 ---
-## IGradientStopCollection::Insert(**int32_t**, **float**, [System::Drawing::Color](../../../system.drawing/color/)) method
+## IGradientStopCollection::Insert(int32_t, float, System::Drawing::Color) method
 
 
 Creates the new gradient stop and inserts it at the specified index to the collection.
@@ -24,13 +24,7 @@ virtual void Aspose::Slides::IGradientStopCollection::Insert(int32_t index, floa
 | position | **float** | Position of the new gradient stop. |
 | color | [System::Drawing::Color](../../../system.drawing/color/) | Color of the new radient stop. |
 
-## See Also
-
-* Class [Color](../../../system.drawing/color/)
-* Class [IGradientStopCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IGradientStopCollection::Insert(**int32_t**, **float**, [PresetColor](../../presetcolor/)) method
+## IGradientStopCollection::Insert(int32_t, float, PresetColor) method
 
 
 Creates the new gradient stop and inserts it at the specified index to the collection.
@@ -48,13 +42,7 @@ virtual void Aspose::Slides::IGradientStopCollection::Insert(int32_t index, floa
 | position | **float** | Position of the new gradient stop. |
 | presetColor | [PresetColor](../../presetcolor/) | Color of the new radient stop. |
 
-## See Also
-
-* Enum [PresetColor](../../presetcolor/)
-* Class [IGradientStopCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IGradientStopCollection::Insert(**int32_t**, **float**, [SchemeColor](../../schemecolor/)) method
+## IGradientStopCollection::Insert(int32_t, float, SchemeColor) method
 
 
 Creates the new gradient stop and inserts it at the specified index to the collection.
@@ -74,7 +62,9 @@ virtual void Aspose::Slides::IGradientStopCollection::Insert(int32_t index, floa
 
 ## See Also
 
+* Enum [PresetColor](../../presetcolor/)
 * Enum [SchemeColor](../../schemecolor/)
+* Class [Color](../../../system.drawing/color/)
 * Class [IGradientStopCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

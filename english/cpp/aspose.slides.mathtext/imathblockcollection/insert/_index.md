@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/imathblockcollection/insert/
 ---
-## IMathBlockCollection::Insert(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## IMathBlockCollection::Insert(int32_t, System::SharedPtr\<IMathBlock\>) method
 
 
 Inserts [IMathBlock](../../imathblock/) into the collection at the specified index.

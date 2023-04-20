@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/stringchartvalue/set_ascells/
 ---
-## StringChartValue::set_AsCells([System::SharedPtr](../../../system/sharedptr/)\<[IChartCellCollection](../../ichartcellcollection/)\>) method
+## StringChartValue::set_AsCells(System::SharedPtr\<IChartCellCollection\>) method
 
 
 Null value assigning is not allowed. Returning value always is not null. Write [IChartCellCollection](../../ichartcellcollection/).

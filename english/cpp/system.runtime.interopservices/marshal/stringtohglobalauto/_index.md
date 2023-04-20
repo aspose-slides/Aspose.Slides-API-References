@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.runtime.interopservices/marshal/stringtohglobalauto/
 ---
-## Marshal::StringToHGlobalAuto(const [String](../../../system/string/)\&) method
+## Marshal::StringToHGlobalAuto(const String\&) method
 
 
 Copies the contents of a specified string into unmanaged memory, converting to ANSI format if required.

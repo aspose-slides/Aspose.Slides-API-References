@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlsecureresolver/xmlsecureresolver/
 ---
-## XmlSecureResolver::XmlSecureResolver(const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../xmlresolver/)\>\&, const [String](../../../system/string/)\&) constructor
+## XmlSecureResolver::XmlSecureResolver(const SharedPtr\<XmlResolver\>\&, const String\&) constructor
 
 
 Initializes a new instance of the [XmlSecureResolver](../) class with the [XmlResolver](../../xmlresolver/) and URL provided.

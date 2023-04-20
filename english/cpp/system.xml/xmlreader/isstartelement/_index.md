@@ -20,12 +20,7 @@ virtual bool System::Xml::XmlReader::IsStartElement()
 
 **true** if [XmlReader::MoveToContent](../movetocontent/) finds a start tag or empty element tag; **false** if a node type other than [XmlNodeType::Element](../../xmlnodetype/) was found.
 
-## See Also
-
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::IsStartElement([String](../../../system/string/)) method
+## XmlReader::IsStartElement(String) method
 
 
 Calls [XmlReader::MoveToContent](../movetocontent/) and tests if the current content node is a start tag or empty element tag and if the [XmlReader::get_Name](../get_name/) value of the element found matches the given argument.
@@ -45,13 +40,7 @@ virtual bool System::Xml::XmlReader::IsStartElement(String name)
 
 **true** if the resulting node is an element and the **Name** value matches the specified string. **false** if a node type other than [XmlNodeType::Element](../../xmlnodetype/) was found or if the element **Name** value does not match the specified string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::IsStartElement([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::IsStartElement(String, String) method
 
 
 Calls [XmlReader::MoveToContent](../movetocontent/) and tests if the current content node is a start tag or empty element tag and if the [XmlReader::get_LocalName](../get_localname/) and [XmlReader::get_NamespaceURI](../get_namespaceuri/) values of the element found match the given strings.
@@ -74,7 +63,7 @@ virtual bool System::Xml::XmlReader::IsStartElement(String localname, String ns)
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

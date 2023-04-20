@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.drawing/sizef/equals/
 ---
-## SizeF::Equals(const [SizeF](../)\&) const method
+## SizeF::Equals(const SizeF\&) const method
 
 
 Determines if the current object and the specified object are equal, i.e. represent the same pair of width and hegiht values.
@@ -28,7 +28,6 @@ True if the objects are equal, otherwise - false
 
 ## See Also
 
-* Class [SizeF](../)
 * Class [SizeF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

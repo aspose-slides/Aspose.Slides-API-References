@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/iflythroughtransition/set_direction/
 ---
-## IFlyThroughTransition::set_Direction([TransitionInOutDirectionType](../../transitioninoutdirectiontype/)) method
+## IFlyThroughTransition::set_Direction(TransitionInOutDirectionType) method
 
 
 Direction of transition. Write [TransitionInOutDirectionType](../../transitioninoutdirectiontype/).

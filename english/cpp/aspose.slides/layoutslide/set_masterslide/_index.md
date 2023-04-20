@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/layoutslide/set_masterslide/
 ---
-## LayoutSlide::set_MasterSlide([System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>) method
+## LayoutSlide::set_MasterSlide(System::SharedPtr\<IMasterSlide\>) method
 
 
 Sets the master slide for a layout. Write [IMasterSlide](../../imasterslide/).

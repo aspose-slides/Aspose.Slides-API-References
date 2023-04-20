@@ -15,11 +15,6 @@ Returns value if found; or **Value()** otherwise.
 virtual TValue System::Collections::Generic::IDictionary<TKey, TValue>::GetValueOrDefault(const TKey &key) const
 ```
 
-## See Also
-
-* Class [IDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## IDictionary::GetValueOrDefault(const TKey\&, const TValue\&) const method
 
 

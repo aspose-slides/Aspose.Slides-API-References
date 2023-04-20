@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.slideshow/flythroughtransition/set_hasbounce/
 ---
-## FlyThroughTransition::set_HasBounce(**bool**) method
+## FlyThroughTransition::set_HasBounce(bool) method
 
 
 Specifies that the movement of the presentation slides during the transition includes a bounce. Write **bool**.

@@ -3,7 +3,7 @@ title: Base64FormattingOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Enumeration containing values that represent different formats of base-64 encoded data.
 type: docs
-weight: 2640
+weight: 1860
 url: /cpp/system/base64formattingoptions/
 ---
 ## Base64FormattingOptions enum

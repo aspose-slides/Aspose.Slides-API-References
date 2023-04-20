@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/trendline/set_backward/
 ---
-## Trendline::set_Backward(**double**) method
+## Trendline::set_Backward(double) method
 
 
 Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Write **double**.

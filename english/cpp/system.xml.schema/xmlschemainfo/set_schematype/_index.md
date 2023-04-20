@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml.schema/xmlschemainfo/set_schematype/
 ---
-## XmlSchemaInfo::set_SchemaType(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaType](../../xmlschematype/)\>\&) method
+## XmlSchemaInfo::set_SchemaType(const SharedPtr\<XmlSchemaType\>\&) method
 
 
 Sets the static XML [Schema](../../) Definition Language (XSD) schema type of this validated XML node.

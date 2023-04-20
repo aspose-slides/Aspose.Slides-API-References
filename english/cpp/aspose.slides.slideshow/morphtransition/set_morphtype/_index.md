@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/morphtransition/set_morphtype/
 ---
-## MorphTransition::set_MorphType([TransitionMorphType](../../transitionmorphtype/)) method
+## MorphTransition::set_MorphType(TransitionMorphType) method
 
 
 Type of morph transition. Write [TransitionMorphType](../../transitionmorphtype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/aspose.slides/shapecollection/addclone/
 ---
-## ShapeCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>, **float**, **float**, **float**, **float**) method
+## ShapeCollection::AddClone(System::SharedPtr\<IShape\>, float, float, float, float) method
 
 
 Adds a copy of a specified shape to the end of the collection.
@@ -30,14 +30,7 @@ System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::Shar
 
 New shape.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShape](../../ishape/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>, **float**, **float**) method
+## ShapeCollection::AddClone(System::SharedPtr\<IShape\>, float, float) method
 
 
 Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the *sourceShape* .
@@ -59,14 +52,7 @@ System::SharedPtr<IShape> Aspose::Slides::ShapeCollection::AddClone(System::Shar
 
 New shape.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShape](../../ishape/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## ShapeCollection::AddClone(System::SharedPtr\<IShape\>) method
 
 
 Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape* .

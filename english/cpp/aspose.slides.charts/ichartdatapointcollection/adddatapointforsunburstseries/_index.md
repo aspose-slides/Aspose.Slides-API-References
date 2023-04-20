@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.charts/ichartdatapointcollection/adddatapointforsunburstseries/
 ---
-## IChartDataPointCollection::AddDataPointForSunburstSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## IChartDataPointCollection::AddDataPointForSunburstSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Sunburst.

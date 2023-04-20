@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.text.regularexpressions/groupcollection/operator[]/
 ---
-## GroupCollection::operator[](const [String](../../../system/string/)\&) const method
+## GroupCollection::operator[](const String\&) const method
 
 
 [Group](../../group/) accessor.

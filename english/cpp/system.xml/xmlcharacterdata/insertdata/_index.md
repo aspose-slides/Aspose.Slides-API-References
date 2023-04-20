@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml/xmlcharacterdata/insertdata/
 ---
-## XmlCharacterData::InsertData(**int32_t**, [String](../../../system/string/)) method
+## XmlCharacterData::InsertData(int32_t, String) method
 
 
 Inserts the specified string at the specified character offset.

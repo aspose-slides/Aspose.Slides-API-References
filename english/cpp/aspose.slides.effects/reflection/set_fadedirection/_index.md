@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.effects/reflection/set_fadedirection/
 ---
-## Reflection::set_FadeDirection(**float**) method
+## Reflection::set_FadeDirection(float) method
 
 
 Specifies the direction to offset the reflection. (angle). Write **float**.

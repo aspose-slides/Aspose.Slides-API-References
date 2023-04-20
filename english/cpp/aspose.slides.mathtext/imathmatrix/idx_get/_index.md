@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides.mathtext/imathmatrix/idx_get/
 ---
-## IMathMatrix::idx_get(**int32_t**, **int32_t**) method
+## IMathMatrix::idx_get(int32_t, int32_t) method
 
 
 Elements of matrix

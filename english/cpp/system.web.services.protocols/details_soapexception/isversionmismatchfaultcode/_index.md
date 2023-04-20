@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.web.services.protocols/details_soapexception/isversionmismatchfaultcode/
 ---
-## Details_SoapException::IsVersionMismatchFaultCode([System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>) method
+## Details_SoapException::IsVersionMismatchFaultCode(System::SharedPtr\<Xml::XmlQualifiedName\>) method
 
 
 Checks if the specified code is equal to the 'VersionMismatch' SOAP fault code.

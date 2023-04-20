@@ -3,10 +3,10 @@ title: operator/()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a new instance of Decimal class that represents a value that is a result of division of the specified value and the value represented by the specified Decimal object.
 type: docs
-weight: 2042
+weight: 1860
 url: /cpp/system/operator//
 ---
-## System::operator/(const T\&, const [Decimal](../decimal/)\&) function
+## System::operator/(const T\&, const Decimal\&) function
 
 
 Returns a new instance of [Decimal](../decimal/) class that represents a value that is a result of division of the specified value and the value represented by the specified [Decimal](../decimal/) object.

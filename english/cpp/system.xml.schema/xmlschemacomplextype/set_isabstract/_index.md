@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemacomplextype/set_isabstract/
 ---
-## XmlSchemaComplexType::set_IsAbstract(**bool**) method
+## XmlSchemaComplexType::set_IsAbstract(bool) method
 
 
 Sets the information that determines if the **complexType** element can be used in the instance document.

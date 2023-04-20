@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system/timespan/operator_plus_equal/
 ---
-## TimeSpan::operator+=([TimeSpan](../)) method
+## TimeSpan::operator+=(TimeSpan) method
 
 
 Assigns to the current object the time interval which is the sum of the time interval represented by the current and the specified objects.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

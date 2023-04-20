@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/aspose.slides/presentation/get_digitalsignature/
 ---
-## Presentation::get_DigitalSignature(**int32_t**) method
+## Presentation::get_DigitalSignature(int32_t) method
 
 
 Returns digital signature used to sign the presentation at the specified index.

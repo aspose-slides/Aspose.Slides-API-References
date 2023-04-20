@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/system.globalization/datetimeformatinfo/getabbreviateddayname/
 ---
-## DateTimeFormatInfo::GetAbbreviatedDayName([DayOfWeek](../../../system/dayofweek/)) const method
+## DateTimeFormatInfo::GetAbbreviatedDayName(DayOfWeek) const method
 
 
 Gets abbreviated week day name.
@@ -28,8 +28,8 @@ Week day name.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [DayOfWeek](../../../system/dayofweek/)
+* Class [String](../../../system/string/)
 * Class [DateTimeFormatInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

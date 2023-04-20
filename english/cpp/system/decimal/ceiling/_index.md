@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system/decimal/ceiling/
 ---
-## Decimal::Ceiling(const [Decimal](../)\&) method
+## Decimal::Ceiling(const Decimal\&) method
 
 
 Returns the smallest integral value that is greater than or equal to the specified value.
@@ -28,7 +28,6 @@ The smallest integral value that is greater than or equal to **d**
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

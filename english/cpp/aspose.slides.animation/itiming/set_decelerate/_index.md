@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/itiming/set_decelerate/
 ---
-## ITiming::set_Decelerate(**float**) method
+## ITiming::set_Decelerate(float) method
 
 
 Describes the percentage of duration decelerate behavior effect. Write **float**.

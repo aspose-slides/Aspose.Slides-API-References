@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.security.cryptography.xml/reference/loadxml/
 ---
-## Reference::LoadXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlElement](../../../system.xml/xmlelement/)\>) method
+## Reference::LoadXml(SharedPtr\<System::Xml::XmlElement\>) method
 
 
 

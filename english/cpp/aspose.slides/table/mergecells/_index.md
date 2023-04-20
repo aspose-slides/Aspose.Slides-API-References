@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides/table/mergecells/
 ---
-## Table::MergeCells([System::SharedPtr](../../../system/sharedptr/)\<[ICell](../../icell/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ICell](../../icell/)\>, **bool**) method
+## Table::MergeCells(System::SharedPtr\<ICell\>, System::SharedPtr\<ICell\>, bool) method
 
 
 Merges neighbour cells.

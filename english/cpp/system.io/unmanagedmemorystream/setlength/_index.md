@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.io/unmanagedmemorystream/setlength/
 ---
-## UnmanagedMemoryStream::SetLength(**int64_t**) method
+## UnmanagedMemoryStream::SetLength(int64_t) method
 
 
 NOT IMPLEMENTED.

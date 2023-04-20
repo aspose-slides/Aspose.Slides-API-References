@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.windows.forms/ibuttoncontrol/notifydefault/
 ---
-## IButtonControl::NotifyDefault(**bool**) method
+## IButtonControl::NotifyDefault(bool) method
 
 
 Makes control default or non-default.

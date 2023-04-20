@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/hyperlinkmanager/setmacrohyperlinkclick/
 ---
-## HyperlinkManager::SetMacroHyperlinkClick([System::String](../../../system/string/)) method
+## HyperlinkManager::SetMacroHyperlinkClick(System::String) method
 
 
 Set Macro hyperlink on a click.

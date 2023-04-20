@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.http/httpclienthandler/set_usecookies/
 ---
-## HttpClientHandler::set_UseCookies(**bool**) method
+## HttpClientHandler::set_UseCookies(bool) method
 
 
 Sets the value that indicates if the current instance uses the cookie container to store server cookies and if the instance uses server cookies when sending requests.

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml.schema/xmlschemaset/remove/
 ---
-## XmlSchemaSet::Remove(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\&) method
+## XmlSchemaSet::Remove(const SharedPtr\<XmlSchema\>\&) method
 
 
 Removes the specified XML [Schema](../../) definition language (XSD) schema from the [XmlSchemaSet](../).

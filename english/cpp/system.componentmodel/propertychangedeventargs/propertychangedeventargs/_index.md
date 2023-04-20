@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.componentmodel/propertychangedeventargs/propertychangedeventargs/
 ---
-## PropertyChangedEventArgs::PropertyChangedEventArgs(const [String](../../../system/string/)\&) constructor
+## PropertyChangedEventArgs::PropertyChangedEventArgs(const String\&) constructor
 
 
 Initializes PropertyChanged event arguments.

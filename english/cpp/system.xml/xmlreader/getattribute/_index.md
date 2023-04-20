@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/system.xml/xmlreader/getattribute/
 ---
-## XmlReader::GetAttribute([String](../../../system/string/)) method
+## XmlReader::GetAttribute(String) method
 
 
 When overridden in a derived class, gets the value of the attribute with the specified [XmlReader::get_Name](../get_name/) value.
@@ -26,13 +26,7 @@ virtual String System::Xml::XmlReader::GetAttribute(String name)=0
 
 The value of the specified attribute. If the attribute is not found or the value is [String::Empty](../../../system/string/empty/), **nullptr** is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::GetAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::GetAttribute(String, String) method
 
 
 When overridden in a derived class, gets the value of the attribute with the specified [XmlReader::get_LocalName](../get_localname/) and [XmlReader::get_NamespaceURI](../get_namespaceuri/) values.
@@ -53,13 +47,7 @@ virtual String System::Xml::XmlReader::GetAttribute(String name, String namespac
 
 The value of the specified attribute. If the attribute is not found or the value is [String::Empty](../../../system/string/empty/), **nullptr** is returned. This method does not move the reader.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::GetAttribute(**int32_t**) method
+## XmlReader::GetAttribute(int32_t) method
 
 
 When overridden in a derived class, gets the value of the attribute with the specified index.

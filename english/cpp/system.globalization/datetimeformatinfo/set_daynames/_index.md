@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.globalization/datetimeformatinfo/set_daynames/
 ---
-## DateTimeFormatInfo::set_DayNames(const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## DateTimeFormatInfo::set_DayNames(const ArrayPtr\<String\>\&) method
 
 
 Sets day names.

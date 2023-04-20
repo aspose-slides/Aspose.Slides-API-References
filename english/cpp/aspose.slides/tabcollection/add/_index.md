@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/tabcollection/add/
 ---
-## TabCollection::Add(**double**, [TabAlignment](../../tabalignment/)) method
+## TabCollection::Add(double, TabAlignment) method
 
 
 Adds a [Tab](../../tab/) to the collection.
@@ -20,15 +20,7 @@ System::SharedPtr<ITab> Aspose::Slides::TabCollection::Add(double position, TabA
 
 Added tab.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITab](../../itab/)
-* Enum [TabAlignment](../../tabalignment/)
-* Class [TabCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## TabCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[ITab](../../itab/)\>) method
+## TabCollection::Add(System::SharedPtr\<ITab\>) method
 
 
 Adds a [Tab](../../tab/) to the collection.
@@ -50,6 +42,7 @@ The index at which the tab was added.
 
 ## See Also
 
+* Enum [TabAlignment](../../tabalignment/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ITab](../../itab/)
 * Class [TabCollection](../)

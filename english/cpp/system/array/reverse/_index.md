@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /cpp/system/array/reverse/
 ---
-## Array::Reverse(const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&) method
+## Array::Reverse(const ArrayPtr\<Type\>\&) method
 
 
 Reverses elements in the specified array.
@@ -22,13 +22,7 @@ template<typename Type> static void System::Array<T>::Reverse(const ArrayPtr<Typ
 | --- | --- | --- |
 | arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Target array |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Reverse(const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&, int, int) method
+## Array::Reverse(const ArrayPtr\<Type\>\&, int, int) method
 
 
 Reverses a range of elements in the specified array.
@@ -49,6 +43,7 @@ template<typename Type> static void System::Array<T>::Reverse(const ArrayPtr<Typ
 ## See Also
 
 * Typedef [ArrayPtr](../../arrayptr/)
+* Method [Type](../../object/type/)
 * Class [Array](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

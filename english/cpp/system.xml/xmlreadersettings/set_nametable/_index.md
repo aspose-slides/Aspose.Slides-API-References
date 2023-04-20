@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlreadersettings/set_nametable/
 ---
-## XmlReaderSettings::set_NameTable(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) method
+## XmlReaderSettings::set_NameTable(const SharedPtr\<XmlNameTable\>\&) method
 
 
 Sets the [XmlNameTable](../../xmlnametable/) used for atomized string comparisons.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.globalization/japanesecalendar/getmonth/
 ---
-## JapaneseCalendar::GetMonth([DateTime](../../../system/datetime/)) const method
+## JapaneseCalendar::GetMonth(DateTime) const method
 
 
 Gets month for the specified time point.

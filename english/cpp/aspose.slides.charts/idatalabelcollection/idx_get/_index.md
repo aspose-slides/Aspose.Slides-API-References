@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/idatalabelcollection/idx_get/
 ---
-## IDataLabelCollection::idx_get(**int32_t**) method
+## IDataLabelCollection::idx_get(int32_t) method
 
 
 Gets the data label for the data point with the specified index.

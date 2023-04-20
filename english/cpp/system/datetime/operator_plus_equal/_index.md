@@ -6,7 +6,7 @@ type: docs
 weight: 664
 url: /cpp/system/datetime/operator_plus_equal/
 ---
-## DateTime::operator+=([TimeSpan](../../timespan/)) method
+## DateTime::operator+=(TimeSpan) method
 
 
 Sets the current object to the date and time value that is the sum of the value represented by the current object and the specified time span.
@@ -30,6 +30,5 @@ A reference to the self
 
 * Class [DateTime](../)
 * Class [TimeSpan](../../timespan/)
-* Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

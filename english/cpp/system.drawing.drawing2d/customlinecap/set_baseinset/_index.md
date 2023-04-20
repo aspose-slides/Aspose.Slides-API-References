@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.drawing.drawing2d/customlinecap/set_baseinset/
 ---
-## CustomLineCap::set_BaseInset(**float**) method
+## CustomLineCap::set_BaseInset(float) method
 
 
 Sets the distance between the line and the cap.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing.imaging/imageformat/equals/
 ---
-## ImageFormat::Equals([ImageFormatPtr](../../imageformatptr/)) const method
+## ImageFormat::Equals(ImageFormatPtr) const method
 
 
 Determines if the image formats represented by the current and specified objects are equal.

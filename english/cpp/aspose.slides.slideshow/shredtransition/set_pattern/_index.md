@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.slideshow/shredtransition/set_pattern/
 ---
-## ShredTransition::set_Pattern([TransitionShredPattern](../../transitionshredpattern/)) method
+## ShredTransition::set_Pattern(TransitionShredPattern) method
 
 
 Specifies the shape of the visuals used during the transition. Write [TransitionShredPattern](../../transitionshredpattern/).

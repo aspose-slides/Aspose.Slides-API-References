@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.net.sockets/networkstream/networkstream/
 ---
-## NetworkStream::NetworkStream([System::SharedPtr](../../../system/sharedptr/)\<[System::Net::Sockets::Socket](../../socket/)\>) constructor
+## NetworkStream::NetworkStream(System::SharedPtr\<System::Net::Sockets::Socket\>) constructor
 
 
 Constructs a new instance.
@@ -22,14 +22,7 @@ System::Net::Sockets::NetworkStream::NetworkStream(System::SharedPtr<System::Net
 | --- | --- | --- |
 | socket | [System::SharedPtr](../../../system/sharedptr/)\<[System::Net::Sockets::Socket](../../socket/)\> | The socket that is used for sending and receiving data. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Socket](../../socket/)
-* Class [NetworkStream](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## NetworkStream::NetworkStream([System::SharedPtr](../../../system/sharedptr/)\<[System::Net::Sockets::Socket](../../socket/)\>, [System::IO::FileAccess](../../../system.io/fileaccess/), **bool**) constructor
+## NetworkStream::NetworkStream(System::SharedPtr\<System::Net::Sockets::Socket\>, System::IO::FileAccess, bool) constructor
 
 
 Constructs a new instance.
@@ -47,15 +40,7 @@ System::Net::Sockets::NetworkStream::NetworkStream(System::SharedPtr<System::Net
 | access | [System::IO::FileAccess](../../../system.io/fileaccess/) | Specifies the access type given to the instance over the specified socket. |
 | ownsSocket | **bool** | A value that indicates if the current instance takes ownership of the specified socket when the value is true. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Socket](../../socket/)
-* Enum [FileAccess](../../../system.io/fileaccess/)
-* Class [NetworkStream](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## NetworkStream::NetworkStream([System::SharedPtr](../../../system/sharedptr/)\<[System::Net::Sockets::Socket](../../socket/)\>, **bool**) constructor
+## NetworkStream::NetworkStream(System::SharedPtr\<System::Net::Sockets::Socket\>, bool) constructor
 
 
 Constructs a new instance.
@@ -74,6 +59,7 @@ System::Net::Sockets::NetworkStream::NetworkStream(System::SharedPtr<System::Net
 
 ## See Also
 
+* Enum [FileAccess](../../../system.io/fileaccess/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Socket](../../socket/)
 * Class [NetworkStream](../)

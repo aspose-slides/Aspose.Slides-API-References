@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.runtime.serialization/formatterconverter/todouble/
 ---
-## FormatterConverter::ToDouble([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FormatterConverter::ToDouble(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a double.

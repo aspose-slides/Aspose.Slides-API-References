@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemadocumentation/set_source/
 ---
-## XmlSchemaDocumentation::set_Source(const [String](../../../system/string/)\&) method
+## XmlSchemaDocumentation::set_Source(const String\&) method
 
 
 Sets the Uniform Resource Identifier (URI) source of the information.

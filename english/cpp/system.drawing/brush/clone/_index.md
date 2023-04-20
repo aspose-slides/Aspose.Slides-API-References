@@ -27,6 +27,5 @@ Creates a copy of the current object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Brush](../)
-* Class [Brush](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

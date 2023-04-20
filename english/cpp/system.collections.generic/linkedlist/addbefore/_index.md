@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections.generic/linkedlist/addbefore/
 ---
-## LinkedList::AddBefore(const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&, const T\&) method
+## LinkedList::AddBefore(const SharedPtr\<LinkedListNode\<T\>\>\&, const T\&) method
 
 
 Adds **element** before **node** of the list.
@@ -27,14 +27,7 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::AddBef
 
 New node.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [LinkedListNode](../../linkedlistnode/)
-* Class [LinkedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## LinkedList::AddBefore(const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&, const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&) method
+## LinkedList::AddBefore(const SharedPtr\<LinkedListNode\<T\>\>\&, const SharedPtr\<LinkedListNode\<T\>\>\&) method
 
 
 Adds **newNode** before **node** of the list.

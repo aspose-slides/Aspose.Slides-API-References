@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ipictureframelock/set_selectlocked/
 ---
-## IPictureFrameLock::set_SelectLocked(**bool**) method
+## IPictureFrameLock::set_SelectLocked(bool) method
 
 
 Determines whether a selecting this shape is forbidden. Write **bool**.

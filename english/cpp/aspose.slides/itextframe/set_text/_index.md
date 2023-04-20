@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/itextframe/set_text/
 ---
-## ITextFrame::set_Text([System::String](../../../system/string/)) method
+## ITextFrame::set_Text(System::String) method
 
 
 Sets the plain text for a [TextFrame](../../textframe/). Write [System::String](../../../system/string/).

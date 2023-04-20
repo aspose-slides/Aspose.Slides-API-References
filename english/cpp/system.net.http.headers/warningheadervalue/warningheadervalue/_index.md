@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/warningheadervalue/warningheadervalue/
 ---
-## WarningHeaderValue::WarningHeaderValue(**int32_t**, [String](../../../system/string/), [String](../../../system/string/)) constructor
+## WarningHeaderValue::WarningHeaderValue(int32_t, String, String) constructor
 
 
 Constructs a new instance.
@@ -24,13 +24,7 @@ System::Net::Http::Headers::WarningHeaderValue::WarningHeaderValue(int32_t code,
 | agent | [String](../../../system/string/) | The host information. |
 | text | [String](../../../system/string/) | The warning text. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [WarningHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## WarningHeaderValue::WarningHeaderValue(**int32_t**, [String](../../../system/string/), [String](../../../system/string/), [DateTimeOffset](../../../system/datetimeoffset/)) constructor
+## WarningHeaderValue::WarningHeaderValue(int32_t, String, String, DateTimeOffset) constructor
 
 
 Constructs a new instance.
@@ -52,7 +46,7 @@ System::Net::Http::Headers::WarningHeaderValue::WarningHeaderValue(int32_t code,
 ## See Also
 
 * Class [String](../../../system/string/)
-* Class [DateTimeOffset](../../../system/datetimeoffset/)
 * Class [WarningHeaderValue](../)
+* Class [DateTimeOffset](../../../system/datetimeoffset/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

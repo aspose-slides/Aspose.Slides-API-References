@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/imoderncomment/set_textselectionstart/
 ---
-## IModernComment::set_TextSelectionStart(**int32_t**) method
+## IModernComment::set_TextSelectionStart(int32_t) method
 
 
 Sets starting position of text selection in text frame if the comment associated with [AutoShape](../../autoshape/). Write **int32_t**.

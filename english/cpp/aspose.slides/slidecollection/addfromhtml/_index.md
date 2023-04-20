@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/slidecollection/addfromhtml/
 ---
-## SlideCollection::AddFromHtml([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\>, [System::String](../../../system/string/)) method
+## SlideCollection::AddFromHtml(System::String, System::SharedPtr\<Import::IExternalResourceResolver\>, System::String) method
 
 
 Creates slides from HTML text and adds them to the end of the collection.
@@ -28,17 +28,7 @@ System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::Add
 
 Added slides.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [String](../../../system/string/)
-* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::AddFromHtml([System::String](../../../system/string/)) method
+## SlideCollection::AddFromHtml(System::String) method
 
 
 Creates slides from HTML text and adds them to the end of the collection.
@@ -58,16 +48,7 @@ System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::Add
 
 Added slides
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [String](../../../system/string/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::AddFromHtml([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::TextReader](../../../system.io/textreader/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\>, [System::String](../../../system/string/)) method
+## SlideCollection::AddFromHtml(System::SharedPtr\<System::IO::TextReader\>, System::SharedPtr\<Import::IExternalResourceResolver\>, System::String) method
 
 
 Creates slides from HTML text and adds them to the end of the collection.
@@ -89,18 +70,7 @@ System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::Add
 
 Added slides.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
-* Class [String](../../../system/string/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::AddFromHtml([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::TextReader](../../../system.io/textreader/)\>) method
+## SlideCollection::AddFromHtml(System::SharedPtr\<System::IO::TextReader\>) method
 
 
 Creates slides from HTML text and adds them to the end of the collection.
@@ -120,16 +90,7 @@ System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::Add
 
 Added slides
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::AddFromHtml([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\>, [System::String](../../../system/string/)) method
+## SlideCollection::AddFromHtml(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Import::IExternalResourceResolver\>, System::String) method
 
 
 Creates slides from HTML text and adds them to the end of the collection.
@@ -151,18 +112,7 @@ System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::SlideCollection::Add
 
 Added slides.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [Stream](../../../system.io/stream/)
-* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
-* Class [String](../../../system/string/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::AddFromHtml([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## SlideCollection::AddFromHtml(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Creates slides from HTML text and adds them to the end of the collection.
@@ -206,7 +156,10 @@ presentation->Save(u"MyPresentation.pptx", SaveFormat::Pptx);
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ISlide](../../islide/)
-* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
+* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
 * Class [SlideCollection](../)
+* Class [TextReader](../../../system.io/textreader/)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

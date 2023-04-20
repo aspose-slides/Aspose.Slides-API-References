@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.drawing/sizef/operator_plus_equal/
 ---
-## SizeF::operator+=(const [SizeF](../)\&) method
+## SizeF::operator+=(const SizeF\&) method
 
 
 Adds the specified [SizeF](../) object's width and height values to the width and height values of the current [SizeF](../) object correspondingly.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [SizeF](../)
 * Class [SizeF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

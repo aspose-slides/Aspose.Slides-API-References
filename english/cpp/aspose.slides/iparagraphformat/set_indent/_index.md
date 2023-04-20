@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides/iparagraphformat/set_indent/
 ---
-## IParagraphFormat::set_Indent(**float**) method
+## IParagraphFormat::set_Indent(float) method
 
 
 Sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Write **float**.

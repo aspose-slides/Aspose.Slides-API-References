@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_methodaccessexception/is/
 ---
-## Details_MethodAccessException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_MethodAccessException::Is(const System::TypeInfo\&) const method
 
 
 

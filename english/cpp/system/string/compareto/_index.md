@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system/string/compareto/
 ---
-## String::CompareTo(const [String](../)\&) const method
+## String::CompareTo(const String\&) const method
 
 
 Compares two strings in 'less-equals-more' style. Uses current culture.
@@ -28,7 +28,6 @@ Negative value if this is considered lower than str, zero if they match, positiv
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net/ipendpoint/create/
 ---
-## IPEndPoint::Create([System::SharedPtr](../../../system/sharedptr/)\<[SocketAddress](../../socketaddress/)\>) method
+## IPEndPoint::Create(System::SharedPtr\<SocketAddress\>) method
 
 
 Create a new instance of the [EndPoint](../../endpoint/) class using the specified socket address.

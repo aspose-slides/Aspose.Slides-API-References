@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.net.http.headers/httpheaders/containsparsedvalue/
 ---
-## HttpHeaders::ContainsParsedValue([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpHeaders::ContainsParsedValue(String, System::SharedPtr\<Object\>) method
 
 
 Checks if the header contains the specified value.
@@ -29,8 +29,8 @@ True if the header contains the specified value, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [HttpHeaders](../)
 * Namespace [System::Net::Http::Headers](../../)

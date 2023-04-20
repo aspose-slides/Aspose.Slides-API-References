@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.resolvers/xmlpreloadedresolver/supportstype/
 ---
-## XmlPreloadedResolver::SupportsType([SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlPreloadedResolver::SupportsType(SharedPtr\<Uri\>, const TypeInfo\&) method
 
 
 Determines whether the resolver supports other Types than just Stream.

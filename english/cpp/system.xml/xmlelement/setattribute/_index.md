@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.xml/xmlelement/setattribute/
 ---
-## XmlElement::SetAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::SetAttribute(String, String) method
 
 
 Sets the value of the attribute with the specified name.
@@ -23,13 +23,7 @@ virtual void System::Xml::XmlElement::SetAttribute(String name, String value)
 | name | [String](../../../system/string/) | The name of the attribute to create or alter. This is a qualified name. If the name contains a colon it is parsed into prefix and local name components. |
 | value | [String](../../../system/string/) | The value to set for the attribute. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlElement](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlElement::SetAttribute([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::SetAttribute(String, String, String) method
 
 
 Sets the value of the attribute with the specified local name and namespace URI.

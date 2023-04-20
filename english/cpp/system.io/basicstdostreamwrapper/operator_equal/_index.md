@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/basicstdostreamwrapper/operator_equal/
 ---
-## BasicSTDOStreamWrapper::operator=(const [BasicSTDOStreamWrapper](../)\&) method
+## BasicSTDOStreamWrapper::operator=(const BasicSTDOStreamWrapper\&) method
 
 
 Copy assignment operator. Deleted.
@@ -17,7 +17,6 @@ BasicSTDOStreamWrapper & System::IO::BasicSTDOStreamWrapper<T, typename>::operat
 
 ## See Also
 
-* Class [BasicSTDOStreamWrapper](../)
 * Class [BasicSTDOStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

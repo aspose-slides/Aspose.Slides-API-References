@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.collections.specialized/namevaluecollection/add/
 ---
-## NameValueCollection::Add(const [String](../../../system/string/)\&) method
+## NameValueCollection::Add(const String\&) method
 
 
 Override [ICollection](../../../system.collections/icollection/) method - not implemented.
@@ -15,13 +15,7 @@ Override [ICollection](../../../system.collections/icollection/) method - not im
 virtual void System::Collections::Specialized::NameValueCollection::Add(const String &item) override
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [NameValueCollection](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueCollection::Add(const [System::SharedPtr](../../../system/sharedptr/)\<[NameValueCollection](../)\>\&) method
+## NameValueCollection::Add(const System::SharedPtr\<NameValueCollection\>\&) method
 
 
 Copies the entries in the specified [NameValueCollection](../) to the current.
@@ -30,14 +24,7 @@ Copies the entries in the specified [NameValueCollection](../) to the current.
 void System::Collections::Specialized::NameValueCollection::Add(const System::SharedPtr<NameValueCollection> &c)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [NameValueCollection](../)
-* Class [NameValueCollection](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueCollection::Add(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## NameValueCollection::Add(const String\&, const String\&) method
 
 
 Adds an entry with the specified name and value.
@@ -48,6 +35,7 @@ virtual void System::Collections::Specialized::NameValueCollection::Add(const St
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [String](../../../system/string/)
 * Class [NameValueCollection](../)
 * Namespace [System::Collections::Specialized](../../)

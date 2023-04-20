@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /cpp/system.xml.xpath/xpathnavigator/issameposition/
 ---
-## XPathNavigator::IsSamePosition([SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::IsSamePosition(SharedPtr\<XPathNavigator\>) method
 
 
 When overridden in a derived class, determines whether the current [XPathNavigator](../) is at the same position as the specified [XPathNavigator](../).
@@ -29,7 +29,6 @@ virtual bool System::Xml::XPath::XPathNavigator::IsSamePosition(SharedPtr<XPathN
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

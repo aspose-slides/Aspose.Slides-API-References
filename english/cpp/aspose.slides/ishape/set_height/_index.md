@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides/ishape/set_height/
 ---
-## IShape::set_Height(**float**) method
+## IShape::set_Height(float) method
 
 
 Sets the height of the shape. Write **float**.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.mathtext/imatharray/set_rowspacingrule/
 ---
-## IMathArray::set_RowSpacingRule([MathRowSpacingRule](../../mathrowspacingrule/)) method
+## IMathArray::set_RowSpacingRule(MathRowSpacingRule) method
 
 
 The type of vertical spacing between array elements

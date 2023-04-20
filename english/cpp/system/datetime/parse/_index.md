@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/system/datetime/parse/
 ---
-## DateTime::Parse(const [String](../../string/)\&) method
+## DateTime::Parse(const String\&) method
 
 
 Converts the specified string representation of a date and time value to the equivalent [DateTime](../) object.
@@ -26,14 +26,7 @@ static DateTime System::DateTime::Parse(const String &s)
 
 A new instance of [DateTime](../) class that represents the date and time value equivalent to that represented by the specified string.
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles) method
 
 
 Converts the specified string representation of a date and time value to the equivalent [DateTime](../) object using culture-specific format information.
@@ -55,17 +48,7 @@ static DateTime System::DateTime::Parse(const String &s, const SharedPtr<IFormat
 
 A new instance of [DateTime](../) class that represents the date and time value equivalent to that represented by the specified string.
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::Parse(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&, Globalization::DateTimeStyles) method
 
 
 
@@ -74,17 +57,7 @@ A new instance of [DateTime](../) class that represents the date and time value 
 static DateTime System::DateTime::Parse(const String &s, const SharedPtr<Globalization::CultureInfo> &culture, Globalization::DateTimeStyles styles=Globalization::DateTimeStyles::None)
 ```
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::Parse(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&, Globalization::DateTimeStyles) method
 
 
 
@@ -93,17 +66,7 @@ static DateTime System::DateTime::Parse(const String &s, const SharedPtr<Globali
 static DateTime System::DateTime::Parse(const String &s, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi, Globalization::DateTimeStyles styles=Globalization::DateTimeStyles::None)
 ```
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::Parse(const [String](../../string/)\&, std::nullptr_t, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::Parse(const String\&, std::nullptr_t, Globalization::DateTimeStyles) method
 
 
 
@@ -114,9 +77,12 @@ static DateTime System::DateTime::Parse(const String &s, std::nullptr_t, Globali
 
 ## See Also
 
+* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [DateTime](../)
 * Class [String](../../string/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.mathtext/mathblock/add/
 ---
-## MathBlock::Add([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathBlock::Add(System::SharedPtr\<IMathElement\>) method
 
 
 Adds a math element to the end of the collection.

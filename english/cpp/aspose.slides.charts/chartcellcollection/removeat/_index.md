@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/chartcellcollection/removeat/
 ---
-## ChartCellCollection::RemoveAt(**int32_t**) method
+## ChartCellCollection::RemoveAt(int32_t) method
 
 
 Removes a cell from the collection by index.

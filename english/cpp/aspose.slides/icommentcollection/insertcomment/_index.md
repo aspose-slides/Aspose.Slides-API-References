@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/icommentcollection/insertcomment/
 ---
-## ICommentCollection::InsertComment(**int32_t**, [System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::Drawing::PointF](../../../system.drawing/pointf/), [System::DateTime](../../../system/datetime/)) method
+## ICommentCollection::InsertComment(int32_t, System::String, System::SharedPtr\<ISlide\>, System::Drawing::PointF, System::DateTime) method
 
 
 Insert new comment to a collection at the specified index.

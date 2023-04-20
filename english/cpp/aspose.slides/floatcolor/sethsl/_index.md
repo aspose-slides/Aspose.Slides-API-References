@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/floatcolor/sethsl/
 ---
-## FloatColor::SetHSL(**float**, **float**, **float**) method
+## FloatColor::SetHSL(float, float, float) method
 
 
 

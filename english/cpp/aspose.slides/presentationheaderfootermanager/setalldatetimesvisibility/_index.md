@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/presentationheaderfootermanager/setalldatetimesvisibility/
 ---
-## PresentationHeaderFooterManager::SetAllDateTimesVisibility(**bool**) method
+## PresentationHeaderFooterManager::SetAllDateTimesVisibility(bool) method
 
 
 Changes all date-time placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master.

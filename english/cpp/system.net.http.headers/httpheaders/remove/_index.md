@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net.http.headers/httpheaders/remove/
 ---
-## HttpHeaders::Remove([String](../../../system/string/)) method
+## HttpHeaders::Remove(String) method
 
 
 Tries to remove an item by the specified name.

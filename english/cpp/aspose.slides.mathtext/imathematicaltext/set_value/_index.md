@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.mathtext/imathematicaltext/set_value/
 ---
-## IMathematicalText::set_Value([System::String](../../../system/string/)) method
+## IMathematicalText::set_Value(System::String) method
 
 
 Text value

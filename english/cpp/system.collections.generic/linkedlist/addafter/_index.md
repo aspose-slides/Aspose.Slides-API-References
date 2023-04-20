@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.collections.generic/linkedlist/addafter/
 ---
-## LinkedList::AddAfter(const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&, const T\&) method
+## LinkedList::AddAfter(const SharedPtr\<LinkedListNode\<T\>\>\&, const T\&) method
 
 
 Adds **element** after **node** of the list.
@@ -27,14 +27,7 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::AddAft
 
 New node.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [LinkedListNode](../../linkedlistnode/)
-* Class [LinkedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## LinkedList::AddAfter(const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&, const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&) method
+## LinkedList::AddAfter(const SharedPtr\<LinkedListNode\<T\>\>\&, const SharedPtr\<LinkedListNode\<T\>\>\&) method
 
 
 Adds **newNode** after **node** of the list.

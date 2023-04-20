@@ -27,11 +27,6 @@ bool System::Globalization::PersianCalendar::IsLeapYear(int year, int era) const
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::IsLeapYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual bool System::Globalization::Calendar::IsLeapYear(int year) const
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::IsLeapYear(int, int) const method
 
 

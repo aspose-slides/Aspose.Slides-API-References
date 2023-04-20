@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.xml/xmltextwriter/writeraw/
 ---
-## XmlTextWriter::WriteRaw([ArrayPtr](../../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) method
+## XmlTextWriter::WriteRaw(ArrayPtr\<char16_t\>, int32_t, int32_t) method
 
 
 Writes raw markup manually from a character buffer.
@@ -24,13 +24,7 @@ void System::Xml::XmlTextWriter::WriteRaw(ArrayPtr<char16_t> buffer, int32_t ind
 | index | **int32_t** | The position within the buffer indicating the start of the text to write. |
 | count | **int32_t** | The number of characters to write. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [XmlTextWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextWriter::WriteRaw(const [String](../../../system/string/)\&) method
+## XmlTextWriter::WriteRaw(const String\&) method
 
 
 Writes raw markup manually from a string.
@@ -48,7 +42,8 @@ void System::Xml::XmlTextWriter::WriteRaw(const String &data) override
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [XmlTextWriter](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

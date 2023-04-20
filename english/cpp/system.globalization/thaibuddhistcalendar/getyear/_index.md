@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.globalization/thaibuddhistcalendar/getyear/
 ---
-## ThaiBuddhistCalendar::GetYear([DateTime](../../../system/datetime/)) const method
+## ThaiBuddhistCalendar::GetYear(DateTime) const method
 
 
 Gets year for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.charts/rotation3d/set_depthpercents/
 ---
-## Rotation3D::set_DepthPercents(**uint16_t**) method
+## Rotation3D::set_DepthPercents(uint16_t) method
 
 
 Sets the depth of a 3D chart as a percentage of a chart width (between 20 and 2000 percent). Write **uint16_t**.

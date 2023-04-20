@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections.specialized/namevaluecollection/remove/
 ---
-## NameValueCollection::Remove(const [String](../../../system/string/)\&) method
+## NameValueCollection::Remove(const String\&) method
 
 
 Removes specific item.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/cookieparser/checkquoted/
 ---
-## CookieParser::CheckQuoted([String](../../../system/string/)) method
+## CookieParser::CheckQuoted(String) method
 
 
 Checks if the specified string is wrapped in the quotes.

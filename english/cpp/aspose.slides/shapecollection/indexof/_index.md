@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides/shapecollection/indexof/
 ---
-## ShapeCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## ShapeCollection::IndexOf(System::SharedPtr\<IShape\>) method
 
 
 Returns the zero-based index of the first occurrence of a shape in the collection.

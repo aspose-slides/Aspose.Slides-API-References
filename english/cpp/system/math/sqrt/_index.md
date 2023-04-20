@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system/math/sqrt/
 ---
-## Math::Sqrt(**double**) method
+## Math::Sqrt(double) method
 
 
 Returns the square root of the specified value.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.sockets/udpclient/send/
 ---
-## UdpClient::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\>) method
+## UdpClient::Send(System::ArrayPtr\<uint8_t\>, int32_t, System::SharedPtr\<IPEndPoint\>) method
 
 
 Sends a UDP datagram to the host at the remote end point.
@@ -28,15 +28,7 @@ int32_t System::Net::Sockets::UdpClient::Send(System::ArrayPtr<uint8_t> dgram, i
 
 The number of bytes that are sent.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPEndPoint](../../../system.net/ipendpoint/)
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, [String](../../../system/string/), **int32_t**) method
+## UdpClient::Send(System::ArrayPtr\<uint8_t\>, int32_t, String, int32_t) method
 
 
 Sends a UDP datagram to the specified port on the specified remote host.
@@ -59,14 +51,7 @@ int32_t System::Net::Sockets::UdpClient::Send(System::ArrayPtr<uint8_t> dgram, i
 
 The number of bytes that are sent.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**) method
+## UdpClient::Send(System::ArrayPtr\<uint8_t\>, int32_t) method
 
 
 Sends a UDP datagram to a remote host.
@@ -90,6 +75,9 @@ The number of bytes that are sent.
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IPEndPoint](../../../system.net/ipendpoint/)
 * Class [UdpClient](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

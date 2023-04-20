@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.componentmodel/icontainer/add/
 ---
-## IContainer::Add([System::SharedPtr](../../../system/sharedptr/)\<[IComponent](../../icomponent/)\>) method
+## IContainer::Add(System::SharedPtr\<IComponent\>) method
 
 
 RTTI information.

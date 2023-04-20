@@ -15,13 +15,7 @@ Converts value represented by current object to string.
 String System::Collections::Specialized::BitVector32::ToString() const
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [BitVector32](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## BitVector32::ToString(const [BitVector32](../)\&) method
+## BitVector32::ToString(const BitVector32\&) method
 
 
 Converts value represented by value parameter to string.
@@ -44,7 +38,6 @@ string representation of object
 ## See Also
 
 * Class [String](../../../system/string/)
-* Class [BitVector32](../)
 * Class [BitVector32](../)
 * Namespace [System::Collections::Specialized](../../)
 * Library [Aspose.Slides](../../../)

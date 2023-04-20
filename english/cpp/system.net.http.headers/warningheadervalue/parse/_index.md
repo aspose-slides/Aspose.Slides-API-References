@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/warningheadervalue/parse/
 ---
-## WarningHeaderValue::Parse([String](../../../system/string/)) method
+## WarningHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [WarningHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [WarningHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [WarningHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [WarningHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

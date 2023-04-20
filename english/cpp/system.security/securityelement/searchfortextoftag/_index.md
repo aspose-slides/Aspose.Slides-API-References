@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.security/securityelement/searchfortextoftag/
 ---
-## SecurityElement::SearchForTextOfTag(const [String](../../../system/string/)\&) method
+## SecurityElement::SearchForTextOfTag(const String\&) method
 
 
 Gets child tag inner text by tag name.

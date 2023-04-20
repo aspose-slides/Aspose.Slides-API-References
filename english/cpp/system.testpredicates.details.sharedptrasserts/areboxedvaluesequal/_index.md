@@ -3,10 +3,10 @@ title: AreBoxedValuesEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares two Boxed types.
 type: docs
-weight: 79
+weight: 1
 url: /cpp/system.testpredicates.details.sharedptrasserts/areboxedvaluesequal/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::AreBoxedValuesEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[BoxedValueBase](../../system/boxedvaluebase/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[BoxedValueBase](../../system/boxedvaluebase/)\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::AreBoxedValuesEqual(const char *, const char *, const SharedPtr\<BoxedValueBase\>\&, const SharedPtr\<BoxedValueBase\>\&) function
 
 
 Equal-compares two Boxed types.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter/
 ---
-## IMathDelimiterFactory::CreateMathDelimiter([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathDelimiterFactory::CreateMathDelimiter(System::SharedPtr\<IMathElement\>) method
 
 
 Create a math delimiter by applying to the element
@@ -26,15 +26,7 @@ virtual System::SharedPtr<IMathDelimiter> Aspose::Slides::MathText::IMathDelimit
 
 new math delimiter
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathDelimiter](../../imathdelimiter/)
-* Class [IMathElement](../../imathelement/)
-* Class [IMathDelimiterFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathDelimiterFactory::CreateMathDelimiter([System::SharedPtr](../../../system/sharedptr/)\<[IMathElementCollection](../../imathelementcollection/)\>) method
+## IMathDelimiterFactory::CreateMathDelimiter(System::SharedPtr\<IMathElementCollection\>) method
 
 
 Create a math delimiter by applying to the element
@@ -58,7 +50,8 @@ new math delimiter
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathDelimiter](../../imathdelimiter/)
-* Class [IMathElementCollection](../../imathelementcollection/)
+* Class [IMathElement](../../imathelement/)
 * Class [IMathDelimiterFactory](../)
+* Class [IMathElementCollection](../../imathelementcollection/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

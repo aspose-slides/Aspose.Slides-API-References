@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.lowcode/foreach/shape/
 ---
-## ForEach::Shape([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [ForEach::ForEachShapeCallback](../foreachshapecallback/)) method
+## ForEach::Shape(System::SharedPtr\<Presentation\>, ForEach::ForEachShapeCallback) method
 
 
 Iterate each [ForEach::Shape](./) in the [Presentation](../../../aspose.slides/presentation/).
@@ -41,15 +41,7 @@ auto callback = std::function<void(SharedPtr<Shape> shape, SharedPtr<BaseSlide> 
 ForEach::Shape(pres, callback);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
-* Typedef [ForEachShapeCallback](../foreachshapecallback/)
-* Class [ForEach](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## ForEach::Shape([System::SharedPtr](../../../system/sharedptr/)\<[BaseSlide](../../../aspose.slides/baseslide/)\>, [ForEach::ForEachShapeCallback](../foreachshapecallback/)) method
+## ForEach::Shape(System::SharedPtr\<BaseSlide\>, ForEach::ForEachShapeCallback) method
 
 
 Iterate each [ForEach::Shape](./) in the [BaseSlide](../../../aspose.slides/baseslide/).
@@ -91,8 +83,9 @@ ForEach::Slide(pres, std::function<void(SharedPtr<Slide> slide, int32_t index)>(
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [BaseSlide](../../../aspose.slides/baseslide/)
 * Typedef [ForEachShapeCallback](../foreachshapecallback/)
+* Class [Presentation](../../../aspose.slides/presentation/)
 * Class [ForEach](../)
+* Class [BaseSlide](../../../aspose.slides/baseslide/)
 * Namespace [Aspose::Slides::LowCode](../../)
 * Library [Aspose.Slides](../../../)

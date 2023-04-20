@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.slides.mathtext/mathmatrix/insertrowbefore/
 ---
-## MathMatrix::InsertRowBefore(**int32_t**) method
+## MathMatrix::InsertRowBefore(int32_t) method
 
 
 Insert a new row before the specified one Initially all elements in the new row are null.

@@ -15,12 +15,7 @@ Constructs a null-instance of [ExceptionWrapper](../) class that does not repres
 System::ExceptionWrapper<T>::ExceptionWrapper(std::nullptr_t)
 ```
 
-## See Also
-
-* Class [ExceptionWrapper](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ExceptionWrapper::ExceptionWrapper(const [ExceptionPtr](../../exceptionptr/)\&) constructor
+## ExceptionWrapper::ExceptionWrapper(const ExceptionPtr\&) constructor
 
 
 Constructs a instance of [ExceptionWrapper](../) class that contains passed pointer.
@@ -36,13 +31,7 @@ System::ExceptionWrapper<T>::ExceptionWrapper(const ExceptionPtr &ptr)
 | --- | --- | --- |
 | ptr | const [ExceptionPtr](../../exceptionptr/)\& | Smart pointer to the instance of Exception class. |
 
-## See Also
-
-* Typedef [ExceptionPtr](../../exceptionptr/)
-* Class [ExceptionWrapper](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ExceptionWrapper::ExceptionWrapper(const [ExceptionWrapper](../)\&) constructor
+## ExceptionWrapper::ExceptionWrapper(const ExceptionWrapper\&) constructor
 
 
 Copy constructor.
@@ -58,13 +47,7 @@ System::ExceptionWrapper<T>::ExceptionWrapper(const ExceptionWrapper &other)
 | --- | --- | --- |
 | other | const [ExceptionWrapper](../)\& | Other instance of wrapper class that must be copied. |
 
-## See Also
-
-* Class [ExceptionWrapper](../)
-* Class [ExceptionWrapper](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ExceptionWrapper::ExceptionWrapper([ExceptionWrapper](../)\&&) constructor
+## ExceptionWrapper::ExceptionWrapper(ExceptionWrapper\&&) constructor
 
 
 Move constructor.
@@ -80,12 +63,6 @@ System::ExceptionWrapper<T>::ExceptionWrapper(ExceptionWrapper &&other) noexcept
 | --- | --- | --- |
 | other | [ExceptionWrapper](../)\&& | Other instance of wrapper class that must be moved. |
 
-## See Also
-
-* Class [ExceptionWrapper](../)
-* Class [ExceptionWrapper](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ExceptionWrapper::ExceptionWrapper(Args\&&...) constructor
 
 
@@ -97,6 +74,7 @@ template<typename ...,typename> System::ExceptionWrapper<T>::ExceptionWrapper(Ar
 
 ## See Also
 
+* Typedef [ExceptionPtr](../../exceptionptr/)
 * Class [ExceptionWrapper](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

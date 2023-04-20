@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/datetime/addmilliseconds/
 ---
-## DateTime::AddMilliseconds(**double**) const method
+## DateTime::AddMilliseconds(double) const method
 
 
 Returns a new instance of the [DateTime](../) class representing the date and time value which is the sum of the value represented by the current object and the specified number of milliseconds.
@@ -28,7 +28,6 @@ A new instance of the [DateTime](../) class representing the date and time value
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/datetime/operator_equal/
 ---
-## DateTime::operator=(const [DateTime](../)\&) method
+## DateTime::operator=(const DateTime\&) method
 
 
 Assigns the value represented by the specified [DateTime](../) instance to the current object.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

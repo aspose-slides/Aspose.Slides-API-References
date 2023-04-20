@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.componentmodel/typeconverter/convertfromstring/
 ---
-## TypeConverter::ConvertFromString(const [System::String](../../../system/string/)\&) method
+## TypeConverter::ConvertFromString(const System::String\&) method
 
 
 Converts string to object.
@@ -26,15 +26,7 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 converted object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [String](../../../system/string/)
-* Class [TypeConverter](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## TypeConverter::ConvertFromString(const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\&, const [System::String](../../../system/string/)\&) method
+## TypeConverter::ConvertFromString(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::String\&) method
 
 
 Converts string to object.
@@ -55,16 +47,7 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 converted object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [ITypeDescriptorContext](../../itypedescriptorcontext/)
-* Class [String](../../../system/string/)
-* Class [TypeConverter](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## TypeConverter::ConvertFromString(const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\&, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, const [System::String](../../../system/string/)\&) method
+## TypeConverter::ConvertFromString(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::String\&) method
 
 
 Converts string to object.
@@ -90,9 +73,9 @@ converted object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
-* Class [ITypeDescriptorContext](../../itypedescriptorcontext/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [String](../../../system/string/)
 * Class [TypeConverter](../)
+* Class [ITypeDescriptorContext](../../itypedescriptorcontext/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Namespace [System::ComponentModel](../../)
 * Library [Aspose.Slides](../../../)

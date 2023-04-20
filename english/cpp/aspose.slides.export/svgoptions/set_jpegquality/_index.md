@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.export/svgoptions/set_jpegquality/
 ---
-## SVGOptions::set_JpegQuality(**int32_t**) method
+## SVGOptions::set_JpegQuality(int32_t) method
 
 
 Determines JPEG encoding quality. Write **int32_t**.

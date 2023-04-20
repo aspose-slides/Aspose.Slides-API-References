@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ifontdata/getfontname/
 ---
-## IFontData::GetFontName([System::SharedPtr](../../../system/sharedptr/)\<[Theme::IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata/)\>) method
+## IFontData::GetFontName(System::SharedPtr\<Theme::IThemeEffectiveData\>) method
 
 
 Returns the font name, replacing theme referrence with an actual font used.
@@ -28,8 +28,8 @@ Font name.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [IThemeEffectiveData](../../../aspose.slides.theme/ithemeeffectivedata/)
 * Class [IFontData](../)
 * Namespace [Aspose::Slides](../../)

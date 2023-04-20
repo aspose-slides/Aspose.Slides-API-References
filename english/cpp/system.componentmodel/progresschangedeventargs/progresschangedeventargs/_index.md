@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.componentmodel/progresschangedeventargs/progresschangedeventargs/
 ---
-## ProgressChangedEventArgs::ProgressChangedEventArgs(int, [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) constructor
+## ProgressChangedEventArgs::ProgressChangedEventArgs(int, System::SharedPtr\<System::Object\>) constructor
 
 
 Constructor.

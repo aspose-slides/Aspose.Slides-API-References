@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing.drawing2d/adjustablearrowcap/set_width/
 ---
-## AdjustableArrowCap::set_Width(**float**) method
+## AdjustableArrowCap::set_Width(float) method
 
 
 Sets the width of the arrow represented by the current object.

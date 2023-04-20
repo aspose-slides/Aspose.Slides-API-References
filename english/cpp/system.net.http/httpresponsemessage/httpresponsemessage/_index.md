@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::HttpResponseMessage::HttpResponseMessage()
 ```
 
-## See Also
-
-* Class [HttpResponseMessage](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## HttpResponseMessage::HttpResponseMessage([HttpStatusCode](../../../system.net/httpstatuscode/)) constructor
+## HttpResponseMessage::HttpResponseMessage(HttpStatusCode) constructor
 
 
 Constructs a new instance.

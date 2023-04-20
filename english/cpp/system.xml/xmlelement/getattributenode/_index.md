@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.xml/xmlelement/getattributenode/
 ---
-## XmlElement::GetAttributeNode([String](../../../system/string/)) method
+## XmlElement::GetAttributeNode(String) method
 
 
 Returns the [XmlAttribute](../../xmlattribute/) with the specified name.
@@ -26,15 +26,7 @@ virtual SharedPtr<XmlAttribute> System::Xml::XmlElement::GetAttributeNode(String
 
 The specified [XmlAttribute](../../xmlattribute/) or **nullptr** if a matching attribute was not found.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlAttribute](../../xmlattribute/)
-* Class [String](../../../system/string/)
-* Class [XmlElement](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlElement::GetAttributeNode([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::GetAttributeNode(String, String) method
 
 
 Returns the [XmlAttribute](../../xmlattribute/) with the specified local name and namespace URI.

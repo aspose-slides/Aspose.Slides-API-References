@@ -27,11 +27,6 @@ int System::Globalization::JapaneseCalendar::GetMonthsInYear(int year, int era) 
 
 Number of months in the specified year of specified era.
 
-## See Also
-
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::GetMonthsInYear(int) const method
 
 
@@ -41,11 +36,6 @@ RTTI information.
 virtual int System::Globalization::Calendar::GetMonthsInYear(int year) const
 ```
 
-## See Also
-
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::GetMonthsInYear(int, int) const method
 
 

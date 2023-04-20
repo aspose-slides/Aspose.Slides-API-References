@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/idatalabelcollection/set_leaderlinescolor/
 ---
-## IDataLabelCollection::set_LeaderLinesColor([System::Drawing::Color](../../../system.drawing/color/)) method
+## IDataLabelCollection::set_LeaderLinesColor(System::Drawing::Color) method
 
 
 Sets the color of all leader lines in the collection. Write [System::Drawing::Color](../../../system.drawing/color/).

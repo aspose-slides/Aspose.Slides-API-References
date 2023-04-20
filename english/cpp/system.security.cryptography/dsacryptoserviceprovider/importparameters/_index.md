@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.security.cryptography/dsacryptoserviceprovider/importparameters/
 ---
-## DSACryptoServiceProvider::ImportParameters([DSAParameters](../../dsaparameters/)) method
+## DSACryptoServiceProvider::ImportParameters(DSAParameters) method
 
 
 Imports all parameters from data structure.
@@ -24,7 +24,7 @@ void System::Security::Cryptography::DSACryptoServiceProvider::ImportParameters(
 
 ## See Also
 
-* Struct [DSAParameters](../../dsaparameters/)
 * Class [DSACryptoServiceProvider](../)
+* Struct [DSAParameters](../../dsaparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

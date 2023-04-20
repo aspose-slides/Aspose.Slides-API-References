@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/rotatetransform/
 ---
-## PathGradientBrush::RotateTransform(**float**, [Drawing2D::MatrixOrder](../../matrixorder/)) method
+## PathGradientBrush::RotateTransform(float, Drawing2D::MatrixOrder) method
 
 
 Rotates the local geometric transformation by the specified angle in the specified order.

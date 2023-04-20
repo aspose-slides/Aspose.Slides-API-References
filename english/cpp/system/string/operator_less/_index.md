@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system/string/operator_less/
 ---
-## String::operator<(const [String](../)\&) const method
+## String::operator<(const String\&) const method
 
 
 Order-compares strings.
@@ -28,7 +28,6 @@ true if this is considering less than str, false otherwise.
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system/datetimeoffset/add/
 ---
-## DateTimeOffset::Add([TimeSpan](../../timespan/)) const method
+## DateTimeOffset::Add(TimeSpan) const method
 
 
 Adds a specified time interval to the [DateTimeOffset](../) object.
@@ -30,6 +30,5 @@ Result of operation.
 
 * Class [DateTimeOffset](../)
 * Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

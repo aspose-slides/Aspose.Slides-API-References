@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.mathtext/mathelementbase/nary/
 ---
-## MathElementBase::Nary([MathNaryOperatorTypes](../../mathnaryoperatortypes/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathElementBase::Nary(MathNaryOperatorTypes, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates a N-ary operator
@@ -39,16 +39,7 @@ auto upperLimit = System::MakeObject<MathematicalText>(u"\U0001d465");
 auto naryOperator = baseElement->Nary(Aspose::Slides::MathText::MathNaryOperatorTypes::Summation, lowerLimit, upperLimit);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathNaryOperator](../../imathnaryoperator/)
-* Enum [MathNaryOperatorTypes](../../mathnaryoperatortypes/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::Nary([MathNaryOperatorTypes](../../mathnaryoperatortypes/), [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## MathElementBase::Nary(MathNaryOperatorTypes, System::String, System::String) method
 
 
 Creates a N-ary operator
@@ -80,10 +71,11 @@ auto naryOperator = System::MakeObject<MathematicalText>(u"i")->Nary(Aspose::Sli
 
 ## See Also
 
+* Enum [MathNaryOperatorTypes](../../mathnaryoperatortypes/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathNaryOperator](../../imathnaryoperator/)
-* Enum [MathNaryOperatorTypes](../../mathnaryoperatortypes/)
-* Class [String](../../../system/string/)
+* Class [IMathElement](../../imathelement/)
 * Class [MathElementBase](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

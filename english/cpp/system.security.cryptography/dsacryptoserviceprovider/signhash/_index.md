@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.security.cryptography/dsacryptoserviceprovider/signhash/
 ---
-## DSACryptoServiceProvider::SignHash(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [String](../../../system/string/)\&) method
+## DSACryptoServiceProvider::SignHash(const ByteArrayPtr\&, const String\&) method
 
 
 Computes the signature of specified input value.

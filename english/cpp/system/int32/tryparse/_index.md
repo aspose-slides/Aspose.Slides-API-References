@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/int32/tryparse/
 ---
-## Int32::TryParse(const [String](../../string/)\&, **int32_t**\&) method
+## Int32::TryParse(const String\&, int32_t\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 32-bit signed integer.
@@ -27,13 +27,7 @@ static bool System::Int32::TryParse(const String &value, int32_t &result)
 
 True if the conversion succeeded, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Int32](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Int32::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, **int32_t**\&) method
+## Int32::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&, int32_t\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 32-bit signed integer using the provided formatting information and number style.
@@ -56,16 +50,7 @@ static bool System::Int32::TryParse(const String &value, Globalization::NumberSt
 
 True if the conversion succeeded, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [Int32](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Int32::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, **int32_t**\&) method
+## Int32::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&, int32_t\&) method
 
 
 
@@ -74,16 +59,7 @@ True if the conversion succeeded, otherwise - false.
 static bool System::Int32::TryParse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture, int32_t &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [Int32](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Int32::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&, **int32_t**\&) method
+## Int32::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&, int32_t\&) method
 
 
 
@@ -92,16 +68,7 @@ static bool System::Int32::TryParse(const String &value, Globalization::NumberSt
 static bool System::Int32::TryParse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi, int32_t &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Class [Int32](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Int32::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), std::nullptr_t, **int32_t**\&) method
+## Int32::TryParse(const String\&, Globalization::NumberStyles, std::nullptr_t, int32_t\&) method
 
 
 
@@ -112,8 +79,12 @@ static bool System::Int32::TryParse(const String &value, Globalization::NumberSt
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Class [Int32](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography/asnencodeddata/set_rawdata/
 ---
-## AsnEncodedData::set_RawData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## AsnEncodedData::set_RawData(const ByteArrayPtr\&) method
 
 
 Sets raw encoded data.

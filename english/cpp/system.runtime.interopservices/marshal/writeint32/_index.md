@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.runtime.interopservices/marshal/writeint32/
 ---
-## Marshal::WriteInt32(IntPtr, int, **int32_t**) method
+## Marshal::WriteInt32(IntPtr, int, int32_t) method
 
 
 Writes int to memory.

@@ -15,11 +15,6 @@ Constructs an instance that represents null-value.
 System::Nullable<T>::Nullable()
 ```
 
-## See Also
-
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::Nullable(std::nullptr_t) constructor
 
 
@@ -29,11 +24,6 @@ Constructs an instance that represents null.
 System::Nullable<T>::Nullable(std::nullptr_t)
 ```
 
-## See Also
-
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::Nullable(const T1\&) constructor
 
 
@@ -56,12 +46,7 @@ template<typename T1> System::Nullable<T>::Nullable(const T1 &value)
 | --- | --- | --- |
 | value | const T1\& | A constant reference to the value to be represented by the newly constructed [Nullable](../) object |
 
-## See Also
-
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Nullable::Nullable(const [Nullable](../)\<T1\>\&) constructor
+## Nullable::Nullable(const Nullable\<T1\>\&) constructor
 
 
 Constructs an instance that represents a value that is represented by the specified [Nullable](../) object. The specified nullable object may represent a value of different type than the underlying type of the constructed instance in which case the represented value is converted to a value of type T.
@@ -79,7 +64,6 @@ template<typename T1> System::Nullable<T>::Nullable(const Nullable<T1> &value)
 
 ## See Also
 
-* Class [Nullable](../)
 * Class [Nullable](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

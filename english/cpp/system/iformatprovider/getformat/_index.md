@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/iformatprovider/getformat/
 ---
-## IFormatProvider::GetFormat(const [TypeInfo](../../typeinfo/)\&) method
+## IFormatProvider::GetFormat(const TypeInfo\&) method
 
 
 Returns an object that provides formatting services for the specified type.

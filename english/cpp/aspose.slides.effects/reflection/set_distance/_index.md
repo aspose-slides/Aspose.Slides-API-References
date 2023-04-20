@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.effects/reflection/set_distance/
 ---
-## Reflection::set_Distance(**double**) method
+## Reflection::set_Distance(double) method
 
 
 Distance of reflection. Write **double**.

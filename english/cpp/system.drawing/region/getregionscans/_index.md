@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing/region/getregionscans/
 ---
-## Region::GetRegionScans(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\&) const method
+## Region::GetRegionScans(const SharedPtr\<Drawing2D::Matrix\>\&) const method
 
 
 Returns an array of [RectangleF](../../rectanglef/) structures that approximate this [Region](../) after the specified matrix transformation is applied.
@@ -25,8 +25,8 @@ ArrayPtr<RectangleF> System::Drawing::Region::GetRegionScans(const SharedPtr<Dra
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RectangleF](../../rectanglef/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [RectangleF](../../rectanglef/)
 * Class [Matrix](../../../system.drawing.drawing2d/matrix/)
 * Class [Region](../)
 * Namespace [System::Drawing](../../)

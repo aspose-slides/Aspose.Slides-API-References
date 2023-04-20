@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.io/file/setattributes/
 ---
-## File::SetAttributes(const [String](../../../system/string/)\&, [FileAttributes](../../fileattributes/)) method
+## File::SetAttributes(const String\&, FileAttributes) method
 
 
 Sets the specified attributes on the specified file.
@@ -25,8 +25,8 @@ static void System::IO::File::SetAttributes(const String &path, FileAttributes f
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [FileAttributes](../../fileattributes/)
+* Class [String](../../../system/string/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/system/decimal/todouble/
 ---
-## Decimal::ToDouble([Decimal](../)) method
+## Decimal::ToDouble(Decimal) method
 
 
 Converts the [Decimal](../) value to double precision floating-point number.
@@ -17,7 +17,6 @@ static double System::Decimal::ToDouble(Decimal value)
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

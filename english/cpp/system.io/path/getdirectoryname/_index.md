@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/path/getdirectoryname/
 ---
-## Path::GetDirectoryName(const [String](../../../system/string/)\&) method
+## Path::GetDirectoryName(const String\&) method
 
 
 Returns the name of the directory referenced by the specified path.

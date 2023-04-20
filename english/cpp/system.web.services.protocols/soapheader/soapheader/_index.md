@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.web.services.protocols/soapheader/soapheader/
 ---
-## SoapHeader::SoapHeader([System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlElement](../../../system.xml/xmlelement/)\>) constructor
+## SoapHeader::SoapHeader(System::SharedPtr\<Xml::XmlElement\>) constructor
 
 
 Constructs a new instance.

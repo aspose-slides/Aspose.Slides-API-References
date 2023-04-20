@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/iglittertransition/set_direction/
 ---
-## IGlitterTransition::set_Direction([TransitionSideDirectionType](../../transitionsidedirectiontype/)) method
+## IGlitterTransition::set_Direction(TransitionSideDirectionType) method
 
 
 Direction of transition. Write [TransitionSideDirectionType](../../transitionsidedirectiontype/).

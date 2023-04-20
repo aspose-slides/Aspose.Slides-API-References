@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.drawing/rectanglef/union/
 ---
-## RectangleF::Union(const [RectangleF](../)\&, const [RectangleF](../)\&) method
+## RectangleF::Union(const RectangleF\&, const RectangleF\&) method
 
 
 Returns a rectangle that is a result of union of the specified rectangles.
@@ -29,7 +29,6 @@ The result of union of **a** with **b**
 
 ## See Also
 
-* Class [RectangleF](../)
 * Class [RectangleF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iformatfactory/
 Allows to create formats via COM interface.
 
 ```cpp
-class IFormatFactory : public System::Object
+class IFormatFactory : public virtual System::Object
 ```
 
 ## Methods

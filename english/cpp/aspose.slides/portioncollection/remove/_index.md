@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/portioncollection/remove/
 ---
-## PortionCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IPortion](../../iportion/)\>) method
+## PortionCollection::Remove(System::SharedPtr\<IPortion\>) method
 
 
 Removes the first occurrence of a specific object from the [ICollection](../../../system.collections.generic/icollection/).

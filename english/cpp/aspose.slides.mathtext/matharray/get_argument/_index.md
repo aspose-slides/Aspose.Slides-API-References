@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.mathtext/matharray/get_argument/
 ---
-## MathArray::get_Argument(**int32_t**) method
+## MathArray::get_Argument(int32_t) method
 
 
 Returns item at the specified index of the array. Read-only [Aspose::Slides::MathText::IMathElement](../../imathelement/).

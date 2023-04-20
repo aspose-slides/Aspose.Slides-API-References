@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_equal/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator=(const [MulticastDelegate](../multicastdelegate/)\&) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator=(const MulticastDelegate\&) method
 
 
 Assigns the collection of delegates represented by the specified object to the current object. As a result both objects point to the same collection of delegates.
@@ -22,12 +22,7 @@ MulticastDelegate & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::ope
 | --- | --- | --- |
 | o | const [MulticastDelegate](../multicastdelegate/)\& | An instance of MulticastDelegate class containing the collection of delegates to be assigned to the current object. |
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator=([MulticastDelegate](../multicastdelegate/)\&&) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator=(MulticastDelegate\&&) method
 
 
 Moving assignment operator.
@@ -45,6 +40,7 @@ MulticastDelegate & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::ope
 
 ## See Also
 
+* Method [MulticastDelegate](../multicastdelegate/)
 * Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.net/cookie/internalsetname/
 ---
-## Cookie::InternalSetName([String](../../../system/string/)) method
+## Cookie::InternalSetName(String) method
 
 
 This method is called by other methods to set a method name.

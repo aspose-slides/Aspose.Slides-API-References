@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlimplementation/hasfeature/
 ---
-## XmlImplementation::HasFeature(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlImplementation::HasFeature(const String\&, const String\&) method
 
 
 Tests if the Document [Object](../../../system/object/) Model (DOM) implementation implements a specific feature.

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml/xmlwriter/writeprocessinginstruction/
 ---
-## XmlWriter::WriteProcessingInstruction([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlWriter::WriteProcessingInstruction(String, String) method
 
 
 When overridden in a derived class, writes out a processing instruction with a space between the name and text as follows: **<?name text?>**.

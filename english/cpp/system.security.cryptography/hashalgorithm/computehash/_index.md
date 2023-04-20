@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/hashalgorithm/computehash/
 ---
-## HashAlgorithm::ComputeHash(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) method
+## HashAlgorithm::ComputeHash(const ArrayPtr\<uint8_t\>\&) method
 
 
 Hashes buffer.
@@ -26,13 +26,7 @@ ArrayPtr<uint8_t> System::Security::Cryptography::HashAlgorithm::ComputeHash(con
 
 Calculated hash value.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [HashAlgorithm](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## HashAlgorithm::ComputeHash(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, int, int) method
+## HashAlgorithm::ComputeHash(const ArrayPtr\<uint8_t\>\&, int, int) method
 
 
 Hashes buffer slice.
@@ -54,13 +48,7 @@ ArrayPtr<uint8_t> System::Security::Cryptography::HashAlgorithm::ComputeHash(con
 
 Calculated hash value.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [HashAlgorithm](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## HashAlgorithm::ComputeHash([SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> const\&) method
+## HashAlgorithm::ComputeHash(SharedPtr\<IO::Stream\> const\&) method
 
 
 Reads stream until end and calculates hash for the data read.
@@ -84,7 +72,7 @@ Calculated hash value for the whole stream data.
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
 * Class [HashAlgorithm](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

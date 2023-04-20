@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/system.xml.xpath/xpathnavigator/compile/
 ---
-## XPathNavigator::Compile([String](../../../system/string/)) method
+## XPathNavigator::Compile(String) method
 
 
 Compiles a string representing an [XPath](../../) expression and returns an [XPathExpression](../../xpathexpression/) object.

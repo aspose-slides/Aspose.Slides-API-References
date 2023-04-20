@@ -15,13 +15,7 @@ Returns the string representation of the value represented by the object.
 String System::Decimal::ToString() const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## Decimal::ToString(const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Converts current object to string using the culture-specific format information.
@@ -41,15 +35,7 @@ String System::Decimal::ToString(const SharedPtr<IFormatProvider> &provider) con
 
 The string representation of the current object.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## Decimal::ToString(const SharedPtr\<Globalization::CultureInfo\>\&) const method
 
 
 
@@ -58,15 +44,7 @@ The string representation of the current object.
 String System::Decimal::ToString(const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) const method
+## Decimal::ToString(const SharedPtr\<Globalization::NumberFormatInfo\>\&) const method
 
 
 
@@ -75,15 +53,7 @@ String System::Decimal::ToString(const SharedPtr<Globalization::CultureInfo> &cu
 String System::Decimal::ToString(const SharedPtr<Globalization::NumberFormatInfo> &nfi) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [Decimal](../)\&, std::nullptr_t) const method
+## Decimal::ToString(const Decimal\&, std::nullptr_t) const method
 
 
 
@@ -92,14 +62,7 @@ String System::Decimal::ToString(const SharedPtr<Globalization::NumberFormatInfo
 String System::Decimal::ToString(const Decimal &value, std::nullptr_t) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## Decimal::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Converts current object to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -120,15 +83,7 @@ String System::Decimal::ToString(const String &format, const SharedPtr<IFormatPr
 
 The string representation of the current object.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## Decimal::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
 
 
 
@@ -137,15 +92,7 @@ The string representation of the current object.
 String System::Decimal::ToString(const String &format, const SharedPtr<Globalization::CultureInfo> &culture) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) const method
+## Decimal::ToString(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) const method
 
 
 
@@ -154,15 +101,7 @@ String System::Decimal::ToString(const String &format, const SharedPtr<Globaliza
 String System::Decimal::ToString(const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi) const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::ToString(const [String](../../string/)\&, std::nullptr_t) const method
+## Decimal::ToString(const String\&, std::nullptr_t) const method
 
 
 
@@ -173,7 +112,11 @@ String System::Decimal::ToString(const String &format, std::nullptr_t=nullptr) c
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [String](../../string/)
 * Class [Decimal](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

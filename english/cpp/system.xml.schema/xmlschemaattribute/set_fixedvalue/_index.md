@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemaattribute/set_fixedvalue/
 ---
-## XmlSchemaAttribute::set_FixedValue(const [String](../../../system/string/)\&) method
+## XmlSchemaAttribute::set_FixedValue(const String\&) method
 
 
 Sets the fixed value for the attribute.

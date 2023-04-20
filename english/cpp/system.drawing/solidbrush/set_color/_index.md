@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing/solidbrush/set_color/
 ---
-## SolidBrush::set_Color([Color](../../color/)) method
+## SolidBrush::set_Color(Color) method
 
 
 Sets the color of this brush.

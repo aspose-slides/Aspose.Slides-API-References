@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.slides.charts/axis/set_isautomaticminvalue/
 ---
-## Axis::set_IsAutomaticMinValue(**bool**) method
+## Axis::set_IsAutomaticMinValue(bool) method
 
 
 Indicates whether the min value is automatically assigned. Write **bool**.

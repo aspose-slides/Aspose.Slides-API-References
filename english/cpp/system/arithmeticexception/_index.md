@@ -3,7 +3,7 @@ title: ArithmeticException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3420
+weight: 2640
 url: /cpp/system/arithmeticexception/
 ---
 ## ArithmeticException typedef

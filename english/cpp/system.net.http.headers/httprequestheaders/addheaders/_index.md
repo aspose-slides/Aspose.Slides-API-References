@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/system.net.http.headers/httprequestheaders/addheaders/
 ---
-## HttpRequestHeaders::AddHeaders([System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\>) method
+## HttpRequestHeaders::AddHeaders(System::SharedPtr\<HttpHeaders\>) method
 
 
 Concatenates the specified HttpHeaders-class instance with the current one.

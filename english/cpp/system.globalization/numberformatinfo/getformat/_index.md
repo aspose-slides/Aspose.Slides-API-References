@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system.globalization/numberformatinfo/getformat/
 ---
-## NumberFormatInfo::GetFormat(const [TypeInfo](../../../system/typeinfo/)\&) method
+## NumberFormatInfo::GetFormat(const TypeInfo\&) method
 
 
 Gets formatter of specific type.

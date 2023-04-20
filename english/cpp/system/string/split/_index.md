@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/system/string/split/
 ---
-## String::Split(char_t, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(char_t, StringSplitOptions) const method
 
 
 Splits string by character.
@@ -27,15 +27,7 @@ ArrayPtr<String> System::String::Split(char_t separator=u' ', StringSplitOptions
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(char_t, **int32_t**, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(char_t, int32_t, StringSplitOptions) const method
 
 
 Splits string by character.
@@ -57,15 +49,7 @@ ArrayPtr<String> System::String::Split(char_t separator, int32_t count, StringSp
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(char_t, char_t, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(char_t, char_t, StringSplitOptions) const method
 
 
 Splits string by one of two characters.
@@ -87,15 +71,7 @@ ArrayPtr<String> System::String::Split(char_t separatorA, char_t separatorB, Str
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(const [ArrayPtr](../../arrayptr/)\<char_t\>\&, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(const ArrayPtr\<char_t\>\&, StringSplitOptions) const method
 
 
 Splits string by one of characters specified.
@@ -116,15 +92,7 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<char_t> &separators, Strin
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(const [ArrayPtr](../../arrayptr/)\<char_t\>\&, **int32_t**, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(const ArrayPtr\<char_t\>\&, int32_t, StringSplitOptions) const method
 
 
 Splits string by one of characters specified.
@@ -146,15 +114,7 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<char_t> &separators, int32
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(const [String](../)\&, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(const String\&, StringSplitOptions) const method
 
 
 Splits string by substring.
@@ -175,15 +135,7 @@ ArrayPtr<String> System::String::Split(const String &separator, StringSplitOptio
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(const [String](../)\&, int, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(const String\&, int, StringSplitOptions) const method
 
 
 Splits string by substring.
@@ -205,15 +157,7 @@ ArrayPtr<String> System::String::Split(const String &separator, int count, Strin
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(const [ArrayPtr](../../arrayptr/)\<[String](../)\>\&, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(const ArrayPtr\<String\>\&, StringSplitOptions) const method
 
 
 Splits string by substring.
@@ -234,15 +178,7 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<String> &separators, Strin
 
 [Array](../../array/) of substrings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Enum [StringSplitOptions](../../stringsplitoptions/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Split(const [ArrayPtr](../../arrayptr/)\<[String](../)\>\&, int, [StringSplitOptions](../../stringsplitoptions/)) const method
+## String::Split(const ArrayPtr\<String\>\&, int, StringSplitOptions) const method
 
 
 Splits string by substring. Currently, only supports separators array of zero or one elements.
@@ -266,9 +202,8 @@ ArrayPtr<String> System::String::Split(const ArrayPtr<String> &separators, int c
 
 ## See Also
 
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
 * Enum [StringSplitOptions](../../stringsplitoptions/)
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.diagnostics/stacktrace/getframe/
 ---
-## StackTrace::GetFrame(**uint32_t**) method
+## StackTrace::GetFrame(uint32_t) method
 
 
 Gets stack frame.

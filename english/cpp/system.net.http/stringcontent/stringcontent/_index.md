@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net.http/stringcontent/stringcontent/
 ---
-## StringContent::StringContent([String](../../../system/string/)) constructor
+## StringContent::StringContent(String) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::StringContent::StringContent(String content)
 | --- | --- | --- |
 | content | [String](../../../system/string/) | HTTP content. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringContent](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## StringContent::StringContent([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>) constructor
+## StringContent::StringContent(String, System::SharedPtr\<Text::Encoding\>) constructor
 
 
 Constructs a new instance.
@@ -45,15 +39,7 @@ System::Net::Http::StringContent::StringContent(String content, System::SharedPt
 | content | [String](../../../system/string/) | HTTP content. |
 | encoding | [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\> | The encoding of HTTP content. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoding](../../../system.text/encoding/)
-* Class [StringContent](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## StringContent::StringContent([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>, [String](../../../system/string/)) constructor
+## StringContent::StringContent(String, System::SharedPtr\<Text::Encoding\>, String) constructor
 
 
 Constructs a new instance.
@@ -73,9 +59,9 @@ System::Net::Http::StringContent::StringContent(String content, System::SharedPt
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoding](../../../system.text/encoding/)
+* Class [String](../../../system/string/)
 * Class [StringContent](../)
+* Class [Encoding](../../../system.text/encoding/)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

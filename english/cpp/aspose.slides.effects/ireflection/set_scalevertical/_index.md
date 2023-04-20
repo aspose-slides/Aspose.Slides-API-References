@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides.effects/ireflection/set_scalevertical/
 ---
-## IReflection::set_ScaleVertical(**double**) method
+## IReflection::set_ScaleVertical(double) method
 
 
 Specifies the vertical scaling factor, negative scaling causes a flip. (percents) Write **double**.

@@ -27,12 +27,7 @@ static bool System::Char::IsSurrogatePair(char_t highSurrogate, char_t lowSurrog
 
 True if the specified characters form a surrogate pair, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Char::IsSurrogatePair(const [String](../../string/)\&, int) method
+## Char::IsSurrogatePair(const String\&, int) method
 
 
 Determines whether two consequent characters in the specified character buffer are a surrogate pair.
@@ -55,7 +50,7 @@ True if the specified characters are a surrogate pair, otherwise - false
 
 ## See Also
 
-* Class [String](../../string/)
 * Class [Char](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/char/tryparse/
 ---
-## Char::TryParse(const [System::String](../../string/)\&, char_t\&) method
+## Char::TryParse(const System::String\&, char_t\&) method
 
 
 Tries to convert a string consisting of a single character into UTF-16 character. The function succeeds only when input string is not null and has length of exactly one character.

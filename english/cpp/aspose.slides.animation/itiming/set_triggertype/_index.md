@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides.animation/itiming/set_triggertype/
 ---
-## ITiming::set_TriggerType([EffectTriggerType](../../effecttriggertype/)) method
+## ITiming::set_TriggerType(EffectTriggerType) method
 
 
 Describes trigger type. Write [EffectTriggerType](../../effecttriggertype/).

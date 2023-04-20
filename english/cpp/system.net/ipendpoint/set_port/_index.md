@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/ipendpoint/set_port/
 ---
-## IPEndPoint::set_Port(**int32_t**) method
+## IPEndPoint::set_Port(int32_t) method
 
 
 Sets the port number.

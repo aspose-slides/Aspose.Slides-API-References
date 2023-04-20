@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/audiocollection/copyto/
 ---
-## AudioCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../iaudio/)\>\>, **int32_t**) method
+## AudioCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IAudio\>\>, int32_t) method
 
 
 Copies audios to specified array starting from specified index.

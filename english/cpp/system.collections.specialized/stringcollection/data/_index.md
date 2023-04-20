@@ -20,12 +20,6 @@ std::vector<System::String> & System::Collections::Specialized::StringCollection
 
 Reference to internal data structure.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringCollection](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
 ## StringCollection::data() const method
 
 

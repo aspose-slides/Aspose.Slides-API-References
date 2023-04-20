@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic.details/grouping/grouping/
 ---
-## Grouping::Grouping(Key, [System::Func](../../../system/func/)\<**bool**\>) constructor
+## Grouping::Grouping(Key, System::Func\<bool\>) constructor
 
 
 

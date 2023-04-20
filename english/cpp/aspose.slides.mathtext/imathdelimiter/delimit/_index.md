@@ -39,6 +39,5 @@ delimiter->Delimit(u'|');
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathDelimiter](../)
-* Class [IMathDelimiter](../)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

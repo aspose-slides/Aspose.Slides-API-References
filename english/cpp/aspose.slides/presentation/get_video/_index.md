@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.slides/presentation/get_video/
 ---
-## Presentation::get_Video(**int32_t**) method
+## Presentation::get_Video(int32_t) method
 
 
 Return embedded video file in the presentation at the specified index. Read-only [Aspose::Slides::IVideo](../../ivideo/)

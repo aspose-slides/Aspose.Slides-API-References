@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system/uri/hexunescape/
 ---
-## Uri::HexUnescape(const [String](../../string/)\&, **int32_t**\&) method
+## Uri::HexUnescape(const String\&, int32_t\&) method
 
 
 Converts the specified hexadecimal representation of a character to a character.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.effects/presetshadow/equals/
 ---
-## PresetShadow::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## PresetShadow::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [PresetShadow](../) is equal to the current [PresetShadow](../).

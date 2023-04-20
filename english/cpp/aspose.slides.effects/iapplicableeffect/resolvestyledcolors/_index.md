@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.effects/iapplicableeffect/resolvestyledcolors/
 ---
-## IApplicableEffect::ResolveStyledColors([System::SharedPtr](../../../system/sharedptr/)\<[IBaseSlide](../../../aspose.slides/ibaseslide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[StyleColorEffectiveData](../../../aspose.slides/stylecoloreffectivedata/)\>) method
+## IApplicableEffect::ResolveStyledColors(System::SharedPtr\<IBaseSlide\>, System::SharedPtr\<StyleColorEffectiveData\>) method
 
 
 

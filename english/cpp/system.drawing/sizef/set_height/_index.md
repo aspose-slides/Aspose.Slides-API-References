@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.drawing/sizef/set_height/
 ---
-## SizeF::set_Height(**float**) method
+## SizeF::set_Height(float) method
 
 
 Sets the value of height represented by the current object.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/icoloreffect/set_from/
 ---
-## IColorEffect::set_From([System::SharedPtr](../../../system/sharedptr/)\<[IColorFormat](../../../aspose.slides/icolorformat/)\>) method
+## IColorEffect::set_From(System::SharedPtr\<IColorFormat\>) method
 
 
 This value is used to specify the starting color of behavior. Write [IColorFormat](../../../aspose.slides/icolorformat/).

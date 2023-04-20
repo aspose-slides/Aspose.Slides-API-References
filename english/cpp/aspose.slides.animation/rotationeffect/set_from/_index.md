@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/rotationeffect/set_from/
 ---
-## RotationEffect::set_From(**float**) method
+## RotationEffect::set_From(float) method
 
 
 Describes the starting value for the animation. Write **float**.

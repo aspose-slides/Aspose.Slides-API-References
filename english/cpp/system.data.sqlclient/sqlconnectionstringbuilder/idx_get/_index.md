@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.data.sqlclient/sqlconnectionstringbuilder/idx_get/
 ---
-## SqlConnectionStringBuilder::idx_get([String](../../../system/string/)) method
+## SqlConnectionStringBuilder::idx_get(String) method
 
 
 RTTI information.

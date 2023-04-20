@@ -20,12 +20,6 @@ iterator System::Collections::Generic::IEnumerable<T>::begin()
 
 An iterator pointing to the first element (if any) of the collection
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## IEnumerable::begin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the first element (if any) of the const-qualified instan
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)

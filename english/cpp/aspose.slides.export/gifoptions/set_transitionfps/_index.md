@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.export/gifoptions/set_transitionfps/
 ---
-## GifOptions::set_TransitionFps(**int32_t**) method
+## GifOptions::set_TransitionFps(int32_t) method
 
 
 Sets transition FPS [frames/sec] The default value is 25.

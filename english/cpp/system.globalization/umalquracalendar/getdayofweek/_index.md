@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.globalization/umalquracalendar/getdayofweek/
 ---
-## UmAlQuraCalendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## UmAlQuraCalendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

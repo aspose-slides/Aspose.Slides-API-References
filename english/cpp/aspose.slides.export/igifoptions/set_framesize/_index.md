@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/igifoptions/set_framesize/
 ---
-## IGifOptions::set_FrameSize([System::Drawing::Size](../../../system.drawing/size/)) method
+## IGifOptions::set_FrameSize(System::Drawing::Size) method
 
 
 Sets frame size.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/webrequest/createdefault/
 ---
-## WebRequest::CreateDefault([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## WebRequest::CreateDefault(System::SharedPtr\<Uri\>) method
 
 
 Creates a [WebRequest](../) descendant for the specified URI scheme.
@@ -31,6 +31,5 @@ A newly created WebRequest-class instance.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [WebRequest](../)
 * Class [Uri](../../../system/uri/)
-* Class [WebRequest](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

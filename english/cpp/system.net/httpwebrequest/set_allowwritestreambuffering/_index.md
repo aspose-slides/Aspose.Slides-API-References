@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/system.net/httpwebrequest/set_allowwritestreambuffering/
 ---
-## HttpWebRequest::set_AllowWriteStreamBuffering(**bool**) method
+## HttpWebRequest::set_AllowWriteStreamBuffering(bool) method
 
 
 Sets a value that indicates if buffering is enabled for sending data.

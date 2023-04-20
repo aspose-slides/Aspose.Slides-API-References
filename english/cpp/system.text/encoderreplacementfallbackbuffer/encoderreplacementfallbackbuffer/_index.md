@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.text/encoderreplacementfallbackbuffer/encoderreplacementfallbackbuffer/
 ---
-## EncoderReplacementFallbackBuffer::EncoderReplacementFallbackBuffer(const [EncoderReplacementFallbackPtr](../../../system/encoderreplacementfallbackptr/)\&) constructor
+## EncoderReplacementFallbackBuffer::EncoderReplacementFallbackBuffer(const EncoderReplacementFallbackPtr\&) constructor
 
 
 Constructor.

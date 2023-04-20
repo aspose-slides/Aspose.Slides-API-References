@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.threading/threadpoolimpl/queueuserworkitem/
 ---
-## ThreadPoolImpl::QueueUserWorkItem([WaitCallback](../../waitcallback/), const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## ThreadPoolImpl::QueueUserWorkItem(WaitCallback, const System::SharedPtr\<System::Object\>\&) method
 
 
 Adds work item to queue.

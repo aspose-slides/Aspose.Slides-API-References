@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemainfo/set_isnil/
 ---
-## XmlSchemaInfo::set_IsNil(**bool**) method
+## XmlSchemaInfo::set_IsNil(bool) method
 
 
 Sets a value indicating if the value for this validated XML node is **nil**.

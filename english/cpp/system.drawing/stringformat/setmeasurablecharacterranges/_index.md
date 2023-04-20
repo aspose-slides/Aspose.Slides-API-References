@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.drawing/stringformat/setmeasurablecharacterranges/
 ---
-## StringFormat::SetMeasurableCharacterRanges(const [ArrayPtr](../../../system/arrayptr/)\<[CharacterRange](../../characterrange/)\>\&) method
+## StringFormat::SetMeasurableCharacterRanges(const ArrayPtr\<CharacterRange\>\&) method
 
 
 Sets an array of [CharacterRange](../../characterrange/) objects that represent the chracter ranges measured by a call to the MeasureCharacterRanges() method.

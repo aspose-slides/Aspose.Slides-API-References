@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.diagnostics/tracelistener/writeline/
 ---
-## TraceListener::WriteLine([System::String](../../../system/string/)) method
+## TraceListener::WriteLine(System::String) method
 
 
 Writes line to debugger.

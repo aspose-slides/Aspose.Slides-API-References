@@ -6,7 +6,7 @@ type: docs
 weight: 976
 url: /cpp/aspose.slides.charts/axis/set_tickmarksspacing/
 ---
-## Axis::set_TickMarksSpacing(**uint32_t**) method
+## Axis::set_TickMarksSpacing(uint32_t) method
 
 
 Specifies how many tick marks shall be skipped before the next one shall be drawn. Applied to category or series axis. Write **uint16_t**.

@@ -3,10 +3,10 @@ title: operator+()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns a new instance of Decimal class that represents a value that is a sum of the specified value and the value represented by the specified Decimal object.
 type: docs
-weight: 2016
+weight: 1860
 url: /cpp/system/operator_plus/
 ---
-## System::operator+(const T\&, const [Decimal](../decimal/)\&) function
+## System::operator+(const T\&, const Decimal\&) function
 
 
 Returns a new instance of [Decimal](../decimal/) class that represents a value that is a sum of the specified value and the value represented by the specified [Decimal](../decimal/) object.
@@ -27,12 +27,28 @@ template<typename T,typename _> Decimal System::operator+(const T &x, const Deci
 
 A new instance of [Decimal](../decimal/) class that represents a value that is a sum of **x** and the value represented by the **d**.
 
-## See Also
+## System::operator+(MulticastDelegate\<T\>, MulticastDelegate\<T\>) function
 
-* Class [Decimal](../decimal/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator+(const T1\&, const [Nullable](../nullable/)\<T2\>\&) function
+
+Connects all callbacks from right hand delegate to the end of left hand delegate callback list.
+
+```cpp
+template<typename T> MulticastDelegate<T> System::operator+(MulticastDelegate<T> lhv, MulticastDelegate<T> rhv)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| lhv | MulticastDelegate\<T\> | The delegate to which callbacks are added. |
+| rhv | MulticastDelegate\<T\> | The delegate whose callbacks are being added. |
+
+### Return Value
+
+Returns a delegate that contains the callbacks of the left hand value and then the right hand ones.
+
+## System::operator+(const T1\&, const Nullable\<T2\>\&) function
 
 
 Sums non-nullable and nullable values.
@@ -60,12 +76,7 @@ template<typename T1,typename T2,typename> auto System::operator+(const T1 &some
 
 Summing result.
 
-## See Also
-
-* Class [Nullable](../nullable/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator+(T\&, const [String](../string/)\&) function
+## System::operator+(T\&, const String\&) function
 
 
 [String](../string/) concatenation.
@@ -92,13 +103,7 @@ template<typename T> std::enable_if<IsStringLiteral<T, char_t>::value, String>::
 
 Concatenated string.
 
-## See Also
-
-* Struct [IsStringLiteral](../isstringliteral/)
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator+(T\&, const [String](../string/)\&) function
+## System::operator+(T\&, const String\&) function
 
 
 [String](../string/) concatenation.
@@ -125,13 +130,7 @@ template<typename T> std::enable_if<IsStringPointer<T, char_t>::value, String>::
 
 Concatenated string.
 
-## See Also
-
-* Struct [IsStringPointer](../isstringpointer/)
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator+(const char_t, const [String](../string/)\&) function
+## System::operator+(const char_t, const String\&) function
 
 
 [String](../string/) concatenation.
@@ -154,6 +153,10 @@ Concatenated string.
 
 ## See Also
 
+* Class [Decimal](../decimal/)
+* Class [Nullable](../nullable/)
 * Class [String](../string/)
+* Struct [IsStringLiteral](../isstringliteral/)
+* Struct [IsStringPointer](../isstringpointer/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

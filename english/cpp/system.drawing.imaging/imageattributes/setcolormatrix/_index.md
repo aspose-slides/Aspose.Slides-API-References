@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing.imaging/imageattributes/setcolormatrix/
 ---
-## ImageAttributes::SetColorMatrix(const [SharedPtr](../../../system/sharedptr/)\<[ColorMatrix](../../colormatrix/)\>\&, [ColorMatrixFlag](../../colormatrixflag/), [ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::SetColorMatrix(const SharedPtr\<ColorMatrix\>\&, ColorMatrixFlag, ColorAdjustType) method
 
 
 Sets the color-adjustment matrix.
@@ -26,10 +26,10 @@ void System::Drawing::Imaging::ImageAttributes::SetColorMatrix(const SharedPtr<C
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ColorMatrix](../../colormatrix/)
 * Enum [ColorMatrixFlag](../../colormatrixflag/)
 * Enum [ColorAdjustType](../../coloradjusttype/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [ColorMatrix](../../colormatrix/)
 * Class [ImageAttributes](../)
 * Namespace [System::Drawing::Imaging](../../)
 * Library [Aspose.Slides](../../../)

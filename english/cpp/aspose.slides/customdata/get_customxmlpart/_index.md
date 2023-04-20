@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/customdata/get_customxmlpart/
 ---
-## CustomData::get_CustomXmlPart(**int32_t**) method
+## CustomData::get_CustomXmlPart(int32_t) method
 
 
 Returns the custom XML part at the specified index.

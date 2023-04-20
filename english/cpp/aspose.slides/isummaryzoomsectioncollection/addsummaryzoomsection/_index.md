@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/isummaryzoomsectioncollection/addsummaryzoomsection/
 ---
-## ISummaryZoomSectionCollection::AddSummaryZoomSection([System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>) method
+## ISummaryZoomSectionCollection::AddSummaryZoomSection(System::SharedPtr\<ISection\>) method
 
 
 Creates new Summary Zoom [Section](../../section/) object and add it to the collection

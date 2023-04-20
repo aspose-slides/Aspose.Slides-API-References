@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic/icomparer/compare/
 ---
-## IComparer::Compare([args_type](../args_type/), [args_type](../args_type/)) const method
+## IComparer::Compare(args_type, args_type) const method
 
 
 [Comparison](../../../system/comparison/) function.

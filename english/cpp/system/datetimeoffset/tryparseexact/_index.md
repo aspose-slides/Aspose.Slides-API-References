@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system/datetimeoffset/tryparseexact/
 ---
-## DateTimeOffset::TryParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/), [DateTimeOffset](../)\&) method
+## DateTimeOffset::TryParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles, DateTimeOffset\&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object using the specified formats, format provider and formatting style.
@@ -30,18 +30,7 @@ static bool System::DateTimeOffset::TryParseExact(const String &input, const Arr
 
 true if the **input** converted successfully, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::TryParseExact(const [String](../../string/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/), [DateTimeOffset](../)\&) method
+## DateTimeOffset::TryParseExact(const String\&, const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles, DateTimeOffset\&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object using the specified format, format provider and formatting style.
@@ -67,11 +56,11 @@ true if the **input** converted successfully, otherwise - false.
 
 ## See Also
 
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
 * Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTimeOffset](../)
+* Typedef [ArrayPtr](../../arrayptr/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
+* Class [IFormatProvider](../../iformatprovider/)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

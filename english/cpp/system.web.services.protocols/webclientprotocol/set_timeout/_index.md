@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.web.services.protocols/webclientprotocol/set_timeout/
 ---
-## WebClientProtocol::set_Timeout(**int32_t**) method
+## WebClientProtocol::set_Timeout(int32_t) method
 
 
 Sets the timespan to wait before the request times out.

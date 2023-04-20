@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net/cookieparser/cookieparser/
 ---
-## CookieParser::CookieParser([String](../../../system/string/)) constructor
+## CookieParser::CookieParser(String) constructor
 
 
 Constructs a new instance.

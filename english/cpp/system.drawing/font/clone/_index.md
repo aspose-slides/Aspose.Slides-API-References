@@ -19,6 +19,5 @@ SharedPtr<Font> System::Drawing::Font::Clone()
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Font](../)
-* Class [Font](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

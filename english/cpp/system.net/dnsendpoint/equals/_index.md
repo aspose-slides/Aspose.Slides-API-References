@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/dnsendpoint/equals/
 ---
-## DnsEndPoint::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## DnsEndPoint::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/sortversion/sortversion/
 ---
-## SortVersion::SortVersion(int, const [Guid](../../../system/guid/)\&) constructor
+## SortVersion::SortVersion(int, const Guid\&) constructor
 
 
 RTTI information.
@@ -26,13 +26,7 @@ System::Globalization::SortVersion::SortVersion(int full_version, const Guid &so
 
 
 Constructor. 
-## See Also
-
-* Class [Guid](../../../system/guid/)
-* Class [SortVersion](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## SortVersion::SortVersion(const [SortVersion](../)\&) constructor
+## SortVersion::SortVersion(const SortVersion\&) constructor
 
 
 
@@ -43,7 +37,7 @@ System::Globalization::SortVersion::SortVersion(const SortVersion &)=delete
 
 ## See Also
 
-* Class [SortVersion](../)
+* Class [Guid](../../../system/guid/)
 * Class [SortVersion](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

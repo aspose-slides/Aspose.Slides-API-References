@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing/colortranslator/fromhtml/
 ---
-## ColorTranslator::FromHtml(const [System::String](../../../system/string/)\&) method
+## ColorTranslator::FromHtml(const System::String\&) method
 
 
 Converts the specified HTML color representation to the equvivalent [Color](../../color/) object.

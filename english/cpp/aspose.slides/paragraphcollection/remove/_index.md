@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/paragraphcollection/remove/
 ---
-## ParagraphCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>) method
+## ParagraphCollection::Remove(System::SharedPtr\<IParagraph\>) method
 
 
 Removes the first occurrence of a specific object from the [ICollection](../../../system.collections.generic/icollection/).

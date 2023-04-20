@@ -23,11 +23,6 @@ System::Collections::Generic::DictionaryIterator<Dict>::DictionaryIterator(typen
 | iterator | typename Dict::map_t::const_iterator\&& | Iterator to hold. |
 | end | typename Dict::map_t::const_iterator\&& | Iterator to the end of the container. |
 
-## See Also
-
-* Class [DictionaryIterator](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## DictionaryIterator::DictionaryIterator(const typename Dict::map_t::const_iterator\&, const typename Dict::map_t::const_iterator\&) constructor
 
 
@@ -45,12 +40,7 @@ System::Collections::Generic::DictionaryIterator<Dict>::DictionaryIterator(const
 | iterator | const typename Dict::map_t::const_iterator\& | Iterator to hold. |
 | end | const typename Dict::map_t::const_iterator\& | Iterator to the end of the container. |
 
-## See Also
-
-* Class [DictionaryIterator](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## DictionaryIterator::DictionaryIterator([DictionaryIterator](../)\&&) constructor
+## DictionaryIterator::DictionaryIterator(DictionaryIterator\&&) constructor
 
 
 Move constructor.
@@ -68,7 +58,6 @@ System::Collections::Generic::DictionaryIterator<Dict>::DictionaryIterator(Dicti
 
 ## See Also
 
-* Class [DictionaryIterator](../)
 * Class [DictionaryIterator](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

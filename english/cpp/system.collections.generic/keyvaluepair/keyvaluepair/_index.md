@@ -15,11 +15,6 @@ Null key-value pair initializer.
 System::Collections::Generic::KeyValuePair<TKey, TValue>::KeyValuePair()
 ```
 
-## See Also
-
-* Class [KeyValuePair](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## KeyValuePair::KeyValuePair(const TKey\&, const TValue\&) constructor
 
 
@@ -37,11 +32,6 @@ System::Collections::Generic::KeyValuePair<TKey, TValue>::KeyValuePair(const TKe
 | key | const TKey\& | Key. |
 | value | const TValue\& | Value. |
 
-## See Also
-
-* Class [KeyValuePair](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## KeyValuePair::KeyValuePair(const std::pair\<OtherK, OtherV\>\&) constructor
 
 

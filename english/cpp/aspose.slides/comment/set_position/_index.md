@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/comment/set_position/
 ---
-## Comment::set_Position([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## Comment::set_Position(System::Drawing::PointF) method
 
 
 Sets the position of a comment on a slide. Write [System::Drawing::PointF](../../../system.drawing/pointf/).

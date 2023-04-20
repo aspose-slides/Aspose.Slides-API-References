@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/ifillformat/set_rotatewithshape/
 ---
-## IFillFormat::set_RotateWithShape([NullableBool](../../nullablebool/)) method
+## IFillFormat::set_RotateWithShape(NullableBool) method
 
 
 Determines whether the fill should be rotated with shape. Write [NullableBool](../../nullablebool/).

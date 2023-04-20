@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing/imageformatconverter/convertfrom/
 ---
-## ImageFormatConverter::ConvertFrom(const [SharedPtr](../../../system/sharedptr/)\<[ComponentModel::ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## ImageFormatConverter::ConvertFrom(const SharedPtr\<ComponentModel::ITypeDescriptorContext\>\&, const SharedPtr\<Globalization::CultureInfo\>\&, const SharedPtr\<Object\>\&) method
 
 
 Converts objects.

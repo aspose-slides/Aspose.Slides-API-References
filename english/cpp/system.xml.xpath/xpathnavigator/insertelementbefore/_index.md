@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /cpp/system.xml.xpath/xpathnavigator/insertelementbefore/
 ---
-## XPathNavigator::InsertElementBefore([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) method
+## XPathNavigator::InsertElementBefore(String, String, String, String) method
 
 
 Creates a new sibling element before the current node using the namespace prefix, local name, and namespace URI specified, with the value specified.

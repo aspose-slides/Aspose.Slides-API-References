@@ -27,11 +27,6 @@ static bool System::Char::IsSymbol(const char_t *str, int idx)
 
 True if the character at the specified index is a symbol character, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsSymbol(char_t) method
 
 

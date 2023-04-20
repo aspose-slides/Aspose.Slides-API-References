@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.drawing/size/ceiling/
 ---
-## Size::Ceiling(const [SizeF](../../sizef/)\&) method
+## Size::Ceiling(const SizeF\&) method
 
 
 Constructs a [Size](../) object from the specified [SizeF](../../sizef/) object by rounding the [SizeF](../../sizef/) object's width and height values to the next higher integer values.
@@ -30,6 +30,5 @@ A [Size](../) object constructed from **size**
 
 * Class [Size](../)
 * Class [SizeF](../../sizef/)
-* Class [Size](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.globalization/datetimeformatinfo/set_abbreviatedmonthnames/
 ---
-## DateTimeFormatInfo::set_AbbreviatedMonthNames(const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## DateTimeFormatInfo::set_AbbreviatedMonthNames(const ArrayPtr\<String\>\&) method
 
 
 Sets abbreviated month names.

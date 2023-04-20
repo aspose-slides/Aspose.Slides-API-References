@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/timezoneinfo/findsystemtimezonebyid/
 ---
-## TimeZoneInfo::FindSystemTimeZoneById(const [String](../../string/)\&) method
+## TimeZoneInfo::FindSystemTimeZoneById(const String\&) method
 
 
 Gets time zone with specified identifier.

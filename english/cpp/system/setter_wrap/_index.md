@@ -3,7 +3,7 @@ title: setter_wrap()
 second_title: Aspose.Slides for C++ API Reference
 description: Overload for static setter functions with type conversion.
 type: docs
-weight: 2419
+weight: 1860
 url: /cpp/system/setter_wrap/
 ---
 ## System::setter_wrap(void(*)(T2), T) function
@@ -34,10 +34,6 @@ template<typename T,typename T2> T System::setter_wrap(void(*pSetter)(T2), T val
 
 set value.
 
-## See Also
-
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::setter_wrap(Host *const, void(HostSet::*)(T2), T) function
 
 

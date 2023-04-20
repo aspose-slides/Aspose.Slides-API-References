@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides.mathtext/mathmatrix/getcolumnalignment/
 ---
-## MathMatrix::GetColumnAlignment(**int32_t**) method
+## MathMatrix::GetColumnAlignment(int32_t) method
 
 
 Get the horizontal alignment of the specified column

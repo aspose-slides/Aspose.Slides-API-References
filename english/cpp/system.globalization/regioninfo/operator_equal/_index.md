@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/regioninfo/operator_equal/
 ---
-## RegionInfo::operator=(const [RegionInfo](../)\&) method
+## RegionInfo::operator=(const RegionInfo\&) method
 
 
 
@@ -17,7 +17,6 @@ RegionInfo & System::Globalization::RegionInfo::operator=(const RegionInfo &)=de
 
 ## See Also
 
-* Class [RegionInfo](../)
 * Class [RegionInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

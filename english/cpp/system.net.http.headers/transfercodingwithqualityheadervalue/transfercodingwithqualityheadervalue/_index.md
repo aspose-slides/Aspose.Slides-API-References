@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TransferCodingWithQualityHeaderValue()
 ```
 
-## See Also
-
-* Class [TransferCodingWithQualityHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## TransferCodingWithQualityHeaderValue::TransferCodingWithQualityHeaderValue([String](../../../system/string/)) constructor
+## TransferCodingWithQualityHeaderValue::TransferCodingWithQualityHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -36,13 +31,7 @@ System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TransferCoding
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The header value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [TransferCodingWithQualityHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## TransferCodingWithQualityHeaderValue::TransferCodingWithQualityHeaderValue([String](../../../system/string/), **double**) constructor
+## TransferCodingWithQualityHeaderValue::TransferCodingWithQualityHeaderValue(String, double) constructor
 
 
 Constructs a new instance.
@@ -61,7 +50,7 @@ System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TransferCoding
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [TransferCodingWithQualityHeaderValue](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system/datetimeoffset/equals/
 ---
-## DateTimeOffset::Equals(const [DateTimeOffset](../)\&) const method
+## DateTimeOffset::Equals(const DateTimeOffset\&) const method
 
 
 Checks if two [DateTimeOffset](../) objects represents the same time point.
@@ -26,13 +26,7 @@ bool System::DateTimeOffset::Equals(const DateTimeOffset &other) const
 
 true if current object is equal to **other**, otherwise - false.
 
-## See Also
-
-* Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::Equals(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) const method
+## DateTimeOffset::Equals(const SharedPtr\<Object\>\&) const method
 
 
 Checks if two [DateTimeOffset](../) objects represents the same time point.
@@ -52,14 +46,7 @@ bool System::DateTimeOffset::Equals(const SharedPtr<Object> &obj) const
 
 true if current object is equal to **obj**, otherwise - false.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::Equals(const [DateTimeOffset](../)\&, const [DateTimeOffset](../)\&) method
+## DateTimeOffset::Equals(const DateTimeOffset\&, const DateTimeOffset\&) method
 
 
 Checks if two [DateTimeOffset](../) objects represent the same time point.
@@ -82,7 +69,8 @@ true if **first** is equal to **second**, otherwise - false.
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
+* Class [Object](../../object/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

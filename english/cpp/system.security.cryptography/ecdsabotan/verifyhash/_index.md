@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.security.cryptography/ecdsabotan/verifyhash/
 ---
-## ECDsaBotan::VerifyHash([ByteArrayPtr](../../../system/bytearrayptr/), [ByteArrayPtr](../../../system/bytearrayptr/)) method
+## ECDsaBotan::VerifyHash(ByteArrayPtr, ByteArrayPtr) method
 
 
 Checks data signature.

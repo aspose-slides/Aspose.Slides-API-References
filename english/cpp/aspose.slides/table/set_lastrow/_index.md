@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/table/set_lastrow/
 ---
-## Table::set_LastRow(**bool**) method
+## Table::set_LastRow(bool) method
 
 
 Determines whether the last row of a table has to be drawn with a special formatting. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.effects/iimagetransformoperationcollection/addblureffect/
 ---
-## IImageTransformOperationCollection::AddBlurEffect(**double**, **bool**) method
+## IImageTransformOperationCollection::AddBlurEffect(double, bool) method
 
 
 Adds the new [Blur](../../blur/) effect to the end of a collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.drawing.drawing2d/graphicspath/addclosedcurve/
 ---
-## GraphicsPath::AddClosedCurve(const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\&, **float**) method
+## GraphicsPath::AddClosedCurve(const ArrayPtr\<PointF\>\&, float) method
 
 
 Adds the specified closed curve to the path represented by the current object.
@@ -23,14 +23,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddClosedCurve(const ArrayPtr<Poi
 | points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | Points that specify the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddClosedCurve(const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\&, **float**) method
+## GraphicsPath::AddClosedCurve(const ArrayPtr\<Point\>\&, float) method
 
 
 Adds the specified closed curve to the path represented by the current object.
@@ -50,7 +43,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddClosedCurve(const ArrayPtr<Poi
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../../system.drawing/point/)
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [GraphicsPath](../)
+* Class [Point](../../../system.drawing/point/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

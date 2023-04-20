@@ -6,7 +6,7 @@ type: docs
 weight: 950
 url: /cpp/aspose.slides.charts/axis/set_isautomaticticklabelspacing/
 ---
-## Axis::set_IsAutomaticTickLabelSpacing(**bool**) method
+## Axis::set_IsAutomaticTickLabelSpacing(bool) method
 
 
 Specifies automatic tick label spacing value. If false: use TickLabelSpacing property. Write **bool**.

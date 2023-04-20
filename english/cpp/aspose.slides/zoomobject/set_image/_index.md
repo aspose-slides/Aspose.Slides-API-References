@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/zoomobject/set_image/
 ---
-## ZoomObject::set_Image([System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\>) method
+## ZoomObject::set_Image(System::SharedPtr\<IPPImage\>) method
 
 
 Sets image for zoom object. Write [IPPImage](../../ippimage/).

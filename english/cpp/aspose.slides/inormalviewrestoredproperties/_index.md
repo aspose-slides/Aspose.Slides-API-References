@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/inormalviewrestoredproperties/
 Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized).
 
 ```cpp
-class INormalViewRestoredProperties : public System::Object
+class INormalViewRestoredProperties : public virtual System::Object
 ```
 
 ## Methods

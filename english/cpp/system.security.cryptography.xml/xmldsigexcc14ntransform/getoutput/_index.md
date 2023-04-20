@@ -15,14 +15,7 @@ url: /cpp/system.security.cryptography.xml/xmldsigexcc14ntransform/getoutput/
 SharedPtr<Object> System::Security::Cryptography::Xml::XmlDsigExcC14NTransform::GetOutput() override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [XmlDsigExcC14NTransform](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDsigExcC14NTransform::GetOutput(const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlDsigExcC14NTransform::GetOutput(const TypeInfo\&) method
 
 
 
@@ -35,7 +28,7 @@ SharedPtr<Object> System::Security::Cryptography::Xml::XmlDsigExcC14NTransform::
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
-* Class [TypeInfo](../../../system/typeinfo/)
 * Class [XmlDsigExcC14NTransform](../)
+* Class [TypeInfo](../../../system/typeinfo/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

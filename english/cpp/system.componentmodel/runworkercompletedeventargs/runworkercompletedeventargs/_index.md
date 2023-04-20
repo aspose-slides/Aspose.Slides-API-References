@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.componentmodel/runworkercompletedeventargs/runworkercompletedeventargs/
 ---
-## RunWorkerCompletedEventArgs::RunWorkerCompletedEventArgs(const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&, const [System::Exception](../../../system/exception/)\&, **bool**) constructor
+## RunWorkerCompletedEventArgs::RunWorkerCompletedEventArgs(const System::SharedPtr\<System::Object\>\&, const System::Exception\&, bool) constructor
 
 
 Constructor.
@@ -27,8 +27,8 @@ System::ComponentModel::RunWorkerCompletedEventArgs::RunWorkerCompletedEventArgs
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Typedef [Exception](../../../system/exception/)
+* Class [Object](../../../system/object/)
 * Class [RunWorkerCompletedEventArgs](../)
 * Namespace [System::ComponentModel](../../)
 * Library [Aspose.Slides](../../../)

@@ -26,11 +26,6 @@ virtual int System::Globalization::Calendar::GetDaysInYear(int year) const
 
 Number of days in specified year.
 
-## See Also
-
-* Class [Calendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## Calendar::GetDaysInYear(int, int) const method
 
 

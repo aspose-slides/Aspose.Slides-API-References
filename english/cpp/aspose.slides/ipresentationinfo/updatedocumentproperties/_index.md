@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/ipresentationinfo/updatedocumentproperties/
 ---
-## IPresentationInfo::UpdateDocumentProperties([System::SharedPtr](../../../system/sharedptr/)\<[IDocumentProperties](../../idocumentproperties/)\>) method
+## IPresentationInfo::UpdateDocumentProperties(System::SharedPtr\<IDocumentProperties\>) method
 
 
 Updates properties of binded presentation.

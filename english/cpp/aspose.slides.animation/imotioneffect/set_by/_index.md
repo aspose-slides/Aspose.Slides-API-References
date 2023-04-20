@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/imotioneffect/set_by/
 ---
-## IMotionEffect::set_By([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## IMotionEffect::set_By(System::Drawing::PointF) method
 
 
 Describes the relative offset value for the animation (in percents). Write [System::Drawing::PointF](../../../system.drawing/pointf/).

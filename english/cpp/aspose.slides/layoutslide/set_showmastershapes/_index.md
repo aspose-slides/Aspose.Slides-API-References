@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/layoutslide/set_showmastershapes/
 ---
-## LayoutSlide::set_ShowMasterShapes(**bool**) method
+## LayoutSlide::set_ShowMasterShapes(bool) method
 
 
 Specifies if shapes on the master slide should be shown on slides or not. Write **bool**.

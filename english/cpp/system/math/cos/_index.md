@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system/math/cos/
 ---
-## Math::Cos(**double**) method
+## Math::Cos(double) method
 
 
 Calculates the cosine of the specified value.

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.text/encoding/getbytes/
 ---
-## Encoding::GetBytes([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int) method
+## Encoding::GetBytes(ArrayPtr\<char_t\>, int, int, ArrayPtr\<uint8_t\>, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -30,13 +30,7 @@ virtual int System::Text::Encoding::GetBytes(ArrayPtr<char_t> chars, int char_in
 
 Number of written bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetBytes(System::Details::ArrayView\<char_t\>, int, int, System::Details::ArrayView\<**uint8_t**\>, int) method
+## Encoding::GetBytes(System::Details::ArrayView\<char_t\>, int, int, System::Details::ArrayView\<uint8_t\>, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -60,12 +54,7 @@ virtual int System::Text::Encoding::GetBytes(System::Details::ArrayView<char_t> 
 
 Number of written bytes.
 
-## See Also
-
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetBytes(System::Details::StackArray\<char_t, SC\>\&, int, int, System::Details::StackArray\<**uint8_t**, SB\>\&, int) method
+## Encoding::GetBytes(System::Details::StackArray\<char_t, SC\>\&, int, int, System::Details::StackArray\<uint8_t, SB\>\&, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -89,12 +78,7 @@ template<std::size_t,std::size_t> int System::Text::Encoding::GetBytes(System::D
 
 Number of written bytes.
 
-## See Also
-
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetBytes(const [String](../../../system/string/)\&, int, int, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int) method
+## Encoding::GetBytes(const String\&, int, int, ArrayPtr\<uint8_t\>, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -118,14 +102,7 @@ virtual int System::Text::Encoding::GetBytes(const String &s, int char_index, in
 
 Number of written bytes.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetBytes(const [String](../../../system/string/)\&) method
+## Encoding::GetBytes(const String\&) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -145,14 +122,7 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(const String &s)
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetBytes([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int) method
+## Encoding::GetBytes(ArrayPtr\<char_t\>, int, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -174,12 +144,6 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(ArrayPtr<char_t> char
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## Encoding::GetBytes(const System::Details::ArrayView\<char_t\>\&, int, int) method
 
 
@@ -202,12 +166,6 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(const System::Details
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## Encoding::GetBytes(const System::Details::StackArray\<char_t, N\>\&, int, int) method
 
 
@@ -230,13 +188,7 @@ template<std::size_t> ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(const S
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetBytes([ArrayPtr](../../../system/arrayptr/)\<char_t\>) method
+## Encoding::GetBytes(ArrayPtr\<char_t\>) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -256,13 +208,7 @@ virtual ArrayPtr<uint8_t> System::Text::Encoding::GetBytes(ArrayPtr<char_t> char
 
 [Buffer](../../../system/buffer/) that holds representation of characters being encoded.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetBytes(const char_t *, int, **uint8_t** *, int) method
+## Encoding::GetBytes(const char_t *, int, uint8_t *, int) method
 
 
 Get the bytes that result from encoding a character buffer.
@@ -287,6 +233,8 @@ Number of written bytes.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Encoding](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

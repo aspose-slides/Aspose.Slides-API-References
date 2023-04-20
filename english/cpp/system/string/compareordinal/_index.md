@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /cpp/system/string/compareordinal/
 ---
-## String::CompareOrdinal(const [String](../)\&, const [String](../)\&) method
+## String::CompareOrdinal(const String\&, const String\&) method
 
 
 Less-equal-greater-compares two strings using ordinal mode.
@@ -27,13 +27,7 @@ static int System::String::CompareOrdinal(const String &strA, const String &strB
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::CompareOrdinal(const [String](../)\&, int, const [String](../)\&, int, int) method
+## String::CompareOrdinal(const String\&, int, const String\&, int, int) method
 
 
 Less-equal-greater-compares two strings using ordinal mode.
@@ -59,7 +53,6 @@ Negative value if first substring is less then second, zero if they match, posit
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

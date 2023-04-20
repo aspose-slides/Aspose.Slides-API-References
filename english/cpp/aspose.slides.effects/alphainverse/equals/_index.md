@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/alphainverse/equals/
 ---
-## AlphaInverse::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## AlphaInverse::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [AlphaInverse](../) is equal to the current [AlphaInverse](../).

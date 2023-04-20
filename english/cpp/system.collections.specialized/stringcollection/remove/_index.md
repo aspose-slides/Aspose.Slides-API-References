@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.collections.specialized/stringcollection/remove/
 ---
-## StringCollection::Remove(const [System::String](../../../system/string/)\&) method
+## StringCollection::Remove(const System::String\&) method
 
 
 Removes first occurrence of specified string.

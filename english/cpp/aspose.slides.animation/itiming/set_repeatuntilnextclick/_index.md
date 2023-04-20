@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.animation/itiming/set_repeatuntilnextclick/
 ---
-## ITiming::set_RepeatUntilNextClick(**bool**) method
+## ITiming::set_RepeatUntilNextClick(bool) method
 
 
 This attribute specifies if the effect will repeat until the next click. Write **bool**.

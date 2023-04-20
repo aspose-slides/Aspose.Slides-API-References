@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.charts/ichartdatacell/calculate/
 ---
-## IChartDataCell::Calculate(**bool**) method
+## IChartDataCell::Calculate(bool) method
 
 
 If the cell contains a formula, the value will be updated base on that formula.

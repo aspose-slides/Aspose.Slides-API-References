@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/slidecollection/reorder/
 ---
-## SlideCollection::Reorder(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## SlideCollection::Reorder(int32_t, System::SharedPtr\<ISlide\>) method
 
 
 Moves slide from the collection to the specified position.
@@ -23,14 +23,7 @@ void Aspose::Slides::SlideCollection::Reorder(int32_t index, System::SharedPtr<I
 | index | **int32_t** | Target index. |
 | slide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | [Slide](../../slide/) to move. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::Reorder(**int32_t**, const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>\>\&) method
+## SlideCollection::Reorder(int32_t, const System::ArrayPtr\<System::SharedPtr\<ISlide\>\>\&) method
 
 
 Moves slides from the collection to the specified position. [Slides](../../) will be placed starting from index in order they appear in list.
@@ -49,8 +42,8 @@ void Aspose::Slides::SlideCollection::Reorder(int32_t index, const System::Array
 
 ## See Also
 
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ISlide](../../islide/)
 * Class [SlideCollection](../)
 * Namespace [Aspose::Slides](../../)

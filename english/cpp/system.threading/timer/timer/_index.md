@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.threading/timer/timer/
 ---
-## Timer::Timer([TimerCallback](../../timercallback/)) constructor
+## Timer::Timer(TimerCallback) constructor
 
 
 Constructor.
@@ -22,13 +22,7 @@ System::Threading::Timer::Timer(TimerCallback callback)
 | --- | --- | --- |
 | callback | [TimerCallback](../../timercallback/) | Function to be called by the timer. |
 
-## See Also
-
-* Typedef [TimerCallback](../../timercallback/)
-* Class [Timer](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Timer::Timer([TimerCallback](../../timercallback/), const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&, **int64_t**, **int64_t**) constructor
+## Timer::Timer(TimerCallback, const System::SharedPtr\<System::Object\>\&, int64_t, int64_t) constructor
 
 
 Constructor.
@@ -47,15 +41,7 @@ System::Threading::Timer::Timer(TimerCallback callback, const System::SharedPtr<
 | dueTime | **int64_t** | [Timeout](../../timeout/) before first invocation of callback function, in milliseconds; negative values doesn't schedule timer after creation so it can be re-scheduled later. |
 | period | **int64_t** | [Timeout](../../timeout/) between consequental invocations of callback function, in milliseconds; non-positive values mean that timer should only be executed once. |
 
-## See Also
-
-* Typedef [TimerCallback](../../timercallback/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Timer](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Timer::Timer([TimerCallback](../../timercallback/), const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&, [System::TimeSpan](../../../system/timespan/), [System::TimeSpan](../../../system/timespan/)) constructor
+## Timer::Timer(TimerCallback, const System::SharedPtr\<System::Object\>\&, System::TimeSpan, System::TimeSpan) constructor
 
 
 Constructor.
@@ -78,8 +64,8 @@ System::Threading::Timer::Timer(TimerCallback callback, const System::SharedPtr<
 
 * Typedef [TimerCallback](../../timercallback/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Timer](../)
 * Class [Object](../../../system/object/)
 * Class [TimeSpan](../../../system/timespan/)
-* Class [Timer](../)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

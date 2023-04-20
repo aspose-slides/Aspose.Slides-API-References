@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.text/icudecoder/icudecoder/
 ---
-## ICUDecoder::ICUDecoder([ICUEncoding](../../icuencoding/) *) constructor
+## ICUDecoder::ICUDecoder(ICUEncoding *) constructor
 
 
 Constructor.

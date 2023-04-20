@@ -15,12 +15,7 @@ Starts listening for the incoming connections.
 void System::Net::Sockets::TcpListener::Start()
 ```
 
-## See Also
-
-* Class [TcpListener](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## TcpListener::Start(**int32_t**) method
+## TcpListener::Start(int32_t) method
 
 
 Starts listening for the incoming connections.

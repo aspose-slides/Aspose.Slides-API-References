@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml/xmlattributecollection/idx_get/
 ---
-## XmlAttributeCollection::idx_get(**int32_t**) method
+## XmlAttributeCollection::idx_get(int32_t) method
 
 
 Returns the attribute with the specified index.
@@ -26,14 +26,7 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::idx_get(int32_t i)
 
 The attribute at the specified index.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlAttribute](../../xmlattribute/)
-* Class [XmlAttributeCollection](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlAttributeCollection::idx_get(const [String](../../../system/string/)\&) method
+## XmlAttributeCollection::idx_get(const String\&) method
 
 
 Returns the attribute with the specified name.
@@ -53,15 +46,7 @@ SharedPtr<XmlAttribute> System::Xml::XmlAttributeCollection::idx_get(const Strin
 
 The attribute with the specified name. If the attribute does not exist, this method returns **nullptr**.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlAttribute](../../xmlattribute/)
-* Class [String](../../../system/string/)
-* Class [XmlAttributeCollection](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlAttributeCollection::idx_get(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlAttributeCollection::idx_get(const String\&, const String\&) method
 
 
 Returns the attribute with the specified local name and namespace Uniform Resource Identifier (URI).
@@ -86,7 +71,7 @@ The attribute with the specified local name and namespace URI. If the attribute 
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlAttribute](../../xmlattribute/)
-* Class [String](../../../system/string/)
 * Class [XmlAttributeCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

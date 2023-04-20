@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/rotationeffect/set_to/
 ---
-## RotationEffect::set_To(**float**) method
+## RotationEffect::set_To(float) method
 
 
 Describes the ending value for the animation. Write **float**.

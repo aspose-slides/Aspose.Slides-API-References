@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/decimal/operator//
 ---
-## Decimal::operator/(const [Decimal](../)\&) const method
+## Decimal::operator/(const Decimal\&) const method
 
 
 Returns a new instance of [Decimal](../) class that represents a value that is a result of division of the value represented by the current object by the value represented by the specified object.
@@ -28,7 +28,6 @@ A new instance of [Decimal](../) class that represents a value that is a result 
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/servicepointmanager/set_maxservicepoints/
 ---
-## ServicePointManager::set_MaxServicePoints(**int32_t**) method
+## ServicePointManager::set_MaxServicePoints(int32_t) method
 
 
 Sets the maximum number of the ServicePoint-class instances that can be managed by the current instance.

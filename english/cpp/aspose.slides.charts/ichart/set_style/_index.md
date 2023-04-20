@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.charts/ichart/set_style/
 ---
-## IChart::set_Style([StyleType](../../styletype/)) method
+## IChart::set_Style(StyleType) method
 
 
 Sets the chart style. Write [StyleType](../../styletype/).

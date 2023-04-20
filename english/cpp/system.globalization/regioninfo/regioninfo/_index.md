@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/regioninfo/regioninfo/
 ---
-## RegionInfo::RegionInfo(const [String](../../../system/string/)\&) constructor
+## RegionInfo::RegionInfo(const String\&) constructor
 
 
 RTTI information.
@@ -25,12 +25,6 @@ System::Globalization::RegionInfo::RegionInfo(const String &name)
 
 
 Constructor. 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [RegionInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## RegionInfo::RegionInfo(int) constructor
 
 
@@ -47,12 +41,7 @@ System::Globalization::RegionInfo::RegionInfo(int culture)
 | --- | --- | --- |
 | culture | int | Culture identifier. |
 
-## See Also
-
-* Class [RegionInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## RegionInfo::RegionInfo(const [RegionInfo](../)\&) constructor
+## RegionInfo::RegionInfo(const RegionInfo\&) constructor
 
 
 
@@ -63,7 +52,7 @@ System::Globalization::RegionInfo::RegionInfo(const RegionInfo &)=delete
 
 ## See Also
 
-* Class [RegionInfo](../)
+* Class [String](../../../system/string/)
 * Class [RegionInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

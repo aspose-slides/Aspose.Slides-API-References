@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net/dns/begingethostentry/
 ---
-## Dns::BeginGetHostEntry([String](../../../system/string/), [AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## Dns::BeginGetHostEntry(String, AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous operation to create a new IPHostEntry-class instance using the specified string that contains a host name or IP address.
@@ -28,17 +28,7 @@ static System::SharedPtr<IAsyncResult> System::Net::Dns::BeginGetHostEntry(Strin
 
 An [IAsyncResult](../../../system/iasyncresult/) object representing the initiated asynchronous operation.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
-* Class [String](../../../system/string/)
-* Typedef [AsyncCallback](../../../system/asynccallback/)
-* Class [Object](../../../system/object/)
-* Class [Dns](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Dns::BeginGetHostEntry([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../ipaddress/)\>, [AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## Dns::BeginGetHostEntry(System::SharedPtr\<IPAddress\>, AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous operation to create a new IPHostEntry-class instance using the specified IP address.
@@ -63,10 +53,11 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
-* Class [IPAddress](../../ipaddress/)
 * Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [Dns](../)
+* Class [IPAddress](../../ipaddress/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

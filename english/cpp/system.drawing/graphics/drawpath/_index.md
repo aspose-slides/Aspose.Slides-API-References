@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/system.drawing/graphics/drawpath/
 ---
-## Graphics::DrawPath(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\&) method
+## Graphics::DrawPath(const SharedPtr\<Pen\>\&, const SharedPtr\<Drawing2D::GraphicsPath\>\&) method
 
 
 Draws the specified path using the specified pen.

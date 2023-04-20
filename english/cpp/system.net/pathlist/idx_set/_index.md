@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/pathlist/idx_set/
 ---
-## PathList::idx_set([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[CookieCollection](../../cookiecollection/)\>) method
+## PathList::idx_set(String, System::SharedPtr\<CookieCollection\>) method
 
 
 Sets the cookie collection by specified path.
@@ -25,8 +25,8 @@ void System::Net::PathList::idx_set(String s, System::SharedPtr<CookieCollection
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [CookieCollection](../../cookiecollection/)
 * Class [PathList](../)
 * Namespace [System::Net](../../)

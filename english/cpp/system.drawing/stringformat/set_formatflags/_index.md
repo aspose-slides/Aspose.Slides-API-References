@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing/stringformat/set_formatflags/
 ---
-## StringFormat::set_FormatFlags([StringFormatFlags](../../stringformatflags/)) method
+## StringFormat::set_FormatFlags(StringFormatFlags) method
 
 
 Sets the string format flags.

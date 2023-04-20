@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.xml/xmlreadersettings/set_validationflags/
 ---
-## XmlReaderSettings::set_ValidationFlags([Schema::XmlSchemaValidationFlags](../../../system.xml.schema/xmlschemavalidationflags/)) method
+## XmlReaderSettings::set_ValidationFlags(Schema::XmlSchemaValidationFlags) method
 
 
 Sets a value indicating the schema validation settings. This setting applies to [XmlReader](../../xmlreader/) objects that validate schemas ([XmlReaderSettings::get_ValidationType](../get_validationtype/) value is [ValidationType::Schema](../../validationtype/)).

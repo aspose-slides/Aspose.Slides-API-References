@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/system.globalization/numberformatinfo/set_numbergroupsizes/
 ---
-## NumberFormatInfo::set_NumberGroupSizes(const [ArrayPtr](../../../system/arrayptr/)\<int\>\&) method
+## NumberFormatInfo::set_NumberGroupSizes(const ArrayPtr\<int\>\&) method
 
 
 Sets numbers of digits per group.

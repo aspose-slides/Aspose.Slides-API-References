@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.drawing/graphics/drawrectangles/
 ---
-## Graphics::DrawRectangles(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>\&) method
+## Graphics::DrawRectangles(const SharedPtr\<Pen\>\&, const ArrayPtr\<Rectangle\>\&) method
 
 
 Draws a series of rectangles using the specified pen.
@@ -23,16 +23,7 @@ void System::Drawing::Graphics::DrawRectangles(const SharedPtr<Pen> &pen, const 
 | pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the rectangles |
 | rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>\& | [Array](../../../system/array/) of rectangles to draw |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawRectangles(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../rectanglef/)\>\&) method
+## Graphics::DrawRectangles(const SharedPtr\<Pen\>\&, const ArrayPtr\<RectangleF\>\&) method
 
 
 Draws a series of rectangles using the specified pen.
@@ -52,9 +43,10 @@ void System::Drawing::Graphics::DrawRectangles(const SharedPtr<Pen> &pen, const 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RectangleF](../../rectanglef/)
+* Class [Pen](../../pen/)
+* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

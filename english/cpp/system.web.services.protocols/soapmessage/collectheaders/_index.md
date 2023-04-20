@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.web.services.protocols/soapmessage/collectheaders/
 ---
-## SoapMessage::CollectHeaders([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<SoapHeaderMapping\>\>, [SoapHeaderDirection](../../soapheaderdirection/)) method
+## SoapMessage::CollectHeaders(System::SharedPtr\<Object\>, System::ArrayPtr\<System::SharedPtr\<SoapHeaderMapping\>\>, SoapHeaderDirection) method
 
 
 Sets the internal collection of the SOAP headers.
@@ -26,10 +26,10 @@ void System::Web::Services::Protocols::SoapMessage::CollectHeaders(System::Share
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Enum [SoapHeaderDirection](../../soapheaderdirection/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [Object](../../../system/object/)
 * Class [SoapMessage](../)
 * Namespace [System::Web::Services::Protocols](../../)
 * Library [Aspose.Slides](../../../)

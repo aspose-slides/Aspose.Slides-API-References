@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.text/encoder/getbytes/
 ---
-## Encoder::GetBytes([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, **bool**) method
+## Encoder::GetBytes(ArrayPtr\<char_t\>, int, int, ArrayPtr\<uint8_t\>, int, bool) method
 
 
 Get the bytes that result from encoding a buffer.
@@ -31,13 +31,7 @@ virtual int System::Text::Encoder::GetBytes(ArrayPtr<char_t> chars, int charInde
 
 Number of bytes written.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoder::GetBytes(const char_t *, int, **uint8_t** *, int, **bool**) method
+## Encoder::GetBytes(const char_t *, int, uint8_t *, int, bool) method
 
 
 Get the bytes that result from encoding a buffer.
@@ -63,6 +57,7 @@ Number of bytes written.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Encoder](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

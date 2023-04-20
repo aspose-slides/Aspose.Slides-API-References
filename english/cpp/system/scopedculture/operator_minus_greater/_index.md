@@ -15,12 +15,6 @@ url: /cpp/system/scopedculture/operator_minus_greater/
 const Globalization::CultureInfo * System::ScopedCulture::operator->() const
 ```
 
-## See Also
-
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [ScopedCulture](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ScopedCulture::operator->() method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml/xmlnode/set_prefix/
 ---
-## XmlNode::set_Prefix([String](../../../system/string/)) method
+## XmlNode::set_Prefix(String) method
 
 
 Sets the namespace prefix of this node.

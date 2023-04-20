@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.xml/xmldocument/createprocessinginstruction/
 ---
-## XmlDocument::CreateProcessingInstruction(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateProcessingInstruction(const String\&, const String\&) method
 
 
 Creates an [XmlProcessingInstruction](../../xmlprocessinginstruction/) with the specified name and data.

@@ -15,12 +15,7 @@ Null pointer constructor.
 System::Text::RegularExpressions::GroupCollectionPtr::GroupCollectionPtr()
 ```
 
-## See Also
-
-* Class [GroupCollectionPtr](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## GroupCollectionPtr::GroupCollectionPtr(const [SharedPtr](../../../system/sharedptr/)\<[GroupCollection](../../groupcollection/)\>\&) constructor
+## GroupCollectionPtr::GroupCollectionPtr(const SharedPtr\<GroupCollection\>\&) constructor
 
 
 Type convesion constructor.
@@ -39,7 +34,7 @@ System::Text::RegularExpressions::GroupCollectionPtr::GroupCollectionPtr(const S
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [GroupCollection](../../groupcollection/)
 * Class [GroupCollectionPtr](../)
+* Class [GroupCollection](../../groupcollection/)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

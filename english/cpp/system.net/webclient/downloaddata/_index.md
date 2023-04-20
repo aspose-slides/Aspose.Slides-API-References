@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net/webclient/downloaddata/
 ---
-## WebClient::DownloadData(const [String](../../../system/string/)\&) const method
+## WebClient::DownloadData(const String\&) const method
 
 
 Downloads the specified resource as a byte array.
@@ -26,14 +26,7 @@ ByteArrayPtr System::Net::WebClient::DownloadData(const String &address) const
 
 The byte array that contains the requested resource.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [String](../../../system/string/)
-* Class [WebClient](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## WebClient::DownloadData(const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\&) const method
+## WebClient::DownloadData(const SharedPtr\<Uri\>\&) const method
 
 
 Downloads the specified resource as a byte array.
@@ -57,7 +50,8 @@ The byte array that contains the requested resource.
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Uri](../../../system/uri/)
+* Class [String](../../../system/string/)
 * Class [WebClient](../)
+* Class [Uri](../../../system/uri/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

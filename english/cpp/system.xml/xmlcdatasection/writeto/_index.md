@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml/xmlcdatasection/writeto/
 ---
-## XmlCDataSection::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlCDataSection::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/).

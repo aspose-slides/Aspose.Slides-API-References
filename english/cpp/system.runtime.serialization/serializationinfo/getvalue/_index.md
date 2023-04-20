@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.runtime.serialization/serializationinfo/getvalue/
 ---
-## SerializationInfo::GetValue(const [System::String](../../../system/string/)\&, const [System::TypeInfo](../../../system/typeinfo/)\&) method
+## SerializationInfo::GetValue(const System::String\&, const System::TypeInfo\&) method
 
 
 Retrieves a value from the [SerializationInfo](../) store. Not implemented.

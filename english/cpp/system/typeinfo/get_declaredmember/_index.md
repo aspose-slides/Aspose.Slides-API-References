@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system/typeinfo/get_declaredmember/
 ---
-## TypeInfo::get_DeclaredMember(const [String](../../string/)\&) const method
+## TypeInfo::get_DeclaredMember(const String\&) const method
 
 
 Gets list of the members with specified name.

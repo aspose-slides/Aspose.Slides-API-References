@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/iparagraphcollection/idx_get/
 ---
-## IParagraphCollection::idx_get(**int32_t**) method
+## IParagraphCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.io/file/openread/
 ---
-## File::OpenRead(const [String](../../../system/string/)\&) method
+## File::OpenRead(const String\&) method
 
 
 Opens the specified file for reading only, in 'Open' mode with shared access for reading.

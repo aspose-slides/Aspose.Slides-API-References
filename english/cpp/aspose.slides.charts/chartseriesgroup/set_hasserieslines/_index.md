@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides.charts/chartseriesgroup/set_hasserieslines/
 ---
-## ChartSeriesGroup::set_HasSeriesLines(**bool**) method
+## ChartSeriesGroup::set_HasSeriesLines(bool) method
 
 
 True if chart has series lines. Applied to stacked bar and OfPie charts. Write **bool**.

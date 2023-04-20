@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/double/tryparse/
 ---
-## Double::TryParse(const [String](../../string/)\&, **double**\&) method
+## Double::TryParse(const String\&, double\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value.
@@ -27,13 +27,7 @@ static bool System::Double::TryParse(const String &value, double &result)
 
 True if the conversion succeeded, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Double](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Double::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, **double**\&) method
+## Double::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&, double\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value using the provided formatting information and number style.
@@ -56,16 +50,7 @@ static bool System::Double::TryParse(const String &value, Globalization::NumberS
 
 True if the conversion succeeded, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Double](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Double::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, **double**\&) method
+## Double::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&, double\&) method
 
 
 
@@ -74,16 +59,7 @@ True if the conversion succeeded, otherwise - false.
 static bool System::Double::TryParse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture, double &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Double](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Double::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&, **double**\&) method
+## Double::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&, double\&) method
 
 
 
@@ -92,16 +68,7 @@ static bool System::Double::TryParse(const String &value, Globalization::NumberS
 static bool System::Double::TryParse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi, double &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Double](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Double::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), std::nullptr_t, **double**\&) method
+## Double::TryParse(const String\&, Globalization::NumberStyles, std::nullptr_t, double\&) method
 
 
 
@@ -112,8 +79,12 @@ static bool System::Double::TryParse(const String &value, Globalization::NumberS
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
 * Struct [Double](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

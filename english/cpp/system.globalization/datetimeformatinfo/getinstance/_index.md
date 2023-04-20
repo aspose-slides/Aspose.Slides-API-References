@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/system.globalization/datetimeformatinfo/getinstance/
 ---
-## DateTimeFormatInfo::GetInstance(const [IFormatProviderPtr](../../../system/iformatproviderptr/)\&) method
+## DateTimeFormatInfo::GetInstance(const IFormatProviderPtr\&) method
 
 
 Gets formatter associated with format provider.

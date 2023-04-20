@@ -19,12 +19,7 @@ void System::ComponentModel::Container::Dispose()
 
 
 Disposable pattern support; does nothing. 
-## See Also
-
-* Class [Container](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## Container::Dispose(**bool**) method
+## Container::Dispose(bool) method
 
 
 Disposable pattern support; does nothing.

@@ -3,7 +3,7 @@ title: SystemException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3225
+weight: 2445
 url: /cpp/system/systemexception/
 ---
 ## SystemException typedef

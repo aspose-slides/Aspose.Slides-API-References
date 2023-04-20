@@ -19,6 +19,5 @@ virtual SharedPtr<CustomLineCap> System::Drawing::Drawing2D::CustomLineCap::Clon
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [CustomLineCap](../)
-* Class [CustomLineCap](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/taiwancalendar/getdayofyear/
 ---
-## TaiwanCalendar::GetDayOfYear([DateTime](../../../system/datetime/)) const method
+## TaiwanCalendar::GetDayOfYear(DateTime) const method
 
 
 Gets day of year for the specified time point.

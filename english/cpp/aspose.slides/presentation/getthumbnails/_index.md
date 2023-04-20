@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.slides/presentation/getthumbnails/
 ---
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>) method
 
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
@@ -29,16 +29,7 @@ Bitmap objects.
 Deprecated
 :   Use Presentation.GetThumbnails(IRenderingOptions) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::ArrayPtr\<int32_t\>) method
 
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation.
@@ -62,16 +53,7 @@ Bitmap objects.
 Deprecated
 :   Use Presentation.GetThumbnails(IRenderingOptions, int[]) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, **float**, **float**) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, float, float) method
 
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling.
@@ -96,16 +78,7 @@ Bitmap objects.
 Deprecated
 :   Use Presentation.GetThumbnails(IRenderingOptions, float, float) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, **float**, **float**) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::ArrayPtr\<int32_t\>, float, float) method
 
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling.
@@ -131,16 +104,7 @@ Bitmap objects.
 Deprecated
 :   Use Presentation.GetThumbnails(IRenderingOptions, int[], float, float) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, [System::Drawing::Size](../../../system.drawing/size/)) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::Drawing::Size) method
 
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size.
@@ -164,17 +128,7 @@ Bitmap objects.
 Deprecated
 :   Use Presentation.GetThumbnails(IRenderingOptions, Size) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Size](../../../system.drawing/size/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, [System::Drawing::Size](../../../system.drawing/size/)) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::ArrayPtr\<int32_t\>, System::Drawing::Size) method
 
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
@@ -199,17 +153,7 @@ Bitmap objects.
 Deprecated
 :   Use Presentation.GetThumbnails(IRenderingOptions, int[], Size) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Size](../../../system.drawing/size/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::IRenderingOptions\>) method
 
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation.
@@ -229,16 +173,7 @@ System::ArrayPtr<System::SharedPtr<System::Drawing::Bitmap>> Aspose::Slides::Pre
 
 Bitmap objects.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::IRenderingOptions\>, System::ArrayPtr\<int32_t\>) method
 
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation.
@@ -259,16 +194,7 @@ System::ArrayPtr<System::SharedPtr<System::Drawing::Bitmap>> Aspose::Slides::Pre
 
 Bitmap objects.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, **float**, **float**) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::IRenderingOptions\>, float, float) method
 
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation with custom scaling.
@@ -290,16 +216,7 @@ System::ArrayPtr<System::SharedPtr<System::Drawing::Bitmap>> Aspose::Slides::Pre
 
 Bitmap objects.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, **float**, **float**) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::IRenderingOptions\>, System::ArrayPtr\<int32_t\>, float, float) method
 
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation with custom scaling.
@@ -322,16 +239,7 @@ System::ArrayPtr<System::SharedPtr<System::Drawing::Bitmap>> Aspose::Slides::Pre
 
 Bitmap objects.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, [System::Drawing::Size](../../../system.drawing/size/)) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::IRenderingOptions\>, System::Drawing::Size) method
 
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation with specified size.
@@ -352,17 +260,7 @@ System::ArrayPtr<System::SharedPtr<System::Drawing::Bitmap>> Aspose::Slides::Pre
 
 Bitmap objects.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Size](../../../system.drawing/size/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::GetThumbnails([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, [System::Drawing::Size](../../../system.drawing/size/)) method
+## Presentation::GetThumbnails(System::SharedPtr\<Export::IRenderingOptions\>, System::ArrayPtr\<int32_t\>, System::Drawing::Size) method
 
 
 Returns a Thumbnail Bitmap objects for specified slides of a presentation with specified size.
@@ -389,8 +287,9 @@ Bitmap objects.
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Size](../../../system.drawing/size/)
+* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
 * Class [Presentation](../)
+* Class [Size](../../../system.drawing/size/)
+* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

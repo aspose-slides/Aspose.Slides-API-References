@@ -3,7 +3,7 @@ title: TypeInitializationException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3615
+weight: 2835
 url: /cpp/system/typeinitializationexception/
 ---
 ## TypeInitializationException typedef

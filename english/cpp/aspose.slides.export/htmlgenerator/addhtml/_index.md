@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.export/htmlgenerator/addhtml/
 ---
-## HtmlGenerator::AddHtml([System::String](../../../system/string/)) method
+## HtmlGenerator::AddHtml(System::String) method
 
 
 Adds formatted HTML text.
@@ -22,13 +22,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddHtml(System::String html) overrid
 | --- | --- | --- |
 | html | [System::String](../../../system/string/) | Text to add. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## HtmlGenerator::AddHtml([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>) method
+## HtmlGenerator::AddHtml(System::ArrayPtr\<char16_t\>) method
 
 
 Adds formatted HTML text.
@@ -44,13 +38,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddHtml(System::ArrayPtr<char16_t> h
 | --- | --- | --- |
 | html | [System::ArrayPtr](../../../system/arrayptr/)\<char16_t\> | Text to add. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [HtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## HtmlGenerator::AddHtml([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) method
+## HtmlGenerator::AddHtml(System::ArrayPtr\<char16_t\>, int32_t, int32_t) method
 
 
 Adds formatted HTML text.
@@ -71,6 +59,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddHtml(System::ArrayPtr<char16_t> h
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [HtmlGenerator](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

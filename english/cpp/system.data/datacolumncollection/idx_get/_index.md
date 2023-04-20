@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.data/datacolumncollection/idx_get/
 ---
-## DataColumnCollection::idx_get(const **int32_t**) method
+## DataColumnCollection::idx_get(const int32_t) method
 
 
 Gets column by index.

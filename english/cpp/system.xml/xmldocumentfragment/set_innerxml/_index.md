@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml/xmldocumentfragment/set_innerxml/
 ---
-## XmlDocumentFragment::set_InnerXml([String](../../../system/string/)) method
+## XmlDocumentFragment::set_InnerXml(String) method
 
 
 Sets the markup representing the children of this node.

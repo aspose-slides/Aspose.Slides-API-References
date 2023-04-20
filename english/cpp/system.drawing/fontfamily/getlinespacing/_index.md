@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.drawing/fontfamily/getlinespacing/
 ---
-## FontFamily::GetLineSpacing([FontStyle](../../fontstyle/)) method
+## FontFamily::GetLineSpacing(FontStyle) method
 
 
 Returns the line spacing of the font family represented by the current object for the specified font style.

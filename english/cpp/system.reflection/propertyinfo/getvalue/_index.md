@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.reflection/propertyinfo/getvalue/
 ---
-## PropertyInfo::GetValue([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## PropertyInfo::GetValue(System::SharedPtr\<System::Object\>) method
 
 
 Gets property value from specific object.

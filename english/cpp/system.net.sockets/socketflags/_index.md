@@ -3,7 +3,7 @@ title: SocketFlags
 second_title: Aspose.Slides for C++ API Reference
 description: Provides constant values for the socket messages.
 type: docs
-weight: 222
+weight: 196
 url: /cpp/system.net.sockets/socketflags/
 ---
 ## SocketFlags enum

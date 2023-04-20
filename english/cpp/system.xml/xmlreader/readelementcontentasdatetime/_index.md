@@ -20,13 +20,7 @@ virtual DateTime System::Xml::XmlReader::ReadElementContentAsDateTime()
 
 The element content as a [DateTime](../../../system/datetime/) object.
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsDateTime([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsDateTime(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as a [DateTime](../../../system/datetime/) object.
@@ -50,7 +44,7 @@ The element contents as a [DateTime](../../../system/datetime/) object.
 ## See Also
 
 * Class [DateTime](../../../system/datetime/)
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.xml.schema/xmlschemavalidator/validatetext/
 ---
-## XmlSchemaValidator::ValidateText(const [String](../../../system/string/)\&) method
+## XmlSchemaValidator::ValidateText(const String\&) method
 
 
 Validates whether the text **string** specified is allowed in the current element context, and accumulates the text for validation if the current element has simple content.
@@ -22,13 +22,7 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateText(const String &element
 | --- | --- | --- |
 | elementValue | const [String](../../../system/string/)\& | A text **string** to validate in the current element context. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlSchemaValidator](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaValidator::ValidateText([XmlValueGetter](../../xmlvaluegetter/)) method
+## XmlSchemaValidator::ValidateText(XmlValueGetter) method
 
 
 Validates whether the text returned by the XmlValueGetter object specified is allowed in the current element context, and accumulates the text for validation if the current element has simple content.
@@ -47,6 +41,7 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateText(XmlValueGetter elemen
 ## See Also
 
 * Typedef [XmlValueGetter](../../xmlvaluegetter/)
+* Class [String](../../../system/string/)
 * Class [XmlSchemaValidator](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

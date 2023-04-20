@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathsuperscriptelementfactory/
 Allows to create [IMathSuperscriptElement](../imathsuperscriptelement/)
 
 ```cpp
-class IMathSuperscriptElementFactory : public System::Object
+class IMathSuperscriptElementFactory : public virtual System::Object
 ```
 
 ## Methods

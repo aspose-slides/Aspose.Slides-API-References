@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.io/path/getfilenamewithoutextension/
 ---
-## Path::GetFileNameWithoutExtension(const [String](../../../system/string/)\&) method
+## Path::GetFileNameWithoutExtension(const String\&) method
 
 
 Returns the name without extension of the file referenced by the specified path.

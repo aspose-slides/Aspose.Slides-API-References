@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.xml/xmltextreader/set_whitespacehandling/
 ---
-## XmlTextReader::set_WhitespaceHandling([System::Xml::WhitespaceHandling](../../whitespacehandling/)) method
+## XmlTextReader::set_WhitespaceHandling(System::Xml::WhitespaceHandling) method
 
 
 Sets a value that specifies how white space is handled.

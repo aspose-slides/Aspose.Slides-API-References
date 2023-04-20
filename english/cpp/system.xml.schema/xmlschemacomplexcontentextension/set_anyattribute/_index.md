@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml.schema/xmlschemacomplexcontentextension/set_anyattribute/
 ---
-## XmlSchemaComplexContentExtension::set_AnyAttribute(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\&) method
+## XmlSchemaComplexContentExtension::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
 
 
 Sets the [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) component of the complex content model.

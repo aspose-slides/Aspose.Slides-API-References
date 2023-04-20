@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.animation/ieffect/get_effect/
 ---
-## IEffect::get_Effect(**int32_t**) method
+## IEffect::get_Effect(int32_t) method
 
 
 Returns an affect of a sequence at the specified index.
@@ -18,7 +18,6 @@ virtual System::SharedPtr<IEffect> Aspose::Slides::Animation::IEffect::get_Effec
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEffect](../)
 * Class [IEffect](../)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

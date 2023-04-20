@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/aspose.slides.charts/ichartseries/get_trendline/
 ---
-## IChartSeries::get_TrendLine(**int32_t**) method
+## IChartSeries::get_TrendLine(int32_t) method
 
 
 Returns trend line at the specified index.

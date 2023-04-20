@@ -25,11 +25,6 @@ System::Version::Version(int major, int minor, int build, int revision)
 | build | int | The build number |
 | revision | int | The revision number |
 
-## See Also
-
-* Class [Version](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Version::Version(int, int, int) constructor
 
 
@@ -48,11 +43,6 @@ System::Version::Version(int major, int minor, int build)
 | minor | int | The minor version numebr |
 | build | int | The build number |
 
-## See Also
-
-* Class [Version](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Version::Version(int, int) constructor
 
 
@@ -70,12 +60,7 @@ System::Version::Version(int major, int minor)
 | major | int | The major version number |
 | minor | int | The minor version numebr |
 
-## See Also
-
-* Class [Version](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Version::Version(const [String](../../string/)\&) constructor
+## Version::Version(const String\&) constructor
 
 
 Constructs an instance that represent the version number represented as a string.
@@ -91,12 +76,6 @@ System::Version::Version(const String &version)
 | --- | --- | --- |
 | version | const [String](../../string/)\& | The string containing a version number |
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Version](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Version::Version() constructor
 
 
@@ -109,5 +88,6 @@ System::Version::Version()
 ## See Also
 
 * Class [Version](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.web.services.protocols/webclientprotocol/set_url/
 ---
-## WebClientProtocol::set_Url([String](../../../system/string/)) method
+## WebClientProtocol::set_Url(String) method
 
 
 Sets the XML [Web](../../../system.web/) service URL.

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.drawing/bitmap/maketransparent/
 ---
-## Bitmap::MakeTransparent([Color](../../color/)) method
+## Bitmap::MakeTransparent(Color) method
 
 
 Changes the color of all pixels with the specified color to transparent.

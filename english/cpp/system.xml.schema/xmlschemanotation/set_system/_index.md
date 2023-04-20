@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemanotation/set_system/
 ---
-## XmlSchemaNotation::set_System(const [String](../../../system/string/)\&) method
+## XmlSchemaNotation::set_System(const String\&) method
 
 
 Sets the **system** identifier.

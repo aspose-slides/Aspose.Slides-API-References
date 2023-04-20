@@ -3,7 +3,7 @@ title: LockContext
 second_title: Aspose.Slides for C++ API Reference
 description: Guard object implementing C# lock() statement.
 type: docs
-weight: 1002
+weight: 989
 url: /cpp/system/lockcontext/
 ---
 ## LockContext class

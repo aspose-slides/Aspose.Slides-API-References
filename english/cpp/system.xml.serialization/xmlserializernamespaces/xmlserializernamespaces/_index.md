@@ -15,12 +15,7 @@ Initializes a new instance of the [Serialization::XmlSerializerNamespaces](../) 
 System::Xml::Serialization::XmlSerializerNamespaces::XmlSerializerNamespaces()
 ```
 
-## See Also
-
-* Class [XmlSerializerNamespaces](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializerNamespaces::XmlSerializerNamespaces(const [SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../)\>\&) constructor
+## XmlSerializerNamespaces::XmlSerializerNamespaces(const SharedPtr\<XmlSerializerNamespaces\>\&) constructor
 
 
 Initializes a new instance of the [Serialization::XmlSerializerNamespaces](../) class, using the specified instance of **[XmlSerializerNamespaces](../)** containing the collection of prefix and namespace pairs.
@@ -36,14 +31,7 @@ System::Xml::Serialization::XmlSerializerNamespaces::XmlSerializerNamespaces(con
 | --- | --- | --- |
 | namespaces | const [SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../)\>\& | An instance of the [Serialization::XmlSerializerNamespaces](../) containing the namespace and prefix pairs. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSerializerNamespaces](../)
-* Class [XmlSerializerNamespaces](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializerNamespaces::XmlSerializerNamespaces(const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\>\&) constructor
+## XmlSerializerNamespaces::XmlSerializerNamespaces(const ArrayPtr\<SharedPtr\<XmlQualifiedName\>\>\&) constructor
 
 
 Initializes a new instance of the [Serialization::XmlSerializerNamespaces](../) class.
@@ -61,9 +49,9 @@ System::Xml::Serialization::XmlSerializerNamespaces::XmlSerializerNamespaces(con
 
 ## See Also
 
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [XmlSerializerNamespaces](../)
+* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
 * Namespace [System::Xml::Serialization](../../)
 * Library [Aspose.Slides](../../../)

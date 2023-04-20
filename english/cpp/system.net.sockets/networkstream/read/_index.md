@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.net.sockets/networkstream/read/
 ---
-## NetworkStream::Read(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## NetworkStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -28,13 +28,7 @@ int32_t System::Net::Sockets::NetworkStream::Read(const ArrayPtr<uint8_t> &buffe
 
 The number of read bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [NetworkStream](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## NetworkStream::Read(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## NetworkStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -58,6 +52,7 @@ The number of bytes read
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [NetworkStream](../)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

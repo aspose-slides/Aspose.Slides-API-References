@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/exportcspblob/
 ---
-## RSACryptoServiceProvider::ExportCspBlob(**bool**) method
+## RSACryptoServiceProvider::ExportCspBlob(bool) method
 
 
 Exports blob with information on key. Not implemented.

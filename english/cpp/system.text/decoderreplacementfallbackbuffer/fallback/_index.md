@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.text/decoderreplacementfallbackbuffer/fallback/
 ---
-## DecoderReplacementFallbackBuffer::Fallback([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int) method
+## DecoderReplacementFallbackBuffer::Fallback(ArrayPtr\<uint8_t\>, int) method
 
 
 Handles decoding failure.

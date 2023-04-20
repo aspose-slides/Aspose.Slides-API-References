@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.web.services/webservicebindingattribute/set_conformsto/
 ---
-## WebServiceBindingAttribute::set_ConformsTo([System::SharedPtr](../../../system/sharedptr/)\<WsiProfiles\>) method
+## WebServiceBindingAttribute::set_ConformsTo(System::SharedPtr\<WsiProfiles\>) method
 
 
 Sets the WSI specification.

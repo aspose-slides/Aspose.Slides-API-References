@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.http.headers/transfercodingheadervalue/tryparse/
 ---
-## TransferCodingHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingHeaderValue](../)\>\&) method
+## TransferCodingHeaderValue::TryParse(String, System::SharedPtr\<TransferCodingHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [TransferCodingHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TransferCodingHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [TransferCodingHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

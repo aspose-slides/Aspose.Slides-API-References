@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.web.services.protocols/soapmessage/getinparametervalue/
 ---
-## SoapMessage::GetInParameterValue(**int32_t**) method
+## SoapMessage::GetInParameterValue(int32_t) method
 
 
 Gets the input parameter value at the specified index.

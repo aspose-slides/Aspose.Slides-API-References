@@ -23,12 +23,7 @@ void System::Drawing::Region::Translate(int dx, int dy)
 | dx | int | Specifies the amount to move the region by horizontally |
 | dy | int | Specifies the amount to move the region by vertically |
 
-## See Also
-
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Translate(**float**, **float**) method
+## Region::Translate(float, float) method
 
 
 Moves the coordinates of the region by the specified amount.

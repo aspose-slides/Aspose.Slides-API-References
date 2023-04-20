@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/file/appendalllines/
 ---
-## File::AppendAllLines(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>\&, const [EncodingPtr](../../../system/encodingptr/)\&) method
+## File::AppendAllLines(const String\&, const SharedPtr\<Collections::Generic::IEnumerable\<String\>\>\&, const EncodingPtr\&) method
 
 
 Appends strings from the specified collection of strings to the specified file using the specified encoding by writing each string in a new line. If the specified file does not exist, it is created. The file is closed after writing all strings.
@@ -26,10 +26,10 @@ static void System::IO::File::AppendAllLines(const String &path, const SharedPtr
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Typedef [EncodingPtr](../../../system/encodingptr/)
+* Class [String](../../../system/string/)
+* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

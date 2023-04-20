@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/ifontsmanager/get_fontfallbackrule/
 ---
-## IFontsManager::get_FontFallBackRule(**int32_t**) method
+## IFontsManager::get_FontFallBackRule(int32_t) method
 
 
 Returns rule at the specified index for proper substitutions by fallback functionality. Read-only [Aspose::Slides::IFontFallBackRule](../../ifontfallbackrule/).

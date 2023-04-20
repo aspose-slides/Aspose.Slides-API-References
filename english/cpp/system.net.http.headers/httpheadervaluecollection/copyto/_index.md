@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/httpheadervaluecollection/copyto/
 ---
-## HttpHeaderValueCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<T\>, **int32_t**) method
+## HttpHeaderValueCollection::CopyTo(System::ArrayPtr\<T\>, int32_t) method
 
 
 Copies all collection elements to existing array elements.

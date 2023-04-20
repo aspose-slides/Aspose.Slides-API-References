@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.xml/xmlattribute/appendchild/
 ---
-## XmlAttribute::AppendChild([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>) method
+## XmlAttribute::AppendChild(SharedPtr\<XmlNode\>) method
 
 
 Adds the specified node to the end of the list of child nodes, of this node.

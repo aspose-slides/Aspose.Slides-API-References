@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.theme/lineformatcollection/copyto/
 ---
-## LineFormatCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ILineFormat](../../../aspose.slides/ilineformat/)\>\>, **int32_t**) method
+## LineFormatCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<ILineFormat\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

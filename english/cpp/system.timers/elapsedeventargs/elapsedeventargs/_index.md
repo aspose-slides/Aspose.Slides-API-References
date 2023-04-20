@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.timers/elapsedeventargs/elapsedeventargs/
 ---
-## ElapsedEventArgs::ElapsedEventArgs(**int32_t**, **int32_t**) constructor
+## ElapsedEventArgs::ElapsedEventArgs(int32_t, int32_t) constructor
 
 
 Constructs arguments object with given parameters.

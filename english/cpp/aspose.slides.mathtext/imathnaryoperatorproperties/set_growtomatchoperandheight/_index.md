@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.mathtext/imathnaryoperatorproperties/set_growtomatchoperandheight/
 ---
-## IMathNaryOperatorProperties::set_GrowToMatchOperandHeight(**bool**) method
+## IMathNaryOperatorProperties::set_GrowToMatchOperandHeight(bool) method
 
 
 Operator Character grows vertically to match its operand height

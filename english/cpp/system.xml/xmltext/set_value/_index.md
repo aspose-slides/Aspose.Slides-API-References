@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml/xmltext/set_value/
 ---
-## XmlText::set_Value([String](../../../system/string/)) method
+## XmlText::set_Value(String) method
 
 
 Sets the value of the node.

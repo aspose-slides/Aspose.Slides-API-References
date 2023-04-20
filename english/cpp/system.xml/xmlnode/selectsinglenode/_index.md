@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.xml/xmlnode/selectsinglenode/
 ---
-## XmlNode::SelectSingleNode(const [String](../../../system/string/)\&) method
+## XmlNode::SelectSingleNode(const String\&) method
 
 
 Selects the first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) expression.
@@ -26,15 +26,7 @@ SharedPtr<XmlNode> System::Xml::XmlNode::SelectSingleNode(const String &xpath)
 
 The first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) query or **nullptr** if no matching node is found.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../)
-* Class [String](../../../system/string/)
-* Class [XmlNode](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNode::SelectSingleNode(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\&) method
+## XmlNode::SelectSingleNode(const String\&, const SharedPtr\<XmlNamespaceManager\>\&) method
 
 
 Selects the first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) expression. Any prefixes found in the [XPath](../../../system.xml.xpath/) expression are resolved using the supplied [XmlNamespaceManager](../../xmlnamespacemanager/).
@@ -61,6 +53,5 @@ The first [XmlNode](../) that matches the [XPath](../../../system.xml.xpath/) qu
 * Class [XmlNode](../)
 * Class [String](../../../system/string/)
 * Class [XmlNamespaceManager](../../xmlnamespacemanager/)
-* Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

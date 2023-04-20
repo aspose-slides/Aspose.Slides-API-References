@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_formatexception/is/
 ---
-## Details_FormatException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_FormatException::Is(const System::TypeInfo\&) const method
 
 
 

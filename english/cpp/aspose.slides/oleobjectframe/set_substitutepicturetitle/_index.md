@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/oleobjectframe/set_substitutepicturetitle/
 ---
-## OleObjectFrame::set_SubstitutePictureTitle([System::String](../../../system/string/)) method
+## OleObjectFrame::set_SubstitutePictureTitle(System::String) method
 
 
 Sets the title for OleObject icon. Write [System::String](../../../system/string/).

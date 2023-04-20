@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.diagnostics/processstartinfo/set_arguments/
 ---
-## ProcessStartInfo::set_Arguments(const [String](../../../system/string/)\&) method
+## ProcessStartInfo::set_Arguments(const String\&) method
 
 
 Sets process arguments.

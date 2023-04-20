@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml.schema/xmlschemaattribute/set_use/
 ---
-## XmlSchemaAttribute::set_Use([XmlSchemaUse](../../xmlschemause/)) method
+## XmlSchemaAttribute::set_Use(XmlSchemaUse) method
 
 
 Sets information about how the attribute is used.

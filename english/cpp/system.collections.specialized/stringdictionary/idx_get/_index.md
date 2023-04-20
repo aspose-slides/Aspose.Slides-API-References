@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.specialized/stringdictionary/idx_get/
 ---
-## StringDictionary::idx_get(const [String](../../../system/string/)\&) const method
+## StringDictionary::idx_get(const String\&) const method
 
 
 Gets value at specific key.

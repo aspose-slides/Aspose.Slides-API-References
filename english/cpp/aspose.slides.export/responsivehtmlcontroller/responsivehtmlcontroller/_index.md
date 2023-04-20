@@ -15,12 +15,7 @@ Creates new instance
 Aspose::Slides::Export::ResponsiveHtmlController::ResponsiveHtmlController()
 ```
 
-## See Also
-
-* Class [ResponsiveHtmlController](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## ResponsiveHtmlController::ResponsiveHtmlController([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlFormattingController](../../ihtmlformattingcontroller/)\>) constructor
+## ResponsiveHtmlController::ResponsiveHtmlController(System::SharedPtr\<IHtmlFormattingController\>) constructor
 
 
 Creates new instance
@@ -39,7 +34,7 @@ Aspose::Slides::Export::ResponsiveHtmlController::ResponsiveHtmlController(Syste
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IHtmlFormattingController](../../ihtmlformattingcontroller/)
 * Class [ResponsiveHtmlController](../)
+* Class [IHtmlFormattingController](../../ihtmlformattingcontroller/)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

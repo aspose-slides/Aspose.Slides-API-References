@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.xml/xmlreader/readcontentas/
 ---
-## XmlReader::ReadContentAs(const [TypeInfo](../../../system/typeinfo/)\&, [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../ixmlnamespaceresolver/)\>) method
+## XmlReader::ReadContentAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Reads the content as an object of the type specified.

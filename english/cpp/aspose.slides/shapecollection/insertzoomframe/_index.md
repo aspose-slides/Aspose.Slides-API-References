@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/shapecollection/insertzoomframe/
 ---
-## ShapeCollection::InsertZoomFrame(**int32_t**, **float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## ShapeCollection::InsertZoomFrame(int32_t, float, float, float, float, System::SharedPtr\<ISlide\>) method
 
 
 Creates a new Zoom object and inserts it to a collection at the specified index.
@@ -40,15 +40,7 @@ System::SharedPtr<IZoomFrame> zoomFrame = pres->get_Slides()->idx_get(0)->get_Sh
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IZoomFrame](../../izoomframe/)
-* Class [ISlide](../../islide/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::InsertZoomFrame(**int32_t**, **float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\>) method
+## ShapeCollection::InsertZoomFrame(int32_t, float, float, float, float, System::SharedPtr\<ISlide\>, System::SharedPtr\<IPPImage\>) method
 
 
 Creates a new Zoom object and inserts it to a collection at the specified index.
@@ -90,7 +82,7 @@ System::SharedPtr<IZoomFrame> zoomFrame = pres->get_Slides()->idx_get(0)->get_Sh
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IZoomFrame](../../izoomframe/)
 * Class [ISlide](../../islide/)
-* Class [IPPImage](../../ippimage/)
 * Class [ShapeCollection](../)
+* Class [IPPImage](../../ippimage/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

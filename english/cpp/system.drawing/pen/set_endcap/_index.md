@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.drawing/pen/set_endcap/
 ---
-## Pen::set_EndCap([Drawing2D::LineCap](../../../system.drawing.drawing2d/linecap/)) method
+## Pen::set_EndCap(Drawing2D::LineCap) method
 
 
 Sets the ending line cap of the current [Pen](../) object.

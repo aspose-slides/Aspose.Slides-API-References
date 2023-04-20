@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system.text/encoding/getencoding/
 ---
-## Encoding::GetEncoding(const [String](../../../system/string/)\&) method
+## Encoding::GetEncoding(const String\&) method
 
 
 Gets encoding by name.
@@ -26,13 +26,6 @@ static EncodingPtr System::Text::Encoding::GetEncoding(const String &name)
 
 [Encoding](../) of specified name.
 
-## See Also
-
-* Typedef [EncodingPtr](../../../system/encodingptr/)
-* Class [String](../../../system/string/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## Encoding::GetEncoding(int) method
 
 
@@ -53,13 +46,7 @@ static EncodingPtr System::Text::Encoding::GetEncoding(int codepage)
 
 [Encoding](../) of specified codepage.
 
-## See Also
-
-* Typedef [EncodingPtr](../../../system/encodingptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetEncoding(int, const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)\&, const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)\&) method
+## Encoding::GetEncoding(int, const EncoderFallbackPtr\&, const DecoderFallbackPtr\&) method
 
 
 Gets encoding by codepage.
@@ -81,15 +68,7 @@ static EncodingPtr System::Text::Encoding::GetEncoding(int codepage, const Encod
 
 [Encoding](../) of specified codepage.
 
-## See Also
-
-* Typedef [EncodingPtr](../../../system/encodingptr/)
-* Typedef [EncoderFallbackPtr](../../../system/encoderfallbackptr/)
-* Typedef [DecoderFallbackPtr](../../../system/decoderfallbackptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetEncoding(const [String](../../../system/string/)\&, const [EncoderFallbackPtr](../../../system/encoderfallbackptr/)\&, const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)\&) method
+## Encoding::GetEncoding(const String\&, const EncoderFallbackPtr\&, const DecoderFallbackPtr\&) method
 
 
 Gets encoding by name.
@@ -114,9 +93,9 @@ static EncodingPtr System::Text::Encoding::GetEncoding(const String &name, const
 ## See Also
 
 * Typedef [EncodingPtr](../../../system/encodingptr/)
-* Class [String](../../../system/string/)
 * Typedef [EncoderFallbackPtr](../../../system/encoderfallbackptr/)
 * Typedef [DecoderFallbackPtr](../../../system/decoderfallbackptr/)
+* Class [String](../../../system/string/)
 * Class [Encoding](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

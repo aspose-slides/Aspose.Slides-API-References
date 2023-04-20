@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.collections/bitarray/set/
 ---
-## BitArray::Set(int, **bool**) method
+## BitArray::Set(int, bool) method
 
 
 Sets [BitArray](../) element.

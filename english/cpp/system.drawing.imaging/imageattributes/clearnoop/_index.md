@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.drawing.imaging/imageattributes/clearnoop/
 ---
-## ImageAttributes::ClearNoOp([ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::ClearNoOp(ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

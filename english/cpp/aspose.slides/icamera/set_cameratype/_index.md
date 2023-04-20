@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/icamera/set_cameratype/
 ---
-## ICamera::set_CameraType([CameraPresetType](../../camerapresettype/)) method
+## ICamera::set_CameraType(CameraPresetType) method
 
 
 [Camera](../../camera/) type Write [CameraPresetType](../../camerapresettype/).

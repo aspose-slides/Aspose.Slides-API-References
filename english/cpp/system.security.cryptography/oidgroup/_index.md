@@ -3,7 +3,7 @@ title: OidGroup
 second_title: Aspose.Slides for C++ API Reference
 description: Identifies Windows OID groups.
 type: docs
-weight: 937
+weight: 846
 url: /cpp/system.security.cryptography/oidgroup/
 ---
 ## OidGroup enum

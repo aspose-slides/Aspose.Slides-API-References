@@ -27,11 +27,6 @@ int System::Globalization::HebrewCalendar::GetMonthsInYear(int year, int era) co
 
 Number of months in the specified year of specified era.
 
-## See Also
-
-* Class [HebrewCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HebrewCalendar::GetMonthsInYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetMonthsInYear(int year) const
 
 Number of months in the specified year.
 
-## See Also
-
-* Class [HebrewCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HebrewCalendar::GetMonthsInYear(int, int) const method
 
 

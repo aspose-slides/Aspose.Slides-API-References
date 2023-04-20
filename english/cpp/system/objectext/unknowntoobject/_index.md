@@ -3,7 +3,7 @@ title: UnknownToObject()
 second_title: Aspose.Slides for C++ API Reference
 description: Converts unknown type to Object, handling both smart pointer type and value type situations.
 type: docs
-weight: 131
+weight: 118
 url: /cpp/system/objectext/unknowntoobject/
 ---
 ## ObjectExt::UnknownToObject(T) method
@@ -32,14 +32,6 @@ template<typename T> static std::enable_if<IsSmartPtr<T>::value, System::SmartPt
 
 Smart pointer to [Object](../../object/) being either converted pointer or boxed value.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [SmartPtr](../../smartptr/)
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::UnknownToObject(const T\&) method
 
 
@@ -68,9 +60,9 @@ Smart pointer to [Object](../../object/) being either converted pointer or boxed
 
 ## See Also
 
-* Struct [IsSmartPtr](../../issmartptr/)
 * Class [SmartPtr](../../smartptr/)
 * Class [Object](../../object/)
 * Class [ObjectExt](../)
+* Struct [IsSmartPtr](../../issmartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

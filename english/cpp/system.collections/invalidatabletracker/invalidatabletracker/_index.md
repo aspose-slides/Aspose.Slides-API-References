@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections/invalidatabletracker/invalidatabletracker/
 ---
-## InvalidatableTracker::InvalidatableTracker([Invalidatable](../../invalidatable/) *) constructor
+## InvalidatableTracker::InvalidatableTracker(Invalidatable *) constructor
 
 
 Constructs a tracker object.

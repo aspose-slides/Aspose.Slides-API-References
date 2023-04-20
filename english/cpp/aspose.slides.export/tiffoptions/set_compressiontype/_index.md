@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.export/tiffoptions/set_compressiontype/
 ---
-## TiffOptions::set_CompressionType([TiffCompressionTypes](../../tiffcompressiontypes/)) method
+## TiffOptions::set_CompressionType(TiffCompressionTypes) method
 
 
 Specifies the compression type. Write [TiffCompressionTypes](../../tiffcompressiontypes/).

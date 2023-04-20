@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.schema/xmlschemacollection/idx_get/
 ---
-## XmlSchemaCollection::idx_get(const [String](../../../system/string/)\&) method
+## XmlSchemaCollection::idx_get(const String\&) method
 
 
 Returns the [XmlSchema](../../xmlschema/) associated with the given namespace URI.

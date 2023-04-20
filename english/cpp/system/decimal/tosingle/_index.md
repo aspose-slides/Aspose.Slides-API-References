@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system/decimal/tosingle/
 ---
-## Decimal::ToSingle([Decimal](../)) method
+## Decimal::ToSingle(Decimal) method
 
 
 Converts the [Decimal](../) value to single precision floating-point number.
@@ -17,7 +17,6 @@ static float System::Decimal::ToSingle(Decimal value)
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

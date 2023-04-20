@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/controlpropertiescollection/add/
 ---
-## ControlPropertiesCollection::Add([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## ControlPropertiesCollection::Add(System::String, System::String) method
 
 
 Adds a property to the collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.security.cryptography/asnencodeddata/format/
 ---
-## AsnEncodedData::Format(**bool**) const method
+## AsnEncodedData::Format(bool) const method
 
 
 Formats data in human-readable form.

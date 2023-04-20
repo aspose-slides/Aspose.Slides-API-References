@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.smartart/ismartartnode/
 Represents node of a [SmartArt](../smartart/) diagram.
 
 ```cpp
-class ISmartArtNode : public System::Object
+class ISmartArtNode : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/rotatetransform/
 ---
-## LinearGradientBrush::RotateTransform(**float**, [MatrixOrder](../../matrixorder/)) method
+## LinearGradientBrush::RotateTransform(float, MatrixOrder) method
 
 
 Rotates current object's transform matrix.

@@ -3,7 +3,7 @@ title: Changed()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 5448
+weight: 5331
 url: /cpp/aspose.slides/changed/
 ---
 ## Aspose::Slides::Changed() function

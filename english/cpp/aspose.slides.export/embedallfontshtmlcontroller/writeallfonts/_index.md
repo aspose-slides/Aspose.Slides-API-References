@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.export/embedallfontshtmlcontroller/writeallfonts/
 ---
-## EmbedAllFontsHtmlController::WriteAllFonts([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlGenerator](../../ihtmlgenerator/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IPresentation](../../../aspose.slides/ipresentation/)\>) method
+## EmbedAllFontsHtmlController::WriteAllFonts(System::SharedPtr\<IHtmlGenerator\>, System::SharedPtr\<IPresentation\>) method
 
 
 Write all fonts contained in [Presentation](../../../aspose.slides/presentation/).

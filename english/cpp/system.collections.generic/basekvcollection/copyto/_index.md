@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections.generic/basekvcollection/copyto/
 ---
-## BaseKVCollection::CopyTo([ArrayPtr](../../../system/arrayptr/)\<KV\>, int) method
+## BaseKVCollection::CopyTo(ArrayPtr\<KV\>, int) method
 
 
 Copies data to existing array elements.

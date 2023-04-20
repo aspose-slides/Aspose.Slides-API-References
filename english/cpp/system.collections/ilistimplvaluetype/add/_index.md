@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections/ilistimplvaluetype/add/
 ---
-## IListImplValueType::Add([SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IListImplValueType::Add(SharedPtr\<System::Object\>) method
 
 
 Adds element to the end of list.

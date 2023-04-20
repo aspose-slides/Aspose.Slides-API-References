@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.text/icuencoding/getcharcount/
 ---
-## ICUEncoding::GetCharCount(const **uint8_t** *, int) method
+## ICUEncoding::GetCharCount(const uint8_t *, int) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -27,12 +27,7 @@ int System::Text::ICUEncoding::GetCharCount(const uint8_t *bytes, int count) ove
 
 Number of characters.
 
-## See Also
-
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoding::GetCharCount([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## ICUEncoding::GetCharCount(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -54,13 +49,7 @@ virtual int System::Text::Encoding::GetCharCount(ArrayPtr<uint8_t> bytes, int in
 
 Number of characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoding::GetCharCount([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## ICUEncoding::GetCharCount(ArrayPtr\<uint8_t\>) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -80,13 +69,7 @@ virtual int System::Text::Encoding::GetCharCount(ArrayPtr<uint8_t> bytes)
 
 Number of characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoding::GetCharCount(const **uint8_t** *, int) method
+## ICUEncoding::GetCharCount(const uint8_t *, int) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -109,6 +92,7 @@ Number of characters.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ICUEncoding](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/shapecollection/addsummaryzoomframe/
 ---
-## ShapeCollection::AddSummaryZoomFrame(**float**, **float**, **float**, **float**) method
+## ShapeCollection::AddSummaryZoomFrame(float, float, float, float) method
 
 
 Adds a new Summary Zoom object to the end of a collection.

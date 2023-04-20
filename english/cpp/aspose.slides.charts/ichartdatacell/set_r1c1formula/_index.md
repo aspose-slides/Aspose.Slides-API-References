@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/ichartdatacell/set_r1c1formula/
 ---
-## IChartDataCell::set_R1C1Formula([System::String](../../../system/string/)) method
+## IChartDataCell::set_R1C1Formula(System::String) method
 
 
 Sets the formula in R1C1-style.

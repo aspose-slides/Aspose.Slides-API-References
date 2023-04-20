@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.http/httprequestmessage/set_requesturi/
 ---
-## HttpRequestMessage::set_RequestUri([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## HttpRequestMessage::set_RequestUri(System::SharedPtr\<Uri\>) method
 
 
 Sets the URI of the requested resource.

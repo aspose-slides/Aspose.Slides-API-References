@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.effects/glow/equals/
 ---
-## Glow::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Glow::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [Glow](../) is equal to the current [Glow](../).

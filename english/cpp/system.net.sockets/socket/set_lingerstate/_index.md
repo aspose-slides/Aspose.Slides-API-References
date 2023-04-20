@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.net.sockets/socket/set_lingerstate/
 ---
-## Socket::set_LingerState([System::SharedPtr](../../../system/sharedptr/)\<[LingerOption](../../lingeroption/)\>) method
+## Socket::set_LingerState(System::SharedPtr\<LingerOption\>) method
 
 
 Sets a value that indicates if the socket will delay closing in an attempt to send all pending data.

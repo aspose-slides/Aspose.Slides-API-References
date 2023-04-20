@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net/filewebrequest/set_method/
 ---
-## FileWebRequest::set_Method([String](../../../system/string/)) method
+## FileWebRequest::set_Method(String) method
 
 
 Sets the HTTP method.

@@ -26,12 +26,7 @@ static double System::Globalization::CharUnicodeInfo::GetNumericValue(char16_t c
 
 The numeric value or -1 if the specified character is not a numeric character.
 
-## See Also
-
-* Class [CharUnicodeInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CharUnicodeInfo::GetNumericValue(const [String](../../../system/string/)\&, int) method
+## CharUnicodeInfo::GetNumericValue(const String\&, int) method
 
 
 Gets numeric value associated with the character at the specified index of the string.
@@ -54,7 +49,7 @@ The numeric value or -1 if the specified character is not a numeric character.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [CharUnicodeInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

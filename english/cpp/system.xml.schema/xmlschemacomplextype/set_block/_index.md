@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemacomplextype/set_block/
 ---
-## XmlSchemaComplexType::set_Block([XmlSchemaDerivationMethod](../../xmlschemaderivationmethod/)) method
+## XmlSchemaComplexType::set_Block(XmlSchemaDerivationMethod) method
 
 
 Sets the **block** attribute.

@@ -20,14 +20,7 @@ virtual SharedPtr<Image> System::Drawing::Bitmap::Clone() override
 
 A copy of the current object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Bitmap](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Bitmap::Clone([Rectangle](../../rectangle/), [Imaging::PixelFormat](../../../system.drawing.imaging/pixelformat/)) method
+## Bitmap::Clone(Rectangle, Imaging::PixelFormat) method
 
 
 Creates a [Bitmap](../) object that represents a copy of a region of the bitmap image represented by the current object.
@@ -48,16 +41,7 @@ SharedPtr<Bitmap> System::Drawing::Bitmap::Clone(Rectangle rect, Imaging::PixelF
 
 The created [Bitmap](../) object
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../)
-* Class [Rectangle](../../rectangle/)
-* Enum [PixelFormat](../../../system.drawing.imaging/pixelformat/)
-* Class [Bitmap](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Bitmap::Clone([RectangleF](../../rectanglef/), [Imaging::PixelFormat](../../../system.drawing.imaging/pixelformat/)) method
+## Bitmap::Clone(RectangleF, Imaging::PixelFormat) method
 
 
 Creates a [Bitmap](../) object that represents a copy of a region of the bitmap image represented by the current object.
@@ -80,10 +64,11 @@ The created [Bitmap](../) object
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../)
-* Class [RectangleF](../../rectanglef/)
 * Enum [PixelFormat](../../../system.drawing.imaging/pixelformat/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Image](../../image/)
 * Class [Bitmap](../)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

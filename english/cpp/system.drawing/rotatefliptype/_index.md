@@ -3,7 +3,7 @@ title: RotateFlipType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the type of rotation and/or flipping operation.
 type: docs
-weight: 443
+weight: 430
 url: /cpp/system.drawing/rotatefliptype/
 ---
 ## RotateFlipType enum

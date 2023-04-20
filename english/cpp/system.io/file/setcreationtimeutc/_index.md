@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.io/file/setcreationtimeutc/
 ---
-## File::SetCreationTimeUtc(const [String](../../../system/string/)\&, [DateTime](../../../system/datetime/)) method
+## File::SetCreationTimeUtc(const String\&, DateTime) method
 
 
 NOT IMPLEMENTED.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/mathbar/mathbar/
 ---
-## MathBar::MathBar([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) constructor
+## MathBar::MathBar(System::SharedPtr\<IMathElement\>) constructor
 
 
 Initializes [MathBar](../) with overbar (Top position)
@@ -30,14 +30,7 @@ Example:
 auto mathBar = System::MakeObject<MathBar>(System::MakeObject<MathematicalText>(u"x"));
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathBar](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathBar::MathBar([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [MathTopBotPositions](../../mathtopbotpositions/)) constructor
+## MathBar::MathBar(System::SharedPtr\<IMathElement\>, MathTopBotPositions) constructor
 
 
 Initializes [MathBar](../) with specified position
@@ -64,9 +57,9 @@ auto mathBar = System::MakeObject<MathBar>(System::MakeObject<MathematicalText>(
 
 ## See Also
 
+* Enum [MathTopBotPositions](../../mathtopbotpositions/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathElement](../../imathelement/)
-* Enum [MathTopBotPositions](../../mathtopbotpositions/)
 * Class [MathBar](../)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

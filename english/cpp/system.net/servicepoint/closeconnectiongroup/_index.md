@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.net/servicepoint/closeconnectiongroup/
 ---
-## ServicePoint::CloseConnectionGroup([String](../../../system/string/)) method
+## ServicePoint::CloseConnectionGroup(String) method
 
 
 Closes and removes connections that belong to the specified connection group.

@@ -20,12 +20,6 @@ iterator Aspose::Slides::Charts::ChartCategoryCollection::end() noexcept
 
 An iterator pointing right after the last element (if any) of the collection
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [ChartCategoryCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
 ## ChartCategoryCollection::end() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing right after the last element (if any) of the const-qualifie
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [ChartCategoryCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)

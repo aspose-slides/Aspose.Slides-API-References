@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml.schema/xmlschemacomplextype/set_contentmodel/
 ---
-## XmlSchemaComplexType::set_ContentModel(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaContentModel](../../xmlschemacontentmodel/)\>\&) method
+## XmlSchemaComplexType::set_ContentModel(const SharedPtr\<XmlSchemaContentModel\>\&) method
 
 
 Sets the post-compilation [XmlSchemaContentModel](../../xmlschemacontentmodel/) of this complex type.

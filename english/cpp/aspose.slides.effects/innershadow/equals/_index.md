@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.effects/innershadow/equals/
 ---
-## InnerShadow::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## InnerShadow::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [InnerShadow](../) is equal to the current [InnerShadow](../).

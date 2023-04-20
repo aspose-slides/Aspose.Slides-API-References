@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.theme/iextracolorschemecollection/idx_get/
 ---
-## IExtraColorSchemeCollection::idx_get(**int32_t**) method
+## IExtraColorSchemeCollection::idx_get(int32_t) method
 
 
 Returns an color scheme by index. Read-only [IExtraColorScheme](../../iextracolorscheme/).

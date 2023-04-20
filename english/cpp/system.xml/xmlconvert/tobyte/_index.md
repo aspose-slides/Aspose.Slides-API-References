@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.xml/xmlconvert/tobyte/
 ---
-## XmlConvert::ToByte(const [String](../../../system/string/)\&) method
+## XmlConvert::ToByte(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [Byte](../../../system/byte/) equivalent.

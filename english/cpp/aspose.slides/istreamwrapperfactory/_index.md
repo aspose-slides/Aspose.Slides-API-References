@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/istreamwrapperfactory/
 Factory of StreamWrappers. For COM interface.
 
 ```cpp
-class IStreamWrapperFactory : public System::Object
+class IStreamWrapperFactory : public virtual System::Object
 ```
 
 ## Methods

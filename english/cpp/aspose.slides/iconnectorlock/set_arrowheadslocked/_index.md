@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/iconnectorlock/set_arrowheadslocked/
 ---
-## IConnectorLock::set_ArrowheadsLocked(**bool**) method
+## IConnectorLock::set_ArrowheadsLocked(bool) method
 
 
 Determines whether a changing arrowheads is forbidden. Write **bool**.

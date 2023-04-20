@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/system.drawing/graphics/drawclosedcurve/
 ---
-## Graphics::DrawClosedCurve(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\&, **float**, [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/)) method
+## Graphics::DrawClosedCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<Point\>\&, float, Drawing2D::FillMode) method
 
 
 Draws a closed spline using the specified pen.
@@ -25,17 +25,7 @@ void System::Drawing::Graphics::DrawClosedCurve(const SharedPtr<Pen> &pen, const
 | tension | **float** | Value that specifies the tension of the spline |
 | fillmode | [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/) | IGNORED |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Enum [FillMode](../../../system.drawing.drawing2d/fillmode/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawClosedCurve(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\&, **float**, [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/)) method
+## Graphics::DrawClosedCurve(const SharedPtr\<Pen\>\&, const ArrayPtr\<PointF\>\&, float, Drawing2D::FillMode) method
 
 
 Draws a closed spline using the specified pen.
@@ -56,11 +46,12 @@ void System::Drawing::Graphics::DrawClosedCurve(const SharedPtr<Pen> &pen, const
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
 * Enum [FillMode](../../../system.drawing.drawing2d/fillmode/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [Pen](../../pen/)
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

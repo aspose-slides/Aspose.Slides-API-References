@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlwritersettings/set_encoding/
 ---
-## XmlWriterSettings::set_Encoding(const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\&) method
+## XmlWriterSettings::set_Encoding(const SharedPtr\<System::Text::Encoding\>\&) method
 
 
 Sets the type of text encoding to use.

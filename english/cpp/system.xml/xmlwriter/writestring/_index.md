@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.xml/xmlwriter/writestring/
 ---
-## XmlWriter::WriteString(const [String](../../../system/string/)\&) method
+## XmlWriter::WriteString(const String\&) method
 
 
 When overridden in a derived class, writes the given text content.

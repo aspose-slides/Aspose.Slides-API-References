@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.collections.generic/basekvcollection/settemplateweakptr/
 ---
-## BaseKVCollection::SetTemplateWeakPtr(**uint32_t**) method
+## BaseKVCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Enables compilation, but doesn't actually do anything as this structure doesn't own data.

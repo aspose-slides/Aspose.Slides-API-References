@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system/datetime/frombinary/
 ---
-## DateTime::FromBinary(**int64_t**) method
+## DateTime::FromBinary(int64_t) method
 
 
 Deserializes the date time value from the specified unsigned 64-bit integer and sets the new instance of [DateTime](../) class to that value.
@@ -28,7 +28,6 @@ A new instance of [DateTime](../) class representing the date and time value des
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

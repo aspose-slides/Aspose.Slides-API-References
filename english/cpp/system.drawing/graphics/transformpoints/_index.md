@@ -6,7 +6,7 @@ type: docs
 weight: 898
 url: /cpp/system.drawing/graphics/transformpoints/
 ---
-## Graphics::TransformPoints([Drawing2D::CoordinateSpace](../../../system.drawing.drawing2d/coordinatespace/), [Drawing2D::CoordinateSpace](../../../system.drawing.drawing2d/coordinatespace/), const [ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::Point](../../point/)\>\&) method
+## Graphics::TransformPoints(Drawing2D::CoordinateSpace, Drawing2D::CoordinateSpace, const ArrayPtr\<System::Drawing::Point\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -16,15 +16,7 @@ void System::Drawing::Graphics::TransformPoints(Drawing2D::CoordinateSpace destS
 ```
 
 
-## See Also
-
-* Enum [CoordinateSpace](../../../system.drawing.drawing2d/coordinatespace/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::TransformPoints([Drawing2D::CoordinateSpace](../../../system.drawing.drawing2d/coordinatespace/), [Drawing2D::CoordinateSpace](../../../system.drawing.drawing2d/coordinatespace/), const [ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../pointf/)\>\&) method
+## Graphics::TransformPoints(Drawing2D::CoordinateSpace, Drawing2D::CoordinateSpace, const ArrayPtr\<System::Drawing::PointF\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -38,7 +30,8 @@ void System::Drawing::Graphics::TransformPoints(Drawing2D::CoordinateSpace destS
 
 * Enum [CoordinateSpace](../../../system.drawing.drawing2d/coordinatespace/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

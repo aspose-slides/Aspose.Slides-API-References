@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/oleobjectframe/set_linkpathlong/
 ---
-## OleObjectFrame::set_LinkPathLong([System::String](../../../system/string/)) method
+## OleObjectFrame::set_LinkPathLong(System::String) method
 
 
 Returns the full path to a linked file. Long file name will be used. Write [System::String](../../../system/string/).

@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Web::Services::Protocols::SoapDocumentMethodAttribute::SoapDocumentMethodAttribute()
 ```
 
-## See Also
-
-* Class [SoapDocumentMethodAttribute](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## SoapDocumentMethodAttribute::SoapDocumentMethodAttribute([String](../../../system/string/)) constructor
+## SoapDocumentMethodAttribute::SoapDocumentMethodAttribute(String) constructor
 
 
 Constructs a new instance.
@@ -38,7 +33,7 @@ System::Web::Services::Protocols::SoapDocumentMethodAttribute::SoapDocumentMetho
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [SoapDocumentMethodAttribute](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Web::Services::Protocols](../../)
 * Library [Aspose.Slides](../../../)

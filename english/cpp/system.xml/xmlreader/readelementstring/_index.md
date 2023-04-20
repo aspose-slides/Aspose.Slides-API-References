@@ -20,13 +20,7 @@ virtual String System::Xml::XmlReader::ReadElementString()
 
 The text contained in the element that was read. An empty string if the element is empty.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementString([String](../../../system/string/)) method
+## XmlReader::ReadElementString(String) method
 
 
 Checks that the [XmlReader::get_Name](../get_name/) value of the element found matches the given string before reading a text-only element. However, it is recommended to use the [XmlReader::ReadElementContentAsString](../readelementcontentasstring/) method instead, because it provides a more straightforward way to handle this operation.
@@ -46,13 +40,7 @@ virtual String System::Xml::XmlReader::ReadElementString(String name)
 
 The text contained in the element that was read. An empty string if the element is empty.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementString([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementString(String, String) method
 
 
 Checks that the [XmlReader::get_LocalName](../get_localname/) and [XmlReader::get_NamespaceURI](../get_namespaceuri/) values of the element found matches the given strings before reading a text-only element. However, it is recommended to use the [XmlReader::ReadElementContentAsString](../readelementcontentasstring/) method instead, because it provides a more straightforward way to handle this operation.

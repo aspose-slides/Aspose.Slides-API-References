@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/system.globalization/datetimeformatinfo/setalldatetimepatterns/
 ---
-## DateTimeFormatInfo::SetAllDateTimePatterns(const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&, char16_t) method
+## DateTimeFormatInfo::SetAllDateTimePatterns(const ArrayPtr\<String\>\&, char16_t) method
 
 
 Sets patterns for the specified format.

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides.charts/ichartdatapointcollection/adddatapointfordoughnutseries/
 ---
-## IChartDataPointCollection::AddDataPointForDoughnutSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## IChartDataPointCollection::AddDataPointForDoughnutSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also [ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)](../../charttypecharacterizer/ischarttypedoughnut/) method).
@@ -26,15 +26,7 @@ virtual System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::IChartDataPoi
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [IChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartDataPointCollection::AddDataPointForDoughnutSeries(**double**) method
+## IChartDataPointCollection::AddDataPointForDoughnutSeries(double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also [ChartTypeCharacterizer.IsChartTypeDoughnut(ChartType)](../../charttypecharacterizer/ischarttypedoughnut/) method).
@@ -58,6 +50,7 @@ New data point.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartDataPoint](../../ichartdatapoint/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [IChartDataPointCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathradicalfactory/
 Allows to create math radical
 
 ```cpp
-class IMathRadicalFactory : public System::Object
+class IMathRadicalFactory : public virtual System::Object
 ```
 
 ## Methods

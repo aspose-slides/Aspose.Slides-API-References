@@ -32,12 +32,7 @@ template<class Y> bool System::SmartPtr<T>::operator<(Y *p) const
 
 True if the object referenced by [SmartPtr](../) is 'less' than p and false otherwise.
 
-## See Also
-
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::operator<([SmartPtr](../)\<Y\> const\&) const method
+## SmartPtr::operator<(SmartPtr\<Y\> const\&) const method
 
 
 Provides less-compare semantics for [SmartPtr](../) class.
@@ -65,7 +60,6 @@ True if the object referenced by [SmartPtr](../) is 'less' than x and false othe
 
 ## See Also
 
-* Class [SmartPtr](../)
 * Class [SmartPtr](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

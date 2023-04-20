@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net/httpwebresponse/httpwebresponse/
 ---
-## HttpWebResponse::HttpWebResponse([System::SharedPtr](../../../system/sharedptr/)\<[Http::HttpResponseMessage](../../../system.net.http/httpresponsemessage/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[CookieContainer](../../cookiecontainer/)\>) constructor
+## HttpWebResponse::HttpWebResponse(System::SharedPtr\<Http::HttpResponseMessage\>, System::SharedPtr\<Uri\>, System::SharedPtr\<CookieContainer\>) constructor
 
 
 Constructs a new instance.

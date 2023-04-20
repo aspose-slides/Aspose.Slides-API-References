@@ -33,11 +33,6 @@ template<typename Q> std::enable_if<detail::has_operator_less<Q>::value, bool>::
 
 True if **x** is considered less than **y**, false otherwise.
 
-## See Also
-
-* Struct [ComparerAdapter](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## ComparerAdapter::operator()(const Q\&, const Q\&) const method
 
 

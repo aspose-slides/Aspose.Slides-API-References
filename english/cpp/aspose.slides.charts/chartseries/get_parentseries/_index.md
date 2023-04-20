@@ -6,7 +6,7 @@ type: docs
 weight: 833
 url: /cpp/aspose.slides.charts/chartseries/get_parentseries/
 ---
-## ChartSeries::get_ParentSeries(**int32_t**) method
+## ChartSeries::get_ParentSeries(int32_t) method
 
 
 Returns chart series in the parent series group at the specified index.

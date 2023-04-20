@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.animation/ipropertyeffect/set_calcmode/
 ---
-## IPropertyEffect::set_CalcMode([PropertyCalcModeType](../../propertycalcmodetype/)) method
+## IPropertyEffect::set_CalcMode(PropertyCalcModeType) method
 
 
 Specifies the interpolation mode for the animation Write [PropertyCalcModeType](../../propertycalcmodetype/).

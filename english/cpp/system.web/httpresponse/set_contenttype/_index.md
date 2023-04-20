@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.web/httpresponse/set_contenttype/
 ---
-## HttpResponse::set_ContentType(const [String](../../../system/string/)\&) method
+## HttpResponse::set_ContentType(const String\&) method
 
 
 Not implemented.

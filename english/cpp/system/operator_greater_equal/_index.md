@@ -3,10 +3,10 @@ title: operator>=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1964
+weight: 1860
 url: /cpp/system/operator_greater_equal/
 ---
-## System::operator>=(std::nullptr_t, [DateTime](../datetime/)) function
+## System::operator>=(std::nullptr_t, DateTime) function
 
 
 
@@ -15,12 +15,7 @@ url: /cpp/system/operator_greater_equal/
 constexpr bool System::operator>=(std::nullptr_t, DateTime)
 ```
 
-## See Also
-
-* Class [DateTime](../datetime/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator>=(std::nullptr_t, const [DateTimeOffset](../datetimeoffset/)\&) function
+## System::operator>=(std::nullptr_t, const DateTimeOffset\&) function
 
 
 
@@ -29,12 +24,7 @@ constexpr bool System::operator>=(std::nullptr_t, DateTime)
 constexpr bool System::operator>=(std::nullptr_t, const DateTimeOffset &)
 ```
 
-## See Also
-
-* Class [DateTimeOffset](../datetimeoffset/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator>=(std::nullptr_t, const [Nullable](../nullable/)\<T\>\&) function
+## System::operator>=(std::nullptr_t, const Nullable\<T\>\&) function
 
 
 Always returns false.
@@ -43,12 +33,7 @@ Always returns false.
 template<typename T> bool System::operator>=(std::nullptr_t, const Nullable<T> &)
 ```
 
-## See Also
-
-* Class [Nullable](../nullable/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator>=(const T1\&, const [Nullable](../nullable/)\<T2\>\&) function
+## System::operator>=(const T1\&, const Nullable\<T2\>\&) function
 
 
 Determines if the specified value is greater or equal to the value represented by the specified [Nullable](../nullable/) object by applying [operator>=()](./) to these values.
@@ -76,13 +61,7 @@ template<typename T1,typename T2> std::enable_if<!IsNullable<T1>::value, bool>::
 
 True if the first comparand is greater or equal than the second comparand, otherwise - false
 
-## See Also
-
-* Struct [IsNullable](../isnullable/)
-* Class [Nullable](../nullable/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator>=(std::nullptr_t, [TimeSpan](../timespan/)) function
+## System::operator>=(std::nullptr_t, TimeSpan) function
 
 
 
@@ -93,6 +72,10 @@ constexpr bool System::operator>=(std::nullptr_t, TimeSpan)
 
 ## See Also
 
+* Class [DateTime](../datetime/)
+* Class [DateTimeOffset](../datetimeoffset/)
+* Class [Nullable](../nullable/)
 * Class [TimeSpan](../timespan/)
+* Struct [IsNullable](../isnullable/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

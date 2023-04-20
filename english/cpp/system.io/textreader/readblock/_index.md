@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.io/textreader/readblock/
 ---
-## TextReader::ReadBlock([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int) method
+## TextReader::ReadBlock(ArrayPtr\<char_t\>, int, int) method
 
 
 Reads the specified maximum number of characters from the current text reader and writes the data to a buffer, starting at the specified index.

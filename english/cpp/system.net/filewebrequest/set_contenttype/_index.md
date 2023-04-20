@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net/filewebrequest/set_contenttype/
 ---
-## FileWebRequest::set_ContentType([String](../../../system/string/)) method
+## FileWebRequest::set_ContentType(String) method
 
 
 Sets the MIME type of the request.

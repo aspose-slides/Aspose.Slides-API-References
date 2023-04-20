@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/system/datetimeoffset/tryparse/
 ---
-## DateTimeOffset::TryParse(const [String](../../string/)\&, [DateTimeOffset](../)\&) method
+## DateTimeOffset::TryParse(const String\&, DateTimeOffset\&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object.
@@ -27,14 +27,7 @@ static bool System::DateTimeOffset::TryParse(const String &input, DateTimeOffset
 
 true if the **input** converted successfully, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::TryParse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/), [DateTimeOffset](../)\&) method
+## DateTimeOffset::TryParse(const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles, DateTimeOffset\&) method
 
 
 Tries to converts the specified string to [DateTimeOffset](../) object using the specified format provider and formatting style.
@@ -59,11 +52,10 @@ true if the **input** converted successfully, otherwise - false.
 
 ## See Also
 
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
 * Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
+* Class [IFormatProvider](../../iformatprovider/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

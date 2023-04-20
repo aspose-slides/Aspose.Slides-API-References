@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.mathtext/imathelement/setsubscript/
 ---
-## IMathElement::SetSubscript([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>) method
+## IMathElement::SetSubscript(System::SharedPtr\<IMathElement\>) method
 
 
 Creates subscript
@@ -36,15 +36,7 @@ auto index = System::MakeObject<MathematicalText>(u"i");
 auto subscript = element->SetSubscript(index);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathSubscriptElement](../../imathsubscriptelement/)
-* Class [IMathElement](../)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::SetSubscript([System::String](../../../system/string/)) method
+## IMathElement::SetSubscript(System::String) method
 
 
 Creates subscript
@@ -77,7 +69,7 @@ auto subscript = element->SetSubscript(u"i");
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathSubscriptElement](../../imathsubscriptelement/)
-* Class [String](../../../system/string/)
 * Class [IMathElement](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

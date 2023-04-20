@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.drawing.drawing2d/matrix/rotate/
 ---
-## Matrix::Rotate(**float**) method
+## Matrix::Rotate(float) method
 
 
 Rotates the matrix represented by the current object clockwise by the specified angle.
@@ -22,12 +22,7 @@ void System::Drawing::Drawing2D::Matrix::Rotate(float angle)
 | --- | --- | --- |
 | angle | **float** | The angle to rotate the matrix by |
 
-## See Also
-
-* Class [Matrix](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## Matrix::Rotate(**float**, [MatrixOrder](../../matrixorder/)) method
+## Matrix::Rotate(float, MatrixOrder) method
 
 
 Rotates the matrix represented by the current object clockwise around the origin by the specified angle.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/webproxy/set_bypasslist/
 ---
-## WebProxy::set_BypassList([System::ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>) method
+## WebProxy::set_BypassList(System::ArrayPtr\<String\>) method
 
 
 Sets the list of addresses that do not use the proxy server.

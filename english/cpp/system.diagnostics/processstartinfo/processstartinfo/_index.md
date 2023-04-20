@@ -15,12 +15,7 @@ Creates empty start info object.
 System::Diagnostics::ProcessStartInfo::ProcessStartInfo()
 ```
 
-## See Also
-
-* Class [ProcessStartInfo](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## ProcessStartInfo::ProcessStartInfo(const [String](../../../system/string/)\&) constructor
+## ProcessStartInfo::ProcessStartInfo(const String\&) constructor
 
 
 Creates start info object.
@@ -36,13 +31,7 @@ System::Diagnostics::ProcessStartInfo::ProcessStartInfo(const String &fileName)
 | --- | --- | --- |
 | fileName | const [String](../../../system/string/)\& | File name or path. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ProcessStartInfo](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## ProcessStartInfo::ProcessStartInfo(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) constructor
+## ProcessStartInfo::ProcessStartInfo(const String\&, const String\&) constructor
 
 
 Creates start info object.
@@ -61,7 +50,7 @@ System::Diagnostics::ProcessStartInfo::ProcessStartInfo(const String &fileName, 
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [ProcessStartInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Diagnostics](../../)
 * Library [Aspose.Slides](../../../)

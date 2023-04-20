@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography.x509certificates/x509chainpolicy/set_verificationtime/
 ---
-## X509ChainPolicy::set_VerificationTime([DateTime](../../../system/datetime/)) method
+## X509ChainPolicy::set_VerificationTime(DateTime) method
 
 
 

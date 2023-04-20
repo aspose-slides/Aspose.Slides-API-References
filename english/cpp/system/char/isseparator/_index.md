@@ -27,11 +27,6 @@ static bool System::Char::IsSeparator(const char_t *str, int idx)
 
 True if the character at the specified index is a separator character, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsSeparator(char_t) method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/imathradicalfactory/createmathradical/
 ---
-## IMathRadicalFactory::CreateMathRadical([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathRadicalFactory::CreateMathRadical(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates a math radical

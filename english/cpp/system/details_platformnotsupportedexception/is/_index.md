@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_platformnotsupportedexception/is/
 ---
-## Details_PlatformNotSupportedException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_PlatformNotSupportedException::Is(const System::TypeInfo\&) const method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.xml/xmlreadersettings/set_ignorewhitespace/
 ---
-## XmlReaderSettings::set_IgnoreWhitespace(**bool**) method
+## XmlReaderSettings::set_IgnoreWhitespace(bool) method
 
 
 Sets a value indicating whether to ignore insignificant white space.

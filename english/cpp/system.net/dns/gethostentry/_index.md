@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net/dns/gethostentry/
 ---
-## Dns::GetHostEntry([String](../../../system/string/)) method
+## Dns::GetHostEntry(String) method
 
 
 Creates a new IPHostEntry-class instance using the specified string that contains a host name or IP address.
@@ -26,15 +26,7 @@ static System::SharedPtr<IPHostEntry> System::Net::Dns::GetHostEntry(String host
 
 A newly created IPHostEntry-class instance.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPHostEntry](../../iphostentry/)
-* Class [String](../../../system/string/)
-* Class [Dns](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Dns::GetHostEntry([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../ipaddress/)\>) method
+## Dns::GetHostEntry(System::SharedPtr\<IPAddress\>) method
 
 
 Creates a new IPHostEntry-class instance using the specified IP address.
@@ -58,7 +50,8 @@ A newly created IPHostEntry-class instance.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPHostEntry](../../iphostentry/)
-* Class [IPAddress](../../ipaddress/)
+* Class [String](../../../system/string/)
 * Class [Dns](../)
+* Class [IPAddress](../../ipaddress/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

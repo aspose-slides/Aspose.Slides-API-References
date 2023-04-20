@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/imathlimit/set_upperlimit/
 ---
-## IMathLimit::set_UpperLimit(**bool**) method
+## IMathLimit::set_UpperLimit(bool) method
 
 
 Specifies upper or lower limit

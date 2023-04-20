@@ -27,11 +27,6 @@ int System::Globalization::PersianCalendar::GetLeapMonth(int year, int era) cons
 
 Leap month of the speicified year of the specified era or zero if the year has no leap month.
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::GetLeapMonth(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetLeapMonth(int year) const
 
 Leap month of the speicified year or zero if the year has no leap month.
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::GetLeapMonth(int, int) const method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.collections.objectmodel/collection/settemplateweakptr/
 ---
-## Collection::SetTemplateWeakPtr(**uint32_t**) method
+## Collection::SetTemplateWeakPtr(uint32_t) method
 
 
 Makes stored pointers weak (if applicable).

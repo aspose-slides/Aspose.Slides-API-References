@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/details_cryptographicexception/is/
 ---
-## Details_CryptographicException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_CryptographicException::Is(const System::TypeInfo\&) const method
 
 
 

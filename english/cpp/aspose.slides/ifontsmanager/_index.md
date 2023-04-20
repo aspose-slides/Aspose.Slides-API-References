@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifontsmanager/
 Manages fonts across the presentation.
 
 ```cpp
-class IFontsManager : public System::Object
+class IFontsManager : public virtual System::Object
 ```
 
 ## Methods

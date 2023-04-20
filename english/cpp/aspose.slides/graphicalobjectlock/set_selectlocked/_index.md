@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/graphicalobjectlock/set_selectlocked/
 ---
-## GraphicalObjectLock::set_SelectLocked(**bool**) method
+## GraphicalObjectLock::set_SelectLocked(bool) method
 
 
 Determines whether selecting this shape is forbidden. Write **bool**.

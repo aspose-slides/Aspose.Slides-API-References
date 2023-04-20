@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/adjustvalue/set_anglevalue/
 ---
-## AdjustValue::set_AngleValue(**float**) method
+## AdjustValue::set_AngleValue(float) method
 
 
 Sets value, interpreting it as angle in degrees. Write **float**.

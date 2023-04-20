@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml.schema/xmlschemasimplecontentrestriction/set_anyattribute/
 ---
-## XmlSchemaSimpleContentRestriction::set_AnyAttribute(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\&) method
+## XmlSchemaSimpleContentRestriction::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
 
 
 Sets an [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) to be used for the attribute value.

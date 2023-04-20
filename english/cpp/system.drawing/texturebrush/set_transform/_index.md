@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.drawing/texturebrush/set_transform/
 ---
-## TextureBrush::set_Transform(const [System::SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\&) method
+## TextureBrush::set_Transform(const System::SharedPtr\<Drawing2D::Matrix\>\&) method
 
 
 Sets a Matrix object that specifies the geometrical transformations for the brush represneted by the current object.

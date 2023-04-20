@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system.globalization/cultureinfo/set_currentuiculture/
 ---
-## CultureInfo::set_CurrentUICulture(const [CultureInfoPtr](../../cultureinfoptr/)\&) method
+## CultureInfo::set_CurrentUICulture(const CultureInfoPtr\&) method
 
 
 Sets current thread's UI culture.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.text.regularexpressions/groupcollection/remove/
 ---
-## GroupCollection::Remove(const [GroupPtr](../../groupptr/)\&) method
+## GroupCollection::Remove(const GroupPtr\&) method
 
 
 Disables removing element from collection.

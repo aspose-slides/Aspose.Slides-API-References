@@ -16,12 +16,7 @@ void System::Xml::XmlTextWriter::WriteStartDocument() override
 ```
 
 
-## See Also
-
-* Class [XmlTextWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextWriter::WriteStartDocument(**bool**) method
+## XmlTextWriter::WriteStartDocument(bool) method
 
 
 Writes the XML declaration with the version \"1.0\" and the standalone attribute.

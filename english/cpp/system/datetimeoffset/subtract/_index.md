@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system/datetimeoffset/subtract/
 ---
-## DateTimeOffset::Subtract([TimeSpan](../../timespan/)) const method
+## DateTimeOffset::Subtract(TimeSpan) const method
 
 
 Subtracts a specified time interval from the current object.
@@ -26,14 +26,7 @@ DateTimeOffset System::DateTimeOffset::Subtract(TimeSpan value) const
 
 Result of operation.
 
-## See Also
-
-* Class [DateTimeOffset](../)
-* Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::Subtract(const [DateTimeOffset](../)\&) const method
+## DateTimeOffset::Subtract(const DateTimeOffset\&) const method
 
 
 Subtracts a specified [DateTimeOffset](../) value from the current object.
@@ -55,8 +48,7 @@ Result of operation.
 
 ## See Also
 
+* Class [DateTimeOffset](../)
 * Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

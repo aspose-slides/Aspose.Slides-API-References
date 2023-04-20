@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/updownbarsmanager/set_hasupdownbars/
 ---
-## UpDownBarsManager::set_HasUpDownBars(**bool**) method
+## UpDownBarsManager::set_HasUpDownBars(bool) method
 
 
 HasUpDownBars. Write **bool**.

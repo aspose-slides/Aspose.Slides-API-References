@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/system/datetime/operator_equal_equal/
 ---
-## DateTime::operator==([DateTime](../)) const method
+## DateTime::operator==(DateTime) const method
 
 
 Determines if the current object and the specified [DateTime](../) object represent the same date and time value.
@@ -26,12 +26,6 @@ constexpr bool System::DateTime::operator==(DateTime other) const
 
 True if the current object and the specified object represent the same date and time value, otherwise - false
 
-## See Also
-
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTime::operator==(std::nullptr_t) const method
 
 

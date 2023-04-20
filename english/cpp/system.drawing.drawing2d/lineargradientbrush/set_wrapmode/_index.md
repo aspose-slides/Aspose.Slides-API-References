@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/set_wrapmode/
 ---
-## LinearGradientBrush::set_WrapMode([WrapMode](../../wrapmode/)) method
+## LinearGradientBrush::set_WrapMode(WrapMode) method
 
 
 Sets the wrap mode.

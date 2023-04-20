@@ -3,7 +3,7 @@ title: StringTrimming
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how characters should be trimmed from a string that does not fit the layout shape.
 type: docs
-weight: 495
+weight: 482
 url: /cpp/system.drawing/stringtrimming/
 ---
 ## StringTrimming enum

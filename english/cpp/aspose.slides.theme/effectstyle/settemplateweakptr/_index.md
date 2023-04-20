@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.theme/effectstyle/settemplateweakptr/
 ---
-## EffectStyle::SetTemplateWeakPtr(**uint32_t**) method
+## EffectStyle::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

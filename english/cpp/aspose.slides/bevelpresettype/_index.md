@@ -3,7 +3,7 @@ title: BevelPresetType
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define 3D bevel of shape.
 type: docs
-weight: 5630
+weight: 5370
 url: /cpp/aspose.slides/bevelpresettype/
 ---
 ## BevelPresetType enum

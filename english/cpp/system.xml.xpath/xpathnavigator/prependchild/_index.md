@@ -20,14 +20,7 @@ virtual SharedPtr<XmlWriter> System::Xml::XPath::XPathNavigator::PrependChild()
 
 An [XmlWriter](../../../system.xml/xmlwriter/) object used to create a new child node at the beginning of the list of child nodes of the current node.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::PrependChild([String](../../../system/string/)) method
+## XPathNavigator::PrependChild(String) method
 
 
 Creates a new child node at the beginning of the list of child nodes of the current node using the XML string specified.
@@ -43,13 +36,7 @@ virtual void System::Xml::XPath::XPathNavigator::PrependChild(String newChild)
 | --- | --- | --- |
 | newChild | [String](../../../system/string/) | The XML data string for the new child node. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::PrependChild([SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>) method
+## XPathNavigator::PrependChild(SharedPtr\<XmlReader\>) method
 
 
 Creates a new child node at the beginning of the list of child nodes of the current node using the XML contents of the [XmlReader](../../../system.xml/xmlreader/) object specified.
@@ -65,14 +52,7 @@ virtual void System::Xml::XPath::XPathNavigator::PrependChild(SharedPtr<XmlReade
 | --- | --- | --- |
 | newChild | [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\> | An [XmlReader](../../../system.xml/xmlreader/) object positioned on the XML data for the new child node. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::PrependChild([SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::PrependChild(SharedPtr\<XPathNavigator\>) method
 
 
 Creates a new child node at the beginning of the list of child nodes of the current node using the nodes in the [XPathNavigator](../) object specified.
@@ -91,7 +71,9 @@ virtual void System::Xml::XPath::XPathNavigator::PrependChild(SharedPtr<XPathNav
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlWriter](../../../system.xml/xmlwriter/)
 * Class [XPathNavigator](../)
-* Class [XPathNavigator](../)
+* Class [String](../../../system/string/)
+* Class [XmlReader](../../../system.xml/xmlreader/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

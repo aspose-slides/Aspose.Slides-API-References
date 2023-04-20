@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.diagnostics/debug/fail/
 ---
-## Debug::Fail(const [String](../../../system/string/)\&) method
+## Debug::Fail(const String\&) method
 
 
 Send fail message.

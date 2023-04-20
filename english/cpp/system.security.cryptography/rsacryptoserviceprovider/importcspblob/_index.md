@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/importcspblob/
 ---
-## RSACryptoServiceProvider::ImportCspBlob([ByteArrayPtr](../../../system/bytearrayptr/)) method
+## RSACryptoServiceProvider::ImportCspBlob(ByteArrayPtr) method
 
 
 Imports blob with information on key. Not implemented.

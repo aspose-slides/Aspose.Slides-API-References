@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.net/cookie/set_variant/
 ---
-## Cookie::set_Variant([CookieVariant](../../cookievariant/)) method
+## Cookie::set_Variant(CookieVariant) method
 
 
 Sets the cookie's specification.

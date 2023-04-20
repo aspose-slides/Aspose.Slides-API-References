@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/iupdownbarsmanager/set_hasupdownbars/
 ---
-## IUpDownBarsManager::set_HasUpDownBars(**bool**) method
+## IUpDownBarsManager::set_HasUpDownBars(bool) method
 
 
 Determines whether the chart has up/down bars. Write **bool**.

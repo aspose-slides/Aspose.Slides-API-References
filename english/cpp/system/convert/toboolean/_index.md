@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system/convert/toboolean/
 ---
-## Convert::ToBoolean(**bool**) method
+## Convert::ToBoolean(bool) method
 
 
 Returns the specified boolean value.
@@ -15,12 +15,7 @@ Returns the specified boolean value.
 static constexpr bool System::Convert::ToBoolean(bool value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**uint8_t**) method
+## Convert::ToBoolean(uint8_t) method
 
 
 Converts the specified 8-bit unsigned integer to an equivalent boolean value.
@@ -29,12 +24,7 @@ Converts the specified 8-bit unsigned integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(uint8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**int8_t**) method
+## Convert::ToBoolean(int8_t) method
 
 
 Converts the specified 8-bit signed integer to an equivalent boolean value.
@@ -43,12 +33,7 @@ Converts the specified 8-bit signed integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(int8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**uint16_t**) method
+## Convert::ToBoolean(uint16_t) method
 
 
 Converts the specified 16-bit unsigned integer to an equivalent boolean value.
@@ -57,12 +42,7 @@ Converts the specified 16-bit unsigned integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(uint16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**int16_t**) method
+## Convert::ToBoolean(int16_t) method
 
 
 Converts the specified 16-bit signed integer to an equivalent boolean value.
@@ -71,12 +51,7 @@ Converts the specified 16-bit signed integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(int16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**uint32_t**) method
+## Convert::ToBoolean(uint32_t) method
 
 
 Converts the specified 32-bit unsigned integer to an equivalent boolean value.
@@ -85,12 +60,7 @@ Converts the specified 32-bit unsigned integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(uint32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**int32_t**) method
+## Convert::ToBoolean(int32_t) method
 
 
 Converts the specified 32-bit signed integer to an equivalent boolean value.
@@ -99,12 +69,7 @@ Converts the specified 32-bit signed integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(int32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**uint64_t**) method
+## Convert::ToBoolean(uint64_t) method
 
 
 Converts the specified 64-bit unsigned integer to an equivalent boolean value.
@@ -113,12 +78,7 @@ Converts the specified 64-bit unsigned integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(uint64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**int64_t**) method
+## Convert::ToBoolean(int64_t) method
 
 
 Converts the specified 64-bit signed integer to an equivalent boolean value.
@@ -127,12 +87,7 @@ Converts the specified 64-bit signed integer to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(int64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**float**) method
+## Convert::ToBoolean(float) method
 
 
 Converts the specified float number to an equivalent boolean value.
@@ -141,12 +96,7 @@ Converts the specified float number to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(float value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(**double**) method
+## Convert::ToBoolean(double) method
 
 
 Converts the specified double number to an equivalent boolean value.
@@ -155,12 +105,7 @@ Converts the specified double number to an equivalent boolean value.
 static constexpr bool System::Convert::ToBoolean(double value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(const [Decimal](../../decimal/)\&) method
+## Convert::ToBoolean(const Decimal\&) method
 
 
 Converts the specified decimal number to an equivalent boolean value.
@@ -169,12 +114,6 @@ Converts the specified decimal number to an equivalent boolean value.
 static bool System::Convert::ToBoolean(const Decimal &value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToBoolean(char_t) method
 
 
@@ -184,12 +123,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static bool System::Convert::ToBoolean(char_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean([DateTime](../../datetime/)) method
+## Convert::ToBoolean(DateTime) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -198,12 +132,6 @@ Conversion is not supported. Always throws InvalidCastException.
 static bool System::Convert::ToBoolean(DateTime value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToBoolean(std::nullptr_t) method
 
 
@@ -218,11 +146,6 @@ static constexpr bool System::Convert::ToBoolean(std::nullptr_t)
 
 False.
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToBoolean(const char_t *) method
 
 
@@ -243,12 +166,7 @@ static bool System::Convert::ToBoolean(const char_t *value)
 
 True if the specified c-string is equal to \"True\" and false if the specified c-string is equal to \"False\".
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(const [String](../../string/)\&) method
+## Convert::ToBoolean(const String\&) method
 
 
 Converts the specified string to the value of bool type.
@@ -268,13 +186,7 @@ static bool System::Convert::ToBoolean(const String &value)
 
 True if the specified c-string is equal to \"True\" and false if the specified string is equal to \"False\".
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToBoolean(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string to the value of bool type.
@@ -294,15 +206,7 @@ static bool System::Convert::ToBoolean(const String &value, const SharedPtr<IFor
 
 True if the specified c-string is equal to \"True\" and false if the specified string is equal to \"False\".
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBoolean(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToBoolean(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified boxed value to equivalent boolean value.
@@ -326,8 +230,11 @@ An boolean value equivalent to the specified boxed value
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
+* Class [Decimal](../../decimal/)
+* Class [DateTime](../../datetime/)
+* Class [String](../../string/)
 * Class [IFormatProvider](../../iformatprovider/)
+* Class [Object](../../object/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

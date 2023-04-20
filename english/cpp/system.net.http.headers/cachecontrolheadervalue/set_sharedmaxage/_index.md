@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/cachecontrolheadervalue/set_sharedmaxage/
 ---
-## CacheControlHeaderValue::set_SharedMaxAge([Nullable](../../../system/nullable/)\<[TimeSpan](../../../system/timespan/)\>) method
+## CacheControlHeaderValue::set_SharedMaxAge(Nullable\<TimeSpan\>) method
 
 
 Sets the shared maximum age value in seconds that overrides the 'max-age' directive in the 'Cache-Control'. header or the 'Expires' header for a shared cache.

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.security/securityelement/fromstring/
 ---
-## SecurityElement::FromString(const [String](../../../system/string/)\&) method
+## SecurityElement::FromString(const String\&) method
 
 
 Creates element from XML code.
@@ -30,6 +30,5 @@ Newly created element.
 
 * Class [SecurityElement](../)
 * Class [String](../../../system/string/)
-* Class [SecurityElement](../)
 * Namespace [System::Security](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/translatetransform/
 ---
-## LinearGradientBrush::TranslateTransform(**float**, **float**, [Drawing2D::MatrixOrder](../../matrixorder/)) method
+## LinearGradientBrush::TranslateTransform(float, float, Drawing2D::MatrixOrder) method
 
 
 Translates current object's transform matrix.

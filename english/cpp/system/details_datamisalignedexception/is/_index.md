@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_datamisalignedexception/is/
 ---
-## Details_DataMisalignedException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_DataMisalignedException::Is(const System::TypeInfo\&) const method
 
 
 

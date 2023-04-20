@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/aspose.slides.charts/chartseries/set_parentlabellayout/
 ---
-## ChartSeries::set_ParentLabelLayout([ParentLabelLayoutType](../../parentlabellayouttype/)) method
+## ChartSeries::set_ParentLabelLayout(ParentLabelLayoutType) method
 
 
 Represents layout of parent category labels. Applies only to Treemap charts.

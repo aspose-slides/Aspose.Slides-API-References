@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.globalization/textinfo/set_listseparator/
 ---
-## TextInfo::set_ListSeparator([String](../../../system/string/)) method
+## TextInfo::set_ListSeparator(String) method
 
 
 Sets list separator.

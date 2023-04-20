@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system/timezoneinfo/isdaylightsavingtimenothrow/
 ---
-## TimeZoneInfo::IsDaylightSavingTimeNoThrow([DateTime](../../datetime/)) const method
+## TimeZoneInfo::IsDaylightSavingTimeNoThrow(DateTime) const method
 
 
 Checks if specified date and time falls in range of daylight saving time.

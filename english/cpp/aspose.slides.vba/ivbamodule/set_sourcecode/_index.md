@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.vba/ivbamodule/set_sourcecode/
 ---
-## IVbaModule::set_SourceCode([System::String](../../../system/string/)) method
+## IVbaModule::set_SourceCode(System::String) method
 
 
 Source code of the module. Write [System::String](../../../system/string/).

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.patterns/iobservable/unsubscribe/
 ---
-## IObservable::Unsubscribe([System::SharedPtr](../../../system/sharedptr/)\<[IObserver](../../iobserver/)\>) method
+## IObservable::Unsubscribe(System::SharedPtr\<IObserver\>) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.export/isvgoptions/set_picturescompression/
 ---
-## ISVGOptions::set_PicturesCompression([Aspose::Slides::Export::PicturesCompression](../../picturescompression/)) method
+## ISVGOptions::set_PicturesCompression(Aspose::Slides::Export::PicturesCompression) method
 
 
 Represents the pictures compression level Write [PicturesCompression](../../picturescompression/).

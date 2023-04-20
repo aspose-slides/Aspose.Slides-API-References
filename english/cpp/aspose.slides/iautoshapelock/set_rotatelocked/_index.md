@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/iautoshapelock/set_rotatelocked/
 ---
-## IAutoShapeLock::set_RotateLocked(**bool**) method
+## IAutoShapeLock::set_RotateLocked(bool) method
 
 
 Determines whether a changing rotation angle of this shape is forbidden. Writes **bool**.

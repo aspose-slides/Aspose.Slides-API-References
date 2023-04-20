@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system/bitconverter/toint64/
 ---
-## BitConverter::ToInt64(const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToInt64(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts eight bytes from the specified array starting at the specified index to 64-bit integer value.
@@ -27,13 +27,7 @@ static int64_t System::BitConverter::ToInt64(const System::ArrayPtr<uint8_t> &va
 
 64-bit integer value resulting from conversion
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToInt64(const System::Details::ArrayView\<**uint8_t**\>\&, int) method
+## BitConverter::ToInt64(const System::Details::ArrayView\<uint8_t\>\&, int) method
 
 
 Converts eight bytes from the specified array starting at the specified index to 64-bit integer value.
@@ -56,6 +50,7 @@ static int64_t System::BitConverter::ToInt64(const System::Details::ArrayView<ui
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

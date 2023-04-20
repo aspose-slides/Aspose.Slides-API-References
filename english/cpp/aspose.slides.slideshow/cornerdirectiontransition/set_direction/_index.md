@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/cornerdirectiontransition/set_direction/
 ---
-## CornerDirectionTransition::set_Direction([TransitionCornerDirectionType](../../transitioncornerdirectiontype/)) method
+## CornerDirectionTransition::set_Direction(TransitionCornerDirectionType) method
 
 
 Direction of transition. Write [TransitionCornerDirectionType](../../transitioncornerdirectiontype/).

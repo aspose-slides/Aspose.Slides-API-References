@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/imathblock/joinblock/
 ---
-## IMathBlock::JoinBlock([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../)\>) method
+## IMathBlock::JoinBlock(System::SharedPtr\<IMathBlock\>) method
 
 
 Joins another mathematical block with this one
@@ -45,7 +45,6 @@ auto block3 = block1->JoinBlock(block2);
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathBlock](../)
 * Class [IMathBlock](../)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

@@ -27,11 +27,6 @@ static bool System::Char::IsPunctuation(const char_t *str, int idx)
 
 True if the character at the specified index is a punctuation character, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsPunctuation(char_t) method
 
 

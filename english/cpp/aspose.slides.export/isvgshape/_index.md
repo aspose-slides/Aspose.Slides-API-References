@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/isvgshape/
 Represents options for SVG shape.
 
 ```cpp
-class ISvgShape : public System::Object
+class ISvgShape : public virtual System::Object
 ```
 
 ## Methods

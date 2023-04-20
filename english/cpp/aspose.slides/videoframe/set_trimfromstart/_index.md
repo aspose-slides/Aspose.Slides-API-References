@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/videoframe/set_trimfromstart/
 ---
-## VideoFrame::set_TrimFromStart(**float**) method
+## VideoFrame::set_TrimFromStart(float) method
 
 
 Trim start [ms]

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml/xmlwhitespace/set_value/
 ---
-## XmlWhitespace::set_Value([String](../../../system/string/)) method
+## XmlWhitespace::set_Value(String) method
 
 
 Sets the value of the node.

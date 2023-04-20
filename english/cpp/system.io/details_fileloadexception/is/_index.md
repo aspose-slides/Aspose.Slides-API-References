@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/details_fileloadexception/is/
 ---
-## Details_FileLoadException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_FileLoadException::Is(const System::TypeInfo\&) const method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.effects/ioutershadow/set_rectanglealign/
 ---
-## IOuterShadow::set_RectangleAlign([RectangleAlignment](../../../aspose.slides/rectanglealignment/)) method
+## IOuterShadow::set_RectangleAlign(RectangleAlignment) method
 
 
 Rectangle alignment. Write [RectangleAlignment](../../../aspose.slides/rectanglealignment/).

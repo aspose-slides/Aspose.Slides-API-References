@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.text.regularexpressions/match/addcapture/
 ---
-## Match::AddCapture(const [CapturePtr](../../captureptr/)\&) method
+## Match::AddCapture(const CapturePtr\&) method
 
 
 Adds capture into match.

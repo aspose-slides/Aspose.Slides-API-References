@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.threading/waithandle/waitany/
 ---
-## WaitHandle::WaitAny(const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[WaitHandle](../)\>\>\&, int) method
+## WaitHandle::WaitAny(const System::ArrayPtr\<System::SharedPtr\<WaitHandle\>\>\&, int) method
 
 
 Waits for any of the handles to fire.
@@ -27,15 +27,7 @@ static int System::Threading::WaitHandle::WaitAny(const System::ArrayPtr<System:
 
 True if any handle fired, false if timeout exceeded.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [WaitHandle](../)
-* Class [WaitHandle](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## WaitHandle::WaitAny(const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[WaitHandle](../)\>\>\&, [TimeSpan](../../../system/timespan/)) method
+## WaitHandle::WaitAny(const System::ArrayPtr\<System::SharedPtr\<WaitHandle\>\>\&, TimeSpan) method
 
 
 Waits for any of the handles to fire.
@@ -56,16 +48,7 @@ static int System::Threading::WaitHandle::WaitAny(const System::ArrayPtr<System:
 
 True if any handle fired, false if timeout exceeded.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [WaitHandle](../)
-* Class [TimeSpan](../../../system/timespan/)
-* Class [WaitHandle](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## WaitHandle::WaitAny(const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[WaitHandle](../)\>\>\&) method
+## WaitHandle::WaitAny(const System::ArrayPtr\<System::SharedPtr\<WaitHandle\>\>\&) method
 
 
 Waits for any of the handles to fire.
@@ -90,6 +73,6 @@ True when every element in waitHandles has received a signal; otherwise the meth
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [WaitHandle](../)
-* Class [WaitHandle](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

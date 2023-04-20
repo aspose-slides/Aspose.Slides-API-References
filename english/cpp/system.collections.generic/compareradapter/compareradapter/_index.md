@@ -15,12 +15,7 @@ Constructs adapter without any comparator available.
 System::Collections::Generic::ComparerAdapter<T>::ComparerAdapter()
 ```
 
-## See Also
-
-* Struct [ComparerAdapter](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## ComparerAdapter::ComparerAdapter(const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\&) constructor
+## ComparerAdapter::ComparerAdapter(const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) constructor
 
 
 Constructs adapter.

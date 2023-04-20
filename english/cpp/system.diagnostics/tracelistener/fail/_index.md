@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.diagnostics/tracelistener/fail/
 ---
-## TraceListener::Fail([System::String](../../../system/string/)) method
+## TraceListener::Fail(System::String) method
 
 
 Writes failure message to debugger.
@@ -22,13 +22,7 @@ virtual void System::Diagnostics::TraceListener::Fail(System::String message)
 | --- | --- | --- |
 | message | [System::String](../../../system/string/) | Message to write. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [TraceListener](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## TraceListener::Fail([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## TraceListener::Fail(System::String, System::String) method
 
 
 Writes failure message to debugger.

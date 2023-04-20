@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.io/stream/beginwrite/
 ---
-## Stream::BeginWrite([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, [System::AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Stream::BeginWrite(System::ArrayPtr\<uint8_t\>, int, int, System::AsyncCallback, System::SharedPtr\<System::Object\>) method
 
 
 Initiates an asynchronous write operation.
@@ -33,9 +33,9 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
 * Class [Object](../../../system/object/)
 * Class [Stream](../)
 * Namespace [System::IO](../../)

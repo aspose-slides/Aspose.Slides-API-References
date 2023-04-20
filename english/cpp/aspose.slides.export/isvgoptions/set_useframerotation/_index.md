@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.export/isvgoptions/set_useframerotation/
 ---
-## ISVGOptions::set_UseFrameRotation(**bool**) method
+## ISVGOptions::set_UseFrameRotation(bool) method
 
 
 Determines whether to perform the specified rotation of the shape when rendering or not. Write **bool**. Default value is true.

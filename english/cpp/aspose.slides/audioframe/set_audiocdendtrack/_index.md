@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/audioframe/set_audiocdendtrack/
 ---
-## AudioFrame::set_AudioCdEndTrack(**int32_t**) method
+## AudioFrame::set_AudioCdEndTrack(int32_t) method
 
 
 Sets a last track index Write **int32_t**.

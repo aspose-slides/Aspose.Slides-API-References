@@ -20,13 +20,6 @@ ArrayPtr<String> System::Globalization::DateTimeFormatInfo::GetAllDateTimePatter
 
 [Array](../../../system/array/) of patterns.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Class [DateTimeFormatInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTimeFormatInfo::GetAllDateTimePatterns(char16_t) const method
 
 

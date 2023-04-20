@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/tagcollection/indexofname/
 ---
-## TagCollection::IndexOfName([System::String](../../../system/string/)) method
+## TagCollection::IndexOfName(System::String) method
 
 
 Returns the zero-based index of the specified key in the collection.

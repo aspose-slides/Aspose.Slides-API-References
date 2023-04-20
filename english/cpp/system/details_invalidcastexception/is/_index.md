@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_invalidcastexception/is/
 ---
-## Details_InvalidCastException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_InvalidCastException::Is(const System::TypeInfo\&) const method
 
 
 

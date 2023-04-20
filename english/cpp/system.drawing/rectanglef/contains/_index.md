@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.drawing/rectanglef/contains/
 ---
-## RectangleF::Contains(**float**, **float**) method
+## RectangleF::Contains(float, float) method
 
 
 Determines if the specified point is located within the rectangle represented by the current object.
@@ -27,12 +27,7 @@ bool System::Drawing::RectangleF::Contains(float x, float y)
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## See Also
-
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::Contains(const [PointF](../../pointf/)\&) method
+## RectangleF::Contains(const PointF\&) method
 
 
 Determines if the specified point is located within the rectangle represented by the current object.
@@ -52,13 +47,7 @@ bool System::Drawing::RectangleF::Contains(const PointF &point)
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## See Also
-
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::Contains(const [RectangleF](../)\&) method
+## RectangleF::Contains(const RectangleF\&) method
 
 
 Determines if the specified rectangle is located within the rectangle represented by the current object.
@@ -81,6 +70,6 @@ True if the specified rectangle is located within the rectangle represented by t
 ## See Also
 
 * Class [RectangleF](../)
-* Class [RectangleF](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

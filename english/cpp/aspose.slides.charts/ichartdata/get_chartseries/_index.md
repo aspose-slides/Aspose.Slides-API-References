@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.charts/ichartdata/get_chartseries/
 ---
-## IChartData::get_ChartSeries(**int32_t**) method
+## IChartData::get_ChartSeries(int32_t) method
 
 
 Returns the series at the specified index.

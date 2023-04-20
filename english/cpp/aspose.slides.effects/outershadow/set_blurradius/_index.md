@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/outershadow/set_blurradius/
 ---
-## OuterShadow::set_BlurRadius(**double**) method
+## OuterShadow::set_BlurRadius(double) method
 
 
 [Blur](../../blur/) radius. Write **double**.

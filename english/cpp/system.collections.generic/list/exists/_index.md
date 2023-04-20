@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.collections.generic/list/exists/
 ---
-## List::Exists([System::Predicate](../../../system/predicate/)\<T\>) method
+## List::Exists(System::Predicate\<T\>) method
 
 
 Checks if element adhering to specific predicate exists in list.

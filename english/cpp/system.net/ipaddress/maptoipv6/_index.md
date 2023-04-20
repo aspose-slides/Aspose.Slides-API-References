@@ -24,6 +24,5 @@ The corresponding IPv6 address.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPAddress](../)
-* Class [IPAddress](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

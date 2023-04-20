@@ -15,12 +15,7 @@ Default constructor. Creates string object which is considered null.
 System::String::String()
 ```
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(T\&, typename std::enable_if\<[IsStringLiteral](../../isstringliteral/)\<T, char16_t\>::value\>::type *) constructor
+## String::String(T\&, typename std::enable_if\<IsStringLiteral\<T, char16_t\>::value\>::type *) constructor
 
 
 Constructs string based on string literal. Considers literal a null-terminated string, calculates target string length based on literal size.
@@ -36,13 +31,7 @@ template<typename T> System::String::String(T &value, typename std::enable_if<Is
 | --- | --- | --- |
 | value | T\& | [String](../) literal pointer. |
 
-## See Also
-
-* Struct [IsStringLiteral](../../isstringliteral/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const T\&, typename std::enable_if\<[IsStringPointer](../../isstringpointer/)\<T, char16_t\>::value\>::type *) constructor
+## String::String(const T\&, typename std::enable_if\<IsStringPointer\<T, char16_t\>::value\>::type *) constructor
 
 
 Constructs string based on character string pointer. Treats pointed string as null-terminated, calculates target string length based on null character.
@@ -58,13 +47,7 @@ template<typename T> System::String::String(const T &value, typename std::enable
 | --- | --- | --- |
 | value | const T\& | Character string pointer. |
 
-## See Also
-
-* Struct [IsStringPointer](../../isstringpointer/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(T\&, typename std::enable_if\<[IsStringLiteral](../../isstringliteral/)\<T, char\>::value\>::type *) constructor
+## String::String(T\&, typename std::enable_if\<IsStringLiteral\<T, char\>::value\>::type *) constructor
 
 
 Constructs string based on string literal. Considers literal a null-terminated string in UTF8, calculates target string length based on literal size.
@@ -80,13 +63,7 @@ template<typename T> System::String::String(T &value, typename std::enable_if<Is
 | --- | --- | --- |
 | value | T\& | [String](../) literal pointer. |
 
-## See Also
-
-* Struct [IsStringLiteral](../../isstringliteral/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const T\&, typename std::enable_if\<[IsStringPointer](../../isstringpointer/)\<T, char\>::value\>::type *) constructor
+## String::String(const T\&, typename std::enable_if\<IsStringPointer\<T, char\>::value\>::type *) constructor
 
 
 Constructs string based on character string pointer. Treats pointed string as null-terminated in UTF8, calculates target string length based on null character.
@@ -102,12 +79,6 @@ template<typename T> System::String::String(const T &value, typename std::enable
 | --- | --- | --- |
 | value | const T\& | Character string pointer. |
 
-## See Also
-
-* Struct [IsStringPointer](../../isstringpointer/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const char16_t *, int) constructor
 
 
@@ -125,11 +96,6 @@ System::String::String(const char16_t *str, int length)
 | str | const char16_t * | [String](../) pointer, may be literal or array. |
 | length | int | Explicit string length |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const char *, int) constructor
 
 
@@ -147,11 +113,6 @@ System::String::String(const char *str, int length)
 | str | const char * | [String](../) pointer to the UTF8 data, may be literal or array. |
 | length | int | Explicit string length |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const char16_t *, int, int) constructor
 
 
@@ -170,11 +131,6 @@ System::String::String(const char16_t *str, int start, int length)
 | start | int | Starting position. |
 | length | int | [String](../) length. |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const char16_t, int) constructor
 
 
@@ -192,11 +148,6 @@ System::String::String(const char16_t ch, int count)
 | ch | const char16_t | Fill character. |
 | count | int | Target length. |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const T\&, typename std::enable_if\<std::is_same\<T, std::nullptr_t\>::value\>::type *) constructor
 
 
@@ -219,12 +170,7 @@ template<typename T> System::String::String(const T &value, typename std::enable
 | --- | --- | --- |
 | value | const T\& | nullptr |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(T\&, typename std::enable_if\<[IsStringLiteral](../../isstringliteral/)\<T, **wchar_t**\>::value\>::type *) constructor
+## String::String(T\&, typename std::enable_if\<IsStringLiteral\<T, wchar_t\>::value\>::type *) constructor
 
 
 Constructs string based on widestring literal. Considers literal a null-terminated string, calculates target string length based on literal size. Conversion from **wchar_t** is time-consuming on some platforms, so no implicit conversions are allowed.
@@ -240,13 +186,7 @@ template<typename T> System::String::String(T &value, typename std::enable_if<Is
 | --- | --- | --- |
 | value | T\& | [String](../) literal pointer. |
 
-## See Also
-
-* Struct [IsStringLiteral](../../isstringliteral/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const T\&, typename std::enable_if\<[IsStringPointer](../../isstringpointer/)\<T, **wchar_t**\>::value\>::type *) constructor
+## String::String(const T\&, typename std::enable_if\<IsStringPointer\<T, wchar_t\>::value\>::type *) constructor
 
 
 Constructs string based on widecharacter string pointer. Treats pointed string as null-terminated, calculates target string length based on null character. Conversion from **wchar_t** is time-consuming on some platforms, so no implicit conversions are allowed.
@@ -262,13 +202,7 @@ template<typename T> System::String::String(const T &value, typename std::enable
 | --- | --- | --- |
 | value | const T\& | Character string pointer. |
 
-## See Also
-
-* Struct [IsStringPointer](../../isstringpointer/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const **wchar_t** *, int) constructor
+## String::String(const wchar_t *, int) constructor
 
 
 Constructs string from widecharacter string pointer and explicit length. Conversion from **wchar_t** is time-consuming on some platforms, so no implicit conversions are allowed.
@@ -285,12 +219,7 @@ System::String::String(const wchar_t *str, int length)
 | str | const **wchar_t** * | [String](../) pointer, may be literal or array. |
 | length | int | Explicit string length |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const **wchar_t**, int) constructor
+## String::String(const wchar_t, int) constructor
 
 
 Fill constructor. Conversion from **wchar_t** is time-consuming on some platforms, so no implicit conversions are allowed.
@@ -307,12 +236,7 @@ System::String::String(const wchar_t ch, int count=1)
 | ch | const **wchar_t** | Fill character. |
 | count | int | Target length. |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const [String](../)\&) constructor
+## String::String(const String\&) constructor
 
 
 Copy constructor.
@@ -328,13 +252,7 @@ System::String::String(const String &str)
 | --- | --- | --- |
 | str | const [String](../)\& | [String](../) to copy. |
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String([String](../)\&&) constructor
+## String::String(String\&&) constructor
 
 
 Move constructor.
@@ -350,13 +268,7 @@ System::String::String(String &&str) noexcept
 | --- | --- | --- |
 | str | [String](../)\&& | [String](../) to move data from. |
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const [ArrayPtr](../../arrayptr/)\<char16_t\>\&) constructor
+## String::String(const ArrayPtr\<char16_t\>\&) constructor
 
 
 Converts whole character array to string.
@@ -372,13 +284,7 @@ System::String::String(const ArrayPtr<char16_t> &arr)
 | --- | --- | --- |
 | arr | const [ArrayPtr](../../arrayptr/)\<char16_t\>\& | [Array](../../array/) to convert to string. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::String(const [ArrayPtr](../../arrayptr/)\<char16_t\>\&, int, int) constructor
+## String::String(const ArrayPtr\<char16_t\>\&, int, int) constructor
 
 
 Converts character array subrange to string. If parameters are out of array bounds, empty string is constructed.
@@ -396,12 +302,6 @@ System::String::String(const ArrayPtr<char16_t> &arr, int offset, int len)
 | offset | int | Subarray start index. |
 | len | int | Subarray length. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const icu::UnicodeString\&) constructor
 
 
@@ -418,11 +318,6 @@ System::String::String(const icu::UnicodeString &str)
 | --- | --- | --- |
 | str | const icu::UnicodeString\& | UnicodeString to wrap into [String](../). |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(icu::UnicodeString\&&) constructor
 
 
@@ -439,11 +334,6 @@ System::String::String(icu::UnicodeString &&str) noexcept
 | --- | --- | --- |
 | str | icu::UnicodeString\&& | UnicodeString to wrap into [String](../). |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const std::wstring\&) constructor
 
 
@@ -460,11 +350,6 @@ System::String::String(const std::wstring &str)
 | --- | --- | --- |
 | str | const std::wstring\& | Widestring to convert into [String](../). |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const std::u16string\&) constructor
 
 
@@ -481,11 +366,6 @@ System::String::String(const std::u16string &str)
 | --- | --- | --- |
 | str | const std::u16string\& | Utf16 string to convert into [String](../). |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const std::string\&) constructor
 
 
@@ -502,11 +382,6 @@ System::String::String(const std::string &utf8str)
 | --- | --- | --- |
 | utf8str | const std::string\& | std::string string to convert into [String](../). |
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::String(const std::u32string\&) constructor
 
 
@@ -525,6 +400,9 @@ System::String::String(const std::u32string &u32str)
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [String](../)
+* Struct [IsStringLiteral](../../isstringliteral/)
+* Struct [IsStringPointer](../../isstringpointer/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

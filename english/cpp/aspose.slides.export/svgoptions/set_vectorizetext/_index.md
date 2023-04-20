@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.export/svgoptions/set_vectorizetext/
 ---
-## SVGOptions::set_VectorizeText(**bool**) method
+## SVGOptions::set_VectorizeText(bool) method
 
 
 Determines whether the text on a slide will be saved as graphics. Write **bool**.

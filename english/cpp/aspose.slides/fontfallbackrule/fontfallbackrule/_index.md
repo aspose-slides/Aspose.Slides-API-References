@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/fontfallbackrule/fontfallbackrule/
 ---
-## FontFallBackRule::FontFallBackRule(**uint32_t**, **uint32_t**, [System::String](../../../system/string/)) constructor
+## FontFallBackRule::FontFallBackRule(uint32_t, uint32_t, System::String) constructor
 
 
 Creates new instance.
@@ -35,13 +35,7 @@ auto newRule = MakeObject<FontFallBackRule>(0x3040, 0x309F, u"MS Mincho, MS Goth
 ```
 
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [FontFallBackRule](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## FontFallBackRule::FontFallBackRule(**uint32_t**, **uint32_t**, [System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>) constructor
+## FontFallBackRule::FontFallBackRule(uint32_t, uint32_t, System::ArrayPtr\<System::String\>) constructor
 
 
 Creates new instance.

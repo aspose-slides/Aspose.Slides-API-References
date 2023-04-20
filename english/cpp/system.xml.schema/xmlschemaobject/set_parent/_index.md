@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml.schema/xmlschemaobject/set_parent/
 ---
-## XmlSchemaObject::set_Parent(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../)\>\&) method
+## XmlSchemaObject::set_Parent(const SharedPtr\<XmlSchemaObject\>\&) method
 
 
 Sets the parent of this [XmlSchemaObject](../).
@@ -25,7 +25,6 @@ void System::Xml::Schema::XmlSchemaObject::set_Parent(const SharedPtr<XmlSchemaO
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaObject](../)
 * Class [XmlSchemaObject](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.xsl/xsltcontext/resolvevariable/
 ---
-## XsltContext::ResolveVariable([String](../../../system/string/), [String](../../../system/string/)) method
+## XsltContext::ResolveVariable(String, String) method
 
 
 When overridden in a derived class, resolves a variable reference and returns an [IXsltContextVariable](../../ixsltcontextvariable/) representing the variable.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/mediatypewithqualityheadervalue/tryparse/
 ---
-## MediaTypeWithQualityHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeWithQualityHeaderValue](../)\>\&) method
+## MediaTypeWithQualityHeaderValue::TryParse(String, System::SharedPtr\<MediaTypeWithQualityHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [MediaTypeWithQualityHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [MediaTypeWithQualityHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [MediaTypeWithQualityHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

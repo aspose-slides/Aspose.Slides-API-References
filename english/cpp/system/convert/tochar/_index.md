@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/convert/tochar/
 ---
-## Convert::ToChar(**bool**) method
+## Convert::ToChar(bool) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -15,12 +15,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static char_t System::Convert::ToChar(bool value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**uint8_t**) method
+## Convert::ToChar(uint8_t) method
 
 
 Converts the specified 8-bit unsigned integer to an equivalent unicode character.
@@ -29,12 +24,7 @@ Converts the specified 8-bit unsigned integer to an equivalent unicode character
 static constexpr char_t System::Convert::ToChar(uint8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**int8_t**) method
+## Convert::ToChar(int8_t) method
 
 
 Converts the specified 8-bit signed integer to an equivalent unicode character.
@@ -43,12 +33,7 @@ Converts the specified 8-bit signed integer to an equivalent unicode character.
 static char_t System::Convert::ToChar(int8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**uint16_t**) method
+## Convert::ToChar(uint16_t) method
 
 
 Converts the specified 16-bit unsigned integer to an equivalent unicode character.
@@ -57,12 +42,7 @@ Converts the specified 16-bit unsigned integer to an equivalent unicode characte
 static constexpr char_t System::Convert::ToChar(uint16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**int16_t**) method
+## Convert::ToChar(int16_t) method
 
 
 Converts the specified 16-bit signed integer to an equivalent unicode character.
@@ -71,12 +51,7 @@ Converts the specified 16-bit signed integer to an equivalent unicode character.
 static char_t System::Convert::ToChar(int16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**uint32_t**) method
+## Convert::ToChar(uint32_t) method
 
 
 Converts the specified 32-bit unsigned integer to an equivalent unicode character.
@@ -85,12 +60,7 @@ Converts the specified 32-bit unsigned integer to an equivalent unicode characte
 static char_t System::Convert::ToChar(uint32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**int32_t**) method
+## Convert::ToChar(int32_t) method
 
 
 Converts the specified 32-bit signed integer to an equivalent unicode character.
@@ -99,12 +69,7 @@ Converts the specified 32-bit signed integer to an equivalent unicode character.
 static char_t System::Convert::ToChar(int32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**uint64_t**) method
+## Convert::ToChar(uint64_t) method
 
 
 Converts the specified 64-bit unsigned integer to an equivalent unicode character.
@@ -113,12 +78,7 @@ Converts the specified 64-bit unsigned integer to an equivalent unicode characte
 static char_t System::Convert::ToChar(uint64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**int64_t**) method
+## Convert::ToChar(int64_t) method
 
 
 Converts the specified 64-bit signed integer to an equivalent unicode character.
@@ -127,12 +87,7 @@ Converts the specified 64-bit signed integer to an equivalent unicode character.
 static char_t System::Convert::ToChar(int64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**float**) method
+## Convert::ToChar(float) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -141,12 +96,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static char_t System::Convert::ToChar(float value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(**double**) method
+## Convert::ToChar(double) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -155,12 +105,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static char_t System::Convert::ToChar(double value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(const [Decimal](../../decimal/)\&) method
+## Convert::ToChar(const Decimal\&) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -169,12 +114,6 @@ Conversion is not supported. Always throws InvalidCastException.
 static char_t System::Convert::ToChar(const Decimal &value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToChar(char_t) method
 
 
@@ -184,12 +123,7 @@ Returns the specified unicode character.
 static constexpr char_t System::Convert::ToChar(char_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar([DateTime](../../datetime/)) method
+## Convert::ToChar(DateTime) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -198,12 +132,6 @@ Conversion is not supported. Always throws InvalidCastException.
 static char_t System::Convert::ToChar(DateTime value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToChar(const char_t *) method
 
 
@@ -224,12 +152,7 @@ static char_t System::Convert::ToChar(const char_t *value)
 
 The first and the only character of the specified c-string if it is exactly 1 characetr long, otherwise - 0
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(const [String](../../string/)\&) method
+## Convert::ToChar(const String\&) method
 
 
 Converts the first and the only character of the specified string to a char_t value.
@@ -249,13 +172,7 @@ static char_t System::Convert::ToChar(const String &value)
 
 The first and the only character of the specified string if it is exactly 1 characetr long, otherwise - 0
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToChar(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the first and the only character of the specified string to a char_t value.
@@ -275,15 +192,7 @@ static char_t System::Convert::ToChar(const String &value, const SharedPtr<IForm
 
 The first and the only character of the specified string if it is exactly 1 characetr long, otherwise - 0
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToChar(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToChar(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified boxed value to equivalent unicode character.
@@ -307,8 +216,11 @@ An unicode character equivalent to the specified boxed value
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
+* Class [Decimal](../../decimal/)
+* Class [DateTime](../../datetime/)
+* Class [String](../../string/)
 * Class [IFormatProvider](../../iformatprovider/)
+* Class [Object](../../object/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

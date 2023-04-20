@@ -27,12 +27,7 @@ int System::Text::UTF7Encoding::GetByteCount(const char_t *chars, int count) ove
 
 Required buffer size.
 
-## See Also
-
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetByteCount([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int) method
+## UTF7Encoding::GetByteCount(ArrayPtr\<char_t\>, int, int) method
 
 
 Get the number of characters needed to encode a character buffer.
@@ -54,12 +49,6 @@ virtual int System::Text::Encoding::GetByteCount(ArrayPtr<char_t> chars, int ind
 
 Required buffer size.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## UTF7Encoding::GetByteCount(System::Details::ArrayView\<char_t\>, int, int) method
 
 
@@ -82,11 +71,6 @@ virtual int System::Text::Encoding::GetByteCount(System::Details::ArrayView<char
 
 Required buffer size.
 
-## See Also
-
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## UTF7Encoding::GetByteCount(const System::Details::StackArray\<char_t, N\>\&, int, int) method
 
 
@@ -109,12 +93,7 @@ template<std::size_t> int System::Text::Encoding::GetByteCount(const System::Det
 
 Required buffer size.
 
-## See Also
-
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetByteCount(const [String](../../../system/string/)\&) method
+## UTF7Encoding::GetByteCount(const String\&) method
 
 
 Get the number of characters needed to encode a string.
@@ -134,13 +113,7 @@ virtual int System::Text::Encoding::GetByteCount(const String &s)
 
 Required buffer size.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetByteCount([ArrayPtr](../../../system/arrayptr/)\<char_t\>) method
+## UTF7Encoding::GetByteCount(ArrayPtr\<char_t\>) method
 
 
 Get the number of characters needed to encode a character buffer.
@@ -160,12 +133,6 @@ virtual int System::Text::Encoding::GetByteCount(ArrayPtr<char_t> chars)
 
 Required buffer size.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## UTF7Encoding::GetByteCount(const char_t *, int) method
 
 
@@ -189,6 +156,8 @@ Required buffer size.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [UTF7Encoding](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

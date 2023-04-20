@@ -15,12 +15,7 @@ Initializes a new instance of the [Paragraph](../) class with default properties
 Aspose::Slides::Paragraph::Paragraph()
 ```
 
-## See Also
-
-* Class [Paragraph](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Paragraph::Paragraph([System::SharedPtr](../../../system/sharedptr/)\<[Paragraph](../)\>) constructor
+## Paragraph::Paragraph(System::SharedPtr\<Paragraph\>) constructor
 
 
 Copy constructor that initializes a new instance of a [Paragraph](../) class.
@@ -32,7 +27,6 @@ Aspose::Slides::Paragraph::Paragraph(System::SharedPtr<Paragraph> para)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Paragraph](../)
 * Class [Paragraph](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.theme/fontscheme/set_name/
 ---
-## FontScheme::set_Name([System::String](../../../system/string/)) method
+## FontScheme::set_Name(System::String) method
 
 
 Returns the font scheme name. Write [System::String](../../../system/string/).

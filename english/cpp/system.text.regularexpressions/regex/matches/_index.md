@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.text.regularexpressions/regex/matches/
 ---
-## Regex::Matches(const [String](../../../system/string/)\&, int) method
+## Regex::Matches(const String\&, int) method
 
 
 Gets all matches of regex in given string by matching repeatedly.
@@ -27,14 +27,7 @@ MatchCollectionPtr System::Text::RegularExpressions::Regex::Matches(const String
 
 Collection of all matches found.
 
-## See Also
-
-* Typedef [MatchCollectionPtr](../../matchcollectionptr/)
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Matches(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [RegexOptions](../../regexoptions/), [TimeSpan](../../../system/timespan/), int, int) method
+## Regex::Matches(const String\&, const String\&, RegexOptions, TimeSpan, int, int) method
 
 
 Gets all matches between string and pattern.
@@ -61,10 +54,10 @@ All matches found by matching repeatedly.
 
 ## See Also
 
+* Enum [RegexOptions](../../regexoptions/)
 * Typedef [MatchCollectionPtr](../../matchcollectionptr/)
 * Class [String](../../../system/string/)
-* Enum [RegexOptions](../../regexoptions/)
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Regex](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

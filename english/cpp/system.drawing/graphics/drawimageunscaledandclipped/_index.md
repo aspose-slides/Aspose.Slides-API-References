@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/system.drawing/graphics/drawimageunscaledandclipped/
 ---
-## Graphics::DrawImageUnscaledAndClipped(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/)) method
+## Graphics::DrawImageUnscaledAndClipped(const SharedPtr\<Image\>\&, Rectangle) method
 
 
 NOT IMPLEMENTED.

@@ -15,12 +15,7 @@ Default constructor.
 System::Security::Cryptography::Oid::Oid()
 ```
 
-## See Also
-
-* Class [Oid](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## Oid::Oid(const [SharedPtr](../../../system/sharedptr/)\<[Oid](../)\>\&) constructor
+## Oid::Oid(const SharedPtr\<Oid\>\&) constructor
 
 
 Copy constructor.
@@ -36,14 +31,7 @@ System::Security::Cryptography::Oid::Oid(const SharedPtr<Oid> &oid)
 | --- | --- | --- |
 | oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../)\>\& | Identifier to copy data from. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Oid](../)
-* Class [Oid](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## Oid::Oid(const [String](../../../system/string/)\&) constructor
+## Oid::Oid(const String\&) constructor
 
 
 Constructor.
@@ -59,13 +47,7 @@ System::Security::Cryptography::Oid::Oid(const String &oid)
 | --- | --- | --- |
 | oid | const [String](../../../system/string/)\& | [String](../../../system/string/) value of object identifier. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Oid](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## Oid::Oid(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) constructor
+## Oid::Oid(const String\&, const String\&) constructor
 
 
 Constructor.
@@ -84,7 +66,8 @@ System::Security::Cryptography::Oid::Oid(const String &value, const String &frie
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Oid](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

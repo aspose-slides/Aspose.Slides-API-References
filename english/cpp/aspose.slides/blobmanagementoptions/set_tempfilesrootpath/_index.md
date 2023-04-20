@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/blobmanagementoptions/set_tempfilesrootpath/
 ---
-## BlobManagementOptions::set_TempFilesRootPath([System::String](../../../system/string/)) method
+## BlobManagementOptions::set_TempFilesRootPath(System::String) method
 
 
 The root path where temporary files will be created. [System](../../../system/) temorary directory will be used by default. Hosting process should have permissions to create files and folders there.

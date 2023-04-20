@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.security.cryptography.xml/signedxml/getidelement/
 ---
-## SignedXml::GetIdElement([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlDocument](../../../system.xml/xmldocument/)\>, [String](../../../system/string/)) method
+## SignedXml::GetIdElement(SharedPtr\<System::Xml::XmlDocument\>, String) method
 
 
 

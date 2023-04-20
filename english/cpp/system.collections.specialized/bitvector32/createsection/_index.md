@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.collections.specialized/bitvector32/createsection/
 ---
-## BitVector32::CreateSection(**int16_t**) method
+## BitVector32::CreateSection(int16_t) method
 
 
 Creates the first section in a series, with the specified maximum value.
@@ -22,12 +22,7 @@ static BitVector32::Section System::Collections::Specialized::BitVector32::Creat
 | --- | --- | --- |
 | maxValue | **int16_t** | specified maximum value. |
 
-## See Also
-
-* Class [BitVector32](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## BitVector32::CreateSection(**int16_t**, **BitVector32::Section**) method
+## BitVector32::CreateSection(int16_t, BitVector32::Section) method
 
 
 Creates the next section in a series, with the specified maximum value.

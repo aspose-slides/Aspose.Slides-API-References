@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.net/servicepointmanager/settcpkeepalive/
 ---
-## ServicePointManager::SetTcpKeepAlive(**bool**, **int32_t**, **int32_t**) method
+## ServicePointManager::SetTcpKeepAlive(bool, int32_t, int32_t) method
 
 
 Sets the value that indicates if the 'Keep-Alive' option is enabled.

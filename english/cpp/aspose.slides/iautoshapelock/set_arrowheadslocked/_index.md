@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/iautoshapelock/set_arrowheadslocked/
 ---
-## IAutoShapeLock::set_ArrowheadsLocked(**bool**) method
+## IAutoShapeLock::set_ArrowheadsLocked(bool) method
 
 
 Determines whether a changing arrowheads is forbidden. Writes **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/fontsmanager/replacefont/
 ---
-## FontsManager::ReplaceFont([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontData](../../ifontdata/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontData](../../ifontdata/)\>) method
+## FontsManager::ReplaceFont(System::SharedPtr\<Aspose::Slides::IFontData\>, System::SharedPtr\<Aspose::Slides::IFontData\>) method
 
 
 Replace font in presentation
@@ -23,14 +23,7 @@ void Aspose::Slides::FontsManager::ReplaceFont(System::SharedPtr<Aspose::Slides:
 | sourceFont | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontData](../../ifontdata/)\> | Source font |
 | destFont | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontData](../../ifontdata/)\> | Destination font |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontData](../../ifontdata/)
-* Class [FontsManager](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## FontsManager::ReplaceFont([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontSubstRule](../../ifontsubstrule/)\>) method
+## FontsManager::ReplaceFont(System::SharedPtr\<Aspose::Slides::IFontSubstRule\>) method
 
 
 Replace font in presentation using information provided in [FontSubstRule](../../fontsubstrule/)
@@ -46,14 +39,7 @@ void Aspose::Slides::FontsManager::ReplaceFont(System::SharedPtr<Aspose::Slides:
 | --- | --- | --- |
 | substRule | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontSubstRule](../../ifontsubstrule/)\> | Font substitution info |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontSubstRule](../../ifontsubstrule/)
-* Class [FontsManager](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## FontsManager::ReplaceFont([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontSubstRuleCollection](../../ifontsubstrulecollection/)\>) method
+## FontsManager::ReplaceFont(System::SharedPtr\<Aspose::Slides::IFontSubstRuleCollection\>) method
 
 
 Replace font in presentation using information provided in collection of [FontSubstRule](../../fontsubstrule/)
@@ -72,7 +58,9 @@ void Aspose::Slides::FontsManager::ReplaceFont(System::SharedPtr<Aspose::Slides:
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontSubstRuleCollection](../../ifontsubstrulecollection/)
+* Class [IFontData](../../ifontdata/)
 * Class [FontsManager](../)
+* Class [IFontSubstRule](../../ifontsubstrule/)
+* Class [IFontSubstRuleCollection](../../ifontsubstrulecollection/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

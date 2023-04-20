@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides.charts/idatalabelformat/set_showbubblesize/
 ---
-## IDataLabelFormat::set_ShowBubbleSize(**bool**) method
+## IDataLabelFormat::set_ShowBubbleSize(bool) method
 
 
 Represents a specified chart's data label bubble size value display behavior. True displays the bubble size value. False to hide. Write **bool**.

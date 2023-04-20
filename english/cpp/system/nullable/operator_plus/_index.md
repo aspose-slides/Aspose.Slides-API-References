@@ -15,12 +15,6 @@ Returns a default constructed instance of Nullable<T> class.
 Nullable<T> System::Nullable<T>::operator+(std::nullptr_t) const
 ```
 
-## See Also
-
-* Class [Nullable](../)
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::operator+(const T1\&) const method
 
 
@@ -47,12 +41,7 @@ template<typename T1,typename> auto System::Nullable<T>::operator+(const T1 &oth
 
 Summing result.
 
-## See Also
-
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Nullable::operator+(const [Nullable](../)\<T1\>\&) const method
+## Nullable::operator+(const Nullable\<T1\>\&) const method
 
 
 Sums nullable values.
@@ -80,7 +69,6 @@ Summing result.
 
 ## See Also
 
-* Class [Nullable](../)
 * Class [Nullable](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

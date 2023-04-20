@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/control/set_property/
 ---
-## Control::set_Property([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## Control::set_Property(System::String, System::String) method
 
 
 Set an ActiveX property at the specified index.

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.animation/effect/get_effect/
 ---
-## Effect::get_Effect(**int32_t**) method
+## Effect::get_Effect(int32_t) method
 
 
 Returns an affect of a sequence at the specified index.

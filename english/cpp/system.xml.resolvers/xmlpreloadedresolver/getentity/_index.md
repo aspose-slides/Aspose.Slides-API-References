@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.resolvers/xmlpreloadedresolver/getentity/
 ---
-## XmlPreloadedResolver::GetEntity([SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/), const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlPreloadedResolver::GetEntity(SharedPtr\<Uri\>, String, const TypeInfo\&) method
 
 
 Maps a URI to an object that contains the actual resource.

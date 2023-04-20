@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/ieffectformat/set_gloweffect/
 ---
-## IEffectFormat::set_GlowEffect([System::SharedPtr](../../../system/sharedptr/)\<[Effects::IGlow](../../../aspose.slides.effects/iglow/)\>) method
+## IEffectFormat::set_GlowEffect(System::SharedPtr\<Effects::IGlow\>) method
 
 
 Glow effect. Write [Effects::IGlow](../../../aspose.slides.effects/iglow/).

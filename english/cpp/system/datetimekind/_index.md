@@ -3,7 +3,7 @@ title: DateTimeKind
 second_title: Aspose.Slides for C++ API Reference
 description: Enumeration values of which represent the kinds of date and time.
 type: docs
-weight: 2653
+weight: 1873
 url: /cpp/system/datetimekind/
 ---
 ## DateTimeKind enum

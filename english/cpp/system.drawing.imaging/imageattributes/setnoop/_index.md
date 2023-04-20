@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.drawing.imaging/imageattributes/setnoop/
 ---
-## ImageAttributes::SetNoOp([ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::SetNoOp(ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

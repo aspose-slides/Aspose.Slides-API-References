@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.collections/bitarray/operator_equal_equal/
 ---
-## BitArray::operator==(const [BitArray](../)\&) const method
+## BitArray::operator==(const BitArray\&) const method
 
 
 Bitwise comparison operator.
@@ -28,7 +28,6 @@ true if sizes and all bits match, false otherwise.
 
 ## See Also
 
-* Class [BitArray](../)
 * Class [BitArray](../)
 * Namespace [System::Collections](../../)
 * Library [Aspose.Slides](../../../)

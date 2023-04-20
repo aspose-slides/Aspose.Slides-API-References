@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.slideshow/slideshowtransition/set_speed/
 ---
-## SlideShowTransition::set_Speed([TransitionSpeed](../../transitionspeed/)) method
+## SlideShowTransition::set_Speed(TransitionSpeed) method
 
 
 Specifies the transition speed that is to be used when transitioning from the current slide to the next. Write [TransitionSpeed](../../transitionspeed/).

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.net.security/sslstream/set_writetimeout/
 ---
-## SslStream::set_WriteTimeout(**int32_t**) method
+## SslStream::set_WriteTimeout(int32_t) method
 
 
 Sets a value, in milliseconds, that determines how long the stream will attempt to read before timing out.

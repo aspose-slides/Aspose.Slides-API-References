@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.animation/behaviorpropertycollection/remove/
 ---
-## BehaviorPropertyCollection::Remove(const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\&) method
+## BehaviorPropertyCollection::Remove(const System::SharedPtr\<IBehaviorProperty\>\&) method
 
 
 Removes specified property from the collection.
@@ -22,14 +22,7 @@ bool Aspose::Slides::Animation::BehaviorPropertyCollection::Remove(const System:
 | --- | --- | --- |
 | item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\& | Property to remove. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IBehaviorProperty](../../ibehaviorproperty/)
-* Class [BehaviorPropertyCollection](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## BehaviorPropertyCollection::Remove(const [System::String](../../../system/string/)\&) method
+## BehaviorPropertyCollection::Remove(const System::String\&) method
 
 
 Removes specified property from the collection.
@@ -47,7 +40,9 @@ bool Aspose::Slides::Animation::BehaviorPropertyCollection::Remove(const System:
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IBehaviorProperty](../../ibehaviorproperty/)
 * Class [BehaviorPropertyCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

@@ -28,11 +28,6 @@ int System::Globalization::PersianCalendar::GetDaysInMonth(int year, int month, 
 
 Number of days in specified month of specified year of specified era.
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::GetDaysInMonth(int, int) const method
 
 
@@ -42,11 +37,6 @@ RTTI information.
 virtual int System::Globalization::Calendar::GetDaysInMonth(int year, int month) const
 ```
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::GetDaysInMonth(int, int, int) const method
 
 

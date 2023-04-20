@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/bitconverter/touint16/
 ---
-## BitConverter::ToUInt16(const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToUInt16(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to unsigned 16-bit integer value.
@@ -27,13 +27,7 @@ static uint16_t System::BitConverter::ToUInt16(const System::ArrayPtr<uint8_t> &
 
 Unsigned 16-bit integer value resulting from conversion
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToUInt16(const System::Details::ArrayView\<**uint8_t**\>\&, int) method
+## BitConverter::ToUInt16(const System::Details::ArrayView\<uint8_t\>\&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to unsigned 16-bit integer value.
@@ -56,6 +50,7 @@ Unsigned 16-bit integer value resulting from conversion
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

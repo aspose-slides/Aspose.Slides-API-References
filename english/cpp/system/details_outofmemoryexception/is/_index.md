@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_outofmemoryexception/is/
 ---
-## Details_OutOfMemoryException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_OutOfMemoryException::Is(const System::TypeInfo\&) const method
 
 
 

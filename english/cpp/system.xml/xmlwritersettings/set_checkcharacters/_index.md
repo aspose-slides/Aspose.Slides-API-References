@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.xml/xmlwritersettings/set_checkcharacters/
 ---
-## XmlWriterSettings::set_CheckCharacters(**bool**) method
+## XmlWriterSettings::set_CheckCharacters(bool) method
 
 
 Sets a value that indicates whether the XML writer should check to ensure that all characters in the document conform to the \"2.2 Characters\" section of the W3C [XML 1.0 Recommendation](https://www.w3.org/TR/REC-xml/#charsets).

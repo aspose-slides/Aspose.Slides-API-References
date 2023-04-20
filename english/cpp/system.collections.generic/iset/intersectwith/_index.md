@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections.generic/iset/intersectwith/
 ---
-## ISet::IntersectWith([IEnumerablePtr](../ienumerableptr/)) method
+## ISet::IntersectWith(IEnumerablePtr) method
 
 
 Removes elements not present in different container.

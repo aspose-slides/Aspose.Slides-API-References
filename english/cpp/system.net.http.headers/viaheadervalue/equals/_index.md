@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/viaheadervalue/equals/
 ---
-## ViaHeaderValue::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## ViaHeaderValue::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

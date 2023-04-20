@@ -6,7 +6,7 @@ type: docs
 weight: 1236
 url: /cpp/aspose.slides.charts/iaxis/set_underflowbin/
 ---
-## IAxis::set_UnderflowBin(**double**) method
+## IAxis::set_UnderflowBin(double) method
 
 
 Specifies underflow bin custom value. Applied when IsAutomaticUnderflowBin property setted to false and IsUnderflowBin property equals true.

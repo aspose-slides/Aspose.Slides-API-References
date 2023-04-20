@@ -23,12 +23,7 @@ Example:
 auto mathParagraph = System::MakeObject<MathParagraph>();
 ```
 
-## See Also
-
-* Class [MathParagraph](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathParagraph::MathParagraph([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) constructor
+## MathParagraph::MathParagraph(System::SharedPtr\<IMathBlock\>) constructor
 
 
 Initializes a new instance of the [MathParagraph](../) class.
@@ -48,7 +43,7 @@ auto mathParagraph = System::MakeObject<MathParagraph>(System::MakeObject<MathBl
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathBlock](../../imathblock/)
 * Class [MathParagraph](../)
+* Class [IMathBlock](../../imathblock/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

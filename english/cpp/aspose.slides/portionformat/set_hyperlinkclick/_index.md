@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/portionformat/set_hyperlinkclick/
 ---
-## PortionFormat::set_HyperlinkClick([System::SharedPtr](../../../system/sharedptr/)\<[IHyperlink](../../ihyperlink/)\>) method
+## PortionFormat::set_HyperlinkClick(System::SharedPtr\<IHyperlink\>) method
 
 
 Sets the hyperlink defined for mouse click. Write [IHyperlink](../../ihyperlink/).

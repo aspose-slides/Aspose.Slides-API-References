@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/iconvertible/toint32/
 ---
-## IConvertible::ToInt32([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToInt32(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent 32-bit signed integer using the specified culture-specific formatting information.

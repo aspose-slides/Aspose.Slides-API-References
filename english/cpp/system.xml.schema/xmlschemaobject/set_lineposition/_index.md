@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemaobject/set_lineposition/
 ---
-## XmlSchemaObject::set_LinePosition(**int32_t**) method
+## XmlSchemaObject::set_LinePosition(int32_t) method
 
 
 Sets the line position in the file to which the **schema** element refers.

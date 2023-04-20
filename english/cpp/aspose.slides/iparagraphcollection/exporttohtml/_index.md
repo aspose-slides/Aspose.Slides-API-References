@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/iparagraphcollection/exporttohtml/
 ---
-## IParagraphCollection::ExportToHtml(**int32_t**, **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[Export::ITextToHtmlConversionOptions](../../../aspose.slides.export/itexttohtmlconversionoptions/)\>) method
+## IParagraphCollection::ExportToHtml(int32_t, int32_t, System::SharedPtr\<Export::ITextToHtmlConversionOptions\>) method
 
 
 Converts specifying paragraphs to the HTML and returns it as String object.
@@ -30,8 +30,8 @@ Generated HTML.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [ITextToHtmlConversionOptions](../../../aspose.slides.export/itexttohtmlconversionoptions/)
 * Class [IParagraphCollection](../)
 * Namespace [Aspose::Slides](../../)

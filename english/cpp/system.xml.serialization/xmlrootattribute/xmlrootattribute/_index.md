@@ -15,12 +15,7 @@ Constructs a new instance of [XmlRootAttribute](../) class.
 System::Xml::Serialization::XmlRootAttribute::XmlRootAttribute()
 ```
 
-## See Also
-
-* Class [XmlRootAttribute](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlRootAttribute::XmlRootAttribute(const [System::String](../../../system/string/)\&) constructor
+## XmlRootAttribute::XmlRootAttribute(const System::String\&) constructor
 
 
 Constructs a new instance of [XmlRootAttribute](../) class and initializes it with the specified element name.
@@ -38,7 +33,7 @@ System::Xml::Serialization::XmlRootAttribute::XmlRootAttribute(const System::Str
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlRootAttribute](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml::Serialization](../../)
 * Library [Aspose.Slides](../../../)

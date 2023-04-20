@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/dsasignatureformatter/createsignature/
 ---
-## DSASignatureFormatter::CreateSignature([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## DSASignatureFormatter::CreateSignature(ArrayPtr\<uint8_t\>) method
 
 
 NOT IMPLEMENTED.

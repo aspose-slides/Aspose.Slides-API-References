@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography.xml/transformchain/add/
 ---
-## TransformChain::Add([SharedPtr](../../../system/sharedptr/)\<[Transform](../../transform/)\>) method
+## TransformChain::Add(SharedPtr\<Transform\>) method
 
 
 

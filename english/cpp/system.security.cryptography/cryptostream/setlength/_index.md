@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/cryptostream/setlength/
 ---
-## CryptoStream::SetLength(**int64_t**) method
+## CryptoStream::SetLength(int64_t) method
 
 
 Seeks size of stream. Not supported.

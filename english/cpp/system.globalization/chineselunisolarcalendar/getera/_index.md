@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.globalization/chineselunisolarcalendar/getera/
 ---
-## ChineseLunisolarCalendar::GetEra([DateTime](../../../system/datetime/)) const method
+## ChineseLunisolarCalendar::GetEra(DateTime) const method
 
 
 Gets era for the specified time point.

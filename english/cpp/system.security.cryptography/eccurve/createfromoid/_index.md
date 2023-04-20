@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.security.cryptography/eccurve/createfromoid/
 ---
-## ECCurve::CreateFromOid(const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../oid/)\>\&) method
+## ECCurve::CreateFromOid(const SharedPtr\<Oid\>\&) method
 
 
 Create a curve from the specified oid.
@@ -17,7 +17,6 @@ static ECCurve System::Security::Cryptography::ECCurve::CreateFromOid(const Shar
 
 ## See Also
 
-* Struct [ECCurve](../)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Oid](../../oid/)
 * Struct [ECCurve](../)

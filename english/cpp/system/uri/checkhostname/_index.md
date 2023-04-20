@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system/uri/checkhostname/
 ---
-## Uri::CheckHostName([String](../../string/)) method
+## Uri::CheckHostName(String) method
 
 
 Determines the type of the specified host name.

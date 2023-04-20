@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides/paragraphformat/set_defaulttabsize/
 ---
-## ParagraphFormat::set_DefaultTabSize(**float**) method
+## ParagraphFormat::set_DefaultTabSize(float) method
 
 
 Sets default tabulation size with no inheritance. Write **float**.

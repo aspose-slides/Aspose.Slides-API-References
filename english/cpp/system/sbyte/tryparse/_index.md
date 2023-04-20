@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/sbyte/tryparse/
 ---
-## SByte::TryParse(const [String](../../string/)\&, **int8_t**\&) method
+## SByte::TryParse(const String\&, int8_t\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 8-bit signed integer.
@@ -27,13 +27,7 @@ static bool System::SByte::TryParse(const String &value, int8_t &result)
 
 True if the conversion succeeded, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, **int8_t**\&) method
+## SByte::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&, int8_t\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 8-bit signed integer using the provided formatting information and number style.
@@ -56,16 +50,7 @@ static bool System::SByte::TryParse(const String &value, Globalization::NumberSt
 
 True if the conversion succeeded, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, **int8_t**\&) method
+## SByte::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&, int8_t\&) method
 
 
 
@@ -74,16 +59,7 @@ True if the conversion succeeded, otherwise - false.
 static bool System::SByte::TryParse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture, int8_t &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&, **int8_t**\&) method
+## SByte::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&, int8_t\&) method
 
 
 
@@ -92,16 +68,7 @@ static bool System::SByte::TryParse(const String &value, Globalization::NumberSt
 static bool System::SByte::TryParse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi, int8_t &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), std::nullptr_t, **int8_t**\&) method
+## SByte::TryParse(const String\&, Globalization::NumberStyles, std::nullptr_t, int8_t\&) method
 
 
 
@@ -112,8 +79,12 @@ static bool System::SByte::TryParse(const String &value, Globalization::NumberSt
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
 * Struct [SByte](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

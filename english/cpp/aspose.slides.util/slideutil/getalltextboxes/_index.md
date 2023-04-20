@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.util/slideutil/getalltextboxes/
 ---
-## SlideUtil::GetAllTextBoxes([System::SharedPtr](../../../system/sharedptr/)\<[IBaseSlide](../../../aspose.slides/ibaseslide/)\>) method
+## SlideUtil::GetAllTextBoxes(System::SharedPtr\<IBaseSlide\>) method
 
 
 Returns all text frames on a slide in a PPTX presentation.

@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/system.globalization/datetimeformatinfo/set_shortestdaynames/
 ---
-## DateTimeFormatInfo::set_ShortestDayNames(const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## DateTimeFormatInfo::set_ShortestDayNames(const ArrayPtr\<String\>\&) method
 
 
 Sets shortest day names possible.

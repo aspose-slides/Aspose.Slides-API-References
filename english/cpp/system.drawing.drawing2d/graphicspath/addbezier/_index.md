@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing.drawing2d/graphicspath/addbezier/
 ---
-## GraphicsPath::AddBezier(const [Point](../../../system.drawing/point/)\&, const [Point](../../../system.drawing/point/)\&, const [Point](../../../system.drawing/point/)\&, const [Point](../../../system.drawing/point/)\&) method
+## GraphicsPath::AddBezier(const Point\&, const Point\&, const Point\&, const Point\&) method
 
 
 Adds the specified cubic Bezier curve to the path represented by the current object.
@@ -25,13 +25,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBezier(const Point &pt1, const
 | pt3 | const [Point](../../../system.drawing/point/)\& | The 2-nd control point of the curve to add |
 | pt4 | const [Point](../../../system.drawing/point/)\& | The ending point of the curve to add |
 
-## See Also
-
-* Class [Point](../../../system.drawing/point/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddBezier(const [PointF](../../../system.drawing/pointf/)\&, const [PointF](../../../system.drawing/pointf/)\&, const [PointF](../../../system.drawing/pointf/)\&, const [PointF](../../../system.drawing/pointf/)\&) method
+## GraphicsPath::AddBezier(const PointF\&, const PointF\&, const PointF\&, const PointF\&) method
 
 
 Adds the specified cubic Bezier curve to the path represented by the current object.
@@ -50,12 +44,6 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBezier(const PointF &pt1, cons
 | pt3 | const [PointF](../../../system.drawing/pointf/)\& | The 2-nd control point of the curve to add |
 | pt4 | const [PointF](../../../system.drawing/pointf/)\& | The ending point of the curve to add |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
 ## GraphicsPath::AddBezier(int, int, int, int, int, int, int, int) method
 
 
@@ -79,12 +67,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBezier(int x1, int y1, int x2,
 | x4 | int | The X coordinate of the ending point of the curve to add |
 | y4 | int | The Y coordinate of the ending point of the curve to add |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddBezier(**float**, **float**, **float**, **float**, **float**, **float**, **float**, **float**) method
+## GraphicsPath::AddBezier(float, float, float, float, float, float, float, float) method
 
 
 Adds the specified cubic Bezier curve to the path represented by the current object.
@@ -109,6 +92,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddBezier(float x1, float y1, flo
 
 ## See Also
 
+* Class [Point](../../../system.drawing/point/)
 * Class [GraphicsPath](../)
+* Class [PointF](../../../system.drawing/pointf/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

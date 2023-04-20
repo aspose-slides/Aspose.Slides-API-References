@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml/xmlattributecollection/removeat/
 ---
-## XmlAttributeCollection::RemoveAt(**int32_t**) method
+## XmlAttributeCollection::RemoveAt(int32_t) method
 
 
 Removes the attribute corresponding to the specified index from the collection.

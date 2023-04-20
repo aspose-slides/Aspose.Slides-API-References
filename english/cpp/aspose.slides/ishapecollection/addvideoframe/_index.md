@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/ishapecollection/addvideoframe/
 ---
-## IShapeCollection::AddVideoFrame(**float**, **float**, **float**, **float**, [System::String](../../../system/string/)) method
+## IShapeCollection::AddVideoFrame(float, float, float, float, System::String) method
 
 
 Adds a new video frame to the end of a collection.
@@ -30,15 +30,7 @@ virtual System::SharedPtr<IVideoFrame> Aspose::Slides::IShapeCollection::AddVide
 
 Created [VideoFrame](../../videoframe/) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IVideoFrame](../../ivideoframe/)
-* Class [String](../../../system/string/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::AddVideoFrame(**float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[IVideo](../../ivideo/)\>) method
+## IShapeCollection::AddVideoFrame(float, float, float, float, System::SharedPtr\<IVideo\>) method
 
 
 Adds a new video frame to the end of a collection.
@@ -66,7 +58,8 @@ Created [VideoFrame](../../videoframe/) object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IVideoFrame](../../ivideoframe/)
-* Class [IVideo](../../ivideo/)
+* Class [String](../../../system/string/)
 * Class [IShapeCollection](../)
+* Class [IVideo](../../ivideo/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

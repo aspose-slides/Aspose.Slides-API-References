@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.x509certificates/x509certificate/operator_equal/
 ---
-## X509Certificate::operator=(const [X509Certificate](../)\&) method
+## X509Certificate::operator=(const X509Certificate\&) method
 
 
 
@@ -17,7 +17,6 @@ X509Certificate & System::Security::Cryptography::X509Certificates::X509Certific
 
 ## See Also
 
-* Class [X509Certificate](../)
 * Class [X509Certificate](../)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

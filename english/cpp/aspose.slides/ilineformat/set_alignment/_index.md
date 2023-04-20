@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/ilineformat/set_alignment/
 ---
-## ILineFormat::set_Alignment([LineAlignment](../../linealignment/)) method
+## ILineFormat::set_Alignment(LineAlignment) method
 
 
 Sets the line alignment. Write [LineAlignment](../../linealignment/).

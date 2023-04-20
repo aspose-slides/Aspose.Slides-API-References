@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.xml/xmlnode/insertafter/
 ---
-## XmlNode::InsertAfter([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../)\>, [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../)\>) method
+## XmlNode::InsertAfter(SharedPtr\<XmlNode\>, SharedPtr\<XmlNode\>) method
 
 
 Inserts the specified node immediately after the specified reference node.
@@ -30,7 +30,6 @@ The node being inserted.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../)
 * Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

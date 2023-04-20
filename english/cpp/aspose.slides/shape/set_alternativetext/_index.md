@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.slides/shape/set_alternativetext/
 ---
-## Shape::set_AlternativeText([System::String](../../../system/string/)) method
+## Shape::set_AlternativeText(System::String) method
 
 
 Sets the alternative text associated with a shape. Write [System::String](../../../system/string/).

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides.charts/axis/set_maxvalue/
 ---
-## Axis::set_MaxValue(**double**) method
+## Axis::set_MaxValue(double) method
 
 
 Represents the maximum value on the value axis. Write **double**.

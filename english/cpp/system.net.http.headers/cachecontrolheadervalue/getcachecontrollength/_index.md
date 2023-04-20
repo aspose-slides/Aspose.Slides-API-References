@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.net.http.headers/cachecontrolheadervalue/getcachecontrollength/
 ---
-## CacheControlHeaderValue::GetCacheControlLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../)\>, [System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../)\>\&) method
+## CacheControlHeaderValue::GetCacheControlLength(String, int32_t, System::SharedPtr\<CacheControlHeaderValue\>, System::SharedPtr\<CacheControlHeaderValue\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [CacheControlHeaderValue](../) class.
@@ -31,9 +31,8 @@ The length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [CacheControlHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [CacheControlHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

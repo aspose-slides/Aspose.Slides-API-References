@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/shapecollection/addsmartart/
 ---
-## ShapeCollection::AddSmartArt(**float**, **float**, **float**, **float**, [SmartArt::SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype/)) method
+## ShapeCollection::AddSmartArt(float, float, float, float, SmartArt::SmartArtLayoutType) method
 
 
 Add [SmartArt](../../../aspose.slides.smartart/) diagram.
@@ -42,9 +42,9 @@ auto smart = slide->get_Shapes()->AddSmartArt(0.0f, 0.0f, 400.0f, 400.0f, SmartA
 
 ## See Also
 
+* Enum [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ISmartArt](../../../aspose.slides.smartart/ismartart/)
-* Enum [SmartArtLayoutType](../../../aspose.slides.smartart/smartartlayouttype/)
 * Class [ShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

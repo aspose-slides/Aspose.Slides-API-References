@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/equals/
 ---
-## ContentDispositionHeaderValue::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## ContentDispositionHeaderValue::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

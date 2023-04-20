@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/islidecollection/addclone/
 ---
-## ISlideCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## ISlideCollection::AddClone(System::SharedPtr\<ISlide\>) method
 
 
 Adds a copy of a specified slide to the end of the collection.
@@ -30,14 +30,7 @@ New slide.
 
 
 When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [AddClone(SharedPtr<ISlide>, SharedPtr<ILayoutSlide>)](./) or [AddClone(SharedPtr<ISlide>, SharedPtr<IMasterSlide>, bool)](./) for cloning slides, [IGlobalLayoutSlideCollection::AddClone(SharedPtr<ILayoutSlide>)](../../igloballayoutslidecollection/addclone/) or [IGlobalLayoutSlideCollection::AddClone(SharedPtr<ILayoutSlide>, SharedPtr<IMasterSlide>)](../../igloballayoutslidecollection/addclone/) for cloning layouts and [IMasterSlideCollection::AddClone(SharedPtr<IMasterSlide>)](../../imasterslidecollection/addclone/) for cloning masters. 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [ISlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlideCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>) method
+## ISlideCollection::AddClone(System::SharedPtr\<ISlide\>, System::SharedPtr\<ISection\>) method
 
 
 Adds a copy of a specified slide to the end of the specified section.
@@ -71,15 +64,7 @@ presentation->get_Slides()->AddClone(presentation->get_Slides()->idx_get(0), sec
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [ISection](../../isection/)
-* Class [ISlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlideCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## ISlideCollection::AddClone(System::SharedPtr\<ISlide\>, System::SharedPtr\<ILayoutSlide\>) method
 
 
 Adds a copy of a specified slide to the end of the collection.
@@ -100,15 +85,7 @@ virtual System::SharedPtr<ISlide> Aspose::Slides::ISlideCollection::AddClone(Sys
 
 New slide.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [ILayoutSlide](../../ilayoutslide/)
-* Class [ISlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlideCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>, **bool**) method
+## ISlideCollection::AddClone(System::SharedPtr\<ISlide\>, System::SharedPtr\<IMasterSlide\>, bool) method
 
 
 Adds a copy of a specified source slide to the end of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false).
@@ -134,7 +111,9 @@ New slide.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ISlide](../../islide/)
-* Class [IMasterSlide](../../imasterslide/)
 * Class [ISlideCollection](../)
+* Class [ISection](../../isection/)
+* Class [ILayoutSlide](../../ilayoutslide/)
+* Class [IMasterSlide](../../imasterslide/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.globalization/calendar/addhours/
 ---
-## Calendar::AddHours([DateTime](../../../system/datetime/), int) const method
+## Calendar::AddHours(DateTime, int) const method
 
 
 Adds hours to time point.

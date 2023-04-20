@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.text/unicodeencoding/operator_equal_equal/
 ---
-## UnicodeEncoding::operator==(const [UnicodeEncoding](../)\&) const method
+## UnicodeEncoding::operator==(const UnicodeEncoding\&) const method
 
 
 Compares encodings by codepages and flags.
@@ -22,7 +22,6 @@ True if codepages and flags match, false otherwise.
 
 ## See Also
 
-* Class [UnicodeEncoding](../)
 * Class [UnicodeEncoding](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

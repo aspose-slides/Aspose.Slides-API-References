@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/system.net.sockets/socket/receivemessagefrom/
 ---
-## Socket::ReceiveMessageFrom([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)\&, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&, [IPPacketInformation](../../ippacketinformation/)\&) method
+## Socket::ReceiveMessageFrom(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags\&, System::SharedPtr\<EndPoint\>\&, IPPacketInformation\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -31,17 +31,7 @@ int32_t System::Net::Sockets::Socket::ReceiveMessageFrom(System::ArrayPtr<uint8_
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [IPPacketInformation](../../ippacketinformation/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveMessageFrom(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)\&, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&, [IPPacketInformation](../../ippacketinformation/)\&) method
+## Socket::ReceiveMessageFrom(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags\&, System::SharedPtr\<EndPoint\>\&, IPPacketInformation\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -66,16 +56,7 @@ int32_t System::Net::Sockets::Socket::ReceiveMessageFrom(System::Details::ArrayV
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [IPPacketInformation](../../ippacketinformation/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveMessageFrom(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)\&, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&, [IPPacketInformation](../../ippacketinformation/)\&) method
+## Socket::ReceiveMessageFrom(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags\&, System::SharedPtr\<EndPoint\>\&, IPPacketInformation\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -103,6 +84,7 @@ The number of received bytes.
 ## See Also
 
 * Enum [SocketFlags](../../socketflags/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [EndPoint](../../../system.net/endpoint/)
 * Class [IPPacketInformation](../../ippacketinformation/)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net.http.headers/transfercodingwithqualityheadervalue/parse/
 ---
-## TransferCodingWithQualityHeaderValue::Parse([String](../../../system/string/)) method
+## TransferCodingWithQualityHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [TransferCodingWithQualityHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [TransferCodingWithQualityHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [TransferCodingWithQualityHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [TransferCodingWithQualityHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

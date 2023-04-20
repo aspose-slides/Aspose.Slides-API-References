@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/system.net.http.headers/httprequestheaders/set_transferencodingchunked/
 ---
-## HttpRequestHeaders::set_TransferEncodingChunked([Nullable](../../../system/nullable/)\<**bool**\>) method
+## HttpRequestHeaders::set_TransferEncodingChunked(Nullable\<bool\>) method
 
 
 Sets a value that indicates if the 'Transfer-Encoding' header value contains 'Chunked'.

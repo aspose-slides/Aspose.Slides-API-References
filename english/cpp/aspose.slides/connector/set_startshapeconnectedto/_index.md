@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/connector/set_startshapeconnectedto/
 ---
-## Connector::set_StartShapeConnectedTo([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## Connector::set_StartShapeConnectedTo(System::SharedPtr\<IShape\>) method
 
 
 Sets the shape to attach the beginning of the connector to. Write [IShape](../../ishape/).

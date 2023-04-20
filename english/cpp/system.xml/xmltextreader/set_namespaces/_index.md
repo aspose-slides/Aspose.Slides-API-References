@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.xml/xmltextreader/set_namespaces/
 ---
-## XmlTextReader::set_Namespaces(**bool**) method
+## XmlTextReader::set_Namespaces(bool) method
 
 
 Sets a value indicating whether to do namespace support.

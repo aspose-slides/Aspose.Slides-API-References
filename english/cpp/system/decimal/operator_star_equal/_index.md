@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system/decimal/operator_star_equal/
 ---
-## Decimal::operator*=(const [Decimal](../)\&) method
+## Decimal::operator*=(const Decimal\&) method
 
 
 Assigns to the current object a new value that is the result of multiplication of values represented by the current and specified objects.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

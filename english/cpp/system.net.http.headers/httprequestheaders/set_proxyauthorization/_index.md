@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.net.http.headers/httprequestheaders/set_proxyauthorization/
 ---
-## HttpRequestHeaders::set_ProxyAuthorization([System::SharedPtr](../../../system/sharedptr/)\<[AuthenticationHeaderValue](../../authenticationheadervalue/)\>) method
+## HttpRequestHeaders::set_ProxyAuthorization(System::SharedPtr\<AuthenticationHeaderValue\>) method
 
 
 Sets a value of the 'Proxy-Authorization' header.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.animation/behaviorpropertycollection/idx_set/
 ---
-## BehaviorPropertyCollection::idx_set(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>) method
+## BehaviorPropertyCollection::idx_set(int32_t, System::SharedPtr\<IBehaviorProperty\>) method
 
 
 Returns a property at the specified index.

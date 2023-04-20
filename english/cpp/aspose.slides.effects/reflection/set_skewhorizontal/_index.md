@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides.effects/reflection/set_skewhorizontal/
 ---
-## Reflection::set_SkewHorizontal(**double**) method
+## Reflection::set_SkewHorizontal(double) method
 
 
 Specifies the horizontal skew angle. Write **double**.

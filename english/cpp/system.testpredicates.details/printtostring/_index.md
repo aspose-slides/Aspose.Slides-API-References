@@ -32,11 +32,6 @@ template<typename T> std::enable_if_t<!TypeTraits::IsEnumerable<T>::value, std::
 
 [String](../../system/string/) representations of object passed.
 
-## See Also
-
-* Struct [IsEnumerable](../../system.testpredicates.typetraits/isenumerable/)
-* Namespace [System::TestPredicates::Details](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::Details::PrintToString(const T\&) function
 
 
@@ -63,11 +58,6 @@ template<typename T> std::enable_if_t<TypeTraits::IsEnumerable<T>::value, std::s
 
 Joint string representations of contained elements.
 
-## See Also
-
-* Struct [IsEnumerable](../../system.testpredicates.typetraits/isenumerable/)
-* Namespace [System::TestPredicates::Details](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::Details::PrintToString(std::nullptr_t) function
 
 
@@ -82,11 +72,7 @@ std::string System::TestPredicates::Details::PrintToString(std::nullptr_t)
 
 \"nullptr\" string.
 
-## See Also
-
-* Namespace [System::TestPredicates::Details](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::PrintToString(const [Collections::Generic::IEnumerable](../../system.collections.generic/ienumerable/)\<**bool**\>\&) function
+## System::TestPredicates::Details::PrintToString(const Collections::Generic::IEnumerable\<bool\>\&) function
 
 
 Prints [IEnumerable<bool>](../../system.collections.generic/ienumerable/) collections to string by printing their elements (not more than 32).
@@ -115,5 +101,6 @@ Joint string representations of contained elements.
 ## See Also
 
 * Class [IEnumerable](../../system.collections.generic/ienumerable/)
+* Struct [IsEnumerable](../../system.testpredicates.typetraits/isenumerable/)
 * Namespace [System::TestPredicates::Details](../)
 * Library [Aspose.Slides](../../)

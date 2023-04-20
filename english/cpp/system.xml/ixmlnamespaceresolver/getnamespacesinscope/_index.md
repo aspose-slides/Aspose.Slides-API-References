@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml/ixmlnamespaceresolver/getnamespacesinscope/
 ---
-## IXmlNamespaceResolver::GetNamespacesInScope([XmlNamespaceScope](../../xmlnamespacescope/)) method
+## IXmlNamespaceResolver::GetNamespacesInScope(XmlNamespaceScope) method
 
 
 Returns a collection of defined prefix-namespace mappings that are currently in scope.
@@ -28,10 +28,10 @@ An IDictionary collection that contains the current in-scope namespaces.
 
 ## See Also
 
+* Enum [XmlNamespaceScope](../../xmlnamespacescope/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IDictionary](../../../system.collections.generic/idictionary/)
 * Class [String](../../../system/string/)
-* Enum [XmlNamespaceScope](../../xmlnamespacescope/)
 * Class [IXmlNamespaceResolver](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

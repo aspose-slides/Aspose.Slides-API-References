@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.security.cryptography.xml/signedxml/set_keyinfo/
 ---
-## SignedXml::set_KeyInfo([SharedPtr](../../../system/sharedptr/)\<[KeyInfo](../../keyinfo/)\>) method
+## SignedXml::set_KeyInfo(SharedPtr\<KeyInfo\>) method
 
 
 

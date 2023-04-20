@@ -3,7 +3,7 @@ title: DateTimeFormatFlags
 second_title: Aspose.Slides for C++ API Reference
 description: Bit flags, used in parsing/formatting.
 type: docs
-weight: 53
+weight: 27
 url: /cpp/system.globalization.details/datetimeformatflags/
 ---
 ## DateTimeFormatFlags enum

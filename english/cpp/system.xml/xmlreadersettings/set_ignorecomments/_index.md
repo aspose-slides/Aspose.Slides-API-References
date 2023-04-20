@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.xml/xmlreadersettings/set_ignorecomments/
 ---
-## XmlReaderSettings::set_IgnoreComments(**bool**) method
+## XmlReaderSettings::set_IgnoreComments(bool) method
 
 
 Sets a value indicating whether to ignore comments.

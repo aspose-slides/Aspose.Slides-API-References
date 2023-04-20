@@ -15,15 +15,7 @@ Returns enumerable collection containing all directories located in the director
 SharedPtr<IEnumerable<DirectoryInfoPtr>> System::IO::DirectoryInfo::EnumerateDirectories()
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
-* Typedef [DirectoryInfoPtr](../../../system/directoryinfoptr/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::EnumerateDirectories(const [String](../../../system/string/)\&) method
+## DirectoryInfo::EnumerateDirectories(const String\&) method
 
 
 Searches for the directories that satisfy the specified search criteria in the directory represented by the current object.
@@ -43,16 +35,7 @@ SharedPtr<IEnumerable<DirectoryInfoPtr>> System::IO::DirectoryInfo::EnumerateDir
 
 The enumerable collection of shared pointers to [DirectoryInfo](../) objects representing the found directories whose names match **searchPattern**
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
-* Typedef [DirectoryInfoPtr](../../../system/directoryinfoptr/)
-* Class [String](../../../system/string/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::EnumerateDirectories(const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## DirectoryInfo::EnumerateDirectories(const String\&, SearchOption) method
 
 
 Searches for the directories that satisfy the specified search criteria either in the directory represented by the current object or in the whole directory tree rooted in the directory represented by the current object.
@@ -75,11 +58,11 @@ The enumerable collection of shared pointers to [DirectoryInfo](../) objects rep
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
-* Typedef [DirectoryInfoPtr](../../../system/directoryinfoptr/)
-* Class [String](../../../system/string/)
 * Enum [SearchOption](../../searchoption/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [DirectoryInfoPtr](../../../system/directoryinfoptr/)
+* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Class [DirectoryInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

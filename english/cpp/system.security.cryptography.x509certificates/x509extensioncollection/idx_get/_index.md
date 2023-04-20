@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.x509certificates/x509extensioncollection/idx_get/
 ---
-## X509ExtensionCollection::idx_get(const [String](../../../system/string/)\&) const method
+## X509ExtensionCollection::idx_get(const String\&) const method
 
 
 Accessor. Not implemented.

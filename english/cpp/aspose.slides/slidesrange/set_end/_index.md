@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/slidesrange/set_end/
 ---
-## SlidesRange::set_End(**uint32_t**) method
+## SlidesRange::set_End(uint32_t) method
 
 
 End

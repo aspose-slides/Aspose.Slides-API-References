@@ -15,12 +15,7 @@ Starts thread using null argument object.
 void System::Threading::Thread::Start()
 ```
 
-## See Also
-
-* Class [Thread](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Thread::Start(const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## Thread::Start(const System::SharedPtr\<System::Object\>\&) method
 
 
 Starts thread.
@@ -39,7 +34,7 @@ void System::Threading::Thread::Start(const System::SharedPtr<System::Object> &o
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [Thread](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

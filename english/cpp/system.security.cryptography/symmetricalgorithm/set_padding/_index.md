@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.security.cryptography/symmetricalgorithm/set_padding/
 ---
-## SymmetricAlgorithm::set_Padding([PaddingMode](../../paddingmode/)) method
+## SymmetricAlgorithm::set_Padding(PaddingMode) method
 
 
 Sets padding of cryptographic operation.

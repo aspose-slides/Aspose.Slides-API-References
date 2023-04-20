@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.runtime.serialization/iformatterconverter/todecimal/
 ---
-## IFormatterConverter::ToDecimal([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## IFormatterConverter::ToDecimal(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a [Decimal](../../../system/decimal/).
@@ -28,8 +28,8 @@ The converted value.
 
 ## See Also
 
-* Class [Decimal](../../../system/decimal/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Decimal](../../../system/decimal/)
 * Class [Object](../../../system/object/)
 * Class [IFormatterConverter](../)
 * Namespace [System::Runtime::Serialization](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1054
 url: /cpp/aspose.slides.charts/iaxis/set_binwidth/
 ---
-## IAxis::set_BinWidth(**double**) method
+## IAxis::set_BinWidth(double) method
 
 
 Specifies bin width when AggregationType property value setted to [AxisAggregationType::ByBinWidth](../../axisaggregationtype/). Applied to category axes. Used with Histogram or HistogramPareto series only.

@@ -3,7 +3,7 @@ title: SourceFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Represents source file format.
 type: docs
-weight: 6345
+weight: 6085
 url: /cpp/aspose.slides/sourceformat/
 ---
 ## SourceFormat enum

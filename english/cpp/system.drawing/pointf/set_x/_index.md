@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/pointf/set_x/
 ---
-## PointF::set_X(**float**) method
+## PointF::set_X(float) method
 
 
 Sets the value of X coordinate represented by the current object.

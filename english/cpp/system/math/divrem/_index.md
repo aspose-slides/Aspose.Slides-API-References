@@ -28,12 +28,7 @@ static int System::Math::DivRem(int a, int b, int &result)
 
 The quoting of **a** and **b**
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::DivRem(**int64_t**, **int64_t**, **int64_t**\&) method
+## Math::DivRem(int64_t, int64_t, int64_t\&) method
 
 
 Calculates the quotient of two 64-bit integers and the remainder.

@@ -3,10 +3,10 @@ title: TryGetLast()
 second_title: Aspose.Slides for C++ API Reference
 description: Tries to get the last element of the collection.
 type: docs
-weight: 261
+weight: 209
 url: /cpp/system.collections.generic.details/trygetlast/
 ---
-## System::Collections::Generic::Details::TryGetLast([IEnumerable](../../system.collections.generic/ienumerable/)\<T\>\&, **bool**\&) function
+## System::Collections::Generic::Details::TryGetLast(IEnumerable\<T\>\&, bool\&) function
 
 
 Tries to get the last element of the collection.

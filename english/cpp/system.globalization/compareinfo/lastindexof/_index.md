@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.globalization/compareinfo/lastindexof/
 ---
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) const method
+## CompareInfo::LastIndexOf(const String\&, const String\&) const method
 
 
 Searches last occurrence of the specified substring.
@@ -27,13 +27,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int, int, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::LastIndexOf(const String\&, const String\&, int, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified substring using the specified compare options.
@@ -57,14 +51,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, char16_t, int, int, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::LastIndexOf(const String\&, char16_t, int, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified character using the specified compare options.
@@ -88,14 +75,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int, int) const method
+## CompareInfo::LastIndexOf(const String\&, const String\&, int, int) const method
 
 
 Searches last occurrence of the specified string.
@@ -118,13 +98,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::LastIndexOf(const String\&, const String\&, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified string using the specified compare options.
@@ -147,14 +121,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, char16_t, int, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::LastIndexOf(const String\&, char16_t, int, CompareOptions) const method
 
 
 Searches last occurrence of the specified character using the specified compare options.
@@ -177,14 +144,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int) const method
+## CompareInfo::LastIndexOf(const String\&, const String\&, int) const method
 
 
 Searches last occurrence of the specified string.
@@ -206,13 +166,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, char16_t, int) const method
+## CompareInfo::LastIndexOf(const String\&, char16_t, int) const method
 
 
 Searches last occurrence of the specified character.
@@ -234,13 +188,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::LastIndexOf(const String\&, const String\&, CompareOptions) const method
 
 
 Searches last occurrence of the specified string using the specified compare options.
@@ -262,14 +210,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, char16_t, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::LastIndexOf(const String\&, char16_t, CompareOptions) const method
 
 
 Searches last occurrence of the specified character using the specified compare options.
@@ -291,14 +232,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, char16_t) const method
+## CompareInfo::LastIndexOf(const String\&, char16_t) const method
 
 
 Searches last occurrence of the specified character.
@@ -319,13 +253,7 @@ virtual int System::Globalization::CompareInfo::LastIndexOf(const String &source
 
 Index of lookup value in source string or -1 if not found.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::LastIndexOf(const [String](../../../system/string/)\&, char16_t, int, int) const method
+## CompareInfo::LastIndexOf(const String\&, char16_t, int, int) const method
 
 
 Searches last occurrence of the specified character.
@@ -350,6 +278,7 @@ Index of lookup value in source string or -1 if not found.
 
 ## See Also
 
+* Enum [CompareOptions](../../compareoptions/)
 * Class [String](../../../system/string/)
 * Class [CompareInfo](../)
 * Namespace [System::Globalization](../../)

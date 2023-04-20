@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.globalization/calendar/getweekofyear/
 ---
-## Calendar::GetWeekOfYear([DateTime](../../../system/datetime/), [CalendarWeekRule](../../calendarweekrule/), [DayOfWeek](../../../system/dayofweek/)) const method
+## Calendar::GetWeekOfYear(DateTime, CalendarWeekRule, DayOfWeek) const method
 
 
 Gets week of the year for the specified time point.
@@ -30,9 +30,9 @@ Year week number in the time point passed.
 
 ## See Also
 
-* Class [DateTime](../../../system/datetime/)
 * Enum [CalendarWeekRule](../../calendarweekrule/)
 * Enum [DayOfWeek](../../../system/dayofweek/)
+* Class [DateTime](../../../system/datetime/)
 * Class [Calendar](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

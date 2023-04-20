@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/ifontsmanager/replacefont/
 ---
-## IFontsManager::ReplaceFont([System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>) method
+## IFontsManager::ReplaceFont(System::SharedPtr\<IFontData\>, System::SharedPtr\<IFontData\>) method
 
 
 Replace font in presentation
@@ -23,14 +23,7 @@ virtual void Aspose::Slides::IFontsManager::ReplaceFont(System::SharedPtr<IFontD
 | sourceFont | [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\> | Source font |
 | destFont | [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\> | Destination font |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontData](../../ifontdata/)
-* Class [IFontsManager](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IFontsManager::ReplaceFont([System::SharedPtr](../../../system/sharedptr/)\<[IFontSubstRule](../../ifontsubstrule/)\>) method
+## IFontsManager::ReplaceFont(System::SharedPtr\<IFontSubstRule\>) method
 
 
 Replace font in presentation using information provided in [IFontSubstRule](../../ifontsubstrule/)
@@ -46,14 +39,7 @@ virtual void Aspose::Slides::IFontsManager::ReplaceFont(System::SharedPtr<IFontS
 | --- | --- | --- |
 | substRule | [System::SharedPtr](../../../system/sharedptr/)\<[IFontSubstRule](../../ifontsubstrule/)\> | Font substitution info |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontSubstRule](../../ifontsubstrule/)
-* Class [IFontsManager](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IFontsManager::ReplaceFont([System::SharedPtr](../../../system/sharedptr/)\<[IFontSubstRuleCollection](../../ifontsubstrulecollection/)\>) method
+## IFontsManager::ReplaceFont(System::SharedPtr\<IFontSubstRuleCollection\>) method
 
 
 Replace font in presentation using information provided in collection of [IFontSubstRule](../../ifontsubstrule/)
@@ -72,7 +58,9 @@ virtual void Aspose::Slides::IFontsManager::ReplaceFont(System::SharedPtr<IFontS
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontSubstRuleCollection](../../ifontsubstrulecollection/)
+* Class [IFontData](../../ifontdata/)
 * Class [IFontsManager](../)
+* Class [IFontSubstRule](../../ifontsubstrule/)
+* Class [IFontSubstRuleCollection](../../ifontsubstrulecollection/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

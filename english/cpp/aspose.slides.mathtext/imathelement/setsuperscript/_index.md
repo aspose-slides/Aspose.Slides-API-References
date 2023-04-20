@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.mathtext/imathelement/setsuperscript/
 ---
-## IMathElement::SetSuperscript([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>) method
+## IMathElement::SetSuperscript(System::SharedPtr\<IMathElement\>) method
 
 
 Creates superscript
@@ -36,15 +36,7 @@ auto index = System::MakeObject<MathematicalText>(u"4");
 auto superscript = element->SetSuperscript(index);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathSuperscriptElement](../../imathsuperscriptelement/)
-* Class [IMathElement](../)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::SetSuperscript([System::String](../../../system/string/)) method
+## IMathElement::SetSuperscript(System::String) method
 
 
 Creates superscript
@@ -77,7 +69,7 @@ auto superscript = element->SetSuperscript(u"4");
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathSuperscriptElement](../../imathsuperscriptelement/)
-* Class [String](../../../system/string/)
 * Class [IMathElement](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

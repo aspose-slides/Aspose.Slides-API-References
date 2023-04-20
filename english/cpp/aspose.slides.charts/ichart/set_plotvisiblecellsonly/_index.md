@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/ichart/set_plotvisiblecellsonly/
 ---
-## IChart::set_PlotVisibleCellsOnly(**bool**) method
+## IChart::set_PlotVisibleCellsOnly(bool) method
 
 
 Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Write **bool**.

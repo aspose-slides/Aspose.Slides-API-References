@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/igeometrypath/moveto/
 ---
-## IGeometryPath::MoveTo([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## IGeometryPath::MoveTo(System::Drawing::PointF) method
 
 
 Sets next point position.
@@ -22,13 +22,7 @@ virtual void Aspose::Slides::IGeometryPath::MoveTo(System::Drawing::PointF point
 | --- | --- | --- |
 | point | [System::Drawing::PointF](../../../system.drawing/pointf/) | Point position |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [IGeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IGeometryPath::MoveTo(**float**, **float**) method
+## IGeometryPath::MoveTo(float, float) method
 
 
 Sets next point position.
@@ -47,6 +41,7 @@ virtual void Aspose::Slides::IGeometryPath::MoveTo(float x, float y)=0
 
 ## See Also
 
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [IGeometryPath](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

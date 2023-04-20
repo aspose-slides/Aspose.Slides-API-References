@@ -20,13 +20,7 @@ StringBuilder * System::Text::StringBuilder::AppendLine()
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::AppendLine(const [String](../../../system/string/)\&) method
+## StringBuilder::AppendLine(const String\&) method
 
 
 Appends string followed by new line character to builder.
@@ -50,6 +44,5 @@ This pointer.
 
 * Class [StringBuilder](../)
 * Class [String](../../../system/string/)
-* Class [StringBuilder](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

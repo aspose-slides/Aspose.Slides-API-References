@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/fileinfo/fileinfo/
 ---
-## FileInfo::FileInfo(const [String](../../../system/string/)\&) constructor
+## FileInfo::FileInfo(const String\&) constructor
 
 
 Constructs a new instance of [FileInfo](../) class that represents the specified file.

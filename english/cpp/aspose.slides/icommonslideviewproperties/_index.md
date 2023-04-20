@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/icommonslideviewproperties/
 Represents common slide view properties.
 
 ```cpp
-class ICommonSlideViewProperties : public System::Object
+class ICommonSlideViewProperties : public virtual System::Object
 ```
 
 ## Methods

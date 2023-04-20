@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.charts/ichartdatacell/
 Represents cell for chart data.
 
 ```cpp
-class IChartDataCell : public System::Object
+class IChartDataCell : public virtual System::Object
 ```
 
 ## Methods

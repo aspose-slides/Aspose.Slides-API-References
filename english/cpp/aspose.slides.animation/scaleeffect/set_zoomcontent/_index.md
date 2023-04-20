@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/scaleeffect/set_zoomcontent/
 ---
-## ScaleEffect::set_ZoomContent([NullableBool](../../../aspose.slides/nullablebool/)) method
+## ScaleEffect::set_ZoomContent(NullableBool) method
 
 
 Determines whether a content should be zoomed. Write [NullableBool](../../../aspose.slides/nullablebool/).

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides/autoshapelock/set_textlocked/
 ---
-## AutoShapeLock::set_TextLocked(**bool**) method
+## AutoShapeLock::set_TextLocked(bool) method
 
 
 Determines whether an editing of text is forbidden. Write **bool**.

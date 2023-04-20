@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ifontfallbackrulescollection/add/
 ---
-## IFontFallBackRulesCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IFontFallBackRule](../../ifontfallbackrule/)\>) method
+## IFontFallBackRulesCollection::Add(System::SharedPtr\<IFontFallBackRule\>) method
 
 
 Add a new FallBack rule to the end of the collection.

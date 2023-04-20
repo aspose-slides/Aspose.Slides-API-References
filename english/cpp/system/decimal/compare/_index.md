@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system/decimal/compare/
 ---
-## Decimal::Compare(const [Decimal](../)\&, const [Decimal](../)\&) method
+## Decimal::Compare(const Decimal\&, const Decimal\&) method
 
 
 Determines if the value represented by the first [Decimal](../) object is less than, equal to or greater than the value represented by the second [Decimal](../) object.
@@ -29,7 +29,6 @@ static int System::Decimal::Compare(const Decimal &d1, const Decimal &d2)
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/sortkey/operator_equal/
 ---
-## SortKey::operator=(const [SortKey](../)\&) method
+## SortKey::operator=(const SortKey\&) method
 
 
 
@@ -17,7 +17,6 @@ SortKey & System::Globalization::SortKey::operator=(const SortKey &)=delete
 
 ## See Also
 
-* Class [SortKey](../)
 * Class [SortKey](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/geometrypath/cubicbezierto/
 ---
-## GeometryPath::CubicBezierTo([System::Drawing::PointF](../../../system.drawing/pointf/), [System::Drawing::PointF](../../../system.drawing/pointf/), [System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## GeometryPath::CubicBezierTo(System::Drawing::PointF, System::Drawing::PointF, System::Drawing::PointF) method
 
 
 Adds cubic Bezier curve at the end the path
@@ -24,13 +24,7 @@ void Aspose::Slides::GeometryPath::CubicBezierTo(System::Drawing::PointF point1,
 | point2 | [System::Drawing::PointF](../../../system.drawing/pointf/) | Second direction point |
 | point3 | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## GeometryPath::CubicBezierTo(**float**, **float**, **float**, **float**, **float**, **float**) method
+## GeometryPath::CubicBezierTo(float, float, float, float, float, float) method
 
 
 Adds cubic Bezier curve at the end the path
@@ -51,12 +45,7 @@ void Aspose::Slides::GeometryPath::CubicBezierTo(float x1, float y1, float x2, f
 | x3 | **float** | X coordinate of end point |
 | y3 | **float** | Y coordinate of end point |
 
-## See Also
-
-* Class [GeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## GeometryPath::CubicBezierTo([System::Drawing::PointF](../../../system.drawing/pointf/), [System::Drawing::PointF](../../../system.drawing/pointf/), [System::Drawing::PointF](../../../system.drawing/pointf/), **uint32_t**) method
+## GeometryPath::CubicBezierTo(System::Drawing::PointF, System::Drawing::PointF, System::Drawing::PointF, uint32_t) method
 
 
 Adds cubic Bezier curve to the specified place of the path
@@ -75,13 +64,7 @@ void Aspose::Slides::GeometryPath::CubicBezierTo(System::Drawing::PointF point1,
 | point3 | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 | index | **uint32_t** | Index of segment in PathData |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## GeometryPath::CubicBezierTo(**float**, **float**, **float**, **float**, **float**, **float**, **uint32_t**) method
+## GeometryPath::CubicBezierTo(float, float, float, float, float, float, uint32_t) method
 
 
 Adds cubic Bezier curve to the specified place of the path
@@ -105,6 +88,7 @@ void Aspose::Slides::GeometryPath::CubicBezierTo(float x1, float y1, float x2, f
 
 ## See Also
 
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [GeometryPath](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/buffer/getbyte/
 ---
-## Buffer::GetByte(const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>\&, int) method
+## Buffer::GetByte(const SharedPtr\<Array\<T\>\>\&, int) method
 
 
 Interprets the specified typed array as a raw byte array and retrieves the byte value at specified byte offset.
@@ -33,13 +33,6 @@ template<typename T> static uint8_t System::Buffer::GetByte(const SharedPtr<Arra
 
 The byte value at the specified index
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Array](../../array/)
-* Class [Buffer](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Buffer::GetByte(const System::Details::ArrayView\<T\>\&, int) method
 
 
@@ -67,11 +60,6 @@ template<typename T> static uint8_t System::Buffer::GetByte(const System::Detail
 
 The byte value at the specified index
 
-## See Also
-
-* Class [Buffer](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Buffer::GetByte(const System::Details::StackArray\<T, N\>\&, int) method
 
 
@@ -102,6 +90,8 @@ The byte value at the specified index
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [Array](../../array/)
 * Class [Buffer](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

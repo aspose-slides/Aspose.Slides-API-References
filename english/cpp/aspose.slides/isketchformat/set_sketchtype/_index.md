@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/isketchformat/set_sketchtype/
 ---
-## ISketchFormat::set_SketchType([LineSketchType](../../linesketchtype/)) method
+## ISketchFormat::set_SketchType(LineSketchType) method
 
 
 Sets the sketch type. Write [Slides::LineSketchType](../../linesketchtype/).

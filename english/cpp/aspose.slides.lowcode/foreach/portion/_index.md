@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.lowcode/foreach/portion/
 ---
-## ForEach::Portion([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [ForEach::ForEachPortionCallback](../foreachportioncallback/)) method
+## ForEach::Portion(System::SharedPtr\<Presentation\>, ForEach::ForEachPortionCallback) method
 
 
 Iterate each [ForEach::Portion](./) in the [Presentation](../../../aspose.slides/presentation/).
@@ -44,8 +44,8 @@ ForEach::Portion(pres, callback);
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
 * Typedef [ForEachPortionCallback](../foreachportioncallback/)
+* Class [Presentation](../../../aspose.slides/presentation/)
 * Class [ForEach](../)
 * Namespace [Aspose::Slides::LowCode](../../)
 * Library [Aspose.Slides](../../../)

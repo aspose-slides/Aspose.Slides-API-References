@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/masterslidecollection/copyto/
 ---
-## MasterSlideCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>\>, **int32_t**) method
+## MasterSlideCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IMasterSlide\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

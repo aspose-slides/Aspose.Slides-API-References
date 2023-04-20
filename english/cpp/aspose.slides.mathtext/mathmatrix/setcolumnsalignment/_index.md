@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.mathtext/mathmatrix/setcolumnsalignment/
 ---
-## MathMatrix::SetColumnsAlignment(**int32_t**, **uint32_t**, [MathHorizontalAlignment](../../mathhorizontalalignment/)) method
+## MathMatrix::SetColumnsAlignment(int32_t, uint32_t, MathHorizontalAlignment) method
 
 
 Set the horizontal alignment of the specified columns

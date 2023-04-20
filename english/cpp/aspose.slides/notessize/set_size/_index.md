@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/notessize/set_size/
 ---
-## NotesSize::set_Size([System::Drawing::SizeF](../../../system.drawing/sizef/)) method
+## NotesSize::set_Size(System::Drawing::SizeF) method
 
 
 Sets the size in points. Write [System::Drawing::SizeF](../../../system.drawing/sizef/).

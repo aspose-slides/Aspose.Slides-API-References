@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography/rsasignaturepadding/equals/
 ---
-## RSASignaturePadding::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## RSASignaturePadding::Equals(SharedPtr\<Object\>) method
 
 
 
@@ -15,14 +15,7 @@ url: /cpp/system.security.cryptography/rsasignaturepadding/equals/
 bool System::Security::Cryptography::RSASignaturePadding::Equals(SharedPtr<Object> other) override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [RSASignaturePadding](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSASignaturePadding::Equals([SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../)\>) method
+## RSASignaturePadding::Equals(SharedPtr\<RSASignaturePadding\>) method
 
 
 
@@ -34,7 +27,7 @@ bool System::Security::Cryptography::RSASignaturePadding::Equals(SharedPtr<RSASi
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSASignaturePadding](../)
+* Class [Object](../../../system/object/)
 * Class [RSASignaturePadding](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

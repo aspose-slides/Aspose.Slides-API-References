@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system/decimal/operator_greater_equal/
 ---
-## Decimal::operator>=(const [Decimal](../)\&) const method
+## Decimal::operator>=(const Decimal\&) const method
 
 
 Determines if the value represented by the current object is greater than or equal to the value represented by the specified object.
@@ -28,7 +28,6 @@ True if the value represented by the current object is greater than or equal to 
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

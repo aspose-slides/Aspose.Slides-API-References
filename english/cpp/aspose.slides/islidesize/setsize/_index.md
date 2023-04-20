@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/islidesize/setsize/
 ---
-## ISlideSize::SetSize([SlideSizeType](../../slidesizetype/), [SlideSizeScaleType](../../slidesizescaletype/)) method
+## ISlideSize::SetSize(SlideSizeType, SlideSizeScaleType) method
 
 
 Sets the type of slide size and scales content using scale type. Assigning any value except [SlideSizeType::Custom](../../slidesizetype/) will change [ISlideSize::get_Size](../get_size/) accordingly, but will keep [ISlideSize::get_Orientation](../get_orientation/) intact.
@@ -23,14 +23,7 @@ virtual void Aspose::Slides::ISlideSize::SetSize(SlideSizeType type, SlideSizeSc
 | type | [SlideSizeType](../../slidesizetype/) | [Slide](../../slide/) size type. |
 | scaleType | [SlideSizeScaleType](../../slidesizescaletype/) | Scale type of slide content. |
 
-## See Also
-
-* Enum [SlideSizeType](../../slidesizetype/)
-* Enum [SlideSizeScaleType](../../slidesizescaletype/)
-* Class [ISlideSize](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlideSize::SetSize(**float**, **float**, [SlideSizeScaleType](../../slidesizescaletype/)) method
+## ISlideSize::SetSize(float, float, SlideSizeScaleType) method
 
 
 Sets the size in points and scales content using scale type. Assigning any value will reset [ISlideSize::get_Type](../get_type/) value to [SlideSizeType::Custom](../../slidesizetype/) and set [ISlideSize::get_Orientation](../get_orientation/).
@@ -50,6 +43,7 @@ virtual void Aspose::Slides::ISlideSize::SetSize(float width, float height, Slid
 
 ## See Also
 
+* Enum [SlideSizeType](../../slidesizetype/)
 * Enum [SlideSizeScaleType](../../slidesizescaletype/)
 * Class [ISlideSize](../)
 * Namespace [Aspose::Slides](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.security.cryptography.xml/keyinfox509data/addsubjectkeyid/
 ---
-## KeyInfoX509Data::AddSubjectKeyId([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## KeyInfoX509Data::AddSubjectKeyId(ArrayPtr\<uint8_t\>) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.xml/xmldocument/createsignificantwhitespace/
 ---
-## XmlDocument::CreateSignificantWhitespace(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateSignificantWhitespace(const String\&) method
 
 
 Creates an [XmlSignificantWhitespace](../../xmlsignificantwhitespace/) node.

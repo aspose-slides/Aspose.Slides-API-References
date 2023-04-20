@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/motioneffect/set_by/
 ---
-## MotionEffect::set_By([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## MotionEffect::set_By(System::Drawing::PointF) method
 
 
 Describes the relative offset value for the animation (in percents). Write [System::Drawing::PointF](../../../system.drawing/pointf/).

@@ -23,8 +23,8 @@ Collection of [TimeZoneInfo](../) objects.
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [ReadOnlyCollection](../../../system.collections.objectmodel/readonlycollection/)
 * Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
+* Class [ReadOnlyCollection](../../../system.collections.objectmodel/readonlycollection/)
 * Class [TimeZoneInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

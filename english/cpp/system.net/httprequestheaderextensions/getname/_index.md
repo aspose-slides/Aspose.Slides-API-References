@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net/httprequestheaderextensions/getname/
 ---
-## HttpRequestHeaderExtensions::GetName([HttpRequestHeader](../../httprequestheader/)) method
+## HttpRequestHeaderExtensions::GetName(HttpRequestHeader) method
 
 
 Returns the string representation of the specified header.
@@ -28,8 +28,8 @@ The string representation of the specified header.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [HttpRequestHeader](../../httprequestheader/)
+* Class [String](../../../system/string/)
 * Class [HttpRequestHeaderExtensions](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

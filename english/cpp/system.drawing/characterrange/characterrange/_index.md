@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing/characterrange/characterrange/
 ---
-## CharacterRange::CharacterRange(**int32_t**, **int32_t**) constructor
+## CharacterRange::CharacterRange(int32_t, int32_t) constructor
 
 
 Constructs a new instance of [CharacterRange](../) class that represents the specified range.
@@ -23,11 +23,6 @@ System::Drawing::CharacterRange::CharacterRange(int32_t first, int32_t length)
 | first | **int32_t** | The position in a string of the first characeter of the range represented by the current object |
 | length | **int32_t** | The number of characters in the range |
 
-## See Also
-
-* Class [CharacterRange](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## CharacterRange::CharacterRange() constructor
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.slides/textframeformat/set_keeptextflat/
 ---
-## TextFrameFormat::set_KeepTextFlat(**bool**) method
+## TextFrameFormat::set_KeepTextFlat(bool) method
 
 
 Sets keeping text flat even if a 3-D Rotation effect was applied. Write **bool**.

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/itabfactory/
 Allow to create [ITab](../itab/) instances
 
 ```cpp
-class ITabFactory : public System::Object
+class ITabFactory : public virtual System::Object
 ```
 
 ## Methods

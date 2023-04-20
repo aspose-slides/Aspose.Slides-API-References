@@ -26,13 +26,6 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 An [IEnumerable](../) that contains elements from the sequence of the ResultType.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## IEnumerable::LINQ_OfType() method
 
 
@@ -45,7 +38,6 @@ template<typename Result> SharedPtr<IEnumerable<Result>> System::Collections::Ge
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
 * Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

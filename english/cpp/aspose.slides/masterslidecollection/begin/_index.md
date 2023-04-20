@@ -20,12 +20,6 @@ iterator Aspose::Slides::MasterSlideCollection::begin() noexcept
 
 An iterator pointing to the first element (if any) of the collection
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [MasterSlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
 ## MasterSlideCollection::begin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the first element (if any) of the const-qualified instan
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [MasterSlideCollection](../)
 * Namespace [Aspose::Slides](../../)

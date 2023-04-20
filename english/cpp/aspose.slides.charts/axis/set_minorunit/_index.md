@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides.charts/axis/set_minorunit/
 ---
-## Axis::set_MinorUnit(**double**) method
+## Axis::set_MinorUnit(double) method
 
 
 Represents the minor units for the date or value axis. Write **double**.

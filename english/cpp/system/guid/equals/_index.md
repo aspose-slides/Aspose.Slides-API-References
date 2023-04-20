@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system/guid/equals/
 ---
-## Guid::Equals(const [Guid](../)\&) const method
+## Guid::Equals(const Guid\&) const method
 
 
 Determines if the GUIDs represented by the current and specified objects are equal.
@@ -28,7 +28,6 @@ True if the GUIDs represented by the current and the specified objects are equal
 
 ## See Also
 
-* Class [Guid](../)
 * Class [Guid](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/license/setlicense/
 ---
-## License::SetLicense([System::String](../../../system/string/)) method
+## License::SetLicense(System::String) method
 
 
 Licenses the component.
@@ -49,13 +49,7 @@ auto license = MakeObject<License>();
 license->SetLicense(u"MyLicense.lic");
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [License](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## License::SetLicense([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## License::SetLicense(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Licenses the component.
@@ -85,7 +79,8 @@ license->SetLicense(myStream);
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Class [License](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

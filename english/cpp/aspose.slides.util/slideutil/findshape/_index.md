@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.util/slideutil/findshape/
 ---
-## SlideUtil::FindShape([System::SharedPtr](../../../system/sharedptr/)\<[IPresentation](../../../aspose.slides/ipresentation/)\>, [System::String](../../../system/string/)) method
+## SlideUtil::FindShape(System::SharedPtr\<IPresentation\>, System::String) method
 
 
 Find shape by alternative text in a PPTX presentation.
@@ -27,16 +27,7 @@ static System::SharedPtr<IShape> Aspose::Slides::Util::SlideUtil::FindShape(Syst
 
 [Shape](../../../aspose.slides/shape/) or null.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShape](../../../aspose.slides/ishape/)
-* Class [IPresentation](../../../aspose.slides/ipresentation/)
-* Class [String](../../../system/string/)
-* Class [SlideUtil](../)
-* Namespace [Aspose::Slides::Util](../../)
-* Library [Aspose.Slides](../../../)
-## SlideUtil::FindShape([System::SharedPtr](../../../system/sharedptr/)\<[IBaseSlide](../../../aspose.slides/ibaseslide/)\>, [System::String](../../../system/string/)) method
+## SlideUtil::FindShape(System::SharedPtr\<IBaseSlide\>, System::String) method
 
 
 Find shape by alternative text on a slide in a PPTX presentation.
@@ -61,8 +52,9 @@ static System::SharedPtr<IShape> Aspose::Slides::Util::SlideUtil::FindShape(Syst
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IShape](../../../aspose.slides/ishape/)
-* Class [IBaseSlide](../../../aspose.slides/ibaseslide/)
+* Class [IPresentation](../../../aspose.slides/ipresentation/)
 * Class [String](../../../system/string/)
 * Class [SlideUtil](../)
+* Class [IBaseSlide](../../../aspose.slides/ibaseslide/)
 * Namespace [Aspose::Slides::Util](../../)
 * Library [Aspose.Slides](../../../)

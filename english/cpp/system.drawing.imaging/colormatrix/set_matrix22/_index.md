@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.drawing.imaging/colormatrix/set_matrix22/
 ---
-## ColorMatrix::set_Matrix22(**float**) method
+## ColorMatrix::set_Matrix22(float) method
 
 
 Sets a value in the 2-nd row and 2-nd column.

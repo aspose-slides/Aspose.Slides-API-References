@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system/math/log/
 ---
-## Math::Log(**double**) method
+## Math::Log(double) method
 
 
 Returns the natural logarithm of the specified value.
@@ -26,12 +26,7 @@ static double System::Math::Log(double d)
 
 The natural logarithm of **d**
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Log(**double**, **double**) method
+## Math::Log(double, double) method
 
 
 Returns the logarithm of the specified value in the specified base.

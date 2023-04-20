@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides.effects/ireflection/set_rotateshadowwithshape/
 ---
-## IReflection::set_RotateShadowWithShape(**bool**) method
+## IReflection::set_RotateShadowWithShape(bool) method
 
 
 Specifies whether the reflection should rotate with the shape if the shape is rotated. Write **bool**.

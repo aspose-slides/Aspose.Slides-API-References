@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/textelementenumerator/textelementenumerator/
 ---
-## TextElementEnumerator::TextElementEnumerator(const [TextElementEnumerator](../)\&) constructor
+## TextElementEnumerator::TextElementEnumerator(const TextElementEnumerator\&) constructor
 
 
 
@@ -17,7 +17,6 @@ System::Globalization::TextElementEnumerator::TextElementEnumerator(const TextEl
 
 ## See Also
 
-* Class [TextElementEnumerator](../)
 * Class [TextElementEnumerator](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

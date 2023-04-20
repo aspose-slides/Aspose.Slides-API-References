@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing/color/equals/
 ---
-## Color::Equals(const [Color](../)\&) const method
+## Color::Equals(const Color\&) const method
 
 
 Determines if the current and the specified [Color](../) objects represent the same color.
@@ -28,7 +28,6 @@ True if both the current and the specified objects represent the same color, oth
 
 ## See Also
 
-* Class [Color](../)
 * Class [Color](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

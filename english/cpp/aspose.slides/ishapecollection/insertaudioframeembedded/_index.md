@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides/ishapecollection/insertaudioframeembedded/
 ---
-## IShapeCollection::InsertAudioFrameEmbedded(**int32_t**, **float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## IShapeCollection::InsertAudioFrameEmbedded(int32_t, float, float, float, float, System::SharedPtr\<System::IO::Stream\>) method
 
 
 Insert an [AudioFrame](../../audioframe/) with embedded audio file. Embedded audio file sound can be a WAV only. It adds new audio into Presentation.Audios list.
@@ -31,15 +31,7 @@ virtual System::SharedPtr<IAudioFrame> Aspose::Slides::IShapeCollection::InsertA
 
 Created [AudioFrame](../../audioframe/) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAudioFrame](../../iaudioframe/)
-* Class [Stream](../../../system.io/stream/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::InsertAudioFrameEmbedded(**int32_t**, **float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../iaudio/)\>) method
+## IShapeCollection::InsertAudioFrameEmbedded(int32_t, float, float, float, float, System::SharedPtr\<IAudio\>) method
 
 
 Insert an [AudioFrame](../../audioframe/) with embedded audio file. It uses audio file from Presentation.Audios list.
@@ -68,7 +60,8 @@ Created [AudioFrame](../../audioframe/) object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IAudioFrame](../../iaudioframe/)
-* Class [IAudio](../../iaudio/)
+* Class [Stream](../../../system.io/stream/)
 * Class [IShapeCollection](../)
+* Class [IAudio](../../iaudio/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

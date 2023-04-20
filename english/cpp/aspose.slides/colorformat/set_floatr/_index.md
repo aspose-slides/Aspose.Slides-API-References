@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/colorformat/set_floatr/
 ---
-## ColorFormat::set_FloatR(**float**) method
+## ColorFormat::set_FloatR(float) method
 
 
 Sets the red component of a color. All color transformations are ignored. Write **float**.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemaany/set_processcontents/
 ---
-## XmlSchemaAny::set_ProcessContents([XmlSchemaContentProcessing](../../xmlschemacontentprocessing/)) method
+## XmlSchemaAny::set_ProcessContents(XmlSchemaContentProcessing) method
 
 
 Sets information about how an application or XML processor should handle the validation of XML documents for the elements specified by the **any** element.

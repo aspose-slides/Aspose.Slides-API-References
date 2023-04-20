@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.drawing/characterrange/operator_equal_equal/
 ---
-## CharacterRange::operator==(const [CharacterRange](../)\&) const method
+## CharacterRange::operator==(const CharacterRange\&) const method
 
 
 Determines if the current and specified objects represent the same range.
@@ -28,7 +28,6 @@ True if both **cr** and the current objects represent the same range, otherwise 
 
 ## See Also
 
-* Class [CharacterRange](../)
 * Class [CharacterRange](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

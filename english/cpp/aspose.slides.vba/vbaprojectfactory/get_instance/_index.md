@@ -19,6 +19,5 @@ static System::SharedPtr<VbaProjectFactory> Aspose::Slides::Vba::VbaProjectFacto
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [VbaProjectFactory](../)
-* Class [VbaProjectFactory](../)
 * Namespace [Aspose::Slides::Vba](../../)
 * Library [Aspose.Slides](../../../)

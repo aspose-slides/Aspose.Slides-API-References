@@ -20,11 +20,6 @@ virtual bool System::Threading::Mutex::WaitOne() override
 
 Always returns true as it does not return until mutex is locked.
 
-## See Also
-
-* Class [Mutex](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
 ## Mutex::WaitOne(int) method
 
 
@@ -45,12 +40,7 @@ virtual bool System::Threading::Mutex::WaitOne(int millisecondsTimeout) override
 
 Returns true if mutex was locked or false if timeout exceeded.
 
-## See Also
-
-* Class [Mutex](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Mutex::WaitOne([TimeSpan](../../../system/timespan/)) method
+## Mutex::WaitOne(TimeSpan) method
 
 
 Locks mutex. Performs waiting if neccessary.
@@ -72,7 +62,7 @@ Returns true if mutex was locked or false if timeout exceeded.
 
 ## See Also
 
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Mutex](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/izoomobject/set_imagetype/
 ---
-## IZoomObject::set_ImageType([ZoomImageType](../../zoomimagetype/)) method
+## IZoomObject::set_ImageType(ZoomImageType) method
 
 
 Sets the image type of a zoom object. Write [ZoomImageType](../../zoomimagetype/). Default value: Preview

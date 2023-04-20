@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/datetimeformatinfo/getformat/
 ---
-## DateTimeFormatInfo::GetFormat(const [TypeInfo](../../../system/typeinfo/)\&) method
+## DateTimeFormatInfo::GetFormat(const TypeInfo\&) method
 
 
 Gets formatter of specific type.

@@ -26,12 +26,6 @@ static String System::String::FromAscii(const char *asciiStr)
 
 [String](../) object representing passed string.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::FromAscii(const char *, int) method
 
 
@@ -53,12 +47,6 @@ static String System::String::FromAscii(const char *asciiStr, int len)
 
 [String](../) object representing passed string.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::FromAscii(const std::string\&) method
 
 
@@ -81,7 +69,6 @@ static String System::String::FromAscii(const std::string &asciiStr)
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

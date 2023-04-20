@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/filtereffect/set_type/
 ---
-## FilterEffect::set_Type([FilterEffectType](../../filtereffecttype/)) method
+## FilterEffect::set_Type(FilterEffectType) method
 
 
 Represents type of filter effect. Write [FilterEffectType](../../filtereffecttype/).

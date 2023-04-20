@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.drawing/vector2d32f/scale/
 ---
-## Vector2d32f::Scale(**float**, **float**) method
+## Vector2d32f::Scale(float, float) method
 
 
 Scale vector
@@ -20,13 +20,7 @@ Vector2d32f Aspose::Slides::Drawing::Vector2d32f::Scale(float scaleX, float scal
 
 
 
-## See Also
-
-* Class [Vector2d32f](../)
-* Class [Vector2d32f](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Vector2d32f::Scale([Vector2d32f](../)) method
+## Vector2d32f::Scale(Vector2d32f) method
 
 
 Scale vector
@@ -42,7 +36,6 @@ Vector2d32f Aspose::Slides::Drawing::Vector2d32f::Scale(Vector2d32f scale)
 
 ## See Also
 
-* Class [Vector2d32f](../)
 * Class [Vector2d32f](../)
 * Namespace [Aspose::Slides::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.collections.generic/list/findall/
 ---
-## List::FindAll([System::Predicate](../../../system/predicate/)\<T\>) method
+## List::FindAll(System::Predicate\<T\>) method
 
 
 Looks for elements adhering to specific predicate.
@@ -28,8 +28,8 @@ ListPtr<T> System::Collections::Generic::List<T>::FindAll(System::Predicate<T> m
 
 ## See Also
 
-* Class [ListPtr](../../listptr/)
 * Typedef [Predicate](../../../system/predicate/)
+* Class [ListPtr](../../listptr/)
 * Class [List](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

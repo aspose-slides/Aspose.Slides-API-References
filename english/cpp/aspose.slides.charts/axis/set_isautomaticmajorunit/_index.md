@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides.charts/axis/set_isautomaticmajorunit/
 ---
-## Axis::set_IsAutomaticMajorUnit(**bool**) method
+## Axis::set_IsAutomaticMajorUnit(bool) method
 
 
 Indicates whether the major unit of the axis is automatically assigned. Write **bool**.

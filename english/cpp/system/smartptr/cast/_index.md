@@ -27,12 +27,6 @@ template<class Y,typename Check> std::enable_if_t<std::is_same<Y, T>::value, Sma
 
 Pointer of changed type which is always in shared mode.
 
-## See Also
-
-* Class [SmartPtr](../)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## SmartPtr::Cast() const method
 
 
@@ -54,12 +48,6 @@ template<class Y,typename Check> std::enable_if_t<!std::is_same<Y, T>::value &&s
 
 Pointer of changed type which is always in shared mode.
 
-## See Also
-
-* Class [SmartPtr](../)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## SmartPtr::Cast() const method
 
 
@@ -81,12 +69,6 @@ template<class Y,typename Check> std::enable_if_t<Check::value &&!std::is_same<Y
 
 Pointer of changed type which is always in shared mode. Throws InvalidCastException if no conversion available.
 
-## See Also
-
-* Class [SmartPtr](../)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## SmartPtr::Cast() const method
 
 
@@ -110,7 +92,6 @@ Pointer of changed type which is always in shared mode. Returns nullptr if no co
 
 ## See Also
 
-* Class [SmartPtr](../)
 * Class [SmartPtr](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

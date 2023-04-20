@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.charts/chartdatapointcollection/adddatapointforareaseries/
 ---
-## ChartDataPointCollection::AddDataPointForAreaSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForAreaSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [ChartTypeCharacterizer::IsChartTypeArea(ChartType)](../../charttypecharacterizer/ischarttypearea/) method).
@@ -26,15 +26,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForAreaSeries(**double**) method
+## ChartDataPointCollection::AddDataPointForAreaSeries(double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also [ChartTypeCharacterizer::IsChartTypeArea(ChartType)](../../charttypecharacterizer/ischarttypearea/) method).
@@ -58,6 +50,7 @@ New data point.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartDataPoint](../../ichartdatapoint/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [ChartDataPointCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

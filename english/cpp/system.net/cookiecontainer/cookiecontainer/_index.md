@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::CookieContainer::CookieContainer()
 ```
 
-## See Also
-
-* Class [CookieContainer](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CookieContainer::CookieContainer(**int32_t**) constructor
+## CookieContainer::CookieContainer(int32_t) constructor
 
 
 Constructs a new instance.
@@ -36,12 +31,7 @@ System::Net::CookieContainer::CookieContainer(int32_t capacity)
 | --- | --- | --- |
 | capacity | **int32_t** | The collection capacity. |
 
-## See Also
-
-* Class [CookieContainer](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CookieContainer::CookieContainer(**int32_t**, **int32_t**, **int32_t**) constructor
+## CookieContainer::CookieContainer(int32_t, int32_t, int32_t) constructor
 
 
 Constructs a new instance.

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system/smartptr/set_mode/
 ---
-## SmartPtr::set_Mode([SmartPtrMode](../../smartptrmode/)) method
+## SmartPtr::set_Mode(SmartPtrMode) method
 
 
 Sets pointer mode. May alter referenced object's reference counts.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography.xml/keyinfo/addclause/
 ---
-## KeyInfo::AddClause([SharedPtr](../../../system/sharedptr/)\<[KeyInfoClause](../../keyinfoclause/)\>) method
+## KeyInfo::AddClause(SharedPtr\<KeyInfoClause\>) method
 
 
 

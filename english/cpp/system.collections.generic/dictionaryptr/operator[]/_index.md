@@ -32,11 +32,6 @@ template<class X> V & System::Collections::Generic::DictionaryPtr<T, V>::operato
 
 Reference to value corresponding to the key passed, existing or newly created.
 
-## See Also
-
-* Class [DictionaryPtr](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## DictionaryPtr::operator[](const T\&) const method
 
 

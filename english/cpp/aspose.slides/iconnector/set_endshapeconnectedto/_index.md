@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/iconnector/set_endshapeconnectedto/
 ---
-## IConnector::set_EndShapeConnectedTo([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## IConnector::set_EndShapeConnectedTo(System::SharedPtr\<IShape\>) method
 
 
 Sets the shape to attach the end of the connector to. Write [IShape](../../ishape/).

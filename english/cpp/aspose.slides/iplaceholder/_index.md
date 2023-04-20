@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iplaceholder/
 Represents a placeholder on a slide.
 
 ```cpp
-class IPlaceholder : public System::Object
+class IPlaceholder : public virtual System::Object
 ```
 
 ## Methods

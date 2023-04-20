@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.data/datatablecollection/idx_get/
 ---
-## DataTableCollection::idx_get(const [System::String](../../../system/string/)\&) method
+## DataTableCollection::idx_get(const System::String\&) method
 
 
 RTTI information.

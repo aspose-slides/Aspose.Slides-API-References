@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.web.services.protocols/webclientprotocol/set_preauthenticate/
 ---
-## WebClientProtocol::set_PreAuthenticate(**bool**) method
+## WebClientProtocol::set_PreAuthenticate(bool) method
 
 
 Sets a value that indicates if pre-authentication is enabled.

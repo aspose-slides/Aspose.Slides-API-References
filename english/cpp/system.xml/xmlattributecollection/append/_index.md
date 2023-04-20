@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlattributecollection/append/
 ---
-## XmlAttributeCollection::Append(const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>\&) method
+## XmlAttributeCollection::Append(const SharedPtr\<XmlAttribute\>\&) method
 
 
 Inserts the specified attribute as the last node in the collection.

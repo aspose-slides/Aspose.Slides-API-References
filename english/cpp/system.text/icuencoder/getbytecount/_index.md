@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.text/icuencoder/getbytecount/
 ---
-## ICUEncoder::GetByteCount([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int, **bool**) method
+## ICUEncoder::GetByteCount(ArrayPtr\<char_t\>, int, int, bool) method
 
 
 Gets the number of bytes needed to encode a buffer.
@@ -29,13 +29,7 @@ virtual int System::Text::ICUEncoder::GetByteCount(ArrayPtr<char_t> chars, int i
 
 Number of bytes required to encode the buffer.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ICUEncoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoder::GetByteCount(const char_t *, int, **bool**) method
+## ICUEncoder::GetByteCount(const char_t *, int, bool) method
 
 
 Gets the number of bytes needed to encode a buffer.
@@ -59,6 +53,7 @@ Number of bytes required to encode the buffer.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ICUEncoder](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

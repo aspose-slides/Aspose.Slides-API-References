@@ -3,7 +3,7 @@ title: SystemOStreamWrapper
 second_title: Aspose.Slides for C++ API Reference
 description: Specializations of BasicSystemOStreamWrapper for char character types.
 type: docs
-weight: 807
+weight: 794
 url: /cpp/system.io/systemostreamwrapper/
 ---
 ## SystemOStreamWrapper typedef

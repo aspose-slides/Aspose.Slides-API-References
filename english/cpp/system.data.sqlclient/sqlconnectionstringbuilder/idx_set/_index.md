@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.data.sqlclient/sqlconnectionstringbuilder/idx_set/
 ---
-## SqlConnectionStringBuilder::idx_set([String](../../../system/string/), [Object::ptr](../../../system/object/ptr/)) method
+## SqlConnectionStringBuilder::idx_set(String, Object::ptr) method
 
 
 Sets keyed object.

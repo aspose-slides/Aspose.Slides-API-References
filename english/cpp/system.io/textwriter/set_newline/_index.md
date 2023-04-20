@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.io/textwriter/set_newline/
 ---
-## TextWriter::set_NewLine(const [System::String](../../../system/string/)\&) method
+## TextWriter::set_NewLine(const System::String\&) method
 
 
 Sets a line terminator string.

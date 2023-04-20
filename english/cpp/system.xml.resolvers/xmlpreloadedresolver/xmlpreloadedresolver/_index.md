@@ -15,12 +15,7 @@ Initializes a new instance of the [XmlPreloadedResolver](../) class.
 System::Xml::Resolvers::XmlPreloadedResolver::XmlPreloadedResolver()
 ```
 
-## See Also
-
-* Class [XmlPreloadedResolver](../)
-* Namespace [System::Xml::Resolvers](../../)
-* Library [Aspose.Slides](../../../)
-## XmlPreloadedResolver::XmlPreloadedResolver([XmlKnownDtds](../../xmlknowndtds/)) constructor
+## XmlPreloadedResolver::XmlPreloadedResolver(XmlKnownDtds) constructor
 
 
 Initializes a new instance of the [XmlPreloadedResolver](../) class with the specified preloaded well-known DTDs.
@@ -36,13 +31,7 @@ System::Xml::Resolvers::XmlPreloadedResolver::XmlPreloadedResolver(XmlKnownDtds 
 | --- | --- | --- |
 | preloadedDtds | [XmlKnownDtds](../../xmlknowndtds/) | The well-known DTDs that should be prepopulated into the cache. |
 
-## See Also
-
-* Enum [XmlKnownDtds](../../xmlknowndtds/)
-* Class [XmlPreloadedResolver](../)
-* Namespace [System::Xml::Resolvers](../../)
-* Library [Aspose.Slides](../../../)
-## XmlPreloadedResolver::XmlPreloadedResolver(const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\&) constructor
+## XmlPreloadedResolver::XmlPreloadedResolver(const SharedPtr\<XmlResolver\>\&) constructor
 
 
 Initializes a new instance of the [XmlPreloadedResolver](../) class with the specified fallback resolver.
@@ -58,14 +47,7 @@ System::Xml::Resolvers::XmlPreloadedResolver::XmlPreloadedResolver(const SharedP
 | --- | --- | --- |
 | fallbackResolver | const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\& | The [XmlResolver](../../../system.xml/xmlresolver/) or your own resolver. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
-* Class [XmlPreloadedResolver](../)
-* Namespace [System::Xml::Resolvers](../../)
-* Library [Aspose.Slides](../../../)
-## XmlPreloadedResolver::XmlPreloadedResolver(const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\&, [XmlKnownDtds](../../xmlknowndtds/)) constructor
+## XmlPreloadedResolver::XmlPreloadedResolver(const SharedPtr\<XmlResolver\>\&, XmlKnownDtds) constructor
 
 
 Initializes a new instance of the [XmlPreloadedResolver](../) class with the specified fallback resolver and preloaded well-known DTDs.
@@ -82,15 +64,7 @@ System::Xml::Resolvers::XmlPreloadedResolver::XmlPreloadedResolver(const SharedP
 | fallbackResolver | const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\& | The [XmlResolver](../../../system.xml/xmlresolver/) or your own resolver. |
 | preloadedDtds | [XmlKnownDtds](../../xmlknowndtds/) | The well-known DTDs that should be prepopulated into the cache. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
-* Enum [XmlKnownDtds](../../xmlknowndtds/)
-* Class [XmlPreloadedResolver](../)
-* Namespace [System::Xml::Resolvers](../../)
-* Library [Aspose.Slides](../../../)
-## XmlPreloadedResolver::XmlPreloadedResolver(const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\&, [XmlKnownDtds](../../xmlknowndtds/), const [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEqualityComparer](../../../system.collections.generic/iequalitycomparer/)\<[SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\>\>\&) constructor
+## XmlPreloadedResolver::XmlPreloadedResolver(const SharedPtr\<XmlResolver\>\&, XmlKnownDtds, const SharedPtr\<Collections::Generic::IEqualityComparer\<SharedPtr\<Uri\>\>\>\&) constructor
 
 
 Initializes a new instance of the [XmlPreloadedResolver](../) class with the specified fallback resolver, preloaded well-known DTDs, and URI equality comparer.
@@ -110,11 +84,11 @@ System::Xml::Resolvers::XmlPreloadedResolver::XmlPreloadedResolver(const SharedP
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
 * Enum [XmlKnownDtds](../../xmlknowndtds/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlPreloadedResolver](../)
+* Class [XmlResolver](../../../system.xml/xmlresolver/)
 * Class [IEqualityComparer](../../../system.collections.generic/iequalitycomparer/)
 * Class [Uri](../../../system/uri/)
-* Class [XmlPreloadedResolver](../)
 * Namespace [System::Xml::Resolvers](../../)
 * Library [Aspose.Slides](../../../)

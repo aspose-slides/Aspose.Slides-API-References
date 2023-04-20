@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/ilayoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
-## ILayoutSlideHeaderFooterManager::SetDateTimeAndChildDateTimesVisibility(**bool**) method
+## ILayoutSlideHeaderFooterManager::SetDateTimeAndChildDateTimesVisibility(bool) method
 
 
 Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.

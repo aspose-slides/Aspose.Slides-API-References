@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.linq.details/cachedenumerable/cachedenumerable/
 ---
-## CachedEnumerable::CachedEnumerable([System::Func](../../../system/func/)\<**bool**\>) constructor
+## CachedEnumerable::CachedEnumerable(System::Func\<bool\>) constructor
 
 
 

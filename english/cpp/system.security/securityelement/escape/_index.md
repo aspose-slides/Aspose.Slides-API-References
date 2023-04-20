@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.security/securityelement/escape/
 ---
-## SecurityElement::Escape(const [String](../../../system/string/)\&) method
+## SecurityElement::Escape(const String\&) method
 
 
 Escapes characters in XML string.

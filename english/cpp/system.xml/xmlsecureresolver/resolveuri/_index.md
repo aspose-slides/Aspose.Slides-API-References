@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlsecureresolver/resolveuri/
 ---
-## XmlSecureResolver::ResolveUri([SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)) method
+## XmlSecureResolver::ResolveUri(SharedPtr\<Uri\>, String) method
 
 
 Resolves the absolute URI from the base and relative URIs by calling **ResolveUri** on the underlying [XmlResolver](../../xmlresolver/).

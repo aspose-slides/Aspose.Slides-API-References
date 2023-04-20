@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::Headers::TransferCodingHeaderValue::TransferCodingHeaderValue()
 ```
 
-## See Also
-
-* Class [TransferCodingHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## TransferCodingHeaderValue::TransferCodingHeaderValue([String](../../../system/string/)) constructor
+## TransferCodingHeaderValue::TransferCodingHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -38,7 +33,7 @@ System::Net::Http::Headers::TransferCodingHeaderValue::TransferCodingHeaderValue
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [TransferCodingHeaderValue](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

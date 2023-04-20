@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.security.cryptography.xml/reference/set_digestvalue/
 ---
-## Reference::set_DigestValue([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Reference::set_DigestValue(ArrayPtr\<uint8_t\>) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography.x509certificates/x509extension/copyfrom/
 ---
-## X509Extension::CopyFrom(const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\&) method
+## X509Extension::CopyFrom(const SharedPtr\<AsnEncodedData\>\&) method
 
 
 Copies extension data from other object.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net.http/bytearraycontent/bytearraycontent/
 ---
-## ByteArrayContent::ByteArrayContent([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) constructor
+## ByteArrayContent::ByteArrayContent(System::ArrayPtr\<uint8_t\>) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::ByteArrayContent::ByteArrayContent(System::ArrayPtr<uint8_t> 
 | --- | --- | --- |
 | content | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Content that is used to initialize a new instance. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ByteArrayContent](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## ByteArrayContent::ByteArrayContent([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) constructor
+## ByteArrayContent::ByteArrayContent(System::ArrayPtr\<uint8_t\>, int32_t, int32_t) constructor
 
 
 Constructs a new instance.

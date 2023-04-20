@@ -20,14 +20,7 @@ static SharedPtr<RIPEMD160> System::Security::Cryptography::RIPEMD160::Create()
 
 Newly created hasher instance.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RIPEMD160](../)
-* Class [RIPEMD160](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RIPEMD160::Create(const [String](../../../system/string/)\&) method
+## RIPEMD160::Create(const String\&) method
 
 
 Creates hash algorithm instance.
@@ -52,6 +45,5 @@ Newly created hasher instance.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RIPEMD160](../)
 * Class [String](../../../system/string/)
-* Class [RIPEMD160](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

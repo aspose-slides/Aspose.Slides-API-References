@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/system/string/remove/
 ---
-## String::Remove(**int32_t**, **int32_t**) const method
+## String::Remove(int32_t, int32_t) const method
 
 
 Extracts everything but substring from current string.
@@ -29,7 +29,6 @@ String System::String::Remove(int32_t startIndex, int32_t count=INT32_MAX) const
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

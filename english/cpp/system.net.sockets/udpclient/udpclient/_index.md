@@ -15,12 +15,7 @@ Initializes a new instance of the [UdpClient](../) class.
 System::Net::Sockets::UdpClient::UdpClient()
 ```
 
-## See Also
-
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::UdpClient([AddressFamily](../../addressfamily/)) constructor
+## UdpClient::UdpClient(AddressFamily) constructor
 
 
 Initializes a new instance of the [UdpClient](../) class.
@@ -36,13 +31,7 @@ System::Net::Sockets::UdpClient::UdpClient(AddressFamily family)
 | --- | --- | --- |
 | family | [AddressFamily](../../addressfamily/) | value that specifies the addressing scheme of the socket. |
 
-## See Also
-
-* Enum [AddressFamily](../../addressfamily/)
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::UdpClient(**int32_t**) constructor
+## UdpClient::UdpClient(int32_t) constructor
 
 
 Initializes a new instance of the [UdpClient](../) class.
@@ -58,12 +47,7 @@ System::Net::Sockets::UdpClient::UdpClient(int32_t port)
 | --- | --- | --- |
 | port | **int32_t** | the local port number from which you intend to communicate. |
 
-## See Also
-
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::UdpClient(**int32_t**, [AddressFamily](../../addressfamily/)) constructor
+## UdpClient::UdpClient(int32_t, AddressFamily) constructor
 
 
 Initializes a new instance of the [UdpClient](../) class.
@@ -80,13 +64,7 @@ System::Net::Sockets::UdpClient::UdpClient(int32_t port, AddressFamily family)
 | port | **int32_t** | the local port number from which you intend to communicate. |
 | family | [AddressFamily](../../addressfamily/) | value that specifies the addressing scheme of the socket. |
 
-## See Also
-
-* Enum [AddressFamily](../../addressfamily/)
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::UdpClient([System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\>) constructor
+## UdpClient::UdpClient(System::SharedPtr\<IPEndPoint\>) constructor
 
 
 Initializes a new instance of the [UdpClient](../) class. param local EP the local endpoint to which you bind the UDP connection.
@@ -95,14 +73,7 @@ Initializes a new instance of the [UdpClient](../) class. param local EP the loc
 System::Net::Sockets::UdpClient::UdpClient(System::SharedPtr<IPEndPoint> localEP)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPEndPoint](../../../system.net/ipendpoint/)
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::UdpClient([String](../../../system/string/), **int32_t**) constructor
+## UdpClient::UdpClient(String, int32_t) constructor
 
 
 Creates a new instance of the [UdpClient](../) class and connects to the specified remote host on the specified port.
@@ -121,7 +92,10 @@ System::Net::Sockets::UdpClient::UdpClient(String hostname, int32_t port)
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Enum [AddressFamily](../../addressfamily/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [UdpClient](../)
+* Class [IPEndPoint](../../../system.net/ipendpoint/)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

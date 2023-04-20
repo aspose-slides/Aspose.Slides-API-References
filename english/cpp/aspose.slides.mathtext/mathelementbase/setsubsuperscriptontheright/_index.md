@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheright/
 ---
-## MathElementBase::SetSubSuperscriptOnTheRight([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathElementBase::SetSubSuperscriptOnTheRight(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates subscript and superscript on the right
@@ -38,15 +38,7 @@ auto superscript = System::MakeObject<MathematicalText>(u"j");
 auto subsuperscript = baseElement->SetSubSuperscriptOnTheRight(subscript, superscript);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::SetSubSuperscriptOnTheRight([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## MathElementBase::SetSubSuperscriptOnTheRight(System::String, System::String) method
 
 
 Creates subscript and superscript on the right
@@ -80,7 +72,8 @@ auto subsuperscript = baseElement->SetSubSuperscriptOnTheRight(u"i", u"j");
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathRightSubSuperscriptElement](../../imathrightsubsuperscriptelement/)
-* Class [String](../../../system/string/)
+* Class [IMathElement](../../imathelement/)
 * Class [MathElementBase](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

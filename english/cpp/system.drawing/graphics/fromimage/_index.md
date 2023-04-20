@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing/graphics/fromimage/
 ---
-## Graphics::FromImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&) method
+## Graphics::FromImage(const SharedPtr\<Image\>\&) method
 
 
 Creates a new [Graphics](../) object from the specified image.
@@ -31,6 +31,5 @@ The created [Graphics](../) object
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Graphics](../)
 * Class [Image](../../image/)
-* Class [Graphics](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

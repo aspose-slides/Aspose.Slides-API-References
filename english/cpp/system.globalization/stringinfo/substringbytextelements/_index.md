@@ -26,12 +26,6 @@ String System::Globalization::StringInfo::SubstringByTextElements(int starting_t
 
 Substring of text elements.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## StringInfo::SubstringByTextElements(int, int) const method
 
 

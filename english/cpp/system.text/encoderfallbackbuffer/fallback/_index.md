@@ -27,11 +27,6 @@ virtual bool System::Text::EncoderFallbackBuffer::Fallback(char_t charUnknown, i
 
 True if buffer processes unknown characters, false if it ignores them.
 
-## See Also
-
-* Class [EncoderFallbackBuffer](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## EncoderFallbackBuffer::Fallback(char_t, char_t, int) method
 
 

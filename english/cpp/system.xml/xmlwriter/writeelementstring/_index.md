@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.xml/xmlwriter/writeelementstring/
 ---
-## XmlWriter::WriteElementString(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlWriter::WriteElementString(const String\&, const String\&) method
 
 
 Writes an element with the specified local name and value.
@@ -23,13 +23,7 @@ void System::Xml::XmlWriter::WriteElementString(const String &localName, const S
 | localName | const [String](../../../system/string/)\& | The local name of the element. |
 | value | const [String](../../../system/string/)\& | The value of the element. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteElementString(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlWriter::WriteElementString(const String\&, const String\&, const String\&) method
 
 
 Writes an element with the specified local name, namespace URI, and value.
@@ -47,13 +41,7 @@ void System::Xml::XmlWriter::WriteElementString(const String &localName, const S
 | ns | const [String](../../../system/string/)\& | The namespace URI to associate with the element. |
 | value | const [String](../../../system/string/)\& | The value of the element. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteElementString(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlWriter::WriteElementString(const String\&, const String\&, const String\&, const String\&) method
 
 
 Writes an element with the specified prefix, local name, namespace URI, and value.

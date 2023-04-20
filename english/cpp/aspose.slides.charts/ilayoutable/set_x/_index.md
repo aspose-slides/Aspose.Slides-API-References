@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/ilayoutable/set_x/
 ---
-## ILayoutable::set_X(**float**) method
+## ILayoutable::set_X(float) method
 
 
 Specifies the x location (left) of the chart element as a fraction of the width of the chart. Write **float**.

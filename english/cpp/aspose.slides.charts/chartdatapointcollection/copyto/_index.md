@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.charts/chartdatapointcollection/copyto/
 ---
-## ChartDataPointCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>\>, **int32_t**) method
+## ChartDataPointCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IChartDataPoint\>\>, int32_t) method
 
 
 Copy to specified array.

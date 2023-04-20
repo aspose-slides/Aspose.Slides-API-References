@@ -15,11 +15,6 @@ Returns a raw pointer to the beginning of the memory buffer where the array elem
 vector_t::pointer System::Array<T>::data_ptr()
 ```
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::data_ptr() const method
 
 

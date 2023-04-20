@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/aspose.slides/documentproperties/getcustompropertyvalue/
 ---
-## DocumentProperties::GetCustomPropertyValue([System::String](../../../system/string/), **bool**\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, bool\&) method
 
 
 Gets a named boolean value from the custom properties.
@@ -23,13 +23,7 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
 | value | **bool**\& | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [DocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## DocumentProperties::GetCustomPropertyValue([System::String](../../../system/string/), **int32_t**\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, int32_t\&) method
 
 
 Gets a named integer value from the custom properties.
@@ -46,13 +40,7 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
 | value | **int32_t**\& | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [DocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## DocumentProperties::GetCustomPropertyValue([System::String](../../../system/string/), [System::DateTime](../../../system/datetime/)\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, System::DateTime\&) method
 
 
 Gets a named DateTime value from the custom properties.
@@ -69,14 +57,7 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
 | value | [System::DateTime](../../../system/datetime/)\& | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [DateTime](../../../system/datetime/)
-* Class [DocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## DocumentProperties::GetCustomPropertyValue([System::String](../../../system/string/), [System::String](../../../system/string/)\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, System::String\&) method
 
 
 Gets a named string value from the custom properties.
@@ -93,13 +74,7 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
 | value | [System::String](../../../system/string/)\& | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [DocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## DocumentProperties::GetCustomPropertyValue([System::String](../../../system/string/), **float**\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, float\&) method
 
 
 Gets a named float value from the custom properties.
@@ -116,13 +91,7 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 | name | [System::String](../../../system/string/) | Name of the custom property to get |
 | value | **float**\& | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [DocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## DocumentProperties::GetCustomPropertyValue([System::String](../../../system/string/), **double**\&) method
+## DocumentProperties::GetCustomPropertyValue(System::String, double\&) method
 
 
 Gets a named double value from the custom properties.
@@ -143,5 +112,6 @@ void Aspose::Slides::DocumentProperties::GetCustomPropertyValue(System::String n
 
 * Class [String](../../../system/string/)
 * Class [DocumentProperties](../)
+* Class [DateTime](../../../system/datetime/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

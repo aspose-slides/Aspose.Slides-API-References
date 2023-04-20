@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/urishim/ishexencoding/
 ---
-## UriShim::IsHexEncoding(const [String](../../string/)\&, **int32_t**) method
+## UriShim::IsHexEncoding(const String\&, int32_t) method
 
 
 Checks if given pattern is an escaped hex form.

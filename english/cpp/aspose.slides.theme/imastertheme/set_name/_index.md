@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.theme/imastertheme/set_name/
 ---
-## IMasterTheme::set_Name([System::String](../../../system/string/)) method
+## IMasterTheme::set_Name(System::String) method
 
 
 Returns the name of a theme. Write [System::String](../../../system/string/).

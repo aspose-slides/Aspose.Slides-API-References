@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.io/file/getattributes/
 ---
-## File::GetAttributes(const [String](../../../system/string/)\&) method
+## File::GetAttributes(const String\&) method
 
 
 Returns the attributes of the specified entity.

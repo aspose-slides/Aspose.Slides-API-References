@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/imathnaryoperatorfactory/createmathnaryoperator/
 ---
-## IMathNaryOperatorFactory::CreateMathNaryOperator(char16_t, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathNaryOperatorFactory::CreateMathNaryOperator(char16_t, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates [IMathNaryOperator](../../imathnaryoperator/)
@@ -29,15 +29,7 @@ virtual System::SharedPtr<IMathNaryOperator> Aspose::Slides::MathText::IMathNary
 
 new [IMathNaryOperator](../../imathnaryoperator/)
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathNaryOperator](../../imathnaryoperator/)
-* Class [IMathElement](../../imathelement/)
-* Class [IMathNaryOperatorFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathNaryOperatorFactory::CreateMathNaryOperator(char16_t, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathNaryOperatorFactory::CreateMathNaryOperator(char16_t, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates [IMathNaryOperator](../../imathnaryoperator/)
@@ -59,15 +51,7 @@ virtual System::SharedPtr<IMathNaryOperator> Aspose::Slides::MathText::IMathNary
 
 new [IMathNaryOperator](../../imathnaryoperator/)
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathNaryOperator](../../imathnaryoperator/)
-* Class [IMathElement](../../imathelement/)
-* Class [IMathNaryOperatorFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathNaryOperatorFactory::CreateMathNaryOperator(char16_t, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathNaryOperatorFactory::CreateMathNaryOperator(char16_t, System::SharedPtr\<IMathElement\>) method
 
 
 Creates [IMathNaryOperator](../../imathnaryoperator/)

@@ -20,14 +20,7 @@ virtual SharedPtr<Object> System::Xml::XmlReader::ReadElementContentAsObject()
 
 A boxed object of the most appropriate type. The [XmlReader::get_ValueType](../get_valuetype/) value determines the appropriate type. If the content is typed as a list type, this method returns an array of boxed objects of the appropriate type.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsObject([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsObject(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as an [Object](../../../system/object/).
@@ -52,7 +45,7 @@ A boxed object of the most appropriate type. The [XmlReader::get_ValueType](../g
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

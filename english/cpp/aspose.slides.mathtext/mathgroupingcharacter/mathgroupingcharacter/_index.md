@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.mathtext/mathgroupingcharacter/mathgroupingcharacter/
 ---
-## MathGroupingCharacter::MathGroupingCharacter([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) constructor
+## MathGroupingCharacter::MathGroupingCharacter(System::SharedPtr\<IMathElement\>) constructor
 
 
 Initializes a new instance of the [MathGroupingCharacter](../) class with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
@@ -30,14 +30,7 @@ Example:
 auto groupingCharacter = System::MakeObject<MathGroupingCharacter>(System::MakeObject<MathematicalText>(u"abc"));
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathGroupingCharacter](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathGroupingCharacter::MathGroupingCharacter([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, char16_t, [MathTopBotPositions](../../mathtopbotpositions/), [MathTopBotPositions](../../mathtopbotpositions/)) constructor
+## MathGroupingCharacter::MathGroupingCharacter(System::SharedPtr\<IMathElement\>, char16_t, MathTopBotPositions, MathTopBotPositions) constructor
 
 
 Initializes a new instance of the [MathGroupingCharacter](../) class.
@@ -66,9 +59,9 @@ auto groupingCharacter = System::MakeObject<MathGroupingCharacter>(System::MakeO
 
 ## See Also
 
+* Enum [MathTopBotPositions](../../mathtopbotpositions/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathElement](../../imathelement/)
-* Enum [MathTopBotPositions](../../mathtopbotpositions/)
 * Class [MathGroupingCharacter](../)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/testcompare/abstractequal/
 ---
-## TestCompare::AbstractEqual([SCG::ICollection](../../../system.collections.generic/icollection/)\<T\> *const, [SCG::ICollection](../../../system.collections.generic/icollection/)\<T\> *const) method
+## TestCompare::AbstractEqual(SCG::ICollection\<T\> *const, SCG::ICollection\<T\> *const) method
 
 
 Compares two collections of unknown type.

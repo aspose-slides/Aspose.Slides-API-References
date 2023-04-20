@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net/servicepoint/set_maxidletime/
 ---
-## ServicePoint::set_MaxIdleTime(**int32_t**) method
+## ServicePoint::set_MaxIdleTime(int32_t) method
 
 
 Sets an amount of time in milliseconds after which an idle connection will be closed.

@@ -15,12 +15,7 @@ Constructor.
 System::ComponentModel::AsyncCompletedEventArgs::AsyncCompletedEventArgs()
 ```
 
-## See Also
-
-* Class [AsyncCompletedEventArgs](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## AsyncCompletedEventArgs::AsyncCompletedEventArgs(const [System::Exception](../../../system/exception/)\&, **bool**, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) constructor
+## AsyncCompletedEventArgs::AsyncCompletedEventArgs(const System::Exception\&, bool, const System::SharedPtr\<System::Object\>\&) constructor
 
 
 Initializes a new instance of the [System.ComponentModel.AsyncCompletedEventArgs](../) class.
@@ -42,7 +37,7 @@ System::ComponentModel::AsyncCompletedEventArgs::AsyncCompletedEventArgs(const S
 
 * Typedef [Exception](../../../system/exception/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [AsyncCompletedEventArgs](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::ComponentModel](../../)
 * Library [Aspose.Slides](../../../)

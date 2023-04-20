@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.security.cryptography/rsa/verifyhash/
 ---
-## RSA::VerifyHash([ByteArrayPtr](../../../system/bytearrayptr/), [ByteArrayPtr](../../../system/bytearrayptr/), const [HashAlgorithmName](../../hashalgorithmname/)\&, [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>) method
+## RSA::VerifyHash(ByteArrayPtr, ByteArrayPtr, const HashAlgorithmName\&, SharedPtr\<RSASignaturePadding\>) method
 
 
 Verifies that the signature of the specified hash is valid.
@@ -28,9 +28,9 @@ virtual bool System::Security::Cryptography::RSA::VerifyHash(ByteArrayPtr hash, 
 ## See Also
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RSASignaturePadding](../../rsasignaturepadding/)
 * Class [RSA](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

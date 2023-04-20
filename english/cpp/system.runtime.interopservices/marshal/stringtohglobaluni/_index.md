@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.runtime.interopservices/marshal/stringtohglobaluni/
 ---
-## Marshal::StringToHGlobalUni(const [String](../../../system/string/)\&) method
+## Marshal::StringToHGlobalUni(const String\&) method
 
 
 Copies the contents of a specified string into unmanaged memory.

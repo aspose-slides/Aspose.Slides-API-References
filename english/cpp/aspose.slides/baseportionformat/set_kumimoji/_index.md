@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/baseportionformat/set_kumimoji/
 ---
-## BasePortionFormat::set_Kumimoji([NullableBool](../../nullablebool/)) method
+## BasePortionFormat::set_Kumimoji(NullableBool) method
 
 
 Determines whether the numbers should ignore text eastern language-specific vertical text layout. No inheritance applied. Write [NullableBool](../../nullablebool/).

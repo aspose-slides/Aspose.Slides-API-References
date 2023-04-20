@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.io/filesysteminfo/set_lastaccesstimeutc/
 ---
-## FileSystemInfo::set_LastAccessTimeUtc([DateTime](../../../system/datetime/)) method
+## FileSystemInfo::set_LastAccessTimeUtc(DateTime) method
 
 
 Sets the last access time of the entity represented by the current object as UTC time.

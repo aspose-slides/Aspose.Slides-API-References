@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Web::Services::Protocols::SoapDocumentServiceAttribute::SoapDocumentServiceAttribute()
 ```
 
-## See Also
-
-* Class [SoapDocumentServiceAttribute](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## SoapDocumentServiceAttribute::SoapDocumentServiceAttribute([Description::SoapBindingUse](../../../system.web.services.description/soapbindinguse/)) constructor
+## SoapDocumentServiceAttribute::SoapDocumentServiceAttribute(Description::SoapBindingUse) constructor
 
 
 Constructs a new instance.
@@ -36,13 +31,7 @@ System::Web::Services::Protocols::SoapDocumentServiceAttribute::SoapDocumentServ
 | --- | --- | --- |
 | use | [Description::SoapBindingUse](../../../system.web.services.description/soapbindinguse/) | The parameter formatting. |
 
-## See Also
-
-* Enum [SoapBindingUse](../../../system.web.services.description/soapbindinguse/)
-* Class [SoapDocumentServiceAttribute](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## SoapDocumentServiceAttribute::SoapDocumentServiceAttribute([Description::SoapBindingUse](../../../system.web.services.description/soapbindinguse/), [SoapParameterStyle](../../soapparameterstyle/)) constructor
+## SoapDocumentServiceAttribute::SoapDocumentServiceAttribute(Description::SoapBindingUse, SoapParameterStyle) constructor
 
 
 Constructs a new instance.

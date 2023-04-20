@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.drawing/graphics/fillpie/
 ---
-## Graphics::FillPie(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, int, int, int, int, int, int) method
+## Graphics::FillPie(const SharedPtr\<Brush\>\&, int, int, int, int, int, int) method
 
 
 Fills the specified pie using the specified brush on the surface represented by the current object.
@@ -28,14 +28,7 @@ void System::Drawing::Graphics::FillPie(const SharedPtr<Brush> &brush, int x, in
 | startAngle | int | Angle in degrees measured clockwise from the X axis to the starting point of the pie |
 | sweepAngle | int | Angle in degrees measured clockwise from the **startAngle** to ending point of the pie |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillPie(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, **float**, **float**, **float**, **float**, **float**, **float**) method
+## Graphics::FillPie(const SharedPtr\<Brush\>\&, float, float, float, float, float, float) method
 
 
 Fills the specified pie using the specified brush on the surface represented by the current object.
@@ -57,14 +50,7 @@ void System::Drawing::Graphics::FillPie(const SharedPtr<Brush> &brush, float x, 
 | startAngle | **float** | Angle in degrees measured clockwise from the X axis to the starting point of the pie |
 | sweepAngle | **float** | Angle in degrees measured clockwise from the **startAngle** to ending point of the pie |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillPie(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, [Rectangle](../../rectangle/), **float**, **float**) method
+## Graphics::FillPie(const SharedPtr\<Brush\>\&, Rectangle, float, float) method
 
 
 Fills the specified pie using the specified brush on the surface represented by the current object.
@@ -87,7 +73,7 @@ void System::Drawing::Graphics::FillPie(const SharedPtr<Brush> &brush, Rectangle
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Brush](../../brush/)
-* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
+* Class [Rectangle](../../rectangle/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

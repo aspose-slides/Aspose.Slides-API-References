@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/ibulletformat/set_numberedbulletstyle/
 ---
-## IBulletFormat::set_NumberedBulletStyle([Aspose::Slides::NumberedBulletStyle](../../numberedbulletstyle/)) method
+## IBulletFormat::set_NumberedBulletStyle(Aspose::Slides::NumberedBulletStyle) method
 
 
 Sets the style of a numbered bullet with no inheritance. Write [NumberedBulletStyle](../../numberedbulletstyle/).

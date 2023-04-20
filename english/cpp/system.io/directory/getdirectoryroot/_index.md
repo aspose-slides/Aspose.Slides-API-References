@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.io/directory/getdirectoryroot/
 ---
-## Directory::GetDirectoryRoot(const [String](../../../system/string/)\&) method
+## Directory::GetDirectoryRoot(const String\&) method
 
 
 Returns the root directory of the specified path.

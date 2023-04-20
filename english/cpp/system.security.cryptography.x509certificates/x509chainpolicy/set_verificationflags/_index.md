@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography.x509certificates/x509chainpolicy/set_verificationflags/
 ---
-## X509ChainPolicy::set_VerificationFlags([X509VerificationFlags](../../x509verificationflags/)) method
+## X509ChainPolicy::set_VerificationFlags(X509VerificationFlags) method
 
 
 

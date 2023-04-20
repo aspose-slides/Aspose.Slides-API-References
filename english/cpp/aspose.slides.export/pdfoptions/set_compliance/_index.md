@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides.export/pdfoptions/set_compliance/
 ---
-## PdfOptions::set_Compliance([PdfCompliance](../../pdfcompliance/)) method
+## PdfOptions::set_Compliance(PdfCompliance) method
 
 
 Desired conformance level for generated PDF document. Write [PdfCompliance](../../pdfcompliance/).

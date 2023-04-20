@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/parseadd/
 ---
-## HttpHeaderValueCollection< System::String >::ParseAdd([String](../../../system/string/)) method
+## HttpHeaderValueCollection< System::String >::ParseAdd(String) method
 
 
 

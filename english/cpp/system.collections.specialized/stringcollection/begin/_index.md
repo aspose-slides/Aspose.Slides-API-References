@@ -20,12 +20,6 @@ iterator System::Collections::Specialized::StringCollection::begin() noexcept
 
 An iterator pointing to the first element of the container.
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [StringCollection](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
 ## StringCollection::begin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the first element of the const-qualified container.
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [StringCollection](../)
 * Namespace [System::Collections::Specialized](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/iconvertible/tochar/
 ---
-## IConvertible::ToChar([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToChar(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent Unicode character using the specified culture-specific formatting information.

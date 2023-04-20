@@ -20,13 +20,7 @@ String System::String::ToUpper() const
 
 Converted string.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::ToUpper(const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## String::ToUpper(const SharedPtr\<System::Globalization::CultureInfo\>\&) const method
 
 
 Converts all string's characters to upper case using specific culture.
@@ -48,9 +42,8 @@ Converted string.
 
 ## See Also
 
-* Class [String](../)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [String](../)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

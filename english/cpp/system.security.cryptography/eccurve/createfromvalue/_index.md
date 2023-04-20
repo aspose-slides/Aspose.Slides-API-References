@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.security.cryptography/eccurve/createfromvalue/
 ---
-## ECCurve::CreateFromValue(const [String](../../../system/string/)\&) method
+## ECCurve::CreateFromValue(const String\&) method
 
 
 Create a curve from the specified OID value.
@@ -17,7 +17,6 @@ static ECCurve System::Security::Cryptography::ECCurve::CreateFromValue(const St
 
 ## See Also
 
-* Struct [ECCurve](../)
 * Class [String](../../../system/string/)
 * Struct [ECCurve](../)
 * Namespace [System::Security::Cryptography](../../)

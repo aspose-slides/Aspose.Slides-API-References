@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.net.sockets/socket/set_sendbuffersize/
 ---
-## Socket::set_SendBufferSize(**int32_t**) method
+## Socket::set_SendBufferSize(int32_t) method
 
 
 Sets the send buffer size.

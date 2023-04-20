@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/textelementenumerator/operator_equal/
 ---
-## TextElementEnumerator::operator=(const [TextElementEnumerator](../)\&) method
+## TextElementEnumerator::operator=(const TextElementEnumerator\&) method
 
 
 
@@ -17,7 +17,6 @@ TextElementEnumerator & System::Globalization::TextElementEnumerator::operator=(
 
 ## See Also
 
-* Class [TextElementEnumerator](../)
 * Class [TextElementEnumerator](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/verifyhash/
 ---
-## RSACryptoServiceProvider::VerifyHash(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [String](../../../system/string/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## RSACryptoServiceProvider::VerifyHash(const ByteArrayPtr\&, const String\&, const ByteArrayPtr\&) method
 
 
 Checks data signature.
@@ -28,14 +28,7 @@ bool System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash(const 
 
 True if signature is valid, false otherwise.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [String](../../../system/string/)
-* Class [RSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSACryptoServiceProvider::VerifyHash([ByteArrayPtr](../../../system/bytearrayptr/), [ByteArrayPtr](../../../system/bytearrayptr/), const [HashAlgorithmName](../../hashalgorithmname/)\&, [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>) method
+## RSACryptoServiceProvider::VerifyHash(ByteArrayPtr, ByteArrayPtr, const HashAlgorithmName\&, SharedPtr\<RSASignaturePadding\>) method
 
 
 Verifies that the signature of the specified hash is valid.
@@ -57,9 +50,10 @@ bool System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash(ByteAr
 ## See Also
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSASignaturePadding](../../rsasignaturepadding/)
+* Class [String](../../../system/string/)
 * Class [RSACryptoServiceProvider](../)
+* Class [RSASignaturePadding](../../rsasignaturepadding/)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

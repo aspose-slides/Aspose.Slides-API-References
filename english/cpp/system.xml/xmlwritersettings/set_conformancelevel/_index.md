@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.xml/xmlwritersettings/set_conformancelevel/
 ---
-## XmlWriterSettings::set_ConformanceLevel([System::Xml::ConformanceLevel](../../conformancelevel/)) method
+## XmlWriterSettings::set_ConformanceLevel(System::Xml::ConformanceLevel) method
 
 
 Sets the level of conformance that the XML writer checks the XML output for.

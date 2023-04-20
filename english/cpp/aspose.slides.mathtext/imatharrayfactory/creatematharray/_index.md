@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/imatharrayfactory/creatematharray/
 ---
-## IMathArrayFactory::CreateMathArray([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathArrayFactory::CreateMathArray(System::SharedPtr\<IMathElement\>) method
 
 
 Creates a math array and places the specified element in it
@@ -26,15 +26,7 @@ virtual System::SharedPtr<IMathArray> Aspose::Slides::MathText::IMathArrayFactor
 
 new math array
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathArray](../../imatharray/)
-* Class [IMathElement](../../imathelement/)
-* Class [IMathArrayFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathArrayFactory::CreateMathArray([System::SharedPtr](../../../system/sharedptr/)\<[IMathElementCollection](../../imathelementcollection/)\>) method
+## IMathArrayFactory::CreateMathArray(System::SharedPtr\<IMathElementCollection\>) method
 
 
 Creates a math array and places specified elements in it
@@ -58,7 +50,8 @@ new math array
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathArray](../../imatharray/)
-* Class [IMathElementCollection](../../imathelementcollection/)
+* Class [IMathElement](../../imathelement/)
 * Class [IMathArrayFactory](../)
+* Class [IMathElementCollection](../../imathelementcollection/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

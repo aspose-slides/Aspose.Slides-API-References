@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/weakreference_tmpl_t__end_tmpl/trygettarget/
 ---
-## WeakReference< T >::TryGetTarget(const [SmartPtr](../../smartptr/)\<T\>\&) const method
+## WeakReference< T >::TryGetTarget(const SmartPtr\<T\>\&) const method
 
 
 Gets the object (the target) referenced by the current WeakReference object.

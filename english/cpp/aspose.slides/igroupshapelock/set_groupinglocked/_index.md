@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/igroupshapelock/set_groupinglocked/
 ---
-## IGroupShapeLock::set_GroupingLocked(**bool**) method
+## IGroupShapeLock::set_GroupingLocked(bool) method
 
 
 Determines whether adding this shape to a group is forbidden. Write **bool**.

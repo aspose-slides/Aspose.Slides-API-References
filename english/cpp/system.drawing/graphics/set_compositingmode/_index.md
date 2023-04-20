@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/graphics/set_compositingmode/
 ---
-## Graphics::set_CompositingMode([Drawing2D::CompositingMode](../../../system.drawing.drawing2d/compositingmode/)) method
+## Graphics::set_CompositingMode(Drawing2D::CompositingMode) method
 
 
 Sets a value that specifies how composited images are drawn on the surface represented by the current object.

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.xml/xmltextwriter/writeentityref/
 ---
-## XmlTextWriter::WriteEntityRef(const [String](../../../system/string/)\&) method
+## XmlTextWriter::WriteEntityRef(const String\&) method
 
 
 Writes out an entity reference as **&name**;.

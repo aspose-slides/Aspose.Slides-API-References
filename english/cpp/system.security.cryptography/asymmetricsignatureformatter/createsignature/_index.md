@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/asymmetricsignatureformatter/createsignature/
 ---
-## AsymmetricSignatureFormatter::CreateSignature([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## AsymmetricSignatureFormatter::CreateSignature(System::ArrayPtr\<uint8_t\>) method
 
 
 Creates the siguature for the specified data.
@@ -26,13 +26,7 @@ virtual System::ArrayPtr<uint8_t> System::Security::Cryptography::AsymmetricSign
 
 Calculated signature in byte array form.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [AsymmetricSignatureFormatter](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## AsymmetricSignatureFormatter::CreateSignature([System::SharedPtr](../../../system/sharedptr/)\<[HashAlgorithm](../../hashalgorithm/)\>) method
+## AsymmetricSignatureFormatter::CreateSignature(System::SharedPtr\<HashAlgorithm\>) method
 
 
 Creates the signature for the specified hash value.
@@ -56,7 +50,7 @@ Calculated signature in byte array form.
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HashAlgorithm](../../hashalgorithm/)
 * Class [AsymmetricSignatureFormatter](../)
+* Class [HashAlgorithm](../../hashalgorithm/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

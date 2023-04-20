@@ -3,10 +3,10 @@ title: CastToIList()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 222
+weight: 209
 url: /cpp/system/objectext/casttoilist/
 ---
-## ObjectExt::CastToIList(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::CastToIList(const SmartPtr\<Object\>\&) method
 
 
 

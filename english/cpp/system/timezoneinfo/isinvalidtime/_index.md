@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system/timezoneinfo/isinvalidtime/
 ---
-## TimeZoneInfo::IsInvalidTime([DateTime](../../datetime/)) const method
+## TimeZoneInfo::IsInvalidTime(DateTime) const method
 
 
 Checks if specified date and time is invalid.

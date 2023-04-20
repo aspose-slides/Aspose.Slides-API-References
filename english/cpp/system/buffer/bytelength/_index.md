@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/buffer/bytelength/
 ---
-## Buffer::ByteLength(const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>\&) method
+## Buffer::ByteLength(const SharedPtr\<Array\<T\>\>\&) method
 
 
 Determines the number of bytes occupied by all elements of the specified array.
@@ -32,13 +32,6 @@ template<class T> static int System::Buffer::ByteLength(const SharedPtr<Array<T>
 
 The number of bytes occupied by all elements of the specified array
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Array](../../array/)
-* Class [Buffer](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Buffer::ByteLength(const System::Details::ArrayView\<T\>\&) method
 
 
@@ -65,11 +58,6 @@ template<class T> static int System::Buffer::ByteLength(const System::Details::A
 
 The number of bytes occupied by all elements of the specified array view
 
-## See Also
-
-* Class [Buffer](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Buffer::ByteLength(const System::Details::StackArray\<T, N\>\&) method
 
 
@@ -99,6 +87,8 @@ The number of bytes occupied by all elements of the specified stack array
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [Array](../../array/)
 * Class [Buffer](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

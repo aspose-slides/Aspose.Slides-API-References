@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.text/stringbuilder/replace/
 ---
-## StringBuilder::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## StringBuilder::Replace(const String\&, const String\&) method
 
 
 Replaces substring through the builder.
@@ -27,14 +27,7 @@ StringBuilder * System::Text::StringBuilder::Replace(const String &oldString, co
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int, int) method
+## StringBuilder::Replace(const String\&, const String\&, int, int) method
 
 
 Replaces substring through the builder's range.
@@ -57,13 +50,6 @@ StringBuilder * System::Text::StringBuilder::Replace(const String &oldString, co
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Replace(char_t, char_t) method
 
 
@@ -85,12 +71,6 @@ StringBuilder * System::Text::StringBuilder::Replace(char_t oldChar, char_t newC
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Replace(char_t, char_t, int, int) method
 
 
@@ -117,6 +97,6 @@ This pointer.
 ## See Also
 
 * Class [StringBuilder](../)
-* Class [StringBuilder](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

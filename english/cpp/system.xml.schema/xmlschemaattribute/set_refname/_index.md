@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml.schema/xmlschemaattribute/set_refname/
 ---
-## XmlSchemaAttribute::set_RefName(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaAttribute::set_RefName(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Sets the name of an attribute declared in this schema (or another schema indicated by the specified namespace).

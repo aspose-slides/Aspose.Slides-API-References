@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.drawing.drawing2d/graphicspath/addrectangle/
 ---
-## GraphicsPath::AddRectangle(const [Rectangle](../../../system.drawing/rectangle/)\&) method
+## GraphicsPath::AddRectangle(const Rectangle\&) method
 
 
 Adds the specified rectangle to the path represented by the current object.
@@ -22,13 +22,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangle(const Rectangle &rec
 | --- | --- | --- |
 | rect | const [Rectangle](../../../system.drawing/rectangle/)\& | A rectangle to add |
 
-## See Also
-
-* Class [Rectangle](../../../system.drawing/rectangle/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddRectangle(const [RectangleF](../../../system.drawing/rectanglef/)\&) method
+## GraphicsPath::AddRectangle(const RectangleF\&) method
 
 
 Adds the specified rectangle to the path represented by the current object.
@@ -46,7 +40,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangle(const RectangleF &re
 
 ## See Also
 
-* Class [RectangleF](../../../system.drawing/rectanglef/)
+* Class [Rectangle](../../../system.drawing/rectangle/)
 * Class [GraphicsPath](../)
+* Class [RectangleF](../../../system.drawing/rectanglef/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

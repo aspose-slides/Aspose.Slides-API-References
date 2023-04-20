@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/system/datetimeoffset/operator_equal_equal/
 ---
-## DateTimeOffset::operator==(const [DateTimeOffset](../)\&) const method
+## DateTimeOffset::operator==(const DateTimeOffset\&) const method
 
 
 Determines if the current object and the specified [DateTimeOffset](../) object represent the same date and time value.
@@ -26,12 +26,6 @@ bool System::DateTimeOffset::operator==(const DateTimeOffset &other) const
 
 True if the current object and the specified object represent the same date and time value, otherwise - false
 
-## See Also
-
-* Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTimeOffset::operator==(std::nullptr_t) const method
 
 

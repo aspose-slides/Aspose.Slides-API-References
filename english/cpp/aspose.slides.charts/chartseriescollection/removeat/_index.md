@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.charts/chartseriescollection/removeat/
 ---
-## ChartSeriesCollection::RemoveAt(**int32_t**) method
+## ChartSeriesCollection::RemoveAt(int32_t) method
 
 
 Removes an ActiveX control stored at specified position from the collection.

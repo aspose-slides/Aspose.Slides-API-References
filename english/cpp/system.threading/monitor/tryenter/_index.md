@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.threading/monitor/tryenter/
 ---
-## Monitor::TryEnter(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Monitor::TryEnter(const SharedPtr\<Object\>\&) method
 
 
 Attempts to acquire an exclusive lock on the specified object Not implemented.
@@ -16,14 +16,7 @@ static bool System::Threading::Monitor::TryEnter(const SharedPtr<Object> &obj)
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::TryEnter(const [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, **bool**\&) method
+## Monitor::TryEnter(const System::SharedPtr\<Object\>\&, bool\&) method
 
 
 Attempts to acquire an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.
@@ -32,14 +25,7 @@ Attempts to acquire an exclusive lock on the specified object, and atomically se
 static void System::Threading::Monitor::TryEnter(const System::SharedPtr<Object> &obj, bool &lockTaken)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::TryEnter(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, **int32_t**) method
+## Monitor::TryEnter(const SharedPtr\<Object\>\&, int32_t) method
 
 
 Attempts, for the specified number of milliseconds, to acquire an exclusive lock on the specified object Not implemented.
@@ -49,14 +35,7 @@ static bool System::Threading::Monitor::TryEnter(const SharedPtr<Object> &obj, i
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::TryEnter(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, [TimeSpan](../../../system/timespan/)) method
+## Monitor::TryEnter(const SharedPtr\<Object\>\&, TimeSpan) method
 
 
 Attempts, for the specified amount of time, to acquire an exclusive lock on the specified object Not implemented.
@@ -66,15 +45,7 @@ static bool System::Threading::Monitor::TryEnter(const SharedPtr<Object> &obj, T
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TimeSpan](../../../system/timespan/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::TryEnter(const [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, **int32_t**, **bool**\&) method
+## Monitor::TryEnter(const System::SharedPtr\<Object\>\&, int32_t, bool\&) method
 
 
 Attempts, for the specified amount of time, to acquire an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.
@@ -83,14 +54,7 @@ Attempts, for the specified amount of time, to acquire an exclusive lock on the 
 static void System::Threading::Monitor::TryEnter(const System::SharedPtr<Object> &obj, int32_t millisecondsTimeout, bool &lockTaken)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::TryEnter(const [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, [TimeSpan](../../../system/timespan/), **bool**\&) method
+## Monitor::TryEnter(const System::SharedPtr\<Object\>\&, TimeSpan, bool\&) method
 
 
 Attempts, for the specified amount of time, to acquire an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.
@@ -103,7 +67,7 @@ static void System::Threading::Monitor::TryEnter(const System::SharedPtr<Object>
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Monitor](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

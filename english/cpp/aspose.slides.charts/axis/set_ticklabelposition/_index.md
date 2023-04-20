@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.slides.charts/axis/set_ticklabelposition/
 ---
-## Axis::set_TickLabelPosition([TickLabelPositionType](../../ticklabelpositiontype/)) method
+## Axis::set_TickLabelPosition(TickLabelPositionType) method
 
 
 Represents the position of tick-mark labels on the specified axis. Write [TickLabelPositionType](../../ticklabelpositiontype/).

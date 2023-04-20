@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.xsl/xsltargumentlist/getparam/
 ---
-## XsltArgumentList::GetParam(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XsltArgumentList::GetParam(const String\&, const String\&) method
 
 
 Returns the parameter associated with the namespace qualified name.

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.animation/isequence/geteffectsbyparagraph/
 ---
-## ISequence::GetEffectsByParagraph([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../../aspose.slides/iparagraph/)\>) method
+## ISequence::GetEffectsByParagraph(System::SharedPtr\<IParagraph\>) method
 
 
 Returns array of effects for the specified paragraph.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.export/embedallfontshtmlcontroller/writefont/
 ---
-## EmbedAllFontsHtmlController::WriteFont([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlGenerator](../../ihtmlgenerator/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../../aspose.slides/ifontdata/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../../aspose.slides/ifontdata/)\>, [System::String](../../../system/string/), [System::String](../../../system/string/), [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## EmbedAllFontsHtmlController::WriteFont(System::SharedPtr\<IHtmlGenerator\>, System::SharedPtr\<IFontData\>, System::SharedPtr\<IFontData\>, System::String, System::String, System::ArrayPtr\<uint8_t\>) method
 
 
 Writes data as base64 into HTML document itself
@@ -30,10 +30,10 @@ virtual void Aspose::Slides::Export::EmbedAllFontsHtmlController::WriteFont(Syst
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [IHtmlGenerator](../../ihtmlgenerator/)
 * Class [IFontData](../../../aspose.slides/ifontdata/)
 * Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [EmbedAllFontsHtmlController](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

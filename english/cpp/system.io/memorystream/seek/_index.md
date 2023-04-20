@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.io/memorystream/seek/
 ---
-## MemoryStream::Seek(**int64_t**, [SeekOrigin](../../seekorigin/)) method
+## MemoryStream::Seek(int64_t, SeekOrigin) method
 
 
 Sets the position of the stream represented by the current object.

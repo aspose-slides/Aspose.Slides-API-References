@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/itagcollection/contains/
 ---
-## ITagCollection::Contains([System::String](../../../system/string/)) method
+## ITagCollection::Contains(System::String) method
 
 
 Determines whether the collection contains a specific name.

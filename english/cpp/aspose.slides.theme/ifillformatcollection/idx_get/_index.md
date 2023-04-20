@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.theme/ifillformatcollection/idx_get/
 ---
-## IFillFormatCollection::idx_get(**int32_t**) method
+## IFillFormatCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [IFillFormat](../../../aspose.slides/ifillformat/).

@@ -24,6 +24,5 @@ The 'PUT' HTTP method.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [HttpMethod](../)
-* Class [HttpMethod](../)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

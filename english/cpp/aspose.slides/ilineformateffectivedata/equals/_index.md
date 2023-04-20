@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides/ilineformateffectivedata/equals/
 ---
-## ILineFormatEffectiveData::Equals([System::SharedPtr](../../../system/sharedptr/)\<[ILineFormatEffectiveData](../)\>) method
+## ILineFormatEffectiveData::Equals(System::SharedPtr\<ILineFormatEffectiveData\>) method
 
 
 Determines whether the two [ILineFormatEffectiveData](../) instances are equal.
@@ -29,7 +29,6 @@ virtual bool Aspose::Slides::ILineFormatEffectiveData::Equals(System::SharedPtr<
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ILineFormatEffectiveData](../)
 * Class [ILineFormatEffectiveData](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

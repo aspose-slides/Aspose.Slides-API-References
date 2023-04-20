@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.slides/icell/splitbywidth/
 ---
-## ICell::SplitByWidth(**double**) method
+## ICell::SplitByWidth(double) method
 
 
 Splits the cell by width.

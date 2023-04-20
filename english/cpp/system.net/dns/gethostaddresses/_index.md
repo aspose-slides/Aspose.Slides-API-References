@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net/dns/gethostaddresses/
 ---
-## Dns::GetHostAddresses([String](../../../system/string/)) method
+## Dns::GetHostAddresses(String) method
 
 
 Returns a collection of IP addresses of the specified host name or IP address.

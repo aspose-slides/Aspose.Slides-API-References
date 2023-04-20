@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ispreadsheetoptions/
 Represents options which can be used to specify additional spreadsheets behavior.
 
 ```cpp
-class ISpreadsheetOptions : public System::Object
+class ISpreadsheetOptions : public virtual System::Object
 ```
 
 ## Methods

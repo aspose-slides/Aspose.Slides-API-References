@@ -28,14 +28,7 @@ Example:
 auto groupingElement = System::MakeObject<MathematicalText>(u"x;y;z")->Group();
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathGroupingCharacter](../../imathgroupingcharacter/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::Group(char16_t, [MathTopBotPositions](../../mathtopbotpositions/), [MathTopBotPositions](../../mathtopbotpositions/)) method
+## MathElementBase::Group(char16_t, MathTopBotPositions, MathTopBotPositions) method
 
 
 Places this element in a group using a grouping character such as bottom curly bracket or another
@@ -67,9 +60,9 @@ auto groupingElement = System::MakeObject<MathematicalText>(u"x;y;z")->Group(u'\
 
 ## See Also
 
+* Enum [MathTopBotPositions](../../mathtopbotpositions/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathGroupingCharacter](../../imathgroupingcharacter/)
-* Enum [MathTopBotPositions](../../mathtopbotpositions/)
 * Class [MathElementBase](../)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

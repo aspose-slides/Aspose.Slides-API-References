@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/ihtmlformatter/
 Represents HTML file template.
 
 ```cpp
-class IHtmlFormatter : public System::Object
+class IHtmlFormatter : public virtual System::Object
 ```
 
 ## Methods

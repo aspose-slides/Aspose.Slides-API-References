@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http/bytearraycontent/trycomputelength/
 ---
-## ByteArrayContent::TryComputeLength(**int64_t**\&) method
+## ByteArrayContent::TryComputeLength(int64_t\&) method
 
 
 Tries to calculate the byte array length.

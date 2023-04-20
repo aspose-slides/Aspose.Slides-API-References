@@ -3,7 +3,7 @@ title: RegexPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Regex pointer.
 type: docs
-weight: 183
+weight: 170
 url: /cpp/system.text.regularexpressions/regexptr/
 ---
 ## RegexPtr typedef

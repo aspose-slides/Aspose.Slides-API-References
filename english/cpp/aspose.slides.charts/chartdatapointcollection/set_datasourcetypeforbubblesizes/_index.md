@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/chartdatapointcollection/set_datasourcetypeforbubblesizes/
 ---
-## ChartDataPointCollection::set_DataSourceTypeForBubbleSizes([DataSourceType](../../datasourcetype/)) method
+## ChartDataPointCollection::set_DataSourceTypeForBubbleSizes(DataSourceType) method
 
 
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Write [DataSourceType](../../datasourcetype/).

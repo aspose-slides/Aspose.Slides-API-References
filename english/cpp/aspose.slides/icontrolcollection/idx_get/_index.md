@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/icontrolcollection/idx_get/
 ---
-## IControlCollection::idx_get(**int32_t**) method
+## IControlCollection::idx_get(int32_t) method
 
 
 Returns a control at the specified position.

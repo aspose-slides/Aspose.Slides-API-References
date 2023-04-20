@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/isvgtspan/set_id/
 ---
-## ISvgTSpan::set_Id([System::String](../../../system/string/)) method
+## ISvgTSpan::set_Id(System::String) method
 
 
 Sets id for the \"tspan\" element

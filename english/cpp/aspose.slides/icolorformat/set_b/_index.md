@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/icolorformat/set_b/
 ---
-## IColorFormat::set_B(**uint8_t**) method
+## IColorFormat::set_B(uint8_t) method
 
 
 Sets the blue component of a color. All color transformations are ignored. Write **uint8_t**.

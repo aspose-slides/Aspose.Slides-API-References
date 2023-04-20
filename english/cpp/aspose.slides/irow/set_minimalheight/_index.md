@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/irow/set_minimalheight/
 ---
-## IRow::set_MinimalHeight(**double**) method
+## IRow::set_MinimalHeight(double) method
 
 
 Sets the minimal possible height of a row. Write **double**.

@@ -3,10 +3,10 @@ title: Unbox()
 second_title: Aspose.Slides for C++ API Reference
 description: Unboxes value types after converting to Object. Implementation for enum types.
 type: docs
-weight: 66
+weight: 53
 url: /cpp/system/objectext/unbox/
 ---
-## ObjectExt::Unbox(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
 
 
 Unboxes value types after converting to [Object](../../object/). Implementation for enum types.
@@ -32,14 +32,7 @@ template<typename T> static std::enable_if<std::is_enum<T>::value, T>::type Syst
 
 [Enum](../../enum/) value.
 
-## See Also
-
-* Class [SmartPtr](../../smartptr/)
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Unbox(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
 
 
 Unboxes value types after converting to [Object](../../object/). Implementation for non-enum & non-nullable types.
@@ -65,14 +58,7 @@ template<class T> static std::enable_if<!std::is_enum<T>::value &&detail::has_op
 
 Unboxed value.
 
-## See Also
-
-* Class [SmartPtr](../../smartptr/)
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Unbox(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
 
 
 Unboxes value types after converting to [Object](../../object/). Implementation for non-enum & non-nullable types.
@@ -98,13 +84,6 @@ template<class T> static std::enable_if<!std::is_enum<T>::value &&!detail::has_o
 
 Unboxed value.
 
-## See Also
-
-* Class [SmartPtr](../../smartptr/)
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::Unbox(E) method
 
 
@@ -132,11 +111,6 @@ template<class T,class E> static std::enable_if<std::is_enum<E>::value &&std::nu
 
 Integer representation of enum.
 
-## See Also
-
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::Unbox(E) method
 
 
@@ -164,12 +138,7 @@ template<class T,class E> static std::enable_if<std::is_enum<E>::value &&std::is
 
 Converted enum value.
 
-## See Also
-
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Unbox(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::Unbox(const SmartPtr\<Object\>\&) method
 
 
 Unboxes string values.
@@ -191,9 +160,9 @@ String System::ObjectExt::Unbox(const SmartPtr<Object> &obj)
 
 ## See Also
 
-* Class [String](../../string/)
 * Class [SmartPtr](../../smartptr/)
 * Class [Object](../../object/)
 * Class [ObjectExt](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

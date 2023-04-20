@@ -3,7 +3,7 @@ title: ConformanceLevel
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the amount of input or output checking that XmlReader and XmlWriter objects perform.
 type: docs
-weight: 625
+weight: 599
 url: /cpp/system.xml/conformancelevel/
 ---
 ## ConformanceLevel enum

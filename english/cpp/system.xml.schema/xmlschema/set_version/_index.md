@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml.schema/xmlschema/set_version/
 ---
-## XmlSchema::set_Version(const [String](../../../system/string/)\&) method
+## XmlSchema::set_Version(const String\&) method
 
 
 Sets the version of the schema.

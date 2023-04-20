@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/islidetext/
 Represents the text extracted from the slide
 
 ```cpp
-class ISlideText : public System::Object
+class ISlideText : public virtual System::Object
 ```
 
 ## Methods

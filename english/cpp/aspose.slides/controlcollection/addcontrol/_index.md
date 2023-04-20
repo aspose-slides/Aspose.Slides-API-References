@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/controlcollection/addcontrol/
 ---
-## ControlCollection::AddControl([ControlType](../../controltype/), **float**, **float**, **float**, **float**) method
+## ControlCollection::AddControl(ControlType, float, float, float, float) method
 
 
 Creates and adds a new control to the collection.
@@ -32,9 +32,9 @@ Created control.
 
 ## See Also
 
+* Enum [ControlType](../../controltype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IControl](../../icontrol/)
-* Enum [ControlType](../../controltype/)
 * Class [ControlCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

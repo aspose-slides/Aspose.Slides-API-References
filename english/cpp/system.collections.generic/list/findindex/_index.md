@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.collections.generic/list/findindex/
 ---
-## List::FindIndex([System::Predicate](../../../system/predicate/)\<T\>) method
+## List::FindIndex(System::Predicate\<T\>) method
 
 
 Looks for element adhering to specific predicate.
@@ -26,13 +26,7 @@ int System::Collections::Generic::List<T>::FindIndex(System::Predicate<T> match)
 
 Index of matching element or -1 if not found.
 
-## See Also
-
-* Typedef [Predicate](../../../system/predicate/)
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::FindIndex(int, [System::Predicate](../../../system/predicate/)\<T\>) method
+## List::FindIndex(int, System::Predicate\<T\>) method
 
 
 Looks for element adhering to specific predicate.
@@ -53,13 +47,7 @@ int System::Collections::Generic::List<T>::FindIndex(int startIndex, System::Pre
 
 Index of matching element or -1 if not found.
 
-## See Also
-
-* Typedef [Predicate](../../../system/predicate/)
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::FindIndex(int, int, [System::Predicate](../../../system/predicate/)\<T\>) method
+## List::FindIndex(int, int, System::Predicate\<T\>) method
 
 
 Looks for element adhering to specific predicate.

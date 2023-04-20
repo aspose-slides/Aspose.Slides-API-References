@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/sequence/remove/
 ---
-## Sequence::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IEffect](../../ieffect/)\>) method
+## Sequence::Remove(System::SharedPtr\<IEffect\>) method
 
 
 Removes specified effect from a collection.

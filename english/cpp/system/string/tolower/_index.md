@@ -20,13 +20,7 @@ String System::String::ToLower() const
 
 Converted string.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::ToLower(const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## String::ToLower(const SharedPtr\<System::Globalization::CultureInfo\>\&) const method
 
 
 Converts all string's characters to lower case using specific culture.
@@ -48,9 +42,8 @@ Converted string.
 
 ## See Also
 
-* Class [String](../)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [String](../)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

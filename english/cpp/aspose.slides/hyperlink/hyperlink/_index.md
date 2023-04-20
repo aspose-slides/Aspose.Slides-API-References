@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides/hyperlink/hyperlink/
 ---
-## Hyperlink::Hyperlink([System::String](../../../system/string/)) constructor
+## Hyperlink::Hyperlink(System::String) constructor
 
 
 Creates an instance of a hyperlink.
@@ -22,13 +22,7 @@ Aspose::Slides::Hyperlink::Hyperlink(System::String url)
 | --- | --- | --- |
 | url | [System::String](../../../system/string/) | [Hyperlink](../) URL. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Hyperlink](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Hyperlink::Hyperlink([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) constructor
+## Hyperlink::Hyperlink(System::SharedPtr\<ISlide\>) constructor
 
 
 Creates an instance of a hyperlink which points to specific slide. Note: created hyperlink should be assigned to some object from the same presentation, otherwise link will be saved as NoAction.
@@ -44,14 +38,7 @@ Aspose::Slides::Hyperlink::Hyperlink(System::SharedPtr<ISlide> slide)
 | --- | --- | --- |
 | slide | [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\> | Target slide. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [Hyperlink](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Hyperlink::Hyperlink([System::SharedPtr](../../../system/sharedptr/)\<[Hyperlink](../)\>, [System::String](../../../system/string/), [System::String](../../../system/string/), **bool**, **bool**, **bool**) constructor
+## Hyperlink::Hyperlink(System::SharedPtr\<Hyperlink\>, System::String, System::String, bool, bool, bool) constructor
 
 
 Creates an instance of a hyperlink using another hyperlink as source, overriding secondary properties.
@@ -75,8 +62,8 @@ Aspose::Slides::Hyperlink::Hyperlink(System::SharedPtr<Hyperlink> source, System
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Hyperlink](../)
 * Class [String](../../../system/string/)
 * Class [Hyperlink](../)
+* Class [ISlide](../../islide/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

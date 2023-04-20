@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.slides.charts/chartdatapointcollection/adddatapointforhistogramseries/
 ---
-## ChartDataPointCollection::AddDataPointForHistogramSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForHistogramSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Histogram.

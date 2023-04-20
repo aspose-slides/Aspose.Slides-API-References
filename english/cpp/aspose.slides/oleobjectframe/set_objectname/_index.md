@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/oleobjectframe/set_objectname/
 ---
-## OleObjectFrame::set_ObjectName([System::String](../../../system/string/)) method
+## OleObjectFrame::set_ObjectName(System::String) method
 
 
 Sets the name of an object. Write [System::String](../../../system/string/).

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/ifonts/set_complexscriptfont/
 ---
-## IFonts::set_ComplexScriptFont([System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>) method
+## IFonts::set_ComplexScriptFont(System::SharedPtr\<IFontData\>) method
 
 
 Sets the complex script font. Write [IFontData](../../ifontdata/).

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.globalization/hijricalendar/getdayofweek/
 ---
-## HijriCalendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## HijriCalendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

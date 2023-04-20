@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.io/basicstdistreamwrapper/basicstdistreamwrapper/
 ---
-## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(std::basic_istream\<[char_type](../../stdiostreamwrapperbase/char_type/), [traits_type](../../stdiostreamwrapperbase/traits_type/)\>\&, [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/)) constructor
+## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(std::basic_istream\<char_type, traits_type\>\&, STDIOStreamWrappingMode) constructor
 
 
 Constructs a new instance of the [BasicSTDIStreamWrapper](../).
@@ -23,15 +23,7 @@ System::IO::BasicSTDIStreamWrapper<T, typename>::BasicSTDIStreamWrapper(std::bas
 | str | std::basic_istream\<[char_type](../../stdiostreamwrapperbase/char_type/), [traits_type](../../stdiostreamwrapperbase/traits_type/)\>\& | The reference to the stream |
 | mode | [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/) | Wrapping mode |
 
-## See Also
-
-* Typedef [char_type](../../stdiostreamwrapperbase/char_type/)
-* Typedef [traits_type](../../stdiostreamwrapperbase/traits_type/)
-* Enum [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/)
-* Class [BasicSTDIStreamWrapper](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(const [BasicSTDIStreamWrapper](../)\&) constructor
+## BasicSTDIStreamWrapper::BasicSTDIStreamWrapper(const BasicSTDIStreamWrapper\&) constructor
 
 
 Copy constructor. Deleted.
@@ -42,7 +34,9 @@ System::IO::BasicSTDIStreamWrapper<T, typename>::BasicSTDIStreamWrapper(const Ba
 
 ## See Also
 
-* Class [BasicSTDIStreamWrapper](../)
+* Enum [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/)
+* Typedef [char_type](../../stdiostreamwrapperbase/char_type/)
+* Typedef [traits_type](../../stdiostreamwrapperbase/traits_type/)
 * Class [BasicSTDIStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

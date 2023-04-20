@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/chartdataworkbook/get_worksheet/
 ---
-## ChartDataWorkbook::get_Worksheet(**int32_t**) method
+## ChartDataWorkbook::get_Worksheet(int32_t) method
 
 
 Returns worksheet of this workbook at the specified index.

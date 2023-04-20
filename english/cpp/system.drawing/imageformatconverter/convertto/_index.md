@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing/imageformatconverter/convertto/
 ---
-## ImageFormatConverter::ConvertTo(const [SharedPtr](../../../system/sharedptr/)\<[ComponentModel::ITypeDescriptorContext](../../../system.componentmodel/itypedescriptorcontext/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, const [TypeInfo](../../../system/typeinfo/)\&) method
+## ImageFormatConverter::ConvertTo(const SharedPtr\<ComponentModel::ITypeDescriptorContext\>\&, const SharedPtr\<Globalization::CultureInfo\>\&, const SharedPtr\<Object\>\&, const TypeInfo\&) method
 
 
 Converts object to specific type.

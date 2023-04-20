@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/effect/set_presetclasstype/
 ---
-## Effect::set_PresetClassType([EffectPresetClassType](../../effectpresetclasstype/)) method
+## Effect::set_PresetClassType(EffectPresetClassType) method
 
 
 Defines class of effect. Write [EffectPresetClassType](../../effectpresetclasstype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system/decimal/tryparse/
 ---
-## Decimal::TryParse(const [String](../../string/)\&, [Decimal](../)\&) method
+## Decimal::TryParse(const String\&, Decimal\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../) value.
@@ -27,14 +27,7 @@ static bool System::Decimal::TryParse(const String &value, Decimal &result)
 
 True if the conversion succeeded, otherwise - false
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::TryParse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Decimal](../)\&) method
+## Decimal::TryParse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&, Decimal\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../) value using the provided formatting information and number style.
@@ -59,11 +52,10 @@ True if the conversion succeeded, otherwise - false
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
+* Class [Decimal](../)
 * Class [IFormatProvider](../../iformatprovider/)
-* Class [Decimal](../)
-* Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

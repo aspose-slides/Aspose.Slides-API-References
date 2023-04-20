@@ -29,11 +29,6 @@ bool System::Globalization::TaiwanCalendar::IsLeapDay(int year, int month, int d
 
 True if specified date is leap, false otherwise.
 
-## See Also
-
-* Class [TaiwanCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## TaiwanCalendar::IsLeapDay(int, int, int) const method
 
 
@@ -56,11 +51,6 @@ virtual bool System::Globalization::Calendar::IsLeapDay(int year, int month, int
 
 True if specified date is leap, false otherwise.
 
-## See Also
-
-* Class [TaiwanCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## TaiwanCalendar::IsLeapDay(int, int, int, int) const method
 
 

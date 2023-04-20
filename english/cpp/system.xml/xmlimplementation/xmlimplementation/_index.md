@@ -15,12 +15,7 @@ Initializes a new instance of the [XmlImplementation](../) class.
 System::Xml::XmlImplementation::XmlImplementation()
 ```
 
-## See Also
-
-* Class [XmlImplementation](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlImplementation::XmlImplementation(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlImplementation::XmlImplementation(const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlImplementation](../) class with the [XmlNameTable](../../xmlnametable/) specified.
@@ -39,7 +34,7 @@ System::Xml::XmlImplementation::XmlImplementation(const SharedPtr<XmlNameTable> 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNameTable](../../xmlnametable/)
 * Class [XmlImplementation](../)
+* Class [XmlNameTable](../../xmlnametable/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

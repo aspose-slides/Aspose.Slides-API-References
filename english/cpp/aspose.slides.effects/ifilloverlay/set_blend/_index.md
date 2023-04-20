@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/ifilloverlay/set_blend/
 ---
-## IFillOverlay::set_Blend([FillBlendMode](../../../aspose.slides/fillblendmode/)) method
+## IFillOverlay::set_Blend(FillBlendMode) method
 
 
 FillBlendMode. Write [FillBlendMode](../../../aspose.slides/fillblendmode/).

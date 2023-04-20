@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/asymmetricalgorithm/set_keysize/
 ---
-## AsymmetricAlgorithm::set_KeySize(**int32_t**) method
+## AsymmetricAlgorithm::set_KeySize(int32_t) method
 
 
 Sets key size.

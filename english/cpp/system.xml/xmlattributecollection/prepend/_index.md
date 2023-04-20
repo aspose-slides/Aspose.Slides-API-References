@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/xmlattributecollection/prepend/
 ---
-## XmlAttributeCollection::Prepend(const [SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>\&) method
+## XmlAttributeCollection::Prepend(const SharedPtr\<XmlAttribute\>\&) method
 
 
 Inserts the specified attribute as the first node in the collection.

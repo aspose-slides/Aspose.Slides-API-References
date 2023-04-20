@@ -20,6 +20,5 @@ virtual System::SharedPtr<IComment> Aspose::Slides::IComment::get_ParentComment(
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IComment](../)
-* Class [IComment](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

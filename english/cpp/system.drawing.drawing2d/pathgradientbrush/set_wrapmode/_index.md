@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/set_wrapmode/
 ---
-## PathGradientBrush::set_WrapMode([WrapMode](../../wrapmode/)) method
+## PathGradientBrush::set_WrapMode(WrapMode) method
 
 
 Sets the wrap mode.

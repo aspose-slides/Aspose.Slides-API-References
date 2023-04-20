@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.io/basicstdiostreamwrapper/basicstdiostreamwrapper/
 ---
-## BasicSTDIOStreamWrapper::BasicSTDIOStreamWrapper(std::basic_iostream\<[char_type](../../stdiostreamwrapperbase/char_type/), [traits_type](../../stdiostreamwrapperbase/traits_type/)\>\&, [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/), [STDIOStreamPositionPreference](../../stdiostreampositionpreference/)) constructor
+## BasicSTDIOStreamWrapper::BasicSTDIOStreamWrapper(std::basic_iostream\<char_type, traits_type\>\&, STDIOStreamWrappingMode, STDIOStreamPositionPreference) constructor
 
 
 Constructs a new instance of the [BasicSTDIOStreamWrapper](../).
@@ -24,16 +24,7 @@ System::IO::BasicSTDIOStreamWrapper<T, typename>::BasicSTDIOStreamWrapper(std::b
 | mode | [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/) | Wrapping mode |
 | pref_pos | [STDIOStreamPositionPreference](../../stdiostreampositionpreference/) | Position that will prefer as read and write position, if they are different |
 
-## See Also
-
-* Typedef [char_type](../../stdiostreamwrapperbase/char_type/)
-* Typedef [traits_type](../../stdiostreamwrapperbase/traits_type/)
-* Enum [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/)
-* Enum [STDIOStreamPositionPreference](../../stdiostreampositionpreference/)
-* Class [BasicSTDIOStreamWrapper](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSTDIOStreamWrapper::BasicSTDIOStreamWrapper(const [BasicSTDIOStreamWrapper](../)\&) constructor
+## BasicSTDIOStreamWrapper::BasicSTDIOStreamWrapper(const BasicSTDIOStreamWrapper\&) constructor
 
 
 Copy constructor. Deleted.
@@ -44,7 +35,10 @@ System::IO::BasicSTDIOStreamWrapper<T, typename>::BasicSTDIOStreamWrapper(const 
 
 ## See Also
 
-* Class [BasicSTDIOStreamWrapper](../)
+* Enum [STDIOStreamWrappingMode](../../stdiostreamwrappingmode/)
+* Enum [STDIOStreamPositionPreference](../../stdiostreampositionpreference/)
+* Typedef [char_type](../../stdiostreamwrapperbase/char_type/)
+* Typedef [traits_type](../../stdiostreamwrapperbase/traits_type/)
 * Class [BasicSTDIOStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

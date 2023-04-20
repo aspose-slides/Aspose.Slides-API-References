@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml/xmlnotation/clonenode/
 ---
-## XmlNotation::CloneNode(**bool**) method
+## XmlNotation::CloneNode(bool) method
 
 
 Creates a duplicate of this node. Notation nodes cannot be cloned. Calling this method on an [XmlNotation](../) object throws an exception.

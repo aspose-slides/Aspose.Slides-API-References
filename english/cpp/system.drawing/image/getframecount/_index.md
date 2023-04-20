@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.drawing/image/getframecount/
 ---
-## Image::GetFrameCount(const [Imaging::FrameDimensionPtr](../../../system.drawing.imaging/framedimensionptr/)\&) method
+## Image::GetFrameCount(const Imaging::FrameDimensionPtr\&) method
 
 
 Returns the number of frames of the specified frame dimension.

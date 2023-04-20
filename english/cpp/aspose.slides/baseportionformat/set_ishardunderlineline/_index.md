@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides/baseportionformat/set_ishardunderlineline/
 ---
-## BasePortionFormat::set_IsHardUnderlineLine([NullableBool](../../nullablebool/)) method
+## BasePortionFormat::set_IsHardUnderlineLine(NullableBool) method
 
 
 Determines whether the underline style has own [LineFormat](../../lineformat/) properties or inherits it from the [LineFormat](../../lineformat/) properties of the text. Write [NullableBool](../../nullablebool/).

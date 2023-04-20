@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.drawing/color/fromname/
 ---
-## Color::FromName(const [String](../../../system/string/)\&) method
+## Color::FromName(const String\&) method
 
 
 Constructs an instance of [Color](../) class that represents a color with the specified name.
@@ -30,6 +30,5 @@ An instance of [Color](../) class that represents a color named **name**
 
 * Class [Color](../)
 * Class [String](../../../system/string/)
-* Class [Color](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

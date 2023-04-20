@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/fontsmanager/set_fontsubstrulelist/
 ---
-## FontsManager::set_FontSubstRuleList([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::IFontSubstRuleCollection](../../ifontsubstrulecollection/)\>) method
+## FontsManager::set_FontSubstRuleList(System::SharedPtr\<Aspose::Slides::IFontSubstRuleCollection\>) method
 
 
 Font substitutions to use when rendering. Write [IFontSubstRuleCollection](../../ifontsubstrulecollection/).

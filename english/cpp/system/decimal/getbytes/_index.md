@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system/decimal/getbytes/
 ---
-## Decimal::GetBytes(const [Decimal](../)\&, const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&) method
+## Decimal::GetBytes(const Decimal\&, const System::ArrayPtr\<uint8_t\>\&) method
 
 
 [Convert](../../convert/) the specified [Decimal](../) value to an array of bytes.
@@ -25,7 +25,6 @@ static void System::Decimal::GetBytes(const Decimal &value, const System::ArrayP
 
 ## See Also
 
-* Class [Decimal](../)
 * Typedef [ArrayPtr](../../arrayptr/)
 * Class [Decimal](../)
 * Namespace [System](../../)

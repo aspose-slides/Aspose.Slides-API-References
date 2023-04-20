@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.drawing/pen/multiplytransform/
 ---
-## Pen::MultiplyTransform(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\&, [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)) method
+## Pen::MultiplyTransform(const SharedPtr\<Drawing2D::Matrix\>\&, Drawing2D::MatrixOrder) method
 
 
 Multiplies current object's transform matrix by the specified matrix.
@@ -25,9 +25,9 @@ void System::Drawing::Pen::MultiplyTransform(const SharedPtr<Drawing2D::Matrix> 
 
 ## See Also
 
+* Enum [MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Matrix](../../../system.drawing.drawing2d/matrix/)
-* Enum [MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)
 * Class [Pen](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

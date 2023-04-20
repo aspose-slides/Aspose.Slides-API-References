@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.xml.schema/xmlschematype/getbuiltinsimpletype/
 ---
-## XmlSchemaType::GetBuiltInSimpleType(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaType::GetBuiltInSimpleType(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Returns an [XmlSchemaSimpleType](../../xmlschemasimpletype/) that represents the built-in simple type of the simple type that is specified by the qualified name.
@@ -26,15 +26,7 @@ static SharedPtr<XmlSchemaSimpleType> System::Xml::Schema::XmlSchemaType::GetBui
 
 The [XmlSchemaSimpleType](../../xmlschemasimpletype/) that represents the built-in simple type.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaSimpleType](../../xmlschemasimpletype/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [XmlSchemaType](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaType::GetBuiltInSimpleType([XmlTypeCode](../../xmltypecode/)) method
+## XmlSchemaType::GetBuiltInSimpleType(XmlTypeCode) method
 
 
 Returns an [XmlSchemaSimpleType](../../xmlschemasimpletype/) that represents the built-in simple type of the specified simple type.
@@ -56,9 +48,10 @@ The [XmlSchemaSimpleType](../../xmlschemasimpletype/) that represents the built-
 
 ## See Also
 
+* Enum [XmlTypeCode](../../xmltypecode/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlSchemaSimpleType](../../xmlschemasimpletype/)
-* Enum [XmlTypeCode](../../xmltypecode/)
+* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
 * Class [XmlSchemaType](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

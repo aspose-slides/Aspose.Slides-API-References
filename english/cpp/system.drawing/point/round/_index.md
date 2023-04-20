@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.drawing/point/round/
 ---
-## Point::Round(const [PointF](../../pointf/)\&) method
+## Point::Round(const PointF\&) method
 
 
 Constructs a [Point](../) object from the specified [PointF](../../pointf/) object by rounding the [PointF](../../pointf/) object's X and Y coordinates values to the nearest integer values.
@@ -30,6 +30,5 @@ A [Point](../) object constructed from **point**
 
 * Class [Point](../)
 * Class [PointF](../../pointf/)
-* Class [Point](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

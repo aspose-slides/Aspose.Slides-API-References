@@ -19,6 +19,5 @@ ArrayPtr<TypeInfo> System::TypeInfo::get_GenericTypeArguments() const
 
 * Typedef [ArrayPtr](../../arrayptr/)
 * Class [TypeInfo](../)
-* Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

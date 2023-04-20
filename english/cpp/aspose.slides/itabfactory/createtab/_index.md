@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/itabfactory/createtab/
 ---
-## ITabFactory::CreateTab(**double**, [TabAlignment](../../tabalignment/)) method
+## ITabFactory::CreateTab(double, TabAlignment) method
 
 
 Creates a new [ITab](../../itab/) instance.
@@ -29,9 +29,9 @@ Created tab.
 
 ## See Also
 
+* Enum [TabAlignment](../../tabalignment/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ITab](../../itab/)
-* Enum [TabAlignment](../../tabalignment/)
 * Class [ITabFactory](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

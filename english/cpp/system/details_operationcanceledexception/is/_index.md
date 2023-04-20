@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_operationcanceledexception/is/
 ---
-## Details_OperationCanceledException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_OperationCanceledException::Is(const System::TypeInfo\&) const method
 
 
 

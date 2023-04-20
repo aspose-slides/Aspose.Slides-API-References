@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing.drawing2d/customlinecap/getstrokecaps/
 ---
-## CustomLineCap::GetStrokeCaps([LineCap](../../linecap/)\&, [LineCap](../../linecap/)\&) method
+## CustomLineCap::GetStrokeCaps(LineCap\&, LineCap\&) method
 
 
 Gets the start and end line caps of the custom cap represented by the current object.

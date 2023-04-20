@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/ichartdatacell/set_formula/
 ---
-## IChartDataCell::set_Formula([System::String](../../../system/string/)) method
+## IChartDataCell::set_Formula(System::String) method
 
 
 Sets the formula in A1-style.

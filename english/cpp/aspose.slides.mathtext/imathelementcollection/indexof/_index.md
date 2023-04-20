@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/imathelementcollection/indexof/
 ---
-## IMathElementCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathElementCollection::IndexOf(System::SharedPtr\<IMathElement\>) method
 
 
 Determines the index of a specific math element in collection.

@@ -20,12 +20,7 @@ virtual int System::IO::BinaryReader::Read()
 
 Read character encoded with UTF-16 encoding; if the read character is represented by two codepoints in UTF-16 encoding then only the high surragate is returned.
 
-## See Also
-
-* Class [BinaryReader](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BinaryReader::Read([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## BinaryReader::Read(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Reads the specified number of bytes from the input stream and writes them to the specified byte array.
@@ -47,13 +42,7 @@ virtual int System::IO::BinaryReader::Read(ArrayPtr<uint8_t> buffer, int index, 
 
 The number of bytes read
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [BinaryReader](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BinaryReader::Read([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int) method
+## BinaryReader::Read(ArrayPtr\<char_t\>, int, int) method
 
 
 Reads the specified number of characters from the input stream, converts them to UTF-16 encoding and writes the resulting UTF-16 characters to the specified character array starting at the specified position.

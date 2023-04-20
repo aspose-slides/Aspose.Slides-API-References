@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides.charts/ichart/set_showdatalabelsovermaximum/
 ---
-## IChart::set_ShowDataLabelsOverMaximum(**bool**) method
+## IChart::set_ShowDataLabelsOverMaximum(bool) method
 
 
 Specifies data labels over the maximum of the chart shall be shown. Write **bool**.

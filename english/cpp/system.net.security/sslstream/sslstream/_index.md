@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.net.security/sslstream/sslstream/
 ---
-## SslStream::SslStream([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>) constructor
+## SslStream::SslStream(System::SharedPtr\<IO::Stream\>) constructor
 
 
 Constructs a new instance.
@@ -22,14 +22,7 @@ System::Net::Security::SslStream::SslStream(System::SharedPtr<IO::Stream> innerS
 | --- | --- | --- |
 | innerStream | [System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> | The stream that is used for sending and receiving data. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [SslStream](../)
-* Namespace [System::Net::Security](../../)
-* Library [Aspose.Slides](../../../)
-## SslStream::SslStream([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>, **bool**) constructor
+## SslStream::SslStream(System::SharedPtr\<IO::Stream\>, bool) constructor
 
 
 Constructs a new instance.
@@ -46,14 +39,7 @@ System::Net::Security::SslStream::SslStream(System::SharedPtr<IO::Stream> innerS
 | innerStream | [System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> | The stream that is used for sending and receiving data. |
 | leaveInnerStreamOpen | **bool** | If true, closing the current instance has no effect on 'InnerStream'. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [SslStream](../)
-* Namespace [System::Net::Security](../../)
-* Library [Aspose.Slides](../../../)
-## SslStream::SslStream([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>, **bool**, [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/)) constructor
+## SslStream::SslStream(System::SharedPtr\<IO::Stream\>, bool, RemoteCertificateValidationCallback) constructor
 
 
 Constructs a new instance.
@@ -71,15 +57,7 @@ System::Net::Security::SslStream::SslStream(System::SharedPtr<IO::Stream> innerS
 | leaveInnerStreamOpen | **bool** | If true, closing the current instance has no effect on 'InnerStream'. |
 | userCertificateValidationCallback | [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/) | The delegate that is used for validating the certificate supplied by the remote party. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Typedef [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/)
-* Class [SslStream](../)
-* Namespace [System::Net::Security](../../)
-* Library [Aspose.Slides](../../../)
-## SslStream::SslStream([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>, **bool**, [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/), [LocalCertificateSelectionCallback](../../localcertificateselectioncallback/)) constructor
+## SslStream::SslStream(System::SharedPtr\<IO::Stream\>, bool, RemoteCertificateValidationCallback, LocalCertificateSelectionCallback) constructor
 
 
 Constructs a new instance.
@@ -98,16 +76,7 @@ System::Net::Security::SslStream::SslStream(System::SharedPtr<IO::Stream> innerS
 | userCertificateValidationCallback | [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/) | The delegate that is used for validating the certificate supplied by the remote party. |
 | userCertificateSelectionCallback | [LocalCertificateSelectionCallback](../../localcertificateselectioncallback/) | The delegate that is used for selecting the certificate used for authentication. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Typedef [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/)
-* Typedef [LocalCertificateSelectionCallback](../../localcertificateselectioncallback/)
-* Class [SslStream](../)
-* Namespace [System::Net::Security](../../)
-* Library [Aspose.Slides](../../../)
-## SslStream::SslStream([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>, **bool**, [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/), [LocalCertificateSelectionCallback](../../localcertificateselectioncallback/), [EncryptionPolicy](../../encryptionpolicy/)) constructor
+## SslStream::SslStream(System::SharedPtr\<IO::Stream\>, bool, RemoteCertificateValidationCallback, LocalCertificateSelectionCallback, EncryptionPolicy) constructor
 
 
 Constructs a new instance.
@@ -129,11 +98,11 @@ System::Net::Security::SslStream::SslStream(System::SharedPtr<IO::Stream> innerS
 
 ## See Also
 
+* Enum [EncryptionPolicy](../../encryptionpolicy/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
 * Typedef [RemoteCertificateValidationCallback](../../remotecertificatevalidationcallback/)
 * Typedef [LocalCertificateSelectionCallback](../../localcertificateselectioncallback/)
-* Enum [EncryptionPolicy](../../encryptionpolicy/)
+* Class [Stream](../../../system.io/stream/)
 * Class [SslStream](../)
 * Namespace [System::Net::Security](../../)
 * Library [Aspose.Slides](../../../)

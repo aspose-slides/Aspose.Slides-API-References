@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/threedformat/set_depth/
 ---
-## ThreeDFormat::set_Depth(**double**) method
+## ThreeDFormat::set_Depth(double) method
 
 
 Sets the depth of a 3D shape. Write **double**.

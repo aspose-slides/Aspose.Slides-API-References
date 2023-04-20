@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/system.collections.generic/operator_equal_equal/
 ---
-## System::Collections::Generic::operator==(const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>\&, const [KeyValuePair](../keyvaluepair/)\<TKey, TValue\>\&) function
+## System::Collections::Generic::operator==(const KeyValuePair\<TKey, TValue\>\&, const KeyValuePair\<TKey, TValue\>\&) function
 
 
 Compares two key-value pairs using 'equals' semantics. Uses operator == or EqualsTo method for both keys and values, whichever is defined.

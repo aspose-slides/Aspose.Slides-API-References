@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/system.globalization/numberformatinfo/readonly/
 ---
-## NumberFormatInfo::ReadOnly([NumberFormatInfoPtr](../../numberformatinfoptr/)) method
+## NumberFormatInfo::ReadOnly(NumberFormatInfoPtr) method
 
 
 Gets read-only version of formatter.

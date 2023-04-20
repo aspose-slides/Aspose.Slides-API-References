@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.data/datacolumncollection/indexof/
 ---
-## DataColumnCollection::IndexOf(const [System::String](../../../system/string/)\&) method
+## DataColumnCollection::IndexOf(const System::String\&) method
 
 
 Looks for column in collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.smartart/ismartart/get_node/
 ---
-## ISmartArt::get_Node(**int32_t**) method
+## ISmartArt::get_Node(int32_t) method
 
 
 Returns a node from collection of root nodes in [SmartArt](../../smartart/) object at specified index. Read-only [Aspose::Slides::SmartArt::ISmartArtNode](../../ismartartnode/)

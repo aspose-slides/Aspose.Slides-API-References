@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/xmlnamespacemanager/xmlnamespacemanager/
 ---
-## XmlNamespaceManager::XmlNamespaceManager(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlNamespaceManager::XmlNamespaceManager(const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlNamespaceManager](../) class with the specified [XmlNameTable](../../xmlnametable/).

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.serialization/ixmlserializable/readxml/
 ---
-## IXmlSerializable::ReadXml([System::SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlReader](../../../system.xml/xmlreader/)\>) method
+## IXmlSerializable::ReadXml(System::SharedPtr\<System::Xml::XmlReader\>) method
 
 
 Deserializes object from its XML representation.

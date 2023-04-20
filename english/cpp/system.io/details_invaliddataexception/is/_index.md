@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/details_invaliddataexception/is/
 ---
-## Details_InvalidDataException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_InvalidDataException::Is(const System::TypeInfo\&) const method
 
 
 

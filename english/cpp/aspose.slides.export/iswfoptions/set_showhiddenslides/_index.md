@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.export/iswfoptions/set_showhiddenslides/
 ---
-## ISwfOptions::set_ShowHiddenSlides(**bool**) method
+## ISwfOptions::set_ShowHiddenSlides(bool) method
 
 
 Specifies whether the generated document should include hidden slides or not. Default is **false**.

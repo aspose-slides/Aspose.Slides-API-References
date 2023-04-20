@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.schema/xmlschemaobjectcollection/add/
 ---
-## XmlSchemaObjectCollection::Add(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\&) method
+## XmlSchemaObjectCollection::Add(const SharedPtr\<XmlSchemaObject\>\&) method
 
 
 Adds an [XmlSchemaObject](../../xmlschemaobject/) to the [XmlSchemaObjectCollection](../).

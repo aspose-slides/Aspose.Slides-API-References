@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.slides/ishapecollection/insertpictureframe/
 ---
-## IShapeCollection::InsertPictureFrame(**int32_t**, [ShapeType](../../shapetype/), **float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\>) method
+## IShapeCollection::InsertPictureFrame(int32_t, ShapeType, float, float, float, float, System::SharedPtr\<IPPImage\>) method
 
 
 Creates a new [PictureFrame](../../pictureframe/) and inserts it to the collection at the specified index.
@@ -54,9 +54,9 @@ Created [PictureFrame](../../pictureframe/) object.
 
 ## See Also
 
+* Enum [ShapeType](../../shapetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPictureFrame](../../ipictureframe/)
-* Enum [ShapeType](../../shapetype/)
 * Class [IPPImage](../../ippimage/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)

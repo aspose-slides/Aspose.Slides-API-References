@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/enumvalues/getvalueof/
 ---
-## EnumValues::GetValueOf(const [String](../../string/)\&, **bool**) const method
+## EnumValues::GetValueOf(const String\&, bool) const method
 
 
 Returns boxed value of the enum constant with the specified name.

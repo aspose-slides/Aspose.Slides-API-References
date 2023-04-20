@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/iparagraphformat/set_depth/
 ---
-## IParagraphFormat::set_Depth(**int16_t**) method
+## IParagraphFormat::set_Depth(int16_t) method
 
 
 Sets depth of the paragraph. Value 0 means undefined value. Write **int16_t**.

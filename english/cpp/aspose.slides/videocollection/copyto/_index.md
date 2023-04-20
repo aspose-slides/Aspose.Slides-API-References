@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/videocollection/copyto/
 ---
-## VideoCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IVideo](../../ivideo/)\>\>, **int32_t**) method
+## VideoCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IVideo\>\>, int32_t) method
 
 
 Copies videos to specified array starting from specified index.

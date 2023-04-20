@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/chartdataworksheetcollection/idx_get/
 ---
-## ChartDataWorksheetCollection::idx_get(**int32_t**) method
+## ChartDataWorksheetCollection::idx_get(int32_t) method
 
 
 Returns the worksheet by index.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.export/ihtml5options/set_animateshapes/
 ---
-## IHtml5Options::set_AnimateShapes(**bool**) method
+## IHtml5Options::set_AnimateShapes(bool) method
 
 
 Sets shapes animation option. Write **bool**.

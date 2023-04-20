@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/system/string/join/
 ---
-## String::Join(const [String](../)\&, const [ArrayPtr](../../arrayptr/)\<[String](../)\>\&, int, int) method
+## String::Join(const String\&, const ArrayPtr\<String\>\&, int, int) method
 
 
 Joins array using string as separator.
@@ -29,14 +29,7 @@ static String System::String::Join(const String &separator, const ArrayPtr<Strin
 
 [String](../) representing joint array elements.
 
-## See Also
-
-* Class [String](../)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Join(const [String](../)\&, const System::Details::ArrayView\<[String](../)\>\&, int, int) method
+## String::Join(const String\&, const System::Details::ArrayView\<String\>\&, int, int) method
 
 
 Joins array using string as separator.
@@ -59,13 +52,7 @@ static String System::String::Join(const String &separator, const System::Detail
 
 [String](../) representing joint array elements.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Join(const [String](../)\&, const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../)\>\>\&) method
+## String::Join(const String\&, const SharedPtr\<System::Collections::Generic::IEnumerable\<String\>\>\&) method
 
 
 Joins array using string as separator.
@@ -86,15 +73,7 @@ static String System::String::Join(const String &separator, const SharedPtr<Syst
 
 [String](../) representing joint elements.
 
-## See Also
-
-* Class [String](../)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Join(const [String](../)\&, const [ArrayPtr](../../arrayptr/)\<[SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\>\&) method
+## String::Join(const String\&, const ArrayPtr\<SharedPtr\<Object\>\>\&) method
 
 
 Joins array using string as separator.
@@ -117,10 +96,10 @@ static String System::String::Join(const String &separator, const ArrayPtr<Share
 
 ## See Also
 
-* Class [String](../)
 * Typedef [ArrayPtr](../../arrayptr/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
 * Class [String](../)
+* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
+* Class [Object](../../object/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

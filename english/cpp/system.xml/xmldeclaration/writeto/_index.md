@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml/xmldeclaration/writeto/
 ---
-## XmlDeclaration::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlDeclaration::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/).

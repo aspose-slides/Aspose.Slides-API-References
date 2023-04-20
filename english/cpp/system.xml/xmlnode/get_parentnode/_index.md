@@ -41,6 +41,5 @@ If a node has just been created and not yet added to the tree, or if it has been
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNode](../)
-* Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides/iaudioframe/set_rewindaudio/
 ---
-## IAudioFrame::set_RewindAudio(**bool**) method
+## IAudioFrame::set_RewindAudio(bool) method
 
 
 Determines whether an audio is automatically rewinded to start after playing. Write **bool**.

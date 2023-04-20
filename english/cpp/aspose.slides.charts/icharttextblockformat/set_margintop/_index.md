@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.charts/icharttextblockformat/set_margintop/
 ---
-## IChartTextBlockFormat::set_MarginTop(**double**) method
+## IChartTextBlockFormat::set_MarginTop(double) method
 
 
 Sets the top margin (points) in a [TextFrame](../../../aspose.slides/textframe/). Changing of this property can produce a certain influence only for these chart parts: [DataLabel](../../datalabel/) and [DataLabelFormat](../../datalabelformat/) (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). Write **double**.

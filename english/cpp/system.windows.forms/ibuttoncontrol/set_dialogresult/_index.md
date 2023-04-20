@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.windows.forms/ibuttoncontrol/set_dialogresult/
 ---
-## IButtonControl::set_DialogResult([DialogResult](../../dialogresult/)) method
+## IButtonControl::set_DialogResult(DialogResult) method
 
 
 Sets dialog result associated with button.

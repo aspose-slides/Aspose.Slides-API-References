@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/itexthighlightingoptions/
 Represents options which can be used to highlight text in text frame.
 
 ```cpp
-class ITextHighlightingOptions : public System::Object
+class ITextHighlightingOptions : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/igeometrypath/arcto/
 ---
-## IGeometryPath::ArcTo(**float**, **float**, **float**, **float**) method
+## IGeometryPath::ArcTo(float, float, float, float) method
 
 
 Appends the specified arc to the path.

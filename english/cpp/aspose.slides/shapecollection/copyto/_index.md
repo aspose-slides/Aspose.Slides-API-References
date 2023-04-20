@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.slides/shapecollection/copyto/
 ---
-## ShapeCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>\>, **int32_t**) method
+## ShapeCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IShape\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

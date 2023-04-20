@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ipathsegment/
 Represents segment of graphics path of [GeometryShape](../geometryshape/)
 
 ```cpp
-class IPathSegment : public System::Object
+class IPathSegment : public virtual System::Object
 ```
 
 ## Methods

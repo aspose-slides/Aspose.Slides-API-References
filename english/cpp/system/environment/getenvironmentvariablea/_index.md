@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/environment/getenvironmentvariablea/
 ---
-## Environment::GetEnvironmentVariableA(const [String](../../string/)\&) method
+## Environment::GetEnvironmentVariableA(const String\&) method
 
 
 Returns the value of the specified environment varibale associated with the current process.

@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system/uri/checkschemename/
 ---
-## Uri::CheckSchemeName(const [String](../../string/)\&) method
+## Uri::CheckSchemeName(const String\&) method
 
 
 Determines if the specified scheme is valid.

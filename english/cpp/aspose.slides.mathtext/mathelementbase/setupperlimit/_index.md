@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.mathtext/mathelementbase/setupperlimit/
 ---
-## MathElementBase::SetUpperLimit([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathElementBase::SetUpperLimit(System::SharedPtr\<IMathElement\>) method
 
 
 Takes upper limit
@@ -36,15 +36,7 @@ auto limitValue = System::MakeObject<MathematicalText>(u"y?>1");
 auto limitElement = baseElement->SetUpperLimit(limitValue);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathLimit](../../imathlimit/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::SetUpperLimit([System::String](../../../system/string/)) method
+## MathElementBase::SetUpperLimit(System::String) method
 
 
 Takes upper limit
@@ -77,7 +69,8 @@ auto limitElement = baseElement->SetUpperLimit(u"y?>1");
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathLimit](../../imathlimit/)
-* Class [String](../../../system/string/)
+* Class [IMathElement](../../imathelement/)
 * Class [MathElementBase](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

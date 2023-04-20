@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.mathtext/mathnaryoperator/set_hidesuperscript/
 ---
-## MathNaryOperator::set_HideSuperscript(**bool**) method
+## MathNaryOperator::set_HideSuperscript(bool) method
 
 
 Hide Superscript

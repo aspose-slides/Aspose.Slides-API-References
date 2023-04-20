@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.collections.generic/list/find/
 ---
-## List::Find([System::Predicate](../../../system/predicate/)\<T\>) method
+## List::Find(System::Predicate\<T\>) method
 
 
 Looks for element adhering to specific predicate.

@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system/datetimeoffset/operator_plus/
 ---
-## DateTimeOffset::operator+([TimeSpan](../../timespan/)) const method
+## DateTimeOffset::operator+(TimeSpan) const method
 
 
 Returns a new instance of [DateTimeOffset](../) class that represents the date and time value that is the sum of the value represented by the current object and the specified time span.
@@ -30,6 +30,5 @@ A new instance of [DateTimeOffset](../) class that represents the date and time 
 
 * Class [DateTimeOffset](../)
 * Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

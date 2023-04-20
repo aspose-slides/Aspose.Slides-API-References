@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.io/path/getfullpath/
 ---
-## Path::GetFullPath(const [String](../../../system/string/)\&) method
+## Path::GetFullPath(const String\&) method
 
 
 Converts the specified path into absolute path.

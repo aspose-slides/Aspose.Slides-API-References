@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides.export/ipdfoptions/set_accesspermissions/
 ---
-## IPdfOptions::set_AccessPermissions([PdfAccessPermissions](../../pdfaccesspermissions/)) method
+## IPdfOptions::set_AccessPermissions(PdfAccessPermissions) method
 
 
 Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [PdfAccessPermissions](../../pdfaccesspermissions/).

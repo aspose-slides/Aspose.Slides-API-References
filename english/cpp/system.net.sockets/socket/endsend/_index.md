@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system.net.sockets/socket/endsend/
 ---
-## Socket::EndSend([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## Socket::EndSend(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous send operation completes.
@@ -26,14 +26,7 @@ int32_t System::Net::Sockets::Socket::EndSend(System::SharedPtr<IAsyncResult> as
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::EndSend([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>, [SocketError](../../socketerror/)\&) method
+## Socket::EndSend(System::SharedPtr\<IAsyncResult\>, SocketError\&) method
 
 
 Waits until the specified asynchronous send operation completes.
@@ -56,9 +49,9 @@ The number of sent bytes.
 
 ## See Also
 
+* Enum [SocketError](../../socketerror/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IAsyncResult](../../../system/iasyncresult/)
-* Enum [SocketError](../../socketerror/)
 * Class [Socket](../)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

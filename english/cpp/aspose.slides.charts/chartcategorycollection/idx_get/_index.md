@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/chartcategorycollection/idx_get/
 ---
-## ChartCategoryCollection::idx_get(**int32_t**) method
+## ChartCategoryCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

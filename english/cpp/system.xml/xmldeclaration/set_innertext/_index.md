@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml/xmldeclaration/set_innertext/
 ---
-## XmlDeclaration::set_InnerText([String](../../../system/string/)) method
+## XmlDeclaration::set_InnerText(String) method
 
 
 Sets the concatenated values of the [XmlDeclaration](../).

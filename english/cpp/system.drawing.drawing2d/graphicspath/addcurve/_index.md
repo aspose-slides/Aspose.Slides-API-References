@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.drawing.drawing2d/graphicspath/addcurve/
 ---
-## GraphicsPath::AddCurve(const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\&, **float**) method
+## GraphicsPath::AddCurve(const ArrayPtr\<PointF\>\&, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -23,14 +23,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<PointF> &
 | points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | Points that specify the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddCurve(const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\&, **float**) method
+## GraphicsPath::AddCurve(const ArrayPtr\<Point\>\&, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -47,14 +40,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<Point> &p
 | points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | Points that specify the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../../system.drawing/point/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddCurve(const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\&, int, int, **float**) method
+## GraphicsPath::AddCurve(const ArrayPtr\<PointF\>\&, int, int, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -73,14 +59,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<PointF> &
 | number_of_segments | int | The number of segments used to draw the curve |
 | tension | **float** | Specifies the amount that the curve bends between the control points |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddCurve(const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\&, int, int, **float**) method
+## GraphicsPath::AddCurve(const ArrayPtr\<Point\>\&, int, int, float) method
 
 
 Adds the specified curve to the path represented by the current object.
@@ -102,7 +81,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddCurve(const ArrayPtr<Point> &p
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../../system.drawing/point/)
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [GraphicsPath](../)
+* Class [Point](../../../system.drawing/point/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

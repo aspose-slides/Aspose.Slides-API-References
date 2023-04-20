@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.globalization/taiwancalendar/getyear/
 ---
-## TaiwanCalendar::GetYear([DateTime](../../../system/datetime/)) const method
+## TaiwanCalendar::GetYear(DateTime) const method
 
 
 Gets year for the specified time point.

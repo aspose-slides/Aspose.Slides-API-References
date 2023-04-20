@@ -15,12 +15,7 @@ Initializes a new instance of the [XmlSchemaCollection](../) class.
 System::Xml::Schema::XmlSchemaCollection::XmlSchemaCollection()
 ```
 
-## See Also
-
-* Class [XmlSchemaCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaCollection::XmlSchemaCollection(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>\&) constructor
+## XmlSchemaCollection::XmlSchemaCollection(const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlSchemaCollection](../) class with the specified [XmlNameTable](../../../system.xml/xmlnametable/). The [XmlNameTable](../../../system.xml/xmlnametable/) is used when loading schemas.
@@ -39,7 +34,7 @@ System::Xml::Schema::XmlSchemaCollection::XmlSchemaCollection(const SharedPtr<Xm
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNameTable](../../../system.xml/xmlnametable/)
 * Class [XmlSchemaCollection](../)
+* Class [XmlNameTable](../../../system.xml/xmlnametable/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

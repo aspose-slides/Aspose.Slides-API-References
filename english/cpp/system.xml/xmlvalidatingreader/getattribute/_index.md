@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.xml/xmlvalidatingreader/getattribute/
 ---
-## XmlValidatingReader::GetAttribute([String](../../../system/string/)) method
+## XmlValidatingReader::GetAttribute(String) method
 
 
 Returns the value of the attribute with the specified name.
@@ -26,13 +26,7 @@ String System::Xml::XmlValidatingReader::GetAttribute(String name) override
 
 The value of the specified attribute. If the attribute is not found, **nullptr** is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlValidatingReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlValidatingReader::GetAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlValidatingReader::GetAttribute(String, String) method
 
 
 Returns the value of the attribute with the specified local name and namespace Uniform Resource Identifier (URI).
@@ -53,13 +47,7 @@ String System::Xml::XmlValidatingReader::GetAttribute(String localName, String n
 
 The value of the specified attribute. If the attribute is not found, **nullptr** is returned. This method does not move the reader.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlValidatingReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlValidatingReader::GetAttribute(**int32_t**) method
+## XmlValidatingReader::GetAttribute(int32_t) method
 
 
 Returns the value of the attribute with the specified index.

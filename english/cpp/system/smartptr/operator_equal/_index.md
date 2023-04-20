@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/smartptr/operator_equal/
 ---
-## SmartPtr::operator=([SmartPtr_](../smartptr_/)\&&) method
+## SmartPtr::operator=(SmartPtr_\&&) method
 
 
 Move-assigns [SmartPtr](../) object. x becomes unusable.
@@ -26,13 +26,7 @@ SmartPtr_ & System::SmartPtr<T>::operator=(SmartPtr_ &&x) noexcept
 
 Reference to this object.
 
-## See Also
-
-* Typedef [SmartPtr_](../smartptr_/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::operator=(const [SmartPtr_](../smartptr_/)\&) method
+## SmartPtr::operator=(const SmartPtr_\&) method
 
 
 Copy-assigns [SmartPtr](../) object.
@@ -52,13 +46,7 @@ SmartPtr_ & System::SmartPtr<T>::operator=(const SmartPtr_ &x)
 
 Reference to this object.
 
-## See Also
-
-* Typedef [SmartPtr_](../smartptr_/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::operator=(const [SmartPtr](../)\<Q\>\&) method
+## SmartPtr::operator=(const SmartPtr\<Q\>\&) method
 
 
 Copy-assigns [SmartPtr](../) object. Does required type conversions.
@@ -84,14 +72,7 @@ template<typename Q> SmartPtr_ & System::SmartPtr<T>::operator=(const SmartPtr<Q
 
 Reference to this object.
 
-## See Also
-
-* Typedef [SmartPtr_](../smartptr_/)
-* Class [SmartPtr](../)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::operator=([Pointee_](../pointee_/) *) method
+## SmartPtr::operator=(Pointee_ *) method
 
 
 Assigns raw pointer to [SmartPtr](../) object.
@@ -111,13 +92,6 @@ SmartPtr_ & System::SmartPtr<T>::operator=(Pointee_ *p)
 
 Reference to this object.
 
-## See Also
-
-* Typedef [SmartPtr_](../smartptr_/)
-* Typedef [Pointee_](../pointee_/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## SmartPtr::operator=(std::nullptr_t) method
 
 
@@ -135,6 +109,7 @@ Reference to this object.
 ## See Also
 
 * Typedef [SmartPtr_](../smartptr_/)
+* Typedef [Pointee_](../pointee_/)
 * Class [SmartPtr](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

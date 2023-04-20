@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/bitconverter/toboolean/
 ---
-## BitConverter::ToBoolean(const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToBoolean(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts one byte from the specified array starting at the specified index to boolean value.
@@ -27,13 +27,7 @@ static bool System::BitConverter::ToBoolean(const System::ArrayPtr<uint8_t> &val
 
 [Boolean](../../boolean/) value resulting from conversion
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToBoolean(const System::Details::ArrayView\<**uint8_t**\>\&, int) method
+## BitConverter::ToBoolean(const System::Details::ArrayView\<uint8_t\>\&, int) method
 
 
 Converts one byte from the specified array starting at the specified index to boolean value.
@@ -56,6 +50,7 @@ static bool System::BitConverter::ToBoolean(const System::Details::ArrayView<uin
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

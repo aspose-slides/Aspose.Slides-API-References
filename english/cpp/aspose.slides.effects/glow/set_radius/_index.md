@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/glow/set_radius/
 ---
-## Glow::set_Radius(**double**) method
+## Glow::set_Radius(double) method
 
 
 Radius. Write **double**.

@@ -34,11 +34,6 @@ template<class T0,class T1,class> static auto System::Math::Min(T0 val1, T1 val2
 
 Smallest value out of **val1** and **val2**.
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Math::Min(T0, T1) method
 
 

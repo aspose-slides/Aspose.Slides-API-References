@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system/string/indexof/
 ---
-## String::IndexOf(const [String](../)\&, [System::StringComparison](../../stringcomparison/)) const method
+## String::IndexOf(const String\&, System::StringComparison) const method
 
 
 Substring forward lookup.
@@ -27,13 +27,6 @@ int System::String::IndexOf(const String &str, System::StringComparison comparis
 
 Index of first found substring or -1 if not found. For empty lookup string, always returns 0.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::IndexOf(char_t, int) const method
 
 
@@ -55,11 +48,6 @@ int System::String::IndexOf(char_t c, int startIndex=0) const
 
 Index of first character position since startIndex or -1 if not found.
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::IndexOf(char_t, int, int) const method
 
 
@@ -82,12 +70,7 @@ int System::String::IndexOf(char_t c, int startIndex, int count) const
 
 Index of first character position since startIndex or -1 if not found.
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOf(const [String](../)\&, int) const method
+## String::IndexOf(const String\&, int) const method
 
 
 Substring forward lookup.
@@ -108,13 +91,7 @@ int System::String::IndexOf(const String &str, int startIndex=0) const
 
 Index of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOf(const [String](../)\&, int, [System::StringComparison](../../stringcomparison/)) const method
+## String::IndexOf(const String\&, int, System::StringComparison) const method
 
 
 Substring forward lookup.
@@ -136,14 +113,7 @@ int System::String::IndexOf(const String &str, int startIndex, System::StringCom
 
 Index of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOf(const [String](../)\&, int, int, [System::StringComparison](../../stringcomparison/)) const method
+## String::IndexOf(const String\&, int, int, System::StringComparison) const method
 
 
 Substring forward lookup.
@@ -166,14 +136,7 @@ int System::String::IndexOf(const String &value, int startIndex, int count, Syst
 
 Index of first found substring or -1 if not found. For empty lookup string, always returns startIndex.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOf(const [String](../)\&, int, int) const method
+## String::IndexOf(const String\&, int, int) const method
 
 
 Substring forward lookup.
@@ -197,7 +160,7 @@ Index of first found substring or -1 if not found. For empty lookup string, alwa
 
 ## See Also
 
-* Class [String](../)
+* Enum [StringComparison](../../stringcomparison/)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

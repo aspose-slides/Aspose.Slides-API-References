@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/domobject/settemplateweakptr/
 ---
-## DomObject::SetTemplateWeakPtr(**uint32_t**) method
+## DomObject::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

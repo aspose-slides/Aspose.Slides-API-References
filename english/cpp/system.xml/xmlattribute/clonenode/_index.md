@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml/xmlattribute/clonenode/
 ---
-## XmlAttribute::CloneNode(**bool**) method
+## XmlAttribute::CloneNode(bool) method
 
 
 Creates a duplicate of this node.

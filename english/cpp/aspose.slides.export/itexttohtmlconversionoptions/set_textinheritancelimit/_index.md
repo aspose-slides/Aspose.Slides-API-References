@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.export/itexttohtmlconversionoptions/set_textinheritancelimit/
 ---
-## ITextToHtmlConversionOptions::set_TextInheritanceLimit([Aspose::Slides::Export::TextInheritanceLimit](../../textinheritancelimit/)) method
+## ITextToHtmlConversionOptions::set_TextInheritanceLimit(Aspose::Slides::Export::TextInheritanceLimit) method
 
 
 Sets inhering depth for text properties. Write [TextInheritanceLimit](../../textinheritancelimit/).

@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/system.globalization/cultureinfo/createspecificculture/
 ---
-## CultureInfo::CreateSpecificCulture(const [String](../../../system/string/)\&) method
+## CultureInfo::CreateSpecificCulture(const String\&) method
 
 
 Creates culture by name.

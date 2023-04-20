@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography/dsa/importparameters/
 ---
-## DSA::ImportParameters([DSAParameters](../../dsaparameters/)) method
+## DSA::ImportParameters(DSAParameters) method
 
 
 Imports all parameters from data structure.
@@ -24,7 +24,7 @@ virtual void System::Security::Cryptography::DSA::ImportParameters(DSAParameters
 
 ## See Also
 
-* Struct [DSAParameters](../../dsaparameters/)
 * Class [DSA](../)
+* Struct [DSAParameters](../../dsaparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

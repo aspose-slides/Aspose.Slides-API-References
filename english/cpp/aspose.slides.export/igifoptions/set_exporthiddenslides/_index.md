@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.export/igifoptions/set_exporthiddenslides/
 ---
-## IGifOptions::set_ExportHiddenSlides(**bool**) method
+## IGifOptions::set_ExportHiddenSlides(bool) method
 
 
 Determines whether hidden slides will be exported. The default value is false.

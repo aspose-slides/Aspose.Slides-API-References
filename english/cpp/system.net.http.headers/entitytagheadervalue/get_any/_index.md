@@ -24,6 +24,5 @@ A value of the 'ETag' header.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [EntityTagHeaderValue](../)
-* Class [EntityTagHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

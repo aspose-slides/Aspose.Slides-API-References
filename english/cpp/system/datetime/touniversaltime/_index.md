@@ -18,6 +18,5 @@ DateTime System::DateTime::ToUniversalTime() const
 ## See Also
 
 * Class [DateTime](../)
-* Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

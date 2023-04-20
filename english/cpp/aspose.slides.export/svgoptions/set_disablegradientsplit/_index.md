@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.export/svgoptions/set_disablegradientsplit/
 ---
-## SVGOptions::set_DisableGradientSplit(**bool**) method
+## SVGOptions::set_DisableGradientSplit(bool) method
 
 
 Disables splitting FromCornerX and FromCenter gradients. Write **bool**.

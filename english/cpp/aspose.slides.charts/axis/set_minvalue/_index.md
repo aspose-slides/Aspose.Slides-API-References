@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.slides.charts/axis/set_minvalue/
 ---
-## Axis::set_MinValue(**double**) method
+## Axis::set_MinValue(double) method
 
 
 Represents the minimum value on the value axis. Write **double**.

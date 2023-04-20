@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.net.sockets/tcpclient/tcpclient/
 ---
-## TcpClient::TcpClient([System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\>) constructor
+## TcpClient::TcpClient(System::SharedPtr\<IPEndPoint\>) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,6 @@ System::Net::Sockets::TcpClient::TcpClient(System::SharedPtr<IPEndPoint> localEP
 | --- | --- | --- |
 | localEP | [System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\> | The endpoint to which the socket is bound. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPEndPoint](../../../system.net/ipendpoint/)
-* Class [TcpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
 ## TcpClient::TcpClient() constructor
 
 
@@ -38,12 +31,7 @@ Constructs a new instance.
 System::Net::Sockets::TcpClient::TcpClient()
 ```
 
-## See Also
-
-* Class [TcpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## TcpClient::TcpClient([AddressFamily](../../addressfamily/)) constructor
+## TcpClient::TcpClient(AddressFamily) constructor
 
 
 Constructs a new instance.
@@ -59,13 +47,7 @@ System::Net::Sockets::TcpClient::TcpClient(AddressFamily family)
 | --- | --- | --- |
 | family | [AddressFamily](../../addressfamily/) | An address family. |
 
-## See Also
-
-* Enum [AddressFamily](../../addressfamily/)
-* Class [TcpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## TcpClient::TcpClient([String](../../../system/string/), **int32_t**) constructor
+## TcpClient::TcpClient(String, int32_t) constructor
 
 
 Constructs a new instance.
@@ -84,7 +66,10 @@ System::Net::Sockets::TcpClient::TcpClient(String hostname, int32_t port)
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Enum [AddressFamily](../../addressfamily/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IPEndPoint](../../../system.net/ipendpoint/)
 * Class [TcpClient](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

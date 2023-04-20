@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.runtime.serialization/formatterconverter/tochar/
 ---
-## FormatterConverter::ToChar([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FormatterConverter::ToChar(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a char16_t.

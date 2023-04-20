@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.charts/chartseriesgroup/set_piesplitby/
 ---
-## ChartSeriesGroup::set_PieSplitBy([PieSplitType](../../piesplittype/)) method
+## ChartSeriesGroup::set_PieSplitBy(PieSplitType) method
 
 
 Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Write [PieSplitType](../../piesplittype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.globalization/numberformatinfo/set_negativesign/
 ---
-## NumberFormatInfo::set_NegativeSign(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_NegativeSign(const String\&) method
 
 
 Sets negative sign.

@@ -26,14 +26,7 @@ SharedPtr<LinkedListNode<T>> System::Collections::Generic::LinkedList<T>::AddFir
 
 New node.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [LinkedListNode](../../linkedlistnode/)
-* Class [LinkedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## LinkedList::AddFirst(const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&) method
+## LinkedList::AddFirst(const SharedPtr\<LinkedListNode\<T\>\>\&) method
 
 
 Adds **newNode** to the beginning of the list.

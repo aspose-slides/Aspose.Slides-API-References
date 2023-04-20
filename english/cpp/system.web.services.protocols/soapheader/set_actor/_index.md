@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web.services.protocols/soapheader/set_actor/
 ---
-## SoapHeader::set_Actor([String](../../../system/string/)) method
+## SoapHeader::set_Actor(String) method
 
 
 Sets the URI of the SOAP header recipient when SOAP version 1.1 is used.

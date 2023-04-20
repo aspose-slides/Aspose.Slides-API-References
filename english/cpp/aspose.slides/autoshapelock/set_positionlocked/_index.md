@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/autoshapelock/set_positionlocked/
 ---
-## AutoShapeLock::set_PositionLocked(**bool**) method
+## AutoShapeLock::set_PositionLocked(bool) method
 
 
 Determines whether a moving this shape is forbidden. Write **bool**.

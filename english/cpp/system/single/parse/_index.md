@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/single/parse/
 ---
-## Single::Parse(const [String](../../string/)\&) method
+## Single::Parse(const String\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent single-precision floating-point value.
@@ -26,13 +26,7 @@ static float System::Single::Parse(const String &value)
 
 The single-precision floating-point value equal to the number represented by the specified string.
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Single::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent single-precision floating-point value using the provided formatting information.
@@ -53,15 +47,7 @@ static float System::Single::Parse(const String &value, const SharedPtr<IFormatP
 
 The single-precision floating-point value equal to the number represented by the specified string.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Single::Parse(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -70,15 +56,7 @@ The single-precision floating-point value equal to the number represented by the
 static float System::Single::Parse(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Single::Parse(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -87,15 +65,7 @@ static float System::Single::Parse(const String &value, const SharedPtr<Globaliz
 static float System::Single::Parse(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, std::nullptr_t) method
+## Single::Parse(const String\&, std::nullptr_t) method
 
 
 
@@ -104,13 +74,7 @@ static float System::Single::Parse(const String &value, const SharedPtr<Globaliz
 static float System::Single::Parse(const String &value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Single::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent single-precision floating-point value using the provided formatting information and number style.
@@ -132,16 +96,7 @@ static float System::Single::Parse(const String &value, Globalization::NumberSty
 
 The single-precision floating-point value equal to the number represented by the specified string.
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Single::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -150,16 +105,7 @@ The single-precision floating-point value equal to the number represented by the
 static float System::Single::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Single::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -168,16 +114,7 @@ static float System::Single::Parse(const String &value, Globalization::NumberSty
 static float System::Single::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Single](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Single::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), std::nullptr_t) method
+## Single::Parse(const String\&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -188,8 +125,12 @@ static float System::Single::Parse(const String &value, Globalization::NumberSty
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
 * Struct [Single](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

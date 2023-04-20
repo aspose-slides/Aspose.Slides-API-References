@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net.http.headers/mediatypeheadervalue/getmediatypelength/
 ---
-## MediaTypeHeaderValue::GetMediaTypeLength([String](../../../system/string/), **int32_t**, [HeaderFunc](../../headerfunc/)\<[System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeHeaderValue](../)\>\>, [System::SharedPtr](../../../system/sharedptr/)\<[MediaTypeHeaderValue](../)\>\&) method
+## MediaTypeHeaderValue::GetMediaTypeLength(String, int32_t, HeaderFunc\<System::SharedPtr\<MediaTypeHeaderValue\>\>, System::SharedPtr\<MediaTypeHeaderValue\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [MediaTypeHeaderValue](../) class.
@@ -31,10 +31,9 @@ Returns the length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [HeaderFunc](../../headerfunc/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [MediaTypeHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [MediaTypeHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

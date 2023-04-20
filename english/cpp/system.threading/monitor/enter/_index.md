@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.threading/monitor/enter/
 ---
-## Monitor::Enter(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Monitor::Enter(const SharedPtr\<Object\>\&) method
 
 
 Acquires an exclusive lock on a specified object.
@@ -22,14 +22,7 @@ static void System::Threading::Monitor::Enter(const SharedPtr<Object> &obj)
 | --- | --- | --- |
 | obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object on which to acquire the monitor lock. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::Enter(const [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, **bool**\&) method
+## Monitor::Enter(const System::SharedPtr\<Object\>\&, bool\&) method
 
 
 Acquires an exclusive lock on the specified object, and atomically sets a value that indicates whether the lock was taken.

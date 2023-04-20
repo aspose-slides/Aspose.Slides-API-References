@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/svgoptions/set_useframesize/
 ---
-## SVGOptions::set_UseFrameSize(**bool**) method
+## SVGOptions::set_UseFrameSize(bool) method
 
 
 Determines whether the text frame will be included in a rendering area or not. Write **bool**. Default value is false.

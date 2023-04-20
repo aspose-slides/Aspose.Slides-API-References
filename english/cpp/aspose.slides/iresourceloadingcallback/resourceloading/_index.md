@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/iresourceloadingcallback/resourceloading/
 ---
-## IResourceLoadingCallback::ResourceLoading([System::SharedPtr](../../../system/sharedptr/)\<[IResourceLoadingArgs](../../iresourceloadingargs/)\>) method
+## IResourceLoadingCallback::ResourceLoading(System::SharedPtr\<IResourceLoadingArgs\>) method
 
 
 Callback method which regulates external resources loading.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/imultiplecellchartvalue/set_ascells/
 ---
-## IMultipleCellChartValue::set_AsCells([System::SharedPtr](../../../system/sharedptr/)\<[IChartCellCollection](../../ichartcellcollection/)\>) method
+## IMultipleCellChartValue::set_AsCells(System::SharedPtr\<IChartCellCollection\>) method
 
 
 Sets the collection of chart cells. Write [IChartCellCollection](../../ichartcellcollection/).

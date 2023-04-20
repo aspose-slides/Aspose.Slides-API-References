@@ -6,7 +6,7 @@ type: docs
 weight: 1002
 url: /cpp/system.xml/xmlreader/isnametoken/
 ---
-## XmlReader::IsNameToken(const [String](../../../system/string/)\&) method
+## XmlReader::IsNameToken(const String\&) method
 
 
 Returns a value indicating whether or not the string argument is a valid XML name token.

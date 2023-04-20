@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemainference/set_occurrence/
 ---
-## XmlSchemaInference::set_Occurrence([XmlSchemaInference::InferenceOption](../inferenceoption/)) method
+## XmlSchemaInference::set_Occurrence(XmlSchemaInference::InferenceOption) method
 
 
 Sets the [XmlSchemaInference::InferenceOption](../inferenceoption/) value that affects schema occurrence declarations inferred from the XML document.

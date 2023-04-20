@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.collections.generic/iset/unionwith/
 ---
-## ISet::UnionWith([IEnumerablePtr](../ienumerableptr/)) method
+## ISet::UnionWith(IEnumerablePtr) method
 
 
 Adds elements from specified collection that are not present in current set yet.

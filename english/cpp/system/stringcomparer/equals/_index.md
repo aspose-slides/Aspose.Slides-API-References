@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system/stringcomparer/equals/
 ---
-## StringComparer::Equals([String](../../string/), [String](../../string/)) const method
+## StringComparer::Equals(String, String) const method
 
 
 Checks if two strings are equal using current settings.

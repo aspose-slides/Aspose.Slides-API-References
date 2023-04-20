@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/chartwall/set_picturetype/
 ---
-## ChartWall::set_PictureType([Aspose::Slides::Charts::PictureType](../../picturetype/)) method
+## ChartWall::set_PictureType(Aspose::Slides::Charts::PictureType) method
 
 
 Return or sets the picture type. Write [Charts::PictureType](../../picturetype/).

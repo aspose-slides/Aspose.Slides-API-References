@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.xml/xmlwriter/writewhitespace/
 ---
-## XmlWriter::WriteWhitespace([String](../../../system/string/)) method
+## XmlWriter::WriteWhitespace(String) method
 
 
 When overridden in a derived class, writes out the given white space.

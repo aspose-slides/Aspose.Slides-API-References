@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.threading/details_synchronizationlockexception/is/
 ---
-## Details_SynchronizationLockException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_SynchronizationLockException::Is(const System::TypeInfo\&) const method
 
 
 

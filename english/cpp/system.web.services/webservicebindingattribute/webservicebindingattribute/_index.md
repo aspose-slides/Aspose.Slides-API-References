@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Web::Services::WebServiceBindingAttribute::WebServiceBindingAttribute()
 ```
 
-## See Also
-
-* Class [WebServiceBindingAttribute](../)
-* Namespace [System::Web::Services](../../)
-* Library [Aspose.Slides](../../../)
-## WebServiceBindingAttribute::WebServiceBindingAttribute([String](../../../system/string/)) constructor
+## WebServiceBindingAttribute::WebServiceBindingAttribute(String) constructor
 
 
 Constructs a new instance.
@@ -36,13 +31,7 @@ System::Web::Services::WebServiceBindingAttribute::WebServiceBindingAttribute(St
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The binding's name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [WebServiceBindingAttribute](../)
-* Namespace [System::Web::Services](../../)
-* Library [Aspose.Slides](../../../)
-## WebServiceBindingAttribute::WebServiceBindingAttribute([String](../../../system/string/), [String](../../../system/string/)) constructor
+## WebServiceBindingAttribute::WebServiceBindingAttribute(String, String) constructor
 
 
 Constructs a new instance.
@@ -59,13 +48,7 @@ System::Web::Services::WebServiceBindingAttribute::WebServiceBindingAttribute(St
 | name | [String](../../../system/string/) | The binding's name. |
 | ns | [String](../../../system/string/) | The namespace that is associated with the binding. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [WebServiceBindingAttribute](../)
-* Namespace [System::Web::Services](../../)
-* Library [Aspose.Slides](../../../)
-## WebServiceBindingAttribute::WebServiceBindingAttribute([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) constructor
+## WebServiceBindingAttribute::WebServiceBindingAttribute(String, String, String) constructor
 
 
 Constructs a new instance.
@@ -85,7 +68,7 @@ System::Web::Services::WebServiceBindingAttribute::WebServiceBindingAttribute(St
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [WebServiceBindingAttribute](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Web::Services](../../)
 * Library [Aspose.Slides](../../../)

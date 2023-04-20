@@ -3,10 +3,10 @@ title: ConstCast()
 second_title: Aspose.Slides for C++ API Reference
 description: End of deprecated casts.
 type: docs
-weight: 2198
+weight: 1860
 url: /cpp/system/constcast/
 ---
-## System::ConstCast(const [SmartPtr](../smartptr/)\<TFrom\>\&) function
+## System::ConstCast(const SmartPtr\<TFrom\>\&) function
 
 
 End of deprecated casts.
@@ -38,7 +38,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Performs const cast on [SmartPtr](../smartptr/) objects. 
 ## See Also
 
-* Struct [CastResult](../castresult/)
 * Class [SmartPtr](../smartptr/)
+* Struct [CastResult](../castresult/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

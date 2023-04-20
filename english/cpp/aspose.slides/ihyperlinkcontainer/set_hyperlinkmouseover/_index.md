@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ihyperlinkcontainer/set_hyperlinkmouseover/
 ---
-## IHyperlinkContainer::set_HyperlinkMouseOver([System::SharedPtr](../../../system/sharedptr/)\<[IHyperlink](../../ihyperlink/)\>) method
+## IHyperlinkContainer::set_HyperlinkMouseOver(System::SharedPtr\<IHyperlink\>) method
 
 
 Sets the hyperlink defined for mouse over. Write [IHyperlink](../../ihyperlink/).

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/summaryzoomframe/get_summaryzoomsection/
 ---
-## SummaryZoomFrame::get_SummaryZoomSection(**int32_t**) method
+## SummaryZoomFrame::get_SummaryZoomSection(int32_t) method
 
 
 Returns the Summary Zoom [Section](../../section/) object in the slide at the specified index. Read-only [Aspose::Slides::ISummaryZoomSection](../../isummaryzoomsection/).

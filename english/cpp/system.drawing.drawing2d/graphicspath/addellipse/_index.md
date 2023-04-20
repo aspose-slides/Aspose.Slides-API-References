@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.drawing.drawing2d/graphicspath/addellipse/
 ---
-## GraphicsPath::AddEllipse(**float**, **float**, **float**, **float**) method
+## GraphicsPath::AddEllipse(float, float, float, float) method
 
 
 Adds the specified ellipse to the path represented by the current object.
@@ -25,11 +25,6 @@ void System::Drawing::Drawing2D::GraphicsPath::AddEllipse(float x, float y, floa
 | width | **float** | The width of the upper left corner of the rectangle that bounds the ellipse to add |
 | height | **float** | The height of the upper left corner of the rectangle that bounds the ellipse to add |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
 ## GraphicsPath::AddEllipse(int, int, int, int) method
 
 
@@ -49,12 +44,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddEllipse(int x, int y, int widt
 | width | int | The width of the upper left corner of the rectangle that bounds the ellipse to add |
 | height | int | The height of the upper left corner of the rectangle that bounds the ellipse to add |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddEllipse(const [RectangleF](../../../system.drawing/rectanglef/)\&) method
+## GraphicsPath::AddEllipse(const RectangleF\&) method
 
 
 Adds the specified ellipse to the path represented by the current object.
@@ -70,13 +60,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddEllipse(const RectangleF &rect
 | --- | --- | --- |
 | rect | const [RectangleF](../../../system.drawing/rectanglef/)\& | Specifies a rectangle that bounds the ellipse to add |
 
-## See Also
-
-* Class [RectangleF](../../../system.drawing/rectanglef/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddEllipse(const [Rectangle](../../../system.drawing/rectangle/)\&) method
+## GraphicsPath::AddEllipse(const Rectangle\&) method
 
 
 Adds the specified ellipse to the path represented by the current object.
@@ -94,7 +78,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddEllipse(const Rectangle &rect)
 
 ## See Also
 
-* Class [Rectangle](../../../system.drawing/rectangle/)
 * Class [GraphicsPath](../)
+* Class [RectangleF](../../../system.drawing/rectanglef/)
+* Class [Rectangle](../../../system.drawing/rectangle/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.io/directory/getcreationtimeutc/
 ---
-## Directory::GetCreationTimeUtc(const [String](../../../system/string/)\&) method
+## Directory::GetCreationTimeUtc(const String\&) method
 
 
 Returns the creation time of the specified entity as UTC time.

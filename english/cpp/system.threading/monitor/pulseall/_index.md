@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.threading/monitor/pulseall/
 ---
-## Monitor::PulseAll(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Monitor::PulseAll(const SharedPtr\<Object\>\&) method
 
 
 Notifies all waiting threads of a change in the object's state Not implemented.

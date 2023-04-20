@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/blobmanagementoptions/set_istemporaryfilesallowed/
 ---
-## BlobManagementOptions::set_IsTemporaryFilesAllowed(**bool**) method
+## BlobManagementOptions::set_IsTemporaryFilesAllowed(bool) method
 
 
 This property defines if temporary files can be created while working with BLOBs, what greatly decreases the memory consumption but requires permissions to create files.

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system/datetimeoffset/addhours/
 ---
-## DateTimeOffset::AddHours(**double**) const method
+## DateTimeOffset::AddHours(double) const method
 
 
 Adds a specified number of hours to the [DateTimeOffset](../) object.
@@ -28,7 +28,6 @@ Result of operation.
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

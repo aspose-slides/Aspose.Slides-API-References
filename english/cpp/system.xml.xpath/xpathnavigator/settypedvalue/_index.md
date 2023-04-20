@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.xml.xpath/xpathnavigator/settypedvalue/
 ---
-## XPathNavigator::SetTypedValue([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XPathNavigator::SetTypedValue(SharedPtr\<Object\>) method
 
 
 Sets the typed value of the current node.

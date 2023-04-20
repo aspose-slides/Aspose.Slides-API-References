@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ishapecollection/idx_get/
 ---
-## IShapeCollection::idx_get(**int32_t**) method
+## IShapeCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [IShape](../../ishape/).

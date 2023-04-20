@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.runtime.serialization/serializationinfo/addvalue/
 ---
-## SerializationInfo::AddValue(const [System::String](../../../system/string/)\&, **float**) method
+## SerializationInfo::AddValue(const System::String\&, float) method
 
 
 Puts float value. Not implemented.
@@ -23,13 +23,7 @@ void System::Runtime::Serialization::SerializationInfo::AddValue(const System::S
 | name | const [System::String](../../../system/string/)\& | Value name. |
 | value | **float** | Value to put. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [SerializationInfo](../)
-* Namespace [System::Runtime::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## SerializationInfo::AddValue(const [System::String](../../../system/string/)\&, short) method
+## SerializationInfo::AddValue(const System::String\&, short) method
 
 
 Puts short value. Not implemented.
@@ -46,13 +40,7 @@ void System::Runtime::Serialization::SerializationInfo::AddValue(const System::S
 | name | const [System::String](../../../system/string/)\& | Value name. |
 | value | short | Value to put. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [SerializationInfo](../)
-* Namespace [System::Runtime::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## SerializationInfo::AddValue(const [System::String](../../../system/string/)\&, **bool**) method
+## SerializationInfo::AddValue(const System::String\&, bool) method
 
 
 Puts boolean value. Not implemented.
@@ -69,13 +57,7 @@ void System::Runtime::Serialization::SerializationInfo::AddValue(const System::S
 | name | const [System::String](../../../system/string/)\& | Value name. |
 | value | **bool** | Value to put. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [SerializationInfo](../)
-* Namespace [System::Runtime::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## SerializationInfo::AddValue(const [System::String](../../../system/string/)\&, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## SerializationInfo::AddValue(const System::String\&, const System::SharedPtr\<System::Object\>\&) method
 
 
 Puts object value. Not implemented.
@@ -92,15 +74,7 @@ void System::Runtime::Serialization::SerializationInfo::AddValue(const System::S
 | name | const [System::String](../../../system/string/)\& | Value name. |
 | value | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\& | Value to put. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [SerializationInfo](../)
-* Namespace [System::Runtime::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## SerializationInfo::AddValue(const [System::String](../../../system/string/)\&, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&, const [System::TypeInfo](../../../system/typeinfo/)\&) method
+## SerializationInfo::AddValue(const System::String\&, const System::SharedPtr\<System::Object\>\&, const System::TypeInfo\&) method
 
 
 Puts object value with specifed type. Not implemented.
@@ -120,10 +94,10 @@ void System::Runtime::Serialization::SerializationInfo::AddValue(const System::S
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
+* Class [SerializationInfo](../)
 * Class [Object](../../../system/object/)
 * Class [TypeInfo](../../../system/typeinfo/)
-* Class [SerializationInfo](../)
 * Namespace [System::Runtime::Serialization](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.charts/ichartseriesgroupcollection/idx_get/
 ---
-## IChartSeriesGroupCollection::idx_get([System::SharedPtr](../../../system/sharedptr/)\<[IChartSeries](../../ichartseries/)\>) method
+## IChartSeriesGroupCollection::idx_get(System::SharedPtr\<IChartSeries\>) method
 
 
 Gets the series group by series.
@@ -15,15 +15,7 @@ Gets the series group by series.
 virtual System::SharedPtr<IChartSeriesGroup> Aspose::Slides::Charts::IChartSeriesGroupCollection::idx_get(System::SharedPtr<IChartSeries> ofSeries)=0
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartSeriesGroup](../../ichartseriesgroup/)
-* Class [IChartSeries](../../ichartseries/)
-* Class [IChartSeriesGroupCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartSeriesGroupCollection::idx_get(**int32_t**) method
+## IChartSeriesGroupCollection::idx_get(int32_t) method
 
 
 Gets the series group by index.
@@ -36,6 +28,7 @@ virtual System::SharedPtr<IChartSeriesGroup> Aspose::Slides::Charts::IChartSerie
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartSeriesGroup](../../ichartseriesgroup/)
+* Class [IChartSeries](../../ichartseries/)
 * Class [IChartSeriesGroupCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

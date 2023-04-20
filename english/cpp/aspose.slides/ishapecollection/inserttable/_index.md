@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.slides/ishapecollection/inserttable/
 ---
-## IShapeCollection::InsertTable(**int32_t**, **float**, **float**, [System::ArrayPtr](../../../system/arrayptr/)\<**double**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**double**\>) method
+## IShapeCollection::InsertTable(int32_t, float, float, System::ArrayPtr\<double\>, System::ArrayPtr\<double\>) method
 
 
 Creates a new [Table](../../table/) and inserts it to the collection at the specified index.
@@ -33,8 +33,8 @@ Created [Table](../../table/) object.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITable](../../itable/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [ITable](../../itable/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

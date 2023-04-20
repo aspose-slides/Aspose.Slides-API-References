@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/datalabelformat/set_isnumberformatlinkedtosource/
 ---
-## DataLabelFormat::set_IsNumberFormatLinkedToSource(**bool**) method
+## DataLabelFormat::set_IsNumberFormatLinkedToSource(bool) method
 
 
 Write **bool**.

@@ -24,6 +24,5 @@ The implementation of a cryptographic random number generator
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RandomNumberGenerator](../)
-* Class [RandomNumberGenerator](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

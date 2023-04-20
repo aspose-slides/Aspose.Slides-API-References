@@ -3,7 +3,7 @@ title: CryptographicUnexpectedOperationException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1002
+weight: 911
 url: /cpp/system.security.cryptography/cryptographicunexpectedoperationexception/
 ---
 ## CryptographicUnexpectedOperationException typedef

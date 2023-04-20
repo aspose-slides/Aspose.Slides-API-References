@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlconvert/decodename/
 ---
-## XmlConvert::DecodeName(const [String](../../../system/string/)\&) method
+## XmlConvert::DecodeName(const String\&) method
 
 
 Decodes a name. This method does the reverse of the XmlConvert::EncodeName(String) and XmlConvert::EncodeLocalName(String) methods.

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/tagcollection/copyto/
 ---
-## TagCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::Collections::Generic::KeyValuePair](../../../system.collections.generic/keyvaluepair/)\<[System::String](../../../system/string/), [System::String](../../../system/string/)\>\>, **int32_t**) method
+## TagCollection::CopyTo(System::ArrayPtr\<System::Collections::Generic::KeyValuePair\<System::String, System::String\>\>, int32_t) method
 
 
 Copies all elements from the collection into the specified array.

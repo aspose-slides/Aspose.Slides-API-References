@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/cookiecollection/idx_get/
 ---
-## CookieCollection::idx_get(**int32_t**) method
+## CookieCollection::idx_get(int32_t) method
 
 
 Returns a cookie from the cookie collection at the specified index.
@@ -26,14 +26,7 @@ System::SharedPtr<Cookie> System::Net::CookieCollection::idx_get(int32_t index)
 
 A cookie at the specified index.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Cookie](../../cookie/)
-* Class [CookieCollection](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CookieCollection::idx_get([String](../../../system/string/)) method
+## CookieCollection::idx_get(String) method
 
 
 Returns a cookie from the cookie collection by specified name.
@@ -57,7 +50,7 @@ A cookie from the cookie collection by specified name when it is found, otherwis
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Cookie](../../cookie/)
-* Class [String](../../../system/string/)
 * Class [CookieCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net/webheadercollection/getvalues/
 ---
-## WebHeaderCollection::GetValues([String](../../../system/string/)) method
+## WebHeaderCollection::GetValues(String) method
 
 
 Returns the collection of the header values.

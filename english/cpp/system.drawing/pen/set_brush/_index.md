@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.drawing/pen/set_brush/
 ---
-## Pen::set_Brush(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&) method
+## Pen::set_Brush(const SharedPtr\<Brush\>\&) method
 
 
 Sets this pen's [Brush](../../brush/) object.

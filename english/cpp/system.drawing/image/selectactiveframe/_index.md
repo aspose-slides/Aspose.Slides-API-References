@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.drawing/image/selectactiveframe/
 ---
-## Image::SelectActiveFrame(const [Imaging::FrameDimensionPtr](../../../system.drawing.imaging/framedimensionptr/)\&, int) method
+## Image::SelectActiveFrame(const Imaging::FrameDimensionPtr\&, int) method
 
 
 Selects the specified frame.

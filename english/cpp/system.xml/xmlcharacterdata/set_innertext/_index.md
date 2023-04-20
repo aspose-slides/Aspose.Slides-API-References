@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlcharacterdata/set_innertext/
 ---
-## XmlCharacterData::set_InnerText([String](../../../system/string/)) method
+## XmlCharacterData::set_InnerText(String) method
 
 
 Sets the concatenated values of the node and all the children of the node.

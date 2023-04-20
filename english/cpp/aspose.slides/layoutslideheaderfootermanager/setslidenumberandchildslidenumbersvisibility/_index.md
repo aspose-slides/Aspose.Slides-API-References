@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/layoutslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
-## LayoutSlideHeaderFooterManager::SetSlideNumberAndChildSlideNumbersVisibility(**bool**) method
+## LayoutSlideHeaderFooterManager::SetSlideNumberAndChildSlideNumbersVisibility(bool) method
 
 
 Changes layout slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.

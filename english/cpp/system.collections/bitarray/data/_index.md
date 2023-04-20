@@ -20,12 +20,6 @@ bitset & System::Collections::BitArray::data()
 
 **Reference** to underlying data structure.
 
-## See Also
-
-* Typedef [bitset](../bitset/)
-* Class [BitArray](../)
-* Namespace [System::Collections](../../)
-* Library [Aspose.Slides](../../../)
 ## BitArray::data() const method
 
 

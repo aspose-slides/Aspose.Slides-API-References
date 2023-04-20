@@ -15,11 +15,6 @@ Joins managed thread. Performs unlimited waiting if required.
 void System::Threading::Thread::Join()
 ```
 
-## See Also
-
-* Class [Thread](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
 ## Thread::Join(int) method
 
 
@@ -40,12 +35,7 @@ bool System::Threading::Thread::Join(int millisecondsTimeout)
 
 True if thread was successfully joined, false if timeout exceeded.
 
-## See Also
-
-* Class [Thread](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Thread::Join([TimeSpan](../../../system/timespan/)) method
+## Thread::Join(TimeSpan) method
 
 
 Joins managed thread. Performs limited waiting.
@@ -67,7 +57,7 @@ True if thread was successfully joined, false if timeout exceeded.
 
 ## See Also
 
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Thread](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

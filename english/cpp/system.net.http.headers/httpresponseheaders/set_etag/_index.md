@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/httpresponseheaders/set_etag/
 ---
-## HttpResponseHeaders::set_ETag([System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../../entitytagheadervalue/)\>) method
+## HttpResponseHeaders::set_ETag(System::SharedPtr\<EntityTagHeaderValue\>) method
 
 
 Sets a value of the 'ETag' header.

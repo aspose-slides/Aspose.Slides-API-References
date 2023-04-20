@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.animation/ieffect/set_sound/
 ---
-## IEffect::set_Sound([System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../../aspose.slides/iaudio/)\>) method
+## IEffect::set_Sound(System::SharedPtr\<IAudio\>) method
 
 
 Defined embedded sound for effect. Write [IAudio](../../../aspose.slides/iaudio/).

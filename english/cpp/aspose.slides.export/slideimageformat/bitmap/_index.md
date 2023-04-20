@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/slideimageformat/bitmap/
 ---
-## SlideImageFormat::Bitmap(**float**, [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Imaging::ImageFormat](../../../system.drawing.imaging/imageformat/)\>) method
+## SlideImageFormat::Bitmap(float, System::SharedPtr\<System::Drawing::Imaging::ImageFormat\>) method
 
 
 [Slides](../../../aspose.slides/) should be converted to a raster image.
@@ -32,6 +32,5 @@ static System::SharedPtr<SlideImageFormat> Aspose::Slides::Export::SlideImageFor
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [SlideImageFormat](../)
 * Class [ImageFormat](../../../system.drawing.imaging/imageformat/)
-* Class [SlideImageFormat](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

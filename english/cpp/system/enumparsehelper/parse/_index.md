@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/enumparsehelper/parse/
 ---
-## EnumParseHelper::Parse(const [String](../../string/)\&, **bool**) method
+## EnumParseHelper::Parse(const String\&, bool) method
 
 
 Converts the specfied string into equivalent enum constant value.

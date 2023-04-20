@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.security/securityelement/isvalidattributename/
 ---
-## SecurityElement::IsValidAttributeName(const [String](../../../system/string/)\&) method
+## SecurityElement::IsValidAttributeName(const String\&) method
 
 
 Checks if attribute name is valid.

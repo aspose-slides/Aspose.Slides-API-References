@@ -15,12 +15,7 @@ Constructor.
 System::Security::Cryptography::RSAPKCS1SignatureFormatter::RSAPKCS1SignatureFormatter()
 ```
 
-## See Also
-
-* Class [RSAPKCS1SignatureFormatter](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSAPKCS1SignatureFormatter::RSAPKCS1SignatureFormatter(const [System::SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../asymmetricalgorithm/)\>\&) constructor
+## RSAPKCS1SignatureFormatter::RSAPKCS1SignatureFormatter(const System::SharedPtr\<AsymmetricAlgorithm\>\&) constructor
 
 
 Constructor.
@@ -39,7 +34,7 @@ System::Security::Cryptography::RSAPKCS1SignatureFormatter::RSAPKCS1SignatureFor
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [AsymmetricAlgorithm](../../asymmetricalgorithm/)
 * Class [RSAPKCS1SignatureFormatter](../)
+* Class [AsymmetricAlgorithm](../../asymmetricalgorithm/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

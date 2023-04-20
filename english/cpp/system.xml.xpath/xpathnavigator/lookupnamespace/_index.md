@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.xml.xpath/xpathnavigator/lookupnamespace/
 ---
-## XPathNavigator::LookupNamespace(const [String](../../../system/string/)\&) method
+## XPathNavigator::LookupNamespace(const String\&) method
 
 
 Returns the namespace URI for the specified prefix.

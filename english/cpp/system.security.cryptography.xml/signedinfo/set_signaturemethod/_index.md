@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.xml/signedinfo/set_signaturemethod/
 ---
-## SignedInfo::set_SignatureMethod([String](../../../system/string/)) method
+## SignedInfo::set_SignatureMethod(String) method
 
 
 

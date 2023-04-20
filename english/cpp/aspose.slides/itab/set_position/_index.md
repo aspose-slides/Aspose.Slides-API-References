@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/itab/set_position/
 ---
-## ITab::set_Position(**double**) method
+## ITab::set_Position(double) method
 
 
 Sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Write **double**.

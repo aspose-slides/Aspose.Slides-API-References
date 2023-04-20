@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/smartptr/is/
 ---
-## SmartPtr::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## SmartPtr::Is(const System::TypeInfo\&) const method
 
 
 Checks if pointed object is of specific type or its child type. Follows C# 'is' semantics.

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.globalization/stringinfo/gettextelementenumerator/
 ---
-## StringInfo::GetTextElementEnumerator(const [String](../../../system/string/)\&) method
+## StringInfo::GetTextElementEnumerator(const String\&) method
 
 
 Creates enumerator to iterate through string's characters.
@@ -26,15 +26,7 @@ static SharedPtr<TextElementEnumerator> System::Globalization::StringInfo::GetTe
 
 Newly created enumerator.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextElementEnumerator](../../textelementenumerator/)
-* Class [String](../../../system/string/)
-* Class [StringInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## StringInfo::GetTextElementEnumerator(const [String](../../../system/string/)\&, int) method
+## StringInfo::GetTextElementEnumerator(const String\&, int) method
 
 
 Creates enumerator to iterate through string's characters starting at the specified index.

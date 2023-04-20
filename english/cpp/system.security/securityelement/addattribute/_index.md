@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.security/securityelement/addattribute/
 ---
-## SecurityElement::AddAttribute(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## SecurityElement::AddAttribute(const String\&, const String\&) method
 
 
 Adds attribute to tag.

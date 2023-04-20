@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.slideshow/iglittertransition/set_pattern/
 ---
-## IGlitterTransition::set_Pattern([TransitionPattern](../../transitionpattern/)) method
+## IGlitterTransition::set_Pattern(TransitionPattern) method
 
 
 Specifies the shape of the visuals used during the transition. Write [TransitionPattern](../../transitionpattern/).

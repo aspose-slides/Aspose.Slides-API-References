@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/baseportionformat/set_fontunderline/
 ---
-## BasePortionFormat::set_FontUnderline([TextUnderlineType](../../textunderlinetype/)) method
+## BasePortionFormat::set_FontUnderline(TextUnderlineType) method
 
 
 Sets the text underline type. No inheritance applied. Write [TextUnderlineType](../../textunderlinetype/).

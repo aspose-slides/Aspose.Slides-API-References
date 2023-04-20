@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.slideshow/irevealtransition/set_throughblack/
 ---
-## IRevealTransition::set_ThroughBlack(**bool**) method
+## IRevealTransition::set_ThroughBlack(bool) method
 
 
 Specifies whether the transition fades through black. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/behaviorcollection/indexof/
 ---
-## BehaviorCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IBehavior](../../ibehavior/)\>) method
+## BehaviorCollection::IndexOf(System::SharedPtr\<IBehavior\>) method
 
 
 Determines the index of a specific item in the [IList](../../../system.collections.generic/ilist/).

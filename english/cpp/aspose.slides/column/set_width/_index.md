@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/column/set_width/
 ---
-## Column::set_Width(**double**) method
+## Column::set_Width(double) method
 
 
 Sets the width of a column. Write **double**.

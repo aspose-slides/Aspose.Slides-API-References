@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/iportion/addfield/
 ---
-## IPortion::AddField([System::SharedPtr](../../../system/sharedptr/)\<[IFieldType](../../ifieldtype/)\>) method
+## IPortion::AddField(System::SharedPtr\<IFieldType\>) method
 
 
 Converts this portion to the automaticaly updated field.
@@ -22,14 +22,7 @@ virtual void Aspose::Slides::IPortion::AddField(System::SharedPtr<IFieldType> fi
 | --- | --- | --- |
 | fieldType | [System::SharedPtr](../../../system/sharedptr/)\<[IFieldType](../../ifieldtype/)\> | Type of field [IFieldType](../../ifieldtype/) |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFieldType](../../ifieldtype/)
-* Class [IPortion](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPortion::AddField([System::String](../../../system/string/)) method
+## IPortion::AddField(System::String) method
 
 
 Converts this portion to the automaticaly updated field.
@@ -47,7 +40,9 @@ virtual void Aspose::Slides::IPortion::AddField(System::String internalString)=0
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IFieldType](../../ifieldtype/)
 * Class [IPortion](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

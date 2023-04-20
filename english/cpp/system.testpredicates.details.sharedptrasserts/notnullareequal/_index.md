@@ -3,10 +3,10 @@ title: NotNullAreEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares dictionaries of value types.
 type: docs
-weight: 53
+weight: 1
 url: /cpp/system.testpredicates.details.sharedptrasserts/notnullareequal/
 ---
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, V\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, V\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>\&, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>\&) function
 
 
 Equal-compares dictionaries of value types.
@@ -36,13 +36,7 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Dictionary](../../system.collections.generic/dictionary/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Dictionary\<K, SharedPtr\<V\>\>\>\&, const SharedPtr\<System::Collections::Generic::Dictionary\<K, SharedPtr\<V\>\>\>\&) function
 
 
 Equal-compares dictionaries of shared pointers.
@@ -72,13 +66,7 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Dictionary](../../system.collections.generic/dictionary/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::HashSet](../../system.collections.generic/hashset/)\<T1\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::HashSet](../../system.collections.generic/hashset/)\<T2\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::HashSet\<T1\>\>\&, const SharedPtr\<System::Collections::Generic::HashSet\<T2\>\>\&) function
 
 
 Equal-compares hashsets.
@@ -108,13 +96,7 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [HashSet](../../system.collections.generic/hashset/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Queue](../../system.collections.generic/queue/)\<T1\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Queue](../../system.collections.generic/queue/)\<T2\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Queue\<T1\>\>\&, const SharedPtr\<System::Collections::Generic::Queue\<T2\>\>\&) function
 
 
 Equal-compares queues.
@@ -144,13 +126,7 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Queue](../../system.collections.generic/queue/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Stack](../../system.collections.generic/stack/)\<T1\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::Stack](../../system.collections.generic/stack/)\<T2\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Stack\<T1\>\>\&, const SharedPtr\<System::Collections::Generic::Stack\<T2\>\>\&) function
 
 
 Equal-compares stacks.
@@ -180,13 +156,7 @@ template<typename T1,typename T2> testing::AssertionResult System::TestPredicate
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Stack](../../system.collections.generic/stack/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, V\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, V\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, V\>\>\&, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, V\>\>\&) function
 
 
 Equal-compares sorted dictionaries of value types.
@@ -216,13 +186,7 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [SortedDictionary](../../system.collections.generic/sorteddictionary/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedDictionary](../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, SharedPtr\<V\>\>\>\&, const SharedPtr\<System::Collections::Generic::SortedDictionary\<K, SharedPtr\<V\>\>\>\&) function
 
 
 Equal-compares sorted dictionaries of shared pointers.
@@ -252,13 +216,7 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [SortedDictionary](../../system.collections.generic/sorteddictionary/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, V\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, V\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedList\<K, V\>\>\&, const SharedPtr\<System::Collections::Generic::SortedList\<K, V\>\>\&) function
 
 
 Equal-compares sorted lists of value types.
@@ -288,13 +246,7 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [SortedList](../../system.collections.generic/sortedlist/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::SortedList](../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../system/sharedptr/)\<V\>\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::SortedList\<K, SharedPtr\<V\>\>\>\&, const SharedPtr\<System::Collections::Generic::SortedList\<K, SharedPtr\<V\>\>\>\&) function
 
 
 Equal-compares sorted lists of shared pointers.
@@ -324,13 +276,7 @@ template<typename K,typename V> testing::AssertionResult System::TestPredicates:
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [SortedList](../../system.collections.generic/sortedlist/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::BitArray](../../system.collections/bitarray/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::BitArray](../../system.collections/bitarray/)\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::BitArray\>\&, const SharedPtr\<System::Collections::BitArray\>\&) function
 
 
 Equal-compares bit arrays.
@@ -353,13 +299,7 @@ testing::AssertionResult System::TestPredicates::Details::SharedPtrAsserts::NotN
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [BitArray](../../system.collections/bitarray/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Specialized::StringCollection](../../system.collections.specialized/stringcollection/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Specialized::StringCollection](../../system.collections.specialized/stringcollection/)\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Specialized::StringCollection\>\&, const SharedPtr\<System::Collections::Specialized::StringCollection\>\&) function
 
 
 Equal-compares string collections.
@@ -382,13 +322,7 @@ testing::AssertionResult System::TestPredicates::Details::SharedPtrAsserts::NotN
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [StringCollection](../../system.collections.specialized/stringcollection/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>\&, const [SharedPtr](../../system/sharedptr/)\<[System::Collections::Generic::ICollection](../../system.collections.generic/icollection/)\<T\>\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&) function
 
 
 Equal-compares abstract collections.
@@ -417,13 +351,7 @@ template<typename T> testing::AssertionResult System::TestPredicates::Details::S
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [ICollection](../../system.collections.generic/icollection/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<Object\>\&, const SharedPtr\<Object\>\&) function
 
 
 Equal-compares two [Object](../../system/object/) types.
@@ -446,13 +374,7 @@ testing::AssertionResult System::TestPredicates::Details::SharedPtrAsserts::NotN
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Object](../../system/object/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const [SharedPtr](../../system/sharedptr/)\<T1\>\&, const [SharedPtr](../../system/sharedptr/)\<T2\>\&) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqual(const char *, const char *, const SharedPtr\<T1\>\&, const SharedPtr\<T2\>\&) function
 
 
 Equal-compares unknown types.
@@ -485,5 +407,15 @@ gtest-styled assertion result.
 ## See Also
 
 * Typedef [SharedPtr](../../system/sharedptr/)
+* Class [Dictionary](../../system.collections.generic/dictionary/)
+* Class [HashSet](../../system.collections.generic/hashset/)
+* Class [Queue](../../system.collections.generic/queue/)
+* Class [Stack](../../system.collections.generic/stack/)
+* Class [SortedDictionary](../../system.collections.generic/sorteddictionary/)
+* Class [SortedList](../../system.collections.generic/sortedlist/)
+* Class [BitArray](../../system.collections/bitarray/)
+* Class [StringCollection](../../system.collections.specialized/stringcollection/)
+* Class [ICollection](../../system.collections.generic/icollection/)
+* Class [Object](../../system/object/)
 * Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
 * Library [Aspose.Slides](../../)

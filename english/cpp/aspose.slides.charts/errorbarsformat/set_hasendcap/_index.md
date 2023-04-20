@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/errorbarsformat/set_hasendcap/
 ---
-## ErrorBarsFormat::set_HasEndCap(**bool**) method
+## ErrorBarsFormat::set_HasEndCap(bool) method
 
 
 Specifies an end cap is not drawn on the error bars. Write **bool**.

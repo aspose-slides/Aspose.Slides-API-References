@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography/ecdsa/signhash/
 ---
-## ECDsa::SignHash(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## ECDsa::SignHash(const ByteArrayPtr\&) method
 
 
 Computes the signature of specified input value.

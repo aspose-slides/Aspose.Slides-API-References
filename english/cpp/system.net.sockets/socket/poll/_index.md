@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system.net.sockets/socket/poll/
 ---
-## Socket::Poll(**int32_t**, [SelectMode](../../selectmode/)) method
+## Socket::Poll(int32_t, SelectMode) method
 
 
 Returns the status of the socket based on the specified polling mode.

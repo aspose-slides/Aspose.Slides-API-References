@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/digitalsignaturecollection/copyto/
 ---
-## DigitalSignatureCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IDigitalSignature](../../idigitalsignature/)\>\>, **int32_t**) method
+## DigitalSignatureCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IDigitalSignature\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

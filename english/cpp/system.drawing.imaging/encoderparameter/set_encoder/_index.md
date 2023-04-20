@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing.imaging/encoderparameter/set_encoder/
 ---
-## EncoderParameter::set_Encoder(const [EncoderPtr](../../encoderptr/)\&) method
+## EncoderParameter::set_Encoder(const EncoderPtr\&) method
 
 
 Associates the specified [Encoder](../../encoder/) object with the current [EncoderParameter](../) object.

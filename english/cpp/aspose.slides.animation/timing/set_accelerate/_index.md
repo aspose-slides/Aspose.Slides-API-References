@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/timing/set_accelerate/
 ---
-## Timing::set_Accelerate(**float**) method
+## Timing::set_Accelerate(float) method
 
 
 Describes the percentage of duration accelerate behavior effect. Write **float**.

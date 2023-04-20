@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/pictureframelock/set_groupinglocked/
 ---
-## PictureFrameLock::set_GroupingLocked(**bool**) method
+## PictureFrameLock::set_GroupingLocked(bool) method
 
 
 Determines whether an adding this shape to a group is forbidden. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/xmlnamednodemap/setnameditem/
 ---
-## XmlNamedNodeMap::SetNamedItem([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>) method
+## XmlNamedNodeMap::SetNamedItem(SharedPtr\<XmlNode\>) method
 
 
 Adds an [XmlNode](../../xmlnode/) using its [XmlNode::get_Name](../../xmlnode/get_name/) value.

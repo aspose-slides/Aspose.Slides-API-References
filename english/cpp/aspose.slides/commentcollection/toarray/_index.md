@@ -20,15 +20,7 @@ System::ArrayPtr<System::SharedPtr<IComment>> Aspose::Slides::CommentCollection:
 
 Array of [Comment](../../comment/).
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IComment](../../icomment/)
-* Class [CommentCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## CommentCollection::ToArray(**int32_t**, **int32_t**) method
+## CommentCollection::ToArray(int32_t, int32_t) method
 
 
 Creates and returns an array with all comments from the specified range.

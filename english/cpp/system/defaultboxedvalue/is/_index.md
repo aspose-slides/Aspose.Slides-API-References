@@ -3,7 +3,7 @@ title: is()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the type of the boxed value represented by the current object is V.
 type: docs
-weight: 27
+weight: 40
 url: /cpp/system/defaultboxedvalue/is/
 ---
 ## DefaultBoxedValue::is() const method

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.globalization/compareinfo/equals/
 ---
-## CompareInfo::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## CompareInfo::Equals(SharedPtr\<Object\>) method
 
 
 

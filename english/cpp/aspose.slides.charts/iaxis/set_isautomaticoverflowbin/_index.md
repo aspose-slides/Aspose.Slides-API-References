@@ -6,7 +6,7 @@ type: docs
 weight: 1132
 url: /cpp/aspose.slides.charts/iaxis/set_isautomaticoverflowbin/
 ---
-## IAxis::set_IsAutomaticOverflowBin(**bool**) method
+## IAxis::set_IsAutomaticOverflowBin(bool) method
 
 
 Specifies automatic overflow bin value. If false: use OverflowBin property.

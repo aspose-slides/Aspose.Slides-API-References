@@ -25,6 +25,5 @@ An [Collections::IEnumerator](../../../system.collections/ienumerator/) object t
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IEnumerator](../../../system.collections.generic/ienumerator/)
 * Class [XmlNode](../)
-* Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

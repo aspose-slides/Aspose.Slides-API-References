@@ -26,12 +26,7 @@ bool System::Collections::Generic::LinkedList<T>::Remove(const T &element) overr
 
 True if **element** was found and removed, false otherwise.
 
-## See Also
-
-* Class [LinkedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## LinkedList::Remove(const [SharedPtr](../../../system/sharedptr/)\<[LinkedListNode](../../linkedlistnode/)\<T\>\>\&) method
+## LinkedList::Remove(const SharedPtr\<LinkedListNode\<T\>\>\&) method
 
 
 Removes node from list.
@@ -50,7 +45,7 @@ void System::Collections::Generic::LinkedList<T>::Remove(const SharedPtr<LinkedL
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [LinkedListNode](../../linkedlistnode/)
 * Class [LinkedList](../)
+* Class [LinkedListNode](../../linkedlistnode/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

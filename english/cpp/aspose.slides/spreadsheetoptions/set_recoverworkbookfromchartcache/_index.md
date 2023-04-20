@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/spreadsheetoptions/set_recoverworkbookfromchartcache/
 ---
-## SpreadsheetOptions::set_RecoverWorkbookFromChartCache(**bool**) method
+## SpreadsheetOptions::set_RecoverWorkbookFromChartCache(bool) method
 
 
 If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system/smartptrinfo/operator_less/
 ---
-## SmartPtrInfo::operator<(const [SmartPtrInfo](../)\&) const method
+## SmartPtrInfo::operator<(const SmartPtrInfo\&) const method
 
 
 Less-compares values of pointers referenced by two info objects.
@@ -28,7 +28,6 @@ True if value of pointer referenced by current info object preceeds the value of
 
 ## See Also
 
-* Class [SmartPtrInfo](../)
 * Class [SmartPtrInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

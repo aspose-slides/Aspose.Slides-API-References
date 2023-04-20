@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.effects/iapplicableeffect/apply/
 ---
-## IApplicableEffect::Apply([System::SharedPtr](../../../system/sharedptr/)\<TrueColorBitmap\>) method
+## IApplicableEffect::Apply(System::SharedPtr\<TrueColorBitmap\>) method
 
 
 

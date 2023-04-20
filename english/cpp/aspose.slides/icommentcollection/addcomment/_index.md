@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/icommentcollection/addcomment/
 ---
-## ICommentCollection::AddComment([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::Drawing::PointF](../../../system.drawing/pointf/), [System::DateTime](../../../system/datetime/)) method
+## ICommentCollection::AddComment(System::String, System::SharedPtr\<ISlide\>, System::Drawing::PointF, System::DateTime) method
 
 
 Add new comment at the end of a collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/credentialcache/add/
 ---
-## CredentialCache::Add([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[NetworkCredential](../../networkcredential/)\>) method
+## CredentialCache::Add(System::SharedPtr\<Uri\>, String, System::SharedPtr\<NetworkCredential\>) method
 
 
 Adds the specified network credentials to the cache.
@@ -24,16 +24,7 @@ void System::Net::CredentialCache::Add(System::SharedPtr<Uri> uriPrefix, String 
 | authenticationType | [String](../../../system/string/) | The authentication scheme. |
 | credential | [System::SharedPtr](../../../system/sharedptr/)\<[NetworkCredential](../../networkcredential/)\> | The credentials to add. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Uri](../../../system/uri/)
-* Class [String](../../../system/string/)
-* Class [NetworkCredential](../../networkcredential/)
-* Class [CredentialCache](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CredentialCache::Add([String](../../../system/string/), **int32_t**, [String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[NetworkCredential](../../networkcredential/)\>) method
+## CredentialCache::Add(String, int32_t, String, System::SharedPtr\<NetworkCredential\>) method
 
 
 Adds the specified network credentials to the cache.
@@ -54,8 +45,9 @@ void System::Net::CredentialCache::Add(String host, int32_t port, String authent
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Uri](../../../system/uri/)
+* Class [String](../../../system/string/)
 * Class [NetworkCredential](../../networkcredential/)
 * Class [CredentialCache](../)
 * Namespace [System::Net](../../)

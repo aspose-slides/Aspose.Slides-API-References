@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/normalviewproperties/set_snapverticalsplitter/
 ---
-## NormalViewProperties::set_SnapVerticalSplitter(**bool**) method
+## NormalViewProperties::set_SnapVerticalSplitter(bool) method
 
 
 Specifies whether the vertical splitter should snap to a minimized state when the side region is sufficiently small. Write **bool**.

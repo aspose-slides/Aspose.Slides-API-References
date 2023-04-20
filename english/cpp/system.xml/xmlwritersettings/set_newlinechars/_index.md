@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml/xmlwritersettings/set_newlinechars/
 ---
-## XmlWriterSettings::set_NewLineChars(const [String](../../../system/string/)\&) method
+## XmlWriterSettings::set_NewLineChars(const String\&) method
 
 
 Sets the character string to use for line breaks.

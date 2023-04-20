@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries/
 ---
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::SharedPtr\<IChartDataCell\>, System::SharedPtr\<IChartDataCell\>, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -28,15 +28,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries(**double**, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(double, System::SharedPtr\<IChartDataCell\>, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -58,15 +50,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::String, System::SharedPtr\<IChartDataCell\>, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -88,16 +72,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [String](../../../system/string/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, **double**, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::SharedPtr\<IChartDataCell\>, double, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -119,15 +94,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries(**double**, **double**, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(double, double, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -149,15 +116,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::String](../../../system/string/), **double**, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::String, double, System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -179,16 +138,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [String](../../../system/string/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, **double**) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::SharedPtr\<IChartDataCell\>, System::SharedPtr\<IChartDataCell\>, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -210,15 +160,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries(**double**, [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, **double**) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(double, System::SharedPtr\<IChartDataCell\>, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -240,15 +182,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, **double**) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::String, System::SharedPtr\<IChartDataCell\>, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -270,16 +204,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [String](../../../system/string/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, **double**, **double**) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::SharedPtr\<IChartDataCell\>, double, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -301,15 +226,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries(**double**, **double**, **double**) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(double, double, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -331,14 +248,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForBubbleSeries([System::String](../../../system/string/), **double**, **double**) method
+## ChartDataPointCollection::AddDataPointForBubbleSeries(System::String, double, double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [ChartTypeCharacterizer::IsChartTypeBubble(ChartType)](../../charttypecharacterizer/ischarttypebubble/) method).
@@ -364,7 +274,8 @@ New data point.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [String](../../../system/string/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [ChartDataPointCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

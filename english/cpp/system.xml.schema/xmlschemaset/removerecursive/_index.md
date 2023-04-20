@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.xml.schema/xmlschemaset/removerecursive/
 ---
-## XmlSchemaSet::RemoveRecursive(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\&) method
+## XmlSchemaSet::RemoveRecursive(const SharedPtr\<XmlSchema\>\&) method
 
 
 Removes the specified XML [Schema](../../) definition language (XSD) schema and all the schemas it imports from the [XmlSchemaSet](../).

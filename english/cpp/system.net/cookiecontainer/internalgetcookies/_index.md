@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.net/cookiecontainer/internalgetcookies/
 ---
-## CookieContainer::InternalGetCookies([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## CookieContainer::InternalGetCookies(System::SharedPtr\<Uri\>) method
 
 
 Returns a collection of cookies that are associated with the specified URI.

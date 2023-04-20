@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides/hyperlink/set_highlightclick/
 ---
-## Hyperlink::set_HighlightClick(**bool**) method
+## Hyperlink::set_HighlightClick(bool) method
 
 
 Determines whether the hyperlink should be highlighted on click. Write **bool**.

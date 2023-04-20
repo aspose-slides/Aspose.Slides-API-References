@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/iimagecollection/addimage/
 ---
-## IImageCollection::AddImage([System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Image](../../../system.drawing/image/)\>) method
+## IImageCollection::AddImage(System::SharedPtr\<System::Drawing::Image\>) method
 
 
 Add an image to a presentation.
@@ -30,15 +30,7 @@ Added image.
 
 This method converts WMF/EMF metafiles to raster PNG image before inserting to a presentation.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPPImage](../../ippimage/)
-* Class [Image](../../../system.drawing/image/)
-* Class [IImageCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IImageCollection::AddImage([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::MemoryStream](../../../system.io/memorystream/)\>) method
+## IImageCollection::AddImage(System::SharedPtr\<System::IO::MemoryStream\>) method
 
 
 Adds image from a memory stream.
@@ -58,15 +50,7 @@ virtual System::SharedPtr<IPPImage> Aspose::Slides::IImageCollection::AddImage(S
 
 Added image.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPPImage](../../ippimage/)
-* Class [MemoryStream](../../../system.io/memorystream/)
-* Class [IImageCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IImageCollection::AddImage([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## IImageCollection::AddImage(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Add an image to a presentation from stream.
@@ -90,15 +74,7 @@ Added image.
 
 This method can add WMF/EMF metafiles to a presentation without converting them to raster PNG image.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPPImage](../../ippimage/)
-* Class [Stream](../../../system.io/stream/)
-* Class [IImageCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IImageCollection::AddImage([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [LoadingStreamBehavior](../../loadingstreambehavior/)) method
+## IImageCollection::AddImage(System::SharedPtr\<System::IO::Stream\>, LoadingStreamBehavior) method
 
 
 Creates and adds an image to a presentation from stream.
@@ -119,16 +95,7 @@ virtual System::SharedPtr<IPPImage> Aspose::Slides::IImageCollection::AddImage(S
 
 Added [IPPImage](../../ippimage/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPPImage](../../ippimage/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [LoadingStreamBehavior](../../loadingstreambehavior/)
-* Class [IImageCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IImageCollection::AddImage([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## IImageCollection::AddImage(System::ArrayPtr\<uint8_t\>) method
 
 
 Adds an image to a presentation from specified buffer.
@@ -148,15 +115,7 @@ virtual System::SharedPtr<IPPImage> Aspose::Slides::IImageCollection::AddImage(S
 
 Added image.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPPImage](../../ippimage/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [IImageCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IImageCollection::AddImage([System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\>) method
+## IImageCollection::AddImage(System::SharedPtr\<IPPImage\>) method
 
 
 Adds a copy of an image from an another presentation.
@@ -176,14 +135,7 @@ virtual System::SharedPtr<IPPImage> Aspose::Slides::IImageCollection::AddImage(S
 
 Added image.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPPImage](../../ippimage/)
-* Class [IImageCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IImageCollection::AddImage([System::SharedPtr](../../../system/sharedptr/)\<[ISvgImage](../../isvgimage/)\>) method
+## IImageCollection::AddImage(System::SharedPtr\<ISvgImage\>) method
 
 
 Add an image to a presentation from SVG object.
@@ -205,9 +157,14 @@ Added image.
 
 ## See Also
 
+* Enum [LoadingStreamBehavior](../../loadingstreambehavior/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [IPPImage](../../ippimage/)
-* Class [ISvgImage](../../isvgimage/)
+* Class [Image](../../../system.drawing/image/)
 * Class [IImageCollection](../)
+* Class [MemoryStream](../../../system.io/memorystream/)
+* Class [Stream](../../../system.io/stream/)
+* Class [ISvgImage](../../isvgimage/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.data.common/dbproviderfactories/getfactory/
 ---
-## DbProviderFactories::GetFactory(const [String](../../../system/string/)\&) method
+## DbProviderFactories::GetFactory(const String\&) method
 
 
 Gets DB provider factory by name.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.imaging/imageformat/imageformat/
 ---
-## ImageFormat::ImageFormat(const [System::Guid](../../../system/guid/)\&) constructor
+## ImageFormat::ImageFormat(const System::Guid\&) constructor
 
 
 Constructs an instance of [ImageFormat](../) class that represents an image format format associated with the specified GUID.

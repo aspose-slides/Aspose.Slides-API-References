@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.export/texttohtmlconversionoptions/set_linkembedcontroller/
 ---
-## TextToHtmlConversionOptions::set_LinkEmbedController([System::SharedPtr](../../../system/sharedptr/)\<[Export::ILinkEmbedController](../../ilinkembedcontroller/)\>) method
+## TextToHtmlConversionOptions::set_LinkEmbedController(System::SharedPtr\<Export::ILinkEmbedController\>) method
 
 
 Sets a callback object which controlls how external object will be stored. Write [Export::ILinkEmbedController](../../ilinkembedcontroller/).

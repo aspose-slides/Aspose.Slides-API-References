@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.web.services.protocols/httpwebclientprotocol/set_cookiecontainer/
 ---
-## HttpWebClientProtocol::set_CookieContainer([System::SharedPtr](../../../system/sharedptr/)\<[System::Net::CookieContainer](../../../system.net/cookiecontainer/)\>) method
+## HttpWebClientProtocol::set_CookieContainer(System::SharedPtr\<System::Net::CookieContainer\>) method
 
 
 Sets a container that is used to store cookies.

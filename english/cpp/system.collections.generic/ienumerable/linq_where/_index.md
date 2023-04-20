@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.collections.generic/ienumerable/linq_where/
 ---
-## IEnumerable::LINQ_Where(std::function\<**bool**(T)>) method
+## IEnumerable::LINQ_Where(std::function\<bool(T)>) method
 
 
 Filters a sequence based on the specified predicate.
@@ -29,7 +29,6 @@ An [IEnumerable](../) that contains filtered elements.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
 * Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

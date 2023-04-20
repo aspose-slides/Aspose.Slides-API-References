@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/loadoptions/set_defaultregularfont/
 ---
-## LoadOptions::set_DefaultRegularFont([System::String](../../../system/string/)) method
+## LoadOptions::set_DefaultRegularFont(System::String) method
 
 
 Sets Regular font used in case source font is not found. Write [System::String](../../../system/string/).

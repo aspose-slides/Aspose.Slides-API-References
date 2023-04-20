@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides/ishape/set_y/
 ---
-## IShape::set_Y(**float**) method
+## IShape::set_Y(float) method
 
 
 Sets the y-coordinate of the upper-left corner of the shape. Write **float**.

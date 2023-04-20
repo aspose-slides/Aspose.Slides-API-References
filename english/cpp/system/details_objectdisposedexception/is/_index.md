@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_objectdisposedexception/is/
 ---
-## Details_ObjectDisposedException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_ObjectDisposedException::Is(const System::TypeInfo\&) const method
 
 
 

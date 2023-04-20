@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/effect/set_type/
 ---
-## Effect::set_Type([EffectType](../../effecttype/)) method
+## Effect::set_Type(EffectType) method
 
 
 Defines type of effect. Write [EffectType](../../effecttype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/ieffectformat/set_blureffect/
 ---
-## IEffectFormat::set_BlurEffect([System::SharedPtr](../../../system/sharedptr/)\<[Effects::IBlur](../../../aspose.slides.effects/iblur/)\>) method
+## IEffectFormat::set_BlurEffect(System::SharedPtr\<Effects::IBlur\>) method
 
 
 Blur effect. Write [Effects::IBlur](../../../aspose.slides.effects/iblur/).

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.net.sockets/tcpclient/set_lingerstate/
 ---
-## TcpClient::set_LingerState([System::SharedPtr](../../../system/sharedptr/)\<[LingerOption](../../lingeroption/)\>) method
+## TcpClient::set_LingerState(System::SharedPtr\<LingerOption\>) method
 
 
 Sets a value that indicates if the socket will delay closing in an attempt to send all pending data.

@@ -27,11 +27,6 @@ int System::Globalization::GregorianCalendar::GetDaysInYear(int year, int era) c
 
 Number of days in specified year of specified era.
 
-## See Also
-
-* Class [GregorianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## GregorianCalendar::GetDaysInYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetDaysInYear(int year) const
 
 Number of days in specified year.
 
-## See Also
-
-* Class [GregorianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## GregorianCalendar::GetDaysInYear(int, int) const method
 
 

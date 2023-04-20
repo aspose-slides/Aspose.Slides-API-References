@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.xml/xmlreadersettings/set_maxcharactersindocument/
 ---
-## XmlReaderSettings::set_MaxCharactersInDocument(**int64_t**) method
+## XmlReaderSettings::set_MaxCharactersInDocument(int64_t) method
 
 
 Sets a value indicating the maximum allowable number of characters in an XML document. A zero (0) value means no limits on the size of the XML document. A non-zero value specifies the maximum size, in characters.

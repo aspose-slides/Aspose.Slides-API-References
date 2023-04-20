@@ -15,12 +15,7 @@ Constructor.
 System::Text::UnicodeEncoding::UnicodeEncoding()
 ```
 
-## See Also
-
-* Class [UnicodeEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UnicodeEncoding::UnicodeEncoding(**bool**, **bool**) constructor
+## UnicodeEncoding::UnicodeEncoding(bool, bool) constructor
 
 
 Constructor.
@@ -37,12 +32,7 @@ System::Text::UnicodeEncoding::UnicodeEncoding(bool big_endian, bool byte_order_
 | big_endian | **bool** | If true, use big endian, otherwise use little endian. |
 | byte_order_mark | **bool** | If true, provide BOM. |
 
-## See Also
-
-* Class [UnicodeEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UnicodeEncoding::UnicodeEncoding(**bool**, **bool**, **bool**) constructor
+## UnicodeEncoding::UnicodeEncoding(bool, bool, bool) constructor
 
 
 Constructor.

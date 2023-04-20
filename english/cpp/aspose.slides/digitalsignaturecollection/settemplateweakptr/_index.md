@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/digitalsignaturecollection/settemplateweakptr/
 ---
-## DigitalSignatureCollection::SetTemplateWeakPtr(**uint32_t**) method
+## DigitalSignatureCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.collections/bitarray/remove/
 ---
-## BitArray::Remove(const **bool**\&) method
+## BitArray::Remove(const bool\&) method
 
 
 Returns first occurance of specified value. Not implemented.

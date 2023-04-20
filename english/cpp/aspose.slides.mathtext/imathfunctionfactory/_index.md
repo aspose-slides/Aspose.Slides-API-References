@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathfunctionfactory/
 Allows to create a math function
 
 ```cpp
-class IMathFunctionFactory : public System::Object
+class IMathFunctionFactory : public virtual System::Object
 ```
 
 ## Methods

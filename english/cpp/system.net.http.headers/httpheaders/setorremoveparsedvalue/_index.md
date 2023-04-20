@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.net.http.headers/httpheaders/setorremoveparsedvalue/
 ---
-## HttpHeaders::SetOrRemoveParsedValue([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpHeaders::SetOrRemoveParsedValue(String, System::SharedPtr\<Object\>) method
 
 
 Gets a header by the specified name and sets or removes its value. The header value will be removed when the 'value' parameter is nullptr, otherwise a parsed value will be set.
@@ -25,8 +25,8 @@ void System::Net::Http::Headers::HttpHeaders::SetOrRemoveParsedValue(String name
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [HttpHeaders](../)
 * Namespace [System::Net::Http::Headers](../../)

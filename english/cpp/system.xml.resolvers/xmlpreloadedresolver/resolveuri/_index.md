@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.resolvers/xmlpreloadedresolver/resolveuri/
 ---
-## XmlPreloadedResolver::ResolveUri([SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)) method
+## XmlPreloadedResolver::ResolveUri(SharedPtr\<Uri\>, String) method
 
 
 Resolves the absolute URI from the base and relative URIs.

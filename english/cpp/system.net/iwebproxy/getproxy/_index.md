@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net/iwebproxy/getproxy/
 ---
-## IWebProxy::GetProxy([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## IWebProxy::GetProxy(System::SharedPtr\<Uri\>) method
 
 
 Returns the proxy URI.

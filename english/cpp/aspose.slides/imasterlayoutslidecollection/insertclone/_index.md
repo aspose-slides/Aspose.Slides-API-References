@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/imasterlayoutslidecollection/insertclone/
 ---
-## IMasterLayoutSlideCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## IMasterLayoutSlideCollection::InsertClone(int32_t, System::SharedPtr\<ILayoutSlide\>) method
 
 
 Inserts a copy of a specified layout slide to specified position of the collection.

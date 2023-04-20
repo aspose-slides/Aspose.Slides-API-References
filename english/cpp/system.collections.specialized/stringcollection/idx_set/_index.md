@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections.specialized/stringcollection/idx_set/
 ---
-## StringCollection::idx_set(int, const [System::String](../../../system/string/)\&) method
+## StringCollection::idx_set(int, const System::String\&) method
 
 
 Sets value at specified position.

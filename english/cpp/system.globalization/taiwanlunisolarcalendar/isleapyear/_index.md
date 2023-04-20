@@ -27,11 +27,6 @@ bool System::Globalization::TaiwanLunisolarCalendar::IsLeapYear(int year, int er
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [TaiwanLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## TaiwanLunisolarCalendar::IsLeapYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual bool System::Globalization::Calendar::IsLeapYear(int year) const
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [TaiwanLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## TaiwanLunisolarCalendar::IsLeapYear(int, int) const method
 
 

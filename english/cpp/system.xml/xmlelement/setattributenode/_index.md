@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.xml/xmlelement/setattributenode/
 ---
-## XmlElement::SetAttributeNode([SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>) method
+## XmlElement::SetAttributeNode(SharedPtr\<XmlAttribute\>) method
 
 
 Adds the specified [XmlAttribute](../../xmlattribute/).
@@ -26,14 +26,7 @@ virtual SharedPtr<XmlAttribute> System::Xml::XmlElement::SetAttributeNode(Shared
 
 If the attribute replaces an existing attribute with the same name, the old [XmlAttribute](../../xmlattribute/) is returned; otherwise, **nullptr** is returned.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlAttribute](../../xmlattribute/)
-* Class [XmlElement](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlElement::SetAttributeNode([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::SetAttributeNode(String, String) method
 
 
 Adds the specified [XmlAttribute](../../xmlattribute/).
@@ -58,7 +51,7 @@ The [XmlAttribute](../../xmlattribute/) to add.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlAttribute](../../xmlattribute/)
-* Class [String](../../../system/string/)
 * Class [XmlElement](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

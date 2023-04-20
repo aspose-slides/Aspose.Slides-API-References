@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.io/directoryinfo/moveto/
 ---
-## DirectoryInfo::MoveTo(const [String](../../../system/string/)\&) method
+## DirectoryInfo::MoveTo(const String\&) method
 
 
 Moves the directory represented by the current object and all its contentto the specified location.

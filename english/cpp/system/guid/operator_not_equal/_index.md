@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/guid/operator_not_equal/
 ---
-## Guid::operator!=(const [Guid](../)\&) const method
+## Guid::operator!=(const Guid\&) const method
 
 
 Determines if the GUIDs represented by the current and specified objects are not equal.
@@ -28,7 +28,6 @@ True if the GUIDs represented by the current and the specified objects are not e
 
 ## See Also
 
-* Class [Guid](../)
 * Class [Guid](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

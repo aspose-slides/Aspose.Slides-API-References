@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/entitytagheadervalue/entitytagheadervalue/
 ---
-## EntityTagHeaderValue::EntityTagHeaderValue([String](../../../system/string/)) constructor
+## EntityTagHeaderValue::EntityTagHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::Headers::EntityTagHeaderValue::EntityTagHeaderValue(String ta
 | --- | --- | --- |
 | tag | [String](../../../system/string/) | A string representation of an EntityTagHeaderValue-class instance. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [EntityTagHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## EntityTagHeaderValue::EntityTagHeaderValue([String](../../../system/string/), **bool**) constructor
+## EntityTagHeaderValue::EntityTagHeaderValue(String, bool) constructor
 
 
 Constructs a new instance.

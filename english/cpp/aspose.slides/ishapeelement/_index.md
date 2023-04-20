@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ishapeelement/
 Represents a part of shape with same outline and fill properties.
 
 ```cpp
-class IShapeElement : public System::Object
+class IShapeElement : public virtual System::Object
 ```
 
 ## Methods

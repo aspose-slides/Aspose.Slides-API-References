@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.net.http.headers/httpheaders/removeparsedvalue/
 ---
-## HttpHeaders::RemoveParsedValue([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpHeaders::RemoveParsedValue(String, System::SharedPtr\<Object\>) method
 
 
 Gets a header by the specified name and removes a parsed value from the header.
@@ -29,8 +29,8 @@ True when the value was successfully removed, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [HttpHeaders](../)
 * Namespace [System::Net::Http::Headers](../../)

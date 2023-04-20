@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.xml/xmltextwriter/writecomment/
 ---
-## XmlTextWriter::WriteComment([String](../../../system/string/)) method
+## XmlTextWriter::WriteComment(String) method
 
 
 Writes out a comment **** containing the specified text.

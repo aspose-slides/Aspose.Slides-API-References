@@ -3,7 +3,7 @@ title: KeyNumber
 second_title: Aspose.Slides for C++ API Reference
 description: Key type.
 type: docs
-weight: 924
+weight: 833
 url: /cpp/system.security.cryptography/keynumber/
 ---
 ## KeyNumber enum

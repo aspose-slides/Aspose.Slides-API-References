@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.globalization.details/gregoriancalendarutils/convertdatetimetoudate/
 ---
-## GregorianCalendarUtils::ConvertDateTimeToUDate([DateTime](../../../system/datetime/)) method
+## GregorianCalendarUtils::ConvertDateTimeToUDate(DateTime) method
 
 
 [Convert](../../../system/convert/)[DateTime](../../../system/datetime/) to ICU UDate.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.drawing/margin64d/margin64d/
 ---
-## Margin64d::Margin64d(**double**, **double**, **double**, **double**) constructor
+## Margin64d::Margin64d(double, double, double, double) constructor
 
 
 
@@ -15,12 +15,7 @@ url: /cpp/aspose.slides.drawing/margin64d/margin64d/
 Aspose::Slides::Drawing::Margin64d::Margin64d(double left, double top, double right, double bottom)
 ```
 
-## See Also
-
-* Class [Margin64d](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Margin64d::Margin64d(**double**) constructor
+## Margin64d::Margin64d(double) constructor
 
 
 
@@ -29,11 +24,6 @@ Aspose::Slides::Drawing::Margin64d::Margin64d(double left, double top, double ri
 Aspose::Slides::Drawing::Margin64d::Margin64d(double value)
 ```
 
-## See Also
-
-* Class [Margin64d](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Margin64d::Margin64d() constructor
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides/islideshowtransition/set_soundname/
 ---
-## ISlideShowTransition::set_SoundName([System::String](../../../system/string/)) method
+## ISlideShowTransition::set_SoundName(System::String) method
 
 
 Specifies a human readable name for the sound of the transition. The [ISlideShowTransition::set_Sound](../set_sound/) must be assigned to get or set the sound name. Writes [System::String](../../../system/string/).

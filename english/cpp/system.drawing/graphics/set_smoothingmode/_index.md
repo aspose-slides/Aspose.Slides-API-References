@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.drawing/graphics/set_smoothingmode/
 ---
-## Graphics::set_SmoothingMode([Drawing2D::SmoothingMode](../../../system.drawing.drawing2d/smoothingmode/)) method
+## Graphics::set_SmoothingMode(Drawing2D::SmoothingMode) method
 
 
 Sets a value that specifies a soothing mode used during rendering on the surface represented by the current object.

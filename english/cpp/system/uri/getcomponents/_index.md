@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system/uri/getcomponents/
 ---
-## Uri::GetComponents([UriComponents](../../uricomponents/), [UriFormat](../../uriformat/)) const method
+## Uri::GetComponents(UriComponents, UriFormat) const method
 
 
 Returns the specified components of the URI represented by the current object using the specified escaping.
@@ -29,9 +29,9 @@ The requested components
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [UriComponents](../../uricomponents/)
 * Enum [UriFormat](../../uriformat/)
+* Class [String](../../string/)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

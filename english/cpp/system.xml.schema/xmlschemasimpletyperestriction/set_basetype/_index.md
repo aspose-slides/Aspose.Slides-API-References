@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemasimpletyperestriction/set_basetype/
 ---
-## XmlSchemaSimpleTypeRestriction::set_BaseType(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>\&) method
+## XmlSchemaSimpleTypeRestriction::set_BaseType(const SharedPtr\<XmlSchemaSimpleType\>\&) method
 
 
 Sets information on the base type.

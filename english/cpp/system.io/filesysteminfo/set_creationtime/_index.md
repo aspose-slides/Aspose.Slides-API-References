@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.io/filesysteminfo/set_creationtime/
 ---
-## FileSystemInfo::set_CreationTime([DateTime](../../../system/datetime/)) method
+## FileSystemInfo::set_CreationTime(DateTime) method
 
 
 Sets the creation time of the entity represented by the current object as local time.

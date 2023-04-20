@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.xml/xmlconvert/todatetime/
 ---
-## XmlConvert::ToDateTime(const [String](../../../system/string/)\&) method
+## XmlConvert::ToDateTime(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [DateTime](../../../system/datetime/) equivalent.
@@ -26,14 +26,7 @@ static DateTime System::Xml::XmlConvert::ToDateTime(const String &s)
 
 A [DateTime](../../../system/datetime/) equivalent of the string.
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [String](../../../system/string/)
-* Class [XmlConvert](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlConvert::ToDateTime(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlConvert::ToDateTime(const String\&, const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [DateTime](../../../system/datetime/) equivalent.
@@ -54,14 +47,7 @@ static DateTime System::Xml::XmlConvert::ToDateTime(const String &s, const Strin
 
 A [DateTime](../../../system/datetime/) equivalent of the string.
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [String](../../../system/string/)
-* Class [XmlConvert](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlConvert::ToDateTime(const [String](../../../system/string/)\&, const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## XmlConvert::ToDateTime(const String\&, const ArrayPtr\<String\>\&) method
 
 
 Converts the [String](../../../system/string/) to a [DateTime](../../../system/datetime/) equivalent.
@@ -82,15 +68,7 @@ static DateTime System::Xml::XmlConvert::ToDateTime(const String &s, const Array
 
 A [DateTime](../../../system/datetime/) equivalent of the string.
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [XmlConvert](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlConvert::ToDateTime(const [String](../../../system/string/)\&, [XmlDateTimeSerializationMode](../../xmldatetimeserializationmode/)) method
+## XmlConvert::ToDateTime(const String\&, XmlDateTimeSerializationMode) method
 
 
 Converts the [String](../../../system/string/) to a [DateTime](../../../system/datetime/) using the XmlDateTimeSerializationMode specified.
@@ -113,9 +91,10 @@ A [DateTime](../../../system/datetime/) equivalent of the [String](../../../syst
 
 ## See Also
 
+* Enum [XmlDateTimeSerializationMode](../../xmldatetimeserializationmode/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [DateTime](../../../system/datetime/)
 * Class [String](../../../system/string/)
-* Enum [XmlDateTimeSerializationMode](../../xmldatetimeserializationmode/)
 * Class [XmlConvert](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

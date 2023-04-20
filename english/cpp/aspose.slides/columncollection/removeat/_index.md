@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/columncollection/removeat/
 ---
-## ColumnCollection::RemoveAt(**int32_t**, **bool**) method
+## ColumnCollection::RemoveAt(int32_t, bool) method
 
 
 Removes a column at the specified position from a table.

@@ -23,12 +23,7 @@ void System::Drawing::Point::Offset(int dx, int dy)
 | dx | int | The value to offset the X coordinate value by |
 | dy | int | The value to offset the Y coordinate value by |
 
-## See Also
-
-* Class [Point](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Point::Offset([Point](../)) method
+## Point::Offset(Point) method
 
 
 Offsets the X and Y coordinates represented by the current object by the values of X and Y coordinates represented by the specified [Point](../) object correspondingly.
@@ -46,7 +41,6 @@ void System::Drawing::Point::Offset(Point point)
 
 ## See Also
 
-* Class [Point](../)
 * Class [Point](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

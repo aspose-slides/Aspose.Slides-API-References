@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.xml/xmldocument/createtextnode/
 ---
-## XmlDocument::CreateTextNode(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateTextNode(const String\&) method
 
 
 Creates an [XmlText](../../xmltext/) with the specified text.

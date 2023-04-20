@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/propertyeffect/set_to/
 ---
-## PropertyEffect::set_To([System::String](../../../system/string/)) method
+## PropertyEffect::set_To(System::String) method
 
 
 Specifies the ending value for the animation. Write [System::String](../../../system/string/).

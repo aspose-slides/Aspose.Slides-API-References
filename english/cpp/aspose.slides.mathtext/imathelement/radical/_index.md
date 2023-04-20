@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.mathtext/imathelement/radical/
 ---
-## IMathElement::Radical([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>) method
+## IMathElement::Radical(System::SharedPtr\<IMathElement\>) method
 
 
 Specifies the mathematical root of the given degree from the specified argument.
@@ -36,15 +36,7 @@ auto degree = System::MakeObject<MathematicalText>(u"y");
 auto radical = baseElement->Radical(degree);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathRadical](../../imathradical/)
-* Class [IMathElement](../)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::Radical([System::String](../../../system/string/)) method
+## IMathElement::Radical(System::String) method
 
 
 Specifies the mathematical root of the given degree from the specified argument.
@@ -77,7 +69,7 @@ auto radical = baseElement->Radical(u"3");
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathRadical](../../imathradical/)
-* Class [String](../../../system/string/)
 * Class [IMathElement](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

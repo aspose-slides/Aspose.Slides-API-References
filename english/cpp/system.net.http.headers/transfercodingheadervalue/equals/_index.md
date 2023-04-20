@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/transfercodingheadervalue/equals/
 ---
-## TransferCodingHeaderValue::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## TransferCodingHeaderValue::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

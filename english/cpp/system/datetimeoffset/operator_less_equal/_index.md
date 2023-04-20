@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system/datetimeoffset/operator_less_equal/
 ---
-## DateTimeOffset::operator<=(const [DateTimeOffset](../)\&) const method
+## DateTimeOffset::operator<=(const DateTimeOffset\&) const method
 
 
 Determines if the current object represents the date and time value that is earlier than or the same as the value represented by the specified [DateTimeOffset](../) object.
@@ -26,12 +26,6 @@ bool System::DateTimeOffset::operator<=(const DateTimeOffset &other) const
 
 True if the date and time value represented by the current object is earlier than or the same as the value represented by **other**, otherwise - false
 
-## See Also
-
-* Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTimeOffset::operator<=(std::nullptr_t) const method
 
 

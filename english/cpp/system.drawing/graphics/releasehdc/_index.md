@@ -16,11 +16,6 @@ void System::Drawing::Graphics::ReleaseHdc()
 ```
 
 
-## See Also
-
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Graphics::ReleaseHdc(IntPtr) method
 
 

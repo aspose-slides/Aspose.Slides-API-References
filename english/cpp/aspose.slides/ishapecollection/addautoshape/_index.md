@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides/ishapecollection/addautoshape/
 ---
-## IShapeCollection::AddAutoShape([ShapeType](../../shapetype/), **float**, **float**, **float**, **float**) method
+## IShapeCollection::AddAutoShape(ShapeType, float, float, float, float) method
 
 
 Creates a new [AutoShape](../../autoshape/), tunes it from default template and adds it to the end of the collection.
@@ -30,15 +30,7 @@ virtual System::SharedPtr<IAutoShape> Aspose::Slides::IShapeCollection::AddAutoS
 
 Created [AutoShape](../../autoshape/) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAutoShape](../../iautoshape/)
-* Enum [ShapeType](../../shapetype/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::AddAutoShape([ShapeType](../../shapetype/), **float**, **float**, **float**, **float**, **bool**) method
+## IShapeCollection::AddAutoShape(ShapeType, float, float, float, float, bool) method
 
 
 Creates a new [AutoShape](../../autoshape/) and adds it to the end of the collection.
@@ -65,9 +57,9 @@ Created [AutoShape](../../autoshape/) object.
 
 ## See Also
 
+* Enum [ShapeType](../../shapetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IAutoShape](../../iautoshape/)
-* Enum [ShapeType](../../shapetype/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

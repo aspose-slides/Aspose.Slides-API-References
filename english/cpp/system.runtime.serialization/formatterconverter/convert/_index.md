@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.runtime.serialization/formatterconverter/convert/
 ---
-## FormatterConverter::Convert([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, const [TypeInfo](../../../system/typeinfo/)\&) method
+## FormatterConverter::Convert(System::SharedPtr\<Object\>, const TypeInfo\&) method
 
 
 Converts a value to the given [System::TypeInfo](../../../system/typeinfo/).
@@ -27,15 +27,7 @@ System::SharedPtr<Object> System::Runtime::Serialization::FormatterConverter::Co
 
 The converted value.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TypeInfo](../../../system/typeinfo/)
-* Class [FormatterConverter](../)
-* Namespace [System::Runtime::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## FormatterConverter::Convert([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [TypeCode](../../../system/typecode/)) method
+## FormatterConverter::Convert(System::SharedPtr\<Object\>, TypeCode) method
 
 
 Converts a value to the given [System::TypeCode](../../../system/typecode/).
@@ -58,9 +50,10 @@ The converted value.
 
 ## See Also
 
+* Enum [TypeCode](../../../system/typecode/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
-* Enum [TypeCode](../../../system/typecode/)
+* Class [TypeInfo](../../../system/typeinfo/)
 * Class [FormatterConverter](../)
 * Namespace [System::Runtime::Serialization](../../)
 * Library [Aspose.Slides](../../../)

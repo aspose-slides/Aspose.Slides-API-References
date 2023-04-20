@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net/servicepointmanager/set_usenaglealgorithm/
 ---
-## ServicePointManager::set_UseNagleAlgorithm(**bool**) method
+## ServicePointManager::set_UseNagleAlgorithm(bool) method
 
 
 Sets a value that indicates if the ServicePoint-class instances use the Nagle algorithm.

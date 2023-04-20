@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.collections/ilistimplreftype/unboxvalue/
 ---
-## IListImplRefType::UnboxValue([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IListImplRefType::UnboxValue(System::SharedPtr\<System::Object\>) method
 
 
 Converting object value into partucular type reference.

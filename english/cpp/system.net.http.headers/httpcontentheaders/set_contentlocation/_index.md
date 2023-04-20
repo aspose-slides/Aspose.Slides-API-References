@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/httpcontentheaders/set_contentlocation/
 ---
-## HttpContentHeaders::set_ContentLocation([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## HttpContentHeaders::set_ContentLocation(System::SharedPtr\<Uri\>) method
 
 
 Sets a value of the 'Content-Location' header.

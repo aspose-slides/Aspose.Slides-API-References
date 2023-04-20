@@ -6,7 +6,7 @@ type: docs
 weight: 872
 url: /cpp/system.drawing/graphics/multiplytransform/
 ---
-## Graphics::MultiplyTransform(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\&, [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)) method
+## Graphics::MultiplyTransform(const SharedPtr\<Drawing2D::Matrix\>\&, Drawing2D::MatrixOrder) method
 
 
 Multiplies the world transformation matrix of the current [Graphics](../) object by the specified matrix.
@@ -25,9 +25,9 @@ void System::Drawing::Graphics::MultiplyTransform(const SharedPtr<Drawing2D::Mat
 
 ## See Also
 
+* Enum [MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Matrix](../../../system.drawing.drawing2d/matrix/)
-* Enum [MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)
 * Class [Graphics](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

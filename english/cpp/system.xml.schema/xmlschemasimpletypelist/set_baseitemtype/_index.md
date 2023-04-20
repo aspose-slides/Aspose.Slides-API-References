@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemasimpletypelist/set_baseitemtype/
 ---
-## XmlSchemaSimpleTypeList::set_BaseItemType(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>\&) method
+## XmlSchemaSimpleTypeList::set_BaseItemType(const SharedPtr\<XmlSchemaSimpleType\>\&) method
 
 
 Sets the [XmlSchemaSimpleType](../../xmlschemasimpletype/) representing the type of the **simpleType** element based on the [XmlSchemaSimpleTypeList::get_ItemType](../get_itemtype/) and [XmlSchemaSimpleTypeList::get_ItemTypeName](../get_itemtypename/) values of the simple type.

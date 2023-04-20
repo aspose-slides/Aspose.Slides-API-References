@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/weakreference_tmpl_t__end_tmpl/settarget/
 ---
-## WeakReference< T >::SetTarget(const [SmartPtr](../../smartptr/)\<T\>\&) method
+## WeakReference< T >::SetTarget(const SmartPtr\<T\>\&) method
 
 
 Sets the object (the target) referenced by the current WeakReference object.

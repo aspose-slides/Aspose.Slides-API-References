@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/uri/getleftpart/
 ---
-## Uri::GetLeftPart([UriPartial](../../uripartial/)) method
+## Uri::GetLeftPart(UriPartial) method
 
 
 Returns the specified portion of the URI represented by the current object.
@@ -28,8 +28,8 @@ The specified part of the URI represented by the current object
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [UriPartial](../../uripartial/)
+* Class [String](../../string/)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

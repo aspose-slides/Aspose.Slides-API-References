@@ -15,11 +15,6 @@ Default constructor.
 System::TypeInfoPtr::TypeInfoPtr()=default
 ```
 
-## See Also
-
-* Struct [TypeInfoPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TypeInfoPtr::TypeInfoPtr(const std::type_info\&) constructor
 
 
@@ -36,12 +31,7 @@ System::TypeInfoPtr::TypeInfoPtr(const std::type_info &info)
 | --- | --- | --- |
 | info | const std::type_info\& | Information about a type. |
 
-## See Also
-
-* Struct [TypeInfoPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TypeInfoPtr::TypeInfoPtr(const char_t *, **uint32_t**) constructor
+## TypeInfoPtr::TypeInfoPtr(const char_t *, uint32_t) constructor
 
 
 Constructor.
@@ -58,11 +48,6 @@ System::TypeInfoPtr::TypeInfoPtr(const char_t *name, uint32_t hash)
 | name | const char_t * | Type name. |
 | hash | **uint32_t** | Type name hash. |
 
-## See Also
-
-* Struct [TypeInfoPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TypeInfoPtr::TypeInfoPtr(const char_t *) constructor
 
 
@@ -79,12 +64,7 @@ System::TypeInfoPtr::TypeInfoPtr(const char_t *name)
 | --- | --- | --- |
 | name | const char_t * | Type name. |
 
-## See Also
-
-* Struct [TypeInfoPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TypeInfoPtr::TypeInfoPtr(const [String](../../string/)\&) constructor
+## TypeInfoPtr::TypeInfoPtr(const String\&) constructor
 
 
 Constructor.

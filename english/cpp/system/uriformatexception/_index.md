@@ -3,7 +3,7 @@ title: UriFormatException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3407
+weight: 2627
 url: /cpp/system/uriformatexception/
 ---
 ## UriFormatException typedef

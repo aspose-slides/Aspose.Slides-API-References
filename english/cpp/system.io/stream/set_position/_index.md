@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.io/stream/set_position/
 ---
-## Stream::set_Position(**int64_t**) method
+## Stream::set_Position(int64_t) method
 
 
 Sets the stream's position.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.io/bufferedstream/read/
 ---
-## BufferedStream::Read(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## BufferedStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the underlying stream and writes them to the specified byte array.
@@ -28,13 +28,7 @@ virtual int32_t System::IO::BufferedStream::Read(const ArrayPtr<uint8_t> &buffer
 
 The number of bytes read
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [BufferedStream](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BufferedStream::Read(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## BufferedStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the underlying stream and writes them to the specified byte array.
@@ -58,6 +52,7 @@ The number of bytes read
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [BufferedStream](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

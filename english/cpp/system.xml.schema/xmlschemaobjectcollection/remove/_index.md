@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml.schema/xmlschemaobjectcollection/remove/
 ---
-## XmlSchemaObjectCollection::Remove(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\&) method
+## XmlSchemaObjectCollection::Remove(const SharedPtr\<XmlSchemaObject\>\&) method
 
 
 Removes an [XmlSchemaObject](../../xmlschemaobject/) from the [XmlSchemaObjectCollection](../).

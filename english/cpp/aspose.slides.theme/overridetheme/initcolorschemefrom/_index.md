@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.theme/overridetheme/initcolorschemefrom/
 ---
-## OverrideTheme::InitColorSchemeFrom([System::SharedPtr](../../../system/sharedptr/)\<[IColorScheme](../../icolorscheme/)\>) method
+## OverrideTheme::InitColorSchemeFrom(System::SharedPtr\<IColorScheme\>) method
 
 
 Init [ColorScheme](../../colorscheme/) with new object for overriding [ColorScheme](../../colorscheme/) of InheritedTheme.

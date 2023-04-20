@@ -15,12 +15,7 @@ Creates new embedded data info for OLE object.
 Aspose::Slides::DOM::Ole::OleEmbeddedDataInfo::OleEmbeddedDataInfo()
 ```
 
-## See Also
-
-* Class [OleEmbeddedDataInfo](../)
-* Namespace [Aspose::Slides::DOM::Ole](../../)
-* Library [Aspose.Slides](../../../)
-## OleEmbeddedDataInfo::OleEmbeddedDataInfo([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::String](../../../system/string/)) constructor
+## OleEmbeddedDataInfo::OleEmbeddedDataInfo(System::ArrayPtr\<uint8_t\>, System::String) constructor
 
 
 Creates a new instance of an embedded data info for OLE object.
@@ -32,7 +27,7 @@ Aspose::Slides::DOM::Ole::OleEmbeddedDataInfo::OleEmbeddedDataInfo(System::Array
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
 * Class [OleEmbeddedDataInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::DOM::Ole](../../)
 * Library [Aspose.Slides](../../../)

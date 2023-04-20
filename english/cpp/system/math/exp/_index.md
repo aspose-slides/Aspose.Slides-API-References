@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system/math/exp/
 ---
-## Math::Exp(**double**) method
+## Math::Exp(double) method
 
 
 Returns e constant raised to the specified power.

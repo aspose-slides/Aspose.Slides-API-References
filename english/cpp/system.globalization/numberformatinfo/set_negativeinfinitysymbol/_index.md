@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.globalization/numberformatinfo/set_negativeinfinitysymbol/
 ---
-## NumberFormatInfo::set_NegativeInfinitySymbol(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_NegativeInfinitySymbol(const String\&) method
 
 
 Sets negative infinity symbol.

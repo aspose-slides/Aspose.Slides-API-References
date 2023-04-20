@@ -15,11 +15,6 @@ Creates empty list.
 System::Collections::Generic::List<T>::List()
 ```
 
-## See Also
-
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## List::List(int) constructor
 
 
@@ -36,12 +31,7 @@ System::Collections::Generic::List<T>::List(int capacity)
 | --- | --- | --- |
 | capacity | int | Number of elements to reserve. |
 
-## See Also
-
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::List([IEnumerablePtr](../ienumerableptr/)) constructor
+## List::List(IEnumerablePtr) constructor
 
 
 Copy constructor.

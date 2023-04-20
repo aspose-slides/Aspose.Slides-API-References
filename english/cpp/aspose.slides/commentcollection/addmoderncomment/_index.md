@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/commentcollection/addmoderncomment/
 ---
-## CommentCollection::AddModernComment([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>, [System::Drawing::PointF](../../../system.drawing/pointf/), [System::DateTime](../../../system/datetime/)) method
+## CommentCollection::AddModernComment(System::String, System::SharedPtr\<ISlide\>, System::SharedPtr\<IShape\>, System::Drawing::PointF, System::DateTime) method
 
 
 Add new modern comment at the end of a collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.charts/charttypecharacterizer/isseriesusesxvaluecoordinate/
 ---
-## ChartTypeCharacterizer::IsSeriesUsesXValueCoordinate([ChartType](../../charttype/)) method
+## ChartTypeCharacterizer::IsSeriesUsesXValueCoordinate(ChartType) method
 
 
 Returns if specified series type uses X value coordinates.

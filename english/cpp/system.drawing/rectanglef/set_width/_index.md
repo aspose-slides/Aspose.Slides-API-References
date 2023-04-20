@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.drawing/rectanglef/set_width/
 ---
-## RectangleF::set_Width(**float**) method
+## RectangleF::set_Width(float) method
 
 
 Sets the width of the rectangle represented by the current object.

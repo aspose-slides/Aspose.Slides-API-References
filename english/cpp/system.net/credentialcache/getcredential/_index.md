@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/credentialcache/getcredential/
 ---
-## CredentialCache::GetCredential([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)) method
+## CredentialCache::GetCredential(System::SharedPtr\<Uri\>, String) method
 
 
 Returns credentials for the specified URI prefix and authentication type.
@@ -23,16 +23,7 @@ System::SharedPtr<NetworkCredential> System::Net::CredentialCache::GetCredential
 | uriPrefix | [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The URI prefix. |
 | authenticationType | [String](../../../system/string/) | An authentication type. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [NetworkCredential](../../networkcredential/)
-* Class [Uri](../../../system/uri/)
-* Class [String](../../../system/string/)
-* Class [CredentialCache](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CredentialCache::GetCredential([String](../../../system/string/), **int32_t**, [String](../../../system/string/)) method
+## CredentialCache::GetCredential(String, int32_t, String) method
 
 
 Returns credentials for the specified host name, port, and authentication type.
@@ -54,6 +45,7 @@ System::SharedPtr<NetworkCredential> System::Net::CredentialCache::GetCredential
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [NetworkCredential](../../networkcredential/)
+* Class [Uri](../../../system/uri/)
 * Class [String](../../../system/string/)
 * Class [CredentialCache](../)
 * Namespace [System::Net](../../)

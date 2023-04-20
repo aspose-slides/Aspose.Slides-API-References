@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.net.sockets/networkstream/endwrite/
 ---
-## NetworkStream::EndWrite([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## NetworkStream::EndWrite(System::SharedPtr\<IAsyncResult\>) method
 
 
 Ends an asynchronous write operation. Waits until the specified asynchronous write operation completes.

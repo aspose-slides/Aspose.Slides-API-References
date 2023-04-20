@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/lockcontext/lockcontext/
 ---
-## LockContext::LockContext([Object](../../object/) *) constructor
+## LockContext::LockContext(Object *) constructor
 
 
 Locks object.

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml.schema/xmlschemaelement/set_name/
 ---
-## XmlSchemaElement::set_Name(const [String](../../../system/string/)\&) method
+## XmlSchemaElement::set_Name(const String\&) method
 
 
 Sets the name of the element.

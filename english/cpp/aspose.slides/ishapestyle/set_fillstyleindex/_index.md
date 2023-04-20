@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/ishapestyle/set_fillstyleindex/
 ---
-## IShapeStyle::set_FillStyleIndex(**int16_t**) method
+## IShapeStyle::set_FillStyleIndex(int16_t) method
 
 
 Sets shape's fill column index in style matrices. 0 means no fill, positive value - index in theme's fill styles, negative value - index in theme's background styles. Write **int16_t**.

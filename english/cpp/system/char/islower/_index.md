@@ -27,11 +27,6 @@ static bool System::Char::IsLower(const char_t *str, int idx)
 
 True if the character at the specified index is a lower case letter, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsLower(char_t) method
 
 
@@ -52,12 +47,7 @@ static bool System::Char::IsLower(char_t c)
 
 True if the specified character is a lower case letter, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Char::IsLower(const [String](../../string/)\&, int) method
+## Char::IsLower(const String\&, int) method
 
 
 Determines whether the character at the specified index in the specified string is classified as a lower case letter.
@@ -80,7 +70,7 @@ True if the character at the specified index is a lower case letter, otherwise -
 
 ## See Also
 
-* Class [String](../../string/)
 * Class [Char](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

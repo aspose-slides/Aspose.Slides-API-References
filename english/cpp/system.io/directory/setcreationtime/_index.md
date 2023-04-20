@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.io/directory/setcreationtime/
 ---
-## Directory::SetCreationTime(const [String](../../../system/string/)\&, [DateTime](../../../system/datetime/)) method
+## Directory::SetCreationTime(const String\&, DateTime) method
 
 
 Sets the creation time of the specified entity as local time.

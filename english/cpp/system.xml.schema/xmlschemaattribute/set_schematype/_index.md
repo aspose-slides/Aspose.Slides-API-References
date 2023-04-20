@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml.schema/xmlschemaattribute/set_schematype/
 ---
-## XmlSchemaAttribute::set_SchemaType(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>\&) method
+## XmlSchemaAttribute::set_SchemaType(const SharedPtr\<XmlSchemaSimpleType\>\&) method
 
 
 Sets the attribute type to a simple type.

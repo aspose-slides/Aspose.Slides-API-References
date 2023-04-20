@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml/xmlwritersettings/set_indent/
 ---
-## XmlWriterSettings::set_Indent(**bool**) method
+## XmlWriterSettings::set_Indent(bool) method
 
 
 Sets a value indicating whether to indent elements.

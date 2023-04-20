@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/transfercodingheadervalue/parse/
 ---
-## TransferCodingHeaderValue::Parse([String](../../../system/string/)) method
+## TransferCodingHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [TransferCodingHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [TransferCodingHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [TransferCodingHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [TransferCodingHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

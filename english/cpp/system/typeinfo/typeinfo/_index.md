@@ -15,11 +15,6 @@ Default constructor (no type is set).
 System::TypeInfo::TypeInfo()
 ```
 
-## See Also
-
-* Class [TypeInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TypeInfo::TypeInfo(std::nullptr_t) constructor
 
 
@@ -29,11 +24,6 @@ Null object constructor (no type is set).
 System::TypeInfo::TypeInfo(std::nullptr_t)
 ```
 
-## See Also
-
-* Class [TypeInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TypeInfo::TypeInfo(const char_t *) constructor
 
 
@@ -50,12 +40,7 @@ System::TypeInfo::TypeInfo(const char_t *name)
 | --- | --- | --- |
 | name | const char_t * | Type name. |
 
-## See Also
-
-* Class [TypeInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TypeInfo::TypeInfo(const char_t *, **uint32_t**) constructor
+## TypeInfo::TypeInfo(const char_t *, uint32_t) constructor
 
 
 Constructor.
@@ -72,11 +57,6 @@ System::TypeInfo::TypeInfo(const char_t *name, uint32_t hash)
 | name | const char_t * | Type name. |
 | hash | **uint32_t** | Type name hash. |
 
-## See Also
-
-* Class [TypeInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TypeInfo::TypeInfo(const std::type_info\&) constructor
 
 

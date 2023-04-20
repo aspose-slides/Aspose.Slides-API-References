@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/math/atan/
 ---
-## Math::Atan(**double**) method
+## Math::Atan(double) method
 
 
 Calculates the arctan of the specified value.

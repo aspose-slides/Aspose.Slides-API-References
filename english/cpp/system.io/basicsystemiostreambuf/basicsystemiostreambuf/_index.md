@@ -15,12 +15,7 @@ Constructs a new instance of the [BasicSystemIOStreamBuf](../).
 System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf()
 ```
 
-## See Also
-
-* Class [BasicSystemIOStreamBuf](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&, [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/), const std::locale\&) constructor
+## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const SharedPtr\<Stream\>\&, SystemIOStreamWrappingMode, const std::locale\&) constructor
 
 
 Constructs a new instance of the [BasicSystemIOStreamBuf](../).
@@ -38,15 +33,7 @@ System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf(const S
 | mode | [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/) | Wrapping mode |
 | locale | const std::locale\& | [Stream](../../stream/)'s locale |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Enum [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/)
-* Class [BasicSystemIOStreamBuf](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const [BasicSystemIOStreamBuf](../)\&) constructor
+## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(const BasicSystemIOStreamBuf\&) constructor
 
 
 Copy constructor. Deleted.
@@ -55,13 +42,7 @@ Copy constructor. Deleted.
 System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf(const BasicSystemIOStreamBuf &)=delete
 ```
 
-## See Also
-
-* Class [BasicSystemIOStreamBuf](../)
-* Class [BasicSystemIOStreamBuf](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf([BasicSystemIOStreamBuf](../)\&&) constructor
+## BasicSystemIOStreamBuf::BasicSystemIOStreamBuf(BasicSystemIOStreamBuf\&&) constructor
 
 
 Move constructor.
@@ -79,7 +60,9 @@ System::IO::BasicSystemIOStreamBuf<Elem, Traits>::BasicSystemIOStreamBuf(BasicSy
 
 ## See Also
 
+* Enum [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [BasicSystemIOStreamBuf](../)
-* Class [BasicSystemIOStreamBuf](../)
+* Class [Stream](../../stream/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

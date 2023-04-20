@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides/documentproperties/set_comments/
 ---
-## DocumentProperties::set_Comments([System::String](../../../system/string/)) method
+## DocumentProperties::set_Comments(System::String) method
 
 
 Sets the comments of a presentation. Write [System::String](../../../system/string/).

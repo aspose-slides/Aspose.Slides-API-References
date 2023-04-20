@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.security.cryptography/rsa/signhash/
 ---
-## RSA::SignHash([ByteArrayPtr](../../../system/bytearrayptr/), [HashAlgorithmName](../../hashalgorithmname/), [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>) method
+## RSA::SignHash(ByteArrayPtr, HashAlgorithmName, SharedPtr\<RSASignaturePadding\>) method
 
 
 Computes the signature for the specified hash value.
@@ -27,9 +27,9 @@ virtual ByteArrayPtr System::Security::Cryptography::RSA::SignHash(ByteArrayPtr 
 ## See Also
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RSASignaturePadding](../../rsasignaturepadding/)
 * Class [RSA](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

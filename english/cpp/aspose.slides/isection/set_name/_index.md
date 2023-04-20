@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/isection/set_name/
 ---
-## ISection::set_Name([System::String](../../../system/string/)) method
+## ISection::set_Name(System::String) method
 
 
 Name of the section.

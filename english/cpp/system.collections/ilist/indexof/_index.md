@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections/ilist/indexof/
 ---
-## IList::IndexOf([SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) const method
+## IList::IndexOf(SharedPtr\<System::Object\>) const method
 
 
 Gets the first index of the specified item.

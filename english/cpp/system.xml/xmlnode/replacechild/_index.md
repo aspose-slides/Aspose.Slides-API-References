@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.xml/xmlnode/replacechild/
 ---
-## XmlNode::ReplaceChild([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../)\>, [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../)\>) method
+## XmlNode::ReplaceChild(SharedPtr\<XmlNode\>, SharedPtr\<XmlNode\>) method
 
 
 Replaces the child node **oldChild** with **newChild** node.
@@ -30,7 +30,6 @@ The node replaced.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../)
 * Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

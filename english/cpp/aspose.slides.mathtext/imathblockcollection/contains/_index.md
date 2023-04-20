@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.mathtext/imathblockcollection/contains/
 ---
-## IMathBlockCollection::Contains([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## IMathBlockCollection::Contains(System::SharedPtr\<IMathBlock\>) method
 
 
 Determines whether the collection contains a specific value.

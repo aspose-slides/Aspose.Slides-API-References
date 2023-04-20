@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/eightdirectiontransition/set_direction/
 ---
-## EightDirectionTransition::set_Direction([TransitionEightDirectionType](../../transitioneightdirectiontype/)) method
+## EightDirectionTransition::set_Direction(TransitionEightDirectionType) method
 
 
 Direction of transition. Write [TransitionEightDirectionType](../../transitioneightdirectiontype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.charts/trendlinecollection/settemplateweakptr/
 ---
-## TrendlineCollection::SetTemplateWeakPtr(**uint32_t**) method
+## TrendlineCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

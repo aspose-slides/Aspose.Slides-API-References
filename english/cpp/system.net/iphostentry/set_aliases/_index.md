@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/iphostentry/set_aliases/
 ---
-## IPHostEntry::set_Aliases([System::ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>) method
+## IPHostEntry::set_Aliases(System::ArrayPtr\<String\>) method
 
 
 Sets a collection of aliases of the host.

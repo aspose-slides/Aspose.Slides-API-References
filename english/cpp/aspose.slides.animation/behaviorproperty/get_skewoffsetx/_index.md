@@ -19,6 +19,5 @@ static System::SharedPtr<BehaviorProperty> Aspose::Slides::Animation::BehaviorPr
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [BehaviorProperty](../)
-* Class [BehaviorProperty](../)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

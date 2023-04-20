@@ -27,11 +27,6 @@ int System::Globalization::PersianCalendar::GetMonthsInYear(int year, int era) c
 
 Number of months in the specified year of specified era.
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::GetMonthsInYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetMonthsInYear(int year) const
 
 Number of months in the specified year.
 
-## See Also
-
-* Class [PersianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## PersianCalendar::GetMonthsInYear(int, int) const method
 
 

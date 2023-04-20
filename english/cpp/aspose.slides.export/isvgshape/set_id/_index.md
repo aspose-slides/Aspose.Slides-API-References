@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/isvgshape/set_id/
 ---
-## ISvgShape::set_Id([System::String](../../../system/string/)) method
+## ISvgShape::set_Id(System::String) method
 
 
 Sets or gets id for the shape

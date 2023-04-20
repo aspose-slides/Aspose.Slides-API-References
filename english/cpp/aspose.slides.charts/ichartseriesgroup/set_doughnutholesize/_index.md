@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides.charts/ichartseriesgroup/set_doughnutholesize/
 ---
-## IChartSeriesGroup::set_DoughnutHoleSize(**uint8_t**) method
+## IChartSeriesGroup::set_DoughnutHoleSize(uint8_t) method
 
 
 Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). Write **uint8_t**.

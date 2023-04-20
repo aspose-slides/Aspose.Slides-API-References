@@ -24,6 +24,5 @@ Returns [XmlNode](../).
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNode](../)
-* Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

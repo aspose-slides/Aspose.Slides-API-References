@@ -20,12 +20,7 @@ T System::Collections::Generic::IEnumerable<T>::LINQ_First()
 
 First element in the sequence.
 
-## See Also
-
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_First(const [Func](../../../system/func/)\<T, **bool**\>\&) method
+## IEnumerable::LINQ_First(const Func\<T, bool\>\&) method
 
 
 Returns the first element of a sequence that satisfy the specified condition.
@@ -47,7 +42,7 @@ First element in the sequence that satisfy the specified condition.
 
 ## See Also
 
-* Class [Func](../../../system/func/)
 * Class [IEnumerable](../)
+* Class [Func](../../../system/func/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

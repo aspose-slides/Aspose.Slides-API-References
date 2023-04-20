@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ipictureeffectivedata/get_imagetransformeffect/
 ---
-## IPictureEffectiveData::get_ImageTransformEffect(**int32_t**) method
+## IPictureEffectiveData::get_ImageTransformEffect(int32_t) method
 
 
 Returns the image transform effect specified at the index.

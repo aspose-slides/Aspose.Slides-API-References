@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/isaveoptions/
 Options that control how a presentation is saved.
 
 ```cpp
-class ISaveOptions : public System::Object
+class ISaveOptions : public virtual System::Object
 ```
 
 ## Methods

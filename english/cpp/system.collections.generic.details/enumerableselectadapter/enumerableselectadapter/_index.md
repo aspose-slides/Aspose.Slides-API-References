@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic.details/enumerableselectadapter/enumerableselectadapter/
 ---
-## EnumerableSelectAdapter::EnumerableSelectAdapter([SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../../system.collections.generic/ienumerable/)\<Source\>\>, const [Func](../../../system/func/)\<Source, Result\>\&) constructor
+## EnumerableSelectAdapter::EnumerableSelectAdapter(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, Result\>\&) constructor
 
 
 

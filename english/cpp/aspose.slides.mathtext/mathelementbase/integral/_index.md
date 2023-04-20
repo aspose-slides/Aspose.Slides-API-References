@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.mathtext/mathelementbase/integral/
 ---
-## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [MathLimitLocations](../../mathlimitlocations/)) method
+## MathElementBase::Integral(MathIntegralTypes, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>, MathLimitLocations) method
 
 
 Takes the integral
@@ -40,17 +40,7 @@ auto upperLimit = System::MakeObject<MathematicalText>(u"2");
 auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, lowerLimit, upperLimit, Aspose::Slides::MathText::MathLimitLocations::UnderOver);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathNaryOperator](../../imathnaryoperator/)
-* Enum [MathIntegralTypes](../../mathintegraltypes/)
-* Class [IMathElement](../../imathelement/)
-* Enum [MathLimitLocations](../../mathlimitlocations/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathElementBase::Integral(MathIntegralTypes, System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Takes the integral
@@ -83,16 +73,7 @@ auto upperLimit = System::MakeObject<MathematicalText>(u"2");
 auto integral = baseElement->Integral(MathIntegralTypes::Simple, lowerLimit, upperLimit, MathLimitLocations::UnderOver);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathNaryOperator](../../imathnaryoperator/)
-* Enum [MathIntegralTypes](../../mathintegraltypes/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/)) method
+## MathElementBase::Integral(MathIntegralTypes) method
 
 
 Takes the integral without limits
@@ -121,15 +102,7 @@ auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
 auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Contour);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathNaryOperator](../../imathnaryoperator/)
-* Enum [MathIntegralTypes](../../mathintegraltypes/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::String](../../../system/string/), [System::String](../../../system/string/), [MathLimitLocations](../../mathlimitlocations/)) method
+## MathElementBase::Integral(MathIntegralTypes, System::String, System::String, MathLimitLocations) method
 
 
 Takes the integral
@@ -161,17 +134,7 @@ auto baseElement = System::MakeObject<MathematicalText>(u"\U0001d465");
 auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralTypes::Simple, u"1", u"5", Aspose::Slides::MathText::MathLimitLocations::UnderOver);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathNaryOperator](../../imathnaryoperator/)
-* Enum [MathIntegralTypes](../../mathintegraltypes/)
-* Class [String](../../../system/string/)
-* Enum [MathLimitLocations](../../mathlimitlocations/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::Integral([MathIntegralTypes](../../mathintegraltypes/), [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## MathElementBase::Integral(MathIntegralTypes, System::String, System::String) method
 
 
 Takes the integral
@@ -204,10 +167,12 @@ auto integral = baseElement->Integral(Aspose::Slides::MathText::MathIntegralType
 
 ## See Also
 
+* Enum [MathIntegralTypes](../../mathintegraltypes/)
+* Enum [MathLimitLocations](../../mathlimitlocations/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathNaryOperator](../../imathnaryoperator/)
-* Enum [MathIntegralTypes](../../mathintegraltypes/)
-* Class [String](../../../system/string/)
+* Class [IMathElement](../../imathelement/)
 * Class [MathElementBase](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

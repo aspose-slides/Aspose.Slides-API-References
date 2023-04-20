@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/documentproperties/set_totaleditingtime/
 ---
-## DocumentProperties::set_TotalEditingTime([System::TimeSpan](../../../system/timespan/)) method
+## DocumentProperties::set_TotalEditingTime(System::TimeSpan) method
 
 
 Total editing time of a presentation. Write [System::TimeSpan](../../../system/timespan/).

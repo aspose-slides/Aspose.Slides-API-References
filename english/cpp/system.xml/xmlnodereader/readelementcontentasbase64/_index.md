@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.xml/xmlnodereader/readelementcontentasbase64/
 ---
-## XmlNodeReader::ReadElementContentAsBase64([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) method
+## XmlNodeReader::ReadElementContentAsBase64(ArrayPtr\<uint8_t\>, int32_t, int32_t) method
 
 
 Reads the element and decodes the Base64 content.

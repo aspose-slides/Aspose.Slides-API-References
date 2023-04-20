@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.xml/xmlvalidatingreader/xmlvalidatingreader/
 ---
-## XmlValidatingReader::XmlValidatingReader(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\>\&) constructor
+## XmlValidatingReader::XmlValidatingReader(const SharedPtr\<XmlReader\>\&) constructor
 
 
 Initializes a new instance of the [XmlValidatingReader](../) class that validates the content returned from the given [XmlReader](../../xmlreader/).
@@ -22,14 +22,7 @@ System::Xml::XmlValidatingReader::XmlValidatingReader(const SharedPtr<XmlReader>
 | --- | --- | --- |
 | reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\>\& | The [XmlReader](../../xmlreader/) to read from while validating. The current implementation supports only [XmlTextReader](../../xmltextreader/). |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../xmlreader/)
-* Class [XmlValidatingReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlValidatingReader::XmlValidatingReader(const [String](../../../system/string/)\&, [XmlNodeType](../../xmlnodetype/), const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\&) constructor
+## XmlValidatingReader::XmlValidatingReader(const String\&, XmlNodeType, const SharedPtr\<XmlParserContext\>\&) constructor
 
 
 Initializes a new instance of the [XmlValidatingReader](../) class with the specified values.
@@ -59,16 +52,7 @@ The following table lists valid values for **fragType** and how the reader parse
 | Document| The contents of an entire XML document; this enforces document level rules. |
 
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [XmlNodeType](../../xmlnodetype/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlParserContext](../../xmlparsercontext/)
-* Class [XmlValidatingReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlValidatingReader::XmlValidatingReader(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, [XmlNodeType](../../xmlnodetype/), const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\&) constructor
+## XmlValidatingReader::XmlValidatingReader(const SharedPtr\<IO::Stream\>\&, XmlNodeType, const SharedPtr\<XmlParserContext\>\&) constructor
 
 
 Initializes a new instance of the [XmlValidatingReader](../) class with the specified values.
@@ -100,10 +84,12 @@ The following table lists valid values for **fragType** and how the reader parse
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
 * Enum [XmlNodeType](../../xmlnodetype/)
-* Class [XmlParserContext](../../xmlparsercontext/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlReader](../../xmlreader/)
 * Class [XmlValidatingReader](../)
+* Class [String](../../../system/string/)
+* Class [XmlParserContext](../../xmlparsercontext/)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

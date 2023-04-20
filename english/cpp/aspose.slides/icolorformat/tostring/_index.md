@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.slides/icolorformat/tostring/
 ---
-## IColorFormat::ToString([ColorStringFormat](../../colorstringformat/)) method
+## IColorFormat::ToString(ColorStringFormat) method
 
 
 Returns a [System::String](../../../system/string/) that represents the current color format.
@@ -28,8 +28,8 @@ A string that represents the current color format.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [ColorStringFormat](../../colorstringformat/)
+* Class [String](../../../system/string/)
 * Class [IColorFormat](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

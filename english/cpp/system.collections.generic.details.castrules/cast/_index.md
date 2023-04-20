@@ -27,11 +27,6 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
-## See Also
-
-* Struct [CastType](../casttype/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 
@@ -53,11 +48,6 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
-## See Also
-
-* Struct [CastType](../casttype/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 
@@ -79,11 +69,6 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
-## See Also
-
-* Struct [CastType](../casttype/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 
@@ -105,11 +90,6 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
-## See Also
-
-* Struct [CastType](../casttype/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 
@@ -131,11 +111,6 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
-## See Also
-
-* Struct [CastType](../casttype/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 
@@ -157,11 +132,6 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
-## See Also
-
-* Struct [CastType](../casttype/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 
@@ -183,11 +153,6 @@ template<typename Source,typename Result> std::enable_if_t<CastType<Source, Resu
 
 The cast result.
 
-## See Also
-
-* Struct [CastType](../casttype/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::CastRules::Cast(Source) function
 
 

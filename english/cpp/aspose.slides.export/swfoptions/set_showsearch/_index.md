@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.export/swfoptions/set_showsearch/
 ---
-## SwfOptions::set_ShowSearch(**bool**) method
+## SwfOptions::set_ShowSearch(bool) method
 
 
 Show/hide search section. Can be overridden in flashvars. Default is true.

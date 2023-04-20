@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.net.http.headers/cachecontrolheadervalue/set_proxyrevalidate/
 ---
-## CacheControlHeaderValue::set_ProxyRevalidate(**bool**) method
+## CacheControlHeaderValue::set_ProxyRevalidate(bool) method
 
 
 Sets the value that determines if the server requires revalidation of a cache entry when it becomes stale for the shared user agent caches.

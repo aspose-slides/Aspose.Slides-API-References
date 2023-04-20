@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides/colorformat/set_hue/
 ---
-## ColorFormat::set_Hue(**float**) method
+## ColorFormat::set_Hue(float) method
 
 
 Sets the hue component of a color in HSL representation. All color transformations are ignored. Write **float**.

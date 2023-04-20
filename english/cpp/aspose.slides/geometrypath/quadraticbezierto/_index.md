@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/geometrypath/quadraticbezierto/
 ---
-## GeometryPath::QuadraticBezierTo([System::Drawing::PointF](../../../system.drawing/pointf/), [System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## GeometryPath::QuadraticBezierTo(System::Drawing::PointF, System::Drawing::PointF) method
 
 
 Adds quadratic Bezier curve at the end the path
@@ -23,13 +23,7 @@ void Aspose::Slides::GeometryPath::QuadraticBezierTo(System::Drawing::PointF poi
 | point1 | [System::Drawing::PointF](../../../system.drawing/pointf/) | Direction point |
 | point2 | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## GeometryPath::QuadraticBezierTo(**float**, **float**, **float**, **float**) method
+## GeometryPath::QuadraticBezierTo(float, float, float, float) method
 
 
 Adds quadratic Bezier curve at the end the path
@@ -48,12 +42,7 @@ void Aspose::Slides::GeometryPath::QuadraticBezierTo(float x1, float y1, float x
 | x2 | **float** | X coordinate of end point |
 | y2 | **float** | Y coordinate of end point |
 
-## See Also
-
-* Class [GeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## GeometryPath::QuadraticBezierTo([System::Drawing::PointF](../../../system.drawing/pointf/), [System::Drawing::PointF](../../../system.drawing/pointf/), **uint32_t**) method
+## GeometryPath::QuadraticBezierTo(System::Drawing::PointF, System::Drawing::PointF, uint32_t) method
 
 
 Adds quadratic Bezier curve to the specified place of the path
@@ -71,13 +60,7 @@ void Aspose::Slides::GeometryPath::QuadraticBezierTo(System::Drawing::PointF poi
 | point2 | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 | index | **uint32_t** | Index of segment in PathData |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## GeometryPath::QuadraticBezierTo(**float**, **float**, **float**, **float**, **uint32_t**) method
+## GeometryPath::QuadraticBezierTo(float, float, float, float, uint32_t) method
 
 
 Adds quadratic Bezier curve to the specified place of the path
@@ -99,6 +82,7 @@ void Aspose::Slides::GeometryPath::QuadraticBezierTo(float x1, float y1, float x
 
 ## See Also
 
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [GeometryPath](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

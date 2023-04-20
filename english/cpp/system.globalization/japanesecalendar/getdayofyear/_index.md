@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/japanesecalendar/getdayofyear/
 ---
-## JapaneseCalendar::GetDayOfYear([DateTime](../../../system/datetime/)) const method
+## JapaneseCalendar::GetDayOfYear(DateTime) const method
 
 
 Gets day of year for the specified time point.

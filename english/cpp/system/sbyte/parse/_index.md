@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/sbyte/parse/
 ---
-## SByte::Parse(const [String](../../string/)\&) method
+## SByte::Parse(const String\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 8-bit signed integer.
@@ -26,13 +26,7 @@ static int8_t System::SByte::Parse(const String &value)
 
 The 8-bit signed integer equal to the number represented by the specified string.
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## SByte::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 8-bit signed integer using the provided formatting information.
@@ -53,15 +47,7 @@ static int8_t System::SByte::Parse(const String &value, const SharedPtr<IFormatP
 
 The 8-bit signed integer equal to the number represented by the specified string.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## SByte::Parse(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -70,15 +56,7 @@ The 8-bit signed integer equal to the number represented by the specified string
 static int8_t System::SByte::Parse(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## SByte::Parse(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -87,15 +65,7 @@ static int8_t System::SByte::Parse(const String &value, const SharedPtr<Globaliz
 static int8_t System::SByte::Parse(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, std::nullptr_t) method
+## SByte::Parse(const String\&, std::nullptr_t) method
 
 
 
@@ -104,13 +74,7 @@ static int8_t System::SByte::Parse(const String &value, const SharedPtr<Globaliz
 static int8_t System::SByte::Parse(const String &value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## SByte::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 8-bit signed integer using the provided formatting information and number style.
@@ -132,16 +96,7 @@ static int8_t System::SByte::Parse(const String &value, Globalization::NumberSty
 
 The 8-bit signed integer equal to the number represented by the specified string.
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## SByte::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -150,16 +105,7 @@ The 8-bit signed integer equal to the number represented by the specified string
 static int8_t System::SByte::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## SByte::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -168,16 +114,7 @@ static int8_t System::SByte::Parse(const String &value, Globalization::NumberSty
 static int8_t System::SByte::Parse(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [SByte](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SByte::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), std::nullptr_t) method
+## SByte::Parse(const String\&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -188,8 +125,12 @@ static int8_t System::SByte::Parse(const String &value, Globalization::NumberSty
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
 * Struct [SByte](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

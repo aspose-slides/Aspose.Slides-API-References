@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.sockets/tcplistener/tcplistener/
 ---
-## TcpListener::TcpListener([System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\>) constructor
+## TcpListener::TcpListener(System::SharedPtr\<IPEndPoint\>) constructor
 
 
 Constructs a new instance.
@@ -22,14 +22,7 @@ System::Net::Sockets::TcpListener::TcpListener(System::SharedPtr<IPEndPoint> loc
 | --- | --- | --- |
 | localEP | [System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\> | The local endpoint to which the listener socket must be bound. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPEndPoint](../../../system.net/ipendpoint/)
-* Class [TcpListener](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## TcpListener::TcpListener([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../../system.net/ipaddress/)\>, **int32_t**) constructor
+## TcpListener::TcpListener(System::SharedPtr\<IPAddress\>, int32_t) constructor
 
 
 Constructs a new instance.
@@ -46,14 +39,7 @@ System::Net::Sockets::TcpListener::TcpListener(System::SharedPtr<IPAddress> loca
 | localaddr | [System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../../system.net/ipaddress/)\> | The local IP address. |
 | port | **int32_t** | A port number to listen. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPAddress](../../../system.net/ipaddress/)
-* Class [TcpListener](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## TcpListener::TcpListener(**int32_t**) constructor
+## TcpListener::TcpListener(int32_t) constructor
 
 
 Constructs a new instance.
@@ -71,6 +57,9 @@ System::Net::Sockets::TcpListener::TcpListener(int32_t port)
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IPEndPoint](../../../system.net/ipendpoint/)
 * Class [TcpListener](../)
+* Class [IPAddress](../../../system.net/ipaddress/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

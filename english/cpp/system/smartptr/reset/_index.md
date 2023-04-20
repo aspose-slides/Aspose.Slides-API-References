@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/smartptr/reset/
 ---
-## SmartPtr::reset([Pointee_](../pointee_/) *) method
+## SmartPtr::reset(Pointee_ *) method
 
 
 Sets pointed object.
@@ -22,12 +22,6 @@ void System::SmartPtr<T>::reset(Pointee_ *ptr)
 | --- | --- | --- |
 | ptr | [Pointee_](../pointee_/) * | Raw pointer to new referenced object. |
 
-## See Also
-
-* Typedef [Pointee_](../pointee_/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## SmartPtr::reset() method
 
 
@@ -39,6 +33,7 @@ void System::SmartPtr<T>::reset()
 
 ## See Also
 
+* Typedef [Pointee_](../pointee_/)
 * Class [SmartPtr](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

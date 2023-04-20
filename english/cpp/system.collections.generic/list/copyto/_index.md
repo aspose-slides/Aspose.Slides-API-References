@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.collections.generic/list/copyto/
 ---
-## List::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<T\>, int) method
+## List::CopyTo(System::ArrayPtr\<T\>, int) method
 
 
 Copies list elements into existing array elements.
@@ -23,13 +23,7 @@ void System::Collections::Generic::List<T>::CopyTo(System::ArrayPtr<T> array, in
 | array | [System::ArrayPtr](../../../system/arrayptr/)\<T\> | Destination array. |
 | arrayIndex | int | Destination array starting index. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::CopyTo(const [System::ArrayPtr](../../../system/arrayptr/)\<T\>\&) method
+## List::CopyTo(const System::ArrayPtr\<T\>\&) method
 
 
 Copies all elements into existing array elements.
@@ -45,13 +39,7 @@ void System::Collections::Generic::List<T>::CopyTo(const System::ArrayPtr<T> &ar
 | --- | --- | --- |
 | array | const [System::ArrayPtr](../../../system/arrayptr/)\<T\>\& | [Array](../../../system/array/) to copy elements into. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::CopyTo(int, const [System::ArrayPtr](../../../system/arrayptr/)\<T\>\&, int, int) method
+## List::CopyTo(int, const System::ArrayPtr\<T\>\&, int, int) method
 
 
 Copies elements starting from the specified index into existing array elements.

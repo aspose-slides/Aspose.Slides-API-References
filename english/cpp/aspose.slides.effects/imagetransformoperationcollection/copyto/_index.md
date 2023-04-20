@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/copyto/
 ---
-## ImageTransformOperationCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IImageTransformOperation](../../iimagetransformoperation/)\>\>, **int32_t**) method
+## ImageTransformOperationCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IImageTransformOperation\>\>, int32_t) method
 
 
 Copies the elements of the [ICollection](../../../system.collections.generic/icollection/) to an [System::Array](../../../system/array/), starting at a particular [System::Array](../../../system/array/) index.

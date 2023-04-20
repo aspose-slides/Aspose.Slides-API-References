@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides/ibaseslide/get_control/
 ---
-## IBaseSlide::get_Control(**int32_t**) method
+## IBaseSlide::get_Control(int32_t) method
 
 
 Returns the ActiveX control at the specified index.

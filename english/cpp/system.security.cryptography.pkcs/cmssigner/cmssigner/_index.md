@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography.pkcs/cmssigner/cmssigner/
 ---
-## CmsSigner::CmsSigner(const [SharedPtr](../../../system/sharedptr/)\<[X509Certificates::X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)\>\&) constructor
+## CmsSigner::CmsSigner(const SharedPtr\<X509Certificates::X509Certificate2\>\&) constructor
 
 
 Initializes signer with X509 certificate.

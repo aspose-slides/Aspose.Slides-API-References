@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.xml/xmlelement/writecontentto/
 ---
-## XmlElement::WriteContentTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlElement::WriteContentTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves all the children of the node to the specified [XmlWriter](../../xmlwriter/).

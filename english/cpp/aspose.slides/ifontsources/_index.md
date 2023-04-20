@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifontsources/
 Provides file and memory sources for external fonts.
 
 ```cpp
-class IFontSources : public System::Object
+class IFontSources : public virtual System::Object
 ```
 
 ## Methods

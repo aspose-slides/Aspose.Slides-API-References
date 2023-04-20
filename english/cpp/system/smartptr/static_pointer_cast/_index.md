@@ -29,6 +29,5 @@ Pointer of changed type which is always in shared mode.
 ## See Also
 
 * Class [SmartPtr](../)
-* Class [SmartPtr](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

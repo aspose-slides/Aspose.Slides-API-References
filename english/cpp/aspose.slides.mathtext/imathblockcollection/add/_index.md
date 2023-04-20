@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.mathtext/imathblockcollection/add/
 ---
-## IMathBlockCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## IMathBlockCollection::Add(System::SharedPtr\<IMathBlock\>) method
 
 
 Adds [IMathBlock](../../imathblock/) to the end of collection.

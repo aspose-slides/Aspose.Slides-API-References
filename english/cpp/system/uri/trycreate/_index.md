@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system/uri/trycreate/
 ---
-## Uri::TryCreate(const [String](../../string/)\&, [UriKind](../../urikind/), [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&) method
+## Uri::TryCreate(const String\&, UriKind, SharedPtr\<Uri\>\&) method
 
 
 Constructs a [Uri](../) object that represents the specified URI; an argument specifies the URI kind.
@@ -28,16 +28,7 @@ static bool System::Uri::TryCreate(const String &uriString, UriKind uriKind, Sha
 
 True if the construction succeeded, otherwise - false
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [UriKind](../../urikind/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
-* Class [Uri](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Uri::TryCreate(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, const [String](../../string/)\&, [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&) method
+## Uri::TryCreate(const SharedPtr\<Uri\>\&, const String\&, SharedPtr\<Uri\>\&) method
 
 
 Constructs an [Uri](../) abject from the specified [Uri](../) object representing the base URI and the string representation of relative URI.
@@ -59,15 +50,7 @@ static bool System::Uri::TryCreate(const SharedPtr<Uri> &baseUri, const String &
 
 True if the construction succeeded, otherwise - false
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
-* Class [String](../../string/)
-* Class [Uri](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Uri::TryCreate(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&) method
+## Uri::TryCreate(const SharedPtr\<Uri\>\&, const SharedPtr\<Uri\>\&, SharedPtr\<Uri\>\&) method
 
 
 Constructs an [Uri](../) abject from the specified base and relative URIs.
@@ -91,8 +74,9 @@ True if the construction succeeded, otherwise - false
 
 ## See Also
 
+* Enum [UriKind](../../urikind/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
+* Class [String](../../string/)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.mathtext/imathmatrix/set_rowgap/
 ---
-## IMathMatrix::set_RowGap(**uint32_t**) method
+## IMathMatrix::set_RowGap(uint32_t) method
 
 
 The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 (\"Exactly\"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 (\"Multiple\"), then the unit is interpreted as half-lines. Default: 0

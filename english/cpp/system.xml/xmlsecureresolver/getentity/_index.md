@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/xmlsecureresolver/getentity/
 ---
-## XmlSecureResolver::GetEntity([SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/), const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlSecureResolver::GetEntity(SharedPtr\<Uri\>, String, const TypeInfo\&) method
 
 
 Maps a URI to an object that contains the actual resource.

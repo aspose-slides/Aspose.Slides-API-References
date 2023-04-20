@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/sectionzoomframe/set_targetsection/
 ---
-## SectionZoomFrame::set_TargetSection([System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>) method
+## SectionZoomFrame::set_TargetSection(System::SharedPtr\<ISection\>) method
 
 
 Sets the section object that the [Section](../../section/) Zoom object links to. Write [ISection](../../isection/).

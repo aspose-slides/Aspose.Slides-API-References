@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.net/webrequest/set_contentlength/
 ---
-## WebRequest::set_ContentLength(**int64_t**) method
+## WebRequest::set_ContentLength(int64_t) method
 
 
 Sets the number of bytes of the request data to sent.

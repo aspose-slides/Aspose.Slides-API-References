@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing/color/fromknowncolor/
 ---
-## Color::FromKnownColor([KnownColor](../../knowncolor/)) method
+## Color::FromKnownColor(KnownColor) method
 
 
 Constructs an instance of [Color](../) class that represents the specified known color.
@@ -28,7 +28,6 @@ An instance of [Color](../) class that represents **kc** color
 
 ## See Also
 
-* Class [Color](../)
 * Enum [KnownColor](../../knowncolor/)
 * Class [Color](../)
 * Namespace [System::Drawing](../../)

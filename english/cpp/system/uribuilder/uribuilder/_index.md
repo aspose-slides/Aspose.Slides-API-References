@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/uribuilder/uribuilder/
 ---
-## UriBuilder::UriBuilder(const [String](../../string/)\&) constructor
+## UriBuilder::UriBuilder(const String\&) constructor
 
 
 Constructs a [UriBuilder](../) object that represents that represents the specified URI.
@@ -15,13 +15,7 @@ Constructs a [UriBuilder](../) object that represents that represents the specif
 System::UriBuilder::UriBuilder(const String &uri)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [UriBuilder](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## UriBuilder::UriBuilder(const [SharedPtr](../../sharedptr/)\<[Uri](../../uri/)\>\&) constructor
+## UriBuilder::UriBuilder(const SharedPtr\<Uri\>\&) constructor
 
 
 Constructs a [UriBuilder](../) object that represents that represents the specified URI.
@@ -33,7 +27,8 @@ System::UriBuilder::UriBuilder(const SharedPtr<Uri> &uri)
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../../uri/)
+* Class [String](../../string/)
 * Class [UriBuilder](../)
+* Class [Uri](../../uri/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

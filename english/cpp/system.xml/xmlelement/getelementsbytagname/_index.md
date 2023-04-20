@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.xml/xmlelement/getelementsbytagname/
 ---
-## XmlElement::GetElementsByTagName([String](../../../system/string/)) method
+## XmlElement::GetElementsByTagName(String) method
 
 
 Returns an [XmlNodeList](../../xmlnodelist/) containing a list of all descendant elements that match the specified [XmlElement::get_Name](../get_name/).
@@ -26,15 +26,7 @@ virtual SharedPtr<XmlNodeList> System::Xml::XmlElement::GetElementsByTagName(Str
 
 An [XmlNodeList](../../xmlnodelist/) containing a list of all matching nodes. The list is empty if there are no matching nodes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNodeList](../../xmlnodelist/)
-* Class [String](../../../system/string/)
-* Class [XmlElement](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlElement::GetElementsByTagName([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::GetElementsByTagName(String, String) method
 
 
 Returns an [XmlNodeList](../../xmlnodelist/) containing a list of all descendant elements that match the specified [XmlElement::get_LocalName](../get_localname/) and [XmlElement::get_NamespaceURI](../get_namespaceuri/) values.

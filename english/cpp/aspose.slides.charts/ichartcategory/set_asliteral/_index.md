@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/ichartcategory/set_asliteral/
 ---
-## IChartCategory::set_AsLiteral([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IChartCategory::set_AsLiteral(System::SharedPtr\<System::Object\>) method
 
 
 Sets AsLiteral if UseCell is false. Write [System::Object](../../../system/object/).

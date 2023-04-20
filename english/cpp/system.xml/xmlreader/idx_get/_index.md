@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/system.xml/xmlreader/idx_get/
 ---
-## XmlReader::idx_get(**int32_t**) method
+## XmlReader::idx_get(int32_t) method
 
 
 When overridden in a derived class, gets the value of the attribute with the specified index.
@@ -26,13 +26,7 @@ virtual String System::Xml::XmlReader::idx_get(int32_t i)
 
 The value of the specified attribute.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::idx_get([String](../../../system/string/)) method
+## XmlReader::idx_get(String) method
 
 
 When overridden in a derived class, gets the value of the attribute with the specified [XmlReader::get_Name](../get_name/) value.
@@ -52,13 +46,7 @@ virtual String System::Xml::XmlReader::idx_get(String name)
 
 The value of the specified attribute. If the attribute is not found, **nullptr** is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::idx_get([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::idx_get(String, String) method
 
 
 When overridden in a derived class, gets the value of the attribute with the specified [XmlReader::get_LocalName](../get_localname/) and [XmlReader::get_NamespaceURI](../get_namespaceuri/) values.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/retryconditionheadervalue/parse/
 ---
-## RetryConditionHeaderValue::Parse([String](../../../system/string/)) method
+## RetryConditionHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [RetryConditionHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [RangeHeaderValue](../../rangeheadervalue/) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RetryConditionHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [RetryConditionHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

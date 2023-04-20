@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system/timespan/operator_equal_equal/
 ---
-## TimeSpan::operator==([TimeSpan](../)) const method
+## TimeSpan::operator==(TimeSpan) const method
 
 
 Determines if the time interval represented by the current object is equal to the time interval represented by the specified object.
@@ -26,12 +26,6 @@ constexpr bool System::TimeSpan::operator==(TimeSpan value) const
 
 True if the current object and the specified object represent the same time interval, otherwise - false
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TimeSpan::operator==(std::nullptr_t) const method
 
 

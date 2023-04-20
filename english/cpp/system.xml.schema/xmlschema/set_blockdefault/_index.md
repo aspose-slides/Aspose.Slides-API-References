@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschema/set_blockdefault/
 ---
-## XmlSchema::set_BlockDefault([XmlSchemaDerivationMethod](../../xmlschemaderivationmethod/)) method
+## XmlSchema::set_BlockDefault(XmlSchemaDerivationMethod) method
 
 
 Sets the **blockDefault** attribute which sets the default value of the **block** attribute on element and complex types in the **targetNamespace** of the schema.

@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/system.xml/xmltextwriter/writequalifiedname/
 ---
-## XmlTextWriter::WriteQualifiedName(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlTextWriter::WriteQualifiedName(const String\&, const String\&) method
 
 
 Writes out the namespace-qualified name. This method looks up the prefix that is in scope for the given namespace.

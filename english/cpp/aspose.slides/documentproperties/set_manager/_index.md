@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/documentproperties/set_manager/
 ---
-## DocumentProperties::set_Manager([System::String](../../../system/string/)) method
+## DocumentProperties::set_Manager(System::String) method
 
 
 Sets the manager property. Write [System::String](../../../system/string/).

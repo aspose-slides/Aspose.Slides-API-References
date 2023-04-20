@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
-## MathSuperscriptElementFactory::CreateMathSuperscriptElement([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathSuperscriptElementFactory::CreateMathSuperscriptElement(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates [IMathSuperscriptElement](../../imathsuperscriptelement/)

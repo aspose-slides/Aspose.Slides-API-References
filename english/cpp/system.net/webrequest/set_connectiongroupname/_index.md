@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.net/webrequest/set_connectiongroupname/
 ---
-## WebRequest::set_ConnectionGroupName([System::String](../../../system/string/)) method
+## WebRequest::set_ConnectionGroupName(System::String) method
 
 
 Sets the name of the connection group.

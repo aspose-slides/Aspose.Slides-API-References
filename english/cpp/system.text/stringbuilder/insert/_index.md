@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.text/stringbuilder/insert/
 ---
-## StringBuilder::Insert(int, const [String](../../../system/string/)\&) method
+## StringBuilder::Insert(int, const String\&) method
 
 
 Inserts string into builder's fixed position.
@@ -27,14 +27,7 @@ StringBuilder * System::Text::StringBuilder::Insert(int startIndex, const String
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Insert(**int32_t**, const [String](../../../system/string/)\&, **int32_t**) method
+## StringBuilder::Insert(int32_t, const String\&, int32_t) method
 
 
 Inserts repeated string into builder's fixed position.
@@ -56,13 +49,6 @@ StringBuilder * System::Text::StringBuilder::Insert(int32_t index, const String 
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Insert(int, char_t) method
 
 
@@ -84,13 +70,7 @@ StringBuilder * System::Text::StringBuilder::Insert(int startIndex, char_t ch)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Insert(int, const [System::ArrayPtr](../../../system/arrayptr/)\<char_t\>\&, int, int) method
+## StringBuilder::Insert(int, const System::ArrayPtr\<char_t\>\&, int, int) method
 
 
 Inserts characters into builder's fixed position.
@@ -113,13 +93,6 @@ StringBuilder * System::Text::StringBuilder::Insert(int index, const System::Arr
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Insert(int, T) method
 
 
@@ -149,7 +122,8 @@ This pointer.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [StringBuilder](../)
-* Class [StringBuilder](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

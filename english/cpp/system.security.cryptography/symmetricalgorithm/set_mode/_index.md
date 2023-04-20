@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.security.cryptography/symmetricalgorithm/set_mode/
 ---
-## SymmetricAlgorithm::set_Mode([CipherMode](../../ciphermode/)) method
+## SymmetricAlgorithm::set_Mode(CipherMode) method
 
 
 Sets mode of cryptographic operation.

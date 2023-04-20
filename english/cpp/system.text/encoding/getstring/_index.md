@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.text/encoding/getstring/
 ---
-## Encoding::GetString(**uint8_t** *, int) method
+## Encoding::GetString(uint8_t *, int) method
 
 
 Decodes a buffer of bytes into a string.
@@ -27,13 +27,7 @@ virtual String System::Text::Encoding::GetString(uint8_t *bytes, int byte_count)
 
 [String](../../../system/string/) of decoded characters.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetString([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Encoding::GetString(ArrayPtr\<uint8_t\>) method
 
 
 Decodes a buffer of bytes into a string.
@@ -53,14 +47,7 @@ virtual String System::Text::Encoding::GetString(ArrayPtr<uint8_t> bytes)
 
 [String](../../../system/string/) of decoded characters.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetString(const System::Details::ArrayView\<**uint8_t**\>\&) method
+## Encoding::GetString(const System::Details::ArrayView\<uint8_t\>\&) method
 
 
 Decodes a buffer of bytes into a string.
@@ -80,13 +67,7 @@ virtual String System::Text::Encoding::GetString(const System::Details::ArrayVie
 
 [String](../../../system/string/) of decoded characters.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetString(System::Details::StackArray\<**uint8_t**, N\>\&) method
+## Encoding::GetString(System::Details::StackArray\<uint8_t, N\>\&) method
 
 
 Decodes a buffer of bytes into a string.
@@ -106,13 +87,7 @@ template<std::size_t> String System::Text::Encoding::GetString(System::Details::
 
 [String](../../../system/string/) of decoded characters.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetString([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## Encoding::GetString(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Decodes a buffer of bytes into a string.
@@ -134,14 +109,7 @@ virtual String System::Text::Encoding::GetString(ArrayPtr<uint8_t> bytes, int in
 
 [String](../../../system/string/) of decoded characters.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetString(const System::Details::ArrayView\<**uint8_t**\>\&, int, int) method
+## Encoding::GetString(const System::Details::ArrayView\<uint8_t\>\&, int, int) method
 
 
 Decodes a buffer of bytes into a string.
@@ -163,13 +131,7 @@ virtual String System::Text::Encoding::GetString(const System::Details::ArrayVie
 
 [String](../../../system/string/) of decoded characters.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetString(System::Details::StackArray\<**uint8_t**, N\>, int, int) method
+## Encoding::GetString(System::Details::StackArray\<uint8_t, N\>, int, int) method
 
 
 Decodes a buffer of bytes into a string.
@@ -193,6 +155,7 @@ template<std::size_t> String System::Text::Encoding::GetString(System::Details::
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
 * Class [Encoding](../)
 * Namespace [System::Text](../../)

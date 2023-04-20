@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/endpoint/create/
 ---
-## EndPoint::Create([System::SharedPtr](../../../system/sharedptr/)\<[SocketAddress](../../socketaddress/)\>) method
+## EndPoint::Create(System::SharedPtr\<SocketAddress\>) method
 
 
 Create a new instance of the [EndPoint](../) class using the specified socket address.
@@ -31,6 +31,5 @@ A newly created EndPoint-class instance.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [EndPoint](../)
 * Class [SocketAddress](../../socketaddress/)
-* Class [EndPoint](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

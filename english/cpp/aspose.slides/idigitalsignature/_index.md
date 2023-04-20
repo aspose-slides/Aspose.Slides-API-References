@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/idigitalsignature/
 Digital signature in signed file.
 
 ```cpp
-class IDigitalSignature : public System::Object
+class IDigitalSignature : public virtual System::Object
 ```
 
 ## Methods

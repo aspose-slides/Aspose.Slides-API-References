@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/stringchartvalue/set_asliteralstring/
 ---
-## StringChartValue::set_AsLiteralString([System::String](../../../system/string/)) method
+## StringChartValue::set_AsLiteralString(System::String) method
 
 
 Sets value as literal string. Write [System::String](../../../system/string/).

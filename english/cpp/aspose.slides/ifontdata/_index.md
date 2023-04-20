@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifontdata/
 Represents a font definition.
 
 ```cpp
-class IFontData : public System::Object
+class IFontData : public virtual System::Object
 ```
 
 ## Methods

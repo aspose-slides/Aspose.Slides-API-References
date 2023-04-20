@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml/xmlnamespacemanager/hasnamespace/
 ---
-## XmlNamespaceManager::HasNamespace([String](../../../system/string/)) method
+## XmlNamespaceManager::HasNamespace(String) method
 
 
 Returns a value indicating whether the supplied prefix has a namespace defined for the current pushed scope.

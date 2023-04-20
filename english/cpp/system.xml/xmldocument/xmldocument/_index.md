@@ -15,12 +15,7 @@ Initializes a new instance of the [XmlDocument](../) class.
 System::Xml::XmlDocument::XmlDocument()
 ```
 
-## See Also
-
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::XmlDocument(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlDocument::XmlDocument(const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlDocument](../) class with the specified [XmlNameTable](../../xmlnametable/).
@@ -39,7 +34,7 @@ System::Xml::XmlDocument::XmlDocument(const SharedPtr<XmlNameTable> &nt)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNameTable](../../xmlnametable/)
 * Class [XmlDocument](../)
+* Class [XmlNameTable](../../xmlnametable/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

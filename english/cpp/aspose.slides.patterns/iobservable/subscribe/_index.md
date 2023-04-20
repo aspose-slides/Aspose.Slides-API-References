@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.patterns/iobservable/subscribe/
 ---
-## IObservable::Subscribe([System::SharedPtr](../../../system/sharedptr/)\<[IObserver](../../iobserver/)\>) method
+## IObservable::Subscribe(System::SharedPtr\<IObserver\>) method
 
 
 

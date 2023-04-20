@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.text.regularexpressions/regex/replace/
 ---
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Regex::Replace(const String\&, const String\&) method
 
 
 Replaces all matches of regex in string with replacement string.
@@ -27,13 +27,7 @@ String System::Text::RegularExpressions::Regex::Replace(const String &input, con
 
 Input string with all regex matches replaced with replacement string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const char_t *) method
+## Regex::Replace(const String\&, const char_t *) method
 
 
 Replaces all matches of regex in string with replacement string.
@@ -54,13 +48,7 @@ String System::Text::RegularExpressions::Regex::Replace(const String &input, con
 
 Input string with all regex matches replaced with replacement string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [MatchEvaluator](../../matchevaluator/)\&) method
+## Regex::Replace(const String\&, const MatchEvaluator\&) method
 
 
 Replaces all matches in string with delegate-generated replacement strings.
@@ -81,14 +69,7 @@ String System::Text::RegularExpressions::Regex::Replace(const String &input, con
 
 Input strings with all matches replaced.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [MatchEvaluator](../../matchevaluator/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [MatchEvaluator](../../matchevaluator/)\&, int) method
+## Regex::Replace(const String\&, const MatchEvaluator\&, int) method
 
 
 Replaces all matches in string with delegate-generated replacement strings.
@@ -110,14 +91,7 @@ String System::Text::RegularExpressions::Regex::Replace(const String &input, con
 
 Input strings with all matches replaced.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [MatchEvaluator](../../matchevaluator/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [MatchEvaluator](../../matchevaluator/)\&, int, int) method
+## Regex::Replace(const String\&, const MatchEvaluator\&, int, int) method
 
 
 Replaces all matches in string with delegate-generated replacement strings.
@@ -140,14 +114,7 @@ String System::Text::RegularExpressions::Regex::Replace(const String &input, con
 
 Input strings with all matches replaced.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [MatchEvaluator](../../matchevaluator/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const char_t *, const char_t *) method
+## Regex::Replace(const String\&, const char_t *, const char_t *) method
 
 
 Replaces all matches of regex in string with replacement string.
@@ -169,13 +136,7 @@ static String System::Text::RegularExpressions::Regex::Replace(const String &inp
 
 Input string with all regex matches replaced with replacement string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const char_t *) method
+## Regex::Replace(const String\&, const String\&, const char_t *) method
 
 
 Replaces all matches of regex in string with replacement string.
@@ -197,13 +158,7 @@ static String System::Text::RegularExpressions::Regex::Replace(const String &inp
 
 Input string with all regex matches replaced with replacement string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [MatchEvaluator](../../matchevaluator/)\&, [RegexOptions](../../regexoptions/)) method
+## Regex::Replace(const String\&, const String\&, const MatchEvaluator\&, RegexOptions) method
 
 
 Replaces all matches in string with delegate-generated replacement strings (static function).
@@ -226,15 +181,7 @@ static String System::Text::RegularExpressions::Regex::Replace(const String &inp
 
 Input strings with all matches replaced.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [MatchEvaluator](../../matchevaluator/)
-* Enum [RegexOptions](../../regexoptions/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [RegexOptions](../../regexoptions/)) method
+## Regex::Replace(const String\&, const String\&, const String\&, RegexOptions) method
 
 
 Replaces all matches of regex in string with replacement string.
@@ -257,14 +204,7 @@ static String System::Text::RegularExpressions::Regex::Replace(const String &inp
 
 Input string with all regex matches replaced with replacement string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [RegexOptions](../../regexoptions/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int) method
+## Regex::Replace(const String\&, const String\&, int) method
 
 
 Replaces substrings in string. Not implemented.
@@ -273,13 +213,7 @@ Replaces substrings in string. Not implemented.
 static String System::Text::RegularExpressions::Regex::Replace(const String &input, const String &replacement, int count)
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int, int) method
+## Regex::Replace(const String\&, const String\&, int, int) method
 
 
 Replaces substrings in string. Not implemented.
@@ -288,13 +222,7 @@ Replaces substrings in string. Not implemented.
 static String System::Text::RegularExpressions::Regex::Replace(const String &input, const String &replacement, int count, int startat)
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Regex::Replace(const String\&, const String\&, const String\&) method
 
 
 Replaces regex matches.
@@ -316,13 +244,7 @@ static String System::Text::RegularExpressions::Regex::Replace(const String &inp
 
 [String](../../../system/string/) with all matches replaced.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [MatchEvaluator](../../matchevaluator/)\&) method
+## Regex::Replace(const String\&, const String\&, const MatchEvaluator\&) method
 
 
 Replaces regex matches.
@@ -346,8 +268,9 @@ static String System::Text::RegularExpressions::Regex::Replace(const String &inp
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Enum [RegexOptions](../../regexoptions/)
 * Typedef [MatchEvaluator](../../matchevaluator/)
+* Class [String](../../../system/string/)
 * Class [Regex](../)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

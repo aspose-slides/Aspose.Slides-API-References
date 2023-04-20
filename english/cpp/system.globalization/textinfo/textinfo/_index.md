@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/textinfo/textinfo/
 ---
-## TextInfo::TextInfo(const [TextInfo](../)\&) constructor
+## TextInfo::TextInfo(const TextInfo\&) constructor
 
 
 RTTI information.
@@ -17,7 +17,6 @@ System::Globalization::TextInfo::TextInfo(const TextInfo &)=delete
 
 ## See Also
 
-* Class [TextInfo](../)
 * Class [TextInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

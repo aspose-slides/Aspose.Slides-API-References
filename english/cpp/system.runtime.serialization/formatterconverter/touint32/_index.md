@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.runtime.serialization/formatterconverter/touint32/
 ---
-## FormatterConverter::ToUInt32([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FormatterConverter::ToUInt32(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a **uint32_t**.

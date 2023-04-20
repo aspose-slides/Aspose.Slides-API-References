@@ -15,12 +15,7 @@ Constructs null pointer.
 System::Collections::Generic::StackPtr<T>::StackPtr()
 ```
 
-## See Also
-
-* Class [StackPtr](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## StackPtr::StackPtr(const [SharedPtr](../../../system/sharedptr/)\<[Stack](../../stack/)\<T\>\>\&) constructor
+## StackPtr::StackPtr(const SharedPtr\<Stack\<T\>\>\&) constructor
 
 
 Constructs pointer referencing specific stack.
@@ -39,7 +34,7 @@ System::Collections::Generic::StackPtr<T>::StackPtr(const SharedPtr<Stack<T>> &o
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stack](../../stack/)
 * Class [StackPtr](../)
+* Class [Stack](../../stack/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

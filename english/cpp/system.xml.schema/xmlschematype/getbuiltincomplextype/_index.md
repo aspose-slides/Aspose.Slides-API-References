@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml.schema/xmlschematype/getbuiltincomplextype/
 ---
-## XmlSchemaType::GetBuiltInComplexType([XmlTypeCode](../../xmltypecode/)) method
+## XmlSchemaType::GetBuiltInComplexType(XmlTypeCode) method
 
 
 Returns an [XmlSchemaComplexType](../../xmlschemacomplextype/) that represents the built-in complex type of the complex type specified.
@@ -26,15 +26,7 @@ static SharedPtr<XmlSchemaComplexType> System::Xml::Schema::XmlSchemaType::GetBu
 
 The [XmlSchemaComplexType](../../xmlschemacomplextype/) that represents the built-in complex type.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaComplexType](../../xmlschemacomplextype/)
-* Enum [XmlTypeCode](../../xmltypecode/)
-* Class [XmlSchemaType](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaType::GetBuiltInComplexType(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaType::GetBuiltInComplexType(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Returns an [XmlSchemaComplexType](../../xmlschemacomplextype/) that represents the built-in complex type of the complex type specified by qualified name.
@@ -56,9 +48,10 @@ The [XmlSchemaComplexType](../../xmlschemacomplextype/) that represents the buil
 
 ## See Also
 
+* Enum [XmlTypeCode](../../xmltypecode/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlSchemaComplexType](../../xmlschemacomplextype/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
 * Class [XmlSchemaType](../)
+* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

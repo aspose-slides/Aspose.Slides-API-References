@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.security.cryptography/cryptostream/set_position/
 ---
-## CryptoStream::set_Position(**int64_t**) method
+## CryptoStream::set_Position(int64_t) method
 
 
 Seeks position in stream. Not supported.

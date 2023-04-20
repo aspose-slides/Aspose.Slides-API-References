@@ -15,12 +15,7 @@ Creates empty [LinkedList](../).
 System::Collections::Generic::LinkedList<T>::LinkedList()
 ```
 
-## See Also
-
-* Class [LinkedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## LinkedList::LinkedList(const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>\&) constructor
+## LinkedList::LinkedList(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
 
 
 Copy constructor.
@@ -39,7 +34,7 @@ System::Collections::Generic::LinkedList<T>::LinkedList(const SharedPtr<IEnumera
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../ienumerable/)
 * Class [LinkedList](../)
+* Class [IEnumerable](../../ienumerable/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

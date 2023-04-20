@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/system.drawing/graphics/drawbezier/
 ---
-## Graphics::DrawBezier(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [Point](../../point/)\&, const [Point](../../point/)\&, const [Point](../../point/)\&, const [Point](../../point/)\&) method
+## Graphics::DrawBezier(const SharedPtr\<Pen\>\&, const Point\&, const Point\&, const Point\&, const Point\&) method
 
 
 NOT IMPLEMENTED.
@@ -16,15 +16,7 @@ void System::Drawing::Graphics::DrawBezier(const SharedPtr<Pen> &pen, const Poin
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Point](../../point/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawBezier(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [PointF](../../pointf/)\&, const [PointF](../../pointf/)\&, const [PointF](../../pointf/)\&, const [PointF](../../pointf/)\&) method
+## Graphics::DrawBezier(const SharedPtr\<Pen\>\&, const PointF\&, const PointF\&, const PointF\&, const PointF\&) method
 
 
 NOT IMPLEMENTED.
@@ -34,15 +26,7 @@ void System::Drawing::Graphics::DrawBezier(const SharedPtr<Pen> &pen, const Poin
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [PointF](../../pointf/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawBezier(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, **float**, **float**, **float**, **float**, **float**, **float**, **float**, **float**) method
+## Graphics::DrawBezier(const SharedPtr\<Pen\>\&, float, float, float, float, float, float, float, float) method
 
 
 NOT IMPLEMENTED.
@@ -56,6 +40,8 @@ void System::Drawing::Graphics::DrawBezier(const SharedPtr<Pen> &pen, float x1, 
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Pen](../../pen/)
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

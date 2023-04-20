@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::HttpClient::HttpClient()
 ```
 
-## See Also
-
-* Class [HttpClient](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## HttpClient::HttpClient([System::SharedPtr](../../../system/sharedptr/)\<[HttpMessageHandler](../../httpmessagehandler/)\>) constructor
+## HttpClient::HttpClient(System::SharedPtr\<HttpMessageHandler\>) constructor
 
 
 Constructs a new instance.
@@ -36,14 +31,7 @@ System::Net::Http::HttpClient::HttpClient(System::SharedPtr<HttpMessageHandler> 
 | --- | --- | --- |
 | handler | [System::SharedPtr](../../../system/sharedptr/)\<[HttpMessageHandler](../../httpmessagehandler/)\> | The HTTP handler used for sending requests. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpMessageHandler](../../httpmessagehandler/)
-* Class [HttpClient](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## HttpClient::HttpClient([System::SharedPtr](../../../system/sharedptr/)\<[HttpMessageHandler](../../httpmessagehandler/)\>, **bool**) constructor
+## HttpClient::HttpClient(System::SharedPtr\<HttpMessageHandler\>, bool) constructor
 
 
 Constructs a new instance.
@@ -63,7 +51,7 @@ System::Net::Http::HttpClient::HttpClient(System::SharedPtr<HttpMessageHandler> 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpMessageHandler](../../httpmessagehandler/)
 * Class [HttpClient](../)
+* Class [HttpMessageHandler](../../httpmessagehandler/)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

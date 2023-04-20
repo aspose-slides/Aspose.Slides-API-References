@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/ichartdatacell/set_value/
 ---
-## IChartDataCell::set_Value([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IChartDataCell::set_Value(System::SharedPtr\<System::Object\>) method
 
 
 Sets the value of a cell. Write [System::Object](../../../system/object/).

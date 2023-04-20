@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides/lineformat/set_miterlimit/
 ---
-## LineFormat::set_MiterLimit(**float**) method
+## LineFormat::set_MiterLimit(float) method
 
 
 Sets the miter limit of a line. Write **float**.

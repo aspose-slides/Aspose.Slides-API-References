@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/idnmapping/equals/
 ---
-## IdnMapping::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## IdnMapping::Equals(SharedPtr\<Object\>) method
 
 
 Compares two [IdnMapping](../) objects.

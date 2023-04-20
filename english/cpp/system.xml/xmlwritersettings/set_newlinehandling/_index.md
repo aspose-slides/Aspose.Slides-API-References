@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml/xmlwritersettings/set_newlinehandling/
 ---
-## XmlWriterSettings::set_NewLineHandling([System::Xml::NewLineHandling](../../newlinehandling/)) method
+## XmlWriterSettings::set_NewLineHandling(System::Xml::NewLineHandling) method
 
 
 Sets a value indicating whether to normalize line breaks in the output.

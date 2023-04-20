@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/system.net.sockets/socket/send/
 ---
-## Socket::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::ArrayPtr\<uint8_t\>, int32_t, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -28,14 +28,7 @@ int32_t System::Net::Sockets::Socket::Send(System::ArrayPtr<uint8_t> buffer, int
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::Details::ArrayView\<uint8_t\>, int32_t, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -57,13 +50,7 @@ int32_t System::Net::Sockets::Socket::Send(System::Details::ArrayView<uint8_t> b
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::Details::StackArray\<uint8_t, N\>\&, int32_t, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -85,13 +72,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Send(System::Details
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::ArrayPtr\<uint8_t\>, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -112,14 +93,7 @@ int32_t System::Net::Sockets::Socket::Send(System::ArrayPtr<uint8_t> buffer, Soc
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::ArrayView\<**uint8_t**\>, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::Details::ArrayView\<uint8_t\>, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -140,13 +114,7 @@ int32_t System::Net::Sockets::Socket::Send(System::Details::ArrayView<uint8_t> b
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::StackArray\<**uint8_t**, N\>\&, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::Details::StackArray\<uint8_t, N\>\&, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -167,13 +135,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Send(System::Details
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Socket::Send(System::ArrayPtr\<uint8_t\>) method
 
 
 Sends the specified data to the socket.
@@ -193,13 +155,7 @@ int32_t System::Net::Sockets::Socket::Send(System::ArrayPtr<uint8_t> buffer)
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::ArrayView\<**uint8_t**\>) method
+## Socket::Send(System::Details::ArrayView\<uint8_t\>) method
 
 
 Sends the specified data to the socket.
@@ -219,12 +175,7 @@ int32_t System::Net::Sockets::Socket::Send(System::Details::ArrayView<uint8_t> b
 
 The number of sent bytes.
 
-## See Also
-
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::StackArray\<**uint8_t**, N\>\&) method
+## Socket::Send(System::Details::StackArray\<uint8_t, N\>\&) method
 
 
 Sends the specified data to the socket.
@@ -244,12 +195,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Send(System::Details
 
 The number of sent bytes.
 
-## See Also
-
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IList](../../../system.collections.generic/ilist/)\<[ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\>\>) method
+## Socket::Send(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>) method
 
 
 Sends the specified data to the socket.
@@ -269,15 +215,7 @@ int32_t System::Net::Sockets::Socket::Send(System::SharedPtr<Collections::Generi
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections.generic/ilist/)
-* Class [ArraySegment](../../../system/arraysegment/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IList](../../../system.collections.generic/ilist/)\<[ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\>\>, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -298,16 +236,7 @@ int32_t System::Net::Sockets::Socket::Send(System::SharedPtr<Collections::Generi
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections.generic/ilist/)
-* Class [ArraySegment](../../../system/arraysegment/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IList](../../../system.collections.generic/ilist/)\<[ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\>\>, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Send(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>, SocketFlags, SocketError\&) method
 
 
 Sends the specified data to the socket.
@@ -329,17 +258,7 @@ int32_t System::Net::Sockets::Socket::Send(System::SharedPtr<Collections::Generi
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections.generic/ilist/)
-* Class [ArraySegment](../../../system/arraysegment/)
-* Enum [SocketFlags](../../socketflags/)
-* Enum [SocketError](../../socketerror/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -362,14 +281,7 @@ int32_t System::Net::Sockets::Socket::Send(System::ArrayPtr<uint8_t> buffer, int
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -392,13 +304,7 @@ int32_t System::Net::Sockets::Socket::Send(System::Details::ArrayView<uint8_t> b
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Send(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags) method
 
 
 Sends the specified data to the socket.
@@ -421,13 +327,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Send(System::Details
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Send(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError\&) method
 
 
 Sends the specified data to the socket.
@@ -451,15 +351,7 @@ int32_t System::Net::Sockets::Socket::Send(System::ArrayPtr<uint8_t> buffer, int
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Enum [SocketError](../../socketerror/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Send(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError\&) method
 
 
 Sends the specified data to the socket.
@@ -483,14 +375,7 @@ int32_t System::Net::Sockets::Socket::Send(System::Details::ArrayView<uint8_t> b
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Enum [SocketError](../../socketerror/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Send(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Send(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags, SocketError\&) method
 
 
 Sends the specified data to the socket.
@@ -518,6 +403,10 @@ The number of sent bytes.
 
 * Enum [SocketFlags](../../socketflags/)
 * Enum [SocketError](../../socketerror/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Socket](../)
+* Class [IList](../../../system.collections.generic/ilist/)
+* Class [ArraySegment](../../../system/arraysegment/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

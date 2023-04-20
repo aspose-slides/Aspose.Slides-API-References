@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.globalization/japaneselunisolarcalendar/getera/
 ---
-## JapaneseLunisolarCalendar::GetEra([DateTime](../../../system/datetime/)) const method
+## JapaneseLunisolarCalendar::GetEra(DateTime) const method
 
 
 Gets era for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaxpath/set_xpath/
 ---
-## XmlSchemaXPath::set_XPath(const [String](../../../system/string/)\&) method
+## XmlSchemaXPath::set_XPath(const String\&) method
 
 
 Sets the attribute for the [XPath](../../../system.xml.xpath/) expression.

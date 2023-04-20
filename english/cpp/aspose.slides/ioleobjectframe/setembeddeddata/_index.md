@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides/ioleobjectframe/setembeddeddata/
 ---
-## IOleObjectFrame::SetEmbeddedData([System::SharedPtr](../../../system/sharedptr/)\<[IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)\>) method
+## IOleObjectFrame::SetEmbeddedData(System::SharedPtr\<IOleEmbeddedDataInfo\>) method
 
 
 Sets information about OLE embedded data.

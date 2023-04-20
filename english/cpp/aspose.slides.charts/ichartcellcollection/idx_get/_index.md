@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/ichartcellcollection/idx_get/
 ---
-## IChartCellCollection::idx_get(**int32_t**) method
+## IChartCellCollection::idx_get(int32_t) method
 
 
 Returns a cell ([IChartDataCell](../../ichartdatacell/)) by index.

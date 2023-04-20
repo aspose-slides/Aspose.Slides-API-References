@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::Headers::ContentDispositionHeaderValue::ContentDispositionHeaderValue()
 ```
 
-## See Also
-
-* Class [ContentDispositionHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## ContentDispositionHeaderValue::ContentDispositionHeaderValue([String](../../../system/string/)) constructor
+## ContentDispositionHeaderValue::ContentDispositionHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -38,7 +33,7 @@ System::Net::Http::Headers::ContentDispositionHeaderValue::ContentDispositionHea
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [ContentDispositionHeaderValue](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

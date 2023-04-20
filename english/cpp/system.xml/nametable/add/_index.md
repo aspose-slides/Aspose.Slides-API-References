@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/nametable/add/
 ---
-## NameTable::Add(const [String](../../../system/string/)\&) method
+## NameTable::Add(const String\&) method
 
 
 Atomizes the specified string and adds it to the [NameTable](../).
@@ -26,13 +26,7 @@ const String & System::Xml::NameTable::Add(const String &key) override
 
 The atomized string or the existing string if it already exists in the [NameTable](../).
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [NameTable](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## NameTable::Add(const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>\&, **int32_t**, **int32_t**) method
+## NameTable::Add(const ArrayPtr\<char16_t\>\&, int32_t, int32_t) method
 
 
 Atomizes the specified string and adds it to the [NameTable](../).
@@ -56,8 +50,8 @@ The atomized string or the existing string if one already exists in the [NameTab
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [NameTable](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

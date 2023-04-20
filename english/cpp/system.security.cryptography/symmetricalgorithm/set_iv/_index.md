@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography/symmetricalgorithm/set_iv/
 ---
-## SymmetricAlgorithm::set_IV([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## SymmetricAlgorithm::set_IV(System::ArrayPtr\<uint8_t\>) method
 
 
 Sets initial value of cryptographic operation.

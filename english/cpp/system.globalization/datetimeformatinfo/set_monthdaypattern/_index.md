@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.globalization/datetimeformatinfo/set_monthdaypattern/
 ---
-## DateTimeFormatInfo::set_MonthDayPattern(const [String](../../../system/string/)\&) method
+## DateTimeFormatInfo::set_MonthDayPattern(const String\&) method
 
 
 Sets month day pattern.

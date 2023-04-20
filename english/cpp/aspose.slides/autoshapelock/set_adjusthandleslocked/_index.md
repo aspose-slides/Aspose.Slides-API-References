@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/autoshapelock/set_adjusthandleslocked/
 ---
-## AutoShapeLock::set_AdjustHandlesLocked(**bool**) method
+## AutoShapeLock::set_AdjustHandlesLocked(bool) method
 
 
 Determines whether a changing adjust values is forbidden. Write **bool**.

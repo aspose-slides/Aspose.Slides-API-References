@@ -24,6 +24,5 @@ The cloned [XmlWriterSettings](../) object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlWriterSettings](../)
-* Class [XmlWriterSettings](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

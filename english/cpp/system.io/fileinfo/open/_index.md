@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.io/fileinfo/open/
 ---
-## FileInfo::Open([FileMode](../../filemode/)) method
+## FileInfo::Open(FileMode) method
 
 
 Opens the file represented by the current object in the specified mode for reading and writing and with no sharing.
@@ -26,14 +26,7 @@ FileStreamPtr System::IO::FileInfo::Open(FileMode mode)
 
 A [FileStream](../../filestream/) object associated with the file represented by the current object
 
-## See Also
-
-* Typedef [FileStreamPtr](../../../system/filestreamptr/)
-* Enum [FileMode](../../filemode/)
-* Class [FileInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## FileInfo::Open([FileMode](../../filemode/), [FileAccess](../../fileaccess/)) method
+## FileInfo::Open(FileMode, FileAccess) method
 
 
 Opens the file represented by the current object in the specified mode, with the specified access type and with no sharing.
@@ -54,15 +47,7 @@ FileStreamPtr System::IO::FileInfo::Open(FileMode mode, FileAccess access)
 
 A [FileStream](../../filestream/) object associated with the file represented by the current object
 
-## See Also
-
-* Typedef [FileStreamPtr](../../../system/filestreamptr/)
-* Enum [FileMode](../../filemode/)
-* Enum [FileAccess](../../fileaccess/)
-* Class [FileInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## FileInfo::Open([FileMode](../../filemode/), [FileAccess](../../fileaccess/), [FileShare](../../fileshare/)) method
+## FileInfo::Open(FileMode, FileAccess, FileShare) method
 
 
 Opens the file represented by the current object in the specified mode, with the specified access type and sharing option.
@@ -86,10 +71,10 @@ A [FileStream](../../filestream/) object associated with the file represented by
 
 ## See Also
 
-* Typedef [FileStreamPtr](../../../system/filestreamptr/)
 * Enum [FileMode](../../filemode/)
 * Enum [FileAccess](../../fileaccess/)
 * Enum [FileShare](../../fileshare/)
+* Typedef [FileStreamPtr](../../../system/filestreamptr/)
 * Class [FileInfo](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

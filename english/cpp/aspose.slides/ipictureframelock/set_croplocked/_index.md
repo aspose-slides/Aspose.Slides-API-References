@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides/ipictureframelock/set_croplocked/
 ---
-## IPictureFrameLock::set_CropLocked(**bool**) method
+## IPictureFrameLock::set_CropLocked(bool) method
 
 
 Determines whether an image cropping is forbidden. Write **bool**.

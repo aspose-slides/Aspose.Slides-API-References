@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ilayoutslidecollection/getbytype/
 ---
-## ILayoutSlideCollection::GetByType([SlideLayoutType](../../slidelayouttype/)) method
+## ILayoutSlideCollection::GetByType(SlideLayoutType) method
 
 
 Returns the first layout slide of specified type.
@@ -28,9 +28,9 @@ virtual System::SharedPtr<ILayoutSlide> Aspose::Slides::ILayoutSlideCollection::
 
 ## See Also
 
+* Enum [SlideLayoutType](../../slidelayouttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ILayoutSlide](../../ilayoutslide/)
-* Enum [SlideLayoutType](../../slidelayouttype/)
 * Class [ILayoutSlideCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

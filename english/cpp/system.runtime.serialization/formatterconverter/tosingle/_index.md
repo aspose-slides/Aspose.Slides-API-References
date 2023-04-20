@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.runtime.serialization/formatterconverter/tosingle/
 ---
-## FormatterConverter::ToSingle([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FormatterConverter::ToSingle(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a float.

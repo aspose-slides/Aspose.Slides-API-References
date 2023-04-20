@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.globalization/calendar/getdayofweek/
 ---
-## Calendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## Calendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

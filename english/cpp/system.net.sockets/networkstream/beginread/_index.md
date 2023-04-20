@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.net.sockets/networkstream/beginread/
 ---
-## NetworkStream::BeginRead([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## NetworkStream::BeginRead(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous read operation.
@@ -33,9 +33,9 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
 * Class [Object](../../../system/object/)
 * Class [NetworkStream](../)
 * Namespace [System::Net::Sockets](../../)

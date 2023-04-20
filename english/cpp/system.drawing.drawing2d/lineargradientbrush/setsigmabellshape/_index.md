@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/setsigmabellshape/
 ---
-## LinearGradientBrush::SetSigmaBellShape(**float**, **float**) method
+## LinearGradientBrush::SetSigmaBellShape(float, float) method
 
 
 NOT IMPLEMENTED.

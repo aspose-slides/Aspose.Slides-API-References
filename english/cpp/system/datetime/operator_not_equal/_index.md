@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/system/datetime/operator_not_equal/
 ---
-## DateTime::operator!=([DateTime](../)) const method
+## DateTime::operator!=(DateTime) const method
 
 
 Determines if the current object and the specified [DateTime](../) object represent distinct date and time values.
@@ -26,12 +26,6 @@ constexpr bool System::DateTime::operator!=(DateTime other) const
 
 True if the current object and the specified object represent distinct date and time values, otherwise - false
 
-## See Also
-
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTime::operator!=(std::nullptr_t) const method
 
 

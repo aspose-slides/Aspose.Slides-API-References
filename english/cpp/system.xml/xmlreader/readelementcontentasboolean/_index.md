@@ -20,12 +20,7 @@ virtual bool System::Xml::XmlReader::ReadElementContentAsBoolean()
 
 The element content as a [Boolean](../../../system/boolean/) object.
 
-## See Also
-
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsBoolean([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsBoolean(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as a [Boolean](../../../system/boolean/) object.
@@ -48,7 +43,7 @@ The element content as a [Boolean](../../../system/boolean/) object.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

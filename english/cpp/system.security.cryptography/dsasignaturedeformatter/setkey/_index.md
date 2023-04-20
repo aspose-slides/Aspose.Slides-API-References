@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/dsasignaturedeformatter/setkey/
 ---
-## DSASignatureDeformatter::SetKey([SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../asymmetricalgorithm/)\>) method
+## DSASignatureDeformatter::SetKey(SharedPtr\<AsymmetricAlgorithm\>) method
 
 
 NOT IMPLEMENTED.

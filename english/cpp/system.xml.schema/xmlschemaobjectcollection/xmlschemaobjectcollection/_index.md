@@ -15,12 +15,7 @@ Initializes a new instance of the [XmlSchemaObjectCollection](../) class.
 System::Xml::Schema::XmlSchemaObjectCollection::XmlSchemaObjectCollection()
 ```
 
-## See Also
-
-* Class [XmlSchemaObjectCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaObjectCollection::XmlSchemaObjectCollection(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\&) constructor
+## XmlSchemaObjectCollection::XmlSchemaObjectCollection(const SharedPtr\<XmlSchemaObject\>\&) constructor
 
 
 Initializes a new instance of the [XmlSchemaObjectCollection](../) class that takes an [XmlSchemaObject](../../xmlschemaobject/).
@@ -39,7 +34,7 @@ System::Xml::Schema::XmlSchemaObjectCollection::XmlSchemaObjectCollection(const 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaObject](../../xmlschemaobject/)
 * Class [XmlSchemaObjectCollection](../)
+* Class [XmlSchemaObject](../../xmlschemaobject/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

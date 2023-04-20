@@ -20,14 +20,7 @@ static SharedPtr<SHA1> System::Security::Cryptography::SHA1::Create()
 
 Newly created hasher instance.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [SHA1](../)
-* Class [SHA1](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## SHA1::Create(const [String](../../../system/string/)\&) method
+## SHA1::Create(const String\&) method
 
 
 Creates hash algorithm instance.
@@ -52,6 +45,5 @@ Newly created hasher instance.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [SHA1](../)
 * Class [String](../../../system/string/)
-* Class [SHA1](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

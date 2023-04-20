@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.mathtext/mathborderbox/set_hideleft/
 ---
-## MathBorderBox::set_HideLeft(**bool**) method
+## MathBorderBox::set_HideLeft(bool) method
 
 
 Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box.

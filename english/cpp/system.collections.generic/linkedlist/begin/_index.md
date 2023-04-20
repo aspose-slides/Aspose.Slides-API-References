@@ -20,12 +20,6 @@ iterator System::Collections::Generic::LinkedList<T>::begin() noexcept
 
 An iterator pointing to the first element in the linked list.
 
-## See Also
-
-* Typedef [iterator](../../ienumerable/iterator/)
-* Class [LinkedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## LinkedList::begin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the first element in the const-qualified instance of the
 
 ## See Also
 
+* Typedef [iterator](../../ienumerable/iterator/)
 * Typedef [const_iterator](../../ienumerable/const_iterator/)
 * Class [LinkedList](../)
 * Namespace [System::Collections::Generic](../../)

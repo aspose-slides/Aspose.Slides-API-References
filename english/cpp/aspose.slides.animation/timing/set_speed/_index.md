@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.animation/timing/set_speed/
 ---
-## Timing::set_Speed(**float**) method
+## Timing::set_Speed(float) method
 
 
 Specifies the percentage by which to speed up (or slow down) the timing. Write **float**.

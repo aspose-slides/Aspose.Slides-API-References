@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.net.sockets/socket/set_enablebroadcast/
 ---
-## Socket::set_EnableBroadcast(**bool**) method
+## Socket::set_EnableBroadcast(bool) method
 
 
 Sets a value that indicates if the socket allows broadcast packets.

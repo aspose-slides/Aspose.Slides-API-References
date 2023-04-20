@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides/ishape/set_x/
 ---
-## IShape::set_X(**float**) method
+## IShape::set_X(float) method
 
 
 Sets the x-coordinate of the upper-left corner of the shape. Write **float**.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.io/directory/enumeratefilesystementries/
 ---
-## Directory::EnumerateFileSystemEntries(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## Directory::EnumerateFileSystemEntries(const String\&, const String\&, SearchOption) method
 
 
 Searches for the files and directories that satisfy the specified search criteria either in the specified directory or in the whole directory tree rooted in the specified directory.
@@ -30,9 +30,9 @@ The enumerable collection of full paths of the found files and directories whose
 
 ## See Also
 
+* Enum [SearchOption](../../searchoption/)
 * Typedef [StringEnumerablePtr](../stringenumerableptr/)
 * Class [String](../../../system/string/)
-* Enum [SearchOption](../../searchoption/)
 * Class [Directory](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

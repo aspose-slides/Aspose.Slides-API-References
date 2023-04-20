@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.drawing/rectangle/equals/
 ---
-## Rectangle::Equals(const [Rectangle](../)\&) const method
+## Rectangle::Equals(const Rectangle\&) const method
 
 
 Determines if the rectangles represented by the current and the specified objects are identical.
@@ -28,7 +28,6 @@ True if the rectangles represented by the current and the specified objects are 
 
 ## See Also
 
-* Class [Rectangle](../)
 * Class [Rectangle](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

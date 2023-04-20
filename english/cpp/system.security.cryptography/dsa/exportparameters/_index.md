@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/dsa/exportparameters/
 ---
-## DSA::ExportParameters(**bool**) method
+## DSA::ExportParameters(bool) method
 
 
 Exports all parameters.
@@ -28,7 +28,7 @@ Exported parameters structure.
 
 ## See Also
 
-* Struct [DSAParameters](../../dsaparameters/)
 * Class [DSA](../)
+* Struct [DSAParameters](../../dsaparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

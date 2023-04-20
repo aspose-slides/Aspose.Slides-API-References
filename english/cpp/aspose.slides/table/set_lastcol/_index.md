@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/table/set_lastcol/
 ---
-## Table::set_LastCol(**bool**) method
+## Table::set_LastCol(bool) method
 
 
 Determines whether the last column of a table has to be drawn with a special formatting. Write **bool**.

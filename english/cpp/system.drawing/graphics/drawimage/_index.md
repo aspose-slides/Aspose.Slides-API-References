@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.drawing/graphics/drawimage/
 ---
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [System::ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const System::ArrayPtr\<Point\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -23,16 +23,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const S
 | image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | IGNORED |
 | destPoints | const [System::ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\& | IGNORED |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [System::ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\&, const [RectangleF](../../rectanglef/)\&, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const System::ArrayPtr\<PointF\>\&, const RectangleF\&, GraphicsUnit, const Imaging::ImageAttributesPtr\&) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -52,19 +43,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const S
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units used by **srcRect** parameter |
 | imgAttributes | const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\& | Specifies coloring and gamma information for the image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const System::Details::ArrayView\<[PointF](../../pointf/)\>\&, const [RectangleF](../../rectanglef/)\&, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const System::Details::ArrayView\<PointF\>\&, const RectangleF\&, GraphicsUnit, const Imaging::ImageAttributesPtr\&) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -84,18 +63,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const S
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units used by **srcRect** parameter |
 | imgAttributes | const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\& | Specifies coloring and gamma information for the image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const System::Details::StackArray\<[PointF](../../pointf/), N\>\&, const [RectangleF](../../rectanglef/)\&, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const System::Details::StackArray\<PointF, N\>\&, const RectangleF\&, GraphicsUnit, const Imaging::ImageAttributesPtr\&) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -115,18 +83,7 @@ template<std::size_t> void System::Drawing::Graphics::DrawImage(const SharedPtr<
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units used by **srcRect** parameter |
 | imgAttributes | const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\& | Specifies coloring and gamma information for the image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, int, int) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, int, int) method
 
 
 Draws the specified image at the specified location.
@@ -144,14 +101,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, int x, 
 | x | int | The X coordinate of the upper left corner of the drawn image |
 | y | int | The Y coordinate of the upper left corner of the drawn image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, **float**, **float**) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, float, float) method
 
 
 Draws the specified image at the specified location.
@@ -169,14 +119,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, float x
 | x | **float** | The X coordinate of the upper left corner of the drawn image |
 | y | **float** | The Y coordinate of the upper left corner of the drawn image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Point](../../point/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Point) method
 
 
 Draws the specified image at the specified location.
@@ -193,15 +136,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Point p
 | image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | The image to draw |
 | pt | [Point](../../point/) | The location of the upper left corner of the drawn image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Point](../../point/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [PointF](../../pointf/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, PointF) method
 
 
 Draws the specified image at the specified location.
@@ -218,15 +153,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, PointF 
 | image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | The image to draw |
 | pt | [PointF](../../pointf/) | The location of the upper left corner of the drawn image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [PointF](../../pointf/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, int, int, int, int) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, int, int, int, int) method
 
 
 Draws the specified image to the specified rectangle.
@@ -246,14 +173,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, int x, 
 | width | int | The width of the upper left corner of the rectangle to draw the image to |
 | height | int | The height of the upper left corner of the rectangle to draw the image to |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, **float**, **float**, **float**, **float**) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, float, float, float, float) method
 
 
 Draws the specified image to the specified rectangle.
@@ -273,14 +193,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, float x
 | width | **float** | The width of the upper left corner of the rectangle to draw the image to |
 | height | **float** | The height of the upper left corner of the rectangle to draw the image to |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [RectangleF](../../rectanglef/), [RectangleF](../../rectanglef/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, RectangleF, RectangleF, GraphicsUnit) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -299,16 +212,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 | srcRect | [RectangleF](../../rectanglef/) | A rectangle that defines the region of the specified image to draw |
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units used by **srcRect** parameter |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, Rectangle, GraphicsUnit) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -327,16 +231,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 | srcRect | [Rectangle](../../rectangle/) | A rectangle that defines the region of the specified image to draw |
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units used by **srcRect** parameter |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, int, int, [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, int, int, Rectangle, GraphicsUnit) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -356,16 +251,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, int x, 
 | srcRect | [Rectangle](../../rectangle/) | A rectangle that defines the region of the specified image to draw |
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units used by **srcRect** parameter |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [Rectangle](../../rectangle/)\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const Rectangle\&) method
 
 
 Draws the specified image at the specified location.
@@ -382,15 +268,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const R
 | image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | The image to draw |
 | rect | const [Rectangle](../../rectangle/)\& | A rectangle to draw the image to |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [RectangleF](../../rectanglef/)\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const RectangleF\&) method
 
 
 Draws the specified image at the specified location.
@@ -407,15 +285,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const R
 | image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | The image to draw |
 | rect | const [RectangleF](../../rectanglef/)\& | A rectangle to draw the image to |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [RectangleF](../../rectanglef/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), int, int, int, int, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, int, int, int, int, GraphicsUnit, const Imaging::ImageAttributesPtr\&) method
 
 
 Draws the specified region of the specified image to the specified rectangle.
@@ -438,17 +308,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units in which parameters **srcX**, **srcY**, **srcWidth** and **srcHeight** are specified |
 | imgAttributes | const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\& | Specifies coloring and gamma information for the image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), **float**, **float**, **float**, **float**, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, float, float, float, float, GraphicsUnit, const Imaging::ImageAttributesPtr\&) method
 
 
 Draws the specified region of the specified image to the specified rectangle.
@@ -471,17 +331,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units in which parameters **srcX**, **srcY**, **srcWidth** and **srcHeight** are specified |
 | imgAttributes | const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\& | Specifies coloring and gamma information for the image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), int, int, int, int, [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, int, int, int, int, GraphicsUnit) method
 
 
 Draws the specified region of the specified image to the specified rectangle.
@@ -503,16 +353,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 | srcHeight | int | The height of the upper left corner of the rectangle that specifies the portion of the image to draw |
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units in which parameters **srcX**, **srcY**, **srcWidth** and **srcHeight** are specified |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), **float**, **float**, **float**, **float**, [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, float, float, float, float, GraphicsUnit) method
 
 
 Draws the specified region of the specified image to the specified rectangle.
@@ -534,16 +375,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 | srcHeight | **float** | The height of the upper left corner of the rectangle that specifies the portion of the image to draw |
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units in which parameters **srcX**, **srcY**, **srcWidth** and **srcHeight** are specified |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), int, int, int, int, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&, [Graphics::DrawImageAbort](../drawimageabort/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, int, int, int, int, GraphicsUnit, const Imaging::ImageAttributesPtr\&, Graphics::DrawImageAbort) method
 
 
 NOT IMPLEMENTED.
@@ -553,18 +385,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Typedef [DrawImageAbort](../drawimageabort/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), **float**, **float**, **float**, **float**, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&, [Graphics::DrawImageAbort](../drawimageabort/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, float, float, float, float, GraphicsUnit, const Imaging::ImageAttributesPtr\&, Graphics::DrawImageAbort) method
 
 
 NOT IMPLEMENTED.
@@ -574,18 +395,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Typedef [DrawImageAbort](../drawimageabort/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), int, int, int, int, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&, [Graphics::DrawImageAbort](../drawimageabort/), IntPtr) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, int, int, int, int, GraphicsUnit, const Imaging::ImageAttributesPtr\&, Graphics::DrawImageAbort, IntPtr) method
 
 
 NOT IMPLEMENTED.
@@ -595,18 +405,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Typedef [DrawImageAbort](../drawimageabort/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), **float**, **float**, **float**, **float**, [GraphicsUnit](../../graphicsunit/), const [Imaging::ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)\&, [Graphics::DrawImageAbort](../drawimageabort/), IntPtr) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, Rectangle, float, float, float, float, GraphicsUnit, const Imaging::ImageAttributesPtr\&, Graphics::DrawImageAbort, IntPtr) method
 
 
 NOT IMPLEMENTED.
@@ -616,18 +415,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, Rectang
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
-* Typedef [DrawImageAbort](../drawimageabort/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\&, [RectangleF](../../rectanglef/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const ArrayPtr\<PointF\>\&, RectangleF, GraphicsUnit) method
 
 
 NOT IMPLEMENTED.
@@ -637,18 +425,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const A
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const ArrayPtr\<PointF\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -658,16 +435,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const A
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\&, [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const ArrayPtr\<Point\>\&, Rectangle, GraphicsUnit) method
 
 
 NOT IMPLEMENTED.
@@ -677,18 +445,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const A
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\&, [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/), const [SharedPtr](../../../system/sharedptr/)\<[Imaging::ImageAttributes](../../../system.drawing.imaging/imageattributes/)\>\&) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, const ArrayPtr\<Point\>\&, Rectangle, GraphicsUnit, const SharedPtr\<Imaging::ImageAttributes\>\&) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -708,19 +465,7 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, const A
 | srcUnit | [GraphicsUnit](../../graphicsunit/) | The measurement units used by **srcRect** parameter |
 | imageAttr | const [SharedPtr](../../../system/sharedptr/)\<[Imaging::ImageAttributes](../../../system.drawing.imaging/imageattributes/)\>\& | Specifies coloring and gamma information for the image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [ImageAttributes](../../../system.drawing.imaging/imageattributes/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImage(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, **float**, **float**, [RectangleF](../../rectanglef/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::DrawImage(const SharedPtr\<Image\>\&, float, float, RectangleF, GraphicsUnit) method
 
 
 Draws the specified region of the specified image at the specified location.
@@ -742,10 +487,17 @@ void System::Drawing::Graphics::DrawImage(const SharedPtr<Image> &image, float x
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [RectangleF](../../rectanglef/)
 * Enum [GraphicsUnit](../../graphicsunit/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [ImageAttributesPtr](../../../system.drawing.imaging/imageattributesptr/)
+* Typedef [DrawImageAbort](../drawimageabort/)
+* Class [Image](../../image/)
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
+* Class [RectangleF](../../rectanglef/)
+* Class [Rectangle](../../rectangle/)
+* Class [ImageAttributes](../../../system.drawing.imaging/imageattributes/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.xml/xmlnodereader/getattribute/
 ---
-## XmlNodeReader::GetAttribute([String](../../../system/string/)) method
+## XmlNodeReader::GetAttribute(String) method
 
 
 Returns the value of the attribute with the specified name.
@@ -26,13 +26,7 @@ String System::Xml::XmlNodeReader::GetAttribute(String name) override
 
 The value of the specified attribute. If the attribute is not found, **nullptr** is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlNodeReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNodeReader::GetAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlNodeReader::GetAttribute(String, String) method
 
 
 Returns the value of the attribute with the specified local name and namespace URI.
@@ -53,13 +47,7 @@ String System::Xml::XmlNodeReader::GetAttribute(String name, String namespaceURI
 
 The value of the specified attribute. If the attribute is not found, **nullptr** is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlNodeReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNodeReader::GetAttribute(**int32_t**) method
+## XmlNodeReader::GetAttribute(int32_t) method
 
 
 Returns the value of the attribute with the specified index.

@@ -20,11 +20,6 @@ virtual bool System::Threading::WaitHandle::WaitOne()
 
 Always returns true as no timeout occurs.
 
-## See Also
-
-* Class [WaitHandle](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
 ## WaitHandle::WaitOne(int) method
 
 
@@ -45,12 +40,7 @@ virtual bool System::Threading::WaitHandle::WaitOne(int millisecondsTimeout)
 
 True if handle fired, false if timeout exceeded.
 
-## See Also
-
-* Class [WaitHandle](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## WaitHandle::WaitOne([TimeSpan](../../../system/timespan/)) method
+## WaitHandle::WaitOne(TimeSpan) method
 
 
 Waits for the handle to fire.
@@ -70,13 +60,7 @@ virtual bool System::Threading::WaitHandle::WaitOne(TimeSpan timeout)
 
 True if handle fired, false if timeout exceeded.
 
-## See Also
-
-* Class [TimeSpan](../../../system/timespan/)
-* Class [WaitHandle](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## WaitHandle::WaitOne(int, **bool**) method
+## WaitHandle::WaitOne(int, bool) method
 
 
 Waits for the handle to fire.
@@ -100,5 +84,6 @@ True if handle fired, false if timeout exceeded.
 ## See Also
 
 * Class [WaitHandle](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

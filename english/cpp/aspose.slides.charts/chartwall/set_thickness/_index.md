@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/chartwall/set_thickness/
 ---
-## ChartWall::set_Thickness(**int32_t**) method
+## ChartWall::set_Thickness(int32_t) method
 
 
 Sets the walls thickness as a percentage of the largest dimension of the plot volume. Write **int32_t**.

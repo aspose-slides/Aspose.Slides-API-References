@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.lowcode/convert/tosvg/
 ---
-## Convert::ToSvg([System::String](../../../system/string/)) method
+## Convert::ToSvg(System::String) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to SVG.
@@ -30,13 +30,7 @@ static void Aspose::Slides::LowCode::Convert::ToSvg(System::String presPath)
 Convert::ToSvg(u"pres.pptx");
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Convert](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSvg([System::String](../../../system/string/), [Convert::GetOutPathCallback](../getoutpathcallback/)) method
+## Convert::ToSvg(System::String, Convert::GetOutPathCallback) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to SVG.
@@ -66,14 +60,7 @@ auto callback = std::function<String(SharedPtr<Slide> slide, int32_t index)>([](
 Convert::ToSvg(u"pres.pptx", callback);
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [GetOutPathCallback](../getoutpathcallback/)
-* Class [Convert](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSvg([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [Convert::GetOutPathCallback](../getoutpathcallback/)) method
+## Convert::ToSvg(System::SharedPtr\<Presentation\>, Convert::GetOutPathCallback) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to SVG.
@@ -105,15 +92,7 @@ auto callback = std::function<String(SharedPtr<Slide> slide, int32_t index)>([](
 Convert::ToSvg(pres, callback);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
-* Typedef [GetOutPathCallback](../getoutpathcallback/)
-* Class [Convert](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSvg([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Export::ISVGOptions](../../../aspose.slides.export/isvgoptions/)\>) method
+## Convert::ToSvg(System::SharedPtr\<Presentation\>, System::SharedPtr\<Aspose::Slides::Export::ISVGOptions\>) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to SVG.
@@ -143,15 +122,7 @@ svgOptions->set_VectorizeText(true);
 Convert::ToSvg(pres, svgOptions);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
-* Class [ISVGOptions](../../../aspose.slides.export/isvgoptions/)
-* Class [Convert](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSvg([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [Convert::GetOutPathCallback](../getoutpathcallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Export::ISVGOptions](../../../aspose.slides.export/isvgoptions/)\>) method
+## Convert::ToSvg(System::SharedPtr\<Presentation\>, Convert::GetOutPathCallback, System::SharedPtr\<Aspose::Slides::Export::ISVGOptions\>) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to SVG.
@@ -189,10 +160,11 @@ Convert::ToSvg(pres, callback, svgOptions);
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
 * Typedef [GetOutPathCallback](../getoutpathcallback/)
-* Class [ISVGOptions](../../../aspose.slides.export/isvgoptions/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Convert](../)
+* Class [Presentation](../../../aspose.slides/presentation/)
+* Class [ISVGOptions](../../../aspose.slides.export/isvgoptions/)
 * Namespace [Aspose::Slides::LowCode](../../)
 * Library [Aspose.Slides](../../../)

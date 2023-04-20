@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.effects/imagetransformoperationfactory/createhsl/
 ---
-## ImageTransformOperationFactory::CreateHSL(**float**, **float**, **float**) method
+## ImageTransformOperationFactory::CreateHSL(float, float, float) method
 
 
 Creates Hue Saturation [Luminance](../../luminance/) effect.

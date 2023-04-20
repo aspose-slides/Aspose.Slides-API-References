@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.lowcode/convert/topdf/
 ---
-## Convert::ToPdf([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## Convert::ToPdf(System::String, System::String) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to PDF.
@@ -31,13 +31,7 @@ static void Aspose::Slides::LowCode::Convert::ToPdf(System::String presPath, Sys
 Convert::ToPdf(u"pres.pptx", u"pres.pdf");
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Convert](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToPdf([System::String](../../../system/string/), [System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Export::IPdfOptions](../../../aspose.slides.export/ipdfoptions/)\>) method
+## Convert::ToPdf(System::String, System::String, System::SharedPtr\<Aspose::Slides::Export::IPdfOptions\>) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to PDF.
@@ -66,15 +60,7 @@ pdfOptions->set_Compliance(PdfCompliance::PdfUa);
 Convert::ToPdf(u"pres.pptx", u"pres.pdf", pdfOptions);
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPdfOptions](../../../aspose.slides.export/ipdfoptions/)
-* Class [Convert](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToPdf([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [System::String](../../../system/string/)) method
+## Convert::ToPdf(System::SharedPtr\<Presentation\>, System::String) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to PDF.
@@ -101,15 +87,7 @@ auto pres = System::MakeObject<Presentation>(u"input.pptx");
 Convert::ToPdf(pres, u"output.pdf");
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
-* Class [String](../../../system/string/)
-* Class [Convert](../)
-* Namespace [Aspose::Slides::LowCode](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToPdf([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Export::IPdfOptions](../../../aspose.slides.export/ipdfoptions/)\>) method
+## Convert::ToPdf(System::SharedPtr\<Presentation\>, System::String, System::SharedPtr\<Aspose::Slides::Export::IPdfOptions\>) method
 
 
 Converts [Presentation](../../../aspose.slides/presentation/) to PDF.
@@ -142,9 +120,9 @@ Convert::ToPdf(pres, u"output.pdf", pdfOptions);
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
 * Class [String](../../../system/string/)
-* Class [IPdfOptions](../../../aspose.slides.export/ipdfoptions/)
 * Class [Convert](../)
+* Class [IPdfOptions](../../../aspose.slides.export/ipdfoptions/)
+* Class [Presentation](../../../aspose.slides/presentation/)
 * Namespace [Aspose::Slides::LowCode](../../)
 * Library [Aspose.Slides](../../../)

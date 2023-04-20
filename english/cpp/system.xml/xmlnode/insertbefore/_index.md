@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.xml/xmlnode/insertbefore/
 ---
-## XmlNode::InsertBefore([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../)\>, [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../)\>) method
+## XmlNode::InsertBefore(SharedPtr\<XmlNode\>, SharedPtr\<XmlNode\>) method
 
 
 Inserts the specified node immediately before the specified reference node.
@@ -30,7 +30,6 @@ The node being inserted.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../)
 * Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

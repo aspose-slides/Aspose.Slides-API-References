@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.globalization/cultureinfo/set_numberformat/
 ---
-## CultureInfo::set_NumberFormat([NumberFormatInfoPtr](../../numberformatinfoptr/)) method
+## CultureInfo::set_NumberFormat(NumberFormatInfoPtr) method
 
 
 Gets number format information.

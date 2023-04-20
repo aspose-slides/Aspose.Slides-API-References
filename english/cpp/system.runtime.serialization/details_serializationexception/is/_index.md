@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.runtime.serialization/details_serializationexception/is/
 ---
-## Details_SerializationException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_SerializationException::Is(const System::TypeInfo\&) const method
 
 
 

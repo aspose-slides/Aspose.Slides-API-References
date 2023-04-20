@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.net.http.headers/httpheaders/addparsedvalue/
 ---
-## HttpHeaders::AddParsedValue([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpHeaders::AddParsedValue(String, System::SharedPtr\<Object\>) method
 
 
 Gets a header by the specified name and adds a parsed value to the header.
@@ -25,8 +25,8 @@ void System::Net::Http::Headers::HttpHeaders::AddParsedValue(String name, System
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [HttpHeaders](../)
 * Namespace [System::Net::Http::Headers](../../)

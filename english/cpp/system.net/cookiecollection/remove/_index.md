@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/cookiecollection/remove/
 ---
-## CookieCollection::Remove(const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>\&) method
+## CookieCollection::Remove(const System::SharedPtr\<Cookie\>\&) method
 
 
 Removes the specified cookie from the collection.

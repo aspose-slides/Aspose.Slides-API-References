@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.text/encodingencoder/convert/
 ---
-## EncodingEncoder::Convert(const char_t *, int, **uint8_t** *, int, **bool**, int\&, int\&, **bool**\&) method
+## EncodingEncoder::Convert(const char_t *, int, uint8_t *, int, bool, int\&, int\&, bool\&) method
 
 
 Converts characters to bytes.
@@ -29,12 +29,7 @@ virtual void System::Text::EncodingEncoder::Convert(const char_t *chars, int cha
 | bytesUsed | int\& | Reference to variable to store count of bytes written. |
 | completed | **bool**\& | Reference to variable to be set to true if input buffer was exhausted and to false otherwise. |
 
-## See Also
-
-* Class [EncodingEncoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## EncodingEncoder::Convert([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, **bool**, int\&, int\&, **bool**\&) method
+## EncodingEncoder::Convert(ArrayPtr\<char_t\>, int, int, ArrayPtr\<uint8_t\>, int, int, bool, int\&, int\&, bool\&) method
 
 
 Converts characters to bytes.

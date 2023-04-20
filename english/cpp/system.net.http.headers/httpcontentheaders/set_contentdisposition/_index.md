@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/httpcontentheaders/set_contentdisposition/
 ---
-## HttpContentHeaders::set_ContentDisposition([System::SharedPtr](../../../system/sharedptr/)\<[ContentDispositionHeaderValue](../../contentdispositionheadervalue/)\>) method
+## HttpContentHeaders::set_ContentDisposition(System::SharedPtr\<ContentDispositionHeaderValue\>) method
 
 
 Sets a value of the 'Content-Disposition' header.

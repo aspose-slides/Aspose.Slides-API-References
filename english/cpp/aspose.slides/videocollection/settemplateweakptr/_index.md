@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/videocollection/settemplateweakptr/
 ---
-## VideoCollection::SetTemplateWeakPtr(**uint32_t**) method
+## VideoCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

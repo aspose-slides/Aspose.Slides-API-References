@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iinterruptiontoken/
 This class represents the token to use for signaling long running tasks whether the interruption was requested.
 
 ```cpp
-class IInterruptionToken : public System::Object
+class IInterruptionToken : public virtual System::Object
 ```
 
 ## Methods

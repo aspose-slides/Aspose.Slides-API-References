@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography.xml/signedxml/checksignature/
 bool System::Security::Cryptography::Xml::SignedXml::CheckSignature()
 ```
 
-## See Also
-
-* Class [SignedXml](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## SignedXml::CheckSignature([SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../../system.security.cryptography/asymmetricalgorithm/)\>) method
+## SignedXml::CheckSignature(SharedPtr\<AsymmetricAlgorithm\>) method
 
 
 
@@ -29,14 +24,7 @@ bool System::Security::Cryptography::Xml::SignedXml::CheckSignature()
 bool System::Security::Cryptography::Xml::SignedXml::CheckSignature(SharedPtr<AsymmetricAlgorithm> key)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [AsymmetricAlgorithm](../../../system.security.cryptography/asymmetricalgorithm/)
-* Class [SignedXml](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## SignedXml::CheckSignature([SharedPtr](../../../system/sharedptr/)\<[X509Certificates::X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)\>, **bool**) method
+## SignedXml::CheckSignature(SharedPtr\<X509Certificates::X509Certificate2\>, bool) method
 
 
 
@@ -48,7 +36,8 @@ bool System::Security::Cryptography::Xml::SignedXml::CheckSignature(SharedPtr<X5
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)
 * Class [SignedXml](../)
+* Class [AsymmetricAlgorithm](../../../system.security.cryptography/asymmetricalgorithm/)
+* Class [X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

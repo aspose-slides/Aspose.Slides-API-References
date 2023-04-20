@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.charts/datalabelcollection/indexof/
 ---
-## DataLabelCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IDataLabel](../../idatalabel/)\>) method
+## DataLabelCollection::IndexOf(System::SharedPtr\<IDataLabel\>) method
 
 
 Returns an index of the specified [DataLabel](../../datalabel/) in the collection.

@@ -3,7 +3,7 @@ title: LineJoinStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the lines join style.
 type: docs
-weight: 5968
+weight: 5708
 url: /cpp/aspose.slides/linejoinstyle/
 ---
 ## LineJoinStyle enum

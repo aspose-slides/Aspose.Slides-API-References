@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.security/securestring/removeat/
 ---
-## SecureString::RemoveAt(**int32_t**) method
+## SecureString::RemoveAt(int32_t) method
 
 
 Removes the character at the specified position.

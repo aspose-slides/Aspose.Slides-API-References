@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides.mathtext/mathmatrix/deletecolumn/
 ---
-## MathMatrix::DeleteColumn(**int32_t**) method
+## MathMatrix::DeleteColumn(int32_t) method
 
 
 Deletes the specified column

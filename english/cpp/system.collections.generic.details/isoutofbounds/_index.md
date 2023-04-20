@@ -33,10 +33,6 @@ template<typename Container> bool System::Collections::Generic::Details::IsOutOf
 
 True if index is out of container bounds, false otherwise.
 
-## See Also
-
-* Namespace [System::Collections::Generic::Details](../)
-* Library [Aspose.Slides](../../)
 ## System::Collections::Generic::Details::IsOutOfBounds(std::int64_t, const Container\&) function
 
 

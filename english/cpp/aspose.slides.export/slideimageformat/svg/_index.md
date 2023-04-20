@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.export/slideimageformat/svg/
 ---
-## SlideImageFormat::Svg([System::SharedPtr](../../../system/sharedptr/)\<[SVGOptions](../../svgoptions/)\>) method
+## SlideImageFormat::Svg(System::SharedPtr\<SVGOptions\>) method
 
 
 [Slides](../../../aspose.slides/) should converted to a SVG format.
@@ -31,6 +31,5 @@ static System::SharedPtr<SlideImageFormat> Aspose::Slides::Export::SlideImageFor
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [SlideImageFormat](../)
 * Class [SVGOptions](../../svgoptions/)
-* Class [SlideImageFormat](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

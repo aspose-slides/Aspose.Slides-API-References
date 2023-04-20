@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/version/compareto/
 ---
-## Version::CompareTo(const [Version](../)\&) const method
+## Version::CompareTo(const Version\&) const method
 
 
 Compares the versions represented by the current object and the specified object.
@@ -28,7 +28,6 @@ int System::Version::CompareTo(const Version &ver) const
 
 ## See Also
 
-* Class [Version](../)
 * Class [Version](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

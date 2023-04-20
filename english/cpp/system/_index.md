@@ -3,7 +3,7 @@ title: System
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 287
+weight: 274
 url: /cpp/system/
 ---
 
@@ -73,7 +73,6 @@ url: /cpp/system/
 | [EnumValues](./enumvalues/) | Provides meta information about enumeration constants of enum type **E**. |
 | [EnumValuesBase](./enumvaluesbase/) | A base class for a class that represents meta information of enumeration type. |
 | [EventArgs](./eventargs/) | The base class for classes that represent a context that is passed to the event subscribers when an event is triggered. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
-| [EventHandler](./eventhandler/) | Represents a method that reacts to and processes an event. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
 | [ExceptionWrapper](./exceptionwrapper/) | Template that represents wrapper of exceptions that are derived from Exception class. |
 | [Func](./func/) | Function delegate. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
 | [GC](./gc/) | Represents an emulated Garbage Collection which acts more like a stub which effectively does nothing. This is a static type with no instance services. You should never create instances of it by any means. |
@@ -96,6 +95,7 @@ url: /cpp/system/
 | [Nullable](./nullable/) | Forward declaration. |
 | [Object](./object/) | Base class that enables using methods available for [System.Object](./object/) class in C#. All non-trivial classes used with translated environment should inherit it. |
 | [ObjectExt](./objectext/) | Provides static methods that emulate C# [Object](./object/) methods called for non-Object C++ types (strings, numbers, etc.). This is a static type with no instance services. You should never create instances of it by any means. |
+| [ObjectType](./objecttype/) | Provides static methods that implement object type getters. This is a static type with no instance services. You should never create instances of it by any means. |
 | [OperatingSystem](./operatingsystem/) | Represents a particular operating system and provides information about it. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [Random](./random/) | Represents a pseudo-random number generator. Objects of this class should only be allocated using [System::MakeObject()](./makeobject/) function. Never create instance of this type on stack or using operator new, as it will result in runtime errors and/or assertion faults. Always wrap this class into [System::SmartPtr](./smartptr/) pointer and use this pointer to pass it to functions as argument. |
 | [ScopedCulture](./scopedculture/) | Represents a culture used within the scope. |
@@ -267,8 +267,10 @@ url: /cpp/system/
 | std::wostream\& [operator<<](./operator_less_less/)(std::wostream\&, const [WeakPtr](./weakptr/)\<T\>\&) | Insert data into the stream. |
 | auto [operator-](./operator_minus/)([DayOfWeek](./dayofweek/), [DayOfWeek](./dayofweek/)) | Calculates the number of days between two days of week. |
 | [Decimal](./decimal/) [operator-](./operator_minus/)(const T\&, const [Decimal](./decimal/)\&) | Returns a new instance of [Decimal](./decimal/) class that represents a value that is the result of subtraction of the value represented by the specified [Decimal](./decimal/) object from the specified value. |
+| MulticastDelegate\<T\> [operator-](./operator_minus/)(MulticastDelegate\<T\>, MulticastDelegate\<T\>) | Disconnects all callbacks in right hand delegate from the end of left hand delegate callback list. |
 | auto [operator-](./operator_minus/)(const T1\&, const [Nullable](./nullable/)\<T2\>\&) | Subtracts non-nullable and nullable values. |
 | [Decimal](./decimal/) [operator+](./operator_plus/)(const T\&, const [Decimal](./decimal/)\&) | Returns a new instance of [Decimal](./decimal/) class that represents a value that is a sum of the specified value and the value represented by the specified [Decimal](./decimal/) object. |
+| MulticastDelegate\<T\> [operator+](./operator_plus/)(MulticastDelegate\<T\>, MulticastDelegate\<T\>) | Connects all callbacks from right hand delegate to the end of left hand delegate callback list. |
 | auto [operator+](./operator_plus/)(const T1\&, const [Nullable](./nullable/)\<T2\>\&) | Sums non-nullable and nullable values. |
 | std::enable_if\<[IsStringLiteral](./isstringliteral/)\<T, char_t\>::value, [String](./string/)\>::type [operator+](./operator_plus/)(T\&, const [String](./string/)\&) | [String](./string/) concatenation. |
 | std::enable_if\<[IsStringPointer](./isstringpointer/)\<T, char_t\>::value, [String](./string/)\>::type [operator+](./operator_plus/)(T\&, const [String](./string/)\&) | [String](./string/) concatenation. |
@@ -322,8 +324,6 @@ url: /cpp/system/
 | [CastResult](./castresult/)\<TTo\>::type [ConstCast](./constcast/)(const [SmartPtr](./smartptr/)\<TFrom\>\&) | End of deprecated casts. |
 | [CastResult](./castresult/)\<TTo\>::type [ForceStaticCast](./forcestaticcast/)([SmartPtr](./smartptr/)\<TFrom\> const\&) | Performs real static cast on [SmartPtr](./smartptr/) objects. |
 | [SmartPtr](./smartptr/)\<[Object](./object/)\> [MemberwiseClone](./memberwiseclone/)(T *) | Performs memberwise cloning using copy constructor. |
-| const [System::TypeInfo](./typeinfo/)\& [ObjectExt::GetType< System::String >](./objectext_dcolon_gettype_less_system_dcolon_string__greater/)() | Implements typeof() translation. Overload for [String](./string/). |
-| const [System::TypeInfo](./typeinfo/)\& [ObjectExt::GetType< System::DateTime >](./objectext_dcolon_gettype_less_system_dcolon_datetime__greater/)() | Implements typeof() translation. Overload for [DateTime](./datetime/). |
 | std::enable_if_t\<Details::CastType\<Source, Result\>::None, Result\> [ExplicitCast](./explicitcast/)(const Source\&) | Casts the source type to the result type using explicit cast. Used when the source and the result types are the same. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>::Static, Result\> [ExplicitCast](./explicitcast/)(const Source\&) | Casts the source type to the result type using explicit cast. Used when simple constructor-like cast is needed. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>[::Exception](./exception/), Result\> [ExplicitCast](./explicitcast/)(const Source\&) | Casts the source type to the result type using explicit cast. Used for exception wrappers. |
@@ -352,6 +352,8 @@ url: /cpp/system/
 | std::enable_if_t\<Details::CastType\<Source, Result\>::UnboxingToString, Result\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used for string unboxing. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>::Null, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used for nullptr casing. |
 | std::enable_if_t\<Details::CastType\<Source, Result\>**::Array**, typename [CastResult](./castresult/)\<Result\>::type\> [AsCast](./ascast/)(const Source\&) | Casts the source type to the result type using 'as' operator cast. Used to cast between arrays. |
+| const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::String >](./objecttype_dcolon_gettype_less_system_dcolon_string__greater/)() | Implements typeof() translation. Overload for [String](./string/). |
+| const [System::TypeInfo](./typeinfo/)\& [ObjectType::GetType< System::DateTime >](./objecttype_dcolon_gettype_less_system_dcolon_datetime__greater/)() | Implements typeof() translation. Overload for [DateTime](./datetime/). |
 | **bool** [Equals](./equals/)(const TA\&, const TB\&) | Determines the equality of two values applying [operator==()](./operator_equal_equal/) to them. |
 | **bool** [Equals< float, float >](./equals_less_float,_float__greater/)(const **float**\&, const **float**\&) | Specialization for single-precision floating point values. Although two floating point NaNs are defined by IEC 60559:1989 to always compare as unequal, the contract for [System.Object.Equals](./object/equals/), requires that overrides must satisfy the requirements for an equivalence operator. Therefore, System.Double.Equals and System.Single.Equals return True when comparing two NaNs, while the equality operator returns False in that case, as required by the standard. |
 | **bool** [Equals< double, double >](./equals_less_double,_double__greater/)(const **double**\&, const **double**\&) | Specialization for double-precision floating point values. |
@@ -400,7 +402,6 @@ url: /cpp/system/
 | [Base64FormattingOptions](./base64formattingoptions/) | Enumeration containing values that represent different formats of base-64 encoded data. |
 | [DateTimeKind](./datetimekind/) | Enumeration values of which represent the kinds of date and time. |
 | [DayOfWeek](./dayofweek/) | Enumeration that represents a day of week. |
-| [DelegateEquality](./delegateequality/) | Result of delegate equality comparison. In C++, it is forbidden to directly compare instances of std::function for equality, so at some cases the only thing possible is to say whether some delegates are alike or not. |
 | [EnvironmentVariableTarget](./environmentvariabletarget/) | Specifies the environment variable location. |
 | [MidpointRounding](./midpointrounding/) | Specifies the behavior of rounding functions. |
 | [PlatformID](./platformid/) | Represents an operating system platform. |
@@ -444,6 +445,7 @@ url: /cpp/system/
 | [Converter](./converter/) | Represents a pointer to the invokable entity that accepts a single argument of the **TInput** type and returns a value of the **TOutput** type. |
 | [Event](./event/) | Represents an event - a mechanism through which subscribers are notified about an occurence of interest by means of a delegate invocation. |
 | [EventArgsPtr](./eventargsptr/) | Shared pointer to an instance of [EventArgs](./eventargs/) class. |
+| [EventHandler](./eventhandler/) | Represents a method that reacts to and processes an event. This type should be allocated on stack and passed to functions by value or by reference. Never use [System::SmartPtr](./smartptr/) class to manage objects of this type. |
 | [ExceptionPtr](./exceptionptr/) | Type alias used by exception wrappers. |
 | [Exception](./exception/) | Alias to be used instead of Details::Exception. |
 | [SystemException](./systemexception/) |  |

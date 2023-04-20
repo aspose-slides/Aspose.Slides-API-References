@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/isvgtspan/
 Represents options for SVG text portion (\"tspan\").
 
 ```cpp
-class ISvgTSpan : public System::Object
+class ISvgTSpan : public virtual System::Object
 ```
 
 ## Methods

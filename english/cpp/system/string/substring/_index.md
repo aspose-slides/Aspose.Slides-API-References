@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/system/string/substring/
 ---
-## String::Substring(**int32_t**) const method
+## String::Substring(int32_t) const method
 
 
 Extracts substring.
@@ -26,13 +26,7 @@ String System::String::Substring(int32_t startIndex) const
 
 Extracted substring.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Substring(**int32_t**, **int32_t**) const method
+## String::Substring(int32_t, int32_t) const method
 
 
 Extracts substring.
@@ -55,7 +49,6 @@ Extracted substring.
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

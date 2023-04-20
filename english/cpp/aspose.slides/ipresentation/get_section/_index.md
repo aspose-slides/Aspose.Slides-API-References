@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.slides/ipresentation/get_section/
 ---
-## IPresentation::get_Section(**int32_t**) method
+## IPresentation::get_Section(int32_t) method
 
 
 Returns a slide section defined in the presentation at the specified index. Read-only [Aspose::Slides::ISection](../../isection/)

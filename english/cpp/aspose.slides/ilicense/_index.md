@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ilicense/
 Provides methods to license the component.
 
 ```cpp
-class ILicense : public System::Object
+class ILicense : public virtual System::Object
 ```
 
 ## Methods

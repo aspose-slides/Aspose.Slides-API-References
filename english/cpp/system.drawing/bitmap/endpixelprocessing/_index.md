@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.drawing/bitmap/endpixelprocessing/
 ---
-## Bitmap::EndPixelProcessing(**bool**) method
+## Bitmap::EndPixelProcessing(bool) method
 
 
 Disables pixel processing mode.

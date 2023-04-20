@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.collections.specialized/namevaluecollection/getvalues/
 ---
-## NameValueCollection::GetValues(const [String](../../../system/string/)\&) method
+## NameValueCollection::GetValues(const String\&) method
 
 
 Gets the values associated with the specified key.

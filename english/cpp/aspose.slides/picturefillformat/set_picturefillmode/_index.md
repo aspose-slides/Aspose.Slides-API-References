@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/picturefillformat/set_picturefillmode/
 ---
-## PictureFillFormat::set_PictureFillMode([Aspose::Slides::PictureFillMode](../../picturefillmode/)) method
+## PictureFillFormat::set_PictureFillMode(Aspose::Slides::PictureFillMode) method
 
 
 Sets the picture fill mode. Write [Slides::PictureFillMode](../../picturefillmode/).

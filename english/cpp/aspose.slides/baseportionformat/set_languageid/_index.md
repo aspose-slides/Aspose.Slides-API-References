@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.slides/baseportionformat/set_languageid/
 ---
-## BasePortionFormat::set_LanguageId([System::String](../../../system/string/)) method
+## BasePortionFormat::set_LanguageId(System::String) method
 
 
 Sets the Id of a proofing language. Used for checking spelling and grammar. Write [System::String](../../../system/string/).

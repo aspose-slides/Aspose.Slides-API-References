@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/icommentcollection/insertmoderncomment/
 ---
-## ICommentCollection::InsertModernComment(**int32_t**, [System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>, [System::Drawing::PointF](../../../system.drawing/pointf/), [System::DateTime](../../../system/datetime/)) method
+## ICommentCollection::InsertModernComment(int32_t, System::String, System::SharedPtr\<ISlide\>, System::SharedPtr\<IShape\>, System::Drawing::PointF, System::DateTime) method
 
 
 Insert new modern comment to a collection at the specified index.

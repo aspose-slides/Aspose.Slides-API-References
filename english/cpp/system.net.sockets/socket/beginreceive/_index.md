@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system.net.sockets/socket/beginreceive/
 ---
-## Socket::BeginReceive([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## Socket::BeginReceive(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous write operation.
@@ -33,11 +33,11 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Enum [SocketFlags](../../socketflags/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
 * Class [Object](../../../system/object/)
 * Class [Socket](../)
 * Namespace [System::Net::Sockets](../../)

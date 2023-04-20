@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.net/ipaddress/isloopback/
 ---
-## IPAddress::IsLoopback([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../)\>) method
+## IPAddress::IsLoopback(System::SharedPtr\<IPAddress\>) method
 
 
 Returns a value that indicates if the specified address is a loopback address.
@@ -29,7 +29,6 @@ True when the specified address is a loopback address, otherwise false.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPAddress](../)
 * Class [IPAddress](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

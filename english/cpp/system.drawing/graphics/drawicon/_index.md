@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.drawing/graphics/drawicon/
 ---
-## Graphics::DrawIcon(const [SharedPtr](../../../system/sharedptr/)\<[Icon](../../icon/)\>\&, [Rectangle](../../rectangle/)) method
+## Graphics::DrawIcon(const SharedPtr\<Icon\>\&, Rectangle) method
 
 
 NOT IMPLEMENTED.
@@ -16,15 +16,7 @@ void System::Drawing::Graphics::DrawIcon(const SharedPtr<Icon> &icon, Rectangle 
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Icon](../../icon/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawIcon(const [SharedPtr](../../../system/sharedptr/)\<[Icon](../../icon/)\>\&, **int32_t**, **int32_t**) method
+## Graphics::DrawIcon(const SharedPtr\<Icon\>\&, int32_t, int32_t) method
 
 
 NOT IMPLEMENTED.
@@ -38,6 +30,7 @@ void System::Drawing::Graphics::DrawIcon(const SharedPtr<Icon> &icon, int32_t x,
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Icon](../../icon/)
+* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

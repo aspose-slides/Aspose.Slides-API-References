@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathematicaltextfactory/
 Allows to create a [MathematicalText](../mathematicaltext/) element
 
 ```cpp
-class IMathematicalTextFactory : public System::Object
+class IMathematicalTextFactory : public virtual System::Object
 ```
 
 ## Methods

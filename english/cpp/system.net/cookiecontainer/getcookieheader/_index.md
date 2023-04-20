@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.net/cookiecontainer/getcookieheader/
 ---
-## CookieContainer::GetCookieHeader([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## CookieContainer::GetCookieHeader(System::SharedPtr\<Uri\>) method
 
 
 Return an HTTP header that contains cookies associated with the specified URI.
@@ -26,15 +26,7 @@ String System::Net::CookieContainer::GetCookieHeader(System::SharedPtr<Uri> uri)
 
 An HTTP header that contains cookies associated with the specified URI.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Uri](../../../system/uri/)
-* Class [CookieContainer](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CookieContainer::GetCookieHeader([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)\&) method
+## CookieContainer::GetCookieHeader(System::SharedPtr\<Uri\>, String\&) method
 
 
 Return an HTTP header that contains cookies associated with the specified URI.
@@ -57,8 +49,8 @@ An HTTP header that contains cookies associated with the specified URI.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Uri](../../../system/uri/)
 * Class [CookieContainer](../)
 * Namespace [System::Net](../../)

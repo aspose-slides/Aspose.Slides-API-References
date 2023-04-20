@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.effects/ipresetshadow/set_distance/
 ---
-## IPresetShadow::set_Distance(**double**) method
+## IPresetShadow::set_Distance(double) method
 
 
 Distance of shadow. Write **double**.

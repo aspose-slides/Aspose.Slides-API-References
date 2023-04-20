@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/ibulletformat/set_height/
 ---
-## IBulletFormat::set_Height(**float**) method
+## IBulletFormat::set_Height(float) method
 
 
 Sets the bullet height of a paragraph with no inheritance. Value std::numeric_limits<float>::quiet_NaN() determines that bullet inherits height from the first portion in the paragraph. Write **float**.

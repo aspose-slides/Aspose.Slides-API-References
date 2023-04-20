@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ihyperlinkcontainer/set_hyperlinkclick/
 ---
-## IHyperlinkContainer::set_HyperlinkClick([System::SharedPtr](../../../system/sharedptr/)\<[IHyperlink](../../ihyperlink/)\>) method
+## IHyperlinkContainer::set_HyperlinkClick(System::SharedPtr\<IHyperlink\>) method
 
 
 Sets the hyperlink defined for mouse click. Write [IHyperlink](../../ihyperlink/).

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/operatingsystem/operatingsystem/
 ---
-## OperatingSystem::OperatingSystem([PlatformID](../../platformid/), const [Version](../../version/)\&) constructor
+## OperatingSystem::OperatingSystem(PlatformID, const Version\&) constructor
 
 
 Constructs an instance that represents an operating system specified as particular platform id and version.
@@ -23,14 +23,7 @@ System::OperatingSystem::OperatingSystem(PlatformID platform, const Version &ver
 | platform | [PlatformID](../../platformid/) | The platform identifier of the operating system to be represented by the object being constructed |
 | version | const [Version](../../version/)\& | The version of the operating system to be represented by the object being constructed |
 
-## See Also
-
-* Enum [PlatformID](../../platformid/)
-* Class [Version](../../version/)
-* Class [OperatingSystem](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## OperatingSystem::OperatingSystem([PlatformID](../../platformid/), const [Version](../../version/)\&, const [String](../../string/)\&) constructor
+## OperatingSystem::OperatingSystem(PlatformID, const Version\&, const String\&) constructor
 
 
 Constructs an instance that represents an operating system specified as particular platform id, version and service pack.
@@ -52,7 +45,7 @@ System::OperatingSystem::OperatingSystem(PlatformID platform, const Version &ver
 
 * Enum [PlatformID](../../platformid/)
 * Class [Version](../../version/)
-* Class [String](../../string/)
 * Class [OperatingSystem](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

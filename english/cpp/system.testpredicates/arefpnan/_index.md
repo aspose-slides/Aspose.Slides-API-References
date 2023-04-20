@@ -37,10 +37,6 @@ True if both **lhs** and **rhs** are floating point values, false otherwise.
 
 
 Checks that two floating point values are both NaNs. Handles situation when non-signalling NaN is supported. 
-## See Also
-
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreFPNaN(T1, T2) function
 
 

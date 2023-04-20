@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.globalization/japanesecalendar/getdayofmonth/
 ---
-## JapaneseCalendar::GetDayOfMonth([DateTime](../../../system/datetime/)) const method
+## JapaneseCalendar::GetDayOfMonth(DateTime) const method
 
 
 Gets day of month for the specified time point.

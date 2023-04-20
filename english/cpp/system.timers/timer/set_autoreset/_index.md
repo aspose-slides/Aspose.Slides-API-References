@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.timers/timer/set_autoreset/
 ---
-## Timer::set_AutoReset(**bool**) method
+## Timer::set_AutoReset(bool) method
 
 
 Sets timer into auto-reset mode or out of it.

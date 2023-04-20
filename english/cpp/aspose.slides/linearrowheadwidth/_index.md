@@ -3,7 +3,7 @@ title: LineArrowheadWidth
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the width of an arrowhead.
 type: docs
-weight: 5929
+weight: 5669
 url: /cpp/aspose.slides/linearrowheadwidth/
 ---
 ## LineArrowheadWidth enum

@@ -19,6 +19,5 @@ virtual ExceptionWrapper<Details_Exception> System::Details_Exception::GetBaseEx
 
 * Class [ExceptionWrapper](../../exceptionwrapper/)
 * Class [Details_Exception](../)
-* Class [Details_Exception](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

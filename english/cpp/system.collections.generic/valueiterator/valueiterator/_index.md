@@ -23,11 +23,6 @@ System::Collections::Generic::ValueIterator<Dict>::ValueIterator(typename Dict::
 | iterator | typename Dict::map_t::const_iterator\&& | Iterator to hold. |
 | end | typename Dict::map_t::const_iterator\&& | Iterator to the end of the container. |
 
-## See Also
-
-* Class [ValueIterator](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## ValueIterator::ValueIterator(const typename Dict::map_t::const_iterator\&, const typename Dict::map_t::const_iterator\&) constructor
 
 
@@ -45,12 +40,7 @@ System::Collections::Generic::ValueIterator<Dict>::ValueIterator(const typename 
 | iterator | const typename Dict::map_t::const_iterator\& | Iterator to hold. |
 | end | const typename Dict::map_t::const_iterator\& | Iterator to the end of the container. |
 
-## See Also
-
-* Class [ValueIterator](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## ValueIterator::ValueIterator([ValueIterator](../)\&&) constructor
+## ValueIterator::ValueIterator(ValueIterator\&&) constructor
 
 
 Move constructor.
@@ -68,7 +58,6 @@ System::Collections::Generic::ValueIterator<Dict>::ValueIterator(ValueIterator &
 
 ## See Also
 
-* Class [ValueIterator](../)
 * Class [ValueIterator](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

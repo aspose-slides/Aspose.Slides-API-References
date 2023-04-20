@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.globalization/idnmapping/set_usestd3asciirules/
 ---
-## IdnMapping::set_UseStd3AsciiRules(**bool**) method
+## IdnMapping::set_UseStd3AsciiRules(bool) method
 
 
 Sets flag that indicates if standard naming conventions used in operations.

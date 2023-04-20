@@ -20,15 +20,7 @@ virtual System::ArrayPtr<System::SharedPtr<ISlide>> Aspose::Slides::ISlideCollec
 
 Array of [ISlide](../../islide/)
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [ISlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlideCollection::ToArray(**int32_t**, **int32_t**) method
+## ISlideCollection::ToArray(int32_t, int32_t) method
 
 
 Creates and returns an array with all slides from the specified range in it.

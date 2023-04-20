@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.export/htmlgenerator/addattributevalue/
 ---
-## HtmlGenerator::AddAttributeValue([System::String](../../../system/string/)) method
+## HtmlGenerator::AddAttributeValue(System::String) method
 
 
 Quotes attribute value and adds it to the html file.
@@ -22,13 +22,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddAttributeValue(System::String val
 | --- | --- | --- |
 | value | [System::String](../../../system/string/) | Attribute value string. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## HtmlGenerator::AddAttributeValue([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>) method
+## HtmlGenerator::AddAttributeValue(System::ArrayPtr\<char16_t\>) method
 
 
 Quotes attribute value and adds it to the html file.
@@ -44,13 +38,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddAttributeValue(System::ArrayPtr<c
 | --- | --- | --- |
 | value | [System::ArrayPtr](../../../system/arrayptr/)\<char16_t\> | Attribute value string. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [HtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## HtmlGenerator::AddAttributeValue([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) method
+## HtmlGenerator::AddAttributeValue(System::ArrayPtr\<char16_t\>, int32_t, int32_t) method
 
 
 Quotes attribute value and adds it to the html file.
@@ -71,6 +59,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddAttributeValue(System::ArrayPtr<c
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [HtmlGenerator](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

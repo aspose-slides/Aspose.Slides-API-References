@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.net.sockets/tcplistener/endaccepttcpclient/
 ---
-## TcpListener::EndAcceptTcpClient([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## TcpListener::EndAcceptTcpClient(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous accept operation completes.

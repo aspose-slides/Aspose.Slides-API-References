@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/string/operator_not_equal/
 ---
-## String::operator!=(const [String](../)\&) const method
+## String::operator!=(const String\&) const method
 
 
 Non-equality comparison operator.
@@ -26,12 +26,6 @@ bool System::String::operator!=(const String &str) const
 
 false if both strings are null or both are not null and match, true otherwise.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator!=(std::nullptr_t) const method
 
 

@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define the format of a saved presentation.
 type: docs
-weight: 911
+weight: 898
 url: /cpp/aspose.slides.export/saveformat/
 ---
 ## SaveFormat enum

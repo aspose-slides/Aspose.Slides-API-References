@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/presentationinfo/checkwriteprotection/
 ---
-## PresentationInfo::CheckWriteProtection([System::String](../../../system/string/)) method
+## PresentationInfo::CheckWriteProtection(System::String) method
 
 
 Checks whether a password to modify is correct for a write protected presentation.

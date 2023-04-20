@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml/xmlparsercontext/set_baseuri/
 ---
-## XmlParserContext::set_BaseURI(const [String](../../../system/string/)\&) method
+## XmlParserContext::set_BaseURI(const String\&) method
 
 
 Sets the base URI.

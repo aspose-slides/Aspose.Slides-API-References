@@ -20,12 +20,6 @@ iterator Aspose::Slides::ColumnCollection::end() noexcept
 
 An iterator pointing right after the last element (if any) of the collection
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [ColumnCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
 ## ColumnCollection::end() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing right after the last element (if any) of the const-qualifie
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [ColumnCollection](../)
 * Namespace [Aspose::Slides](../../)

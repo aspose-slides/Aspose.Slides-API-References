@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/ibaseportionformat/set_proofdisabled/
 ---
-## IBasePortionFormat::set_ProofDisabled([NullableBool](../../nullablebool/)) method
+## IBasePortionFormat::set_ProofDisabled(NullableBool) method
 
 
 Determines whether the text shouldn't be proofed. No inheritance applied. Write [NullableBool](../../nullablebool/).

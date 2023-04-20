@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/imotioncmdpath/set_isrelative/
 ---
-## IMotionCmdPath::set_IsRelative(**bool**) method
+## IMotionCmdPath::set_IsRelative(bool) method
 
 
 Determine command coordinates relative or not. Write **bool**.

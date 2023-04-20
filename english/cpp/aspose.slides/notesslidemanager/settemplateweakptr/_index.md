@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/notesslidemanager/settemplateweakptr/
 ---
-## NotesSlideManager::SetTemplateWeakPtr(**uint32_t**) method
+## NotesSlideManager::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml/xmltext/writecontentto/
 ---
-## XmlText::WriteContentTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlText::WriteContentTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves all the children of the node to the specified [XmlWriter](../../xmlwriter/). [XmlText](../) nodes do not have children, so this method has no effect.

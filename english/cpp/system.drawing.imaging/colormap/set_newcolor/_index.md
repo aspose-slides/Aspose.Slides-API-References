@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing.imaging/colormap/set_newcolor/
 ---
-## ColorMap::set_NewColor(const [Color](../../../system.drawing/color/)\&) method
+## ColorMap::set_NewColor(const Color\&) method
 
 
 Sets the new [Color](../../../system.drawing/color/) object representing the color to which to convert.

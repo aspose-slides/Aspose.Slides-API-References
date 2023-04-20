@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/globalizationextensions/getstringcomparer/
 ---
-## GlobalizationExtensions::GetStringComparer(const [CompareInfoPtr](../../compareinfoptr/)\&, [CompareOptions](../../compareoptions/)) method
+## GlobalizationExtensions::GetStringComparer(const CompareInfoPtr\&, CompareOptions) method
 
 
 Gets [StringComparer](../../../system/stringcomparer/) object for the specified [CompareInfo](../../compareinfo/) object and specified string comparison rules.
@@ -29,9 +29,9 @@ static StringComparerPtr System::Globalization::GlobalizationExtensions::GetStri
 
 ## See Also
 
+* Enum [CompareOptions](../../compareoptions/)
 * Typedef [StringComparerPtr](../../../system/stringcomparerptr/)
 * Typedef [CompareInfoPtr](../../compareinfoptr/)
-* Enum [CompareOptions](../../compareoptions/)
 * Class [GlobalizationExtensions](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

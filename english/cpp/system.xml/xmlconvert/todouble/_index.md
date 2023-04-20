@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.xml/xmlconvert/todouble/
 ---
-## XmlConvert::ToDouble([String](../../../system/string/)) method
+## XmlConvert::ToDouble(String) method
 
 
 Converts the [String](../../../system/string/) to a [Double](../../../system/double/) equivalent.

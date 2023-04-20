@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/documentproperties/set_shareddoc/
 ---
-## DocumentProperties::set_SharedDoc(**bool**) method
+## DocumentProperties::set_SharedDoc(bool) method
 
 
 Determines whether the presentation is shared between multiple people. Write **bool**.

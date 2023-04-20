@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/oleobjectframe/set_objectprogid/
 ---
-## OleObjectFrame::set_ObjectProgId([System::String](../../../system/string/)) method
+## OleObjectFrame::set_ObjectProgId(System::String) method
 
 
 Returns the ProgID of an object. Read only [System::String](../../../system/string/).

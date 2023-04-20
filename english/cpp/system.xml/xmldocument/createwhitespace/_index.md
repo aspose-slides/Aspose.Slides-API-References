@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.xml/xmldocument/createwhitespace/
 ---
-## XmlDocument::CreateWhitespace(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateWhitespace(const String\&) method
 
 
 Creates an [XmlWhitespace](../../xmlwhitespace/) node.

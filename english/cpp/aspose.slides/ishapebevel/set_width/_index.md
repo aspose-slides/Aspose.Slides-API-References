@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ishapebevel/set_width/
 ---
-## IShapeBevel::set_Width(**double**) method
+## IShapeBevel::set_Width(double) method
 
 
 Bevel width. Write **double**.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/mathelementbase/function/
 ---
-## MathElementBase::Function([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathElementBase::Function(System::SharedPtr\<IMathElement\>) method
 
 
 Takes a function of an argument using this instance as the function name
@@ -36,15 +36,7 @@ auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto func = functionName->Function(functionArg);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::Function([System::String](../../../system/string/)) method
+## MathElementBase::Function(System::String) method
 
 
 Takes a function of an argument using this instance as the function name
@@ -77,7 +69,8 @@ auto func = functionName->Function(u"x");
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathFunction](../../imathfunction/)
-* Class [String](../../../system/string/)
+* Class [IMathElement](../../imathelement/)
 * Class [MathElementBase](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

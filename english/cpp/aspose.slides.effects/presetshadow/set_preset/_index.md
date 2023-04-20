@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.effects/presetshadow/set_preset/
 ---
-## PresetShadow::set_Preset([PresetShadowType](../../../aspose.slides/presetshadowtype/)) method
+## PresetShadow::set_Preset(PresetShadowType) method
 
 
 Preset. Write [PresetShadowType](../../../aspose.slides/presetshadowtype/).

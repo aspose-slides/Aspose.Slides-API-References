@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system/typeinfo/getmethod/
 ---
-## TypeInfo::GetMethod(const [String](../../string/)\&) const method
+## TypeInfo::GetMethod(const String\&) const method
 
 
 Gets method with specified name.

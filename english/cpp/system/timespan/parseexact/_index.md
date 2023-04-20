@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/system/timespan/parseexact/
 ---
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<IFormatProvider\>\&, Globalization::TimeSpanStyles) method
 
 
 Converts string to equivalent [TimeSpan](../) object using the specified formats, format provider and styles.
@@ -29,18 +29,7 @@ static TimeSpan System::TimeSpan::ParseExact(const String &input, const ArrayPtr
 
 Time interval that corresponds to string.
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<Globalization::CultureInfo\>\&, Globalization::TimeSpanStyles) method
 
 
 
@@ -49,18 +38,7 @@ Time interval that corresponds to string.
 static TimeSpan System::TimeSpan::ParseExact(const String &input, const ArrayPtr<String> &formats, const SharedPtr<Globalization::CultureInfo> &culture, Globalization::TimeSpanStyles styles=Globalization::TimeSpanStyles::None)
 ```
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&, Globalization::TimeSpanStyles) method
 
 
 
@@ -69,18 +47,7 @@ static TimeSpan System::TimeSpan::ParseExact(const String &input, const ArrayPtr
 static TimeSpan System::TimeSpan::ParseExact(const String &input, const ArrayPtr<String> &formats, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi, Globalization::TimeSpanStyles styles=Globalization::TimeSpanStyles::None)
 ```
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, std::nullptr_t, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const ArrayPtr\<String\>\&, std::nullptr_t, Globalization::TimeSpanStyles) method
 
 
 
@@ -89,16 +56,7 @@ static TimeSpan System::TimeSpan::ParseExact(const String &input, const ArrayPtr
 static TimeSpan System::TimeSpan::ParseExact(const String &input, const ArrayPtr<String> &formats, std::nullptr_t, Globalization::TimeSpanStyles styles=Globalization::TimeSpanStyles::None)
 ```
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::TimeSpanStyles) method
 
 
 Converts string to equivalent [TimeSpan](../) object using the specified format, format provider and styles.
@@ -121,17 +79,7 @@ static TimeSpan System::TimeSpan::ParseExact(const String &input, const String &
 
 Time interval that corresponds to string.
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&, Globalization::TimeSpanStyles) method
 
 
 
@@ -140,17 +88,7 @@ Time interval that corresponds to string.
 static TimeSpan System::TimeSpan::ParseExact(const String &input, const String &format, const SharedPtr<Globalization::CultureInfo> &culture, Globalization::TimeSpanStyles styles=Globalization::TimeSpanStyles::None)
 ```
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&, Globalization::TimeSpanStyles) method
 
 
 
@@ -159,17 +97,7 @@ static TimeSpan System::TimeSpan::ParseExact(const String &input, const String &
 static TimeSpan System::TimeSpan::ParseExact(const String &input, const String &format, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi, Globalization::TimeSpanStyles styles=Globalization::TimeSpanStyles::None)
 ```
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, std::nullptr_t, [Globalization::TimeSpanStyles](../../../system.globalization/timespanstyles/)) method
+## TimeSpan::ParseExact(const String\&, const String\&, std::nullptr_t, Globalization::TimeSpanStyles) method
 
 
 
@@ -180,9 +108,13 @@ static TimeSpan System::TimeSpan::ParseExact(const String &input, const String &
 
 ## See Also
 
+* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
+* Typedef [ArrayPtr](../../arrayptr/)
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [TimeSpan](../)
 * Class [String](../../string/)
-* Enum [TimeSpanStyles](../../../system.globalization/timespanstyles/)
-* Class [TimeSpan](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing/texturebrush/texturebrush/
 ---
-## TextureBrush::TextureBrush(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Drawing2D::WrapMode](../../../system.drawing.drawing2d/wrapmode/)) constructor
+## TextureBrush::TextureBrush(const SharedPtr\<Image\>\&, Drawing2D::WrapMode) constructor
 
 
 Constructs a new instance of [TextureBrush](../) class that uses the specified image.
@@ -23,15 +23,7 @@ System::Drawing::TextureBrush::TextureBrush(const SharedPtr<Image> &image, Drawi
 | image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | An image used by the brush to fill the interior of a shape |
 | wrap_mode | [Drawing2D::WrapMode](../../../system.drawing.drawing2d/wrapmode/) | Specifies how the brush object is tiled |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Enum [WrapMode](../../../system.drawing.drawing2d/wrapmode/)
-* Class [TextureBrush](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## TextureBrush::TextureBrush(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [RectangleF](../../rectanglef/), const [SharedPtr](../../../system/sharedptr/)\<[Imaging::ImageAttributes](../../../system.drawing.imaging/imageattributes/)\>\&) constructor
+## TextureBrush::TextureBrush(const SharedPtr\<Image\>\&, RectangleF, const SharedPtr\<Imaging::ImageAttributes\>\&) constructor
 
 
 Constructs a new instance of [TextureBrush](../) class that uses the specified image.
@@ -49,16 +41,7 @@ System::Drawing::TextureBrush::TextureBrush(const SharedPtr<Image> &image, Recta
 | dst_rect | [RectangleF](../../rectanglef/) | Specifies the bounding rectangle for the brush |
 | image_attrs | const [SharedPtr](../../../system/sharedptr/)\<[Imaging::ImageAttributes](../../../system.drawing.imaging/imageattributes/)\>\& | The image attributes |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [RectangleF](../../rectanglef/)
-* Class [ImageAttributes](../../../system.drawing.imaging/imageattributes/)
-* Class [TextureBrush](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## TextureBrush::TextureBrush(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Rectangle](../../rectangle/), const [SharedPtr](../../../system/sharedptr/)\<[Imaging::ImageAttributes](../../../system.drawing.imaging/imageattributes/)\>\&) constructor
+## TextureBrush::TextureBrush(const SharedPtr\<Image\>\&, Rectangle, const SharedPtr\<Imaging::ImageAttributes\>\&) constructor
 
 
 Constructs a new instance of [TextureBrush](../) class that uses the specified image.
@@ -76,16 +59,7 @@ System::Drawing::TextureBrush::TextureBrush(const SharedPtr<Image> &image, Recta
 | dst_rect | [Rectangle](../../rectangle/) | Specifies the bounding rectangle for the brush |
 | image_attrs | const [SharedPtr](../../../system/sharedptr/)\<[Imaging::ImageAttributes](../../../system.drawing.imaging/imageattributes/)\>\& | The image attributes |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Class [ImageAttributes](../../../system.drawing.imaging/imageattributes/)
-* Class [TextureBrush](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## TextureBrush::TextureBrush(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Drawing2D::WrapMode](../../../system.drawing.drawing2d/wrapmode/), [RectangleF](../../rectanglef/)) constructor
+## TextureBrush::TextureBrush(const SharedPtr\<Image\>\&, Drawing2D::WrapMode, RectangleF) constructor
 
 
 Constructs a new instance of [TextureBrush](../) class that uses the specified image.
@@ -103,16 +77,7 @@ System::Drawing::TextureBrush::TextureBrush(const SharedPtr<Image> &image, Drawi
 | wrap_mode | [Drawing2D::WrapMode](../../../system.drawing.drawing2d/wrapmode/) | Specifies how the brush object is tiled |
 | dst_rect | [RectangleF](../../rectanglef/) | Specifies the bounding rectangle for the brush |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Enum [WrapMode](../../../system.drawing.drawing2d/wrapmode/)
-* Class [RectangleF](../../rectanglef/)
-* Class [TextureBrush](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## TextureBrush::TextureBrush(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, [Drawing2D::WrapMode](../../../system.drawing.drawing2d/wrapmode/), [Rectangle](../../rectangle/)) constructor
+## TextureBrush::TextureBrush(const SharedPtr\<Image\>\&, Drawing2D::WrapMode, Rectangle) constructor
 
 
 Constructs a new instance of [TextureBrush](../) class that uses the specified image.
@@ -132,10 +97,12 @@ System::Drawing::TextureBrush::TextureBrush(const SharedPtr<Image> &image, Drawi
 
 ## See Also
 
+* Enum [WrapMode](../../../system.drawing.drawing2d/wrapmode/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Image](../../image/)
-* Enum [WrapMode](../../../system.drawing.drawing2d/wrapmode/)
-* Class [Rectangle](../../rectangle/)
 * Class [TextureBrush](../)
+* Class [RectangleF](../../rectanglef/)
+* Class [ImageAttributes](../../../system.drawing.imaging/imageattributes/)
+* Class [Rectangle](../../rectangle/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

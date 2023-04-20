@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.security.cryptography/ecdsa/verifydata/
 ---
-## ECDsa::VerifyData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## ECDsa::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -24,14 +24,7 @@ bool System::Security::Cryptography::ECDsa::VerifyData(const ByteArrayPtr &data,
 | signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [ECDsa](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsa::VerifyData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **int32_t**, **int32_t**, const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## ECDsa::VerifyData(const ByteArrayPtr\&, int32_t, int32_t, const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -51,14 +44,7 @@ bool System::Security::Cryptography::ECDsa::VerifyData(const ByteArrayPtr &data,
 | signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [ECDsa](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsa::VerifyData(const [StreamPtr](../../../system/streamptr/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## ECDsa::VerifyData(const StreamPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Verifies that the signature of the specified binary stream is valid.
@@ -78,9 +64,9 @@ bool System::Security::Cryptography::ECDsa::VerifyData(const StreamPtr &stream, 
 
 ## See Also
 
-* Typedef [StreamPtr](../../../system/streamptr/)
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
+* Typedef [StreamPtr](../../../system/streamptr/)
 * Class [ECDsa](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

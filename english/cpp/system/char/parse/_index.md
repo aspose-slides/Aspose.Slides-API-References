@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system/char/parse/
 ---
-## Char::Parse(const [String](../../string/)\&) method
+## Char::Parse(const String\&) method
 
 
 Converts the first and the only character of the specified string to a char_t value.

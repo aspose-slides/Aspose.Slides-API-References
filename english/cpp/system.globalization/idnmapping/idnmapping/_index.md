@@ -19,12 +19,7 @@ System::Globalization::IdnMapping::IdnMapping()
 
 
 Constructor. 
-## See Also
-
-* Class [IdnMapping](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## IdnMapping::IdnMapping(const [IdnMapping](../)\&) constructor
+## IdnMapping::IdnMapping(const IdnMapping\&) constructor
 
 
 
@@ -35,7 +30,6 @@ System::Globalization::IdnMapping::IdnMapping(const IdnMapping &)=delete
 
 ## See Also
 
-* Class [IdnMapping](../)
 * Class [IdnMapping](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

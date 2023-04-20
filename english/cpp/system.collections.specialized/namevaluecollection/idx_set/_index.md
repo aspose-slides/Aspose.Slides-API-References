@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.collections.specialized/namevaluecollection/idx_set/
 ---
-## NameValueCollection::idx_set(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## NameValueCollection::idx_set(const String\&, const String\&) method
 
 
 Sets value of an entry.

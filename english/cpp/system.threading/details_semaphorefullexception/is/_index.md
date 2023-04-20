@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.threading/details_semaphorefullexception/is/
 ---
-## Details_SemaphoreFullException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_SemaphoreFullException::Is(const System::TypeInfo\&) const method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system/convert/todecimal/
 ---
-## Convert::ToDecimal(**bool**) method
+## Convert::ToDecimal(bool) method
 
 
 Converts the specified boolean value to an equivalent decimal number.
@@ -15,13 +15,7 @@ Converts the specified boolean value to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(bool value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**uint8_t**) method
+## Convert::ToDecimal(uint8_t) method
 
 
 Converts the specified 8-bit unsigned integer to an equivalent decimal number.
@@ -30,13 +24,7 @@ Converts the specified 8-bit unsigned integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(uint8_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**int8_t**) method
+## Convert::ToDecimal(int8_t) method
 
 
 Converts the specified 8-bit signed integer to an equivalent decimal number.
@@ -45,13 +33,7 @@ Converts the specified 8-bit signed integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(int8_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**uint16_t**) method
+## Convert::ToDecimal(uint16_t) method
 
 
 Converts the specified 16-bit unsigned integer to an equivalent decimal number.
@@ -60,13 +42,7 @@ Converts the specified 16-bit unsigned integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(uint16_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**int16_t**) method
+## Convert::ToDecimal(int16_t) method
 
 
 Converts the specified 16-bit signed integer to an equivalent decimal number.
@@ -75,13 +51,7 @@ Converts the specified 16-bit signed integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(int16_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**uint32_t**) method
+## Convert::ToDecimal(uint32_t) method
 
 
 Converts the specified 32-bit unsigned integer to an equivalent decimal number.
@@ -90,13 +60,7 @@ Converts the specified 32-bit unsigned integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(uint32_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**int32_t**) method
+## Convert::ToDecimal(int32_t) method
 
 
 Converts the specified 32-bit signed integer to an equivalent decimal number.
@@ -105,13 +69,7 @@ Converts the specified 32-bit signed integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(int32_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**uint64_t**) method
+## Convert::ToDecimal(uint64_t) method
 
 
 Converts the specified 64-bit unsigned integer to an equivalent decimal number.
@@ -120,13 +78,7 @@ Converts the specified 64-bit unsigned integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(uint64_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**int64_t**) method
+## Convert::ToDecimal(int64_t) method
 
 
 Converts the specified 64-bit signed integer to an equivalent decimal number.
@@ -135,13 +87,7 @@ Converts the specified 64-bit signed integer to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(int64_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**float**) method
+## Convert::ToDecimal(float) method
 
 
 Converts the specified float number to an equivalent decimal number.
@@ -150,13 +96,7 @@ Converts the specified float number to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(float value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(**double**) method
+## Convert::ToDecimal(double) method
 
 
 Converts the specified double number to an equivalent decimal number.
@@ -165,13 +105,7 @@ Converts the specified double number to an equivalent decimal number.
 static Decimal System::Convert::ToDecimal(double value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(const [Decimal](../../decimal/)\&) method
+## Convert::ToDecimal(const Decimal\&) method
 
 
 Returns the specified decimal number.
@@ -180,12 +114,6 @@ Returns the specified decimal number.
 static Decimal System::Convert::ToDecimal(const Decimal &value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToDecimal(char_t) method
 
 
@@ -195,13 +123,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static Decimal System::Convert::ToDecimal(char_t value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal([DateTime](../../datetime/)) method
+## Convert::ToDecimal(DateTime) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -210,13 +132,6 @@ Conversion is not supported. Always throws InvalidCastException.
 static Decimal System::Convert::ToDecimal(DateTime value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToDecimal(std::nullptr_t) method
 
 
@@ -231,12 +146,6 @@ static Decimal System::Convert::ToDecimal(std::nullptr_t)
 
 Zero.
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToDecimal(const char_t *) method
 
 
@@ -257,13 +166,7 @@ static Decimal System::Convert::ToDecimal(const char_t *value)
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified c-string
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(const [String](../../string/)\&) method
+## Convert::ToDecimal(const String\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../../decimal/) value.
@@ -283,14 +186,7 @@ static Decimal System::Convert::ToDecimal(const String &value)
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified string
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDecimal(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../../decimal/) value using the provided formatting information.
@@ -311,16 +207,7 @@ static Decimal System::Convert::ToDecimal(const String &value, const SharedPtr<I
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified string
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDecimal(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent [Decimal](../../decimal/) value using the specified number styles and formatting information.
@@ -342,17 +229,7 @@ static Decimal System::Convert::ToDecimal(const String &value, Globalization::Nu
 
 The [Decimal](../../decimal/) value equal to the number represented by the specified string
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDecimal(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDecimal(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified boxed value to equivalent [Decimal](../../decimal/) value.
@@ -375,10 +252,13 @@ A [Decimal](../../decimal/) value equivalent to the specified boxed value
 
 ## See Also
 
-* Class [Decimal](../../decimal/)
+* Enum [NumberStyles](../../../system.globalization/numberstyles/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
+* Class [Decimal](../../decimal/)
+* Class [DateTime](../../datetime/)
+* Class [String](../../string/)
 * Class [IFormatProvider](../../iformatprovider/)
+* Class [Object](../../object/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: DynamicCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs dynamic cast on Exception objects.
 type: docs
-weight: 2159
+weight: 1860
 url: /cpp/system/dynamiccast/
 ---
 ## System::DynamicCast(const TFrom\&) function
@@ -36,12 +36,7 @@ Cast result if cast is allowed.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::DynamicCast([SmartPtr](../smartptr/)\<TFrom\> const\&) function
+## System::DynamicCast(SmartPtr\<TFrom\> const\&) function
 
 
 Performs dynamic cast on [SmartPtr](../smartptr/) objects.
@@ -71,13 +66,7 @@ Cast result if cast is allowed.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::DynamicCast([SmartPtr](../smartptr/)\<TFrom\>) function
+## System::DynamicCast(SmartPtr\<TFrom\>) function
 
 
 Unboxes boxed enum via cast.
@@ -107,11 +96,6 @@ Unboxed enum value.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::DynamicCast(std::nullptr_t) function
 
 
@@ -135,11 +119,6 @@ nullptr.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [CastResult](../castresult/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::DynamicCast(TFrom\&) function
 
 
@@ -170,13 +149,7 @@ Cast result.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Struct [IsSmartPtr](../issmartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::DynamicCast([SmartPtr](../smartptr/)\<TFrom\>) function
+## System::DynamicCast(SmartPtr\<TFrom\>) function
 
 
 Performs dynamic cast on Objects to Exception objects.
@@ -206,13 +179,6 @@ Cast result if cast is allowed.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Class [Object](../object/)
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::DynamicCast(TFrom) function
 
 
@@ -245,5 +211,10 @@ Deprecated
 
 ## See Also
 
+* Class [SmartPtr](../smartptr/)
+* Class [Object](../object/)
+* Struct [IsExceptionWrapper](../isexceptionwrapper/)
+* Struct [CastResult](../castresult/)
+* Struct [IsSmartPtr](../issmartptr/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

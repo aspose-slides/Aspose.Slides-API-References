@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.security/securityelement/searchforchildbytag/
 ---
-## SecurityElement::SearchForChildByTag(const [String](../../../system/string/)\&) method
+## SecurityElement::SearchForChildByTag(const String\&) method
 
 
 Gets child tag by name.
@@ -30,6 +30,5 @@ Child element or null if not found.
 
 * Class [SecurityElement](../)
 * Class [String](../../../system/string/)
-* Class [SecurityElement](../)
 * Namespace [System::Security](../../)
 * Library [Aspose.Slides](../../../)

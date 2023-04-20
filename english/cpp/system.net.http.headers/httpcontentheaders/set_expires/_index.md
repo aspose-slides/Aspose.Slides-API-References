@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.net.http.headers/httpcontentheaders/set_expires/
 ---
-## HttpContentHeaders::set_Expires([Nullable](../../../system/nullable/)\<[DateTimeOffset](../../../system/datetimeoffset/)\>) method
+## HttpContentHeaders::set_Expires(Nullable\<DateTimeOffset\>) method
 
 
 Sets a value of the 'Expires' header.

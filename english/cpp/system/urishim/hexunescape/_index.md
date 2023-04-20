@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/urishim/hexunescape/
 ---
-## UriShim::HexUnescape(const [String](../../string/)\&, **int32_t**\&) method
+## UriShim::HexUnescape(const String\&, int32_t\&) method
 
 
 Converts character from escaped hex form.

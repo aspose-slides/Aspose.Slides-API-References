@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/piesplitcustompointcollection/remove/
 ---
-## PieSplitCustomPointCollection::Remove(const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>\&) method
+## PieSplitCustomPointCollection::Remove(const System::SharedPtr\<IChartDataPoint\>\&) method
 
 
 Removes item from collection.
@@ -26,14 +26,7 @@ bool Aspose::Slides::Charts::PieSplitCustomPointCollection::Remove(const System:
 
 true if item is successfully removed; otherwise, false. This method also returns false if item was not found in the [System::Collections::Generic::List](../../../system.collections.generic/list/){T}.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [PieSplitCustomPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## PieSplitCustomPointCollection::Remove(**int32_t**) method
+## PieSplitCustomPointCollection::Remove(int32_t) method
 
 
 Removes item from collection by it index in parent series points collection.
@@ -51,6 +44,8 @@ void Aspose::Slides::Charts::PieSplitCustomPointCollection::Remove(int32_t dataP
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IChartDataPoint](../../ichartdatapoint/)
 * Class [PieSplitCustomPointCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

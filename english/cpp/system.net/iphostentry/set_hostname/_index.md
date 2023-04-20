@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/iphostentry/set_hostname/
 ---
-## IPHostEntry::set_HostName([String](../../../system/string/)) method
+## IPHostEntry::set_HostName(String) method
 
 
 Sets the host name.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemaannotated/set_unhandledattributes/
 ---
-## XmlSchemaAnnotated::set_UnhandledAttributes(const [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../../system.xml/xmlattribute/)\>\>\&) method
+## XmlSchemaAnnotated::set_UnhandledAttributes(const ArrayPtr\<SharedPtr\<XmlAttribute\>\>\&) method
 
 
 Sets the qualified attributes that do not belong to the current schema's target namespace.

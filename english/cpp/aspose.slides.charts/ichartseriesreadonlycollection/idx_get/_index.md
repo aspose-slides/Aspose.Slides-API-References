@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.charts/ichartseriesreadonlycollection/idx_get/
 ---
-## IChartSeriesReadonlyCollection::idx_get(**int32_t**) method
+## IChartSeriesReadonlyCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

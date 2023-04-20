@@ -15,12 +15,7 @@ Constructs a new instance of [RectangleF](../) object that represents a rectangl
 System::Drawing::RectangleF::RectangleF()
 ```
 
-## See Also
-
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::RectangleF(**float**, **float**, **float**, **float**) constructor
+## RectangleF::RectangleF(float, float, float, float) constructor
 
 
 Constructs a new instance of [RectangleF](../) object that represents a rectangle with the specified coordinates of its upper left corner and width and height.
@@ -39,12 +34,7 @@ System::Drawing::RectangleF::RectangleF(float x, float y, float width, float hei
 | width | **float** | The width of the rectangle |
 | height | **float** | The height of the rectangle |
 
-## See Also
-
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::RectangleF(const [PointF](../../pointf/)\&, const [SizeF](../../sizef/)\&) constructor
+## RectangleF::RectangleF(const PointF\&, const SizeF\&) constructor
 
 
 Constructs a new instance of [RectangleF](../) object that represents a rectangle with the coordinates of its upper left corner specified as an instance of [PointF](../../pointf/) class and its width and height as an instance of [SizeF](../../sizef/) class.
@@ -61,14 +51,7 @@ System::Drawing::RectangleF::RectangleF(const PointF &location, const SizeF &siz
 | location | const [PointF](../../pointf/)\& | Specifies the location of the upper left corner of the rectangle |
 | size | const [SizeF](../../sizef/)\& | Specifies the width and hegiht of the rectangle |
 
-## See Also
-
-* Class [PointF](../../pointf/)
-* Class [SizeF](../../sizef/)
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::RectangleF(const [Rectangle](../../rectangle/)\&) constructor
+## RectangleF::RectangleF(const Rectangle\&) constructor
 
 
 Constructs a new instance of [RectangleF](../) object that represents the rectangle equivalent to the specified one.
@@ -86,7 +69,9 @@ System::Drawing::RectangleF::RectangleF(const Rectangle &rect)
 
 ## See Also
 
-* Class [Rectangle](../../rectangle/)
 * Class [RectangleF](../)
+* Class [PointF](../../pointf/)
+* Class [SizeF](../../sizef/)
+* Class [Rectangle](../../rectangle/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

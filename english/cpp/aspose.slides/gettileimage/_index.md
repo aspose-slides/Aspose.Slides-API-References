@@ -3,10 +3,10 @@ title: GetTileImage()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates a tile image for the pattern fill with a specified colors.
 type: docs
-weight: 5526
+weight: 5331
 url: /cpp/aspose.slides/gettileimage/
 ---
-## Aspose::Slides::GetTileImage([System::Drawing::Color](../../system.drawing/color/), [System::Drawing::Color](../../system.drawing/color/)) function
+## Aspose::Slides::GetTileImage(System::Drawing::Color, System::Drawing::Color) function
 
 
 Creates a tile image for the pattern fill with a specified colors.
@@ -27,14 +27,7 @@ System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::GetTileImage(System::
 
 Tile [System::Drawing::Bitmap](../../system.drawing/bitmap/).
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Bitmap](../../system.drawing/bitmap/)
-* Class [Color](../../system.drawing/color/)
-* Namespace [Aspose::Slides](../)
-* Library [Aspose.Slides](../../)
-## Aspose::Slides::GetTileImage([System::Drawing::Color](../../system.drawing/color/)) function
+## Aspose::Slides::GetTileImage(System::Drawing::Color) function
 
 
 Creates a tile image for the pattern fill.

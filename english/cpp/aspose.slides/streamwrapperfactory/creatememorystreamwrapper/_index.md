@@ -15,14 +15,7 @@ Creates MemoryStream wrapper.
 System::SharedPtr<IStreamWrapper> Aspose::Slides::StreamWrapperFactory::CreateMemoryStreamWrapper() override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IStreamWrapper](../../istreamwrapper/)
-* Class [StreamWrapperFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWrapperFactory::CreateMemoryStreamWrapper([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## StreamWrapperFactory::CreateMemoryStreamWrapper(System::ArrayPtr\<uint8_t\>) method
 
 
 Creates MemoryStream wrapper based on the specified byte array.
@@ -34,8 +27,8 @@ System::SharedPtr<IStreamWrapper> Aspose::Slides::StreamWrapperFactory::CreateMe
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IStreamWrapper](../../istreamwrapper/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [IStreamWrapper](../../istreamwrapper/)
 * Class [StreamWrapperFactory](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

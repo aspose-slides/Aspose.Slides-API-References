@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system/timespan/operator_greater_equal/
 ---
-## TimeSpan::operator>=([TimeSpan](../)) const method
+## TimeSpan::operator>=(TimeSpan) const method
 
 
 Determines if the time interval represented by the current object is longer than or equal to the time interval represented by the specified object.
@@ -26,12 +26,6 @@ constexpr bool System::TimeSpan::operator>=(TimeSpan value) const
 
 True if the time interval represented by the current object is longer than or equal to the time interval represented by **value**, otherwise - false
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TimeSpan::operator>=(std::nullptr_t) const method
 
 

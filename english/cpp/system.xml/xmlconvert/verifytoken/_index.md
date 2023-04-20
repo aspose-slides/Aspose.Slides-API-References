@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmlconvert/verifytoken/
 ---
-## XmlConvert::VerifyTOKEN(const [String](../../../system/string/)\&) method
+## XmlConvert::VerifyTOKEN(const String\&) method
 
 
 Verifies that the string is a valid token according to the W3C XML [Schema](../../../system.xml.schema/) Part2: Datatypes recommendation.

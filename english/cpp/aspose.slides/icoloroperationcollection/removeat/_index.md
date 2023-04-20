@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/icoloroperationcollection/removeat/
 ---
-## IColorOperationCollection::RemoveAt(**int32_t**) method
+## IColorOperationCollection::RemoveAt(int32_t) method
 
 
 Removes the color operation from a collection.

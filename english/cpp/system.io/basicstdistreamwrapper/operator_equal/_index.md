@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/basicstdistreamwrapper/operator_equal/
 ---
-## BasicSTDIStreamWrapper::operator=(const [BasicSTDIStreamWrapper](../)\&) method
+## BasicSTDIStreamWrapper::operator=(const BasicSTDIStreamWrapper\&) method
 
 
 Copy assignment operator. Deleted.
@@ -17,7 +17,6 @@ BasicSTDIStreamWrapper & System::IO::BasicSTDIStreamWrapper<T, typename>::operat
 
 ## See Also
 
-* Class [BasicSTDIStreamWrapper](../)
 * Class [BasicSTDIStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/lineformat/set_width/
 ---
-## LineFormat::set_Width(**double**) method
+## LineFormat::set_Width(double) method
 
 
 Sets the width of a line. Write **double**.

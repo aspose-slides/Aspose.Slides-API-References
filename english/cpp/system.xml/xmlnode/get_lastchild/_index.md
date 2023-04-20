@@ -24,6 +24,5 @@ The last child of the node. If there is no such node, **nullptr** is returned.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNode](../)
-* Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

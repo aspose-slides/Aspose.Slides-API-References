@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/icoloroperation/
 Represents different color operations used for color transformations.
 
 ```cpp
-class IColorOperation : public System::Object
+class IColorOperation : public virtual System::Object
 ```
 
 ## Methods

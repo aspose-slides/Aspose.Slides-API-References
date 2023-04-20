@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.data/datarowcollection/idx_get/
 ---
-## DataRowCollection::idx_get(const **int32_t**) method
+## DataRowCollection::idx_get(const int32_t) method
 
 
 RTTI information.

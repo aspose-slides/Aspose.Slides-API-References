@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlurlresolver/set_proxy/
 ---
-## XmlUrlResolver::set_Proxy(const [SharedPtr](../../../system/sharedptr/)\<[Net::IWebProxy](../../../system.net/iwebproxy/)\>\&) method
+## XmlUrlResolver::set_Proxy(const SharedPtr\<Net::IWebProxy\>\&) method
 
 
 Sets the network proxy for the underlying WebRequest object.

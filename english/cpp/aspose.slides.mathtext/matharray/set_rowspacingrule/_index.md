@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.mathtext/matharray/set_rowspacingrule/
 ---
-## MathArray::set_RowSpacingRule([MathRowSpacingRule](../../mathrowspacingrule/)) method
+## MathArray::set_RowSpacingRule(MathRowSpacingRule) method
 
 
 The type of vertical spacing between array elements Default: SingleLineGap

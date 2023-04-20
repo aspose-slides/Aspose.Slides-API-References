@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.net.http.headers/httpcontentheaders/httpcontentheaders/
 ---
-## HttpContentHeaders::HttpContentHeaders([HeaderFunc](../../headerfunc/)\<[Nullable](../../../system/nullable/)\<**int64_t**\>\>) constructor
+## HttpContentHeaders::HttpContentHeaders(HeaderFunc\<Nullable\<int64_t\>\>) constructor
 
 
 Constructs a new instance.

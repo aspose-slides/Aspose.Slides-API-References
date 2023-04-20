@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/icomment/set_createdtime/
 ---
-## IComment::set_CreatedTime([System::DateTime](../../../system/datetime/)) method
+## IComment::set_CreatedTime(System::DateTime) method
 
 
 Sets the time of a comment creation. Setting this property to [DateTime::MinValue](../../../system/datetime/minvalue/) means no comment time is set. Write [System::DateTime](../../../system/datetime/).

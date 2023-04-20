@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.charts/datalabel/set_height/
 ---
-## DataLabel::set_Height(**float**) method
+## DataLabel::set_Height(float) method
 
 
 Sets the height of a title as a fraction of the height of the chart. Write **float**.

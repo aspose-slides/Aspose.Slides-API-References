@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iportionfactory/
 Allows to create test portions
 
 ```cpp
-class IPortionFactory : public System::Object
+class IPortionFactory : public virtual System::Object
 ```
 
 ## Methods

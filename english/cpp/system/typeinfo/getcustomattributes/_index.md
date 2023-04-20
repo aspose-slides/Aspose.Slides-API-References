@@ -15,14 +15,7 @@ Returns an array containing objects that represent all custom attributes applied
 ArrayPtr<ObjectPtr> System::TypeInfo::GetCustomAttributes() const
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [SmartPtr](../../smartptr/)
-* Class [TypeInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TypeInfo::GetCustomAttributes(const [TypeInfo](../)\&, **bool**) const method
+## TypeInfo::GetCustomAttributes(const TypeInfo\&, bool) const method
 
 
 Returns an array containing objects that represent specific attributes applied to the type.
@@ -43,7 +36,6 @@ ArrayPtr<ObjectPtr> System::TypeInfo::GetCustomAttributes(const TypeInfo &attrib
 
 * Typedef [ArrayPtr](../../arrayptr/)
 * Class [SmartPtr](../../smartptr/)
-* Class [TypeInfo](../)
 * Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

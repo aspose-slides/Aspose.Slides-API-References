@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.drawing/graphics/set_pageunit/
 ---
-## Graphics::set_PageUnit([GraphicsUnit](../../graphicsunit/)) method
+## Graphics::set_PageUnit(GraphicsUnit) method
 
 
 Sets measurement units used for page coordinates on the surface represented by the current object.

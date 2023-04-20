@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing.imaging/imageattributes/cleargamma/
 ---
-## ImageAttributes::ClearGamma([ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::ClearGamma(ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

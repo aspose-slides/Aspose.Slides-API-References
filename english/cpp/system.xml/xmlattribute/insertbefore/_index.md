@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.xml/xmlattribute/insertbefore/
 ---
-## XmlAttribute::InsertBefore([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>, [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>) method
+## XmlAttribute::InsertBefore(SharedPtr\<XmlNode\>, SharedPtr\<XmlNode\>) method
 
 
 Inserts the specified node immediately before the specified reference node.

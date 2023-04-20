@@ -32,11 +32,6 @@ template<typename T> static std::enable_if<std::is_integral<T>::value &&!std::is
 
 -1 if **value** is less than 0; 0 if **value** is equal to 0; 1 if **value** is greater than 0
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Math::Sign(T) method
 
 
@@ -63,12 +58,7 @@ template<typename T> static std::enable_if<std::is_floating_point<T>::value, int
 
 -1 if **value** is less than 0; 0 if **value** is equal to 0; 1 if **value** is greater than 0
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Sign(const [Decimal](../../decimal/)\&) method
+## Math::Sign(const Decimal\&) method
 
 
 Determines the sign of the specified decimal value.

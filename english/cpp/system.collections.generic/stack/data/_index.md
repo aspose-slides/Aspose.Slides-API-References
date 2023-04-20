@@ -20,12 +20,6 @@ stack_t & System::Collections::Generic::Stack<T>::data()
 
 Reference to internal data structure.
 
-## See Also
-
-* Typedef [stack_t](../stack_t/)
-* Class [Stack](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## Stack::data() const method
 
 

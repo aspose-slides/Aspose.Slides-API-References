@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/ihtmloptions/set_htmlformatter/
 ---
-## IHtmlOptions::set_HtmlFormatter([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlFormatter](../../ihtmlformatter/)\>) method
+## IHtmlOptions::set_HtmlFormatter(System::SharedPtr\<IHtmlFormatter\>) method
 
 
 Sets HTML template. Write [IHtmlFormatter](../../ihtmlformatter/).

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.net.http.headers/cachecontrolheadervalue/set_notransform/
 ---
-## CacheControlHeaderValue::set_NoTransform(**bool**) method
+## CacheControlHeaderValue::set_NoTransform(bool) method
 
 
 Sets the value that determines if a cache or proxy must not change any part of the entity body.

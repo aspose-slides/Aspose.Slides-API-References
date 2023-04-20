@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/retryconditionheadervalue/retryconditionheadervalue/
 ---
-## RetryConditionHeaderValue::RetryConditionHeaderValue([DateTimeOffset](../../../system/datetimeoffset/)) constructor
+## RetryConditionHeaderValue::RetryConditionHeaderValue(DateTimeOffset) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::Headers::RetryConditionHeaderValue::RetryConditionHeaderValue
 | --- | --- | --- |
 | date | [DateTimeOffset](../../../system/datetimeoffset/) | The date value. |
 
-## See Also
-
-* Class [DateTimeOffset](../../../system/datetimeoffset/)
-* Class [RetryConditionHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## RetryConditionHeaderValue::RetryConditionHeaderValue([TimeSpan](../../../system/timespan/)) constructor
+## RetryConditionHeaderValue::RetryConditionHeaderValue(TimeSpan) constructor
 
 
 Constructs a new instance.
@@ -46,7 +40,8 @@ System::Net::Http::Headers::RetryConditionHeaderValue::RetryConditionHeaderValue
 
 ## See Also
 
-* Class [TimeSpan](../../../system/timespan/)
+* Class [DateTimeOffset](../../../system/datetimeoffset/)
 * Class [RetryConditionHeaderValue](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.export/htmloptions/htmloptions/
 ---
-## HtmlOptions::HtmlOptions([System::SharedPtr](../../../system/sharedptr/)\<[ILinkEmbedController](../../ilinkembedcontroller/)\>) constructor
+## HtmlOptions::HtmlOptions(System::SharedPtr\<ILinkEmbedController\>) constructor
 
 
 Creates a new [HtmlOptions](../) object specifiing callback.
@@ -22,13 +22,6 @@ Aspose::Slides::Export::HtmlOptions::HtmlOptions(System::SharedPtr<ILinkEmbedCon
 | --- | --- | --- |
 | linkEmbedController | [System::SharedPtr](../../../system/sharedptr/)\<[ILinkEmbedController](../../ilinkembedcontroller/)\> | Callback object which controls saving project. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ILinkEmbedController](../../ilinkembedcontroller/)
-* Class [HtmlOptions](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
 ## HtmlOptions::HtmlOptions() constructor
 
 
@@ -40,6 +33,8 @@ Aspose::Slides::Export::HtmlOptions::HtmlOptions()
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [ILinkEmbedController](../../ilinkembedcontroller/)
 * Class [HtmlOptions](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

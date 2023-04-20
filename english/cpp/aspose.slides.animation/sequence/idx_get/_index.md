@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.animation/sequence/idx_get/
 ---
-## Sequence::idx_get(**int32_t**) method
+## Sequence::idx_get(int32_t) method
 
 
 Returns an effect at the specified index.

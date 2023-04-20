@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/stringreader/stringreader/
 ---
-## StringReader::StringReader(const [String](../../../system/string/)\&) constructor
+## StringReader::StringReader(const String\&) constructor
 
 
 Constructs a new instance of [StringReader](../) class that reads characters from the specified string.

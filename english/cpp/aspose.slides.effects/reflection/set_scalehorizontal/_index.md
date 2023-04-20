@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides.effects/reflection/set_scalehorizontal/
 ---
-## Reflection::set_ScaleHorizontal(**double**) method
+## Reflection::set_ScaleHorizontal(double) method
 
 
 Specifies the horizontal scaling factor, negative scaling causes a flip. (percents) Write **double**.

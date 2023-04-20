@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.theme/baseoverridethememanager/applycolorscheme/
 ---
-## BaseOverrideThemeManager::ApplyColorScheme([System::SharedPtr](../../../system/sharedptr/)\<[IExtraColorScheme](../../iextracolorscheme/)\>) method
+## BaseOverrideThemeManager::ApplyColorScheme(System::SharedPtr\<IExtraColorScheme\>) method
 
 
 Applies extra color scheme to a slide.

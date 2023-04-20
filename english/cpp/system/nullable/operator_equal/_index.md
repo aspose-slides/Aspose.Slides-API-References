@@ -20,12 +20,6 @@ template<typename T1,typename> Nullable<T> System::Nullable<T>::operator=(std::n
 
 A [Nullable](../) object that represents null-value.
 
-## See Also
-
-* Class [Nullable](../)
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::operator=(const T1\&) method
 
 
@@ -52,14 +46,7 @@ template<typename T1> std::enable_if<!IsNullable<T1>::value &&!std::is_null_poin
 
 A reference to the self
 
-## See Also
-
-* Struct [IsNullable](../../isnullable/)
-* Class [Nullable](../)
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Nullable::operator=(const [Nullable](../)\<T1\>\&) method
+## Nullable::operator=(const Nullable\<T1\>\&) method
 
 
 Replaces the object's currently represented value with the specified one.
@@ -88,6 +75,6 @@ A reference to the self
 ## See Also
 
 * Class [Nullable](../)
-* Class [Nullable](../)
+* Struct [IsNullable](../../isnullable/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

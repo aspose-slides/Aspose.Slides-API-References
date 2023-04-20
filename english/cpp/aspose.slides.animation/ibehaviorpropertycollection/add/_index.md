@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.animation/ibehaviorpropertycollection/add/
 ---
-## IBehaviorPropertyCollection::Add(const [System::String](../../../system/string/)\&) method
+## IBehaviorPropertyCollection::Add(const System::String\&) method
 
 
 Adds a new property to the collection.

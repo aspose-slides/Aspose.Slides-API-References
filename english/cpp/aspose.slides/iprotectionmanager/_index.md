@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iprotectionmanager/
 [Presentation](../presentation/) password protection management.
 
 ```cpp
-class IProtectionManager : public System::Object
+class IProtectionManager : public virtual System::Object
 ```
 
 ## Methods

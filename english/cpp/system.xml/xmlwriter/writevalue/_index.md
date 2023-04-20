@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.xml/xmlwriter/writevalue/
 ---
-## XmlWriter::WriteValue([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XmlWriter::WriteValue(SharedPtr\<Object\>) method
 
 
 Writes the object value.
@@ -22,14 +22,7 @@ virtual void System::Xml::XmlWriter::WriteValue(SharedPtr<Object> value)
 | --- | --- | --- |
 | value | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | The object value to write. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue(const [String](../../../system/string/)\&) method
+## XmlWriter::WriteValue(const String\&) method
 
 
 Writes a [String](../../../system/string/) value.
@@ -45,13 +38,7 @@ virtual void System::Xml::XmlWriter::WriteValue(const String &value)
 | --- | --- | --- |
 | value | const [String](../../../system/string/)\& | The [String](../../../system/string/) value to write. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue(**bool**) method
+## XmlWriter::WriteValue(bool) method
 
 
 Writes a [Boolean](../../../system/boolean/) value.
@@ -67,12 +54,7 @@ virtual void System::Xml::XmlWriter::WriteValue(bool value)
 | --- | --- | --- |
 | value | **bool** | The [Boolean](../../../system/boolean/) value to write. |
 
-## See Also
-
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue([DateTime](../../../system/datetime/)) method
+## XmlWriter::WriteValue(DateTime) method
 
 
 Writes a [DateTime](../../../system/datetime/) value.
@@ -88,13 +70,7 @@ virtual void System::Xml::XmlWriter::WriteValue(DateTime value)
 | --- | --- | --- |
 | value | [DateTime](../../../system/datetime/) | The [DateTime](../../../system/datetime/) value to write. |
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue([DateTimeOffset](../../../system/datetimeoffset/)) method
+## XmlWriter::WriteValue(DateTimeOffset) method
 
 
 Writes a [DateTimeOffset](../../../system/datetimeoffset/) value.
@@ -110,13 +86,7 @@ virtual void System::Xml::XmlWriter::WriteValue(DateTimeOffset value)
 | --- | --- | --- |
 | value | [DateTimeOffset](../../../system/datetimeoffset/) | The [DateTimeOffset](../../../system/datetimeoffset/) value to write. |
 
-## See Also
-
-* Class [DateTimeOffset](../../../system/datetimeoffset/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue(**double**) method
+## XmlWriter::WriteValue(double) method
 
 
 Writes a [Double](../../../system/double/) value.
@@ -132,12 +102,7 @@ virtual void System::Xml::XmlWriter::WriteValue(double value)
 | --- | --- | --- |
 | value | **double** | The [Double](../../../system/double/) value to write. |
 
-## See Also
-
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue(**float**) method
+## XmlWriter::WriteValue(float) method
 
 
 Writes a single-precision floating-point number.
@@ -153,12 +118,7 @@ virtual void System::Xml::XmlWriter::WriteValue(float value)
 | --- | --- | --- |
 | value | **float** | The single-precision floating-point number to write. |
 
-## See Also
-
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue([Decimal](../../../system/decimal/)) method
+## XmlWriter::WriteValue(Decimal) method
 
 
 Writes a [Decimal](../../../system/decimal/) value.
@@ -174,13 +134,7 @@ virtual void System::Xml::XmlWriter::WriteValue(Decimal value)
 | --- | --- | --- |
 | value | [Decimal](../../../system/decimal/) | The [Decimal](../../../system/decimal/) value to write. |
 
-## See Also
-
-* Class [Decimal](../../../system/decimal/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue(**int32_t**) method
+## XmlWriter::WriteValue(int32_t) method
 
 
 Writes a [Int32](../../../system/int32/) value.
@@ -196,12 +150,7 @@ virtual void System::Xml::XmlWriter::WriteValue(int32_t value)
 | --- | --- | --- |
 | value | **int32_t** | The [Int32](../../../system/int32/) value to write. |
 
-## See Also
-
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::WriteValue(**int64_t**) method
+## XmlWriter::WriteValue(int64_t) method
 
 
 Writes a [Int64](../../../system/int64/) value.
@@ -219,6 +168,12 @@ virtual void System::Xml::XmlWriter::WriteValue(int64_t value)
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Object](../../../system/object/)
 * Class [XmlWriter](../)
+* Class [String](../../../system/string/)
+* Class [DateTime](../../../system/datetime/)
+* Class [DateTimeOffset](../../../system/datetimeoffset/)
+* Class [Decimal](../../../system/decimal/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

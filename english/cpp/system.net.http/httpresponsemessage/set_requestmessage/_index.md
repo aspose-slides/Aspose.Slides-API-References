@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net.http/httpresponsemessage/set_requestmessage/
 ---
-## HttpResponseMessage::set_RequestMessage([System::SharedPtr](../../../system/sharedptr/)\<[HttpRequestMessage](../../httprequestmessage/)\>) method
+## HttpResponseMessage::set_RequestMessage(System::SharedPtr\<HttpRequestMessage\>) method
 
 
 Sets the HTTP request message.

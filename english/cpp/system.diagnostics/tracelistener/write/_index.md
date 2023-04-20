@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.diagnostics/tracelistener/write/
 ---
-## TraceListener::Write([System::String](../../../system/string/)) method
+## TraceListener::Write(System::String) method
 
 
 RTTI information.

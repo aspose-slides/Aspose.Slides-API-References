@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/cellcollection/idx_get/
 ---
-## CellCollection::idx_get(**int32_t**) method
+## CellCollection::idx_get(int32_t) method
 
 
 Returns a cell by it's position. Read-only [Cell](../../cell/).

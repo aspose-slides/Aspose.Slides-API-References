@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system/array/binarysearch/
 ---
-## Array::BinarySearch([System::ArrayPtr](../../arrayptr/)\<T\>, const T\&) method
+## Array::BinarySearch(System::ArrayPtr\<T\>, const T\&) method
 
 
 Performs binary search in the sorted array.
@@ -27,13 +27,7 @@ static int System::Array<T>::BinarySearch(System::ArrayPtr<T> arr, const T &item
 
 Index of the searched item if one is found, otherwise, a negative integer that is the bitwise complement of the index of the next item greater than searched item or, if there is no greater item, the bitwise complement of the number of elements in the array.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::BinarySearch([System::ArrayPtr](../../arrayptr/)\<T\>, const Y\&, const [SharedPtr](../../sharedptr/)\<[Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<Z\>\>\&) method
+## Array::BinarySearch(System::ArrayPtr\<T\>, const Y\&, const SharedPtr\<Collections::Generic::IComparer\<Z\>\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -47,7 +41,7 @@ template<typename Y,typename Z> static int System::Array<T>::BinarySearch(System
 
 * Typedef [ArrayPtr](../../arrayptr/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [IComparer](../../../system.collections.generic/icomparer/)
 * Class [Array](../)
+* Class [IComparer](../../../system.collections.generic/icomparer/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

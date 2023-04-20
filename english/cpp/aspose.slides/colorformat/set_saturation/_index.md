@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides/colorformat/set_saturation/
 ---
-## ColorFormat::set_Saturation(**float**) method
+## ColorFormat::set_Saturation(float) method
 
 
 Sets the saturation component of a color in HSL representation. All color transformations are ignored. Write **float**.

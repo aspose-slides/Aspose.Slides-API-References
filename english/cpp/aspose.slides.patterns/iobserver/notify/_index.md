@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.patterns/iobserver/notify/
 ---
-## IObserver::Notify([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IObserver::Notify(System::SharedPtr\<System::Object\>) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system/string/operator_equal/
 ---
-## String::operator=(const [String](../)\&) method
+## String::operator=(const String\&) method
 
 
 Assignment operator.
@@ -26,13 +26,7 @@ String & System::String::operator=(const String &str)
 
 Self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator=([String](../)\&&) method
+## String::operator=(String\&&) method
 
 
 Move assignment operator.
@@ -54,7 +48,6 @@ Self reference.
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

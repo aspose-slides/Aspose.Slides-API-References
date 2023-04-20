@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/igeometrypath/lineto/
 ---
-## IGeometryPath::LineTo([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## IGeometryPath::LineTo(System::Drawing::PointF) method
 
 
 Adds line to the end of the path
@@ -22,13 +22,7 @@ virtual void Aspose::Slides::IGeometryPath::LineTo(System::Drawing::PointF point
 | --- | --- | --- |
 | point | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point of the line |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [IGeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IGeometryPath::LineTo(**float**, **float**) method
+## IGeometryPath::LineTo(float, float) method
 
 
 Adds line to the end of the path
@@ -45,12 +39,7 @@ virtual void Aspose::Slides::IGeometryPath::LineTo(float x, float y)=0
 | x | **float** | X coordinate of the end point of the line |
 | y | **float** | Y coordinate of the end point of the line |
 
-## See Also
-
-* Class [IGeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IGeometryPath::LineTo([System::Drawing::PointF](../../../system.drawing/pointf/), **uint32_t**) method
+## IGeometryPath::LineTo(System::Drawing::PointF, uint32_t) method
 
 
 Adds line to the specified place of the path
@@ -67,13 +56,7 @@ virtual void Aspose::Slides::IGeometryPath::LineTo(System::Drawing::PointF point
 | point | [System::Drawing::PointF](../../../system.drawing/pointf/) | End point |
 | index | **uint32_t** | Index of segment in PathData |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [IGeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IGeometryPath::LineTo(**float**, **float**, **uint32_t**) method
+## IGeometryPath::LineTo(float, float, uint32_t) method
 
 
 Adds line to the specified place of the path
@@ -93,6 +76,7 @@ virtual void Aspose::Slides::IGeometryPath::LineTo(float x, float y, uint32_t in
 
 ## See Also
 
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [IGeometryPath](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

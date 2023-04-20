@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system/decimal/divide/
 ---
-## Decimal::Divide(const [Decimal](../)\&, const [Decimal](../)\&) method
+## Decimal::Divide(const Decimal\&, const Decimal\&) method
 
 
 Divides two specified [Decimal](../) values.
@@ -29,7 +29,6 @@ The result of dividing **d1** by **d2**.
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

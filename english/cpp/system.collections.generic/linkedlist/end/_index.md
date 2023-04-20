@@ -20,12 +20,6 @@ iterator System::Collections::Generic::LinkedList<T>::end() noexcept
 
 An iterator pointing to the theoretical element placed after the end element in the linked list.
 
-## See Also
-
-* Typedef [iterator](../../ienumerable/iterator/)
-* Class [LinkedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## LinkedList::end() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the theoretical element placed after the end element in 
 
 ## See Also
 
+* Typedef [iterator](../../ienumerable/iterator/)
 * Typedef [const_iterator](../../ienumerable/const_iterator/)
 * Class [LinkedList](../)
 * Namespace [System::Collections::Generic](../../)

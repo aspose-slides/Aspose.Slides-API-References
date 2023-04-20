@@ -23,11 +23,6 @@ Example:
 auto mathText = System::MakeObject<MathematicalText>();
 ```
 
-## See Also
-
-* Class [MathematicalText](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
 ## MathematicalText::MathematicalText(char16_t) constructor
 
 
@@ -52,12 +47,7 @@ Example:
 auto mathText = System::MakeObject<MathematicalText>(u'$');
 ```
 
-## See Also
-
-* Class [MathematicalText](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathematicalText::MathematicalText([System::String](../../../system/string/)) constructor
+## MathematicalText::MathematicalText(System::String) constructor
 
 
 Create [MathematicalText](../) from text
@@ -81,13 +71,7 @@ Example:
 auto mathText = System::MakeObject<MathematicalText>(u"x+y");
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [MathematicalText](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathematicalText::MathematicalText([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IPortionFormat](../../../aspose.slides/iportionformat/)\>) constructor
+## MathematicalText::MathematicalText(System::String, System::SharedPtr\<IPortionFormat\>) constructor
 
 
 Create [MathematicalText](../) from text and format settings
@@ -115,9 +99,9 @@ auto mathText = System::MakeObject<MathematicalText>(u"x+y", format);
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPortionFormat](../../../aspose.slides/iportionformat/)
 * Class [MathematicalText](../)
+* Class [String](../../../system/string/)
+* Class [IPortionFormat](../../../aspose.slides/iportionformat/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

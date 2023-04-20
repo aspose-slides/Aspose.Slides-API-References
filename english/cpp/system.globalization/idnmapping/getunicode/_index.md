@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.globalization/idnmapping/getunicode/
 ---
-## IdnMapping::GetUnicode(const [String](../../../system/string/)\&) const method
+## IdnMapping::GetUnicode(const String\&) const method
 
 
 [Convert](../../../system/convert/) ascii domain name to unicode equivalent.
@@ -26,13 +26,7 @@ String System::Globalization::IdnMapping::GetUnicode(const String &ascii) const
 
 Unicode equivalent of ascii string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IdnMapping](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## IdnMapping::GetUnicode(const [String](../../../system/string/)\&, int) const method
+## IdnMapping::GetUnicode(const String\&, int) const method
 
 
 [Convert](../../../system/convert/) ascii domain name to unicode equivalent.
@@ -53,13 +47,7 @@ String System::Globalization::IdnMapping::GetUnicode(const String &ascii, int in
 
 Unicode equivalent of ascii string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IdnMapping](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## IdnMapping::GetUnicode(const [String](../../../system/string/)\&, int, int) const method
+## IdnMapping::GetUnicode(const String\&, int, int) const method
 
 
 [Convert](../../../system/convert/) ascii domain name to unicode equivalent.

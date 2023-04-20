@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.collections.generic/iset/exceptwith/
 ---
-## ISet::ExceptWith([IEnumerablePtr](../ienumerableptr/)) method
+## ISet::ExceptWith(IEnumerablePtr) method
 
 
 Removes group of elements.

@@ -15,12 +15,7 @@ Constructs empty regexp.
 System::Text::RegularExpressions::Regex::Regex()
 ```
 
-## See Also
-
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Regex(const [String](../../../system/string/)\&) constructor
+## Regex::Regex(const String\&) constructor
 
 
 Constructor.
@@ -36,13 +31,7 @@ System::Text::RegularExpressions::Regex::Regex(const String &pattern)
 | --- | --- | --- |
 | pattern | const [String](../../../system/string/)\& | C#-syntaxed pattern. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Regex(const [String](../../../system/string/)\&, [RegexOptions](../../regexoptions/)) constructor
+## Regex::Regex(const String\&, RegexOptions) constructor
 
 
 Constructor.
@@ -59,14 +48,7 @@ System::Text::RegularExpressions::Regex::Regex(const String &pattern, RegexOptio
 | pattern | const [String](../../../system/string/)\& | C#-syntaxed pattern. |
 | options | [RegexOptions](../../regexoptions/) | [Regex](../) matching options. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [RegexOptions](../../regexoptions/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Regex(const [String](../../../system/string/)\&, [RegexOptions](../../regexoptions/), [TimeSpan](../../../system/timespan/)) constructor
+## Regex::Regex(const String\&, RegexOptions, TimeSpan) constructor
 
 
 Constructor.
@@ -86,9 +68,9 @@ System::Text::RegularExpressions::Regex::Regex(const String &pattern, RegexOptio
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [RegexOptions](../../regexoptions/)
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Regex](../)
+* Class [String](../../../system/string/)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing.text/privatefontcollection/addfont/
 ---
-## PrivateFontCollection::AddFont(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, int) method
+## PrivateFontCollection::AddFont(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Adds the specified font to the collection.

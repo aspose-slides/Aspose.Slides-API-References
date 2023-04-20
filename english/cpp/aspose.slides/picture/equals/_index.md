@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/picture/equals/
 ---
-## Picture::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Picture::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Compares with specified object.

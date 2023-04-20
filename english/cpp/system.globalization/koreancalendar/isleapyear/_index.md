@@ -27,11 +27,6 @@ bool System::Globalization::KoreanCalendar::IsLeapYear(int year, int era) const 
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [KoreanCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## KoreanCalendar::IsLeapYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual bool System::Globalization::Calendar::IsLeapYear(int year) const
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [KoreanCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## KoreanCalendar::IsLeapYear(int, int) const method
 
 

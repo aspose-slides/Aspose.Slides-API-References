@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmlnamespacemanager/removenamespace/
 ---
-## XmlNamespaceManager::RemoveNamespace([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlNamespaceManager::RemoveNamespace(String, String) method
 
 
 Removes the given namespace for the given prefix.

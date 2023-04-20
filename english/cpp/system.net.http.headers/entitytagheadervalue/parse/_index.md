@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.http.headers/entitytagheadervalue/parse/
 ---
-## EntityTagHeaderValue::Parse([String](../../../system/string/)) method
+## EntityTagHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [EntityTagHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [EntityTagHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [EntityTagHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [EntityTagHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

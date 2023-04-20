@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/system.globalization/numberformatinfo/set_nativedigits/
 ---
-## NumberFormatInfo::set_NativeDigits(const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## NumberFormatInfo::set_NativeDigits(const ArrayPtr\<String\>\&) method
 
 
 Sets digits symbols (0 through 9).

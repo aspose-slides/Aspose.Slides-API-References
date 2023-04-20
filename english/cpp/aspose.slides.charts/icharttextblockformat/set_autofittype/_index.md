@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.charts/icharttextblockformat/set_autofittype/
 ---
-## IChartTextBlockFormat::set_AutofitType([TextAutofitType](../../../aspose.slides/textautofittype/)) method
+## IChartTextBlockFormat::set_AutofitType(TextAutofitType) method
 
 
 Sets text's autofit mode. Changing of this property can produce a certain influence only for these chart parts: [DataLabel](../../datalabel/) and [DataLabelFormat](../../datalabelformat/) (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). Write [TextAutofitType](../../../aspose.slides/textautofittype/).

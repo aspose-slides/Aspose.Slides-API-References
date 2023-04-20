@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml/xmlreadersettings/set_conformancelevel/
 ---
-## XmlReaderSettings::set_ConformanceLevel([System::Xml::ConformanceLevel](../../conformancelevel/)) method
+## XmlReaderSettings::set_ConformanceLevel(System::Xml::ConformanceLevel) method
 
 
 Sets the level of conformance which the [XmlReader](../../xmlreader/) will comply.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.util/slideutil/alignshapes/
 ---
-## SlideUtil::AlignShapes([ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/), **bool**, [System::SharedPtr](../../../system/sharedptr/)\<[IShapeCollection](../../../aspose.slides/ishapecollection/)\>) method
+## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IShapeCollection\>) method
 
 
 Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
@@ -36,15 +36,7 @@ auto pres = System::MakeObject<Presentation>(u"pres.pptx");
 SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignBottom, true, pres->get_Slides()->idx_get(0)->get_Shapes());
 ```
 
-## See Also
-
-* Enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShapeCollection](../../../aspose.slides/ishapecollection/)
-* Class [SlideUtil](../)
-* Namespace [Aspose::Slides::Util](../../)
-* Library [Aspose.Slides](../../../)
-## SlideUtil::AlignShapes([ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/), **bool**, [System::SharedPtr](../../../system/sharedptr/)\<[IBaseSlide](../../../aspose.slides/ibaseslide/)\>) method
+## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IBaseSlide\>) method
 
 
 Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
@@ -72,15 +64,7 @@ System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.p
 SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignBottom, true, pres->get_Slides()->idx_get(0));
 ```
 
-## See Also
-
-* Enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IBaseSlide](../../../aspose.slides/ibaseslide/)
-* Class [SlideUtil](../)
-* Namespace [Aspose::Slides::Util](../../)
-* Library [Aspose.Slides](../../../)
-## SlideUtil::AlignShapes([ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/), **bool**, [System::SharedPtr](../../../system/sharedptr/)\<[IBaseSlide](../../../aspose.slides/ibaseslide/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>) method
+## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IBaseSlide\>, System::ArrayPtr\<int32_t\>) method
 
 
 Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
@@ -115,16 +99,7 @@ SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignBottom, false, 
     }));
 ```
 
-## See Also
-
-* Enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IBaseSlide](../../../aspose.slides/ibaseslide/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [SlideUtil](../)
-* Namespace [Aspose::Slides::Util](../../)
-* Library [Aspose.Slides](../../../)
-## SlideUtil::AlignShapes([ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/), **bool**, [System::SharedPtr](../../../system/sharedptr/)\<[IGroupShape](../../../aspose.slides/igroupshape/)\>) method
+## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IGroupShape\>) method
 
 
 Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
@@ -152,15 +127,7 @@ System::SharedPtr<Presentation> pres = System::MakeObject<Presentation>(u"pres.p
 SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignLeft, false, System::ExplicitCast<Aspose::Slides::GroupShape>(pres->get_Slides()->idx_get(0)->get_Shapes()));
 ```
 
-## See Also
-
-* Enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IGroupShape](../../../aspose.slides/igroupshape/)
-* Class [SlideUtil](../)
-* Namespace [Aspose::Slides::Util](../../)
-* Library [Aspose.Slides](../../../)
-## SlideUtil::AlignShapes([ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/), **bool**, [System::SharedPtr](../../../system/sharedptr/)\<[IGroupShape](../../../aspose.slides/igroupshape/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>) method
+## SlideUtil::AlignShapes(ShapesAlignmentType, bool, System::SharedPtr\<IGroupShape\>, System::ArrayPtr\<int32_t\>) method
 
 
 Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other.
@@ -193,8 +160,10 @@ SlideUtil::AlignShapes(Aspose::Slides::ShapesAlignmentType::AlignLeft, false, Sy
 
 * Enum [ShapesAlignmentType](../../../aspose.slides/shapesalignmenttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IGroupShape](../../../aspose.slides/igroupshape/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [IShapeCollection](../../../aspose.slides/ishapecollection/)
 * Class [SlideUtil](../)
+* Class [IBaseSlide](../../../aspose.slides/ibaseslide/)
+* Class [IGroupShape](../../../aspose.slides/igroupshape/)
 * Namespace [Aspose::Slides::Util](../../)
 * Library [Aspose.Slides](../../../)

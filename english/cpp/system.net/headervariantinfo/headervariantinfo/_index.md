@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net/headervariantinfo/headervariantinfo/
 ---
-## HeaderVariantInfo::HeaderVariantInfo([String](../../../system/string/), [CookieVariant](../../cookievariant/)) constructor
+## HeaderVariantInfo::HeaderVariantInfo(String, CookieVariant) constructor
 
 
 Constructs a new instance.
@@ -23,13 +23,6 @@ System::Net::HeaderVariantInfo::HeaderVariantInfo(String name, CookieVariant var
 | name | [String](../../../system/string/) | The cookie's name. |
 | variant | [CookieVariant](../../cookievariant/) | The cookie's specification. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CookieVariant](../../cookievariant/)
-* Class [HeaderVariantInfo](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
 ## HeaderVariantInfo::HeaderVariantInfo() constructor
 
 
@@ -41,6 +34,8 @@ System::Net::HeaderVariantInfo::HeaderVariantInfo()
 
 ## See Also
 
+* Enum [CookieVariant](../../cookievariant/)
+* Class [String](../../../system/string/)
 * Class [HeaderVariantInfo](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

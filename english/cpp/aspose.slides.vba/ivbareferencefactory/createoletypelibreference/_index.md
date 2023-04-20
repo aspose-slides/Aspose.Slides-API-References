@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.vba/ivbareferencefactory/createoletypelibreference/
 ---
-## IVbaReferenceFactory::CreateOleTypeLibReference([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## IVbaReferenceFactory::CreateOleTypeLibReference(System::String, System::String) method
 
 
 Creates new OLE Automation type library reference.

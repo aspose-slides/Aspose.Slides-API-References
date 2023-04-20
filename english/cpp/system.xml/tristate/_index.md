@@ -3,7 +3,7 @@ title: TriState
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 872
+weight: 846
 url: /cpp/system.xml/tristate/
 ---
 ## TriState enum

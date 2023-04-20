@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/islidespicture/get_imagetransformoperation/
 ---
-## ISlidesPicture::get_ImageTransformOperation(**int32_t**) method
+## ISlidesPicture::get_ImageTransformOperation(int32_t) method
 
 
 Returns image transform operation at the specified index.

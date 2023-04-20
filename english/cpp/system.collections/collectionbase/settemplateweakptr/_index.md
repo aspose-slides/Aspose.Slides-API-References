@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.collections/collectionbase/settemplateweakptr/
 ---
-## CollectionBase::SetTemplateWeakPtr(**uint32_t**) method
+## CollectionBase::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

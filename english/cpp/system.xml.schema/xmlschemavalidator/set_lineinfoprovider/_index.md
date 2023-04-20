@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml.schema/xmlschemavalidator/set_lineinfoprovider/
 ---
-## XmlSchemaValidator::set_LineInfoProvider(const [SharedPtr](../../../system/sharedptr/)\<[IXmlLineInfo](../../../system.xml/ixmllineinfo/)\>\&) method
+## XmlSchemaValidator::set_LineInfoProvider(const SharedPtr\<IXmlLineInfo\>\&) method
 
 
 Sets the line number information for the XML node being validated.

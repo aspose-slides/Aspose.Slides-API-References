@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.xml/xmlreadersettings/set_checkcharacters/
 ---
-## XmlReaderSettings::set_CheckCharacters(**bool**) method
+## XmlReaderSettings::set_CheckCharacters(bool) method
 
 
 Sets a value indicating whether to do character checking.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography/rsa/decryptvalue/
 ---
-## RSA::DecryptValue([ByteArrayPtr](../../../system/bytearrayptr/)) method
+## RSA::DecryptValue(ByteArrayPtr) method
 
 
 Decrypts value using private key.

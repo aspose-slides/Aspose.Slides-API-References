@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.charts/ichartseries/set_order/
 ---
-## IChartSeries::set_Order(**int32_t**) method
+## IChartSeries::set_Order(int32_t) method
 
 
 Returns the order of a series. Write **int32_t**.

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.threading/thread/set_name/
 ---
-## Thread::set_Name(const [System::String](../../../system/string/)\&) method
+## Thread::set_Name(const System::String\&) method
 
 
 Sets thread name.

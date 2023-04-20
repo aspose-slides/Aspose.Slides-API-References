@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.io/directory/move/
 ---
-## Directory::Move(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Directory::Move(const String\&, const String\&) method
 
 
 Moves the specified entity to the new location. If the entity to move is a directory, it is moved with all its content.

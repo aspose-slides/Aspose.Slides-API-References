@@ -3,7 +3,7 @@ title: NotNullAreEqualImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares arrays or lists.
 type: docs
-weight: 40
+weight: 1
 url: /cpp/system.testpredicates.details.sharedptrasserts/notnullareequalimpl/
 ---
 ## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
@@ -37,11 +37,6 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::BothArrayOrList<typ
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [BothArrayOrList](../../system.testpredicates.typetraits/botharrayorlist/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
 
 
@@ -73,14 +68,7 @@ template<typename T1,typename T2> std::enable_if<!TypeTraits::BothArrayOrList<ty
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [BothArrayOrList](../../system.testpredicates.typetraits/botharrayorlist/)
-* Typedef [BothEnumerable](../../system.testpredicates.typetraits/bothenumerable/)
-* Struct [has_data_method](../../system.testpredicates.typetraits/has_data_method/)
-* Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, **int32_t**) function
+## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, int32_t) function
 
 
 Equal-compares unknown types using Equals method.
@@ -112,5 +100,8 @@ gtest-styled assertion result.
 
 ## See Also
 
+* Typedef [BothArrayOrList](../../system.testpredicates.typetraits/botharrayorlist/)
+* Typedef [BothEnumerable](../../system.testpredicates.typetraits/bothenumerable/)
+* Struct [has_data_method](../../system.testpredicates.typetraits/has_data_method/)
 * Namespace [System::TestPredicates::Details::SharedPtrAsserts](../)
 * Library [Aspose.Slides](../../)

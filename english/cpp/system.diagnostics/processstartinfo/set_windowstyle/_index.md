@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.diagnostics/processstartinfo/set_windowstyle/
 ---
-## ProcessStartInfo::set_WindowStyle([ProcessWindowStyle](../../processwindowstyle/)) method
+## ProcessStartInfo::set_WindowStyle(ProcessWindowStyle) method
 
 
 Sets window style.

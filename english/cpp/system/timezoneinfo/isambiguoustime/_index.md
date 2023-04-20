@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system/timezoneinfo/isambiguoustime/
 ---
-## TimeZoneInfo::IsAmbiguousTime([DateTime](../../datetime/)) const method
+## TimeZoneInfo::IsAmbiguousTime(DateTime) const method
 
 
 Checks if specified date and time is ambiguous and can be mapped to many UTC times.
@@ -26,13 +26,7 @@ bool System::TimeZoneInfo::IsAmbiguousTime(DateTime date_time) const
 
 True if date_time is ambiguous.
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::IsAmbiguousTime(const [DateTimeOffset](../../datetimeoffset/)\&) const method
+## TimeZoneInfo::IsAmbiguousTime(const DateTimeOffset\&) const method
 
 
 Checks if specified date and time is ambiguous and can be mapped to many UTC times.
@@ -54,7 +48,8 @@ True if date_time is ambiguous.
 
 ## See Also
 
-* Class [DateTimeOffset](../../datetimeoffset/)
+* Class [DateTime](../../datetime/)
 * Class [TimeZoneInfo](../)
+* Class [DateTimeOffset](../../datetimeoffset/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

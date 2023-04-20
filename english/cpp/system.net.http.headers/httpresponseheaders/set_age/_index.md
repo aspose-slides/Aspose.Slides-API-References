@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/httpresponseheaders/set_age/
 ---
-## HttpResponseHeaders::set_Age([Nullable](../../../system/nullable/)\<[TimeSpan](../../../system/timespan/)\>) method
+## HttpResponseHeaders::set_Age(Nullable\<TimeSpan\>) method
 
 
 Sets a value of the 'Age' header.

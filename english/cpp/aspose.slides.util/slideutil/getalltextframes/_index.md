@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.util/slideutil/getalltextframes/
 ---
-## SlideUtil::GetAllTextFrames([System::SharedPtr](../../../system/sharedptr/)\<[IPresentation](../../../aspose.slides/ipresentation/)\>, **bool**) method
+## SlideUtil::GetAllTextFrames(System::SharedPtr\<IPresentation\>, bool) method
 
 
 Returns all text frames in a PPTX presentation.

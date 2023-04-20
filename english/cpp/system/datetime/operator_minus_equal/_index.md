@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/system/datetime/operator_minus_equal/
 ---
-## DateTime::operator-=([TimeSpan](../../timespan/)) method
+## DateTime::operator-=(TimeSpan) method
 
 
 Sets the current object to the date and time value that is the result of subtraction of the specified time span from the date and time value represented by the current object.
@@ -30,6 +30,5 @@ A reference to the self
 
 * Class [DateTime](../)
 * Class [TimeSpan](../../timespan/)
-* Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

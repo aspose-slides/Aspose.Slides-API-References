@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/colorformat/set_colortype/
 ---
-## ColorFormat::set_ColorType([Aspose::Slides::ColorType](../../colortype/)) method
+## ColorFormat::set_ColorType(Aspose::Slides::ColorType) method
 
 
 Sets the color definition method. Write [Slides::ColorType](../../colortype/).

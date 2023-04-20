@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.web.services.protocols/soapmessage/set_contentencoding/
 ---
-## SoapMessage::set_ContentEncoding([String](../../../system/string/)) method
+## SoapMessage::set_ContentEncoding(String) method
 
 
 Sets a value of the 'Content-Encoding' header.

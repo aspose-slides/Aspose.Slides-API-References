@@ -27,11 +27,6 @@ virtual int System::Globalization::Calendar::GetDaysInMonth(int year, int month)
 
 Number of days in specified month of specified year.
 
-## See Also
-
-* Class [Calendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## Calendar::GetDaysInMonth(int, int, int) const method
 
 

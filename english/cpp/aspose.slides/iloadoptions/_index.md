@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iloadoptions/
 Allows to specify additional options (such as format or default font) when loading a presentation.
 
 ```cpp
-class ILoadOptions : public System::Object
+class ILoadOptions : public virtual System::Object
 ```
 
 ## Methods

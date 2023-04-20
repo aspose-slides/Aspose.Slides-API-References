@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/itrendlinecollection/idx_get/
 ---
-## ITrendlineCollection::idx_get(**int32_t**) method
+## ITrendlineCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [ITrendline](../../itrendline/).

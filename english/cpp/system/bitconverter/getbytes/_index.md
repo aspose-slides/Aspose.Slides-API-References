@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/bitconverter/getbytes/
 ---
-## BitConverter::GetBytes(**bool**) method
+## BitConverter::GetBytes(bool) method
 
 
 Converts the specified boolean value into an array of bytes.
@@ -26,12 +26,6 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(bool value)
 
 1-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## BitConverter::GetBytes(char_t) method
 
 
@@ -52,13 +46,7 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(char_t value)
 
 2-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::GetBytes(**int16_t**) method
+## BitConverter::GetBytes(int16_t) method
 
 
 Converts the specified 16-bit integer value into an array of bytes.
@@ -78,12 +66,6 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(int16_t value)
 
 2-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## BitConverter::GetBytes(int) method
 
 
@@ -104,13 +86,7 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(int value)
 
 4-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::GetBytes(**int64_t**) method
+## BitConverter::GetBytes(int64_t) method
 
 
 Converts the specified 64-bit integer value into an array of bytes.
@@ -130,13 +106,7 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(int64_t value)
 
 8-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::GetBytes(**uint16_t**) method
+## BitConverter::GetBytes(uint16_t) method
 
 
 Converts the specified unsigned 16-bit integer value into an array of bytes.
@@ -156,13 +126,7 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(uint16_t value)
 
 2-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::GetBytes(**uint32_t**) method
+## BitConverter::GetBytes(uint32_t) method
 
 
 Converts the specified unsigned 32-bit integer value into an array of bytes.
@@ -182,13 +146,7 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(uint32_t value)
 
 4-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::GetBytes(**uint64_t**) method
+## BitConverter::GetBytes(uint64_t) method
 
 
 Converts the specified unsigned 64-bit integer value into an array of bytes.
@@ -208,13 +166,7 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(uint64_t value)
 
 8-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::GetBytes(**float**) method
+## BitConverter::GetBytes(float) method
 
 
 Converts the specified single-precision floating-point value into an array of bytes.
@@ -234,13 +186,7 @@ static System::ArrayPtr<uint8_t> System::BitConverter::GetBytes(float value)
 
 4-byte array representing specified value
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::GetBytes(**double**) method
+## BitConverter::GetBytes(double) method
 
 
 Converts the specified double-precision floating-point value into an array of bytes.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net/servicepointmanager/set_expect100continue/
 ---
-## ServicePointManager::set_Expect100Continue(**bool**) method
+## ServicePointManager::set_Expect100Continue(bool) method
 
 
 Sets a value that indicates if the ServicePoint-class instances use the 100-Continue behavior.

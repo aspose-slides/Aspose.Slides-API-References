@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.slides.charts/chartdatapointcollection/adddatapointformapseries/
 ---
-## ChartDataPointCollection::AddDataPointForMapSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForMapSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Map.

@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/system/array/trueforall/
 ---
-## Array::TrueForAll([System::ArrayPtr](../../arrayptr/)\<T\>, [System::Predicate](../../predicate/)\<T\>) method
+## Array::TrueForAll(System::ArrayPtr\<T\>, System::Predicate\<T\>) method
 
 
 Determines whether all elements in the specified array satisfy the conditions defined by specified predicate.

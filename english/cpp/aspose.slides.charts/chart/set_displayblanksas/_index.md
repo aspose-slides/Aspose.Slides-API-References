@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/chart/set_displayblanksas/
 ---
-## Chart::set_DisplayBlanksAs([DisplayBlanksAsType](../../displayblanksastype/)) method
+## Chart::set_DisplayBlanksAs(DisplayBlanksAsType) method
 
 
 Sets the way to plot blank cells on a chart. Write [DisplayBlanksAsType](../../displayblanksastype/).

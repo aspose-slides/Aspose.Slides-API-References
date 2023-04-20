@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/irippletransition/set_direction/
 ---
-## IRippleTransition::set_Direction([TransitionCornerAndCenterDirectionType](../../transitioncornerandcenterdirectiontype/)) method
+## IRippleTransition::set_Direction(TransitionCornerAndCenterDirectionType) method
 
 
 Direction of transition. Write [TransitionCornerAndCenterDirectionType](../../transitioncornerandcenterdirectiontype/).

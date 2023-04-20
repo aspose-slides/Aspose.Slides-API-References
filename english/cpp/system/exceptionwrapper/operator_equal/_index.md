@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/exceptionwrapper/operator_equal/
 ---
-## ExceptionWrapper::operator=(const [ExceptionWrapper](../)\&) method
+## ExceptionWrapper::operator=(const ExceptionWrapper\&) method
 
 
 Assignment operator.
@@ -26,13 +26,7 @@ ExceptionWrapper & System::ExceptionWrapper<T>::operator=(const ExceptionWrapper
 
 Instance with new assigned value.
 
-## See Also
-
-* Class [ExceptionWrapper](../)
-* Class [ExceptionWrapper](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ExceptionWrapper::operator=([ExceptionWrapper](../)\&&) method
+## ExceptionWrapper::operator=(ExceptionWrapper\&&) method
 
 
 Move assignment operator.
@@ -54,7 +48,6 @@ Instance with new moved value.
 
 ## See Also
 
-* Class [ExceptionWrapper](../)
 * Class [ExceptionWrapper](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

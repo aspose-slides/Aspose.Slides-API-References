@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net/cookiecollection/internaladd/
 ---
-## CookieCollection::InternalAdd([System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>, **bool**) method
+## CookieCollection::InternalAdd(System::SharedPtr\<Cookie\>, bool) method
 
 
 Adds the specified cookie to the collection.

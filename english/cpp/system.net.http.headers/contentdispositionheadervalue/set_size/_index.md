@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/set_size/
 ---
-## ContentDispositionHeaderValue::set_Size([Nullable](../../../system/nullable/)\<**int64_t**\>) method
+## ContentDispositionHeaderValue::set_Size(Nullable\<int64_t\>) method
 
 
 Sets an approximate file size.

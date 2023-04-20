@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system.drawing/graphics/drawlines/
 ---
-## Graphics::DrawLines(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::Point](../../point/)\>\&) method
+## Graphics::DrawLines(const SharedPtr\<Pen\>\&, const System::ArrayPtr\<System::Drawing::Point\>\&) method
 
 
 Draws a series of line segments using the specified pen.
@@ -23,16 +23,7 @@ void System::Drawing::Graphics::DrawLines(const SharedPtr<Pen> &pen, const Syste
 | pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the lines |
 | points | const [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::Point](../../point/)\>\& | [Array](../../../system/array/) of points to connect |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawLines(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, const [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../pointf/)\>\&) method
+## Graphics::DrawLines(const SharedPtr\<Pen\>\&, const System::ArrayPtr\<System::Drawing::PointF\>\&) method
 
 
 Draws a series of line segments using the specified pen.
@@ -52,9 +43,10 @@ void System::Drawing::Graphics::DrawLines(const SharedPtr<Pen> &pen, const Syste
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
+* Class [Pen](../../pen/)
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

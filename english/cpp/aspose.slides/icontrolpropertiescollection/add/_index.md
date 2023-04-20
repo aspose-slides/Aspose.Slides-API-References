@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/icontrolpropertiescollection/add/
 ---
-## IControlPropertiesCollection::Add([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## IControlPropertiesCollection::Add(System::String, System::String) method
 
 
 Adds a property to the collection.

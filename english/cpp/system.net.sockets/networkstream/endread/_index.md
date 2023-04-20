@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.net.sockets/networkstream/endread/
 ---
-## NetworkStream::EndRead([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## NetworkStream::EndRead(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous read operation completes.

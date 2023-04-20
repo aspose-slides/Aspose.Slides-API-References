@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.drawing/operator_less_less/
 ---
-## System::Drawing::operator<<(std::ostream\&, [Color](../color/)) function
+## System::Drawing::operator<<(std::ostream\&, Color) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -27,12 +27,7 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, Color color)
 
 **stream**.
 
-## See Also
-
-* Class [Color](../color/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::wostream\&, [Color](../color/)) function
+## System::Drawing::operator<<(std::wostream\&, Color) function
 
 
 Insert data into the stream.
@@ -53,12 +48,7 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, Color color)
 
 **stream**.
 
-## See Also
-
-* Class [Color](../color/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::ostream\&, const [Point](../point/)\&) function
+## System::Drawing::operator<<(std::ostream\&, const Point\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -79,12 +69,7 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const Point &po
 
 **stream**.
 
-## See Also
-
-* Class [Point](../point/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::wostream\&, const [Point](../point/)\&) function
+## System::Drawing::operator<<(std::wostream\&, const Point\&) function
 
 
 Insert data into the stream.
@@ -105,12 +90,7 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const Point &
 
 **stream**.
 
-## See Also
-
-* Class [Point](../point/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::ostream\&, const [PointF](../pointf/)\&) function
+## System::Drawing::operator<<(std::ostream\&, const PointF\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -131,12 +111,7 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const PointF &p
 
 **stream**.
 
-## See Also
-
-* Class [PointF](../pointf/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::wostream\&, const [PointF](../pointf/)\&) function
+## System::Drawing::operator<<(std::wostream\&, const PointF\&) function
 
 
 Insert data into the stream.
@@ -157,12 +132,7 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const PointF 
 
 **stream**.
 
-## See Also
-
-* Class [PointF](../pointf/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::ostream\&, const [Rectangle](../rectangle/)\&) function
+## System::Drawing::operator<<(std::ostream\&, const Rectangle\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -183,12 +153,7 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const Rectangle
 
 **stream**.
 
-## See Also
-
-* Class [Rectangle](../rectangle/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::wostream\&, const [Rectangle](../rectangle/)\&) function
+## System::Drawing::operator<<(std::wostream\&, const Rectangle\&) function
 
 
 Insert data into the stream.
@@ -209,12 +174,7 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const Rectang
 
 **stream**.
 
-## See Also
-
-* Class [Rectangle](../rectangle/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::ostream\&, const [RectangleF](../rectanglef/)\&) function
+## System::Drawing::operator<<(std::ostream\&, const RectangleF\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -235,12 +195,7 @@ std::ostream & System::Drawing::operator<<(std::ostream &stream, const Rectangle
 
 **stream**.
 
-## See Also
-
-* Class [RectangleF](../rectanglef/)
-* Namespace [System::Drawing](../)
-* Library [Aspose.Slides](../../)
-## System::Drawing::operator<<(std::wostream\&, const [RectangleF](../rectanglef/)\&) function
+## System::Drawing::operator<<(std::wostream\&, const RectangleF\&) function
 
 
 Insert data into the stream.
@@ -263,6 +218,10 @@ std::wostream & System::Drawing::operator<<(std::wostream &stream, const Rectang
 
 ## See Also
 
+* Class [Color](../color/)
+* Class [Point](../point/)
+* Class [PointF](../pointf/)
+* Class [Rectangle](../rectangle/)
 * Class [RectangleF](../rectanglef/)
 * Namespace [System::Drawing](../)
 * Library [Aspose.Slides](../../)

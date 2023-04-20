@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/imultiplecellchartvalue/get_ascell/
 ---
-## IMultipleCellChartValue::get_AsCell(**int32_t**) method
+## IMultipleCellChartValue::get_AsCell(int32_t) method
 
 
 Returns a chart cell at the specified index.

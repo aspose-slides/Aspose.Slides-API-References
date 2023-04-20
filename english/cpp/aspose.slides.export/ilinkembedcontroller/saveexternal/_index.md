@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.export/ilinkembedcontroller/saveexternal/
 ---
-## ILinkEmbedController::SaveExternal(**int32_t**, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## ILinkEmbedController::SaveExternal(int32_t, System::ArrayPtr\<uint8_t\>) method
 
 
 Saves external object.

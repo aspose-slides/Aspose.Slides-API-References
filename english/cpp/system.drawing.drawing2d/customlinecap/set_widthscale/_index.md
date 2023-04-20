@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.drawing.drawing2d/customlinecap/set_widthscale/
 ---
-## CustomLineCap::set_WidthScale(**float**) method
+## CustomLineCap::set_WidthScale(float) method
 
 
 Sets the scale value of this custom cap.

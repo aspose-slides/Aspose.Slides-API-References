@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides.export/pdfoptions/set_sufficientresolution/
 ---
-## PdfOptions::set_SufficientResolution(**float**) method
+## PdfOptions::set_SufficientResolution(float) method
 
 
 Sets a value determining resolution of images inside PDF document.

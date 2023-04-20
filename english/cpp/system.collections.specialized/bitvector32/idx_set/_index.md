@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.collections.specialized/bitvector32/idx_set/
 ---
-## BitVector32::idx_set(**int32_t**, **bool**) method
+## BitVector32::idx_set(int32_t, bool) method
 
 
 Sets a value indicating whether all the specified bits are set.
@@ -23,12 +23,7 @@ void System::Collections::Specialized::BitVector32::idx_set(int32_t bit, bool va
 | bit | **int32_t** | specified bits. |
 | value | **bool** | value to set. |
 
-## See Also
-
-* Class [BitVector32](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## BitVector32::idx_set(**BitVector32::Section**, **int32_t**) method
+## BitVector32::idx_set(BitVector32::Section, int32_t) method
 
 
 Sets the value for the specified section.

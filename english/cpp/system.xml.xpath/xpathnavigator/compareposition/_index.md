@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system.xml.xpath/xpathnavigator/compareposition/
 ---
-## XPathNavigator::ComparePosition([SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::ComparePosition(SharedPtr\<XPathNavigator\>) method
 
 
 Compares the position of the current [XPathNavigator](../) with the position of the [XPathNavigator](../) specified.
@@ -30,7 +30,6 @@ An XmlNodeOrder value representing the comparative position of the two [XPathNav
 
 * Enum [XmlNodeOrder](../../../system.xml/xmlnodeorder/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

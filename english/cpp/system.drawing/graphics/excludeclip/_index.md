@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/system.drawing/graphics/excludeclip/
 ---
-## Graphics::ExcludeClip([Rectangle](../../rectangle/)) method
+## Graphics::ExcludeClip(Rectangle) method
 
 
 NOT IMPLEMENTED.
@@ -16,13 +16,7 @@ void System::Drawing::Graphics::ExcludeClip(Rectangle rect)
 ```
 
 
-## See Also
-
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::ExcludeClip(const [SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>\&) method
+## Graphics::ExcludeClip(const SharedPtr\<Region\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -35,7 +29,8 @@ void System::Drawing::Graphics::ExcludeClip(const SharedPtr<Region> &region)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Region](../../region/)
+* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
+* Class [Region](../../region/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

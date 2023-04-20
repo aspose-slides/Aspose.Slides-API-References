@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides/connectorlock/set_shapetypelocked/
 ---
-## ConnectorLock::set_ShapeTypeLocked(**bool**) method
+## ConnectorLock::set_ShapeTypeLocked(bool) method
 
 
 Determines whether a changing of a shape type is forbidden. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_argumentoutofrangeexception/is/
 ---
-## Details_ArgumentOutOfRangeException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_ArgumentOutOfRangeException::Is(const System::TypeInfo\&) const method
 
 
 

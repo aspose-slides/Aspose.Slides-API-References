@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.export/htmloptions/set_showhiddenslides/
 ---
-## HtmlOptions::set_ShowHiddenSlides(**bool**) method
+## HtmlOptions::set_ShowHiddenSlides(bool) method
 
 
 Specifies whether the generated document should include hidden slides or not. Default is **false**.

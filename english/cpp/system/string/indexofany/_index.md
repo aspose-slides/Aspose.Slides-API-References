@@ -27,12 +27,7 @@ int System::String::IndexOfAny(char_t c, int startIndex=0) const
 
 Index of first character position since startIndex or -1 if not found.
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOfAny(const [String](../)\&, int) const method
+## String::IndexOfAny(const String\&, int) const method
 
 
 Consequently looks for all characters of str in this. If first character is found, its position is returned, otherwise looks for the second one and so on.
@@ -53,13 +48,7 @@ int System::String::IndexOfAny(const String &str, int startIndex=0) const
 
 Index of first found character or -1 if none is found.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOfAny(const [ArrayPtr](../../arrayptr/)\<char_t\>\&) const method
+## String::IndexOfAny(const ArrayPtr\<char_t\>\&) const method
 
 
 Looks for any of passed characters through the whole string. Compares first string character to all characters in anyOf, then compares second one and so on. Returns index of the first one matching any of the target characters.
@@ -79,13 +68,7 @@ int System::String::IndexOfAny(const ArrayPtr<char_t> &anyOf) const
 
 Index of the first matching character or -1 if not found.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOfAny(const [ArrayPtr](../../arrayptr/)\<char_t\>\&, **int32_t**) const method
+## String::IndexOfAny(const ArrayPtr\<char_t\>\&, int32_t) const method
 
 
 Looks for any of passed characters through substring. Compares first string character to all characters in anyOf, then compares second one and so on. Returns index of the first one matching any of the target characters.
@@ -106,13 +89,7 @@ int System::String::IndexOfAny(const ArrayPtr<char_t> &anyOf, int32_t startindex
 
 Index of the first matching character or -1 if not found.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IndexOfAny(const [ArrayPtr](../../arrayptr/)\<char_t\>\&, **int32_t**, **int32_t**) const method
+## String::IndexOfAny(const ArrayPtr\<char_t\>\&, int32_t, int32_t) const method
 
 
 Looks for any of passed characters through substring. Compares first string character to all characters in anyOf, then compares second one and so on. Returns index of the first one matching any of the target characters.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.xsl/xsltsettings/set_enablescript/
 ---
-## XsltSettings::set_EnableScript(**bool**) method
+## XsltSettings::set_EnableScript(bool) method
 
 
 Sets a value indicating whether to enable support for embedded script blocks.

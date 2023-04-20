@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.mathtext/mathbox/mathbox/
 ---
-## MathBox::MathBox([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) constructor
+## MathBox::MathBox(System::SharedPtr\<IMathElement\>) constructor
 
 
 Initializes [MathBox](../) with the specified element as an argument

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/add/
 ---
-## ImageTransformOperationCollection::Add(const [System::SharedPtr](../../../system/sharedptr/)\<[IImageTransformOperation](../../iimagetransformoperation/)\>\&) method
+## ImageTransformOperationCollection::Add(const System::SharedPtr\<IImageTransformOperation\>\&) method
 
 
 Adds the new image effect to the end of a collection.

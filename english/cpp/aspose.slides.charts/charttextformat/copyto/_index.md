@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/charttextformat/copyto/
 ---
-## ChartTextFormat::CopyTo([System::SharedPtr](../../../system/sharedptr/)\<[ITextFrame](../../../aspose.slides/itextframe/)\>) method
+## ChartTextFormat::CopyTo(System::SharedPtr\<ITextFrame\>) method
 
 
 Copies text format to specified text frame.

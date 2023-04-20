@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.xml/xmlwriter/writeentityref/
 ---
-## XmlWriter::WriteEntityRef(const [String](../../../system/string/)\&) method
+## XmlWriter::WriteEntityRef(const String\&) method
 
 
 When overridden in a derived class, writes out an entity reference as **&name**;.

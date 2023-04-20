@@ -15,11 +15,6 @@ Default constructor that creates null-Func.
 System::Func<Args>::Func()
 ```
 
-## See Also
-
-* Class [Func](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Func::Func(T\&&) constructor
 
 
@@ -42,12 +37,7 @@ template<typename T> System::Func<Args>::Func(T &&arg)
 | --- | --- | --- |
 | arg | T\&& | Argument. |
 
-## See Also
-
-* Class [Func](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Func::Func(const [Func](../)\&) constructor
+## Func::Func(const Func\&) constructor
 
 
 Copy constructor.
@@ -63,13 +53,7 @@ System::Func<Args>::Func(const Func &func)
 | --- | --- | --- |
 | func | const [Func](../)\& | [Object](../../object/) to copy data from. |
 
-## See Also
-
-* Class [Func](../)
-* Class [Func](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Func::Func([Func](../)\&&) constructor
+## Func::Func(Func\&&) constructor
 
 
 Move constructor.
@@ -87,7 +71,6 @@ System::Func<Args>::Func(Func &&func) noexcept
 
 ## See Also
 
-* Class [Func](../)
 * Class [Func](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

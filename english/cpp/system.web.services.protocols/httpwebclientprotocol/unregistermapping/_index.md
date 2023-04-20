@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.web.services.protocols/httpwebclientprotocol/unregistermapping/
 ---
-## HttpWebClientProtocol::UnregisterMapping([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpWebClientProtocol::UnregisterMapping(System::SharedPtr\<Object\>) method
 
 
 

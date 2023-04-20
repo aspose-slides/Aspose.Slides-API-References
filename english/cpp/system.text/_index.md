@@ -3,7 +3,7 @@ title: "System::Text"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 937
+weight: 924
 url: /cpp/system.text/
 ---
 

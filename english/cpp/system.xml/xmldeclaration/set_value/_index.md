@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmldeclaration/set_value/
 ---
-## XmlDeclaration::set_Value([String](../../../system/string/)) method
+## XmlDeclaration::set_Value(String) method
 
 
 Sets the value of the [XmlDeclaration](../).

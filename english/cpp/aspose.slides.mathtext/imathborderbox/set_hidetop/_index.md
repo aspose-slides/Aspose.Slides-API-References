@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/imathborderbox/set_hidetop/
 ---
-## IMathBorderBox::set_HideTop(**bool**) method
+## IMathBorderBox::set_HideTop(bool) method
 
 
 Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box.

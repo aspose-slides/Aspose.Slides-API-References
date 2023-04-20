@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/ishapecollection/addaudioframelinked/
 ---
-## IShapeCollection::AddAudioFrameLinked(**float**, **float**, **float**, **float**, [System::String](../../../system/string/)) method
+## IShapeCollection::AddAudioFrameLinked(float, float, float, float, System::String) method
 
 
 Adds a new audio frame with linked audio file to the end of a collection.

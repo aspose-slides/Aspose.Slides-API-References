@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/asymmetricalgorithm/toxmlstring/
 ---
-## AsymmetricAlgorithm::ToXmlString(**bool**) method
+## AsymmetricAlgorithm::ToXmlString(bool) method
 
 
 Writes algorithm parameters to XML string.

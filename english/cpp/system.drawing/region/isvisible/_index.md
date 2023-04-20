@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.drawing/region/isvisible/
 ---
-## Region::IsVisible(const [Point](../../point/)\&) const method
+## Region::IsVisible(const Point\&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object.
@@ -22,13 +22,7 @@ bool System::Drawing::Region::IsVisible(const Point &point) const
 | --- | --- | --- |
 | point | const [Point](../../point/)\& | The point to check |
 
-## See Also
-
-* Class [Point](../../point/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(const [PointF](../../pointf/)\&) const method
+## Region::IsVisible(const PointF\&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object.
@@ -44,13 +38,7 @@ bool System::Drawing::Region::IsVisible(const PointF &point) const
 | --- | --- | --- |
 | point | const [PointF](../../pointf/)\& | The point to check |
 
-## See Also
-
-* Class [PointF](../../pointf/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(const [Rectangle](../../rectangle/)\&) method
+## Region::IsVisible(const Rectangle\&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object.
@@ -66,13 +54,7 @@ bool System::Drawing::Region::IsVisible(const Rectangle &rect)
 | --- | --- | --- |
 | rect | const [Rectangle](../../rectangle/)\& | The rectangle to check |
 
-## See Also
-
-* Class [Rectangle](../../rectangle/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(const [RectangleF](../../rectanglef/)\&) method
+## Region::IsVisible(const RectangleF\&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object.
@@ -88,13 +70,7 @@ bool System::Drawing::Region::IsVisible(const RectangleF &rect)
 | --- | --- | --- |
 | rect | const [RectangleF](../../rectanglef/)\& | The rectangle to check |
 
-## See Also
-
-* Class [RectangleF](../../rectanglef/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(const [Point](../../point/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\&) const method
+## Region::IsVisible(const Point\&, const SharedPtr\<Graphics\>\&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object using the specified graphics.
@@ -111,15 +87,7 @@ bool System::Drawing::Region::IsVisible(const Point &point, const SharedPtr<Grap
 | point | const [Point](../../point/)\& | The point to check |
 | graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
 
-## See Also
-
-* Class [Point](../../point/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Graphics](../../graphics/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(const [PointF](../../pointf/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\&) const method
+## Region::IsVisible(const PointF\&, const SharedPtr\<Graphics\>\&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object using the specified graphics.
@@ -136,15 +104,7 @@ bool System::Drawing::Region::IsVisible(const PointF &point, const SharedPtr<Gra
 | point | const [PointF](../../pointf/)\& | The point to check |
 | graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
 
-## See Also
-
-* Class [PointF](../../pointf/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Graphics](../../graphics/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(const [Rectangle](../../rectangle/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\&) method
+## Region::IsVisible(const Rectangle\&, const SharedPtr\<Graphics\>\&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object using the specified graphics.
@@ -161,15 +121,7 @@ bool System::Drawing::Region::IsVisible(const Rectangle &rect, const SharedPtr<G
 | rect | const [Rectangle](../../rectangle/)\& | The rectangle to check |
 | graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
 
-## See Also
-
-* Class [Rectangle](../../rectangle/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Graphics](../../graphics/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(const [RectangleF](../../rectanglef/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\&) method
+## Region::IsVisible(const RectangleF\&, const SharedPtr\<Graphics\>\&) method
 
 
 Determines if any portion the specified rectangle is contained within the region represented by the current object using the specified graphics.
@@ -186,15 +138,7 @@ bool System::Drawing::Region::IsVisible(const RectangleF &rect, const SharedPtr<
 | rect | const [RectangleF](../../rectanglef/)\& | The rectangle to check |
 | graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | The graphics context |
 
-## See Also
-
-* Class [RectangleF](../../rectanglef/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Graphics](../../graphics/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(**float**, **float**) const method
+## Region::IsVisible(float, float) const method
 
 
 Determines if the specified point is contained within the region represented by the current object.
@@ -211,12 +155,7 @@ bool System::Drawing::Region::IsVisible(float x, float y) const
 | x | **float** | The X coordinate of the point to check |
 | y | **float** | The Y coordinate of the point to check |
 
-## See Also
-
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::IsVisible(**float**, **float**, const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\&) const method
+## Region::IsVisible(float, float, const SharedPtr\<Graphics\>\&) const method
 
 
 Determines if the specified point is contained within the region represented by the current object using the specified graphics.
@@ -237,7 +176,11 @@ bool System::Drawing::Region::IsVisible(float x, float y, const SharedPtr<Graphi
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Graphics](../../graphics/)
+* Class [Point](../../point/)
 * Class [Region](../)
+* Class [PointF](../../pointf/)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
+* Class [Graphics](../../graphics/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

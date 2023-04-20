@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.animation/textanimationcollection/copyto/
 ---
-## TextAnimationCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ITextAnimation](../../itextanimation/)\>\>, **int32_t**) method
+## TextAnimationCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<ITextAnimation\>\>, int32_t) method
 
 
 Copies all elements from the collection into the specified array.

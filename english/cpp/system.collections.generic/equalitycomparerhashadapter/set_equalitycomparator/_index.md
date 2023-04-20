@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.collections.generic/equalitycomparerhashadapter/set_equalitycomparator/
 ---
-## EqualityComparerHashAdapter::set_EqualityComparator(const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\&) method
+## EqualityComparerHashAdapter::set_EqualityComparator(const SharedPtr\<IEqualityComparer\<T\>\>\&) method
 
 
 Sets comparator to use.

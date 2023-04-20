@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.animation/imotioncmdpath/
 Represent one command of a path.
 
 ```cpp
-class IMotionCmdPath : public System::Object
+class IMotionCmdPath : public virtual System::Object
 ```
 
 ## Methods

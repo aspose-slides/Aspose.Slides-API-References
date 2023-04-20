@@ -3,10 +3,10 @@ title: StaticCastArray()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs casting of elements of the specified array to different type. Override for cases then From is SmartPtr obj.
 type: docs
-weight: 2575
+weight: 1860
 url: /cpp/system/staticcastarray/
 ---
-## System::StaticCastArray(const [System::SharedPtr](../sharedptr/)\<[System::Array](../array/)\<From\>\>\&) function
+## System::StaticCastArray(const System::SharedPtr\<System::Array\<From\>\>\&) function
 
 
 Performs casting of elements of the specified array to different type. Override for cases then From is [SmartPtr](../smartptr/) obj.
@@ -36,14 +36,7 @@ A pointer to a new array containing elements of type **To** equivalent to the el
 Deprecated
 :   Added for backward compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [IsSmartPtr](../issmartptr/)
-* Typedef [SharedPtr](../sharedptr/)
-* Class [Array](../array/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::StaticCastArray(const [System::SharedPtr](../sharedptr/)\<[System::Array](../array/)\<From\>\>\&) function
+## System::StaticCastArray(const System::SharedPtr\<System::Array\<From\>\>\&) function
 
 
 Performs casting of elements of the specified array to different type. Override for cases then From is Boxable and To is [Object](../object/)[].
@@ -75,10 +68,10 @@ Deprecated
 
 ## See Also
 
+* Typedef [SharedPtr](../sharedptr/)
+* Class [Array](../array/)
+* Class [Object](../object/)
 * Struct [IsSmartPtr](../issmartptr/)
 * Struct [IsBoxable](../isboxable/)
-* Typedef [SharedPtr](../sharedptr/)
-* Class [Object](../object/)
-* Class [Array](../array/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

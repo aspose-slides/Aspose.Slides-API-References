@@ -15,11 +15,6 @@ Returns a reference to the internal data structure used to store the array eleme
 vector_t & System::Array<T>::data()
 ```
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::data() const method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/set_usemachinekeystore/
 ---
-## RSACryptoServiceProvider::set_UseMachineKeyStore(**bool**) method
+## RSACryptoServiceProvider::set_UseMachineKeyStore(bool) method
 
 
 Defines whether the key persists in machine store instead of user store.

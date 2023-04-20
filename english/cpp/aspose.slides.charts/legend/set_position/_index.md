@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.charts/legend/set_position/
 ---
-## Legend::set_Position([LegendPositionType](../../legendpositiontype/)) method
+## Legend::set_Position(LegendPositionType) method
 
 
 Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Write [LegendPositionType](../../legendpositiontype/).

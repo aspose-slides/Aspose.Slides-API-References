@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.charts/chartdatapoint/set_isbubble3d/
 ---
-## ChartDataPoint::set_IsBubble3D(**bool**) method
+## ChartDataPoint::set_IsBubble3D(bool) method
 
 
 Specifies that the bubbles have a 3-D effect applied to them. Write **bool**.

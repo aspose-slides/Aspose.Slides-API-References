@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.mathtext/mathparagraph/remove/
 ---
-## MathParagraph::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## MathParagraph::Remove(System::SharedPtr\<IMathBlock\>) method
 
 
 Removes the first occurrence of a specific object from the collection/>.

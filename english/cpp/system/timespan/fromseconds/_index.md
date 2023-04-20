@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system/timespan/fromseconds/
 ---
-## TimeSpan::FromSeconds(**double**) method
+## TimeSpan::FromSeconds(double) method
 
 
 Returns a new [TimeSpan](../) object that represents the specified interval.
@@ -28,7 +28,6 @@ A new [TimeSpan](../) object that represents the specified interval.
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

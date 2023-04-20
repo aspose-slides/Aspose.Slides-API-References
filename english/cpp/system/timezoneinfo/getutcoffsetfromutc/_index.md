@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system/timezoneinfo/getutcoffsetfromutc/
 ---
-## TimeZoneInfo::GetUtcOffsetFromUtc([DateTime](../../datetime/), const [TimeZoneInfoPtr](../../timezoneinfoptr/)\&) method
+## TimeZoneInfo::GetUtcOffsetFromUtc(DateTime, const TimeZoneInfoPtr\&) method
 
 
 Internal helper function that returns the UTC offset for a UTC-datetime in a specified time zone. FOR INTERNAL USE.
@@ -15,15 +15,7 @@ Internal helper function that returns the UTC offset for a UTC-datetime in a spe
 static TimeSpan System::TimeZoneInfo::GetUtcOffsetFromUtc(DateTime time, const TimeZoneInfoPtr &zone)
 ```
 
-## See Also
-
-* Class [TimeSpan](../../timespan/)
-* Class [DateTime](../../datetime/)
-* Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::GetUtcOffsetFromUtc([DateTime](../../datetime/), const [TimeZoneInfoPtr](../../timezoneinfoptr/)\&, **bool**\&, **bool**\&) method
+## TimeZoneInfo::GetUtcOffsetFromUtc(DateTime, const TimeZoneInfoPtr\&, bool\&, bool\&) method
 
 
 Internal helper function that returns the UTC offset for a UTC-datetime in a specified time zone. FOR INTERNAL USE.
@@ -34,9 +26,9 @@ static TimeSpan System::TimeZoneInfo::GetUtcOffsetFromUtc(DateTime time, const T
 
 ## See Also
 
+* Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
 * Class [TimeSpan](../../timespan/)
 * Class [DateTime](../../datetime/)
-* Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
 * Class [TimeZoneInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

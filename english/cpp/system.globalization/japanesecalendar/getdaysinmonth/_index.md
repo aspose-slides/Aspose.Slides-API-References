@@ -28,11 +28,6 @@ int System::Globalization::JapaneseCalendar::GetDaysInMonth(int year, int month,
 
 Number of days in specified month of specified year of specified era.
 
-## See Also
-
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::GetDaysInMonth(int, int) const method
 
 
@@ -54,11 +49,6 @@ virtual int System::Globalization::Calendar::GetDaysInMonth(int year, int month)
 
 Number of days in specified month of specified year.
 
-## See Also
-
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::GetDaysInMonth(int, int, int) const method
 
 

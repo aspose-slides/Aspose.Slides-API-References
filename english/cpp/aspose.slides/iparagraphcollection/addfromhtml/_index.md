@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/iparagraphcollection/addfromhtml/
 ---
-## IParagraphCollection::AddFromHtml([System::String](../../../system/string/)) method
+## IParagraphCollection::AddFromHtml(System::String) method
 
 
 Adds text from specified html string to the collection.
@@ -22,13 +22,7 @@ virtual void Aspose::Slides::IParagraphCollection::AddFromHtml(System::String te
 | --- | --- | --- |
 | text | [System::String](../../../system/string/) | HTML text. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IParagraphCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IParagraphCollection::AddFromHtml([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\>, [System::String](../../../system/string/)) method
+## IParagraphCollection::AddFromHtml(System::String, System::SharedPtr\<Import::IExternalResourceResolver\>, System::String) method
 
 
 Adds text from specified html string to the collection.
@@ -52,9 +46,9 @@ virtual void Aspose::Slides::IParagraphCollection::AddFromHtml(System::String te
 Specifying resolver can potentially introduce a vulnurability. Use with caution.
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
+* Class [String](../../../system/string/)
 * Class [IParagraphCollection](../)
+* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

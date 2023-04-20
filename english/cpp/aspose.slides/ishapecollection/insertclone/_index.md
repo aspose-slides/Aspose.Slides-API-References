@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.slides/ishapecollection/insertclone/
 ---
-## IShapeCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>, **float**, **float**, **float**, **float**) method
+## IShapeCollection::InsertClone(int32_t, System::SharedPtr\<IShape\>, float, float, float, float) method
 
 
 Inserts a copy of a specified shape to specified position of the collection.
@@ -31,14 +31,7 @@ virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::InsertClone(
 
 Inserted shape.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShape](../../ishape/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>, **float**, **float**) method
+## IShapeCollection::InsertClone(int32_t, System::SharedPtr\<IShape\>, float, float) method
 
 
 Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the *sourceShape* .
@@ -61,14 +54,7 @@ virtual System::SharedPtr<IShape> Aspose::Slides::IShapeCollection::InsertClone(
 
 Inserted shape.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShape](../../ishape/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## IShapeCollection::InsertClone(int32_t, System::SharedPtr\<IShape\>) method
 
 
 Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the *sourceShape* .

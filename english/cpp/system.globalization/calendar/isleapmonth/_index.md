@@ -27,11 +27,6 @@ virtual bool System::Globalization::Calendar::IsLeapMonth(int year, int month) c
 
 True if specified month is leap, false otherwise.
 
-## See Also
-
-* Class [Calendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## Calendar::IsLeapMonth(int, int, int) const method
 
 

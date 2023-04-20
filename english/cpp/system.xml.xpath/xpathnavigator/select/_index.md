@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /cpp/system.xml.xpath/xpathnavigator/select/
 ---
-## XPathNavigator::Select([String](../../../system/string/)) method
+## XPathNavigator::Select(String) method
 
 
 Selects a node set, using the specified [XPath](../../) expression.
@@ -26,15 +26,7 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::Select(
 
 An [XPathNodeIterator](../../xpathnodeiterator/) pointing to the selected node set.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNodeIterator](../../xpathnodeiterator/)
-* Class [String](../../../system/string/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::Select([String](../../../system/string/), [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>) method
+## XPathNavigator::Select(String, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Selects a node set using the specified [XPath](../../) expression with the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes.
@@ -55,16 +47,7 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::Select(
 
 An [XPathNodeIterator](../../xpathnodeiterator/) that points to the selected node set.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNodeIterator](../../xpathnodeiterator/)
-* Class [String](../../../system/string/)
-* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::Select([SharedPtr](../../../system/sharedptr/)\<[XPathExpression](../../xpathexpression/)\>) method
+## XPathNavigator::Select(SharedPtr\<XPathExpression\>) method
 
 
 Selects a node set using the specified [XPathExpression](../../xpathexpression/).
@@ -88,7 +71,9 @@ An [XPathNodeIterator](../../xpathnodeiterator/) that points to the selected nod
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XPathNodeIterator](../../xpathnodeiterator/)
-* Class [XPathExpression](../../xpathexpression/)
+* Class [String](../../../system/string/)
 * Class [XPathNavigator](../)
+* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
+* Class [XPathExpression](../../xpathexpression/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

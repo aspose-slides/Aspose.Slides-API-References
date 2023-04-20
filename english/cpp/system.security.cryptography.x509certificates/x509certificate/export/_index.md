@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.security.cryptography.x509certificates/x509certificate/export/
 ---
-## X509Certificate::Export([X509ContentType](../../x509contenttype/)) const method
+## X509Certificate::Export(X509ContentType) const method
 
 
 Exports the current object to a byte array using the specified format. NOT IMPLEMENTED.
@@ -26,14 +26,7 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 
 An array of bytes that represents the current object.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Enum [X509ContentType](../../x509contenttype/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::Export([X509ContentType](../../x509contenttype/), const [SecureStringPtr](../../../system.security/securestringptr/)\&) const method
+## X509Certificate::Export(X509ContentType, const SecureStringPtr\&) const method
 
 
 Exports the current object to a byte array using the specified format. NOT IMPLEMENTED.
@@ -54,15 +47,7 @@ virtual ByteArrayPtr System::Security::Cryptography::X509Certificates::X509Certi
 
 An array of bytes that represents the current object.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Enum [X509ContentType](../../x509contenttype/)
-* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::Export([X509ContentType](../../x509contenttype/), const [String](../../../system/string/)\&) const method
+## X509Certificate::Export(X509ContentType, const String\&) const method
 
 
 Exports the current object to a byte array using the specified format. NOT IMPLEMENTED.
@@ -85,9 +70,10 @@ An array of bytes that represents the current object.
 
 ## See Also
 
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Enum [X509ContentType](../../x509contenttype/)
-* Class [String](../../../system/string/)
+* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
+* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
 * Class [X509Certificate](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

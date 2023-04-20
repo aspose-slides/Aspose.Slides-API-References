@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system/timespan/fromdays/
 ---
-## TimeSpan::FromDays(**double**) method
+## TimeSpan::FromDays(double) method
 
 
 Returns a new [TimeSpan](../) object that represents the specified interval.
@@ -28,7 +28,6 @@ A new [TimeSpan](../) object that represents the specified interval.
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

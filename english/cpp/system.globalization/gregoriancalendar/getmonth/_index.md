@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.globalization/gregoriancalendar/getmonth/
 ---
-## GregorianCalendar::GetMonth([DateTime](../../../system/datetime/)) const method
+## GregorianCalendar::GetMonth(DateTime) const method
 
 
 Gets month for the specified time point.

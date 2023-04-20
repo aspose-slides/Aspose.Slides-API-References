@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.effects/iimagetransformocollectioneffectivedata/idx_get/
 ---
-## IImageTransformOCollectionEffectiveData::idx_get(**int32_t**) method
+## IImageTransformOCollectionEffectiveData::idx_get(int32_t) method
 
 
 Returns element by index.

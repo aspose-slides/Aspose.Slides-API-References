@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.drawing/pen/rotatetransform/
 ---
-## Pen::RotateTransform(**float**, [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)) method
+## Pen::RotateTransform(float, Drawing2D::MatrixOrder) method
 
 
 Rotates the local geometric transformation by the specified angle in the specified order.

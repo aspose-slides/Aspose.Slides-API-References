@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.security.cryptography.xml/reference/set_transformchain/
 ---
-## Reference::set_TransformChain([SharedPtr](../../../system/sharedptr/)\<[TransformChain](../../transformchain/)\>) method
+## Reference::set_TransformChain(SharedPtr\<TransformChain\>) method
 
 
 

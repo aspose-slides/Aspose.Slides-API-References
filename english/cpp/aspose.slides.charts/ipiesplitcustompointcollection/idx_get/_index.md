@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.charts/ipiesplitcustompointcollection/idx_get/
 ---
-## IPieSplitCustomPointCollection::idx_get(**int32_t**) method
+## IPieSplitCustomPointCollection::idx_get(int32_t) method
 
 
 Returns chart data point by index.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.sockets/operator_equal_equal/
 ---
-## System::Net::Sockets::operator==([IPPacketInformation](../ippacketinformation/), [IPPacketInformation](../ippacketinformation/)) function
+## System::Net::Sockets::operator==(IPPacketInformation, IPPacketInformation) function
 
 
 

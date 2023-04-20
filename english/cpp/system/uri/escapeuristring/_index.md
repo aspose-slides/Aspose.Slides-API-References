@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/system/uri/escapeuristring/
 ---
-## Uri::EscapeUriString(const [String](../../string/)\&) method
+## Uri::EscapeUriString(const String\&) method
 
 
 Converts a URI string to its escaped representation.

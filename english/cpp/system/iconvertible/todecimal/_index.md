@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system/iconvertible/todecimal/
 ---
-## IConvertible::ToDecimal([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToDecimal(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent [System::Decimal](../../decimal/) number using the specified culture-specific formatting information.
@@ -28,8 +28,8 @@ A [System::Decimal](../../decimal/) number equivalent to the value of this insta
 
 ## See Also
 
-* Class [Decimal](../../decimal/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [Decimal](../../decimal/)
 * Class [IFormatProvider](../../iformatprovider/)
 * Class [IConvertible](../)
 * Namespace [System](../../)

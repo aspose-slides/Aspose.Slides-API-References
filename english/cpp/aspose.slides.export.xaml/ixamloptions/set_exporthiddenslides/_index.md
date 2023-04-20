@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export.xaml/ixamloptions/set_exporthiddenslides/
 ---
-## IXamlOptions::set_ExportHiddenSlides(**bool**) method
+## IXamlOptions::set_ExportHiddenSlides(bool) method
 
 
 Determines whether hidden slides will be exported.

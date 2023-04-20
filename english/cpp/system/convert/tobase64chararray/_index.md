@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/convert/tobase64chararray/
 ---
-## Convert::ToBase64CharArray(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int, int, const [ArrayPtr](../../arrayptr/)\<char16_t\>\&, int, **bool**) method
+## Convert::ToBase64CharArray(const ArrayPtr\<uint8_t\>\&, int, int, const ArrayPtr\<char16_t\>\&, int, bool) method
 
 
 Base-64 encodes a range of elements in the specified byte array and stores the encoded data as an array of Unicode characters.
@@ -31,13 +31,7 @@ static int System::Convert::ToBase64CharArray(const ArrayPtr<uint8_t> &in_array,
 
 The number of characters written to the output array
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBase64CharArray(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int, int, const [ArrayPtr](../../arrayptr/)\<char_t\>\&, int, [Base64FormattingOptions](../../base64formattingoptions/)) method
+## Convert::ToBase64CharArray(const ArrayPtr\<uint8_t\>\&, int, int, const ArrayPtr\<char_t\>\&, int, Base64FormattingOptions) method
 
 
 Base-64 encodes a range of elements in the specified byte array and stores the encoded data as an array of Unicode characters.
@@ -64,8 +58,8 @@ The number of characters written to the output array
 
 ## See Also
 
-* Typedef [ArrayPtr](../../arrayptr/)
 * Enum [Base64FormattingOptions](../../base64formattingoptions/)
+* Typedef [ArrayPtr](../../arrayptr/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

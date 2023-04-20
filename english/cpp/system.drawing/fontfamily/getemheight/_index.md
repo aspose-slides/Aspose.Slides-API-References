@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing/fontfamily/getemheight/
 ---
-## FontFamily::GetEmHeight([FontStyle](../../fontstyle/)) method
+## FontFamily::GetEmHeight(FontStyle) method
 
 
 Returns the height of em square in font design units for the specified style.

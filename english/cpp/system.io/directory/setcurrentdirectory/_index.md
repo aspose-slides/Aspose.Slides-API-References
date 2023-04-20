@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.io/directory/setcurrentdirectory/
 ---
-## Directory::SetCurrentDirectory(const [String](../../../system/string/)\&) method
+## Directory::SetCurrentDirectory(const String\&) method
 
 
 Sets the current directory.

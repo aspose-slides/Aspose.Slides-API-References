@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/legend/set_height/
 ---
-## Legend::set_Height(**float**) method
+## Legend::set_Height(float) method
 
 
 Sets the height of a legend as a fraction of the height of the chart. Write **float**.

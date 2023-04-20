@@ -6,7 +6,7 @@ type: docs
 weight: 872
 url: /cpp/system/datetime/parseexact/
 ---
-## DateTime::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles) method
 
 
 Converts the specified string representation of a date and time value to the equivalent [DateTime](../) object using the specified format and culture-specific format information. The format of the string representation must match the specified format exactly. Throws an exception if the conversion fails.
@@ -29,17 +29,7 @@ static DateTime System::DateTime::ParseExact(const String &s, const String &form
 
 A new instance of [DateTime](../) class that represents the date and time value equivalent to that represented by the specified string.
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&, Globalization::DateTimeStyles) method
 
 
 
@@ -48,17 +38,7 @@ A new instance of [DateTime](../) class that represents the date and time value 
 static DateTime System::DateTime::ParseExact(const String &s, const String &format, const SharedPtr<Globalization::CultureInfo> &culture, Globalization::DateTimeStyles styles=Globalization::DateTimeStyles::None)
 ```
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&, Globalization::DateTimeStyles) method
 
 
 
@@ -67,17 +47,7 @@ static DateTime System::DateTime::ParseExact(const String &s, const String &form
 static DateTime System::DateTime::ParseExact(const String &s, const String &format, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi, Globalization::DateTimeStyles styles=Globalization::DateTimeStyles::None)
 ```
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ParseExact(const [String](../../string/)\&, const [String](../../string/)\&, std::nullptr_t, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const String\&, std::nullptr_t, Globalization::DateTimeStyles) method
 
 
 
@@ -86,15 +56,7 @@ static DateTime System::DateTime::ParseExact(const String &s, const String &form
 static DateTime System::DateTime::ParseExact(const String &s, const String &format, std::nullptr_t, Globalization::DateTimeStyles styles=Globalization::DateTimeStyles::None)
 ```
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles) method
 
 
 Converts the specified string representation of a date and time value to the equivalent [DateTime](../) object using the specified formats, culture-specific format information and style. The format of the string representation must match one or more of the specified formats exactly. Throws an exception if the conversion fails.
@@ -117,18 +79,7 @@ static DateTime System::DateTime::ParseExact(const String &s, const ArrayPtr<Str
 
 A new instance of [DateTime](../) class that represents the date and time value equivalent to that represented by the specified string.
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<Globalization::CultureInfo\>\&, Globalization::DateTimeStyles) method
 
 
 
@@ -137,18 +88,7 @@ A new instance of [DateTime](../) class that represents the date and time value 
 static DateTime System::DateTime::ParseExact(const String &s, const ArrayPtr<String> &formats, const SharedPtr<Globalization::CultureInfo> &culture, Globalization::DateTimeStyles styles)
 ```
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const ArrayPtr\<String\>\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&, Globalization::DateTimeStyles) method
 
 
 
@@ -157,18 +97,7 @@ static DateTime System::DateTime::ParseExact(const String &s, const ArrayPtr<Str
 static DateTime System::DateTime::ParseExact(const String &s, const ArrayPtr<String> &formats, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi, Globalization::DateTimeStyles styles)
 ```
 
-## See Also
-
-* Class [DateTime](../)
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::ParseExact(const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[String](../../string/)\>\&, std::nullptr_t, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/)) method
+## DateTime::ParseExact(const String\&, const ArrayPtr\<String\>\&, std::nullptr_t, Globalization::DateTimeStyles) method
 
 
 
@@ -179,10 +108,13 @@ static DateTime System::DateTime::ParseExact(const String &s, const ArrayPtr<Str
 
 ## See Also
 
+* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [DateTime](../)
 * Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

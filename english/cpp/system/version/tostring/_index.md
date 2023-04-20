@@ -15,12 +15,6 @@ Returns the string representation of the version number represented by the curre
 String System::Version::ToString() const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Version](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Version::ToString(int) const method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.slides/shapecollection/addmathshape/
 ---
-## ShapeCollection::AddMathShape(**float**, **float**, **float**, **float**) method
+## ShapeCollection::AddMathShape(float, float, float, float) method
 
 
 Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.

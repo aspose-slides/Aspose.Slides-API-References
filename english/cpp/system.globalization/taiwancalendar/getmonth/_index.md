@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.globalization/taiwancalendar/getmonth/
 ---
-## TaiwanCalendar::GetMonth([DateTime](../../../system/datetime/)) const method
+## TaiwanCalendar::GetMonth(DateTime) const method
 
 
 Gets month for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.collections.specialized/namevaluecollection/contains/
 ---
-## NameValueCollection::Contains(const [String](../../../system/string/)\&) const method
+## NameValueCollection::Contains(const String\&) const method
 
 
 Checks if item is present in collection.

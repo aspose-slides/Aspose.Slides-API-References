@@ -6,7 +6,7 @@ type: docs
 weight: 1210
 url: /cpp/aspose.slides.charts/iaxis/set_isautomaticunderflowbin/
 ---
-## IAxis::set_IsAutomaticUnderflowBin(**bool**) method
+## IAxis::set_IsAutomaticUnderflowBin(bool) method
 
 
 Specifies automatic underflow bin value. If false: use UnderflowBin property.

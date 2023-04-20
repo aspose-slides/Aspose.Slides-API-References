@@ -19,6 +19,5 @@ static System::SharedPtr<SVGOptions> Aspose::Slides::Export::SVGOptions::get_Sim
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [SVGOptions](../)
-* Class [SVGOptions](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

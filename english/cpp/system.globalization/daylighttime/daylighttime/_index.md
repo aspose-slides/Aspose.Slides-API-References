@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/daylighttime/daylighttime/
 ---
-## DaylightTime::DaylightTime([DateTime](../../../system/datetime/), [DateTime](../../../system/datetime/), [TimeSpan](../../../system/timespan/)) constructor
+## DaylightTime::DaylightTime(DateTime, DateTime, TimeSpan) constructor
 
 
 RTTI information.

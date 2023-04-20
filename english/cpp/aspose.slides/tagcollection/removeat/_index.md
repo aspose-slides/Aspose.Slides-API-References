@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/tagcollection/removeat/
 ---
-## TagCollection::RemoveAt(**int32_t**) method
+## TagCollection::RemoveAt(int32_t) method
 
 
 Removes the tag at the specified index.

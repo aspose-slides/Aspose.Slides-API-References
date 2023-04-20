@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing/sizef/subtract/
 ---
-## SizeF::Subtract(const [SizeF](../)\&, const [SizeF](../)\&) method
+## SizeF::Subtract(const SizeF\&, const SizeF\&) method
 
 
 Returns a new [SizeF](../) object that is the results of subctraction of **size2** from **size1**, i.e. whose width value is the result of subtraction of **size2's** width value from **size1's** width value and height value is the result of subtraction of **size2's** height value from **size1's** height value.
@@ -29,7 +29,6 @@ The [SizeF](../) object which is the result of subtraction of **size2** from **s
 
 ## See Also
 
-* Class [SizeF](../)
 * Class [SizeF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

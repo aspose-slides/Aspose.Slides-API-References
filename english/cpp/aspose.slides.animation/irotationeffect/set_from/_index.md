@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/irotationeffect/set_from/
 ---
-## IRotationEffect::set_From(**float**) method
+## IRotationEffect::set_From(float) method
 
 
 Describes the starting value for the animation. Write **float**.

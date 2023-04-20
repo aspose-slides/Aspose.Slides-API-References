@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.threading/monitor/pulse/
 ---
-## Monitor::Pulse(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Monitor::Pulse(const SharedPtr\<Object\>\&) method
 
 
 Notifies a thread in the waiting queue of a change in the locked object's state Not implemented.

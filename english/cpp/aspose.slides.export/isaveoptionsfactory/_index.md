@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/isaveoptionsfactory/
 Allows to create save options' instances
 
 ```cpp
-class ISaveOptionsFactory : public System::Object
+class ISaveOptionsFactory : public virtual System::Object
 ```
 
 ## Methods

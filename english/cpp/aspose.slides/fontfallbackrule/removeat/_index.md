@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/fontfallbackrule/removeat/
 ---
-## FontFallBackRule::RemoveAt(**int32_t**) method
+## FontFallBackRule::RemoveAt(int32_t) method
 
 
 Removes the FallBack font at the specified index of the list.

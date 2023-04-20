@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.runtime.interopservices/filetime/equals/
 ---
-## FILETIME::Equals(const [FILETIME](../)\&) const method
+## FILETIME::Equals(const FILETIME\&) const method
 
 
 Determines if the current object and the specified object are equal, i.e. represent the same file time.
@@ -17,7 +17,6 @@ bool System::Runtime::InteropServices::FILETIME::Equals(const FILETIME &other) c
 
 ## See Also
 
-* Struct [FILETIME](../)
 * Struct [FILETIME](../)
 * Namespace [System::Runtime::InteropServices](../../)
 * Library [Aspose.Slides](../../../)

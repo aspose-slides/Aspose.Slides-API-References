@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/igradientformat/set_lineargradientscaled/
 ---
-## IGradientFormat::set_LinearGradientScaled([NullableBool](../../nullablebool/)) method
+## IGradientFormat::set_LinearGradientScaled(NullableBool) method
 
 
 Determines whether a gradient is scaled. Write [NullableBool](../../nullablebool/).

@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/system/datetime/fromfiletimeutc/
 ---
-## DateTime::FromFileTimeUtc(**int64_t**) method
+## DateTime::FromFileTimeUtc(int64_t) method
 
 
 Converts the specified File time to an instance of [DateTime](../) class representing the same date and time value as UTC time.
@@ -28,7 +28,6 @@ A new instance of [DateTime](../) class representing the same date and time as *
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

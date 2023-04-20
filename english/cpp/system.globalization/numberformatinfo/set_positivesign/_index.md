@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.globalization/numberformatinfo/set_positivesign/
 ---
-## NumberFormatInfo::set_PositiveSign(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_PositiveSign(const String\&) method
 
 
 Sets positive sign.

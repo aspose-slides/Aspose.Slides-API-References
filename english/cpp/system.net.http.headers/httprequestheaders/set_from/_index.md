@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net.http.headers/httprequestheaders/set_from/
 ---
-## HttpRequestHeaders::set_From([String](../../../system/string/)) method
+## HttpRequestHeaders::set_From(String) method
 
 
 Sets a value of the 'From' header.

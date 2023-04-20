@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/system/datetime/fromoadate/
 ---
-## DateTime::FromOADate(**double**) method
+## DateTime::FromOADate(double) method
 
 
 Returns an instance of [DateTime](../) class representing the date and time value equivalent to the specified OLE Automation Date.
@@ -28,7 +28,6 @@ A new instance of [DateTime](../) class representing the same date and time as *
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

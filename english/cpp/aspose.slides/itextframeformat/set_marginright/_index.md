@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/itextframeformat/set_marginright/
 ---
-## ITextFrameFormat::set_MarginRight(**double**) method
+## ITextFrameFormat::set_MarginRight(double) method
 
 
 Sets the right margin (points) in a [TextFrame](../../textframe/). Write **double**.

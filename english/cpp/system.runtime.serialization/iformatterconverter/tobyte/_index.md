@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.runtime.serialization/iformatterconverter/tobyte/
 ---
-## IFormatterConverter::ToByte([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## IFormatterConverter::ToByte(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a **uint8_t**.

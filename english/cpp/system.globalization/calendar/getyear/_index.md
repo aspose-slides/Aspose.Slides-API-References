@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.globalization/calendar/getyear/
 ---
-## Calendar::GetYear([DateTime](../../../system/datetime/)) const method
+## Calendar::GetYear(DateTime) const method
 
 
 Gets year for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic/iequalitycomparer/rtti_info_template_class/
 ---
-## IEqualityComparer::RTTI_INFO_TEMPLATE_CLASS([System::Collections::Generic::IEqualityComparer](../)\<T\>, System::BaseTypesInfo\<[System::Object](../../../system/object/)\>) method
+## IEqualityComparer::RTTI_INFO_TEMPLATE_CLASS(System::Collections::Generic::IEqualityComparer\<T\>, System::BaseTypesInfo\<System::Object\>) method
 
 
 RTTI information.
@@ -19,6 +19,5 @@ System::Collections::Generic::IEqualityComparer<T>::RTTI_INFO_TEMPLATE_CLASS(Sys
 
 * Class [IEqualityComparer](../)
 * Class [Object](../../../system/object/)
-* Class [IEqualityComparer](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

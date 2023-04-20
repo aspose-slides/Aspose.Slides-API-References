@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.export/ihtmlgenerator/addtext/
 ---
-## IHtmlGenerator::AddText([System::String](../../../system/string/)) method
+## IHtmlGenerator::AddText(System::String) method
 
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
@@ -22,13 +22,7 @@ virtual void Aspose::Slides::Export::IHtmlGenerator::AddText(System::String text
 | --- | --- | --- |
 | text | [System::String](../../../system/string/) | Text to add. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IHtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## IHtmlGenerator::AddText([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>) method
+## IHtmlGenerator::AddText(System::ArrayPtr\<char16_t\>) method
 
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
@@ -44,13 +38,7 @@ virtual void Aspose::Slides::Export::IHtmlGenerator::AddText(System::ArrayPtr<ch
 | --- | --- | --- |
 | text | [System::ArrayPtr](../../../system/arrayptr/)\<char16_t\> | Text to add. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [IHtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## IHtmlGenerator::AddText([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) method
+## IHtmlGenerator::AddText(System::ArrayPtr\<char16_t\>, int32_t, int32_t) method
 
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
@@ -71,6 +59,7 @@ virtual void Aspose::Slides::Export::IHtmlGenerator::AddText(System::ArrayPtr<ch
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [IHtmlGenerator](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

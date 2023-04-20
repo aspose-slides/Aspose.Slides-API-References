@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.net/cookie/set_secure/
 ---
-## Cookie::set_Secure(**bool**) method
+## Cookie::set_Secure(bool) method
 
 
 Sets the 'Secure' attribute's value.

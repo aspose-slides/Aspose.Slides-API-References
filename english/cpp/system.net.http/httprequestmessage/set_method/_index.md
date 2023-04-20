@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.http/httprequestmessage/set_method/
 ---
-## HttpRequestMessage::set_Method([System::SharedPtr](../../../system/sharedptr/)\<[HttpMethod](../../httpmethod/)\>) method
+## HttpRequestMessage::set_Method(System::SharedPtr\<HttpMethod\>) method
 
 
 Sets the HTTP request method.

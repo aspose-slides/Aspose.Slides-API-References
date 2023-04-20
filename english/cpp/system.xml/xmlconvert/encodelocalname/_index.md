@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/xmlconvert/encodelocalname/
 ---
-## XmlConvert::EncodeLocalName(const [String](../../../system/string/)\&) method
+## XmlConvert::EncodeLocalName(const String\&) method
 
 
 Converts the name to a valid XML local name.

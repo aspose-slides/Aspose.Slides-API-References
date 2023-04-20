@@ -22,12 +22,7 @@ static void System::Threading::Thread::Sleep(int millisecondsTimeout)
 | --- | --- | --- |
 | millisecondsTimeout | int | [Timeout](../../timeout/) to sleep in milliseconds. |
 
-## See Also
-
-* Class [Thread](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Thread::Sleep([TimeSpan](../../../system/timespan/)) method
+## Thread::Sleep(TimeSpan) method
 
 
 Stops current thread for specified timeout.
@@ -45,7 +40,7 @@ static void System::Threading::Thread::Sleep(TimeSpan timeout)
 
 ## See Also
 
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Thread](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

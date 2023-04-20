@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/imathparagraph/writeasmathml/
 ---
-## IMathParagraph::WriteAsMathMl([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## IMathParagraph::WriteAsMathMl(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Saves content of this [IMathParagraph](../) as MathML

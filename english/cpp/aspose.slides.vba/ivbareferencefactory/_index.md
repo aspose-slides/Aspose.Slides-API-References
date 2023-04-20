@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.vba/ivbareferencefactory/
 Allows to create VBA project references via COM interface
 
 ```cpp
-class IVbaReferenceFactory : public System::Object
+class IVbaReferenceFactory : public virtual System::Object
 ```
 
 ## Methods

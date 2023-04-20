@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.xml/xmldocument/createcdatasection/
 ---
-## XmlDocument::CreateCDataSection(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateCDataSection(const String\&) method
 
 
 Creates an [XmlCDataSection](../../xmlcdatasection/) containing the specified data.

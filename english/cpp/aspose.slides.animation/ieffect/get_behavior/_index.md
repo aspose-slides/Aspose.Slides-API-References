@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides.animation/ieffect/get_behavior/
 ---
-## IEffect::get_Behavior(**int32_t**) method
+## IEffect::get_Behavior(int32_t) method
 
 
 Returns animation behavior at the specified index.

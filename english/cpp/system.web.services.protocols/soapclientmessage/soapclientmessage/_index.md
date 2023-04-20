@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.web.services.protocols/soapclientmessage/soapclientmessage/
 ---
-## SoapClientMessage::SoapClientMessage([System::SharedPtr](../../../system/sharedptr/)\<[SoapHttpClientProtocol](../../soaphttpclientprotocol/)\>, [System::SharedPtr](../../../system/sharedptr/)\<SoapMethodStubInfo\>, [String](../../../system/string/), [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>) constructor
+## SoapClientMessage::SoapClientMessage(System::SharedPtr\<SoapHttpClientProtocol\>, System::SharedPtr\<SoapMethodStubInfo\>, String, System::ArrayPtr\<System::SharedPtr\<Object\>\>) constructor
 
 
 Constructs a new instance.
@@ -28,9 +28,9 @@ System::Web::Services::Protocols::SoapClientMessage::SoapClientMessage(System::S
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [SoapHttpClientProtocol](../../soaphttpclientprotocol/)
 * Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Object](../../../system/object/)
 * Class [SoapClientMessage](../)
 * Namespace [System::Web::Services::Protocols](../../)

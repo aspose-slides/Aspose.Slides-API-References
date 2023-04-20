@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/webheadercollection/idx_get/
 ---
-## WebHeaderCollection::idx_get([HttpRequestHeader](../../httprequestheader/)) method
+## WebHeaderCollection::idx_get(HttpRequestHeader) method
 
 
 Gets the header value using the specified request's header.
@@ -26,14 +26,7 @@ String System::Net::WebHeaderCollection::idx_get(HttpRequestHeader header)
 
 The header value using the specified header.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [HttpRequestHeader](../../httprequestheader/)
-* Class [WebHeaderCollection](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## WebHeaderCollection::idx_get([HttpResponseHeader](../../httpresponseheader/)) method
+## WebHeaderCollection::idx_get(HttpResponseHeader) method
 
 
 Gets the header value using the specified response's header.
@@ -53,14 +46,7 @@ String System::Net::WebHeaderCollection::idx_get(HttpResponseHeader header)
 
 The header value using the specified header.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [HttpResponseHeader](../../httpresponseheader/)
-* Class [WebHeaderCollection](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## WebHeaderCollection::idx_get([String](../../../system/string/)) method
+## WebHeaderCollection::idx_get(String) method
 
 
 Gets the header value using the specified header name.
@@ -82,6 +68,8 @@ The header value using the specified header name.
 
 ## See Also
 
+* Enum [HttpRequestHeader](../../httprequestheader/)
+* Enum [HttpResponseHeader](../../httpresponseheader/)
 * Class [String](../../../system/string/)
 * Class [WebHeaderCollection](../)
 * Namespace [System::Net](../../)

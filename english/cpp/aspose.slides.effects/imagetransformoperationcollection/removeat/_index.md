@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/removeat/
 ---
-## ImageTransformOperationCollection::RemoveAt(**int32_t**) method
+## ImageTransformOperationCollection::RemoveAt(int32_t) method
 
 
 Removes an image effect from a collection at the specified index.

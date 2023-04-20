@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ifonts/set_eastasianfont/
 ---
-## IFonts::set_EastAsianFont([System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>) method
+## IFonts::set_EastAsianFont(System::SharedPtr\<IFontData\>) method
 
 
 Sets the East Asian font. Write [IFontData](../../ifontdata/).

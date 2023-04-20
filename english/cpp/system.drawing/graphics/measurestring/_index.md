@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system.drawing/graphics/measurestring/
 ---
-## Graphics::MeasureString([String](../../../system/string/) const\&, [System::SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\> const\&, [PointF](../../pointf/) const\&, [System::SharedPtr](../../../system/sharedptr/)\<[StringFormat](../../stringformat/)\> const\&) const method
+## Graphics::MeasureString(String const\&, System::SharedPtr\<Font\> const\&, PointF const\&, System::SharedPtr\<StringFormat\> const\&) const method
 
 
 Returns a size of the specified string when drawn in the specified font in the specified format.
@@ -29,18 +29,7 @@ SizeF System::Drawing::Graphics::MeasureString(String const &str, System::Shared
 
 A [SizeF](../../sizef/) object that represents the size of the string in the measurment units specified by the PageUnit property of the current Grapphics object.
 
-## See Also
-
-* Class [SizeF](../../sizef/)
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Font](../../font/)
-* Class [PointF](../../pointf/)
-* Class [StringFormat](../../stringformat/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::MeasureString([String](../../../system/string/) const\&, [System::SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\> const\&, int, [System::SharedPtr](../../../system/sharedptr/)\<[StringFormat](../../stringformat/)\> const\&) const method
+## Graphics::MeasureString(String const\&, System::SharedPtr\<Font\> const\&, int, System::SharedPtr\<StringFormat\> const\&) const method
 
 
 Returns a size of the specified string when drawn in the specified font in the specified format.
@@ -63,17 +52,7 @@ SizeF System::Drawing::Graphics::MeasureString(String const &str, System::Shared
 
 A [SizeF](../../sizef/) object that represents the size of the string in the measurment units specified by the PageUnit property of the current Grapphics object.
 
-## See Also
-
-* Class [SizeF](../../sizef/)
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Font](../../font/)
-* Class [StringFormat](../../stringformat/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::MeasureString([String](../../../system/string/) const\&, [System::SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\> const\&, [SizeF](../../sizef/) const\&, [System::SharedPtr](../../../system/sharedptr/)\<[StringFormat](../../stringformat/)\> const\&, int\&, int\&) const method
+## Graphics::MeasureString(String const\&, System::SharedPtr\<Font\> const\&, SizeF const\&, System::SharedPtr\<StringFormat\> const\&, int\&, int\&) const method
 
 
 NOT IMPLEMENTED.
@@ -83,17 +62,7 @@ SizeF System::Drawing::Graphics::MeasureString(String const &str, System::Shared
 ```
 
 
-## See Also
-
-* Class [SizeF](../../sizef/)
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Font](../../font/)
-* Class [StringFormat](../../stringformat/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::MeasureString([String](../../../system/string/) const\&, [System::SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\> const\&, [SizeF](../../sizef/) const\&, [System::SharedPtr](../../../system/sharedptr/)\<[StringFormat](../../stringformat/)\> const\&) const method
+## Graphics::MeasureString(String const\&, System::SharedPtr\<Font\> const\&, SizeF const\&, System::SharedPtr\<StringFormat\> const\&) const method
 
 
 Returns a size of the specified string when drawn in the specified font in the specified format.
@@ -118,10 +87,11 @@ A [SizeF](../../sizef/) object that represents the size of the string in the mea
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [SizeF](../../sizef/)
 * Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Font](../../font/)
+* Class [PointF](../../pointf/)
 * Class [StringFormat](../../stringformat/)
 * Class [Graphics](../)
 * Namespace [System::Drawing](../../)

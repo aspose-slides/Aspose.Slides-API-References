@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/iautoshapelock/set_editpointslocked/
 ---
-## IAutoShapeLock::set_EditPointsLocked(**bool**) method
+## IAutoShapeLock::set_EditPointsLocked(bool) method
 
 
 Determines whether a direct changing of contour of this shape is forbidden. Writes **bool**.

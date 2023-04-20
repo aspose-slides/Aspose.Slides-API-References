@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.net/httpwebrequest/set_method/
 ---
-## HttpWebRequest::set_Method([String](../../../system/string/)) method
+## HttpWebRequest::set_Method(String) method
 
 
 Sets the HTTP method.

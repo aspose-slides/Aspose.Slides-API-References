@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.smartart/smartartnodecollection/addnodebyposition/
 ---
-## SmartArtNodeCollection::AddNodeByPosition(**int32_t**) method
+## SmartArtNodeCollection::AddNodeByPosition(int32_t) method
 
 
 Add new node in the selected position of nodes collection

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.io/directoryinfo/createsubdirectory/
 ---
-## DirectoryInfo::CreateSubdirectory(const [String](../../../system/string/)\&) method
+## DirectoryInfo::CreateSubdirectory(const String\&) method
 
 
 Creates subdirectories on the specified path.

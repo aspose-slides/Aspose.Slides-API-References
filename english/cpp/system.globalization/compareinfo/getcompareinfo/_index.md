@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.globalization/compareinfo/getcompareinfo/
 ---
-## CompareInfo::GetCompareInfo(int, const [SharedPtr](../../../system/sharedptr/)\<[Reflection::Assembly](../../../system.reflection/assembly/)\>\&) method
+## CompareInfo::GetCompareInfo(int, const SharedPtr\<Reflection::Assembly\>\&) method
 
 
 Gets [CompareInfo](../) associated with the specified culture and using string comparison methods in the specified assembly.
@@ -27,15 +27,7 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(int cul
 
 [CompareInfo](../) object.
 
-## See Also
-
-* Typedef [CompareInfoPtr](../../compareinfoptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Assembly](../../../system.reflection/assembly/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::GetCompareInfo(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Reflection::Assembly](../../../system.reflection/assembly/)\>\&) method
+## CompareInfo::GetCompareInfo(const String\&, const SharedPtr\<Reflection::Assembly\>\&) method
 
 
 Gets [CompareInfo](../) associated with the specified culture and using string comparison methods in the specified assembly.
@@ -56,15 +48,6 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(const S
 
 [CompareInfo](../) object.
 
-## See Also
-
-* Typedef [CompareInfoPtr](../../compareinfoptr/)
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Assembly](../../../system.reflection/assembly/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## CompareInfo::GetCompareInfo(int) method
 
 
@@ -85,13 +68,7 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(int cul
 
 [CompareInfo](../) object.
 
-## See Also
-
-* Typedef [CompareInfoPtr](../../compareinfoptr/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::GetCompareInfo(const [String](../../../system/string/)\&) method
+## CompareInfo::GetCompareInfo(const String\&) method
 
 
 Gets [CompareInfo](../) associated with the specified culture.
@@ -114,7 +91,9 @@ static CompareInfoPtr System::Globalization::CompareInfo::GetCompareInfo(const S
 ## See Also
 
 * Typedef [CompareInfoPtr](../../compareinfoptr/)
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Assembly](../../../system.reflection/assembly/)
 * Class [CompareInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

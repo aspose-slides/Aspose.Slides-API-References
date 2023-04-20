@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography/hashalgorithmname/hashalgorithmname/
 System::Security::Cryptography::HashAlgorithmName::HashAlgorithmName()=default
 ```
 
-## See Also
-
-* Struct [HashAlgorithmName](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## HashAlgorithmName::HashAlgorithmName(const [String](../../../system/string/)\&) constructor
+## HashAlgorithmName::HashAlgorithmName(const String\&) constructor
 
 
 Constructor.

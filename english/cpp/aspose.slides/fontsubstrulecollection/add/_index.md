@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/fontsubstrulecollection/add/
 ---
-## FontSubstRuleCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IFontSubstRule](../../ifontsubstrule/)\>) method
+## FontSubstRuleCollection::Add(System::SharedPtr\<IFontSubstRule\>) method
 
 
 Adds the new font substitution rule to the collection

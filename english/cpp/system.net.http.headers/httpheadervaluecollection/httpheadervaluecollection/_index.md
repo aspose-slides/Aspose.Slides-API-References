@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net.http.headers/httpheadervaluecollection/httpheadervaluecollection/
 ---
-## HttpHeaderValueCollection::HttpHeaderValueCollection([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\>) constructor
+## HttpHeaderValueCollection::HttpHeaderValueCollection(String, System::SharedPtr\<HttpHeaders\>) constructor
 
 
 Constructs a new instance.
@@ -23,15 +23,7 @@ System::Net::Http::Headers::HttpHeaderValueCollection<T>::HttpHeaderValueCollect
 | headerName | [String](../../../system/string/) | The header name. |
 | store | [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\> | The collection of the HTTP headers. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpHeaders](../../httpheaders/)
-* Class [HttpHeaderValueCollection](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## HttpHeaderValueCollection::HttpHeaderValueCollection([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\>, [Action](../../../system/action/)\<[System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaderValueCollection](../)\<T\>\>, T\>) constructor
+## HttpHeaderValueCollection::HttpHeaderValueCollection(String, System::SharedPtr\<HttpHeaders\>, Action\<System::SharedPtr\<HttpHeaderValueCollection\<T\>\>, T\>) constructor
 
 
 Constructs a new instance.
@@ -49,17 +41,7 @@ System::Net::Http::Headers::HttpHeaderValueCollection<T>::HttpHeaderValueCollect
 | store | [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\> | The collection of the HTTP headers. |
 | validator | [Action](../../../system/action/)\<[System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaderValueCollection](../)\<T\>\>, T\> | The delegate that is used to validate added items. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpHeaders](../../httpheaders/)
-* Typedef [Action](../../../system/action/)
-* Class [HttpHeaderValueCollection](../)
-* Class [HttpHeaderValueCollection](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## HttpHeaderValueCollection::HttpHeaderValueCollection([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\>, T) constructor
+## HttpHeaderValueCollection::HttpHeaderValueCollection(String, System::SharedPtr\<HttpHeaders\>, T) constructor
 
 
 Constructs a new instance.
@@ -77,15 +59,7 @@ System::Net::Http::Headers::HttpHeaderValueCollection<T>::HttpHeaderValueCollect
 | store | [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\> | The collection of the HTTP headers. |
 | specialValue | T | A \"special value\". |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpHeaders](../../httpheaders/)
-* Class [HttpHeaderValueCollection](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## HttpHeaderValueCollection::HttpHeaderValueCollection([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaders](../../httpheaders/)\>, T, [Action](../../../system/action/)\<[System::SharedPtr](../../../system/sharedptr/)\<[HttpHeaderValueCollection](../)\<T\>\>, T\>) constructor
+## HttpHeaderValueCollection::HttpHeaderValueCollection(String, System::SharedPtr\<HttpHeaders\>, T, Action\<System::SharedPtr\<HttpHeaderValueCollection\<T\>\>, T\>) constructor
 
 
 Constructs a new instance.
@@ -106,11 +80,10 @@ System::Net::Http::Headers::HttpHeaderValueCollection<T>::HttpHeaderValueCollect
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpHeaders](../../httpheaders/)
 * Typedef [Action](../../../system/action/)
-* Class [HttpHeaderValueCollection](../)
+* Class [String](../../../system/string/)
+* Class [HttpHeaders](../../httpheaders/)
 * Class [HttpHeaderValueCollection](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

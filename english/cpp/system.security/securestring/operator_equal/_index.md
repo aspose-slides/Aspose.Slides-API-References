@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security/securestring/operator_equal/
 ---
-## SecureString::operator=(const [SecureString](../)\&) method
+## SecureString::operator=(const SecureString\&) method
 
 
 
@@ -17,7 +17,6 @@ SecureString & System::Security::SecureString::operator=(const SecureString &)=d
 
 ## See Also
 
-* Class [SecureString](../)
 * Class [SecureString](../)
 * Namespace [System::Security](../../)
 * Library [Aspose.Slides](../../../)

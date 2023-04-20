@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/iautoshapelock/set_sizelocked/
 ---
-## IAutoShapeLock::set_SizeLocked(**bool**) method
+## IAutoShapeLock::set_SizeLocked(bool) method
 
 
 Determines whether a resizing this shape is forbidden. Writes **bool**.

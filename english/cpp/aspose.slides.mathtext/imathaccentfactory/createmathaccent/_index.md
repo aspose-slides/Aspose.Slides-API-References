@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/imathaccentfactory/createmathaccent/
 ---
-## IMathAccentFactory::CreateMathAccent([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathAccentFactory::CreateMathAccent(System::SharedPtr\<IMathElement\>) method
 
 
 Creates a math accent applying to a specified math element with the default accent character value
@@ -26,15 +26,7 @@ virtual System::SharedPtr<IMathAccent> Aspose::Slides::MathText::IMathAccentFact
 
 new math accent
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathAccent](../../imathaccent/)
-* Class [IMathElement](../../imathelement/)
-* Class [IMathAccentFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathAccentFactory::CreateMathAccent([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, char16_t) method
+## IMathAccentFactory::CreateMathAccent(System::SharedPtr\<IMathElement\>, char16_t) method
 
 
 Creates a math accent applying to a specified math element

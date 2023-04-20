@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.charts/ichartcategorylevelsmanager/
 Managed container of the values of the chart category levels.
 
 ```cpp
-class IChartCategoryLevelsManager : public System::Object
+class IChartCategoryLevelsManager : public virtual System::Object
 ```
 
 ## Methods

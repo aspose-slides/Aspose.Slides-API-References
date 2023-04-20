@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web.services/webservicebindingattribute/set_location/
 ---
-## WebServiceBindingAttribute::set_Location([String](../../../system/string/)) method
+## WebServiceBindingAttribute::set_Location(String) method
 
 
 Sets the location where the binding is defined.

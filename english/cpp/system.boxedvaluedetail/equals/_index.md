@@ -33,10 +33,6 @@ template<typename T> std::enable_if<detail::has_operator_equal<T>::value, bool>:
 
 True if the specified value are equal as determined by [operator==()](../../system/operator_equal_equal/), otherwise - false
 
-## See Also
-
-* Namespace [System::BoxedValueDetail](../)
-* Library [Aspose.Slides](../../)
 ## System::BoxedValueDetail::Equals(T, T) function
 
 

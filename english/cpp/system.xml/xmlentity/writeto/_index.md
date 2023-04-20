@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.xml/xmlentity/writeto/
 ---
-## XmlEntity::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlEntity::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/). For [XmlEntity](../) nodes, this method has no effect.

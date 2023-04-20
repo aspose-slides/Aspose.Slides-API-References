@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/fontfamily/getcellascent/
 ---
-## FontFamily::GetCellAscent([FontStyle](../../fontstyle/)) method
+## FontFamily::GetCellAscent(FontStyle) method
 
 
 Returns the cell ascent of the font family represented by the current object for the specified font style.

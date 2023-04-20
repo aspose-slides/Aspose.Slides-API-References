@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/fontsloader/loadexternalfont/
 ---
-## FontsLoader::LoadExternalFont([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## FontsLoader::LoadExternalFont(System::ArrayPtr\<uint8_t\>) method
 
 
 Adds font from the binary data

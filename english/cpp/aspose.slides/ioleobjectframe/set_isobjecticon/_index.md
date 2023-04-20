@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/ioleobjectframe/set_isobjecticon/
 ---
-## IOleObjectFrame::set_IsObjectIcon(**bool**) method
+## IOleObjectFrame::set_IsObjectIcon(bool) method
 
 
 Determines whether an object is visible as icon. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/decrypt/
 ---
-## RSACryptoServiceProvider::Decrypt(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **bool**) method
+## RSACryptoServiceProvider::Decrypt(const ByteArrayPtr\&, bool) method
 
 
 Decrypts message. Not implemented.
@@ -27,13 +27,7 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::Decrypt(c
 
 Decrypted data array.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [RSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSACryptoServiceProvider::Decrypt([ByteArrayPtr](../../../system/bytearrayptr/), [SharedPtr](../../../system/sharedptr/)\<[RSAEncryptionPadding](../../rsaencryptionpadding/)\>) method
+## RSACryptoServiceProvider::Decrypt(ByteArrayPtr, SharedPtr\<RSAEncryptionPadding\>) method
 
 
 Decrypts input data using the specified padding mode.
@@ -58,7 +52,7 @@ Decrypted data in byte array format.
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSAEncryptionPadding](../../rsaencryptionpadding/)
 * Class [RSACryptoServiceProvider](../)
+* Class [RSAEncryptionPadding](../../rsaencryptionpadding/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

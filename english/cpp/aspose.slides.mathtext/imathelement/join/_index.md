@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.mathtext/imathelement/join/
 ---
-## IMathElement::Join([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>) method
+## IMathElement::Join(System::SharedPtr\<IMathElement\>) method
 
 
 Joins a mathematical element and forms a mathematical block
@@ -36,15 +36,7 @@ auto element2 = System::MakeObject<MathematicalText>(u"y");
 auto block = element1->Join(element2);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathBlock](../../imathblock/)
-* Class [IMathElement](../)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::Join([System::String](../../../system/string/)) method
+## IMathElement::Join(System::String) method
 
 
 Joins a mathematical text and forms a mathematical block
@@ -77,7 +69,7 @@ auto block = element->Join(u"+y");
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathBlock](../../imathblock/)
-* Class [String](../../../system/string/)
 * Class [IMathElement](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

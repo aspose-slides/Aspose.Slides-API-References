@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/itextframeformat/set_marginbottom/
 ---
-## ITextFrameFormat::set_MarginBottom(**double**) method
+## ITextFrameFormat::set_MarginBottom(double) method
 
 
 Sets the bottom margin (points) in a [TextFrame](../../textframe/). Write **double**.

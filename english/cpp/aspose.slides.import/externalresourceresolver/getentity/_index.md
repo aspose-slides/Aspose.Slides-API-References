@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.import/externalresourceresolver/getentity/
 ---
-## ExternalResourceResolver::GetEntity([System::String](../../../system/string/)) method
+## ExternalResourceResolver::GetEntity(System::String) method
 
 
 Maps a URI to an object containing the actual resource.

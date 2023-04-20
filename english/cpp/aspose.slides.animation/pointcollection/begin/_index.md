@@ -20,12 +20,6 @@ iterator Aspose::Slides::Animation::PointCollection::begin() noexcept
 
 An iterator pointing to the first element (if any) of the collection
 
-## See Also
-
-* Typedef [iterator](../iterator/)
-* Class [PointCollection](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
 ## PointCollection::begin() const method
 
 
@@ -42,6 +36,7 @@ An iterator pointing to the first element (if any) of the const-qualified instan
 
 ## See Also
 
+* Typedef [iterator](../iterator/)
 * Typedef [const_iterator](../const_iterator/)
 * Class [PointCollection](../)
 * Namespace [Aspose::Slides::Animation](../../)

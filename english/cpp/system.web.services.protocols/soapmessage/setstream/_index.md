@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.web.services.protocols/soapmessage/setstream/
 ---
-## SoapMessage::SetStream([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## SoapMessage::SetStream(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Sets the stream that contains the SOAP message data.

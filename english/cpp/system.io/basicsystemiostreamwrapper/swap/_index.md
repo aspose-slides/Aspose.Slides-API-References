@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.io/basicsystemiostreamwrapper/swap/
 ---
-## BasicSystemIOStreamWrapper::swap([BasicSystemIOStreamWrapper](../)\&) method
+## BasicSystemIOStreamWrapper::swap(BasicSystemIOStreamWrapper\&) method
 
 
 Call to swap *this and **right**, if they are not equal.
@@ -24,7 +24,6 @@ void System::IO::BasicSystemIOStreamWrapper<Elem, Traits>::swap(BasicSystemIOStr
 
 ## See Also
 
-* Class [BasicSystemIOStreamWrapper](../)
 * Class [BasicSystemIOStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

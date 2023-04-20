@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.xml/xmltextreader/xmltextreader/
 ---
-## XmlTextReader::XmlTextReader(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const SharedPtr\<IO::Stream\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified stream.
@@ -22,14 +22,7 @@ System::Xml::XmlTextReader::XmlTextReader(const SharedPtr<IO::Stream> &input)
 | --- | --- | --- |
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream containing the XML data to read. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const String\&, const SharedPtr\<IO::Stream\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified URL and stream.
@@ -46,15 +39,7 @@ System::Xml::XmlTextReader::XmlTextReader(const String &url, const SharedPtr<IO:
 | url | const [String](../../../system/string/)\& | The URL to use for resolving external resources. The [XmlTextReader::get_BaseURI](../get_baseuri/) is set to this value. |
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream containing the XML data to read. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified stream and [XmlNameTable](../../xmlnametable/).
@@ -71,15 +56,7 @@ System::Xml::XmlTextReader::XmlTextReader(const SharedPtr<IO::Stream> &input, co
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream containing the XML data to read. |
 | nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlNameTable](../../xmlnametable/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const String\&, const SharedPtr\<IO::Stream\>\&, const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified URL, stream and [XmlNameTable](../../xmlnametable/).
@@ -97,16 +74,7 @@ System::Xml::XmlTextReader::XmlTextReader(const String &url, const SharedPtr<IO:
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream containing the XML data to read. |
 | nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlNameTable](../../xmlnametable/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const SharedPtr\<IO::TextReader\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified TextReader.
@@ -122,14 +90,7 @@ System::Xml::XmlTextReader::XmlTextReader(const SharedPtr<IO::TextReader> &input
 | --- | --- | --- |
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\& | The TextReader containing the XML data to read. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const String\&, const SharedPtr\<IO::TextReader\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified URL and TextReader.
@@ -146,15 +107,7 @@ System::Xml::XmlTextReader::XmlTextReader(const String &url, const SharedPtr<IO:
 | url | const [String](../../../system/string/)\& | The URL to use for resolving external resources. The [XmlTextReader::get_BaseURI](../get_baseuri/) is set to this value. |
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\& | The TextReader containing the XML data to read. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const SharedPtr\<IO::TextReader\>\&, const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified TextReader and [XmlNameTable](../../xmlnametable/).
@@ -171,15 +124,7 @@ System::Xml::XmlTextReader::XmlTextReader(const SharedPtr<IO::TextReader> &input
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\& | The TextReader containing the XML data to read. |
 | nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlNameTable](../../xmlnametable/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const String\&, const SharedPtr\<IO::TextReader\>\&, const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified URL, TextReader and [XmlNameTable](../../xmlnametable/).
@@ -197,16 +142,7 @@ System::Xml::XmlTextReader::XmlTextReader(const String &url, const SharedPtr<IO:
 | input | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\& | The TextReader containing the XML data to read. |
 | nt | const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\& | The [XmlNameTable](../../xmlnametable/) to use. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlNameTable](../../xmlnametable/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, [XmlNodeType](../../xmlnodetype/), const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const SharedPtr\<IO::Stream\>\&, XmlNodeType, const SharedPtr\<XmlParserContext\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified stream, XmlNodeType, and [XmlParserContext](../../xmlparsercontext/).
@@ -224,16 +160,7 @@ System::Xml::XmlTextReader::XmlTextReader(const SharedPtr<IO::Stream> &xmlFragme
 | fragType | [XmlNodeType](../../xmlnodetype/) | The XmlNodeType of the XML fragment. This also determines what the fragment can contain. |
 | context | const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\& | The [XmlParserContext](../../xmlparsercontext/) in which the **xmlFragment** is to be parsed. This includes the [XmlNameTable](../../xmlnametable/) to use, encoding, namespace scope, the current **xml:lang**, and the **xml:space** scope. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [XmlNodeType](../../xmlnodetype/)
-* Class [XmlParserContext](../../xmlparsercontext/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [String](../../../system/string/)\&, [XmlNodeType](../../xmlnodetype/), const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const String\&, XmlNodeType, const SharedPtr\<XmlParserContext\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified string, XmlNodeType, and [XmlParserContext](../../xmlparsercontext/).
@@ -251,16 +178,7 @@ System::Xml::XmlTextReader::XmlTextReader(const String &xmlFragment, XmlNodeType
 | fragType | [XmlNodeType](../../xmlnodetype/) | The XmlNodeType of the XML fragment. This also determines what the fragment string can contain. |
 | context | const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\& | The [XmlParserContext](../../xmlparsercontext/) in which the **xmlFragment** is to be parsed. This includes the [XmlNameTable](../../xmlnametable/) to use, encoding, namespace scope, the current **xml:lang**, and the **xml:space** scope. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [XmlNodeType](../../xmlnodetype/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlParserContext](../../xmlparsercontext/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [String](../../../system/string/)\&) constructor
+## XmlTextReader::XmlTextReader(const String\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified file.
@@ -276,13 +194,7 @@ System::Xml::XmlTextReader::XmlTextReader(const String &url)
 | --- | --- | --- |
 | url | const [String](../../../system/string/)\& | The URL for the file containing the XML data. The [XmlTextReader::get_BaseURI](../get_baseuri/) is set to this value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::XmlTextReader(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&) constructor
+## XmlTextReader::XmlTextReader(const String\&, const SharedPtr\<XmlNameTable\>\&) constructor
 
 
 Initializes a new instance of the [XmlTextReader](../) class with the specified file and [XmlNameTable](../../xmlnametable/).
@@ -301,9 +213,13 @@ System::Xml::XmlTextReader::XmlTextReader(const String &url, const SharedPtr<Xml
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Enum [XmlNodeType](../../xmlnodetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNameTable](../../xmlnametable/)
+* Class [Stream](../../../system.io/stream/)
 * Class [XmlTextReader](../)
+* Class [String](../../../system/string/)
+* Class [XmlNameTable](../../xmlnametable/)
+* Class [TextReader](../../../system.io/textreader/)
+* Class [XmlParserContext](../../xmlparsercontext/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /cpp/system.net.sockets/socket/setsocketoption/
 ---
-## Socket::SetSocketOption([SocketOptionLevel](../../socketoptionlevel/), [SocketOptionName](../../socketoptionname/), **int32_t**) method
+## Socket::SetSocketOption(SocketOptionLevel, SocketOptionName, int32_t) method
 
 
 Sets the specified socket option to the specified value.
@@ -24,14 +24,7 @@ void System::Net::Sockets::Socket::SetSocketOption(SocketOptionLevel optionLevel
 | optionName | [SocketOptionName](../../socketoptionname/) | The name of the option that must be updated. |
 | optionValue | **int32_t** | The value that must be set to the specified option. |
 
-## See Also
-
-* Enum [SocketOptionLevel](../../socketoptionlevel/)
-* Enum [SocketOptionName](../../socketoptionname/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SetSocketOption([SocketOptionLevel](../../socketoptionlevel/), [SocketOptionName](../../socketoptionname/), [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Socket::SetSocketOption(SocketOptionLevel, SocketOptionName, System::ArrayPtr\<uint8_t\>) method
 
 
 Sets the specified socket option to the specified value.
@@ -49,15 +42,7 @@ void System::Net::Sockets::Socket::SetSocketOption(SocketOptionLevel optionLevel
 | optionName | [SocketOptionName](../../socketoptionname/) | The name of the option that must be updated. |
 | optionValue | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The value that must be set to the specified option. |
 
-## See Also
-
-* Enum [SocketOptionLevel](../../socketoptionlevel/)
-* Enum [SocketOptionName](../../socketoptionname/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SetSocketOption([SocketOptionLevel](../../socketoptionlevel/), [SocketOptionName](../../socketoptionname/), **bool**) method
+## Socket::SetSocketOption(SocketOptionLevel, SocketOptionName, bool) method
 
 
 Sets the specified socket option to the specified value.
@@ -75,14 +60,7 @@ void System::Net::Sockets::Socket::SetSocketOption(SocketOptionLevel optionLevel
 | optionName | [SocketOptionName](../../socketoptionname/) | The name of the option that must be updated. |
 | optionValue | **bool** | The value that must be set to the specified option. |
 
-## See Also
-
-* Enum [SocketOptionLevel](../../socketoptionlevel/)
-* Enum [SocketOptionName](../../socketoptionname/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SetSocketOption([SocketOptionLevel](../../socketoptionlevel/), [SocketOptionName](../../socketoptionname/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## Socket::SetSocketOption(SocketOptionLevel, SocketOptionName, System::SharedPtr\<Object\>) method
 
 
 Sets the specified socket option to the specified value.
@@ -104,8 +82,9 @@ void System::Net::Sockets::Socket::SetSocketOption(SocketOptionLevel optionLevel
 
 * Enum [SocketOptionLevel](../../socketoptionlevel/)
 * Enum [SocketOptionName](../../socketoptionname/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [Socket](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

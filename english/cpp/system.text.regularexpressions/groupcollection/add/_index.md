@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.text.regularexpressions/groupcollection/add/
 ---
-## GroupCollection::Add(const [GroupPtr](../../groupptr/)\&) method
+## GroupCollection::Add(const GroupPtr\&) method
 
 
 Disables adding element into collection.

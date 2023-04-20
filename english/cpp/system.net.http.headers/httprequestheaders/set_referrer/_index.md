@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.net.http.headers/httprequestheaders/set_referrer/
 ---
-## HttpRequestHeaders::set_Referrer([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## HttpRequestHeaders::set_Referrer(System::SharedPtr\<Uri\>) method
 
 
 Sets a value of the 'Referer' header.

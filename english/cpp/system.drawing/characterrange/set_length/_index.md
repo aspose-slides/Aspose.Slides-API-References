@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/characterrange/set_length/
 ---
-## CharacterRange::set_Length(**int32_t**) method
+## CharacterRange::set_Length(int32_t) method
 
 
 Returns the number of characters in the range represented by the current object.

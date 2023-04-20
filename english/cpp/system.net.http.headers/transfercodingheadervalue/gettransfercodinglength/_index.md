@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/transfercodingheadervalue/gettransfercodinglength/
 ---
-## TransferCodingHeaderValue::GetTransferCodingLength([String](../../../system/string/), **int32_t**, const [HeaderFunc](../../headerfunc/)\<[System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingHeaderValue](../)\>\>\&, [System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingHeaderValue](../)\>\&) method
+## TransferCodingHeaderValue::GetTransferCodingLength(String, int32_t, const HeaderFunc\<System::SharedPtr\<TransferCodingHeaderValue\>\>\&, System::SharedPtr\<TransferCodingHeaderValue\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [TransferCodingHeaderValue](../) class.
@@ -31,10 +31,9 @@ Returns the length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [HeaderFunc](../../headerfunc/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TransferCodingHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [TransferCodingHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

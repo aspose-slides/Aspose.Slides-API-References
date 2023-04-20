@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.animation/textanimationcollection/idx_get/
 ---
-## TextAnimationCollection::idx_get(**int32_t**) method
+## TextAnimationCollection::idx_get(int32_t) method
 
 
 Returns element by index.
@@ -15,14 +15,7 @@ Returns element by index.
 System::SharedPtr<ITextAnimation> Aspose::Slides::Animation::TextAnimationCollection::idx_get(int32_t index) override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITextAnimation](../../itextanimation/)
-* Class [TextAnimationCollection](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## TextAnimationCollection::idx_get([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\>) method
+## TextAnimationCollection::idx_get(System::SharedPtr\<IShape\>) method
 
 
 Returns all elements
@@ -44,10 +37,10 @@ System::ArrayPtr<System::SharedPtr<ITextAnimation>> Aspose::Slides::Animation::T
 
 ## See Also
 
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ITextAnimation](../../itextanimation/)
-* Class [IShape](../../../aspose.slides/ishape/)
 * Class [TextAnimationCollection](../)
+* Class [IShape](../../../aspose.slides/ishape/)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

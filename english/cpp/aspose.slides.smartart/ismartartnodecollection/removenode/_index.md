@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.smartart/ismartartnodecollection/removenode/
 ---
-## ISmartArtNodeCollection::RemoveNode(**int32_t**) method
+## ISmartArtNodeCollection::RemoveNode(int32_t) method
 
 
 Remove node or sub node by index.
@@ -22,12 +22,7 @@ virtual void Aspose::Slides::SmartArt::ISmartArtNodeCollection::RemoveNode(int32
 | --- | --- | --- |
 | index | **int32_t** | Zero-based index of node |
 
-## See Also
-
-* Class [ISmartArtNodeCollection](../)
-* Namespace [Aspose::Slides::SmartArt](../../)
-* Library [Aspose.Slides](../../../)
-## ISmartArtNodeCollection::RemoveNode([System::SharedPtr](../../../system/sharedptr/)\<[ISmartArtNode](../../ismartartnode/)\>) method
+## ISmartArtNodeCollection::RemoveNode(System::SharedPtr\<ISmartArtNode\>) method
 
 
 Remove node or sub node.
@@ -46,7 +41,7 @@ virtual void Aspose::Slides::SmartArt::ISmartArtNodeCollection::RemoveNode(Syste
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISmartArtNode](../../ismartartnode/)
 * Class [ISmartArtNodeCollection](../)
+* Class [ISmartArtNode](../../ismartartnode/)
 * Namespace [Aspose::Slides::SmartArt](../../)
 * Library [Aspose.Slides](../../../)

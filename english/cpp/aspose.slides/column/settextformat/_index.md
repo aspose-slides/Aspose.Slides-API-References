@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/column/settextformat/
 ---
-## Column::SetTextFormat([System::SharedPtr](../../../system/sharedptr/)\<[IPortionFormat](../../iportionformat/)\>) method
+## Column::SetTextFormat(System::SharedPtr\<IPortionFormat\>) method
 
 
 Sets defined portion format properties to all column cells' portions.
@@ -22,14 +22,7 @@ void Aspose::Slides::Column::SetTextFormat(System::SharedPtr<IPortionFormat> sou
 | --- | --- | --- |
 | source | [System::SharedPtr](../../../system/sharedptr/)\<[IPortionFormat](../../iportionformat/)\> | [IPortionFormat](../../iportionformat/) object with necessary properties set. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPortionFormat](../../iportionformat/)
-* Class [Column](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Column::SetTextFormat([System::SharedPtr](../../../system/sharedptr/)\<[IParagraphFormat](../../iparagraphformat/)\>) method
+## Column::SetTextFormat(System::SharedPtr\<IParagraphFormat\>) method
 
 
 Sets defined paragraph format properties to all column cells' paragraphs.
@@ -45,14 +38,7 @@ void Aspose::Slides::Column::SetTextFormat(System::SharedPtr<IParagraphFormat> s
 | --- | --- | --- |
 | source | [System::SharedPtr](../../../system/sharedptr/)\<[IParagraphFormat](../../iparagraphformat/)\> | [IParagraphFormat](../../iparagraphformat/) object with necessary properties set. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraphFormat](../../iparagraphformat/)
-* Class [Column](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Column::SetTextFormat([System::SharedPtr](../../../system/sharedptr/)\<[ITextFrameFormat](../../itextframeformat/)\>) method
+## Column::SetTextFormat(System::SharedPtr\<ITextFrameFormat\>) method
 
 
 Sets defined text frame format properties to all column cells' text frames.
@@ -71,7 +57,9 @@ void Aspose::Slides::Column::SetTextFormat(System::SharedPtr<ITextFrameFormat> s
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITextFrameFormat](../../itextframeformat/)
+* Class [IPortionFormat](../../iportionformat/)
 * Class [Column](../)
+* Class [IParagraphFormat](../../iparagraphformat/)
+* Class [ITextFrameFormat](../../itextframeformat/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

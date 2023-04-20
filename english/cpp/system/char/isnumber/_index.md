@@ -27,11 +27,6 @@ static bool System::Char::IsNumber(const char_t *str, int idx)
 
 True if the character at the specified index is a number, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsNumber(char_t) method
 
 

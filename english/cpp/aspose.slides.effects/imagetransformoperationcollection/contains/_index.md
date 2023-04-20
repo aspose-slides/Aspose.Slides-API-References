@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/contains/
 ---
-## ImageTransformOperationCollection::Contains(const [System::SharedPtr](../../../system/sharedptr/)\<[IImageTransformOperation](../../iimagetransformoperation/)\>\&) const method
+## ImageTransformOperationCollection::Contains(const System::SharedPtr\<IImageTransformOperation\>\&) const method
 
 
 Determines whether the [ICollection](../../../system.collections.generic/icollection/) contains a specific value.

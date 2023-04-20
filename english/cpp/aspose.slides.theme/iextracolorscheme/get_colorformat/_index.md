@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.theme/iextracolorscheme/get_colorformat/
 ---
-## IExtraColorScheme::get_ColorFormat([ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)) method
+## IExtraColorScheme::get_ColorFormat(ColorSchemeIndex) method
 
 
 
@@ -17,9 +17,9 @@ virtual System::SharedPtr<IColorFormat> Aspose::Slides::Theme::IExtraColorScheme
 
 ## See Also
 
+* Enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IColorFormat](../../../aspose.slides/icolorformat/)
-* Enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)
 * Class [IExtraColorScheme](../)
 * Namespace [Aspose::Slides::Theme](../../)
 * Library [Aspose.Slides](../../../)

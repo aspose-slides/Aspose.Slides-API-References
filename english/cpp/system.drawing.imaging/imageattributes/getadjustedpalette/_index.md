@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.drawing.imaging/imageattributes/getadjustedpalette/
 ---
-## ImageAttributes::GetAdjustedPalette(const [SharedPtr](../../../system/sharedptr/)\<[ColorPalette](../../colorpalette/)\>\&, [ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::GetAdjustedPalette(const SharedPtr\<ColorPalette\>\&, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.
@@ -18,9 +18,9 @@ void System::Drawing::Imaging::ImageAttributes::GetAdjustedPalette(const SharedP
 
 ## See Also
 
+* Enum [ColorAdjustType](../../coloradjusttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ColorPalette](../../colorpalette/)
-* Enum [ColorAdjustType](../../coloradjusttype/)
 * Class [ImageAttributes](../)
 * Namespace [System::Drawing::Imaging](../../)
 * Library [Aspose.Slides](../../../)

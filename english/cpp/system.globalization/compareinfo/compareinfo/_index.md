@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/compareinfo/compareinfo/
 ---
-## CompareInfo::CompareInfo(const [CompareInfo](../)\&) constructor
+## CompareInfo::CompareInfo(const CompareInfo\&) constructor
 
 
 RTTI information.
@@ -17,7 +17,6 @@ System::Globalization::CompareInfo::CompareInfo(const CompareInfo &)=delete
 
 ## See Also
 
-* Class [CompareInfo](../)
 * Class [CompareInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

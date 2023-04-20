@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.web.services.protocols/soapheader/set_relay/
 ---
-## SoapHeader::set_Relay(**bool**) method
+## SoapHeader::set_Relay(bool) method
 
 
 Sets a value of the 'relay' attribute.

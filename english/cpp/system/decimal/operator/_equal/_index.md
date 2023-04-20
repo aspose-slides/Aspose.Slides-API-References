@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system/decimal/operator/_equal/
 ---
-## Decimal::operator/=(const [Decimal](../)\&) method
+## Decimal::operator/=(const Decimal\&) method
 
 
 Assigns to the current object a new value that is the result of division of the value represented by the current object by the value represented by the specified object.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

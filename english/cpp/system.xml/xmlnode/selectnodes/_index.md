@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.xml/xmlnode/selectnodes/
 ---
-## XmlNode::SelectNodes(const [String](../../../system/string/)\&) method
+## XmlNode::SelectNodes(const String\&) method
 
 
 Selects a list of nodes matching the [XPath](../../../system.xml.xpath/) expression.
@@ -26,15 +26,7 @@ SharedPtr<XmlNodeList> System::Xml::XmlNode::SelectNodes(const String &xpath)
 
 An [XmlNodeList](../../xmlnodelist/) containing a collection of nodes matching the [XPath](../../../system.xml.xpath/) query.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNodeList](../../xmlnodelist/)
-* Class [String](../../../system/string/)
-* Class [XmlNode](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNode::SelectNodes(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\&) method
+## XmlNode::SelectNodes(const String\&, const SharedPtr\<XmlNamespaceManager\>\&) method
 
 
 Selects a list of nodes matching the [XPath](../../../system.xml.xpath/) expression. Any prefixes found in the [XPath](../../../system.xml.xpath/) expression are resolved using the supplied [XmlNamespaceManager](../../xmlnamespacemanager/).
@@ -60,7 +52,7 @@ An [XmlNodeList](../../xmlnodelist/) containing a collection of nodes matching t
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNodeList](../../xmlnodelist/)
 * Class [String](../../../system/string/)
-* Class [XmlNamespaceManager](../../xmlnamespacemanager/)
 * Class [XmlNode](../)
+* Class [XmlNamespaceManager](../../xmlnamespacemanager/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

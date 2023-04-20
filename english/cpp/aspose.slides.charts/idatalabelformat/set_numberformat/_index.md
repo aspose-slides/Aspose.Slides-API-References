@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/idatalabelformat/set_numberformat/
 ---
-## IDataLabelFormat::set_NumberFormat([System::String](../../../system/string/)) method
+## IDataLabelFormat::set_NumberFormat(System::String) method
 
 
 Represents the format string for the DataLabels object. Write [System::String](../../../system/string/).

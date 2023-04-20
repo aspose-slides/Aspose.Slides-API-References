@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system.xml/xmlnode/writeto/
 ---
-## XmlNode::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlNode::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the current node to the specified [XmlWriter](../../xmlwriter/), when overridden in a derived class.

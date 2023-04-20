@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.collections/bitarray/bitarray/
 ---
-## BitArray::BitArray(const [bitset](../bitset/)\&) constructor
+## BitArray::BitArray(const bitset\&) constructor
 
 
 Copy constructor.
@@ -22,13 +22,7 @@ System::Collections::BitArray::BitArray(const bitset &bits)
 | --- | --- | --- |
 | bits | const [bitset](../bitset/)\& | Container to copy data from. |
 
-## See Also
-
-* Typedef [bitset](../bitset/)
-* Class [BitArray](../)
-* Namespace [System::Collections](../../)
-* Library [Aspose.Slides](../../../)
-## BitArray::BitArray(const [BitArray](../)\&) constructor
+## BitArray::BitArray(const BitArray\&) constructor
 
 
 Copy constructor.
@@ -44,13 +38,7 @@ System::Collections::BitArray::BitArray(const BitArray &bits)
 | --- | --- | --- |
 | bits | const [BitArray](../)\& | Container to copy data from. |
 
-## See Also
-
-* Class [BitArray](../)
-* Class [BitArray](../)
-* Namespace [System::Collections](../../)
-* Library [Aspose.Slides](../../../)
-## BitArray::BitArray(const [BitArrayPtr](../../bitarrayptr/)\&) constructor
+## BitArray::BitArray(const BitArrayPtr\&) constructor
 
 
 Copy constructor.
@@ -66,13 +54,7 @@ System::Collections::BitArray::BitArray(const BitArrayPtr &array)
 | --- | --- | --- |
 | array | const [BitArrayPtr](../../bitarrayptr/)\& | [BitArray](../) to copy data from. |
 
-## See Also
-
-* Class [BitArrayPtr](../../bitarrayptr/)
-* Class [BitArray](../)
-* Namespace [System::Collections](../../)
-* Library [Aspose.Slides](../../../)
-## BitArray::BitArray(const [System::ArrayPtr](../../../system/arrayptr/)\<**bool**\>\&) constructor
+## BitArray::BitArray(const System::ArrayPtr\<bool\>\&) constructor
 
 
 Copy constructor.
@@ -88,13 +70,7 @@ System::Collections::BitArray::BitArray(const System::ArrayPtr<bool> &values)
 | --- | --- | --- |
 | values | const [System::ArrayPtr](../../../system/arrayptr/)\<**bool**\>\& | Container to elementwise copy data from. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [BitArray](../)
-* Namespace [System::Collections](../../)
-* Library [Aspose.Slides](../../../)
-## BitArray::BitArray(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) constructor
+## BitArray::BitArray(const System::ArrayPtr\<uint8_t\>\&) constructor
 
 
 Copy constructor.
@@ -110,13 +86,7 @@ System::Collections::BitArray::BitArray(const System::ArrayPtr<uint8_t> &bytes)
 | --- | --- | --- |
 | bytes | const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | Container to bitwise copy data from. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [BitArray](../)
-* Namespace [System::Collections](../../)
-* Library [Aspose.Slides](../../../)
-## BitArray::BitArray(const [System::ArrayPtr](../../../system/arrayptr/)\<int\>\&) constructor
+## BitArray::BitArray(const System::ArrayPtr\<int\>\&) constructor
 
 
 Copy constructor.
@@ -132,13 +102,7 @@ System::Collections::BitArray::BitArray(const System::ArrayPtr<int> &values)
 | --- | --- | --- |
 | values | const [System::ArrayPtr](../../../system/arrayptr/)\<int\>\& | Container to bitwise copy data from. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [BitArray](../)
-* Namespace [System::Collections](../../)
-* Library [Aspose.Slides](../../../)
-## BitArray::BitArray(int, **bool**) constructor
+## BitArray::BitArray(int, bool) constructor
 
 
 Fill constructor.
@@ -157,6 +121,9 @@ System::Collections::BitArray::BitArray(int length, bool defaultValue=false)
 
 ## See Also
 
+* Typedef [bitset](../bitset/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [BitArray](../)
+* Class [BitArrayPtr](../../bitarrayptr/)
 * Namespace [System::Collections](../../)
 * Library [Aspose.Slides](../../../)

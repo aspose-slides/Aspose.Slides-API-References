@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.io/directory/setlastwritetimeutc/
 ---
-## Directory::SetLastWriteTimeUtc(const [String](../../../system/string/)\&, [DateTime](../../../system/datetime/)) method
+## Directory::SetLastWriteTimeUtc(const String\&, DateTime) method
 
 
 Sets the last write time of the specified entity as UTC time.

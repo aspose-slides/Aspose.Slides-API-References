@@ -20,12 +20,7 @@ int System::Collections::Generic::IEnumerable<T>::LINQ_Count()
 
 Number of elements in the sequence.
 
-## See Also
-
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_Count(const [Func](../../../system/func/)\<T, **bool**\>\&) method
+## IEnumerable::LINQ_Count(const Func\<T, bool\>\&) method
 
 
 Returns the number of elements in the sequence that satisfy the specified condition.
@@ -47,7 +42,7 @@ Number of elements in the sequence that satisfy the specified condition.
 
 ## See Also
 
-* Class [Func](../../../system/func/)
 * Class [IEnumerable](../)
+* Class [Func](../../../system/func/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.mathtext/imathelement/asargumentoffunction/
 ---
-## IMathElement::AsArgumentOfFunction([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>) method
+## IMathElement::AsArgumentOfFunction(System::SharedPtr\<IMathElement\>) method
 
 
 Takes specified function using this instance as the argument
@@ -36,15 +36,7 @@ auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto func = functionArg->AsArgumentOfFunction(functionName);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Class [IMathElement](../)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::AsArgumentOfFunction([System::String](../../../system/string/)) method
+## IMathElement::AsArgumentOfFunction(System::String) method
 
 
 Takes specified function using this instance as the argument
@@ -73,15 +65,7 @@ auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto func = functionArg->AsArgumentOfFunction(u"cos");
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Class [String](../../../system/string/)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::AsArgumentOfFunction([MathFunctionsOfOneArgument](../../mathfunctionsofoneargument/)) method
+## IMathElement::AsArgumentOfFunction(MathFunctionsOfOneArgument) method
 
 
 Takes specified function using this instance as the argument
@@ -110,15 +94,7 @@ auto functionArg = System::MakeObject<MathematicalText>(u"x");
 auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunctionsOfOneArgument::ArcSin);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument/)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::AsArgumentOfFunction([MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>) method
+## IMathElement::AsArgumentOfFunction(MathFunctionsOfTwoArguments, System::SharedPtr\<IMathElement\>) method
 
 
 Takes specified function using this instance as the argument and specified additional argument
@@ -150,16 +126,7 @@ auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunc
 // Returns the logarithm of 'x' to the base '5'
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/)
-* Class [IMathElement](../)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::AsArgumentOfFunction([MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/), [System::String](../../../system/string/)) method
+## IMathElement::AsArgumentOfFunction(MathFunctionsOfTwoArguments, System::String) method
 
 
 Takes specified function using this instance as the argument and specified additional argument
@@ -192,10 +159,11 @@ auto func = functionArg->AsArgumentOfFunction(Aspose::Slides::MathText::MathFunc
 
 ## See Also
 
+* Enum [MathFunctionsOfOneArgument](../../mathfunctionsofoneargument/)
+* Enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathFunction](../../imathfunction/)
-* Enum [MathFunctionsOfTwoArguments](../../mathfunctionsoftwoarguments/)
-* Class [String](../../../system/string/)
 * Class [IMathElement](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

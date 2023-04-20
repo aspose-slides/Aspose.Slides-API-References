@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system/typeinfo/operator_not_equal/
 ---
-## TypeInfo::operator!=(const [TypeInfo](../)\&) const method
+## TypeInfo::operator!=(const TypeInfo\&) const method
 
 
 Determines if the current and the specified [TypeInfo](../) objects are not equal.
@@ -26,12 +26,6 @@ bool System::TypeInfo::operator!=(const TypeInfo &info) const
 
 True if the objects' hashes are not equal, otherwise - false
 
-## See Also
-
-* Class [TypeInfo](../)
-* Class [TypeInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TypeInfo::operator!=(std::nullptr_t) const method
 
 

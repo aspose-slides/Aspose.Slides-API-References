@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.security/securityelement/equal/
 ---
-## SecurityElement::Equal([SecurityElement](../)) method
+## SecurityElement::Equal(SecurityElement) method
 
 
 Checks for parameters equality.
@@ -28,7 +28,6 @@ True if tags match, false otherwise.
 
 ## See Also
 
-* Class [SecurityElement](../)
 * Class [SecurityElement](../)
 * Namespace [System::Security](../../)
 * Library [Aspose.Slides](../../../)

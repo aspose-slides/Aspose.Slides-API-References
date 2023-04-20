@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web/httputility/urldecodetobytes/
 ---
-## HttpUtility::UrlDecodeToBytes(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) method
+## HttpUtility::UrlDecodeToBytes(const System::ArrayPtr\<uint8_t\>\&) method
 
 
 Decodes URI fragment from bytes array.
@@ -26,13 +26,7 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlDecodeToBytes(cons
 
 Decoded URI fragment.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::UrlDecodeToBytes(const [String](../../../system/string/)\&) method
+## HttpUtility::UrlDecodeToBytes(const String\&) method
 
 
 Decodes URI fragment from bytes string.
@@ -52,14 +46,7 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlDecodeToBytes(cons
 
 Decoded URI fragment.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::UrlDecodeToBytes(const [String](../../../system/string/)\&, const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\&) method
+## HttpUtility::UrlDecodeToBytes(const String\&, const System::SharedPtr\<Text::Encoding\>\&) method
 
 
 Decodes URI fragment from string.
@@ -80,16 +67,7 @@ static System::ArrayPtr<uint8_t> System::Web::HttpUtility::UrlDecodeToBytes(cons
 
 Decoded URI fragment.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoding](../../../system.text/encoding/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::UrlDecodeToBytes(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## HttpUtility::UrlDecodeToBytes(const System::ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Decodes URI fragment from bytes array.
@@ -114,6 +92,9 @@ Decoded URI fragment.
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [HttpUtility](../)
+* Class [String](../../../system/string/)
+* Class [Encoding](../../../system.text/encoding/)
 * Namespace [System::Web](../../)
 * Library [Aspose.Slides](../../../)

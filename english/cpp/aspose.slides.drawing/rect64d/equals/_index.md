@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.drawing/rect64d/equals/
 ---
-## Rect64d::Equals(const [Rect64d](../)\&) method
+## Rect64d::Equals(const Rect64d\&) method
 
 
 
@@ -17,7 +17,6 @@ bool Aspose::Slides::Drawing::Rect64d::Equals(const Rect64d &other)
 
 ## See Also
 
-* Class [Rect64d](../)
 * Class [Rect64d](../)
 * Namespace [Aspose::Slides::Drawing](../../)
 * Library [Aspose.Slides](../../../)

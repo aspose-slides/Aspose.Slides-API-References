@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/portioncollection/idx_set/
 ---
-## PortionCollection::idx_set(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IPortion](../../iportion/)\>) method
+## PortionCollection::idx_set(int32_t, System::SharedPtr\<IPortion\>) method
 
 
 Gets the element at the specified index.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/testtools/isnullorempty/
 ---
-## TestTools::IsNullOrEmpty(const [SharedPtr](../../sharedptr/)\<T\>\&) method
+## TestTools::IsNullOrEmpty(const SharedPtr\<T\>\&) method
 
 
 Checks if collection is null or empty.
@@ -32,13 +32,7 @@ template<typename T> static bool System::TestTools::IsNullOrEmpty(const SharedPt
 
 True if collection is null or has zero element count, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Struct [TestTools](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestTools::IsNullOrEmpty(const [System::String](../../string/)\&) method
+## TestTools::IsNullOrEmpty(const System::String\&) method
 
 
 Checks if string is null or empty.
@@ -60,6 +54,7 @@ True if string is null or has zero length, false otherwise.
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [String](../../string/)
 * Struct [TestTools](../)
 * Namespace [System](../../)

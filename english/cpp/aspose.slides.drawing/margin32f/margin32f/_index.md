@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.drawing/margin32f/margin32f/
 ---
-## Margin32f::Margin32f([Vector2d32f](../../vector2d32f/), [Vector2d32f](../../vector2d32f/)) constructor
+## Margin32f::Margin32f(Vector2d32f, Vector2d32f) constructor
 
 
 
@@ -15,13 +15,7 @@ url: /cpp/aspose.slides.drawing/margin32f/margin32f/
 Aspose::Slides::Drawing::Margin32f::Margin32f(Vector2d32f leftTop, Vector2d32f rightBottom)
 ```
 
-## See Also
-
-* Class [Vector2d32f](../../vector2d32f/)
-* Class [Margin32f](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Margin32f::Margin32f(**float**, **float**, **float**, **float**) constructor
+## Margin32f::Margin32f(float, float, float, float) constructor
 
 
 
@@ -30,11 +24,6 @@ Aspose::Slides::Drawing::Margin32f::Margin32f(Vector2d32f leftTop, Vector2d32f r
 Aspose::Slides::Drawing::Margin32f::Margin32f(float left, float top, float right, float bottom)
 ```
 
-## See Also
-
-* Class [Margin32f](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Margin32f::Margin32f() constructor
 
 
@@ -46,6 +35,7 @@ Aspose::Slides::Drawing::Margin32f::Margin32f()
 
 ## See Also
 
+* Class [Vector2d32f](../../vector2d32f/)
 * Class [Margin32f](../)
 * Namespace [Aspose::Slides::Drawing](../../)
 * Library [Aspose.Slides](../../../)

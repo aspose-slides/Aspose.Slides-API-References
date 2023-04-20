@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing.imaging/imageattributes/clearcolormatrix/
 ---
-## ImageAttributes::ClearColorMatrix([ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::ClearColorMatrix(ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

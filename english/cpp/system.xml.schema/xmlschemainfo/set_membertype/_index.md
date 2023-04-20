@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml.schema/xmlschemainfo/set_membertype/
 ---
-## XmlSchemaInfo::set_MemberType(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSimpleType](../../xmlschemasimpletype/)\>\&) method
+## XmlSchemaInfo::set_MemberType(const SharedPtr\<XmlSchemaSimpleType\>\&) method
 
 
 Sets the dynamic schema type for this validated XML node.

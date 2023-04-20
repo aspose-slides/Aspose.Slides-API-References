@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/textanimation/set_effectanimatebackgroundshape/
 ---
-## TextAnimation::set_EffectAnimateBackgroundShape([System::SharedPtr](../../../system/sharedptr/)\<[IEffect](../../ieffect/)\>) method
+## TextAnimation::set_EffectAnimateBackgroundShape(System::SharedPtr\<IEffect\>) method
 
 
 Linked shape effect with group or not (null). Write [IEffect](../../ieffect/).

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides.mathtext/mathmatrix/insertcolumnafter/
 ---
-## MathMatrix::InsertColumnAfter(**int32_t**) method
+## MathMatrix::InsertColumnAfter(int32_t) method
 
 
 Insert a new column after the specified one Initially all elements in the new column are null.

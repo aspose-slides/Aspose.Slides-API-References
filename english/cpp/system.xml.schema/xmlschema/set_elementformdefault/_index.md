@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml.schema/xmlschema/set_elementformdefault/
 ---
-## XmlSchema::set_ElementFormDefault([XmlSchemaForm](../../xmlschemaform/)) method
+## XmlSchema::set_ElementFormDefault(XmlSchemaForm) method
 
 
 Sets the form for elements declared in the target namespace of the schema.

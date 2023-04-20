@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.collections.generic/linkedlist/copyto/
 ---
-## LinkedList::CopyTo([ArrayPtr](../../../system/arrayptr/)\<T\>, int) method
+## LinkedList::CopyTo(ArrayPtr\<T\>, int) method
 
 
 Copies container data into existing array elements.

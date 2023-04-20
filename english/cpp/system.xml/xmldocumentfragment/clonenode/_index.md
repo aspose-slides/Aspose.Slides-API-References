@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmldocumentfragment/clonenode/
 ---
-## XmlDocumentFragment::CloneNode(**bool**) method
+## XmlDocumentFragment::CloneNode(bool) method
 
 
 Creates a duplicate of this node.

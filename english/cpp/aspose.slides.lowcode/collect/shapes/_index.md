@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.lowcode/collect/shapes/
 ---
-## Collect::Shapes([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>) method
+## Collect::Shapes(System::SharedPtr\<Presentation\>) method
 
 
 Collects all instances of [Shape](../../../aspose.slides/shape/) in the [Presentation](../../../aspose.slides/presentation/).

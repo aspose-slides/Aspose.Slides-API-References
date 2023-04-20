@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.net.http.headers/httpcontentheaders/set_lastmodified/
 ---
-## HttpContentHeaders::set_LastModified([Nullable](../../../system/nullable/)\<[DateTimeOffset](../../../system/datetimeoffset/)\>) method
+## HttpContentHeaders::set_LastModified(Nullable\<DateTimeOffset\>) method
 
 
 Sets a value of the 'Last-Modified' header.

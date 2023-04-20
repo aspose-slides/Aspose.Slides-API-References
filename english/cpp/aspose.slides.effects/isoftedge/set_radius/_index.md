@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/isoftedge/set_radius/
 ---
-## ISoftEdge::set_Radius(**double**) method
+## ISoftEdge::set_Radius(double) method
 
 
 Specifies the radius of blur to apply to the edges. Write **double**.

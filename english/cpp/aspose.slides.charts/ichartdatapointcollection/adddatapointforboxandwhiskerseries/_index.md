@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides.charts/ichartdatapointcollection/adddatapointforboxandwhiskerseries/
 ---
-## IChartDataPointCollection::AddDataPointForBoxAndWhiskerSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## IChartDataPointCollection::AddDataPointForBoxAndWhiskerSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is BoxAndWhisker.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization.details/isgregoriancalendarid/
 ---
-## System::Globalization::Details::IsGregorianCalendarId([CalendarId](../calendarid/)) function
+## System::Globalization::Details::IsGregorianCalendarId(CalendarId) function
 
 
 

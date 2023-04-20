@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net.http.headers/warningheadervalue/getwarninglength/
 ---
-## WarningHeaderValue::GetWarningLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## WarningHeaderValue::GetWarningLength(String, int32_t, System::SharedPtr\<Object\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [WarningHeaderValue](../) class.
@@ -30,8 +30,8 @@ Returns the length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [WarningHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)

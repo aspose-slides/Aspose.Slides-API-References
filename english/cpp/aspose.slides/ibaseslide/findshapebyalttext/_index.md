@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/ibaseslide/findshapebyalttext/
 ---
-## IBaseSlide::FindShapeByAltText([System::String](../../../system/string/)) method
+## IBaseSlide::FindShapeByAltText(System::String) method
 
 
 Finds first occurrence of a shape with the specified alternative text.

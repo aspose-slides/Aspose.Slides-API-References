@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/
 Allows to create [VideoPlayerHtmlController](../videoplayerhtmlcontroller/).
 
 ```cpp
-class IVideoPlayerHtmlControllerFactory : public System::Object
+class IVideoPlayerHtmlControllerFactory : public virtual System::Object
 ```
 
 ## Methods

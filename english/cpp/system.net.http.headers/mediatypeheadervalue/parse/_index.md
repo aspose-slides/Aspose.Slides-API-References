@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/mediatypeheadervalue/parse/
 ---
-## MediaTypeHeaderValue::Parse([String](../../../system/string/)) method
+## MediaTypeHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [MediaTypeHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [MediaTypeHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [MediaTypeHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [MediaTypeHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

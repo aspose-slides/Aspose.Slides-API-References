@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.smartart/smartartnode/get_shape/
 ---
-## SmartArtNode::get_Shape(**int32_t**) method
+## SmartArtNode::get_Shape(int32_t) method
 
 
 Returns a shape associated with this node at the specified index. Read-only [Aspose::Slides::SmartArt::ISmartArtShape](../../ismartartshape/)

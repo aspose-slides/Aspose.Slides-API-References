@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.vba/vbaprojectfactory/readvbaproject/
 ---
-## VbaProjectFactory::ReadVbaProject([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## VbaProjectFactory::ReadVbaProject(System::ArrayPtr\<uint8_t\>) method
 
 
 Reads VBA project from OLE container.
@@ -23,8 +23,8 @@ Read VBA project
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IVbaProject](../../ivbaproject/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [IVbaProject](../../ivbaproject/)
 * Class [VbaProjectFactory](../)
 * Namespace [Aspose::Slides::Vba](../../)
 * Library [Aspose.Slides](../../../)

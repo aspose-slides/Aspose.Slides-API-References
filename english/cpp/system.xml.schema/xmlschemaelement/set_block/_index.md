@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemaelement/set_block/
 ---
-## XmlSchemaElement::set_Block([XmlSchemaDerivationMethod](../../xmlschemaderivationmethod/)) method
+## XmlSchemaElement::set_Block(XmlSchemaDerivationMethod) method
 
 
 Sets a **Block** derivation.

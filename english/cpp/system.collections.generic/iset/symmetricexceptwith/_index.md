@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.collections.generic/iset/symmetricexceptwith/
 ---
-## ISet::SymmetricExceptWith([IEnumerablePtr](../ienumerableptr/)) method
+## ISet::SymmetricExceptWith(IEnumerablePtr) method
 
 
 Calculates symmetric exception of two containers. Removes all elements that are present in both containers, but at the same time adds all elements present in **other**, but not in current set.

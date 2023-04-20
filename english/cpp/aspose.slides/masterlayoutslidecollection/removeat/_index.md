@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/masterlayoutslidecollection/removeat/
 ---
-## MasterLayoutSlideCollection::RemoveAt(**int32_t**) method
+## MasterLayoutSlideCollection::RemoveAt(int32_t) method
 
 
 Removes the element at the specified index of the collection.

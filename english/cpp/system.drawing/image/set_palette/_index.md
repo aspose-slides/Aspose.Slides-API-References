@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing/image/set_palette/
 ---
-## Image::set_Palette([Imaging::ColorPalettePtr](../../../system.drawing.imaging/colorpaletteptr/)) method
+## Image::set_Palette(Imaging::ColorPalettePtr) method
 
 
 Sets the color palette used by the image represented by the current object.

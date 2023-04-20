@@ -47,14 +47,7 @@ groupShape->set_Frame(System::MakeObject<ShapeFrame>(100.0f, 300.0f, 500.0f, 40.
 pres->Save(u"GroupShape_out.pptx", SaveFormat::Pptx);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IGroupShape](../../igroupshape/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::AddGroupShape([System::SharedPtr](../../../system/sharedptr/)\<[ISvgImage](../../isvgimage/)\>, **float**, **float**, **float**, **float**) method
+## ShapeCollection::AddGroupShape(System::SharedPtr\<ISvgImage\>, float, float, float, float) method
 
 
 Creates a new [GroupShape](../../groupshape/), fills it with converted shapes from SVG and adds it to the end of the collection.
@@ -82,7 +75,7 @@ Created [GroupShape](../../groupshape/) object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IGroupShape](../../igroupshape/)
-* Class [ISvgImage](../../isvgimage/)
 * Class [ShapeCollection](../)
+* Class [ISvgImage](../../isvgimage/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

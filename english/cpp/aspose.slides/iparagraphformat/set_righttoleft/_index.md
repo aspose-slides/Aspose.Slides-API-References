@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/iparagraphformat/set_righttoleft/
 ---
-## IParagraphFormat::set_RightToLeft([NullableBool](../../nullablebool/)) method
+## IParagraphFormat::set_RightToLeft(NullableBool) method
 
 
 Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Write [NullableBool](../../nullablebool/).

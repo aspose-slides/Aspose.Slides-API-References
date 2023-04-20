@@ -3,10 +3,10 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 794
+weight: 781
 url: /cpp/system.security.cryptography/operator_not_equal/
 ---
-## System::Security::Cryptography::operator!=(std::nullptr_t, const [HashAlgorithmName](../hashalgorithmname/)\&) function
+## System::Security::Cryptography::operator!=(std::nullptr_t, const HashAlgorithmName\&) function
 
 
 
@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography/operator_not_equal/
 constexpr bool System::Security::Cryptography::operator!=(std::nullptr_t, const HashAlgorithmName &)
 ```
 
-## See Also
-
-* Struct [HashAlgorithmName](../hashalgorithmname/)
-* Namespace [System::Security::Cryptography](../)
-* Library [Aspose.Slides](../../)
-## System::Security::Cryptography::operator!=(const [SharedPtr](../../system/sharedptr/)\<[RSAEncryptionPadding](../rsaencryptionpadding/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[RSAEncryptionPadding](../rsaencryptionpadding/)\>\&) function
+## System::Security::Cryptography::operator!=(const SharedPtr\<RSAEncryptionPadding\>\&, const SharedPtr\<RSAEncryptionPadding\>\&) function
 
 
 
@@ -29,13 +24,7 @@ constexpr bool System::Security::Cryptography::operator!=(std::nullptr_t, const 
 bool System::Security::Cryptography::operator!=(const SharedPtr<RSAEncryptionPadding> &left, const SharedPtr<RSAEncryptionPadding> &right)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [RSAEncryptionPadding](../rsaencryptionpadding/)
-* Namespace [System::Security::Cryptography](../)
-* Library [Aspose.Slides](../../)
-## System::Security::Cryptography::operator!=(const [SharedPtr](../../system/sharedptr/)\<[RSASignaturePadding](../rsasignaturepadding/)\>\&, const [SharedPtr](../../system/sharedptr/)\<[RSASignaturePadding](../rsasignaturepadding/)\>\&) function
+## System::Security::Cryptography::operator!=(const SharedPtr\<RSASignaturePadding\>\&, const SharedPtr\<RSASignaturePadding\>\&) function
 
 
 
@@ -47,6 +36,8 @@ bool System::Security::Cryptography::operator!=(const SharedPtr<RSASignaturePadd
 ## See Also
 
 * Typedef [SharedPtr](../../system/sharedptr/)
+* Class [RSAEncryptionPadding](../rsaencryptionpadding/)
 * Class [RSASignaturePadding](../rsasignaturepadding/)
+* Struct [HashAlgorithmName](../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../)
 * Library [Aspose.Slides](../../)

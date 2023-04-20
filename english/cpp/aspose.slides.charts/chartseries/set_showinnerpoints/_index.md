@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/aspose.slides.charts/chartseries/set_showinnerpoints/
 ---
-## ChartSeries::set_ShowInnerPoints(**bool**) method
+## ChartSeries::set_ShowInnerPoints(bool) method
 
 
 Represents inner points. True if inner points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Write **bool**.

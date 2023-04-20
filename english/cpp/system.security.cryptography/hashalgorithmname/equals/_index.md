@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.security.cryptography/hashalgorithmname/equals/
 ---
-## HashAlgorithmName::Equals(const [HashAlgorithmName](../)\&) const method
+## HashAlgorithmName::Equals(const HashAlgorithmName\&) const method
 
 
 
@@ -17,7 +17,6 @@ bool System::Security::Cryptography::HashAlgorithmName::Equals(const HashAlgorit
 
 ## See Also
 
-* Struct [HashAlgorithmName](../)
 * Struct [HashAlgorithmName](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

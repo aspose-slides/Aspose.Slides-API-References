@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/rowcollection/idx_get/
 ---
-## RowCollection::idx_get(**int32_t**) method
+## RowCollection::idx_get(int32_t) method
 
 
 Returns the row at the specified index. Read-only [Row](../../row/).

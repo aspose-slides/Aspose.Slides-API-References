@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/ipictureframelock/set_rotationlocked/
 ---
-## IPictureFrameLock::set_RotationLocked(**bool**) method
+## IPictureFrameLock::set_RotationLocked(bool) method
 
 
 Determines whether a changing rotation angle of this shape is forbidden. Write **bool**.

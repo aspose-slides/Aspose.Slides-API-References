@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.theme/iformatschemeeffectivedata/getbackgroundfillstyles/
 ---
-## IFormatSchemeEffectiveData::GetBackgroundFillStyles([System::Drawing::Color](../../../system.drawing/color/)) method
+## IFormatSchemeEffectiveData::GetBackgroundFillStyles(System::Drawing::Color) method
 
 
 Returns a collection of theme defined background fill styles.

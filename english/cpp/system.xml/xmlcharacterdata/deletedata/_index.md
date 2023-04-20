@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.xml/xmlcharacterdata/deletedata/
 ---
-## XmlCharacterData::DeleteData(**int32_t**, **int32_t**) method
+## XmlCharacterData::DeleteData(int32_t, int32_t) method
 
 
 Removes a range of characters from the node.

@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/system.net/cookie/equals/
 ---
-## Cookie::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## Cookie::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

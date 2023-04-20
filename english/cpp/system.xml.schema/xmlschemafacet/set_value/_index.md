@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemafacet/set_value/
 ---
-## XmlSchemaFacet::set_Value(const [String](../../../system/string/)\&) method
+## XmlSchemaFacet::set_Value(const String\&) method
 
 
 Sets the **value** attribute of the facet.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.http.headers/namevaluewithparametersheadervalue/parse/
 ---
-## NameValueWithParametersHeaderValue::Parse([String](../../../system/string/)) method
+## NameValueWithParametersHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [NameValueWithParametersHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [NameValueWithParametersHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [NameValueWithParametersHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [NameValueWithParametersHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

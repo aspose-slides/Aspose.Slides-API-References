@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.data.common/dbconnectionstringbuilder/set_connectionstring/
 ---
-## DbConnectionStringBuilder::set_ConnectionString([String](../../../system/string/)) method
+## DbConnectionStringBuilder::set_ConnectionString(String) method
 
 
 Sets whole connection string.

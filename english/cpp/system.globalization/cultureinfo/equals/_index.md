@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.globalization/cultureinfo/equals/
 ---
-## CultureInfo::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## CultureInfo::Equals(SharedPtr\<Object\>) method
 
 
 Compares objects.

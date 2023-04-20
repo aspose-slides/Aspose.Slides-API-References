@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.net.sockets/networkstream/seek/
 ---
-## NetworkStream::Seek(**int64_t**, [IO::SeekOrigin](../../../system.io/seekorigin/)) method
+## NetworkStream::Seek(int64_t, IO::SeekOrigin) method
 
 
 Sets the position of the stream represented by the current object.

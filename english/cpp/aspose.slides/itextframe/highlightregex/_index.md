@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/itextframe/highlightregex/
 ---
-## ITextFrame::HighlightRegex([System::String](../../../system/string/), [System::Drawing::Color](../../../system.drawing/color/), [System::SharedPtr](../../../system/sharedptr/)\<[ITextHighlightingOptions](../../itexthighlightingoptions/)\>) method
+## ITextFrame::HighlightRegex(System::String, System::Drawing::Color, System::SharedPtr\<ITextHighlightingOptions\>) method
 
 
 Highlight all matches of regular expression in text frame text using specified color.
@@ -26,9 +26,9 @@ virtual void Aspose::Slides::ITextFrame::HighlightRegex(System::String regex, Sy
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [String](../../../system/string/)
 * Class [Color](../../../system.drawing/color/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ITextHighlightingOptions](../../itexthighlightingoptions/)
 * Class [ITextFrame](../)
 * Namespace [Aspose::Slides](../../)

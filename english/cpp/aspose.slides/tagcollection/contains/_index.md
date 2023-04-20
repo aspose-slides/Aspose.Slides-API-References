@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/tagcollection/contains/
 ---
-## TagCollection::Contains([System::String](../../../system/string/)) method
+## TagCollection::Contains(System::String) method
 
 
 Determines whether the collection contains a specific name.

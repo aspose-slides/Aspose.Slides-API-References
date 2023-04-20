@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/convert/changetype/
 ---
-## Convert::ChangeType(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [TypeInfo](../../typeinfo/)\&) method
+## Convert::ChangeType(const SharedPtr\<Object\>\&, const TypeInfo\&) method
 
 
 NOT IMPLEMENTED.

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathlimitfactory/
 Allows to create [IMathLimit](../imathlimit/)
 
 ```cpp
-class IMathLimitFactory : public System::Object
+class IMathLimitFactory : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 885
 url: /cpp/system/string/fromutf32/
 ---
-## String::FromUtf32(const **uint32_t** *, **int32_t**) method
+## String::FromUtf32(const uint32_t *, int32_t) method
 
 
 Creates [String](../) from utf32 string.
@@ -29,7 +29,6 @@ static String System::String::FromUtf32(const uint32_t *utf32, int32_t length)
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

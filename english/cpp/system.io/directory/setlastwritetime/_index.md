@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.io/directory/setlastwritetime/
 ---
-## Directory::SetLastWriteTime(const [String](../../../system/string/)\&, [DateTime](../../../system/datetime/)) method
+## Directory::SetLastWriteTime(const String\&, DateTime) method
 
 
 Sets the last write time of the specified entity as local time.

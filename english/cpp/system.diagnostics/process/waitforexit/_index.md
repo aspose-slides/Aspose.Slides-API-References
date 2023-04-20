@@ -26,11 +26,6 @@ bool System::Diagnostics::Process::WaitForExit(int milliseconds)
 
 True if process is finished, false if timeout exceeds.
 
-## See Also
-
-* Class [Process](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
 ## Process::WaitForExit() method
 
 

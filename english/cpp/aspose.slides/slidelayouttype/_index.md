@@ -3,7 +3,7 @@ title: SlideLayoutType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the slide layout type.
 type: docs
-weight: 6293
+weight: 6033
 url: /cpp/aspose.slides/slidelayouttype/
 ---
 ## SlideLayoutType enum

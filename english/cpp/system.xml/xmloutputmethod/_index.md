@@ -3,7 +3,7 @@ title: XmlOutputMethod
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the method used to serialize the XmlWriter output.
 type: docs
-weight: 846
+weight: 820
 url: /cpp/system.xml/xmloutputmethod/
 ---
 ## XmlOutputMethod enum

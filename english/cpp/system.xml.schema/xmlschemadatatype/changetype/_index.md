@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemadatatype/changetype/
 ---
-## XmlSchemaDatatype::ChangeType([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlSchemaDatatype::ChangeType(SharedPtr\<Object\>, const TypeInfo\&) method
 
 
 Converts the value specified, whose type is one of the valid representations of the XML schema type represented by the [XmlSchemaDatatype](../), to the run-time type specified.
@@ -27,15 +27,7 @@ virtual SharedPtr<Object> System::Xml::Schema::XmlSchemaDatatype::ChangeType(Sha
 
 The converted input value.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TypeInfo](../../../system/typeinfo/)
-* Class [XmlSchemaDatatype](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaDatatype::ChangeType([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, const [TypeInfo](../../../system/typeinfo/)\&, [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>) method
+## XmlSchemaDatatype::ChangeType(SharedPtr\<Object\>, const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Converts the value specified, whose type is one of the valid representations of the XML schema type represented by the [XmlSchemaDatatype](../), to the run-time type specified using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) if the [XmlSchemaDatatype](../) represents the **xs:QName** type or a type derived from it.
@@ -62,7 +54,7 @@ The converted input value.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
 * Class [TypeInfo](../../../system/typeinfo/)
-* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
 * Class [XmlSchemaDatatype](../)
+* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml.xsl/xsltcontext/resolvefunction/
 ---
-## XsltContext::ResolveFunction([String](../../../system/string/), [String](../../../system/string/), [ArrayPtr](../../../system/arrayptr/)\<[System::Xml::XPath::XPathResultType](../../../system.xml.xpath/xpathresulttype/)\>) method
+## XsltContext::ResolveFunction(String, String, ArrayPtr\<System::Xml::XPath::XPathResultType\>) method
 
 
 When overridden in a derived class, resolves a function reference and returns an [IXsltContextFunction](../../ixsltcontextfunction/) representing the function. The [IXsltContextFunction](../../ixsltcontextfunction/) is used at execution time to get the return value of the function.
@@ -30,11 +30,11 @@ An [IXsltContextFunction](../../ixsltcontextfunction/) representing the function
 
 ## See Also
 
+* Enum [XPathResultType](../../../system.xml.xpath/xpathresulttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [IXsltContextFunction](../../ixsltcontextfunction/)
 * Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [XPathResultType](../../../system.xml.xpath/xpathresulttype/)
 * Class [XsltContext](../)
 * Namespace [System::Xml::Xsl](../../)
 * Library [Aspose.Slides](../../../)

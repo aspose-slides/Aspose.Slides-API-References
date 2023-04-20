@@ -20,11 +20,6 @@ bool System::Nullable<T>::operator!=(std::nullptr_t) const
 
 True if the value represented by the current object is not null, otherwise - false
 
-## See Also
-
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::operator!=(const T1\&) const method
 
 
@@ -51,13 +46,7 @@ template<typename T1> std::enable_if<!IsNullable<T1>::value, bool>::type System:
 
 True if the value represented by the current object is not equal to the specified value, otherwise - false
 
-## See Also
-
-* Struct [IsNullable](../../isnullable/)
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Nullable::operator!=(const [Nullable](../)\<T1\>\&) const method
+## Nullable::operator!=(const Nullable\<T1\>\&) const method
 
 
 Determines if the value represented by the current object is not equal to the value represented by the specified [Nullable](../) object.
@@ -86,6 +75,6 @@ True if the value represented by the current object is not equal to the value re
 ## See Also
 
 * Class [Nullable](../)
-* Class [Nullable](../)
+* Struct [IsNullable](../../isnullable/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

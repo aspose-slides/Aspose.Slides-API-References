@@ -26,11 +26,6 @@ static bool System::Enum<E, Guard>::IsDefined(E value)
 
 True if **value** is a member of enumeration **E**, otherwise - false
 
-## See Also
-
-* Struct [Enum](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Enum::IsDefined(T) method
 
 
@@ -51,13 +46,7 @@ template<class T> static std::enable_if<std::is_convertible<T, UnderlyingType>::
 
 True if **value** is a member of enumeration **T**, otherwise - false
 
-## See Also
-
-* Typedef [UnderlyingType](../underlyingtype/)
-* Struct [Enum](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Enum::IsDefined(const [String](../../string/)\&) method
+## Enum::IsDefined(const String\&) method
 
 
 Determines if the value with the specified name is among members of enum **E**.
@@ -79,6 +68,7 @@ True if a member of enum **E** with the specified name exists.
 
 ## See Also
 
+* Typedef [UnderlyingType](../underlyingtype/)
 * Class [String](../../string/)
 * Struct [Enum](../)
 * Namespace [System](../../)

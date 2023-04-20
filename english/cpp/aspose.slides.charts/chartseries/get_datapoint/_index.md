@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /cpp/aspose.slides.charts/chartseries/get_datapoint/
 ---
-## ChartSeries::get_DataPoint(**int32_t**) method
+## ChartSeries::get_DataPoint(int32_t) method
 
 
 Returns data point of this series at the specified index.
@@ -15,14 +15,7 @@ Returns data point of this series at the specified index.
 System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartSeries::get_DataPoint(int32_t index) override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [ChartSeries](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartSeries::get_DataPoint([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>) method
+## ChartSeries::get_DataPoint(System::SharedPtr\<IChartDataPoint\>) method
 
 
 

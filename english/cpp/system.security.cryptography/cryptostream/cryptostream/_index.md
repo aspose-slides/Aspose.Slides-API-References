@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/cryptostream/cryptostream/
 ---
-## CryptoStream::CryptoStream(const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[ICryptoTransform](../../icryptotransform/)\>\&, [CryptoStreamMode](../../cryptostreammode/)) constructor
+## CryptoStream::CryptoStream(const SharedPtr\<System::IO::Stream\>\&, const SharedPtr\<ICryptoTransform\>\&, CryptoStreamMode) constructor
 
 
 Constructor.
@@ -26,10 +26,10 @@ System::Security::Cryptography::CryptoStream::CryptoStream(const SharedPtr<Syste
 
 ## See Also
 
+* Enum [CryptoStreamMode](../../cryptostreammode/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Stream](../../../system.io/stream/)
 * Class [ICryptoTransform](../../icryptotransform/)
-* Enum [CryptoStreamMode](../../cryptostreammode/)
 * Class [CryptoStream](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

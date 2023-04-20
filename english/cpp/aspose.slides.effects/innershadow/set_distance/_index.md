@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.effects/innershadow/set_distance/
 ---
-## InnerShadow::set_Distance(**double**) method
+## InnerShadow::set_Distance(double) method
 
 
 Distance of shadow. Write **double**.

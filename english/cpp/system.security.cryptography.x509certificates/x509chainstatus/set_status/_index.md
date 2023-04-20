@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.x509certificates/x509chainstatus/set_status/
 ---
-## X509ChainStatus::set_Status([X509ChainStatusFlags](../../x509chainstatusflags/)) method
+## X509ChainStatus::set_Status(X509ChainStatusFlags) method
 
 
 

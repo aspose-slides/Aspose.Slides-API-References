@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing.printing/papersize/set_width/
 ---
-## PaperSize::set_Width(**int32_t**) method
+## PaperSize::set_Width(int32_t) method
 
 
 Sets the width of the paper, in hundredths of an inch.

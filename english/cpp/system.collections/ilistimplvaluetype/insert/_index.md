@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections/ilistimplvaluetype/insert/
 ---
-## IListImplValueType::Insert(int, [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IListImplValueType::Insert(int, System::SharedPtr\<System::Object\>) method
 
 
 Inserts element into specified position, shifting other elements.

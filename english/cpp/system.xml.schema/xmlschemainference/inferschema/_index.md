@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemainference/inferschema/
 ---
-## XmlSchemaInference::InferSchema(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&) method
+## XmlSchemaInference::InferSchema(const SharedPtr\<XmlReader\>\&) method
 
 
 Infers an XML [Schema](../../) Definition Language (XSD) schema from the XML document contained in the [XmlReader](../../../system.xml/xmlreader/) object specified.
@@ -26,15 +26,7 @@ SharedPtr<XmlSchemaSet> System::Xml::Schema::XmlSchemaInference::InferSchema(con
 
 An [XmlSchemaSet](../../xmlschemaset/) object containing the inferred schemas.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaSet](../../xmlschemaset/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XmlSchemaInference](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaInference::InferSchema(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../../xmlschemaset/)\>) method
+## XmlSchemaInference::InferSchema(const SharedPtr\<XmlReader\>\&, SharedPtr\<XmlSchemaSet\>) method
 
 
 Infers an XML [Schema](../../) Definition Language (XSD) schema from the XML document contained in the [XmlReader](../../../system.xml/xmlreader/) object specified, and refines the inferred schema using an existing schema in the [XmlSchemaSet](../../xmlschemaset/) object specified with the same target namespace.

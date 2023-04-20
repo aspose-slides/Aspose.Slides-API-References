@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmlreadersettings/set_linepositionoffset/
 ---
-## XmlReaderSettings::set_LinePositionOffset(**int32_t**) method
+## XmlReaderSettings::set_LinePositionOffset(int32_t) method
 
 
 Sets line position offset of the [XmlReader](../../xmlreader/) object.

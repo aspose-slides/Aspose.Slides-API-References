@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/paragraphcollection/contains/
 ---
-## ParagraphCollection::Contains([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>) method
+## ParagraphCollection::Contains(System::SharedPtr\<IParagraph\>) method
 
 
 Determines whether the [ICollection](../../../system.collections.generic/icollection/) contains a specific value.

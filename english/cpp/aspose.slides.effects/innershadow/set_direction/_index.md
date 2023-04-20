@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.effects/innershadow/set_direction/
 ---
-## InnerShadow::set_Direction(**float**) method
+## InnerShadow::set_Direction(float) method
 
 
 Direction of shadow. Write **float**.

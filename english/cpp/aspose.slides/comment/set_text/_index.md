@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/comment/set_text/
 ---
-## Comment::set_Text([System::String](../../../system/string/)) method
+## Comment::set_Text(System::String) method
 
 
 Sets the plain text of a slide comment. Write [System::String](../../../system/string/).

@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/system.drawing/graphics/set_renderingorigin/
 ---
-## Graphics::set_RenderingOrigin([Point](../../point/)) method
+## Graphics::set_RenderingOrigin(Point) method
 
 
 Sets a [Point](../../point/) object that specifies the rendering origin of the current [Graphics](../) object for dithering and for hatch brushes.

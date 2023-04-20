@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/idigitalsignaturecollection/add/
 ---
-## IDigitalSignatureCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IDigitalSignature](../../idigitalsignature/)\>) method
+## IDigitalSignatureCollection::Add(System::SharedPtr\<IDigitalSignature\>) method
 
 
 Adds the signature at the end of collection.

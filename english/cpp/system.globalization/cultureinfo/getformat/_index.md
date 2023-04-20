@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.globalization/cultureinfo/getformat/
 ---
-## CultureInfo::GetFormat(const [TypeInfo](../../../system/typeinfo/)\&) method
+## CultureInfo::GetFormat(const TypeInfo\&) method
 
 
 Gets format object for specific type.

@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/system.globalization/datetimeformatinfo/getdayname/
 ---
-## DateTimeFormatInfo::GetDayName([DayOfWeek](../../../system/dayofweek/)) const method
+## DateTimeFormatInfo::GetDayName(DayOfWeek) const method
 
 
 Gets week day name.
@@ -28,8 +28,8 @@ Week day name.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [DayOfWeek](../../../system/dayofweek/)
+* Class [String](../../../system/string/)
 * Class [DateTimeFormatInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

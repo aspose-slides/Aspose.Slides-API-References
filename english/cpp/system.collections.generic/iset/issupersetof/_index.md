@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.collections.generic/iset/issupersetof/
 ---
-## ISet::IsSupersetOf([IEnumerablePtr](../ienumerableptr/)) method
+## ISet::IsSupersetOf(IEnumerablePtr) method
 
 
 Checks if current set is a superset of other container.

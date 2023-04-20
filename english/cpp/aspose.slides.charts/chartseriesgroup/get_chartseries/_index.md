@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.slides.charts/chartseriesgroup/get_chartseries/
 ---
-## ChartSeriesGroup::get_ChartSeries(**int32_t**) method
+## ChartSeriesGroup::get_ChartSeries(int32_t) method
 
 
 Returns the chart series in the group at the specified index.

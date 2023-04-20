@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/system.xml/xmldocument/readnode/
 ---
-## XmlDocument::ReadNode([SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../xmlreader/)\>) method
+## XmlDocument::ReadNode(SharedPtr\<XmlReader\>) method
 
 
 Creates an [XmlNode](../../xmlnode/) object based on the information in the [XmlReader](../../xmlreader/). The reader must be positioned on a node or attribute.

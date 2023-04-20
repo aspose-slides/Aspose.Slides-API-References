@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.drawing/rectangle/intersectswith/
 ---
-## Rectangle::IntersectsWith(const [Rectangle](../)\&) method
+## Rectangle::IntersectsWith(const Rectangle\&) method
 
 
 Determines if the rectangles represented by the current and specified objects intesect.
@@ -28,7 +28,6 @@ True if the rectangles represented by the current object and **rect** intersect,
 
 ## See Also
 
-* Class [Rectangle](../)
 * Class [Rectangle](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

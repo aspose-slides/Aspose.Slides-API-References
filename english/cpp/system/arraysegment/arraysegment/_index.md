@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/arraysegment/arraysegment/
 ---
-## ArraySegment::ArraySegment([System::ArrayPtr](../../arrayptr/)\<T\>) constructor
+## ArraySegment::ArraySegment(System::ArrayPtr\<T\>) constructor
 
 
 
@@ -15,13 +15,7 @@ url: /cpp/system/arraysegment/arraysegment/
 System::ArraySegment<T>::ArraySegment(System::ArrayPtr<T> array)
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [ArraySegment](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ArraySegment::ArraySegment([System::ArrayPtr](../../arrayptr/)\<T\>, **int32_t**, **int32_t**) constructor
+## ArraySegment::ArraySegment(System::ArrayPtr\<T\>, int32_t, int32_t) constructor
 
 
 
@@ -30,12 +24,6 @@ System::ArraySegment<T>::ArraySegment(System::ArrayPtr<T> array)
 System::ArraySegment<T>::ArraySegment(System::ArrayPtr<T> array, int32_t offset, int32_t count)
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [ArraySegment](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ArraySegment::ArraySegment() constructor
 
 
@@ -47,6 +35,7 @@ System::ArraySegment<T>::ArraySegment()
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [ArraySegment](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

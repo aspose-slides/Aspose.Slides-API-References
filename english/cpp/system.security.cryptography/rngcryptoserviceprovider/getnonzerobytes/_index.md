@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography/rngcryptoserviceprovider/getnonzerobytes/
 ---
-## RNGCryptoServiceProvider::GetNonZeroBytes([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## RNGCryptoServiceProvider::GetNonZeroBytes(ArrayPtr\<uint8_t\>) method
 
 
 Fills existing array elements with random non-zero bytes.
@@ -22,13 +22,7 @@ void System::Security::Cryptography::RNGCryptoServiceProvider::GetNonZeroBytes(A
 | --- | --- | --- |
 | bytes | [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Bytes array to fill. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RNGCryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RNGCryptoServiceProvider::GetNonZeroBytes(System::Details::ArrayView\<**uint8_t**\>) method
+## RNGCryptoServiceProvider::GetNonZeroBytes(System::Details::ArrayView\<uint8_t\>) method
 
 
 Fills existing array view elements with random non-zero bytes.
@@ -46,6 +40,7 @@ void System::Security::Cryptography::RNGCryptoServiceProvider::GetNonZeroBytes(S
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [RNGCryptoServiceProvider](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

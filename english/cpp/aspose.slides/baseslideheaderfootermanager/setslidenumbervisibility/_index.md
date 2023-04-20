@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/baseslideheaderfootermanager/setslidenumbervisibility/
 ---
-## BaseSlideHeaderFooterManager::SetSlideNumberVisibility(**bool**) method
+## BaseSlideHeaderFooterManager::SetSlideNumberVisibility(bool) method
 
 
 Changes slide page number placeholder visibility.

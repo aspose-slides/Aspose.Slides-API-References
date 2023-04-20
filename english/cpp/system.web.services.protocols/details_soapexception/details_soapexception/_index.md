@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Web::Services::Protocols::Details_SoapException::Details_SoapException()
 ```
 
-## See Also
-
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>) constructor
 
 
 Constructs a new instance.
@@ -37,15 +32,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | message | [String](../../../system/string/) | The exception message. |
 | code | [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\> | The exception code. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [Exception](../../../system/exception/)) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, Exception) constructor
 
 
 Constructs a new instance.
@@ -63,16 +50,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | code | [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\> | The exception code. |
 | innerException | [Exception](../../../system/exception/) | The inner exception. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Typedef [Exception](../../../system/exception/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [String](../../../system/string/)) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, String) constructor
 
 
 Constructs a new instance.
@@ -90,15 +68,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | code | [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\> | The exception code. |
 | actor | [String](../../../system/string/) | The code piece where the exception is thrown. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [String](../../../system/string/), [Exception](../../../system/exception/)) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, String, Exception) constructor
 
 
 Constructs a new instance.
@@ -117,16 +87,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | actor | [String](../../../system/string/) | The code piece where the exception is thrown. |
 | innerException | [Exception](../../../system/exception/) | The inner exception. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Typedef [Exception](../../../system/exception/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlNode](../../../system.xml/xmlnode/)\>) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, String, System::SharedPtr\<Xml::XmlNode\>) constructor
 
 
 Constructs a new instance.
@@ -145,16 +106,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | actor | [String](../../../system/string/) | The code piece where the exception is thrown. |
 | detail | [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlNode](../../../system.xml/xmlnode/)\> | Details about the thrown exception. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [XmlNode](../../../system.xml/xmlnode/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlNode](../../../system.xml/xmlnode/)\>, [Exception](../../../system/exception/)) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, String, System::SharedPtr\<Xml::XmlNode\>, Exception) constructor
 
 
 Constructs a new instance.
@@ -174,17 +126,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | detail | [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlNode](../../../system.xml/xmlnode/)\> | Details about the thrown exception. |
 | innerException | [Exception](../../../system/exception/) | The inner exception. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [XmlNode](../../../system.xml/xmlnode/)
-* Typedef [Exception](../../../system/exception/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [System::SharedPtr](../../../system/sharedptr/)\<SoapFaultSubCode\>) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, System::SharedPtr\<SoapFaultSubCode\>) constructor
 
 
 Constructs a new instance.
@@ -202,15 +144,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | code | [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\> | The exception code. |
 | subcode | [System::SharedPtr](../../../system/sharedptr/)\<SoapFaultSubCode\> | Optional information from the 'subcode' XML element. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [String](../../../system/string/), [String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlNode](../../../system.xml/xmlnode/)\>, [System::SharedPtr](../../../system/sharedptr/)\<SoapFaultSubCode\>, [Exception](../../../system/exception/)) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, String, String, System::SharedPtr\<Xml::XmlNode\>, System::SharedPtr\<SoapFaultSubCode\>, Exception) constructor
 
 
 Constructs a new instance.
@@ -232,17 +166,7 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 | subcode | [System::SharedPtr](../../../system/sharedptr/)\<SoapFaultSubCode\> | Optional information from the 'subcode' XML element. |
 | innerException | [Exception](../../../system/exception/) | The inner exception. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [XmlNode](../../../system.xml/xmlnode/)
-* Typedef [Exception](../../../system/exception/)
-* Class [Details_SoapException](../)
-* Namespace [System::Web::Services::Protocols](../../)
-* Library [Aspose.Slides](../../../)
-## Details_SoapException::Details_SoapException([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>, [String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Xml::XmlNode](../../../system.xml/xmlnode/)\>, [System::SharedPtr](../../../system/sharedptr/)\<SoapFaultSubCode\>, [Exception](../../../system/exception/)) constructor
+## Details_SoapException::Details_SoapException(String, System::SharedPtr\<Xml::XmlQualifiedName\>, String, String, String, System::SharedPtr\<Xml::XmlNode\>, System::SharedPtr\<SoapFaultSubCode\>, Exception) constructor
 
 
 Constructs a new instance.
@@ -267,11 +191,11 @@ System::Web::Services::Protocols::Details_SoapException::Details_SoapException(S
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
-* Class [XmlNode](../../../system.xml/xmlnode/)
 * Typedef [Exception](../../../system/exception/)
 * Class [Details_SoapException](../)
+* Class [String](../../../system/string/)
+* Class [XmlQualifiedName](../../../system.xml/xmlqualifiedname/)
+* Class [XmlNode](../../../system.xml/xmlnode/)
 * Namespace [System::Web::Services::Protocols](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system/datetimeoffset/adddays/
 ---
-## DateTimeOffset::AddDays(**double**) const method
+## DateTimeOffset::AddDays(double) const method
 
 
 Adds a specified number of days to the [DateTimeOffset](../) object.
@@ -28,7 +28,6 @@ Result of operation.
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/mathmatrixfactory/createmathmatrix/
 ---
-## MathMatrixFactory::CreateMathMatrix(**int32_t**, **int32_t**) method
+## MathMatrixFactory::CreateMathMatrix(int32_t, int32_t) method
 
 
 Creates a math matrix

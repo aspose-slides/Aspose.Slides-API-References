@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/chart/set_hastitle/
 ---
-## Chart::set_HasTitle(**bool**) method
+## Chart::set_HasTitle(bool) method
 
 
 Determines whether a chart has a visible title. Write **bool**.

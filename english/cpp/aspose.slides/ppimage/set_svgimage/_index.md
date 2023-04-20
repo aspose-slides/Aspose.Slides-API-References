@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ppimage/set_svgimage/
 ---
-## PPImage::set_SvgImage([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::ISvgImage](../../isvgimage/)\>) method
+## PPImage::set_SvgImage(System::SharedPtr\<Aspose::Slides::ISvgImage\>) method
 
 
 Sets [ISvgImage](../../isvgimage/) object [ISvgImage](../../isvgimage/)

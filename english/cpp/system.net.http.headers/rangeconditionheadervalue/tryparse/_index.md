@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.http.headers/rangeconditionheadervalue/tryparse/
 ---
-## RangeConditionHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[RangeConditionHeaderValue](../)\>\&) method
+## RangeConditionHeaderValue::TryParse(String, System::SharedPtr\<RangeConditionHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [RangeConditionHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RangeConditionHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [RangeConditionHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

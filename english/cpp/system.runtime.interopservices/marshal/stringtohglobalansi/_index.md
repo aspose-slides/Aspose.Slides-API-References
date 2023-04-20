@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.runtime.interopservices/marshal/stringtohglobalansi/
 ---
-## Marshal::StringToHGlobalAnsi(const [String](../../../system/string/)\&) method
+## Marshal::StringToHGlobalAnsi(const String\&) method
 
 
 Copies the contents of a specified string into unmanaged memory.

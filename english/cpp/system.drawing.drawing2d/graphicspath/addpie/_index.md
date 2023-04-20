@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.drawing.drawing2d/graphicspath/addpie/
 ---
-## GraphicsPath::AddPie(**float**, **float**, **float**, **float**, **float**, **float**) method
+## GraphicsPath::AddPie(float, float, float, float, float, float) method
 
 
 Adds the specified outline of the pie shape to the path represented by the current object.
@@ -27,12 +27,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddPie(float x, float y, float wi
 | startAngle | **float** | Specifies the starting angle of the pie in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the pie |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddPie(int, int, int, int, **float**, **float**) method
+## GraphicsPath::AddPie(int, int, int, int, float, float) method
 
 
 Adds the specified outline of the pie shape to the path represented by the current object.
@@ -53,12 +48,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddPie(int x, int y, int width, i
 | startAngle | **float** | Specifies the starting angle of the pie in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the pie |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddPie(const [Rectangle](../../../system.drawing/rectangle/)\&, **float**, **float**) method
+## GraphicsPath::AddPie(const Rectangle\&, float, float) method
 
 
 Adds the specified outline of the pie shape to the path represented by the current object.
@@ -78,7 +68,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddPie(const Rectangle &rect, flo
 
 ## See Also
 
-* Class [Rectangle](../../../system.drawing/rectangle/)
 * Class [GraphicsPath](../)
+* Class [Rectangle](../../../system.drawing/rectangle/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

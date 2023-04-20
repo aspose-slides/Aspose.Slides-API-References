@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net/httpstatusdescription/get/
 ---
-## HttpStatusDescription::Get([HttpStatusCode](../../httpstatuscode/)) method
+## HttpStatusDescription::Get(HttpStatusCode) method
 
 
 Returns a string description of the specified HTTP status code.
@@ -26,14 +26,7 @@ static String System::Net::HttpStatusDescription::Get(HttpStatusCode code)
 
 A string description of the specified HTTP status code.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [HttpStatusCode](../../httpstatuscode/)
-* Class [HttpStatusDescription](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## HttpStatusDescription::Get(**int32_t**) method
+## HttpStatusDescription::Get(int32_t) method
 
 
 Returns a string description of the specified HTTP status code.
@@ -55,6 +48,7 @@ A string description of the specified HTTP status code.
 
 ## See Also
 
+* Enum [HttpStatusCode](../../httpstatuscode/)
 * Class [String](../../../system/string/)
 * Class [HttpStatusDescription](../)
 * Namespace [System::Net](../../)

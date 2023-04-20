@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.security.cryptography/rsa/signdata/
 ---
-## RSA::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&, const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\&) method
+## RSA::SignData(const ByteArrayPtr\&, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm and padding, and signs the result.
@@ -24,16 +24,7 @@ ByteArrayPtr System::Security::Cryptography::RSA::SignData(const ByteArrayPtr &d
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
 | padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return [RSA](../) signature for the input data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSASignaturePadding](../../rsasignaturepadding/)
-* Class [RSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSA::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **int32_t**, **int32_t**, const [HashAlgorithmName](../../hashalgorithmname/)\&, const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\&) method
+## RSA::SignData(const ByteArrayPtr\&, int32_t, int32_t, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm and padding, and signs the result.
@@ -53,16 +44,7 @@ ByteArrayPtr System::Security::Cryptography::RSA::SignData(const ByteArrayPtr &d
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. |
 | padding | const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\& | Padding mode. return [RSA](../) signature for the input data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSASignaturePadding](../../rsasignaturepadding/)
-* Class [RSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSA::SignData(const [StreamPtr](../../../system/streamptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&, const [SharedPtr](../../../system/sharedptr/)\<[RSASignaturePadding](../../rsasignaturepadding/)\>\&) method
+## RSA::SignData(const StreamPtr\&, const HashAlgorithmName\&, const SharedPtr\<RSASignaturePadding\>\&) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm and padding, and signs the result.
@@ -83,10 +65,10 @@ ByteArrayPtr System::Security::Cryptography::RSA::SignData(const StreamPtr &stre
 ## See Also
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Typedef [StreamPtr](../../../system/streamptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [StreamPtr](../../../system/streamptr/)
 * Class [RSASignaturePadding](../../rsasignaturepadding/)
 * Class [RSA](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

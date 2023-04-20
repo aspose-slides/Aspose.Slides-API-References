@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/basicsystemiostreambuf/operator_equal/
 ---
-## BasicSystemIOStreamBuf::operator=(const [BasicSystemIOStreamBuf](../)\&) method
+## BasicSystemIOStreamBuf::operator=(const BasicSystemIOStreamBuf\&) method
 
 
 Copy assignment operator. Deleted.
@@ -15,13 +15,7 @@ Copy assignment operator. Deleted.
 BasicSystemIOStreamBuf & System::IO::BasicSystemIOStreamBuf<Elem, Traits>::operator=(const BasicSystemIOStreamBuf &)=delete
 ```
 
-## See Also
-
-* Class [BasicSystemIOStreamBuf](../)
-* Class [BasicSystemIOStreamBuf](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSystemIOStreamBuf::operator=([BasicSystemIOStreamBuf](../)\&&) method
+## BasicSystemIOStreamBuf::operator=(BasicSystemIOStreamBuf\&&) method
 
 
 Move assignment operator.
@@ -43,7 +37,6 @@ BasicSystemIOStreamBuf & System::IO::BasicSystemIOStreamBuf<Elem, Traits>::opera
 
 ## See Also
 
-* Class [BasicSystemIOStreamBuf](../)
 * Class [BasicSystemIOStreamBuf](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

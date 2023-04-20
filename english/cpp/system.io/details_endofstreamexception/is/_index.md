@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/details_endofstreamexception/is/
 ---
-## Details_EndOfStreamException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_EndOfStreamException::Is(const System::TypeInfo\&) const method
 
 
 

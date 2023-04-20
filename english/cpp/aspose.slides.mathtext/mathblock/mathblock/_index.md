@@ -23,12 +23,7 @@ Example:
 auto mathBlock = System::MakeObject<MathBlock>();
 ```
 
-## See Also
-
-* Class [MathBlock](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathBlock::MathBlock([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) constructor
+## MathBlock::MathBlock(System::SharedPtr\<IMathElement\>) constructor
 
 
 Creates a new mathematical block and puts specified element in it
@@ -52,14 +47,7 @@ Example:
 auto mathBlock = System::MakeObject<MathBlock>(System::MakeObject<MathematicalText>(u"x"));
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathBlock](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathBlock::MathBlock([System::SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>\>\>) constructor
+## MathBlock::MathBlock(System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<IMathElement\>\>\>) constructor
 
 
 Creates a new mathematical block and puts specified elements in it
@@ -87,8 +75,8 @@ auto mathBlock = System::MakeObject<MathBlock>(elems);
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
-* Class [IMathElement](../../imathelement/)
 * Class [MathBlock](../)
+* Class [IMathElement](../../imathelement/)
+* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

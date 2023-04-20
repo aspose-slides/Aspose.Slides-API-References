@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography.xml/xmldsigc14ntransform/loadinput/
 ---
-## XmlDsigC14NTransform::LoadInput([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XmlDsigC14NTransform::LoadInput(SharedPtr\<Object\>) method
 
 
 

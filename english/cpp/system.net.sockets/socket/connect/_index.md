@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/system.net.sockets/socket/connect/
 ---
-## Socket::Connect([System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::Connect(System::SharedPtr\<EndPoint\>) method
 
 
 Establishes a connection to the specified remote endpoint.
@@ -22,14 +22,7 @@ void System::Net::Sockets::Socket::Connect(System::SharedPtr<EndPoint> remoteEP)
 | --- | --- | --- |
 | remoteEP | [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\> | The remote endpoint. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Connect([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../../system.net/ipaddress/)\>, **int32_t**) method
+## Socket::Connect(System::SharedPtr\<IPAddress\>, int32_t) method
 
 
 Establishes a connection to the specified remote endpoint.
@@ -46,14 +39,7 @@ void System::Net::Sockets::Socket::Connect(System::SharedPtr<IPAddress> address,
 | address | [System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../../system.net/ipaddress/)\> | The remote host IP address. |
 | port | **int32_t** | The port number of the remote host. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPAddress](../../../system.net/ipaddress/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Connect([String](../../../system/string/), **int32_t**) method
+## Socket::Connect(String, int32_t) method
 
 
 Establishes a connection to the specified remote endpoint.
@@ -70,13 +56,7 @@ void System::Net::Sockets::Socket::Connect(String host, int32_t port)
 | host | [String](../../../system/string/) | The remote host name. |
 | port | **int32_t** | The port number of the remote host. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Connect([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../../system.net/ipaddress/)\>\>, **int32_t**) method
+## Socket::Connect(System::ArrayPtr\<System::SharedPtr\<IPAddress\>\>, int32_t) method
 
 
 Establishes a connection to the specified remote endpoint.
@@ -95,9 +75,11 @@ void System::Net::Sockets::Socket::Connect(System::ArrayPtr<System::SharedPtr<IP
 
 ## See Also
 
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPAddress](../../../system.net/ipaddress/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [EndPoint](../../../system.net/endpoint/)
 * Class [Socket](../)
+* Class [IPAddress](../../../system.net/ipaddress/)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

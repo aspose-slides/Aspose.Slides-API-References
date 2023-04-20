@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.collections.generic/iset/overlaps/
 ---
-## ISet::Overlaps([IEnumerablePtr](../ienumerableptr/)) method
+## ISet::Overlaps(IEnumerablePtr) method
 
 
 Checks if set overlaps with other container.

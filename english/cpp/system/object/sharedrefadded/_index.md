@@ -27,6 +27,5 @@ Implementation.
 ## See Also
 
 * Class [Object](../)
-* Class [Object](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

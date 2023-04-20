@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography.xml/transform/loadinnerxml/
 ---
-## Transform::LoadInnerXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlNodeList](../../../system.xml/xmlnodelist/)\>) method
+## Transform::LoadInnerXml(SharedPtr\<System::Xml::XmlNodeList\>) method
 
 
 

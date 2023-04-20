@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.security.cryptography/ecdsabotan/toxmlstring/
 ---
-## ECDsaBotan::ToXmlString(**bool**) method
+## ECDsaBotan::ToXmlString(bool) method
 
 
 Exports all parameters in XML format. Not implemented.
@@ -26,13 +26,7 @@ String System::Security::Cryptography::ECDsaBotan::ToXmlString(bool include_priv
 
 XML-encoded parameters.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ECDsaBotan](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsaBotan::ToXmlString([ECKeyXmlFormat](../../eckeyxmlformat/)) method
+## ECDsaBotan::ToXmlString(ECKeyXmlFormat) method
 
 
 Exports all parameters in XML format.
@@ -54,8 +48,8 @@ XML-encoded parameters.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [ECKeyXmlFormat](../../eckeyxmlformat/)
+* Class [String](../../../system/string/)
 * Class [ECDsaBotan](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

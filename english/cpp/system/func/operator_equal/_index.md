@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/func/operator_equal/
 ---
-## Func::operator=(const [Func](../)\&) method
+## Func::operator=(const Func\&) method
 
 
 Copy assignment.
@@ -26,13 +26,7 @@ Func & System::Func<Args>::operator=(const Func &other)
 
 Reference to this.
 
-## See Also
-
-* Class [Func](../)
-* Class [Func](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Func::operator=([Func](../)\&&) method
+## Func::operator=(Func\&&) method
 
 
 Move assignment.
@@ -54,7 +48,6 @@ Reference to this.
 
 ## See Also
 
-* Class [Func](../)
 * Class [Func](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

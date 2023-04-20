@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing/image/saveadd/
 ---
-## Image::SaveAdd(const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)\&) method
+## Image::SaveAdd(const Imaging::EncoderParametersPtr\&) method
 
 
 Adds a frame to the file or stream specified in a previous call to the [Save()](../save/) method.
@@ -22,13 +22,7 @@ void System::Drawing::Image::SaveAdd(const Imaging::EncoderParametersPtr &encode
 | --- | --- | --- |
 | encoder_params | const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)\& | The parameters of the encoder to use |
 
-## See Also
-
-* Typedef [EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)
-* Class [Image](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Image::SaveAdd(const [SharedPtr](../../../system/sharedptr/)\<[Image](../)\>\&, const [Imaging::EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)\&) method
+## Image::SaveAdd(const SharedPtr\<Image\>\&, const Imaging::EncoderParametersPtr\&) method
 
 
 Adds a frame to the file or stream specified in a previous call to the [Save()](../save/) method.
@@ -47,9 +41,8 @@ void System::Drawing::Image::SaveAdd(const SharedPtr<Image> &image, const Imagin
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../)
 * Typedef [EncoderParametersPtr](../../../system.drawing.imaging/encoderparametersptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Image](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

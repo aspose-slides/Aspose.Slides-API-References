@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.xsl/ixsltcontextvariable/evaluate/
 ---
-## IXsltContextVariable::Evaluate([SharedPtr](../../../system/sharedptr/)\<[XsltContext](../../xsltcontext/)\>) method
+## IXsltContextVariable::Evaluate(SharedPtr\<XsltContext\>) method
 
 
 Evaluates the variable at runtime and returns an object that represents the value of the variable.

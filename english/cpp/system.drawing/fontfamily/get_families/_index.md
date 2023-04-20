@@ -20,6 +20,5 @@ static ArrayPtr<SharedPtr<FontFamily>> System::Drawing::FontFamily::get_Families
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [FontFamily](../)
-* Class [FontFamily](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

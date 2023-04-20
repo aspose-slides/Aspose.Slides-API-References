@@ -15,12 +15,7 @@ Creates new default load options.
 Aspose::Slides::LoadOptions::LoadOptions()
 ```
 
-## See Also
-
-* Class [LoadOptions](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## LoadOptions::LoadOptions([Aspose::Slides::LoadFormat](../../loadformat/)) constructor
+## LoadOptions::LoadOptions(Aspose::Slides::LoadFormat) constructor
 
 
 Creates new load options.

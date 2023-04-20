@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/fillformat/set_filltype/
 ---
-## FillFormat::set_FillType([Aspose::Slides::FillType](../../filltype/)) method
+## FillFormat::set_FillType(Aspose::Slides::FillType) method
 
 
 Sets the type of filling. Write [Slides::FillType](../../filltype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.text.regularexpressions/regex/split/
 ---
-## Regex::Split(const [String](../../../system/string/)\&) method
+## Regex::Split(const String\&) method
 
 
 Splits string by regex matches.
@@ -26,14 +26,7 @@ ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const String &in
 
 [Array](../../../system/array/) of substrings between matches.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Split(const [String](../../../system/string/)\&, int) method
+## Regex::Split(const String\&, int) method
 
 
 Splits string by regex matches.
@@ -54,14 +47,7 @@ ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const String &in
 
 [Array](../../../system/array/) of substrings between matches.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Split(const [String](../../../system/string/)\&, int, int) method
+## Regex::Split(const String\&, int, int) method
 
 
 Splits an input string a specified maximum number of times into an array of substrings, at the positions defined by a regular expression specified in the [Regex](../) constructor. The search for the regular expression pattern starts at a specified character position in the input string.
@@ -83,14 +69,7 @@ ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const String &in
 
 An array of strings.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Split(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [RegexOptions](../../regexoptions/), [TimeSpan](../../../system/timespan/)) method
+## Regex::Split(const String\&, const String\&, RegexOptions, TimeSpan) method
 
 
 Splits string by regexp.
@@ -113,16 +92,7 @@ static ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const Str
 
 [Array](../../../system/array/) of strings between matchse.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
-* Enum [RegexOptions](../../regexoptions/)
-* Class [TimeSpan](../../../system/timespan/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Split(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, int, [RegexOptions](../../regexoptions/), [TimeSpan](../../../system/timespan/)) method
+## Regex::Split(const String\&, const String\&, int, RegexOptions, TimeSpan) method
 
 
 Splits string by regexp.
@@ -148,10 +118,10 @@ static ArrayPtr<String> System::Text::RegularExpressions::Regex::Split(const Str
 
 ## See Also
 
+* Enum [RegexOptions](../../regexoptions/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
-* Enum [RegexOptions](../../regexoptions/)
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Regex](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

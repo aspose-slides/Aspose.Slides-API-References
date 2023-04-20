@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.mathtext/mathfraction/mathfraction/
 ---
-## MathFraction::MathFraction([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [MathFractionTypes](../../mathfractiontypes/)) constructor
+## MathFraction::MathFraction(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>, MathFractionTypes) constructor
 
 
 Initializes [MathFraction](../) with the specified numerator, denominator and type
@@ -32,15 +32,7 @@ Example:
 auto mathFraction = System::MakeObject<MathFraction>(System::MakeObject<MathematicalText>(u"x"), System::MakeObject<MathematicalText>(u"y"), Aspose::Slides::MathText::MathFractionTypes::Linear);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathElement](../../imathelement/)
-* Enum [MathFractionTypes](../../mathfractiontypes/)
-* Class [MathFraction](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathFraction::MathFraction([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) constructor
+## MathFraction::MathFraction(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) constructor
 
 
 Initializes a [MathFraction](../) of type 'Bar' with the specified numerator and denominator
@@ -67,6 +59,7 @@ auto mathFraction = System::MakeObject<MathFraction>(System::MakeObject<Mathemat
 
 ## See Also
 
+* Enum [MathFractionTypes](../../mathfractiontypes/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathElement](../../imathelement/)
 * Class [MathFraction](../)

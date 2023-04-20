@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.xml/xmldocument/createelement/
 ---
-## XmlDocument::CreateElement(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateElement(const String\&) method
 
 
 Creates an element with the specified name.
@@ -26,15 +26,7 @@ SharedPtr<XmlElement> System::Xml::XmlDocument::CreateElement(const String &name
 
 The new [XmlElement](../../xmlelement/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlElement](../../xmlelement/)
-* Class [String](../../../system/string/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::CreateElement(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateElement(const String\&, const String\&) method
 
 
 Creates an [XmlElement](../../xmlelement/) with the qualified name and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).
@@ -55,15 +47,7 @@ SharedPtr<XmlElement> System::Xml::XmlDocument::CreateElement(const String &qual
 
 The new [XmlElement](../../xmlelement/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlElement](../../xmlelement/)
-* Class [String](../../../system/string/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::CreateElement(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateElement(const String\&, const String\&, const String\&) method
 
 
 Creates an element with the specified [XmlNode::get_Prefix](../../xmlnode/get_prefix/), [XmlDocument::get_LocalName](../get_localname/), and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.io/file/getlastwritetime/
 ---
-## File::GetLastWriteTime(const [String](../../../system/string/)\&) method
+## File::GetLastWriteTime(const String\&) method
 
 
 Returns the last write time of the specified entity as local time.

@@ -20,13 +20,7 @@ String System::String::ToString() const
 
 Copy of current string. It is considered a null string if current string is a null string.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::ToString(const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## String::ToString(const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Wrapper for handling [String](../) class in contexts where [ToString()](./) is being called on value type objects.
@@ -42,9 +36,8 @@ Copy of current string. It is considered a null string if current string is a nu
 
 ## See Also
 
-* Class [String](../)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
 * Class [String](../)
+* Class [IFormatProvider](../../iformatprovider/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

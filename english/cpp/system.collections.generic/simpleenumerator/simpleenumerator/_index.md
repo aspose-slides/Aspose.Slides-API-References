@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic/simpleenumerator/simpleenumerator/
 ---
-## SimpleEnumerator::SimpleEnumerator([Object::ptr](../../../system/object/ptr/), Container\&) constructor
+## SimpleEnumerator::SimpleEnumerator(Object::ptr, Container\&) constructor
 
 
 Creates simple iterator.

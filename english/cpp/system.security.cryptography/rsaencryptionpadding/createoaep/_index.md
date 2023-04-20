@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/rsaencryptionpadding/createoaep/
 ---
-## RSAEncryptionPadding::CreateOaep(const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## RSAEncryptionPadding::CreateOaep(const HashAlgorithmName\&) method
 
 
 Creates [RSAEncryptionPadding](../) with OAEP mode and specified hash algorithm.
@@ -20,6 +20,5 @@ static SharedPtr<RSAEncryptionPadding> System::Security::Cryptography::RSAEncryp
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RSAEncryptionPadding](../)
 * Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [RSAEncryptionPadding](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

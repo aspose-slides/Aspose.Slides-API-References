@@ -3,10 +3,10 @@ title: operator<<()
 second_title: Aspose.Slides for C++ API Reference
 description: Insert data into the stream using UTF-8 encoding.
 type: docs
-weight: 1990
+weight: 1860
 url: /cpp/system/operator_less_less/
 ---
-## System::operator<<(std::ostream\&, [DateTime](../datetime/)) function
+## System::operator<<(std::ostream\&, DateTime) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -27,12 +27,7 @@ std::ostream & System::operator<<(std::ostream &stream, DateTime date_time)
 
 **stream**.
 
-## See Also
-
-* Class [DateTime](../datetime/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, [DateTime](../datetime/)) function
+## System::operator<<(std::wostream\&, DateTime) function
 
 
 Insert data into the stream.
@@ -53,12 +48,7 @@ std::wostream & System::operator<<(std::wostream &stream, DateTime date_time)
 
 **stream**.
 
-## See Also
-
-* Class [DateTime](../datetime/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, [DateTimeOffset](../datetimeoffset/)) function
+## System::operator<<(std::ostream\&, DateTimeOffset) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -79,12 +69,7 @@ std::ostream & System::operator<<(std::ostream &stream, DateTimeOffset value)
 
 **stream**.
 
-## See Also
-
-* Class [DateTimeOffset](../datetimeoffset/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, [DateTimeOffset](../datetimeoffset/)) function
+## System::operator<<(std::wostream\&, DateTimeOffset) function
 
 
 Insert data into the stream.
@@ -105,12 +90,7 @@ std::wostream & System::operator<<(std::wostream &stream, DateTimeOffset value)
 
 **stream**.
 
-## See Also
-
-* Class [DateTimeOffset](../datetimeoffset/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [Decimal](../decimal/)\&) function
+## System::operator<<(std::ostream\&, const Decimal\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -131,12 +111,7 @@ std::ostream & System::operator<<(std::ostream &stream, const Decimal &decimal)
 
 **stream**.
 
-## See Also
-
-* Class [Decimal](../decimal/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [Decimal](../decimal/)\&) function
+## System::operator<<(std::wostream\&, const Decimal\&) function
 
 
 Insert data into the stream.
@@ -157,12 +132,7 @@ std::wostream & System::operator<<(std::wostream &stream, const Decimal &decimal
 
 **stream**.
 
-## See Also
-
-* Class [Decimal](../decimal/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [Exception](../exception/)\&) function
+## System::operator<<(std::ostream\&, const Exception\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -183,12 +153,7 @@ std::ostream & System::operator<<(std::ostream &stream, const Exception &excepti
 
 **stream**.
 
-## See Also
-
-* Typedef [Exception](../exception/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [Exception](../exception/)\&) function
+## System::operator<<(std::wostream\&, const Exception\&) function
 
 
 Insert data into the stream.
@@ -209,12 +174,7 @@ std::wostream & System::operator<<(std::wostream &stream, const Exception &excep
 
 **stream**.
 
-## See Also
-
-* Typedef [Exception](../exception/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [Guid](../guid/)\&) function
+## System::operator<<(std::ostream\&, const Guid\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -235,12 +195,7 @@ std::ostream & System::operator<<(std::ostream &stream, const Guid &guid)
 
 **stream**.
 
-## See Also
-
-* Class [Guid](../guid/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [Guid](../guid/)\&) function
+## System::operator<<(std::wostream\&, const Guid\&) function
 
 
 Insert data into the stream.
@@ -261,12 +216,7 @@ std::wostream & System::operator<<(std::wostream &stream, const Guid &guid)
 
 **stream**.
 
-## See Also
-
-* Class [Guid](../guid/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [Nullable](../nullable/)\<T\>\&) function
+## System::operator<<(std::ostream\&, const Nullable\<T\>\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -287,12 +237,7 @@ template<typename T> std::ostream & System::operator<<(std::ostream &stream, con
 
 **stream**.
 
-## See Also
-
-* Class [Nullable](../nullable/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [Nullable](../nullable/)\<T\>\&) function
+## System::operator<<(std::wostream\&, const Nullable\<T\>\&) function
 
 
 Insert data into the stream.
@@ -313,12 +258,7 @@ template<typename T> std::wostream & System::operator<<(std::wostream &stream, c
 
 **stream**.
 
-## See Also
-
-* Class [Nullable](../nullable/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [System::Object](../object/)\&) function
+## System::operator<<(std::ostream\&, const System::Object\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -339,12 +279,7 @@ std::ostream & System::operator<<(std::ostream &stream, const System::Object &ob
 
 **stream**.
 
-## See Also
-
-* Class [Object](../object/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [System::Object](../object/)\&) function
+## System::operator<<(std::wostream\&, const System::Object\&) function
 
 
 Insert data into the stream.
@@ -365,12 +300,7 @@ std::wostream & System::operator<<(std::wostream &stream, const System::Object &
 
 **stream**.
 
-## See Also
-
-* Class [Object](../object/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [OperatingSystem](../operatingsystem/)\&) function
+## System::operator<<(std::ostream\&, const OperatingSystem\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -391,12 +321,7 @@ std::ostream & System::operator<<(std::ostream &stream, const OperatingSystem &o
 
 **stream**.
 
-## See Also
-
-* Class [OperatingSystem](../operatingsystem/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [OperatingSystem](../operatingsystem/)\&) function
+## System::operator<<(std::wostream\&, const OperatingSystem\&) function
 
 
 Insert data into the stream.
@@ -417,12 +342,7 @@ std::wostream & System::operator<<(std::wostream &stream, const OperatingSystem 
 
 **stream**.
 
-## See Also
-
-* Class [OperatingSystem](../operatingsystem/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [SharedPtr](../sharedptr/)\<T\>\&) function
+## System::operator<<(std::ostream\&, const SharedPtr\<T\>\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -443,12 +363,7 @@ template<typename T> std::ostream & System::operator<<(std::ostream &stream, con
 
 **stream**.
 
-## See Also
-
-* Typedef [SharedPtr](../sharedptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [SharedPtr](../sharedptr/)\<T\>\&) function
+## System::operator<<(std::wostream\&, const SharedPtr\<T\>\&) function
 
 
 Insert data into the stream.
@@ -469,12 +384,7 @@ template<typename T> std::wostream & System::operator<<(std::wostream &stream, c
 
 **stream**.
 
-## See Also
-
-* Typedef [SharedPtr](../sharedptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [String](../string/)\&) function
+## System::operator<<(std::ostream\&, const String\&) function
 
 
 Outputs a string to the output stream using UTF-8 encoding.
@@ -495,12 +405,7 @@ std::ostream & System::operator<<(std::ostream &os, const String &str)
 
 An output stream to which the string was added.
 
-## See Also
-
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [String](../string/)\&) function
+## System::operator<<(std::wostream\&, const String\&) function
 
 
 Outputs a string to the output stream.
@@ -521,12 +426,7 @@ std::wostream & System::operator<<(std::wostream &os, const String &str)
 
 An output stream to which the string was added.
 
-## See Also
-
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, [TimeSpan](../timespan/)) function
+## System::operator<<(std::ostream\&, TimeSpan) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -547,12 +447,7 @@ std::ostream & System::operator<<(std::ostream &stream, TimeSpan time_span)
 
 **stream**.
 
-## See Also
-
-* Class [TimeSpan](../timespan/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, [TimeSpan](../timespan/)) function
+## System::operator<<(std::wostream\&, TimeSpan) function
 
 
 Insert data into the stream.
@@ -573,12 +468,7 @@ std::wostream & System::operator<<(std::wostream &stream, TimeSpan time_span)
 
 **stream**.
 
-## See Also
-
-* Class [TimeSpan](../timespan/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [TypeInfo](../typeinfo/)\&) function
+## System::operator<<(std::ostream\&, const TypeInfo\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -599,12 +489,7 @@ std::ostream & System::operator<<(std::ostream &stream, const TypeInfo &type_inf
 
 **stream**.
 
-## See Also
-
-* Class [TypeInfo](../typeinfo/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [TypeInfo](../typeinfo/)\&) function
+## System::operator<<(std::wostream\&, const TypeInfo\&) function
 
 
 Insert data into the stream.
@@ -625,12 +510,7 @@ std::wostream & System::operator<<(std::wostream &stream, const TypeInfo &type_i
 
 **stream**.
 
-## See Also
-
-* Class [TypeInfo](../typeinfo/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [Version](../version/)\&) function
+## System::operator<<(std::ostream\&, const Version\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -651,12 +531,7 @@ std::ostream & System::operator<<(std::ostream &stream, const Version &version)
 
 **stream**.
 
-## See Also
-
-* Class [Version](../version/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [Version](../version/)\&) function
+## System::operator<<(std::wostream\&, const Version\&) function
 
 
 Insert data into the stream.
@@ -677,12 +552,7 @@ std::wostream & System::operator<<(std::wostream &stream, const Version &version
 
 **stream**.
 
-## See Also
-
-* Class [Version](../version/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::ostream\&, const [WeakPtr](../weakptr/)\<T\>\&) function
+## System::operator<<(std::ostream\&, const WeakPtr\<T\>\&) function
 
 
 Insert data into the stream using UTF-8 encoding.
@@ -703,12 +573,7 @@ template<typename T> std::ostream & System::operator<<(std::ostream &stream, con
 
 **stream**.
 
-## See Also
-
-* Class [WeakPtr](../weakptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator<<(std::wostream\&, const [WeakPtr](../weakptr/)\<T\>\&) function
+## System::operator<<(std::wostream\&, const WeakPtr\<T\>\&) function
 
 
 Insert data into the stream.
@@ -731,6 +596,19 @@ template<typename T> std::wostream & System::operator<<(std::wostream &stream, c
 
 ## See Also
 
+* Typedef [Exception](../exception/)
+* Typedef [SharedPtr](../sharedptr/)
+* Class [DateTime](../datetime/)
+* Class [DateTimeOffset](../datetimeoffset/)
+* Class [Decimal](../decimal/)
+* Class [Guid](../guid/)
+* Class [Nullable](../nullable/)
+* Class [Object](../object/)
+* Class [OperatingSystem](../operatingsystem/)
+* Class [String](../string/)
+* Class [TimeSpan](../timespan/)
+* Class [TypeInfo](../typeinfo/)
+* Class [Version](../version/)
 * Class [WeakPtr](../weakptr/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.xml/xmldocument/createnode/
 ---
-## XmlDocument::CreateNode([XmlNodeType](../../xmlnodetype/), const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateNode(XmlNodeType, const String\&, const String\&, const String\&) method
 
 
 Creates a [XmlNode](../../xmlnode/) with the specified XmlNodeType, [XmlNode::get_Prefix](../../xmlnode/get_prefix/), [XmlDocument::get_Name](../get_name/), and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).
@@ -29,16 +29,7 @@ virtual SharedPtr<XmlNode> System::Xml::XmlDocument::CreateNode(XmlNodeType type
 
 The new [XmlNode](../../xmlnode/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../../xmlnode/)
-* Enum [XmlNodeType](../../xmlnodetype/)
-* Class [String](../../../system/string/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::CreateNode(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateNode(const String\&, const String\&, const String\&) method
 
 
 Creates an [XmlNode](../../xmlnode/) with the specified node type, [XmlDocument::get_Name](../get_name/), and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).
@@ -81,15 +72,7 @@ The **nodeTypeString** parameter is case sensitive and must be one of the values
 | whitespace| Whitespace |
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../../xmlnode/)
-* Class [String](../../../system/string/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::CreateNode([XmlNodeType](../../xmlnodetype/), const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateNode(XmlNodeType, const String\&, const String\&) method
 
 
 Creates an [XmlNode](../../xmlnode/) with the specified XmlNodeType, [XmlDocument::get_Name](../get_name/), and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).
@@ -113,9 +96,9 @@ The new [XmlNode](../../xmlnode/).
 
 ## See Also
 
+* Enum [XmlNodeType](../../xmlnodetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNode](../../xmlnode/)
-* Enum [XmlNodeType](../../xmlnodetype/)
 * Class [String](../../../system/string/)
 * Class [XmlDocument](../)
 * Namespace [System::Xml](../../)

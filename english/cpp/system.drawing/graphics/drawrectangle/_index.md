@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.drawing/graphics/drawrectangle/
 ---
-## Graphics::DrawRectangle(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, int, int, int, int) method
+## Graphics::DrawRectangle(const SharedPtr\<Pen\>\&, int, int, int, int) method
 
 
 Draws the specified rectangle using the specified pen on the surface represented by the current object.
@@ -26,14 +26,7 @@ void System::Drawing::Graphics::DrawRectangle(const SharedPtr<Pen> &pen, int x, 
 | width | int | The width of the rectangle to draw |
 | height | int | The height of the rectangle to draw |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawRectangle(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, **float**, **float**, **float**, **float**) method
+## Graphics::DrawRectangle(const SharedPtr\<Pen\>\&, float, float, float, float) method
 
 
 Draws the specified rectangle using the specified pen on the surface represented by the current object.
@@ -53,14 +46,7 @@ void System::Drawing::Graphics::DrawRectangle(const SharedPtr<Pen> &pen, float x
 | width | **float** | The width of the rectangle to draw |
 | height | **float** | The height of the rectangle to draw |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawRectangle(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, [Rectangle](../../rectangle/)) method
+## Graphics::DrawRectangle(const SharedPtr\<Pen\>\&, Rectangle) method
 
 
 Draws the specified rectangle using the specified pen on the surface represented by the current object.
@@ -81,7 +67,7 @@ void System::Drawing::Graphics::DrawRectangle(const SharedPtr<Pen> &pen, Rectang
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Pen](../../pen/)
-* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
+* Class [Rectangle](../../rectangle/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

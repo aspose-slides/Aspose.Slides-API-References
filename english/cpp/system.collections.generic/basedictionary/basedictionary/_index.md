@@ -15,11 +15,6 @@ Creates empty data structure.
 System::Collections::Generic::BaseDictionary<Map>::BaseDictionary()
 ```
 
-## See Also
-
-* Class [BaseDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## BaseDictionary::BaseDictionary(int, const Args\&...) constructor
 
 
@@ -42,12 +37,7 @@ template<class...> System::Collections::Generic::BaseDictionary<Map>::BaseDictio
 | --- | --- | --- |
 | args | int | Arguments to forward to underlying map. |
 
-## See Also
-
-* Class [BaseDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## BaseDictionary::BaseDictionary([BaseType](../basetype/) *, const Args\&...) constructor
+## BaseDictionary::BaseDictionary(BaseType *, const Args\&...) constructor
 
 
 Copying constructor.
@@ -70,13 +60,7 @@ template<class...> System::Collections::Generic::BaseDictionary<Map>::BaseDictio
 | src | [BaseType](../basetype/) * | [Object](../../../system/object/) to copy data from. |
 | args | const Args\&... | Arguments to forward to underlying map constructor. |
 
-## See Also
-
-* Typedef [BaseType](../basetype/)
-* Class [BaseDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## BaseDictionary::BaseDictionary([BaseType](../basetype/) *) constructor
+## BaseDictionary::BaseDictionary(BaseType *) constructor
 
 
 Copying constructor.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/audiocollection/addaudio/
 ---
-## AudioCollection::AddAudio([System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../iaudio/)\>) method
+## AudioCollection::AddAudio(System::SharedPtr\<IAudio\>) method
 
 
 Adds a copy of an audio file from an another presentation.
@@ -26,14 +26,7 @@ System::SharedPtr<IAudio> Aspose::Slides::AudioCollection::AddAudio(System::Shar
 
 Added audio.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAudio](../../iaudio/)
-* Class [AudioCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## AudioCollection::AddAudio([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## AudioCollection::AddAudio(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Creates and adds a audio to a presentation from stream.
@@ -53,15 +46,7 @@ System::SharedPtr<IAudio> Aspose::Slides::AudioCollection::AddAudio(System::Shar
 
 Added audio.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAudio](../../iaudio/)
-* Class [Stream](../../../system.io/stream/)
-* Class [AudioCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## AudioCollection::AddAudio([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [LoadingStreamBehavior](../../loadingstreambehavior/)) method
+## AudioCollection::AddAudio(System::SharedPtr\<System::IO::Stream\>, LoadingStreamBehavior) method
 
 
 Creates and adds a audio to a presentation from stream.
@@ -82,16 +67,7 @@ System::SharedPtr<IAudio> Aspose::Slides::AudioCollection::AddAudio(System::Shar
 
 Added audio.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAudio](../../iaudio/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [LoadingStreamBehavior](../../loadingstreambehavior/)
-* Class [AudioCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## AudioCollection::AddAudio([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## AudioCollection::AddAudio(System::ArrayPtr\<uint8_t\>) method
 
 
 Creates and adds a audio to a presentation from byte array.
@@ -113,9 +89,11 @@ Added audio.
 
 ## See Also
 
+* Enum [LoadingStreamBehavior](../../loadingstreambehavior/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAudio](../../iaudio/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [IAudio](../../iaudio/)
 * Class [AudioCollection](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

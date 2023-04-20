@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system/string/startswith/
 ---
-## String::StartsWith(const [String](../)\&) const method
+## String::StartsWith(const String\&) const method
 
 
 Checks if string begins with specified substring.
@@ -26,13 +26,7 @@ bool System::String::StartsWith(const String &value) const
 
 true if string starts with specified substring, false otherwise.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::StartsWith(const [String](../)\&, [System::StringComparison](../../stringcomparison/)) const method
+## String::StartsWith(const String\&, System::StringComparison) const method
 
 
 Checks if string begins with specified substring.
@@ -53,14 +47,7 @@ bool System::String::StartsWith(const String &value, System::StringComparison co
 
 true if string starts with specified substring, false otherwise.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::StartsWith(const [String](../)\&, **bool**, const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## String::StartsWith(const String\&, bool, const SharedPtr\<System::Globalization::CultureInfo\>\&) const method
 
 
 Checks if string begins with specified substring.
@@ -84,9 +71,9 @@ true if string starts with specified substring, false otherwise.
 
 ## See Also
 
-* Class [String](../)
+* Enum [StringComparison](../../stringcomparison/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [String](../)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

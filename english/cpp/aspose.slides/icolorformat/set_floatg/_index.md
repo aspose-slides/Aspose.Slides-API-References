@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides/icolorformat/set_floatg/
 ---
-## IColorFormat::set_FloatG(**float**) method
+## IColorFormat::set_FloatG(float) method
 
 
 Sets the green component of a color. All color transformations are ignored. Write **float**.

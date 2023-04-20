@@ -15,13 +15,6 @@ Returns array of strings where each element is the string representation of the 
 ArrayPtr<String> System::DateTime::GetDateTimeFormats() const
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../../string/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTime::GetDateTimeFormats(char_t) const method
 
 
@@ -38,14 +31,7 @@ ArrayPtr<String> System::DateTime::GetDateTimeFormats(char_t format) const
 | --- | --- | --- |
 | format | char_t | Standard date and time format specifier. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../../string/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::GetDateTimeFormats(const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## DateTime::GetDateTimeFormats(const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Returns array of strings where each element is the string representation of the current object formatted with one of the standard date and time format specifiers and the specified format provider.
@@ -61,16 +47,7 @@ ArrayPtr<String> System::DateTime::GetDateTimeFormats(const SharedPtr<IFormatPro
 | --- | --- | --- |
 | provider | const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\& | Format provider. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::GetDateTimeFormats(char_t, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) const method
+## DateTime::GetDateTimeFormats(char_t, const SharedPtr\<IFormatProvider\>\&) const method
 
 
 Returns array of strings where each element is the string representation of the current object formatted with the specified standard date and time format specifier and format provider.
@@ -90,9 +67,9 @@ ArrayPtr<String> System::DateTime::GetDateTimeFormats(char_t format, const Share
 ## See Also
 
 * Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
+* Class [String](../../string/)
 * Class [DateTime](../)
+* Class [IFormatProvider](../../iformatprovider/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: SlideOrientation
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the slide orientation.
 type: docs
-weight: 6306
+weight: 6046
 url: /cpp/aspose.slides/slideorientation/
 ---
 ## SlideOrientation enum

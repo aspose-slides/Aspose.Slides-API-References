@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/system.xml/xmlnode/getnamespaceofprefix/
 ---
-## XmlNode::GetNamespaceOfPrefix([String](../../../system/string/)) method
+## XmlNode::GetNamespaceOfPrefix(String) method
 
 
 Looks up the closest **xmlns** declaration for the given prefix that is in scope for the current node and returns the namespace URI in the declaration.

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/addalphamodulatefixedeffect/
 ---
-## ImageTransformOperationCollection::AddAlphaModulateFixedEffect(**float**) method
+## ImageTransformOperationCollection::AddAlphaModulateFixedEffect(float) method
 
 
 Adds the new Alpha Modulate Fixed effect to the end of a collection.

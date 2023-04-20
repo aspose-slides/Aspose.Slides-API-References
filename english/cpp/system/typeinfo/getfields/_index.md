@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system/typeinfo/getfields/
 ---
-## TypeInfo::GetFields([System::Reflection::BindingFlags](../../../system.reflection/bindingflags/)) const method
+## TypeInfo::GetFields(System::Reflection::BindingFlags) const method
 
 
 Searches for the fields defined for the current Type, using the specified binding constraints.
@@ -17,10 +17,10 @@ ArrayPtr<SharedPtr<System::Reflection::FieldInfo>> System::TypeInfo::GetFields(S
 
 ## See Also
 
+* Enum [BindingFlags](../../../system.reflection/bindingflags/)
 * Typedef [ArrayPtr](../../arrayptr/)
 * Typedef [SharedPtr](../../sharedptr/)
 * Class [FieldInfo](../../../system.reflection/fieldinfo/)
-* Enum [BindingFlags](../../../system.reflection/bindingflags/)
 * Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

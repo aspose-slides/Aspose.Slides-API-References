@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathgroupingcharacterfactory/
 Allows to create a math grouping character
 
 ```cpp
-class IMathGroupingCharacterFactory : public System::Object
+class IMathGroupingCharacterFactory : public virtual System::Object
 ```
 
 ## Methods

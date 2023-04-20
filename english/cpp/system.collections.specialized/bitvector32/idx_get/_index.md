@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections.specialized/bitvector32/idx_get/
 ---
-## BitVector32::idx_get(**int32_t**) method
+## BitVector32::idx_get(int32_t) method
 
 
 Gets a value indicating whether all the specified bits are set.
@@ -22,12 +22,7 @@ bool System::Collections::Specialized::BitVector32::idx_get(int32_t bit)
 | --- | --- | --- |
 | bit | **int32_t** | specified bits. |
 
-## See Also
-
-* Class [BitVector32](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## BitVector32::idx_get(**BitVector32::Section**) method
+## BitVector32::idx_get(BitVector32::Section) method
 
 
 Gets the value for the specified section.

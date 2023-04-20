@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/imotionpath/removeat/
 ---
-## IMotionPath::RemoveAt(**int32_t**) method
+## IMotionPath::RemoveAt(int32_t) method
 
 
 Removes a command at the specified index.

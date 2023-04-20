@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemaobjectcollection/insert/
 ---
-## XmlSchemaObjectCollection::Insert(**int32_t**, const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\&) method
+## XmlSchemaObjectCollection::Insert(int32_t, const SharedPtr\<XmlSchemaObject\>\&) method
 
 
 Inserts an [XmlSchemaObject](../../xmlschemaobject/) to the [XmlSchemaObjectCollection](../).

@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.net/ipaddress/parse/
 ---
-## IPAddress::Parse([String](../../../system/string/)) method
+## IPAddress::Parse(String) method
 
 
 Converts a passed string to an instance of the [IPAddress](../) class.
@@ -31,6 +31,5 @@ An instance of the [IPAddress](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPAddress](../)
 * Class [String](../../../system/string/)
-* Class [IPAddress](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

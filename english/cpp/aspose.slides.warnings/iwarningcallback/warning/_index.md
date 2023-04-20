@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.warnings/iwarningcallback/warning/
 ---
-## IWarningCallback::Warning([System::SharedPtr](../../../system/sharedptr/)\<[IWarningInfo](../../iwarninginfo/)\>) method
+## IWarningCallback::Warning(System::SharedPtr\<IWarningInfo\>) method
 
 
 Callback method which receives warning and decides whether operation should be aborted.

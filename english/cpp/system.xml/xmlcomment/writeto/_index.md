@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml/xmlcomment/writeto/
 ---
-## XmlComment::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlComment::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/).

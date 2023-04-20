@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.export/ivideoplayerhtmlcontrollerfactory/createvideoplayerhtmlcontroller/
 ---
-## IVideoPlayerHtmlControllerFactory::CreateVideoPlayerHtmlController([System::String](../../../system/string/), [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## IVideoPlayerHtmlControllerFactory::CreateVideoPlayerHtmlController(System::String, System::String, System::String) method
 
 
 Create video player HTML controller.

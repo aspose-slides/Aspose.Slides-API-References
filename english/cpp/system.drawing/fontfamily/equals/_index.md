@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.drawing/fontfamily/equals/
 ---
-## FontFamily::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## FontFamily::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines if the current and the specified objects are identical.

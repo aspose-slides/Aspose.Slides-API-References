@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/itextframeformat/set_anchoringtype/
 ---
-## ITextFrameFormat::set_AnchoringType([TextAnchorType](../../textanchortype/)) method
+## ITextFrameFormat::set_AnchoringType(TextAnchorType) method
 
 
 Sets vertical anchor text in a [TextFrame](../../textframe/). Write [TextAnchorType](../../textanchortype/).

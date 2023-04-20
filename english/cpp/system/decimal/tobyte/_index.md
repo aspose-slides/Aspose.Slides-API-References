@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/system/decimal/tobyte/
 ---
-## Decimal::ToByte([Decimal](../)) method
+## Decimal::ToByte(Decimal) method
 
 
 Converts the [Decimal](../) value to unsigned 8-bit integer value.
@@ -17,7 +17,6 @@ static uint8_t System::Decimal::ToByte(Decimal value)
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

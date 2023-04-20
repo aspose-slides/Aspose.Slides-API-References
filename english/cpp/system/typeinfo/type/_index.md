@@ -18,6 +18,5 @@ static const TypeInfo & System::TypeInfo::Type()
 ## See Also
 
 * Class [TypeInfo](../)
-* Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

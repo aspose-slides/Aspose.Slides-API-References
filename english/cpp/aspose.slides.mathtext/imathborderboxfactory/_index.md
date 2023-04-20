@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathborderboxfactory/
 Allows to create a math border box
 
 ```cpp
-class IMathBorderBoxFactory : public System::Object
+class IMathBorderBoxFactory : public virtual System::Object
 ```
 
 ## Methods

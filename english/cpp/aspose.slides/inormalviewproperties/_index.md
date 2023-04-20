@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/inormalviewproperties/
 Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region.
 
 ```cpp
-class INormalViewProperties : public System::Object
+class INormalViewProperties : public virtual System::Object
 ```
 
 ## Methods

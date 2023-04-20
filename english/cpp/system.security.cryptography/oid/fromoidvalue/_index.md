@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.security.cryptography/oid/fromoidvalue/
 ---
-## Oid::FromOidValue(const [String](../../../system/string/)\&, [OidGroup](../../oidgroup/)) method
+## Oid::FromOidValue(const String\&, OidGroup) method
 
 
 Create OID object from the specified OID value.
@@ -25,10 +25,9 @@ static SharedPtr<Oid> System::Security::Cryptography::Oid::FromOidValue(const St
 
 ## See Also
 
+* Enum [OidGroup](../../oidgroup/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Oid](../)
 * Class [String](../../../system/string/)
-* Enum [OidGroup](../../oidgroup/)
-* Class [Oid](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

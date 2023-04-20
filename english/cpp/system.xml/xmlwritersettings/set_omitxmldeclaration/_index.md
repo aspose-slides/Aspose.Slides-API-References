@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlwritersettings/set_omitxmldeclaration/
 ---
-## XmlWriterSettings::set_OmitXmlDeclaration(**bool**) method
+## XmlWriterSettings::set_OmitXmlDeclaration(bool) method
 
 
 Sets a value indicating whether to omit an XML declaration.

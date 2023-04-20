@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides.animation/effect/set_behavior/
 ---
-## Effect::set_Behavior(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IBehavior](../../ibehavior/)\>) method
+## Effect::set_Behavior(int32_t, System::SharedPtr\<IBehavior\>) method
 
 
 Set animation behavior at the specified index.

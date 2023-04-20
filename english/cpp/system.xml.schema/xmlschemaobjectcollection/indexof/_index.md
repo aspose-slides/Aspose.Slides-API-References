@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml.schema/xmlschemaobjectcollection/indexof/
 ---
-## XmlSchemaObjectCollection::IndexOf(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\&) method
+## XmlSchemaObjectCollection::IndexOf(const SharedPtr\<XmlSchemaObject\>\&) method
 
 
 Returns the collection index corresponding to the specified [XmlSchemaObject](../../xmlschemaobject/).

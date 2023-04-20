@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.net/cookie/set_expires/
 ---
-## Cookie::set_Expires([DateTime](../../../system/datetime/)) method
+## Cookie::set_Expires(DateTime) method
 
 
 Sets the 'Expires' attribute's value.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/imarker/set_size/
 ---
-## IMarker::set_Size(**int32_t**) method
+## IMarker::set_Size(int32_t) method
 
 
 Represents the marker size in a line chart, scatter chart, or radar chart. Write **int32_t**.

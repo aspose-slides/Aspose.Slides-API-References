@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/ilayoutslidecollection/remove/
 ---
-## ILayoutSlideCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## ILayoutSlideCollection::Remove(System::SharedPtr\<ILayoutSlide\>) method
 
 
 Removes a layout from the collection.

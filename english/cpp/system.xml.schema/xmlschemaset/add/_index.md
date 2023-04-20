@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.xml.schema/xmlschemaset/add/
 ---
-## XmlSchemaSet::Add([String](../../../system/string/), const [String](../../../system/string/)\&) method
+## XmlSchemaSet::Add(String, const String\&) method
 
 
 Adds the XML [Schema](../../) definition language (XSD) schema at the URL specified to the [XmlSchemaSet](../).
@@ -27,15 +27,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaSet::Add(String targetNamespa
 
 An [XmlSchema](../../xmlschema/) object if the schema is valid. If the schema is not valid and a ValidationEventHandler is specified, then **nullptr** is returned and the appropriate validation event is raised. Otherwise, an XmlSchemaException is thrown.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [String](../../../system/string/)
-* Class [XmlSchemaSet](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaSet::Add([String](../../../system/string/), const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&) method
+## XmlSchemaSet::Add(String, const SharedPtr\<XmlReader\>\&) method
 
 
 Adds the XML [Schema](../../) definition language (XSD) schema contained in the [XmlReader](../../../system.xml/xmlreader/) to the [XmlSchemaSet](../).
@@ -56,16 +48,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaSet::Add(String targetNamespa
 
 An [XmlSchema](../../xmlschema/) object if the schema is valid. If the schema is not valid and a ValidationEventHandler is specified, then **nullptr** is returned and the appropriate validation event is raised. Otherwise, an XmlSchemaException is thrown.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [String](../../../system/string/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XmlSchemaSet](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaSet::Add(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../)\>\&) method
+## XmlSchemaSet::Add(const SharedPtr\<XmlSchemaSet\>\&) method
 
 
 Adds all the XML [Schema](../../) definition language (XSD) schemas in the given [XmlSchemaSet](../) to the [XmlSchemaSet](../).
@@ -81,14 +64,7 @@ void System::Xml::Schema::XmlSchemaSet::Add(const SharedPtr<XmlSchemaSet> &schem
 | --- | --- | --- |
 | schemas | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../)\>\& | The [XmlSchemaSet](../) object. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaSet](../)
-* Class [XmlSchemaSet](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaSet::Add(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\&) method
+## XmlSchemaSet::Add(const SharedPtr\<XmlSchema\>\&) method
 
 
 Adds the given [XmlSchema](../../xmlschema/) to the [XmlSchemaSet](../).
@@ -112,6 +88,8 @@ An [XmlSchema](../../xmlschema/) object if the schema is valid. If the schema is
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlSchema](../../xmlschema/)
+* Class [String](../../../system/string/)
 * Class [XmlSchemaSet](../)
+* Class [XmlReader](../../../system.xml/xmlreader/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

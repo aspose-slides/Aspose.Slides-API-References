@@ -3,7 +3,7 @@ title: FileAttributes
 second_title: Aspose.Slides for C++ API Reference
 description: Represents attributes of a directory or a file.
 type: docs
-weight: 482
+weight: 469
 url: /cpp/system.io/fileattributes/
 ---
 ## FileAttributes enum

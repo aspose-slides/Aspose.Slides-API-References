@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/doublechartvalue/set_ascell/
 ---
-## DoubleChartValue::set_AsCell([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## DoubleChartValue::set_AsCell(System::SharedPtr\<IChartDataCell\>) method
 
 
 Sets chart data cell. Write [IChartDataCell](../../ichartdatacell/).

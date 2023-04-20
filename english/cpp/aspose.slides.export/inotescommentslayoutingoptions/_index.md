@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/inotescommentslayoutingoptions/
 Provides options that control the look of layouting of notes and comments in exported document.
 
 ```cpp
-class INotesCommentsLayoutingOptions : public System::Object
+class INotesCommentsLayoutingOptions : public virtual System::Object
 ```
 
 ## Methods

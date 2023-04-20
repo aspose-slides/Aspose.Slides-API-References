@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/system.globalization/datetimeformatinfo/getera/
 ---
-## DateTimeFormatInfo::GetEra(const [String](../../../system/string/)\&) const method
+## DateTimeFormatInfo::GetEra(const String\&) const method
 
 
 Gets era by name.

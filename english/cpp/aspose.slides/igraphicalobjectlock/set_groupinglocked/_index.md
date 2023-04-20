@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/igraphicalobjectlock/set_groupinglocked/
 ---
-## IGraphicalObjectLock::set_GroupingLocked(**bool**) method
+## IGraphicalObjectLock::set_GroupingLocked(bool) method
 
 
 Determines whether adding this shape to a group is forbidden. Write **bool**.

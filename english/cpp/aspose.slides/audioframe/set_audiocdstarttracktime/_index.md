@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/audioframe/set_audiocdstarttracktime/
 ---
-## AudioFrame::set_AudioCdStartTrackTime(**int32_t**) method
+## AudioFrame::set_AudioCdStartTrackTime(int32_t) method
 
 
 Sets a start track time. Write **int32_t**.

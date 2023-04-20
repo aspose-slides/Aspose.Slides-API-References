@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/paragraphformat/set_alignment/
 ---
-## ParagraphFormat::set_Alignment([TextAlignment](../../textalignment/)) method
+## ParagraphFormat::set_Alignment(TextAlignment) method
 
 
 Sets the text alignment in a paragraph with no inheritance. Write [TextAlignment](../../textalignment/).

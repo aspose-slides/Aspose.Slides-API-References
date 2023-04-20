@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.slides/ipresentation/get_slide/
 ---
-## IPresentation::get_Slide(**int32_t**) method
+## IPresentation::get_Slide(int32_t) method
 
 
 Returns a slide defined in the presentation at the specified index. Read-only [Aspose::Slides::ISlide](../../islide/).

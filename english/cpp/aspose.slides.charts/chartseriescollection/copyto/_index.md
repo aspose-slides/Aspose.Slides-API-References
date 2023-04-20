@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.charts/chartseriescollection/copyto/
 ---
-## ChartSeriesCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IChartSeries](../../ichartseries/)\>\>, **int32_t**) method
+## ChartSeriesCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IChartSeries\>\>, int32_t) method
 
 
 Copies all elements from the collection into the specified array.

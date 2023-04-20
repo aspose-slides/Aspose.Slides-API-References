@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/pathlist/idx_get/
 ---
-## PathList::idx_get([String](../../../system/string/)) method
+## PathList::idx_get(String) method
 
 
 Gets the cookie collection by specified path.

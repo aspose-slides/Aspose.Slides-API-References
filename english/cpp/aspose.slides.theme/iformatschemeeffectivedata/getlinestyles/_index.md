@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.theme/iformatschemeeffectivedata/getlinestyles/
 ---
-## IFormatSchemeEffectiveData::GetLineStyles([System::Drawing::Color](../../../system.drawing/color/)) method
+## IFormatSchemeEffectiveData::GetLineStyles(System::Drawing::Color) method
 
 
 Returns a collection of theme defined line styles.

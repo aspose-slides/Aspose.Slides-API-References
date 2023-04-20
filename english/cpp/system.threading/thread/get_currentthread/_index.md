@@ -24,6 +24,5 @@ static System::SharedPtr<Thread> System::Threading::Thread::get_CurrentThread()
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Thread](../)
-* Class [Thread](../)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/ishapecollection/addsectionzoomframe/
 ---
-## IShapeCollection::AddSectionZoomFrame(**float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>) method
+## IShapeCollection::AddSectionZoomFrame(float, float, float, float, System::SharedPtr\<ISection\>) method
 
 
 Adds a new [Section](../../section/) Zoom object to the end of a collection.
@@ -41,15 +41,7 @@ auto zoomFrame = shapes->AddSectionZoomFrame(150.0f, 20.0f, 50.0f, 50.0f, pres->
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISectionZoomFrame](../../isectionzoomframe/)
-* Class [ISection](../../isection/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::AddSectionZoomFrame(**float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\>) method
+## IShapeCollection::AddSectionZoomFrame(float, float, float, float, System::SharedPtr\<ISection\>, System::SharedPtr\<IPPImage\>) method
 
 
 Adds a new [Section](../../section/) Zoom object to the end of a collection with a predefined image.
@@ -91,7 +83,7 @@ auto zoomFrame = shapes->AddSectionZoomFrame(150.0f, 20.0f, 50.0f, 50.0f, pres->
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ISectionZoomFrame](../../isectionzoomframe/)
 * Class [ISection](../../isection/)
-* Class [IPPImage](../../ippimage/)
 * Class [IShapeCollection](../)
+* Class [IPPImage](../../ippimage/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

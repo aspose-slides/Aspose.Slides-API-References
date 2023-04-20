@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/ibasechartvalue/set_data/
 ---
-## IBaseChartValue::set_Data([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IBaseChartValue::set_Data(System::SharedPtr\<System::Object\>) method
 
 
 

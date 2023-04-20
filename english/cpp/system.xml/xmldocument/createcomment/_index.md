@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.xml/xmldocument/createcomment/
 ---
-## XmlDocument::CreateComment(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateComment(const String\&) method
 
 
 Creates an [XmlComment](../../xmlcomment/) containing the specified data.

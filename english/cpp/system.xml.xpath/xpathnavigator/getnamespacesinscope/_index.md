@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.xml.xpath/xpathnavigator/getnamespacesinscope/
 ---
-## XPathNavigator::GetNamespacesInScope([XmlNamespaceScope](../../../system.xml/xmlnamespacescope/)) method
+## XPathNavigator::GetNamespacesInScope(XmlNamespaceScope) method
 
 
 Returns the in-scope namespaces of the current node.
@@ -28,10 +28,10 @@ An IDictionary collection of namespace names keyed by prefix.
 
 ## See Also
 
+* Enum [XmlNamespaceScope](../../../system.xml/xmlnamespacescope/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IDictionary](../../../system.collections.generic/idictionary/)
 * Class [String](../../../system/string/)
-* Enum [XmlNamespaceScope](../../../system.xml/xmlnamespacescope/)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

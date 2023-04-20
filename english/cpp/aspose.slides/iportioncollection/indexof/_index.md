@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/iportioncollection/indexof/
 ---
-## IPortionCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IPortion](../../iportion/)\>) method
+## IPortionCollection::IndexOf(System::SharedPtr\<IPortion\>) method
 
 
 Determines the index of a specific portion in collection.

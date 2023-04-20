@@ -6,7 +6,7 @@ type: docs
 weight: 924
 url: /cpp/system.drawing/graphics/restore/
 ---
-## Graphics::Restore(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsState](../../../system.drawing.drawing2d/graphicsstate/)\>\&) method
+## Graphics::Restore(const SharedPtr\<Drawing2D::GraphicsState\>\&) method
 
 
 Restores the state of this object from the saved state.

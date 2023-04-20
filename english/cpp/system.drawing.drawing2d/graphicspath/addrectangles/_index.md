@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.drawing.drawing2d/graphicspath/addrectangles/
 ---
-## GraphicsPath::AddRectangles(const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../../system.drawing/rectangle/)\>\&) method
+## GraphicsPath::AddRectangles(const ArrayPtr\<Rectangle\>\&) method
 
 
 Adds the specified series of rectangles to the path represented by the current object.
@@ -22,14 +22,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangles(const ArrayPtr<Rect
 | --- | --- | --- |
 | rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../../system.drawing/rectangle/)\>\& | An array of [Rectangle](../../../system.drawing/rectangle/) objects representing the rectangles to add |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Rectangle](../../../system.drawing/rectangle/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddRectangles(const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../../system.drawing/rectanglef/)\>\&) method
+## GraphicsPath::AddRectangles(const ArrayPtr\<RectangleF\>\&) method
 
 
 Adds the specified series of rectangles to the path represented by the current object.
@@ -48,7 +41,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddRectangles(const ArrayPtr<Rect
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RectangleF](../../../system.drawing/rectanglef/)
+* Class [Rectangle](../../../system.drawing/rectangle/)
 * Class [GraphicsPath](../)
+* Class [RectangleF](../../../system.drawing/rectanglef/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

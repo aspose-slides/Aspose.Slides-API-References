@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml/xmltextwriter/set_formatting/
 ---
-## XmlTextWriter::set_Formatting([System::Xml::Formatting](../../formatting/)) method
+## XmlTextWriter::set_Formatting(System::Xml::Formatting) method
 
 
 Indicates how the output is formatted.

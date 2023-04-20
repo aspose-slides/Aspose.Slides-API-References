@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/rsapkcs1signaturedeformatter/setkey/
 ---
-## RSAPKCS1SignatureDeformatter::SetKey([System::SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../asymmetricalgorithm/)\>) method
+## RSAPKCS1SignatureDeformatter::SetKey(System::SharedPtr\<AsymmetricAlgorithm\>) method
 
 
 Sets key value. Not implemented.

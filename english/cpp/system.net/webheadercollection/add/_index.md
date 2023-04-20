@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net/webheadercollection/add/
 ---
-## WebHeaderCollection::Add([String](../../../system/string/), [String](../../../system/string/)) method
+## WebHeaderCollection::Add(String, String) method
 
 
 Adds the specified pair of the header name and the header value to the collection.
@@ -23,13 +23,7 @@ void System::Net::WebHeaderCollection::Add(String header, String value)
 | header | [String](../../../system/string/) | The header name. |
 | value | [String](../../../system/string/) | The header value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [WebHeaderCollection](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## WebHeaderCollection::Add([HttpResponseHeader](../../httpresponseheader/), [String](../../../system/string/)) method
+## WebHeaderCollection::Add(HttpResponseHeader, String) method
 
 
 Adds the specified pair of the header and the header value to the collection.
@@ -46,14 +40,7 @@ void System::Net::WebHeaderCollection::Add(HttpResponseHeader header, String val
 | header | [HttpResponseHeader](../../httpresponseheader/) | The header. |
 | value | [String](../../../system/string/) | The header value. |
 
-## See Also
-
-* Enum [HttpResponseHeader](../../httpresponseheader/)
-* Class [String](../../../system/string/)
-* Class [WebHeaderCollection](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## WebHeaderCollection::Add([HttpRequestHeader](../../httprequestheader/), [String](../../../system/string/)) method
+## WebHeaderCollection::Add(HttpRequestHeader, String) method
 
 
 Adds the specified pair of the header and the header value to the collection.
@@ -72,6 +59,7 @@ void System::Net::WebHeaderCollection::Add(HttpRequestHeader header, String valu
 
 ## See Also
 
+* Enum [HttpResponseHeader](../../httpresponseheader/)
 * Enum [HttpRequestHeader](../../httprequestheader/)
 * Class [String](../../../system/string/)
 * Class [WebHeaderCollection](../)

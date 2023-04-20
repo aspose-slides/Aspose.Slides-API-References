@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml/xmlparsercontext/set_systemid/
 ---
-## XmlParserContext::set_SystemId(const [String](../../../system/string/)\&) method
+## XmlParserContext::set_SystemId(const String\&) method
 
 
 Sets the system identifier.

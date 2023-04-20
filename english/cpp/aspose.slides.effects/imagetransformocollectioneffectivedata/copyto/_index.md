@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.effects/imagetransformocollectioneffectivedata/copyto/
 ---
-## ImageTransformOCollectionEffectiveData::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IEffectEffectiveData](../../ieffecteffectivedata/)\>\>, **int32_t**) method
+## ImageTransformOCollectionEffectiveData::CopyTo(System::ArrayPtr\<System::SharedPtr\<IEffectEffectiveData\>\>, int32_t) method
 
 
 Copies all elements from the collection into the specified array.

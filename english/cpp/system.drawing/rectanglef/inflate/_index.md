@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.drawing/rectanglef/inflate/
 ---
-## RectangleF::Inflate(**float**, **float**) method
+## RectangleF::Inflate(float, float) method
 
 
 Increases the width and height of the rectangle represented by the current object, maintaining the location of the geometrical center of the rectangle. The width and height are increased in both directions by the specified amounts.
@@ -23,12 +23,7 @@ void System::Drawing::RectangleF::Inflate(float width, float height)
 | width | **float** | The amount by which the width of the rectangle is to be increased in both directions |
 | height | **float** | The amount by which the height of the rectangle is to be increased in both directions |
 
-## See Also
-
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::Inflate(const [SizeF](../../sizef/)\&) method
+## RectangleF::Inflate(const SizeF\&) method
 
 
 Increases the width and height of the rectangle represented by the current object, maintaining the location of the geometrical center of the rectangle. The width and height are increased in both directions by the amounts specified by width and height values of the specified size object correspondingly.
@@ -44,13 +39,7 @@ void System::Drawing::RectangleF::Inflate(const SizeF &size)
 | --- | --- | --- |
 | size | const [SizeF](../../sizef/)\& | The [SizeF](../../sizef/) object specifying the amounts to increase the width and height of the rectangle by |
 
-## See Also
-
-* Class [SizeF](../../sizef/)
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::Inflate(const [RectangleF](../)\&, **float**, **float**) method
+## RectangleF::Inflate(const RectangleF\&, float, float) method
 
 
 Increases the width and height of the rectangle represented by the specified object, maintaining the location of the geometrical center of the rectangle. The width and height are increased in both directions by the specified amounts.
@@ -75,6 +64,6 @@ The [RectangleF](../) object representing the enlarged rectangle
 ## See Also
 
 * Class [RectangleF](../)
-* Class [RectangleF](../)
+* Class [SizeF](../../sizef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/isummaryzoomsection/set_title/
 ---
-## ISummaryZoomSection::set_Title([System::String](../../../system/string/)) method
+## ISummaryZoomSection::set_Title(System::String) method
 
 
 Returns the text title of the Summary Zoom [Section](../../section/) object.

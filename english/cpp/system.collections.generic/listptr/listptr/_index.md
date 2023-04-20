@@ -15,12 +15,7 @@ Initializes null-pointer.
 System::Collections::Generic::ListPtr<T>::ListPtr(std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [ListPtr](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## ListPtr::ListPtr(const [SharedPtr](../../../system/sharedptr/)\<[List](../../list/)\<T\>\>\&) constructor
+## ListPtr::ListPtr(const SharedPtr\<List\<T\>\>\&) constructor
 
 
 Initializes pointer to specified list.
@@ -39,7 +34,7 @@ System::Collections::Generic::ListPtr<T>::ListPtr(const SharedPtr<List<T>> &obj)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [List](../../list/)
 * Class [ListPtr](../)
+* Class [List](../../list/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides/loadoptions/set_spreadsheetoptions/
 ---
-## LoadOptions::set_SpreadsheetOptions([System::SharedPtr](../../../system/sharedptr/)\<[ISpreadsheetOptions](../../ispreadsheetoptions/)\>) method
+## LoadOptions::set_SpreadsheetOptions(System::SharedPtr\<ISpreadsheetOptions\>) method
 
 
 Gets options for spreadsheets. For example, these options affect calculating formulas for charts.

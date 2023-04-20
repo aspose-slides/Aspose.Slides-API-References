@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlnamednodemap/getnameditem/
 ---
-## XmlNamedNodeMap::GetNamedItem([String](../../../system/string/)) method
+## XmlNamedNodeMap::GetNamedItem(String) method
 
 
 Retrieves an [XmlNode](../../xmlnode/) specified by name.
@@ -26,15 +26,7 @@ virtual SharedPtr<XmlNode> System::Xml::XmlNamedNodeMap::GetNamedItem(String nam
 
 An [XmlNode](../../xmlnode/) with the specified name or **nullptr** if a matching node is not found.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../../xmlnode/)
-* Class [String](../../../system/string/)
-* Class [XmlNamedNodeMap](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNamedNodeMap::GetNamedItem([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlNamedNodeMap::GetNamedItem(String, String) method
 
 
 Retrieves a node with the matching [XmlNode::get_LocalName](../../xmlnode/get_localname/) and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/) values.

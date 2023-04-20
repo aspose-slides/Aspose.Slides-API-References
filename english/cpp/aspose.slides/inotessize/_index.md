@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/inotessize/
 Represents a size of notes slide.
 
 ```cpp
-class INotesSize : public System::Object
+class INotesSize : public virtual System::Object
 ```
 
 ## Methods

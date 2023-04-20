@@ -28,11 +28,6 @@ int System::Globalization::GregorianCalendar::GetDaysInMonth(int year, int month
 
 Number of days in specified month of specified year of specified era.
 
-## See Also
-
-* Class [GregorianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## GregorianCalendar::GetDaysInMonth(int, int) const method
 
 
@@ -54,11 +49,6 @@ virtual int System::Globalization::Calendar::GetDaysInMonth(int year, int month)
 
 Number of days in specified month of specified year.
 
-## See Also
-
-* Class [GregorianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## GregorianCalendar::GetDaysInMonth(int, int, int) const method
 
 

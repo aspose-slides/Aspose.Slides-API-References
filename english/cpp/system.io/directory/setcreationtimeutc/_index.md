@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.io/directory/setcreationtimeutc/
 ---
-## Directory::SetCreationTimeUtc(const [String](../../../system/string/)\&, [DateTime](../../../system/datetime/)) method
+## Directory::SetCreationTimeUtc(const String\&, DateTime) method
 
 
 Sets the creation time of the specified entity as UTC time.

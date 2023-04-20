@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/izoomobject/set_transitionduration/
 ---
-## IZoomObject::set_TransitionDuration(**float**) method
+## IZoomObject::set_TransitionDuration(float) method
 
 
 Sets the duration of the transition between Zoom and slide. Write **float**. Default value: 1.0f

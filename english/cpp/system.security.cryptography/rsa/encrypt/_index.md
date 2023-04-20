@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography/rsa/encrypt/
 ---
-## RSA::Encrypt([ByteArrayPtr](../../../system/bytearrayptr/), [SharedPtr](../../../system/sharedptr/)\<[RSAEncryptionPadding](../../rsaencryptionpadding/)\>) method
+## RSA::Encrypt(ByteArrayPtr, SharedPtr\<RSAEncryptionPadding\>) method
 
 
 Encrypts input data using the specified padding mode.

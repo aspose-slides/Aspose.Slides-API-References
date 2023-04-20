@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.schema/xmlschemaset/set_compilationsettings/
 ---
-## XmlSchemaSet::set_CompilationSettings(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaCompilationSettings](../../xmlschemacompilationsettings/)\>\&) method
+## XmlSchemaSet::set_CompilationSettings(const SharedPtr\<XmlSchemaCompilationSettings\>\&) method
 
 
 Sets the [XmlSchemaCompilationSettings](../../xmlschemacompilationsettings/) for the [XmlSchemaSet](../).

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_systemexception/is/
 ---
-## Details_SystemException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_SystemException::Is(const System::TypeInfo\&) const method
 
 
 

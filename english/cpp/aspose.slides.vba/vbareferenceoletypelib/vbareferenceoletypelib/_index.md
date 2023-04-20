@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.vba/vbareferenceoletypelib/vbareferenceoletypelib/
 ---
-## VbaReferenceOleTypeLib::VbaReferenceOleTypeLib([System::String](../../../system/string/), [System::String](../../../system/string/)) constructor
+## VbaReferenceOleTypeLib::VbaReferenceOleTypeLib(System::String, System::String) constructor
 
 
 This constructor creates new OLE Automation type library reference.

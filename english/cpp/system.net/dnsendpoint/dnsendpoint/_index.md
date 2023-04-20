@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/dnsendpoint/dnsendpoint/
 ---
-## DnsEndPoint::DnsEndPoint([String](../../../system/string/), **int32_t**) constructor
+## DnsEndPoint::DnsEndPoint(String, int32_t) constructor
 
 
 Constructs a new instance.
@@ -23,13 +23,7 @@ System::Net::DnsEndPoint::DnsEndPoint(String host, int32_t port)
 | host | [String](../../../system/string/) | The host name. |
 | port | **int32_t** | The port number. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [DnsEndPoint](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## DnsEndPoint::DnsEndPoint([String](../../../system/string/), **int32_t**, [System::Net::Sockets::AddressFamily](../../../system.net.sockets/addressfamily/)) constructor
+## DnsEndPoint::DnsEndPoint(String, int32_t, System::Net::Sockets::AddressFamily) constructor
 
 
 Constructs a new instance.
@@ -49,8 +43,8 @@ System::Net::DnsEndPoint::DnsEndPoint(String host, int32_t port, System::Net::So
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [AddressFamily](../../../system.net.sockets/addressfamily/)
+* Class [String](../../../system/string/)
 * Class [DnsEndPoint](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

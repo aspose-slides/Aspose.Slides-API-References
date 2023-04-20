@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.slides/idocumentproperties/set_createdtime/
 ---
-## IDocumentProperties::set_CreatedTime([System::DateTime](../../../system/datetime/)) method
+## IDocumentProperties::set_CreatedTime(System::DateTime) method
 
 
 Returns the date a presentation was created. Values are in UTC. Write [System::DateTime](../../../system/datetime/).

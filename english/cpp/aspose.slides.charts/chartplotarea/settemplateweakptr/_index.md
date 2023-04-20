@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides.charts/chartplotarea/settemplateweakptr/
 ---
-## ChartPlotArea::SetTemplateWeakPtr(**uint32_t**) method
+## ChartPlotArea::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

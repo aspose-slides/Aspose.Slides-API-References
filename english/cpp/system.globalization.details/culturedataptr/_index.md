@@ -3,7 +3,7 @@ title: CultureDataPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer to hold implementation type.
 type: docs
-weight: 66
+weight: 40
 url: /cpp/system.globalization.details/culturedataptr/
 ---
 ## CultureDataPtr typedef

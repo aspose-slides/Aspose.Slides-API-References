@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ilightrig/set_direction/
 ---
-## ILightRig::set_Direction([LightingDirection](../../lightingdirection/)) method
+## ILightRig::set_Direction(LightingDirection) method
 
 
 Light direction. Write [LightingDirection](../../lightingdirection/).

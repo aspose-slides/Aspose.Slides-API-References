@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system/bitconverter/tostring/
 ---
-## BitConverter::ToString(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, **bool**, const [String](../../string/)\&) method
+## BitConverter::ToString(const ArrayPtr\<uint8_t\>\&, bool, const String\&) method
 
 
 Converts all values of the specified byte array into their hexadecimal string representation. Case of letters to use in hexadecimal notation and separator inserted between each pair of neighbouring bytes are specified through corresponding arguments.
@@ -28,14 +28,7 @@ static String System::BitConverter::ToString(const ArrayPtr<uint8_t> &value, boo
 
 [String](../../string/) containing hexadecimal representation of the specified byte array
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToString(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToString(const ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts values of the specified byte array into their hexadecimal string representation starting at specified index.
@@ -56,14 +49,7 @@ static String System::BitConverter::ToString(const ArrayPtr<uint8_t> &value, int
 
 [String](../../string/) containing hexadecimal representation of the specified range of elements of the specified array
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToString(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int, int) method
+## BitConverter::ToString(const ArrayPtr\<uint8_t\>\&, int, int) method
 
 
 Converts a range of values of the specified byte array into their hexadecimal string representation.
@@ -87,8 +73,8 @@ static String System::BitConverter::ToString(const ArrayPtr<uint8_t> &value, int
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [ArrayPtr](../../arrayptr/)
+* Class [String](../../string/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

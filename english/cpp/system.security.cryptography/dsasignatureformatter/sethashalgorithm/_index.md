@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/dsasignatureformatter/sethashalgorithm/
 ---
-## DSASignatureFormatter::SetHashAlgorithm([String](../../../system/string/)) method
+## DSASignatureFormatter::SetHashAlgorithm(String) method
 
 
 NOT IMPLEMENTED.

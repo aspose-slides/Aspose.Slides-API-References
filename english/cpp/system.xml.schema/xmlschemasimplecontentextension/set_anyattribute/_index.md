@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.schema/xmlschemasimplecontentextension/set_anyattribute/
 ---
-## XmlSchemaSimpleContentExtension::set_AnyAttribute(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\&) method
+## XmlSchemaSimpleContentExtension::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
 
 
 Sets the [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) to be used for the attribute value.

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/verifydata/
 ---
-## RSACryptoServiceProvider::VerifyData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## RSACryptoServiceProvider::VerifyData(const ByteArrayPtr\&, const SharedPtr\<Object\>\&, const ByteArrayPtr\&) method
 
 
 Checks data signature.

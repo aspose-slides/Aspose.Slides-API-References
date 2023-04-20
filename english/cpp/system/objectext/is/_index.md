@@ -3,7 +3,7 @@ title: Is()
 second_title: Aspose.Slides for C++ API Reference
 description: Implements 'is' operator translation. Specialization for pointer types optimized for 'final' classes.
 type: docs
-weight: 105
+weight: 92
 url: /cpp/system/objectext/is/
 ---
 ## ObjectExt::Is(const U\&) method
@@ -33,14 +33,6 @@ template<class T,class U> static std::enable_if<std::is_convertible<T, Object>::
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Class [Object](../../object/)
-* Struct [IsBoxable](../../isboxable/)
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::Is(const U\&) method
 
 
@@ -68,15 +60,7 @@ template<class T,class U> static std::enable_if<std::is_convertible<T, Object>::
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Class [Object](../../object/)
-* Struct [IsBoxable](../../isboxable/)
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [Object](../../object/)\&) method
+## ObjectExt::Is(const Object\&) method
 
 
 Implements 'is' operator translation. Specialization for value types.
@@ -102,13 +86,7 @@ template<class T> static std::enable_if<std::is_convertible<T, Object>::value, b
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [Object](../../object/)\&) method
+## ObjectExt::Is(const Object\&) method
 
 
 Implements 'is' operator translation. Specialization for unconvertible types.
@@ -134,13 +112,7 @@ template<class T> static std::enable_if<!std::is_convertible<T, Object>::value, 
 
 Always returns false as types are unconvertible.
 
-## See Also
-
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [SmartPtr](../../smartptr/)\<U\>\&) method
+## ObjectExt::Is(const SmartPtr\<U\>\&) method
 
 
 Implements 'is' operator translation. Specialization for pointer types.
@@ -166,14 +138,7 @@ template<class T,class U> static std::enable_if<IsSmartPtr<T>::value, bool>::typ
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [SmartPtr](../../smartptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [ExceptionWrapper](../../exceptionwrapper/)\<U\>\&) method
+## ObjectExt::Is(const ExceptionWrapper\<U\>\&) method
 
 
 Implements 'is' operator translation. Specialization for exception wrapper types.
@@ -199,14 +164,7 @@ template<class T,class U> static std::enable_if<IsExceptionWrapper<T>::value, bo
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
-* Class [ExceptionWrapper](../../exceptionwrapper/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::Is(const SmartPtr\<Object\>\&) method
 
 
 Implements 'is' operator translation. Specialization for nullable types.
@@ -232,15 +190,7 @@ template<class T> static std::enable_if<IsNullable<T>::value, bool>::type System
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Struct [IsNullable](../../isnullable/)
-* Class [SmartPtr](../../smartptr/)
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::Is(const SmartPtr\<Object\>\&) method
 
 
 Implements 'is' operator translation. Specialization for boxable types with == operator defined.
@@ -266,16 +216,7 @@ template<class T> static std::enable_if<System::IsBoxable<T>::value &&!IsNullabl
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Struct [IsBoxable](../../isboxable/)
-* Struct [IsNullable](../../isnullable/)
-* Class [SmartPtr](../../smartptr/)
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::Is(const SmartPtr\<Object\>\&) method
 
 
 Implements 'is' operator translation. Specialization for boxable types without defined ==.
@@ -301,16 +242,7 @@ template<class T> static std::enable_if<System::IsBoxable<T>::value &&!IsNullabl
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Struct [IsBoxable](../../isboxable/)
-* Struct [IsNullable](../../isnullable/)
-* Class [SmartPtr](../../smartptr/)
-* Class [Object](../../object/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [SmartPtr](../../smartptr/)\<U\>\&) method
+## ObjectExt::Is(const SmartPtr\<U\>\&) method
 
 
 Implements 'is' operator translation. Specialization for enum types.
@@ -337,13 +269,7 @@ template<class T,class U> static std::enable_if<std::is_enum<T>::value, bool>::t
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Class [SmartPtr](../../smartptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [WeakPtr](../../weakptr/)\<U\>\&) method
+## ObjectExt::Is(const WeakPtr\<U\>\&) method
 
 
 Implements 'is' operator translation. Specialization for enum types vs weak pointers.
@@ -370,13 +296,7 @@ template<class T,class U> static std::enable_if<std::is_enum<T>::value, bool>::t
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Class [WeakPtr](../../weakptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(const [Nullable](../../nullable/)\<U\>\&) method
+## ObjectExt::Is(const Nullable\<U\>\&) method
 
 
 Implements 'is' operator translation. Specialization for [Nullable](../../nullable/) type.
@@ -402,12 +322,6 @@ template<class T,class U> static bool System::ObjectExt::Is(const Nullable<U> &v
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Class [Nullable](../../nullable/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::Is(const char16_t *) method
 
 
@@ -434,12 +348,7 @@ template<class T> static bool System::ObjectExt::Is(const char16_t *str)
 
 True if 'is' returns true, false otherwise.
 
-## See Also
-
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Is(**int32_t**) method
+## ObjectExt::Is(int32_t) method
 
 
 Implements 'is' operator translation. Specialization for integer literal.
@@ -467,6 +376,15 @@ True if 'is' returns true, false otherwise.
 
 ## See Also
 
+* Class [Object](../../object/)
 * Class [ObjectExt](../)
+* Class [SmartPtr](../../smartptr/)
+* Class [ExceptionWrapper](../../exceptionwrapper/)
+* Class [WeakPtr](../../weakptr/)
+* Class [Nullable](../../nullable/)
+* Struct [IsBoxable](../../isboxable/)
+* Struct [IsSmartPtr](../../issmartptr/)
+* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
+* Struct [IsNullable](../../isnullable/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

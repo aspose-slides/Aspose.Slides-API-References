@@ -15,11 +15,6 @@ Constructs a new instance.
 System::Net::Http::Details_HttpRequestException::Details_HttpRequestException()
 ```
 
-## See Also
-
-* Class [Details_HttpRequestException](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
 ## Details_HttpRequestException::Details_HttpRequestException(std::nullptr_t) constructor
 
 
@@ -35,12 +30,7 @@ System::Net::Http::Details_HttpRequestException::Details_HttpRequestException(st
 
 Used to support the null pointer value. 
 
-## See Also
-
-* Class [Details_HttpRequestException](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## Details_HttpRequestException::Details_HttpRequestException([String](../../../system/string/)) constructor
+## Details_HttpRequestException::Details_HttpRequestException(String) constructor
 
 
 Constructs a new instance.
@@ -56,13 +46,7 @@ System::Net::Http::Details_HttpRequestException::Details_HttpRequestException(St
 | --- | --- | --- |
 | message | [String](../../../system/string/) | An error description. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Details_HttpRequestException](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## Details_HttpRequestException::Details_HttpRequestException([String](../../../system/string/), [Exception](../../../system/exception/)) constructor
+## Details_HttpRequestException::Details_HttpRequestException(String, Exception) constructor
 
 
 Constructs a new instance.
@@ -81,8 +65,8 @@ System::Net::Http::Details_HttpRequestException::Details_HttpRequestException(St
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [Exception](../../../system/exception/)
 * Class [Details_HttpRequestException](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

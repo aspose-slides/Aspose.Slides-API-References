@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaimport/set_namespace/
 ---
-## XmlSchemaImport::set_Namespace(const [String](../../../system/string/)\&) method
+## XmlSchemaImport::set_Namespace(const String\&) method
 
 
 Sets the target namespace for the imported schema as a Uniform Resource Identifier (URI) reference.

@@ -26,12 +26,7 @@ static bool System::Globalization::CompareInfo::IsSortable(char16_t ch)
 
 True if **ch** is sortable; otherwise false.
 
-## See Also
-
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::IsSortable(const [String](../../../system/string/)\&) method
+## CompareInfo::IsSortable(const String\&) method
 
 
 Checks whether a specified string is sortable.
@@ -53,7 +48,7 @@ True if **text** is not empty and all characters in **text** are sortable; other
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [CompareInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

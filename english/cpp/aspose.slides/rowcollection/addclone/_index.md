@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/rowcollection/addclone/
 ---
-## RowCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[IRow](../../irow/)\>, **bool**) method
+## RowCollection::AddClone(System::SharedPtr\<IRow\>, bool) method
 
 
 Creates a copy of the specified template row and inserts it at the bottom of a table.

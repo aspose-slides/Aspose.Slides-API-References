@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing/stringformat/set_hotkeyprefix/
 ---
-## StringFormat::set_HotkeyPrefix([Text::HotkeyPrefix](../../../system.drawing.text/hotkeyprefix/)) method
+## StringFormat::set_HotkeyPrefix(Text::HotkeyPrefix) method
 
 
 Sets the value that specifies how the hot key prefix should be displayed.

@@ -15,12 +15,7 @@ Constructs a new instance of [PageSettings](../) class.
 System::Drawing::Printing::PageSettings::PageSettings()
 ```
 
-## See Also
-
-* Class [PageSettings](../)
-* Namespace [System::Drawing::Printing](../../)
-* Library [Aspose.Slides](../../../)
-## PageSettings::PageSettings(const [SharedPtr](../../../system/sharedptr/)\<[PrinterSettings](../../printersettings/)\>\&) constructor
+## PageSettings::PageSettings(const SharedPtr\<PrinterSettings\>\&) constructor
 
 
 Constructs a new instance of [PageSettings](../) class.
@@ -32,7 +27,7 @@ System::Drawing::Printing::PageSettings::PageSettings(const SharedPtr<PrinterSet
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [PrinterSettings](../../printersettings/)
 * Class [PageSettings](../)
+* Class [PrinterSettings](../../printersettings/)
 * Namespace [System::Drawing::Printing](../../)
 * Library [Aspose.Slides](../../../)

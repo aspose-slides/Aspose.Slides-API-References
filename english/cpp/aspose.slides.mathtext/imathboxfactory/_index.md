@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathboxfactory/
 Allows to create a math box
 
 ```cpp
-class IMathBoxFactory : public System::Object
+class IMathBoxFactory : public virtual System::Object
 ```
 
 ## Methods

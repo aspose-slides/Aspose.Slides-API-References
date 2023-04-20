@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.text/encoder/getbytecount/
 ---
-## Encoder::GetByteCount([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int, **bool**) method
+## Encoder::GetByteCount(ArrayPtr\<char_t\>, int, int, bool) method
 
 
 Gets the number of bytes needed to encode a buffer.
@@ -29,13 +29,7 @@ virtual int System::Text::Encoder::GetByteCount(ArrayPtr<char_t> chars, int inde
 
 Number of bytes required to encode the buffer.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoder::GetByteCount(const char_t *, int, **bool**) method
+## Encoder::GetByteCount(const char_t *, int, bool) method
 
 
 Gets the number of bytes needed to encode a buffer.
@@ -59,6 +53,7 @@ Number of bytes required to encode the buffer.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Encoder](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

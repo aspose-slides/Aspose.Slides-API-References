@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.mathtext/mathborderbox/set_hidebottom/
 ---
-## MathBorderBox::set_HideBottom(**bool**) method
+## MathBorderBox::set_HideBottom(bool) method
 
 
 Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box.

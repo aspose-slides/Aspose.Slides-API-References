@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides/shape/set_width/
 ---
-## Shape::set_Width(**float**) method
+## Shape::set_Width(float) method
 
 
 Sets the width of the shape. Write **float**.

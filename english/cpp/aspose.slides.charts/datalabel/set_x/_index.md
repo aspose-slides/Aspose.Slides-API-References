@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/datalabel/set_x/
 ---
-## DataLabel::set_X(**float**) method
+## DataLabel::set_X(float) method
 
 
 Sets the x coordinate of a title as a fraction of the width of the chart. Write **float**.

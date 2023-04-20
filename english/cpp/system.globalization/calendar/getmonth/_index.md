@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.globalization/calendar/getmonth/
 ---
-## Calendar::GetMonth([DateTime](../../../system/datetime/)) const method
+## Calendar::GetMonth(DateTime) const method
 
 
 Gets month for the specified time point.

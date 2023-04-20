@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.slides.charts/chartseriesgroup/idx_get/
 ---
-## ChartSeriesGroup::idx_get(**int32_t**) method
+## ChartSeriesGroup::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

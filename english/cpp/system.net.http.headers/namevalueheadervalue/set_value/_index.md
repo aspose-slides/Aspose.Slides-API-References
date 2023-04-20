@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/namevalueheadervalue/set_value/
 ---
-## NameValueHeaderValue::set_Value([String](../../../system/string/)) method
+## NameValueHeaderValue::set_Value(String) method
 
 
 Sets a value of the current instance.

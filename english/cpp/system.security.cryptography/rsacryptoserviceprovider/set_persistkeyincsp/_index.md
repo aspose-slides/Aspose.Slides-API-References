@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/set_persistkeyincsp/
 ---
-## RSACryptoServiceProvider::set_PersistKeyInCsp(**bool**) method
+## RSACryptoServiceProvider::set_PersistKeyInCsp(bool) method
 
 
 Defines whether key is persisted in CSP object.

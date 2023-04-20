@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ipresentationfactory/getpresentationtext/
 ---
-## IPresentationFactory::GetPresentationText([System::String](../../../system/string/), [TextExtractionArrangingMode](../../textextractionarrangingmode/)) method
+## IPresentationFactory::GetPresentationText(System::String, TextExtractionArrangingMode) method
 
 
 Retrieves the raw text from the slides
@@ -27,16 +27,7 @@ virtual System::SharedPtr<IPresentationText> Aspose::Slides::IPresentationFactor
 
 The instance of [PresentationText](../../presentationtext/) containing the SlideText array representing the raw slides text
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentationText](../../ipresentationtext/)
-* Class [String](../../../system/string/)
-* Enum [TextExtractionArrangingMode](../../textextractionarrangingmode/)
-* Class [IPresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationFactory::GetPresentationText([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [TextExtractionArrangingMode](../../textextractionarrangingmode/)) method
+## IPresentationFactory::GetPresentationText(System::SharedPtr\<System::IO::Stream\>, TextExtractionArrangingMode) method
 
 
 Retrieves the raw text from the slides
@@ -57,16 +48,7 @@ virtual System::SharedPtr<IPresentationText> Aspose::Slides::IPresentationFactor
 
 The instance of [PresentationText](../../presentationtext/) containing the SlideText array representing the raw slides text
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentationText](../../ipresentationtext/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [TextExtractionArrangingMode](../../textextractionarrangingmode/)
-* Class [IPresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationFactory::GetPresentationText([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [TextExtractionArrangingMode](../../textextractionarrangingmode/), [System::SharedPtr](../../../system/sharedptr/)\<[ILoadOptions](../../iloadoptions/)\>) method
+## IPresentationFactory::GetPresentationText(System::SharedPtr\<System::IO::Stream\>, TextExtractionArrangingMode, System::SharedPtr\<ILoadOptions\>) method
 
 
 Retrieves the raw text from the slides
@@ -90,11 +72,12 @@ The instance of [PresentationText](../../presentationtext/) containing the Slide
 
 ## See Also
 
+* Enum [TextExtractionArrangingMode](../../textextractionarrangingmode/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPresentationText](../../ipresentationtext/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [TextExtractionArrangingMode](../../textextractionarrangingmode/)
-* Class [ILoadOptions](../../iloadoptions/)
+* Class [String](../../../system/string/)
 * Class [IPresentationFactory](../)
+* Class [Stream](../../../system.io/stream/)
+* Class [ILoadOptions](../../iloadoptions/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

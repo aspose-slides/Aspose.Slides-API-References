@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.mathtext/mathblock/insert/
 ---
-## MathBlock::Insert(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathBlock::Insert(int32_t, System::SharedPtr\<IMathElement\>) method
 
 
 Inserts a MathElement into the collection at the specified index.

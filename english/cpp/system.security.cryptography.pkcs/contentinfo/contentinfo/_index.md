@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography.pkcs/contentinfo/contentinfo/
 ---
-## ContentInfo::ContentInfo(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) constructor
+## ContentInfo::ContentInfo(const System::ArrayPtr\<uint8_t\>\&) constructor
 
 
 Constructor.

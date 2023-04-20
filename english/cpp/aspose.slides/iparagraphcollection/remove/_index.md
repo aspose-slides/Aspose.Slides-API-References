@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/iparagraphcollection/remove/
 ---
-## IParagraphCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>) method
+## IParagraphCollection::Remove(System::SharedPtr\<IParagraph\>) method
 
 
 Removes the first occurrence of a specific paragraph.

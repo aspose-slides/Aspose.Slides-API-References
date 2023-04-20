@@ -15,12 +15,7 @@ Default constructor.
 Aspose::Slides::Animation::Point::Point()
 ```
 
-## See Also
-
-* Class [Point](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## Point::Point(**float**, [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>, [System::String](../../../system/string/)) constructor
+## Point::Point(float, System::SharedPtr\<System::Object\>, System::String) constructor
 
 
 Create animation point with time, value and formula.
@@ -41,8 +36,8 @@ Aspose::Slides::Animation::Point::Point(float time, System::SharedPtr<System::Ob
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Point](../)
 * Class [Object](../../../system/object/)
 * Class [String](../../../system/string/)
-* Class [Point](../)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

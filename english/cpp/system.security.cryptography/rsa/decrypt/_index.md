@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/rsa/decrypt/
 ---
-## RSA::Decrypt([ByteArrayPtr](../../../system/bytearrayptr/), [SharedPtr](../../../system/sharedptr/)\<[RSAEncryptionPadding](../../rsaencryptionpadding/)\>) method
+## RSA::Decrypt(ByteArrayPtr, SharedPtr\<RSAEncryptionPadding\>) method
 
 
 Decrypts input data using the specified padding mode.

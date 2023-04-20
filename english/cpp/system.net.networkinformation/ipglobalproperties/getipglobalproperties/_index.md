@@ -24,6 +24,5 @@ A newly created class instance.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPGlobalProperties](../)
-* Class [IPGlobalProperties](../)
 * Namespace [System::Net::NetworkInformation](../../)
 * Library [Aspose.Slides](../../../)

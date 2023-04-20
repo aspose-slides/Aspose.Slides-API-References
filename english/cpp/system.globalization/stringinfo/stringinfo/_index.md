@@ -19,12 +19,7 @@ System::Globalization::StringInfo::StringInfo()
 
 
 Constructor. 
-## See Also
-
-* Class [StringInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## StringInfo::StringInfo(const [String](../../../system/string/)\&) constructor
+## StringInfo::StringInfo(const String\&) constructor
 
 
 Constructor.
@@ -40,13 +35,7 @@ System::Globalization::StringInfo::StringInfo(const String &value)
 | --- | --- | --- |
 | value | const [String](../../../system/string/)\& | A string to initialize this [StringInfo](../) object, |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## StringInfo::StringInfo(const [StringInfo](../)\&) constructor
+## StringInfo::StringInfo(const StringInfo\&) constructor
 
 
 
@@ -58,6 +47,6 @@ System::Globalization::StringInfo::StringInfo(const StringInfo &)=delete
 ## See Also
 
 * Class [StringInfo](../)
-* Class [StringInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

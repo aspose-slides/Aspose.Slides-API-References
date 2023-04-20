@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/smartptr/smartptr/
 ---
-## SmartPtr::SmartPtr([SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(SmartPtrMode) constructor
 
 
 Creates [SmartPtr](../) object of required mode.
@@ -22,13 +22,7 @@ System::SmartPtr<T>::SmartPtr(SmartPtrMode mode)
 | --- | --- | --- |
 | mode | [SmartPtrMode](../../smartptrmode/) | Pointer mode. |
 
-## See Also
-
-* Enum [SmartPtrMode](../../smartptrmode/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::SmartPtr(std::nullptr_t, [SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(std::nullptr_t, SmartPtrMode) constructor
 
 
 Creates null-pointer [SmartPtr](../) object of required mode.
@@ -44,13 +38,7 @@ System::SmartPtr<T>::SmartPtr(std::nullptr_t=nullptr, SmartPtrMode mode=SmartPtr
 | --- | --- | --- |
 | mode | std::nullptr_t | Pointer mode. |
 
-## See Also
-
-* Enum [SmartPtrMode](../../smartptrmode/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::SmartPtr([Pointee_](../pointee_/) *, [SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(Pointee_ *, SmartPtrMode) constructor
 
 
 Creates [SmartPtr](../) pointing to specified object, or converts raw pointer to [SmartPtr](../).
@@ -67,14 +55,7 @@ System::SmartPtr<T>::SmartPtr(Pointee_ *object, SmartPtrMode mode=SmartPtrMode::
 | object | [Pointee_](../pointee_/) * | Pointee. |
 | mode | [SmartPtrMode](../../smartptrmode/) | Pointer mode. |
 
-## See Also
-
-* Typedef [Pointee_](../pointee_/)
-* Enum [SmartPtrMode](../../smartptrmode/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::SmartPtr(const [SmartPtr_](../smartptr_/)\&, [SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(const SmartPtr_\&, SmartPtrMode) constructor
 
 
 Copy constructs [SmartPtr](../) object. Both pointers point to the same object afterwards.
@@ -91,14 +72,7 @@ System::SmartPtr<T>::SmartPtr(const SmartPtr_ &ptr, SmartPtrMode mode=SmartPtrMo
 | ptr | const [SmartPtr_](../smartptr_/)\& | Pointer to copy. |
 | mode | [SmartPtrMode](../../smartptrmode/) | Pointer mode. |
 
-## See Also
-
-* Typedef [SmartPtr_](../smartptr_/)
-* Enum [SmartPtrMode](../../smartptrmode/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::SmartPtr(const [SmartPtr](../)\<Q\>\&, [SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(const SmartPtr\<Q\>\&, SmartPtrMode) constructor
 
 
 Copy constructs [SmartPtr](../) object. Both pointers point to the same object afterwards. Performs type conversion if allowed.
@@ -121,14 +95,7 @@ template<class Q,typename> System::SmartPtr<T>::SmartPtr(const SmartPtr<Q> &x, S
 | x | const [SmartPtr](../)\<Q\>\& | Pointer to copy. |
 | mode | [SmartPtrMode](../../smartptrmode/) | Pointer mode. |
 
-## See Also
-
-* Class [SmartPtr](../)
-* Enum [SmartPtrMode](../../smartptrmode/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::SmartPtr([SmartPtr_](../smartptr_/)\&&, [SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(SmartPtr_\&&, SmartPtrMode) constructor
 
 
 Move constructs [SmartPtr](../) object. Effectively, swaps two pointers, if they are both of same mode. x may be unusable after call.
@@ -145,14 +112,7 @@ System::SmartPtr<T>::SmartPtr(SmartPtr_ &&x, SmartPtrMode mode=SmartPtrMode::Sha
 | x | [SmartPtr_](../smartptr_/)\&& | Pointer to move. |
 | mode | [SmartPtrMode](../../smartptrmode/) | Pointer mode. |
 
-## See Also
-
-* Typedef [SmartPtr_](../smartptr_/)
-* Enum [SmartPtrMode](../../smartptrmode/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::SmartPtr(const [SmartPtr](../)\<[Array](../../array/)\<Y\>\>\&, [SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(const SmartPtr\<Array\<Y\>\>\&, SmartPtrMode) constructor
 
 
 Converts type of referenced array by creating a new array of different type. Useful if in C# there is an array type cast which is unsupported in C++.
@@ -175,14 +135,6 @@ template<typename Y> System::SmartPtr<T>::SmartPtr(const SmartPtr<Array<Y>> &src
 | src | const [SmartPtr](../)\<[Array](../../array/)\<Y\>\>\& | Pointer to array to create a copy of, but with different type of elements. |
 | mode | [SmartPtrMode](../../smartptrmode/) | Pointer mode. |
 
-## See Also
-
-* Class [SmartPtr](../)
-* Class [Array](../../array/)
-* Enum [SmartPtrMode](../../smartptrmode/)
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## SmartPtr::SmartPtr(const Y\&) constructor
 
 
@@ -199,12 +151,7 @@ template<typename Y,typename> System::SmartPtr<T>::SmartPtr(const Y &)
 | --- | --- |
 | Y | Placeholder of EmptyArrayInitializer type. |
 
-## See Also
-
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtr::SmartPtr(const [SmartPtr](../)\<P\>\&, [Pointee_](../pointee_/) *, [SmartPtrMode](../../smartptrmode/)) constructor
+## SmartPtr::SmartPtr(const SmartPtr\<P\>\&, Pointee_ *, SmartPtrMode) constructor
 
 
 Constructs a [SmartPtr](../) which shares ownership information with the initial value of ptr, but holds an unrelated and unmanaged pointer p.
@@ -280,9 +227,10 @@ Hello, world!
 
 ## See Also
 
-* Class [SmartPtr](../)
-* Typedef [Pointee_](../pointee_/)
 * Enum [SmartPtrMode](../../smartptrmode/)
+* Typedef [Pointee_](../pointee_/)
+* Typedef [SmartPtr_](../smartptr_/)
 * Class [SmartPtr](../)
+* Class [Array](../../array/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides/iloadoptions/set_spreadsheetoptions/
 ---
-## ILoadOptions::set_SpreadsheetOptions([System::SharedPtr](../../../system/sharedptr/)\<[ISpreadsheetOptions](../../ispreadsheetoptions/)\>) method
+## ILoadOptions::set_SpreadsheetOptions(System::SharedPtr\<ISpreadsheetOptions\>) method
 
 
 Represents options which can be used to specify additional spreadsheets behavior.

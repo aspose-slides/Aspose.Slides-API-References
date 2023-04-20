@@ -6,7 +6,7 @@ type: docs
 weight: 1054
 url: /cpp/system.drawing/graphics/set_textcontrast/
 ---
-## Graphics::set_TextContrast(**int32_t**) method
+## Graphics::set_TextContrast(int32_t) method
 
 
 NOT IMPLEMENTED.

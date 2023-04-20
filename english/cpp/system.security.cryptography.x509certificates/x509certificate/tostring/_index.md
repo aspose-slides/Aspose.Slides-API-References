@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.security.cryptography.x509certificates/x509certificate/tostring/
 ---
-## X509Certificate::ToString(**bool**) const method
+## X509Certificate::ToString(bool) const method
 
 
 Returns the certificate information in text format.
@@ -26,12 +26,6 @@ virtual String System::Security::Cryptography::X509Certificates::X509Certificate
 
 The certificate information.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
 ## X509Certificate::ToString() const method
 
 

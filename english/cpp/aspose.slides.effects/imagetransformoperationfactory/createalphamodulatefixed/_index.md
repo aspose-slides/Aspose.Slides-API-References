@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed/
 ---
-## ImageTransformOperationFactory::CreateAlphaModulateFixed(**float**) method
+## ImageTransformOperationFactory::CreateAlphaModulateFixed(float) method
 
 
 Creates Alpha modulate fixed effect.

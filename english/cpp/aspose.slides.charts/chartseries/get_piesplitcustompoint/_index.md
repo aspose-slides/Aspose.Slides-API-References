@@ -6,7 +6,7 @@ type: docs
 weight: 872
 url: /cpp/aspose.slides.charts/chartseries/get_piesplitcustompoint/
 ---
-## ChartSeries::get_PieSplitCustomPoint(**int32_t**) method
+## ChartSeries::get_PieSplitCustomPoint(int32_t) method
 
 
 The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Returns data point that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart at the specified index.

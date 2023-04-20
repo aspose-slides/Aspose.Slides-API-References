@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net.http/httprequestmessage/set_content/
 ---
-## HttpRequestMessage::set_Content([System::SharedPtr](../../../system/sharedptr/)\<[HttpContent](../../httpcontent/)\>) method
+## HttpRequestMessage::set_Content(System::SharedPtr\<HttpContent\>) method
 
 
 Sets content of the HTTP request.

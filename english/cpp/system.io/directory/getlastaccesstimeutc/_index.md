@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.io/directory/getlastaccesstimeutc/
 ---
-## Directory::GetLastAccessTimeUtc(const [String](../../../system/string/)\&) method
+## Directory::GetLastAccessTimeUtc(const String\&) method
 
 
 Returns the last access time of the specified entity as UTC time.

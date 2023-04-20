@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/testtools/isempty/
 ---
-## TestTools::IsEmpty(const [System::String](../../string/)\&) method
+## TestTools::IsEmpty(const System::String\&) method
 
 
 Checks if string is empty.
@@ -26,13 +26,7 @@ static bool System::TestTools::IsEmpty(const System::String &str)
 
 True if string is empty (null-length), false otherwise.
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [TestTools](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestTools::IsEmpty(const [SharedPtr](../../sharedptr/)\<T\>\&) method
+## TestTools::IsEmpty(const SharedPtr\<T\>\&) method
 
 
 Checks if collection is empty.
@@ -61,6 +55,7 @@ True if collection has zero element count, false otherwise.
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Struct [TestTools](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

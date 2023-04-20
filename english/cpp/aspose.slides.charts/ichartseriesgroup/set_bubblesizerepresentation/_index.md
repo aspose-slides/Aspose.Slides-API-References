@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.slides.charts/ichartseriesgroup/set_bubblesizerepresentation/
 ---
-## IChartSeriesGroup::set_BubbleSizeRepresentation([BubbleSizeRepresentationType](../../bubblesizerepresentationtype/)) method
+## IChartSeriesGroup::set_BubbleSizeRepresentation(BubbleSizeRepresentationType) method
 
 
 Specifies how the bubble size values are represented on the bubble chart. Write [BubbleSizeRepresentationType](../../bubblesizerepresentationtype/).

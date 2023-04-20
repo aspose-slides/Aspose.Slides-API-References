@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.effects/imagetransformoperationfactory/createluminance/
 ---
-## ImageTransformOperationFactory::CreateLuminance(**float**, **float**) method
+## ImageTransformOperationFactory::CreateLuminance(float, float) method
 
 
 Createtes [Luminance](../../luminance/) effect.

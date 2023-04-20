@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/igroupshapelock/set_ungroupinglocked/
 ---
-## IGroupShapeLock::set_UngroupingLocked(**bool**) method
+## IGroupShapeLock::set_UngroupingLocked(bool) method
 
 
 Determines whether splitting this groupshape is forbidden. Write **bool**.

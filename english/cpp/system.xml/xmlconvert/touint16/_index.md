@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.xml/xmlconvert/touint16/
 ---
-## XmlConvert::ToUInt16(const [String](../../../system/string/)\&) method
+## XmlConvert::ToUInt16(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [UInt16](../../../system/uint16/) equivalent.

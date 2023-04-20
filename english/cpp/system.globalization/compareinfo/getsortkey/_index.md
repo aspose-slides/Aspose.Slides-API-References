@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.globalization/compareinfo/getsortkey/
 ---
-## CompareInfo::GetSortKey(const [String](../../../system/string/)\&, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::GetSortKey(const String\&, CompareOptions) const method
 
 
 Gets [SortKey](../../sortkey/) object for the specified string using specified compare options.
@@ -27,15 +27,7 @@ virtual SortKeyPtr System::Globalization::CompareInfo::GetSortKey(const String &
 
 [SortKey](../../sortkey/) object.
 
-## See Also
-
-* Typedef [SortKeyPtr](../../sortkeyptr/)
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::GetSortKey(const [String](../../../system/string/)\&) const method
+## CompareInfo::GetSortKey(const String\&) const method
 
 
 Gets [SortKey](../../sortkey/) object for the specified string.
@@ -57,6 +49,7 @@ virtual SortKeyPtr System::Globalization::CompareInfo::GetSortKey(const String &
 
 ## See Also
 
+* Enum [CompareOptions](../../compareoptions/)
 * Typedef [SortKeyPtr](../../sortkeyptr/)
 * Class [String](../../../system/string/)
 * Class [CompareInfo](../)

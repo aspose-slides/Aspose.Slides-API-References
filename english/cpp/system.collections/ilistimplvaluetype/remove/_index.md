@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.collections/ilistimplvaluetype/remove/
 ---
-## IListImplValueType::Remove([SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IListImplValueType::Remove(SharedPtr\<System::Object\>) method
 
 
 Removes first instance of specific item from list.

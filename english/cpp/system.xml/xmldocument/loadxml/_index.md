@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system.xml/xmldocument/loadxml/
 ---
-## XmlDocument::LoadXml([String](../../../system/string/)) method
+## XmlDocument::LoadXml(String) method
 
 
 Loads the XML document from the specified string.

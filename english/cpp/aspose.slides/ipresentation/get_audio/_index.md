@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.slides/ipresentation/get_audio/
 ---
-## IPresentation::get_Audio(**int32_t**) method
+## IPresentation::get_Audio(int32_t) method
 
 
 Return embedded audio file in the presentation at the specified index. Read-only [Aspose::Slides::IAudio](../../iaudio/)

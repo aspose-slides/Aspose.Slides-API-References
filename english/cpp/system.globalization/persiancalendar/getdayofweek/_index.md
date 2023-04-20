@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/persiancalendar/getdayofweek/
 ---
-## PersianCalendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## PersianCalendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

@@ -3,10 +3,10 @@ title: StaticCast_noexcept()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs static cast on SmartPtr objects.
 type: docs
-weight: 2172
+weight: 1860
 url: /cpp/system/staticcast_noexcept/
 ---
-## System::StaticCast_noexcept([SmartPtr](../smartptr/)\<TFrom\> const\&) function
+## System::StaticCast_noexcept(SmartPtr\<TFrom\> const\&) function
 
 
 Performs static cast on [SmartPtr](../smartptr/) objects.
@@ -36,13 +36,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::StaticCast_noexcept([WeakPtr](../weakptr/)\<TFrom\> const\&) function
+## System::StaticCast_noexcept(WeakPtr\<TFrom\> const\&) function
 
 
 Performs static cast on [WeakPtr](../weakptr/) objects.
@@ -72,12 +66,6 @@ Cast result if cast is allowed or nullptr otherwise.
 Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## See Also
-
-* Struct [CastResult](../castresult/)
-* Class [WeakPtr](../weakptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::StaticCast_noexcept(const TFrom\&) function
 
 
@@ -108,12 +96,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::StaticCast_noexcept([SmartPtr](../smartptr/)\<TFrom\>) function
+## System::StaticCast_noexcept(SmartPtr\<TFrom\>) function
 
 
 Performs static cast on Objects to Exception objects.
@@ -145,8 +128,10 @@ Deprecated
 
 ## See Also
 
+* Class [SmartPtr](../smartptr/)
+* Class [WeakPtr](../weakptr/)
 * Class [Object](../object/)
 * Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
+* Struct [CastResult](../castresult/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

@@ -15,12 +15,7 @@ Starts process with pre-defined parameters.
 bool System::Diagnostics::Process::Start()
 ```
 
-## See Also
-
-* Class [Process](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Process::Start(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Process::Start(const String\&, const String\&) method
 
 
 Starts process with specified path and arguments.
@@ -41,15 +36,7 @@ static SharedPtr<Process> System::Diagnostics::Process::Start(const String &file
 
 [Object](../../../system/object/) attached to newly started process.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Process](../)
-* Class [String](../../../system/string/)
-* Class [Process](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Process::Start(const [SharedPtr](../../../system/sharedptr/)\<[ProcessStartInfo](../../processstartinfo/)\>\&) method
+## Process::Start(const SharedPtr\<ProcessStartInfo\>\&) method
 
 
 Starts process with specified path and arguments.
@@ -73,7 +60,7 @@ static SharedPtr<Process> System::Diagnostics::Process::Start(const SharedPtr<Pr
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Process](../)
+* Class [String](../../../system/string/)
 * Class [ProcessStartInfo](../../processstartinfo/)
-* Class [Process](../)
 * Namespace [System::Diagnostics](../../)
 * Library [Aspose.Slides](../../../)

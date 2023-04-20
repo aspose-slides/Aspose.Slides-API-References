@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.drawing/size/round/
 ---
-## Size::Round(const [SizeF](../../sizef/)\&) method
+## Size::Round(const SizeF\&) method
 
 
 Constructs a [Size](../) object from the specified [SizeF](../../sizef/) object by rounding the [SizeF](../../sizef/) object's width and height values to the nearest integer values.
@@ -30,6 +30,5 @@ A [Size](../) object constructed from **size**
 
 * Class [Size](../)
 * Class [SizeF](../../sizef/)
-* Class [Size](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

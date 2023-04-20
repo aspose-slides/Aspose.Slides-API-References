@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.xml.schema/xmlschema/compile/
 ---
-## XmlSchema::Compile([ValidationEventHandler](../../validationeventhandler/)) method
+## XmlSchema::Compile(ValidationEventHandler) method
 
 
 Compiles the XML [Schema](../../)[Object](../../../system/object/) Model (SOM) into schema information for validation. Used to check the syntactic and semantic structure of the programmatically built SOM. Semantic validation checking is performed during compilation.
@@ -22,13 +22,7 @@ void System::Xml::Schema::XmlSchema::Compile(ValidationEventHandler validationEv
 | --- | --- | --- |
 | validationEventHandler | [ValidationEventHandler](../../validationeventhandler/) | The validation event handler that receives information about XML [Schema](../../) validation errors. |
 
-## See Also
-
-* Typedef [ValidationEventHandler](../../validationeventhandler/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Compile([ValidationEventHandler](../../validationeventhandler/), const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\&) method
+## XmlSchema::Compile(ValidationEventHandler, const SharedPtr\<XmlResolver\>\&) method
 
 
 Compiles the XML [Schema](../../)[Object](../../../system/object/) Model (SOM) into schema information for validation. Used to check the syntactic and semantic structure of the programmatically built SOM. Semantic validation checking is performed during compilation.
@@ -49,7 +43,7 @@ void System::Xml::Schema::XmlSchema::Compile(ValidationEventHandler validationEv
 
 * Typedef [ValidationEventHandler](../../validationeventhandler/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
 * Class [XmlSchema](../)
+* Class [XmlResolver](../../../system.xml/xmlresolver/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

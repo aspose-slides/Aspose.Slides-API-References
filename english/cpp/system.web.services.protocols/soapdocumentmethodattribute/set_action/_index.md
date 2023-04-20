@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web.services.protocols/soapdocumentmethodattribute/set_action/
 ---
-## SoapDocumentMethodAttribute::set_Action([String](../../../system/string/)) method
+## SoapDocumentMethodAttribute::set_Action(String) method
 
 
 Sets a value of the 'SOAPAction' attribute.

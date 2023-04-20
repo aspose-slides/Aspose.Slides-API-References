@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/iconvertible/tosbyte/
 ---
-## IConvertible::ToSByte([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToSByte(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent 8-bit signed integer using the specified culture-specific formatting information.

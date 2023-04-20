@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/socketaddress/equals/
 ---
-## SocketAddress::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## SocketAddress::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

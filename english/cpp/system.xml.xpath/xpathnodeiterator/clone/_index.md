@@ -24,6 +24,5 @@ A new [XPathNodeIterator](../) object clone of this [XPathNodeIterator](../) obj
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XPathNodeIterator](../)
-* Class [XPathNodeIterator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

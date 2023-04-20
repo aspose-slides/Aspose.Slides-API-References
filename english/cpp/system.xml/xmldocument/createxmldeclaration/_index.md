@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.xml/xmldocument/createxmldeclaration/
 ---
-## XmlDocument::CreateXmlDeclaration(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateXmlDeclaration(const String\&, const String\&, const String\&) method
 
 
 Creates an [XmlDeclaration](../../xmldeclaration/) node with the specified values.

@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.io/file/writealltext/
 ---
-## File::WriteAllText(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [EncodingPtr](../../../system/encodingptr/)\&) method
+## File::WriteAllText(const String\&, const String\&, const EncodingPtr\&) method
 
 
 Creates a new text file or overwrites the existing one and writes the content of the specified string to it using the specified encoding.
@@ -26,8 +26,8 @@ static void System::IO::File::WriteAllText(const String &path, const String &con
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [EncodingPtr](../../../system/encodingptr/)
+* Class [String](../../../system/string/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

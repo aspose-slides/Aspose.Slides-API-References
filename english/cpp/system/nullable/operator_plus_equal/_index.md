@@ -20,12 +20,6 @@ Nullable<T> System::Nullable<T>::operator+=(std::nullptr_t)
 
 A copy of the self
 
-## See Also
-
-* Class [Nullable](../)
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::operator+=(const T1\&) method
 
 
@@ -52,14 +46,7 @@ template<typename T1> std::enable_if<!IsNullable<T1>::value, Nullable<T>>::type 
 
 A reference to the self
 
-## See Also
-
-* Struct [IsNullable](../../isnullable/)
-* Class [Nullable](../)
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Nullable::operator+=(const [Nullable](../)\<T1\>\&) method
+## Nullable::operator+=(const Nullable\<T1\>\&) method
 
 
 Applies [operator+=()](./) to the value represented by the current object using the value represented by the specified [Nullable](../) object as the right-side argument.
@@ -88,6 +75,6 @@ A reference to the self
 ## See Also
 
 * Class [Nullable](../)
-* Class [Nullable](../)
+* Struct [IsNullable](../../isnullable/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

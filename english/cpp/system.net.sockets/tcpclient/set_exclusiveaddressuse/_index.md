@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.sockets/tcpclient/set_exclusiveaddressuse/
 ---
-## TcpClient::set_ExclusiveAddressUse(**bool**) method
+## TcpClient::set_ExclusiveAddressUse(bool) method
 
 
 Sets a value that indicates if the current instance allows only one client to use a port.

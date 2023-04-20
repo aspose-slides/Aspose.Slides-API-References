@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/videoframe/set_rewindvideo/
 ---
-## VideoFrame::set_RewindVideo(**bool**) method
+## VideoFrame::set_RewindVideo(bool) method
 
 
 Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Write **bool**.

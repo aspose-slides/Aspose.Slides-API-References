@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.charts/charttypecharacterizer/isbar3dchart/
 ---
-## ChartTypeCharacterizer::IsBar3DChart([ChartType](../../charttype/)) method
+## ChartTypeCharacterizer::IsBar3DChart(ChartType) method
 
 
 Return true if chartType is one of bar3DChart subtypes (3D columns or bars).

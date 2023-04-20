@@ -15,12 +15,7 @@ Releases all resources used by the current object and closes the undelying strea
 virtual void System::IO::TextWriter::Dispose() override
 ```
 
-## See Also
-
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::Dispose(**bool**) method
+## StreamWriter::Dispose(bool) method
 
 
 Releases all resources used by the current object and closes the undelying stream.

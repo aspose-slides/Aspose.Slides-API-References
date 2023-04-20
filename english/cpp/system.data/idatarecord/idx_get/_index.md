@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.data/idatarecord/idx_get/
 ---
-## IDataRecord::idx_get(const **int32_t**) method
+## IDataRecord::idx_get(const int32_t) method
 
 
 Gets value at speified index.

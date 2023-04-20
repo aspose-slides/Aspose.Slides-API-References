@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.text.regularexpressions/match/addgroup/
 ---
-## Match::AddGroup(const [GroupPtr](../../groupptr/)\&) method
+## Match::AddGroup(const GroupPtr\&) method
 
 
 Adds group into match.

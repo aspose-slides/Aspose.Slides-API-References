@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.smartart/smartart/get_nodefromall/
 ---
-## SmartArt::get_NodeFromAll(**int32_t**) method
+## SmartArt::get_NodeFromAll(int32_t) method
 
 
 Returns a node from collection with all nodes in [SmartArt](../) object at specified index. Read-only [Aspose::Slides::SmartArt::ISmartArtNode](../../ismartartnode/)

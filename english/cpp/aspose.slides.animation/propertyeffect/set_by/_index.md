@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/propertyeffect/set_by/
 ---
-## PropertyEffect::set_By([System::String](../../../system/string/)) method
+## PropertyEffect::set_By(System::String) method
 
 
 Specifies a relative offset value for the animation with respect to its position before the start of the animation. Write [System::String](../../../system/string/).

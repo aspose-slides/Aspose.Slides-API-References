@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/bitconverter/tochar/
 ---
-## BitConverter::ToChar(const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToChar(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to char_t value.
@@ -27,13 +27,7 @@ static char_t System::BitConverter::ToChar(const System::ArrayPtr<uint8_t> &valu
 
 char_t value resulting from conversion
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToChar(const System::Details::ArrayView\<**uint8_t**\>\&, int) method
+## BitConverter::ToChar(const System::Details::ArrayView\<uint8_t\>\&, int) method
 
 
 Converts two bytes from the specified array starting at the specified index to char_t value.
@@ -56,6 +50,7 @@ char_t value resulting from conversion
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

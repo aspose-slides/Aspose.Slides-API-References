@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net/cookiecollection/timestamp/
 ---
-## CookieCollection::TimeStamp([CookieCollection::Stamp](../stamp/)) method
+## CookieCollection::TimeStamp(CookieCollection::Stamp) method
 
 
 Updates the timestamp by specified scenario and returns a new value.
@@ -28,8 +28,8 @@ A new timestamp value.
 
 ## See Also
 
-* Class [DateTime](../../../system/datetime/)
 * Enum [Stamp](../stamp/)
+* Class [DateTime](../../../system/datetime/)
 * Class [CookieCollection](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

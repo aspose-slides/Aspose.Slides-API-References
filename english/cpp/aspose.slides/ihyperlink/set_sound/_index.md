@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/ihyperlink/set_sound/
 ---
-## IHyperlink::set_Sound([System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../iaudio/)\>) method
+## IHyperlink::set_Sound(System::SharedPtr\<IAudio\>) method
 
 
 Represents the playing sound of the hyperlink. Write [IAudio](../../iaudio/).

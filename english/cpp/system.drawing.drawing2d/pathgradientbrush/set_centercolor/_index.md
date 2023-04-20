@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/set_centercolor/
 ---
-## PathGradientBrush::set_CenterColor([Color](../../../system.drawing/color/)) method
+## PathGradientBrush::set_CenterColor(Color) method
 
 
 Sets a color that is at the center of the path filled by the current object.

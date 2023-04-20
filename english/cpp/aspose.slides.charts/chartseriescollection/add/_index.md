@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/chartseriescollection/add/
 ---
-## ChartSeriesCollection::Add([ChartType](../../charttype/)) method
+## ChartSeriesCollection::Add(ChartType) method
 
 
 Creates new chart series and adds it to the collection.
@@ -26,15 +26,7 @@ System::SharedPtr<IChartSeries> Aspose::Slides::Charts::ChartSeriesCollection::A
 
 New chart series.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartSeries](../../ichartseries/)
-* Enum [ChartType](../../charttype/)
-* Class [ChartSeriesCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartSeriesCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>, [ChartType](../../charttype/)) method
+## ChartSeriesCollection::Add(System::SharedPtr\<IChartDataCell\>, ChartType) method
 
 
 Creates new chart series from [ChartDataCell](../../chartdatacell/) and adds it to the collection.
@@ -61,16 +53,7 @@ If chart series careted from same cell already in collection then method adds no
 
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartSeries](../../ichartseries/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Enum [ChartType](../../charttype/)
-* Class [ChartSeriesCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartSeriesCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IChartCellCollection](../../ichartcellcollection/)\>, [ChartType](../../charttype/)) method
+## ChartSeriesCollection::Add(System::SharedPtr\<IChartCellCollection\>, ChartType) method
 
 
 Creates new chart series from [ChartCellCollection](../../chartcellcollection/) and adds it to the collection.
@@ -97,16 +80,7 @@ If chart series careted from same cell already in collection then method adds no
 
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartSeries](../../ichartseries/)
-* Class [IChartCellCollection](../../ichartcellcollection/)
-* Enum [ChartType](../../charttype/)
-* Class [ChartSeriesCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartSeriesCollection::Add([System::String](../../../system/string/), [ChartType](../../charttype/)) method
+## ChartSeriesCollection::Add(System::String, ChartType) method
 
 
 Creates new chart series from value and adds it to the collection.
@@ -131,10 +105,12 @@ Added chart series.
 
 ## See Also
 
+* Enum [ChartType](../../charttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartSeries](../../ichartseries/)
-* Class [String](../../../system/string/)
-* Enum [ChartType](../../charttype/)
 * Class [ChartSeriesCollection](../)
+* Class [IChartDataCell](../../ichartdatacell/)
+* Class [IChartCellCollection](../../ichartcellcollection/)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

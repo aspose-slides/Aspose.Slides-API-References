@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.globalization/numberformatinfo/set_percentsymbol/
 ---
-## NumberFormatInfo::set_PercentSymbol(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_PercentSymbol(const String\&) method
 
 
 Sets percent symbol.

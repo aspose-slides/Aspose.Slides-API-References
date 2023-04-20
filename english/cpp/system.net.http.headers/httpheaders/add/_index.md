@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net.http.headers/httpheaders/add/
 ---
-## HttpHeaders::Add([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>) method
+## HttpHeaders::Add(String, System::SharedPtr\<Collections::Generic::IEnumerable\<String\>\>) method
 
 
 Validates a new name-values pair and adds it to the current collection.
@@ -23,15 +23,7 @@ void System::Net::Http::Headers::HttpHeaders::Add(String name, System::SharedPtr
 | name | [String](../../../system/string/) | The header name. |
 | values | [System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\> | The header values. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
-* Class [HttpHeaders](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## HttpHeaders::Add([String](../../../system/string/), [String](../../../system/string/)) method
+## HttpHeaders::Add(String, String) method
 
 
 Validates a new name-value pair and adds it to the current collection.
@@ -50,7 +42,9 @@ void System::Net::Http::Headers::HttpHeaders::Add(String name, String value)
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [String](../../../system/string/)
+* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Class [HttpHeaders](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

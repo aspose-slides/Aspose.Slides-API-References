@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.mathtext/mathblock/removeat/
 ---
-## MathBlock::RemoveAt(**int32_t**) method
+## MathBlock::RemoveAt(int32_t) method
 
 
 Removes the element at the specified index of the collection.

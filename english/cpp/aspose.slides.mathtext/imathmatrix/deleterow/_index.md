@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides.mathtext/imathmatrix/deleterow/
 ---
-## IMathMatrix::DeleteRow(**int32_t**) method
+## IMathMatrix::DeleteRow(int32_t) method
 
 
 Deletes the specified row

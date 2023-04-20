@@ -15,13 +15,7 @@ Converts the GUID represented by the current object to its string representation
 String System::Guid::ToString() const
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::ToString(const [String](../../string/)\&) const method
+## Guid::ToString(const String\&) const method
 
 
 Converts the GUID represented by the current object to its string representation using the specified string format.
@@ -41,13 +35,7 @@ String System::Guid::ToString(const String &format) const
 
 The string representation of the GUID value represented by the current object
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) const method
+## Guid::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) const method
 
 
 Converts the GUID represented by the current object to its string representation using the specified string format and Culture.
@@ -70,9 +58,9 @@ The string representation of the GUID value represented by the current object
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [String](../../string/)
 * Class [Guid](../)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

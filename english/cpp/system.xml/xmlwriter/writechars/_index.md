@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.xml/xmlwriter/writechars/
 ---
-## XmlWriter::WriteChars([ArrayPtr](../../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) method
+## XmlWriter::WriteChars(ArrayPtr\<char16_t\>, int32_t, int32_t) method
 
 
 When overridden in a derived class, writes text one buffer at a time.

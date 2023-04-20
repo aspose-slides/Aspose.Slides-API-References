@@ -23,6 +23,5 @@ Long-running operations will never be interrupted via [InterruptionTokenSource::
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [InterruptionToken](../)
-* Class [InterruptionToken](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

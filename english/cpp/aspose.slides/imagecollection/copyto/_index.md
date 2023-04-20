@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/imagecollection/copyto/
 ---
-## ImageCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IPPImage](../../ippimage/)\>\>, **int32_t**) method
+## ImageCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IPPImage\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

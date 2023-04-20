@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/sectioncollection/reordersectionwithslides/
 ---
-## SectionCollection::ReorderSectionWithSlides([System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>, **int32_t**) method
+## SectionCollection::ReorderSectionWithSlides(System::SharedPtr\<ISection\>, int32_t) method
 
 
 Moves section and its slides from the collection to the specified position.

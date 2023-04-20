@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.slides/idocumentproperties/set_revisionnumber/
 ---
-## IDocumentProperties::set_RevisionNumber(**int32_t**) method
+## IDocumentProperties::set_RevisionNumber(int32_t) method
 
 
 Sets the presentation revision number. Write **int32_t**.

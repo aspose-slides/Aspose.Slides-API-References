@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.globalization/stringinfo/parsecombiningcharacters/
 ---
-## StringInfo::ParseCombiningCharacters(const [String](../../../system/string/)\&) method
+## StringInfo::ParseCombiningCharacters(const String\&) method
 
 
 Gets indexes of the base characters, high surrogates and control characters.

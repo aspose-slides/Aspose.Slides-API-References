@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/effectformat/setblureffect/
 ---
-## EffectFormat::SetBlurEffect(**double**, **bool**) method
+## EffectFormat::SetBlurEffect(double, bool) method
 
 
 Sets blur effect.

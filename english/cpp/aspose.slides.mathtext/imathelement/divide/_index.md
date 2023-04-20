@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/imathelement/divide/
 ---
-## IMathElement::Divide([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>) method
+## IMathElement::Divide(System::SharedPtr\<IMathElement\>) method
 
 
 Creates a fraction with this numerator and specified denominator
@@ -36,15 +36,7 @@ auto denumerator = System::MakeObject<MathematicalText>(u"y");
 auto fraction = numerator->Divide(denumerator);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFraction](../../imathfraction/)
-* Class [IMathElement](../)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::Divide([System::String](../../../system/string/)) method
+## IMathElement::Divide(System::String) method
 
 
 Creates a fraction with this numerator and specified denominator
@@ -73,15 +65,7 @@ System::SharedPtr<IMathElement> numerator = System::MakeObject<MathematicalText>
 auto fraction = numerator->Divide(u"y");
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFraction](../../imathfraction/)
-* Class [String](../../../system/string/)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::Divide([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../)\>, [MathFractionTypes](../../mathfractiontypes/)) method
+## IMathElement::Divide(System::SharedPtr\<IMathElement\>, MathFractionTypes) method
 
 
 Creates a fraction of the specified type with this numerator and specified denominator
@@ -112,16 +96,7 @@ auto denumerator = System::MakeObject<MathematicalText>(u"y");
 auto fraction = numerator->Divide(denumerator, MathFractionTypes::Linear);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFraction](../../imathfraction/)
-* Class [IMathElement](../)
-* Enum [MathFractionTypes](../../mathfractiontypes/)
-* Class [IMathElement](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathElement::Divide([System::String](../../../system/string/), [MathFractionTypes](../../mathfractiontypes/)) method
+## IMathElement::Divide(System::String, MathFractionTypes) method
 
 
 Creates a fraction of the specified type with this numerator and specified denominator
@@ -153,10 +128,10 @@ auto fraction = numerator->Divide(u"y", Aspose::Slides::MathText::MathFractionTy
 
 ## See Also
 
+* Enum [MathFractionTypes](../../mathfractiontypes/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathFraction](../../imathfraction/)
-* Class [String](../../../system/string/)
-* Enum [MathFractionTypes](../../mathfractiontypes/)
 * Class [IMathElement](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

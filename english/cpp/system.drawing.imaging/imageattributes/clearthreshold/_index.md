@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing.imaging/imageattributes/clearthreshold/
 ---
-## ImageAttributes::ClearThreshold([ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::ClearThreshold(ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

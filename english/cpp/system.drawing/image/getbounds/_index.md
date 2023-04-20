@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.drawing/image/getbounds/
 ---
-## Image::GetBounds([GraphicsUnit](../../graphicsunit/)\&) method
+## Image::GetBounds(GraphicsUnit\&) method
 
 
 Returns the image bounds in the specified measurement units.
@@ -28,8 +28,8 @@ An instance of [RectangleF](../../rectanglef/) class that represents the image b
 
 ## See Also
 
-* Class [RectangleF](../../rectanglef/)
 * Enum [GraphicsUnit](../../graphicsunit/)
+* Class [RectangleF](../../rectanglef/)
 * Class [Image](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

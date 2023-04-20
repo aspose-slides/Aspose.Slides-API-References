@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.animation/ibehaviorcollection/contains/
 ---
-## IBehaviorCollection::Contains([System::SharedPtr](../../../system/sharedptr/)\<[IBehavior](../../ibehavior/)\>) method
+## IBehaviorCollection::Contains(System::SharedPtr\<IBehavior\>) method
 
 
 Determines whether the [ICollection](../../../system.collections.generic/icollection/) contains a specific value.

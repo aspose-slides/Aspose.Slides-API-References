@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/system.drawing/graphics/set_transform/
 ---
-## Graphics::set_Transform(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\&) method
+## Graphics::set_Transform(const SharedPtr\<Drawing2D::Matrix\>\&) method
 
 
 Sets the geometric world transformation for the current [Graphics](../) object.

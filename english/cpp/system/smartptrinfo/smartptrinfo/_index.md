@@ -15,12 +15,7 @@ Creates empty [SmartPtrInfo](../) object.
 System::SmartPtrInfo::SmartPtrInfo()
 ```
 
-## See Also
-
-* Class [SmartPtrInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## SmartPtrInfo::SmartPtrInfo(const [SmartPtr](../../smartptr/)\<T\>\&) constructor
+## SmartPtrInfo::SmartPtrInfo(const SmartPtr\<T\>\&) constructor
 
 
 Creates [SmartPtrInfo](../) object with information on specific smart pointer.
@@ -44,7 +39,7 @@ template<typename T> System::SmartPtrInfo::SmartPtrInfo(const SmartPtr<T> &ptr)
 
 ## See Also
 
-* Class [SmartPtr](../../smartptr/)
 * Class [SmartPtrInfo](../)
+* Class [SmartPtr](../../smartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

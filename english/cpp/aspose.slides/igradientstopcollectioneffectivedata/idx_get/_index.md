@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/igradientstopcollectioneffectivedata/idx_get/
 ---
-## IGradientStopCollectionEffectiveData::idx_get(**int32_t**) method
+## IGradientStopCollectionEffectiveData::idx_get(int32_t) method
 
 
 Returns the gradient stop by index.

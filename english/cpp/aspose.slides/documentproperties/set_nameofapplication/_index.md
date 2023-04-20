@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/documentproperties/set_nameofapplication/
 ---
-## DocumentProperties::set_NameOfApplication([System::String](../../../system/string/)) method
+## DocumentProperties::set_NameOfApplication(System::String) method
 
 
 Sets the name of the application. Write [System::String](../../../system/string/).

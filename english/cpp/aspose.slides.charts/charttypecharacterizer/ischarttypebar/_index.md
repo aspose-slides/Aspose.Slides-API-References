@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/charttypecharacterizer/ischarttypebar/
 ---
-## ChartTypeCharacterizer::IsChartTypeBar([ChartType](../../charttype/)) method
+## ChartTypeCharacterizer::IsChartTypeBar(ChartType) method
 
 
 Return true if chartType is one of Bar subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see \"Change Chart Type\" dialog in PowerPoint): [ChartType::ClusteredBar](../../charttype/), [ChartType::ClusteredBar3D](../../charttype/), [ChartType::PercentsStackedBar](../../charttype/), [ChartType::PercentsStackedBar3D](../../charttype/), [ChartType::StackedBar](../../charttype/), [ChartType::StackedBar3D](../../charttype/), [ChartType::ClusteredHorizontalCone](../../charttype/), [ChartType::ClusteredHorizontalCylinder](../../charttype/), [ChartType::ClusteredHorizontalPyramid](../../charttype/), [ChartType::StackedHorizontalCone](../../charttype/), [ChartType::StackedHorizontalCylinder](../../charttype/), [ChartType::StackedHorizontalPyramid](../../charttype/), [ChartType::PercentsStackedHorizontalCone](../../charttype/), [ChartType::PercentsStackedHorizontalCylinder](../../charttype/), [ChartType::PercentsStackedHorizontalPyramid](../../charttype/).

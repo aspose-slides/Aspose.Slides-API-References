@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.reflection/memberinfo/getcustomattributes/
 ---
-## MemberInfo::GetCustomAttributes(const [TypeInfo](../../../system/typeinfo/)\&, **bool**) const method
+## MemberInfo::GetCustomAttributes(const TypeInfo\&, bool) const method
 
 
 Returns an array containing objects that represent all custom attributes applied to the type represented by the current object.
@@ -23,16 +23,7 @@ ArrayPtr<SharedPtr<Object>> System::Reflection::MemberInfo::GetCustomAttributes(
 | attributeType | const [TypeInfo](../../../system/typeinfo/)\& | Type of attribute to look for. |
 | inherit | **bool** | Whether to check inherited attributes, too. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TypeInfo](../../../system/typeinfo/)
-* Class [MemberInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## MemberInfo::GetCustomAttributes(**bool**) const method
+## MemberInfo::GetCustomAttributes(bool) const method
 
 
 Returns an array containing objects that represent all custom attributes applied to the type represented by the current object.
@@ -53,6 +44,7 @@ ArrayPtr<SharedPtr<Object>> System::Reflection::MemberInfo::GetCustomAttributes(
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
+* Class [TypeInfo](../../../system/typeinfo/)
 * Class [MemberInfo](../)
 * Namespace [System::Reflection](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/table/set_firstcol/
 ---
-## Table::set_FirstCol(**bool**) method
+## Table::set_FirstCol(bool) method
 
 
 Determines whether the first column of a table has to be drawn with a special formatting. Write **bool**.

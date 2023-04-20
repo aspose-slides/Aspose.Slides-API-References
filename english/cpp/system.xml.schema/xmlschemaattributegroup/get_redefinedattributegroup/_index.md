@@ -24,6 +24,5 @@ The redefined attribute group property.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlSchemaAttributeGroup](../)
-* Class [XmlSchemaAttributeGroup](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

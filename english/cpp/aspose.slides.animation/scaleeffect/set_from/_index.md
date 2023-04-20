@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/scaleeffect/set_from/
 ---
-## ScaleEffect::set_From([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## ScaleEffect::set_From(System::Drawing::PointF) method
 
 
 Specifies an x/y co-ordinate to start the animation from (in percents). Write [System::Drawing::PointF](../../../system.drawing/pointf/).

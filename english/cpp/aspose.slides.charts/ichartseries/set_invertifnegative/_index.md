@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.slides.charts/ichartseries/set_invertifnegative/
 ---
-## IChartSeries::set_InvertIfNegative(**bool**) method
+## IChartSeries::set_InvertIfNegative(bool) method
 
 
 Specifies the bar, column or bubble series shall invert its colors if the value is negative. Write **bool**.

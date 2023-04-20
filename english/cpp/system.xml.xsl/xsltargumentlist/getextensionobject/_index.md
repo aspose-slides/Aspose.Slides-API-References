@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml.xsl/xsltargumentlist/getextensionobject/
 ---
-## XsltArgumentList::GetExtensionObject(const [String](../../../system/string/)\&) method
+## XsltArgumentList::GetExtensionObject(const String\&) method
 
 
 Returns the object associated with the given namespace.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system/math/tanh/
 ---
-## Math::Tanh(**double**) method
+## Math::Tanh(double) method
 
 
 Calculates the hyperbolic tangen of the specified value.

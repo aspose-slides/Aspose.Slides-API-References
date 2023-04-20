@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_rankexception/is/
 ---
-## Details_RankException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_RankException::Is(const System::TypeInfo\&) const method
 
 
 

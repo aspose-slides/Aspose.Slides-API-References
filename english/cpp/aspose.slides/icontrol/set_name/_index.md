@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/icontrol/set_name/
 ---
-## IControl::set_Name([System::String](../../../system/string/)) method
+## IControl::set_Name(System::String) method
 
 
 Returns the name of this control. Write [System::String](../../../system/string/).

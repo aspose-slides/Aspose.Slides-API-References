@@ -6,7 +6,7 @@ type: docs
 weight: 664
 url: /cpp/system/datetimeoffset/fromfiletime/
 ---
-## DateTimeOffset::FromFileTime(**int64_t**) method
+## DateTimeOffset::FromFileTime(int64_t) method
 
 
 [Convert](../../convert/)[Windows](../../../system.windows/) file time to date and time with local time offset.
@@ -28,7 +28,6 @@ Date and time with local time offset.
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

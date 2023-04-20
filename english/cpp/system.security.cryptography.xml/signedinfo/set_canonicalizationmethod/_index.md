@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography.xml/signedinfo/set_canonicalizationmethod/
 ---
-## SignedInfo::set_CanonicalizationMethod([String](../../../system/string/)) method
+## SignedInfo::set_CanonicalizationMethod(String) method
 
 
 

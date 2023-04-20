@@ -26,12 +26,6 @@ UnderlyingType & System::Array<T>::operator[](int index)
 
 A reference to an item at specified position
 
-## See Also
-
-* Typedef [UnderlyingType](../underlyingtype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::operator[](int) const method
 
 

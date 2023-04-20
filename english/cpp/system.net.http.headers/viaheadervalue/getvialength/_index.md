@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net.http.headers/viaheadervalue/getvialength/
 ---
-## ViaHeaderValue::GetViaLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## ViaHeaderValue::GetViaLength(String, int32_t, System::SharedPtr\<Object\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [ViaHeaderValue](../) class.
@@ -30,8 +30,8 @@ Returns the length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [ViaHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)

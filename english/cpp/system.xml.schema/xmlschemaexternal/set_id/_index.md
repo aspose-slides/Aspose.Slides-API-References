@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemaexternal/set_id/
 ---
-## XmlSchemaExternal::set_Id(const [String](../../../system/string/)\&) method
+## XmlSchemaExternal::set_Id(const String\&) method
 
 
 Sets the string id.

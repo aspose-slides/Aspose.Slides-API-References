@@ -3,7 +3,7 @@ title: CopyPixelOperation
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how the source color in a pixel copying operation is combined with the destination color to result in a final color.
 type: docs
-weight: 391
+weight: 378
 url: /cpp/system.drawing/copypixeloperation/
 ---
 ## CopyPixelOperation enum

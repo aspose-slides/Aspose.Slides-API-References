@@ -15,12 +15,7 @@ Initializes a new instance of the [Portion](../) class.
 Aspose::Slides::Portion::Portion()
 ```
 
-## See Also
-
-* Class [Portion](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Portion::Portion([System::String](../../../system/string/)) constructor
+## Portion::Portion(System::String) constructor
 
 
 Initializes a new instance of the [Portion](../) class.
@@ -29,13 +24,7 @@ Initializes a new instance of the [Portion](../) class.
 Aspose::Slides::Portion::Portion(System::String str)
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Portion](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Portion::Portion([System::SharedPtr](../../../system/sharedptr/)\<[Portion](../)\>) constructor
+## Portion::Portion(System::SharedPtr\<Portion\>) constructor
 
 
 Initializes a new instance of the [Portion](../) class.
@@ -48,6 +37,6 @@ Aspose::Slides::Portion::Portion(System::SharedPtr<Portion> portion)
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Portion](../)
-* Class [Portion](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

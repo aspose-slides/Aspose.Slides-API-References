@@ -24,6 +24,5 @@ The preceding [XmlNode](../). If there is no preceding node, **nullptr** is retu
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNode](../)
-* Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/ibaseslide/set_showmastershapes/
 ---
-## IBaseSlide::set_ShowMasterShapes(**bool**) method
+## IBaseSlide::set_ShowMasterShapes(bool) method
 
 
 Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns **false**. Write **bool**.

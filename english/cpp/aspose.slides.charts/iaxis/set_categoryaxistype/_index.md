@@ -6,7 +6,7 @@ type: docs
 weight: 1002
 url: /cpp/aspose.slides.charts/iaxis/set_categoryaxistype/
 ---
-## IAxis::set_CategoryAxisType([Aspose::Slides::Charts::CategoryAxisType](../../categoryaxistype/)) method
+## IAxis::set_CategoryAxisType(Aspose::Slides::Charts::CategoryAxisType) method
 
 
 Specifies the type of the category axis. Write [CategoryAxisType](../../categoryaxistype/).

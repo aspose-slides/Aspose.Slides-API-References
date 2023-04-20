@@ -15,12 +15,7 @@ Creates empty dictionary.
 System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary()
 ```
 
-## See Also
-
-* Class [Dictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## Dictionary::Dictionary(const [map_t](../map_t/)\&) constructor
+## Dictionary::Dictionary(const map_t\&) constructor
 
 
 Copies data from map.
@@ -36,12 +31,6 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const map_t &
 | --- | --- | --- |
 | map | const [map_t](../map_t/)\& | Map to copy data from. |
 
-## See Also
-
-* Typedef [map_t](../map_t/)
-* Class [Dictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## Dictionary::Dictionary(int) constructor
 
 
@@ -58,12 +47,7 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(int capacity)
 | --- | --- | --- |
 | capacity | int | Capacity to allocate; ignored. |
 
-## See Also
-
-* Class [Dictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## Dictionary::Dictionary(const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\&) constructor
+## Dictionary::Dictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
 
 
 Copy constructor.
@@ -79,14 +63,7 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const SharedP
 | --- | --- | --- |
 | src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | [Dictionary](../) to copy data from. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IDictionary](../../idictionary/)
-* Class [Dictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## Dictionary::Dictionary(const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\&) constructor
+## Dictionary::Dictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&, const SharedPtr\<IEqualityComparer\<TKey\>\>\&) constructor
 
 
 Copy constructor.
@@ -103,15 +80,7 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const SharedP
 | src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | Source dictionary. |
 | comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\& | Comparer object to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IDictionary](../../idictionary/)
-* Class [IEqualityComparer](../../iequalitycomparer/)
-* Class [Dictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## Dictionary::Dictionary(const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\&) constructor
+## Dictionary::Dictionary(const SharedPtr\<IEqualityComparer\<TKey\>\>\&) constructor
 
 
 Creates empty dictionary.
@@ -127,14 +96,7 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(const SharedP
 | --- | --- | --- |
 | comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\& | Comparer to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEqualityComparer](../../iequalitycomparer/)
-* Class [Dictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## Dictionary::Dictionary(int, const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<TKey\>\>\&) constructor
+## Dictionary::Dictionary(int, const SharedPtr\<IEqualityComparer\<TKey\>\>\&) constructor
 
 
 Creates empty dictionary.
@@ -153,8 +115,10 @@ System::Collections::Generic::Dictionary<TKey, TValue>::Dictionary(int capacity,
 
 ## See Also
 
+* Typedef [map_t](../map_t/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEqualityComparer](../../iequalitycomparer/)
 * Class [Dictionary](../)
+* Class [IDictionary](../../idictionary/)
+* Class [IEqualityComparer](../../iequalitycomparer/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

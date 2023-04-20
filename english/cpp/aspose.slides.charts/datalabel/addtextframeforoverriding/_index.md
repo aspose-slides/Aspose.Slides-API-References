@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides.charts/datalabel/addtextframeforoverriding/
 ---
-## DataLabel::AddTextFrameForOverriding([System::String](../../../system/string/)) method
+## DataLabel::AddTextFrameForOverriding(System::String) method
 
 
 Initialize TextFrameForOverriding with the text in paramener \"text\". If TextFrameForOverriding is already initialized then simply changes its text.

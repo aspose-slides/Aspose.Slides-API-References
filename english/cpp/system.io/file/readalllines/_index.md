@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.io/file/readalllines/
 ---
-## File::ReadAllLines(const [String](../../../system/string/)\&, const [EncodingPtr](../../../system/encodingptr/)\&) method
+## File::ReadAllLines(const String\&, const EncodingPtr\&) method
 
 
 Reads the content of the specified text file line by line to an array of strings using the specified character encoding.
@@ -30,8 +30,8 @@ A string array each element of which represents a single line from the specified
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
 * Typedef [EncodingPtr](../../../system/encodingptr/)
+* Class [String](../../../system/string/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

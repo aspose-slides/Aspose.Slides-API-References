@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/system/decimal/add/
 ---
-## Decimal::Add(const [Decimal](../)\&, const [Decimal](../)\&) method
+## Decimal::Add(const Decimal\&, const Decimal\&) method
 
 
 Adds two specified [Decimal](../) values.
@@ -29,7 +29,6 @@ The sum of **d1** and **d2**.
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

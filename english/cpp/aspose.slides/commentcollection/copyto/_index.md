@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/commentcollection/copyto/
 ---
-## CommentCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IComment](../../icomment/)\>\>, **int32_t**) method
+## CommentCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IComment\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

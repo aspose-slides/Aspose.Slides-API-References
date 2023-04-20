@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.threading/interlocked/increment/
 ---
-## Interlocked::Increment(**int32_t**\&) method
+## Interlocked::Increment(int32_t\&) method
 
 
 Increments value atomically.
@@ -26,12 +26,7 @@ static int32_t System::Threading::Interlocked::Increment(int32_t &location)
 
 Value of variable right after it was incremented.
 
-## See Also
-
-* Class [Interlocked](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Interlocked::Increment(**int64_t**\&) method
+## Interlocked::Increment(int64_t\&) method
 
 
 Increments value atomically.

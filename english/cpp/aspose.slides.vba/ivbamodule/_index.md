@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.vba/ivbamodule/
 Represents module that is contained in VBA project.
 
 ```cpp
-class IVbaModule : public System::Object
+class IVbaModule : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/ibehaviorpropertycollection/remove/
 ---
-## IBehaviorPropertyCollection::Remove(const [System::String](../../../system/string/)\&) method
+## IBehaviorPropertyCollection::Remove(const System::String\&) method
 
 
 Removes specified property from the collection.

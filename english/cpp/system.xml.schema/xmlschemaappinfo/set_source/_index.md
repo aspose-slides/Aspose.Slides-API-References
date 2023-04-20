@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaappinfo/set_source/
 ---
-## XmlSchemaAppInfo::set_Source(const [String](../../../system/string/)\&) method
+## XmlSchemaAppInfo::set_Source(const String\&) method
 
 
 Sets the source of the application information.

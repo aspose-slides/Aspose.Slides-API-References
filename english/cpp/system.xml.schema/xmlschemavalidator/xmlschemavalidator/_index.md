@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml.schema/xmlschemavalidator/xmlschemavalidator/
 ---
-## XmlSchemaValidator::XmlSchemaValidator(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../../system.xml/xmlnametable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaSet](../../xmlschemaset/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>\&, [XmlSchemaValidationFlags](../../xmlschemavalidationflags/)) constructor
+## XmlSchemaValidator::XmlSchemaValidator(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlSchemaSet\>\&, const SharedPtr\<IXmlNamespaceResolver\>\&, XmlSchemaValidationFlags) constructor
 
 
 Initializes a new instance of the [XmlSchemaValidator](../) class.
@@ -27,11 +27,11 @@ System::Xml::Schema::XmlSchemaValidator::XmlSchemaValidator(const SharedPtr<XmlN
 
 ## See Also
 
+* Enum [XmlSchemaValidationFlags](../../xmlschemavalidationflags/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNameTable](../../../system.xml/xmlnametable/)
 * Class [XmlSchemaSet](../../xmlschemaset/)
 * Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
-* Enum [XmlSchemaValidationFlags](../../xmlschemavalidationflags/)
 * Class [XmlSchemaValidator](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

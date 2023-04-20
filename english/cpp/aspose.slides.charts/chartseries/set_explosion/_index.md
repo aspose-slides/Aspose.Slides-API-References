@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/chartseries/set_explosion/
 ---
-## ChartSeries::set_Explosion(**int32_t**) method
+## ChartSeries::set_Explosion(int32_t) method
 
 
 The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. Write **int32_t**.

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.globalization/thaibuddhistcalendar/getdayofmonth/
 ---
-## ThaiBuddhistCalendar::GetDayOfMonth([DateTime](../../../system/datetime/)) const method
+## ThaiBuddhistCalendar::GetDayOfMonth(DateTime) const method
 
 
 Gets day of month for the specified time point.

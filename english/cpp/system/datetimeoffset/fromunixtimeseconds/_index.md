@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/system/datetimeoffset/fromunixtimeseconds/
 ---
-## DateTimeOffset::FromUnixTimeSeconds(**int64_t**) method
+## DateTimeOffset::FromUnixTimeSeconds(int64_t) method
 
 
 [Convert](../../convert/) Unix-time to [DateTimeOffset](../) object.
@@ -28,7 +28,6 @@ Date and time with zero offset.
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

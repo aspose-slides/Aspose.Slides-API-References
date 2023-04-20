@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimestext/
 ---
-## LayoutSlideHeaderFooterManager::SetDateTimeAndChildDateTimesText([System::String](../../../system/string/)) method
+## LayoutSlideHeaderFooterManager::SetDateTimeAndChildDateTimesText(System::String) method
 
 
 Sets text to layout slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.

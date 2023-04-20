@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.xml.schema/xmlschema/write/
 ---
-## XmlSchema::Write(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::Stream\>\&) method
 
 
 Writes the XML [Schema](../../) to the supplied data stream.
@@ -22,14 +22,7 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::Stream> &stream)
 | --- | --- | --- |
 | stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The supplied data stream. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Write(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<XmlNamespaceManager\>\&) method
 
 
 Writes the XML [Schema](../../) to the supplied Stream using the [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) specified.
@@ -46,15 +39,7 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::Stream> &stream, 
 | stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The supplied data stream. |
 | namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Write(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::TextWriter\>\&) method
 
 
 Writes the XML [Schema](../../) to the supplied [IO::TextWriter](../../../system.io/textwriter/).
@@ -70,14 +55,7 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::TextWriter> &writ
 | --- | --- | --- |
 | writer | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The [IO::TextWriter](../../../system.io/textwriter/) to write to. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Write(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\&) method
+## XmlSchema::Write(const SharedPtr\<IO::TextWriter\>\&, const SharedPtr\<XmlNamespaceManager\>\&) method
 
 
 Writes the XML [Schema](../../) to the supplied TextWriter.
@@ -94,15 +72,7 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<IO::TextWriter> &writ
 | writer | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The [IO::TextWriter](../../../system.io/textwriter/) to write to. |
 | namespaceManager | const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\& | The [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/). |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Write(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&) method
+## XmlSchema::Write(const SharedPtr\<XmlWriter\>\&) method
 
 
 Writes the XML [Schema](../../) to the supplied [XmlWriter](../../../system.xml/xmlwriter/).
@@ -118,14 +88,7 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<XmlWriter> &writer)
 | --- | --- | --- |
 | writer | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to write to. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Write(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>\&) method
+## XmlSchema::Write(const SharedPtr\<XmlWriter\>\&, const SharedPtr\<XmlNamespaceManager\>\&) method
 
 
 Writes the XML [Schema](../../) to the supplied [XmlWriter](../../../system.xml/xmlwriter/).
@@ -145,8 +108,10 @@ void System::Xml::Schema::XmlSchema::Write(const SharedPtr<XmlWriter> &writer, c
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)
+* Class [Stream](../../../system.io/stream/)
 * Class [XmlSchema](../)
+* Class [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)
+* Class [TextWriter](../../../system.io/textwriter/)
+* Class [XmlWriter](../../../system.xml/xmlwriter/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

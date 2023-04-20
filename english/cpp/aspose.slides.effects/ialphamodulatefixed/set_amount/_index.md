@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/ialphamodulatefixed/set_amount/
 ---
-## IAlphaModulateFixed::set_Amount(**float**) method
+## IAlphaModulateFixed::set_Amount(float) method
 
 
 Returns an amount of effect in percents. Write **float**.

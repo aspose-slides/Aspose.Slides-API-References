@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net/cookiecontainer/set_perdomaincapacity/
 ---
-## CookieContainer::set_PerDomainCapacity(**int32_t**) method
+## CookieContainer::set_PerDomainCapacity(int32_t) method
 
 
 Sets the collection capacity per domain.

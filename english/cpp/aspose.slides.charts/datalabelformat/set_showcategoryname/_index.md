@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.charts/datalabelformat/set_showcategoryname/
 ---
-## DataLabelFormat::set_ShowCategoryName(**bool**) method
+## DataLabelFormat::set_ShowCategoryName(bool) method
 
 
 Represents a specified chart's data label category name display behavior. True to display the category name for the data labels on a chart. False to hide. Write **bool**.

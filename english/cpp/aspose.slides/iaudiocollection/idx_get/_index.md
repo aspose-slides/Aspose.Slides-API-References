@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/iaudiocollection/idx_get/
 ---
-## IAudioCollection::idx_get(**int32_t**) method
+## IAudioCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [IAudio](../../iaudio/).

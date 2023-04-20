@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.security/securityelement/addchild/
 ---
-## SecurityElement::AddChild([SecurityElement](../)) method
+## SecurityElement::AddChild(SecurityElement) method
 
 
 Adds child tag.
@@ -24,7 +24,6 @@ void System::Security::SecurityElement::AddChild(SecurityElement child)
 
 ## See Also
 
-* Class [SecurityElement](../)
 * Class [SecurityElement](../)
 * Namespace [System::Security](../../)
 * Library [Aspose.Slides](../../../)

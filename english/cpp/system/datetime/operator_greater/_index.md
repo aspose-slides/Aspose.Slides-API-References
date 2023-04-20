@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/system/datetime/operator_greater/
 ---
-## DateTime::operator>([DateTime](../)) const method
+## DateTime::operator>(DateTime) const method
 
 
 Determines if the current object represents the date and time value that is later than the value represented by the specified [DateTime](../) object.
@@ -26,12 +26,6 @@ constexpr bool System::DateTime::operator>(DateTime other) const
 
 True if the date and time value represented by the current object is later than the value represented by **other**, otherwise - false
 
-## See Also
-
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DateTime::operator>(std::nullptr_t) const method
 
 

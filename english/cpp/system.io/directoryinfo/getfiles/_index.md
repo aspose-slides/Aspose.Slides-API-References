@@ -15,14 +15,7 @@ Returns an array containing shared pointers to [FileInfo](../../fileinfo/) objec
 ArrayPtr<FileInfoPtr> System::IO::DirectoryInfo::GetFiles()
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [FileInfoPtr](../../../system/fileinfoptr/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::GetFiles(const [String](../../../system/string/)\&) method
+## DirectoryInfo::GetFiles(const String\&) method
 
 
 Searches for the files that satisfy the specified search criteria in the directory represented by the current object.
@@ -42,15 +35,7 @@ ArrayPtr<FileInfoPtr> System::IO::DirectoryInfo::GetFiles(const String &searchPa
 
 An array of shared pointers to [FileInfo](../../fileinfo/) objects representing the found files whose names match **searchPattern**
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [FileInfoPtr](../../../system/fileinfoptr/)
-* Class [String](../../../system/string/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::GetFiles(const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## DirectoryInfo::GetFiles(const String\&, SearchOption) method
 
 
 Searches for the files that satisfy the specified search criteria either in the directory represented by the current object or in the whole directory tree rooted in the directory represented by the current object.
@@ -73,10 +58,10 @@ An array of shared pointers to [FileInfo](../../fileinfo/) objects representing 
 
 ## See Also
 
+* Enum [SearchOption](../../searchoption/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [FileInfoPtr](../../../system/fileinfoptr/)
-* Class [String](../../../system/string/)
-* Enum [SearchOption](../../searchoption/)
 * Class [DirectoryInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

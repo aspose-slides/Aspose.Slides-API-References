@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.collections.generic/list/removeall/
 ---
-## List::RemoveAll([Predicate](../../../system/predicate/)\<T\>) method
+## List::RemoveAll(Predicate\<T\>) method
 
 
 Removes all elements matching specific predicate.

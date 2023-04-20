@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.xml/xmlparsercontext/xmlparsercontext/
 ---
-## XmlParserContext::XmlParserContext(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\&, const [String](../../../system/string/)\&, [System::Xml::XmlSpace](../../xmlspace/)) constructor
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, System::Xml::XmlSpace) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), **xml:lang**, and **xml:space** values.
@@ -25,17 +25,7 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 | xmlLang | const [String](../../../system/string/)\& | The **xml:lang** scope. |
 | xmlSpace | [System::Xml::XmlSpace](../../xmlspace/) | An XmlSpace value indicating the **xml:space** scope. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNameTable](../../xmlnametable/)
-* Class [XmlNamespaceManager](../../xmlnamespacemanager/)
-* Class [String](../../../system/string/)
-* Enum [XmlSpace](../../xmlspace/)
-* Class [XmlParserContext](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlParserContext::XmlParserContext(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\&, const [String](../../../system/string/)\&, [System::Xml::XmlSpace](../../xmlspace/), const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\&) constructor
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, System::Xml::XmlSpace, const SharedPtr\<System::Text::Encoding\>\&) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), **xml:lang**, **xml:space**, and encoding.
@@ -55,18 +45,7 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 | xmlSpace | [System::Xml::XmlSpace](../../xmlspace/) | An XmlSpace value indicating the **xml:space** scope. |
 | enc | const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\& | An Encoding object indicating the encoding setting. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNameTable](../../xmlnametable/)
-* Class [XmlNamespaceManager](../../xmlnamespacemanager/)
-* Class [String](../../../system/string/)
-* Enum [XmlSpace](../../xmlspace/)
-* Class [Encoding](../../../system.text/encoding/)
-* Class [XmlParserContext](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlParserContext::XmlParserContext(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [System::Xml::XmlSpace](../../xmlspace/)) constructor
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, const String\&, const String\&, const String\&, const String\&, const String\&, System::Xml::XmlSpace) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), base URI, **xml:lang**, **xml:space**, and document type values.
@@ -90,17 +69,7 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 | xmlLang | const [String](../../../system/string/)\& | The **xml:lang** scope. |
 | xmlSpace | [System::Xml::XmlSpace](../../xmlspace/) | An XmlSpace value indicating the **xml:space** scope. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNameTable](../../xmlnametable/)
-* Class [XmlNamespaceManager](../../xmlnamespacemanager/)
-* Class [String](../../../system/string/)
-* Enum [XmlSpace](../../xmlspace/)
-* Class [XmlParserContext](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlParserContext::XmlParserContext(const [SharedPtr](../../../system/sharedptr/)\<[XmlNameTable](../../xmlnametable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../xmlnamespacemanager/)\>\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [System::Xml::XmlSpace](../../xmlspace/), const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\&) constructor
+## XmlParserContext::XmlParserContext(const SharedPtr\<XmlNameTable\>\&, const SharedPtr\<XmlNamespaceManager\>\&, const String\&, const String\&, const String\&, const String\&, const String\&, const String\&, System::Xml::XmlSpace, const SharedPtr\<System::Text::Encoding\>\&) constructor
 
 
 Initializes a new instance of the [XmlParserContext](../) class with the specified [XmlNameTable](../../xmlnametable/), [XmlNamespaceManager](../../xmlnamespacemanager/), base URI, **xml:lang**, **xml:space**, encoding, and document type values.
@@ -127,12 +96,12 @@ System::Xml::XmlParserContext::XmlParserContext(const SharedPtr<XmlNameTable> &n
 
 ## See Also
 
+* Enum [XmlSpace](../../xmlspace/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNameTable](../../xmlnametable/)
 * Class [XmlNamespaceManager](../../xmlnamespacemanager/)
 * Class [String](../../../system/string/)
-* Enum [XmlSpace](../../xmlspace/)
-* Class [Encoding](../../../system.text/encoding/)
 * Class [XmlParserContext](../)
+* Class [Encoding](../../../system.text/encoding/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

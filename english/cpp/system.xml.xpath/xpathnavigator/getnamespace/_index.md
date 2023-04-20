@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/system.xml.xpath/xpathnavigator/getnamespace/
 ---
-## XPathNavigator::GetNamespace([String](../../../system/string/)) method
+## XPathNavigator::GetNamespace(String) method
 
 
 Returns the value of the namespace node corresponding to the specified local name.

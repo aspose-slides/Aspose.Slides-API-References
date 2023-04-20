@@ -3,7 +3,7 @@ title: EntityHandling
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how the XmlTextReader or XmlValidatingReader handle entities.
 type: docs
-weight: 651
+weight: 625
 url: /cpp/system.xml/entityhandling/
 ---
 ## EntityHandling enum

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing.imaging/metafileheader/set_bounds/
 ---
-## MetafileHeader::set_Bounds(const [Rectangle](../../../system.drawing/rectangle/)\&) method
+## MetafileHeader::set_Bounds(const Rectangle\&) method
 
 
 Sets a bounding rectangle of a metafile associated with the current object.

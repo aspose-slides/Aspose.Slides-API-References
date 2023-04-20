@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/system.xml.xpath/xpathnavigator/movetochild/
 ---
-## XPathNavigator::MoveToChild([String](../../../system/string/), [String](../../../system/string/)) method
+## XPathNavigator::MoveToChild(String, String) method
 
 
 Moves the [XPathNavigator](../) to the child node with the local name and namespace URI specified.
@@ -27,13 +27,7 @@ virtual bool System::Xml::XPath::XPathNavigator::MoveToChild(String localName, S
 
 **true** if the [XPathNavigator](../) is successful moving to the child node; otherwise, **false**. If **false**, the position of the [XPathNavigator](../) is unchanged.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::MoveToChild([XPathNodeType](../../xpathnodetype/)) method
+## XPathNavigator::MoveToChild(XPathNodeType) method
 
 
 Moves the [XPathNavigator](../) to the child node of the XPathNodeType specified.
@@ -56,6 +50,7 @@ virtual bool System::Xml::XPath::XPathNavigator::MoveToChild(XPathNodeType type)
 ## See Also
 
 * Enum [XPathNodeType](../../xpathnodetype/)
+* Class [String](../../../system/string/)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

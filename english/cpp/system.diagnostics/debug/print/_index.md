@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.diagnostics/debug/print/
 ---
-## Debug::Print(const [String](../../../system/string/)\&) method
+## Debug::Print(const String\&) method
 
 
 Print message to debug interface.
@@ -22,13 +22,7 @@ static void System::Diagnostics::Debug::Print(const String &message)
 | --- | --- | --- |
 | message | const [String](../../../system/string/)\& | Message to write. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Struct [Debug](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Debug::Print(const [String](../../../system/string/)\&, const [System::ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\>\&) method
+## Debug::Print(const String\&, const System::ArrayPtr\<SharedPtr\<System::Object\>\>\&) method
 
 
 Print message to debug interface.
@@ -47,9 +41,9 @@ static void System::Diagnostics::Debug::Print(const String &format, const System
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Struct [Debug](../)
 * Namespace [System::Diagnostics](../../)

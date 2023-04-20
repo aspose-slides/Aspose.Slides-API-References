@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/icustomformatter/format/
 ---
-## ICustomFormatter::Format([System::String](../../string/), [System::SharedPtr](../../sharedptr/)\<[System::Object](../../object/)\>, [System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## ICustomFormatter::Format(System::String, System::SharedPtr\<System::Object\>, System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Returns a string representation of a value represented by the current object using the specified format.
@@ -30,8 +30,8 @@ The string representation of **arg** formatted according to the format specified
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Class [Object](../../object/)
 * Class [IFormatProvider](../../iformatprovider/)
 * Class [ICustomFormatter](../)

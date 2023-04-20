@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.io/file/readalltext/
 ---
-## File::ReadAllText(const [String](../../../system/string/)\&, const [EncodingPtr](../../../system/encodingptr/)\&) method
+## File::ReadAllText(const String\&, const EncodingPtr\&) method
 
 
 Reads the content of the specified text file to a single [String](../../../system/string/) object using the specified character encoding.
@@ -29,8 +29,8 @@ A string containing the content of the specified file
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [EncodingPtr](../../../system/encodingptr/)
+* Class [String](../../../system/string/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

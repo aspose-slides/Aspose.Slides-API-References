@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides/ibaseportionformat/set_fontheight/
 ---
-## IBasePortionFormat::set_FontHeight(**float**) method
+## IBasePortionFormat::set_FontHeight(float) method
 
 
 Sets the font height of a portion. **std::numeric_limits<float>::quiet_NaN()** means height is undefined and should be inherited from the Master. Write **float**.

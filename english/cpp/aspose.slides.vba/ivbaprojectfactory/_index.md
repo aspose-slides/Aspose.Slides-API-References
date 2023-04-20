@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.vba/ivbaprojectfactory/
 Allows to create VBA project via COM interface
 
 ```cpp
-class IVbaProjectFactory : public System::Object
+class IVbaProjectFactory : public virtual System::Object
 ```
 
 ## Methods

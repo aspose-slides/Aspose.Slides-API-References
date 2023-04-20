@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.web.services.protocols/soapmessage/set_outparameters/
 ---
-## SoapMessage::set_OutParameters([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>) method
+## SoapMessage::set_OutParameters(System::ArrayPtr\<System::SharedPtr\<Object\>\>) method
 
 
 Sets the output parameters passed into the XML [Web](../../../system.web/) service method.

@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.slides/idocumentproperties/set_lastsavedtime/
 ---
-## IDocumentProperties::set_LastSavedTime([System::DateTime](../../../system/datetime/)) method
+## IDocumentProperties::set_LastSavedTime(System::DateTime) method
 
 
 Returns the date a presentation was last modified. Values are in UTC.P Read-only in case of Presentation.DocumentProperties (because it will be updated internally while [IPresentation](../../ipresentation/) object saving process). Can be changed via [DocumentProperties](../../documentproperties/) instance returning by method [IPresentationInfo::ReadDocumentProperties](../../ipresentationinfo/readdocumentproperties/) Please see the example in [IPresentationInfo::UpdateDocumentProperties](../../ipresentationinfo/updatedocumentproperties/) method summary.

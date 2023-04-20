@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/igeometrypath/
 Represents geometry path of [GeometryShape](../geometryshape/)
 
 ```cpp
-class IGeometryPath : public System::Object
+class IGeometryPath : public virtual System::Object
 ```
 
 ## Methods

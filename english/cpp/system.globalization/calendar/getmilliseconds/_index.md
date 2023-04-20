@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.globalization/calendar/getmilliseconds/
 ---
-## Calendar::GetMilliseconds([DateTime](../../../system/datetime/)) const method
+## Calendar::GetMilliseconds(DateTime) const method
 
 
 Gets milliseconds for the specified time point.

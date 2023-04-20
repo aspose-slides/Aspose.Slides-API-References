@@ -3,7 +3,7 @@ title: LineDashStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the line dash style.
 type: docs
-weight: 5955
+weight: 5695
 url: /cpp/aspose.slides/linedashstyle/
 ---
 ## LineDashStyle enum

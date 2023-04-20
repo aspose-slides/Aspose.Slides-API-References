@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.security.cryptography.xml/keyinfox509data/loadxml/
 ---
-## KeyInfoX509Data::LoadXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlElement](../../../system.xml/xmlelement/)\>) method
+## KeyInfoX509Data::LoadXml(SharedPtr\<System::Xml::XmlElement\>) method
 
 
 

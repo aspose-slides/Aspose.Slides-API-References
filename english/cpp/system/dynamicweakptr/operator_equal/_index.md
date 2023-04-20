@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/dynamicweakptr/operator_equal/
 ---
-## DynamicWeakPtr::operator=([SmartPtr_](../smartptr_/)\&&) method
+## DynamicWeakPtr::operator=(SmartPtr_\&&) method
 
 
 Move-assigns smart pointer.
@@ -26,14 +26,7 @@ DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weakLeafs>::operator=(Sma
 
 Self reference.
 
-## See Also
-
-* Typedef [DynamicWeakPtr_](../dynamicweakptr_/)
-* Typedef [SmartPtr_](../smartptr_/)
-* Class [DynamicWeakPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DynamicWeakPtr::operator=(const [SmartPtr_](../smartptr_/)\&) method
+## DynamicWeakPtr::operator=(const SmartPtr_\&) method
 
 
 Copy-assigns smart pointer.
@@ -53,14 +46,7 @@ DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weakLeafs>::operator=(con
 
 Self reference.
 
-## See Also
-
-* Typedef [DynamicWeakPtr_](../dynamicweakptr_/)
-* Typedef [SmartPtr_](../smartptr_/)
-* Class [DynamicWeakPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DynamicWeakPtr::operator=(const [SmartPtr](../../smartptr/)\<Q\>\&) method
+## DynamicWeakPtr::operator=(const SmartPtr\<Q\>\&) method
 
 
 Copy-assigns smart pointer.
@@ -86,14 +72,7 @@ template<typename Q> DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weak
 
 Self reference.
 
-## See Also
-
-* Typedef [DynamicWeakPtr_](../dynamicweakptr_/)
-* Class [SmartPtr](../../smartptr/)
-* Class [DynamicWeakPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DynamicWeakPtr::operator=(typename [SmartPtr_::Pointee_](../../smartptr/pointee_/) *) method
+## DynamicWeakPtr::operator=(typename SmartPtr_::Pointee_ *) method
 
 
 Assigns smart pointer.
@@ -113,13 +92,6 @@ DynamicWeakPtr_ & System::DynamicWeakPtr<T, trunkMode, weakLeafs>::operator=(typ
 
 Self reference.
 
-## See Also
-
-* Typedef [DynamicWeakPtr_](../dynamicweakptr_/)
-* Typedef [Pointee_](../../smartptr/pointee_/)
-* Class [DynamicWeakPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## DynamicWeakPtr::operator=(std::nullptr_t) method
 
 
@@ -137,6 +109,9 @@ Self reference.
 ## See Also
 
 * Typedef [DynamicWeakPtr_](../dynamicweakptr_/)
+* Typedef [SmartPtr_](../smartptr_/)
+* Typedef [Pointee_](../../smartptr/pointee_/)
 * Class [DynamicWeakPtr](../)
+* Class [SmartPtr](../../smartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

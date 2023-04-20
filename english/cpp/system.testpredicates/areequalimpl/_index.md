@@ -3,7 +3,7 @@ title: AreEqualImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares floating point with arithmetic types.
 type: docs
-weight: 27
+weight: 1
 url: /cpp/system.testpredicates/areequalimpl/
 ---
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T1, const T2, long long) function
@@ -37,11 +37,6 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::AreFPandArithmetic<
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [AreFPandArithmetic](../../system.testpredicates.typetraits/arefpandarithmetic/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
 
 
@@ -73,11 +68,6 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::AnyOfDecimal<T1, T2
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [AnyOfDecimal](../../system.testpredicates.typetraits/anyofdecimal/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
 
 
@@ -108,11 +98,6 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_e
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, T\&, const T\&, long long) function
 
 
@@ -143,11 +128,6 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_e
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
 
 
@@ -178,12 +158,7 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&std::is_class<T>::va
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreEqualImpl(const char *, const char *, T, const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&, long long) function
+## System::TestPredicates::AreEqualImpl(const char *, const char *, T, const System::SharedPtr\<Object\>\&, long long) function
 
 
 Equal-compares boxable with [SmartPtr](../../system/smartptr/) values.
@@ -213,15 +188,7 @@ template<typename T> std::enable_if<IsBoxable<T>::value &&!IsStringByteSequence<
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsBoxable](../../system/isboxable/)
-* Struct [IsStringByteSequence](../../system/isstringbytesequence/)
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Object](../../system/object/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreEqualImpl(const char *, const char *, const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&, T, long long) function
+## System::TestPredicates::AreEqualImpl(const char *, const char *, const System::SharedPtr\<Object\>\&, T, long long) function
 
 
 Equal-compares boxable with [SmartPtr](../../system/smartptr/) values.
@@ -251,15 +218,7 @@ template<typename T> std::enable_if<IsBoxable<T>::value &&!IsStringByteSequence<
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsBoxable](../../system/isboxable/)
-* Struct [IsStringByteSequence](../../system/isstringbytesequence/)
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Object](../../system/object/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreEqualImpl(const char *, const char *, const char16_t *, const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&, long long) function
+## System::TestPredicates::AreEqualImpl(const char *, const char *, const char16_t *, const System::SharedPtr\<Object\>\&, long long) function
 
 
 Equal-compares string literal with [SmartPtr](../../system/smartptr/) values using unboxing.
@@ -283,13 +242,7 @@ testing::AssertionResult System::TestPredicates::AreEqualImpl(const char *lhs_ex
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Object](../../system/object/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreEqualImpl(const char *, const char *, const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&, const char16_t *, long long) function
+## System::TestPredicates::AreEqualImpl(const char *, const char *, const System::SharedPtr\<Object\>\&, const char16_t *, long long) function
 
 
 Equal-compares string literal with [SmartPtr](../../system/smartptr/) values using unboxing.
@@ -313,12 +266,6 @@ testing::AssertionResult System::TestPredicates::AreEqualImpl(const char *lhs_ex
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Object](../../system/object/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, T, std::nullptr_t, long long) function
 
 
@@ -348,10 +295,6 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreEqualIm
 
 gtest-styled assertion result.
 
-## See Also
-
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, std::nullptr_t, T, long long) function
 
 
@@ -381,10 +324,6 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreEqualIm
 
 gtest-styled assertion result.
 
-## See Also
-
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
 
 
@@ -416,12 +355,6 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Class [Stream](../../system.io/stream/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
 
 
@@ -453,13 +386,7 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Class [Stream](../../system.io/stream/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreEqualImpl(const char *, const char *, T1, const [Nullable](../../system/nullable/)\<T2\>\&, long long) function
+## System::TestPredicates::AreEqualImpl(const char *, const char *, T1, const Nullable\<T2\>\&, long long) function
 
 
 Equal-compares a random type with a [Nullable](../../system/nullable/) value.
@@ -490,13 +417,7 @@ template<typename T1,typename T2> std::enable_if<!std::is_null_pointer<T1>::valu
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsNullable](../../system/isnullable/)
-* Class [Nullable](../../system/nullable/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreEqualImpl(const char *, const char *, const [Nullable](../../system/nullable/)\<T1\>\&, T2, long long) function
+## System::TestPredicates::AreEqualImpl(const char *, const char *, const Nullable\<T1\>\&, T2, long long) function
 
 
 Equal-compares a [Nullable](../../system/nullable/) value with a random type.
@@ -527,12 +448,6 @@ template<typename T1,typename T2> std::enable_if<!std::is_null_pointer<T2>::valu
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsNullable](../../system/isnullable/)
-* Class [Nullable](../../system/nullable/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, T1, T2, int) function
 
 
@@ -565,5 +480,15 @@ gtest-styled assertion result.
 
 ## See Also
 
+* Typedef [AreFPandArithmetic](../../system.testpredicates.typetraits/arefpandarithmetic/)
+* Typedef [AnyOfDecimal](../../system.testpredicates.typetraits/anyofdecimal/)
+* Typedef [SharedPtr](../../system/sharedptr/)
+* Class [Object](../../system/object/)
+* Class [Stream](../../system.io/stream/)
+* Class [Nullable](../../system/nullable/)
+* Struct [IsSmartPtr](../../system/issmartptr/)
+* Struct [IsBoxable](../../system/isboxable/)
+* Struct [IsStringByteSequence](../../system/isstringbytesequence/)
+* Struct [IsNullable](../../system/isnullable/)
 * Namespace [System::TestPredicates](../)
 * Library [Aspose.Slides](../../)

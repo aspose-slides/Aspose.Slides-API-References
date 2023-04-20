@@ -36,8 +36,8 @@ template<class T>class BoxedValue : public System::BoxedValueBase
 | const [System::TypeInfo](../typeinfo/)\& [GetType](./gettype/)() const override | Gets actual type of object. |
 | [TypeCode](../typecode/) [GetTypeCode](./gettypecode/)() const override | Returns the value representing the type of the boxed value represented by the current object. |
 | **uint64_t** [GetUnsignedLongLongValue](./getunsignedlonglongvalue/)() override | Always returns 0. |
-| **bool** [is](./is/)() const | Determines if the type of the boxed value represented by the current object is **V**. |
 | virtual **bool** [Is](../object/is/)(const [TypeInfo](../typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |
+| **bool** [is](./is/)() const | Determines if the type of the boxed value represented by the current object is **V**. |
 | **bool** [IsBoxedEnum](./isboxedenum/)() override | Determines if current object represents a boxed value of enum type. |
 | void [Lock](../object/lock/)() | Implements C# lock() statement locking. Call directly or use [LockContext](../lockcontext/) sentry object. |
 | virtual [ptr](../object/ptr/) [MemberwiseClone](../object/memberwiseclone/)() const | Analog of C# [Object.MemberwiseClone()](../object/memberwiseclone/) method. Enables cloning custom types. |

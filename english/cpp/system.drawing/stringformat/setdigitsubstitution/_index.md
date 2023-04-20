@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.drawing/stringformat/setdigitsubstitution/
 ---
-## StringFormat::SetDigitSubstitution(**int32_t**, [StringDigitSubstitute](../../stringdigitsubstitute/)) method
+## StringFormat::SetDigitSubstitution(int32_t, StringDigitSubstitute) method
 
 
 Sets digit substitution language and method.

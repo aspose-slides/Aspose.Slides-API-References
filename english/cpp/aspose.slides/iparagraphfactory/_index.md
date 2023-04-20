@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iparagraphfactory/
 Allows to create paragraphs
 
 ```cpp
-class IParagraphFactory : public System::Object
+class IParagraphFactory : public virtual System::Object
 ```
 
 ## Methods

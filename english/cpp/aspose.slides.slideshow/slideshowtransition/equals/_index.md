@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.slideshow/slideshowtransition/equals/
 ---
-## SlideShowTransition::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## SlideShowTransition::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the two [SlideShowTransition](../) instances are equal. Read/write **bool**.

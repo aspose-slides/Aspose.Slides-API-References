@@ -15,11 +15,6 @@ Constructs an empty array.
 System::Array<T>::Array()
 ```
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::Array(int, const T\&) constructor
 
 
@@ -37,12 +32,7 @@ System::Array<T>::Array(int count, const T &init=T())
 | count | int | Initial size of the array |
 | init | const T\& | The initial value used to fill the array with |
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Array(typename std::enable_if\<std::is_arithmetic\<T\>::value\&&std::is_arithmetic\<[ValueType](../valuetype/)\>::value\&&std::is_convertible\<[ValueType](../valuetype/), T\>::value, int\>::type, [ValueType](../valuetype/)) constructor
+## Array::Array(typename std::enable_if\<std::is_arithmetic\<T\>::value\&&std::is_arithmetic\<ValueType\>::value\&&std::is_convertible\<ValueType, T\>::value, int\>::type, ValueType) constructor
 
 
 Filling constructor.
@@ -65,12 +55,6 @@ template<typename ValueType> System::Array<T>::Array(typename std::enable_if<std
 | count | typename std::enable_if\<std::is_arithmetic\<T\>::value\&&std::is_arithmetic\<[ValueType](../valuetype/)\>::value\&&std::is_convertible\<[ValueType](../valuetype/), T\>::value, int\>::type | Initial size of the array |
 | init | [ValueType](../valuetype/) | The initial value used to fill the array with |
 
-## See Also
-
-* Typedef [ValueType](../valuetype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::Array(int, const T) constructor
 
 
@@ -88,12 +72,7 @@ System::Array<T>::Array(int count, const T inits[])
 | count | int | Initial size of the array |
 | inits | const T | Values to fill the array with |
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Array(**vector_t**\&&) constructor
+## Array::Array(vector_t\&&) constructor
 
 
 Move constructor.
@@ -109,12 +88,7 @@ System::Array<T>::Array(vector_t &&value)
 | --- | --- | --- |
 | value | **vector_t**\&& | std::vector, elements of which are acquired by the array |
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Array(const **vector_t**\&) constructor
+## Array::Array(const vector_t\&) constructor
 
 
 Copy constructor.
@@ -130,11 +104,6 @@ System::Array<T>::Array(const vector_t &assgn)
 | --- | --- | --- |
 | assgn | const **vector_t**\& | std::vector to copy values from |
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::Array(const std::vector\<Q\>\&) constructor
 
 
@@ -157,11 +126,6 @@ template<typename Q,typename> System::Array<T>::Array(const std::vector<Q> &valu
 | --- | --- | --- |
 | value | const std::vector\<Q\>\& | std::vector to copy the values from |
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Array::Array(std::vector\<Q\>\&&) constructor
 
 
@@ -184,12 +148,7 @@ template<typename Q,typename> System::Array<T>::Array(std::vector<Q> &&value)
 | --- | --- | --- |
 | value | std::vector\<Q\>\&& | std::vector to copy the values from |
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Array(std::initializer_list\<[UnderlyingType](../underlyingtype/)\>) constructor
+## Array::Array(std::initializer_list\<UnderlyingType\>) constructor
 
 
 Constructs an [Array](../) object and fills it with values from the specified initializer list containing elements of **UnderlyingType** type.
@@ -205,13 +164,7 @@ System::Array<T>::Array(std::initializer_list<UnderlyingType> init)
 | --- | --- | --- |
 | init | std::initializer_list\<[UnderlyingType](../underlyingtype/)\> | Initializer list containing elements to fill the array with |
 
-## See Also
-
-* Typedef [UnderlyingType](../underlyingtype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Array(const std::array\<[UnderlyingType](../underlyingtype/), InitArraySize\>\&) constructor
+## Array::Array(const std::array\<UnderlyingType, InitArraySize\>\&) constructor
 
 
 Constructs an [Array](../) object and fills it with values from the specified array containing elements of **UnderlyingType** type.
@@ -233,13 +186,7 @@ template<std::size_t> System::Array<T>::Array(const std::array<UnderlyingType, I
 | --- | --- | --- |
 | init | const std::array\<[UnderlyingType](../underlyingtype/), InitArraySize\>\& | [Array](../) to copy into the array being constructed. |
 
-## See Also
-
-* Typedef [UnderlyingType](../underlyingtype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Array(std::initializer_list\<**bool**\>, int) constructor
+## Array::Array(std::initializer_list\<bool\>, int) constructor
 
 
 Constructs an [Array](../) object and fills it with values from the specified initializer list containing elements of bool type.
@@ -257,6 +204,8 @@ System::Array<T>::Array(std::initializer_list<bool> init, int=0)
 
 ## See Also
 
+* Typedef [ValueType](../valuetype/)
+* Typedef [UnderlyingType](../underlyingtype/)
 * Class [Array](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

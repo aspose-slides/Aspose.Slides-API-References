@@ -3,10 +3,10 @@ title: set_LatinFont()
 second_title: Aspose.Slides for C++ API Reference
 description: Sets the Latin font. Write IFontData.
 type: docs
-weight: 5370
+weight: 5331
 url: /cpp/aspose.slides/set_latinfont/
 ---
-## Aspose::Slides::set_LatinFont([System::SharedPtr](../../system/sharedptr/)\<[IFontData](../ifontdata/)\>) function
+## Aspose::Slides::set_LatinFont(System::SharedPtr\<IFontData\>) function
 
 
 Sets the Latin font. Write [IFontData](../ifontdata/).

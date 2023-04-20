@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.xml/xmltextreader/set_dtdprocessing/
 ---
-## XmlTextReader::set_DtdProcessing([System::Xml::DtdProcessing](../../dtdprocessing/)) method
+## XmlTextReader::set_DtdProcessing(System::Xml::DtdProcessing) method
 
 
 Sets the DtdProcessing enumeration.

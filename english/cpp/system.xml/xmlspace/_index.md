@@ -3,7 +3,7 @@ title: XmlSpace
 second_title: Aspose.Slides for C++ API Reference
 description: "Specifies the current xml:space scope."
 type: docs
-weight: 859
+weight: 833
 url: /cpp/system.xml/xmlspace/
 ---
 ## XmlSpace enum

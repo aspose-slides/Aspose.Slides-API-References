@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.globalization/numberformatinfo/set_permillesymbol/
 ---
-## NumberFormatInfo::set_PerMilleSymbol(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_PerMilleSymbol(const String\&) method
 
 
 Sets permille symbol.

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides/baseportionformat/set_strikethroughtype/
 ---
-## BasePortionFormat::set_StrikethroughType([TextStrikethroughType](../../textstrikethroughtype/)) method
+## BasePortionFormat::set_StrikethroughType(TextStrikethroughType) method
 
 
 Sets the strikethrough type of a text. No inheritance applied. Write [TextStrikethroughType](../../textstrikethroughtype/).

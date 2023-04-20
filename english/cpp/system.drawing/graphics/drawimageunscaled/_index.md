@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.drawing/graphics/drawimageunscaled/
 ---
-## Graphics::DrawImageUnscaled(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, int, int) method
+## Graphics::DrawImageUnscaled(const SharedPtr\<Image\>\&, int, int) method
 
 
 Draws the specified image using its original physical size at the specified location.
@@ -24,14 +24,7 @@ void System::Drawing::Graphics::DrawImageUnscaled(const SharedPtr<Image> &image,
 | x | int | The X coordinate of the upper left corner of the drawn image |
 | y | int | The Y coordinate of the upper left corner of the drawn image |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImageUnscaled(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, int, int, int, int) method
+## Graphics::DrawImageUnscaled(const SharedPtr\<Image\>\&, int, int, int, int) method
 
 
 Draws a specified image using its original physical size at a specified location.
@@ -51,14 +44,7 @@ void System::Drawing::Graphics::DrawImageUnscaled(const SharedPtr<Image> &image,
 | width | int | Not used |
 | height | int | Not used |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImageUnscaled(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [Rectangle](../../rectangle/)\&) method
+## Graphics::DrawImageUnscaled(const SharedPtr\<Image\>\&, const Rectangle\&) method
 
 
 Draws a specified image using its original physical size at a specified location.
@@ -75,15 +61,7 @@ void System::Drawing::Graphics::DrawImageUnscaled(const SharedPtr<Image> &image,
 | image | const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\& | The image to draw |
 | rect | const [Rectangle](../../rectangle/)\& | The rectangle that specifies the upper-left corner of the drawn image. The X and Y properties of the rectangle specify the upper-left corner. The width and height values are ignored. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../../image/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawImageUnscaled(const [SharedPtr](../../../system/sharedptr/)\<[Image](../../image/)\>\&, const [Point](../../point/)\&) method
+## Graphics::DrawImageUnscaled(const SharedPtr\<Image\>\&, const Point\&) method
 
 
 Draws a specified image using its original physical size at a specified location.
@@ -104,7 +82,8 @@ void System::Drawing::Graphics::DrawImageUnscaled(const SharedPtr<Image> &image,
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Image](../../image/)
-* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [Rectangle](../../rectangle/)
+* Class [Point](../../point/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system/datetimeoffset/addmilliseconds/
 ---
-## DateTimeOffset::AddMilliseconds(**double**) const method
+## DateTimeOffset::AddMilliseconds(double) const method
 
 
 Adds a specified number of milliseconds to the [DateTimeOffset](../) object.
@@ -28,7 +28,6 @@ Result of operation.
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.io/basicstdiostreamwrapper/write/
 ---
-## BasicSTDIOStreamWrapper::Write(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## BasicSTDIOStreamWrapper::Write(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 If wrapping mode is binary, writes to the stream the specified subrange of bytes from the specified byte array, otherwise convert the specified subrange of bytes from the specified byte array to char_type type ant then writes result to the stream.
@@ -24,13 +24,7 @@ virtual void System::IO::BasicSTDIOStreamWrapper<T, typename>::Write(const Array
 | offset | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of elements in the subrange to write |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [BasicSTDIOStreamWrapper](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSTDIOStreamWrapper::Write(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## BasicSTDIOStreamWrapper::Write(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Writes the specified subrange of bytes from the specified byte array to the stream.
@@ -50,6 +44,7 @@ virtual void System::IO::BasicSTDIOStreamWrapper<T, typename>::Write(const Syste
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [BasicSTDIOStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

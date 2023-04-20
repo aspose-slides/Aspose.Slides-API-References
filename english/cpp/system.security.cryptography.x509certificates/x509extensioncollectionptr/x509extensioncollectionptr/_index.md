@@ -15,12 +15,7 @@ Null pointer constructor.
 System::Security::Cryptography::X509Certificates::X509ExtensionCollectionPtr::X509ExtensionCollectionPtr()=default
 ```
 
-## See Also
-
-* Class [X509ExtensionCollectionPtr](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509ExtensionCollectionPtr::X509ExtensionCollectionPtr(const [SharedPtr](../../../system/sharedptr/)\<[X509ExtensionCollection](../../x509extensioncollection/)\>\&) constructor
+## X509ExtensionCollectionPtr::X509ExtensionCollectionPtr(const SharedPtr\<X509ExtensionCollection\>\&) constructor
 
 
 Constructor.
@@ -39,7 +34,7 @@ System::Security::Cryptography::X509Certificates::X509ExtensionCollectionPtr::X5
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [X509ExtensionCollection](../../x509extensioncollection/)
 * Class [X509ExtensionCollectionPtr](../)
+* Class [X509ExtensionCollection](../../x509extensioncollection/)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

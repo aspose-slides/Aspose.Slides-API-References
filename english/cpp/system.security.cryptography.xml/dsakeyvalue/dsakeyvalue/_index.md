@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography.xml/dsakeyvalue/dsakeyvalue/
 System::Security::Cryptography::Xml::DSAKeyValue::DSAKeyValue()
 ```
 
-## See Also
-
-* Class [DSAKeyValue](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## DSAKeyValue::DSAKeyValue([SharedPtr](../../../system/sharedptr/)\<[DSA](../../../system.security.cryptography/dsa/)\>) constructor
+## DSAKeyValue::DSAKeyValue(SharedPtr\<DSA\>) constructor
 
 
 
@@ -32,7 +27,7 @@ System::Security::Cryptography::Xml::DSAKeyValue::DSAKeyValue(SharedPtr<DSA> key
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [DSA](../../../system.security.cryptography/dsa/)
 * Class [DSAKeyValue](../)
+* Class [DSA](../../../system.security.cryptography/dsa/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

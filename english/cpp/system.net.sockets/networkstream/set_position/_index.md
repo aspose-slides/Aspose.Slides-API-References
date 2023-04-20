@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net.sockets/networkstream/set_position/
 ---
-## NetworkStream::set_Position(**int64_t**) method
+## NetworkStream::set_Position(int64_t) method
 
 
 Sets the stream's position.

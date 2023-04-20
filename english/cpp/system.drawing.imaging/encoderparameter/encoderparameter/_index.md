@@ -15,12 +15,7 @@ Constructs a new instance of [EncoderParameter](../) class.
 System::Drawing::Imaging::EncoderParameter::EncoderParameter()
 ```
 
-## See Also
-
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, **uint8_t**, **bool**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, uint8_t, bool) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -38,14 +33,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | value | **uint8_t** | An unsigend 8-bit integer value to be represted by the object being created |
 | undefined | **bool** | True if the **value** should be treated as having an undefined type, otherwise - false |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, **int16_t**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int16_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -62,14 +50,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
 | value | **int16_t** | A 16-bit integer value to be represted by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, **int64_t**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int64_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -86,14 +67,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
 | value | **int64_t** | A 64-bit integer value to be represted by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, **int32_t**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int32_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -110,14 +84,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
 | value | **int32_t** | A 32-bit integer value to be represted by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, **int32_t**, **int32_t**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int32_t, int32_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents a fraction.
@@ -135,14 +102,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | numerator | **int32_t** | A numerator of the fraction to be represented by the object being created |
 | denominator | **int32_t** | A denominator of the fraction to be represented by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, **int64_t**, **int64_t**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int64_t, int64_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents a range of integer values.
@@ -160,14 +120,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | rangebegin | **int64_t** | The smallest value in the range |
 | rangeend | **int64_t** | The largest value in the range |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, **int32_t**, **int32_t**, **int32_t**, **int32_t**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int32_t, int32_t, int32_t, int32_t) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents a range of fractions.
@@ -187,14 +140,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | demoninator1 | **int32_t** | A denominator of the smallest fraction in the range |
 | demoninator2 | **int32_t** | A denominator of the largest fraction in the range |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, const [String](../../../system/string/)\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const String\&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class.
@@ -211,15 +157,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
 | value | const [String](../../../system/string/)\& | A string to be represted by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Class [String](../../../system/string/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **bool**) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<uint8_t\>\&, bool) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of values.
@@ -237,15 +175,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | value | const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\& | An array of unsigend 8-bit integer values to be represted by the object being created |
 | undefined | **bool** | True if the values in **value** array should be treated as having an undefined type, otherwise - false |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int16_t**\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int16_t\>\&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of values.
@@ -262,15 +192,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
 | value | const [ArrayPtr](../../../system/arrayptr/)\<**int16_t**\>\& | An array of 16-bit integer values to be represted by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int64_t\>\&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of values.
@@ -287,15 +209,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | encoder | const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\& | Specifies the parameter category |
 | value | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\& | An array of 64-bit integer values to be represted by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of fractions.
@@ -313,15 +227,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | numerator | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array of numerators of the fractions to be represented by the object being created |
 | denominator | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array of denominators of the fractions to be represented by the object being created |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int64_t\>\&, const ArrayPtr\<int64_t\>\&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of ranges of integers.
@@ -339,15 +245,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | rangebegin | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\& | An array that contains the smallest values of each range |
 | rangeend | const [ArrayPtr](../../../system/arrayptr/)\<**int64_t**\>\& | An arry that contains the largest values of each range |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\&, const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\&) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&, const ArrayPtr\<int32_t\>\&) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents an array of ranges of fractions.
@@ -367,15 +265,7 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 | denominator1 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array that contains denominators of the smallest fractions of each range |
 | denominator2 | const [ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>\& | An array that contains denominators of the largest fractions of each range |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [EncoderParameter](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## EncoderParameter::EncoderParameter(const [SharedPtr](../../../system/sharedptr/)\<[Encoder](../../encoder/)\>\&, int, [EncoderParameterValueType](../../encoderparametervaluetype/), void *) constructor
+## EncoderParameter::EncoderParameter(const SharedPtr\<Encoder\>\&, int, EncoderParameterValueType, void *) constructor
 
 
 Constructs a new instance of [EncoderParameter](../) class that represents the specified number of values of the specified type which are read from the specified buffer.
@@ -396,9 +286,11 @@ System::Drawing::Imaging::EncoderParameter::EncoderParameter(const SharedPtr<Enc
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoder](../../encoder/)
 * Enum [EncoderParameterValueType](../../encoderparametervaluetype/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [EncoderParameter](../)
+* Class [Encoder](../../encoder/)
+* Class [String](../../../system/string/)
 * Namespace [System::Drawing::Imaging](../../)
 * Library [Aspose.Slides](../../../)

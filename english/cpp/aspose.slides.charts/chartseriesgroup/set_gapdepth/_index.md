@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/chartseriesgroup/set_gapdepth/
 ---
-## ChartSeriesGroup::set_GapDepth(**uint16_t**) method
+## ChartSeriesGroup::set_GapDepth(uint16_t) method
 
 
 Sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Write **uint16_t**.

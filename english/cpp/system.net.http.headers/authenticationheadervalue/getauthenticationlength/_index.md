@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/authenticationheadervalue/getauthenticationlength/
 ---
-## AuthenticationHeaderValue::GetAuthenticationLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## AuthenticationHeaderValue::GetAuthenticationLength(String, int32_t, System::SharedPtr\<Object\>\&) method
 
 
 Parses the specified string and returns the last index of the string representation.
@@ -30,8 +30,8 @@ The length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [AuthenticationHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)

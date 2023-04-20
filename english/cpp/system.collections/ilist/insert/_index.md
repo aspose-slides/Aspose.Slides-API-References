@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.collections/ilist/insert/
 ---
-## IList::Insert(int, [SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IList::Insert(int, SharedPtr\<System::Object\>) method
 
 
 Inserts the item to the list at the specified index.

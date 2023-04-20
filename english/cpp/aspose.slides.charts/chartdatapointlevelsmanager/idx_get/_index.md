@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/chartdatapointlevelsmanager/idx_get/
 ---
-## ChartDataPointLevelsManager::idx_get(**int32_t**) method
+## ChartDataPointLevelsManager::idx_get(int32_t) method
 
 
 Returns [IChartDataPointLevel](../../ichartdatapointlevel/) object for defined level.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.text.regularexpressions/group/addcapture/
 ---
-## Group::AddCapture(const [CapturePtr](../../captureptr/)\&) method
+## Group::AddCapture(const CapturePtr\&) method
 
 
 Adds capture into group.

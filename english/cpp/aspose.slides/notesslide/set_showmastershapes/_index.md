@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/notesslide/set_showmastershapes/
 ---
-## NotesSlide::set_ShowMasterShapes(**bool**) method
+## NotesSlide::set_ShowMasterShapes(bool) method
 
 
 Specifies if shapes on the master slide should be shown on slides or not. Write **bool**.

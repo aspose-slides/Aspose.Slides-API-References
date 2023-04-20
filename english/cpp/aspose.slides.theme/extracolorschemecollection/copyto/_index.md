@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.theme/extracolorschemecollection/copyto/
 ---
-## ExtraColorSchemeCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IExtraColorScheme](../../iextracolorscheme/)\>\>, **int32_t**) method
+## ExtraColorSchemeCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IExtraColorScheme\>\>, int32_t) method
 
 
 Copies all elements of the collection to the specified array.

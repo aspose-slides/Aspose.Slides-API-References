@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.mathtext/mathparagraph/set_justification/
 ---
-## MathParagraph::set_Justification([MathJustification](../../mathjustification/)) method
+## MathParagraph::set_Justification(MathJustification) method
 
 
 [Paragraph](../../../aspose.slides/paragraph/) Justification Default value: CenteredAsGroup

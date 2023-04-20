@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing/image/rotateflip/
 ---
-## Image::RotateFlip([RotateFlipType](../../rotatefliptype/)) method
+## Image::RotateFlip(RotateFlipType) method
 
 
 Rotate image to multiple of 90 degrees and flip.

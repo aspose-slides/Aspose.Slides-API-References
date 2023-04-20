@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.web.services.protocols/webclientprotocol/set_connectiongroupname/
 ---
-## WebClientProtocol::set_ConnectionGroupName([String](../../../system/string/)) method
+## WebClientProtocol::set_ConnectionGroupName(String) method
 
 
 Sets the name of the connection group.

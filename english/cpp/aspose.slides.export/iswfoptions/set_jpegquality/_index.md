@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.slides.export/iswfoptions/set_jpegquality/
 ---
-## ISwfOptions::set_JpegQuality(**int32_t**) method
+## ISwfOptions::set_JpegQuality(int32_t) method
 
 
 Specifies the quality of JPEG images. 

@@ -3,7 +3,7 @@ title: ShapesAlignmentType
 second_title: Aspose.Slides for C++ API Reference
 description: Defines a way to change the placement of selected shapes on the slide.
 type: docs
-weight: 6254
+weight: 5994
 url: /cpp/aspose.slides/shapesalignmenttype/
 ---
 ## ShapesAlignmentType enum

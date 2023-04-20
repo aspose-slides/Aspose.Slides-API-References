@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing.drawing2d/graphicspath/addpath/
 ---
-## GraphicsPath::AddPath(const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../)\>\&, **bool**) method
+## GraphicsPath::AddPath(const SharedPtr\<GraphicsPath\>\&, bool) method
 
 
 Adds the specified path to the path represented by the current object.
@@ -26,7 +26,6 @@ void System::Drawing::Drawing2D::GraphicsPath::AddPath(const SharedPtr<GraphicsP
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [GraphicsPath](../)
 * Class [GraphicsPath](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

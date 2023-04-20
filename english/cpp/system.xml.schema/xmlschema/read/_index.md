@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.xml.schema/xmlschema/read/
 ---
-## XmlSchema::Read(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&, [ValidationEventHandler](../../validationeventhandler/)) method
+## XmlSchema::Read(const SharedPtr\<IO::TextReader\>\&, ValidationEventHandler) method
 
 
 Reads an XML [Schema](../../) from the supplied [IO::TextReader](../../../system.io/textreader/).
@@ -27,16 +27,7 @@ static SharedPtr<XmlSchema> System::Xml::Schema::XmlSchema::Read(const SharedPtr
 
 The [XmlSchema](../) object representing the XML [Schema](../../).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../)
-* Class [TextReader](../../../system.io/textreader/)
-* Typedef [ValidationEventHandler](../../validationeventhandler/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Read(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, [ValidationEventHandler](../../validationeventhandler/)) method
+## XmlSchema::Read(const SharedPtr\<IO::Stream\>\&, ValidationEventHandler) method
 
 
 Reads an XML [Schema](../../) from the supplied stream.
@@ -57,16 +48,7 @@ static SharedPtr<XmlSchema> System::Xml::Schema::XmlSchema::Read(const SharedPtr
 
 The [XmlSchema](../) object representing the XML [Schema](../../).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../)
-* Class [Stream](../../../system.io/stream/)
-* Typedef [ValidationEventHandler](../../validationeventhandler/)
-* Class [XmlSchema](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchema::Read(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, [ValidationEventHandler](../../validationeventhandler/)) method
+## XmlSchema::Read(const SharedPtr\<XmlReader\>\&, ValidationEventHandler) method
 
 
 Reads an XML [Schema](../../) from the supplied [XmlReader](../../../system.xml/xmlreader/).
@@ -90,9 +72,10 @@ The [XmlSchema](../) object representing the XML [Schema](../../).
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../)
-* Class [XmlReader](../../../system.xml/xmlreader/)
 * Typedef [ValidationEventHandler](../../validationeventhandler/)
 * Class [XmlSchema](../)
+* Class [TextReader](../../../system.io/textreader/)
+* Class [Stream](../../../system.io/stream/)
+* Class [XmlReader](../../../system.xml/xmlreader/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

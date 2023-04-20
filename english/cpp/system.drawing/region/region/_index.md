@@ -15,12 +15,7 @@ Constructs a new instance of [Region](../) class.
 System::Drawing::Region::Region()
 ```
 
-## See Also
-
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Region(const [RectangleF](../../rectanglef/)\&) constructor
+## Region::Region(const RectangleF\&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified rectangle.
@@ -36,13 +31,7 @@ System::Drawing::Region::Region(const RectangleF &rect)
 | --- | --- | --- |
 | rect | const [RectangleF](../../rectanglef/)\& | A rectangle that defines the region |
 
-## See Also
-
-* Class [RectangleF](../../rectanglef/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Region(const [Rectangle](../../rectangle/)\&) constructor
+## Region::Region(const Rectangle\&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified rectangle.
@@ -58,13 +47,7 @@ System::Drawing::Region::Region(const Rectangle &rect)
 | --- | --- | --- |
 | rect | const [Rectangle](../../rectangle/)\& | A rectangle that defines the region |
 
-## See Also
-
-* Class [Rectangle](../../rectangle/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Region(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\&) constructor
+## Region::Region(const SharedPtr\<Drawing2D::GraphicsPath\>\&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified path.
@@ -80,13 +63,6 @@ System::Drawing::Region::Region(const SharedPtr<Drawing2D::GraphicsPath> &path)
 | --- | --- | --- |
 | path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\& | A path that defines the region |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Region::Region(const SkPath\&) constructor
 
 
@@ -96,12 +72,7 @@ System::Drawing::Region::Region(const SharedPtr<Drawing2D::GraphicsPath> &path)
 System::Drawing::Region::Region(const SkPath &path)
 ```
 
-## See Also
-
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Region(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::RegionData](../../../system.drawing.drawing2d/regiondata/)\>\&) constructor
+## Region::Region(const SharedPtr\<Drawing2D::RegionData\>\&) constructor
 
 
 Constructs a new instance of [Region](../) class that represents a region defined by the specified RegionData object.
@@ -120,7 +91,10 @@ System::Drawing::Region::Region(const SharedPtr<Drawing2D::RegionData> &region_d
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RegionData](../../../system.drawing.drawing2d/regiondata/)
 * Class [Region](../)
+* Class [RectangleF](../../rectanglef/)
+* Class [Rectangle](../../rectangle/)
+* Class [GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)
+* Class [RegionData](../../../system.drawing.drawing2d/regiondata/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

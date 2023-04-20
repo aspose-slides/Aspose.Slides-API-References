@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing/point/add/
 ---
-## Point::Add(const [Point](../)\&, const [Size](../../size/)\&) method
+## Point::Add(const Point\&, const Size\&) method
 
 
 Adds the width and height values of the specified [Size](../../size/) object to the X and Y coordinates values of the specified [Point](../) object correspondingly.
@@ -31,6 +31,5 @@ A new [Point](../) object whose X coordinate value is equal to the sum of X coor
 
 * Class [Point](../)
 * Class [Size](../../size/)
-* Class [Point](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

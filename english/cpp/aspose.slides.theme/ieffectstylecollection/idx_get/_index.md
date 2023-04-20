@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.theme/ieffectstylecollection/idx_get/
 ---
-## IEffectStyleCollection::idx_get(**int32_t**) method
+## IEffectStyleCollection::idx_get(int32_t) method
 
 
 Returns an element at specified position. Read-only [IEffectStyle](../../ieffectstyle/).

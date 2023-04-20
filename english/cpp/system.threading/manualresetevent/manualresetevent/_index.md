@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.threading/manualresetevent/manualresetevent/
 ---
-## ManualResetEvent::ManualResetEvent(**bool**) constructor
+## ManualResetEvent::ManualResetEvent(bool) constructor
 
 
 Constructor.

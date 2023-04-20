@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.xml.schema/xmlschemavalidator/validateelement/
 ---
-## XmlSchemaValidator::ValidateElement(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\&) method
+## XmlSchemaValidator::ValidateElement(const String\&, const String\&, const SharedPtr\<XmlSchemaInfo\>\&) method
 
 
 Validates the element in the current context.
@@ -24,15 +24,7 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateElement(const String &loca
 | namespaceUri | const [String](../../../system/string/)\& | The namespace URI of the element to validate. |
 | schemaInfo | const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\& | An [XmlSchemaInfo](../../xmlschemainfo/) object whose properties are set on successful validation of the element's name. This parameter can be **nullptr**. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaInfo](../../xmlschemainfo/)
-* Class [XmlSchemaValidator](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaValidator::ValidateElement(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlSchemaValidator::ValidateElement(const String\&, const String\&, const SharedPtr\<XmlSchemaInfo\>\&, const String\&, const String\&, const String\&, const String\&) method
 
 
 Validates the element in the current context with the **xsi:Type**, **xsi:Nil**, **xsi:SchemaLocation**, and **xsi:NoNamespaceSchemaLocation** attribute values specified.
@@ -56,8 +48,8 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateElement(const String &loca
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [XmlSchemaInfo](../../xmlschemainfo/)
 * Class [XmlSchemaValidator](../)
 * Namespace [System::Xml::Schema](../../)

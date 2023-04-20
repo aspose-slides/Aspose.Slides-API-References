@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/set_modificationdate/
 ---
-## ContentDispositionHeaderValue::set_ModificationDate([Nullable](../../../system/nullable/)\<[DateTimeOffset](../../../system/datetimeoffset/)\>) method
+## ContentDispositionHeaderValue::set_ModificationDate(Nullable\<DateTimeOffset\>) method
 
 
 Sets the file modification date.

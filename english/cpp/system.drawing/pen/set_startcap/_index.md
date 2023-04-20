@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.drawing/pen/set_startcap/
 ---
-## Pen::set_StartCap([Drawing2D::LineCap](../../../system.drawing.drawing2d/linecap/)) method
+## Pen::set_StartCap(Drawing2D::LineCap) method
 
 
 Sets the starting line cap of the current [Pen](../) object.

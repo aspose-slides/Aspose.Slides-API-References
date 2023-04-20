@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/texthighlightingoptions/set_wholewordsonly/
 ---
-## TextHighlightingOptions::set_WholeWordsOnly(**bool**) method
+## TextHighlightingOptions::set_WholeWordsOnly(bool) method
 
 
 Set true to match only whole words, false - otherwise. Write **bool**.

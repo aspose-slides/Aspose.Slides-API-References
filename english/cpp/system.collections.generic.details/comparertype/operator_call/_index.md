@@ -33,13 +33,6 @@ template<typename Q> std::enable_if<std::is_base_of<System::IComparable<Q>, Q>::
 
 True if **a** is considered less than **b**, false otherwise.
 
-## See Also
-
-* Class [IComparable](../../../system/icomparable/)
-* Struct [has_method_compareto](../../has_method_compareto/)
-* Struct [ComparerType](../)
-* Namespace [System::Collections::Generic::Details](../../)
-* Library [Aspose.Slides](../../../)
 ## ComparerType::operator()(const Q\&, const Q\&) const method
 
 
@@ -67,13 +60,6 @@ template<typename Q> std::enable_if<!(std::is_base_of<IComparable<Q>, Q>::value|
 
 True if **a** is considered less than **b**, false otherwise.
 
-## See Also
-
-* Class [IComparable](../../../system/icomparable/)
-* Struct [has_method_compareto](../../has_method_compareto/)
-* Struct [ComparerType](../)
-* Namespace [System::Collections::Generic::Details](../../)
-* Library [Aspose.Slides](../../../)
 ## ComparerType::operator()(const Q\&, const Q\&) const method
 
 
@@ -103,6 +89,8 @@ True if **a** is considered less than **b**, false otherwise.
 
 ## See Also
 
+* Class [IComparable](../../../system/icomparable/)
+* Struct [has_method_compareto](../../has_method_compareto/)
 * Struct [ComparerType](../)
 * Namespace [System::Collections::Generic::Details](../../)
 * Library [Aspose.Slides](../../../)

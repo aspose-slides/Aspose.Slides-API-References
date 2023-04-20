@@ -3,10 +3,10 @@ title: LoadPatterns()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 5578
+weight: 5331
 url: /cpp/aspose.slides/loadpatterns/
 ---
-## Aspose::Slides::LoadPatterns([System::String](../../system/string/)) function
+## Aspose::Slides::LoadPatterns(System::String) function
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.drawing/graphics/drawiconunstretched/
 ---
-## Graphics::DrawIconUnstretched(const [SharedPtr](../../../system/sharedptr/)\<[Icon](../../icon/)\>\&, [Rectangle](../../rectangle/)) method
+## Graphics::DrawIconUnstretched(const SharedPtr\<Icon\>\&, Rectangle) method
 
 
 NOT IMPLEMENTED.

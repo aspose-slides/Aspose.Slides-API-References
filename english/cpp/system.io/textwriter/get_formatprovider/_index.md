@@ -15,13 +15,6 @@ Returns the currently used [IFormatProvider](../../../system/iformatprovider/) o
 virtual SharedPtr<IFormatProvider> System::IO::TextWriter::get_FormatProvider() const
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFormatProvider](../../../system/iformatprovider/)
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
 ## TextWriter::get_FormatProvider() method
 
 
@@ -33,7 +26,9 @@ IFormatProviderPtr System::IO::TextWriter::get_FormatProvider()
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Typedef [IFormatProviderPtr](../../../system/iformatproviderptr/)
+* Class [IFormatProvider](../../../system/iformatprovider/)
 * Class [TextWriter](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

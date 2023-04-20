@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.xml/xmlconvert/touint32/
 ---
-## XmlConvert::ToUInt32(const [String](../../../system/string/)\&) method
+## XmlConvert::ToUInt32(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [UInt32](../../../system/uint32/) equivalent.

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/commentauthorcollection/findbynameandinitials/
 ---
-## CommentAuthorCollection::FindByNameAndInitials([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## CommentAuthorCollection::FindByNameAndInitials(System::String, System::String) method
 
 
 Find author in a collection by name and initials.

@@ -15,11 +15,6 @@ Constructs a new [Point](../) object and initializes its X and Y coordinates val
 System::Drawing::Point::Point()
 ```
 
-## See Also
-
-* Class [Point](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Point::Point(int, int) constructor
 
 
@@ -37,12 +32,7 @@ System::Drawing::Point::Point(int x, int y)
 | x | int | The value of X coordinate |
 | y | int | The value of Y coordinate |
 
-## See Also
-
-* Class [Point](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Point::Point(const [Size](../../size/)\&) constructor
+## Point::Point(const Size\&) constructor
 
 
 Constructs a new [Point](../) object and initializes its X and Y coordinates values with the values of width and height of the specifide [SizeF](../../sizef/) object correspondingly.
@@ -58,12 +48,6 @@ System::Drawing::Point::Point(const Size &size)
 | --- | --- | --- |
 | size | const [Size](../../size/)\& | A [SizeF](../../sizef/) object whose width and height values are used to initialize X and Y coordinates values of the [Point](../) object being created |
 
-## See Also
-
-* Class [Size](../../size/)
-* Class [Point](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Point::Point(int) constructor
 
 
@@ -83,5 +67,6 @@ System::Drawing::Point::Point(int dw)
 ## See Also
 
 * Class [Point](../)
+* Class [Size](../../size/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

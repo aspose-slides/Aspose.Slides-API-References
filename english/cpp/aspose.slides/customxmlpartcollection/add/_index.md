@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/customxmlpartcollection/add/
 ---
-## CustomXmlPartCollection::Add([System::String](../../../system/string/)) method
+## CustomXmlPartCollection::Add(System::String) method
 
 
 Adds new custom xml part.
@@ -26,15 +26,7 @@ System::SharedPtr<ICustomXmlPart> Aspose::Slides::CustomXmlPartCollection::Add(S
 
 Created custom xml part.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICustomXmlPart](../../icustomxmlpart/)
-* Class [String](../../../system/string/)
-* Class [CustomXmlPartCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## CustomXmlPartCollection::Add([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## CustomXmlPartCollection::Add(System::ArrayPtr\<uint8_t\>) method
 
 
 Adds new custom xml part.
@@ -54,15 +46,7 @@ System::SharedPtr<ICustomXmlPart> Aspose::Slides::CustomXmlPartCollection::Add(S
 
 Created custom xml part.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICustomXmlPart](../../icustomxmlpart/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [CustomXmlPartCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## CustomXmlPartCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## CustomXmlPartCollection::Add(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Adds new custom xml part.
@@ -85,8 +69,10 @@ Created custom xml part.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ICustomXmlPart](../../icustomxmlpart/)
-* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Class [CustomXmlPartCollection](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

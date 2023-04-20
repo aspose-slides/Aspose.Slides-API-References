@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/ichartdataworkbook/getcellcollection/
 ---
-## IChartDataWorkbook::GetCellCollection([System::String](../../../system/string/), **bool**) method
+## IChartDataWorkbook::GetCellCollection(System::String, bool) method
 
 
 Gets the set of cells.

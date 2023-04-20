@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides/table/idx_get/
 ---
-## Table::idx_get(**int32_t**, **int32_t**) method
+## Table::idx_get(int32_t, int32_t) method
 
 
 Returns the cell at the specified column and row indexes. Read-only [Cell](../../cell/).

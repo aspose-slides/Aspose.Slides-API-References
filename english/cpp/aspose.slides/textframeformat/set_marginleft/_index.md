@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/textframeformat/set_marginleft/
 ---
-## TextFrameFormat::set_MarginLeft(**double**) method
+## TextFrameFormat::set_MarginLeft(double) method
 
 
 Sets the left margin (points) in a [TextFrame](../../textframe/). Write **double**.

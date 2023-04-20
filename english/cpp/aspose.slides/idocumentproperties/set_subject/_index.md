@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides/idocumentproperties/set_subject/
 ---
-## IDocumentProperties::set_Subject([System::String](../../../system/string/)) method
+## IDocumentProperties::set_Subject(System::String) method
 
 
 Sets the subject of a presentation. Write [System::String](../../../system/string/).

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography/rsa/importparameters/
 ---
-## RSA::ImportParameters([RSAParameters](../../rsaparameters/)) method
+## RSA::ImportParameters(RSAParameters) method
 
 
 Imports all parameters from data structure.
@@ -24,7 +24,7 @@ virtual void System::Security::Cryptography::RSA::ImportParameters(RSAParameters
 
 ## See Also
 
-* Struct [RSAParameters](../../rsaparameters/)
 * Class [RSA](../)
+* Struct [RSAParameters](../../rsaparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

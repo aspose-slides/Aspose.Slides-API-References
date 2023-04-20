@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.charts/ichartseriesgroup/set_firstsliceangle/
 ---
-## IChartSeriesGroup::set_FirstSliceAngle(**uint16_t**) method
+## IChartSeriesGroup::set_FirstSliceAngle(uint16_t) method
 
 
 Sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Write **uint16_t**.

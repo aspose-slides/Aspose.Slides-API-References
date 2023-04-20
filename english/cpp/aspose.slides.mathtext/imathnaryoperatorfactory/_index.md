@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathnaryoperatorfactory/
 Allows to create [IMathNaryOperator](../imathnaryoperator/)
 
 ```cpp
-class IMathNaryOperatorFactory : public System::Object
+class IMathNaryOperatorFactory : public virtual System::Object
 ```
 
 ## Methods

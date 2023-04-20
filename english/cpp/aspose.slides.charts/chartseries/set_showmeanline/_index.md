@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.slides.charts/chartseries/set_showmeanline/
 ---
-## ChartSeries::set_ShowMeanLine(**bool**) method
+## ChartSeries::set_ShowMeanLine(bool) method
 
 
 Represents mean line. True if mean line are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Write **bool**.

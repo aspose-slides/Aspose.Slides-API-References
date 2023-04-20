@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.io/bufferedstream/seek/
 ---
-## BufferedStream::Seek(**int64_t**, [SeekOrigin](../../seekorigin/)) method
+## BufferedStream::Seek(int64_t, SeekOrigin) method
 
 
 Sets the position of the stream represented by the current object.

@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/system.xml/xmltextreader/getattribute/
 ---
-## XmlTextReader::GetAttribute([String](../../../system/string/)) method
+## XmlTextReader::GetAttribute(String) method
 
 
 Returns the value of the attribute with the specified name.
@@ -26,13 +26,7 @@ String System::Xml::XmlTextReader::GetAttribute(String name) override
 
 The value of the specified attribute. If the attribute is not found, **nullptr** is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::GetAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlTextReader::GetAttribute(String, String) method
 
 
 Returns the value of the attribute with the specified local name and namespace URI.
@@ -53,13 +47,7 @@ String System::Xml::XmlTextReader::GetAttribute(String localName, String namespa
 
 The value of the specified attribute. If the attribute is not found, **nullptr** is returned. This method does not move the reader.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::GetAttribute(**int32_t**) method
+## XmlTextReader::GetAttribute(int32_t) method
 
 
 Returns the value of the attribute with the specified index.

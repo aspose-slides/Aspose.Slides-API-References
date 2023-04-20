@@ -15,11 +15,6 @@ Constructor.
 System::Text::StringBuilder::StringBuilder()
 ```
 
-## See Also
-
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::StringBuilder(int) constructor
 
 
@@ -36,12 +31,7 @@ System::Text::StringBuilder::StringBuilder(int capacity)
 | --- | --- | --- |
 | capacity | int | Initial string capacity. |
 
-## See Also
-
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::StringBuilder(const [String](../../../system/string/)\&) constructor
+## StringBuilder::StringBuilder(const String\&) constructor
 
 
 Constructor.
@@ -57,13 +47,7 @@ System::Text::StringBuilder::StringBuilder(const String &str)
 | --- | --- | --- |
 | str | const [String](../../../system/string/)\& | Initial value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::StringBuilder(const [String](../../../system/string/)\&, int) constructor
+## StringBuilder::StringBuilder(const String\&, int) constructor
 
 
 Constructor.
@@ -80,13 +64,7 @@ System::Text::StringBuilder::StringBuilder(const String &value, int capacity)
 | value | const [String](../../../system/string/)\& | Initial value. |
 | capacity | int | Initial string capacity. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::StringBuilder(const [String](../../../system/string/)\&, int, int, int) constructor
+## StringBuilder::StringBuilder(const String\&, int, int, int) constructor
 
 
 Constructor.
@@ -107,7 +85,7 @@ System::Text::StringBuilder::StringBuilder(const String &value, int startIndex, 
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [StringBuilder](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

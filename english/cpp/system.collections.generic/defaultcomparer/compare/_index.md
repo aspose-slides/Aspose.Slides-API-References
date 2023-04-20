@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic/defaultcomparer/compare/
 ---
-## DefaultComparer::Compare(typename [ThisType::args_type](../../icomparer/args_type/), typename [ThisType::args_type](../../icomparer/args_type/)) const method
+## DefaultComparer::Compare(typename ThisType::args_type, typename ThisType::args_type) const method
 
 
 Actual data comparison.

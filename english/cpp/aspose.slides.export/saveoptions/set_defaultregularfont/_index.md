@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.export/saveoptions/set_defaultregularfont/
 ---
-## SaveOptions::set_DefaultRegularFont([System::String](../../../system/string/)) method
+## SaveOptions::set_DefaultRegularFont(System::String) method
 
 
 Sets font used in case source font is not found. Writes [System::String](../../../system/string/).

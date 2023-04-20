@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/system/array/lastindexof/
 ---
-## Array::LastIndexOf(const [ArrayPtr](../../arrayptr/)\<ArrayType\>\&, const [ValueType](../valuetype/)\&, int, int) method
+## Array::LastIndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int, int) method
 
 
 Determines the index of the last occurrence of the specified item in a range of items of the array specified by the start index and the number of elements in the range.
@@ -36,14 +36,7 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Las
 
 Index of the last occurrence of the specified item if the item is found, otherwise -1
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [ValueType](../valuetype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::LastIndexOf(const [ArrayPtr](../../arrayptr/)\<ArrayType\>\&, const [ValueType](../valuetype/)\&, int) method
+## Array::LastIndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int) method
 
 
 Determines the index of the last occurrence of the specified item in the array starting from the specified index.
@@ -72,14 +65,7 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Las
 
 Index of the last occurrence of the specified item if the item is found, otherwise -1
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [ValueType](../valuetype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::LastIndexOf(const [ArrayPtr](../../arrayptr/)\<ArrayType\>\&, const [ValueType](../valuetype/)\&) method
+## Array::LastIndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&) method
 
 
 Determines the index of the last occurrence of the specified item in the array.

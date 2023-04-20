@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/iconvertible/toint64/
 ---
-## IConvertible::ToInt64([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToInt64(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent 64-bit signed integer using the specified culture-specific formatting information.

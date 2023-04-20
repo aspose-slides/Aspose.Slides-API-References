@@ -6,7 +6,7 @@ type: docs
 weight: 937
 url: /cpp/system.drawing/graphics/flush/
 ---
-## Graphics::Flush([Drawing2D::FlushIntention](../../../system.drawing.drawing2d/flushintention/)) method
+## Graphics::Flush(Drawing2D::FlushIntention) method
 
 
 Triggers the immediate execution of all pending draw operations.

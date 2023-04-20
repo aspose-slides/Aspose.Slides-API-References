@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web.services.protocols/soapdocumentserviceattribute/set_parameterstyle/
 ---
-## SoapDocumentServiceAttribute::set_ParameterStyle([SoapParameterStyle](../../soapparameterstyle/)) method
+## SoapDocumentServiceAttribute::set_ParameterStyle(SoapParameterStyle) method
 
 
 Sets a value that indicates if parameters are encapsulated within a single XML element beneath the 'Body' element.

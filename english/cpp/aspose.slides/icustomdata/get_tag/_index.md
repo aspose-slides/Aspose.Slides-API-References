@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/icustomdata/get_tag/
 ---
-## ICustomData::get_Tag([System::String](../../../system/string/)) method
+## ICustomData::get_Tag(System::String) method
 
 
 Returns the Customer Data Tag specified at the index.

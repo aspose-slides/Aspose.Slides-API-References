@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.text.regularexpressions/regex/unescape/
 ---
-## Regex::Unescape(const [String](../../../system/string/)\&) method
+## Regex::Unescape(const String\&) method
 
 
 Unescapes special characters in string used as part of the pattern.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.mathtext/mathgroupingcharacter/set_position/
 ---
-## MathGroupingCharacter::set_Position([MathTopBotPositions](../../mathtopbotpositions/)) method
+## MathGroupingCharacter::set_Position(MathTopBotPositions) method
 
 
 Position of grouping character. Default: Bottom

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.animation/itiming/set_repeatuntilendslide/
 ---
-## ITiming::set_RepeatUntilEndSlide(**bool**) method
+## ITiming::set_RepeatUntilEndSlide(bool) method
 
 
 This attribute specifies if the effect will repeat until the end of the slide. Write **bool**.

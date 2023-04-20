@@ -18,6 +18,5 @@ static Color System::Drawing::Color::get_LightYellow()
 ## See Also
 
 * Class [Color](../)
-* Class [Color](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/isummaryzoomsection/set_description/
 ---
-## ISummaryZoomSection::set_Description([System::String](../../../system/string/)) method
+## ISummaryZoomSection::set_Description(System::String) method
 
 
 Returns the text description of the Summary Zoom [Section](../../section/) object.

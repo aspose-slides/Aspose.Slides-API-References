@@ -15,12 +15,7 @@ Outputs the current line terminator to the standard output stream.
 static void System::Console::WriteLine()
 ```
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [SharedPtr](../../sharedptr/)\<T\>\&) method
+## Console::WriteLine(const SharedPtr\<T\>\&) method
 
 
 Outputs the string representation of the specified object followed by the current line terminator to the standard output stream.
@@ -42,13 +37,7 @@ template<class T> static void System::Console::WriteLine(const SharedPtr<T> &obj
 | --- | --- | --- |
 | object | const [SharedPtr](../../sharedptr/)\<T\>\& | [Object](../../object/) to output |
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(**bool**) method
+## Console::WriteLine(bool) method
 
 
 Outputs the string representation of bool value followed by the current line terminator to the standard output stream.
@@ -64,11 +53,6 @@ static void System::Console::WriteLine(bool value)
 | --- | --- | --- |
 | value | **bool** | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Console::WriteLine(char_t) method
 
 
@@ -85,12 +69,7 @@ static void System::Console::WriteLine(char_t value)
 | --- | --- | --- |
 | value | char_t | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [ArrayPtr](../../arrayptr/)\<char_t\>\&) method
+## Console::WriteLine(const ArrayPtr\<char_t\>\&) method
 
 
 Outputs the string representation of the specified character array followed by the current line terminator to the standard output stream.
@@ -106,13 +85,7 @@ static void System::Console::WriteLine(const ArrayPtr<char_t> &buffer)
 | --- | --- | --- |
 | buffer | const [ArrayPtr](../../arrayptr/)\<char_t\>\& | The array to output |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [Decimal](../../decimal/)\&) method
+## Console::WriteLine(const Decimal\&) method
 
 
 Outputs the string representation of [Decimal](../../decimal/) value followed by the current line terminator to the standard output stream.
@@ -128,13 +101,7 @@ static void System::Console::WriteLine(const Decimal &value)
 | --- | --- | --- |
 | value | const [Decimal](../../decimal/)\& | The value to output |
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(**double**) method
+## Console::WriteLine(double) method
 
 
 Outputs the string representation of double-precision floating-point value followed by the current line terminator to the standard output stream.
@@ -150,12 +117,7 @@ static void System::Console::WriteLine(double value)
 | --- | --- | --- |
 | value | **double** | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(**float**) method
+## Console::WriteLine(float) method
 
 
 Outputs the string representation of single-precision floating-point value followed by the current line terminator to the standard output stream.
@@ -171,12 +133,7 @@ static void System::Console::WriteLine(float value)
 | --- | --- | --- |
 | value | **float** | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(**int32_t**) method
+## Console::WriteLine(int32_t) method
 
 
 Outputs the string representation of 32-bit integer value followed by the current line terminator to the standard output stream.
@@ -192,12 +149,7 @@ static void System::Console::WriteLine(int32_t value)
 | --- | --- | --- |
 | value | **int32_t** | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(**int64_t**) method
+## Console::WriteLine(int64_t) method
 
 
 Outputs the string representation of 64-bit integer value followed by the current line terminator to the standard output stream.
@@ -213,12 +165,7 @@ static void System::Console::WriteLine(int64_t value)
 | --- | --- | --- |
 | value | **int64_t** | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [String](../../string/)\&) method
+## Console::WriteLine(const String\&) method
 
 
 Outputs the specified string object followed by the current line terminator to the standard output stream.
@@ -234,12 +181,6 @@ static void System::Console::WriteLine(const String &value)
 | --- | --- | --- |
 | value | const [String](../../string/)\& | The string object to output |
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Console::WriteLine(const char_t *) method
 
 
@@ -256,12 +197,7 @@ static void System::Console::WriteLine(const char_t *value)
 | --- | --- | --- |
 | value | const char_t * | The c-string to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [TypeInfo](../../typeinfo/)\&) method
+## Console::WriteLine(const TypeInfo\&) method
 
 
 Outputs the string representation of [TypeInfo](../../typeinfo/) value followed by the current line terminator to the standard output stream.
@@ -277,13 +213,7 @@ static void System::Console::WriteLine(const TypeInfo &value)
 | --- | --- | --- |
 | value | const [TypeInfo](../../typeinfo/)\& | The value to output |
 
-## See Also
-
-* Class [TypeInfo](../../typeinfo/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(**uint32_t**) method
+## Console::WriteLine(uint32_t) method
 
 
 Outputs the string representation of unsigned 32-bit integer value followed by the current line terminator to the standard output stream.
@@ -299,12 +229,7 @@ static void System::Console::WriteLine(uint32_t value)
 | --- | --- | --- |
 | value | **uint32_t** | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(**uint64_t**) method
+## Console::WriteLine(uint64_t) method
 
 
 Outputs the string representation of unsigned 64-bit integer value followed by the current line terminator to the standard output stream.
@@ -320,12 +245,7 @@ static void System::Console::WriteLine(uint64_t value)
 | --- | --- | --- |
 | value | **uint64_t** | The value to output |
 
-## See Also
-
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [ArrayPtr](../../arrayptr/)\<char_t\>\&, int, int) method
+## Console::WriteLine(const ArrayPtr\<char_t\>\&, int, int) method
 
 
 Outputs the string representation of the specified range of the specified character array followed by the current line terminator to the standard output stream.
@@ -343,13 +263,7 @@ static void System::Console::WriteLine(const ArrayPtr<char_t> &buffer, int index
 | index | int | The index in the array at which the range to output begins |
 | count | int | The number of elements in the range to output |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [Exception](../../exception/)\&) method
+## Console::WriteLine(const Exception\&) method
 
 
 Outputs the string representation of the specified Exception object followed by the current line terminator to the standard output stream.
@@ -365,13 +279,7 @@ static void System::Console::WriteLine(const Exception &e)
 | --- | --- | --- |
 | e | const [Exception](../../exception/)\& | The value to output |
 
-## See Also
-
-* Typedef [Exception](../../exception/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Console::WriteLine(const [String](../../string/)\&, Args\&&...) method
+## Console::WriteLine(const String\&, Args\&&...) method
 
 
 Outputs the string representation of the specified arguments formatted according to the specified format followed by the current line terminator to the standard output stream.
@@ -394,12 +302,6 @@ template<class...> static void System::Console::WriteLine(const String &format, 
 | format | const [String](../../string/)\& | The string format |
 | args | Args\&&... | The values to output |
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Console](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Console::WriteLine(const char *) method
 
 
@@ -411,6 +313,12 @@ static void System::Console::WriteLine(const char *)=delete
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
+* Typedef [ArrayPtr](../../arrayptr/)
+* Typedef [Exception](../../exception/)
 * Class [Console](../)
+* Class [Decimal](../../decimal/)
+* Class [String](../../string/)
+* Class [TypeInfo](../../typeinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

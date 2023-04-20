@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides/iloadoptions/set_interruptiontoken/
 ---
-## ILoadOptions::set_InterruptionToken([System::SharedPtr](../../../system/sharedptr/)\<[IInterruptionToken](../../iinterruptiontoken/)\>) method
+## ILoadOptions::set_InterruptionToken(System::SharedPtr\<IInterruptionToken\>) method
 
 
 The token to monitor for interruption requests.

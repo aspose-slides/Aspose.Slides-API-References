@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/loadoptions/set_defaultasianfont/
 ---
-## LoadOptions::set_DefaultAsianFont([System::String](../../../system/string/)) method
+## LoadOptions::set_DefaultAsianFont(System::String) method
 
 
 Sets Asian font used in case source font is not found. Write [System::String](../../../system/string/).

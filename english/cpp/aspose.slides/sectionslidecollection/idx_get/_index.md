@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/sectionslidecollection/idx_get/
 ---
-## SectionSlideCollection::idx_get(**int32_t**) method
+## SectionSlideCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [ISlide](../../islide/).

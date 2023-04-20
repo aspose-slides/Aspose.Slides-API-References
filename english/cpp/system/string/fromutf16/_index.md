@@ -29,6 +29,5 @@ static String System::String::FromUtf16(const std::u16string &u16str)
 ## See Also
 
 * Class [String](../)
-* Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

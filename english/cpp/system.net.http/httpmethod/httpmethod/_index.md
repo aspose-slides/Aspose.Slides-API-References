@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http/httpmethod/httpmethod/
 ---
-## HttpMethod::HttpMethod([String](../../../system/string/)) constructor
+## HttpMethod::HttpMethod(String) constructor
 
 
 Constructs a new instance.

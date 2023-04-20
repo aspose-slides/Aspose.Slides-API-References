@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web.services.protocols/soaphttpclientprotocol/set_soapversion/
 ---
-## SoapHttpClientProtocol::set_SoapVersion([SoapProtocolVersion](../../soapprotocolversion/)) method
+## SoapHttpClientProtocol::set_SoapVersion(SoapProtocolVersion) method
 
 
 Sets the SOAP version.

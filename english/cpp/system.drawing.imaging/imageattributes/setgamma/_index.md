@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.drawing.imaging/imageattributes/setgamma/
 ---
-## ImageAttributes::SetGamma(**float**, [ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::SetGamma(float, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

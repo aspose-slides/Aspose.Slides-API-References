@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/asnencodeddata/copyfrom/
 ---
-## AsnEncodedData::CopyFrom(const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../)\>\&) method
+## AsnEncodedData::CopyFrom(const SharedPtr\<AsnEncodedData\>\&) method
 
 
 Copies data from different object.
@@ -25,7 +25,6 @@ virtual void System::Security::Cryptography::AsnEncodedData::CopyFrom(const Shar
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [AsnEncodedData](../)
 * Class [AsnEncodedData](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

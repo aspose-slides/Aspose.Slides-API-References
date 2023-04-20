@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system/string/equals/
 ---
-## String::Equals(const [String](../)\&, [System::StringComparison](../../stringcomparison/)) const method
+## String::Equals(const String\&, System::StringComparison) const method
 
 
 [String](../) equality comparison. Several modes provided by StringComparison enumeration are supported.
@@ -27,14 +27,7 @@ bool System::String::Equals(const String &str, System::StringComparison comparis
 
 true if strings match using selected comparison type, false otherwise.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Equals(const [String](../)\&) const method
+## String::Equals(const String\&) const method
 
 
 [String](../) equality comparison. Uses [System::StringComparison::Ordinal](../../stringcomparison/) comparison mode.
@@ -54,13 +47,7 @@ bool System::String::Equals(const String &str) const
 
 true if strings match, false otherwise.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Equals(const [String](../)\&, const [String](../)\&) method
+## String::Equals(const String\&, const String\&) method
 
 
 Equal-compares two strings using Ordial comparison mode.
@@ -81,13 +68,7 @@ static bool System::String::Equals(const String &strA, const String &strB)
 
 true if strings match, false otherwise.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Equals(const [String](../)\&, const [String](../)\&, [System::StringComparison](../../stringcomparison/)) method
+## String::Equals(const String\&, const String\&, System::StringComparison) method
 
 
 Equal-compares two strings.
@@ -111,7 +92,6 @@ true if strings match, false otherwise.
 
 ## See Also
 
-* Class [String](../)
 * Enum [StringComparison](../../stringcomparison/)
 * Class [String](../)
 * Namespace [System](../../)

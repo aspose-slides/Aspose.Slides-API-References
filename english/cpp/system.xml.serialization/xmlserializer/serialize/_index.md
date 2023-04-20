@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml.serialization/xmlserializer/serialize/
 ---
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XmlSerializer::Serialize(System::SharedPtr\<IO::Stream\>, System::SharedPtr\<Object\>) method
 
 
 Serializes document into XML.
@@ -23,15 +23,7 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<IO::
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> | Destination stream. |
 | o | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | [Object](../../../system/object/) to serialize. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Object](../../../system/object/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XmlSerializer::Serialize(System::SharedPtr\<IO::TextWriter\>, System::SharedPtr\<Object\>) method
 
 
 Serializes document into XML.
@@ -48,15 +40,7 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<IO::
 | textWriter | [System::SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\> | Destination stream. |
 | o | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | [Object](../../../system/object/) to serialize. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [Object](../../../system/object/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XmlSerializer::Serialize(System::SharedPtr\<XmlWriter\>, System::SharedPtr\<Object\>) method
 
 
 Serializes document into XML.
@@ -73,15 +57,7 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<XmlW
 | xmlWriter | [System::SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\> | Destination stream. |
 | o | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | [Object](../../../system/object/) to serialize. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [Object](../../../system/object/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\>) method
+## XmlSerializer::Serialize(System::SharedPtr\<IO::Stream\>, System::SharedPtr\<Object\>, System::SharedPtr\<XmlSerializerNamespaces\>) method
 
 
 Serializes document into XML.
@@ -99,16 +75,7 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<IO::
 | o | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | [Object](../../../system/object/) to serialize. |
 | namespaces | [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\> | Namespace storage. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Object](../../../system/object/)
-* Class [XmlSerializerNamespaces](../../xmlserializernamespaces/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\>) method
+## XmlSerializer::Serialize(System::SharedPtr\<IO::TextWriter\>, System::SharedPtr\<Object\>, System::SharedPtr\<XmlSerializerNamespaces\>) method
 
 
 Serializes document into XML.
@@ -126,16 +93,7 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<IO::
 | o | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | [Object](../../../system/object/) to serialize. |
 | namespaces | [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\> | Namespace storage. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [Object](../../../system/object/)
-* Class [XmlSerializerNamespaces](../../xmlserializernamespaces/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\>) method
+## XmlSerializer::Serialize(System::SharedPtr\<XmlWriter\>, System::SharedPtr\<Object\>, System::SharedPtr\<XmlSerializerNamespaces\>) method
 
 
 Serializes document into XML.
@@ -153,16 +111,7 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<XmlW
 | o | [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | [Object](../../../system/object/) to serialize. |
 | namespaces | [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\> | Namespace storage. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [Object](../../../system/object/)
-* Class [XmlSerializerNamespaces](../../xmlserializernamespaces/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\>, [String](../../../system/string/)) method
+## XmlSerializer::Serialize(System::SharedPtr\<XmlWriter\>, System::SharedPtr\<Object\>, System::SharedPtr\<XmlSerializerNamespaces\>, String) method
 
 
 Serializes document into XML.
@@ -181,17 +130,7 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<XmlW
 | namespaces | [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\> | Namespace storage. |
 | encodingStyle | [String](../../../system/string/) | Style to use while serializing object. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [Object](../../../system/object/)
-* Class [XmlSerializerNamespaces](../../xmlserializernamespaces/)
-* Class [String](../../../system/string/)
-* Class [XmlSerializer](../)
-* Namespace [System::Xml::Serialization](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSerializer::Serialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[XmlSerializerNamespaces](../../xmlserializernamespaces/)\>, [String](../../../system/string/), [String](../../../system/string/)) method
+## XmlSerializer::Serialize(System::SharedPtr\<XmlWriter\>, System::SharedPtr\<Object\>, System::SharedPtr\<XmlSerializerNamespaces\>, String, String) method
 
 
 Serializes document into XML.
@@ -214,10 +153,12 @@ void System::Xml::Serialization::XmlSerializer::Serialize(System::SharedPtr<XmlW
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
+* Class [Stream](../../../system.io/stream/)
 * Class [Object](../../../system/object/)
+* Class [XmlSerializer](../)
+* Class [TextWriter](../../../system.io/textwriter/)
+* Class [XmlWriter](../../../system.xml/xmlwriter/)
 * Class [XmlSerializerNamespaces](../../xmlserializernamespaces/)
 * Class [String](../../../system/string/)
-* Class [XmlSerializer](../)
 * Namespace [System::Xml::Serialization](../../)
 * Library [Aspose.Slides](../../../)

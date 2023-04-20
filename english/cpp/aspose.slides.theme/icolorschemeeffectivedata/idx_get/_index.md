@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.theme/icolorschemeeffectivedata/idx_get/
 ---
-## IColorSchemeEffectiveData::idx_get([ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)) method
+## IColorSchemeEffectiveData::idx_get(ColorSchemeIndex) method
 
 
 Gets the element at the specified index. Read-only [System::Drawing::Color](../../../system.drawing/color/).
@@ -17,8 +17,8 @@ virtual System::Drawing::Color Aspose::Slides::Theme::IColorSchemeEffectiveData:
 
 ## See Also
 
-* Class [Color](../../../system.drawing/color/)
 * Enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)
+* Class [Color](../../../system.drawing/color/)
 * Class [IColorSchemeEffectiveData](../)
 * Namespace [Aspose::Slides::Theme](../../)
 * Library [Aspose.Slides](../../../)

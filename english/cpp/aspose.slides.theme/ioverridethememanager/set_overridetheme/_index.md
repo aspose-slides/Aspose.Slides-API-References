@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.theme/ioverridethememanager/set_overridetheme/
 ---
-## IOverrideThemeManager::set_OverrideTheme([System::SharedPtr](../../../system/sharedptr/)\<[IOverrideTheme](../../ioverridetheme/)\>) method
+## IOverrideThemeManager::set_OverrideTheme(System::SharedPtr\<IOverrideTheme\>) method
 
 
 Returns the overriding theme object. Write [IOverrideTheme](../../ioverridetheme/).

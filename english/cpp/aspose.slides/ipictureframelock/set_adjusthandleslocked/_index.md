@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/ipictureframelock/set_adjusthandleslocked/
 ---
-## IPictureFrameLock::set_AdjustHandlesLocked(**bool**) method
+## IPictureFrameLock::set_AdjustHandlesLocked(bool) method
 
 
 Determines whether a changing adjust values is forbidden. Write **bool**.

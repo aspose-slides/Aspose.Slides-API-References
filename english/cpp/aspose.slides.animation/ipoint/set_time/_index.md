@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/ipoint/set_time/
 ---
-## IPoint::set_Time(**float**) method
+## IPoint::set_Time(float) method
 
 
 Represents time value. Write **float**.

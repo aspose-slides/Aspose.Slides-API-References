@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.drawing/pen/set_miterlimit/
 ---
-## Pen::set_MiterLimit(**float**) method
+## Pen::set_MiterLimit(float) method
 
 
 Sets the limit of the thickness of the join on a mitered corner.

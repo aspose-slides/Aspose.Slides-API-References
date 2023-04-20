@@ -3,10 +3,10 @@ title: connect()
 second_title: Aspose.Slides for C++ API Reference
 description: Adds the specified delegate to the collection.
 type: docs
-weight: 92
+weight: 131
 url: /cpp/system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/connect/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect([Callback](../callback/)) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect(Callback) method
 
 
 Adds the specified delegate to the collection.
@@ -26,12 +26,6 @@ MulticastDelegate & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::con
 
 A reference to the self
 
-## See Also
-
-* Typedef [Callback](../callback/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect(std::function\<R(Args...)>) method
 
 
@@ -59,12 +53,7 @@ template<class R,class...> MulticastDelegate & System::MulticastDelegate<ReturnT
 
 A reference to the self
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect([MulticastDelegate](../multicastdelegate/)\&) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect(MulticastDelegate\&) method
 
 
 Adds the specified MulticastDelegate object to the delegate collection.
@@ -84,11 +73,6 @@ MulticastDelegate & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::con
 
 A reference to the self
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect(MemberType ClassType::*, ClassType *) method
 
 
@@ -117,12 +101,7 @@ template<class MemberType,class ClassType> MulticastDelegate & System::Multicast
 
 A reference to the self
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect(MemberType ClassType::*, const [SharedPtr](../../sharedptr/)\<ClassType\>\&) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::connect(MemberType ClassType::*, const SharedPtr\<ClassType\>\&) method
 
 
 Adds the specified non-static method of the specified object to the delegate collection.
@@ -152,7 +131,9 @@ A reference to the self
 
 ## See Also
 
+* Typedef [Callback](../callback/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Method [MulticastDelegate](../multicastdelegate/)
 * Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

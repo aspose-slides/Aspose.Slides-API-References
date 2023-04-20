@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http.headers/mediatypeheadervalue/set_charset/
 ---
-## MediaTypeHeaderValue::set_CharSet([String](../../../system/string/)) method
+## MediaTypeHeaderValue::set_CharSet(String) method
 
 
 Sets a character set.

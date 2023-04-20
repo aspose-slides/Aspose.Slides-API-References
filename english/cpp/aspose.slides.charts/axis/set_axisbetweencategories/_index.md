@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/axis/set_axisbetweencategories/
 ---
-## Axis::set_AxisBetweenCategories(**bool**) method
+## Axis::set_AxisBetweenCategories(bool) method
 
 
 Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Write **bool**.

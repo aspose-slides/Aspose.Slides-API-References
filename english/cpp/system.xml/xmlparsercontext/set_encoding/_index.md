@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.xml/xmlparsercontext/set_encoding/
 ---
-## XmlParserContext::set_Encoding(const [SharedPtr](../../../system/sharedptr/)\<[System::Text::Encoding](../../../system.text/encoding/)\>\&) method
+## XmlParserContext::set_Encoding(const SharedPtr\<System::Text::Encoding\>\&) method
 
 
 Sets the encoding type.

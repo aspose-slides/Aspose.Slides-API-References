@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.componentmodel/typeconverter/converttoinvariantstring/
 ---
-## TypeConverter::ConvertToInvariantString(const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## TypeConverter::ConvertToInvariantString(const System::SharedPtr\<System::Object\>\&) method
 
 
 Converts object to invariant string.
@@ -26,15 +26,7 @@ System::String System::ComponentModel::TypeConverter::ConvertToInvariantString(c
 
 Converted object.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TypeConverter](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## TypeConverter::ConvertToInvariantString(const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\&, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## TypeConverter::ConvertToInvariantString(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Object\>\&) method
 
 
 Converts object to invariant string.
@@ -57,10 +49,10 @@ Converted object.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITypeDescriptorContext](../../itypedescriptorcontext/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [TypeConverter](../)
+* Class [ITypeDescriptorContext](../../itypedescriptorcontext/)
 * Namespace [System::ComponentModel](../../)
 * Library [Aspose.Slides](../../../)

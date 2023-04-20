@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ioleembeddeddatainfo/
 Represents embedded data info for OLE object.
 
 ```cpp
-class IOleEmbeddedDataInfo : public System::Object
+class IOleEmbeddedDataInfo : public virtual System::Object
 ```
 
 ## Methods

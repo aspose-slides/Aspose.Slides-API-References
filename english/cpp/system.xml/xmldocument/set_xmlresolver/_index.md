@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml/xmldocument/set_xmlresolver/
 ---
-## XmlDocument::set_XmlResolver([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../xmlresolver/)\>) method
+## XmlDocument::set_XmlResolver(SharedPtr\<System::Xml::XmlResolver\>) method
 
 
 Sets the [XmlResolver](../../xmlresolver/) to use for resolving external resources.

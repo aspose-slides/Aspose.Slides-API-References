@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net/httpwebrequest/set_preauthenticate/
 ---
-## HttpWebRequest::set_PreAuthenticate(**bool**) method
+## HttpWebRequest::set_PreAuthenticate(bool) method
 
 
 Sets a value that indicates if the request must be pre-authenticated.

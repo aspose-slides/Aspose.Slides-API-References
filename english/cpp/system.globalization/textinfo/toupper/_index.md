@@ -26,12 +26,7 @@ virtual char_t System::Globalization::TextInfo::ToUpper(char_t c) const
 
 Converted character.
 
-## See Also
-
-* Class [TextInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## TextInfo::ToUpper([String](../../../system/string/)) const method
+## TextInfo::ToUpper(String) const method
 
 
 Converts string to upper case.
@@ -53,7 +48,7 @@ Converted string.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [TextInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

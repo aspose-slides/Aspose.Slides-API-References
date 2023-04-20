@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.security.cryptography/ecdsa/verifyhash/
 ---
-## ECDsa::VerifyHash([ByteArrayPtr](../../../system/bytearrayptr/), [ByteArrayPtr](../../../system/bytearrayptr/)) method
+## ECDsa::VerifyHash(ByteArrayPtr, ByteArrayPtr) method
 
 
 Checks data signature.

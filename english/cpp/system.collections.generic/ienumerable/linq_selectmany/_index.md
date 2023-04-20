@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.collections.generic/ienumerable/linq_selectmany/
 ---
-## IEnumerable::LINQ_SelectMany(const [Func](../../../system/func/)\<T, [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../)\<ResultType\>\>\>\&) method
+## IEnumerable::LINQ_SelectMany(const Func\<T, SharedPtr\<IEnumerable\<ResultType\>\>\>\&) method
 
 
 Projects each element of a sequence and combines the resulting sequences into one sequence.
@@ -32,15 +32,7 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 An [IEnumerable](../) that contains the result of invoking a one-to-many projection function on each element of the input sequence.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
-* Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_SelectMany(const [Func](../../../system/func/)\<Source, [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../)\<Result\>\>\>\&) method
+## IEnumerable::LINQ_SelectMany(const Func\<Source, SharedPtr\<IEnumerable\<Result\>\>\>\&) method
 
 
 
@@ -54,6 +46,5 @@ template<typename Result> SharedPtr<IEnumerable<Result>> System::Collections::Ge
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IEnumerable](../)
 * Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/ichartseriescollection/removeat/
 ---
-## IChartSeriesCollection::RemoveAt(**int32_t**) method
+## IChartSeriesCollection::RemoveAt(int32_t) method
 
 
 Removes the element at the specified index

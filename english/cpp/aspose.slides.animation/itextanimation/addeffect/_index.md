@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.animation/itextanimation/addeffect/
 ---
-## ITextAnimation::AddEffect([EffectType](../../effecttype/), [EffectSubtype](../../effectsubtype/), [EffectTriggerType](../../effecttriggertype/)) method
+## ITextAnimation::AddEffect(EffectType, EffectSubtype, EffectTriggerType) method
 
 
 Add new effect to the end of current sequence to end of group text animations. Only valid if count of text paragraphs equal or greater of counts effect of this group!
@@ -30,11 +30,11 @@ New effect object [IEffect](../../ieffect/)
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEffect](../../ieffect/)
 * Enum [EffectType](../../effecttype/)
 * Enum [EffectSubtype](../../effectsubtype/)
 * Enum [EffectTriggerType](../../effecttriggertype/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IEffect](../../ieffect/)
 * Class [ITextAnimation](../)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

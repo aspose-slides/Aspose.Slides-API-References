@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.globalization/eastasianlunisolarcalendar/getsexagenaryyear/
 ---
-## EastAsianLunisolarCalendar::GetSexagenaryYear([DateTime](../../../system/datetime/)) const method
+## EastAsianLunisolarCalendar::GetSexagenaryYear(DateTime) const method
 
 
 Gets the year in the sexagenary cycle.

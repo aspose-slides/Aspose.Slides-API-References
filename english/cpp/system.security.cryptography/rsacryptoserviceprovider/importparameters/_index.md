@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/importparameters/
 ---
-## RSACryptoServiceProvider::ImportParameters([RSAParameters](../../rsaparameters/)) method
+## RSACryptoServiceProvider::ImportParameters(RSAParameters) method
 
 
 Imports CSP parameters.
@@ -24,7 +24,7 @@ void System::Security::Cryptography::RSACryptoServiceProvider::ImportParameters(
 
 ## See Also
 
-* Struct [RSAParameters](../../rsaparameters/)
 * Class [RSACryptoServiceProvider](../)
+* Struct [RSAParameters](../../rsaparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

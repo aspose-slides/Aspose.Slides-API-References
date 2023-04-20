@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.web.services.protocols/soapmessage/getoutparametervalue/
 ---
-## SoapMessage::GetOutParameterValue(**int32_t**) method
+## SoapMessage::GetOutParameterValue(int32_t) method
 
 
 Gets the output parameter value at the specified index.

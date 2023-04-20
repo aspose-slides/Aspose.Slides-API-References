@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides.charts/chartdatapointcollection/adddatapointforsurfaceseries/
 ---
-## ChartDataPointCollection::AddDataPointForSurfaceSeries([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartDataPointCollection::AddDataPointForSurfaceSeries(System::SharedPtr\<IChartDataCell\>) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [ChartTypeCharacterizer::IsChartTypeSurface(ChartType)](../../charttypecharacterizer/ischarttypesurface/) method).
@@ -26,15 +26,7 @@ System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollect
 
 New data point.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::AddDataPointForSurfaceSeries(**double**) method
+## ChartDataPointCollection::AddDataPointForSurfaceSeries(double) method
 
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also [ChartTypeCharacterizer::IsChartTypeSurface(ChartType)](../../charttypecharacterizer/ischarttypesurface/) method).
@@ -58,6 +50,7 @@ New data point.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartDataPoint](../../ichartdatapoint/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [ChartDataPointCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

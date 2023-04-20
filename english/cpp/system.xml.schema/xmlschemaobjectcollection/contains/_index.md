@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml.schema/xmlschemaobjectcollection/contains/
 ---
-## XmlSchemaObjectCollection::Contains(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\&) method
+## XmlSchemaObjectCollection::Contains(const SharedPtr\<XmlSchemaObject\>\&) method
 
 
 Indicates if the specified [XmlSchemaObject](../../xmlschemaobject/) is in the [XmlSchemaObjectCollection](../).

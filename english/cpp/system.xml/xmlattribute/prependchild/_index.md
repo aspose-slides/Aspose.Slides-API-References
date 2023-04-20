@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.xml/xmlattribute/prependchild/
 ---
-## XmlAttribute::PrependChild([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>) method
+## XmlAttribute::PrependChild(SharedPtr\<XmlNode\>) method
 
 
 Adds the specified node to the beginning of the list of child nodes for this node.

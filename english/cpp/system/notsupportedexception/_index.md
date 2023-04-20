@@ -3,7 +3,7 @@ title: NotSupportedException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 3329
+weight: 2549
 url: /cpp/system/notsupportedexception/
 ---
 ## NotSupportedException typedef

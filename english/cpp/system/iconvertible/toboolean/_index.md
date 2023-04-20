@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/iconvertible/toboolean/
 ---
-## IConvertible::ToBoolean([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToBoolean(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent [Boolean](../../boolean/) value using the specified culture-specific formatting information.

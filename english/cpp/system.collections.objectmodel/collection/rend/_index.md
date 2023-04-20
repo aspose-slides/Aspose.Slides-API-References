@@ -20,12 +20,6 @@ reverse_iterator System::Collections::ObjectModel::Collection<T>::rend() noexcep
 
 A reverse iterator pointing to the theoretical element preceding the first element in the list (last in reverse).
 
-## See Also
-
-* Typedef [reverse_iterator](../reverse_iterator/)
-* Class [Collection](../)
-* Namespace [System::Collections::ObjectModel](../../)
-* Library [Aspose.Slides](../../../)
 ## Collection::rend() const method
 
 
@@ -42,6 +36,7 @@ A reverse iterator pointing to the theoretical element preceding the first eleme
 
 ## See Also
 
+* Typedef [reverse_iterator](../reverse_iterator/)
 * Typedef [const_reverse_iterator](../const_reverse_iterator/)
 * Class [Collection](../)
 * Namespace [System::Collections::ObjectModel](../../)

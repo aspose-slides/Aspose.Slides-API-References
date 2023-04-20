@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.drawing/bitmap/setresolution/
 ---
-## Bitmap::SetResolution(**float**, **float**) method
+## Bitmap::SetResolution(float, float) method
 
 
 Sets the resolution of the image.

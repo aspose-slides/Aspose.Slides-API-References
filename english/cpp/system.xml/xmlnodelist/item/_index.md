@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlnodelist/item/
 ---
-## XmlNodeList::Item(**int32_t**) method
+## XmlNodeList::Item(int32_t) method
 
 
 Retrieves a node at the given index.

@@ -23,12 +23,7 @@ System::Threading::Semaphore::Semaphore(int initialCount, int maximumCount)
 | initialCount | int | Initial count of active entries. |
 | maximumCount | int | Maximum allwed entries count. |
 
-## See Also
-
-* Class [Semaphore](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Semaphore::Semaphore(int, int, const [String](../../../system/string/)\&) constructor
+## Semaphore::Semaphore(int, int, const String\&) constructor
 
 
 Creates named semaphore.
@@ -46,13 +41,7 @@ System::Threading::Semaphore::Semaphore(int initialCount, int maximumCount, cons
 | maximumCount | int | Maximum allwed entries count. |
 | name | const [String](../../../system/string/)\& | [Semaphore](../) name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Semaphore](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Semaphore::Semaphore(int, int, const [String](../../../system/string/)\&, **bool**\&) constructor
+## Semaphore::Semaphore(int, int, const String\&, bool\&) constructor
 
 
 Creates named semaphore.
@@ -73,7 +62,7 @@ System::Threading::Semaphore::Semaphore(int initialCount, int maximumCount, cons
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [Semaphore](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

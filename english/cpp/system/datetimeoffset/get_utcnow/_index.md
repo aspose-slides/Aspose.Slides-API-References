@@ -18,6 +18,5 @@ static DateTimeOffset System::DateTimeOffset::get_UtcNow()
 ## See Also
 
 * Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

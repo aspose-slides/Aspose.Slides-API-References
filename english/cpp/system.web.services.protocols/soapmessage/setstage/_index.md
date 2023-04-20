@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.web.services.protocols/soapmessage/setstage/
 ---
-## SoapMessage::SetStage([SoapMessageStage](../../soapmessagestage/)) method
+## SoapMessage::SetStage(SoapMessageStage) method
 
 
 Sets the processing stage of the SOAP message.

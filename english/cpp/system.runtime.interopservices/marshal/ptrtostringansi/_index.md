@@ -26,12 +26,6 @@ static String System::Runtime::InteropServices::Marshal::PtrToStringAnsi(IntPtr 
 
 A managed string.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Marshal](../)
-* Namespace [System::Runtime::InteropServices](../../)
-* Library [Aspose.Slides](../../../)
 ## Marshal::PtrToStringAnsi(IntPtr, int) method
 
 

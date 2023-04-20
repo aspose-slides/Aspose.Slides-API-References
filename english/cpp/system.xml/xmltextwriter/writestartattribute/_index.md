@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.xml/xmltextwriter/writestartattribute/
 ---
-## XmlTextWriter::WriteStartAttribute(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlTextWriter::WriteStartAttribute(const String\&, const String\&, const String\&) method
 
 
 Writes the start of an attribute.

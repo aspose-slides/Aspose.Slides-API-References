@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.xml/xmlconvert/toint64/
 ---
-## XmlConvert::ToInt64(const [String](../../../system/string/)\&) method
+## XmlConvert::ToInt64(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [Int64](../../../system/int64/) equivalent.

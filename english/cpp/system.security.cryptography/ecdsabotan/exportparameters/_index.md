@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/ecdsabotan/exportparameters/
 ---
-## ECDsaBotan::ExportParameters(**bool**) method
+## ECDsaBotan::ExportParameters(bool) method
 
 
 Exports named or explicit parameters.
@@ -28,7 +28,7 @@ Exported parameters structure.
 
 ## See Also
 
-* Struct [ECParameters](../../ecparameters/)
 * Class [ECDsaBotan](../)
+* Struct [ECParameters](../../ecparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

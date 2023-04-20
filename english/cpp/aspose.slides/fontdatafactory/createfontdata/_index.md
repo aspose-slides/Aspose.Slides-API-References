@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/fontdatafactory/createfontdata/
 ---
-## FontDataFactory::CreateFontData([System::String](../../../system/string/)) method
+## FontDataFactory::CreateFontData(System::String) method
 
 
 Creates [FontData](../../fontdata/) with specified font name.

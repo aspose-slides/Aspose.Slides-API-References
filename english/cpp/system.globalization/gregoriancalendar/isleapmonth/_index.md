@@ -28,11 +28,6 @@ bool System::Globalization::GregorianCalendar::IsLeapMonth(int year, int month, 
 
 True if specified month is leap, false otherwise.
 
-## See Also
-
-* Class [GregorianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## GregorianCalendar::IsLeapMonth(int, int) const method
 
 
@@ -54,11 +49,6 @@ virtual bool System::Globalization::Calendar::IsLeapMonth(int year, int month) c
 
 True if specified month is leap, false otherwise.
 
-## See Also
-
-* Class [GregorianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## GregorianCalendar::IsLeapMonth(int, int, int) const method
 
 

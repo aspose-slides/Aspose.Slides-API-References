@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/system/array/sort/
 ---
-## Array::Sort(const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&) method
+## Array::Sort(const ArrayPtr\<Type\>\&) method
 
 
 Sorts elements in the specified array using default comparer.
@@ -22,13 +22,7 @@ template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> 
 | --- | --- | --- |
 | arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Targed array |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Sort(const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&, int, int) method
+## Array::Sort(const ArrayPtr\<Type\>\&, int, int) method
 
 
 Sorts a range of elements in the specified array using default comparer.
@@ -46,13 +40,7 @@ template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> 
 | startIndex | int | The index designating the beginning of the range of elements to sort |
 | count | int | The size of the range of elements to sort |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Sort(const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&, const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<T\>\>\&) method
+## Array::Sort(const ArrayPtr\<Type\>\&, const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) method
 
 
 Sorts elements in the specified array using specified comparer.
@@ -69,15 +57,7 @@ template<typename Type> static void System::Array<T>::Sort(const ArrayPtr<Type> 
 | arr | const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\& | Targed array |
 | comparator | const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<T\>\>\& | IComparer<T> object used to compare elements of the array |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IComparer](../../../system.collections.generic/icomparer/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Sort(const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&, const [SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<Y\>\>\&) method
+## Array::Sort(const ArrayPtr\<Type\>\&, const SharedPtr\<System::Collections::Generic::IComparer\<Y\>\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -87,15 +67,7 @@ template<typename Type,typename Y> static void System::Array<T>::Sort(const Arra
 ```
 
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IComparer](../../../system.collections.generic/icomparer/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Sort(const [ArrayPtr](../../arrayptr/)\<TKey\>\&, const [ArrayPtr](../../arrayptr/)\<TValue\>\&) method
+## Array::Sort(const ArrayPtr\<TKey\>\&, const ArrayPtr\<TValue\>\&) method
 
 
 Sorts two arrays one containing keys and the other - corresponding items, based on the values of array containing keys, elements of which are compared using operator<.
@@ -119,13 +91,7 @@ template<typename TKey,typename TValue> static void System::Array<T>::Sort(const
 | keys | const [ArrayPtr](../../arrayptr/)\<TKey\>\& | [Array](../) that contains key values |
 | items | const [ArrayPtr](../../arrayptr/)\<TValue\>\& | [Array](../) that contains items that are mapped to the key values in **keys** array |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Sort(const [ArrayPtr](../../arrayptr/)\<TKey\>\&, const [ArrayPtr](../../arrayptr/)\<TValue\>\&, int, int) method
+## Array::Sort(const ArrayPtr\<TKey\>\&, const ArrayPtr\<TValue\>\&, int, int) method
 
 
 Sorts two arrays one containing keys and the other - corresponding items, based on the values of array containing keys, elements of which are compared using default comparer.
@@ -154,6 +120,9 @@ template<typename TKey,typename TValue> static void System::Array<T>::Sort(const
 ## See Also
 
 * Typedef [ArrayPtr](../../arrayptr/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Method [Type](../../object/type/)
 * Class [Array](../)
+* Class [IComparer](../../../system.collections.generic/icomparer/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/system.xml/xmlreader/movetoattribute/
 ---
-## XmlReader::MoveToAttribute([String](../../../system/string/)) method
+## XmlReader::MoveToAttribute(String) method
 
 
 When overridden in a derived class, moves to the attribute with the specified [XmlReader::get_Name](../get_name/) value.
@@ -26,13 +26,7 @@ virtual bool System::Xml::XmlReader::MoveToAttribute(String name)=0
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the reader's position does not change.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::MoveToAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::MoveToAttribute(String, String) method
 
 
 When overridden in a derived class, moves to the attribute with the specified [XmlReader::get_LocalName](../get_localname/) and [XmlReader::get_NamespaceURI](../get_namespaceuri/) values.
@@ -53,13 +47,7 @@ virtual bool System::Xml::XmlReader::MoveToAttribute(String name, String ns)=0
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the reader's position does not change.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::MoveToAttribute(**int32_t**) method
+## XmlReader::MoveToAttribute(int32_t) method
 
 
 When overridden in a derived class, moves to the attribute with the specified index.
@@ -77,6 +65,7 @@ virtual void System::Xml::XmlReader::MoveToAttribute(int32_t i)
 
 ## See Also
 
+* Class [String](../../../system/string/)
 * Class [XmlReader](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

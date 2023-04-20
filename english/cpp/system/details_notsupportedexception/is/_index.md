@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_notsupportedexception/is/
 ---
-## Details_NotSupportedException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_NotSupportedException::Is(const System::TypeInfo\&) const method
 
 
 

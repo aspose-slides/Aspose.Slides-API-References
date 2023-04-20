@@ -3,10 +3,10 @@ title: CreateFontSelectionRulesMap()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 5435
+weight: 5331
 url: /cpp/aspose.slides/createfontselectionrulesmap/
 ---
-## Aspose::Slides::CreateFontSelectionRulesMap(const [System::ArrayPtr](../../system/arrayptr/)\<[System::SharedPtr](../../system/sharedptr/)\<Fonts::FontSelectionRule\>\>\&) function
+## Aspose::Slides::CreateFontSelectionRulesMap(const System::ArrayPtr\<System::SharedPtr\<Fonts::FontSelectionRule\>\>\&) function
 
 
 
@@ -18,8 +18,8 @@ static ASPOSE_SLIDES_LOCAL_API System::SharedPtr<System::Collections::Generic::I
 ## See Also
 
 * Typedef [SharedPtr](../../system/sharedptr/)
+* Typedef [ArrayPtr](../../system/arrayptr/)
 * Class [IDictionary](../../system.collections.generic/idictionary/)
 * Class [String](../../system/string/)
-* Typedef [ArrayPtr](../../system/arrayptr/)
 * Namespace [Aspose::Slides](../)
 * Library [Aspose.Slides](../../)

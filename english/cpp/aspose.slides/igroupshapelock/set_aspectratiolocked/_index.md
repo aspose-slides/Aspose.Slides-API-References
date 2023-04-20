@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/igroupshapelock/set_aspectratiolocked/
 ---
-## IGroupShapeLock::set_AspectRatioLocked(**bool**) method
+## IGroupShapeLock::set_AspectRatioLocked(bool) method
 
 
 Determines whether shape have to preserve aspect ratio on resizing. Write **bool**.

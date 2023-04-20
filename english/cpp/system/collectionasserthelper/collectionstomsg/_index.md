@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system/collectionasserthelper/collectionstomsg/
 ---
-## CollectionAssertHelper::CollectionsToMsg(const [System::String](../../string/)\&, const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T1\>\>\&, const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T2\>\>\&) method
+## CollectionAssertHelper::CollectionsToMsg(const System::String\&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T1\>\>\&, const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T2\>\>\&) method
 
 
 Serializes two collections for message representation.
@@ -37,8 +37,8 @@ User-friendly message on collections' contents.
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Struct [CollectionAssertHelper](../)
 * Namespace [System](../../)

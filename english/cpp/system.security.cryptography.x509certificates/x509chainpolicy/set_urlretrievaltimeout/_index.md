@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.security.cryptography.x509certificates/x509chainpolicy/set_urlretrievaltimeout/
 ---
-## X509ChainPolicy::set_UrlRetrievalTimeout([TimeSpan](../../../system/timespan/)) method
+## X509ChainPolicy::set_UrlRetrievalTimeout(TimeSpan) method
 
 
 

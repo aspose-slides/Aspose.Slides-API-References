@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.animation/ieffect/set_timing/
 ---
-## IEffect::set_Timing([System::SharedPtr](../../../system/sharedptr/)\<[ITiming](../../itiming/)\>) method
+## IEffect::set_Timing(System::SharedPtr\<ITiming\>) method
 
 
 Defines timing value for effect. Write [ITiming](../../itiming/).

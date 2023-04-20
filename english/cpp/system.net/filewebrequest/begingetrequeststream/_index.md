@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net/filewebrequest/begingetrequeststream/
 ---
-## FileWebRequest::BeginGetRequestStream([AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FileWebRequest::BeginGetRequestStream(AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous operation to get a stream for writing data to the resource.
@@ -30,8 +30,8 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
 * Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
 * Class [Object](../../../system/object/)
 * Class [FileWebRequest](../)
 * Namespace [System::Net](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.slides/idocumentproperties/set_keywords/
 ---
-## IDocumentProperties::set_Keywords([System::String](../../../system/string/)) method
+## IDocumentProperties::set_Keywords(System::String) method
 
 
 Sets the keywords of a presentation. Write [System::String](../../../system/string/).

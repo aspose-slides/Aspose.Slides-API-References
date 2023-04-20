@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides/slide/getslidecomments/
 ---
-## Slide::GetSlideComments([System::SharedPtr](../../../system/sharedptr/)\<[ICommentAuthor](../../icommentauthor/)\>) method
+## Slide::GetSlideComments(System::SharedPtr\<ICommentAuthor\>) method
 
 
 Returns all slide comments added by specific author.

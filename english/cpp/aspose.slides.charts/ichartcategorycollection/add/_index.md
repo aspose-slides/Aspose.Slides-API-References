@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/ichartcategorycollection/add/
 ---
-## IChartCategoryCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## IChartCategoryCollection::Add(System::SharedPtr\<IChartDataCell\>) method
 
 
 If category exists in collection, return it. Else creates new chart category from [IChartDataCell](../../ichartdatacell/) and adds it to the collection.
@@ -28,15 +28,7 @@ Added or existing category.
 
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartCategory](../../ichartcategory/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [IChartCategoryCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## IChartCategoryCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IChartCategoryCollection::Add(System::SharedPtr\<System::Object\>) method
 
 
 Creates new [IChartCategory](../../ichartcategory/) from value and adds it to the collection.
@@ -67,7 +59,8 @@ This method adds worksheet with name AUTO_DATA and adds all values there. If you
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartCategory](../../ichartcategory/)
-* Class [Object](../../../system/object/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [IChartCategoryCollection](../)
+* Class [Object](../../../system/object/)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

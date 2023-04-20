@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml.serialization/xmlserializer/candeserialize/
 ---
-## XmlSerializer::CanDeserialize([System::SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>) method
+## XmlSerializer::CanDeserialize(System::SharedPtr\<XmlReader\>) method
 
 
 Checks if specific reader is in deserializable state.

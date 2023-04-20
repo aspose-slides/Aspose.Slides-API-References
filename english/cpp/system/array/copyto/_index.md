@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/array/copyto/
 ---
-## Array::CopyTo([ArrayPtr](../../arrayptr/)\<T\>, int) method
+## Array::CopyTo(ArrayPtr\<T\>, int) method
 
 
 Copies all elements of the current array to the specified destination array. Elements are inserted into destination array starting at index specified by arrayIndex argument.
@@ -23,13 +23,7 @@ virtual void System::Array<T>::CopyTo(ArrayPtr<T> arr, int arrayIndex) override
 | arr | [ArrayPtr](../../arrayptr/)\<T\> | Destination array |
 | arrayIndex | int | Index in destination array to start inserting copied items at |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::CopyTo(const [ArrayPtr](../../arrayptr/)\<DstType\>\&, **int64_t**) const method
+## Array::CopyTo(const ArrayPtr\<DstType\>\&, int64_t) const method
 
 
 Copies all elements of the current array to the specified destination array. Elements are inserted into the destination array starting at index specified by dstIndex argument.
@@ -52,13 +46,7 @@ template<typename DstType> void System::Array<T>::CopyTo(const ArrayPtr<DstType>
 | dstArray | const [ArrayPtr](../../arrayptr/)\<DstType\>\& | Destination array |
 | dstIndex | **int64_t** | Index in destination array to start inserting copied items at |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::CopyTo(const System::Details::ArrayView\<DstType\>\&, **int64_t**) const method
+## Array::CopyTo(const System::Details::ArrayView\<DstType\>\&, int64_t) const method
 
 
 Copies all elements of the current array to the specified destination array view. Elements are inserted into the destination array view starting at index specified by dstIndex argument.
@@ -81,12 +69,7 @@ template<typename DstType> void System::Array<T>::CopyTo(const System::Details::
 | dstArray | const System::Details::ArrayView\<DstType\>\& | Destination array view |
 | dstIndex | **int64_t** | Index in destination array view to start inserting copied items at |
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::CopyTo(const [ArrayPtr](../../arrayptr/)\<DstType\>\&, **int64_t**, **int64_t**, **int64_t**) const method
+## Array::CopyTo(const ArrayPtr\<DstType\>\&, int64_t, int64_t, int64_t) const method
 
 
 Copies a specified number of elements from the current array starting at specified position to specified destination array. Elements are inserted into the destination array starting at index specified by dstIndex argument.
@@ -111,13 +94,7 @@ template<typename DstType> void System::Array<T>::CopyTo(const ArrayPtr<DstType>
 | dstIndex | **int64_t** | Index in destination array to start inserting copied items at |
 | count | **int64_t** | Number of elements to copy |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::CopyTo(const System::Details::ArrayView\<DstType\>\&, **int64_t**, **int64_t**, **int64_t**) const method
+## Array::CopyTo(const System::Details::ArrayView\<DstType\>\&, int64_t, int64_t, int64_t) const method
 
 
 Copies a specified number of elements from the current array starting at specified position to specified destination array view. Elements are inserted into the destination array view starting at index specified by dstIndex argument.
@@ -144,6 +121,7 @@ template<typename DstType> void System::Array<T>::CopyTo(const System::Details::
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [Array](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml.schema/xmlschema/set_targetnamespace/
 ---
-## XmlSchema::set_TargetNamespace(const [String](../../../system/string/)\&) method
+## XmlSchema::set_TargetNamespace(const String\&) method
 
 
 Sets the Uniform Resource Identifier (URI) of the schema target namespace.

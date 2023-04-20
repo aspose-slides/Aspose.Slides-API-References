@@ -15,12 +15,7 @@ Initializes a new instance of the [XmlQualifiedName](../) class.
 System::Xml::XmlQualifiedName::XmlQualifiedName()
 ```
 
-## See Also
-
-* Class [XmlQualifiedName](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlQualifiedName::XmlQualifiedName(const [String](../../../system/string/)\&) constructor
+## XmlQualifiedName::XmlQualifiedName(const String\&) constructor
 
 
 Initializes a new instance of the [XmlQualifiedName](../) class with the specified name.
@@ -36,13 +31,7 @@ System::Xml::XmlQualifiedName::XmlQualifiedName(const String &name)
 | --- | --- | --- |
 | name | const [String](../../../system/string/)\& | The local name to use as the name of the [XmlQualifiedName](../) object. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlQualifiedName](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlQualifiedName::XmlQualifiedName(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) constructor
+## XmlQualifiedName::XmlQualifiedName(const String\&, const String\&) constructor
 
 
 Initializes a new instance of the [XmlQualifiedName](../) class with the specified name and namespace.
@@ -61,7 +50,7 @@ System::Xml::XmlQualifiedName::XmlQualifiedName(const String &name, const String
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlQualifiedName](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

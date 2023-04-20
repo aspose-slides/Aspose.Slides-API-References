@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides/baseslide/get_control/
 ---
-## BaseSlide::get_Control(**int32_t**) method
+## BaseSlide::get_Control(int32_t) method
 
 
 Returns the ActiveX control at the specified index.

@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/system.net.sockets/socket/receivefrom/
 ---
-## Socket::ReceiveFrom([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -30,16 +30,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -63,15 +54,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -95,15 +78,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveFrom(System::
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -126,16 +101,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -158,15 +124,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>\&, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -189,15 +147,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveFrom(System::
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -219,16 +169,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom(System::Details::ArrayView\<**uint8_t**\>, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -250,15 +191,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -280,16 +213,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::ReceiveFrom(System::
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::ArrayPtr\<uint8_t\>, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -310,15 +234,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::ArrayPtr<uint8_t> buff
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom(System::Details::ArrayView\<**uint8_t**\>, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::Details::ArrayView\<uint8_t\>, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -339,14 +255,7 @@ int32_t System::Net::Sockets::Socket::ReceiveFrom(System::Details::ArrayView<uin
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::ReceiveFrom(System::Details::StackArray\<**uint8_t**, N\>\&, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>\&) method
+## Socket::ReceiveFrom(System::Details::StackArray\<uint8_t, N\>\&, System::SharedPtr\<EndPoint\>\&) method
 
 
 Receives data from the specified endpoint and writes it to the specified byte array.
@@ -369,6 +278,8 @@ The number of received bytes.
 
 ## See Also
 
+* Enum [SocketFlags](../../socketflags/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [EndPoint](../../../system.net/endpoint/)
 * Class [Socket](../)

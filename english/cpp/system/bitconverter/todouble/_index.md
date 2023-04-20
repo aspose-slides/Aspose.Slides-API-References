@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system/bitconverter/todouble/
 ---
-## BitConverter::ToDouble(const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToDouble(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts eight bytes from the specified array starting at the specified index to double-precision floating point value.
@@ -27,13 +27,7 @@ static double System::BitConverter::ToDouble(const System::ArrayPtr<uint8_t> &va
 
 Double-precision floating-point value resulting from conversion
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToDouble(const System::Details::ArrayView\<**uint8_t**\>\&, int) method
+## BitConverter::ToDouble(const System::Details::ArrayView\<uint8_t\>\&, int) method
 
 
 Converts eight bytes from the specified array starting at the specified index to double-precision floating point value.
@@ -56,6 +50,7 @@ Double-precision floating-point value resulting from conversion
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

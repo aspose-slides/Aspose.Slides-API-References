@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/pictureframelock/set_editpointslocked/
 ---
-## PictureFrameLock::set_EditPointsLocked(**bool**) method
+## PictureFrameLock::set_EditPointsLocked(bool) method
 
 
 Determines whether a direct changing of contour of this shape is forbidden. Write **bool**.

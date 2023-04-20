@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.xml/xmlelement/removeattributeat/
 ---
-## XmlElement::RemoveAttributeAt(**int32_t**) method
+## XmlElement::RemoveAttributeAt(int32_t) method
 
 
 Removes the attribute node with the specified index from the element. (If the removed attribute has a default value, it is immediately replaced).

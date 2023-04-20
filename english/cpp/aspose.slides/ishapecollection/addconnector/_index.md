@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.slides/ishapecollection/addconnector/
 ---
-## IShapeCollection::AddConnector([ShapeType](../../shapetype/), **float**, **float**, **float**, **float**) method
+## IShapeCollection::AddConnector(ShapeType, float, float, float, float) method
 
 
 Creates a new [Connector](../../connector/), tunes it from default template and adds it to the end of the collection.
@@ -32,15 +32,7 @@ The zero-based index of the created shape.
 
 Created [Connector](../../connector/) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IConnector](../../iconnector/)
-* Enum [ShapeType](../../shapetype/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::AddConnector([ShapeType](../../shapetype/), **float**, **float**, **float**, **float**, **bool**) method
+## IShapeCollection::AddConnector(ShapeType, float, float, float, float, bool) method
 
 
 Creates a new [Connector](../../connector/) and adds it to the end of the collection.
@@ -69,9 +61,9 @@ Created [Connector](../../connector/) object.
 
 ## See Also
 
+* Enum [ShapeType](../../shapetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IConnector](../../iconnector/)
-* Enum [ShapeType](../../shapetype/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

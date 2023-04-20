@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system/string/contains/
 ---
-## String::Contains(const [String](../)\&) const method
+## String::Contains(const String\&) const method
 
 
 Checks if str is a substring of current string.
@@ -28,7 +28,6 @@ true if substring is present, false otherwise.
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

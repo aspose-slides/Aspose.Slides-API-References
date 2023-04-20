@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.vba/ivbamodulecollection/idx_get/
 ---
-## IVbaModuleCollection::idx_get(**int32_t**) method
+## IVbaModuleCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

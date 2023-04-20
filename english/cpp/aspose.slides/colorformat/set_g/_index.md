@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/colorformat/set_g/
 ---
-## ColorFormat::set_G(**uint8_t**) method
+## ColorFormat::set_G(uint8_t) method
 
 
 Sets the green component of a color. All color transformations are ignored.

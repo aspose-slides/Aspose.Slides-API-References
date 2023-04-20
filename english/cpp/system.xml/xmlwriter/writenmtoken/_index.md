@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.xml/xmlwriter/writenmtoken/
 ---
-## XmlWriter::WriteNmToken(const [String](../../../system/string/)\&) method
+## XmlWriter::WriteNmToken(const String\&) method
 
 
 When overridden in a derived class, writes out the specified name, ensuring it is a valid NmToken according to the W3C XML 1.0 recommendation ([https://www.w3.org/TR/1998/REC-xml-19980210#NT-Name](https://www.w3.org/TR/1998/REC-xml-19980210#NT-Name)).

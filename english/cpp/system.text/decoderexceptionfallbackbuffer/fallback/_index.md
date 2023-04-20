@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.text/decoderexceptionfallbackbuffer/fallback/
 ---
-## DecoderExceptionFallbackBuffer::Fallback([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int) method
+## DecoderExceptionFallbackBuffer::Fallback(ArrayPtr\<uint8_t\>, int) method
 
 
 Handles decoding failure.

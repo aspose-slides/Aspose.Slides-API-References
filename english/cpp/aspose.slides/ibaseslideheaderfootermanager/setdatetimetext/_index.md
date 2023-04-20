@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/ibaseslideheaderfootermanager/setdatetimetext/
 ---
-## IBaseSlideHeaderFooterManager::SetDateTimeText([System::String](../../../system/string/)) method
+## IBaseSlideHeaderFooterManager::SetDateTimeText(System::String) method
 
 
 Sets text to slide date-time placeholder.

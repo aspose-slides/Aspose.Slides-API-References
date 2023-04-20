@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides/itextframeformat/set_textverticaltype/
 ---
-## ITextFrameFormat::set_TextVerticalType([Aspose::Slides::TextVerticalType](../../textverticaltype/)) method
+## ITextFrameFormat::set_TextVerticalType(Aspose::Slides::TextVerticalType) method
 
 
 Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Write [Slides::TextVerticalType](../../textverticaltype/).

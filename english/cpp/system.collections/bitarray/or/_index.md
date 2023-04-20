@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.collections/bitarray/or/
 ---
-## BitArray::Or(const [BitArrayPtr](../../bitarrayptr/)\&) method
+## BitArray::Or(const BitArrayPtr\&) method
 
 
 Calculates bitwise 'or' between two BitSets.

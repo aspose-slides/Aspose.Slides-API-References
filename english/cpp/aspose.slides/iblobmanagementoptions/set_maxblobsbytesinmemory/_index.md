@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/iblobmanagementoptions/set_maxblobsbytesinmemory/
 ---
-## IBlobManagementOptions::set_MaxBlobsBytesInMemory(**uint64_t**) method
+## IBlobManagementOptions::set_MaxBlobsBytesInMemory(uint64_t) method
 
 
 Defines the maximum amount (in bytes) that all BLOBs in total may occupy in memory. First, all BLOBs loading into memory as default behavior and only when it reaches the limit defined by this property, other mechanisms (such as temporary files) can be involved. In terms of performance, the most efficient way is storing BLOBs in memory, but from the other side, it leads to a high memory consumption what may be undesirable. Using this property, you may set the optimal behavior for your environment or other requirements.

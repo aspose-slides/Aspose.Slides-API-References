@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net.http.headers/namevalueheadervalue/getnamevaluelistlength/
 ---
-## NameValueHeaderValue::GetNameValueListLength([String](../../../system/string/), **int32_t**, char16_t, [System::SharedPtr](../../../system/sharedptr/)\<[ObjectCollection](../../objectcollection/)\<[System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\>\>) method
+## NameValueHeaderValue::GetNameValueListLength(String, int32_t, char16_t, System::SharedPtr\<ObjectCollection\<System::SharedPtr\<NameValueHeaderValue\>\>\>) method
 
 
 Converts a passed string from the specified index to the collection of the NameValueHeaderValue-class instances and returns the length of a parsed substring.
@@ -31,10 +31,9 @@ The length of a parsed substring.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [ObjectCollection](../../objectcollection/)
-* Class [NameValueHeaderValue](../)
 * Class [NameValueHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

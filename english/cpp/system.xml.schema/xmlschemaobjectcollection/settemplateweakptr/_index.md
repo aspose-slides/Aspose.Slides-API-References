@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.xml.schema/xmlschemaobjectcollection/settemplateweakptr/
 ---
-## XmlSchemaObjectCollection::SetTemplateWeakPtr(**uint32_t**) method
+## XmlSchemaObjectCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

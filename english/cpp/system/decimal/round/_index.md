@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system/decimal/round/
 ---
-## Decimal::Round(const [Decimal](../)\&, [MidpointRounding](../../midpointrounding/)) method
+## Decimal::Round(const Decimal\&, MidpointRounding) method
 
 
 Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -27,14 +27,7 @@ static Decimal System::Decimal::Round(const Decimal &d, MidpointRounding mode=Mi
 
 **d** rounded to the nearest integral value
 
-## See Also
-
-* Class [Decimal](../)
-* Enum [MidpointRounding](../../midpointrounding/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Round(const [Decimal](../)\&, int, [MidpointRounding](../../midpointrounding/)) method
+## Decimal::Round(const Decimal\&, int, MidpointRounding) method
 
 
 Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -58,7 +51,6 @@ The number with the specified number of digits nearest to **value**
 
 ## See Also
 
-* Class [Decimal](../)
 * Enum [MidpointRounding](../../midpointrounding/)
 * Class [Decimal](../)
 * Namespace [System](../../)

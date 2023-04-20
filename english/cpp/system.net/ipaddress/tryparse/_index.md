@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.net/ipaddress/tryparse/
 ---
-## IPAddress::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../)\>\&) method
+## IPAddress::TryParse(String, System::SharedPtr\<IPAddress\>\&) method
 
 
 Tries to convert a passed string to an instance of the [IPAddress](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPAddress](../)
+* Class [String](../../../system/string/)
 * Class [IPAddress](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

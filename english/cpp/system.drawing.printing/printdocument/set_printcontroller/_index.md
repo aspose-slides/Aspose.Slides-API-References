@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.drawing.printing/printdocument/set_printcontroller/
 ---
-## PrintDocument::set_PrintController(const [SharedPtr](../../../system/sharedptr/)\<[PrintController](../../printcontroller/)\>\&) method
+## PrintDocument::set_PrintController(const SharedPtr\<PrintController\>\&) method
 
 
 NOT IMPLEMENTED.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.drawing/pointf/set_y/
 ---
-## PointF::set_Y(**float**) method
+## PointF::set_Y(float) method
 
 
 Sets the value of Y coordinate represented by the current object.

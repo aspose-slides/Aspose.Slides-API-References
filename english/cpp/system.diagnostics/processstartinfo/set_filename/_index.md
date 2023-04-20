@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.diagnostics/processstartinfo/set_filename/
 ---
-## ProcessStartInfo::set_FileName(const [String](../../../system/string/)\&) method
+## ProcessStartInfo::set_FileName(const String\&) method
 
 
 Sets process file name.

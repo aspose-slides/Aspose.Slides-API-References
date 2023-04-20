@@ -15,12 +15,7 @@ Default constructor.
 constexpr System::DateTimeOffset::DateTimeOffset()=default
 ```
 
-## See Also
-
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::DateTimeOffset([DateTime](../../datetime/)) constructor
+## DateTimeOffset::DateTimeOffset(DateTime) constructor
 
 
 Constructor.
@@ -36,13 +31,7 @@ System::DateTimeOffset::DateTimeOffset(DateTime date_time)
 | --- | --- | --- |
 | date_time | [DateTime](../../datetime/) | Date and time. |
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::DateTimeOffset(**int64_t**, [TimeSpan](../../timespan/)) constructor
+## DateTimeOffset::DateTimeOffset(int64_t, TimeSpan) constructor
 
 
 Constructor.
@@ -59,13 +48,7 @@ System::DateTimeOffset::DateTimeOffset(int64_t ticks, TimeSpan offset)
 | ticks | **int64_t** | Number of ticks. |
 | offset | [TimeSpan](../../timespan/) | Time offset from UTC. |
 
-## See Also
-
-* Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::DateTimeOffset([DateTime](../../datetime/), [TimeSpan](../../timespan/)) constructor
+## DateTimeOffset::DateTimeOffset(DateTime, TimeSpan) constructor
 
 
 Constructor.
@@ -82,14 +65,7 @@ System::DateTimeOffset::DateTimeOffset(DateTime date_time, TimeSpan offset)
 | date_time | [DateTime](../../datetime/) | Date and time. |
 | offset | [TimeSpan](../../timespan/) | Time offset from UTC. |
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, [TimeSpan](../../timespan/)) constructor
+## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, TimeSpan) constructor
 
 
 Constructor.
@@ -111,13 +87,7 @@ System::DateTimeOffset::DateTimeOffset(int year, int month, int day, int hour, i
 | second | int | Second (0 through 59). |
 | offset | [TimeSpan](../../timespan/) | Time offset from UTC. |
 
-## See Also
-
-* Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, int, [TimeSpan](../../timespan/)) constructor
+## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, int, TimeSpan) constructor
 
 
 Constructor.
@@ -140,13 +110,7 @@ System::DateTimeOffset::DateTimeOffset(int year, int month, int day, int hour, i
 | millisecond | int | Millisecond (0 through 999). |
 | offset | [TimeSpan](../../timespan/) | Time offset from UTC. |
 
-## See Also
-
-* Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, int, const [SharedPtr](../../sharedptr/)\<[Globalization::Calendar](../../../system.globalization/calendar/)\>\&, [TimeSpan](../../timespan/)) constructor
+## DateTimeOffset::DateTimeOffset(int, int, int, int, int, int, int, const SharedPtr\<Globalization::Calendar\>\&, TimeSpan) constructor
 
 
 Constructor.
@@ -173,8 +137,9 @@ System::DateTimeOffset::DateTimeOffset(int year, int month, int day, int hour, i
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Calendar](../../../system.globalization/calendar/)
-* Class [TimeSpan](../../timespan/)
 * Class [DateTimeOffset](../)
+* Class [DateTime](../../datetime/)
+* Class [TimeSpan](../../timespan/)
+* Class [Calendar](../../../system.globalization/calendar/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

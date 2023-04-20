@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/icoloroperationcollection/add/
 ---
-## IColorOperationCollection::Add([ColorTransformOperation](../../colortransformoperation/), **float**) method
+## IColorOperationCollection::Add(ColorTransformOperation, float) method
 
 
 Adds a new operation to the end of collection.
@@ -27,15 +27,7 @@ virtual System::SharedPtr<IColorOperation> Aspose::Slides::IColorOperationCollec
 
 Added operation.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IColorOperation](../../icoloroperation/)
-* Enum [ColorTransformOperation](../../colortransformoperation/)
-* Class [IColorOperationCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IColorOperationCollection::Add([ColorTransformOperation](../../colortransformoperation/)) method
+## IColorOperationCollection::Add(ColorTransformOperation) method
 
 
 Adds a new operation to the end of collection.
@@ -57,9 +49,9 @@ Added operation.
 
 ## See Also
 
+* Enum [ColorTransformOperation](../../colortransformoperation/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IColorOperation](../../icoloroperation/)
-* Enum [ColorTransformOperation](../../colortransformoperation/)
 * Class [IColorOperationCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/path/changeextension/
 ---
-## Path::ChangeExtension(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Path::ChangeExtension(const String\&, const String\&) method
 
 
 Changes the extension in the specified file path.

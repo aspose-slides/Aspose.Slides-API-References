@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/system.net.sockets/socket/set_connectiontimeout/
 ---
-## Socket::set_ConnectionTimeout(**int32_t**) method
+## Socket::set_ConnectionTimeout(int32_t) method
 
 
 Sets the connection timeout.

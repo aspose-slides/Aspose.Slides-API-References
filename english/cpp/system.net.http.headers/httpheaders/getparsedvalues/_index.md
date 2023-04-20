@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.net.http.headers/httpheaders/getparsedvalues/
 ---
-## HttpHeaders::GetParsedValues([String](../../../system/string/)) method
+## HttpHeaders::GetParsedValues(String) method
 
 
 Returns parsed values by the specified header name.

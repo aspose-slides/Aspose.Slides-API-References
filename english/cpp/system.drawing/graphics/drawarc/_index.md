@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.drawing/graphics/drawarc/
 ---
-## Graphics::DrawArc(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, **int32_t**, **int32_t**, **int32_t**, **int32_t**, **int32_t**, **int32_t**) method
+## Graphics::DrawArc(const SharedPtr\<Pen\>\&, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t) method
 
 
 Draws the specified arc using the specified pen on the surface represented by the current object.
@@ -28,14 +28,7 @@ void System::Drawing::Graphics::DrawArc(const SharedPtr<Pen> &pen, int32_t x, in
 | startAngle | **int32_t** | Angle in degrees measured clockwise from the X axis to the starting point of the arc |
 | sweepAngle | **int32_t** | Angle in degrees measured clockwise from the **startAngle** to ending point of the arc |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawArc(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, **float**, **float**, **float**, **float**, **float**, **float**) method
+## Graphics::DrawArc(const SharedPtr\<Pen\>\&, float, float, float, float, float, float) method
 
 
 Draws the specified arc using the specified pen on the surface represented by the current object.
@@ -57,14 +50,7 @@ void System::Drawing::Graphics::DrawArc(const SharedPtr<Pen> &pen, float x, floa
 | startAngle | **float** | Angle in degrees measured clockwise from the X axis to the starting point of the arc |
 | sweepAngle | **float** | Angle in degrees measured clockwise from the **startAngle** to ending point of the arc |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawArc(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, [Rectangle](../../rectangle/), **float**, **float**) method
+## Graphics::DrawArc(const SharedPtr\<Pen\>\&, Rectangle, float, float) method
 
 
 Draws the specified arc using the specified pen on the surface represented by the current object.
@@ -83,15 +69,7 @@ void System::Drawing::Graphics::DrawArc(const SharedPtr<Pen> &pen, Rectangle rec
 | startAngle | **float** | Angle in degrees measured clockwise from the X axis to the starting point of the arc |
 | sweepAngle | **float** | Angle in degrees measured clockwise from the **startAngle** to ending point of the arc |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawArc(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, [RectangleF](../../rectanglef/), **float**, **float**) method
+## Graphics::DrawArc(const SharedPtr\<Pen\>\&, RectangleF, float, float) method
 
 
 Draws the specified arc using the specified pen on the surface represented by the current object.
@@ -114,7 +92,8 @@ void System::Drawing::Graphics::DrawArc(const SharedPtr<Pen> &pen, RectangleF re
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Pen](../../pen/)
-* Class [RectangleF](../../rectanglef/)
 * Class [Graphics](../)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

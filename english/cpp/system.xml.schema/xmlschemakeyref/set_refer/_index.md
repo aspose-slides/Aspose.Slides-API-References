@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemakeyref/set_refer/
 ---
-## XmlSchemaKeyref::set_Refer(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaKeyref::set_Refer(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Sets the name of the key that this constraint refers to in another simple or complex type.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.io/unmanagedmemorystream/read/
 ---
-## UnmanagedMemoryStream::Read(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## UnmanagedMemoryStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -28,13 +28,7 @@ virtual int32_t System::IO::UnmanagedMemoryStream::Read(const ArrayPtr<uint8_t> 
 
 The number of bytes read
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [UnmanagedMemoryStream](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## UnmanagedMemoryStream::Read(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## UnmanagedMemoryStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -58,6 +52,7 @@ The number of bytes read
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [UnmanagedMemoryStream](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

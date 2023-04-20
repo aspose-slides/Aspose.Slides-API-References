@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.xsl/xslcompiledtransform/transform/
 ---
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<System::Xml::XPath::IXPathNavigable\>\&, const SharedPtr\<XmlWriter\>\&) method
 
 
 Executes the transform using the input document specified by the IXPathNavigable object and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/).
@@ -23,15 +23,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<System::X
 | input | const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)\>\& | An object implementing the IXPathNavigable interface. It can be either an [XmlNode](../../../system.xml/xmlnode/) (typically an [XmlDocument](../../../system.xml/xmldocument/)), or an XPathDocument containing the data to be transformed. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to which you want to output. If the style sheet contains an **xsl:output** element, you should create the [XmlWriter](../../../system.xml/xmlwriter/) using the [XmlWriterSettings](../../../system.xml/xmlwritersettings/) object returned from the [XslCompiledTransform::get_OutputSettings](../get_outputsettings/) value. This ensures that the [XmlWriter](../../../system.xml/xmlwriter/) has the correct output settings. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<System::Xml::XPath::IXPathNavigable\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<XmlWriter\>\&) method
 
 
 Executes the transform using the input document specified by the IXPathNavigable object and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/). The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments.
@@ -49,16 +41,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<System::X
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to which you want to output. If the style sheet contains an **xsl:output** element, you should create the [XmlWriter](../../../system.xml/xmlwriter/) using the [XmlWriterSettings](../../../system.xml/xmlwritersettings/) object returned from the [XslCompiledTransform::get_OutputSettings](../get_outputsettings/) value. This ensures that the [XmlWriter](../../../system.xml/xmlwriter/) has the correct output settings. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<System::Xml::XPath::IXPathNavigable\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<IO::TextWriter\>\&) method
 
 
 Executes the transform using the input document specified by the IXPathNavigable object and outputs the results to an TextWriter. The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments.
@@ -76,16 +59,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<System::X
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The TextWriter to which you want to output. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<System::Xml::XPath::IXPathNavigable\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<IO::Stream\>\&) method
 
 
 Executes the transform using the input document specified by the IXPathNavigable object and outputs the results to a stream. The [XsltArgumentList](../../xsltargumentlist/) provides additional runtime arguments.
@@ -103,16 +77,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<System::X
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream to which you want to output. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<XmlReader\>\&, const SharedPtr\<XmlWriter\>\&) method
 
 
 Executes the transform using the input document specified by the [XmlReader](../../../system.xml/xmlreader/) object and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/).
@@ -129,15 +94,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<XmlReader
 | input | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | The [XmlReader](../../../system.xml/xmlreader/) containing the input document. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to which you want to output. If the style sheet contains an **xsl:output** element, you should create the [XmlWriter](../../../system.xml/xmlwriter/) using the [XmlWriterSettings](../../../system.xml/xmlwritersettings/) object returned from the [XslCompiledTransform::get_OutputSettings](../get_outputsettings/) value. This ensures that the [XmlWriter](../../../system.xml/xmlwriter/) has the correct output settings. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<XmlReader\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<XmlWriter\>\&) method
 
 
 Executes the transform using the input document specified by the [XmlReader](../../../system.xml/xmlreader/) object and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/). The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments.
@@ -155,16 +112,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<XmlReader
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to which you want to output. If the style sheet contains an **xsl:output** element, you should create the [XmlWriter](../../../system.xml/xmlwriter/) using the [XmlWriterSettings](../../../system.xml/xmlwritersettings/) object returned from the [XslCompiledTransform::get_OutputSettings](../get_outputsettings/) value. This ensures that the [XmlWriter](../../../system.xml/xmlwriter/) has the correct output settings. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<XmlReader\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<IO::TextWriter\>\&) method
 
 
 Executes the transform using the input document specified by the [XmlReader](../../../system.xml/xmlreader/) object and outputs the results to a TextWriter. The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments.
@@ -182,16 +130,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<XmlReader
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The TextWriter to which you want to output. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<XmlReader\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<IO::Stream\>\&) method
 
 
 Executes the transform using the input document specified by the [XmlReader](../../../system.xml/xmlreader/) object and outputs the results to a stream. The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments.
@@ -209,16 +148,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<XmlReader
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream to which you want to output. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&) method
+## XslCompiledTransform::Transform(const String\&, const SharedPtr\<XmlWriter\>\&) method
 
 
 Executes the transform using the input document specified by the URI and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/).
@@ -235,15 +165,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const String &inputUri, c
 | inputUri | const [String](../../../system/string/)\& | The URI of the input document. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to which you want to output. If the style sheet contains an **xsl:output** element, you should create the [XmlWriter](../../../system.xml/xmlwriter/) using the [XmlWriterSettings](../../../system.xml/xmlwritersettings/) object returned from the [XslCompiledTransform::get_OutputSettings](../get_outputsettings/) value. This ensures that the [XmlWriter](../../../system.xml/xmlwriter/) has the correct output settings. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&) method
+## XslCompiledTransform::Transform(const String\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<XmlWriter\>\&) method
 
 
 Executes the transform using the input document specified by the URI and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/). The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments.
@@ -261,16 +183,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const String &inputUri, c
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to which you want to output. If the style sheet contains an **xsl:output** element, you should create the [XmlWriter](../../../system.xml/xmlwriter/) using the [XmlWriterSettings](../../../system.xml/xmlwritersettings/) object returned from the [XslCompiledTransform::get_OutputSettings](../get_outputsettings/) value. This ensures that the [XmlWriter](../../../system.xml/xmlwriter/) has the correct output settings. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## XslCompiledTransform::Transform(const String\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<IO::TextWriter\>\&) method
 
 
 Executes the transform using the input document specified by the URI and outputs the results to a TextWriter.
@@ -288,16 +201,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const String &inputUri, c
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\& | The TextWriter to which you want to output. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) method
+## XslCompiledTransform::Transform(const String\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<IO::Stream\>\&) method
 
 
 Executes the transform using the input document specified by the URI and outputs the results to stream. The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments.
@@ -315,16 +219,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const String &inputUri, c
 | arguments | const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\& | An [XsltArgumentList](../../xsltargumentlist/) containing the namespace-qualified arguments used as input to the transform. This value can be **nullptr**. |
 | results | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream to which you want to output. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XslCompiledTransform::Transform(const String\&, const String\&) method
 
 
 Executes the transform using the input document specified by the URI and outputs the results to a file.
@@ -341,13 +236,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const String &inputUri, c
 | inputUri | const [String](../../../system/string/)\& | The URI of the input document. |
 | resultsFile | const [String](../../../system/string/)\& | The URI of the output file. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<XmlReader\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<XmlWriter\>\&, const SharedPtr\<XmlResolver\>\&) method
 
 
 Executes the transform using the input document specified by the [XmlReader](../../../system.xml/xmlreader/) object and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/). The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments and the [XmlResolver](../../../system.xml/xmlresolver/) resolves the XSLT **document()** function.
@@ -366,17 +255,7 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<XmlReader
 | results | const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\& | The [XmlWriter](../../../system.xml/xmlwriter/) to which you want to output. If the style sheet contains an **xsl:output** element, you should create the [XmlWriter](../../../system.xml/xmlwriter/) using the [XmlWriterSettings](../../../system.xml/xmlwritersettings/) object returned from the [XslCompiledTransform::get_OutputSettings](../get_outputsettings/) value. This ensures that the [XmlWriter](../../../system.xml/xmlwriter/) has the correct output settings. |
 | documentResolver | const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\& | The [XmlResolver](../../../system.xml/xmlresolver/) used to resolve the XSLT **document()** function. If this is **nullptr**, the **document()** function is not resolved. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
-* Class [XslCompiledTransform](../)
-* Namespace [System::Xml::Xsl](../../)
-* Library [Aspose.Slides](../../../)
-## XslCompiledTransform::Transform(const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XsltArgumentList](../../xsltargumentlist/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlResolver](../../../system.xml/xmlresolver/)\>\&) method
+## XslCompiledTransform::Transform(const SharedPtr\<System::Xml::XPath::IXPathNavigable\>\&, const SharedPtr\<XsltArgumentList\>\&, const SharedPtr\<XmlWriter\>\&, const SharedPtr\<XmlResolver\>\&) method
 
 
 Executes the transform by using the input document that is specified by the IXPathNavigable object and outputs the results to an [XmlWriter](../../../system.xml/xmlwriter/). The [XsltArgumentList](../../xsltargumentlist/) provides additional run-time arguments and the [XmlResolver](../../../system.xml/xmlresolver/) resolves the XSLT **document()** function.
@@ -399,9 +278,13 @@ void System::Xml::Xsl::XslCompiledTransform::Transform(const SharedPtr<System::X
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IXPathNavigable](../../../system.xml.xpath/ixpathnavigable/)
-* Class [XsltArgumentList](../../xsltargumentlist/)
 * Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
 * Class [XslCompiledTransform](../)
+* Class [XsltArgumentList](../../xsltargumentlist/)
+* Class [TextWriter](../../../system.io/textwriter/)
+* Class [Stream](../../../system.io/stream/)
+* Class [XmlReader](../../../system.xml/xmlreader/)
+* Class [String](../../../system/string/)
+* Class [XmlResolver](../../../system.xml/xmlresolver/)
 * Namespace [System::Xml::Xsl](../../)
 * Library [Aspose.Slides](../../../)

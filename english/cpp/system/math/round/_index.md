@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system/math/round/
 ---
-## Math::Round(**double**) method
+## Math::Round(double) method
 
 
 Rounds the specified value to the nearest integral value.
@@ -26,12 +26,7 @@ static double System::Math::Round(double a)
 
 **a** rounded to the nearest integral value
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Round(**double**, int) method
+## Math::Round(double, int) method
 
 
 Rounds the specified value to the nearest value with the specified number of fractional digits.
@@ -52,12 +47,7 @@ static double System::Math::Round(double value, int digits)
 
 The number with the specified number of digits nearest to **value**
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Round(**double**, [MidpointRounding](../../midpointrounding/)) method
+## Math::Round(double, MidpointRounding) method
 
 
 Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -78,13 +68,7 @@ static double System::Math::Round(double value, MidpointRounding mode)
 
 **value** rounded to the nearest integral value
 
-## See Also
-
-* Enum [MidpointRounding](../../midpointrounding/)
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Round(**double**, int, [MidpointRounding](../../midpointrounding/)) method
+## Math::Round(double, int, MidpointRounding) method
 
 
 Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -106,13 +90,7 @@ static double System::Math::Round(double value, int digits, MidpointRounding mod
 
 The number with the specified number of digits nearest to **value**
 
-## See Also
-
-* Enum [MidpointRounding](../../midpointrounding/)
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Round(const [Decimal](../../decimal/)\&) method
+## Math::Round(const Decimal\&) method
 
 
 Rounds the specified value to the nearest integral value.
@@ -132,13 +110,7 @@ static Decimal System::Math::Round(const Decimal &d)
 
 **d** rounded to the nearest integral value
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Round(const [Decimal](../../decimal/)\&, int) method
+## Math::Round(const Decimal\&, int) method
 
 
 Rounds the specified value to the nearest value with the specified number of fractional digits.
@@ -159,13 +131,7 @@ static Decimal System::Math::Round(const Decimal &value, int digits)
 
 The number with the specified number of digits nearest to **value**
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Round(const [Decimal](../../decimal/)\&, [MidpointRounding](../../midpointrounding/)) method
+## Math::Round(const Decimal\&, MidpointRounding) method
 
 
 Rounds the specified value to the nearest integral number. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -186,14 +152,7 @@ static Decimal System::Math::Round(const Decimal &d, MidpointRounding mode)
 
 **d** rounded to the nearest integral value
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Enum [MidpointRounding](../../midpointrounding/)
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Round(const [Decimal](../../decimal/)\&, int, [MidpointRounding](../../midpointrounding/)) method
+## Math::Round(const Decimal\&, int, MidpointRounding) method
 
 
 Rounds the specified value to the nearest value with the specified number of fractional digits. A parameter specifies the function's behavior if the specified value is equally close to two nearest numbers.
@@ -217,8 +176,8 @@ The number with the specified number of digits nearest to **value**
 
 ## See Also
 
-* Class [Decimal](../../decimal/)
 * Enum [MidpointRounding](../../midpointrounding/)
+* Class [Decimal](../../decimal/)
 * Struct [Math](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

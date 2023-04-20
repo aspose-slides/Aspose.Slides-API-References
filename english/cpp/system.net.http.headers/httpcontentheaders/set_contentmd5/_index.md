@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net.http.headers/httpcontentheaders/set_contentmd5/
 ---
-## HttpContentHeaders::set_ContentMD5([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## HttpContentHeaders::set_ContentMD5(System::ArrayPtr\<uint8_t\>) method
 
 
 Sets a value of the 'Content-MD5' header.

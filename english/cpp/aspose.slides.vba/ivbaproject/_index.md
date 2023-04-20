@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.vba/ivbaproject/
 Represents VBA project with presentation macros.
 
 ```cpp
-class IVbaProject : public System::Object
+class IVbaProject : public virtual System::Object
 ```
 
 ## Methods

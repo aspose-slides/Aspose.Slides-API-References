@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/sortkey/sortkey/
 ---
-## SortKey::SortKey(const [SortKey](../)\&) constructor
+## SortKey::SortKey(const SortKey\&) constructor
 
 
 
@@ -17,7 +17,6 @@ System::Globalization::SortKey::SortKey(const SortKey &)=delete
 
 ## See Also
 
-* Class [SortKey](../)
 * Class [SortKey](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

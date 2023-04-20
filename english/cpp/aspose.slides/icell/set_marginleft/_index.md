@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/icell/set_marginleft/
 ---
-## ICell::set_MarginLeft(**double**) method
+## ICell::set_MarginLeft(double) method
 
 
 Sets the left margin in a [TextFrame](../../textframe/). Write **double**.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml/xmlparsercontext/set_doctypename/
 ---
-## XmlParserContext::set_DocTypeName(const [String](../../../system/string/)\&) method
+## XmlParserContext::set_DocTypeName(const String\&) method
 
 
 Sets the name of the document type declaration.

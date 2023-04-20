@@ -15,12 +15,7 @@ Constructor.
 System::Reflection::AssemblyName::AssemblyName()
 ```
 
-## See Also
-
-* Class [AssemblyName](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## AssemblyName::AssemblyName(const [String](../../../system/string/)\&) constructor
+## AssemblyName::AssemblyName(const String\&) constructor
 
 
 Constructor.
@@ -36,13 +31,7 @@ System::Reflection::AssemblyName::AssemblyName(const String &name)
 | --- | --- | --- |
 | name | const [String](../../../system/string/)\& | [Assembly](../../assembly/) name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [AssemblyName](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## AssemblyName::AssemblyName(const [String](../../../system/string/)\&, const [Version](../../../system/version/)\&) constructor
+## AssemblyName::AssemblyName(const String\&, const Version\&) constructor
 
 
 Constructor.
@@ -61,8 +50,8 @@ System::Reflection::AssemblyName::AssemblyName(const String &name, const Version
 
 ## See Also
 
+* Class [AssemblyName](../)
 * Class [String](../../../system/string/)
 * Class [Version](../../../system/version/)
-* Class [AssemblyName](../)
 * Namespace [System::Reflection](../../)
 * Library [Aspose.Slides](../../../)

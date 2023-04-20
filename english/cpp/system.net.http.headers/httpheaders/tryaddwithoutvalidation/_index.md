@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http.headers/httpheaders/tryaddwithoutvalidation/
 ---
-## HttpHeaders::TryAddWithoutValidation([String](../../../system/string/), [String](../../../system/string/)) method
+## HttpHeaders::TryAddWithoutValidation(String, String) method
 
 
 Tries to add a new name-value pair to the current collection.
@@ -23,13 +23,7 @@ bool System::Net::Http::Headers::HttpHeaders::TryAddWithoutValidation(String nam
 | name | [String](../../../system/string/) | The header name. |
 | value | [String](../../../system/string/) | The header value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HttpHeaders](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## HttpHeaders::TryAddWithoutValidation([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[String](../../../system/string/)\>\>) method
+## HttpHeaders::TryAddWithoutValidation(String, System::SharedPtr\<Collections::Generic::IEnumerable\<String\>\>) method
 
 
 Adds a collection of name-value pairs to the current collection.
@@ -48,9 +42,9 @@ bool System::Net::Http::Headers::HttpHeaders::TryAddWithoutValidation(String nam
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
+* Class [String](../../../system/string/)
 * Class [HttpHeaders](../)
+* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

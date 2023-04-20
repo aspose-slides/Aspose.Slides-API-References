@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/ipresentationanimationplayer/settimeposition/
 ---
-## IPresentationAnimationPlayer::SetTimePosition(**double**) method
+## IPresentationAnimationPlayer::SetTimePosition(double) method
 
 
 Set the animation time position within the [IPresentationAnimationPlayer::get_Duration](../get_duration/).

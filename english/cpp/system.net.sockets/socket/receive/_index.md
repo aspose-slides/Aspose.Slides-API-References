@@ -6,7 +6,7 @@ type: docs
 weight: 664
 url: /cpp/system.net.sockets/socket/receive/
 ---
-## Socket::Receive([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::ArrayPtr\<uint8_t\>, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -28,14 +28,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::ArrayPtr<uint8_t> buffer, 
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::Details::ArrayView\<uint8_t\>, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -57,13 +50,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -85,13 +72,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::ArrayPtr\<uint8_t\>, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -112,14 +93,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::ArrayPtr<uint8_t> buffer, 
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::ArrayView\<**uint8_t**\>, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::Details::ArrayView\<uint8_t\>, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -140,13 +114,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::StackArray\<**uint8_t**, N\>\&, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -167,13 +135,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Socket::Receive(System::ArrayPtr\<uint8_t\>) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -193,13 +155,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::ArrayPtr<uint8_t> buffer)
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::ArrayView\<**uint8_t**\>) method
+## Socket::Receive(System::Details::ArrayView\<uint8_t\>) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -219,12 +175,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## See Also
-
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::StackArray\<**uint8_t**, N\>\&) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -244,12 +195,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 The number of received bytes.
 
-## See Also
-
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -272,14 +218,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::ArrayPtr<uint8_t> buffer, 
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -302,13 +241,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -331,13 +264,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Receive(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError\&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -361,15 +288,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::ArrayPtr<uint8_t> buffer, 
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Enum [SocketError](../../socketerror/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Receive(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, SocketError\&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -393,14 +312,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::Details::ArrayView<uint8_t
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Enum [SocketError](../../socketerror/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Receive(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags, SocketError\&) method
 
 
 Receives data from the socket and writes it to the specified byte array.
@@ -424,14 +336,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::Receive(System::Deta
 
 The number of received bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Enum [SocketError](../../socketerror/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IList](../../../system.collections.generic/ilist/)\<[ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\>\>) method
+## Socket::Receive(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>) method
 
 
 Receives data from the socket and writes it to the specified byte arrays.
@@ -451,15 +356,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::SharedPtr<Collections::Gen
 
 The number of bytes that are received.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections.generic/ilist/)
-* Class [ArraySegment](../../../system/arraysegment/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IList](../../../system.collections.generic/ilist/)\<[ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\>\>, [SocketFlags](../../socketflags/)) method
+## Socket::Receive(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>, SocketFlags) method
 
 
 Receives data from the socket and writes it to the specified byte arrays.
@@ -480,16 +377,7 @@ int32_t System::Net::Sockets::Socket::Receive(System::SharedPtr<Collections::Gen
 
 The number of received bytes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections.generic/ilist/)
-* Class [ArraySegment](../../../system/arraysegment/)
-* Enum [SocketFlags](../../socketflags/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::Receive([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IList](../../../system.collections.generic/ilist/)\<[ArraySegment](../../../system/arraysegment/)\<**uint8_t**\>\>\>, [SocketFlags](../../socketflags/), [SocketError](../../socketerror/)\&) method
+## Socket::Receive(System::SharedPtr\<Collections::Generic::IList\<ArraySegment\<uint8_t\>\>\>, SocketFlags, SocketError\&) method
 
 
 Receives data from the socket and writes it to the specified byte arrays.
@@ -513,11 +401,12 @@ The number of received bytes.
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections.generic/ilist/)
-* Class [ArraySegment](../../../system/arraysegment/)
 * Enum [SocketFlags](../../socketflags/)
 * Enum [SocketError](../../socketerror/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Socket](../)
+* Class [IList](../../../system.collections.generic/ilist/)
+* Class [ArraySegment](../../../system/arraysegment/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

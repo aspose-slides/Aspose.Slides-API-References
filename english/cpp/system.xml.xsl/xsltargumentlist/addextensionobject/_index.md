@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.xsl/xsltargumentlist/addextensionobject/
 ---
-## XsltArgumentList::AddExtensionObject(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## XsltArgumentList::AddExtensionObject(const String\&, const SharedPtr\<Object\>\&) method
 
 
 Adds a new object to the [XsltArgumentList](../) and associates it with the namespace URI.
@@ -25,8 +25,8 @@ void System::Xml::Xsl::XsltArgumentList::AddExtensionObject(const String &namesp
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [XsltArgumentList](../)
 * Namespace [System::Xml::Xsl](../../)

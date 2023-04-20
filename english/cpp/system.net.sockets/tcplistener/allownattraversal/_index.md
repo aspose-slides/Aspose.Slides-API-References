@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.sockets/tcplistener/allownattraversal/
 ---
-## TcpListener::AllowNatTraversal(**bool**) method
+## TcpListener::AllowNatTraversal(bool) method
 
 
 Enables or disables the NAT traversal.

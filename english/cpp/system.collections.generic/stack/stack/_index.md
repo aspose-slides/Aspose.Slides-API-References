@@ -15,11 +15,6 @@ Constructs empty stack.
 System::Collections::Generic::Stack<T>::Stack()
 ```
 
-## See Also
-
-* Class [Stack](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## Stack::Stack(int) constructor
 
 
@@ -36,12 +31,7 @@ System::Collections::Generic::Stack<T>::Stack(int capacity)
 | --- | --- | --- |
 | capacity | int | Number of elements to reserve; ignored. |
 
-## See Also
-
-* Class [Stack](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## Stack::Stack([IEnumerablePtr](../ienumerableptr/)) constructor
+## Stack::Stack(IEnumerablePtr) constructor
 
 
 Copy constructor.

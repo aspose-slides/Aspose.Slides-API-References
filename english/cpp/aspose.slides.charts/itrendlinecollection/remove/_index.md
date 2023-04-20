@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/itrendlinecollection/remove/
 ---
-## ITrendlineCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[ITrendline](../../itrendline/)\>) method
+## ITrendlineCollection::Remove(System::SharedPtr\<ITrendline\>) method
 
 
 Removes the specified value.

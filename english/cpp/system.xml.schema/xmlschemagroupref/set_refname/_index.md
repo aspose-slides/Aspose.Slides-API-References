@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemagroupref/set_refname/
 ---
-## XmlSchemaGroupRef::set_RefName(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaGroupRef::set_RefName(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Sets the name of a group defined in this schema (or another schema indicated by the specified namespace).

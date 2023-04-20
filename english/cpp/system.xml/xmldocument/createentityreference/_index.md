@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.xml/xmldocument/createentityreference/
 ---
-## XmlDocument::CreateEntityReference(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateEntityReference(const String\&) method
 
 
 Creates an [XmlEntityReference](../../xmlentityreference/) with the specified name.

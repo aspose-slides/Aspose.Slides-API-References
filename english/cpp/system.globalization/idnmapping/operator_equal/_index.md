@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/idnmapping/operator_equal/
 ---
-## IdnMapping::operator=(const [IdnMapping](../)\&) method
+## IdnMapping::operator=(const IdnMapping\&) method
 
 
 
@@ -17,7 +17,6 @@ IdnMapping & System::Globalization::IdnMapping::operator=(const IdnMapping &)=de
 
 ## See Also
 
-* Class [IdnMapping](../)
 * Class [IdnMapping](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

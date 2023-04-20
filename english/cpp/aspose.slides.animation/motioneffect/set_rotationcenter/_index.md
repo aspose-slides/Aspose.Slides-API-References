@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.animation/motioneffect/set_rotationcenter/
 ---
-## MotionEffect::set_RotationCenter([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## MotionEffect::set_RotationCenter(System::Drawing::PointF) method
 
 
 Describes the center of the rotation used to rotate a motion path by X angle. Write [System::Drawing::PointF](../../../system.drawing/pointf/).

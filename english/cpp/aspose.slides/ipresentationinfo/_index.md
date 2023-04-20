@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ipresentationinfo/
 Information about presentation file
 
 ```cpp
-class IPresentationInfo : public System::Object
+class IPresentationInfo : public virtual System::Object
 ```
 
 ## Methods

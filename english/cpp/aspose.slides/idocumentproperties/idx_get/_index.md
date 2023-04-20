@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/aspose.slides/idocumentproperties/idx_get/
 ---
-## IDocumentProperties::idx_get([System::String](../../../system/string/)) method
+## IDocumentProperties::idx_get(System::String) method
 
 
 Returns the custom property associated with a specified name. Read [System::Object](../../../system/object/).

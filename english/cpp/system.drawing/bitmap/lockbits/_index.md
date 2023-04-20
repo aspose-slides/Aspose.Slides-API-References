@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing/bitmap/lockbits/
 ---
-## Bitmap::LockBits(const [Rectangle](../../rectangle/)\&, [Imaging::ImageLockMode](../../../system.drawing.imaging/imagelockmode/), [Imaging::PixelFormat](../../../system.drawing.imaging/pixelformat/)) method
+## Bitmap::LockBits(const Rectangle\&, Imaging::ImageLockMode, Imaging::PixelFormat) method
 
 
 Locks a [Bitmap](../) into system memory.
@@ -28,16 +28,7 @@ Imaging::BitmapDataPtr System::Drawing::Bitmap::LockBits(const Rectangle &rect, 
 
 A shared pointer to a BitmapData object that contains information about the performed lock operation
 
-## See Also
-
-* Typedef [BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)
-* Class [Rectangle](../../rectangle/)
-* Enum [ImageLockMode](../../../system.drawing.imaging/imagelockmode/)
-* Enum [PixelFormat](../../../system.drawing.imaging/pixelformat/)
-* Class [Bitmap](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Bitmap::LockBits(const [Rectangle](../../rectangle/)\&, [Imaging::ImageLockMode](../../../system.drawing.imaging/imagelockmode/), [Imaging::PixelFormat](../../../system.drawing.imaging/pixelformat/), const [Imaging::BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)\&) method
+## Bitmap::LockBits(const Rectangle\&, Imaging::ImageLockMode, Imaging::PixelFormat, const Imaging::BitmapDataPtr\&) method
 
 
 Locks a [Bitmap](../) into system memory.
@@ -62,10 +53,10 @@ A shared pointer to a BitmapData object that contains information about the perf
 
 ## See Also
 
-* Typedef [BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)
-* Class [Rectangle](../../rectangle/)
 * Enum [ImageLockMode](../../../system.drawing.imaging/imagelockmode/)
 * Enum [PixelFormat](../../../system.drawing.imaging/pixelformat/)
+* Typedef [BitmapDataPtr](../../../system.drawing.imaging/bitmapdataptr/)
+* Class [Rectangle](../../rectangle/)
 * Class [Bitmap](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net/cookiecontainer/cookiecutter/
 ---
-## CookieContainer::CookieCutter([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/), [String](../../../system/string/), **bool**) method
+## CookieContainer::CookieCutter(System::SharedPtr\<Uri\>, String, String, bool) method
 
 
 Copies cookies from the specified HTTP header for the specified URI.

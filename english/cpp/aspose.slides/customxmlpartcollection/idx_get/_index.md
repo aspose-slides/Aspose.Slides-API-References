@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/customxmlpartcollection/idx_get/
 ---
-## CustomXmlPartCollection::idx_get(**int32_t**) method
+## CustomXmlPartCollection::idx_get(int32_t) method
 
 
 Returns the element at the specified index.

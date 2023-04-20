@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.http.headers/namevalueheadervalue/equals/
 ---
-## NameValueHeaderValue::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## NameValueHeaderValue::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

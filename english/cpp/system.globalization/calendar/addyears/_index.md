@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.globalization/calendar/addyears/
 ---
-## Calendar::AddYears([DateTime](../../../system/datetime/), int) const method
+## Calendar::AddYears(DateTime, int) const method
 
 
 Adds years to time point.

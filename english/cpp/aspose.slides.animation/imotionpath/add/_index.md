@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/imotionpath/add/
 ---
-## IMotionPath::Add([MotionCommandPathType](../../motioncommandpathtype/), [System::ArrayPtr](../../../system/arrayptr/)\<[System::Drawing::PointF](../../../system.drawing/pointf/)\>, [MotionPathPointsType](../../motionpathpointstype/), **bool**) method
+## IMotionPath::Add(MotionCommandPathType, System::ArrayPtr\<System::Drawing::PointF\>, MotionPathPointsType, bool) method
 
 
 Add new command to path
@@ -31,12 +31,12 @@ Command of a path [IMotionCmdPath](../../imotioncmdpath/)
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMotionCmdPath](../../imotioncmdpath/)
 * Enum [MotionCommandPathType](../../motioncommandpathtype/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../../system.drawing/pointf/)
 * Enum [MotionPathPointsType](../../motionpathpointstype/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [IMotionCmdPath](../../imotioncmdpath/)
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [IMotionPath](../)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

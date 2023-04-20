@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/icontrol/set_property/
 ---
-## IControl::set_Property([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## IControl::set_Property(System::String, System::String) method
 
 
 Set an ActiveX property at the specified index.

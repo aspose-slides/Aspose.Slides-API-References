@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system/uri/equals/
 ---
-## Uri::Equals([SharedPtr](../../sharedptr/)\<[Object](../../object/)\>) method
+## Uri::Equals(SharedPtr\<Object\>) method
 
 
 Determines if the URIs represented by the current and specified objects are equal.

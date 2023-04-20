@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections.generic/iset/issubsetof/
 ---
-## ISet::IsSubsetOf([IEnumerablePtr](../ienumerableptr/)) method
+## ISet::IsSubsetOf(IEnumerablePtr) method
 
 
 Checks if current set is a subset of other container.

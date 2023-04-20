@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.mathtext/mathblock/copyto/
 ---
-## MathBlock::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>\>, **int32_t**) method
+## MathBlock::CopyTo(System::ArrayPtr\<System::SharedPtr\<IMathElement\>\>, int32_t) method
 
 
 Copy to specified array.

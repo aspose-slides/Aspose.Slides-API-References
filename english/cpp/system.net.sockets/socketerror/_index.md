@@ -3,7 +3,7 @@ title: SocketError
 second_title: Aspose.Slides for C++ API Reference
 description: Enumerates the socket error types.
 type: docs
-weight: 209
+weight: 183
 url: /cpp/system.net.sockets/socketerror/
 ---
 ## SocketError enum

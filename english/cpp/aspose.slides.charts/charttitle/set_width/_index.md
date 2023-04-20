@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/charttitle/set_width/
 ---
-## ChartTitle::set_Width(**float**) method
+## ChartTitle::set_Width(float) method
 
 
 Sets the width of a title as a fraction of the width of the chart. Write **float**.

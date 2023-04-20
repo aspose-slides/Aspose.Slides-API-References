@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.reflection/assembly/getmanifestresourcestream/
 ---
-## Assembly::GetManifestResourceStream([String](../../../system/string/)) const method
+## Assembly::GetManifestResourceStream(String) const method
 
 
 Gets stream connected to manifest resource.

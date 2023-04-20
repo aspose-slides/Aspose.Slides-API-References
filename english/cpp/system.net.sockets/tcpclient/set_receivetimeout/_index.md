@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net.sockets/tcpclient/set_receivetimeout/
 ---
-## TcpClient::set_ReceiveTimeout(**int32_t**) method
+## TcpClient::set_ReceiveTimeout(int32_t) method
 
 
 Sets a value that indicates an amount of time after which data receiving will time out.

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system/timespan/add/
 ---
-## TimeSpan::Add([TimeSpan](../)) const method
+## TimeSpan::Add(TimeSpan) const method
 
 
 Returns a new instance of [TimeSpan](../) class that represents a time interval which is the sum of the time intervals represented by the current and the specified objects.
@@ -28,7 +28,6 @@ A new instance of [TimeSpan](../) class that represents a time interval which is
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

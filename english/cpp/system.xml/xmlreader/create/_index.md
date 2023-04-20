@@ -6,7 +6,7 @@ type: docs
 weight: 1015
 url: /cpp/system.xml/xmlreader/create/
 ---
-## XmlReader::Create(const [String](../../../system/string/)\&) method
+## XmlReader::Create(const String\&) method
 
 
 Creates a new [XmlReader](../) instance with specified URI.
@@ -26,15 +26,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const String &inputUr
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>\&) method
+## XmlReader::Create(const String\&, const SharedPtr\<XmlReaderSettings\>\&) method
 
 
 Creates a new [XmlReader](../) instance by using the specified URI and settings.
@@ -55,16 +47,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const String &inputUr
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [String](../../../system/string/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [String](../../../system/string/)\&, [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>, const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\&) method
+## XmlReader::Create(const String\&, SharedPtr\<XmlReaderSettings\>, const SharedPtr\<XmlParserContext\>\&) method
 
 
 Creates a new [XmlReader](../) instance by using the specified URI, settings, and context information for parsing.
@@ -86,17 +69,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const String &inputUr
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [String](../../../system/string/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [XmlParserContext](../../xmlparsercontext/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) method
+## XmlReader::Create(const SharedPtr\<IO::Stream\>\&) method
 
 
 Creates a new [XmlReader](../) instance using the specified stream with default settings.
@@ -116,15 +89,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::S
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>\&) method
+## XmlReader::Create(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<XmlReaderSettings\>\&) method
 
 
 Creates a new [XmlReader](../) instance with the specified stream and settings.
@@ -145,16 +110,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::S
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>, const [String](../../../system/string/)\&) method
+## XmlReader::Create(const SharedPtr\<IO::Stream\>\&, SharedPtr\<XmlReaderSettings\>, const String\&) method
 
 
 Creates a new [XmlReader](../) instance using the specified stream, base URI, and settings.
@@ -176,17 +132,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::S
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>, const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\&) method
+## XmlReader::Create(const SharedPtr\<IO::Stream\>\&, SharedPtr\<XmlReaderSettings\>, const SharedPtr\<XmlParserContext\>\&) method
 
 
 Creates a new [XmlReader](../) instance using the specified stream, settings, and context information for parsing.
@@ -208,17 +154,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::S
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [XmlParserContext](../../xmlparsercontext/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&) method
+## XmlReader::Create(const SharedPtr\<IO::TextReader\>\&) method
 
 
 Creates a new [XmlReader](../) instance by using the specified text reader.
@@ -238,15 +174,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::T
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>\&) method
+## XmlReader::Create(const SharedPtr\<IO::TextReader\>\&, const SharedPtr\<XmlReaderSettings\>\&) method
 
 
 Creates a new [XmlReader](../) instance by using the specified text reader and settings.
@@ -267,16 +195,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::T
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>, const [String](../../../system/string/)\&) method
+## XmlReader::Create(const SharedPtr\<IO::TextReader\>\&, SharedPtr\<XmlReaderSettings\>, const String\&) method
 
 
 Creates a new [XmlReader](../) instance by using the specified text reader, settings, and base URI.
@@ -298,17 +217,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::T
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>, const [SharedPtr](../../../system/sharedptr/)\<[XmlParserContext](../../xmlparsercontext/)\>\&) method
+## XmlReader::Create(const SharedPtr\<IO::TextReader\>\&, SharedPtr\<XmlReaderSettings\>, const SharedPtr\<XmlParserContext\>\&) method
 
 
 Creates a new [XmlReader](../) instance by using the specified text reader, settings, and context information for parsing.
@@ -330,17 +239,7 @@ static SharedPtr<XmlReader> System::Xml::XmlReader::Create(const SharedPtr<IO::T
 
 An object that is used to read the XML data in the stream.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [XmlParserContext](../../xmlparsercontext/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::Create(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlReaderSettings](../../xmlreadersettings/)\>) method
+## XmlReader::Create(const SharedPtr\<XmlReader\>\&, SharedPtr\<XmlReaderSettings\>) method
 
 
 Creates a new [XmlReader](../) instance by using the specified XML reader and settings.
@@ -365,7 +264,10 @@ An object that is wrapped around the specified [XmlReader](../) object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Class [XmlReaderSettings](../../xmlreadersettings/)
-* Class [XmlReader](../)
+* Class [XmlParserContext](../../xmlparsercontext/)
+* Class [Stream](../../../system.io/stream/)
+* Class [TextReader](../../../system.io/textreader/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

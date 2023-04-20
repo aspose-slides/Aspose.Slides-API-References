@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/details_directorynotfoundexception/is/
 ---
-## Details_DirectoryNotFoundException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_DirectoryNotFoundException::Is(const System::TypeInfo\&) const method
 
 
 

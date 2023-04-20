@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/xmltextwriter/set_namespaces/
 ---
-## XmlTextWriter::set_Namespaces(**bool**) method
+## XmlTextWriter::set_Namespaces(bool) method
 
 
 Sets a value indicating whether to do namespace support.

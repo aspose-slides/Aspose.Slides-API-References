@@ -6,7 +6,7 @@ type: docs
 weight: 885
 url: /cpp/system/datetime/tryparse/
 ---
-## DateTime::TryParse(const [String](../../string/)\&, [DateTime](../)\&) method
+## DateTime::TryParse(const String\&, DateTime\&) method
 
 
 Converts the specified string representation of a date and time value to the equivalent [DateTime](../) object.
@@ -27,14 +27,7 @@ static bool System::DateTime::TryParse(const String &s, DateTime &result)
 
 True if conversion succeeds, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::TryParse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/), [DateTime](../)\&) method
+## DateTime::TryParse(const String\&, const SharedPtr\<IFormatProvider\>\&, Globalization::DateTimeStyles, DateTime\&) method
 
 
 Converts the specified string representation of a date and time value to the equivalent [DateTime](../) object using the specified culture-specific format information and style.
@@ -57,17 +50,7 @@ static bool System::DateTime::TryParse(const String &s, const SharedPtr<IFormatP
 
 True if conversion succeeds, otherwise - false.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::TryParse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/), [DateTime](../)\&) method
+## DateTime::TryParse(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&, Globalization::DateTimeStyles, DateTime\&) method
 
 
 
@@ -76,17 +59,7 @@ True if conversion succeeds, otherwise - false.
 static bool System::DateTime::TryParse(const String &s, const SharedPtr<Globalization::CultureInfo> &culture, Globalization::DateTimeStyles styles, DateTime &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::TryParse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/), [DateTime](../)\&) method
+## DateTime::TryParse(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&, Globalization::DateTimeStyles, DateTime\&) method
 
 
 
@@ -95,17 +68,7 @@ static bool System::DateTime::TryParse(const String &s, const SharedPtr<Globaliz
 static bool System::DateTime::TryParse(const String &s, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi, Globalization::DateTimeStyles styles, DateTime &result)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::TryParse(const [String](../../string/)\&, std::nullptr_t, [Globalization::DateTimeStyles](../../../system.globalization/datetimestyles/), [DateTime](../)\&) method
+## DateTime::TryParse(const String\&, std::nullptr_t, Globalization::DateTimeStyles, DateTime\&) method
 
 
 
@@ -116,9 +79,12 @@ static bool System::DateTime::TryParse(const String &s, std::nullptr_t, Globaliz
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [DateTimeStyles](../../../system.globalization/datetimestyles/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Class [DateTime](../)
-* Class [DateTime](../)
+* Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.security.cryptography.xml/transform/getdigestedoutput/
 ---
-## Transform::GetDigestedOutput([SharedPtr](../../../system/sharedptr/)\<[HashAlgorithm](../../../system.security.cryptography/hashalgorithm/)\>) method
+## Transform::GetDigestedOutput(SharedPtr\<HashAlgorithm\>) method
 
 
 

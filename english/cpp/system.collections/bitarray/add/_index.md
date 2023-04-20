@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.collections/bitarray/add/
 ---
-## BitArray::Add(const **bool**\&) method
+## BitArray::Add(const bool\&) method
 
 
 Adds value to the end of container.

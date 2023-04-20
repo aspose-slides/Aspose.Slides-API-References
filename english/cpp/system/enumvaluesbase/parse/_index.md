@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system/enumvaluesbase/parse/
 ---
-## EnumValuesBase::Parse(const [TypeInfo](../../typeinfo/)\&, const [String](../../string/)\&, **bool**) method
+## EnumValuesBase::Parse(const TypeInfo\&, const String\&, bool) method
 
 
 Returns an object that represents a value of enumeration constant of the specified enumeration type with the specified name.

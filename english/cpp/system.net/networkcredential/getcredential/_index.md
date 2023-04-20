@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net/networkcredential/getcredential/
 ---
-## NetworkCredential::GetCredential([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)) method
+## NetworkCredential::GetCredential(System::SharedPtr\<Uri\>, String) method
 
 
 Returns credentials for the specified URI and authentication type.
@@ -23,16 +23,7 @@ System::SharedPtr<NetworkCredential> System::Net::NetworkCredential::GetCredenti
 | uri | [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The URI. |
 | authenticationType | [String](../../../system/string/) | The authentication type. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [NetworkCredential](../)
-* Class [Uri](../../../system/uri/)
-* Class [String](../../../system/string/)
-* Class [NetworkCredential](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## NetworkCredential::GetCredential([String](../../../system/string/), **int32_t**, [String](../../../system/string/)) method
+## NetworkCredential::GetCredential(String, int32_t, String) method
 
 
 Returns credentials for the specified host name, port, and authentication type.
@@ -54,7 +45,7 @@ System::SharedPtr<NetworkCredential> System::Net::NetworkCredential::GetCredenti
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [NetworkCredential](../)
+* Class [Uri](../../../system/uri/)
 * Class [String](../../../system/string/)
-* Class [NetworkCredential](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

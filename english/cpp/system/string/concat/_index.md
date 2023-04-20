@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /cpp/system/string/concat/
 ---
-## String::Concat(const [ArrayPtr](../../arrayptr/)\<[String](../)\>\&) method
+## String::Concat(const ArrayPtr\<String\>\&) method
 
 
 Concatenates strings.
@@ -26,14 +26,7 @@ static String System::String::Concat(const ArrayPtr<String> &parts)
 
 [String](../) containing concatenated strings.
 
-## See Also
-
-* Class [String](../)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Concat(const [String](../)\&, const [String](../)\&) method
+## String::Concat(const String\&, const String\&) method
 
 
 Concatenates strings.
@@ -54,13 +47,7 @@ static String System::String::Concat(const String &str0, const String &str1)
 
 [String](../) containing concatenated strings.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Concat(const [String](../)\&, const [String](../)\&, const [String](../)\&) method
+## String::Concat(const String\&, const String\&, const String\&) method
 
 
 Concatenates strings.
@@ -82,13 +69,7 @@ static String System::String::Concat(const String &str0, const String &str1, con
 
 [String](../) containing concatenated strings.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Concat(const [String](../)\&, const [String](../)\&, const [String](../)\&, const [String](../)\&) method
+## String::Concat(const String\&, const String\&, const String\&, const String\&) method
 
 
 Concatenates strings.
@@ -113,7 +94,7 @@ static String System::String::Concat(const String &str0, const String &str1, con
 
 ## See Also
 
-* Class [String](../)
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

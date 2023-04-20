@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.timers/timer/set_interval/
 ---
-## Timer::set_Interval(**double**) method
+## Timer::set_Interval(double) method
 
 
 Sets timer interval.

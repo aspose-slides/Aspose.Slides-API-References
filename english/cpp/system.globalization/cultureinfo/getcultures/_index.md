@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/system.globalization/cultureinfo/getcultures/
 ---
-## CultureInfo::GetCultures([CultureTypes](../../culturetypes/)) method
+## CultureInfo::GetCultures(CultureTypes) method
 
 
 Gets cultures that fall into specified types.
@@ -28,9 +28,9 @@ static ArrayPtr<CultureInfoPtr> System::Globalization::CultureInfo::GetCultures(
 
 ## See Also
 
+* Enum [CultureTypes](../../culturetypes/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [CultureInfoPtr](../../cultureinfoptr/)
-* Enum [CultureTypes](../../culturetypes/)
 * Class [CultureInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

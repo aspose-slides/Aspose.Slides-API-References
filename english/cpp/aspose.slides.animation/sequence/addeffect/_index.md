@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.animation/sequence/addeffect/
 ---
-## Sequence::AddEffect([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\>, [EffectType](../../effecttype/), [EffectSubtype](../../effectsubtype/), [EffectTriggerType](../../effecttriggertype/)) method
+## Sequence::AddEffect(System::SharedPtr\<IShape\>, EffectType, EffectSubtype, EffectTriggerType) method
 
 
 Add new effect to the end of sequence.
@@ -29,18 +29,7 @@ System::SharedPtr<IEffect> Aspose::Slides::Animation::Sequence::AddEffect(System
 
 New effect object [IEffect](../../ieffect/)
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEffect](../../ieffect/)
-* Class [IShape](../../../aspose.slides/ishape/)
-* Enum [EffectType](../../effecttype/)
-* Enum [EffectSubtype](../../effectsubtype/)
-* Enum [EffectTriggerType](../../effecttriggertype/)
-* Class [Sequence](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## Sequence::AddEffect([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../../aspose.slides/iparagraph/)\>, [EffectType](../../effecttype/), [EffectSubtype](../../effectsubtype/), [EffectTriggerType](../../effecttriggertype/)) method
+## Sequence::AddEffect(System::SharedPtr\<IParagraph\>, EffectType, EffectSubtype, EffectTriggerType) method
 
 
 Add new animation effect for paragraph to the end of sequence.
@@ -80,18 +69,7 @@ auto effect = presentation->get_Slides()->idx_get(0)->get_Timeline()->get_MainSe
      Aspose::Slides::Animation::EffectTriggerType::OnClick);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEffect](../../ieffect/)
-* Class [IParagraph](../../../aspose.slides/iparagraph/)
-* Enum [EffectType](../../effecttype/)
-* Enum [EffectSubtype](../../effectsubtype/)
-* Enum [EffectTriggerType](../../effecttriggertype/)
-* Class [Sequence](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## Sequence::AddEffect([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Charts::IChart](../../../aspose.slides.charts/ichart/)\>, [EffectChartMajorGroupingType](../../effectchartmajorgroupingtype/), **int32_t**, [EffectType](../../effecttype/), [EffectSubtype](../../effectsubtype/), [EffectTriggerType](../../effecttriggertype/)) method
+## Sequence::AddEffect(System::SharedPtr\<Aspose::Slides::Charts::IChart\>, EffectChartMajorGroupingType, int32_t, EffectType, EffectSubtype, EffectTriggerType) method
 
 
 Adds the new chart animation effect for category or series to the end of sequence.
@@ -116,19 +94,7 @@ System::SharedPtr<IEffect> Aspose::Slides::Animation::Sequence::AddEffect(System
 
 New effect object [IEffect](../../ieffect/)
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEffect](../../ieffect/)
-* Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [EffectChartMajorGroupingType](../../effectchartmajorgroupingtype/)
-* Enum [EffectType](../../effecttype/)
-* Enum [EffectSubtype](../../effectsubtype/)
-* Enum [EffectTriggerType](../../effecttriggertype/)
-* Class [Sequence](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## Sequence::AddEffect([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::Charts::IChart](../../../aspose.slides.charts/ichart/)\>, [EffectChartMinorGroupingType](../../effectchartminorgroupingtype/), **int32_t**, **int32_t**, [EffectType](../../effecttype/), [EffectSubtype](../../effectsubtype/), [EffectTriggerType](../../effecttriggertype/)) method
+## Sequence::AddEffect(System::SharedPtr\<Aspose::Slides::Charts::IChart\>, EffectChartMinorGroupingType, int32_t, int32_t, EffectType, EffectSubtype, EffectTriggerType) method
 
 
 Adds the new chart animation effect for elements in category or series to the end of sequence.
@@ -156,13 +122,16 @@ New effect object [IEffect](../../ieffect/)
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEffect](../../ieffect/)
-* Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [EffectChartMinorGroupingType](../../effectchartminorgroupingtype/)
 * Enum [EffectType](../../effecttype/)
 * Enum [EffectSubtype](../../effectsubtype/)
 * Enum [EffectTriggerType](../../effecttriggertype/)
+* Enum [EffectChartMajorGroupingType](../../effectchartmajorgroupingtype/)
+* Enum [EffectChartMinorGroupingType](../../effectchartminorgroupingtype/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IEffect](../../ieffect/)
+* Class [IShape](../../../aspose.slides/ishape/)
 * Class [Sequence](../)
+* Class [IParagraph](../../../aspose.slides/iparagraph/)
+* Class [IChart](../../../aspose.slides.charts/ichart/)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

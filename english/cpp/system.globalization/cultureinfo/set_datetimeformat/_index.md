@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.globalization/cultureinfo/set_datetimeformat/
 ---
-## CultureInfo::set_DateTimeFormat([DateTimeFormatInfoPtr](../../datetimeformatinfoptr/)) method
+## CultureInfo::set_DateTimeFormat(DateTimeFormatInfoPtr) method
 
 
 Sets date format information.

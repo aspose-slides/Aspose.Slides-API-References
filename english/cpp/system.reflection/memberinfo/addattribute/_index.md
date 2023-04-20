@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.reflection/memberinfo/addattribute/
 ---
-## MemberInfo::AddAttribute(const [ObjectPtr](../objectptr/)\&) method
+## MemberInfo::AddAttribute(const ObjectPtr\&) method
 
 
 Adds attribute to collection.

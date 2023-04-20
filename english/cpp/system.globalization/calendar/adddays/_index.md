@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.globalization/calendar/adddays/
 ---
-## Calendar::AddDays([DateTime](../../../system/datetime/), int) const method
+## Calendar::AddDays(DateTime, int) const method
 
 
 Adds days to time point.

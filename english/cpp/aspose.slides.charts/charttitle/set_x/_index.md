@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/charttitle/set_x/
 ---
-## ChartTitle::set_X(**float**) method
+## ChartTitle::set_X(float) method
 
 
 Sets the x coordinate of a title as a fraction of the width of the chart. Write **float**.

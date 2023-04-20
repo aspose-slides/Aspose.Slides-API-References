@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system.xml/xmltextreader/movetoattribute/
 ---
-## XmlTextReader::MoveToAttribute([String](../../../system/string/)) method
+## XmlTextReader::MoveToAttribute(String) method
 
 
 Moves to the attribute with the specified name.
@@ -26,13 +26,7 @@ bool System::Xml::XmlTextReader::MoveToAttribute(String name) override
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the reader's position does not change.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::MoveToAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlTextReader::MoveToAttribute(String, String) method
 
 
 Moves to the attribute with the specified local name and namespace URI.
@@ -53,13 +47,7 @@ bool System::Xml::XmlTextReader::MoveToAttribute(String localName, String namesp
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the reader's position does not change.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlTextReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextReader::MoveToAttribute(**int32_t**) method
+## XmlTextReader::MoveToAttribute(int32_t) method
 
 
 Moves to the attribute with the specified index.
@@ -77,6 +65,7 @@ void System::Xml::XmlTextReader::MoveToAttribute(int32_t i) override
 
 ## See Also
 
+* Class [String](../../../system/string/)
 * Class [XmlTextReader](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

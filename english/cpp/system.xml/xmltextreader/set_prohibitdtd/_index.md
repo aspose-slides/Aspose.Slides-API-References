@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.xml/xmltextreader/set_prohibitdtd/
 ---
-## XmlTextReader::set_ProhibitDtd(**bool**) method
+## XmlTextReader::set_ProhibitDtd(bool) method
 
 
 Sets a value indicating whether to allow DTD processing.

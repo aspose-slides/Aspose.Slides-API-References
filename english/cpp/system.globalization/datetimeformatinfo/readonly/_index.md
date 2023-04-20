@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/system.globalization/datetimeformatinfo/readonly/
 ---
-## DateTimeFormatInfo::ReadOnly(const [DateTimeFormatInfoPtr](../../datetimeformatinfoptr/)\&) method
+## DateTimeFormatInfo::ReadOnly(const DateTimeFormatInfoPtr\&) method
 
 
 Gets read-only version of formatter.

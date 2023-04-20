@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/trendline/set_trendlinename/
 ---
-## Trendline::set_TrendlineName([System::String](../../../system/string/)) method
+## Trendline::set_TrendlineName(System::String) method
 
 
 Sets name of the trendline. Write [System::String](../../../system/string/).

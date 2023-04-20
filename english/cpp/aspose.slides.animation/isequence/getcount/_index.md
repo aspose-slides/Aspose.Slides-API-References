@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.animation/isequence/getcount/
 ---
-## ISequence::GetCount([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\>) method
+## ISequence::GetCount(System::SharedPtr\<IShape\>) method
 
 
 Returns count of effects for the specified shape.

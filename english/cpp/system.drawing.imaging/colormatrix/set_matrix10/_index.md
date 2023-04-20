@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing.imaging/colormatrix/set_matrix10/
 ---
-## ColorMatrix::set_Matrix10(**float**) method
+## ColorMatrix::set_Matrix10(float) method
 
 
 Sets a value in the 1-st row and 0-th column.

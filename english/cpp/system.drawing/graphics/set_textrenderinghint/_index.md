@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing/graphics/set_textrenderinghint/
 ---
-## Graphics::set_TextRenderingHint([Text::TextRenderingHint](../../../system.drawing.text/textrenderinghint/)) method
+## Graphics::set_TextRenderingHint(Text::TextRenderingHint) method
 
 
 Sets a value that specifies the quality of text rendering.

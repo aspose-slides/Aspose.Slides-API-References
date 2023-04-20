@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/ianimationtimeline/get_textanimation/
 ---
-## IAnimationTimeLine::get_TextAnimation(**int32_t**) method
+## IAnimationTimeLine::get_TextAnimation(int32_t) method
 
 
 Returns text animation at the specified index.
@@ -15,14 +15,7 @@ Returns text animation at the specified index.
 virtual System::SharedPtr<Animation::ITextAnimation> Aspose::Slides::IAnimationTimeLine::get_TextAnimation(int32_t index)=0
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITextAnimation](../../../aspose.slides.animation/itextanimation/)
-* Class [IAnimationTimeLine](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IAnimationTimeLine::get_TextAnimation([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## IAnimationTimeLine::get_TextAnimation(System::SharedPtr\<IShape\>) method
 
 
 
@@ -33,10 +26,10 @@ virtual System::ArrayPtr<System::SharedPtr<Animation::ITextAnimation>> Aspose::S
 
 ## See Also
 
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ITextAnimation](../../../aspose.slides.animation/itextanimation/)
-* Class [IShape](../../ishape/)
 * Class [IAnimationTimeLine](../)
+* Class [IShape](../../ishape/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

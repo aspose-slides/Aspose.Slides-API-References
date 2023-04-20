@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/testcompare/areequal/
 ---
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<T\>\>\&, const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<Array\<T\>\>\&, const SharedPtr\<Array\<U\>\>\&) method
 
 
 Compares arrays of non-pointers.
@@ -34,14 +34,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if arrays sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Array](../../array/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<[SharedPtr](../../sharedptr/)\<T\>\>\>\&, const [SharedPtr](../../sharedptr/)\<[Array](../../array/)\<[SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<Array\<SharedPtr\<T\>\>\>\&, const SharedPtr\<Array\<SharedPtr\<U\>\>\>\&) method
 
 
 Compares arrays of pointers.
@@ -69,14 +62,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if arrays sizes and objects match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Array](../../array/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<T\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::List\<T\>\>\&, const SharedPtr\<SCG::List\<U\>\>\&) method
 
 
 Compares lists of non-pointers.
@@ -104,14 +90,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [List](../../../system.collections.generic/list/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<[SharedPtr](../../sharedptr/)\<T\>\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<[SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::List\<SharedPtr\<T\>\>\>\&, const SharedPtr\<SCG::List\<SharedPtr\<U\>\>\>\&) method
 
 
 Compares lists of pointers.
@@ -139,14 +118,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if lists sizes and objects match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [List](../../../system.collections.generic/list/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<T\>\>\&, const [System::ArrayPtr](../../arrayptr/)\<U\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::List\<T\>\>\&, const System::ArrayPtr\<U\>\&) method
 
 
 Compares lists with arrays in non-pointers elements case.
@@ -174,15 +146,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [List](../../../system.collections.generic/list/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [System::ArrayPtr](../../arrayptr/)\<T\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<U\>\>\&) method
+## TestCompare::AreEqual(const System::ArrayPtr\<T\>\&, const SharedPtr\<SCG::List\<U\>\>\&) method
 
 
 Compares lists with arrays in non-pointers elements case.
@@ -210,15 +174,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [List](../../../system.collections.generic/list/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [System::ArrayPtr](../../arrayptr/)\<[SharedPtr](../../sharedptr/)\<T\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<[SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const System::ArrayPtr\<SharedPtr\<T\>\>\&, const SharedPtr\<SCG::List\<SharedPtr\<U\>\>\>\&) method
 
 
 Compares lists with arrays in pointers elements case.
@@ -246,15 +202,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if sizes and objects match, false otherwise.
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [List](../../../system.collections.generic/list/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::List](../../../system.collections.generic/list/)\<[SharedPtr](../../sharedptr/)\<T\>\>\>\&, const [System::ArrayPtr](../../arrayptr/)\<[SharedPtr](../../sharedptr/)\<U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::List\<SharedPtr\<T\>\>\>\&, const System::ArrayPtr\<SharedPtr\<U\>\>\&) method
 
 
 Compares lists with arrays in pointers elements case.
@@ -282,15 +230,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if sizes and objects match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [List](../../../system.collections.generic/list/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::Dictionary](../../../system.collections.generic/dictionary/)\<K, U\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::Dictionary](../../../system.collections.generic/dictionary/)\<K, U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::Dictionary\<K, U\>\>\&, const SharedPtr\<SCG::Dictionary\<K, U\>\>\&) method
 
 
 Compares dictionaries of non-pointer mapped types.
@@ -318,14 +258,7 @@ template<typename K,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if dictionaries sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Dictionary](../../../system.collections.generic/dictionary/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::Dictionary](../../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../sharedptr/)\<U\>\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::Dictionary](../../../system.collections.generic/dictionary/)\<K, [SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::Dictionary\<K, SharedPtr\<U\>\>\>\&, const SharedPtr\<SCG::Dictionary\<K, SharedPtr\<U\>\>\>\&) method
 
 
 Compares dictionaries of pointer mapped types.
@@ -353,14 +286,7 @@ template<typename K,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if dictionaries sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Dictionary](../../../system.collections.generic/dictionary/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::Dictionary](../../../system.collections.generic/dictionary/)\<K1, U1\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::Dictionary](../../../system.collections.generic/dictionary/)\<K2, U2\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::Dictionary\<K1, U1\>\>\&, const SharedPtr\<SCG::Dictionary\<K2, U2\>\>\&) method
 
 
 Compares dictionaries of different types.
@@ -390,14 +316,7 @@ template<typename K1,typename U1,typename K2,typename U2> static bool System::Te
 
 Always returns false as type conversion is forbidden here.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Dictionary](../../../system.collections.generic/dictionary/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::HashSet](../../../system.collections.generic/hashset/)\<T\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::HashSet](../../../system.collections.generic/hashset/)\<U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::HashSet\<T\>\>\&, const SharedPtr\<SCG::HashSet\<U\>\>\&) method
 
 
 Compares hashsets of non-pointers.
@@ -425,14 +344,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if hashsets sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [HashSet](../../../system.collections.generic/hashset/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::HashSet](../../../system.collections.generic/hashset/)\<[SharedPtr](../../sharedptr/)\<T\>\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::HashSet](../../../system.collections.generic/hashset/)\<[SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::HashSet\<SharedPtr\<T\>\>\>\&, const SharedPtr\<SCG::HashSet\<SharedPtr\<U\>\>\>\&) method
 
 
 Compares hashsets of pointers.
@@ -460,14 +372,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if hashsets sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [HashSet](../../../system.collections.generic/hashset/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SCG::QueuePtr](../../../system.collections.generic/queueptr/)\<T\>\&, const [SCG::QueuePtr](../../../system.collections.generic/queueptr/)\<U\>\&) method
+## TestCompare::AreEqual(const SCG::QueuePtr\<T\>\&, const SCG::QueuePtr\<U\>\&) method
 
 
 Compares queues of non-pointers.
@@ -495,13 +400,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if queues sizes and data match, false otherwise.
 
-## See Also
-
-* Class [QueuePtr](../../../system.collections.generic/queueptr/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SCG::QueuePtr](../../../system.collections.generic/queueptr/)\<[SharedPtr](../../sharedptr/)\<T\>\>\&, const [SCG::QueuePtr](../../../system.collections.generic/queueptr/)\<[SharedPtr](../../sharedptr/)\<U\>\>\&) method
+## TestCompare::AreEqual(const SCG::QueuePtr\<SharedPtr\<T\>\>\&, const SCG::QueuePtr\<SharedPtr\<U\>\>\&) method
 
 
 Compares queues of pointers.
@@ -529,14 +428,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if queues sizes and data match, false otherwise.
 
-## See Also
-
-* Class [QueuePtr](../../../system.collections.generic/queueptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::Stack](../../../system.collections.generic/stack/)\<T\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::Stack](../../../system.collections.generic/stack/)\<U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::Stack\<T\>\>\&, const SharedPtr\<SCG::Stack\<U\>\>\&) method
 
 
 Compares stacks of non-pointers.
@@ -564,14 +456,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if stacks sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Stack](../../../system.collections.generic/stack/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::Stack](../../../system.collections.generic/stack/)\<[SharedPtr](../../sharedptr/)\<T\>\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::Stack](../../../system.collections.generic/stack/)\<[SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::Stack\<SharedPtr\<T\>\>\>\&, const SharedPtr\<SCG::Stack\<SharedPtr\<U\>\>\>\&) method
 
 
 Compares stacks of pointers.
@@ -599,14 +484,7 @@ template<typename T,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if stacks sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Stack](../../../system.collections.generic/stack/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::SortedDictionary](../../../system.collections.generic/sorteddictionary/)\<K, U\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::SortedDictionary](../../../system.collections.generic/sorteddictionary/)\<K, U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::SortedDictionary\<K, U\>\>\&, const SharedPtr\<SCG::SortedDictionary\<K, U\>\>\&) method
 
 
 Compares sorted dictionaries of non-pointer mapped types.
@@ -634,14 +512,7 @@ template<typename K,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if dictionaries sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [SortedDictionary](../../../system.collections.generic/sorteddictionary/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::SortedDictionary](../../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../sharedptr/)\<U\>\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::SortedDictionary](../../../system.collections.generic/sorteddictionary/)\<K, [SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::SortedDictionary\<K, SharedPtr\<U\>\>\>\&, const SharedPtr\<SCG::SortedDictionary\<K, SharedPtr\<U\>\>\>\&) method
 
 
 Compares sorted dictionaries of pointer mapped types.
@@ -669,14 +540,7 @@ template<typename K,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if dictionaries sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [SortedDictionary](../../../system.collections.generic/sorteddictionary/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::SortedDictionary](../../../system.collections.generic/sorteddictionary/)\<K1, U1\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::SortedDictionary](../../../system.collections.generic/sorteddictionary/)\<K2, U2\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::SortedDictionary\<K1, U1\>\>\&, const SharedPtr\<SCG::SortedDictionary\<K2, U2\>\>\&) method
 
 
 Compares sorted dictionaries of different types.
@@ -706,14 +570,7 @@ template<typename K1,typename U1,typename K2,typename U2> static bool System::Te
 
 Always returns false as type conversion is forbidden here.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [SortedDictionary](../../../system.collections.generic/sorteddictionary/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::SortedList](../../../system.collections.generic/sortedlist/)\<K, U\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::SortedList](../../../system.collections.generic/sortedlist/)\<K, U\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::SortedList\<K, U\>\>\&, const SharedPtr\<SCG::SortedList\<K, U\>\>\&) method
 
 
 Compares sorted lists of non-pointer mapped types.
@@ -741,14 +598,7 @@ template<typename K,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if lists sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [SortedList](../../../system.collections.generic/sortedlist/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::SortedList](../../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../sharedptr/)\<U\>\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::SortedList](../../../system.collections.generic/sortedlist/)\<K, [SharedPtr](../../sharedptr/)\<U\>\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::SortedList\<K, SharedPtr\<U\>\>\>\&, const SharedPtr\<SCG::SortedList\<K, SharedPtr\<U\>\>\>\&) method
 
 
 Compares sorted lists of pointer mapped types.
@@ -776,14 +626,7 @@ template<typename K,typename U> static bool System::TestCompare::AreEqual(const 
 
 true if lists sizes and data match, false otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [SortedList](../../../system.collections.generic/sortedlist/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [SharedPtr](../../sharedptr/)\<[SCG::SortedList](../../../system.collections.generic/sortedlist/)\<K1, U1\>\>\&, const [SharedPtr](../../sharedptr/)\<[SCG::SortedList](../../../system.collections.generic/sortedlist/)\<K2, U2\>\>\&) method
+## TestCompare::AreEqual(const SharedPtr\<SCG::SortedList\<K1, U1\>\>\&, const SharedPtr\<SCG::SortedList\<K2, U2\>\>\&) method
 
 
 Compares sorted lists of different types.
@@ -813,14 +656,7 @@ template<typename K1,typename U1,typename K2,typename U2> static bool System::Te
 
 Always returns false as type conversion is forbidden here.
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [SortedList](../../../system.collections.generic/sortedlist/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [System::Collections::Specialized::StringCollectionPtr](../../../system.collections.specialized/stringcollectionptr/)\&, const [System::Collections::Specialized::StringCollectionPtr](../../../system.collections.specialized/stringcollectionptr/)\&) method
+## TestCompare::AreEqual(const System::Collections::Specialized::StringCollectionPtr\&, const System::Collections::Specialized::StringCollectionPtr\&) method
 
 
 Compares string collections.
@@ -841,13 +677,7 @@ static bool System::TestCompare::AreEqual(const System::Collections::Specialized
 
 True if sizes and data match, false otherwise.
 
-## See Also
-
-* Class [StringCollectionPtr](../../../system.collections.specialized/stringcollectionptr/)
-* Struct [TestCompare](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TestCompare::AreEqual(const [System::SharedPtr](../../sharedptr/)\<[SCG::IEnumerable](../../../system.collections.generic/ienumerable/)\<T\>\>\&, const [System::SharedPtr](../../sharedptr/)\<[SCG::IEnumerable](../../../system.collections.generic/ienumerable/)\<U\>\>\&) method
+## TestCompare::AreEqual(const System::SharedPtr\<SCG::IEnumerable\<T\>\>\&, const System::SharedPtr\<SCG::IEnumerable\<U\>\>\&) method
 
 
 Compares IEnumerable instances.
@@ -871,6 +701,16 @@ True if sizes and data match, false otherwise.
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
+* Typedef [ArrayPtr](../../arrayptr/)
+* Class [Array](../../array/)
+* Class [List](../../../system.collections.generic/list/)
+* Class [Dictionary](../../../system.collections.generic/dictionary/)
+* Class [HashSet](../../../system.collections.generic/hashset/)
+* Class [QueuePtr](../../../system.collections.generic/queueptr/)
+* Class [Stack](../../../system.collections.generic/stack/)
+* Class [SortedDictionary](../../../system.collections.generic/sorteddictionary/)
+* Class [SortedList](../../../system.collections.generic/sortedlist/)
+* Class [StringCollectionPtr](../../../system.collections.specialized/stringcollectionptr/)
 * Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Struct [TestCompare](../)
 * Namespace [System](../../)

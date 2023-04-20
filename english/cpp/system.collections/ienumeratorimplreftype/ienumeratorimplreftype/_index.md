@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections/ienumeratorimplreftype/ienumeratorimplreftype/
 ---
-## IEnumeratorImplRefType::IEnumeratorImplRefType([System::SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IEnumerator](../../../system.collections.generic/ienumerator/)\<[System::SharedPtr](../../../system/sharedptr/)\<T\>\>\>) constructor
+## IEnumeratorImplRefType::IEnumeratorImplRefType(System::SharedPtr\<System::Collections::Generic::IEnumerator\<System::SharedPtr\<T\>\>\>) constructor
 
 
 wrapper constructor

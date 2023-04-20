@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/ifontsmanager/removeembeddedfont/
 ---
-## IFontsManager::RemoveEmbeddedFont([System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>) method
+## IFontsManager::RemoveEmbeddedFont(System::SharedPtr\<IFontData\>) method
 
 
 Removes the embedded font

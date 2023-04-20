@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/paragraphformat/set_spacebefore/
 ---
-## ParagraphFormat::set_SpaceBefore(**float**) method
+## ParagraphFormat::set_SpaceBefore(float) method
 
 
 Sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Write **float**.

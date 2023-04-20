@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/table/set_righttoleft/
 ---
-## Table::set_RightToLeft(**bool**) method
+## Table::set_RightToLeft(bool) method
 
 
 Determines whether the table has right to left reading order. Writes **bool**.

@@ -15,12 +15,7 @@ Creates adapter with no comparator to use.
 System::Collections::Generic::EqualityComparerHashAdapter<T>::EqualityComparerHashAdapter()
 ```
 
-## See Also
-
-* Struct [EqualityComparerHashAdapter](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## EqualityComparerHashAdapter::EqualityComparerHashAdapter(const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\&) constructor
+## EqualityComparerHashAdapter::EqualityComparerHashAdapter(const SharedPtr\<IEqualityComparer\<T\>\>\&) constructor
 
 
 Creates adapter with given comparator to use.

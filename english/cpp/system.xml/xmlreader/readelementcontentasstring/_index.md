@@ -20,13 +20,7 @@ virtual String System::Xml::XmlReader::ReadElementContentAsString()
 
 The element content as a [String](../../../system/string/) object.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsString([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsString(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as a [String](../../../system/string/) object.

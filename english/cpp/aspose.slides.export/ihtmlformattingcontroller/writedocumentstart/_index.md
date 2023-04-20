@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/
 ---
-## IHtmlFormattingController::WriteDocumentStart([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlGenerator](../../ihtmlgenerator/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IPresentation](../../../aspose.slides/ipresentation/)\>) method
+## IHtmlFormattingController::WriteDocumentStart(System::SharedPtr\<IHtmlGenerator\>, System::SharedPtr\<IPresentation\>) method
 
 
 Called to write html document header. Called once per presentation conversion.

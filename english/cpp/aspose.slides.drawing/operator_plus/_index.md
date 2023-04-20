@@ -3,10 +3,10 @@ title: operator+()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 131
+weight: 79
 url: /cpp/aspose.slides.drawing/operator_plus/
 ---
-## Aspose::Slides::Drawing::operator+([Vector2d32f](../vector2d32f/), [Vector2d32f](../vector2d32f/)) function
+## Aspose::Slides::Drawing::operator+(Vector2d32f, Vector2d32f) function
 
 
 
@@ -15,12 +15,7 @@ url: /cpp/aspose.slides.drawing/operator_plus/
 Vector2d32f Aspose::Slides::Drawing::operator+(Vector2d32f l, Vector2d32f r)
 ```
 
-## See Also
-
-* Class [Vector2d32f](../vector2d32f/)
-* Namespace [Aspose::Slides::Drawing](../)
-* Library [Aspose.Slides](../../)
-## Aspose::Slides::Drawing::operator+([Vector2d64d](../vector2d64d/), [Vector2d64d](../vector2d64d/)) function
+## Aspose::Slides::Drawing::operator+(Vector2d64d, Vector2d64d) function
 
 
 
@@ -31,6 +26,7 @@ Vector2d64d Aspose::Slides::Drawing::operator+(Vector2d64d l, Vector2d64d r)
 
 ## See Also
 
+* Class [Vector2d32f](../vector2d32f/)
 * Class [Vector2d64d](../vector2d64d/)
 * Namespace [Aspose::Slides::Drawing](../)
 * Library [Aspose.Slides](../../)

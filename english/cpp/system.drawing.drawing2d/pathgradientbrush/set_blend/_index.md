@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/set_blend/
 ---
-## PathGradientBrush::set_Blend(const [SharedPtr](../../../system/sharedptr/)\<[Blend](../../blend/)\>\&) method
+## PathGradientBrush::set_Blend(const SharedPtr\<Blend\>\&) method
 
 
 Sets a blend that specifies factors and positions of base colors for this brush.

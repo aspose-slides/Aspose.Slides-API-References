@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/spreadsheetoptions/set_preferredculture/
 ---
-## SpreadsheetOptions::set_PreferredCulture([System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>) method
+## SpreadsheetOptions::set_PreferredCulture(System::SharedPtr\<System::Globalization::CultureInfo\>) method
 
 
 Sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS).

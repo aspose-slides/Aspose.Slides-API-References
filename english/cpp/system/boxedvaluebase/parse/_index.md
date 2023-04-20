@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/boxedvaluebase/parse/
 ---
-## BoxedValueBase::Parse(const [TypeInfo](../../typeinfo/)\&, const [String](../../string/)\&, **bool**) method
+## BoxedValueBase::Parse(const TypeInfo\&, const String\&, bool) method
 
 
 Boxes the value of enumeration constant of the specified enumeration with the specified name. A parameter specifies if the case should be ignored when interpreting the string specifying the name of the enumeration constant.
@@ -28,16 +28,7 @@ static SharedPtr<Object> System::BoxedValueBase::Parse(const TypeInfo &type, con
 
 A shared pointer to the object representing boxed value of the specified enumeration constant
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
-* Class [TypeInfo](../../typeinfo/)
-* Class [String](../../string/)
-* Class [BoxedValueBase](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BoxedValueBase::Parse(const [TypeInfo](../../typeinfo/)\&, const [String](../../string/)\&) method
+## BoxedValueBase::Parse(const TypeInfo\&, const String\&) method
 
 
 Boxes the value of enumeration constant of the specified enumeration with the specified name.

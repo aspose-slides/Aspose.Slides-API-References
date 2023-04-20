@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.theme/imastertheme/get_extracolorscheme/
 ---
-## IMasterTheme::get_ExtraColorScheme(**int32_t**) method
+## IMasterTheme::get_ExtraColorScheme(int32_t) method
 
 
 Returns the additional color scheme at the specified index. This scheme don't affect presentation's look, it can be selected as main color scheme for a slide. Read-only [Aspose::Slides::Theme::IExtraColorScheme](../../iextracolorscheme/)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/ixmlnamespaceresolver/lookupnamespace/
 ---
-## IXmlNamespaceResolver::LookupNamespace(const [String](../../../system/string/)\&) method
+## IXmlNamespaceResolver::LookupNamespace(const String\&) method
 
 
 Returns the namespace URI mapped to the specified prefix.

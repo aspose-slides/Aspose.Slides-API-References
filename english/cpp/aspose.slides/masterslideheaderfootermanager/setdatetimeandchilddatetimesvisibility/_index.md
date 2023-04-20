@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/masterslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
-## MasterSlideHeaderFooterManager::SetDateTimeAndChildDateTimesVisibility(**bool**) method
+## MasterSlideHeaderFooterManager::SetDateTimeAndChildDateTimesVisibility(bool) method
 
 
 Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.

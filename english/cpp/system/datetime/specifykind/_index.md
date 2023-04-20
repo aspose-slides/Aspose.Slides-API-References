@@ -6,7 +6,7 @@ type: docs
 weight: 833
 url: /cpp/system/datetime/specifykind/
 ---
-## DateTime::SpecifyKind([DateTime](../), [DateTimeKind](../../datetimekind/)) method
+## DateTime::SpecifyKind(DateTime, DateTimeKind) method
 
 
 Constructs a new [DateTime](../) object that represents the same number of ticks as the specified [DateTime](../) object and represents local time, UTC time or neither as specified by the argument **kind**.
@@ -29,7 +29,6 @@ A new [DateTime](../) object that represents the same number of ticks as **value
 
 ## See Also
 
-* Class [DateTime](../)
 * Enum [DateTimeKind](../../datetimekind/)
 * Class [DateTime](../)
 * Namespace [System](../../)

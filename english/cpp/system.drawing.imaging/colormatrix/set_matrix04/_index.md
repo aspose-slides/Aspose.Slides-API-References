@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.drawing.imaging/colormatrix/set_matrix04/
 ---
-## ColorMatrix::set_Matrix04(**float**) method
+## ColorMatrix::set_Matrix04(float) method
 
 
 Sets a value in the 0-th row and 4-th column.

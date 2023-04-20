@@ -3,7 +3,7 @@ title: SocketOptionLevel
 second_title: Aspose.Slides for C++ API Reference
 description: Defines socket option levels for the 'Socket' class.
 type: docs
-weight: 235
+weight: 209
 url: /cpp/system.net.sockets/socketoptionlevel/
 ---
 ## SocketOptionLevel enum

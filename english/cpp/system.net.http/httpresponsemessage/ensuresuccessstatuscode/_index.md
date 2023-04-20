@@ -24,6 +24,5 @@ The current instance.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [HttpResponseMessage](../)
-* Class [HttpResponseMessage](../)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

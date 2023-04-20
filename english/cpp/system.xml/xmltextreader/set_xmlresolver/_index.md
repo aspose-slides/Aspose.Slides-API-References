@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.xml/xmltextreader/set_xmlresolver/
 ---
-## XmlTextReader::set_XmlResolver(const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../xmlresolver/)\>\&) method
+## XmlTextReader::set_XmlResolver(const SharedPtr\<System::Xml::XmlResolver\>\&) method
 
 
 Sets the [XmlResolver](../../xmlresolver/) used for resolving DTD references.

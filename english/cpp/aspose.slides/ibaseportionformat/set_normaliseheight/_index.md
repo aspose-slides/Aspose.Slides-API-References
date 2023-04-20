@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/ibaseportionformat/set_normaliseheight/
 ---
-## IBasePortionFormat::set_NormaliseHeight([NullableBool](../../nullablebool/)) method
+## IBasePortionFormat::set_NormaliseHeight(NullableBool) method
 
 
 Determines whether the height of a text should be normalized. No inheritance applied. Write [NullableBool](../../nullablebool/).

@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /cpp/aspose.slides.charts/iaxis/set_isnumberformatlinkedtosource/
 ---
-## IAxis::set_IsNumberFormatLinkedToSource(**bool**) method
+## IAxis::set_IsNumberFormatLinkedToSource(bool) method
 
 
 Indicates whether the format is linked source data. Write **bool**.

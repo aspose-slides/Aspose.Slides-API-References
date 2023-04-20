@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.io/path/getextension/
 ---
-## Path::GetExtension(const [String](../../../system/string/)\&) method
+## Path::GetExtension(const String\&) method
 
 
 Returns the extension of the file referenced by the specified path.

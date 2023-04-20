@@ -6,7 +6,7 @@ type: docs
 weight: 1028
 url: /cpp/aspose.slides.charts/axis/set_labeloffset/
 ---
-## Axis::set_LabelOffset(**uint16_t**) method
+## Axis::set_LabelOffset(uint16_t) method
 
 
 Specifies the distance of labels from the axis. Applied to category or date axis. Value must be between 0% and 1000%. Write **uint16_t**.

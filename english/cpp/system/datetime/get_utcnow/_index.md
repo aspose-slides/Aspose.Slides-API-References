@@ -18,6 +18,5 @@ static DateTime System::DateTime::get_UtcNow()
 ## See Also
 
 * Class [DateTime](../)
-* Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

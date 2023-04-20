@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /cpp/system.net/httpwebrequest/set_referer/
 ---
-## HttpWebRequest::set_Referer([System::String](../../../system/string/)) method
+## HttpWebRequest::set_Referer(System::String) method
 
 
 Sets a value of the 'Referer' header.

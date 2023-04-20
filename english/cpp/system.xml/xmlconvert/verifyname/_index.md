@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml/xmlconvert/verifyname/
 ---
-## XmlConvert::VerifyName(const [String](../../../system/string/)\&) method
+## XmlConvert::VerifyName(const String\&) method
 
 
 Verifies that the name is a valid name according to the W3C Extended Markup Language recommendation.

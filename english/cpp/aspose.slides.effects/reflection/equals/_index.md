@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.slides.effects/reflection/equals/
 ---
-## Reflection::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Reflection::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [Reflection](../) is equal to the current [Reflection](../).

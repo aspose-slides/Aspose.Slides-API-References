@@ -26,12 +26,7 @@ virtual int System::Array<T>::IndexOf(const T &item) const override
 
 Index of the first occurrence of the specified item if the item is found, otherwise -1
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::IndexOf(const [ArrayPtr](../../arrayptr/)\<ArrayType\>\&, const [ValueType](../valuetype/)\&) method
+## Array::IndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&) method
 
 
 Determines the index of the first occurrence of specified item in the array.
@@ -59,14 +54,7 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Ind
 
 Index of the first occurrence specified item if the item is found, otherwise -1
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [ValueType](../valuetype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::IndexOf(const [ArrayPtr](../../arrayptr/)\<ArrayType\>\&, const [ValueType](../valuetype/)\&, int) method
+## Array::IndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int) method
 
 
 Determines the index of the first occurrence of the specified item in the array starting from the specified index.
@@ -95,14 +83,7 @@ template<typename ArrayType,typename ValueType> static int System::Array<T>::Ind
 
 Index of the first occurrence of the specified item if the item is found, otherwise -1
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [ValueType](../valuetype/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::IndexOf(const [ArrayPtr](../../arrayptr/)\<ArrayType\>\&, const [ValueType](../valuetype/)\&, int, int) method
+## Array::IndexOf(const ArrayPtr\<ArrayType\>\&, const ValueType\&, int, int) method
 
 
 Determines the index of the first occurrence of the specified item in a range of items of the array specified by the start index and the number of elements in the range.

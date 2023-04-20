@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/system.drawing/graphics/set_clip/
 ---
-## Graphics::set_Clip(const [SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>\&) method
+## Graphics::set_Clip(const SharedPtr\<Region\>\&) method
 
 
 Sets a region that limits the drawing area of the drawing surface represented by the current.

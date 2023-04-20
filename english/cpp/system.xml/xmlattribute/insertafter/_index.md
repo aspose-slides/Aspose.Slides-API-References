@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.xml/xmlattribute/insertafter/
 ---
-## XmlAttribute::InsertAfter([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>, [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>) method
+## XmlAttribute::InsertAfter(SharedPtr\<XmlNode\>, SharedPtr\<XmlNode\>) method
 
 
 Inserts the specified node immediately after the specified reference node.

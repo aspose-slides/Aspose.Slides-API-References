@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides.export/iswfoptions/set_showleftpane/
 ---
-## ISwfOptions::set_ShowLeftPane(**bool**) method
+## ISwfOptions::set_ShowLeftPane(bool) method
 
 
 Show/hide left pane. Can be overridden in flashvars. Default is true.

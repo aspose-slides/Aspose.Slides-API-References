@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.xml.schema/xmlschemaset/reprocess/
 ---
-## XmlSchemaSet::Reprocess([SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>) method
+## XmlSchemaSet::Reprocess(SharedPtr\<XmlSchema\>) method
 
 
 Reprocesses an XML [Schema](../../) definition language (XSD) schema that already exists in the [XmlSchemaSet](../).

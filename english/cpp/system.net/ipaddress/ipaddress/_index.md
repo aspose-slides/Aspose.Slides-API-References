@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net/ipaddress/ipaddress/
 ---
-## IPAddress::IPAddress(**int64_t**) constructor
+## IPAddress::IPAddress(int64_t) constructor
 
 
 Constructs a new instance.
@@ -22,12 +22,7 @@ System::Net::IPAddress::IPAddress(int64_t newAddress)
 | --- | --- | --- |
 | newAddress | **int64_t** | The integer representation of an IP address. |
 
-## See Also
-
-* Class [IPAddress](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## IPAddress::IPAddress([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int64_t**) constructor
+## IPAddress::IPAddress(System::ArrayPtr\<uint8_t\>, int64_t) constructor
 
 
 Constructs a new instance.
@@ -44,13 +39,7 @@ System::Net::IPAddress::IPAddress(System::ArrayPtr<uint8_t> address, int64_t sco
 | address | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The byte array that contains an IP address. |
 | scopeid | **int64_t** | The scope identifier. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [IPAddress](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## IPAddress::IPAddress([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) constructor
+## IPAddress::IPAddress(System::ArrayPtr\<uint8_t\>) constructor
 
 
 Constructs a new instance.
@@ -66,12 +55,6 @@ System::Net::IPAddress::IPAddress(System::ArrayPtr<uint8_t> address)
 | --- | --- | --- |
 | address | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | The byte array that contains an IP address. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [IPAddress](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
 ## IPAddress::IPAddress() constructor
 
 
@@ -83,6 +66,7 @@ System::Net::IPAddress::IPAddress()
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [IPAddress](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

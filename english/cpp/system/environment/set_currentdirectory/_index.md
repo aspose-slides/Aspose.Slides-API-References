@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/environment/set_currentdirectory/
 ---
-## Environment::set_CurrentDirectory(const [String](../../string/)\&) method
+## Environment::set_CurrentDirectory(const String\&) method
 
 
 Sets the specified directory as the current working directory.

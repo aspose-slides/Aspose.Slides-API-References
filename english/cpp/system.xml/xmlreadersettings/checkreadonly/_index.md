@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/system.xml/xmlreadersettings/checkreadonly/
 ---
-## XmlReaderSettings::CheckReadOnly(const [String](../../../system/string/)\&) method
+## XmlReaderSettings::CheckReadOnly(const String\&) method
 
 
 

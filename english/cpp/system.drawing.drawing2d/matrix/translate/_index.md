@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing.drawing2d/matrix/translate/
 ---
-## Matrix::Translate(**float**, **float**) method
+## Matrix::Translate(float, float) method
 
 
 Applies the specified translate vector to the matrix represented by the current object.
@@ -23,12 +23,7 @@ void System::Drawing::Drawing2D::Matrix::Translate(float offsetX, float offsetY)
 | offsetX | **float** | The X value by which the matrix is translated |
 | offsetY | **float** | The Y value by which the matrix is translated |
 
-## See Also
-
-* Class [Matrix](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## Matrix::Translate(**float**, **float**, [MatrixOrder](../../matrixorder/)) method
+## Matrix::Translate(float, float, MatrixOrder) method
 
 
 Applies the specified translate vector to the matrix represented by the current object.

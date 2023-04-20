@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathmatrixfactory/
 Allows to create a math matrix
 
 ```cpp
-class IMathMatrixFactory : public System::Object
+class IMathMatrixFactory : public virtual System::Object
 ```
 
 ## Methods

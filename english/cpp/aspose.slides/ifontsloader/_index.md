@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifontsloader/
 Class for loading custom fonts defined by user. Should be used before creating any presentation objects.
 
 ```cpp
-class IFontsLoader : public System::Object
+class IFontsLoader : public virtual System::Object
 ```
 
 ## Methods

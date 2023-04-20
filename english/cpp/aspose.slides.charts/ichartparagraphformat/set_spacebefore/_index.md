@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/ichartparagraphformat/set_spacebefore/
 ---
-## IChartParagraphFormat::set_SpaceBefore(**float**) method
+## IChartParagraphFormat::set_SpaceBefore(float) method
 
 
 Sets the amount of space before the first line in a paragraph. Write **float**.

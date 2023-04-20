@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.theme/fillformatcollection/copyto/
 ---
-## FillFormatCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IFillFormat](../../../aspose.slides/ifillformat/)\>\>, **int32_t**) method
+## FillFormatCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IFillFormat\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

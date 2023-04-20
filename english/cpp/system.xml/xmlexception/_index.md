@@ -3,7 +3,7 @@ title: XmlException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 898
+weight: 872
 url: /cpp/system.xml/xmlexception/
 ---
 ## XmlException typedef

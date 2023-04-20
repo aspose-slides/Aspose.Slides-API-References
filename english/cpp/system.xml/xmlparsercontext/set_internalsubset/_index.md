@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml/xmlparsercontext/set_internalsubset/
 ---
-## XmlParserContext::set_InternalSubset(const [String](../../../system/string/)\&) method
+## XmlParserContext::set_InternalSubset(const String\&) method
 
 
 Sets the internal DTD subset.

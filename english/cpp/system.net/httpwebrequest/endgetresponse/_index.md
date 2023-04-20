@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system.net/httpwebrequest/endgetresponse/
 ---
-## HttpWebRequest::EndGetResponse([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## HttpWebRequest::EndGetResponse(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous request for the resource completes.

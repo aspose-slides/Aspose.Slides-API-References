@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.text/encoding/getcharcount/
 ---
-## Encoding::GetCharCount([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## Encoding::GetCharCount(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -28,13 +28,7 @@ virtual int System::Text::Encoding::GetCharCount(ArrayPtr<uint8_t> bytes, int in
 
 Number of characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetCharCount([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Encoding::GetCharCount(ArrayPtr\<uint8_t\>) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -54,13 +48,7 @@ virtual int System::Text::Encoding::GetCharCount(ArrayPtr<uint8_t> bytes)
 
 Number of characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetCharCount(const **uint8_t** *, int) method
+## Encoding::GetCharCount(const uint8_t *, int) method
 
 
 Get the number of characters needed to decode a byte buffer.
@@ -83,6 +71,7 @@ Number of characters.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Encoding](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

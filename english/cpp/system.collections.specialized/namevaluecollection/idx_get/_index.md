@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.collections.specialized/namevaluecollection/idx_get/
 ---
-## NameValueCollection::idx_get(const [String](../../../system/string/)\&) method
+## NameValueCollection::idx_get(const String\&) method
 
 
 Gets value at specified index.

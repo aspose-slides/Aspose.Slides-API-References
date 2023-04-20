@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/presentationfactory/getpresentationinfo/
 ---
-## PresentationFactory::GetPresentationInfo([System::String](../../../system/string/)) method
+## PresentationFactory::GetPresentationInfo(System::String) method
 
 
 Creates new [PresentationInfo](../../presentationinfo/) object from file and binds presentation to it.
@@ -26,15 +26,7 @@ System::SharedPtr<IPresentationInfo> Aspose::Slides::PresentationFactory::GetPre
 
 [Presentation](../../presentation/) info binded to presentation.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentationInfo](../../ipresentationinfo/)
-* Class [String](../../../system/string/)
-* Class [PresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## PresentationFactory::GetPresentationInfo([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## PresentationFactory::GetPresentationInfo(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Creates new [PresentationInfo](../../presentationinfo/) object from stream and binds presentation to it. Gets info about presentation in specified stream.
@@ -58,7 +50,8 @@ System::SharedPtr<IPresentationInfo> Aspose::Slides::PresentationFactory::GetPre
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPresentationInfo](../../ipresentationinfo/)
-* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Class [PresentationFactory](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

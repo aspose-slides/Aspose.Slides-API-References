@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_timeoutexception/is/
 ---
-## Details_TimeoutException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_TimeoutException::Is(const System::TypeInfo\&) const method
 
 
 

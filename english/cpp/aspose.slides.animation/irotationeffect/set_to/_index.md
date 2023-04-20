@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/irotationeffect/set_to/
 ---
-## IRotationEffect::set_To(**float**) method
+## IRotationEffect::set_To(float) method
 
 
 Describes the ending value for the animation. Write **float**.

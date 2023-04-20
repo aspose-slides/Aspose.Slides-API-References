@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/columncollection/copyto/
 ---
-## ColumnCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IColumn](../../icolumn/)\>\>, **int32_t**) method
+## ColumnCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IColumn\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.drawing.drawing2d/graphicspath/isvisible/
 ---
-## GraphicsPath::IsVisible(const [PointF](../../../system.drawing/pointf/)\&) method
+## GraphicsPath::IsVisible(const PointF\&) method
 
 
 Determines if the specified point is contained within the path represented by the current object.
@@ -22,13 +22,7 @@ bool System::Drawing::Drawing2D::GraphicsPath::IsVisible(const PointF &point)
 | --- | --- | --- |
 | point | const [PointF](../../../system.drawing/pointf/)\& | The point to check |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::IsVisible(**float**, **float**) method
+## GraphicsPath::IsVisible(float, float) method
 
 
 Determines if the specified point is contained within the path represented by the current object.
@@ -47,6 +41,7 @@ bool System::Drawing::Drawing2D::GraphicsPath::IsVisible(float x, float y)
 
 ## See Also
 
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [GraphicsPath](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

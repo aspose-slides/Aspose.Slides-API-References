@@ -20,6 +20,5 @@ virtual System::ArrayPtr<System::SharedPtr<IMathElement>> Aspose::Slides::MathTe
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathElement](../)
-* Class [IMathElement](../)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.export/presentationanimationsgenerator/presentationanimationsgenerator/
 ---
-## PresentationAnimationsGenerator::PresentationAnimationsGenerator([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>) constructor
+## PresentationAnimationsGenerator::PresentationAnimationsGenerator(System::SharedPtr\<Presentation\>) constructor
 
 
 Creates a new instance of the [PresentationAnimationsGenerator](../).
@@ -22,14 +22,7 @@ Aspose::Slides::Export::PresentationAnimationsGenerator::PresentationAnimationsG
 | --- | --- | --- |
 | presentation | [System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\> | The frame size will be set with accordance to the [Presentation::get_SlideSize](../../../aspose.slides/presentation/get_slidesize/) |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
-* Class [PresentationAnimationsGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## PresentationAnimationsGenerator::PresentationAnimationsGenerator([System::Drawing::Size](../../../system.drawing/size/)) constructor
+## PresentationAnimationsGenerator::PresentationAnimationsGenerator(System::Drawing::Size) constructor
 
 
 Creates a new instance of the [PresentationAnimationsGenerator](../).
@@ -47,7 +40,9 @@ Aspose::Slides::Export::PresentationAnimationsGenerator::PresentationAnimationsG
 
 ## See Also
 
-* Class [Size](../../../system.drawing/size/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Presentation](../../../aspose.slides/presentation/)
 * Class [PresentationAnimationsGenerator](../)
+* Class [Size](../../../system.drawing/size/)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

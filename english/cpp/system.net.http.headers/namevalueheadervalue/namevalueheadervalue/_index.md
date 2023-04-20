@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::Headers::NameValueHeaderValue::NameValueHeaderValue()
 ```
 
-## See Also
-
-* Class [NameValueHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueHeaderValue::NameValueHeaderValue([String](../../../system/string/)) constructor
+## NameValueHeaderValue::NameValueHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -36,13 +31,7 @@ System::Net::Http::Headers::NameValueHeaderValue::NameValueHeaderValue(String na
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The header name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [NameValueHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueHeaderValue::NameValueHeaderValue([String](../../../system/string/), [String](../../../system/string/)) constructor
+## NameValueHeaderValue::NameValueHeaderValue(String, String) constructor
 
 
 Constructs a new instance.
@@ -61,7 +50,7 @@ System::Net::Http::Headers::NameValueHeaderValue::NameValueHeaderValue(String na
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [NameValueHeaderValue](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

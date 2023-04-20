@@ -20,13 +20,6 @@ SharedPtr<Generic::IList<T>> System::Collections::ObjectModel::Collection<T>::ge
 
 Pointer to internal list.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections.generic/ilist/)
-* Class [Collection](../)
-* Namespace [System::Collections::ObjectModel](../../)
-* Library [Aspose.Slides](../../../)
 ## Collection::get_Items() const method
 
 
@@ -43,7 +36,9 @@ Pointer to internal list.
 
 ## See Also
 
-* Class [ListPtr](../../../system.collections.generic/listptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IList](../../../system.collections.generic/ilist/)
 * Class [Collection](../)
+* Class [ListPtr](../../../system.collections.generic/listptr/)
 * Namespace [System::Collections::ObjectModel](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/icolorformat/set_presetcolor/
 ---
-## IColorFormat::set_PresetColor([Aspose::Slides::PresetColor](../../presetcolor/)) method
+## IColorFormat::set_PresetColor(Aspose::Slides::PresetColor) method
 
 
 Sets the color preset. Write [Slides::PresetColor](../../presetcolor/).

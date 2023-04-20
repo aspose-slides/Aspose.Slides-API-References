@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.diagnostics/debug/assert/
 ---
-## Debug::Assert(**bool**) method
+## Debug::Assert(bool) method
 
 
 Assert condition and send information on failure.
@@ -22,12 +22,7 @@ static void System::Diagnostics::Debug::Assert(bool condition)
 | --- | --- | --- |
 | condition | **bool** | Condition value. |
 
-## See Also
-
-* Struct [Debug](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Debug::Assert(**bool**, const [String](../../../system/string/)\&) method
+## Debug::Assert(bool, const String\&) method
 
 
 Assert condition and send information on failure.
@@ -44,13 +39,7 @@ static void System::Diagnostics::Debug::Assert(bool condition, const String &mes
 | condition | **bool** | Condition value. |
 | message | const [String](../../../system/string/)\& | Message to populate on assertion failure. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Struct [Debug](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Debug::Assert(**bool**, const char *) method
+## Debug::Assert(bool, const char *) method
 
 
 Assert condition and send information on failure.
@@ -67,12 +56,7 @@ static void System::Diagnostics::Debug::Assert(bool condition, const char *messa
 | condition | **bool** | Condition value. |
 | message | const char * | Message to populate on assertion failure. |
 
-## See Also
-
-* Struct [Debug](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Debug::Assert(**bool**, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Debug::Assert(bool, const String\&, const String\&) method
 
 
 Assert condition and send information on failure.

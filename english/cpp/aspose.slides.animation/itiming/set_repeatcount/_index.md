@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.animation/itiming/set_repeatcount/
 ---
-## ITiming::set_RepeatCount(**float**) method
+## ITiming::set_RepeatCount(float) method
 
 
 Describes the number of times the effect should repeat. Write **float**.

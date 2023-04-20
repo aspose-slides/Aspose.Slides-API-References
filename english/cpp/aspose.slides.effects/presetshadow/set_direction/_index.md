@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/presetshadow/set_direction/
 ---
-## PresetShadow::set_Direction(**float**) method
+## PresetShadow::set_Direction(float) method
 
 
 Direction of shadow. Write **float**.

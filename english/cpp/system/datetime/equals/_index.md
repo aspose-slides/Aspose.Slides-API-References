@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system/datetime/equals/
 ---
-## DateTime::Equals([DateTime](../)) const method
+## DateTime::Equals(DateTime) const method
 
 
 Determines if the specified instance of [DateTime](../) class represent the same date and time value as the current object.
@@ -26,13 +26,7 @@ constexpr bool System::DateTime::Equals(DateTime other) const
 
 True if both **other** and current object represent the same value, otherwise - false
 
-## See Also
-
-* Class [DateTime](../)
-* Class [DateTime](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTime::Equals([DateTime](../), [DateTime](../)) method
+## DateTime::Equals(DateTime, DateTime) method
 
 
 Determines if the specified instances of [DateTime](../) class represent the same date and time value.
@@ -55,7 +49,6 @@ True if both **t1** and **t2** represent the same value, otherwise - false
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

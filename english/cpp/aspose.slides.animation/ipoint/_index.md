@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.animation/ipoint/
 Represent animation point.
 
 ```cpp
-class IPoint : public System::Object
+class IPoint : public virtual System::Object
 ```
 
 ## Methods

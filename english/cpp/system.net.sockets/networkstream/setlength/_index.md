@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.net.sockets/networkstream/setlength/
 ---
-## NetworkStream::SetLength(**int64_t**) method
+## NetworkStream::SetLength(int64_t) method
 
 
 Sets the length of the stream represented by the current object.

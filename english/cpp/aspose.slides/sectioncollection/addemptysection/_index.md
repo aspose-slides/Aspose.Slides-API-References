@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/sectioncollection/addemptysection/
 ---
-## SectionCollection::AddEmptySection([System::String](../../../system/string/), **int32_t**) method
+## SectionCollection::AddEmptySection(System::String, int32_t) method
 
 
 Add empty section to specified position of the collection.

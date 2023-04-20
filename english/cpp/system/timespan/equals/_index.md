@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/timespan/equals/
 ---
-## TimeSpan::Equals([TimeSpan](../)) const method
+## TimeSpan::Equals(TimeSpan) const method
 
 
 Determines if the time interval represented by the current object is equal to the time interval represented by the specified object.
@@ -26,13 +26,7 @@ constexpr bool System::TimeSpan::Equals(TimeSpan value) const
 
 True if the current object and the specified object represent the same time interval, otherwise - false
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::Equals(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) const method
+## TimeSpan::Equals(const SharedPtr\<Object\>\&) const method
 
 
 Determines if the time interval represented by the current object is equal to the time interval represented by the specified object.
@@ -52,14 +46,7 @@ bool System::TimeSpan::Equals(const SharedPtr<Object> &obj) const
 
 True if the current object and the specified object represent the same time interval, otherwise - false
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeSpan::Equals([TimeSpan](../), [TimeSpan](../)) method
+## TimeSpan::Equals(TimeSpan, TimeSpan) method
 
 
 Returns true if the specified objects represent the same time interval, otherwise - false.
@@ -70,7 +57,8 @@ static constexpr bool System::TimeSpan::Equals(TimeSpan a, TimeSpan b)
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [TimeSpan](../)
-* Class [TimeSpan](../)
+* Class [Object](../../object/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.http/httpcontent/trycomputelength/
 ---
-## HttpContent::TryComputeLength(**int64_t**\&) method
+## HttpContent::TryComputeLength(int64_t\&) method
 
 
 Tries to calculate the content size.

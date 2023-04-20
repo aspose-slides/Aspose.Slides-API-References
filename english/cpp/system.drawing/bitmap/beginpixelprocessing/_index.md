@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.drawing/bitmap/beginpixelprocessing/
 ---
-## Bitmap::BeginPixelProcessing(**bool**) method
+## Bitmap::BeginPixelProcessing(bool) method
 
 
 Enables pixel processing mode.

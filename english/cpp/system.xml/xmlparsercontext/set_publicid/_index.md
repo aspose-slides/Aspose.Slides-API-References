@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml/xmlparsercontext/set_publicid/
 ---
-## XmlParserContext::set_PublicId(const [String](../../../system/string/)\&) method
+## XmlParserContext::set_PublicId(const String\&) method
 
 
 Sets the public identifier.

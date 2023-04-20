@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.security.cryptography/ecdsabotan/hashdata/
 ---
-## ECDsaBotan::HashData([ByteArrayPtr](../../../system/bytearrayptr/), **int32_t**, **int32_t**, [HashAlgorithmName](../../hashalgorithmname/)) method
+## ECDsaBotan::HashData(ByteArrayPtr, int32_t, int32_t, HashAlgorithmName) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm.
@@ -29,14 +29,7 @@ ByteArrayPtr System::Security::Cryptography::ECDsaBotan::HashData(ByteArrayPtr d
 
 Hashed data.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [ECDsaBotan](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsaBotan::HashData([StreamPtr](../../../system/streamptr/), [HashAlgorithmName](../../hashalgorithmname/)) method
+## ECDsaBotan::HashData(StreamPtr, HashAlgorithmName) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm.
@@ -61,7 +54,7 @@ Hashed data.
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Typedef [StreamPtr](../../../system/streamptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Class [ECDsaBotan](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

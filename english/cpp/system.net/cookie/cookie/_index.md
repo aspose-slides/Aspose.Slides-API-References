@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Cookie::Cookie()
 ```
 
-## See Also
-
-* Class [Cookie](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Cookie::Cookie([String](../../../system/string/), [String](../../../system/string/)) constructor
+## Cookie::Cookie(String, String) constructor
 
 
 Constructs a new instance.
@@ -37,13 +32,7 @@ System::Net::Cookie::Cookie(String name, String value)
 | name | [String](../../../system/string/) | The cookie's name. |
 | value | [String](../../../system/string/) | The cookie's value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Cookie](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Cookie::Cookie([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) constructor
+## Cookie::Cookie(String, String, String) constructor
 
 
 Constructs a new instance.
@@ -61,13 +50,7 @@ System::Net::Cookie::Cookie(String name, String value, String path)
 | value | [String](../../../system/string/) | The cookie value. |
 | path | [String](../../../system/string/) | The 'Path' attribute's value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Cookie](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Cookie::Cookie([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) constructor
+## Cookie::Cookie(String, String, String, String) constructor
 
 
 Constructs a new instance.
@@ -88,7 +71,7 @@ System::Net::Cookie::Cookie(String name, String value, String path, String domai
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [Cookie](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

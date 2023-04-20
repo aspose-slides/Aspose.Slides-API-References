@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/lineformat/set_capstyle/
 ---
-## LineFormat::set_CapStyle([LineCapStyle](../../linecapstyle/)) method
+## LineFormat::set_CapStyle(LineCapStyle) method
 
 
 Sets the line cap style. Write [LineCapStyle](../../linecapstyle/).

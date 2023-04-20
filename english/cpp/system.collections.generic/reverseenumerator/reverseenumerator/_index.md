@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic/reverseenumerator/reverseenumerator/
 ---
-## ReverseEnumerator::ReverseEnumerator(const [Object::ptr](../../../system/object/ptr/)\&, Container\&) constructor
+## ReverseEnumerator::ReverseEnumerator(const Object::ptr\&, Container\&) constructor
 
 
 Initializes iterator.

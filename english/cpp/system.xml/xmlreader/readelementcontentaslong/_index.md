@@ -20,12 +20,7 @@ virtual int64_t System::Xml::XmlReader::ReadElementContentAsLong()
 
 The element content as a 64-bit signed integer.
 
-## See Also
-
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsLong([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsLong(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as a 64-bit signed integer.
@@ -48,7 +43,7 @@ The element content as a 64-bit signed integer.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

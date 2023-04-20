@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/rangeitemheadervalue/rangeitemheadervalue/
 ---
-## RangeItemHeaderValue::RangeItemHeaderValue([Nullable](../../../system/nullable/)\<**int64_t**\>, [Nullable](../../../system/nullable/)\<**int64_t**\>) constructor
+## RangeItemHeaderValue::RangeItemHeaderValue(Nullable\<int64_t\>, Nullable\<int64_t\>) constructor
 
 
 Constructs a new instance.

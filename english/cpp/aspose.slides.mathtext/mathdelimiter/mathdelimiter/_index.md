@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.mathtext/mathdelimiter/mathdelimiter/
 ---
-## MathDelimiter::MathDelimiter([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) constructor
+## MathDelimiter::MathDelimiter(System::SharedPtr\<IMathElement\>) constructor
 
 
 Initializes [MathDelimiter](../) with the specified element as single base argument

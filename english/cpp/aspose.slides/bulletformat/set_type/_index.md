@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/bulletformat/set_type/
 ---
-## BulletFormat::set_Type([BulletType](../../bullettype/)) method
+## BulletFormat::set_Type(BulletType) method
 
 
 Sets the bullet type of a paragraph with no inheritance. Write [BulletType](../../bullettype/).

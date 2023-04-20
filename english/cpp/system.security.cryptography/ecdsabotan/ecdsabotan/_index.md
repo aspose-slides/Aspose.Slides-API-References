@@ -15,12 +15,7 @@ Constructor. Uses default parameters.
 System::Security::Cryptography::ECDsaBotan::ECDsaBotan()
 ```
 
-## See Also
-
-* Class [ECDsaBotan](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsaBotan::ECDsaBotan(const [ECParameters](../../ecparameters/)\&) constructor
+## ECDsaBotan::ECDsaBotan(const ECParameters\&) constructor
 
 
 Constructor.
@@ -36,13 +31,7 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const ECParameters &param
 | --- | --- | --- |
 | parameters | const [ECParameters](../../ecparameters/)\& | Algorithm parameters. |
 
-## See Also
-
-* Struct [ECParameters](../../ecparameters/)
-* Class [ECDsaBotan](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsaBotan::ECDsaBotan(const [ECCurve](../../eccurve/)\&) constructor
+## ECDsaBotan::ECDsaBotan(const ECCurve\&) constructor
 
 
 Constructor.
@@ -58,13 +47,7 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const ECCurve &curve)
 | --- | --- | --- |
 | curve | const [ECCurve](../../eccurve/)\& | Curve used to create the public/private key pair. |
 
-## See Also
-
-* Struct [ECCurve](../../eccurve/)
-* Class [ECDsaBotan](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsaBotan::ECDsaBotan(**int32_t**) constructor
+## ECDsaBotan::ECDsaBotan(int32_t) constructor
 
 
 Constructor.
@@ -80,11 +63,6 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(int32_t key_size)
 | --- | --- | --- |
 | key_size | **int32_t** | Key size in bits. |
 
-## See Also
-
-* Class [ECDsaBotan](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
 ## ECDsaBotan::ECDsaBotan(const Botan::ECDSA_PublicKey\&) constructor
 
 
@@ -101,11 +79,6 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const Botan::ECDSA_Public
 | --- | --- | --- |
 | key | const Botan::ECDSA_PublicKey\& | Botan public key. |
 
-## See Also
-
-* Class [ECDsaBotan](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
 ## ECDsaBotan::ECDsaBotan(const Botan::ECDSA_PrivateKey\&) constructor
 
 
@@ -125,5 +98,7 @@ System::Security::Cryptography::ECDsaBotan::ECDsaBotan(const Botan::ECDSA_Privat
 ## See Also
 
 * Class [ECDsaBotan](../)
+* Struct [ECParameters](../../ecparameters/)
+* Struct [ECCurve](../../eccurve/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

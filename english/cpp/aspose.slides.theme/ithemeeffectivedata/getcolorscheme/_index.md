@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.theme/ithemeeffectivedata/getcolorscheme/
 ---
-## IThemeEffectiveData::GetColorScheme([System::Drawing::Color](../../../system.drawing/color/)) method
+## IThemeEffectiveData::GetColorScheme(System::Drawing::Color) method
 
 
 Returns the color scheme.

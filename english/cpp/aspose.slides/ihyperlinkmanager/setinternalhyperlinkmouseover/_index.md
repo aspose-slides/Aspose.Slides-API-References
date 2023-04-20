@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/ihyperlinkmanager/setinternalhyperlinkmouseover/
 ---
-## IHyperlinkManager::SetInternalHyperlinkMouseOver([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## IHyperlinkManager::SetInternalHyperlinkMouseOver(System::SharedPtr\<ISlide\>) method
 
 
 Sets internal hyperlink mouse over.

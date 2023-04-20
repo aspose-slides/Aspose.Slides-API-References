@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/imathblockcollection/remove/
 ---
-## IMathBlockCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## IMathBlockCollection::Remove(System::SharedPtr\<IMathBlock\>) method
 
 
 Removes the first occurrence of a specific object from the collection/>.

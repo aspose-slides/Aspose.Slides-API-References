@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.xml/xmlconvert/tochar/
 ---
-## XmlConvert::ToChar(const [String](../../../system/string/)\&) method
+## XmlConvert::ToChar(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [Char](../../../system/char/) equivalent.

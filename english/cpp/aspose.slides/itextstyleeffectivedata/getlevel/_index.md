@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/itextstyleeffectivedata/getlevel/
 ---
-## ITextStyleEffectiveData::GetLevel(**int32_t**) method
+## ITextStyleEffectiveData::GetLevel(int32_t) method
 
 
 Returns level of effective style.

@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.collections/bitarray/settemplateweakptr/
 ---
-## BitArray::SetTemplateWeakPtr(**uint32_t**) method
+## BitArray::SetTemplateWeakPtr(uint32_t) method
 
 
 Formal implementation of weak template arguments mechanism; inapplicable to this class.

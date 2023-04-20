@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides/ipresentation/set_firstslidenumber/
 ---
-## IPresentation::set_FirstSlideNumber(**int32_t**) method
+## IPresentation::set_FirstSlideNumber(int32_t) method
 
 
 Represents the first slide number in the presentation. Write **int32_t**.

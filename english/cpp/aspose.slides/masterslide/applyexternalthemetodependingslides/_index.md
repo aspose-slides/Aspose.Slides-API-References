@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/masterslide/applyexternalthemetodependingslides/
 ---
-## MasterSlide::ApplyExternalThemeToDependingSlides([System::String](../../../system/string/)) method
+## MasterSlide::ApplyExternalThemeToDependingSlides(System::String) method
 
 
 Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides.

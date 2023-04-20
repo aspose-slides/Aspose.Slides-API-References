@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/aspose.slides.charts/iaxis/set_minorunitscale/
 ---
-## IAxis::set_MinorUnitScale([TimeUnitType](../../timeunittype/)) method
+## IAxis::set_MinorUnitScale(TimeUnitType) method
 
 
 Represents the major unit scale for the date axis. Write [TimeUnitType](../../timeunittype/).

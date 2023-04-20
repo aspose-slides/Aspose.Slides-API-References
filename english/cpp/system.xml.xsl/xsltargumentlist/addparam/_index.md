@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.xsl/xsltargumentlist/addparam/
 ---
-## XsltArgumentList::AddParam(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## XsltArgumentList::AddParam(const String\&, const String\&, const SharedPtr\<Object\>\&) method
 
 
 Adds a parameter to the [XsltArgumentList](../) and associates it with the namespace qualified name.
@@ -26,8 +26,8 @@ void System::Xml::Xsl::XsltArgumentList::AddParam(const String &name, const Stri
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [XsltArgumentList](../)
 * Namespace [System::Xml::Xsl](../../)

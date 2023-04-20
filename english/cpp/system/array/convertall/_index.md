@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/system/array/convertall/
 ---
-## Array::ConvertAll([ArrayPtr](../../arrayptr/)\<InputType\>, [Converter](../../converter/)\<InputType, OutputType\>) method
+## Array::ConvertAll(ArrayPtr\<InputType\>, Converter\<InputType, OutputType\>) method
 
 
 Constructs a new [Array](../) object and fills it with elements of the specified array converted to **OutputType** type using the specified converter delegate.
@@ -34,14 +34,7 @@ template<typename InputType,typename OutputType> static ArrayPtr<OutputType> Sys
 
 A new array containing values of **OutputType** type equivalent to the values of **input_array**
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [Converter](../../converter/)
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::ConvertAll([ArrayPtr](../../arrayptr/)\<InputType\>, std::function\<OutputType(InputType)>) method
+## Array::ConvertAll(ArrayPtr\<InputType\>, std::function\<OutputType(InputType)>) method
 
 
 Constructs a new [Array](../) object and fills it with elements of the specified array converted to **OutputType** type using the specified converter function object.
@@ -72,6 +65,7 @@ A new array containing values of **OutputType** type equivalent to the values of
 ## See Also
 
 * Typedef [ArrayPtr](../../arrayptr/)
+* Typedef [Converter](../../converter/)
 * Class [Array](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

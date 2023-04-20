@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/hmacsha1/hmacsha1/
 ---
-## HMACSHA1::HMACSHA1(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) constructor
+## HMACSHA1::HMACSHA1(const System::ArrayPtr\<uint8_t\>\&) constructor
 
 
 Constructor.

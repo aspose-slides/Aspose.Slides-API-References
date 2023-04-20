@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschema/set_attributeformdefault/
 ---
-## XmlSchema::set_AttributeFormDefault([XmlSchemaForm](../../xmlschemaform/)) method
+## XmlSchema::set_AttributeFormDefault(XmlSchemaForm) method
 
 
 Sets the form for attributes declared in the target namespace of the schema.

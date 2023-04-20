@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ilightrig/set_lighttype/
 ---
-## ILightRig::set_LightType([LightRigPresetType](../../lightrigpresettype/)) method
+## ILightRig::set_LightType(LightRigPresetType) method
 
 
 Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Write [LightRigPresetType](../../lightrigpresettype/).

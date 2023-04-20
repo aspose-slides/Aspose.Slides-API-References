@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography.xml/dataobject/set_data/
 ---
-## DataObject::set_Data([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlNodeList](../../../system.xml/xmlnodelist/)\>) method
+## DataObject::set_Data(SharedPtr\<System::Xml::XmlNodeList\>) method
 
 
 

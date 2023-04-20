@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides.charts/charttitle/addtextframeforoverriding/
 ---
-## ChartTitle::AddTextFrameForOverriding([System::String](../../../system/string/)) method
+## ChartTitle::AddTextFrameForOverriding(System::String) method
 
 
 Initialize TextFrameForOverriding with the text in paramener \"text\". If TextFrameForOverriding is already initialized then simply changes its text.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ibaseslide/set_name/
 ---
-## IBaseSlide::set_Name([System::String](../../../system/string/)) method
+## IBaseSlide::set_Name(System::String) method
 
 
 Sets the name of a slide. Write [System::String](../../../system/string/).

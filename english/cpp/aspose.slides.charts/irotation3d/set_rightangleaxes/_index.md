@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/irotation3d/set_rightangleaxes/
 ---
-## IRotation3D::set_RightAngleAxes(**bool**) method
+## IRotation3D::set_RightAngleAxes(bool) method
 
 
 Determines whether the chart axes are at right angles, rather than drawn in perspective. In other words it determines whether the chart angles of axes are independent from chart rotation or elevation. Write **bool**.

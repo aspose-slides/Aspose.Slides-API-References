@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/filtereffect/set_reveal/
 ---
-## FilterEffect::set_Reveal([FilterEffectRevealType](../../filtereffectrevealtype/)) method
+## FilterEffect::set_Reveal(FilterEffectRevealType) method
 
 
 Represents that effect with behavior must reveal (in/out) Write [FilterEffectRevealType](../../filtereffectrevealtype/).

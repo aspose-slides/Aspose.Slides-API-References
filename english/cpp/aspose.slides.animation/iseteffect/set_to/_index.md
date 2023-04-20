@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/iseteffect/set_to/
 ---
-## ISetEffect::set_To([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ISetEffect::set_To(System::SharedPtr\<System::Object\>) method
 
 
 Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, [ColorFormat](../../../aspose.slides/colorformat/), float, int, string. Write [System::Object](../../../system/object/).

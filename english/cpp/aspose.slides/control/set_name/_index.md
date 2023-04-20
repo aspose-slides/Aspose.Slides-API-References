@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/control/set_name/
 ---
-## Control::set_Name([System::String](../../../system/string/)) method
+## Control::set_Name(System::String) method
 
 
 Sets the name of this control. Write [System::String](../../../system/string/).

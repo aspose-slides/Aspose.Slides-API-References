@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/set_filename/
 ---
-## ContentDispositionHeaderValue::set_FileName([String](../../../system/string/)) method
+## ContentDispositionHeaderValue::set_FileName(String) method
 
 
 Sets a value that determines how to construct a filename for storing the message payload. It is used when the entity is detached and stored in a separate file.

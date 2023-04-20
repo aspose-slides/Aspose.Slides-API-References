@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system/object/equals/
 ---
-## Object::Equals([ptr](../ptr/)) method
+## Object::Equals(ptr) method
 
 
 Compares objects using C# [Object.Equals](./) semantics.
@@ -26,12 +26,6 @@ virtual bool System::Object::Equals(ptr obj)
 
 True if objects are considered equal and false otherwise.
 
-## See Also
-
-* Typedef [ptr](../ptr/)
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Object::Equals(T1 const\&, T2 const\&) method
 
 
@@ -60,12 +54,6 @@ template<typename T1,typename T2> static std::enable_if<IsSmartPtr<T1>::value &&
 
 True if objects match either by reference or semantically (by [Object.Equals](./)-alike comparison), false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Object::Equals(T1 const\&, T2 const\&) method
 
 
@@ -94,13 +82,7 @@ template<typename T1,typename T2> static std::enable_if<!IsSmartPtr<T1>::value &
 
 True if objects are considered equal by equality operator available, false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Object::Equals(**float** const\&, **float** const\&) method
+## Object::Equals(float const\&, float const\&) method
 
 
 Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN.
@@ -121,12 +103,7 @@ bool System::Object::Equals(float const &objA, float const &objB)
 
 True if **objA** and **objB** are both NaN or equal, false otherwise.
 
-## See Also
-
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Object::Equals(**double** const\&, **double** const\&) method
+## Object::Equals(double const\&, double const\&) method
 
 
 Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN.
@@ -149,6 +126,8 @@ True if **objA** and **objB** are both NaN or equal, false otherwise.
 
 ## See Also
 
+* Typedef [ptr](../ptr/)
 * Class [Object](../)
+* Struct [IsSmartPtr](../../issmartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

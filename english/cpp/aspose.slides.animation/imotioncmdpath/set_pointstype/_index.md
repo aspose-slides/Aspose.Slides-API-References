@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.animation/imotioncmdpath/set_pointstype/
 ---
-## IMotionCmdPath::set_PointsType([MotionPathPointsType](../../motionpathpointstype/)) method
+## IMotionCmdPath::set_PointsType(MotionPathPointsType) method
 
 
 Specifies command points type Write [MotionPathPointsType](../../motionpathpointstype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.io/file/getlastaccesstimeutc/
 ---
-## File::GetLastAccessTimeUtc(const [String](../../../system/string/)\&) method
+## File::GetLastAccessTimeUtc(const String\&) method
 
 
 Returns the last access time of the specified entity as UTC time.

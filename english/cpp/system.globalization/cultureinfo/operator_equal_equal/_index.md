@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.globalization/cultureinfo/operator_equal_equal/
 ---
-## CultureInfo::operator==(const [CultureInfo](../)\&) const method
+## CultureInfo::operator==(const CultureInfo\&) const method
 
 
 Compares culture parameters.
@@ -28,7 +28,6 @@ True if culture parameters match, false otherwise.
 
 ## See Also
 
-* Class [CultureInfo](../)
 * Class [CultureInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

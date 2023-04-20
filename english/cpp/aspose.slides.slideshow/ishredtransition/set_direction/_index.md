@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/ishredtransition/set_direction/
 ---
-## IShredTransition::set_Direction([TransitionInOutDirectionType](../../transitioninoutdirectiontype/)) method
+## IShredTransition::set_Direction(TransitionInOutDirectionType) method
 
 
 Direction of transition. Write [TransitionInOutDirectionType](../../transitioninoutdirectiontype/).

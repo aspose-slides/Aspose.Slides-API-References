@@ -15,12 +15,7 @@ Constructor.
 System::Threading::Thread::Thread()
 ```
 
-## See Also
-
-* Class [Thread](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Thread::Thread([ThreadStart](../../threadstart/)) constructor
+## Thread::Thread(ThreadStart) constructor
 
 
 Constructor.
@@ -36,13 +31,7 @@ System::Threading::Thread::Thread(ThreadStart thread_function)
 | --- | --- | --- |
 | thread_function | [ThreadStart](../../threadstart/) | Function to be executed by thread. |
 
-## See Also
-
-* Typedef [ThreadStart](../../threadstart/)
-* Class [Thread](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Thread::Thread([ParameterizedThreadStart](../../parameterizedthreadstart/)) constructor
+## Thread::Thread(ParameterizedThreadStart) constructor
 
 
 Constructor.
@@ -58,13 +47,7 @@ System::Threading::Thread::Thread(ParameterizedThreadStart thread_function)
 | --- | --- | --- |
 | thread_function | [ParameterizedThreadStart](../../parameterizedthreadstart/) | Function to be executed by thread. |
 
-## See Also
-
-* Typedef [ParameterizedThreadStart](../../parameterizedthreadstart/)
-* Class [Thread](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Thread::Thread([Thread](../)\&) constructor
+## Thread::Thread(Thread\&) constructor
 
 
 Copy constructor.
@@ -82,7 +65,8 @@ System::Threading::Thread::Thread(Thread &t)
 
 ## See Also
 
-* Class [Thread](../)
+* Typedef [ThreadStart](../../threadstart/)
+* Typedef [ParameterizedThreadStart](../../parameterizedthreadstart/)
 * Class [Thread](../)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

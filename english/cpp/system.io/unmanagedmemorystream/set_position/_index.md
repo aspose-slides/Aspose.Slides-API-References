@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.io/unmanagedmemorystream/set_position/
 ---
-## UnmanagedMemoryStream::set_Position(**int64_t**) method
+## UnmanagedMemoryStream::set_Position(int64_t) method
 
 
 Sets the stream's position.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography.xml/x509issuerserial/set_serialnumber/
 ---
-## X509IssuerSerial::set_SerialNumber([String](../../../system/string/)) method
+## X509IssuerSerial::set_SerialNumber(String) method
 
 
 

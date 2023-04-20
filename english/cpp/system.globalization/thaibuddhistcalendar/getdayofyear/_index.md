@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/thaibuddhistcalendar/getdayofyear/
 ---
-## ThaiBuddhistCalendar::GetDayOfYear([DateTime](../../../system/datetime/)) const method
+## ThaiBuddhistCalendar::GetDayOfYear(DateTime) const method
 
 
 Gets day of year for the specified time point.

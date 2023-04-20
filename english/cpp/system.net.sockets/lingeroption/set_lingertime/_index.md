@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net.sockets/lingeroption/set_lingertime/
 ---
-## LingerOption::set_LingerTime(**int32_t**) method
+## LingerOption::set_LingerTime(int32_t) method
 
 
 Sets a delay timeout in seconds.

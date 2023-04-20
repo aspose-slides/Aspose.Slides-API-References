@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.diagnostics/processstartinfo/set_redirectstandardoutput/
 ---
-## ProcessStartInfo::set_RedirectStandardOutput(**bool**) method
+## ProcessStartInfo::set_RedirectStandardOutput(bool) method
 
 
 Sets RedirectStandardOutput property.

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/summaryzoomsectioncollection/getsummarysection/
 ---
-## SummaryZoomSectionCollection::GetSummarySection([System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>) method
+## SummaryZoomSectionCollection::GetSummarySection(System::SharedPtr\<ISection\>) method
 
 
 Returns Summary Zoom [Section](../../section/) element for the given section.

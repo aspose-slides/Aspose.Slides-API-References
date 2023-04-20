@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.io/directory/getdirectories/
 ---
-## Directory::GetDirectories(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## Directory::GetDirectories(const String\&, const String\&, SearchOption) method
 
 
 Searches for the directories that satisfy the specified search criteria either in the specified directory or in the whole directory tree rooted in the specified directory.
@@ -30,9 +30,9 @@ An array of full paths of the found directories whose names match **searchPatter
 
 ## See Also
 
+* Enum [SearchOption](../../searchoption/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
-* Enum [SearchOption](../../searchoption/)
 * Class [Directory](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

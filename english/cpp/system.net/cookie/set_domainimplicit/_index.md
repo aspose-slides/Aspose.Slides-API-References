@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net/cookie/set_domainimplicit/
 ---
-## Cookie::set_DomainImplicit(**bool**) method
+## Cookie::set_DomainImplicit(bool) method
 
 
 Sets a value that indicates if the domain is implicit.

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathrightsubsuperscriptelementfactory/
 Allows to create [IMathRightSubSuperscriptElementFactory](./)
 
 ```cpp
-class IMathRightSubSuperscriptElementFactory : public System::Object
+class IMathRightSubSuperscriptElementFactory : public virtual System::Object
 ```
 
 ## Methods

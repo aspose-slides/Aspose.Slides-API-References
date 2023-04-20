@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing/solidbrush/solidbrush/
 ---
-## SolidBrush::SolidBrush(const [Color](../../color/)\&) constructor
+## SolidBrush::SolidBrush(const Color\&) constructor
 
 
 Constructs a new [SolidBrush](../) object and initalizes it with the specified color.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/icustomxmlpartcollection/removeat/
 ---
-## ICustomXmlPartCollection::RemoveAt(**int32_t**) method
+## ICustomXmlPartCollection::RemoveAt(int32_t) method
 
 
 Removes custom xml part at the specified index.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/section/settemplateweakptr/
 ---
-## Section::SetTemplateWeakPtr(**uint32_t**) method
+## Section::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

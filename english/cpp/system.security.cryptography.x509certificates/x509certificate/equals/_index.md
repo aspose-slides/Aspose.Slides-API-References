@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.security.cryptography.x509certificates/x509certificate/equals/
 ---
-## X509Certificate::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## X509Certificate::Equals(SharedPtr\<Object\>) method
 
 
 Compares two certificates.

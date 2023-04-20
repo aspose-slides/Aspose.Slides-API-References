@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.net.http.headers/httpheaders/parsedvaluesaslist/
 ---
-## HttpHeaders::ParsedValuesAsList(const [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpHeaders::ParsedValuesAsList(const System::SharedPtr\<Object\>) method
 
 
 Converts parsed values to list.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.animation/ibehaviorpropertycollection/insert/
 ---
-## IBehaviorPropertyCollection::Insert(**int32_t**, [System::String](../../../system/string/)) method
+## IBehaviorPropertyCollection::Insert(int32_t, System::String) method
 
 
 Inserts a new property (with the specified property value) to the collection at the specified index.

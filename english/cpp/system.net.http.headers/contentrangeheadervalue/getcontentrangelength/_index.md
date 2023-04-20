@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.net.http.headers/contentrangeheadervalue/getcontentrangelength/
 ---
-## ContentRangeHeaderValue::GetContentRangeLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## ContentRangeHeaderValue::GetContentRangeLength(String, int32_t, System::SharedPtr\<Object\>\&) method
 
 
 Converts a passed string from the specified position to an instance of the [ContentRangeHeaderValue](../) class.
@@ -30,8 +30,8 @@ The length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [ContentRangeHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)

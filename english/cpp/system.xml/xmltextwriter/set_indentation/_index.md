@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmltextwriter/set_indentation/
 ---
-## XmlTextWriter::set_Indentation(**int32_t**) method
+## XmlTextWriter::set_Indentation(int32_t) method
 
 
 Sets how many IndentChars to write for each level in the hierarchy when [XmlTextWriter::set_Formatting](../set_formatting/) is set to [Formatting::Indented](../../formatting/).

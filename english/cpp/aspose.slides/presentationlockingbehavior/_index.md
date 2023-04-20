@@ -3,7 +3,7 @@ title: PresentationLockingBehavior
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents the behavior regarding treating the IPresentation source (file or System::IO::Stream) while loading and working with an instance of IPresentation."
 type: docs
-weight: 6618
+weight: 6358
 url: /cpp/aspose.slides/presentationlockingbehavior/
 ---
 ## PresentationLockingBehavior enum

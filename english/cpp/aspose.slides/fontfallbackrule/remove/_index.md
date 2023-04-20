@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/fontfallbackrule/remove/
 ---
-## FontFallBackRule::Remove([System::String](../../../system/string/)) method
+## FontFallBackRule::Remove(System::String) method
 
 
 Removes the first occurrence of a specific FallBack font from the list.

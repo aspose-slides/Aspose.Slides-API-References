@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.net/httpwebrequest/set_allowautoredirect/
 ---
-## HttpWebRequest::set_AllowAutoRedirect(**bool**) method
+## HttpWebRequest::set_AllowAutoRedirect(bool) method
 
 
 Sets a value that indicates if the request should follow redirections.

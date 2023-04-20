@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/directory/enumeratedirectories/
 ---
-## Directory::EnumerateDirectories(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## Directory::EnumerateDirectories(const String\&, const String\&, SearchOption) method
 
 
 Searches for the directories that satisfy the specified search criteria either in the specified directory or in the whole directory tree rooted in the specified directory.
@@ -30,9 +30,9 @@ The enumerable collection of full paths of the found directories whose names mat
 
 ## See Also
 
+* Enum [SearchOption](../../searchoption/)
 * Typedef [StringEnumerablePtr](../stringenumerableptr/)
 * Class [String](../../../system/string/)
-* Enum [SearchOption](../../searchoption/)
 * Class [Directory](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

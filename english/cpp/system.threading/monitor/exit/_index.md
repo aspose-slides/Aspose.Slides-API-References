@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.threading/monitor/exit/
 ---
-## Monitor::Exit(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Monitor::Exit(const SharedPtr\<Object\>\&) method
 
 
 Releases an exclusive lock on the specified object.

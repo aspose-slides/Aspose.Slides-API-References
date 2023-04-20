@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.io/file/delete/
 ---
-## File::Delete(const [String](../../../system/string/)\&) method
+## File::Delete(const String\&) method
 
 
 Deletes the specified file or directory.

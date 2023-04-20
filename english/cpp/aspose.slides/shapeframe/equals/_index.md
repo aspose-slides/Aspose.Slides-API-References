@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/shapeframe/equals/
 ---
-## ShapeFrame::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ShapeFrame::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Returns a value indicating whether this instance is equal to a specified object.
@@ -26,14 +26,7 @@ bool Aspose::Slides::ShapeFrame::Equals(System::SharedPtr<System::Object> obj) o
 
 **True** if obj is a [ShapeFrame](../) that has the same value as this instance; otherwise, **false**.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [ShapeFrame](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeFrame::Equals([System::SharedPtr](../../../system/sharedptr/)\<[ShapeFrame](../)\>) method
+## ShapeFrame::Equals(System::SharedPtr\<ShapeFrame\>) method
 
 
 Returns a value indicating whether this instance is equal to a specified object.
@@ -56,7 +49,7 @@ bool Aspose::Slides::ShapeFrame::Equals(System::SharedPtr<ShapeFrame> value)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ShapeFrame](../)
+* Class [Object](../../../system/object/)
 * Class [ShapeFrame](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.threading/interlocked/decrement/
 ---
-## Interlocked::Decrement(**int32_t**\&) method
+## Interlocked::Decrement(int32_t\&) method
 
 
 Decrements value atomically.
@@ -26,12 +26,7 @@ static int32_t System::Threading::Interlocked::Decrement(int32_t &location)
 
 Value of variable right after it was decremented.
 
-## See Also
-
-* Class [Interlocked](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Interlocked::Decrement(**int64_t**\&) method
+## Interlocked::Decrement(int64_t\&) method
 
 
 Decrements value atomically.

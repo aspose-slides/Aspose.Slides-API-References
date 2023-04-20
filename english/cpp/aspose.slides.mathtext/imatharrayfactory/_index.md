@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imatharrayfactory/
 Allows to create a math array
 
 ```cpp
-class IMathArrayFactory : public System::Object
+class IMathArrayFactory : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/icharttextformat/copyfrom/
 ---
-## IChartTextFormat::CopyFrom([System::SharedPtr](../../../system/sharedptr/)\<[ITextFrame](../../../aspose.slides/itextframe/)\>) method
+## IChartTextFormat::CopyFrom(System::SharedPtr\<ITextFrame\>) method
 
 
 Copies text format from specified text frame.

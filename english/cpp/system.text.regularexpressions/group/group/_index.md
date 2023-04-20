@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.text.regularexpressions/group/group/
 ---
-## Group::Group(const [UStringPtr](../../ustringptr/)\&, int, int) constructor
+## Group::Group(const UStringPtr\&, int, int) constructor
 
 
 Constructor.
@@ -24,12 +24,6 @@ System::Text::RegularExpressions::Group::Group(const UStringPtr &source, int ind
 | index | int | Matching beginning index. |
 | length | int | [Match](../../match/) length. |
 
-## See Also
-
-* Typedef [UStringPtr](../../ustringptr/)
-* Class [Group](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
 ## Group::Group() constructor
 
 
@@ -41,6 +35,7 @@ System::Text::RegularExpressions::Group::Group()
 
 ## See Also
 
+* Typedef [UStringPtr](../../ustringptr/)
 * Class [Group](../)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

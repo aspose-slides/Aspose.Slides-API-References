@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.effects/iimagetransformoperationfactory/createbilevel/
 ---
-## IImageTransformOperationFactory::CreateBiLevel(**float**) method
+## IImageTransformOperationFactory::CreateBiLevel(float) method
 
 
 Creates [BiLevel](../../bilevel/) effect.

@@ -27,12 +27,7 @@ int System::Text::ICUEncoding::GetByteCount(const char_t *chars, int count) over
 
 Required buffer size.
 
-## See Also
-
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoding::GetByteCount([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int) method
+## ICUEncoding::GetByteCount(ArrayPtr\<char_t\>, int, int) method
 
 
 RTTI.
@@ -41,12 +36,6 @@ RTTI.
 virtual int System::Text::Encoding::GetByteCount(ArrayPtr<char_t> chars, int index, int count)
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## ICUEncoding::GetByteCount(System::Details::ArrayView\<char_t\>, int, int) method
 
 
@@ -56,11 +45,6 @@ RTTI.
 virtual int System::Text::Encoding::GetByteCount(System::Details::ArrayView<char_t> chars, int index, int count)
 ```
 
-## See Also
-
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## ICUEncoding::GetByteCount(const System::Details::StackArray\<char_t, N\>\&, int, int) method
 
 
@@ -70,12 +54,7 @@ RTTI.
 template<std::size_t> int System::Text::Encoding::GetByteCount(const System::Details::StackArray<char_t, N> &chars, int index, int count)
 ```
 
-## See Also
-
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoding::GetByteCount(const [String](../../../system/string/)\&) method
+## ICUEncoding::GetByteCount(const String\&) method
 
 
 RTTI.
@@ -84,13 +63,7 @@ RTTI.
 virtual int System::Text::Encoding::GetByteCount(const String &s)
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoding::GetByteCount([ArrayPtr](../../../system/arrayptr/)\<char_t\>) method
+## ICUEncoding::GetByteCount(ArrayPtr\<char_t\>) method
 
 
 RTTI.
@@ -99,12 +72,6 @@ RTTI.
 virtual int System::Text::Encoding::GetByteCount(ArrayPtr<char_t> chars)
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ICUEncoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## ICUEncoding::GetByteCount(const char_t *, int) method
 
 
@@ -116,6 +83,8 @@ virtual int System::Text::Encoding::GetByteCount(const char_t *chars, int count)
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ICUEncoding](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

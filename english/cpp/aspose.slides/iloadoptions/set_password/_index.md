@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/iloadoptions/set_password/
 ---
-## ILoadOptions::set_Password([System::String](../../../system/string/)) method
+## ILoadOptions::set_Password(System::String) method
 
 
 Sets the password. Writes [System::String](../../../system/string/).

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.xml/xmlwritersettings/set_donotescapeuriattributes/
 ---
-## XmlWriterSettings::set_DoNotEscapeUriAttributes(**bool**) method
+## XmlWriterSettings::set_DoNotEscapeUriAttributes(bool) method
 
 
 Sets a value that indicates whether the [XmlWriter](../../xmlwriter/) does not escape URI attributes.

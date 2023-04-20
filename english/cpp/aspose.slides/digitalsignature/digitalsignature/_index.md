@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/digitalsignature/digitalsignature/
 ---
-## DigitalSignature::DigitalSignature([System::SharedPtr](../../../system/sharedptr/)\<[System::Security::Cryptography::X509Certificates::X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)\>) constructor
+## DigitalSignature::DigitalSignature(System::SharedPtr\<System::Security::Cryptography::X509Certificates::X509Certificate2\>) constructor
 
 
 Creates a new [DigitalSignature](../) object with the specified certificate.
@@ -22,14 +22,7 @@ Aspose::Slides::DigitalSignature::DigitalSignature(System::SharedPtr<System::Sec
 | --- | --- | --- |
 | certificate | [System::SharedPtr](../../../system/sharedptr/)\<[System::Security::Cryptography::X509Certificates::X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)\> | Certificate that will be used to sign the presentation. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)
-* Class [DigitalSignature](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## DigitalSignature::DigitalSignature([System::String](../../../system/string/), [System::String](../../../system/string/)) constructor
+## DigitalSignature::DigitalSignature(System::String, System::String) constructor
 
 
 Creates a new [DigitalSignature](../) object with the specified certificate file path and password.
@@ -48,7 +41,9 @@ Aspose::Slides::DigitalSignature::DigitalSignature(System::String filePath, Syst
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [X509Certificate2](../../../system.security.cryptography.x509certificates/x509certificate2/)
 * Class [DigitalSignature](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.io/filestream/read/
 ---
-## FileStream::Read(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## FileStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -28,13 +28,7 @@ int32_t System::IO::FileStream::Read(const ArrayPtr<uint8_t> &buffer, int32_t of
 
 The number of bytes read.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [FileStream](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## FileStream::Read(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## FileStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -58,6 +52,7 @@ The number of bytes read.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [FileStream](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

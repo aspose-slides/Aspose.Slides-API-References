@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/luminance/equals/
 ---
-## Luminance::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Luminance::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [Luminance](../) is equal to the current [Luminance](../).

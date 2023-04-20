@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/paragraphcollection/copyto/
 ---
-## ParagraphCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>\>, **int32_t**) method
+## ParagraphCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IParagraph\>\>, int32_t) method
 
 
 Copies the elements of the [ICollection](../../../system.collections.generic/icollection/) to an [System::Array](../../../system/array/), starting at a particular [System::Array](../../../system/array/) index.

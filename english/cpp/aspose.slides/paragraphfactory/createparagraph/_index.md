@@ -20,14 +20,7 @@ System::SharedPtr<IParagraph> Aspose::Slides::ParagraphFactory::CreateParagraph(
 
 [Paragraph](../../paragraph/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraph](../../iparagraph/)
-* Class [ParagraphFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ParagraphFactory::CreateParagraph([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>) method
+## ParagraphFactory::CreateParagraph(System::SharedPtr\<IParagraph\>) method
 
 
 Creates a new paragraph with specified paragraph data using.

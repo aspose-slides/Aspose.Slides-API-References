@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.io/file/getcreationtime/
 ---
-## File::GetCreationTime(const [String](../../../system/string/)\&) method
+## File::GetCreationTime(const String\&) method
 
 
 Returns the creation time of the specified entity as local time.

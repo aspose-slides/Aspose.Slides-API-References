@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides.charts/axis/set_isautomaticmaxvalue/
 ---
-## Axis::set_IsAutomaticMaxValue(**bool**) method
+## Axis::set_IsAutomaticMaxValue(bool) method
 
 
 Indicates whether the max value is automatically assigned. Write **bool**.

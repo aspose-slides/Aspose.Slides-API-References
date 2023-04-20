@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/rangeconditionheadervalue/equals/
 ---
-## RangeConditionHeaderValue::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## RangeConditionHeaderValue::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

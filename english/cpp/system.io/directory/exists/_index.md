@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.io/directory/exists/
 ---
-## Directory::Exists(const [String](../../../system/string/)\&) method
+## Directory::Exists(const String\&) method
 
 
 Determines if the specified path refers to existing directory.

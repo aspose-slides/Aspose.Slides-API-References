@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/shapecollection/insertoleobjectframe/
 ---
-## ShapeCollection::InsertOleObjectFrame(**int32_t**, **float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)\>) method
+## ShapeCollection::InsertOleObjectFrame(int32_t, float, float, float, float, System::SharedPtr\<IOleEmbeddedDataInfo\>) method
 
 
 Creates a new OLE object and inserts it to a collection at the specified index.
@@ -41,15 +41,7 @@ auto oleObjectFrame = slide->get_Shapes()->InsertOleObjectFrame(2, 150.0f, 20.0f
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IOleObjectFrame](../../ioleobjectframe/)
-* Class [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::InsertOleObjectFrame(**int32_t**, **float**, **float**, **float**, **float**, [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## ShapeCollection::InsertOleObjectFrame(int32_t, float, float, float, float, System::String, System::String) method
 
 
 Creates a new OLE object and inserts it to a collection at the specified index.
@@ -79,7 +71,8 @@ Created OLE object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IOleObjectFrame](../../ioleobjectframe/)
-* Class [String](../../../system/string/)
+* Class [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)
 * Class [ShapeCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

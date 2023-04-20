@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/geometryshape/set_shapetype/
 ---
-## GeometryShape::set_ShapeType([Aspose::Slides::ShapeType](../../shapetype/)) method
+## GeometryShape::set_ShapeType(Aspose::Slides::ShapeType) method
 
 
 Sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Write [Slides::ShapeType](../../shapetype/).

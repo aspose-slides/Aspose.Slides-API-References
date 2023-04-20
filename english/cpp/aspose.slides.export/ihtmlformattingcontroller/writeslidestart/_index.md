@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.export/ihtmlformattingcontroller/writeslidestart/
 ---
-## IHtmlFormattingController::WriteSlideStart([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlGenerator](../../ihtmlgenerator/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../../aspose.slides/islide/)\>) method
+## IHtmlFormattingController::WriteSlideStart(System::SharedPtr\<IHtmlGenerator\>, System::SharedPtr\<ISlide\>) method
 
 
 Called to write html slide header. Called once per each of slides.

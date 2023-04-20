@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system.net/httpwebrequest/set_keepalive/
 ---
-## HttpWebRequest::set_KeepAlive(**bool**) method
+## HttpWebRequest::set_KeepAlive(bool) method
 
 
 Sets a value that indicates if the current request must contain the 'Keep-Alive' header.

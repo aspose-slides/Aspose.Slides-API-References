@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.xpath/xpathexpression/compile/
 ---
-## XPathExpression::Compile(const [String](../../../system/string/)\&) method
+## XPathExpression::Compile(const String\&) method
 
 
 Compiles the [XPath](../../) expression specified and returns an [XPathExpression](../) object representing the [XPath](../../) expression.
@@ -26,15 +26,7 @@ static SharedPtr<XPathExpression> System::Xml::XPath::XPathExpression::Compile(c
 
 An [XPathExpression](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathExpression](../)
-* Class [String](../../../system/string/)
-* Class [XPathExpression](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathExpression::Compile(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>\&) method
+## XPathExpression::Compile(const String\&, const SharedPtr\<IXmlNamespaceResolver\>\&) method
 
 
 Compiles the specified [XPath](../../) expression, with the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified for namespace resolution, and returns an [XPathExpression](../) object that represents the [XPath](../../) expression.
@@ -61,6 +53,5 @@ An [XPathExpression](../) object.
 * Class [XPathExpression](../)
 * Class [String](../../../system/string/)
 * Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
-* Class [XPathExpression](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

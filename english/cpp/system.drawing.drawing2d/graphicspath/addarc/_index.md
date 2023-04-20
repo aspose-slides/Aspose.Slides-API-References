@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing.drawing2d/graphicspath/addarc/
 ---
-## GraphicsPath::AddArc(**float**, **float**, **float**, **float**, **float**, **float**) method
+## GraphicsPath::AddArc(float, float, float, float, float, float) method
 
 
 Adds the specified elliptical arc to the path represented by the current object.
@@ -27,12 +27,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddArc(float x, float y, float wi
 | startAngle | **float** | Specifies the starting angle of the arc in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the arc |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddArc(int, int, int, int, **float**, **float**) method
+## GraphicsPath::AddArc(int, int, int, int, float, float) method
 
 
 Adds the specified elliptical arc to the path represented by the current object.
@@ -53,12 +48,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddArc(int x, int y, int width, i
 | startAngle | **float** | Specifies the starting angle of the arc in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the arc |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddArc(const [RectangleF](../../../system.drawing/rectanglef/)\&, **float**, **float**) method
+## GraphicsPath::AddArc(const RectangleF\&, float, float) method
 
 
 Adds the specified elliptical arc to the path represented by the current object.
@@ -76,13 +66,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddArc(const RectangleF &rect, fl
 | startAngle | **float** | Specifies the starting angle of the arc in degrees, measured clockwise from the X-axis |
 | sweepAngle | **float** | Specifies the angle between the starting angle and the end of the arc |
 
-## See Also
-
-* Class [RectangleF](../../../system.drawing/rectanglef/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddArc(const [Rectangle](../../../system.drawing/rectangle/)\&, **float**, **float**) method
+## GraphicsPath::AddArc(const Rectangle\&, float, float) method
 
 
 Adds the specified elliptical arc to the path represented by the current object.
@@ -102,7 +86,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddArc(const Rectangle &rect, flo
 
 ## See Also
 
-* Class [Rectangle](../../../system.drawing/rectangle/)
 * Class [GraphicsPath](../)
+* Class [RectangleF](../../../system.drawing/rectanglef/)
+* Class [Rectangle](../../../system.drawing/rectangle/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

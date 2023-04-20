@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/system/datetime/compare/
 ---
-## DateTime::Compare([DateTime](../), [DateTime](../)) method
+## DateTime::Compare(DateTime, DateTime) method
 
 
 Compares two values represented by the specified instances of [DateTime](../) class and returns the value indicating values' relative positions on the time line.
@@ -29,7 +29,6 @@ A value that is less than 0 if **t1** is earlier than **t2**; 0 if **t1** is the
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

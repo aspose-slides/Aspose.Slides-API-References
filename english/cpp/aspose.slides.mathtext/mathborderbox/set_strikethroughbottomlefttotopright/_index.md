@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.mathtext/mathborderbox/set_strikethroughbottomlefttotopright/
 ---
-## MathBorderBox::set_StrikethroughBottomLeftToTopRight(**bool**) method
+## MathBorderBox::set_StrikethroughBottomLeftToTopRight(bool) method
 
 
 Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box.

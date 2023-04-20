@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.text.regularexpressions/regex/ismatch/
 ---
-## Regex::IsMatch(const [String](../../../system/string/)\&, int) method
+## Regex::IsMatch(const String\&, int) method
 
 
 Matches regex against string.
@@ -27,13 +27,7 @@ bool System::Text::RegularExpressions::Regex::IsMatch(const String &input, int s
 
 True if string matches regex, false otherwise.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::IsMatch(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [RegexOptions](../../regexoptions/), [TimeSpan](../../../system/timespan/), int) method
+## Regex::IsMatch(const String\&, const String\&, RegexOptions, TimeSpan, int) method
 
 
 Checks if string matches pattern.
@@ -59,9 +53,9 @@ True if match is found, false otherwise.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [RegexOptions](../../regexoptions/)
-* Class [TimeSpan](../../../system/timespan/)
+* Class [String](../../../system/string/)
 * Class [Regex](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

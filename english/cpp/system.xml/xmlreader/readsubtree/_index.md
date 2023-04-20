@@ -24,6 +24,5 @@ A new XML reader instance set to [ReadState::Initial](../../readstate/). Calling
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlReader](../)
-* Class [XmlReader](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

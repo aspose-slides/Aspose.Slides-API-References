@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.threading/thread/set_currentculture/
 ---
-## Thread::set_CurrentCulture(const [SharedPtr](../../../system/sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Thread::set_CurrentCulture(const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 Sets thread culture.

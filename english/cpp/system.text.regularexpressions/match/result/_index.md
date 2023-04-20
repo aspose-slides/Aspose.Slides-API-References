@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.text.regularexpressions/match/result/
 ---
-## Match::Result(const [String](../../../system/string/)\&) method
+## Match::Result(const String\&) method
 
 
 Formats string by replacing submatch references with their values.

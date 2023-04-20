@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.globalization/calendar/addseconds/
 ---
-## Calendar::AddSeconds([DateTime](../../../system/datetime/), int) const method
+## Calendar::AddSeconds(DateTime, int) const method
 
 
 Adds seconds to time point.

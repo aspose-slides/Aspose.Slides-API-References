@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.drawing.drawing2d/graphicspath/addline/
 ---
-## GraphicsPath::AddLine(const [Point](../../../system.drawing/point/)\&, const [Point](../../../system.drawing/point/)\&) method
+## GraphicsPath::AddLine(const Point\&, const Point\&) method
 
 
 Adds the specified line to the path represented by the current object.
@@ -23,13 +23,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLine(const Point &pt1, const P
 | pt1 | const [Point](../../../system.drawing/point/)\& | The starting point of the line to add |
 | pt2 | const [Point](../../../system.drawing/point/)\& | The ending point of the line to add |
 
-## See Also
-
-* Class [Point](../../../system.drawing/point/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddLine(const [PointF](../../../system.drawing/pointf/)\&, const [PointF](../../../system.drawing/pointf/)\&) method
+## GraphicsPath::AddLine(const PointF\&, const PointF\&) method
 
 
 Adds the specified line to the path represented by the current object.
@@ -46,12 +40,6 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLine(const PointF &pt1, const 
 | pt1 | const [PointF](../../../system.drawing/pointf/)\& | The starting point of the line to add |
 | pt2 | const [PointF](../../../system.drawing/pointf/)\& | The ending point of the line to add |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
 ## GraphicsPath::AddLine(int, int, int, int) method
 
 
@@ -71,12 +59,7 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLine(int x1, int y1, int x2, i
 | x2 | int | The X coordinate of the ending point of the line to add |
 | y2 | int | The Y coordinate of the ending point of the line to add |
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::AddLine(**float**, **float**, **float**, **float**) method
+## GraphicsPath::AddLine(float, float, float, float) method
 
 
 Adds the specified line to the path represented by the current object.
@@ -97,6 +80,8 @@ void System::Drawing::Drawing2D::GraphicsPath::AddLine(float x1, float y1, float
 
 ## See Also
 
+* Class [Point](../../../system.drawing/point/)
 * Class [GraphicsPath](../)
+* Class [PointF](../../../system.drawing/pointf/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

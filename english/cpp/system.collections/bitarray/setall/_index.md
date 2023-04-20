@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.collections/bitarray/setall/
 ---
-## BitArray::SetAll(**bool**) method
+## BitArray::SetAll(bool) method
 
 
 Sets all elements to specific value.

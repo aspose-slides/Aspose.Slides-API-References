@@ -26,12 +26,7 @@ static bool System::Char::IsSurrogate(char_t c)
 
 True if the specified character is a UTF-16 surrogate code unit, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Char::IsSurrogate(const [String](../../string/)\&, int) method
+## Char::IsSurrogate(const String\&, int) method
 
 
 Determines whether the character at the specified index in the specified string is UTF-16 surrogate code unit.
@@ -54,7 +49,7 @@ True if the character at the specified index is a UTF-16 surrogate code unit, ot
 
 ## See Also
 
-* Class [String](../../string/)
 * Class [Char](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

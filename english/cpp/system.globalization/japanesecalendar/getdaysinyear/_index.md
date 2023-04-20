@@ -27,11 +27,6 @@ int System::Globalization::JapaneseCalendar::GetDaysInYear(int year, int era) co
 
 Number of days in specified year of specified era.
 
-## See Also
-
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::GetDaysInYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetDaysInYear(int year) const
 
 Number of days in specified year.
 
-## See Also
-
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::GetDaysInYear(int, int) const method
 
 

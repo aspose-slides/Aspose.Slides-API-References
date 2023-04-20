@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.net/webrequest/set_timeout/
 ---
-## WebRequest::set_Timeout(**int32_t**) method
+## WebRequest::set_Timeout(int32_t) method
 
 
 Sets an amount of time in milliseconds after which the request will be timed out.

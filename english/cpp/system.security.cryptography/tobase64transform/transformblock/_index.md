@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography/tobase64transform/transformblock/
 ---
-## ToBase64Transform::TransformBlock([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**) method
+## ToBase64Transform::TransformBlock(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, System::ArrayPtr\<uint8_t\>, int32_t) method
 
 
 Processes block of data and copies data to output array.

@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.xml/xmlreadersettings/set_schemas/
 ---
-## XmlReaderSettings::set_Schemas(const [SharedPtr](../../../system/sharedptr/)\<[Schema::XmlSchemaSet](../../../system.xml.schema/xmlschemaset/)\>\&) method
+## XmlReaderSettings::set_Schemas(const SharedPtr\<Schema::XmlSchemaSet\>\&) method
 
 
 Sets the XmlSchemaSet to use when performing schema validation.

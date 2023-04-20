@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.drawing/graphics/fillellipse/
 ---
-## Graphics::FillEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, [Rectangle](../../rectangle/)) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, Rectangle) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -23,15 +23,7 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, Recta
 | brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
 | rect | [Rectangle](../../rectangle/) | The bounding rectangle that defines the ellipse to fill |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, [RectangleF](../../rectanglef/)) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, RectangleF) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -48,15 +40,7 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, Recta
 | brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
 | rect | [RectangleF](../../rectanglef/) | The bounding rectangle that defines the ellipse to fill |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [RectangleF](../../rectanglef/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, int, int, int, int) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, int, int, int, int) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -76,14 +60,7 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, int x
 | width | int | The width of the bounding rectangle |
 | height | int | The height of the bounding rectangle |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, **float**, **float**, **float**, **float**) method
+## Graphics::FillEllipse(const SharedPtr\<Brush\>\&, float, float, float, float) method
 
 
 Fills the interior of the ellipse specified by the bounding rectangle using the specified brush.
@@ -107,6 +84,8 @@ void System::Drawing::Graphics::FillEllipse(const SharedPtr<Brush> &brush, float
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Brush](../../brush/)
+* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

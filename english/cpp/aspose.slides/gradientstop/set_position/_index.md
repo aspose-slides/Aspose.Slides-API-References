@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/gradientstop/set_position/
 ---
-## GradientStop::set_Position(**float**) method
+## GradientStop::set_Position(float) method
 
 
 Sets the position (0..1) of a gradient stop. Write **float**.

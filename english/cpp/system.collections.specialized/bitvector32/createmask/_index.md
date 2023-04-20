@@ -15,12 +15,7 @@ Creates the first mask in a series.
 static int32_t System::Collections::Specialized::BitVector32::CreateMask()
 ```
 
-## See Also
-
-* Class [BitVector32](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## BitVector32::CreateMask(**int32_t**) method
+## BitVector32::CreateMask(int32_t) method
 
 
 Creates the next mask in a series.

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/sectioncollection/copyto/
 ---
-## SectionCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>\>, **int32_t**) method
+## SectionCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<ISection\>\>, int32_t) method
 
 
 Copies the entire collection to the specified array.

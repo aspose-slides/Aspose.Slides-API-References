@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net/cookiecontainer/islocaldomain/
 ---
-## CookieContainer::IsLocalDomain([String](../../../system/string/)) method
+## CookieContainer::IsLocalDomain(String) method
 
 
 Checks if the specified domain is localhost.

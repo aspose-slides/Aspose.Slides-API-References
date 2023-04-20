@@ -26,11 +26,6 @@ T System::Nullable<T>::GetValueOrDefault(T default_value)
 
 A copy of the value represented by the current object is it is not null, otherwise the specified value is returned
 
-## See Also
-
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::GetValueOrDefault() method
 
 

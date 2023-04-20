@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/paragraph/set_endparagraphportionformat/
 ---
-## Paragraph::set_EndParagraphPortionFormat([System::SharedPtr](../../../system/sharedptr/)\<[IPortionFormat](../../iportionformat/)\>) method
+## Paragraph::set_EndParagraphPortionFormat(System::SharedPtr\<IPortionFormat\>) method
 
 
 Specifies the portion properties that are to be used if another portion is inserted after the last one.

@@ -27,11 +27,6 @@ static bool System::Char::IsControl(const char_t *str, int idx)
 
 True if the character at the specified index is a Unicode control character, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsControl(char_t) method
 
 

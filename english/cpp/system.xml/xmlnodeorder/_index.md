@@ -3,7 +3,7 @@ title: XmlNodeOrder
 second_title: Aspose.Slides for C++ API Reference
 description: Describes the document order of a node compared to a second node.
 type: docs
-weight: 820
+weight: 794
 url: /cpp/system.xml/xmlnodeorder/
 ---
 ## XmlNodeOrder enum

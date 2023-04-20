@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/aspose.slides/documentproperties/idx_set/
 ---
-## DocumentProperties::idx_set([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## DocumentProperties::idx_set(System::String, System::SharedPtr\<System::Object\>) method
 
 
 Sets the custom property associated with a specified name. Write [System::Object](../../../system/object/).
@@ -21,8 +21,8 @@ void Aspose::Slides::DocumentProperties::idx_set(System::String name, System::Sh
 Value can be **int**, **float**, **string**, **bool** or **DateTime**. 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [DocumentProperties](../)
 * Namespace [Aspose::Slides](../../)

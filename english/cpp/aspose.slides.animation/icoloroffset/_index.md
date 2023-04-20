@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.animation/icoloroffset/
 Represent color offset.
 
 ```cpp
-class IColorOffset : public System::Object
+class IColorOffset : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.effects/reflection/set_endreflectionopacity/
 ---
-## Reflection::set_EndReflectionOpacity(**float**) method
+## Reflection::set_EndReflectionOpacity(float) method
 
 
 End reflection opacity. (percents). Write **float**.

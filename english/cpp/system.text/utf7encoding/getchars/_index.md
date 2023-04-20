@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.text/utf7encoding/getchars/
 ---
-## UTF7Encoding::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<char_t\>, int) method
+## UTF7Encoding::GetChars(ArrayPtr\<uint8_t\>, int, int, ArrayPtr\<char_t\>, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -30,13 +30,7 @@ int System::Text::UTF7Encoding::GetChars(ArrayPtr<uint8_t> bytes, int byte_index
 
 Number of written characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetChars(const **uint8_t** *, int, char_t *, int) method
+## UTF7Encoding::GetChars(const uint8_t *, int, char_t *, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -59,12 +53,7 @@ int System::Text::UTF7Encoding::GetChars(const uint8_t *bytes, int byte_count, c
 
 Number of written characters.
 
-## See Also
-
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<char_t\>, int) method
+## UTF7Encoding::GetChars(ArrayPtr\<uint8_t\>, int, int, ArrayPtr\<char_t\>, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -88,13 +77,7 @@ virtual int System::Text::Encoding::GetChars(ArrayPtr<uint8_t> bytes, int byte_i
 
 Number of written characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## UTF7Encoding::GetChars(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -116,13 +99,7 @@ virtual ArrayPtr<char_t> System::Text::Encoding::GetChars(ArrayPtr<uint8_t> byte
 
 [Buffer](../../../system/buffer/) of decoded characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## UTF7Encoding::GetChars(ArrayPtr\<uint8_t\>) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -142,13 +119,7 @@ virtual ArrayPtr<char_t> System::Text::Encoding::GetChars(ArrayPtr<uint8_t> byte
 
 [Buffer](../../../system/buffer/) of decoded characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [UTF7Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF7Encoding::GetChars(const **uint8_t** *, int, char_t *, int) method
+## UTF7Encoding::GetChars(const uint8_t *, int, char_t *, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -173,6 +144,7 @@ Number of written characters.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [UTF7Encoding](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

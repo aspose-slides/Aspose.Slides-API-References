@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_unauthorizedaccessexception/is/
 ---
-## Details_UnauthorizedAccessException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_UnauthorizedAccessException::Is(const System::TypeInfo\&) const method
 
 
 

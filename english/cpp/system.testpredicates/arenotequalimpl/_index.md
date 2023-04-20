@@ -3,7 +3,7 @@ title: AreNotEqualImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Not-equal-compares values one or both of them being Decimal.
 type: docs
-weight: 53
+weight: 1
 url: /cpp/system.testpredicates/arenotequalimpl/
 ---
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
@@ -37,11 +37,6 @@ template<typename T1,typename T2> std::enable_if<TypeTraits::AnyOfDecimal<T1, T2
 
 gtest-styled assertion result.
 
-## See Also
-
-* Typedef [AnyOfDecimal](../../system.testpredicates.typetraits/anyofdecimal/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
 
 
@@ -72,11 +67,6 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_e
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T\&, const T\&, long long) function
 
 
@@ -107,11 +97,6 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&detail::has_method_e
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T\&, const T\&, long long) function
 
 
@@ -142,12 +127,7 @@ template<typename T> std::enable_if<!IsSmartPtr<T>::value &&std::is_class<T>::va
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T, const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T, const System::SharedPtr\<Object\>\&, long long) function
 
 
 Not-equal-compares boxable with [SmartPtr](../../system/smartptr/) values using unboxing.
@@ -177,14 +157,7 @@ template<typename T> std::enable_if<IsBoxable<T>::value, testing::AssertionResul
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsBoxable](../../system/isboxable/)
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Object](../../system/object/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
-## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const [System::SharedPtr](../../system/sharedptr/)\<[Object](../../system/object/)\>\&, T, long long) function
+## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const System::SharedPtr\<Object\>\&, T, long long) function
 
 
 Not-equal-compares boxable with [SmartPtr](../../system/smartptr/) values using unboxing.
@@ -214,13 +187,6 @@ template<typename T> std::enable_if<IsBoxable<T>::value, testing::AssertionResul
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsBoxable](../../system/isboxable/)
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Object](../../system/object/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T, std::nullptr_t, long long) function
 
 
@@ -250,10 +216,6 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreNotEqua
 
 gtest-styled assertion result.
 
-## See Also
-
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, std::nullptr_t, T, long long) function
 
 
@@ -283,10 +245,6 @@ template<typename T> testing::AssertionResult System::TestPredicates::AreNotEqua
 
 gtest-styled assertion result.
 
-## See Also
-
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
 
 
@@ -318,11 +276,6 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, T1, T2, int) function
 
 
@@ -355,5 +308,10 @@ gtest-styled assertion result.
 
 ## See Also
 
+* Typedef [AnyOfDecimal](../../system.testpredicates.typetraits/anyofdecimal/)
+* Typedef [SharedPtr](../../system/sharedptr/)
+* Class [Object](../../system/object/)
+* Struct [IsSmartPtr](../../system/issmartptr/)
+* Struct [IsBoxable](../../system/isboxable/)
 * Namespace [System::TestPredicates](../)
 * Library [Aspose.Slides](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.globalization/calendar/getera/
 ---
-## Calendar::GetEra([DateTime](../../../system/datetime/)) const method
+## Calendar::GetEra(DateTime) const method
 
 
 Gets era for the specified time point.

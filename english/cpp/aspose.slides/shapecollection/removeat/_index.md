@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.slides/shapecollection/removeat/
 ---
-## ShapeCollection::RemoveAt(**int32_t**) method
+## ShapeCollection::RemoveAt(int32_t) method
 
 
 Removes the element at the specified index of the collection.

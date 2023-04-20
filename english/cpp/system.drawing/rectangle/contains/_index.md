@@ -27,12 +27,7 @@ bool System::Drawing::Rectangle::Contains(int x, int y) const
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## See Also
-
-* Class [Rectangle](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Rectangle::Contains(const [Point](../../point/)\&) const method
+## Rectangle::Contains(const Point\&) const method
 
 
 Determines if the specified point is located within the rectangle represented by the current object.
@@ -52,13 +47,7 @@ bool System::Drawing::Rectangle::Contains(const Point &point) const
 
 True if the specified point is located within the rectangle represented by the current object, otherwise - false
 
-## See Also
-
-* Class [Point](../../point/)
-* Class [Rectangle](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Rectangle::Contains(const [Rectangle](../)\&) const method
+## Rectangle::Contains(const Rectangle\&) const method
 
 
 Determines if the specified rectangle is located within the rectangle represented by the current object.
@@ -81,6 +70,6 @@ True if the specified rectangle is located within the rectangle represented by t
 ## See Also
 
 * Class [Rectangle](../)
-* Class [Rectangle](../)
+* Class [Point](../../point/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

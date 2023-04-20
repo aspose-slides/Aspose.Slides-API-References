@@ -6,7 +6,7 @@ type: docs
 weight: 599
 url: /cpp/aspose.slides/documentproperties/containscustomproperty/
 ---
-## DocumentProperties::ContainsCustomProperty([System::String](../../../system/string/)) method
+## DocumentProperties::ContainsCustomProperty(System::String) method
 
 
 Check presents of a custom property with a specified name.

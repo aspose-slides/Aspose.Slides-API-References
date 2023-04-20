@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.xml/xmlnamespacemanager/lookupprefix/
 ---
-## XmlNamespaceManager::LookupPrefix(const [String](../../../system/string/)\&) method
+## XmlNamespaceManager::LookupPrefix(const String\&) method
 
 
 Finds the prefix declared for the given namespace URI.

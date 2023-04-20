@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.animation/itextanimation/
 Represent text animation.
 
 ```cpp
-class ITextAnimation : public System::Object
+class ITextAnimation : public virtual System::Object
 ```
 
 ## Methods

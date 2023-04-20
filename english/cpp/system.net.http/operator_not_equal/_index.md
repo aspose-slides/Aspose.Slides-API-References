@@ -3,10 +3,10 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 170
+weight: 157
 url: /cpp/system.net.http/operator_not_equal/
 ---
-## System::Net::Http::operator!=([System::SharedPtr](../../system/sharedptr/)\<[HttpMethod](../httpmethod/)\>, [System::SharedPtr](../../system/sharedptr/)\<[HttpMethod](../httpmethod/)\>) function
+## System::Net::Http::operator!=(System::SharedPtr\<HttpMethod\>, System::SharedPtr\<HttpMethod\>) function
 
 
 

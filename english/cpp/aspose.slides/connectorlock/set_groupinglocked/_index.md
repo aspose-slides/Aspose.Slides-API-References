@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/connectorlock/set_groupinglocked/
 ---
-## ConnectorLock::set_GroupingLocked(**bool**) method
+## ConnectorLock::set_GroupingLocked(bool) method
 
 
 Determines whether an adding this shape to a group is forbidden. Write **bool**.

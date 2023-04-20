@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.xml.schema/xmlschemaelement/set_substitutiongroup/
 ---
-## XmlSchemaElement::set_SubstitutionGroup(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaElement::set_SubstitutionGroup(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Sets the name of an element that is being substituted by this element.

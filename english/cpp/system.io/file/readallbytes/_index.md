@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.io/file/readallbytes/
 ---
-## File::ReadAllBytes(const [String](../../../system/string/)\&) method
+## File::ReadAllBytes(const String\&) method
 
 
 Reads the content of the specified binary file to a byte array.

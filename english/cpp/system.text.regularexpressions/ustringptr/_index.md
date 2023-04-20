@@ -3,7 +3,7 @@ title: UStringPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Shared UnicodeString to avoid copying.
 type: docs
-weight: 131
+weight: 118
 url: /cpp/system.text.regularexpressions/ustringptr/
 ---
 ## UStringPtr typedef

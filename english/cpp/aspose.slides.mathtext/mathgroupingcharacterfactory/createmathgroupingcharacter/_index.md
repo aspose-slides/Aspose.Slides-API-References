@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
-## MathGroupingCharacterFactory::CreateMathGroupingCharacter([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, char16_t, [MathTopBotPositions](../../mathtopbotpositions/), [MathTopBotPositions](../../mathtopbotpositions/)) method
+## MathGroupingCharacterFactory::CreateMathGroupingCharacter(System::SharedPtr\<IMathElement\>, char16_t, MathTopBotPositions, MathTopBotPositions) method
 
 
 Creates a math grouping character
@@ -29,16 +29,7 @@ System::SharedPtr<IMathGroupingCharacter> Aspose::Slides::MathText::MathGrouping
 
 new grouping character element
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathGroupingCharacter](../../imathgroupingcharacter/)
-* Class [IMathElement](../../imathelement/)
-* Enum [MathTopBotPositions](../../mathtopbotpositions/)
-* Class [MathGroupingCharacterFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathGroupingCharacterFactory::CreateMathGroupingCharacter([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathGroupingCharacterFactory::CreateMathGroupingCharacter(System::SharedPtr\<IMathElement\>) method
 
 
 Creates a math grouping character
@@ -60,6 +51,7 @@ new grouping character element
 
 ## See Also
 
+* Enum [MathTopBotPositions](../../mathtopbotpositions/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathGroupingCharacter](../../imathgroupingcharacter/)
 * Class [IMathElement](../../imathelement/)

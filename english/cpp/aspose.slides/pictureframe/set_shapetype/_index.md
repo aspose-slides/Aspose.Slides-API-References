@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/pictureframe/set_shapetype/
 ---
-## PictureFrame::set_ShapeType([Aspose::Slides::ShapeType](../../shapetype/)) method
+## PictureFrame::set_ShapeType(Aspose::Slides::ShapeType) method
 
 
 

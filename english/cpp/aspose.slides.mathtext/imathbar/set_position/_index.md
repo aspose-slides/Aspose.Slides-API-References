@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/imathbar/set_position/
 ---
-## IMathBar::set_Position([MathTopBotPositions](../../mathtopbotpositions/)) method
+## IMathBar::set_Position(MathTopBotPositions) method
 
 
 Position of the bar line. Default: Top

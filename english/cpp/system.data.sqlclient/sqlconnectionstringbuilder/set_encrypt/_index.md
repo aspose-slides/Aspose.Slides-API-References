@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.data.sqlclient/sqlconnectionstringbuilder/set_encrypt/
 ---
-## SqlConnectionStringBuilder::set_Encrypt(**bool**) method
+## SqlConnectionStringBuilder::set_Encrypt(bool) method
 
 
 Toggles encryption on or off.

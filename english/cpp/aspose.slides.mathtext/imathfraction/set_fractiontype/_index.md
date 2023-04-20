@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.mathtext/imathfraction/set_fractiontype/
 ---
-## IMathFraction::set_FractionType([MathFractionTypes](../../mathfractiontypes/)) method
+## IMathFraction::set_FractionType(MathFractionTypes) method
 
 
 Fraction type Default: Bar

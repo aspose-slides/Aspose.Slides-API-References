@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/chartseriescollection/insert/
 ---
-## ChartSeriesCollection::Insert(**int32_t**, [ChartType](../../charttype/)) method
+## ChartSeriesCollection::Insert(int32_t, ChartType) method
 
 
 Creates new chart series and inserts it into the collection.
@@ -17,9 +17,9 @@ System::SharedPtr<IChartSeries> Aspose::Slides::Charts::ChartSeriesCollection::I
 
 ## See Also
 
+* Enum [ChartType](../../charttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartSeries](../../ichartseries/)
-* Enum [ChartType](../../charttype/)
 * Class [ChartSeriesCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

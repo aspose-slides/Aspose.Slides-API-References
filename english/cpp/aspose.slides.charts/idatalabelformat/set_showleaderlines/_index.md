@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/aspose.slides.charts/idatalabelformat/set_showleaderlines/
 ---
-## IDataLabelFormat::set_ShowLeaderLines(**bool**) method
+## IDataLabelFormat::set_ShowLeaderLines(bool) method
 
 
 Represents a specified chart's data label leader lines display behavior. True displays the leader lines. False to hide. Write **bool**.

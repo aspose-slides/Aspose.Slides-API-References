@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.io/stream/seek/
 ---
-## Stream::Seek(**int64_t**, [SeekOrigin](../../seekorigin/)) method
+## Stream::Seek(int64_t, SeekOrigin) method
 
 
 Sets the position of the stream represented by the current object.

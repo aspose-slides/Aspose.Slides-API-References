@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.xml/xmlelement/getattribute/
 ---
-## XmlElement::GetAttribute([String](../../../system/string/)) method
+## XmlElement::GetAttribute(String) method
 
 
 Returns the value for the attribute with the specified name.
@@ -26,13 +26,7 @@ virtual String System::Xml::XmlElement::GetAttribute(String name)
 
 The value of the specified attribute. An empty string is returned if a matching attribute is not found or if the attribute does not have a specified or default value.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlElement](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlElement::GetAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::GetAttribute(String, String) method
 
 
 Returns the value for the attribute with the specified local name and namespace URI.

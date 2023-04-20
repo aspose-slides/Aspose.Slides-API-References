@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography.x509certificates/x509certificate/x509certificate/
 ---
-## X509Certificate::X509Certificate(const [X509Certificate](../)\&) constructor
+## X509Certificate::X509Certificate(const X509Certificate\&) constructor
 
 
 
@@ -15,12 +15,6 @@ url: /cpp/system.security.cryptography.x509certificates/x509certificate/x509cert
 System::Security::Cryptography::X509Certificates::X509Certificate::X509Certificate(const X509Certificate &)=delete
 ```
 
-## See Also
-
-* Class [X509Certificate](../)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
 ## X509Certificate::X509Certificate() constructor
 
 
@@ -30,12 +24,7 @@ Constructor.
 System::Security::Cryptography::X509Certificates::X509Certificate::X509Certificate()
 ```
 
-## See Also
-
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) constructor
+## X509Certificate::X509Certificate(const ByteArrayPtr\&) constructor
 
 
 Constructor.
@@ -51,13 +40,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | --- | --- | --- |
 | data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [String](../../../system/string/)\&) constructor
+## X509Certificate::X509Certificate(const String\&) constructor
 
 
 Constructor.
@@ -73,13 +56,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | --- | --- | --- |
 | filename | const [String](../../../system/string/)\& | File to load certificate from. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [SharedPtr](../../../system/sharedptr/)\<[X509Certificate](../)\>\&) constructor
+## X509Certificate::X509Certificate(const SharedPtr\<X509Certificate\>\&) constructor
 
 
 Constructor.
@@ -95,14 +72,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | --- | --- | --- |
 | cert | const [SharedPtr](../../../system/sharedptr/)\<[X509Certificate](../)\>\& | A certificate used to initialize this object. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [X509Certificate](../)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [String](../../../system/string/)\&) constructor
+## X509Certificate::X509Certificate(const ByteArrayPtr\&, const String\&) constructor
 
 
 Constructor.
@@ -119,14 +89,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
 | password | const [String](../../../system/string/)\& | Password used to access the certificate data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [String](../../../system/string/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [SecureStringPtr](../../../system.security/securestringptr/)\&) constructor
+## X509Certificate::X509Certificate(const ByteArrayPtr\&, const SecureStringPtr\&) constructor
 
 
 Constructor.
@@ -143,14 +106,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Sequence of bytes that represents encoded certificate. |
 | password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Password used to access the certificate data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) constructor
+## X509Certificate::X509Certificate(const String\&, const String\&) constructor
 
 
 Constructor.
@@ -167,13 +123,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | filename | const [String](../../../system/string/)\& | File to load certificate from. |
 | password | const [String](../../../system/string/)\& | Password used to access the certificate data. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [String](../../../system/string/)\&, const [SecureStringPtr](../../../system.security/securestringptr/)\&) constructor
+## X509Certificate::X509Certificate(const String\&, const SecureStringPtr\&) constructor
 
 
 Constructor.
@@ -190,14 +140,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | filename | const [String](../../../system/string/)\& | File to load certificate from. |
 | password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Password used to access the certificate data. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [String](../../../system/string/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) constructor
+## X509Certificate::X509Certificate(const ByteArrayPtr\&, const String\&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -215,15 +158,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | password | const [String](../../../system/string/)\& | Password used to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [String](../../../system/string/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [SecureStringPtr](../../../system.security/securestringptr/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) constructor
+## X509Certificate::X509Certificate(const ByteArrayPtr\&, const SecureStringPtr\&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -241,15 +176,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Password used to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) constructor
+## X509Certificate::X509Certificate(const String\&, const String\&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -267,14 +194,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | password | const [String](../../../system/string/)\& | Password used to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [String](../../../system/string/)\&, const [SecureStringPtr](../../../system.security/securestringptr/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) constructor
+## X509Certificate::X509Certificate(const String\&, const SecureStringPtr\&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -292,15 +212,7 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 | password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | Password used to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) | Flags indicating how to store key. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate::X509Certificate(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) constructor
+## X509Certificate::X509Certificate(const ByteArrayPtr\&, const ByteArrayPtr\&, X509KeyStorageFlags) constructor
 
 
 Constructor.
@@ -320,8 +232,11 @@ System::Security::Cryptography::X509Certificates::X509Certificate::X509Certifica
 
 ## See Also
 
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Enum [X509KeyStorageFlags](../../x509keystorageflags/)
+* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
 * Class [X509Certificate](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

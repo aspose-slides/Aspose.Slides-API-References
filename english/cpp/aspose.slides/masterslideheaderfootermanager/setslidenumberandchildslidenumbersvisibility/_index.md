@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/masterslideheaderfootermanager/setslidenumberandchildslidenumbersvisibility/
 ---
-## MasterSlideHeaderFooterManager::SetSlideNumberAndChildSlideNumbersVisibility(**bool**) method
+## MasterSlideHeaderFooterManager::SetSlideNumberAndChildSlideNumbersVisibility(bool) method
 
 
 Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide.

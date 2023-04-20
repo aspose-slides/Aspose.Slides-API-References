@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system.collections.generic/list/sort/
 ---
-## List::Sort(const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\&) method
+## List::Sort(const SharedPtr\<System::Collections::Generic::IComparer\<T\>\>\&) method
 
 
 Sorts elements in the list.
@@ -22,13 +22,6 @@ void System::Collections::Generic::List<T>::Sort(const SharedPtr<System::Collect
 | --- | --- | --- |
 | comparator | const [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>\& | Comparator to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IComparer](../../icomparer/)
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## List::Sort() method
 
 
@@ -38,12 +31,7 @@ Sorts elements in the list using default comparator.
 void System::Collections::Generic::List<T>::Sort()
 ```
 
-## See Also
-
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::Sort(int, int, [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\>) method
+## List::Sort(int, int, SharedPtr\<System::Collections::Generic::IComparer\<T\>\>) method
 
 
 Sorts elements in the list slice.
@@ -61,14 +49,7 @@ void System::Collections::Generic::List<T>::Sort(int index, int count, SharedPtr
 | count | int | Slice size. |
 | comparator | [SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IComparer](../../icomparer/)\<T\>\> | Comparator to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IComparer](../../icomparer/)
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::Sort([Comparison](../../../system/comparison/)\<T\>, **bool**) method
+## List::Sort(Comparison\<T\>, bool) method
 
 
 Sorts elements in the list.
@@ -86,7 +67,9 @@ void System::Collections::Generic::List<T>::Sort(Comparison<T> comparison, bool)
 
 ## See Also
 
-* Class [Comparison](../../../system/comparison/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IComparer](../../icomparer/)
 * Class [List](../)
+* Class [Comparison](../../../system/comparison/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

@@ -15,12 +15,7 @@ Writes line terminator characters to the stream.
 virtual void System::IO::TextWriter::WriteLine()
 ```
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## TextWriter::WriteLine(const SharedPtr\<Object\>\&) method
 
 
 Writes the string representation of the specified object followed by the line-terminating characters to the stream.
@@ -36,14 +31,7 @@ virtual void System::IO::TextWriter::WriteLine(const SharedPtr<Object> &value)
 | --- | --- | --- |
 | value | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object to write |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(**bool**) method
+## TextWriter::WriteLine(bool) method
 
 
 Writes the string representation of the specified boolean value followed by the line-terminating characters to the stream.
@@ -59,11 +47,6 @@ virtual void System::IO::TextWriter::WriteLine(bool value)
 | --- | --- | --- |
 | value | **bool** | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
 ## TextWriter::WriteLine(char_t) method
 
 
@@ -80,12 +63,7 @@ virtual void System::IO::TextWriter::WriteLine(char_t value)
 | --- | --- | --- |
 | value | char_t | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine([Decimal](../../../system/decimal/)) method
+## TextWriter::WriteLine(Decimal) method
 
 
 Writes the string representation of the specified [Decimal](../../../system/decimal/) object followed by the line-terminating characters to the stream.
@@ -101,13 +79,7 @@ virtual void System::IO::TextWriter::WriteLine(Decimal value)
 | --- | --- | --- |
 | value | [Decimal](../../../system/decimal/) | The object to write |
 
-## See Also
-
-* Class [Decimal](../../../system/decimal/)
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(**double**) method
+## TextWriter::WriteLine(double) method
 
 
 Writes the string representation of the specified double-precision floating point value followed by the line-terminating characters to the stream.
@@ -123,11 +95,6 @@ virtual void System::IO::TextWriter::WriteLine(double value)
 | --- | --- | --- |
 | value | **double** | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
 ## TextWriter::WriteLine(int) method
 
 
@@ -144,12 +111,7 @@ virtual void System::IO::TextWriter::WriteLine(int value)
 | --- | --- | --- |
 | value | int | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(**int64_t**) method
+## TextWriter::WriteLine(int64_t) method
 
 
 Writes the string representation of the specified 64-bit integer value followed by the line-terminating characters to the stream.
@@ -165,12 +127,7 @@ virtual void System::IO::TextWriter::WriteLine(int64_t value)
 | --- | --- | --- |
 | value | **int64_t** | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(**float**) method
+## TextWriter::WriteLine(float) method
 
 
 Writes the string representation of the specified single-precision floating point value followed by the line-terminating characters to the stream.
@@ -186,12 +143,7 @@ virtual void System::IO::TextWriter::WriteLine(float value)
 | --- | --- | --- |
 | value | **float** | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(const [String](../../../system/string/)\&) method
+## TextWriter::WriteLine(const String\&) method
 
 
 Writes the specified string followed by the line-terminating characters to the stream.
@@ -207,13 +159,7 @@ virtual void System::IO::TextWriter::WriteLine(const String &value)
 | --- | --- | --- |
 | value | const [String](../../../system/string/)\& | The string to write |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(**uint32_t**) method
+## TextWriter::WriteLine(uint32_t) method
 
 
 Writes the string representation of the specified unsigned 32-bit integer value followed by the line-terminating characters to the stream.
@@ -229,12 +175,7 @@ virtual void System::IO::TextWriter::WriteLine(uint32_t value)
 | --- | --- | --- |
 | value | **uint32_t** | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(**uint64_t**) method
+## TextWriter::WriteLine(uint64_t) method
 
 
 Writes the string representation of the specified unsigned 64-bit integer value followed by the line-terminating characters to the stream.
@@ -250,12 +191,7 @@ virtual void System::IO::TextWriter::WriteLine(uint64_t value)
 | --- | --- | --- |
 | value | **uint64_t** | The value to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\&) method
+## TextWriter::WriteLine(const ArrayPtr\<char_t\>\&) method
 
 
 Writes all characetrs from the specified array followed by the line-terminating characters to the stream.
@@ -271,13 +207,7 @@ virtual void System::IO::TextWriter::WriteLine(const ArrayPtr<char_t> &buffer)
 | --- | --- | --- |
 | buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\&, **int32_t**, **int32_t**) method
+## TextWriter::WriteLine(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
 
 
 Writes the specified subrange of UTF-16 characters from the specified character array followed by the line-terminating characters to the stream.
@@ -295,12 +225,6 @@ virtual void System::IO::TextWriter::WriteLine(const ArrayPtr<char_t> &buffer, i
 | index | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of characters in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
 ## TextWriter::WriteLine(const char_t *) method
 
 
@@ -317,12 +241,7 @@ virtual void System::IO::TextWriter::WriteLine(const char_t *value)
 | --- | --- | --- |
 | value | const char_t * | The c-string to write |
 
-## See Also
-
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(const [TypeInfo](../../../system/typeinfo/)\&) method
+## TextWriter::WriteLine(const TypeInfo\&) method
 
 
 Writes the string representation of the specified [TypeInfo](../../../system/typeinfo/) object followed by the line-terminating characters to the stream.
@@ -338,13 +257,7 @@ virtual void System::IO::TextWriter::WriteLine(const TypeInfo &value)
 | --- | --- | --- |
 | value | const [TypeInfo](../../../system/typeinfo/)\& | The object to write |
 
-## See Also
-
-* Class [TypeInfo](../../../system/typeinfo/)
-* Class [TextWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## TextWriter::WriteLine(const [String](../../../system/string/)\&, const TArgs\&...) method
+## TextWriter::WriteLine(const String\&, const TArgs\&...) method
 
 
 Writes the specified values formatted according to the specified format followed by the line-terminating characetrs to the stream.
@@ -369,7 +282,12 @@ template<class...> void System::IO::TextWriter::WriteLine(const String &format, 
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [TextWriter](../)
+* Class [Object](../../../system/object/)
+* Class [Decimal](../../../system/decimal/)
+* Class [String](../../../system/string/)
+* Class [TypeInfo](../../../system/typeinfo/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

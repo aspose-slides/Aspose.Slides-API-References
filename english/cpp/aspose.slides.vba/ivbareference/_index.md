@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.vba/ivbareference/
 Represents the name of the VBA project reference.
 
 ```cpp
-class IVbaReference : public System::Object
+class IVbaReference : public virtual System::Object
 ```
 
 ## Methods

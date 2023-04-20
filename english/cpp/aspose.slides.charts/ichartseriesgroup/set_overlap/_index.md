@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.charts/ichartseriesgroup/set_overlap/
 ---
-## IChartSeriesGroup::set_Overlap(**int8_t**) method
+## IChartSeriesGroup::set_Overlap(int8_t) method
 
 
 Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Write **int8_t**.

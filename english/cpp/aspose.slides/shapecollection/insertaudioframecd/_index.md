@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/aspose.slides/shapecollection/insertaudioframecd/
 ---
-## ShapeCollection::InsertAudioFrameCD(**int32_t**, **float**, **float**, **float**, **float**) method
+## ShapeCollection::InsertAudioFrameCD(int32_t, float, float, float, float) method
 
 
 Insert an [AudioFrame](../../audioframe/) with CD.

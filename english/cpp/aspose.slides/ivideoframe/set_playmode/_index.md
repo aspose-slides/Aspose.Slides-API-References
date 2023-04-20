@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/ivideoframe/set_playmode/
 ---
-## IVideoFrame::set_PlayMode([VideoPlayModePreset](../../videoplaymodepreset/)) method
+## IVideoFrame::set_PlayMode(VideoPlayModePreset) method
 
 
 Sets the video play mode. Write [VideoPlayModePreset](../../videoplaymodepreset/).

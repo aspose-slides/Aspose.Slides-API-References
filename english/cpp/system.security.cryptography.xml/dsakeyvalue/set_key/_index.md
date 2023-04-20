@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.xml/dsakeyvalue/set_key/
 ---
-## DSAKeyValue::set_Key([SharedPtr](../../../system/sharedptr/)\<[DSA](../../../system.security.cryptography/dsa/)\>) method
+## DSAKeyValue::set_Key(SharedPtr\<DSA\>) method
 
 
 

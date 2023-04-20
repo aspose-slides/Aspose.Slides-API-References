@@ -20,12 +20,7 @@ virtual float System::Xml::XmlReader::ReadElementContentAsFloat()
 
 The element content as a single-precision floating point number.
 
-## See Also
-
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsFloat([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsFloat(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as a single-precision floating-point number.
@@ -48,7 +43,7 @@ The element content as a single-precision floating point number.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

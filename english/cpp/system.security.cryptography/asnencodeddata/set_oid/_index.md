@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/asnencodeddata/set_oid/
 ---
-## AsnEncodedData::set_Oid(const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../oid/)\>\&) method
+## AsnEncodedData::set_Oid(const SharedPtr\<Oid\>\&) method
 
 
 Sets object identifier of encoded data.

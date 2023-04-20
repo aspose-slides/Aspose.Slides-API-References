@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.text.regularexpressions/groupcollection/idx_get/
 ---
-## GroupCollection::idx_get([String](../../../system/string/)) const method
+## GroupCollection::idx_get(String) const method
 
 
 [Group](../../group/) accessor.
@@ -26,13 +26,6 @@ virtual GroupPtr System::Text::RegularExpressions::GroupCollection::idx_get(Stri
 
 [Group](../../group/) with specified name.
 
-## See Also
-
-* Typedef [GroupPtr](../../groupptr/)
-* Class [String](../../../system/string/)
-* Class [GroupCollection](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
 ## GroupCollection::idx_get(int) const method
 
 
@@ -56,6 +49,7 @@ GroupPtr System::Text::RegularExpressions::GroupCollection::idx_get(int index) c
 ## See Also
 
 * Typedef [GroupPtr](../../groupptr/)
+* Class [String](../../../system/string/)
 * Class [GroupCollection](../)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

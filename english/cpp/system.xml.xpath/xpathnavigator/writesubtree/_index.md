@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.xml.xpath/xpathnavigator/writesubtree/
 ---
-## XPathNavigator::WriteSubtree([SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../../system.xml/xmlwriter/)\>) method
+## XPathNavigator::WriteSubtree(SharedPtr\<XmlWriter\>) method
 
 
 Streams the current node and its child nodes to the [XmlWriter](../../../system.xml/xmlwriter/) object specified.

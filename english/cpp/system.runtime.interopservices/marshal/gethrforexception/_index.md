@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.runtime.interopservices/marshal/gethrforexception/
 ---
-## Marshal::GetHRForException(const [System::Exception](../../../system/exception/)\&) method
+## Marshal::GetHRForException(const System::Exception\&) method
 
 
 Gets HResult from exception.

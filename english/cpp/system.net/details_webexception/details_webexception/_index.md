@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Details_WebException::Details_WebException()
 ```
 
-## See Also
-
-* Class [Details_WebException](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Details_WebException::Details_WebException([String](../../../system/string/)) constructor
+## Details_WebException::Details_WebException(String) constructor
 
 
 Constructs a new instance.
@@ -36,13 +31,7 @@ System::Net::Details_WebException::Details_WebException(String message)
 | --- | --- | --- |
 | message | [String](../../../system/string/) | The error description. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Details_WebException](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Details_WebException::Details_WebException([String](../../../system/string/), [Exception](../../../system/exception/)) constructor
+## Details_WebException::Details_WebException(String, Exception) constructor
 
 
 Constructs a new instance.
@@ -59,14 +48,7 @@ System::Net::Details_WebException::Details_WebException(String message, Exceptio
 | message | [String](../../../system/string/) | The exception message. |
 | innerException | [Exception](../../../system/exception/) | The inner exception. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [Exception](../../../system/exception/)
-* Class [Details_WebException](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Details_WebException::Details_WebException([String](../../../system/string/), [WebExceptionStatus](../../webexceptionstatus/)) constructor
+## Details_WebException::Details_WebException(String, WebExceptionStatus) constructor
 
 
 Constructs a new instance.
@@ -83,14 +65,7 @@ System::Net::Details_WebException::Details_WebException(String message, WebExcep
 | message | [String](../../../system/string/) | The exception message. |
 | status | [WebExceptionStatus](../../webexceptionstatus/) | The status code. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [WebExceptionStatus](../../webexceptionstatus/)
-* Class [Details_WebException](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Details_WebException::Details_WebException([String](../../../system/string/), [Exception](../../../system/exception/), [WebExceptionStatus](../../webexceptionstatus/), [System::SharedPtr](../../../system/sharedptr/)\<[WebResponse](../../webresponse/)\>) constructor
+## Details_WebException::Details_WebException(String, Exception, WebExceptionStatus, System::SharedPtr\<WebResponse\>) constructor
 
 
 Constructs a new instance.
@@ -111,11 +86,11 @@ System::Net::Details_WebException::Details_WebException(String message, Exceptio
 
 ## See Also
 
-* Class [String](../../../system/string/)
-* Typedef [Exception](../../../system/exception/)
 * Enum [WebExceptionStatus](../../webexceptionstatus/)
+* Typedef [Exception](../../../system/exception/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [WebResponse](../../webresponse/)
 * Class [Details_WebException](../)
+* Class [String](../../../system/string/)
+* Class [WebResponse](../../webresponse/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/pviobject/equals/
 ---
-## PVIObject::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## PVIObject::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Compares with specified object.

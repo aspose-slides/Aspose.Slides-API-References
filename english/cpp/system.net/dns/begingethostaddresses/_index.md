@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net/dns/begingethostaddresses/
 ---
-## Dns::BeginGetHostAddresses([String](../../../system/string/), [AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## Dns::BeginGetHostAddresses(String, AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous operation to create a new IPHostEntry-class instance using the specified string that contains a host name or IP address.
@@ -31,9 +31,9 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [AsyncCallback](../../../system/asynccallback/)
 * Class [IAsyncResult](../../../system/iasyncresult/)
 * Class [String](../../../system/string/)
-* Typedef [AsyncCallback](../../../system/asynccallback/)
 * Class [Object](../../../system/object/)
 * Class [Dns](../)
 * Namespace [System::Net](../../)

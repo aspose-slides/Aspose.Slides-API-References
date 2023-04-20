@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.drawing2d/hatchbrush/hatchbrush/
 ---
-## HatchBrush::HatchBrush([HatchStyle](../../hatchstyle/), [Color](../../../system.drawing/color/), [Color](../../../system.drawing/color/)) constructor
+## HatchBrush::HatchBrush(HatchStyle, Color, Color) constructor
 
 
 Constructs a new instance of [HatchBrush](../) class that represents a brush with the specified hatch style, foreground color and background color.

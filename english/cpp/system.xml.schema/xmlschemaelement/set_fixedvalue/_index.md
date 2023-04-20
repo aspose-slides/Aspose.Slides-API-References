@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml.schema/xmlschemaelement/set_fixedvalue/
 ---
-## XmlSchemaElement::set_FixedValue(const [String](../../../system/string/)\&) method
+## XmlSchemaElement::set_FixedValue(const String\&) method
 
 
 Sets the fixed value.

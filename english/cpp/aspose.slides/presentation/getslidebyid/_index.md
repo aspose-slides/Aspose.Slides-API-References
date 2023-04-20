@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/aspose.slides/presentation/getslidebyid/
 ---
-## Presentation::GetSlideById(**uint32_t**) method
+## Presentation::GetSlideById(uint32_t) method
 
 
 Returns a [Slide](../../slide/), [MasterSlide](../../masterslide/) or [LayoutSlide](../../layoutslide/) by Id.

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system/bitconverter/tosingle/
 ---
-## BitConverter::ToSingle(const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToSingle(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts four bytes from the specified array starting at the specified index to single-precision floating point value.
@@ -27,13 +27,7 @@ static float System::BitConverter::ToSingle(const System::ArrayPtr<uint8_t> &val
 
 Single-precision floating-point value resulting from conversion
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToSingle(const System::Details::ArrayView\<**uint8_t**\>\&, int) method
+## BitConverter::ToSingle(const System::Details::ArrayView\<uint8_t\>\&, int) method
 
 
 Converts four bytes from the specified array starting at the specified index to single-precision floating point value.
@@ -56,6 +50,7 @@ Single-precision floating-point value resulting from conversion
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

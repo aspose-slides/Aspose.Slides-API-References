@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iresourceloadingcallback/
 Callback interface used to manage external resources loading.
 
 ```cpp
-class IResourceLoadingCallback : public System::Object
+class IResourceLoadingCallback : public virtual System::Object
 ```
 
 ## Methods

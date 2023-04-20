@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/char/ishighsurrogate/
 ---
-## Char::IsHighSurrogate(const [String](../../string/)\&, int) method
+## Char::IsHighSurrogate(const String\&, int) method
 
 
 Determines whether the character at the specified index in the specified string is UTF-16 high surrogate code unit.
@@ -27,12 +27,6 @@ static bool System::Char::IsHighSurrogate(const String &s, int index)
 
 True if the character at the specified index is a UTF-16 high surrogate code unit, otherwise - false
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsHighSurrogate(const char_t *, int) method
 
 
@@ -54,11 +48,6 @@ static bool System::Char::IsHighSurrogate(const char_t *str, int idx)
 
 True if the character at the specified index is a high surrogate, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsHighSurrogate(char_t) method
 
 
@@ -81,6 +70,7 @@ True if the specified character is a high surrogate, otherwise - false
 
 ## See Also
 
+* Class [String](../../string/)
 * Class [Char](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

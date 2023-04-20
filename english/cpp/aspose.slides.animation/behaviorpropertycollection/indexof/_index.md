@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/behaviorpropertycollection/indexof/
 ---
-## BehaviorPropertyCollection::IndexOf(const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\&) const method
+## BehaviorPropertyCollection::IndexOf(const System::SharedPtr\<IBehaviorProperty\>\&) const method
 
 
 Determines the index of a specific item in the [IList](../../../system.collections.generic/ilist/).
@@ -26,14 +26,7 @@ int32_t Aspose::Slides::Animation::BehaviorPropertyCollection::IndexOf(const Sys
 
 The index of *item*  if found in the list; otherwise, -1.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IBehaviorProperty](../../ibehaviorproperty/)
-* Class [BehaviorPropertyCollection](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## BehaviorPropertyCollection::IndexOf(const [System::String](../../../system/string/)\&) const method
+## BehaviorPropertyCollection::IndexOf(const System::String\&) const method
 
 
 Determines the index of a specific item by property value in the [IList](../../../system.collections.generic/ilist/).
@@ -55,7 +48,9 @@ The index of the property with the specified value
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IBehaviorProperty](../../ibehaviorproperty/)
 * Class [BehaviorPropertyCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/ipicturefillformat/set_cropleft/
 ---
-## IPictureFillFormat::set_CropLeft(**float**) method
+## IPictureFillFormat::set_CropLeft(float) method
 
 
 Sets the number of percents of real image width that are cropped off the left of the picture. Write **float**.

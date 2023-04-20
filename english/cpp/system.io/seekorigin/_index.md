@@ -3,7 +3,7 @@ title: SeekOrigin
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the reference position in the stream relative to which the position to seek to is specified.
 type: docs
-weight: 547
+weight: 534
 url: /cpp/system.io/seekorigin/
 ---
 ## SeekOrigin enum

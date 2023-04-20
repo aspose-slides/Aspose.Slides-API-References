@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/datatable/set_hasbordervertical/
 ---
-## DataTable::set_HasBorderVertical(**bool**) method
+## DataTable::set_HasBorderVertical(bool) method
 
 
 True if the chart data table has vertical cell borders. Write **bool**.

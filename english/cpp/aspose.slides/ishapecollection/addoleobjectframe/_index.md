@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/ishapecollection/addoleobjectframe/
 ---
-## IShapeCollection::AddOleObjectFrame(**float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)\>) method
+## IShapeCollection::AddOleObjectFrame(float, float, float, float, System::SharedPtr\<IOleEmbeddedDataInfo\>) method
 
 
 Adds a new OLE object to the end of a collection.
@@ -30,15 +30,7 @@ virtual System::SharedPtr<IOleObjectFrame> Aspose::Slides::IShapeCollection::Add
 
 Created OLE object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IOleObjectFrame](../../ioleobjectframe/)
-* Class [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::AddOleObjectFrame(**float**, **float**, **float**, **float**, [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## IShapeCollection::AddOleObjectFrame(float, float, float, float, System::String, System::String) method
 
 
 Adds a new OLE object to the end of a collection.
@@ -67,7 +59,8 @@ Created OLE object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IOleObjectFrame](../../ioleobjectframe/)
-* Class [String](../../../system/string/)
+* Class [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)
 * Class [IShapeCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

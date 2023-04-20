@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.threading/monitor/wait/
 ---
-## Monitor::Wait(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, **int32_t**, **bool**) method
+## Monitor::Wait(const SharedPtr\<Object\>\&, int32_t, bool) method
 
 
 Releases the lock on an object and blocks the current thread until it reacquires the lock. If the specified time-out interval elapses, the thread enters the ready queue. Optionally exits the synchronization domain for the synchronized context before the wait and reacquires the domain afterward. Not implemented.
@@ -16,14 +16,7 @@ static bool System::Threading::Monitor::Wait(const SharedPtr<Object> &obj, int32
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::Wait(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, [TimeSpan](../../../system/timespan/), **bool**) method
+## Monitor::Wait(const SharedPtr\<Object\>\&, TimeSpan, bool) method
 
 
 Releases the lock on an object and blocks the current thread until it reacquires the lock. If the specified time-out interval elapses, the thread enters the ready queue. Optionally exits the synchronization domain for the synchronized context before the wait and reacquires the domain afterward. Not implemented.
@@ -33,15 +26,7 @@ static bool System::Threading::Monitor::Wait(const SharedPtr<Object> &obj, TimeS
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TimeSpan](../../../system/timespan/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::Wait(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, **int32_t**) method
+## Monitor::Wait(const SharedPtr\<Object\>\&, int32_t) method
 
 
 Releases the lock on an object and blocks the current thread until it reacquires the lock. If the specified time-out interval elapses, the thread enters the ready queue. Not implemented.
@@ -51,14 +36,7 @@ static bool System::Threading::Monitor::Wait(const SharedPtr<Object> &obj, int32
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::Wait(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&, [TimeSpan](../../../system/timespan/)) method
+## Monitor::Wait(const SharedPtr\<Object\>\&, TimeSpan) method
 
 
 Releases the lock on an object and blocks the current thread until it reacquires the lock. If the specified time-out interval elapses, the thread enters the ready queue. Not implemented.
@@ -68,15 +46,7 @@ static bool System::Threading::Monitor::Wait(const SharedPtr<Object> &obj, TimeS
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TimeSpan](../../../system/timespan/)
-* Class [Monitor](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Monitor::Wait(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Monitor::Wait(const SharedPtr\<Object\>\&) method
 
 
 Releases the lock on an object and blocks the current thread until it reacquires the lock Not implemented.
@@ -91,5 +61,6 @@ static bool System::Threading::Monitor::Wait(const SharedPtr<Object> &obj)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
 * Class [Monitor](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

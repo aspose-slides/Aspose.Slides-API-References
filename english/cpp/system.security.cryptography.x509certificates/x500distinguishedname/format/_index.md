@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography.x509certificates/x500distinguishedname/format/
 ---
-## X500DistinguishedName::Format(**bool**) const method
+## X500DistinguishedName::Format(bool) const method
 
 
 Formats name for printing.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.xsl/xsltargumentlist/removeparam/
 ---
-## XsltArgumentList::RemoveParam(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XsltArgumentList::RemoveParam(const String\&, const String\&) method
 
 
 Removes the parameter from the [XsltArgumentList](../).

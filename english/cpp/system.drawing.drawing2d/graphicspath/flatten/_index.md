@@ -15,12 +15,7 @@ Flattens each curve in the path by converting them into a series of connected li
 void System::Drawing::Drawing2D::GraphicsPath::Flatten()
 ```
 
-## See Also
-
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::Flatten(const [MatrixPtr](../../matrixptr/)\&) method
+## GraphicsPath::Flatten(const MatrixPtr\&) method
 
 
 Flattens each curve in the path by converting them into a series of connected lines. The flatness value of 0.25 is used.
@@ -36,13 +31,7 @@ void System::Drawing::Drawing2D::GraphicsPath::Flatten(const MatrixPtr &matrix)
 | --- | --- | --- |
 | matrix | const [MatrixPtr](../../matrixptr/)\& | The transform matrix to apply to the path before flattening |
 
-## See Also
-
-* Typedef [MatrixPtr](../../matrixptr/)
-* Class [GraphicsPath](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## GraphicsPath::Flatten(const [MatrixPtr](../../matrixptr/)\&, **float**) method
+## GraphicsPath::Flatten(const MatrixPtr\&, float) method
 
 
 Flattens each curve in the path by converting them into a series of connected lines.

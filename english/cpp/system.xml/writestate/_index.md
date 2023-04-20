@@ -3,7 +3,7 @@ title: WriteState
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the state of the XmlWriter.
 type: docs
-weight: 755
+weight: 729
 url: /cpp/system.xml/writestate/
 ---
 ## WriteState enum

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/tab/compareto/
 ---
-## Tab::CompareTo([System::SharedPtr](../../../system/sharedptr/)\<[ITab](../../itab/)\>) method
+## Tab::CompareTo(System::SharedPtr\<ITab\>) method
 
 
 Compares the current instance with another object of the same type.

@@ -6,7 +6,7 @@ type: docs
 weight: 937
 url: /cpp/system.xml.xpath/xpathnavigator/replacerange/
 ---
-## XPathNavigator::ReplaceRange([SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::ReplaceRange(SharedPtr\<XPathNavigator\>) method
 
 
 Replaces a range of sibling nodes from the current node to the node specified.
@@ -30,7 +30,6 @@ An [XmlWriter](../../../system.xml/xmlwriter/) object used to specify the replac
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XPathNavigator](../)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

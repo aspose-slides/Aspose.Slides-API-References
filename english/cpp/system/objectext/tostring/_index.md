@@ -3,7 +3,7 @@ title: ToString()
 second_title: Aspose.Slides for C++ API Reference
 description: Substitution for C# ToString method to work on any C++ type.
 type: docs
-weight: 40
+weight: 27
 url: /cpp/system/objectext/tostring/
 ---
 ## ObjectExt::ToString(const char_t *) method
@@ -26,13 +26,7 @@ static String System::ObjectExt::ToString(const char_t *obj)
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::ToString(const [Nullable](../../nullable/)\<T\>\&) method
+## ObjectExt::ToString(const Nullable\<T\>\&) method
 
 
 Substitution for C# ToString method to work on any C++ type.
@@ -58,13 +52,6 @@ template<typename T> static String System::ObjectExt::ToString(const Nullable<T>
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Nullable](../../nullable/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(const T\&) method
 
 
@@ -91,12 +78,6 @@ template<typename T> static std::enable_if<std::is_enum<T>::value, String>::type
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(const T\&) method
 
 
@@ -123,13 +104,6 @@ template<typename T> static std::enable_if<IsSmartPtr<T>::value, String>::type S
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(T\&) method
 
 
@@ -156,14 +130,6 @@ template<typename T> static std::enable_if<IsSmartPtr<T>::value||std::is_pointer
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(T\&) method
 
 
@@ -190,13 +156,6 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&std::is_scala
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(T\&&) method
 
 
@@ -223,13 +182,6 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&std::is_scala
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(T\&) method
 
 
@@ -256,15 +208,6 @@ template<typename T> static std::enable_if<!IsExceptionWrapper<T>::value &&!IsSm
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
-* Struct [IsSmartPtr](../../issmartptr/)
-* Struct [IsNullable](../../isnullable/)
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(const T\&) method
 
 
@@ -291,14 +234,6 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&!std::is_scal
 
 [String](../../string/) representation of **obj**.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Struct [IsNullable](../../isnullable/)
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::ToString(T\&&) method
 
 
@@ -327,9 +262,11 @@ template<typename T> static std::enable_if<!IsSmartPtr<T>::value &&!std::is_scal
 
 ## See Also
 
-* Struct [IsSmartPtr](../../issmartptr/)
-* Struct [IsNullable](../../isnullable/)
 * Class [String](../../string/)
 * Class [ObjectExt](../)
+* Class [Nullable](../../nullable/)
+* Struct [IsSmartPtr](../../issmartptr/)
+* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
+* Struct [IsNullable](../../isnullable/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

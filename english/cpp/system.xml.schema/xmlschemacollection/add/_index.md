@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemacollection/add/
 ---
-## XmlSchemaCollection::Add(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlSchemaCollection::Add(const String\&, const String\&) method
 
 
 Adds the schema located by the given URL into the schema collection.
@@ -27,15 +27,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const String 
 
 The [XmlSchema](../../xmlschema/) added to the schema collection; **nullptr** if the schema being added is an XDR schema or if there are compilation errors in the schema.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [String](../../../system/string/)
-* Class [XmlSchemaCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaCollection::Add(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&) method
+## XmlSchemaCollection::Add(const String\&, const SharedPtr\<XmlReader\>\&) method
 
 
 Adds the schema contained in the [XmlReader](../../../system.xml/xmlreader/) to the schema collection.
@@ -56,16 +48,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const String 
 
 The [XmlSchema](../../xmlschema/) added to the schema collection; **nullptr** if the schema being added is an XDR schema or if there are compilation errors in the schema.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [String](../../../system/string/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XmlSchemaCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaCollection::Add(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>\&) method
+## XmlSchemaCollection::Add(const String\&, const SharedPtr\<XmlReader\>\&, const SharedPtr\<System::Xml::XmlResolver\>\&) method
 
 
 Adds the schema contained in the [XmlReader](../../../system.xml/xmlreader/) to the schema collection. The specified [XmlResolver](../../../system.xml/xmlresolver/) is used to resolve any external resources.
@@ -87,17 +70,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const String 
 
 The [XmlSchema](../../xmlschema/) added to the schema collection; **nullptr** if the schema being added is an XDR schema or if there are compilation errors in the schema.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [String](../../../system/string/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
-* Class [XmlSchemaCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaCollection::Add(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\&) method
+## XmlSchemaCollection::Add(const SharedPtr\<XmlSchema\>\&) method
 
 
 Adds the [XmlSchema](../../xmlschema/) to the collection.
@@ -117,14 +90,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const SharedP
 
 The [XmlSchema](../../xmlschema/) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [XmlSchemaCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaCollection::Add(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>\&) method
+## XmlSchemaCollection::Add(const SharedPtr\<XmlSchema\>\&, const SharedPtr\<System::Xml::XmlResolver\>\&) method
 
 
 Adds the [XmlSchema](../../xmlschema/) to the collection. The specified [XmlResolver](../../../system.xml/xmlresolver/) is used to resolve any external references.
@@ -145,15 +111,7 @@ SharedPtr<XmlSchema> System::Xml::Schema::XmlSchemaCollection::Add(const SharedP
 
 The [XmlSchema](../../xmlschema/) added to the schema collection.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [XmlResolver](../../../system.xml/xmlresolver/)
-* Class [XmlSchemaCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaCollection::Add(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaCollection](../)\>\&) method
+## XmlSchemaCollection::Add(const SharedPtr\<XmlSchemaCollection\>\&) method
 
 
 Adds all the namespaces defined in the given collection (including their associated schemas) to this collection.
@@ -172,7 +130,10 @@ void System::Xml::Schema::XmlSchemaCollection::Add(const SharedPtr<XmlSchemaColl
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlSchema](../../xmlschema/)
+* Class [String](../../../system/string/)
 * Class [XmlSchemaCollection](../)
-* Class [XmlSchemaCollection](../)
+* Class [XmlReader](../../../system.xml/xmlreader/)
+* Class [XmlResolver](../../../system.xml/xmlresolver/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

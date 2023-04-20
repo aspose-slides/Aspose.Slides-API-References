@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.export/iswfoptions/set_startopenleftpane/
 ---
-## ISwfOptions::set_StartOpenLeftPane(**bool**) method
+## ISwfOptions::set_StartOpenLeftPane(bool) method
 
 
 Start with opened left pane. Can be overridden in flashvars. Default is false.

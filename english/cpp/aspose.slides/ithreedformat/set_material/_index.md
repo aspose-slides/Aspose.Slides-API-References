@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/ithreedformat/set_material/
 ---
-## IThreeDFormat::set_Material([MaterialPresetType](../../materialpresettype/)) method
+## IThreeDFormat::set_Material(MaterialPresetType) method
 
 
 Sets the type of a material. Write [MaterialPresetType](../../materialpresettype/).

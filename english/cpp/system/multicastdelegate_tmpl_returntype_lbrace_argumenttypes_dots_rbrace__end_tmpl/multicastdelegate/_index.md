@@ -15,11 +15,6 @@ Constructs an empty collection.
 System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate()
 ```
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(std::nullptr_t) method
 
 
@@ -29,11 +24,6 @@ Equivalent to defalt constructor.
 System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(std::nullptr_t)
 ```
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(const MulticastDelegate\&) method
 
 
@@ -50,11 +40,6 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(const
 | --- | --- | --- |
 | o | const MulticastDelegate\& | An instance of MulticastDelegate class to copy the collection of delegates from. |
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(MulticastDelegate\&&) method
 
 
@@ -71,12 +56,7 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(Multi
 | --- | --- | --- |
 | o | MulticastDelegate\&& | An instance of MulticastDelegate class to move the collection of delegates from. |
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate([Callback](../callback/)\&&) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(Callback\&&) method
 
 
 Constructs an instance and puts the specified delegate to the delegates collection.
@@ -92,12 +72,6 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(Callb
 | --- | --- | --- |
 | initial | [Callback](../callback/)\&& | A delegate to put to the delegate collection |
 
-## See Also
-
-* Typedef [Callback](../callback/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(T) method
 
 
@@ -120,11 +94,6 @@ template<class T,typename> System::MulticastDelegate<ReturnType(ArgumentTypes...
 | --- | --- | --- |
 | arg | T | A value to put to the delegate collection |
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::MulticastDelegate(std::function\<ReturnType(ArgumentTypes...)>) method
 
 
@@ -143,6 +112,7 @@ System::MulticastDelegate<ReturnType(ArgumentTypes...)>::MulticastDelegate(std::
 
 ## See Also
 
+* Typedef [Callback](../callback/)
 * Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

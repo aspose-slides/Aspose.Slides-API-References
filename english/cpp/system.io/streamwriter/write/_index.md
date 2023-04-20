@@ -22,12 +22,7 @@ void System::IO::StreamWriter::Write(char_t value) override
 | --- | --- | --- |
 | value | char_t | The character to write |
 
-## See Also
-
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::Write(const [String](../../../system/string/)\&) method
+## StreamWriter::Write(const String\&) method
 
 
 Writes the specified string to the stream.
@@ -43,13 +38,7 @@ void System::IO::StreamWriter::Write(const String &value) override
 | --- | --- | --- |
 | value | const [String](../../../system/string/)\& | The string to write |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::Write(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## StreamWriter::Write(const SharedPtr\<Object\>\&) method
 
 
 Writes the string representation of the specified object to the stream.
@@ -65,14 +54,7 @@ void System::IO::StreamWriter::Write(const SharedPtr<Object> &obj) override
 | --- | --- | --- |
 | obj | const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\& | The object to write |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::Write(const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\&) method
+## StreamWriter::Write(const ArrayPtr\<char_t\>\&) method
 
 
 Writes all characetrs from the specified array to the stream.
@@ -88,13 +70,7 @@ void System::IO::StreamWriter::Write(const ArrayPtr<char_t> &buffer) override
 | --- | --- | --- |
 | buffer | const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\& | The array containing the characters to write |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::Write(const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\&, **int32_t**, **int32_t**) method
+## StreamWriter::Write(const ArrayPtr\<char_t\>\&, int32_t, int32_t) method
 
 
 Writes the specified subrange of UTF-16 characters from the specified character array to the stream.
@@ -112,12 +88,6 @@ void System::IO::StreamWriter::Write(const ArrayPtr<char_t> &buffer, int32_t ind
 | index | **int32_t** | A 0-based index of the elemnet in **buffer** at which the subrange to write begins |
 | count | **int32_t** | The number of characters in the subrange to write; -1 specifies that the subrange ends where **buffer** array ends |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
 ## StreamWriter::Write(const char_t *) method
 
 
@@ -134,12 +104,7 @@ void System::IO::StreamWriter::Write(const char_t *buffer) override
 | --- | --- | --- |
 | buffer | const char_t * | The c-string to write |
 
-## See Also
-
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::Write(const [System::SharedPtr](../../../system/sharedptr/)\<T\>\&) method
+## StreamWriter::Write(const System::SharedPtr\<T\>\&) method
 
 
 Writes the string representation of the specified object to the stream.
@@ -164,6 +129,9 @@ template<typename T> void System::IO::StreamWriter::Write(const System::SharedPt
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [StreamWriter](../)
+* Class [String](../../../system/string/)
+* Class [Object](../../../system/object/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

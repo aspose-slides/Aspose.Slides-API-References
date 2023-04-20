@@ -28,11 +28,6 @@ static bool System::TestToolsExt::IsTest(const char *name_space, const char *cla
 
 True if test method is registered, false otherwise.
 
-## See Also
-
-* Struct [TestToolsExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TestToolsExt::IsTest(const char *, const char *) method
 
 

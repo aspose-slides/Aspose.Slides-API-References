@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.reflection/fieldinfo/getvalue/
 ---
-## FieldInfo::GetValue(const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## FieldInfo::GetValue(const System::SharedPtr\<System::Object\>\&) method
 
 
 Gets property value from specific object.

@@ -20,11 +20,6 @@ int System::Threading::Semaphore::Release()
 
 The count of locks just before [Release()](./) was called.
 
-## See Also
-
-* Class [Semaphore](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
 ## Semaphore::Release(int) method
 
 

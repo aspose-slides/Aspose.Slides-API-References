@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net/cookie/set_domain/
 ---
-## Cookie::set_Domain([String](../../../system/string/)) method
+## Cookie::set_Domain(String) method
 
 
 Sets the 'Domain' attribute's value.

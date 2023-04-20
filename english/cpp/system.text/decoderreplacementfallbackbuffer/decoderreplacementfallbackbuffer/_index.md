@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.text/decoderreplacementfallbackbuffer/decoderreplacementfallbackbuffer/
 ---
-## DecoderReplacementFallbackBuffer::DecoderReplacementFallbackBuffer(const [DecoderReplacementFallbackPtr](../../../system/decoderreplacementfallbackptr/)\&) constructor
+## DecoderReplacementFallbackBuffer::DecoderReplacementFallbackBuffer(const DecoderReplacementFallbackPtr\&) constructor
 
 
 Constructor.

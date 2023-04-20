@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/enumvaluesbase/getvalues/
 ---
-## EnumValuesBase::GetValues(const [TypeInfo](../../typeinfo/)\&) method
+## EnumValuesBase::GetValues(const TypeInfo\&) method
 
 
 Returns an array containing all values of the specified enumeration type.

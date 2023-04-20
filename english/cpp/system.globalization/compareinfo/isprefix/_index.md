@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/compareinfo/isprefix/
 ---
-## CompareInfo::IsPrefix(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::IsPrefix(const String\&, const String\&, CompareOptions) const method
 
 
 Checks if the specified string starts with the specified prefix using the specified compare options.
@@ -28,14 +28,7 @@ virtual bool System::Globalization::CompareInfo::IsPrefix(const String &source, 
 
 True if string starts with prefix; otherwise false.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::IsPrefix(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) const method
+## CompareInfo::IsPrefix(const String\&, const String\&) const method
 
 
 Checks if the specified string starts with the specified prefix.
@@ -58,6 +51,7 @@ True if string starts with prefix; otherwise false.
 
 ## See Also
 
+* Enum [CompareOptions](../../compareoptions/)
 * Class [String](../../../system/string/)
 * Class [CompareInfo](../)
 * Namespace [System::Globalization](../../)

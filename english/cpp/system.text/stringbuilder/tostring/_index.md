@@ -20,12 +20,6 @@ String System::Text::StringBuilder::ToString() const override
 
 [String](../../../system/string/) representation of builder's data.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::ToString(int, int) const method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.xml/xmlconvert/verifywhitespace/
 ---
-## XmlConvert::VerifyWhitespace(const [String](../../../system/string/)\&) method
+## XmlConvert::VerifyWhitespace(const String\&) method
 
 
 Returns the passed-in string instance if all the characters in the string argument are valid whitespace characters.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/slidesrange/set_start/
 ---
-## SlidesRange::set_Start(**uint32_t**) method
+## SlidesRange::set_Start(uint32_t) method
 
 
 Start

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlnamednodemap/removenameditem/
 ---
-## XmlNamedNodeMap::RemoveNamedItem([String](../../../system/string/)) method
+## XmlNamedNodeMap::RemoveNamedItem(String) method
 
 
 Removes the node from the [XmlNamedNodeMap](../).
@@ -26,15 +26,7 @@ virtual SharedPtr<XmlNode> System::Xml::XmlNamedNodeMap::RemoveNamedItem(String 
 
 The [XmlNode](../../xmlnode/) removed from this [XmlNamedNodeMap](../) or **nullptr** if a matching node was not found.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../../xmlnode/)
-* Class [String](../../../system/string/)
-* Class [XmlNamedNodeMap](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNamedNodeMap::RemoveNamedItem([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlNamedNodeMap::RemoveNamedItem(String, String) method
 
 
 Removes a node with the matching [XmlNode::get_LocalName](../../xmlnode/get_localname/) and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/) values.

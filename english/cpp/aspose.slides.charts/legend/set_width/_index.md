@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/legend/set_width/
 ---
-## Legend::set_Width(**float**) method
+## Legend::set_Width(float) method
 
 
 Sets the width of a legend as a fraction of the width of the chart. Write **float**.

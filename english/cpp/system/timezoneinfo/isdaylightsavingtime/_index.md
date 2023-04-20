@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system/timezoneinfo/isdaylightsavingtime/
 ---
-## TimeZoneInfo::IsDaylightSavingTime([DateTime](../../datetime/)) const method
+## TimeZoneInfo::IsDaylightSavingTime(DateTime) const method
 
 
 Checks if specified date and time falls in range of daylight saving time.
@@ -26,13 +26,7 @@ bool System::TimeZoneInfo::IsDaylightSavingTime(DateTime date_time) const
 
 True if date_time is a daylight saving time.
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::IsDaylightSavingTime(const [DateTimeOffset](../../datetimeoffset/)\&) const method
+## TimeZoneInfo::IsDaylightSavingTime(const DateTimeOffset\&) const method
 
 
 Checks if specified date and time falls in range of daylight saving time.
@@ -54,7 +48,8 @@ True if date_time is a daylight saving time.
 
 ## See Also
 
-* Class [DateTimeOffset](../../datetimeoffset/)
+* Class [DateTime](../../datetime/)
 * Class [TimeZoneInfo](../)
+* Class [DateTimeOffset](../../datetimeoffset/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

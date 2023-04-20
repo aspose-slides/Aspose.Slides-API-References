@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.io/path/checkpath/
 ---
-## Path::CheckPath(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, **bool**) method
+## Path::CheckPath(const String\&, const String\&, bool) method
 
 
 Determines if the specified path is valid by checking if it contains invalid characters. An exception is thrown if the path contains invalid characters.

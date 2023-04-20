@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.drawing/characterrange/operator_not_equal/
 ---
-## CharacterRange::operator!=(const [CharacterRange](../)\&) const method
+## CharacterRange::operator!=(const CharacterRange\&) const method
 
 
 Determines if the current and specified objects represent distinct ranges.
@@ -28,7 +28,6 @@ True if **cr** and the current objects represent distinct ranges, otherwise - fa
 
 ## See Also
 
-* Class [CharacterRange](../)
 * Class [CharacterRange](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

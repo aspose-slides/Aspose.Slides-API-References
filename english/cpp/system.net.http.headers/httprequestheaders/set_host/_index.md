@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.net.http.headers/httprequestheaders/set_host/
 ---
-## HttpRequestHeaders::set_Host([String](../../../system/string/)) method
+## HttpRequestHeaders::set_Host(String) method
 
 
 Sets a value of the 'Host' header.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing.imaging/framedimension/equals/
 ---
-## FrameDimension::Equals([FrameDimensionPtr](../../framedimensionptr/)) method
+## FrameDimension::Equals(FrameDimensionPtr) method
 
 
 Determines if the specified [FrameDimension](../) object is equivalent to the current object.

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.xml/xmlconvert/toint32/
 ---
-## XmlConvert::ToInt32(const [String](../../../system/string/)\&) method
+## XmlConvert::ToInt32(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [Int32](../../../system/int32/) equivalent.

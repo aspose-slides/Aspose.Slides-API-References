@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml/xmlsignificantwhitespace/writeto/
 ---
-## XmlSignificantWhitespace::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlSignificantWhitespace::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/).

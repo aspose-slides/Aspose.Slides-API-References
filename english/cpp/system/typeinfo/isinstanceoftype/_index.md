@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system/typeinfo/isinstanceoftype/
 ---
-## TypeInfo::IsInstanceOfType(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) const method
+## TypeInfo::IsInstanceOfType(const SharedPtr\<Object\>\&) const method
 
 
 Determines whether the specified object is an instance of the current type.

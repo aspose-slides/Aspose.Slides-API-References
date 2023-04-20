@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/authenticationheadervalue/authenticationheadervalue/
 ---
-## AuthenticationHeaderValue::AuthenticationHeaderValue([String](../../../system/string/)) constructor
+## AuthenticationHeaderValue::AuthenticationHeaderValue(String) constructor
 
 
 Constructor.
@@ -22,13 +22,7 @@ System::Net::Http::Headers::AuthenticationHeaderValue::AuthenticationHeaderValue
 | --- | --- | --- |
 | scheme | [String](../../../system/string/) | The scheme that can be used for authorization. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [AuthenticationHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## AuthenticationHeaderValue::AuthenticationHeaderValue([String](../../../system/string/), [String](../../../system/string/)) constructor
+## AuthenticationHeaderValue::AuthenticationHeaderValue(String, String) constructor
 
 
 Constructor.

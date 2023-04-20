@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/slidecollection/indexof/
 ---
-## SlideCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## SlideCollection::IndexOf(System::SharedPtr\<ISlide\>) method
 
 
 Returns an index of the specified slide in the collection.

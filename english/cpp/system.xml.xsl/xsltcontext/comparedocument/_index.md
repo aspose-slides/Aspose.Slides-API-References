@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.xsl/xsltcontext/comparedocument/
 ---
-## XsltContext::CompareDocument([String](../../../system/string/), [String](../../../system/string/)) method
+## XsltContext::CompareDocument(String, String) method
 
 
 When overridden in a derived class, compares the base Uniform Resource Identifiers (URIs) of two documents based upon the order the documents were loaded by the XSLT processor (that is, the [XslTransform](../../xsltransform/) class).

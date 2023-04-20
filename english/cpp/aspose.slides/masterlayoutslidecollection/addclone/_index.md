@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/masterlayoutslidecollection/addclone/
 ---
-## MasterLayoutSlideCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## MasterLayoutSlideCollection::AddClone(System::SharedPtr\<ILayoutSlide\>) method
 
 
 Adds a copy of a specified layout slide to the end of the collection.

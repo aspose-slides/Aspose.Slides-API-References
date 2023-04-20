@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.xml/xmltextwriter/xmltextwriter/
 ---
-## XmlTextWriter::XmlTextWriter(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\&) constructor
+## XmlTextWriter::XmlTextWriter(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<Text::Encoding\>\&) constructor
 
 
 Creates an instance of the [XmlTextWriter](../) class using the specified stream and encoding.
@@ -23,15 +23,7 @@ System::Xml::XmlTextWriter::XmlTextWriter(const SharedPtr<IO::Stream> &w, const 
 | w | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The stream to which you want to write. |
 | encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to generate. If encoding is **nullptr** it writes out the stream as UTF-8 and omits the encoding attribute from the **ProcessingInstruction**. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Encoding](../../../system.text/encoding/)
-* Class [XmlTextWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextWriter::XmlTextWriter(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\&) constructor
+## XmlTextWriter::XmlTextWriter(const String\&, const SharedPtr\<Text::Encoding\>\&) constructor
 
 
 Creates an instance of the [XmlTextWriter](../) class using the specified file.
@@ -48,15 +40,7 @@ System::Xml::XmlTextWriter::XmlTextWriter(const String &filename, const SharedPt
 | filename | const [String](../../../system/string/)\& | The filename to write to. If the file exists, it truncates it and overwrites it with the new content. |
 | encoding | const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\& | The encoding to generate. If encoding is **nullptr** it writes the file out as UTF-8 and omits the encoding attribute from the **ProcessingInstruction**. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoding](../../../system.text/encoding/)
-* Class [XmlTextWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlTextWriter::XmlTextWriter(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) constructor
+## XmlTextWriter::XmlTextWriter(const SharedPtr\<IO::TextWriter\>\&) constructor
 
 
 Creates an instance of the [XmlTextWriter](../) class using the specified TextWriter.
@@ -75,7 +59,10 @@ System::Xml::XmlTextWriter::XmlTextWriter(const SharedPtr<IO::TextWriter> &w)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
+* Class [Stream](../../../system.io/stream/)
+* Class [Encoding](../../../system.text/encoding/)
 * Class [XmlTextWriter](../)
+* Class [String](../../../system/string/)
+* Class [TextWriter](../../../system.io/textwriter/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/commandeffect/set_shapetarget/
 ---
-## CommandEffect::set_ShapeTarget([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\>) method
+## CommandEffect::set_ShapeTarget(System::SharedPtr\<IShape\>) method
 
 
 Defines shape target of command effect. Write [IShape](../../../aspose.slides/ishape/).

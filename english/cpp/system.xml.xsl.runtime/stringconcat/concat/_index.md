@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.xsl.runtime/stringconcat/concat/
 ---
-## StringConcat::Concat(const [String](../../../system/string/)\&) method
+## StringConcat::Concat(const String\&) method
 
 
 Concatenates a new string to the result.

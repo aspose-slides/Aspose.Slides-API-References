@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/system/string/isnullorwhitespace/
 ---
-## String::IsNullOrWhiteSpace(const [String](../)\&) method
+## String::IsNullOrWhiteSpace(const String\&) method
 
 
 Indicates whether a specified string is null, empty, or consists only of white-space characters.
@@ -28,7 +28,6 @@ true if string is null or empty or consists exclusively of white-space character
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

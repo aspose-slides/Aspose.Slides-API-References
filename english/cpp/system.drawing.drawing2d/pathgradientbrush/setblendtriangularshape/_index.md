@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/setblendtriangularshape/
 ---
-## PathGradientBrush::SetBlendTriangularShape(**float**, **float**) method
+## PathGradientBrush::SetBlendTriangularShape(float, float) method
 
 
 NOT IMPLEMENTED.

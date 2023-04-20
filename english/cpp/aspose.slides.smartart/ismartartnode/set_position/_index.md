@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.smartart/ismartartnode/set_position/
 ---
-## ISmartArtNode::set_Position(**int32_t**) method
+## ISmartArtNode::set_Position(int32_t) method
 
 
 Sets zero-based position of the node among sibling nodes. Write **int32_t**.

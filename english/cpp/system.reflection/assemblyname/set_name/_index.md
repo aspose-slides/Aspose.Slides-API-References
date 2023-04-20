@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.reflection/assemblyname/set_name/
 ---
-## AssemblyName::set_Name(const [String](../../../system/string/)\&) method
+## AssemblyName::set_Name(const String\&) method
 
 
 Sets assembly name.

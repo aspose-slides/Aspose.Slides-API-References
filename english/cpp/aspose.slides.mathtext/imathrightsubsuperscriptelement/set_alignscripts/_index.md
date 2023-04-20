@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.mathtext/imathrightsubsuperscriptelement/set_alignscripts/
 ---
-## IMathRightSubSuperscriptElement::set_AlignScripts(**bool**) method
+## IMathRightSubSuperscriptElement::set_AlignScripts(bool) method
 
 
 Specifies the alignment of subscript/superscript. When true, subscript and superscript are aligned horizontally to each other. When false, they are kerned to the shape of the base. Default value is false.

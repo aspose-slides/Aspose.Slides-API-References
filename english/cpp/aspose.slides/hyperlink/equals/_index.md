@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides/hyperlink/equals/
 ---
-## Hyperlink::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Hyperlink::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the two [Hyperlink](../) instances are equal.

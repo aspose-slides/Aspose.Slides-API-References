@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlcomment/clonenode/
 ---
-## XmlComment::CloneNode(**bool**) method
+## XmlComment::CloneNode(bool) method
 
 
 Creates a duplicate of this node.

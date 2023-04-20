@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::HttpRequestMessage::HttpRequestMessage()
 ```
 
-## See Also
-
-* Class [HttpRequestMessage](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## HttpRequestMessage::HttpRequestMessage([System::SharedPtr](../../../system/sharedptr/)\<[HttpMethod](../../httpmethod/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) constructor
+## HttpRequestMessage::HttpRequestMessage(System::SharedPtr\<HttpMethod\>, System::SharedPtr\<Uri\>) constructor
 
 
 Constructs a new instance.
@@ -37,15 +32,7 @@ System::Net::Http::HttpRequestMessage::HttpRequestMessage(System::SharedPtr<Http
 | method | [System::SharedPtr](../../../system/sharedptr/)\<[HttpMethod](../../httpmethod/)\> | The HTTP method. |
 | requestUri | [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The URI of the requested resource. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpMethod](../../httpmethod/)
-* Class [Uri](../../../system/uri/)
-* Class [HttpRequestMessage](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## HttpRequestMessage::HttpRequestMessage([System::SharedPtr](../../../system/sharedptr/)\<[HttpMethod](../../httpmethod/)\>, [String](../../../system/string/)) constructor
+## HttpRequestMessage::HttpRequestMessage(System::SharedPtr\<HttpMethod\>, String) constructor
 
 
 Constructs a new instance.
@@ -65,8 +52,9 @@ System::Net::Http::HttpRequestMessage::HttpRequestMessage(System::SharedPtr<Http
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpMethod](../../httpmethod/)
-* Class [String](../../../system/string/)
 * Class [HttpRequestMessage](../)
+* Class [HttpMethod](../../httpmethod/)
+* Class [Uri](../../../system/uri/)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

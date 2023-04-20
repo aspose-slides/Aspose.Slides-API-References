@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system/iconvertible/todouble/
 ---
-## IConvertible::ToDouble([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToDouble(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent double-precision floating-point number using the specified culture-specific formatting information..

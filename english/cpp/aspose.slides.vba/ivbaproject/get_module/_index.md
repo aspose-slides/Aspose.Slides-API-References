@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.vba/ivbaproject/get_module/
 ---
-## IVbaProject::get_Module(**int32_t**) method
+## IVbaProject::get_Module(int32_t) method
 
 
 Returns the module contained in the VBA project at the specified index.

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.slides/cell/splitbycolspan/
 ---
-## Cell::SplitByColSpan(**int32_t**) method
+## Cell::SplitByColSpan(int32_t) method
 
 
 Splits the cell to two cells by index of column.

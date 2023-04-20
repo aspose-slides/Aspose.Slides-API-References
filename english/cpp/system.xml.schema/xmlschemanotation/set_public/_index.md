@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemanotation/set_public/
 ---
-## XmlSchemaNotation::set_Public(const [String](../../../system/string/)\&) method
+## XmlSchemaNotation::set_Public(const String\&) method
 
 
 Sets the **public** identifier.

@@ -15,12 +15,7 @@ Creates stack trace describing current stack state.
 System::Diagnostics::StackTrace::StackTrace()
 ```
 
-## See Also
-
-* Class [StackTrace](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## StackTrace::StackTrace(**bool**) constructor
+## StackTrace::StackTrace(bool) constructor
 
 
 Creates stack trace describing current stack state.
@@ -36,12 +31,7 @@ System::Diagnostics::StackTrace::StackTrace(bool isFileInfoNeeded)
 | --- | --- | --- |
 | isFileInfoNeeded | **bool** | True to capture the file name, line number, and column number; otherwise, false |
 
-## See Also
-
-* Class [StackTrace](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## StackTrace::StackTrace(const [StackTrace](../)\&) constructor
+## StackTrace::StackTrace(const StackTrace\&) constructor
 
 
 No copying.
@@ -52,7 +42,6 @@ System::Diagnostics::StackTrace::StackTrace(const StackTrace &)=delete
 
 ## See Also
 
-* Class [StackTrace](../)
 * Class [StackTrace](../)
 * Namespace [System::Diagnostics](../../)
 * Library [Aspose.Slides](../../../)

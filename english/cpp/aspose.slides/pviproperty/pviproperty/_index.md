@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/pviproperty/pviproperty/
 ---
-## PVIProperty::PVIProperty(T, Aspose::Foundation::Portable::Func1\<TRealObject, T\>, [SetHandler](../sethandler/)) constructor
+## PVIProperty::PVIProperty(T, Aspose::Foundation::Portable::Func1\<TRealObject, T\>, SetHandler) constructor
 
 
 

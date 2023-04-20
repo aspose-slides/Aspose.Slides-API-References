@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/bufferedstream/bufferedstream/
 ---
-## BufferedStream::BufferedStream(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&) constructor
+## BufferedStream::BufferedStream(const SharedPtr\<Stream\>\&) constructor
 
 
 Constructs an [BufferedStream](../) object that wraps the specified stream and uses a 4096 bytes long buffer.
@@ -22,14 +22,7 @@ System::IO::BufferedStream::BufferedStream(const SharedPtr<Stream> &stream)
 | --- | --- | --- |
 | stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying [Stream](../../stream/) object |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Class [BufferedStream](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BufferedStream::BufferedStream(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&, int) constructor
+## BufferedStream::BufferedStream(const SharedPtr\<Stream\>\&, int) constructor
 
 
 Constructs an [BufferedStream](../) object that wraps the specified stream and uses a buffer of the specified size.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/cspkeycontainerinfo/cspkeycontainerinfo/
 ---
-## CspKeyContainerInfo::CspKeyContainerInfo(const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>\&) constructor
+## CspKeyContainerInfo::CspKeyContainerInfo(const SharedPtr\<CspParameters\>\&) constructor
 
 
 Consturctor.

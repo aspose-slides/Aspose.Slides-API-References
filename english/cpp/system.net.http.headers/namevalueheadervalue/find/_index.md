@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net.http.headers/namevalueheadervalue/find/
 ---
-## NameValueHeaderValue::Find([System::SharedPtr](../../../system/sharedptr/)\<[ObjectCollection](../../objectcollection/)\<[System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\>\>, [String](../../../system/string/)) method
+## NameValueHeaderValue::Find(System::SharedPtr\<ObjectCollection\<System::SharedPtr\<NameValueHeaderValue\>\>\>, String) method
 
 
 Finds the NameValueHeaderValue-class instance in a collection by the specified name.
@@ -33,6 +33,5 @@ The NameValueHeaderValue-class instance when it is found, otherwise nullptr.
 * Class [NameValueHeaderValue](../)
 * Class [ObjectCollection](../../objectcollection/)
 * Class [String](../../../system/string/)
-* Class [NameValueHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

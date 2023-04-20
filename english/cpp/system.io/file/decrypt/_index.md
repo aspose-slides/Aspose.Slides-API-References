@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.io/file/decrypt/
 ---
-## File::Decrypt(const [String](../../../system/string/)\&) method
+## File::Decrypt(const String\&) method
 
 
 NOT IMPLEMENTED.

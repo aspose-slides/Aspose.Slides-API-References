@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/bitconverter/touint64/
 ---
-## BitConverter::ToUInt64(const [System::ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int) method
+## BitConverter::ToUInt64(const System::ArrayPtr\<uint8_t\>\&, int) method
 
 
 Converts eight bytes from the specified array starting at the specified index to unsigned 64-bit integer value.
@@ -27,13 +27,7 @@ static uint64_t System::BitConverter::ToUInt64(const System::ArrayPtr<uint8_t> &
 
 Unsigned 64-bit integer value resulting from conversion
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [BitConverter](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## BitConverter::ToUInt64(const System::Details::ArrayView\<**uint8_t**\>\&, int) method
+## BitConverter::ToUInt64(const System::Details::ArrayView\<uint8_t\>\&, int) method
 
 
 Converts eight bytes from the specified array starting at the specified index to unsigned 64-bit integer value.
@@ -56,6 +50,7 @@ Unsigned 64-bit integer value resulting from conversion
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [BitConverter](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

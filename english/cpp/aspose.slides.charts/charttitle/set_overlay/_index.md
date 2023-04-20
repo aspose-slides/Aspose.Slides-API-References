@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.charts/charttitle/set_overlay/
 ---
-## ChartTitle::set_Overlay(**bool**) method
+## ChartTitle::set_Overlay(bool) method
 
 
 Determines whether other chart elements shall be allowed to overlap title. Write **bool**.

@@ -3,7 +3,7 @@ title: SelectMode
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the mode for polling the status of the socket.
 type: docs
-weight: 196
+weight: 170
 url: /cpp/system.net.sockets/selectmode/
 ---
 ## SelectMode enum

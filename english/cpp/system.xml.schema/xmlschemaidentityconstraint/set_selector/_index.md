@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemaidentityconstraint/set_selector/
 ---
-## XmlSchemaIdentityConstraint::set_Selector(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaXPath](../../xmlschemaxpath/)\>\&) method
+## XmlSchemaIdentityConstraint::set_Selector(const SharedPtr\<XmlSchemaXPath\>\&) method
 
 
 Sets the [XPath](../../../system.xml.xpath/) expression **selector** element.

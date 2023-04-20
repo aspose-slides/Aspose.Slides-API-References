@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic.details/enumeratorcastadapter/enumeratorcastadapter/
 ---
-## EnumeratorCastAdapter::EnumeratorCastAdapter([SharedPtr](../../../system/sharedptr/)\<[IEnumerator](../../../system.collections.generic/ienumerator/)\<Source\>\>) constructor
+## EnumeratorCastAdapter::EnumeratorCastAdapter(SharedPtr\<IEnumerator\<Source\>\>) constructor
 
 
 

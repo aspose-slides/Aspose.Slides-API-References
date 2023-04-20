@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/shapecollection/addoleobjectframe/
 ---
-## ShapeCollection::AddOleObjectFrame(**float**, **float**, **float**, **float**, [System::SharedPtr](../../../system/sharedptr/)\<[IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)\>) method
+## ShapeCollection::AddOleObjectFrame(float, float, float, float, System::SharedPtr\<IOleEmbeddedDataInfo\>) method
 
 
 Adds a new OLE object to the end of a collection.
@@ -63,15 +63,7 @@ pres->Save(u"OleEmbed_out.pptx", SaveFormat::Pptx);
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IOleObjectFrame](../../ioleobjectframe/)
-* Class [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::AddOleObjectFrame(**float**, **float**, **float**, **float**, [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## ShapeCollection::AddOleObjectFrame(float, float, float, float, System::String, System::String) method
 
 
 Adds a new OLE object to the end of a collection.
@@ -105,7 +97,8 @@ The path is stored in the presentation as is. If a relative path is specified th
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IOleObjectFrame](../../ioleobjectframe/)
-* Class [String](../../../system/string/)
+* Class [IOleEmbeddedDataInfo](../../ioleembeddeddatainfo/)
 * Class [ShapeCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

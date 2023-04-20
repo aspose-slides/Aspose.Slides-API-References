@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/iformattable/tostring/
 ---
-## IFormattable::ToString([String](../../string/), [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>) method
+## IFormattable::ToString(String, SharedPtr\<IFormatProvider\>) method
 
 
 
@@ -17,8 +17,8 @@ virtual String System::IFormattable::ToString(String format, SharedPtr<IFormatPr
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Class [IFormatProvider](../../iformatprovider/)
 * Class [IFormattable](../)
 * Namespace [System](../../)

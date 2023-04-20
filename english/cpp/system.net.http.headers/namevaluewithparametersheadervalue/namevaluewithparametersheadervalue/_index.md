@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http.headers/namevaluewithparametersheadervalue/namevaluewithparametersheadervalue/
 ---
-## NameValueWithParametersHeaderValue::NameValueWithParametersHeaderValue([String](../../../system/string/)) constructor
+## NameValueWithParametersHeaderValue::NameValueWithParametersHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::Headers::NameValueWithParametersHeaderValue::NameValueWithPar
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The header name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [NameValueWithParametersHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueWithParametersHeaderValue::NameValueWithParametersHeaderValue([String](../../../system/string/), [String](../../../system/string/)) constructor
+## NameValueWithParametersHeaderValue::NameValueWithParametersHeaderValue(String, String) constructor
 
 
 Constructs a new instance.
@@ -45,12 +39,6 @@ System::Net::Http::Headers::NameValueWithParametersHeaderValue::NameValueWithPar
 | name | [String](../../../system/string/) | The header name. |
 | value | [String](../../../system/string/) | The header value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [NameValueWithParametersHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
 ## NameValueWithParametersHeaderValue::NameValueWithParametersHeaderValue() constructor
 
 
@@ -62,6 +50,7 @@ System::Net::Http::Headers::NameValueWithParametersHeaderValue::NameValueWithPar
 
 ## See Also
 
+* Class [String](../../../system/string/)
 * Class [NameValueWithParametersHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

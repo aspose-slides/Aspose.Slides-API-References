@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system/array/settemplateweakptr/
 ---
-## Array::SetTemplateWeakPtr(**uint32_t**) method
+## Array::SetTemplateWeakPtr(uint32_t) method
 
 
 Makes array treat stored pointers as weak (if applicable).

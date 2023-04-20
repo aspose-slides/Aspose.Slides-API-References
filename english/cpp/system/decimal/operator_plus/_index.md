@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system/decimal/operator_plus/
 ---
-## Decimal::operator+(const [Decimal](../)\&) const method
+## Decimal::operator+(const Decimal\&) const method
 
 
 Returns a new instance of [Decimal](../) class that represents a value that is a sum of values represented by the current and specified objects.
@@ -28,7 +28,6 @@ A new instance of [Decimal](../) class that represents a value that is a sum of 
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

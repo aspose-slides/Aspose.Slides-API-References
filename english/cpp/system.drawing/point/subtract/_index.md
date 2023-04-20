@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.drawing/point/subtract/
 ---
-## Point::Subtract(const [Point](../)\&, const [Size](../../size/)\&) method
+## Point::Subtract(const Point\&, const Size\&) method
 
 
 Subtracts the width and height values of the specified [Size](../../size/) object from the X and Y coordinates values of the specified [Point](../) object correspondingly.
@@ -31,6 +31,5 @@ A new [Point](../) object whose X coordinate value is equal to the result of sub
 
 * Class [Point](../)
 * Class [Size](../../size/)
-* Class [Point](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

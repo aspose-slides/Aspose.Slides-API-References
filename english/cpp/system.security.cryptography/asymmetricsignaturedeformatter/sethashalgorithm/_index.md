@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/asymmetricsignaturedeformatter/sethashalgorithm/
 ---
-## AsymmetricSignatureDeformatter::SetHashAlgorithm([System::String](../../../system/string/)) method
+## AsymmetricSignatureDeformatter::SetHashAlgorithm(System::String) method
 
 
 Sets hash algorithm associated with deformatter.

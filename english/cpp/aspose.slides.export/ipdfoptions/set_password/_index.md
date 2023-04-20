@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.export/ipdfoptions/set_password/
 ---
-## IPdfOptions::set_Password([System::String](../../../system/string/)) method
+## IPdfOptions::set_Password(System::String) method
 
 
 Setting user password to protect the PDF document. Write [System::String](../../../system/string/).

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.security.cryptography.xml/reference/addtransform/
 ---
-## Reference::AddTransform([SharedPtr](../../../system/sharedptr/)\<[Transform](../../transform/)\>) method
+## Reference::AddTransform(SharedPtr\<Transform\>) method
 
 
 

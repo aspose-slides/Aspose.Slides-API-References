@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http/httpclient/send/
 ---
-## HttpClient::Send([System::SharedPtr](../../../system/sharedptr/)\<[HttpRequestMessage](../../httprequestmessage/)\>, [HttpCompletionOption](../../httpcompletionoption/)) method
+## HttpClient::Send(System::SharedPtr\<HttpRequestMessage\>, HttpCompletionOption) method
 
 
 Sends the specified HTTP request.
@@ -25,10 +25,10 @@ System::SharedPtr<HttpResponseMessage> System::Net::Http::HttpClient::Send(Syste
 
 ## See Also
 
+* Enum [HttpCompletionOption](../../httpcompletionoption/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [HttpResponseMessage](../../httpresponsemessage/)
 * Class [HttpRequestMessage](../../httprequestmessage/)
-* Enum [HttpCompletionOption](../../httpcompletionoption/)
 * Class [HttpClient](../)
 * Namespace [System::Net::Http](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.globalization/datetimeformatinfo/set_pmdesignator/
 ---
-## DateTimeFormatInfo::set_PMDesignator(const [String](../../../system/string/)\&) method
+## DateTimeFormatInfo::set_PMDesignator(const String\&) method
 
 
 Sets PM designator.

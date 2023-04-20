@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.web.services.protocols/webclientprotocol/set_requestencoding/
 ---
-## WebClientProtocol::set_RequestEncoding([System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>) method
+## WebClientProtocol::set_RequestEncoding(System::SharedPtr\<Text::Encoding\>) method
 
 
 Sets the encoding that is used to make the client requests.

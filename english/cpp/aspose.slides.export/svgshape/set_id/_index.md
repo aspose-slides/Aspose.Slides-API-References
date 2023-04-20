@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/svgshape/set_id/
 ---
-## SvgShape::set_Id([System::String](../../../system/string/)) method
+## SvgShape::set_Id(System::String) method
 
 
 Gets shape id

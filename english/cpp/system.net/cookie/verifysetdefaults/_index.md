@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.net/cookie/verifysetdefaults/
 ---
-## Cookie::VerifySetDefaults([CookieVariant](../../cookievariant/), [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, **bool**, [String](../../../system/string/), **bool**, **bool**) method
+## Cookie::VerifySetDefaults(CookieVariant, System::SharedPtr\<Uri\>, bool, String, bool, bool) method
 
 
 Verifies and sets the default attribute's values.

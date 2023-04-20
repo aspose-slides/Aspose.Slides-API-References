@@ -15,12 +15,7 @@ Constructs a new instance of [StringFormat](../) class.
 System::Drawing::StringFormat::StringFormat()
 ```
 
-## See Also
-
-* Class [StringFormat](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## StringFormat::StringFormat([StringFormatFlags](../../stringformatflags/), **int32_t**) constructor
+## StringFormat::StringFormat(StringFormatFlags, int32_t) constructor
 
 
 Constructs a new instance of [StringFormat](../) class with the specified format flags and language.
@@ -37,13 +32,7 @@ System::Drawing::StringFormat::StringFormat(StringFormatFlags options, int32_t l
 | options | [StringFormatFlags](../../stringformatflags/) | A bitwise combination of StringFormatFlags enum value that specify the string format to be represented by the object being created |
 | language | **int32_t** | A language of the text |
 
-## See Also
-
-* Enum [StringFormatFlags](../../stringformatflags/)
-* Class [StringFormat](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## StringFormat::StringFormat(const [SharedPtr](../../../system/sharedptr/)\<[StringFormat](../)\>\&) constructor
+## StringFormat::StringFormat(const SharedPtr\<StringFormat\>\&) constructor
 
 
 Copy constructor.
@@ -61,8 +50,8 @@ System::Drawing::StringFormat::StringFormat(const SharedPtr<StringFormat> &forma
 
 ## See Also
 
+* Enum [StringFormatFlags](../../stringformatflags/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [StringFormat](../)
 * Class [StringFormat](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -15,11 +15,6 @@ Returns reference to rvalue (const)
 const T & System::HolderInitializer<T, R>::HoldIfTemporary(const T &value)
 ```
 
-## See Also
-
-* Struct [HolderInitializer](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## HolderInitializer::HoldIfTemporary(T\&) method
 
 
@@ -29,11 +24,6 @@ Returns reference to rvalue (non-const)
 const T & System::HolderInitializer<T, R>::HoldIfTemporary(T &value)
 ```
 
-## See Also
-
-* Struct [HolderInitializer](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## HolderInitializer::HoldIfTemporary(T\&&) method
 
 

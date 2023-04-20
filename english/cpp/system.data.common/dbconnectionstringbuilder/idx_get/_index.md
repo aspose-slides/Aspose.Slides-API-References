@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.data.common/dbconnectionstringbuilder/idx_get/
 ---
-## DbConnectionStringBuilder::idx_get([String](../../../system/string/)) method
+## DbConnectionStringBuilder::idx_get(String) method
 
 
 RTTI information.

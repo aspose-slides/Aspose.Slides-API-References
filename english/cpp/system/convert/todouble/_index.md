@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system/convert/todouble/
 ---
-## Convert::ToDouble(**bool**) method
+## Convert::ToDouble(bool) method
 
 
 Converts the specified boolean value to an equivalent double-precision floating-point number.
@@ -15,12 +15,7 @@ Converts the specified boolean value to an equivalent double-precision floating-
 static constexpr double System::Convert::ToDouble(bool value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**uint8_t**) method
+## Convert::ToDouble(uint8_t) method
 
 
 Converts the specified 8-bit unsigned integer to an equivalent double-precision floating-point number.
@@ -29,12 +24,7 @@ Converts the specified 8-bit unsigned integer to an equivalent double-precision 
 static constexpr double System::Convert::ToDouble(uint8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**int8_t**) method
+## Convert::ToDouble(int8_t) method
 
 
 Converts the specified 8-bit signed integer to an equivalent double-precision floating-point number.
@@ -43,12 +33,7 @@ Converts the specified 8-bit signed integer to an equivalent double-precision fl
 static constexpr double System::Convert::ToDouble(int8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**uint16_t**) method
+## Convert::ToDouble(uint16_t) method
 
 
 Converts the specified 16-bit unsigned integer to an equivalent double-precision floating-point number.
@@ -57,12 +42,7 @@ Converts the specified 16-bit unsigned integer to an equivalent double-precision
 static constexpr double System::Convert::ToDouble(uint16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**int16_t**) method
+## Convert::ToDouble(int16_t) method
 
 
 Converts the specified 16-bit signed integer to an equivalent double-precision floating-point number.
@@ -71,12 +51,7 @@ Converts the specified 16-bit signed integer to an equivalent double-precision f
 static constexpr double System::Convert::ToDouble(int16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**uint32_t**) method
+## Convert::ToDouble(uint32_t) method
 
 
 Converts the specified 32-bit unsigned integer to an equivalent double-precision floating-point number.
@@ -85,12 +60,7 @@ Converts the specified 32-bit unsigned integer to an equivalent double-precision
 static constexpr double System::Convert::ToDouble(uint32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**int32_t**) method
+## Convert::ToDouble(int32_t) method
 
 
 Converts the specified 32-bit signed integer to an equivalent double-precision floating-point number.
@@ -99,12 +69,7 @@ Converts the specified 32-bit signed integer to an equivalent double-precision f
 static constexpr double System::Convert::ToDouble(int32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**uint64_t**) method
+## Convert::ToDouble(uint64_t) method
 
 
 Converts the specified 64-bit unsigned integer to an equivalent double-precision floating-point number.
@@ -113,12 +78,7 @@ Converts the specified 64-bit unsigned integer to an equivalent double-precision
 static constexpr double System::Convert::ToDouble(uint64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**int64_t**) method
+## Convert::ToDouble(int64_t) method
 
 
 Converts the specified 64-bit signed integer to an equivalent double-precision floating-point number.
@@ -127,12 +87,7 @@ Converts the specified 64-bit signed integer to an equivalent double-precision f
 static constexpr double System::Convert::ToDouble(int64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**float**) method
+## Convert::ToDouble(float) method
 
 
 Converts the specified single-precision number to an equivalent double-precision floating-point number.
@@ -141,12 +96,7 @@ Converts the specified single-precision number to an equivalent double-precision
 static constexpr double System::Convert::ToDouble(float value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(**double**) method
+## Convert::ToDouble(double) method
 
 
 Returns the specified double number.
@@ -155,12 +105,7 @@ Returns the specified double number.
 static constexpr double System::Convert::ToDouble(double value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [Decimal](../../decimal/)\&) method
+## Convert::ToDouble(const Decimal\&) method
 
 
 Converts the specified decimal number to an equivalent double-precision floating-point number.
@@ -169,12 +114,6 @@ Converts the specified decimal number to an equivalent double-precision floating
 static double System::Convert::ToDouble(const Decimal &value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToDouble(char_t) method
 
 
@@ -184,12 +123,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static double System::Convert::ToDouble(char_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble([DateTime](../../datetime/)) method
+## Convert::ToDouble(DateTime) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -198,12 +132,6 @@ Conversion is not supported. Always throws InvalidCastException.
 static double System::Convert::ToDouble(DateTime value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToDouble(std::nullptr_t) method
 
 
@@ -218,11 +146,6 @@ static constexpr double System::Convert::ToDouble(std::nullptr_t)
 
 Zero.
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToDouble(const char_t *) method
 
 
@@ -243,12 +166,7 @@ static double System::Convert::ToDouble(const char_t *value)
 
 The double-precision floating-point value equal to the number represented by the specified c-string
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&) method
+## Convert::ToDouble(const String\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value.
@@ -268,13 +186,7 @@ static double System::Convert::ToDouble(const String &value)
 
 The double-precision floating-point value equal to the number represented by the specified string
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDouble(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value using the provided formatting information.
@@ -295,15 +207,7 @@ static double System::Convert::ToDouble(const String &value, const SharedPtr<IFo
 
 The double-precision floating-point value equal to the number represented by the specified string
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToDouble(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -312,15 +216,7 @@ The double-precision floating-point value equal to the number represented by the
 static double System::Convert::ToDouble(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToDouble(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -329,15 +225,7 @@ static double System::Convert::ToDouble(const String &value, const SharedPtr<Glo
 static double System::Convert::ToDouble(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToDouble(const String\&, std::nullptr_t) method
 
 
 
@@ -346,13 +234,7 @@ static double System::Convert::ToDouble(const String &value, const SharedPtr<Glo
 static double System::Convert::ToDouble(const String &value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDouble(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent double-precision floating-point value using the provided formatting information and number style.
@@ -374,16 +256,7 @@ static double System::Convert::ToDouble(const String &value, Globalization::Numb
 
 The double-precision floating-point value equal to the number represented by the specified string
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToDouble(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -392,16 +265,7 @@ The double-precision floating-point value equal to the number represented by the
 static double System::Convert::ToDouble(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToDouble(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -410,16 +274,7 @@ static double System::Convert::ToDouble(const String &value, Globalization::Numb
 static double System::Convert::ToDouble(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), std::nullptr_t) method
+## Convert::ToDouble(const String\&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -428,14 +283,7 @@ static double System::Convert::ToDouble(const String &value, Globalization::Numb
 static double System::Convert::ToDouble(const String &value, Globalization::NumberStyles styles, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDouble(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDouble(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified boxed value to double-precision floating-point value. If the type of boxed value is [String](../../string/), the specified string format is used during conversion.
@@ -458,9 +306,15 @@ A double-precision floating-point value equivalent to the specified boxed value
 
 ## See Also
 
+* Enum [NumberStyles](../../../system.globalization/numberstyles/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
+* Class [Decimal](../../decimal/)
+* Class [DateTime](../../datetime/)
+* Class [String](../../string/)
 * Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
+* Class [Object](../../object/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

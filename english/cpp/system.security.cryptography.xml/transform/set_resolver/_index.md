@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.security.cryptography.xml/transform/set_resolver/
 ---
-## Transform::set_Resolver([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlResolver](../../../system.xml/xmlresolver/)\>) method
+## Transform::set_Resolver(SharedPtr\<System::Xml::XmlResolver\>) method
 
 
 

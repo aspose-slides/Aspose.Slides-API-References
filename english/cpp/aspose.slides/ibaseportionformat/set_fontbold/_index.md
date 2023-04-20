@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/ibaseportionformat/set_fontbold/
 ---
-## IBasePortionFormat::set_FontBold([NullableBool](../../nullablebool/)) method
+## IBasePortionFormat::set_FontBold(NullableBool) method
 
 
 Determines whether the font is bold. No inheritance applied. Write [NullableBool](../../nullablebool/).

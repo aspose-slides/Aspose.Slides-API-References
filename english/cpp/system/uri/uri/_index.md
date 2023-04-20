@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system/uri/uri/
 ---
-## Uri::Uri(const [String](../../string/)\&) constructor
+## Uri::Uri(const String\&) constructor
 
 
 Constructs a [Uri](../) object that represents the specified URI.
@@ -22,13 +22,7 @@ System::Uri::Uri(const String &uriString)
 | --- | --- | --- |
 | uriString | const [String](../../string/)\& | The string URI to be represented by the object being constructed |
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Uri](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Uri::Uri(const [String](../../string/)\&, **bool**) constructor
+## Uri::Uri(const String\&, bool) constructor
 
 
 Constructs a [Uri](../) object that represents the specified URI; an argument specifies if the URI should be escaped.
@@ -45,13 +39,7 @@ System::Uri::Uri(const String &uriString, bool dontEscape)
 | uriString | const [String](../../string/)\& | The string URI to be represented by the object being constructed |
 | dontEscape | **bool** | Specifies if the URI should not be escaped |
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Uri](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Uri::Uri(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, const [String](../../string/)\&, **bool**) constructor
+## Uri::Uri(const SharedPtr\<Uri\>\&, const String\&, bool) constructor
 
 
 Constructs an [Uri](../) abject from the specified [Uri](../) object representing the base URI and the string representation of relative URI; an argument specifies if the URI should be escaped.
@@ -69,15 +57,7 @@ System::Uri::Uri(const SharedPtr<Uri> &baseUri, const String &relativeUri, bool 
 | relativeUri | const [String](../../string/)\& | The relative URI that is added to the base URI |
 | dontEscape | **bool** | Specifies if the URI should not be escaped |
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
-* Class [String](../../string/)
-* Class [Uri](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Uri::Uri(const [String](../../string/)\&, [UriKind](../../urikind/)) constructor
+## Uri::Uri(const String\&, UriKind) constructor
 
 
 Constructs a [Uri](../) object that represents the specified URI; an argument specifies the URI kind.
@@ -94,14 +74,7 @@ System::Uri::Uri(const String &uriString, UriKind uriKind)
 | uriString | const [String](../../string/)\& | The string URI to be represented by the object being constructed |
 | uriKind | [UriKind](../../urikind/) | Specifies the URI kind |
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [UriKind](../../urikind/)
-* Class [Uri](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Uri::Uri(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, const [String](../../string/)\&) constructor
+## Uri::Uri(const SharedPtr\<Uri\>\&, const String\&) constructor
 
 
 Constructs an [Uri](../) abject from the specified base and relative URIs.
@@ -118,15 +91,7 @@ System::Uri::Uri(const SharedPtr<Uri> &baseUri, const String &relativeUri)
 | baseUri | const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\& | The base URI |
 | relativeUri | const [String](../../string/)\& | The relative URI that is added to the base URI |
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
-* Class [String](../../string/)
-* Class [Uri](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Uri::Uri(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&) constructor
+## Uri::Uri(const SharedPtr\<Uri\>\&, const SharedPtr\<Uri\>\&) constructor
 
 
 Constructs an [Uri](../) abject from the specified base and relative URIs.
@@ -145,8 +110,9 @@ System::Uri::Uri(const SharedPtr<Uri> &baseUri, const SharedPtr<Uri> &relativeUr
 
 ## See Also
 
+* Enum [UriKind](../../urikind/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
+* Class [String](../../string/)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

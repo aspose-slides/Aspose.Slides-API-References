@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/aspose.slides.charts/axis/set_isplotorderreversed/
 ---
-## Axis::set_IsPlotOrderReversed(**bool**) method
+## Axis::set_IsPlotOrderReversed(bool) method
 
 
 Represents if MS PowerPoint plots data points from last to first. Write **bool**.

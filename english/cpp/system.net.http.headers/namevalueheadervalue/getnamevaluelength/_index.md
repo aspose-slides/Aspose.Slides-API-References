@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/namevalueheadervalue/getnamevaluelength/
 ---
-## NameValueHeaderValue::GetNameValueLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\&) method
+## NameValueHeaderValue::GetNameValueLength(String, int32_t, System::SharedPtr\<NameValueHeaderValue\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [NameValueHeaderValue](../) class.
@@ -28,15 +28,7 @@ static int32_t System::Net::Http::Headers::NameValueHeaderValue::GetNameValueLen
 
 Returns the length of a parsed substring, otherwise 0.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [NameValueHeaderValue](../)
-* Class [NameValueHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueHeaderValue::GetNameValueLength([String](../../../system/string/), **int32_t**, [HeaderFunc](../../headerfunc/)\<[System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\>, [System::SharedPtr](../../../system/sharedptr/)\<[NameValueHeaderValue](../)\>\&) method
+## NameValueHeaderValue::GetNameValueLength(String, int32_t, HeaderFunc\<System::SharedPtr\<NameValueHeaderValue\>\>, System::SharedPtr\<NameValueHeaderValue\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [NameValueHeaderValue](../) class.
@@ -61,10 +53,9 @@ Returns the length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
-* Typedef [HeaderFunc](../../headerfunc/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [NameValueHeaderValue](../)
+* Typedef [HeaderFunc](../../headerfunc/)
+* Class [String](../../../system/string/)
 * Class [NameValueHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

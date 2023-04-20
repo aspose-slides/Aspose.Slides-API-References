@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.io/file/open/
 ---
-## File::Open(const [String](../../../system/string/)\&, [FileMode](../../filemode/)) method
+## File::Open(const String\&, FileMode) method
 
 
 Opens the specified file in the specified mode for reading and writing and with no sharing.
@@ -27,15 +27,7 @@ static FileStreamPtr System::IO::File::Open(const String &path, FileMode mode)
 
 A [FileStream](../../filestream/) object associated with the opened file
 
-## See Also
-
-* Typedef [FileStreamPtr](../../../system/filestreamptr/)
-* Class [String](../../../system/string/)
-* Enum [FileMode](../../filemode/)
-* Class [File](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## File::Open(const [String](../../../system/string/)\&, [FileMode](../../filemode/), [FileAccess](../../fileaccess/), [FileShare](../../fileshare/)) method
+## File::Open(const String\&, FileMode, FileAccess, FileShare) method
 
 
 Opens the specified file in the specified mode, with the specified access type and sharing option.
@@ -60,11 +52,11 @@ A [FileStream](../../filestream/) object associated with the opened file
 
 ## See Also
 
-* Typedef [FileStreamPtr](../../../system/filestreamptr/)
-* Class [String](../../../system/string/)
 * Enum [FileMode](../../filemode/)
 * Enum [FileAccess](../../fileaccess/)
 * Enum [FileShare](../../fileshare/)
+* Typedef [FileStreamPtr](../../../system/filestreamptr/)
+* Class [String](../../../system/string/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

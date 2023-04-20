@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system/decimal/compareto/
 ---
-## Decimal::CompareTo(const [Decimal](../)\&) const method
+## Decimal::CompareTo(const Decimal\&) const method
 
 
 Determines if the value represented by the current object is less than, equal to or greater than the value represented by the specified object.
@@ -28,7 +28,6 @@ int System::Decimal::CompareTo(const Decimal &d) const
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/transfercodingwithqualityheadervalue/tryparse/
 ---
-## TransferCodingWithQualityHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[TransferCodingWithQualityHeaderValue](../)\>\&) method
+## TransferCodingWithQualityHeaderValue::TryParse(String, System::SharedPtr\<TransferCodingWithQualityHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [TransferCodingWithQualityHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TransferCodingWithQualityHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [TransferCodingWithQualityHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

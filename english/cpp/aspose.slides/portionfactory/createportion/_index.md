@@ -20,14 +20,7 @@ System::SharedPtr<IPortion> Aspose::Slides::PortionFactory::CreatePortion() over
 
 [Portion](../../portion/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPortion](../../iportion/)
-* Class [PortionFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## PortionFactory::CreatePortion([System::String](../../../system/string/)) method
+## PortionFactory::CreatePortion(System::String) method
 
 
 Creates a text portion from specified string.
@@ -47,15 +40,7 @@ System::SharedPtr<IPortion> Aspose::Slides::PortionFactory::CreatePortion(System
 
 [Portion](../../portion/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPortion](../../iportion/)
-* Class [String](../../../system/string/)
-* Class [PortionFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## PortionFactory::CreatePortion([System::SharedPtr](../../../system/sharedptr/)\<[IPortion](../../iportion/)\>) method
+## PortionFactory::CreatePortion(System::SharedPtr\<IPortion\>) method
 
 
 Creates a portion with the using of a specified portion data.
@@ -80,5 +65,6 @@ System::SharedPtr<IPortion> Aspose::Slides::PortionFactory::CreatePortion(System
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IPortion](../../iportion/)
 * Class [PortionFactory](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

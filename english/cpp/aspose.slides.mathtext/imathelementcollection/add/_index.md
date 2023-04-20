@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/imathelementcollection/add/
 ---
-## IMathElementCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathElementCollection::Add(System::SharedPtr\<IMathElement\>) method
 
 
 Adds a math element to the end of the collection.

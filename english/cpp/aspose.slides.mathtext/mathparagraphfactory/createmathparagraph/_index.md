@@ -20,14 +20,7 @@ System::SharedPtr<IMathParagraph> Aspose::Slides::MathText::MathParagraphFactory
 
 new math paragraph
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathParagraph](../../imathparagraph/)
-* Class [MathParagraphFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathParagraphFactory::CreateMathParagraph([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## MathParagraphFactory::CreateMathParagraph(System::SharedPtr\<IMathBlock\>) method
 
 
 Creates a math paragraph and places the specified math block in it
@@ -51,7 +44,7 @@ new math paragraph
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathParagraph](../../imathparagraph/)
-* Class [IMathBlock](../../imathblock/)
 * Class [MathParagraphFactory](../)
+* Class [IMathBlock](../../imathblock/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml/xmlcharacterdata/substring/
 ---
-## XmlCharacterData::Substring(**int32_t**, **int32_t**) method
+## XmlCharacterData::Substring(int32_t, int32_t) method
 
 
 Retrieves a substring of the full string from the specified range.

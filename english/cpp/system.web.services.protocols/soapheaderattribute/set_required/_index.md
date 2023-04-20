@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.web.services.protocols/soapheaderattribute/set_required/
 ---
-## SoapHeaderAttribute::set_Required(**bool**) method
+## SoapHeaderAttribute::set_Required(bool) method
 
 
 Sets a value that indicates if the SOAP header must be understood and processed by the recipient XML [Web](../../../system.web/) service or XML [Web](../../../system.web/) service client.

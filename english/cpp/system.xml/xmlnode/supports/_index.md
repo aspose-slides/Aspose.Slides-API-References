@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.xml/xmlnode/supports/
 ---
-## XmlNode::Supports([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlNode::Supports(String, String) method
 
 
 Tests if the DOM implementation implements a specific feature.

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/commentauthorcollection/remove/
 ---
-## CommentAuthorCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[ICommentAuthor](../../icommentauthor/)\>) method
+## CommentAuthorCollection::Remove(System::SharedPtr\<ICommentAuthor\>) method
 
 
 Removes the first occurrence of the specified author in a collection.

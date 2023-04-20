@@ -28,11 +28,6 @@ bool System::Globalization::ThaiBuddhistCalendar::IsLeapMonth(int year, int mont
 
 True if specified month is leap, false otherwise.
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::IsLeapMonth(int, int) const method
 
 
@@ -54,11 +49,6 @@ virtual bool System::Globalization::Calendar::IsLeapMonth(int year, int month) c
 
 True if specified month is leap, false otherwise.
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::IsLeapMonth(int, int, int) const method
 
 

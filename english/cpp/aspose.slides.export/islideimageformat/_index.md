@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/islideimageformat/
 Determines format in which slide image will be saved for presentation to HTML export.
 
 ```cpp
-class ISlideImageFormat : public System::Object
+class ISlideImageFormat : public virtual System::Object
 ```
 
 ## Methods

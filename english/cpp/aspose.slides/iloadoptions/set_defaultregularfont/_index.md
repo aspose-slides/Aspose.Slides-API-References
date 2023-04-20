@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/iloadoptions/set_defaultregularfont/
 ---
-## ILoadOptions::set_DefaultRegularFont([System::String](../../../system/string/)) method
+## ILoadOptions::set_DefaultRegularFont(System::String) method
 
 
 Sets Regular font used in case source font is not found. Writes [System::String](../../../system/string/).

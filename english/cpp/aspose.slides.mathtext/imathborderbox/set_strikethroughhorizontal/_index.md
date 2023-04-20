@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.mathtext/imathborderbox/set_strikethroughhorizontal/
 ---
-## IMathBorderBox::set_StrikethroughHorizontal(**bool**) method
+## IMathBorderBox::set_StrikethroughHorizontal(bool) method
 
 
 Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line.

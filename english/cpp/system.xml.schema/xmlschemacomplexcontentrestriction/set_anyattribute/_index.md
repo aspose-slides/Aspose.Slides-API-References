@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml.schema/xmlschemacomplexcontentrestriction/set_anyattribute/
 ---
-## XmlSchemaComplexContentRestriction::set_AnyAttribute(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnyAttribute](../../xmlschemaanyattribute/)\>\&) method
+## XmlSchemaComplexContentRestriction::set_AnyAttribute(const SharedPtr\<XmlSchemaAnyAttribute\>\&) method
 
 
 Sets the [XmlSchemaAnyAttribute](../../xmlschemaanyattribute/) component of the complex content model.

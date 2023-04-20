@@ -3,7 +3,7 @@ title: FromBase64TransformMode
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies whether white space should be ignored in the base 64 transformation.
 type: docs
-weight: 872
+weight: 781
 url: /cpp/system.security.cryptography/frombase64transformmode/
 ---
 ## FromBase64TransformMode enum

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/izoomobject/set_showbackground/
 ---
-## IZoomObject::set_ShowBackground(**bool**) method
+## IZoomObject::set_ShowBackground(bool) method
 
 
 Sets value that specifies whether the Zoom will use the background of the destination slide. Write **bool**. Default value: true

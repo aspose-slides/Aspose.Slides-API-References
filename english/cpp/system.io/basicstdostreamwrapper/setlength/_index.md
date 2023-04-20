@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.io/basicstdostreamwrapper/setlength/
 ---
-## BasicSTDOStreamWrapper::SetLength(**int64_t**) method
+## BasicSTDOStreamWrapper::SetLength(int64_t) method
 
 
 Sets the length of the stream represented by the current object.

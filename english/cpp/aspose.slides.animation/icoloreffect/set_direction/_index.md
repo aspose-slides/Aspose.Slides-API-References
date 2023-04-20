@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.animation/icoloreffect/set_direction/
 ---
-## IColorEffect::set_Direction([ColorDirection](../../colordirection/)) method
+## IColorEffect::set_Direction(ColorDirection) method
 
 
 Specifies which direction to cycle the hue around the color wheel. Write [ColorDirection](../../colordirection/).

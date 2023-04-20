@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.text/decoder/set_fallback/
 ---
-## Decoder::set_Fallback(const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)\&) method
+## Decoder::set_Fallback(const DecoderFallbackPtr\&) method
 
 
 Sets error handling fallback.

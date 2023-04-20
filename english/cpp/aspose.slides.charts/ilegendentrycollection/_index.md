@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.charts/ilegendentrycollection/
 Represents legends collection.
 
 ```cpp
-class ILegendEntryCollection : public System::Object
+class ILegendEntryCollection : public virtual System::Object
 ```
 
 ## Methods

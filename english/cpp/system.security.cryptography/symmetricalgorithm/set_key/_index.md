@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/symmetricalgorithm/set_key/
 ---
-## SymmetricAlgorithm::set_Key([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## SymmetricAlgorithm::set_Key(System::ArrayPtr\<uint8_t\>) method
 
 
 Sets key of cryptographic operation.

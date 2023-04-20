@@ -16,12 +16,7 @@ virtual void System::Xml::XmlReader::ReadStartElement()
 ```
 
 
-## See Also
-
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadStartElement([String](../../../system/string/)) method
+## XmlReader::ReadStartElement(String) method
 
 
 Checks that the current content node is an element with the given [XmlReader::get_Name](../get_name/) value and advances the reader to the next node.
@@ -37,13 +32,7 @@ virtual void System::Xml::XmlReader::ReadStartElement(String name)
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The qualified name of the element. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadStartElement([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadStartElement(String, String) method
 
 
 Checks that the current content node is an element with the given [XmlReader::get_LocalName](../get_localname/) and [XmlReader::get_NamespaceURI](../get_namespaceuri/) values and advances the reader to the next node.
@@ -62,7 +51,7 @@ virtual void System::Xml::XmlReader::ReadStartElement(String localname, String n
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

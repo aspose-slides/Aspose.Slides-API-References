@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/presentationheaderfootermanager/setallheaderstext/
 ---
-## PresentationHeaderFooterManager::SetAllHeadersText([System::String](../../../system/string/)) method
+## PresentationHeaderFooterManager::SetAllHeadersText(System::String) method
 
 
 Sets text to all header placeholders, including notes master, notes slides and handout master.

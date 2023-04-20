@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/system.xml.xpath/xpathnavigator/movetofollowing/
 ---
-## XPathNavigator::MoveToFollowing([String](../../../system/string/), [String](../../../system/string/)) method
+## XPathNavigator::MoveToFollowing(String, String) method
 
 
 Moves the [XPathNavigator](../) to the element with the local name and namespace URI specified in document order.
@@ -27,13 +27,7 @@ virtual bool System::Xml::XPath::XPathNavigator::MoveToFollowing(String localNam
 
 **true** if the [XPathNavigator](../) moved successfully; otherwise, **false**.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::MoveToFollowing([String](../../../system/string/), [String](../../../system/string/), [SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::MoveToFollowing(String, String, SharedPtr\<XPathNavigator\>) method
 
 
 Moves the [XPathNavigator](../) to the element with the local name and namespace URI specified, to the boundary specified, in document order.
@@ -55,15 +49,7 @@ virtual bool System::Xml::XPath::XPathNavigator::MoveToFollowing(String localNam
 
 **true** if the [XPathNavigator](../) moved successfully; otherwise, **false**.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::MoveToFollowing([XPathNodeType](../../xpathnodetype/)) method
+## XPathNavigator::MoveToFollowing(XPathNodeType) method
 
 
 Moves the [XPathNavigator](../) to the following element of the XPathNodeType specified in document order.
@@ -83,13 +69,7 @@ virtual bool System::Xml::XPath::XPathNavigator::MoveToFollowing(XPathNodeType t
 
 **true** if the [XPathNavigator](../) moved successfully; otherwise, **false**.
 
-## See Also
-
-* Enum [XPathNodeType](../../xpathnodetype/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::MoveToFollowing([XPathNodeType](../../xpathnodetype/), [SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::MoveToFollowing(XPathNodeType, SharedPtr\<XPathNavigator\>) method
 
 
 Moves the [XPathNavigator](../) to the following element of the XPathNodeType specified, to the boundary specified, in document order.
@@ -114,7 +94,7 @@ virtual bool System::Xml::XPath::XPathNavigator::MoveToFollowing(XPathNodeType t
 
 * Enum [XPathNodeType](../../xpathnodetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
+* Class [String](../../../system/string/)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

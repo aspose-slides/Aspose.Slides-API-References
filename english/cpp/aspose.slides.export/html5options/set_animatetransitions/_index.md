@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/html5options/set_animatetransitions/
 ---
-## Html5Options::set_AnimateTransitions(**bool**) method
+## Html5Options::set_AnimateTransitions(bool) method
 
 
 Sets transitions animation option. Write **bool**.

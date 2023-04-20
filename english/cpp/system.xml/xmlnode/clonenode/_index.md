@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.xml/xmlnode/clonenode/
 ---
-## XmlNode::CloneNode(**bool**) method
+## XmlNode::CloneNode(bool) method
 
 
 Creates a duplicate of the node, when overridden in a derived class.
@@ -29,7 +29,6 @@ The cloned node.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../)
 * Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

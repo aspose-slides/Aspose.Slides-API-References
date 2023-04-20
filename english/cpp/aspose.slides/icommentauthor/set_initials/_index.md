@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/icommentauthor/set_initials/
 ---
-## ICommentAuthor::set_Initials([System::String](../../../system/string/)) method
+## ICommentAuthor::set_Initials(System::String) method
 
 
 Sets the authors initials. Write [System::String](../../../system/string/).

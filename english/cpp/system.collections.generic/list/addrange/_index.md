@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.collections.generic/list/addrange/
 ---
-## List::AddRange([IEnumerablePtr](../ienumerableptr/)) method
+## List::AddRange(IEnumerablePtr) method
 
 
 Adds all elements from collection (or itself) to the end of current list.

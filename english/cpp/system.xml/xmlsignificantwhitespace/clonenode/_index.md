@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmlsignificantwhitespace/clonenode/
 ---
-## XmlSignificantWhitespace::CloneNode(**bool**) method
+## XmlSignificantWhitespace::CloneNode(bool) method
 
 
 Creates a duplicate of this node.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml/xmlattribute/set_value/
 ---
-## XmlAttribute::set_Value([String](../../../system/string/)) method
+## XmlAttribute::set_Value(String) method
 
 
 Sets the value of the node.

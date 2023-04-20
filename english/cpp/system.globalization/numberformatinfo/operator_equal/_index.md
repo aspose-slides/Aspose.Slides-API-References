@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/system.globalization/numberformatinfo/operator_equal/
 ---
-## NumberFormatInfo::operator=(const [NumberFormatInfo](../)\&) method
+## NumberFormatInfo::operator=(const NumberFormatInfo\&) method
 
 
 
@@ -17,7 +17,6 @@ NumberFormatInfo & System::Globalization::NumberFormatInfo::operator=(const Numb
 
 ## See Also
 
-* Class [NumberFormatInfo](../)
 * Class [NumberFormatInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

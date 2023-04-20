@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.imaging/metafile/metafile/
 ---
-## Metafile::Metafile(const [System::String](../../../system/string/)\&) constructor
+## Metafile::Metafile(const System::String\&) constructor
 
 
 NOT IMPLEMENTED.
@@ -16,13 +16,7 @@ System::Drawing::Imaging::Metafile::Metafile(const System::String &filename)
 ```
 
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Metafile](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## Metafile::Metafile(const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\&) constructor
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&) constructor
 
 
 NOT IMPLEMENTED.
@@ -32,14 +26,7 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Metafile](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## Metafile::Metafile(const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\&, IntPtr, [EmfType](../../emftype/)) constructor
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr, EmfType) constructor
 
 
 NOT IMPLEMENTED.
@@ -49,15 +36,7 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [EmfType](../../emftype/)
-* Class [Metafile](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## Metafile::Metafile(const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\&, IntPtr) constructor
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr) constructor
 
 
 NOT IMPLEMENTED.
@@ -67,14 +46,7 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Metafile](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## Metafile::Metafile(const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\&, IntPtr, [Rectangle](../../../system.drawing/rectangle/), [MetafileFrameUnit](../../metafileframeunit/), [EmfType](../../emftype/)) constructor
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr, Rectangle, MetafileFrameUnit, EmfType) constructor
 
 
 NOT IMPLEMENTED.
@@ -84,17 +56,7 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Rectangle](../../../system.drawing/rectangle/)
-* Enum [MetafileFrameUnit](../../metafileframeunit/)
-* Enum [EmfType](../../emftype/)
-* Class [Metafile](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## Metafile::Metafile(const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\&, IntPtr, [RectangleF](../../../system.drawing/rectanglef/), [MetafileFrameUnit](../../metafileframeunit/), [EmfType](../../emftype/)) constructor
+## Metafile::Metafile(const SharedPtr\<System::IO::Stream\>\&, IntPtr, RectangleF, MetafileFrameUnit, EmfType) constructor
 
 
 NOT IMPLEMENTED.
@@ -104,17 +66,7 @@ System::Drawing::Imaging::Metafile::Metafile(const SharedPtr<System::IO::Stream>
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [RectangleF](../../../system.drawing/rectanglef/)
-* Enum [MetafileFrameUnit](../../metafileframeunit/)
-* Enum [EmfType](../../emftype/)
-* Class [Metafile](../)
-* Namespace [System::Drawing::Imaging](../../)
-* Library [Aspose.Slides](../../../)
-## Metafile::Metafile(IntPtr, [EmfType](../../emftype/)) constructor
+## Metafile::Metafile(IntPtr, EmfType) constructor
 
 
 NOT IMPLEMENTED.
@@ -127,6 +79,12 @@ System::Drawing::Imaging::Metafile::Metafile(IntPtr, EmfType)
 ## See Also
 
 * Enum [EmfType](../../emftype/)
+* Enum [MetafileFrameUnit](../../metafileframeunit/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Metafile](../)
+* Class [Stream](../../../system.io/stream/)
+* Class [Rectangle](../../../system.drawing/rectangle/)
+* Class [RectangleF](../../../system.drawing/rectanglef/)
 * Namespace [System::Drawing::Imaging](../../)
 * Library [Aspose.Slides](../../../)

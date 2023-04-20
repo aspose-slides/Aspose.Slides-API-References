@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.charts/ichart/set_hasdatatable/
 ---
-## IChart::set_HasDataTable(**bool**) method
+## IChart::set_HasDataTable(bool) method
 
 
 Determines whether a chart has a data table. Write **bool**.

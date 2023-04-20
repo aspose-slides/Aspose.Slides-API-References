@@ -32,12 +32,7 @@ template<class T> static T System::Math::Abs(T value)
 
 The absolute value of **value**
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Abs(const [Decimal](../../decimal/)\&) method
+## Math::Abs(const Decimal\&) method
 
 
 Returns the absolute value of a value represented by the specified [Decimal](../../decimal/) object.

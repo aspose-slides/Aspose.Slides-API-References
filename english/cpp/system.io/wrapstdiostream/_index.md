@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.io/wrapstdiostream/
 ---
-## System::IO::WrapSTDIOStream(std::basic_istream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](../stdiostreamwrappingmode/)) function
+## System::IO::WrapSTDIOStream(std::basic_istream\<char_type, traits_type\>\&, STDIOStreamWrappingMode) function
 
 
 Wrapper function for std::basic_istream-like streams.
@@ -27,14 +27,7 @@ template<typename char_type,typename traits_type> SharedPtr<Stream> System::IO::
 
 [BasicSTDIStreamWrapper](../basicstdistreamwrapper/) wrapper
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Stream](../stream/)
-* Enum [STDIOStreamWrappingMode](../stdiostreamwrappingmode/)
-* Namespace [System::IO](../)
-* Library [Aspose.Slides](../../)
-## System::IO::WrapSTDIOStream(std::basic_ostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](../stdiostreamwrappingmode/)) function
+## System::IO::WrapSTDIOStream(std::basic_ostream\<char_type, traits_type\>\&, STDIOStreamWrappingMode) function
 
 
 Wrapper function for std::basic_ostream-like streams.
@@ -55,14 +48,7 @@ template<typename char_type,typename traits_type> SharedPtr<Stream> System::IO::
 
 [BasicSTDOStreamWrapper](../basicstdostreamwrapper/) wrapper
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Stream](../stream/)
-* Enum [STDIOStreamWrappingMode](../stdiostreamwrappingmode/)
-* Namespace [System::IO](../)
-* Library [Aspose.Slides](../../)
-## System::IO::WrapSTDIOStream(std::basic_iostream\<char_type, traits_type\>\&, [STDIOStreamWrappingMode](../stdiostreamwrappingmode/), [STDIOStreamPositionPreference](../stdiostreampositionpreference/)) function
+## System::IO::WrapSTDIOStream(std::basic_iostream\<char_type, traits_type\>\&, STDIOStreamWrappingMode, STDIOStreamPositionPreference) function
 
 
 Wrapper function for std::basic_iostream-like streams.
@@ -86,9 +72,9 @@ template<typename char_type,typename traits_type> SharedPtr<Stream> System::IO::
 
 ## See Also
 
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Class [Stream](../stream/)
 * Enum [STDIOStreamWrappingMode](../stdiostreamwrappingmode/)
 * Enum [STDIOStreamPositionPreference](../stdiostreampositionpreference/)
+* Typedef [SharedPtr](../../system/sharedptr/)
+* Class [Stream](../stream/)
 * Namespace [System::IO](../)
 * Library [Aspose.Slides](../../)

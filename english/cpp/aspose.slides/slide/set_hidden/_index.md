@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/slide/set_hidden/
 ---
-## Slide::set_Hidden(**bool**) method
+## Slide::set_Hidden(bool) method
 
 
 Determines whether the specified slide is hidden during a slide show. Write **bool**.

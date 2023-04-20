@@ -6,7 +6,7 @@ type: docs
 weight: 924
 url: /cpp/system.xml/xmlreader/readtonextsibling/
 ---
-## XmlReader::ReadToNextSibling([String](../../../system/string/)) method
+## XmlReader::ReadToNextSibling(String) method
 
 
 Advances the [XmlReader](../) to the next sibling element with the specified qualified name.
@@ -26,13 +26,7 @@ virtual bool System::Xml::XmlReader::ReadToNextSibling(String name)
 
 **true** if a matching sibling element is found; otherwise **false**. If a matching sibling element is not found, the [XmlReader](../) is positioned on the end tag ([XmlReader::get_NodeType](../get_nodetype/) value is [XmlNodeType::EndElement](../../xmlnodetype/)) of the parent element.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadToNextSibling([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadToNextSibling(String, String) method
 
 
 Advances the [XmlReader](../) to the next sibling element with the specified local name and namespace URI.

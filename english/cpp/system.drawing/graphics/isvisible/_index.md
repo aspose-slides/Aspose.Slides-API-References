@@ -6,7 +6,7 @@ type: docs
 weight: 963
 url: /cpp/system.drawing/graphics/isvisible/
 ---
-## Graphics::IsVisible([Point](../../point/)) method
+## Graphics::IsVisible(Point) method
 
 
 Determines whether the specified point is contained within the visible clip region of the current [Graphics](../) object.
@@ -26,13 +26,7 @@ bool System::Drawing::Graphics::IsVisible(Point point)
 
 True if **point** is contained within the visible clip region of the current [Graphics](../) object, otherwise - false
 
-## See Also
-
-* Class [Point](../../point/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IsVisible([PointF](../../pointf/)) method
+## Graphics::IsVisible(PointF) method
 
 
 NOT IMPLEMENTED.
@@ -42,13 +36,7 @@ bool System::Drawing::Graphics::IsVisible(PointF point)
 ```
 
 
-## See Also
-
-* Class [PointF](../../pointf/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IsVisible([Rectangle](../../rectangle/)) method
+## Graphics::IsVisible(Rectangle) method
 
 
 NOT IMPLEMENTED.
@@ -58,13 +46,7 @@ bool System::Drawing::Graphics::IsVisible(Rectangle rect)
 ```
 
 
-## See Also
-
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IsVisible([RectangleF](../../rectanglef/)) method
+## Graphics::IsVisible(RectangleF) method
 
 
 NOT IMPLEMENTED.
@@ -74,13 +56,7 @@ bool System::Drawing::Graphics::IsVisible(RectangleF rect)
 ```
 
 
-## See Also
-
-* Class [RectangleF](../../rectanglef/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IsVisible(**int32_t**, **int32_t**) method
+## Graphics::IsVisible(int32_t, int32_t) method
 
 
 NOT IMPLEMENTED.
@@ -90,12 +66,7 @@ bool System::Drawing::Graphics::IsVisible(int32_t x, int32_t y)
 ```
 
 
-## See Also
-
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IsVisible(**float**, **float**) method
+## Graphics::IsVisible(float, float) method
 
 
 NOT IMPLEMENTED.
@@ -105,12 +76,7 @@ bool System::Drawing::Graphics::IsVisible(float x, float y)
 ```
 
 
-## See Also
-
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IsVisible(**float**, **float**, **float**, **float**) method
+## Graphics::IsVisible(float, float, float, float) method
 
 
 NOT IMPLEMENTED.
@@ -120,12 +86,7 @@ bool System::Drawing::Graphics::IsVisible(float x, float y, float width, float h
 ```
 
 
-## See Also
-
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IsVisible(**int32_t**, **int32_t**, **int32_t**, **int32_t**) method
+## Graphics::IsVisible(int32_t, int32_t, int32_t, int32_t) method
 
 
 NOT IMPLEMENTED.
@@ -137,6 +98,10 @@ bool System::Drawing::Graphics::IsVisible(int32_t x, int32_t y, int32_t width, i
 
 ## See Also
 
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

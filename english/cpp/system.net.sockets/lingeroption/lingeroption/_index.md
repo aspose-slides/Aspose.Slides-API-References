@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.sockets/lingeroption/lingeroption/
 ---
-## LingerOption::LingerOption(**bool**, **int32_t**) constructor
+## LingerOption::LingerOption(bool, int32_t) constructor
 
 
 Constructs a new instance.

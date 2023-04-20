@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.web/httputility/htmldecode/
 ---
-## HttpUtility::HtmlDecode(const [String](../../../system/string/)\&) method
+## HttpUtility::HtmlDecode(const String\&) method
 
 
 Decodes Html fragment.
@@ -26,13 +26,7 @@ static String System::Web::HttpUtility::HtmlDecode(const String &str)
 
 Decoded Html fragment.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::HtmlDecode(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## HttpUtility::HtmlDecode(const String\&, const SharedPtr\<IO::TextWriter\>\&) method
 
 
 Decodes Html fragment.
@@ -51,9 +45,9 @@ static void System::Web::HttpUtility::HtmlDecode(const String &str, const Shared
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
+* Class [String](../../../system/string/)
 * Class [HttpUtility](../)
+* Class [TextWriter](../../../system.io/textwriter/)
 * Namespace [System::Web](../../)
 * Library [Aspose.Slides](../../../)

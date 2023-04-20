@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/field/set_type/
 ---
-## Field::set_Type([System::SharedPtr](../../../system/sharedptr/)\<[IFieldType](../../ifieldtype/)\>) method
+## Field::set_Type(System::SharedPtr\<IFieldType\>) method
 
 
 Sets field's type. Write [IFieldType](../../ifieldtype/).

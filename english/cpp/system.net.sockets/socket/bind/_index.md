@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/system.net.sockets/socket/bind/
 ---
-## Socket::Bind([System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::Bind(System::SharedPtr\<EndPoint\>) method
 
 
 Binds the socket with to the specified local endpoint.

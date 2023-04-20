@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.charts/ichartseries/set_type/
 ---
-## IChartSeries::set_Type([ChartType](../../charttype/)) method
+## IChartSeries::set_Type(ChartType) method
 
 
 Returns a type of this series. Write [ChartType](../../charttype/).

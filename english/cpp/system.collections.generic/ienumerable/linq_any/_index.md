@@ -20,12 +20,7 @@ bool System::Collections::Generic::IEnumerable<T>::LINQ_Any()
 
 true if the source sequence contains any elements; otherwise, false.
 
-## See Also
-
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_Any(std::function\<**bool**(T)>) method
+## IEnumerable::LINQ_Any(std::function\<bool(T)>) method
 
 
 Determines whether any element of a sequence exists or satisfies a condition.

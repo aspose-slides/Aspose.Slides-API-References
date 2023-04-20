@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.io/filestream/writebyte/
 ---
-## FileStream::WriteByte(**uint8_t**) method
+## FileStream::WriteByte(uint8_t) method
 
 
 Writes the specified unsigned 8-bit integer value to the stream.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml/xmlqualifiedname/equals/
 ---
-## XmlQualifiedName::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XmlQualifiedName::Equals(SharedPtr\<Object\>) method
 
 
 Determines whether the specified [XmlQualifiedName](../) object is equal to the current [XmlQualifiedName](../) object.

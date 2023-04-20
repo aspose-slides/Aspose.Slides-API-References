@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/asymmetricsignaturedeformatter/verifysignature/
 ---
-## AsymmetricSignatureDeformatter::VerifySignature([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## AsymmetricSignatureDeformatter::VerifySignature(System::ArrayPtr\<uint8_t\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Verifies signature on data.
@@ -27,13 +27,7 @@ virtual bool System::Security::Cryptography::AsymmetricSignatureDeformatter::Ver
 
 True if signature check succeeds, false otherwise.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [AsymmetricSignatureDeformatter](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## AsymmetricSignatureDeformatter::VerifySignature([System::SharedPtr](../../../system/sharedptr/)\<[HashAlgorithm](../../hashalgorithm/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## AsymmetricSignatureDeformatter::VerifySignature(System::SharedPtr\<HashAlgorithm\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Verifies signature on data. Not implemented.
@@ -56,9 +50,9 @@ True if signature check succeeds, false otherwise.
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HashAlgorithm](../../hashalgorithm/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [AsymmetricSignatureDeformatter](../)
+* Class [HashAlgorithm](../../hashalgorithm/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides.effects/iimagetransformoperationfactory/createtint/
 ---
-## IImageTransformOperationFactory::CreateTint(**float**, **float**) method
+## IImageTransformOperationFactory::CreateTint(float, float) method
 
 
 Creates [Tint](../../tint/) effect.

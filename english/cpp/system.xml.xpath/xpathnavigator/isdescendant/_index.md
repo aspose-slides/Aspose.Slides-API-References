@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/system.xml.xpath/xpathnavigator/isdescendant/
 ---
-## XPathNavigator::IsDescendant([SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::IsDescendant(SharedPtr\<XPathNavigator\>) method
 
 
 Determines whether the specified [XPathNavigator](../) is a descendant of the current [XPathNavigator](../).
@@ -29,7 +29,6 @@ virtual bool System::Xml::XPath::XPathNavigator::IsDescendant(SharedPtr<XPathNav
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

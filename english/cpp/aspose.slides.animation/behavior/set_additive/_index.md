@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/behavior/set_additive/
 ---
-## Behavior::set_Additive([BehaviorAdditiveType](../../behavioradditivetype/)) method
+## Behavior::set_Additive(BehaviorAdditiveType) method
 
 
 Represents whether the current animation behavior is combined with other running animations. Write [BehaviorAdditiveType](../../behavioradditivetype/).

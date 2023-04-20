@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /cpp/system/string/insert/
 ---
-## String::Insert(int, const [String](../)\&) const method
+## String::Insert(int, const String\&) const method
 
 
 Inserts substring at specified position.
@@ -29,7 +29,6 @@ String System::String::Insert(int startIndex, const String &value) const
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

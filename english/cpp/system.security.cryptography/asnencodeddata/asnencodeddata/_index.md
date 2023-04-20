@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/asnencodeddata/asnencodeddata/
 ---
-## AsnEncodedData::AsnEncodedData(const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../)\>\&) constructor
+## AsnEncodedData::AsnEncodedData(const SharedPtr\<AsnEncodedData\>\&) constructor
 
 
 Copy constructor.
@@ -22,14 +22,7 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const SharedPtr<A
 | --- | --- | --- |
 | asn_encoded_data | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../)\>\& | [Object](../../../system/object/) to copy data from. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [AsnEncodedData](../)
-* Class [AsnEncodedData](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## AsnEncodedData::AsnEncodedData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) constructor
+## AsnEncodedData::AsnEncodedData(const ByteArrayPtr\&) constructor
 
 
 Constructor.
@@ -45,13 +38,7 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const ByteArrayPt
 | --- | --- | --- |
 | raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded data in raw byte format. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [AsnEncodedData](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## AsnEncodedData::AsnEncodedData(const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../oid/)\>\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&) constructor
+## AsnEncodedData::AsnEncodedData(const SharedPtr\<Oid\>\&, const ByteArrayPtr\&) constructor
 
 
 Constructor.
@@ -68,15 +55,7 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const SharedPtr<O
 | oid | const [SharedPtr](../../../system/sharedptr/)\<[Oid](../../oid/)\>\& | [Object](../../../system/object/) identifier of encoded data. |
 | raw_data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Encoded data in raw byte format. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Oid](../../oid/)
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [AsnEncodedData](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## AsnEncodedData::AsnEncodedData(const [String](../../../system/string/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&) constructor
+## AsnEncodedData::AsnEncodedData(const String\&, const ByteArrayPtr\&) constructor
 
 
 Constructor.
@@ -95,8 +74,10 @@ System::Security::Cryptography::AsnEncodedData::AsnEncodedData(const String &oid
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Class [AsnEncodedData](../)
+* Class [Oid](../../oid/)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

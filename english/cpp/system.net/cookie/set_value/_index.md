@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.net/cookie/set_value/
 ---
-## Cookie::set_Value([String](../../../system/string/)) method
+## Cookie::set_Value(String) method
 
 
 Sets the cookie's value.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/idatalabelformat/set_position/
 ---
-## IDataLabelFormat::set_Position([LegendDataLabelPosition](../../legenddatalabelposition/)) method
+## IDataLabelFormat::set_Position(LegendDataLabelPosition) method
 
 
 Represents the position of the data label. Write [LegendDataLabelPosition](../../legenddatalabelposition/).

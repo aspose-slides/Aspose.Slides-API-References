@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.xml/rsakeyvalue/set_key/
 ---
-## RSAKeyValue::set_Key([SharedPtr](../../../system/sharedptr/)\<[RSA](../../../system.security.cryptography/rsa/)\>) method
+## RSAKeyValue::set_Key(SharedPtr\<RSA\>) method
 
 
 

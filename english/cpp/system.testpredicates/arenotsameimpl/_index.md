@@ -3,7 +3,7 @@ title: AreNotSameImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Are-not-same-compares smart pointers.
 type: docs
-weight: 105
+weight: 1
 url: /cpp/system.testpredicates/arenotsameimpl/
 ---
 ## System::TestPredicates::AreNotSameImpl(const char *, const char *, const T1\&, const T2\&, long long) function
@@ -37,11 +37,6 @@ template<typename T1,typename T2> std::enable_if<IsSmartPtr<T1>::value &&IsSmart
 
 gtest-styled assertion result.
 
-## See Also
-
-* Struct [IsSmartPtr](../../system/issmartptr/)
-* Namespace [System::TestPredicates](../)
-* Library [Aspose.Slides](../../)
 ## System::TestPredicates::AreNotSameImpl(const char *, const char *, const T1\&, const T2\&, int) function
 
 
@@ -74,5 +69,6 @@ gtest-styled assertion result.
 
 ## See Also
 
+* Struct [IsSmartPtr](../../system/issmartptr/)
 * Namespace [System::TestPredicates](../)
 * Library [Aspose.Slides](../../)

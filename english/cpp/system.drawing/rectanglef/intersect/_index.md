@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.drawing/rectanglef/intersect/
 ---
-## RectangleF::Intersect(const [RectangleF](../)\&) method
+## RectangleF::Intersect(const RectangleF\&) method
 
 
 Replaces the rectangle represented by the current object with the rectangle that results from the its intersection with the rectangle represented by the specified object.
@@ -22,13 +22,7 @@ void System::Drawing::RectangleF::Intersect(const RectangleF &rect)
 | --- | --- | --- |
 | rect | const [RectangleF](../)\& | The [RectangleF](../) object that represents the rectangle to intersect the rectangle represented by the current object with |
 
-## See Also
-
-* Class [RectangleF](../)
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::Intersect(const [RectangleF](../)\&, const [RectangleF](../)\&) method
+## RectangleF::Intersect(const RectangleF\&, const RectangleF\&) method
 
 
 Returns a rectangle that is a result of intersection of the specified rectangles.
@@ -51,7 +45,6 @@ The result of intersection of **a** with **b**
 
 ## See Also
 
-* Class [RectangleF](../)
 * Class [RectangleF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

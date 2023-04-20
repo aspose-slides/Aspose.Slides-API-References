@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/stringcomparer/compare/
 ---
-## StringComparer::Compare([args_type](../args_type/), [args_type](../args_type/)) const method
+## StringComparer::Compare(args_type, args_type) const method
 
 
 Compares two strings using current settings.

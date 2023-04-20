@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/iportioncollection/contains/
 ---
-## IPortionCollection::Contains([System::SharedPtr](../../../system/sharedptr/)\<[IPortion](../../iportion/)\>) method
+## IPortionCollection::Contains(System::SharedPtr\<IPortion\>) method
 
 
 Determines whether the [ICollection](../../../system.collections.generic/icollection/) contains a specific value.

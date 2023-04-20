@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/rijndaelmanaged/createencryptor/
 ---
-## RijndaelManaged::CreateEncryptor([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## RijndaelManaged::CreateEncryptor(System::ArrayPtr\<uint8_t\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Creates encryptor object with explicit parameters.
@@ -27,14 +27,6 @@ SharedPtr<ICryptoTransform> System::Security::Cryptography::RijndaelManaged::Cre
 
 Newly created encryptor object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICryptoTransform](../../icryptotransform/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RijndaelManaged](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
 ## RijndaelManaged::CreateEncryptor() method
 
 
@@ -44,14 +36,7 @@ Creates encryptor object with parameters defined by algorithm object.
 virtual SharedPtr<ICryptoTransform> System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor()
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICryptoTransform](../../icryptotransform/)
-* Class [RijndaelManaged](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RijndaelManaged::CreateEncryptor([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## RijndaelManaged::CreateEncryptor(System::ArrayPtr\<uint8_t\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Creates encryptor object with parameters defined by algorithm object.
@@ -63,8 +48,8 @@ virtual SharedPtr<ICryptoTransform> System::Security::Cryptography::SymmetricAlg
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICryptoTransform](../../icryptotransform/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [ICryptoTransform](../../icryptotransform/)
 * Class [RijndaelManaged](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

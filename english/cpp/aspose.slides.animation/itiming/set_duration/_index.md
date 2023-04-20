@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.animation/itiming/set_duration/
 ---
-## ITiming::set_Duration(**float**) method
+## ITiming::set_Duration(float) method
 
 
 Describes the duration of animation effect. Write **float**.

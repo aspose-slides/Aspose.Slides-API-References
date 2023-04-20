@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/tripledesmanaged/createdecryptor/
 ---
-## TripleDESManaged::CreateDecryptor([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## TripleDESManaged::CreateDecryptor(System::ArrayPtr\<uint8_t\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Creates decryptor object with explicit parameters.
@@ -27,14 +27,6 @@ SharedPtr<ICryptoTransform> System::Security::Cryptography::TripleDESManaged::Cr
 
 Newly created decryptor object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICryptoTransform](../../icryptotransform/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [TripleDESManaged](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
 ## TripleDESManaged::CreateDecryptor() method
 
 
@@ -44,14 +36,7 @@ Creates decryptor object with parameters defined by algorithm object.
 virtual SharedPtr<ICryptoTransform> System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor()
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICryptoTransform](../../icryptotransform/)
-* Class [TripleDESManaged](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## TripleDESManaged::CreateDecryptor([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## TripleDESManaged::CreateDecryptor(System::ArrayPtr\<uint8_t\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Creates decryptor object with parameters defined by algorithm object.
@@ -63,8 +48,8 @@ virtual SharedPtr<ICryptoTransform> System::Security::Cryptography::SymmetricAlg
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ICryptoTransform](../../icryptotransform/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [ICryptoTransform](../../icryptotransform/)
 * Class [TripleDESManaged](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

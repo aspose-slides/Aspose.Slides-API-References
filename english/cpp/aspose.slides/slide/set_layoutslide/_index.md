@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/slide/set_layoutslide/
 ---
-## Slide::set_LayoutSlide([System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## Slide::set_LayoutSlide(System::SharedPtr\<ILayoutSlide\>) method
 
 
 Sets the layout slide for the current slide. Write [ILayoutSlide](../../ilayoutslide/).

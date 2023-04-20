@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides.charts/datalabel/set_valuefromcell/
 ---
-## DataLabel::set_ValueFromCell([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## DataLabel::set_ValueFromCell(System::SharedPtr\<IChartDataCell\>) method
 
 
 Sets workbook data cell. Applied if IDataLabelFormat::get(set)_ShowLabelValueFromCell property equals true.

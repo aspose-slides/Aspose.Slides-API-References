@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/imathradical/set_hidedegree/
 ---
-## IMathRadical::set_HideDegree(**bool**) method
+## IMathRadical::set_HideDegree(bool) method
 
 
 Hide degree When is true, the degree is not shown, as in \\u221A\\uD835\\uDC65

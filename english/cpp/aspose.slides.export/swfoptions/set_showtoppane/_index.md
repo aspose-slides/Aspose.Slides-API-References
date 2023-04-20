@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.export/swfoptions/set_showtoppane/
 ---
-## SwfOptions::set_ShowTopPane(**bool**) method
+## SwfOptions::set_ShowTopPane(bool) method
 
 
 Show/hide whole top pane. Can be overridden in flashvars. Default is true.

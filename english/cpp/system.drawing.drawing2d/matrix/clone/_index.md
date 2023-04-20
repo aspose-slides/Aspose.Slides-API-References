@@ -24,6 +24,5 @@ A [Matrix](../) object which is an exact copy of the current object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Matrix](../)
-* Class [Matrix](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_dividebyzeroexception/is/
 ---
-## Details_DivideByZeroException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_DivideByZeroException::Is(const System::TypeInfo\&) const method
 
 
 

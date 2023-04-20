@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.collections.specialized/stringcollection/add/
 ---
-## StringCollection::Add(const [System::String](../../../system/string/)\&) method
+## StringCollection::Add(const System::String\&) method
 
 
 Adds value to the end of the list.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.imaging/encoder/encoder/
 ---
-## Encoder::Encoder(const [Guid](../../../system/guid/)\&) constructor
+## Encoder::Encoder(const Guid\&) constructor
 
 
 Constructs a new instance of [Encoder](../) class.

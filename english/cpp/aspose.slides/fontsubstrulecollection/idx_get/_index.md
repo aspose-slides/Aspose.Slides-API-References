@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/fontsubstrulecollection/idx_get/
 ---
-## FontSubstRuleCollection::idx_get(**int32_t**) method
+## FontSubstRuleCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.globalization/datetimeformatinfo/set_fulldatetimepattern/
 ---
-## DateTimeFormatInfo::set_FullDateTimePattern(const [String](../../../system/string/)\&) method
+## DateTimeFormatInfo::set_FullDateTimePattern(const String\&) method
 
 
 Sets full date and time pattern.

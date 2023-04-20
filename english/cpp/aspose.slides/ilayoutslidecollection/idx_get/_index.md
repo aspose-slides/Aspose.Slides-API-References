@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/ilayoutslidecollection/idx_get/
 ---
-## ILayoutSlideCollection::idx_get(**int32_t**) method
+## ILayoutSlideCollection::idx_get(int32_t) method
 
 
 Returns the layout slide by index. Read-only [ILayoutSlide](../../ilayoutslide/).

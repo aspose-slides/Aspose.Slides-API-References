@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net/servicepoint/set_receivebuffersize/
 ---
-## ServicePoint::set_ReceiveBufferSize(**int32_t**) method
+## ServicePoint::set_ReceiveBufferSize(int32_t) method
 
 
 Sets the size of the receive buffer.

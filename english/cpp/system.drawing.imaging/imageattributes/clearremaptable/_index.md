@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.drawing.imaging/imageattributes/clearremaptable/
 ---
-## ImageAttributes::ClearRemapTable([ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::ClearRemapTable(ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

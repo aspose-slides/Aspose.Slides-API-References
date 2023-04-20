@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.diagnostics/processstartinfo/set_redirectstandarderror/
 ---
-## ProcessStartInfo::set_RedirectStandardError(**bool**) method
+## ProcessStartInfo::set_RedirectStandardError(bool) method
 
 
 Sets RedirectStandardError property.

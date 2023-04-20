@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.data.sqlclient/sqlconnectionstringbuilder/set_userid/
 ---
-## SqlConnectionStringBuilder::set_UserID(const [String](../../../system/string/)\&) method
+## SqlConnectionStringBuilder::set_UserID(const String\&) method
 
 
 Sets user id to use for connection.

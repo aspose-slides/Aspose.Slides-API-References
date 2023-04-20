@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/dsasignaturedeformatter/verifysignature/
 ---
-## DSASignatureDeformatter::VerifySignature([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## DSASignatureDeformatter::VerifySignature(ArrayPtr\<uint8_t\>, ArrayPtr\<uint8_t\>) method
 
 
 NOT IMPLEMENTED.

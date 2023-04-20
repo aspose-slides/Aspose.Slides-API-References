@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.io/file/replace/
 ---
-## File::Replace(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, **bool**) method
+## File::Replace(const String\&, const String\&, const String\&, bool) method
 
 
 Replaces the contents of a one file with another and creates a backup of the replaced file.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/basicstdistreamwrapper/rtti_info_template_class/
 ---
-## BasicSTDIStreamWrapper::RTTI_INFO_TEMPLATE_CLASS([ThisType](../../stdiostreamwrapperbase/thistype/), [ThisTypeBaseTypesInfo](../../stdiostreamwrapperbase/thistypebasetypesinfo/)) method
+## BasicSTDIStreamWrapper::RTTI_INFO_TEMPLATE_CLASS(ThisType, ThisTypeBaseTypesInfo) method
 
 
 RTTI information.

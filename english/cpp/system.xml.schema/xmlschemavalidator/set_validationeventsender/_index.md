@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml.schema/xmlschemavalidator/set_validationeventsender/
 ---
-## XmlSchemaValidator::set_ValidationEventSender(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## XmlSchemaValidator::set_ValidationEventSender(const SharedPtr\<Object\>\&) method
 
 
 Sets the object sent as the sender object of a validation event.

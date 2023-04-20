@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml/xmlcharacterdata/replacedata/
 ---
-## XmlCharacterData::ReplaceData(**int32_t**, **int32_t**, [String](../../../system/string/)) method
+## XmlCharacterData::ReplaceData(int32_t, int32_t, String) method
 
 
 Replaces the specified number of characters starting at the specified offset with the specified string.

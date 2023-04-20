@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.web/httputility/urlencode/
 ---
-## HttpUtility::UrlEncode([String](../../../system/string/)) method
+## HttpUtility::UrlEncode(String) method
 
 
 Encodes URI fragment.
@@ -26,13 +26,7 @@ static String System::Web::HttpUtility::UrlEncode(String str)
 
 Encoded URI fragment.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::UrlEncode([String](../../../system/string/), const [System::SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\&) method
+## HttpUtility::UrlEncode(String, const System::SharedPtr\<Text::Encoding\>\&) method
 
 
 Encodes URI fragment.
@@ -53,15 +47,7 @@ static String System::Web::HttpUtility::UrlEncode(String str, const System::Shar
 
 Encoded URI fragment.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Encoding](../../../system.text/encoding/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::UrlEncode(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) method
+## HttpUtility::UrlEncode(const System::ArrayPtr\<uint8_t\>\&) method
 
 
 Encodes URI fragment.
@@ -81,14 +67,7 @@ static String System::Web::HttpUtility::UrlEncode(const System::ArrayPtr<uint8_t
 
 Encoded URI fragment.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::UrlEncode(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## HttpUtility::UrlEncode(const System::ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Encodes URI fragment.
@@ -112,8 +91,10 @@ Encoded URI fragment.
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [HttpUtility](../)
+* Class [Encoding](../../../system.text/encoding/)
 * Namespace [System::Web](../../)
 * Library [Aspose.Slides](../../../)

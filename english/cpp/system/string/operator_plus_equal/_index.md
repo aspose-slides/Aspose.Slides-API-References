@@ -26,13 +26,7 @@ String & System::String::operator+=(char_t c)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(const [String](../)\&) method
+## String::operator+=(const String\&) method
 
 
 Concatenation assignment operator.
@@ -52,13 +46,7 @@ String & System::String::operator+=(const String &str)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**double**) method
+## String::operator+=(double) method
 
 
 Concatenation assignment operator.
@@ -78,13 +66,7 @@ String & System::String::operator+=(double value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**uint8_t**) method
+## String::operator+=(uint8_t) method
 
 
 Concatenation assignment operator.
@@ -104,13 +86,7 @@ String & System::String::operator+=(uint8_t value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**int16_t**) method
+## String::operator+=(int16_t) method
 
 
 Concatenation assignment operator.
@@ -130,13 +106,7 @@ String & System::String::operator+=(int16_t value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**uint16_t**) method
+## String::operator+=(uint16_t) method
 
 
 Concatenation assignment operator.
@@ -156,13 +126,7 @@ String & System::String::operator+=(uint16_t value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**int32_t**) method
+## String::operator+=(int32_t) method
 
 
 Concatenation assignment operator.
@@ -182,13 +146,7 @@ String & System::String::operator+=(int32_t value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**uint32_t**) method
+## String::operator+=(uint32_t) method
 
 
 Concatenation assignment operator.
@@ -208,13 +166,7 @@ String & System::String::operator+=(uint32_t value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**int64_t**) method
+## String::operator+=(int64_t) method
 
 
 Concatenation assignment operator.
@@ -234,13 +186,7 @@ String & System::String::operator+=(int64_t value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::operator+=(**uint64_t**) method
+## String::operator+=(uint64_t) method
 
 
 Concatenation assignment operator.
@@ -260,12 +206,6 @@ String & System::String::operator+=(uint64_t value)
 
 self reference.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::operator+=(T) method
 
 
@@ -294,7 +234,6 @@ self reference.
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

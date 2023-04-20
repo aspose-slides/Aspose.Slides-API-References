@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/tuple/equals/
 ---
-## Tuple::Equals([SharedPtr](../../sharedptr/)\<[Object](../../object/)\>) method
+## Tuple::Equals(SharedPtr\<Object\>) method
 
 
 Determines if the current and the specified objects are identical.

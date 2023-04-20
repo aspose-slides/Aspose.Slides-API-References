@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.drawing/graphics/fillrectangles/
 ---
-## Graphics::FillRectangles(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>\&) method
+## Graphics::FillRectangles(const SharedPtr\<Brush\>\&, const ArrayPtr\<Rectangle\>\&) method
 
 
 Fills a series of rectangles using the specified brush.
@@ -23,16 +23,7 @@ void System::Drawing::Graphics::FillRectangles(const SharedPtr<Brush> &brush, co
 | brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A brush to use when filling the rectangles |
 | rects | const [ArrayPtr](../../../system/arrayptr/)\<[Rectangle](../../rectangle/)\>\& | [Array](../../../system/array/) of rectangles to draw |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillRectangles(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[RectangleF](../../rectanglef/)\>\&) method
+## Graphics::FillRectangles(const SharedPtr\<Brush\>\&, const ArrayPtr\<RectangleF\>\&) method
 
 
 Fills a series of rectangles using the specified brush.
@@ -52,9 +43,10 @@ void System::Drawing::Graphics::FillRectangles(const SharedPtr<Brush> &brush, co
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RectangleF](../../rectanglef/)
+* Class [Brush](../../brush/)
+* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

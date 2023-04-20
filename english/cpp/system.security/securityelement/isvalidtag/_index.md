@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.security/securityelement/isvalidtag/
 ---
-## SecurityElement::IsValidTag(const [String](../../../system/string/)\&) method
+## SecurityElement::IsValidTag(const String\&) method
 
 
 Checks if tag is valid.

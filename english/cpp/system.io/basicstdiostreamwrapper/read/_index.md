@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.io/basicstdiostreamwrapper/read/
 ---
-## BasicSTDIOStreamWrapper::Read(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## BasicSTDIOStreamWrapper::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 If wrapping mode is binary, reads the specified number of bytes from the stream, otherwise read the specified number of characters and converts them to **uint8_t** type. Writes result of the reading to the specified byte array.
@@ -28,13 +28,7 @@ virtual int32_t System::IO::BasicSTDIOStreamWrapper<T, typename>::Read(const Arr
 
 Number of bytes or characters read
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [BasicSTDIOStreamWrapper](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSTDIOStreamWrapper::Read(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## BasicSTDIOStreamWrapper::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -58,6 +52,7 @@ The number of bytes read
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [BasicSTDIOStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

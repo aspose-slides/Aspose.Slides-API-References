@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.export/ipdfoptions/set_bestimagescompressionratio/
 ---
-## IPdfOptions::set_BestImagesCompressionRatio(**bool**) method
+## IPdfOptions::set_BestImagesCompressionRatio(bool) method
 
 
 Indicates if the most effective compression (instead of the default one) for each image must be selected automatically. If set to **bool**.true, for every image in presentation the most appropriate compression algorithm will be chosen, what will lead to the smaller size of the resulting PDF document.

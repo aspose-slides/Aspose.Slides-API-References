@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides/itextframeformat/set_autofittype/
 ---
-## ITextFrameFormat::set_AutofitType([TextAutofitType](../../textautofittype/)) method
+## ITextFrameFormat::set_AutofitType(TextAutofitType) method
 
 
 Sets text's autofit mode. Write [TextAutofitType](../../textautofittype/).

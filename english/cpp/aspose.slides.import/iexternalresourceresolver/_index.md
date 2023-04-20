@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.import/iexternalresourceresolver/
 Callback interface used to resolve external resources during Html, Svg documents import.
 
 ```cpp
-class IExternalResourceResolver : public System::Object
+class IExternalResourceResolver : public virtual System::Object
 ```
 
 ## Methods

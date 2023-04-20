@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.collections/ilist/add/
 ---
-## IList::Add([SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IList::Add(SharedPtr\<System::Object\>) method
 
 
 Adds item to the end of list.

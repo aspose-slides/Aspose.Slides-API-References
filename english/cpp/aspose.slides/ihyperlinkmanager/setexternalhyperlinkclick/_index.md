@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick/
 ---
-## IHyperlinkManager::SetExternalHyperlinkClick([System::String](../../../system/string/)) method
+## IHyperlinkManager::SetExternalHyperlinkClick(System::String) method
 
 
 Set external hyperlink on click.

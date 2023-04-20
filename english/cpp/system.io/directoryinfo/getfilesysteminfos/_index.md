@@ -15,14 +15,7 @@ Returns an array containing shared pointers to [FileSystemInfo](../../filesystem
 ArrayPtr<FileSystemInfoPtr> System::IO::DirectoryInfo::GetFileSystemInfos()
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [FileSystemInfoPtr](../../../system/filesysteminfoptr/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::GetFileSystemInfos(const [String](../../../system/string/)\&) method
+## DirectoryInfo::GetFileSystemInfos(const String\&) method
 
 
 Searches for the files and directories that satisfy the specified search criteria in the directory represented by the current object.
@@ -42,15 +35,7 @@ ArrayPtr<FileSystemInfoPtr> System::IO::DirectoryInfo::GetFileSystemInfos(const 
 
 An array of shared pointers to [FileSystemInfo](../../filesysteminfo/) objects representing the found files and directories whose names match **searchPattern**
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [FileSystemInfoPtr](../../../system/filesysteminfoptr/)
-* Class [String](../../../system/string/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::GetFileSystemInfos(const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## DirectoryInfo::GetFileSystemInfos(const String\&, SearchOption) method
 
 
 Searches for the files and directories that satisfy the specified search criteria either in the directory represented by the current object or in the whole directory tree rooted in the directory represented by the current object.
@@ -73,10 +58,10 @@ An array of shared pointers to [FileSystemInfo](../../filesysteminfo/) objects r
 
 ## See Also
 
+* Enum [SearchOption](../../searchoption/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [FileSystemInfoPtr](../../../system/filesysteminfoptr/)
-* Class [String](../../../system/string/)
-* Enum [SearchOption](../../searchoption/)
 * Class [DirectoryInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

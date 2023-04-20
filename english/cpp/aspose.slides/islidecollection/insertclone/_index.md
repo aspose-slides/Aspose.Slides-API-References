@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/islidecollection/insertclone/
 ---
-## ISlideCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## ISlideCollection::InsertClone(int32_t, System::SharedPtr\<ISlide\>) method
 
 
 Inserts a copy of a specified slide to specified position of the collection.
@@ -32,14 +32,7 @@ Inserted slide.
 
 When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [InsertClone(int32_t, SharedPtr<ISlide>, SharedPtr<ILayoutSlide>)](./) or [InsertClone(int32_t, SharedPtr<ISlide>, SharedPtr<IMasterSlide>, bool)](./) for cloning slides and [IMasterSlideCollection::AddClone(SharedPtr<IMasterSlide>)](../../imasterslidecollection/addclone/) for cloning masters. 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [ISlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlideCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## ISlideCollection::InsertClone(int32_t, System::SharedPtr\<ISlide\>, System::SharedPtr\<ILayoutSlide\>) method
 
 
 Inserts a copy of a specified slide to specified position of the collection.
@@ -61,15 +54,7 @@ virtual System::SharedPtr<ISlide> Aspose::Slides::ISlideCollection::InsertClone(
 
 Inserted slide.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [ILayoutSlide](../../ilayoutslide/)
-* Class [ISlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlideCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>, **bool**) method
+## ISlideCollection::InsertClone(int32_t, System::SharedPtr\<ISlide\>, System::SharedPtr\<IMasterSlide\>, bool) method
 
 
 Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false).
@@ -96,7 +81,8 @@ Inserted slide.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ISlide](../../islide/)
-* Class [IMasterSlide](../../imasterslide/)
 * Class [ISlideCollection](../)
+* Class [ILayoutSlide](../../ilayoutslide/)
+* Class [IMasterSlide](../../imasterslide/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

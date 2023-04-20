@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system/timespan/compare/
 ---
-## TimeSpan::Compare([TimeSpan](../), [TimeSpan](../)) method
+## TimeSpan::Compare(TimeSpan, TimeSpan) method
 
 
 Compares two [TimeSpan](../) objects.
@@ -29,7 +29,6 @@ static constexpr int System::TimeSpan::Compare(TimeSpan t1, TimeSpan t2)
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

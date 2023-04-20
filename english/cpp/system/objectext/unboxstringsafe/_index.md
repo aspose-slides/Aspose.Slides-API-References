@@ -3,10 +3,10 @@ title: UnboxStringSafe()
 second_title: Aspose.Slides for C++ API Reference
 description: Unboxes string from boxed value.
 type: docs
-weight: 79
+weight: 66
 url: /cpp/system/objectext/unboxstringsafe/
 ---
-## ObjectExt::UnboxStringSafe(const [SmartPtr](../../smartptr/)\<[Object](../../object/)\>\&) method
+## ObjectExt::UnboxStringSafe(const SmartPtr\<Object\>\&) method
 
 
 Unboxes string from boxed value.

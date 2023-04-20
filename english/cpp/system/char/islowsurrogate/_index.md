@@ -27,11 +27,6 @@ static bool System::Char::IsLowSurrogate(const char_t *str, int idx)
 
 True if the character at the specified index is a low surrogate, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsLowSurrogate(char_t) method
 
 

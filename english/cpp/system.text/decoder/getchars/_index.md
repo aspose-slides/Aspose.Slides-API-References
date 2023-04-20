@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.text/decoder/getchars/
 ---
-## Decoder::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<char_t\>, int) method
+## Decoder::GetChars(ArrayPtr\<uint8_t\>, int, int, ArrayPtr\<char_t\>, int) method
 
 
 Get the characters that result from decoding a buffer.
@@ -30,13 +30,7 @@ virtual int System::Text::Decoder::GetChars(ArrayPtr<uint8_t> bytes, int byteInd
 
 Number of characters written.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Decoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Decoder::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, **bool**) method
+## Decoder::GetChars(ArrayPtr\<uint8_t\>, int, int, ArrayPtr\<char_t\>, int, bool) method
 
 
 Get the characters that result from decoding a buffer.
@@ -61,13 +55,7 @@ virtual int System::Text::Decoder::GetChars(ArrayPtr<uint8_t> bytes, int byteInd
 
 Number of characters written.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Decoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Decoder::GetChars(const **uint8_t** *, int, char_t *, int, **bool**) method
+## Decoder::GetChars(const uint8_t *, int, char_t *, int, bool) method
 
 
 Get the characters that result from decoding a buffer.
@@ -93,6 +81,7 @@ Number of characters written.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Decoder](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

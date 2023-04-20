@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.collections/ilistimplvaluetype/contains/
 ---
-## IListImplValueType::Contains([SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) const method
+## IListImplValueType::Contains(SharedPtr\<System::Object\>) const method
 
 
 Checks if item is present in list.

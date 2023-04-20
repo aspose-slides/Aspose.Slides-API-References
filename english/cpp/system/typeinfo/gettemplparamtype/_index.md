@@ -18,6 +18,5 @@ TypeInfo System::TypeInfo::GetTemplParamType() const
 ## See Also
 
 * Class [TypeInfo](../)
-* Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

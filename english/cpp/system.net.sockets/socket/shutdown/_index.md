@@ -6,7 +6,7 @@ type: docs
 weight: 755
 url: /cpp/system.net.sockets/socket/shutdown/
 ---
-## Socket::Shutdown([SocketShutdown](../../socketshutdown/)) method
+## Socket::Shutdown(SocketShutdown) method
 
 
 Disables the send and receive operations of the socket.

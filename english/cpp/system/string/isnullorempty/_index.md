@@ -20,12 +20,7 @@ bool System::String::IsNullOrEmpty() const
 
 true if string is empty or null, false otherwise.
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::IsNullOrEmpty(const [String](../)\&) method
+## String::IsNullOrEmpty(const String\&) method
 
 
 Checks if passed string is null or empty.
@@ -47,7 +42,6 @@ true if string is null or empty, false otherwise.
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

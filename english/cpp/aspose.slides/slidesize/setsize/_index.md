@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/slidesize/setsize/
 ---
-## SlideSize::SetSize([SlideSizeType](../../slidesizetype/), [SlideSizeScaleType](../../slidesizescaletype/)) method
+## SlideSize::SetSize(SlideSizeType, SlideSizeScaleType) method
 
 
 Sets the type of slide size and scales content using scale type.
@@ -27,14 +27,7 @@ void Aspose::Slides::SlideSize::SetSize(SlideSizeType type, SlideSizeScaleType s
 
 Assigning any value except [SlideSizeType::Custom](../../slidesizetype/) will change [SlideSize::get_Size](../get_size/) accordingly, but will keep [SlideSize::get_Orientation](../get_orientation/) intact.
 
-## See Also
-
-* Enum [SlideSizeType](../../slidesizetype/)
-* Enum [SlideSizeScaleType](../../slidesizescaletype/)
-* Class [SlideSize](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideSize::SetSize(**float**, **float**, [SlideSizeScaleType](../../slidesizescaletype/)) method
+## SlideSize::SetSize(float, float, SlideSizeScaleType) method
 
 
 Sets the size in points and scales content using scale type.
@@ -58,6 +51,7 @@ Assigning any value will reset [Type](../get_type/) property to [SlideSizeType::
 
 ## See Also
 
+* Enum [SlideSizeType](../../slidesizetype/)
 * Enum [SlideSizeScaleType](../../slidesizescaletype/)
 * Class [SlideSize](../)
 * Namespace [Aspose::Slides](../../)

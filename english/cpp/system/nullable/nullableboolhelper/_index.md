@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/nullable/nullableboolhelper/
 ---
-## Nullable::NullableBoolHelper(const T1\&, const std::function\<**bool**()>\&, **bool**) const method
+## Nullable::NullableBoolHelper(const T1\&, const std::function\<bool()>\&, bool) const method
 
 
 Helper function to check if this and **other** are both not nulls and call a lambda if so. Used in implementation.s.

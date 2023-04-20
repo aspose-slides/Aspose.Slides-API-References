@@ -20,12 +20,6 @@ String System::String::TrimEnd() const
 
 [String](../) with no whitespaces at beginning.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::TrimEnd(char_t) const method
 
 
@@ -46,13 +40,7 @@ String System::String::TrimEnd(char_t ch) const
 
 Removal result.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::TrimEnd(const [String](../)\&) const method
+## String::TrimEnd(const String\&) const method
 
 
 Removes all occurrences of passed characters from end of the string.
@@ -72,13 +60,7 @@ String System::String::TrimEnd(const String &anyOf) const
 
 [String](../) without removed characters.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::TrimEnd(const [ArrayPtr](../../arrayptr/)\<char_t\>\&) const method
+## String::TrimEnd(const ArrayPtr\<char_t\>\&) const method
 
 
 Removes all occurrences of passed characters from end of the string.
@@ -100,7 +82,6 @@ String System::String::TrimEnd(const ArrayPtr<char_t> &anyOf) const
 
 ## See Also
 
-* Class [String](../)
 * Typedef [ArrayPtr](../../arrayptr/)
 * Class [String](../)
 * Namespace [System](../../)

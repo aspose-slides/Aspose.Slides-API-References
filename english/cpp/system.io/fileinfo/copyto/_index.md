@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.io/fileinfo/copyto/
 ---
-## FileInfo::CopyTo(const [String](../../../system/string/)\&) method
+## FileInfo::CopyTo(const String\&) method
 
 
 Copies the file represented by the current object to the specified location. If the destination file already exists, the copying fails.
@@ -26,14 +26,7 @@ FileInfoPtr System::IO::FileInfo::CopyTo(const String &destFileName)
 
 A [FileInfo](../) object that represents the copy
 
-## See Also
-
-* Typedef [FileInfoPtr](../../../system/fileinfoptr/)
-* Class [String](../../../system/string/)
-* Class [FileInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## FileInfo::CopyTo(const [String](../../../system/string/)\&, **bool**) method
+## FileInfo::CopyTo(const String\&, bool) method
 
 
 Copies the file represented by the current object to the specified location. A parameter specifies if existing destination file should be overwritten.

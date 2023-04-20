@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net.http/httputilities/ishttpuri/
 ---
-## HttpUtilities::IsHttpUri([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## HttpUtilities::IsHttpUri(System::SharedPtr\<Uri\>) method
 
 
 Checks if the specified URI is the HTTP URI.

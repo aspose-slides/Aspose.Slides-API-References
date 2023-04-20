@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/updownbarsmanager/set_gapwidth/
 ---
-## UpDownBarsManager::set_GapWidth(**int32_t**) method
+## UpDownBarsManager::set_GapWidth(int32_t) method
 
 
 GapWidth. Write **int32_t**.

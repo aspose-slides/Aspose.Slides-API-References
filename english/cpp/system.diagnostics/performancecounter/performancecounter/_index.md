@@ -15,12 +15,7 @@ Creates performance counter.
 System::Diagnostics::PerformanceCounter::PerformanceCounter()
 ```
 
-## See Also
-
-* Class [PerformanceCounter](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## PerformanceCounter::PerformanceCounter(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) constructor
+## PerformanceCounter::PerformanceCounter(const String\&, const String\&) constructor
 
 
 Creates performance counter of specific category.
@@ -29,13 +24,7 @@ Creates performance counter of specific category.
 System::Diagnostics::PerformanceCounter::PerformanceCounter(const String &category_name, const String &counter_name)
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [PerformanceCounter](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## PerformanceCounter::PerformanceCounter(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) constructor
+## PerformanceCounter::PerformanceCounter(const String\&, const String\&, const String\&, const String\&) constructor
 
 
 Creates performance counter of specific category and instance name.
@@ -46,7 +35,7 @@ System::Diagnostics::PerformanceCounter::PerformanceCounter(const String &catego
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [PerformanceCounter](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Diagnostics](../../)
 * Library [Aspose.Slides](../../../)

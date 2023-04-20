@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.net/httpwebrequest/httpwebrequest/
 ---
-## HttpWebRequest::HttpWebRequest([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) constructor
+## HttpWebRequest::HttpWebRequest(System::SharedPtr\<Uri\>) constructor
 
 
 Constructs a new instance.

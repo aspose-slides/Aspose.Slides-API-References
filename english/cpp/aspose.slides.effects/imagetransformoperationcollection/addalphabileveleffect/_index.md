@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/addalphabileveleffect/
 ---
-## ImageTransformOperationCollection::AddAlphaBiLevelEffect(**float**) method
+## ImageTransformOperationCollection::AddAlphaBiLevelEffect(float) method
 
 
 Adds the new Alpha Bi-Level effect to the end of a collection.

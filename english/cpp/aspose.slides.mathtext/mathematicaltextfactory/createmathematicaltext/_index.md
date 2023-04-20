@@ -20,13 +20,6 @@ System::SharedPtr<IMathematicalText> Aspose::Slides::MathText::MathematicalTextF
 
 new Mathematical Text
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathematicalText](../../imathematicaltext/)
-* Class [MathematicalTextFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
 ## MathematicalTextFactory::CreateMathematicalText(char16_t) method
 
 
@@ -47,14 +40,7 @@ System::SharedPtr<IMathematicalText> Aspose::Slides::MathText::MathematicalTextF
 
 new Mathematical Text
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathematicalText](../../imathematicaltext/)
-* Class [MathematicalTextFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathematicalTextFactory::CreateMathematicalText([System::String](../../../system/string/)) method
+## MathematicalTextFactory::CreateMathematicalText(System::String) method
 
 
 Create empty mathematical text element with the specified value
@@ -74,15 +60,7 @@ System::SharedPtr<IMathematicalText> Aspose::Slides::MathText::MathematicalTextF
 
 new Mathematical Text
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathematicalText](../../imathematicaltext/)
-* Class [String](../../../system/string/)
-* Class [MathematicalTextFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathematicalTextFactory::CreateMathematicalText([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IPortionFormat](../../../aspose.slides/iportionformat/)\>) method
+## MathematicalTextFactory::CreateMathematicalText(System::String, System::SharedPtr\<IPortionFormat\>) method
 
 
 Create empty mathematical text element with the specified value and formatting properties
@@ -107,8 +85,8 @@ new Mathematical Text
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathematicalText](../../imathematicaltext/)
+* Class [MathematicalTextFactory](../)
 * Class [String](../../../system/string/)
 * Class [IPortionFormat](../../../aspose.slides/iportionformat/)
-* Class [MathematicalTextFactory](../)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

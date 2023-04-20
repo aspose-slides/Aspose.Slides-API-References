@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/system/uri/iswellformeduristring/
 ---
-## Uri::IsWellFormedUriString(const [String](../../string/)\&, [UriKind](../../urikind/)) method
+## Uri::IsWellFormedUriString(const String\&, UriKind) method
 
 
 Determines if the specified string is a well-formed URI.
@@ -29,8 +29,8 @@ True if the specified URI is well-formed, otherwise - false
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [UriKind](../../urikind/)
+* Class [String](../../string/)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/basehandoutnotesslideheaderfootermanager/setheadertext/
 ---
-## BaseHandoutNotesSlideHeaderFooterManager::SetHeaderText([System::String](../../../system/string/)) method
+## BaseHandoutNotesSlideHeaderFooterManager::SetHeaderText(System::String) method
 
 
 Sets text to slide header placeholder.

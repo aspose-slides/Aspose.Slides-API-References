@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.drawing/pen/set_linejoin/
 ---
-## Pen::set_LineJoin([Drawing2D::LineJoin](../../../system.drawing.drawing2d/linejoin/)) method
+## Pen::set_LineJoin(Drawing2D::LineJoin) method
 
 
 Sets a value that specifies how the lines drawn by this [Pen](../) object are joined.

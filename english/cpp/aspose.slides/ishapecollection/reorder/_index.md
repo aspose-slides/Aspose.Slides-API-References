@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides/ishapecollection/reorder/
 ---
-## IShapeCollection::Reorder(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## IShapeCollection::Reorder(int32_t, System::SharedPtr\<IShape\>) method
 
 
 Moves a shape from the collection to the specified position.
@@ -23,14 +23,7 @@ virtual void Aspose::Slides::IShapeCollection::Reorder(int32_t index, System::Sh
 | index | **int32_t** | Target index. |
 | shape | [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\> | [Shape](../../shape/) to move. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShape](../../ishape/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::Reorder(**int32_t**, const [System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>\>\&) method
+## IShapeCollection::Reorder(int32_t, const System::ArrayPtr\<System::SharedPtr\<IShape\>\>\&) method
 
 
 Moves shapes from the collection to the specified position. Shapes will be placed starting from index in order they appear in list.
@@ -49,8 +42,8 @@ virtual void Aspose::Slides::IShapeCollection::Reorder(int32_t index, const Syst
 
 ## See Also
 
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [IShape](../../ishape/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)

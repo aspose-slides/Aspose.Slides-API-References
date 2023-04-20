@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml.schema/xmlschemavalidator/validateattribute/
 ---
-## XmlSchemaValidator::ValidateAttribute(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\&) method
+## XmlSchemaValidator::ValidateAttribute(const String\&, const String\&, const String\&, const SharedPtr\<XmlSchemaInfo\>\&) method
 
 
 Validates the attribute name, namespace URI, and value in the current element context.
@@ -29,16 +29,7 @@ SharedPtr<Object> System::Xml::Schema::XmlSchemaValidator::ValidateAttribute(con
 
 The validated attribute's value.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [String](../../../system/string/)
-* Class [XmlSchemaInfo](../../xmlschemainfo/)
-* Class [XmlSchemaValidator](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaValidator::ValidateAttribute(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [XmlValueGetter](../../xmlvaluegetter/), const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\&) method
+## XmlSchemaValidator::ValidateAttribute(const String\&, const String\&, XmlValueGetter, const SharedPtr\<XmlSchemaInfo\>\&) method
 
 
 Validates the attribute name, namespace URI, and value in the current element context.
@@ -64,9 +55,9 @@ The validated attribute's value.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [XmlValueGetter](../../xmlvaluegetter/)
 * Class [Object](../../../system/object/)
 * Class [String](../../../system/string/)
-* Typedef [XmlValueGetter](../../xmlvaluegetter/)
 * Class [XmlSchemaInfo](../../xmlschemainfo/)
 * Class [XmlSchemaValidator](../)
 * Namespace [System::Xml::Schema](../../)

@@ -15,12 +15,7 @@ Constructor that uses deafault \"?\" replacement string.
 System::Text::DecoderReplacementFallback::DecoderReplacementFallback()
 ```
 
-## See Also
-
-* Class [DecoderReplacementFallback](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## DecoderReplacementFallback::DecoderReplacementFallback(const [String](../../../system/string/)\&) constructor
+## DecoderReplacementFallback::DecoderReplacementFallback(const String\&) constructor
 
 
 Constructor.
@@ -38,7 +33,7 @@ System::Text::DecoderReplacementFallback::DecoderReplacementFallback(const Strin
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [DecoderReplacementFallback](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

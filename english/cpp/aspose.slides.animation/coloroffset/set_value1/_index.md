@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/coloroffset/set_value1/
 ---
-## ColorOffset::set_Value1(**float**) method
+## ColorOffset::set_Value1(float) method
 
 
 Defines second value of offset. Write **float**.

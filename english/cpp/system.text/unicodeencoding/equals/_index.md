@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.text/unicodeencoding/equals/
 ---
-## UnicodeEncoding::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## UnicodeEncoding::Equals(SharedPtr\<Object\>) method
 
 
 Compares encodings.

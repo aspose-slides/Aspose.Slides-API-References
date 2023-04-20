@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.web.services/webserviceattribute/set_name/
 ---
-## WebServiceAttribute::set_Name([String](../../../system/string/)) method
+## WebServiceAttribute::set_Name(String) method
 
 
 Sets the XML [Web](../../../system.web/) service's name.

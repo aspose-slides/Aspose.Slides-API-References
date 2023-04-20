@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.xml/xmldocument/importnode/
 ---
-## XmlDocument::ImportNode([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>, **bool**) method
+## XmlDocument::ImportNode(SharedPtr\<XmlNode\>, bool) method
 
 
 Imports a node from another document to the current document.

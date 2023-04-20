@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.drawing/pen/set_dashpattern/
 ---
-## Pen::set_DashPattern(const [System::ArrayPtr](../../../system/arrayptr/)\<**float**\>\&) method
+## Pen::set_DashPattern(const System::ArrayPtr\<float\>\&) method
 
 
 Sets an array specifying custom dash pattern in a dashed line. The array consists of numbers that specify the lengths of alternating dashes and spaces.

@@ -24,6 +24,5 @@ An [XPathNavigator](../) copy of this [XPathNavigator](../).
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XPathNavigator](../)
-* Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

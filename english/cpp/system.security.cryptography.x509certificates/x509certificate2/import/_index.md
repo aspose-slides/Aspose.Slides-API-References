@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.security.cryptography.x509certificates/x509certificate2/import/
 ---
-## X509Certificate2::Import(const [String](../../../system/string/)\&, const [SecureStringPtr](../../../system.security/securestringptr/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) method
+## X509Certificate2::Import(const String\&, const SecureStringPtr\&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate file.
@@ -24,15 +24,7 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::Import(
 | password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate2](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate2::Import(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) method
+## X509Certificate2::Import(const String\&, const String\&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate file.
@@ -50,14 +42,7 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::Import(
 | password | const [String](../../../system/string/)\& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate2](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate2::Import(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [SecureStringPtr](../../../system.security/securestringptr/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) method
+## X509Certificate2::Import(const ByteArrayPtr\&, const SecureStringPtr\&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate data.
@@ -75,15 +60,7 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::Import(
 | password | const [SecureStringPtr](../../../system.security/securestringptr/)\& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate2](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate2::Import(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [String](../../../system/string/)\&, [X509KeyStorageFlags](../../x509keystorageflags/)) method
+## X509Certificate2::Import(const ByteArrayPtr\&, const String\&, X509KeyStorageFlags) method
 
 
 Imports information from the specified certificate data.
@@ -101,15 +78,7 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::Import(
 | password | const [String](../../../system/string/)\& | The password required to access the certificate data. |
 | key_storage_flags | [X509KeyStorageFlags](../../x509keystorageflags/) |  |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [String](../../../system/string/)
-* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
-* Class [X509Certificate2](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate2::Import(const [String](../../../system/string/)\&) method
+## X509Certificate2::Import(const String\&) method
 
 
 Imports information from the specified certificate file.
@@ -125,13 +94,7 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::Import(
 | --- | --- | --- |
 | filename | const [String](../../../system/string/)\& | The certificate file name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [X509Certificate2](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate2::Import(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## X509Certificate2::Import(const ByteArrayPtr\&) method
 
 
 Imports information from the specified certificate data.
@@ -149,7 +112,10 @@ void System::Security::Cryptography::X509Certificates::X509Certificate2::Import(
 
 ## See Also
 
+* Enum [X509KeyStorageFlags](../../x509keystorageflags/)
+* Typedef [SecureStringPtr](../../../system.security/securestringptr/)
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
+* Class [String](../../../system/string/)
 * Class [X509Certificate2](../)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

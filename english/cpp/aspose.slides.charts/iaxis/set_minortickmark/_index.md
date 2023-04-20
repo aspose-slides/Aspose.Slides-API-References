@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.slides.charts/iaxis/set_minortickmark/
 ---
-## IAxis::set_MinorTickMark([TickMarkType](../../tickmarktype/)) method
+## IAxis::set_MinorTickMark(TickMarkType) method
 
 
 Represents the type of minor tick mark for the specified axis. Write [TickMarkType](../../tickmarktype/).

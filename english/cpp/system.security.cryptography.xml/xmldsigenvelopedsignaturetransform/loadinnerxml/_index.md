@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/loadinnerxml/
 ---
-## XmlDsigEnvelopedSignatureTransform::LoadInnerXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlNodeList](../../../system.xml/xmlnodelist/)\>) method
+## XmlDsigEnvelopedSignatureTransform::LoadInnerXml(SharedPtr\<System::Xml::XmlNodeList\>) method
 
 
 

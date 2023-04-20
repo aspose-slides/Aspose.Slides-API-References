@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.sockets/udpclient/connect/
 ---
-## UdpClient::Connect([String](../../../system/string/), **int32_t**) method
+## UdpClient::Connect(String, int32_t) method
 
 
 Establishes a connection to the specified port on the specified host.
@@ -23,13 +23,7 @@ void System::Net::Sockets::UdpClient::Connect(String hostname, int32_t port)
 | hostname | [String](../../../system/string/) | The name of the remote DNS host to which you intend to connect. |
 | port | **int32_t** | The local port number from which you intend to communicate. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::Connect([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../../system.net/ipaddress/)\>, **int32_t**) method
+## UdpClient::Connect(System::SharedPtr\<IPAddress\>, int32_t) method
 
 
 Establishes a connection with the host at the specified address on the specified port.
@@ -46,14 +40,7 @@ void System::Net::Sockets::UdpClient::Connect(System::SharedPtr<IPAddress> addr,
 | addr | [System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../../system.net/ipaddress/)\> | The [IPAddress](../../../system.net/ipaddress/) of the remote host to which to send data. |
 | port | **int32_t** | The local port number from which you intend to communicate. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPAddress](../../../system.net/ipaddress/)
-* Class [UdpClient](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## UdpClient::Connect([System::SharedPtr](../../../system/sharedptr/)\<[IPEndPoint](../../../system.net/ipendpoint/)\>) method
+## UdpClient::Connect(System::SharedPtr\<IPEndPoint\>) method
 
 
 Establishes a connection to a remote end point.
@@ -72,7 +59,9 @@ void System::Net::Sockets::UdpClient::Connect(System::SharedPtr<IPEndPoint> endP
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPEndPoint](../../../system.net/ipendpoint/)
+* Class [String](../../../system/string/)
 * Class [UdpClient](../)
+* Class [IPAddress](../../../system.net/ipaddress/)
+* Class [IPEndPoint](../../../system.net/ipendpoint/)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

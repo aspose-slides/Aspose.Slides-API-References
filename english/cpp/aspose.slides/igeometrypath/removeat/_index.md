@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/igeometrypath/removeat/
 ---
-## IGeometryPath::RemoveAt(**int32_t**) method
+## IGeometryPath::RemoveAt(int32_t) method
 
 
 Removes segment at the specified index of the geometry path.

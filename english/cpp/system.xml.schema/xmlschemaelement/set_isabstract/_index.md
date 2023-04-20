@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaelement/set_isabstract/
 ---
-## XmlSchemaElement::set_IsAbstract(**bool**) method
+## XmlSchemaElement::set_IsAbstract(bool) method
 
 
 Sets information to indicate if the element can be used in an instance document.

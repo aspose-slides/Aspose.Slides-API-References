@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/rangeconditionheadervalue/parse/
 ---
-## RangeConditionHeaderValue::Parse([String](../../../system/string/)) method
+## RangeConditionHeaderValue::Parse(String) method
 
 
 Converts a passed string to an instance of the [RangeConditionHeaderValue](../) class.
@@ -31,6 +31,5 @@ An instance of the [RangeConditionHeaderValue](../) class.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RangeConditionHeaderValue](../)
 * Class [String](../../../system/string/)
-* Class [RangeConditionHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

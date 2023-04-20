@@ -3,7 +3,7 @@ title: DoTryFinally()
 second_title: Aspose.Slides for C++ API Reference
 description: The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method.
 type: docs
-weight: 2068
+weight: 1860
 url: /cpp/system/dotryfinally/
 ---
 ## System::DoTryFinally(T\&&, F\&&) function
@@ -30,10 +30,6 @@ template<typename T,typename F> std::enable_if_t<Details::is_lambda_void_void<T>
 | tryBlock | T\&& | The function object whose body contains the implementation of the try[-catch] part of the try[-catch]-finally statemet being emulated |
 | finallyBlock | F\&& | The function object whose body contains the implementation of the finally part of the try[-catch]-finally statement being emulated |
 
-## See Also
-
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::DoTryFinally(T\&&, F\&&) function
 
 
@@ -58,10 +54,6 @@ template<typename T,typename F> std::enable_if_t<Details::is_lambda_void_boolref
 | tryBlock | T\&& | The function object whose body contains the implementation of the try[-catch] part of the try[-catch]-finally statemet being emulated |
 | finallyBlock | F\&& | The function object whose body contains the implementation of the finally part of the try[-catch]-finally statement being emulated |
 
-## See Also
-
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::DoTryFinally(T\&&, F\&&) function
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/system.xml.xpath/xpathnavigator/evaluate/
 ---
-## XPathNavigator::Evaluate([String](../../../system/string/)) method
+## XPathNavigator::Evaluate(String) method
 
 
 Evaluates the specified [XPath](../../) expression and returns the typed result.
@@ -26,15 +26,7 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::Evaluate(String xp
 
 The result of the expression ([Boolean](../../../system/boolean/), number, string, or node set). This maps to [Boolean](../../../system/boolean/), [Double](../../../system/double/), [String](../../../system/string/), or [XPathNodeIterator](../../xpathnodeiterator/) objects respectively.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [String](../../../system/string/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::Evaluate([String](../../../system/string/), [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>) method
+## XPathNavigator::Evaluate(String, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Evaluates the specified [XPath](../../) expression and returns the typed result, using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes in the [XPath](../../) expression.
@@ -55,16 +47,7 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::Evaluate(String xp
 
 The result of the expression ([Boolean](../../../system/boolean/), number, string, or node set). This maps to [Boolean](../../../system/boolean/), [Double](../../../system/double/), [String](../../../system/string/), or [XPathNodeIterator](../../xpathnodeiterator/) objects respectively.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [String](../../../system/string/)
-* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::Evaluate([SharedPtr](../../../system/sharedptr/)\<[XPathExpression](../../xpathexpression/)\>) method
+## XPathNavigator::Evaluate(SharedPtr\<XPathExpression\>) method
 
 
 Evaluates the [XPathExpression](../../xpathexpression/) and returns the typed result.
@@ -84,15 +67,7 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathNavigator::Evaluate(SharedPtr
 
 The result of the expression ([Boolean](../../../system/boolean/), number, string, or node set). This maps to [Boolean](../../../system/boolean/), [Double](../../../system/double/), [String](../../../system/string/), or [XPathNodeIterator](../../xpathnodeiterator/) objects respectively.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [XPathExpression](../../xpathexpression/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::Evaluate([SharedPtr](../../../system/sharedptr/)\<[XPathExpression](../../xpathexpression/)\>, [SharedPtr](../../../system/sharedptr/)\<[XPathNodeIterator](../../xpathnodeiterator/)\>) method
+## XPathNavigator::Evaluate(SharedPtr\<XPathExpression\>, SharedPtr\<XPathNodeIterator\>) method
 
 
 Uses the supplied context to evaluate the [XPathExpression](../../xpathexpression/), and returns the typed result.
@@ -117,8 +92,10 @@ The result of the expression ([Boolean](../../../system/boolean/), number, strin
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
+* Class [String](../../../system/string/)
+* Class [XPathNavigator](../)
+* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
 * Class [XPathExpression](../../xpathexpression/)
 * Class [XPathNodeIterator](../../xpathnodeiterator/)
-* Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

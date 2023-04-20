@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml/iapplicationresourcestreamresolver/getapplicationresourcestream/
 ---
-## IApplicationResourceStreamResolver::GetApplicationResourceStream([SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## IApplicationResourceStreamResolver::GetApplicationResourceStream(SharedPtr\<Uri\>) method
 
 
 Returns an application resource stream from the specified URI.

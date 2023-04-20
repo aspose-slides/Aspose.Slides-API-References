@@ -15,12 +15,7 @@ Creates new instance.
 Aspose::Slides::Export::EmbeddedEotFontsHtmlController::EmbeddedEotFontsHtmlController()
 ```
 
-## See Also
-
-* Class [EmbeddedEotFontsHtmlController](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## EmbeddedEotFontsHtmlController::EmbeddedEotFontsHtmlController([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlFormattingController](../../ihtmlformattingcontroller/)\>) constructor
+## EmbeddedEotFontsHtmlController::EmbeddedEotFontsHtmlController(System::SharedPtr\<IHtmlFormattingController\>) constructor
 
 
 Creates new instance.
@@ -39,7 +34,7 @@ Aspose::Slides::Export::EmbeddedEotFontsHtmlController::EmbeddedEotFontsHtmlCont
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IHtmlFormattingController](../../ihtmlformattingcontroller/)
 * Class [EmbeddedEotFontsHtmlController](../)
+* Class [IHtmlFormattingController](../../ihtmlformattingcontroller/)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

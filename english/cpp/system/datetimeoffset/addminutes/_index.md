@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/datetimeoffset/addminutes/
 ---
-## DateTimeOffset::AddMinutes(**double**) const method
+## DateTimeOffset::AddMinutes(double) const method
 
 
 Adds a specified number of minutes to the [DateTimeOffset](../) object.
@@ -28,7 +28,6 @@ Result of operation.
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.text/encoder/convert/
 ---
-## Encoder::Convert([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, **bool**, int\&, int\&, **bool**\&) method
+## Encoder::Convert(ArrayPtr\<char_t\>, int, int, ArrayPtr\<uint8_t\>, int, int, bool, int\&, int\&, bool\&) method
 
 
 Converts characters to bytes.
@@ -31,13 +31,7 @@ virtual void System::Text::Encoder::Convert(ArrayPtr<char_t> chars, int charInde
 | bytesUsed | int\& | Reference to variable to store count of bytes written. |
 | completed | **bool**\& | Reference to variable to be set to true if input buffer was exhausted and to false otherwise. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoder::Convert(const char_t *, int, **uint8_t** *, int, **bool**, int\&, int\&, **bool**\&) method
+## Encoder::Convert(const char_t *, int, uint8_t *, int, bool, int\&, int\&, bool\&) method
 
 
 Converts characters to bytes.
@@ -62,6 +56,7 @@ virtual void System::Text::Encoder::Convert(const char_t *chars, int charCount, 
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Encoder](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

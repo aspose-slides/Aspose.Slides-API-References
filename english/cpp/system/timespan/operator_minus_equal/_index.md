@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system/timespan/operator_minus_equal/
 ---
-## TimeSpan::operator-=([TimeSpan](../)) method
+## TimeSpan::operator-=(TimeSpan) method
 
 
 Assigns to the current object the time interval which is the result of subtraction of the time interval represented by the specified object from the time interval represented by the current object.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

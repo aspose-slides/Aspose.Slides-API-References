@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemaattribute/set_form/
 ---
-## XmlSchemaAttribute::set_Form([XmlSchemaForm](../../xmlschemaform/)) method
+## XmlSchemaAttribute::set_Form(XmlSchemaForm) method
 
 
 Sets the form for the attribute.

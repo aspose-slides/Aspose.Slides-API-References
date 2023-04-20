@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.mathtext/mathparagraph/insert/
 ---
-## MathParagraph::Insert(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## MathParagraph::Insert(int32_t, System::SharedPtr\<IMathBlock\>) method
 
 
 Inserts [IMathBlock](../../imathblock/) into the collection at the specified index.

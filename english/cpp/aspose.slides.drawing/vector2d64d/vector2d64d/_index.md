@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.drawing/vector2d64d/vector2d64d/
 ---
-## Vector2d64d::Vector2d64d(**double**, **double**) constructor
+## Vector2d64d::Vector2d64d(double, double) constructor
 
 
 Constructor
@@ -23,11 +23,6 @@ Aspose::Slides::Drawing::Vector2d64d::Vector2d64d(double x, double y)
 | x | **double** |  |
 | y | **double** |  |
 
-## See Also
-
-* Class [Vector2d64d](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Vector2d64d::Vector2d64d() constructor
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/icustomxmlpart/set_itemid/
 ---
-## ICustomXmlPart::set_ItemId([System::Guid](../../../system/guid/)) method
+## ICustomXmlPart::set_ItemId(System::Guid) method
 
 
 Specifies a globally unique identifier (GUID) that uniquely identifies a single custom XML part within an Office Open XML document. Read-only [System::Guid](../../../system/guid/).

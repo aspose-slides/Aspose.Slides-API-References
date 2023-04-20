@@ -26,12 +26,7 @@ virtual char_t System::Globalization::TextInfo::ToLower(char_t c) const
 
 Converted character.
 
-## See Also
-
-* Class [TextInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## TextInfo::ToLower([String](../../../system/string/)) const method
+## TextInfo::ToLower(String) const method
 
 
 Converts string to lower case.
@@ -53,7 +48,7 @@ Converted string.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [TextInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

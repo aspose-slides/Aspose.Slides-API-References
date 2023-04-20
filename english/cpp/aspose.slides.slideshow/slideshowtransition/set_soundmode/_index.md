@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.slideshow/slideshowtransition/set_soundmode/
 ---
-## SlideShowTransition::set_SoundMode([TransitionSoundMode](../../transitionsoundmode/)) method
+## SlideShowTransition::set_SoundMode(TransitionSoundMode) method
 
 
 Set or returns sound mode for slide transition. Write [TransitionSoundMode](../../transitionsoundmode/).

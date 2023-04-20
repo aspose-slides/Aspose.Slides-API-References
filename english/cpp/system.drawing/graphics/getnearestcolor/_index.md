@@ -6,7 +6,7 @@ type: docs
 weight: 1106
 url: /cpp/system.drawing/graphics/getnearestcolor/
 ---
-## Graphics::GetNearestColor([Color](../../color/)) method
+## Graphics::GetNearestColor(Color) method
 
 
 NOT IMPLEMENTED.

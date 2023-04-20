@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/controlcollection/remove/
 ---
-## ControlCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IControl](../../icontrol/)\>) method
+## ControlCollection::Remove(System::SharedPtr\<IControl\>) method
 
 
 Removes an ActiveX control from the collection.

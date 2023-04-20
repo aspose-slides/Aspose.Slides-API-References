@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.io/directory/getfilesystementries/
 ---
-## Directory::GetFileSystemEntries(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## Directory::GetFileSystemEntries(const String\&, const String\&, SearchOption) method
 
 
 Searches for the files and directories that satisfy the specified search criteria either in the specified directory or in the whole directory tree rooted in the specified directory.
@@ -30,9 +30,9 @@ An array of full paths of the found files and directories whose names match **se
 
 ## See Also
 
+* Enum [SearchOption](../../searchoption/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
-* Enum [SearchOption](../../searchoption/)
 * Class [Directory](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

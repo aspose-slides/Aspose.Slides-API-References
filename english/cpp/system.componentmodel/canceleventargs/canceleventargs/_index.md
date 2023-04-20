@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.componentmodel/canceleventargs/canceleventargs/
 ---
-## CancelEventArgs::CancelEventArgs(**bool**) constructor
+## CancelEventArgs::CancelEventArgs(bool) constructor
 
 
 Constructor.
@@ -22,11 +22,6 @@ System::ComponentModel::CancelEventArgs::CancelEventArgs(bool cancel)
 | --- | --- | --- |
 | cancel | **bool** | Cancel property value. |
 
-## See Also
-
-* Class [CancelEventArgs](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
 ## CancelEventArgs::CancelEventArgs() constructor
 
 

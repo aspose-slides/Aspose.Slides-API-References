@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.data.common/dbconnectionstringbuilder/idx_set/
 ---
-## DbConnectionStringBuilder::idx_set([String](../../../system/string/), [Object::ptr](../../../system/object/ptr/)) method
+## DbConnectionStringBuilder::idx_set(String, Object::ptr) method
 
 
 Sets named value.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/commentauthorcollection/findbyname/
 ---
-## CommentAuthorCollection::FindByName([System::String](../../../system/string/)) method
+## CommentAuthorCollection::FindByName(System::String) method
 
 
 Find author in a collection by name.

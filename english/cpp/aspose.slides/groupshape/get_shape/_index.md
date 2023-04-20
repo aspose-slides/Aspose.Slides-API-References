@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/groupshape/get_shape/
 ---
-## GroupShape::get_Shape(**int32_t**) method
+## GroupShape::get_Shape(int32_t) method
 
 
 Returns a shape inside group at the specified index. Read-only [Aspose::Slides::IShape](../../ishape/)

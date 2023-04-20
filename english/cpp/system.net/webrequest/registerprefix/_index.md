@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net/webrequest/registerprefix/
 ---
-## WebRequest::RegisterPrefix([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IWebRequestCreate](../../iwebrequestcreate/)\>) method
+## WebRequest::RegisterPrefix(String, System::SharedPtr\<IWebRequestCreate\>) method
 
 
 Registers the [WebRequest](../) descendant for the specified URI.
@@ -29,8 +29,8 @@ True when the [WebRequest](../) descendant is successfully registered for the sp
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [IWebRequestCreate](../../iwebrequestcreate/)
 * Class [WebRequest](../)
 * Namespace [System::Net](../../)

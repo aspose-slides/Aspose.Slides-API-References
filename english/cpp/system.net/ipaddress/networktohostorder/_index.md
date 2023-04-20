@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.net/ipaddress/networktohostorder/
 ---
-## IPAddress::NetworkToHostOrder(**int64_t**) method
+## IPAddress::NetworkToHostOrder(int64_t) method
 
 
 Converts the specified network byte order to the corresponding host byte order.
@@ -26,12 +26,7 @@ static int64_t System::Net::IPAddress::NetworkToHostOrder(int64_t network)
 
 The corresponding host byte order.
 
-## See Also
-
-* Class [IPAddress](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## IPAddress::NetworkToHostOrder(**int32_t**) method
+## IPAddress::NetworkToHostOrder(int32_t) method
 
 
 Converts the specified network byte order to the corresponding host byte order.
@@ -51,12 +46,7 @@ static int32_t System::Net::IPAddress::NetworkToHostOrder(int32_t network)
 
 The corresponding host byte order.
 
-## See Also
-
-* Class [IPAddress](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## IPAddress::NetworkToHostOrder(**int16_t**) method
+## IPAddress::NetworkToHostOrder(int16_t) method
 
 
 Converts the specified network byte order to the corresponding host byte order.

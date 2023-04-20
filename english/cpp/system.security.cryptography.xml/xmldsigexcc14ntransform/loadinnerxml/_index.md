@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography.xml/xmldsigexcc14ntransform/loadinnerxml/
 ---
-## XmlDsigExcC14NTransform::LoadInnerXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlNodeList](../../../system.xml/xmlnodelist/)\>) method
+## XmlDsigExcC14NTransform::LoadInnerXml(SharedPtr\<System::Xml::XmlNodeList\>) method
 
 
 

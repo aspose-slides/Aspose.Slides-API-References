@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemacontentmodel/set_content/
 ---
-## XmlSchemaContentModel::set_Content([SharedPtr](../../../system/sharedptr/)\<[XmlSchemaContent](../../xmlschemacontent/)\>) method
+## XmlSchemaContentModel::set_Content(SharedPtr\<XmlSchemaContent\>) method
 
 
 Sets the content of the type.

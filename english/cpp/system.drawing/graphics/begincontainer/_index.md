@@ -15,14 +15,7 @@ Saves a container with the current state of this object, opens and uses a new co
 SharedPtr<Drawing2D::GraphicsContainer> System::Drawing::Graphics::BeginContainer()
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [GraphicsContainer](../../../system.drawing.drawing2d/graphicscontainer/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::BeginContainer([Rectangle](../../rectangle/), [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::BeginContainer(Rectangle, Rectangle, GraphicsUnit) method
 
 
 Saves a container with the current state of this object, opens and uses a new container and returns the saved container.
@@ -40,16 +33,7 @@ SharedPtr<Drawing2D::GraphicsContainer> System::Drawing::Graphics::BeginContaine
 | srcrect | [Rectangle](../../rectangle/) | The rectangle that specifies a scale transformation of the new container. Used together with **dstrect** |
 | unit | [GraphicsUnit](../../graphicsunit/) | The value that specifies the unit of measure of the new container |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [GraphicsContainer](../../../system.drawing.drawing2d/graphicscontainer/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::BeginContainer([RectangleF](../../rectanglef/), [RectangleF](../../rectanglef/), [GraphicsUnit](../../graphicsunit/)) method
+## Graphics::BeginContainer(RectangleF, RectangleF, GraphicsUnit) method
 
 
 Saves a container with the current state of this object, opens and uses a new container and returns the saved container.
@@ -69,10 +53,11 @@ SharedPtr<Drawing2D::GraphicsContainer> System::Drawing::Graphics::BeginContaine
 
 ## See Also
 
+* Enum [GraphicsUnit](../../graphicsunit/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [GraphicsContainer](../../../system.drawing.drawing2d/graphicscontainer/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
 * Class [Graphics](../)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

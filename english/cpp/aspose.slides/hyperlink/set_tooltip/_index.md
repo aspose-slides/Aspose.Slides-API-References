@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/hyperlink/set_tooltip/
 ---
-## Hyperlink::set_Tooltip([System::String](../../../system/string/)) method
+## Hyperlink::set_Tooltip(System::String) method
 
 
 Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Write [System::String](../../../system/string/).

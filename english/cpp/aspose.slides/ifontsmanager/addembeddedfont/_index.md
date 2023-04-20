@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/ifontsmanager/addembeddedfont/
 ---
-## IFontsManager::AddEmbeddedFont([System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>, [Export::EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/)) method
+## IFontsManager::AddEmbeddedFont(System::SharedPtr\<IFontData\>, Export::EmbedFontCharacters) method
 
 
 Adds the embedded font.
@@ -28,15 +28,7 @@ virtual void Aspose::Slides::IFontsManager::AddEmbeddedFont(System::SharedPtr<IF
 Keep in mind when copying any fonts that most fonts are copyrighted. First locate the license of a font before hand and verify they can be freely transferred to another machine.
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontData](../../ifontdata/)
-* Enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/)
-* Class [IFontsManager](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IFontsManager::AddEmbeddedFont([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [Export::EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/)) method
+## IFontsManager::AddEmbeddedFont(System::ArrayPtr\<uint8_t\>, Export::EmbedFontCharacters) method
 
 
 Adds the embedded font
@@ -60,8 +52,10 @@ Keep in mind when adding any fonts that most fonts are copyrighted. First locate
 
 ## See Also
 
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Enum [EmbedFontCharacters](../../../aspose.slides.export/embedfontcharacters/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [IFontData](../../ifontdata/)
 * Class [IFontsManager](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

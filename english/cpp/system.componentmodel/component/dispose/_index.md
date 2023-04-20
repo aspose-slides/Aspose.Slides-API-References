@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.componentmodel/component/dispose/
 ---
-## Component::Dispose(**bool**) method
+## Component::Dispose(bool) method
 
 
 Disposable pattern support; does nothing.

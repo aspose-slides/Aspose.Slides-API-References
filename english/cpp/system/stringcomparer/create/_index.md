@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system/stringcomparer/create/
 ---
-## StringComparer::Create(const [System::SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, **bool**) method
+## StringComparer::Create(const System::SharedPtr\<System::Globalization::CultureInfo\>\&, bool) method
 
 
 Creates culture-specific comparer.

@@ -15,11 +15,6 @@ Constructs a new instance of [Rectangle](../) object that represents a rectangle
 System::Drawing::Rectangle::Rectangle()
 ```
 
-## See Also
-
-* Class [Rectangle](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Rectangle::Rectangle(int, int, int, int) constructor
 
 
@@ -39,12 +34,7 @@ System::Drawing::Rectangle::Rectangle(int x, int y, int width, int height)
 | width | int | The width of the rectangle |
 | height | int | The height of the rectangle |
 
-## See Also
-
-* Class [Rectangle](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Rectangle::Rectangle(const [Point](../../point/)\&, const [Size](../../size/)\&) constructor
+## Rectangle::Rectangle(const Point\&, const Size\&) constructor
 
 
 Constructs a new instance of [Rectangle](../) object that represents a rectangle with the coordinates of its upper left corner specified as an instance of [Point](../../point/) class and its width and height as an instance of [Size](../../size/) class.
@@ -61,14 +51,7 @@ System::Drawing::Rectangle::Rectangle(const Point &location, const Size &size)
 | location | const [Point](../../point/)\& | Specifies the location of the upper left corner of the rectangle |
 | size | const [Size](../../size/)\& | Specifies the width and hegiht of the rectangle |
 
-## See Also
-
-* Class [Point](../../point/)
-* Class [Size](../../size/)
-* Class [Rectangle](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Rectangle::Rectangle(const **System::Windows::Forms::Screen::Rectangle_**\&) constructor
+## Rectangle::Rectangle(const System::Windows::Forms::Screen::Rectangle_\&) constructor
 
 
 Constructs a new instance of [Rectangle](../) object that represents the rectangle equivalent to the specified one.
@@ -87,5 +70,7 @@ System::Drawing::Rectangle::Rectangle(const System::Windows::Forms::Screen::Rect
 ## See Also
 
 * Class [Rectangle](../)
+* Class [Point](../../point/)
+* Class [Size](../../size/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

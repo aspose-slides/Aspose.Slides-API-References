@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/system.drawing.imaging/colormatrix/set_matrix34/
 ---
-## ColorMatrix::set_Matrix34(**float**) method
+## ColorMatrix::set_Matrix34(float) method
 
 
 Sets a value in the 3-rd row and 4-th column.

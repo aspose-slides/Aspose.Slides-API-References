@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.collections.generic/list/findlast/
 ---
-## List::FindLast([System::Predicate](../../../system/predicate/)\<T\>) method
+## List::FindLast(System::Predicate\<T\>) method
 
 
 Looks for last element adhering to specific predicate.

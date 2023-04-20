@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.net.security/sslstream/dispose/
 ---
-## SslStream::Dispose(**bool**) method
+## SslStream::Dispose(bool) method
 
 
 Releases all resources used by the current object and closes the stream.

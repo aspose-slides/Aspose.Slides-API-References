@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.xml/reference/set_id/
 ---
-## Reference::set_Id([String](../../../system/string/)) method
+## Reference::set_Id(String) method
 
 
 

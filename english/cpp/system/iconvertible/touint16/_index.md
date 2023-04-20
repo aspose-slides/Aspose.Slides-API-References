@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system/iconvertible/touint16/
 ---
-## IConvertible::ToUInt16([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToUInt16(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent 16-bit uint32_teger using the specified culture-specific formatting information.

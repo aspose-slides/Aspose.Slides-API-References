@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/system.xml/xmlvalidatingreader/readelementcontentasbinhex/
 ---
-## XmlValidatingReader::ReadElementContentAsBinHex([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) method
+## XmlValidatingReader::ReadElementContentAsBinHex(ArrayPtr\<uint8_t\>, int32_t, int32_t) method
 
 
 Reads the element and decodes the BinHex content.

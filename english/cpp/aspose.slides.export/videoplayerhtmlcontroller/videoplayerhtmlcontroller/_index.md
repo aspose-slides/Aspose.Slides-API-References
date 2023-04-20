@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.export/videoplayerhtmlcontroller/videoplayerhtmlcontroller/
 ---
-## VideoPlayerHtmlController::VideoPlayerHtmlController([System::String](../../../system/string/), [System::String](../../../system/string/), [System::String](../../../system/string/)) constructor
+## VideoPlayerHtmlController::VideoPlayerHtmlController(System::String, System::String, System::String) constructor
 
 
 Creates a new instance of controller

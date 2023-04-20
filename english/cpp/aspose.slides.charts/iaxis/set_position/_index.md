@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/aspose.slides.charts/iaxis/set_position/
 ---
-## IAxis::set_Position([AxisPositionType](../../axispositiontype/)) method
+## IAxis::set_Position(AxisPositionType) method
 
 
 Represents position of axis. Write [AxisPositionType](../../axispositiontype/).

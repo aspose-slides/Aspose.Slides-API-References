@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/tagcollection/getvaluebyindex/
 ---
-## TagCollection::GetValueByIndex(**int32_t**) method
+## TagCollection::GetValueByIndex(int32_t) method
 
 
 Returns value of a tag at the specified index.

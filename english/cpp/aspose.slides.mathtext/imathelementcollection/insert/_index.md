@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.mathtext/imathelementcollection/insert/
 ---
-## IMathElementCollection::Insert(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathElementCollection::Insert(int32_t, System::SharedPtr\<IMathElement\>) method
 
 
 Inserts a math element into the collection at the specified index.

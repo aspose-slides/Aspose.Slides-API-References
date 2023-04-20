@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/aspose.slides/shape/writeassvg/
 ---
-## Shape::WriteAsSvg([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## Shape::WriteAsSvg(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Saves content of [Shape](../) as SVG file.
@@ -22,14 +22,7 @@ void Aspose::Slides::Shape::WriteAsSvg(System::SharedPtr<System::IO::Stream> str
 | --- | --- | --- |
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | Target stream |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Shape](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Shape::WriteAsSvg([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISVGOptions](../../../aspose.slides.export/isvgoptions/)\>) method
+## Shape::WriteAsSvg(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Export::ISVGOptions\>) method
 
 
 Saves content of [Shape](../) as SVG file.
@@ -50,7 +43,7 @@ void Aspose::Slides::Shape::WriteAsSvg(System::SharedPtr<System::IO::Stream> str
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Stream](../../../system.io/stream/)
-* Class [ISVGOptions](../../../aspose.slides.export/isvgoptions/)
 * Class [Shape](../)
+* Class [ISVGOptions](../../../aspose.slides.export/isvgoptions/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

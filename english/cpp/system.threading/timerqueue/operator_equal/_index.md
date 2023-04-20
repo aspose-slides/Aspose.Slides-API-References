@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.threading/timerqueue/operator_equal/
 ---
-## TimerQueue::operator=(const [TimerQueue](../)\&) method
+## TimerQueue::operator=(const TimerQueue\&) method
 
 
 No copying.
@@ -17,7 +17,6 @@ void System::Threading::TimerQueue::operator=(const TimerQueue &)=delete
 
 ## See Also
 
-* Class [TimerQueue](../)
 * Class [TimerQueue](../)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.globalization/taiwancalendar/getdayofweek/
 ---
-## TaiwanCalendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## TaiwanCalendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

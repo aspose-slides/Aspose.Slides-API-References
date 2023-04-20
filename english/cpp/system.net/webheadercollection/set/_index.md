@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.net/webheadercollection/set/
 ---
-## WebHeaderCollection::Set([String](../../../system/string/), [String](../../../system/string/)) method
+## WebHeaderCollection::Set(String, String) method
 
 
 Sets the value of the specified header.

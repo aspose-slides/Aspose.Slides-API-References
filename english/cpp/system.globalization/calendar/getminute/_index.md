@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.globalization/calendar/getminute/
 ---
-## Calendar::GetMinute([DateTime](../../../system/datetime/)) const method
+## Calendar::GetMinute(DateTime) const method
 
 
 Gets minutes for the specified time point.

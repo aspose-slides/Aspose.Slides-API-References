@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/iparagraphcollection/add/
 ---
-## IParagraphCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>) method
+## IParagraphCollection::Add(System::SharedPtr\<IParagraph\>) method
 
 
 Adds a [Paragraph](../../paragraph/) to the end of collection.
@@ -22,14 +22,7 @@ virtual void Aspose::Slides::IParagraphCollection::Add(System::SharedPtr<IParagr
 | --- | --- | --- |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\> | The [Paragraph](../../paragraph/) to be added to the end of the collection. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraph](../../iparagraph/)
-* Class [IParagraphCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IParagraphCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IParagraphCollection](../)\>) method
+## IParagraphCollection::Add(System::SharedPtr\<IParagraphCollection\>) method
 
 
 Adds a content of [ParagraphCollection](../../paragraphcollection/) to the end of collection.
@@ -52,7 +45,7 @@ The index at which the [Paragraph](../../paragraph/) has been added or -1 if the
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraphCollection](../)
+* Class [IParagraph](../../iparagraph/)
 * Class [IParagraphCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

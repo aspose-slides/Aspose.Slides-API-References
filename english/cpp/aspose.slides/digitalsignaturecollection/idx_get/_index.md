@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/digitalsignaturecollection/idx_get/
 ---
-## DigitalSignatureCollection::idx_get(**int32_t**) method
+## DigitalSignatureCollection::idx_get(int32_t) method
 
 
 Returns the signature by index.

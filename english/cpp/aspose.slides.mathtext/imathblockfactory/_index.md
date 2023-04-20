@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathblockfactory/
 Allows to create a math block
 
 ```cpp
-class IMathBlockFactory : public System::Object
+class IMathBlockFactory : public virtual System::Object
 ```
 
 ## Methods

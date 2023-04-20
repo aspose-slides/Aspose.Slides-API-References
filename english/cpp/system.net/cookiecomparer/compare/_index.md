@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/cookiecomparer/compare/
 ---
-## CookieComparer::Compare([args_type](../../../system.collections.generic/icomparer/args_type/), [args_type](../../../system.collections.generic/icomparer/args_type/)) const method
+## CookieComparer::Compare(args_type, args_type) const method
 
 
 Compares the specified objects.

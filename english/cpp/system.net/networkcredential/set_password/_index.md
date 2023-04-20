@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/networkcredential/set_password/
 ---
-## NetworkCredential::set_Password([String](../../../system/string/)) method
+## NetworkCredential::set_Password(String) method
 
 
 Sets the password.

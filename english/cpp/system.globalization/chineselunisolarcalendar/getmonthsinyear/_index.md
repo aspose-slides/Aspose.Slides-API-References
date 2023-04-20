@@ -27,11 +27,6 @@ int System::Globalization::ChineseLunisolarCalendar::GetMonthsInYear(int year, i
 
 Number of months in the specified year of specified era.
 
-## See Also
-
-* Class [ChineseLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ChineseLunisolarCalendar::GetMonthsInYear(int) const method
 
 
@@ -41,11 +36,6 @@ RTTI information.
 virtual int System::Globalization::Calendar::GetMonthsInYear(int year) const
 ```
 
-## See Also
-
-* Class [ChineseLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ChineseLunisolarCalendar::GetMonthsInYear(int, int) const method
 
 

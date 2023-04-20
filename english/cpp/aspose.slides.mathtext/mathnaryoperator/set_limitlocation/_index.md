@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.mathtext/mathnaryoperator/set_limitlocation/
 ---
-## MathNaryOperator::set_LimitLocation([MathLimitLocations](../../mathlimitlocations/)) method
+## MathNaryOperator::set_LimitLocation(MathLimitLocations) method
 
 
 The location of limits (subscript and superscript)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.web.services.protocols/httpwebclientprotocol/checkforcookies/
 ---
-## HttpWebClientProtocol::CheckForCookies([System::SharedPtr](../../../system/sharedptr/)\<[Net::HttpWebResponse](../../../system.net/httpwebresponse/)\>) method
+## HttpWebClientProtocol::CheckForCookies(System::SharedPtr\<Net::HttpWebResponse\>) method
 
 
 Appends cookies from the specified request to the internal cookie container.

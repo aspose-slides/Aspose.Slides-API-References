@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides/picturefillformat/set_stretchoffsetright/
 ---
-## PictureFillFormat::set_StretchOffsetRight(**float**) method
+## PictureFillFormat::set_StretchOffsetRight(float) method
 
 
 Sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Write **float**.

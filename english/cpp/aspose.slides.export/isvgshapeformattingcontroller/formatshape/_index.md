@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.export/isvgshapeformattingcontroller/formatshape/
 ---
-## ISvgShapeFormattingController::FormatShape([System::SharedPtr](../../../system/sharedptr/)\<[ISvgShape](../../isvgshape/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\>) method
+## ISvgShapeFormattingController::FormatShape(System::SharedPtr\<ISvgShape\>, System::SharedPtr\<IShape\>) method
 
 
 This function is called before rendering of shape to SVG to allow user to control resulting SVG.

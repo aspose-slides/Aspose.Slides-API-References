@@ -15,11 +15,6 @@ Constructs an instance that represents 0.
 System::Decimal::Decimal()
 ```
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::int8_t) constructor
 
 
@@ -36,11 +31,6 @@ System::Decimal::Decimal(std::int8_t i)
 | --- | --- | --- |
 | i | std::int8_t | 8-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::int16_t) constructor
 
 
@@ -57,11 +47,6 @@ System::Decimal::Decimal(std::int16_t i)
 | --- | --- | --- |
 | i | std::int16_t | 16-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::int32_t) constructor
 
 
@@ -78,11 +63,6 @@ System::Decimal::Decimal(std::int32_t i)
 | --- | --- | --- |
 | i | std::int32_t | 32-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::int64_t) constructor
 
 
@@ -99,11 +79,6 @@ System::Decimal::Decimal(std::int64_t i)
 | --- | --- | --- |
 | i | std::int64_t | 64-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::uint8_t) constructor
 
 
@@ -120,11 +95,6 @@ System::Decimal::Decimal(std::uint8_t i)
 | --- | --- | --- |
 | i | std::uint8_t | unsigned 8-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::uint16_t) constructor
 
 
@@ -141,11 +111,6 @@ System::Decimal::Decimal(std::uint16_t i)
 | --- | --- | --- |
 | i | std::uint16_t | unsigned 16-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::uint32_t) constructor
 
 
@@ -162,11 +127,6 @@ System::Decimal::Decimal(std::uint32_t i)
 | --- | --- | --- |
 | i | std::uint32_t | unsigned 32-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::uint64_t) constructor
 
 
@@ -183,12 +143,7 @@ System::Decimal::Decimal(std::uint64_t i)
 | --- | --- | --- |
 | i | std::uint64_t | unsigned 64-bit integer value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Decimal(**float**) constructor
+## Decimal::Decimal(float) constructor
 
 
 Constructs an instance that represents the specified value.
@@ -204,12 +159,7 @@ System::Decimal::Decimal(float f)
 | --- | --- | --- |
 | f | **float** | The single-precision floating-point value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Decimal(**double**) constructor
+## Decimal::Decimal(double) constructor
 
 
 Constructs an instance that represents the specified value.
@@ -225,11 +175,6 @@ System::Decimal::Decimal(double d)
 | --- | --- | --- |
 | d | **double** | The double-precision floating-point value to be represented by the [Decimal](../) object being constructed |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(const std::string\&) constructor
 
 
@@ -239,12 +184,7 @@ Constructs an instance that represents a value whose string representation is sp
 System::Decimal::Decimal(const std::string &str)
 ```
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Decimal(**int32_t**, **int32_t**, **int32_t**, **bool**, **uint8_t**) constructor
+## Decimal::Decimal(int32_t, int32_t, int32_t, bool, uint8_t) constructor
 
 
 Constructs a [Decimal](../) object from the specified from the specified components.
@@ -264,12 +204,7 @@ System::Decimal::Decimal(int32_t lo, int32_t mid, int32_t hi, bool isNegative, u
 | isNegative | **bool** | Specifies if the value is negative |
 | scale | **uint8_t** | A power of 10 ranging from 0 to 28 |
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Decimal(const [Decimal](../)\&) constructor
+## Decimal::Decimal(const Decimal\&) constructor
 
 
 Constructs an instance of [Decimal](../) class that represents the same number as the specified [Decimal](../) object.
@@ -285,13 +220,7 @@ System::Decimal::Decimal(const Decimal &d)
 | --- | --- | --- |
 | d | const [Decimal](../)\& | A [Decimal](../) object to copy the value from |
 
-## See Also
-
-* Class [Decimal](../)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Decimal(const [ArrayPtr](../../arrayptr/)\<**int32_t**\>\&) constructor
+## Decimal::Decimal(const ArrayPtr\<int32_t\>\&) constructor
 
 
 Constructs an instance of [Decimal](../) class from integer array containing a binary representation.
@@ -307,12 +236,6 @@ System::Decimal::Decimal(const ArrayPtr<int32_t> &bits)
 | --- | --- | --- |
 | bits | const [ArrayPtr](../../arrayptr/)\<**int32_t**\>\& | A integer array containing a binary representation. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::Decimal(std::nullptr_t) constructor
 
 
@@ -322,12 +245,7 @@ Always throws ArgumentNullException.
 System::Decimal::Decimal(std::nullptr_t bits)
 ```
 
-## See Also
-
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Decimal(const [number_type](../number_type/)\&) constructor
+## Decimal::Decimal(const number_type\&) constructor
 
 
 Constructs an instance of [Decimal](../) class representing the specified value.
@@ -345,6 +263,7 @@ System::Decimal::Decimal(const number_type &value)
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Typedef [number_type](../number_type/)
 * Class [Decimal](../)
 * Namespace [System](../../)

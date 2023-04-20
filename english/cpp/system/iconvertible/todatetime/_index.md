@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system/iconvertible/todatetime/
 ---
-## IConvertible::ToDateTime([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToDateTime(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent [System::DateTime](../../datetime/) using the specified culture-specific formatting information.
@@ -28,8 +28,8 @@ A [System::DateTime](../../datetime/) instance equivalent to the value of this i
 
 ## See Also
 
-* Class [DateTime](../../datetime/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [DateTime](../../datetime/)
 * Class [IFormatProvider](../../iformatprovider/)
 * Class [IConvertible](../)
 * Namespace [System](../../)

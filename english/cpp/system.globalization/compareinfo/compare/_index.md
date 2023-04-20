@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.globalization/compareinfo/compare/
 ---
-## CompareInfo::Compare(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) const method
+## CompareInfo::Compare(const String\&, const String\&) const method
 
 
 Compares strings. Not implemented.
@@ -27,13 +27,7 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, c
 
 Negative value if LHS string preceeds RHS one, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::Compare(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::Compare(const String\&, const String\&, CompareOptions) const method
 
 
 Compares strings. Only Ordinal and OrdinalIgnoreCase modes are supported.
@@ -55,14 +49,7 @@ virtual int System::Globalization::CompareInfo::Compare(const String &a, const S
 
 Negative value if LHS string preceeds RHS one, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::Compare(const [String](../../../system/string/)\&, int, int, const [String](../../../system/string/)\&, int, int) const method
+## CompareInfo::Compare(const String\&, int, int, const String\&, int, int) const method
 
 
 Compares a section of one string with a section of second string. Not implemented.
@@ -87,13 +74,7 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 Negative value if first string section preceeds second string section, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::Compare(const [String](../../../system/string/)\&, int, const [String](../../../system/string/)\&, int, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::Compare(const String\&, int, const String\&, int, CompareOptions) const method
 
 
 Compares the end section of one string with the end section of second string using string comparison methods. Not implemented.
@@ -117,14 +98,7 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 Negative value if first string section preceeds second string section, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::Compare(const [String](../../../system/string/)\&, int, const [String](../../../system/string/)\&, int) const method
+## CompareInfo::Compare(const String\&, int, const String\&, int) const method
 
 
 Compares the end section of one string with the end section of second string. Not implemented.
@@ -147,13 +121,7 @@ virtual int System::Globalization::CompareInfo::Compare(const String &string1, i
 
 Negative value if first string section preceeds second string section, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::Compare(const [String](../../../system/string/)\&, int, int, const [String](../../../system/string/)\&, int, int, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::Compare(const String\&, int, int, const String\&, int, int, CompareOptions) const method
 
 
 Compares a section of one string with a section of second string using string comparison methods. Not implemented.
@@ -181,8 +149,8 @@ Negative value if first string section preceeds second string section, zero if t
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [CompareOptions](../../compareoptions/)
+* Class [String](../../../system/string/)
 * Class [CompareInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

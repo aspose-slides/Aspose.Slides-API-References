@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/httprequestheaders/set_expectcontinue/
 ---
-## HttpRequestHeaders::set_ExpectContinue([Nullable](../../../system/nullable/)\<**bool**\>) method
+## HttpRequestHeaders::set_ExpectContinue(Nullable\<bool\>) method
 
 
 Sets a value that indicates if the 'Expect' header value contains 'Continue'.

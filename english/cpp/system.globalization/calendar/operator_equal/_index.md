@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/calendar/operator_equal/
 ---
-## Calendar::operator=(const [Calendar](../)\&) method
+## Calendar::operator=(const Calendar\&) method
 
 
 
@@ -17,7 +17,6 @@ Calendar & System::Globalization::Calendar::operator=(const Calendar &)=delete
 
 ## See Also
 
-* Class [Calendar](../)
 * Class [Calendar](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

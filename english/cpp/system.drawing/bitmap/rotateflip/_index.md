@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.drawing/bitmap/rotateflip/
 ---
-## Bitmap::RotateFlip([RotateFlipType](../../rotatefliptype/)) method
+## Bitmap::RotateFlip(RotateFlipType) method
 
 
 Rotates image to multiple of 90 degrees and flips.

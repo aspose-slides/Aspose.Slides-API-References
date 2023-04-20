@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.slides/shape/set_name/
 ---
-## Shape::set_Name([System::String](../../../system/string/)) method
+## Shape::set_Name(System::String) method
 
 
 Sets the name of a shape. Must be not null. Use empty string value if needed. Write [System::String](../../../system/string/).

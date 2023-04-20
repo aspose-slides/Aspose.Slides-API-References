@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ipatternformateffectivedata/gettileimage/
 ---
-## IPatternFormatEffectiveData::GetTileImage([System::Drawing::Color](../../../system.drawing/color/), [System::Drawing::Color](../../../system.drawing/color/)) method
+## IPatternFormatEffectiveData::GetTileImage(System::Drawing::Color, System::Drawing::Color) method
 
 
 Creates a tile image for the pattern fill with a specified colors.

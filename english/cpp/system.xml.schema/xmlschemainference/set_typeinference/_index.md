@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemainference/set_typeinference/
 ---
-## XmlSchemaInference::set_TypeInference([XmlSchemaInference::InferenceOption](../inferenceoption/)) method
+## XmlSchemaInference::set_TypeInference(XmlSchemaInference::InferenceOption) method
 
 
 Sets the [XmlSchemaInference::InferenceOption](../inferenceoption/) value that affects types inferred from the XML document.

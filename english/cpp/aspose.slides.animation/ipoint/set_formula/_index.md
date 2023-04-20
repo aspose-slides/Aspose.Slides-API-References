@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/ipoint/set_formula/
 ---
-## IPoint::set_Formula([System::String](../../../system/string/)) method
+## IPoint::set_Formula(System::String) method
 
 
 Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: \\uFFFD+\\uFFFD, \\uFFFD-\\uFFFD, \\uFFFD*\\uFFFD, \\uFFFD/\\uFFFD, \\uFFFD^\\uFFFD, \\uFFFD\\uFFFD (mod) Constants: \\uFFFDpi\\uFFFD \\uFFFDe\\uFFFD Conditional operators: \\uFFFDabs\\uFFFD, \\uFFFDmin\\uFFFD, \\uFFFDmax\\uFFFD, \\uFFFD?\\uFFFD (if) Comparison operators: '==', '>=', '', '!=', '!' Trigonometric operators: \\uFFFDsin()\\uFFFD, \\uFFFDcos()\\uFFFD, \\uFFFDtan()\\uFFFD, \\uFFFDasin()\\uFFFD, \\uFFFDacos()\\uFFFD, \\uFFFDatan()\\uFFFD Natural logarithm \\uFFFDln()\\uFFFD Property references (host supported properties)

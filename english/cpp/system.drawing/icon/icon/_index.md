@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing/icon/icon/
 ---
-## Icon::Icon(const [String](../../../system/string/)\&) constructor
+## Icon::Icon(const String\&) constructor
 
 
 Constructs a new instance of [Icon](../) class that represents an icon from the specified file.

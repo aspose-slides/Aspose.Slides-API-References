@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/izoomframe/set_targetslide/
 ---
-## IZoomFrame::set_TargetSlide([System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## IZoomFrame::set_TargetSlide(System::SharedPtr\<ISlide\>) method
 
 
 Sets the slide object that the [Slide](../../slide/) Zoom object links to. Write [ISlide](../../islide/).

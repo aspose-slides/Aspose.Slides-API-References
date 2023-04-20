@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.drawing/pen/set_customendcap/
 ---
-## Pen::set_CustomEndCap(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::CustomLineCap](../../../system.drawing.drawing2d/customlinecap/)\>\&) method
+## Pen::set_CustomEndCap(const SharedPtr\<Drawing2D::CustomLineCap\>\&) method
 
 
 Sets the custom end line cap.

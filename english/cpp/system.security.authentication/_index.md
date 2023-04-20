@@ -3,7 +3,7 @@ title: "System::Security::Authentication"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 781
+weight: 768
 url: /cpp/system.security.authentication/
 ---
 

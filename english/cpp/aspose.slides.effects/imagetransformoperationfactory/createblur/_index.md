@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.effects/imagetransformoperationfactory/createblur/
 ---
-## ImageTransformOperationFactory::CreateBlur(**double**, **bool**) method
+## ImageTransformOperationFactory::CreateBlur(double, bool) method
 
 
 Creates [Blur](../../blur/) effect.

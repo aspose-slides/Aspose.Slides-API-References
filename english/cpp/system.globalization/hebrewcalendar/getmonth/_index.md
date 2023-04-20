@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.globalization/hebrewcalendar/getmonth/
 ---
-## HebrewCalendar::GetMonth([DateTime](../../../system/datetime/)) const method
+## HebrewCalendar::GetMonth(DateTime) const method
 
 
 Gets month for the specified time point.

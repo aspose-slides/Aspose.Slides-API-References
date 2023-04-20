@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.security.cryptography.xml/signedxml/addobject/
 ---
-## SignedXml::AddObject([SharedPtr](../../../system/sharedptr/)\<[DataObject](../../dataobject/)\>) method
+## SignedXml::AddObject(SharedPtr\<DataObject\>) method
 
 
 

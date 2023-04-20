@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system/math/min_/
 ---
-## Math::Min_(**float**, **float**) method
+## Math::Min_(float, float) method
 
 
 Returns the smallest single-precision floating point value out of the two specified.
@@ -27,12 +27,7 @@ float System::Math::Min_(float val1, float val2)
 
 The smallest value out of **val1** and **val2**; or NaN if one of the operands is NaN
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Min_(**double**, **double**) method
+## Math::Min_(double, double) method
 
 
 Returns the smallest double-precision floating point value out of the two specified.

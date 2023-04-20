@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/entitytagheadervalue/getentitytaglength/
 ---
-## EntityTagHeaderValue::GetEntityTagLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../)\>\&) method
+## EntityTagHeaderValue::GetEntityTagLength(String, int32_t, System::SharedPtr\<EntityTagHeaderValue\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [EntityTagHeaderValue](../) class.
@@ -30,9 +30,8 @@ The length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EntityTagHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [EntityTagHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

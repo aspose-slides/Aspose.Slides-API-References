@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::NetworkCredential::NetworkCredential()
 ```
 
-## See Also
-
-* Class [NetworkCredential](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## NetworkCredential::NetworkCredential([String](../../../system/string/), [String](../../../system/string/)) constructor
+## NetworkCredential::NetworkCredential(String, String) constructor
 
 
 Constructs a new instance.
@@ -37,13 +32,7 @@ System::Net::NetworkCredential::NetworkCredential(String userName, String passwo
 | userName | [String](../../../system/string/) | The username. |
 | password | [String](../../../system/string/) | The password. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [NetworkCredential](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## NetworkCredential::NetworkCredential([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) constructor
+## NetworkCredential::NetworkCredential(String, String, String) constructor
 
 
 Constructs a new instance.
@@ -63,7 +52,7 @@ System::Net::NetworkCredential::NetworkCredential(String userName, String passwo
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [NetworkCredential](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

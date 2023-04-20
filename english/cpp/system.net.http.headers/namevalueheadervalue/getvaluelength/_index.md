@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.net.http.headers/namevalueheadervalue/getvaluelength/
 ---
-## NameValueHeaderValue::GetValueLength([String](../../../system/string/), **int32_t**) method
+## NameValueHeaderValue::GetValueLength(String, int32_t) method
 
 
 Returns the length of a value from the specified index.

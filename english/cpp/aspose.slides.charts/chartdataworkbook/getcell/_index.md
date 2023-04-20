@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/chartdataworkbook/getcell/
 ---
-## ChartDataWorkbook::GetCell([System::String](../../../system/string/), **int32_t**, **int32_t**) method
+## ChartDataWorkbook::GetCell(System::String, int32_t, int32_t) method
 
 
 Gets the cell that can be used for chart series or categories
@@ -28,15 +28,7 @@ System::SharedPtr<IChartDataCell> Aspose::Slides::Charts::ChartDataWorkbook::Get
 
 [Cell](../../../aspose.slides/cell/) object
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [String](../../../system/string/)
-* Class [ChartDataWorkbook](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataWorkbook::GetCell(**int32_t**, **int32_t**, **int32_t**) method
+## ChartDataWorkbook::GetCell(int32_t, int32_t, int32_t) method
 
 
 Gets the cell that can be used for chart series or categories
@@ -58,14 +50,7 @@ System::SharedPtr<IChartDataCell> Aspose::Slides::Charts::ChartDataWorkbook::Get
 
 [Cell](../../../aspose.slides/cell/) object
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartDataWorkbook](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataWorkbook::GetCell(**int32_t**, [System::String](../../../system/string/)) method
+## ChartDataWorkbook::GetCell(int32_t, System::String) method
 
 
 Gets the cell that can be used for chart series or categories
@@ -86,15 +71,7 @@ System::SharedPtr<IChartDataCell> Aspose::Slides::Charts::ChartDataWorkbook::Get
 
 [Cell](../../../aspose.slides/cell/) object
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [String](../../../system/string/)
-* Class [ChartDataWorkbook](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataWorkbook::GetCell(**int32_t**, [System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ChartDataWorkbook::GetCell(int32_t, System::String, System::SharedPtr\<System::Object\>) method
 
 
 Gets the cell that can be used for chart series or categories
@@ -116,16 +93,7 @@ System::SharedPtr<IChartDataCell> Aspose::Slides::Charts::ChartDataWorkbook::Get
 
 [Cell](../../../aspose.slides/cell/) object
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [String](../../../system/string/)
-* Class [Object](../../../system/object/)
-* Class [ChartDataWorkbook](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataWorkbook::GetCell(**int32_t**, **int32_t**, **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ChartDataWorkbook::GetCell(int32_t, int32_t, int32_t, System::SharedPtr\<System::Object\>) method
 
 
 Gets the cell that can be used for chart series or categories
@@ -152,7 +120,8 @@ System::SharedPtr<IChartDataCell> Aspose::Slides::Charts::ChartDataWorkbook::Get
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChartDataCell](../../ichartdatacell/)
-* Class [Object](../../../system/object/)
+* Class [String](../../../system/string/)
 * Class [ChartDataWorkbook](../)
+* Class [Object](../../../system/object/)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

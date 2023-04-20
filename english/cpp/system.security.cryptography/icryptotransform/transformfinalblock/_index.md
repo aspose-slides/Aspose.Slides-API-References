@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/icryptotransform/transformfinalblock/
 ---
-## ICryptoTransform::TransformFinalBlock([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## ICryptoTransform::TransformFinalBlock(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Processes last block of data and calculates output value.

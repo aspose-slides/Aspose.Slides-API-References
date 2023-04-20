@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/piesplitcustompointcollection/add/
 ---
-## PieSplitCustomPointCollection::Add(const **int32_t**\&) method
+## PieSplitCustomPointCollection::Add(const int32_t\&) method
 
 
 Adds data point by its index in parent series points collection.
@@ -22,12 +22,7 @@ void Aspose::Slides::Charts::PieSplitCustomPointCollection::Add(const int32_t &d
 | --- | --- | --- |
 | dataPointIndex | const **int32_t**\& | Index of data point in parent series points collection. |
 
-## See Also
-
-* Class [PieSplitCustomPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## PieSplitCustomPointCollection::Add(const [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>\&) method
+## PieSplitCustomPointCollection::Add(const System::SharedPtr\<IChartDataPoint\>\&) method
 
 
 Adds data point to collection.
@@ -46,7 +41,7 @@ void Aspose::Slides::Charts::PieSplitCustomPointCollection::Add(const System::Sh
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
 * Class [PieSplitCustomPointCollection](../)
+* Class [IChartDataPoint](../../ichartdatapoint/)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

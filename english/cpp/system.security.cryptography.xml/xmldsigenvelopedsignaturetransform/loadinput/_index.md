@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography.xml/xmldsigenvelopedsignaturetransform/loadinput/
 ---
-## XmlDsigEnvelopedSignatureTransform::LoadInput([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## XmlDsigEnvelopedSignatureTransform::LoadInput(SharedPtr\<Object\>) method
 
 
 

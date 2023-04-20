@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaattributegroup/set_name/
 ---
-## XmlSchemaAttributeGroup::set_Name(const [String](../../../system/string/)\&) method
+## XmlSchemaAttributeGroup::set_Name(const String\&) method
 
 
 Sets the name of the attribute group.

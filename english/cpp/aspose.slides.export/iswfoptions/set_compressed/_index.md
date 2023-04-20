@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/iswfoptions/set_compressed/
 ---
-## ISwfOptions::set_Compressed(**bool**) method
+## ISwfOptions::set_Compressed(bool) method
 
 
 Specifies whether the generated SWF document should be compressed or not. Default is **true**.

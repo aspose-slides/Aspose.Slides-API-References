@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.globalization/calendar/gethour/
 ---
-## Calendar::GetHour([DateTime](../../../system/datetime/)) const method
+## Calendar::GetHour(DateTime) const method
 
 
 Gets hours for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.animation/ibehavior/set_timing/
 ---
-## IBehavior::set_Timing([System::SharedPtr](../../../system/sharedptr/)\<[ITiming](../../itiming/)\>) method
+## IBehavior::set_Timing(System::SharedPtr\<ITiming\>) method
 
 
 Represents timing properties for the effect behavior. Write [ITiming](../../itiming/).

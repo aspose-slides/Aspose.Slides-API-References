@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/chartcellcollection/add/
 ---
-## ChartCellCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\>) method
+## ChartCellCollection::Add(System::SharedPtr\<IChartDataCell\>) method
 
 
 Add new cell to the collection.
@@ -22,14 +22,7 @@ void Aspose::Slides::Charts::ChartCellCollection::Add(System::SharedPtr<IChartDa
 | --- | --- | --- |
 | cell | [System::SharedPtr](../../../system/sharedptr/)\<[IChartDataCell](../../ichartdatacell/)\> | New cell to add. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataCell](../../ichartdatacell/)
-* Class [ChartCellCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartCellCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ChartCellCollection::Add(System::SharedPtr\<System::Object\>) method
 
 
 Creates [ChartDataCell](../../chartdatacell/) from specified value and adds it to the collection.
@@ -55,7 +48,8 @@ This method adds worksheet with name AUTO_DATA and adds all values there. If you
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
+* Class [IChartDataCell](../../ichartdatacell/)
 * Class [ChartCellCollection](../)
+* Class [Object](../../../system/object/)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.net.http.headers/httpresponseheaders/addknownheaders/
 ---
-## HttpResponseHeaders::AddKnownHeaders([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::HashSet](../../../system.collections.generic/hashset/)\<[String](../../../system/string/)\>\>) method
+## HttpResponseHeaders::AddKnownHeaders(System::SharedPtr\<Collections::Generic::HashSet\<String\>\>) method
 
 
 Adds the known headers to the specified collection.

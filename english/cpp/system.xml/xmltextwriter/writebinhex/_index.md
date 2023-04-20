@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.xml/xmltextwriter/writebinhex/
 ---
-## XmlTextWriter::WriteBinHex([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) method
+## XmlTextWriter::WriteBinHex(ArrayPtr\<uint8_t\>, int32_t, int32_t) method
 
 
 Encodes the specified binary bytes as binhex and writes out the resulting text.

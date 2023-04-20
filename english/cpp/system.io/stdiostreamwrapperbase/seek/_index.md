@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.io/stdiostreamwrapperbase/seek/
 ---
-## STDIOStreamWrapperBase::Seek(**int64_t**, [SeekOrigin](../../seekorigin/)) method
+## STDIOStreamWrapperBase::Seek(int64_t, SeekOrigin) method
 
 
 Sets the position of the stream represented by the current object.

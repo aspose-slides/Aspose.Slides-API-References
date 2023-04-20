@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/basicsystemostreamwrapper/basicsystemostreamwrapper/
 ---
-## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper([SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>, [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/)) constructor
+## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(SharedPtr\<Stream\>, SystemIOStreamWrappingMode) constructor
 
 
 Constructs a new instance of the [BasicSystemOStreamWrapper](../).
@@ -23,15 +23,7 @@ System::IO::BasicSystemOStreamWrapper<Elem, Traits>::BasicSystemOStreamWrapper(S
 | str | [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\> | The pointer to the stream |
 | mode | [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/) | Wrapping mode |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Enum [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/)
-* Class [BasicSystemOStreamWrapper](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(const [BasicSystemOStreamWrapper](../)\&) constructor
+## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(const BasicSystemOStreamWrapper\&) constructor
 
 
 Copy constructor. Deleted.
@@ -40,13 +32,7 @@ Copy constructor. Deleted.
 System::IO::BasicSystemOStreamWrapper<Elem, Traits>::BasicSystemOStreamWrapper(const BasicSystemOStreamWrapper &)=delete
 ```
 
-## See Also
-
-* Class [BasicSystemOStreamWrapper](../)
-* Class [BasicSystemOStreamWrapper](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper([BasicSystemOStreamWrapper](../)\&&) constructor
+## BasicSystemOStreamWrapper::BasicSystemOStreamWrapper(BasicSystemOStreamWrapper\&&) constructor
 
 
 Move constructor.
@@ -64,7 +50,9 @@ System::IO::BasicSystemOStreamWrapper<Elem, Traits>::BasicSystemOStreamWrapper(B
 
 ## See Also
 
-* Class [BasicSystemOStreamWrapper](../)
+* Enum [SystemIOStreamWrappingMode](../../systemiostreamwrappingmode/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Stream](../../stream/)
 * Class [BasicSystemOStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

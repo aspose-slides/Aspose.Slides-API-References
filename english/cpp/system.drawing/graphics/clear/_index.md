@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.drawing/graphics/clear/
 ---
-## Graphics::Clear([Color](../../color/)) method
+## Graphics::Clear(Color) method
 
 
 Clears the drawing surface represented by the current object and fills it with the specified color.

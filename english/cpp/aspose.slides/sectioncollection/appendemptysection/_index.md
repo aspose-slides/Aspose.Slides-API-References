@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/sectioncollection/appendemptysection/
 ---
-## SectionCollection::AppendEmptySection([System::String](../../../system/string/)) method
+## SectionCollection::AppendEmptySection(System::String) method
 
 
 Add empty section to the end of the collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.globalization/gregoriancalendar/getdayofweek/
 ---
-## GregorianCalendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## GregorianCalendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

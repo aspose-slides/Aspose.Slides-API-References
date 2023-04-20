@@ -3,7 +3,7 @@ title: FileNotFoundException
 second_title: Aspose.Slides for C++ API Reference
 description: "The exception that is thrown when an attempt to access a file that does not exist on disk fails. Never wrap the FileNotFoundException class instances into System::SmartPtr."
 type: docs
-weight: 690
+weight: 677
 url: /cpp/system.io/filenotfoundexception/
 ---
 ## FileNotFoundException typedef

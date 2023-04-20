@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.charts/ichartparagraphformat/set_hangingpunctuation/
 ---
-## IChartParagraphFormat::set_HangingPunctuation([NullableBool](../../../aspose.slides/nullablebool/)) method
+## IChartParagraphFormat::set_HangingPunctuation(NullableBool) method
 
 
 Determines whether the hanging punctuation is used in a paragraph. Write [NullableBool](../../../aspose.slides/nullablebool/).

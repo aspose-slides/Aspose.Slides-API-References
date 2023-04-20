@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.export/embedallfontshtmlcontroller/writeslidestart/
 ---
-## EmbedAllFontsHtmlController::WriteSlideStart([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlGenerator](../../ihtmlgenerator/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../../aspose.slides/islide/)\>) method
+## EmbedAllFontsHtmlController::WriteSlideStart(System::SharedPtr\<IHtmlGenerator\>, System::SharedPtr\<ISlide\>) method
 
 
 Called to write html slide header. Called once per each of slides.

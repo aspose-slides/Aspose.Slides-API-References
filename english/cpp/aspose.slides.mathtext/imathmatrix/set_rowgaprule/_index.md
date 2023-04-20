@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.mathtext/imathmatrix/set_rowgaprule/
 ---
-## IMathMatrix::set_RowGapRule([MathSpacingRules](../../mathspacingrules/)) method
+## IMathMatrix::set_RowGapRule(MathSpacingRules) method
 
 
 The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0)

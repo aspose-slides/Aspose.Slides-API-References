@@ -24,6 +24,5 @@ The same instance of this class.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [CookieComparer](../)
-* Class [CookieComparer](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

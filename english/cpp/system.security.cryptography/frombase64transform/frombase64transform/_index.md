@@ -15,12 +15,7 @@ Constructor.
 System::Security::Cryptography::FromBase64Transform::FromBase64Transform()
 ```
 
-## See Also
-
-* Class [FromBase64Transform](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## FromBase64Transform::FromBase64Transform([FromBase64TransformMode](../../frombase64transformmode/)) constructor
+## FromBase64Transform::FromBase64Transform(FromBase64TransformMode) constructor
 
 
 Constructor.

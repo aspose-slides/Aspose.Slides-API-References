@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides/iconnectorlock/set_adjusthandleslocked/
 ---
-## IConnectorLock::set_AdjustHandlesLocked(**bool**) method
+## IConnectorLock::set_AdjustHandlesLocked(bool) method
 
 
 Determines whether a changing adjust values is forbidden. Write **bool**.

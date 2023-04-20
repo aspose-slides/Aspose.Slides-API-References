@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.drawing/image/set_tag/
 ---
-## Image::set_Tag(const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Image::set_Tag(const System::SharedPtr\<System::Object\>) method
 
 
 Sets an object that provides additional data about the image.

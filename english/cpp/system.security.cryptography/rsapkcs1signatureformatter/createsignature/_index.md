@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/rsapkcs1signatureformatter/createsignature/
 ---
-## RSAPKCS1SignatureFormatter::CreateSignature([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## RSAPKCS1SignatureFormatter::CreateSignature(System::ArrayPtr\<uint8_t\>) method
 
 
 Signs data.

@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/system.drawing/graphics/translatetransform/
 ---
-## Graphics::TranslateTransform(**float**, **float**, [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)) method
+## Graphics::TranslateTransform(float, float, Drawing2D::MatrixOrder) method
 
 
 Applies the specified translation vector to the world transformation matrix of the current [Graphics](../) object.

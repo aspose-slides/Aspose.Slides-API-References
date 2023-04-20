@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system.globalization/cultureinfo/getcultureinfo/
 ---
-## CultureInfo::GetCultureInfo(const [String](../../../system/string/)\&) method
+## CultureInfo::GetCultureInfo(const String\&) method
 
 
 Gets culture by its name. Same as CreateSpecificCulture.
@@ -26,14 +26,7 @@ static CultureInfoPtr System::Globalization::CultureInfo::GetCultureInfo(const S
 
 Newly created culture object.
 
-## See Also
-
-* Typedef [CultureInfoPtr](../../cultureinfoptr/)
-* Class [String](../../../system/string/)
-* Class [CultureInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CultureInfo::GetCultureInfo(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## CultureInfo::GetCultureInfo(const String\&, const String\&) method
 
 
 Gets culture by its name.
@@ -54,14 +47,7 @@ static CultureInfoPtr System::Globalization::CultureInfo::GetCultureInfo(const S
 
 Culture object.
 
-## See Also
-
-* Typedef [CultureInfoPtr](../../cultureinfoptr/)
-* Class [String](../../../system/string/)
-* Class [CultureInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CultureInfo::GetCultureInfo(**int32_t**) method
+## CultureInfo::GetCultureInfo(int32_t) method
 
 
 Gets culture by id.
@@ -84,6 +70,7 @@ Newly created culture object.
 ## See Also
 
 * Typedef [CultureInfoPtr](../../cultureinfoptr/)
+* Class [String](../../../system/string/)
 * Class [CultureInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

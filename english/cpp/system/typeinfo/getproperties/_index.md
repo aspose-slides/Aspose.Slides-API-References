@@ -15,15 +15,7 @@ Returns all the public properties of the current Type.
 ArrayPtr<SharedPtr<System::Reflection::PropertyInfo>> System::TypeInfo::GetProperties() const
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [PropertyInfo](../../../system.reflection/propertyinfo/)
-* Class [TypeInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TypeInfo::GetProperties([System::Reflection::BindingFlags](../../../system.reflection/bindingflags/)) const method
+## TypeInfo::GetProperties(System::Reflection::BindingFlags) const method
 
 
 Searches for the properties of the current Type, using the specified binding constraints.
@@ -34,10 +26,10 @@ ArrayPtr<SharedPtr<System::Reflection::PropertyInfo>> System::TypeInfo::GetPrope
 
 ## See Also
 
+* Enum [BindingFlags](../../../system.reflection/bindingflags/)
 * Typedef [ArrayPtr](../../arrayptr/)
 * Typedef [SharedPtr](../../sharedptr/)
 * Class [PropertyInfo](../../../system.reflection/propertyinfo/)
-* Enum [BindingFlags](../../../system.reflection/bindingflags/)
 * Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

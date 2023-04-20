@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system.globalization/datetimeformatinfo/set_monthgenitivenames/
 ---
-## DateTimeFormatInfo::set_MonthGenitiveNames(const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## DateTimeFormatInfo::set_MonthGenitiveNames(const ArrayPtr\<String\>\&) method
 
 
 Sets month names in genitive form.

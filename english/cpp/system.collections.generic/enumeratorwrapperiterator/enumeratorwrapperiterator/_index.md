@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic/enumeratorwrapperiterator/enumeratorwrapperiterator/
 ---
-## EnumeratorWrapperIterator::EnumeratorWrapperIterator(const [SharedPtr](../../../system/sharedptr/)\<[IEnumerator](../../ienumerator/)\<Element\>\>\&) constructor
+## EnumeratorWrapperIterator::EnumeratorWrapperIterator(const SharedPtr\<IEnumerator\<Element\>\>\&) constructor
 
 
 

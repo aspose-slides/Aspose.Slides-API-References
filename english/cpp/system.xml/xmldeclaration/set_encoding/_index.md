@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/xmldeclaration/set_encoding/
 ---
-## XmlDeclaration::set_Encoding(const [String](../../../system/string/)\&) method
+## XmlDeclaration::set_Encoding(const String\&) method
 
 
 Sets the encoding level of the XML document.

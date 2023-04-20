@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/tab/tab/
 ---
-## Tab::Tab(**double**, [TabAlignment](../../tabalignment/)) constructor
+## Tab::Tab(double, TabAlignment) constructor
 
 
 Creates new [Tab](../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.text/encodinginfo/encodinginfo/
 ---
-## EncodingInfo::EncodingInfo(int, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) constructor
+## EncodingInfo::EncodingInfo(int, const String\&, const String\&) constructor
 
 
 Constuctor.

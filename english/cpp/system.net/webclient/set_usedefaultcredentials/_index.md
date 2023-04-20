@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/webclient/set_usedefaultcredentials/
 ---
-## WebClient::set_UseDefaultCredentials(**bool**) method
+## WebClient::set_UseDefaultCredentials(bool) method
 
 
 NOT IMPLEMENTED.

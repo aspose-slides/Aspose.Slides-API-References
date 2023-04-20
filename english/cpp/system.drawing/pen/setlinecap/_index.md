@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/system.drawing/pen/setlinecap/
 ---
-## Pen::SetLineCap([Drawing2D::LineCap](../../../system.drawing.drawing2d/linecap/), [Drawing2D::LineCap](../../../system.drawing.drawing2d/linecap/), [Drawing2D::DashCap](../../../system.drawing.drawing2d/dashcap/)) method
+## Pen::SetLineCap(Drawing2D::LineCap, Drawing2D::LineCap, Drawing2D::DashCap) method
 
 
 NOT IMPLEMENTED.

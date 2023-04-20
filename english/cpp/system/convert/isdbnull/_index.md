@@ -16,13 +16,7 @@ template<typename T> static std::enable_if_t<!IsSmartPtr<T>::value, bool> System
 ```
 
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::IsDBNull(const [SharedPtr](../../sharedptr/)\<T\>\&) method
+## Convert::IsDBNull(const SharedPtr\<T\>\&) method
 
 
 NOT IMPLEMENTED Fake implementation, checks if value is nullptr.
@@ -34,6 +28,7 @@ template<typename T> static bool System::Convert::IsDBNull(const SharedPtr<T> &v
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
+* Struct [IsSmartPtr](../../issmartptr/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections.generic/_valuecollection/contains/
 ---
-## _ValueCollection::Contains(const [TValue](../tvalue/)\&) const method
+## _ValueCollection::Contains(const TValue\&) const method
 
 
 Checks if item is present in container.

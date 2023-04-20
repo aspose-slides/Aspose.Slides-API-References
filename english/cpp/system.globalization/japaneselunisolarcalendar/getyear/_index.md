@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.globalization/japaneselunisolarcalendar/getyear/
 ---
-## JapaneseLunisolarCalendar::GetYear([DateTime](../../../system/datetime/)) const method
+## JapaneseLunisolarCalendar::GetYear(DateTime) const method
 
 
 Gets year for the specified time point.

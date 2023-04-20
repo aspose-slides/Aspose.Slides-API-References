@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml/xmlprocessinginstruction/writeto/
 ---
-## XmlProcessingInstruction::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlProcessingInstruction::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/).

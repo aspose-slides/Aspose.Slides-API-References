@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.security.cryptography/dsacryptoserviceprovider/verifysignature/
 ---
-## DSACryptoServiceProvider::VerifySignature([ByteArrayPtr](../../../system/bytearrayptr/), [ByteArrayPtr](../../../system/bytearrayptr/)) method
+## DSACryptoServiceProvider::VerifySignature(ByteArrayPtr, ByteArrayPtr) method
 
 
 Verify [DSA](../../dsa/) signature for the specified data.

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.xml.xpath/xpathitem/valueas/
 ---
-## XPathItem::ValueAs(const [TypeInfo](../../../system/typeinfo/)\&) method
+## XPathItem::ValueAs(const TypeInfo\&) method
 
 
 Returns the item's value as the specified type.
@@ -26,15 +26,7 @@ virtual SharedPtr<Object> System::Xml::XPath::XPathItem::ValueAs(const TypeInfo 
 
 The value of the item as the type requested.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TypeInfo](../../../system/typeinfo/)
-* Class [XPathItem](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathItem::ValueAs(const [TypeInfo](../../../system/typeinfo/)\&, [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>) method
+## XPathItem::ValueAs(const TypeInfo\&, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 When overridden in a derived class, returns the item's value as the type specified using the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes.
@@ -60,7 +52,7 @@ The value of the item as the type requested.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
 * Class [TypeInfo](../../../system/typeinfo/)
-* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
 * Class [XPathItem](../)
+* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

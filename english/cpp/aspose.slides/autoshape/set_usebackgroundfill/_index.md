@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/autoshape/set_usebackgroundfill/
 ---
-## AutoShape::set_UseBackgroundFill(**bool**) method
+## AutoShape::set_UseBackgroundFill(bool) method
 
 
 Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/ichartdatapointcollection/set_datasourcetypeforyvalues/
 ---
-## IChartDataPointCollection::set_DataSourceTypeForYValues([DataSourceType](../../datasourcetype/)) method
+## IChartDataPointCollection::set_DataSourceTypeForYValues(DataSourceType) method
 
 
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPointEx.YValue.Data property. Write [DataSourceType](../../datasourcetype/).

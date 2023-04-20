@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.xml/xmlnode/appendchild/
 ---
-## XmlNode::AppendChild([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../)\>) method
+## XmlNode::AppendChild(SharedPtr\<XmlNode\>) method
 
 
 Adds the specified node to the end of the list of child nodes, of this node.
@@ -29,7 +29,6 @@ The node added.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNode](../)
 * Class [XmlNode](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

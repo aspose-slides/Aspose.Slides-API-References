@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system.xml/xmltextwriter/lookupprefix/
 ---
-## XmlTextWriter::LookupPrefix([String](../../../system/string/)) method
+## XmlTextWriter::LookupPrefix(String) method
 
 
 Returns the closest prefix defined in the current namespace scope for the namespace URI.

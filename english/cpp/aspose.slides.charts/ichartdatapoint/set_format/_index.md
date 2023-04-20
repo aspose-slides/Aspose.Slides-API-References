@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.charts/ichartdatapoint/set_format/
 ---
-## IChartDataPoint::set_Format([System::SharedPtr](../../../system/sharedptr/)\<[IFormat](../../iformat/)\>) method
+## IChartDataPoint::set_Format(System::SharedPtr\<IFormat\>) method
 
 
 Represents the formatting properties. Write [IFormat](../../iformat/).

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/ipicturefillformat/set_stretchoffsetleft/
 ---
-## IPictureFillFormat::set_StretchOffsetLeft(**float**) method
+## IPictureFillFormat::set_StretchOffsetLeft(float) method
 
 
 Sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Write **float**.

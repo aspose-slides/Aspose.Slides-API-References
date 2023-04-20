@@ -45,6 +45,5 @@ auto masterShapeEffects = slide->get_LayoutSlide()->get_MasterSlide()->get_Timel
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IShape](../)
-* Class [IShape](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

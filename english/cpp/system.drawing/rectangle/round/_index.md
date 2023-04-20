@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.drawing/rectangle/round/
 ---
-## Rectangle::Round(const [RectangleF](../../rectanglef/)\&) method
+## Rectangle::Round(const RectangleF\&) method
 
 
 Constructs a [Rectangle](../) object from the specified [RectangleF](../../rectanglef/) object by rounding the [RectangleF](../../rectanglef/) object's location and size values to the nearest integer values.
@@ -30,6 +30,5 @@ The [Rectangle](../) object constructed from **rect**
 
 * Class [Rectangle](../)
 * Class [RectangleF](../../rectanglef/)
-* Class [Rectangle](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

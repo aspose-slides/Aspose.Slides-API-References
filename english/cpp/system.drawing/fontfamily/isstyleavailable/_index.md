@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing/fontfamily/isstyleavailable/
 ---
-## FontFamily::IsStyleAvailable([FontStyle](../../fontstyle/)) method
+## FontFamily::IsStyleAvailable(FontStyle) method
 
 
 Determines if the specified font style is available.

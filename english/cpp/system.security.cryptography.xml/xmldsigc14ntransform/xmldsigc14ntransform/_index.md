@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography.xml/xmldsigc14ntransform/xmldsigc14ntrans
 System::Security::Cryptography::Xml::XmlDsigC14NTransform::XmlDsigC14NTransform()
 ```
 
-## See Also
-
-* Class [XmlDsigC14NTransform](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDsigC14NTransform::XmlDsigC14NTransform(**bool**) constructor
+## XmlDsigC14NTransform::XmlDsigC14NTransform(bool) constructor
 
 
 

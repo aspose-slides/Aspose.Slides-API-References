@@ -3,7 +3,7 @@ title: ZoomImageType
 second_title: Aspose.Slides for C++ API Reference
 description: Defines whether the Zoom object is using the slide preview or a cover image.
 type: docs
-weight: 6566
+weight: 6306
 url: /cpp/aspose.slides/zoomimagetype/
 ---
 ## ZoomImageType enum

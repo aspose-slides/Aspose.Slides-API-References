@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing/stringformat/gettabstops/
 ---
-## StringFormat::GetTabStops(**float**\&) const method
+## StringFormat::GetTabStops(float\&) const method
 
 
 Returns the tab stops for the current [StringFormat](../) object.

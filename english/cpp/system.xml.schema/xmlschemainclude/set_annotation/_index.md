@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemainclude/set_annotation/
 ---
-## XmlSchemaInclude::set_Annotation(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaAnnotation](../../xmlschemaannotation/)\>\&) method
+## XmlSchemaInclude::set_Annotation(const SharedPtr\<XmlSchemaAnnotation\>\&) method
 
 
 Sets the **annotation** value.

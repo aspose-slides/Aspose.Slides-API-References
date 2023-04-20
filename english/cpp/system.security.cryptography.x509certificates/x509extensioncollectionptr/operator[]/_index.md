@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.x509certificates/x509extensioncollectionptr/operator[]/
 ---
-## X509ExtensionCollectionPtr::operator[](**int32_t**) const method
+## X509ExtensionCollectionPtr::operator[](int32_t) const method
 
 
 Accessor.

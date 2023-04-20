@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/iportionformat/set_bookmarkid/
 ---
-## IPortionFormat::set_BookmarkId([System::String](../../../system/string/)) method
+## IPortionFormat::set_BookmarkId(System::String) method
 
 
 Sets bookmark identifier. Write [System::String](../../../system/string/).

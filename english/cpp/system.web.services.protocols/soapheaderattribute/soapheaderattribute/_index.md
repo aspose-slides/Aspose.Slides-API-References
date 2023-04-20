@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.web.services.protocols/soapheaderattribute/soapheaderattribute/
 ---
-## SoapHeaderAttribute::SoapHeaderAttribute([String](../../../system/string/)) constructor
+## SoapHeaderAttribute::SoapHeaderAttribute(String) constructor
 
 
 Constructs a new instance.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.animation/animationtimeline/get_mainsequenceeffect/
 ---
-## AnimationTimeLine::get_MainSequenceEffect(**int32_t**) method
+## AnimationTimeLine::get_MainSequenceEffect(int32_t) method
 
 
 Returns effect from main sequence at the specified index.

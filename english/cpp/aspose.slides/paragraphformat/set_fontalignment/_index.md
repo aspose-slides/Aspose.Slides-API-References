@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides/paragraphformat/set_fontalignment/
 ---
-## ParagraphFormat::set_FontAlignment([Aspose::Slides::FontAlignment](../../fontalignment/)) method
+## ParagraphFormat::set_FontAlignment(Aspose::Slides::FontAlignment) method
 
 
 Sets a font alignment in a paragraph with no inheritance. Write [Slides::FontAlignment](../../fontalignment/).

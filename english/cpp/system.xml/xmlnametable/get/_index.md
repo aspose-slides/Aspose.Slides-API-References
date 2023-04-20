@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml/xmlnametable/get/
 ---
-## XmlNameTable::Get(const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>\&, **int32_t**, **int32_t**) method
+## XmlNameTable::Get(const ArrayPtr\<char16_t\>\&, int32_t, int32_t) method
 
 
 When overridden in a derived class, gets the atomized string containing the same characters as the specified range of characters in the given array.
@@ -28,14 +28,7 @@ virtual const String & System::Xml::XmlNameTable::Get(const ArrayPtr<char16_t> &
 
 The atomized string or **nullptr** if the string has not already been atomized. If **length** is zero, [String::Empty](../../../system/string/empty/) is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [XmlNameTable](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNameTable::Get(const [String](../../../system/string/)\&) method
+## XmlNameTable::Get(const String\&) method
 
 
 When overridden in a derived class, gets the atomized string containing the same value as the specified string.
@@ -57,6 +50,7 @@ The atomized string or **nullptr** if the string has not already been atomized.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
 * Class [XmlNameTable](../)
 * Namespace [System::Xml](../../)

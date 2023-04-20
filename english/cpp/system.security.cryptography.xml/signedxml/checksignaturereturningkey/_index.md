@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.security.cryptography.xml/signedxml/checksignaturereturningkey/
 ---
-## SignedXml::CheckSignatureReturningKey([SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../../system.security.cryptography/asymmetricalgorithm/)\>\&) method
+## SignedXml::CheckSignatureReturningKey(SharedPtr\<AsymmetricAlgorithm\>\&) method
 
 
 

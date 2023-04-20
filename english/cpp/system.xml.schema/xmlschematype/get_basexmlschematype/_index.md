@@ -24,6 +24,5 @@ An [XmlSchemaType](../) object representing the base type of this schema type.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlSchemaType](../)
-* Class [XmlSchemaType](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

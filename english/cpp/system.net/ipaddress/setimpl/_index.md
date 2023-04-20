@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.net/ipaddress/setimpl/
 ---
-## IPAddress::SetImpl([ImplPtr](../implptr/)) method
+## IPAddress::SetImpl(ImplPtr) method
 
 
 Sets a pointer to implementation.

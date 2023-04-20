@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.slides/ibaseportionformat/set_escapement/
 ---
-## IBasePortionFormat::set_Escapement(**float**) method
+## IBasePortionFormat::set_Escapement(float) method
 
 
 Sets the superscript or subscript text. Value from -100% (subscript) to 100% (superscript). **std::numeric_limits<float>::quiet_NaN()** means value is undefined and should be inherited from the Master. Write **float**.

@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/aspose.slides/shapecollection/insertautoshape/
 ---
-## ShapeCollection::InsertAutoShape(**int32_t**, [ShapeType](../../shapetype/), **float**, **float**, **float**, **float**) method
+## ShapeCollection::InsertAutoShape(int32_t, ShapeType, float, float, float, float) method
 
 
 Creates a new [AutoShape](../../autoshape/), tunes it from default template and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter.
@@ -31,15 +31,7 @@ System::SharedPtr<IAutoShape> Aspose::Slides::ShapeCollection::InsertAutoShape(i
 
 Created [AutoShape](../../autoshape/) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAutoShape](../../iautoshape/)
-* Enum [ShapeType](../../shapetype/)
-* Class [ShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ShapeCollection::InsertAutoShape(**int32_t**, [ShapeType](../../shapetype/), **float**, **float**, **float**, **float**, **bool**) method
+## ShapeCollection::InsertAutoShape(int32_t, ShapeType, float, float, float, float, bool) method
 
 
 Creates a new [AutoShape](../../autoshape/) and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter.
@@ -67,9 +59,9 @@ Created [AutoShape](../../autoshape/) object.
 
 ## See Also
 
+* Enum [ShapeType](../../shapetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IAutoShape](../../iautoshape/)
-* Enum [ShapeType](../../shapetype/)
 * Class [ShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

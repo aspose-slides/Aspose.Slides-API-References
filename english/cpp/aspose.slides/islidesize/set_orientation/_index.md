@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/islidesize/set_orientation/
 ---
-## ISlideSize::set_Orientation([SlideOrientation](../../slideorientation/)) method
+## ISlideSize::set_Orientation(SlideOrientation) method
 
 
 Sets the slide orientation.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/coloreffect/set_to/
 ---
-## ColorEffect::set_To([System::SharedPtr](../../../system/sharedptr/)\<[IColorFormat](../../../aspose.slides/icolorformat/)\>) method
+## ColorEffect::set_To(System::SharedPtr\<IColorFormat\>) method
 
 
 Describes resulting color for the animation color change. Write [IColorFormat](../../../aspose.slides/icolorformat/).

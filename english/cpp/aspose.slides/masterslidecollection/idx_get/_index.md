@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/masterslidecollection/idx_get/
 ---
-## MasterSlideCollection::idx_get(**int32_t**) method
+## MasterSlideCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [MasterSlide](../../masterslide/).

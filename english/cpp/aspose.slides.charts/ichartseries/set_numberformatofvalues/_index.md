@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.slides.charts/ichartseries/set_numberformatofvalues/
 ---
-## IChartSeries::set_NumberFormatOfValues([System::String](../../../system/string/)) method
+## IChartSeries::set_NumberFormatOfValues(System::String) method
 
 
 Sets the number format for series values. Write [System::String](../../../system/string/).

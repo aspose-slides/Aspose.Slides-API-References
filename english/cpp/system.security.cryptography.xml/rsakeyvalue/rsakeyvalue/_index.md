@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography.xml/rsakeyvalue/rsakeyvalue/
 System::Security::Cryptography::Xml::RSAKeyValue::RSAKeyValue()
 ```
 
-## See Also
-
-* Class [RSAKeyValue](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## RSAKeyValue::RSAKeyValue([SharedPtr](../../../system/sharedptr/)\<[RSA](../../../system.security.cryptography/rsa/)\>) constructor
+## RSAKeyValue::RSAKeyValue(SharedPtr\<RSA\>) constructor
 
 
 
@@ -32,7 +27,7 @@ System::Security::Cryptography::Xml::RSAKeyValue::RSAKeyValue(SharedPtr<RSA> key
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSA](../../../system.security.cryptography/rsa/)
 * Class [RSAKeyValue](../)
+* Class [RSA](../../../system.security.cryptography/rsa/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: NewLineHandling
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how to handle line breaks.
 type: docs
-weight: 690
+weight: 664
 url: /cpp/system.xml/newlinehandling/
 ---
 ## NewLineHandling enum

@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.drawing/pen/translatetransform/
 ---
-## Pen::TranslateTransform(**float**, **float**, [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)) method
+## Pen::TranslateTransform(float, float, Drawing2D::MatrixOrder) method
 
 
 Translates the local geometric transformation by the specified dimensions in the specified order.

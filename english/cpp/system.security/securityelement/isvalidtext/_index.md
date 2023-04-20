@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.security/securityelement/isvalidtext/
 ---
-## SecurityElement::IsValidText(const [String](../../../system/string/)\&) method
+## SecurityElement::IsValidText(const String\&) method
 
 
 Checks if text is valid.

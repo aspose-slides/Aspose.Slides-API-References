@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.effects/imagetransformocollectioneffectivedata/equals/
 ---
-## ImageTransformOCollectionEffectiveData::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ImageTransformOCollectionEffectiveData::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified object is equal to the current object.

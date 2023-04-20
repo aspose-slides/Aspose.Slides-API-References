@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.xml/xmlwritersettings/set_indentchars/
 ---
-## XmlWriterSettings::set_IndentChars(const [String](../../../system/string/)\&) method
+## XmlWriterSettings::set_IndentChars(const String\&) method
 
 
 Sets the character string to use when indenting. This setting is used when the [XmlWriterSettings::set_Indent](../set_indent/) value is set to **true**.

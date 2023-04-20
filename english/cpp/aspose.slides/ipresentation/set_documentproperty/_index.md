@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.slides/ipresentation/set_documentproperty/
 ---
-## IPresentation::set_DocumentProperty([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## IPresentation::set_DocumentProperty(System::String, System::SharedPtr\<System::Object\>) method
 
 
 Set custom property defined by name.
@@ -21,8 +21,8 @@ virtual void Aspose::Slides::IPresentation::set_DocumentProperty(System::String 
 Value can be **int**, **float**, **double**, **string**, **bool** or **DateTime**. 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [IPresentation](../)
 * Namespace [Aspose::Slides](../../)

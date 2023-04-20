@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/contains/
 ---
-## HttpHeaderValueCollection< System::String >::Contains(const [String](../../../system/string/)\&) const method
+## HttpHeaderValueCollection< System::String >::Contains(const String\&) const method
 
 
 Checks if element is present in collection.

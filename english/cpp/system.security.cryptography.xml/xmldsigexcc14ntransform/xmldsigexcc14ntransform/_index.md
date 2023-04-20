@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography.xml/xmldsigexcc14ntransform/xmldsigexcc14
 System::Security::Cryptography::Xml::XmlDsigExcC14NTransform::XmlDsigExcC14NTransform()
 ```
 
-## See Also
-
-* Class [XmlDsigExcC14NTransform](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDsigExcC14NTransform::XmlDsigExcC14NTransform(**bool**) constructor
+## XmlDsigExcC14NTransform::XmlDsigExcC14NTransform(bool) constructor
 
 
 
@@ -29,12 +24,7 @@ System::Security::Cryptography::Xml::XmlDsigExcC14NTransform::XmlDsigExcC14NTran
 System::Security::Cryptography::Xml::XmlDsigExcC14NTransform::XmlDsigExcC14NTransform(bool includeComments)
 ```
 
-## See Also
-
-* Class [XmlDsigExcC14NTransform](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDsigExcC14NTransform::XmlDsigExcC14NTransform(**bool**, [String](../../../system/string/)) constructor
+## XmlDsigExcC14NTransform::XmlDsigExcC14NTransform(bool, String) constructor
 
 
 
@@ -45,7 +35,7 @@ System::Security::Cryptography::Xml::XmlDsigExcC14NTransform::XmlDsigExcC14NTran
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlDsigExcC14NTransform](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: FileShare
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies what kind of access other FileStream objects can have to a file being opened.
 type: docs
-weight: 521
+weight: 508
 url: /cpp/system.io/fileshare/
 ---
 ## FileShare enum

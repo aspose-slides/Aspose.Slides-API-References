@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.drawing/image/getthumbnailimage/
 ---
-## Image::GetThumbnailImage(int, int, [Image::GetThumbnailImageAbort](../getthumbnailimageabort/), IntPtr) method
+## Image::GetThumbnailImage(int, int, Image::GetThumbnailImageAbort, IntPtr) method
 
 
 Gets a thumbnail for this [System::Drawing::Image](../) object.
@@ -32,7 +32,6 @@ A thumbnail for this [System::Drawing::Image](../) object
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Image](../)
 * Typedef [GetThumbnailImageAbort](../getthumbnailimageabort/)
 * Class [Image](../)
 * Namespace [System::Drawing](../../)

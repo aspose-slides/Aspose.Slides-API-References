@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.io/filesysteminfo/set_creationtimeutc/
 ---
-## FileSystemInfo::set_CreationTimeUtc([DateTime](../../../system/datetime/)) method
+## FileSystemInfo::set_CreationTimeUtc(DateTime) method
 
 
 Sets the creation time of the entity represented by the current object as UTC time.

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.globalization/numberformatinfo/set_currencygroupsizes/
 ---
-## NumberFormatInfo::set_CurrencyGroupSizes(const [ArrayPtr](../../../system/arrayptr/)\<int\>\&) method
+## NumberFormatInfo::set_CurrencyGroupSizes(const ArrayPtr\<int\>\&) method
 
 
 Sets number of currency decimal digits per group.

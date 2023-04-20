@@ -6,7 +6,7 @@ type: docs
 weight: 807
 url: /cpp/system.xml/xmlreader/readvaluechunk/
 ---
-## XmlReader::ReadValueChunk([ArrayPtr](../../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) method
+## XmlReader::ReadValueChunk(ArrayPtr\<char16_t\>, int32_t, int32_t) method
 
 
 Reads large streams of text embedded in an XML document.

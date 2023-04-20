@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.xml/xmlvalidatingreader/movetoattribute/
 ---
-## XmlValidatingReader::MoveToAttribute([String](../../../system/string/)) method
+## XmlValidatingReader::MoveToAttribute(String) method
 
 
 Moves to the attribute with the specified name.
@@ -26,13 +26,7 @@ bool System::Xml::XmlValidatingReader::MoveToAttribute(String name) override
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the position of the reader does not change.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlValidatingReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlValidatingReader::MoveToAttribute([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlValidatingReader::MoveToAttribute(String, String) method
 
 
 Moves to the attribute with the specified local name and namespace Uniform Resource Identifier (URI).
@@ -53,13 +47,7 @@ bool System::Xml::XmlValidatingReader::MoveToAttribute(String localName, String 
 
 **true** if the attribute is found; otherwise, **false**. If **false**, the position of the reader does not change.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlValidatingReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlValidatingReader::MoveToAttribute(**int32_t**) method
+## XmlValidatingReader::MoveToAttribute(int32_t) method
 
 
 Moves to the attribute with the specified index.
@@ -77,6 +65,7 @@ void System::Xml::XmlValidatingReader::MoveToAttribute(int32_t i) override
 
 ## See Also
 
+* Class [String](../../../system/string/)
 * Class [XmlValidatingReader](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

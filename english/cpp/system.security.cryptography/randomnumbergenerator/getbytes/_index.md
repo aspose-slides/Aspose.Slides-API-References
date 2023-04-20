@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/randomnumbergenerator/getbytes/
 ---
-## RandomNumberGenerator::GetBytes([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## RandomNumberGenerator::GetBytes(ArrayPtr\<uint8_t\>) method
 
 
 Fills existing array elements with random bytes.
@@ -22,13 +22,7 @@ virtual void System::Security::Cryptography::RandomNumberGenerator::GetBytes(Arr
 | --- | --- | --- |
 | bytes | [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Bytes array to fill. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RandomNumberGenerator](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RandomNumberGenerator::GetBytes([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## RandomNumberGenerator::GetBytes(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Fills existing array slice with random bytes.
@@ -46,13 +40,7 @@ virtual void System::Security::Cryptography::RandomNumberGenerator::GetBytes(Arr
 | offset | int | Slice beginning index. |
 | count | int | Slice size. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RandomNumberGenerator](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RandomNumberGenerator::GetBytes(System::Details::ArrayView\<**uint8_t**\>) method
+## RandomNumberGenerator::GetBytes(System::Details::ArrayView\<uint8_t\>) method
 
 
 Fills existing array view elements with random bytes.
@@ -68,12 +56,7 @@ virtual void System::Security::Cryptography::RandomNumberGenerator::GetBytes(Sys
 | --- | --- | --- |
 | bytes | System::Details::ArrayView\<**uint8_t**\> | Bytes array view to fill. |
 
-## See Also
-
-* Class [RandomNumberGenerator](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RandomNumberGenerator::GetBytes(System::Details::ArrayView\<**uint8_t**\>, int, int) method
+## RandomNumberGenerator::GetBytes(System::Details::ArrayView\<uint8_t\>, int, int) method
 
 
 Fills existing array view slice with random bytes.
@@ -91,12 +74,7 @@ virtual void System::Security::Cryptography::RandomNumberGenerator::GetBytes(Sys
 | offset | int | Slice beginning index. |
 | count | int | Slice size. |
 
-## See Also
-
-* Class [RandomNumberGenerator](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RandomNumberGenerator::GetBytes(System::Details::StackArray\<**uint8_t**, N\>\&) method
+## RandomNumberGenerator::GetBytes(System::Details::StackArray\<uint8_t, N\>\&) method
 
 
 Fills existing stack array elements with random bytes.
@@ -112,12 +90,7 @@ template<std::size_t> void System::Security::Cryptography::RandomNumberGenerator
 | --- | --- | --- |
 | bytes | System::Details::StackArray\<**uint8_t**, N\>\& | Bytes stack array to fill. |
 
-## See Also
-
-* Class [RandomNumberGenerator](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RandomNumberGenerator::GetBytes(System::Details::StackArray\<**uint8_t**, N\>\&, int, int) method
+## RandomNumberGenerator::GetBytes(System::Details::StackArray\<uint8_t, N\>\&, int, int) method
 
 
 Fills existing stack array slice with random bytes.
@@ -137,6 +110,7 @@ template<std::size_t> void System::Security::Cryptography::RandomNumberGenerator
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [RandomNumberGenerator](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

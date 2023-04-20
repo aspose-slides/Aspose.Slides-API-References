@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.security.cryptography/dsacryptoserviceprovider/verifydata/
 ---
-## DSACryptoServiceProvider::VerifyData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## DSACryptoServiceProvider::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&) method
 
 
 Checks data signature.
@@ -27,13 +27,7 @@ bool System::Security::Cryptography::DSACryptoServiceProvider::VerifyData(const 
 
 True if signature is valid, false otherwise.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::VerifyData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSACryptoServiceProvider::VerifyData(const ByteArrayPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -51,14 +45,7 @@ bool System::Security::Cryptography::DSA::VerifyData(const ByteArrayPtr &data, c
 | signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::VerifyData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **int32_t**, **int32_t**, const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSACryptoServiceProvider::VerifyData(const ByteArrayPtr\&, int32_t, int32_t, const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Verifies that the signature of the specified data is valid.
@@ -78,14 +65,7 @@ bool System::Security::Cryptography::DSA::VerifyData(const ByteArrayPtr &data, i
 | signature | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Signature data. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return true if signature is valid, otherwise - false. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::VerifyData(const [StreamPtr](../../../system/streamptr/)\&, const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSACryptoServiceProvider::VerifyData(const StreamPtr\&, const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Verifies that the signature of the specified binary stream is valid.
@@ -105,9 +85,9 @@ bool System::Security::Cryptography::DSA::VerifyData(const StreamPtr &stream, co
 
 ## See Also
 
-* Typedef [StreamPtr](../../../system/streamptr/)
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
+* Typedef [StreamPtr](../../../system/streamptr/)
 * Class [DSACryptoServiceProvider](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

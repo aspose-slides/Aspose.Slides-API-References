@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system/uri/makerelative/
 ---
-## Uri::MakeRelative(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&) method
+## Uri::MakeRelative(const SharedPtr\<Uri\>\&) method
 
 
 Determines the difference between two [Uri](../) instances.
@@ -28,9 +28,8 @@ If the hostname and scheme of the URIs represented by the current object and **t
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
+* Class [String](../../string/)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

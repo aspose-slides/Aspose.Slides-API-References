@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.collections.generic/hashset/copyto/
 ---
-## HashSet::CopyTo([ArrayPtr](../../../system/arrayptr/)\<T\>, int) method
+## HashSet::CopyTo(ArrayPtr\<T\>, int) method
 
 
 Copies hash contents into existing array elements.

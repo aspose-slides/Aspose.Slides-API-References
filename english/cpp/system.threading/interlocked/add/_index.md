@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.threading/interlocked/add/
 ---
-## Interlocked::Add(**int32_t**\&, **int32_t**) method
+## Interlocked::Add(int32_t\&, int32_t) method
 
 
 Increases value atomically.
@@ -27,12 +27,7 @@ static int32_t System::Threading::Interlocked::Add(int32_t &location1, int32_t v
 
 Value of variable right after it was increased.
 
-## See Also
-
-* Class [Interlocked](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Interlocked::Add(**int64_t**\&, **int64_t**) method
+## Interlocked::Add(int64_t\&, int64_t) method
 
 
 Increases value atomically.

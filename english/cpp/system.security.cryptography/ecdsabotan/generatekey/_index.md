@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography/ecdsabotan/generatekey/
 ---
-## ECDsaBotan::GenerateKey(const [ECCurve](../../eccurve/)\&) method
+## ECDsaBotan::GenerateKey(const ECCurve\&) method
 
 
 Generates a new public/private key pair for the specified curve.
@@ -24,7 +24,7 @@ void System::Security::Cryptography::ECDsaBotan::GenerateKey(const ECCurve &curv
 
 ## See Also
 
-* Struct [ECCurve](../../eccurve/)
 * Class [ECDsaBotan](../)
+* Struct [ECCurve](../../eccurve/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

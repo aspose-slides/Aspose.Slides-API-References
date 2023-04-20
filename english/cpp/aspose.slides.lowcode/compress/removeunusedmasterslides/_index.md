@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.lowcode/compress/removeunusedmasterslides/
 ---
-## Compress::RemoveUnusedMasterSlides([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>) method
+## Compress::RemoveUnusedMasterSlides(System::SharedPtr\<Presentation\>) method
 
 
 Makes compression of the [Presentation](../../../aspose.slides/presentation/) by removing unused master slides.

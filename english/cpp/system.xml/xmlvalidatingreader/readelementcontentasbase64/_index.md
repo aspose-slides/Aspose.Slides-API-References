@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system.xml/xmlvalidatingreader/readelementcontentasbase64/
 ---
-## XmlValidatingReader::ReadElementContentAsBase64([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) method
+## XmlValidatingReader::ReadElementContentAsBase64(ArrayPtr\<uint8_t\>, int32_t, int32_t) method
 
 
 Reads the element and decodes the Base64 content.

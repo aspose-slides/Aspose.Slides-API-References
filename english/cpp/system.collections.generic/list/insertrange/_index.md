@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.collections.generic/list/insertrange/
 ---
-## List::InsertRange(int, [IEnumerablePtr](../ienumerableptr/)) method
+## List::InsertRange(int, IEnumerablePtr) method
 
 
 Inserts data range at specific position.

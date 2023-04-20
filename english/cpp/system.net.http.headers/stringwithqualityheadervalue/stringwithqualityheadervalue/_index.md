@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/stringwithqualityheadervalue/stringwithqualityheadervalue/
 ---
-## StringWithQualityHeaderValue::StringWithQualityHeaderValue([String](../../../system/string/)) constructor
+## StringWithQualityHeaderValue::StringWithQualityHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::Headers::StringWithQualityHeaderValue::StringWithQualityHeade
 | --- | --- | --- |
 | value | [String](../../../system/string/) | The value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StringWithQualityHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## StringWithQualityHeaderValue::StringWithQualityHeaderValue([String](../../../system/string/), **double**) constructor
+## StringWithQualityHeaderValue::StringWithQualityHeaderValue(String, double) constructor
 
 
 Constructs a new instance.

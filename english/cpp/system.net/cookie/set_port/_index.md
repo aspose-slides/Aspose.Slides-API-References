@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.net/cookie/set_port/
 ---
-## Cookie::set_Port([String](../../../system/string/)) method
+## Cookie::set_Port(String) method
 
 
 Sets the 'Port' attribute's value.

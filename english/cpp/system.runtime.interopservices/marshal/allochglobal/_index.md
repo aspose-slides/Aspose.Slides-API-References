@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.runtime.interopservices/marshal/allochglobal/
 ---
-## Marshal::AllocHGlobal(**int32_t**) method
+## Marshal::AllocHGlobal(int32_t) method
 
 
 Allocates unmanaged memory.
@@ -26,11 +26,6 @@ static IntPtr System::Runtime::InteropServices::Marshal::AllocHGlobal(int32_t by
 
 Pointer to the allocated memory.
 
-## See Also
-
-* Class [Marshal](../)
-* Namespace [System::Runtime::InteropServices](../../)
-* Library [Aspose.Slides](../../../)
 ## Marshal::AllocHGlobal(IntPtr) method
 
 

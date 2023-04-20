@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemadocumentation/set_language/
 ---
-## XmlSchemaDocumentation::set_Language(const [String](../../../system/string/)\&) method
+## XmlSchemaDocumentation::set_Language(const String\&) method
 
 
 Sets the **xml:lang** attribute. This serves as an indicator of the language used in the contents.

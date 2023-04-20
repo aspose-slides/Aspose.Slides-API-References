@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.vba/ivbareferenceoletypelib/set_libid/
 ---
-## IVbaReferenceOleTypeLib::set_Libid([System::String](../../../system/string/)) method
+## IVbaReferenceOleTypeLib::set_Libid(System::String) method
 
 
 Represents the identifier of an Automation type library. Write [System::String](../../../system/string/).

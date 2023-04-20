@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography.xml/transformchain/idx_get/
 ---
-## TransformChain::idx_get(**int32_t**) method
+## TransformChain::idx_get(int32_t) method
 
 
 

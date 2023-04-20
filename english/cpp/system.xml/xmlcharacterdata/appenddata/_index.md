@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml/xmlcharacterdata/appenddata/
 ---
-## XmlCharacterData::AppendData([String](../../../system/string/)) method
+## XmlCharacterData::AppendData(String) method
 
 
 Appends the specified string to the end of the character data of the node.

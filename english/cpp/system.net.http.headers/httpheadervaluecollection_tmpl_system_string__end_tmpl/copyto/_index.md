@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/httpheadervaluecollection_tmpl_system_string__end_tmpl/copyto/
 ---
-## HttpHeaderValueCollection< System::String >::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>, **int32_t**) method
+## HttpHeaderValueCollection< System::String >::CopyTo(System::ArrayPtr\<String\>, int32_t) method
 
 
 

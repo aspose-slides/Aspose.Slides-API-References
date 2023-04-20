@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http.headers/productheadervalue/getproductlength/
 ---
-## ProductHeaderValue::GetProductLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ProductHeaderValue](../)\>\&) method
+## ProductHeaderValue::GetProductLength(String, int32_t, System::SharedPtr\<ProductHeaderValue\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [ProductHeaderValue](../) class.
@@ -30,9 +30,8 @@ Returns the length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ProductHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [ProductHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing.drawing2d/adjustablearrowcap/set_height/
 ---
-## AdjustableArrowCap::set_Height(**float**) method
+## AdjustableArrowCap::set_Height(float) method
 
 
 Sets the height of the arrow represented by the current object.

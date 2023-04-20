@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.charts/chartdata/get_category/
 ---
-## ChartData::get_Category(**int32_t**) method
+## ChartData::get_Category(int32_t) method
 
 
 Returns the primary category at the specified index. If [get_UseSecondaryCategories](../get_usesecondarycategories/) is false, get among all categories.

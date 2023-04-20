@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.mathtext/mathblock/idx_get/
 ---
-## MathBlock::idx_get(**int32_t**) method
+## MathBlock::idx_get(int32_t) method
 
 
 Gets [IMathElement](../../imathelement/) at the specified index.

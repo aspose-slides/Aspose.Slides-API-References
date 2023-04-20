@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.data/idatarecord/getname/
 ---
-## IDataRecord::GetName(const **int32_t**) method
+## IDataRecord::GetName(const int32_t) method
 
 
 Gets name of field at specified position.

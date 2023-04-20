@@ -6,7 +6,7 @@ type: docs
 weight: 625
 url: /cpp/system/array/find/
 ---
-## Array::Find([System::ArrayPtr](../../arrayptr/)\<T\>, [System::Predicate](../../predicate/)\<T\>) method
+## Array::Find(System::ArrayPtr\<T\>, System::Predicate\<T\>) method
 
 
 Searches for the first element in the specified array that satisfies the conditions of the specified predicate.

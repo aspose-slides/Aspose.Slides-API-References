@@ -3,7 +3,7 @@ title: Compare()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two values.
 type: docs
-weight: 2328
+weight: 1860
 url: /cpp/system/compare/
 ---
 ## System::Compare(const TA\&, const TB\&) function
@@ -34,10 +34,6 @@ template<typename TA,typename TB> std::enable_if_t<!std::is_floating_point<TA>::
 
 -1 if **a** compares less than **b**; 0 if the values are equal; 1 if **a** compares greater than **b**
 
-## See Also
-
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::Compare(const TA\&, const TB\&) function
 
 

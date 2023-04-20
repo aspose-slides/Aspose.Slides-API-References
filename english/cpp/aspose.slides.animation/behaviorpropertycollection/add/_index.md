@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.animation/behaviorpropertycollection/add/
 ---
-## BehaviorPropertyCollection::Add(const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\&) method
+## BehaviorPropertyCollection::Add(const System::SharedPtr\<IBehaviorProperty\>\&) method
 
 
 Adds a new property to the collection.
@@ -22,14 +22,7 @@ void Aspose::Slides::Animation::BehaviorPropertyCollection::Add(const System::Sh
 | --- | --- | --- |
 | item | const [System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorProperty](../../ibehaviorproperty/)\>\& | Property to add. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IBehaviorProperty](../../ibehaviorproperty/)
-* Class [BehaviorPropertyCollection](../)
-* Namespace [Aspose::Slides::Animation](../../)
-* Library [Aspose.Slides](../../../)
-## BehaviorPropertyCollection::Add(const [System::String](../../../system/string/)\&) method
+## BehaviorPropertyCollection::Add(const System::String\&) method
 
 
 Adds a new property to the collection.
@@ -47,7 +40,9 @@ void Aspose::Slides::Animation::BehaviorPropertyCollection::Add(const System::St
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IBehaviorProperty](../../ibehaviorproperty/)
 * Class [BehaviorPropertyCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::Animation](../../)
 * Library [Aspose.Slides](../../../)

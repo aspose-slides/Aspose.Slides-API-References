@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http/httpresponsemessage/set_version/
 ---
-## HttpResponseMessage::set_Version([System::Version](../../../system/version/)) method
+## HttpResponseMessage::set_Version(System::Version) method
 
 
 Sets the HTTP version.

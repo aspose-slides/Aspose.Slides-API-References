@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/itrendlinecollection/add/
 ---
-## ITrendlineCollection::Add([TrendlineType](../../trendlinetype/)) method
+## ITrendlineCollection::Add(TrendlineType) method
 
 
 Adds the new [Trendline](../../trendline/) at the end of a collection and return it.
@@ -28,9 +28,9 @@ New [Trendline](../../trendline/)[ITrendline](../../itrendline/)
 
 ## See Also
 
+* Enum [TrendlineType](../../trendlinetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ITrendline](../../itrendline/)
-* Enum [TrendlineType](../../trendlinetype/)
 * Class [ITrendlineCollection](../)
 * Namespace [Aspose::Slides::Charts](../../)
 * Library [Aspose.Slides](../../../)

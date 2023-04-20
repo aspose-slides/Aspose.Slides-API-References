@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.sockets/socket/set_blocking/
 ---
-## Socket::set_Blocking(**bool**) method
+## Socket::set_Blocking(bool) method
 
 
 Sets a value that indicates if the socket is in the blocking mode.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/ichartparagraphformat/set_alignment/
 ---
-## IChartParagraphFormat::set_Alignment([TextAlignment](../../../aspose.slides/textalignment/)) method
+## IChartParagraphFormat::set_Alignment(TextAlignment) method
 
 
 Sets the text alignment in a paragraph. Write [TextAlignment](../../../aspose.slides/textalignment/).

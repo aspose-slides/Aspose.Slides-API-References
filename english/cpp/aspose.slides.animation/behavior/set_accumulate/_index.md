@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/behavior/set_accumulate/
 ---
-## Behavior::set_Accumulate([NullableBool](../../../aspose.slides/nullablebool/)) method
+## Behavior::set_Accumulate(NullableBool) method
 
 
 Represents whether animation behaviors are accumulated. Write [NullableBool](../../../aspose.slides/nullablebool/).

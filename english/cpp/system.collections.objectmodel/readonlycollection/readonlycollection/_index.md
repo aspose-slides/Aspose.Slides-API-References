@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.objectmodel/readonlycollection/readonlycollection/
 ---
-## ReadOnlyCollection::ReadOnlyCollection(const [SharedPtr](../../../system/sharedptr/)\<[Generic::IList](../../../system.collections.generic/ilist/)\<T\>\>\&) constructor
+## ReadOnlyCollection::ReadOnlyCollection(const SharedPtr\<Generic::IList\<T\>\>\&) constructor
 
 
 Wraps read-only collection around specific collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/ichartseries/set_bar3dshape/
 ---
-## IChartSeries::set_Bar3DShape([ChartShapeType](../../chartshapetype/)) method
+## IChartSeries::set_Bar3DShape(ChartShapeType) method
 
 
 Specifies the shape of a series of a 3-D bar chart. Changing of value of this property can cause to automatically changing Type of series. Write [ChartShapeType](../../chartshapetype/).

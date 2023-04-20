@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.collections/bitarray/copyto/
 ---
-## BitArray::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<**bool**\>, int) method
+## BitArray::CopyTo(System::ArrayPtr\<bool\>, int) method
 
 
 Copies data to existing array elements.

@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.xml/xmltextwriter/writeprocessinginstruction/
 ---
-## XmlTextWriter::WriteProcessingInstruction([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlTextWriter::WriteProcessingInstruction(String, String) method
 
 
 Writes out a processing instruction with a space between the name and text as follows: **<?name text?>**.

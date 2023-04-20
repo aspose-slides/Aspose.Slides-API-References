@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/istreamwrapper/seek/
 ---
-## IStreamWrapper::Seek(**int64_t**, [System::IO::SeekOrigin](../../../system.io/seekorigin/)) method
+## IStreamWrapper::Seek(int64_t, System::IO::SeekOrigin) method
 
 
 Sets the position within the current stream

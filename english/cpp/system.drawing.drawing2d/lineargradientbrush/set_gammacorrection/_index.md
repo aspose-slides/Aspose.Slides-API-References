@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/set_gammacorrection/
 ---
-## LinearGradientBrush::set_GammaCorrection(**bool**) method
+## LinearGradientBrush::set_GammaCorrection(bool) method
 
 
 Sets gamma correction status for this brush.

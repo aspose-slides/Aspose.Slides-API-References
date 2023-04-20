@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.mathtext/mathborderbox/mathborderbox/
 ---
-## MathBorderBox::MathBorderBox([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) constructor
+## MathBorderBox::MathBorderBox(System::SharedPtr\<IMathElement\>) constructor
 
 
 Creates [MathBorderBox](../) element with rectangular border
@@ -30,14 +30,7 @@ Example:
 auto borderBox = System::MakeObject<MathBorderBox>(System::MakeObject<MathematicalText>(u"x"));
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathBorderBox](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathBorderBox::MathBorderBox([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**) constructor
+## MathBorderBox::MathBorderBox(System::SharedPtr\<IMathElement\>, bool, bool, bool, bool, bool, bool, bool, bool) constructor
 
 
 Creates [MathBorderBox](../) element

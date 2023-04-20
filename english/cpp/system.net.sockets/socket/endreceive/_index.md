@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/system.net.sockets/socket/endreceive/
 ---
-## Socket::EndReceive([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## Socket::EndReceive(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous receive operation completes.
@@ -26,14 +26,7 @@ int32_t System::Net::Sockets::Socket::EndReceive(System::SharedPtr<IAsyncResult>
 
 The number of bytes that are received.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::EndReceive([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>, [SocketError](../../socketerror/)\&) method
+## Socket::EndReceive(System::SharedPtr\<IAsyncResult\>, SocketError\&) method
 
 
 Waits until the specified asynchronous receive operation completes.
@@ -56,9 +49,9 @@ The number of received bytes.
 
 ## See Also
 
+* Enum [SocketError](../../socketerror/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IAsyncResult](../../../system/iasyncresult/)
-* Enum [SocketError](../../socketerror/)
 * Class [Socket](../)
 * Namespace [System::Net::Sockets](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides/ibaseportionformat/set_ishardunderlinefill/
 ---
-## IBasePortionFormat::set_IsHardUnderlineFill([NullableBool](../../nullablebool/)) method
+## IBasePortionFormat::set_IsHardUnderlineFill(NullableBool) method
 
 
 Determines whether the underline style has own [FillFormat](../../fillformat/) properties or inherits it from the [FillFormat](../../fillformat/) properties of the text. Write [NullableBool](../../nullablebool/).

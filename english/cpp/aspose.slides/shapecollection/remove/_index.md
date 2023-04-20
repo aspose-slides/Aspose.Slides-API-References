@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/aspose.slides/shapecollection/remove/
 ---
-## ShapeCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../ishape/)\>) method
+## ShapeCollection::Remove(System::SharedPtr\<IShape\>) method
 
 
 Removes the first occurrence of a specific shape from the collection.

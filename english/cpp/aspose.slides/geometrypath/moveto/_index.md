@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/geometrypath/moveto/
 ---
-## GeometryPath::MoveTo([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## GeometryPath::MoveTo(System::Drawing::PointF) method
 
 
 Sets next point position.
@@ -22,13 +22,7 @@ void Aspose::Slides::GeometryPath::MoveTo(System::Drawing::PointF point) overrid
 | --- | --- | --- |
 | point | [System::Drawing::PointF](../../../system.drawing/pointf/) | Point position |
 
-## See Also
-
-* Class [PointF](../../../system.drawing/pointf/)
-* Class [GeometryPath](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## GeometryPath::MoveTo(**float**, **float**) method
+## GeometryPath::MoveTo(float, float) method
 
 
 Sets next point position.
@@ -47,6 +41,7 @@ void Aspose::Slides::GeometryPath::MoveTo(float x, float y) override
 
 ## See Also
 
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [GeometryPath](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.io/file/getlastaccesstime/
 ---
-## File::GetLastAccessTime(const [String](../../../system/string/)\&) method
+## File::GetLastAccessTime(const String\&) method
 
 
 Returns the last access time of the specified entity as local time.

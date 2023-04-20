@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net/httpwebrequest/set_protocolversion/
 ---
-## HttpWebRequest::set_ProtocolVersion([System::Version](../../../system/version/)) method
+## HttpWebRequest::set_ProtocolVersion(System::Version) method
 
 
 Sets the version of the HTTP.

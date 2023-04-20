@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.xml/xmlnode/set_innerxml/
 ---
-## XmlNode::set_InnerXml([String](../../../system/string/)) method
+## XmlNode::set_InnerXml(String) method
 
 
 Sets the markup representing only the child nodes of this node.

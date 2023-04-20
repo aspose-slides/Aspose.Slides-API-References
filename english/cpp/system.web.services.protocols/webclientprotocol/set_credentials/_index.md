@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.web.services.protocols/webclientprotocol/set_credentials/
 ---
-## WebClientProtocol::set_Credentials([System::SharedPtr](../../../system/sharedptr/)\<[Net::ICredentials](../../../system.net/icredentials/)\>) method
+## WebClientProtocol::set_Credentials(System::SharedPtr\<Net::ICredentials\>) method
 
 
 Sets the authentication information.

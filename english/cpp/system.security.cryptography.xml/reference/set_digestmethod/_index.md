@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.security.cryptography.xml/reference/set_digestmethod/
 ---
-## Reference::set_DigestMethod([String](../../../system/string/)) method
+## Reference::set_DigestMethod(String) method
 
 
 

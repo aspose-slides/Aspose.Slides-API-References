@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemaparticle/set_minoccurs/
 ---
-## XmlSchemaParticle::set_MinOccurs([Decimal](../../../system/decimal/)) method
+## XmlSchemaParticle::set_MinOccurs(Decimal) method
 
 
 Sets the minimum number of times the particle can occur.

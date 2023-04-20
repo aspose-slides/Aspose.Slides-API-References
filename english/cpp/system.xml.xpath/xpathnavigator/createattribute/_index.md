@@ -6,7 +6,7 @@ type: docs
 weight: 1041
 url: /cpp/system.xml.xpath/xpathnavigator/createattribute/
 ---
-## XPathNavigator::CreateAttribute([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) method
+## XPathNavigator::CreateAttribute(String, String, String, String) method
 
 
 Creates an attribute node on the current element node using the namespace prefix, local name and namespace URI specified with the value specified.

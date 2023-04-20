@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.data.common/dbconnection/set_connectionstring/
 ---
-## DbConnection::set_ConnectionString([String](../../../system/string/)) const method
+## DbConnection::set_ConnectionString(String) const method
 
 
 Sets connection information (e. g. server and port).

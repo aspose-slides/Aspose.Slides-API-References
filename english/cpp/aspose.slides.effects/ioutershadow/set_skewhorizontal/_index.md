@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.effects/ioutershadow/set_skewhorizontal/
 ---
-## IOuterShadow::set_SkewHorizontal(**double**) method
+## IOuterShadow::set_SkewHorizontal(double) method
 
 
 Specifies the horizontal skew angle (in degrees). Write **double**.

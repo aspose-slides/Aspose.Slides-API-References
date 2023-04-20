@@ -6,7 +6,7 @@ type: docs
 weight: 794
 url: /cpp/system.globalization/datetimeformatinfo/getshortestdayname/
 ---
-## DateTimeFormatInfo::GetShortestDayName([DayOfWeek](../../../system/dayofweek/)) const method
+## DateTimeFormatInfo::GetShortestDayName(DayOfWeek) const method
 
 
 Gets shortes name for the specified day of week.
@@ -17,8 +17,8 @@ String System::Globalization::DateTimeFormatInfo::GetShortestDayName(DayOfWeek d
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [DayOfWeek](../../../system/dayofweek/)
+* Class [String](../../../system/string/)
 * Class [DateTimeFormatInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

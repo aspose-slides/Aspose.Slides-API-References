@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.animation/ipropertyeffect/set_points/
 ---
-## IPropertyEffect::set_Points([System::SharedPtr](../../../system/sharedptr/)\<[IPointCollection](../../ipointcollection/)\>) method
+## IPropertyEffect::set_Points(System::SharedPtr\<IPointCollection\>) method
 
 
 Specifies the points of the animation. Write [IPointCollection](../../ipointcollection/).

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.text/icuencoder/convert/
 ---
-## ICUEncoder::Convert([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, **bool**, int\&, int\&, **bool**\&) method
+## ICUEncoder::Convert(ArrayPtr\<char_t\>, int, int, ArrayPtr\<uint8_t\>, int, int, bool, int\&, int\&, bool\&) method
 
 
 Converts characters to bytes.
@@ -31,13 +31,7 @@ virtual void System::Text::ICUEncoder::Convert(ArrayPtr<char_t> chars, int charI
 | bytesUsed | int\& | Reference to variable to store count of bytes written. |
 | completed | **bool**\& | Reference to variable to be set to true if input buffer was exhausted and to false otherwise. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ICUEncoder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## ICUEncoder::Convert(const char_t *, int, **uint8_t** *, int, **bool**, int\&, int\&, **bool**\&) method
+## ICUEncoder::Convert(const char_t *, int, uint8_t *, int, bool, int\&, int\&, bool\&) method
 
 
 Converts characters to bytes.
@@ -62,6 +56,7 @@ virtual void System::Text::ICUEncoder::Convert(const char_t *chars, int charCoun
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [ICUEncoder](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

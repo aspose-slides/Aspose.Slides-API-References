@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography.xml/reference/reference/
 System::Security::Cryptography::Xml::Reference::Reference()
 ```
 
-## See Also
-
-* Class [Reference](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## Reference::Reference([SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>) constructor
+## Reference::Reference(SharedPtr\<IO::Stream\>) constructor
 
 
 
@@ -29,14 +24,7 @@ System::Security::Cryptography::Xml::Reference::Reference()
 System::Security::Cryptography::Xml::Reference::Reference(SharedPtr<IO::Stream> stream)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Reference](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## Reference::Reference([String](../../../system/string/)) constructor
+## Reference::Reference(String) constructor
 
 
 
@@ -47,7 +35,9 @@ System::Security::Cryptography::Xml::Reference::Reference(String uri)
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Reference](../)
+* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

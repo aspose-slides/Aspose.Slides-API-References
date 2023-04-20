@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/adjustvaluecollection/idx_get/
 ---
-## AdjustValueCollection::idx_get(**int32_t**) method
+## AdjustValueCollection::idx_get(int32_t) method
 
 
 Returns adjustment by index.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.serialization/xmlserializerimplementation/canserialize/
 ---
-## XmlSerializerImplementation::CanSerialize(const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlSerializerImplementation::CanSerialize(const TypeInfo\&) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.io/stream/endread/
 ---
-## Stream::EndRead([System::SharedPtr](../../../system/sharedptr/)\<[System::IAsyncResult](../../../system/iasyncresult/)\>) method
+## Stream::EndRead(System::SharedPtr\<System::IAsyncResult\>) method
 
 
 Waits until the specified asynchronous read operation completes.

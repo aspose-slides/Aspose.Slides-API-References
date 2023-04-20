@@ -3,7 +3,7 @@ title: PptUnsupportedFormatException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 6774
+weight: 6514
 url: /cpp/aspose.slides/pptunsupportedformatexception/
 ---
 ## PptUnsupportedFormatException typedef

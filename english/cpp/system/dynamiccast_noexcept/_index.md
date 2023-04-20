@@ -3,7 +3,7 @@ title: DynamicCast_noexcept()
 second_title: Aspose.Slides for C++ API Reference
 description: Old obsolete casts. Will be removed in future versions.
 type: docs
-weight: 2146
+weight: 1860
 url: /cpp/system/dynamiccast_noexcept/
 ---
 ## System::DynamicCast_noexcept(const TFrom\&) function
@@ -38,12 +38,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Performs dynamic cast on Exception objects. Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::DynamicCast_noexcept([SmartPtr](../smartptr/)\<TFrom\> const\&) function
+## System::DynamicCast_noexcept(SmartPtr\<TFrom\> const\&) function
 
 
 Performs dynamic cast on [SmartPtr](../smartptr/) objects.
@@ -73,13 +68,7 @@ Cast result if cast is allowed or nullptr otherwise.
 Deprecated
 :   Left for backwards compatibility. Use AsCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::DynamicCast_noexcept([SmartPtr](../smartptr/)\<TFrom\>) function
+## System::DynamicCast_noexcept(SmartPtr\<TFrom\>) function
 
 
 Performs dynamic cast on Objects to Exception objects.
@@ -111,8 +100,8 @@ Deprecated
 
 ## See Also
 
+* Class [SmartPtr](../smartptr/)
 * Class [Object](../object/)
 * Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

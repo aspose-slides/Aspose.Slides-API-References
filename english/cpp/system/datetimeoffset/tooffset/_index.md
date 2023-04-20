@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system/datetimeoffset/tooffset/
 ---
-## DateTimeOffset::ToOffset([TimeSpan](../../timespan/)) const method
+## DateTimeOffset::ToOffset(TimeSpan) const method
 
 
 Replace current object offset by the specified offset.
@@ -30,6 +30,5 @@ Current [DateTimeOffset](../) object converted to the date and time with specifi
 
 * Class [DateTimeOffset](../)
 * Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

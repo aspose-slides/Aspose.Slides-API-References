@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.vba/vbamodulecollection/copyto/
 ---
-## VbaModuleCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IVbaModule](../../ivbamodule/)\>\>, **int32_t**) method
+## VbaModuleCollection::CopyTo(System::ArrayPtr\<System::SharedPtr\<IVbaModule\>\>, int32_t) method
 
 
 Copies all elements from the collection to the specified array.

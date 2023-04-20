@@ -16,12 +16,7 @@ void System::Xml::Schema::XmlSchemaValidator::Initialize()
 ```
 
 
-## See Also
-
-* Class [XmlSchemaValidator](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaValidator::Initialize(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaObject](../../xmlschemaobject/)\>\&) method
+## XmlSchemaValidator::Initialize(const SharedPtr\<XmlSchemaObject\>\&) method
 
 
 Initializes the state of the [XmlSchemaValidator](../) object using the [XmlSchemaObject](../../xmlschemaobject/) specified for partial validation.
@@ -40,7 +35,7 @@ void System::Xml::Schema::XmlSchemaValidator::Initialize(const SharedPtr<XmlSche
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaObject](../../xmlschemaobject/)
 * Class [XmlSchemaValidator](../)
+* Class [XmlSchemaObject](../../xmlschemaobject/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections.generic/_keycollection/contains/
 ---
-## _KeyCollection::Contains(const [TKey](../tkey/)\&) const method
+## _KeyCollection::Contains(const TKey\&) const method
 
 
 Checks if item is present in container.

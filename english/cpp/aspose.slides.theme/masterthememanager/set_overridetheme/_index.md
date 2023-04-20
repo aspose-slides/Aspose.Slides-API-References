@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.theme/masterthememanager/set_overridetheme/
 ---
-## MasterThemeManager::set_OverrideTheme([System::SharedPtr](../../../system/sharedptr/)\<[IMasterTheme](../../imastertheme/)\>) method
+## MasterThemeManager::set_OverrideTheme(System::SharedPtr\<IMasterTheme\>) method
 
 
 Returns the overriding theme object. Write [IMasterTheme](../../imastertheme/).

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.text/encoding/getchars/
 ---
-## Encoding::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<char_t\>, int) method
+## Encoding::GetChars(ArrayPtr\<uint8_t\>, int, int, ArrayPtr\<char_t\>, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -30,13 +30,7 @@ virtual int System::Text::Encoding::GetChars(ArrayPtr<uint8_t> bytes, int byte_i
 
 Number of written characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int) method
+## Encoding::GetChars(ArrayPtr\<uint8_t\>, int, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -58,13 +52,7 @@ virtual ArrayPtr<char_t> System::Text::Encoding::GetChars(ArrayPtr<uint8_t> byte
 
 [Buffer](../../../system/buffer/) of decoded characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetChars([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Encoding::GetChars(ArrayPtr\<uint8_t\>) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -84,13 +72,7 @@ virtual ArrayPtr<char_t> System::Text::Encoding::GetChars(ArrayPtr<uint8_t> byte
 
 [Buffer](../../../system/buffer/) of decoded characters.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::GetChars(const **uint8_t** *, int, char_t *, int) method
+## Encoding::GetChars(const uint8_t *, int, char_t *, int) method
 
 
 Get the characters that result from decoding a byte buffer.
@@ -115,6 +97,7 @@ Number of written characters.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Encoding](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

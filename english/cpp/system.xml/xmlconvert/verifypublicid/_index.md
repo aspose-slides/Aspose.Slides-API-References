@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.xml/xmlconvert/verifypublicid/
 ---
-## XmlConvert::VerifyPublicId(const [String](../../../system/string/)\&) method
+## XmlConvert::VerifyPublicId(const String\&) method
 
 
 Returns the passed in string instance if all the characters in the string argument are valid public id characters.

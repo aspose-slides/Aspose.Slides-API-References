@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/islidespicture/set_linkpathlong/
 ---
-## ISlidesPicture::set_LinkPathLong([System::String](../../../system/string/)) method
+## ISlidesPicture::set_LinkPathLong(System::String) method
 
 
 Returns of sets linked image's URL. Write [System::String](../../../system/string/).

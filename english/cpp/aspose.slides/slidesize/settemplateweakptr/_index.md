@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/slidesize/settemplateweakptr/
 ---
-## SlideSize::SetTemplateWeakPtr(**uint32_t**) method
+## SlideSize::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

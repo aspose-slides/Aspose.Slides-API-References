@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net.http/httpclienthandler/set_proxy/
 ---
-## HttpClientHandler::set_Proxy([System::SharedPtr](../../../system/sharedptr/)\<[IWebProxy](../../../system.net/iwebproxy/)\>) method
+## HttpClientHandler::set_Proxy(System::SharedPtr\<IWebProxy\>) method
 
 
 Sets the proxy information.

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/icell/set_margintop/
 ---
-## ICell::set_MarginTop(**double**) method
+## ICell::set_MarginTop(double) method
 
 
 Sets the top margin in a [TextFrame](../../textframe/). Write **double**.

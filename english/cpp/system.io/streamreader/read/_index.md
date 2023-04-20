@@ -20,12 +20,7 @@ virtual int System::IO::StreamReader::Read() override
 
 Read character encoded with UTF-16 encoding; if the read character is represented by two codepoints in UTF-16 encoding then only the high surragate is returned.
 
-## See Also
-
-* Class [StreamReader](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamReader::Read([ArrayPtr](../../../system/arrayptr/)\<char_t\>, int, int) method
+## StreamReader::Read(ArrayPtr\<char_t\>, int, int) method
 
 
 Reads the specified number of characters from the stream, converts them to UTF-16 encoding and writes the resulting UTF-16 characters to the specified character array starting at the specified position.

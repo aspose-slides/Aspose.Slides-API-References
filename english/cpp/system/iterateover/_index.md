@@ -3,10 +3,10 @@ title: IterateOver()
 second_title: Aspose.Slides for C++ API Reference
 description: "This function property wraps enumerable (or iterable) object so it can be used with range-based for loop This overload for Enumerable without begin(), end() methods with target type argument for (auto& value : IterateOver<SomeType>(enumerable))"
 type: docs
-weight: 2094
+weight: 1860
 url: /cpp/system/iterateover/
 ---
-## System::IterateOver([System::SmartPtr](../smartptr/)\<Enumerable\>) function
+## System::IterateOver(System::SmartPtr\<Enumerable\>) function
 
 
 This function property wraps enumerable (or iterable) object so it can be used with range-based for loop This overload for Enumerable without begin(), end() methods with target type argument for (auto& value : IterateOver<SomeType>(enumerable))
@@ -23,12 +23,7 @@ template<typename T,typename Enumerable> std::enable_if_t<!Details::IsIterable<E
 | T | The target type, it has to be returned from iterator |
 | Enumerable | The type of a wrapped object |
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::IterateOver([System::SmartPtr](../smartptr/)\<Enumerable\>) function
+## System::IterateOver(System::SmartPtr\<Enumerable\>) function
 
 
 This function property wraps enumerable (or iterable) object so it can be used with range-based for loop This overload for Enumerable without begin(), end() methods with default target type argument for (auto& value : IterateOver(enumerable)) analog to the following C# code foreach (var value in enumerable)
@@ -44,12 +39,7 @@ template<typename Enumerable> std::enable_if_t<!Details::IsIterable<Enumerable>:
 | --- | --- |
 | Enumerable | The type of a wrapped object |
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::IterateOver([System::SmartPtr](../smartptr/)\<Enumerable\>) function
+## System::IterateOver(System::SmartPtr\<Enumerable\>) function
 
 
 This function property wraps enumerable (or iterable) object so it can be used with range-based for loop This overload for Enumerable with begin(), end() methods with default target type argument for (auto& value : IterateOver(enumerable))
@@ -65,12 +55,7 @@ template<typename Enumerable> std::enable_if_t<Details::IsIterable<Enumerable>::
 | --- | --- |
 | Enumerable | The type of a wrapped object |
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::IterateOver([System::SmartPtr](../smartptr/)\<Enumerable\>) function
+## System::IterateOver(System::SmartPtr\<Enumerable\>) function
 
 
 This function property wraps enumerable (or iterable) object so it can be used with range-based for loop This overload for Enumerable with begin(), end() methods with target type same as original value_type of iterator.
@@ -87,12 +72,7 @@ template<typename T,typename Enumerable> std::enable_if_t<Details::IsIterable<En
 | Enumerable | The type of a wrapped object |
 | T | The target type which has to returned from iterator |
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::IterateOver([System::SmartPtr](../smartptr/)\<Enumerable\>) function
+## System::IterateOver(System::SmartPtr\<Enumerable\>) function
 
 
 This function property wraps enumerable (or iterable) object so it can be used with range-based for loop This overload for Enumerable with begin(), end() methods with different target type and original value_type of iterator.
@@ -109,11 +89,6 @@ template<typename T,typename Enumerable> std::enable_if_t<Details::IsIterable<En
 | Enumerable | The type of a wrapped object |
 | T | The target type which has to returned from iterator |
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::IterateOver(const Enumerable *) function
 
 
@@ -130,11 +105,6 @@ template<typename Enumerable> std::enable_if_t<!IsSmartPtr<Enumerable>::value, D
 | --- | --- |
 | Enumerable | The type of a wrapped object |
 
-## See Also
-
-* Struct [IsSmartPtr](../issmartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::IterateOver(const Enumerable *) function
 
 
@@ -154,6 +124,7 @@ template<typename T,typename Enumerable> std::enable_if_t<!IsSmartPtr<Enumerable
 
 ## See Also
 
+* Class [SmartPtr](../smartptr/)
 * Struct [IsSmartPtr](../issmartptr/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

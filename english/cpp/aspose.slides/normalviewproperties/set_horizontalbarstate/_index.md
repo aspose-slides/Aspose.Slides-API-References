@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/normalviewproperties/set_horizontalbarstate/
 ---
-## NormalViewProperties::set_HorizontalBarState([SplitterBarStateType](../../splitterbarstatetype/)) method
+## NormalViewProperties::set_HorizontalBarState(SplitterBarStateType) method
 
 
 Specifies the state that the horizontal splitter bar should be shown in. A horizontal splitter bar separates the slide from the content region below the slide.

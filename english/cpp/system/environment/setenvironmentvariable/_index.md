@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system/environment/setenvironmentvariable/
 ---
-## Environment::SetEnvironmentVariable(const [String](../../string/)\&, const [String](../../string/)\&) method
+## Environment::SetEnvironmentVariable(const String\&, const String\&) method
 
 
 NOT IMPLEMENTED.
@@ -15,13 +15,7 @@ NOT IMPLEMENTED.
 static void System::Environment::SetEnvironmentVariable(const String &variable, const String &value)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Environment](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Environment::SetEnvironmentVariable(const [String](../../string/)\&, const [String](../../string/)\&, [EnvironmentVariableTarget](../../environmentvariabletarget/)) method
+## Environment::SetEnvironmentVariable(const String\&, const String\&, EnvironmentVariableTarget) method
 
 
 NOT IMPLEMENTED.
@@ -32,8 +26,8 @@ static void System::Environment::SetEnvironmentVariable(const String &variable, 
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [EnvironmentVariableTarget](../../environmentvariabletarget/)
+* Class [String](../../string/)
 * Struct [Environment](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

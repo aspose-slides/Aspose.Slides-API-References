@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/cookie/set_commenturi/
 ---
-## Cookie::set_CommentUri([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## Cookie::set_CommentUri(System::SharedPtr\<Uri\>) method
 
 
 Sets the 'CommentURL' attribute's value.

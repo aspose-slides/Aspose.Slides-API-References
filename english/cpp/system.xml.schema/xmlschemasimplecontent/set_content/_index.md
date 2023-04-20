@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemasimplecontent/set_content/
 ---
-## XmlSchemaSimpleContent::set_Content([SharedPtr](../../../system/sharedptr/)\<[XmlSchemaContent](../../xmlschemacontent/)\>) method
+## XmlSchemaSimpleContent::set_Content(SharedPtr\<XmlSchemaContent\>) method
 
 
 Returns one of the [XmlSchemaSimpleContentRestriction](../../xmlschemasimplecontentrestriction/) or [XmlSchemaSimpleContentExtension](../../xmlschemasimplecontentextension/).

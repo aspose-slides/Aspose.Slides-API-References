@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.mathtext/mathparagraph/add/
 ---
-## MathParagraph::Add([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## MathParagraph::Add(System::SharedPtr\<IMathBlock\>) method
 
 
 Adds [IMathBlock](../../imathblock/) to the end of collection.

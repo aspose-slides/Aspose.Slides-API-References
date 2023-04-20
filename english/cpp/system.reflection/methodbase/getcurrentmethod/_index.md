@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.reflection/methodbase/getcurrentmethod/
 ---
-## MethodBase::GetCurrentMethod(const [String](../../../system/string/)\&) method
+## MethodBase::GetCurrentMethod(const String\&) method
 
 
 This method allows getting current method name. Translator substitutes ASPOSE_CURRENT_FUNCTION as parameter automatically.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/fontdata/equals/
 ---
-## FontData::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## FontData::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether two [FontData](../) instances are equal.

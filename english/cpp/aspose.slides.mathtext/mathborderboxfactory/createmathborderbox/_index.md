@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/mathborderboxfactory/createmathborderbox/
 ---
-## MathBorderBoxFactory::CreateMathBorderBox([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathBorderBoxFactory::CreateMathBorderBox(System::SharedPtr\<IMathElement\>) method
 
 
 Create a math border box by applying to the element
@@ -26,15 +26,7 @@ System::SharedPtr<IMathBorderBox> Aspose::Slides::MathText::MathBorderBoxFactory
 
 new border box element
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathBorderBox](../../imathborderbox/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathBorderBoxFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathBorderBoxFactory::CreateMathBorderBox([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**) method
+## MathBorderBoxFactory::CreateMathBorderBox(System::SharedPtr\<IMathElement\>, bool, bool, bool, bool, bool, bool, bool, bool) method
 
 
 Create a math border box by applying to the element

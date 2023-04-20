@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/isequencecollection/add/
 ---
-## ISequenceCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\>) method
+## ISequenceCollection::Add(System::SharedPtr\<IShape\>) method
 
 
 Add new interactive sequence.

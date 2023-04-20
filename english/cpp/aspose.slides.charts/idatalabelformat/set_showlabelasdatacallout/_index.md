@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.slides.charts/idatalabelformat/set_showlabelasdatacallout/
 ---
-## IDataLabelFormat::set_ShowLabelAsDataCallout(**bool**) method
+## IDataLabelFormat::set_ShowLabelAsDataCallout(bool) method
 
 
 Determines either specified chart's data label will be displayed as data callout or as data label.

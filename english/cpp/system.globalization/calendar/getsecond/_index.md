@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.globalization/calendar/getsecond/
 ---
-## Calendar::GetSecond([DateTime](../../../system/datetime/)) const method
+## Calendar::GetSecond(DateTime) const method
 
 
 Gets seconds for the specified time point.

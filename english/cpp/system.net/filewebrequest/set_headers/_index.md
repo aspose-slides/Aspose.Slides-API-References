@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/filewebrequest/set_headers/
 ---
-## FileWebRequest::set_Headers([System::SharedPtr](../../../system/sharedptr/)\<[WebHeaderCollection](../../webheadercollection/)\>) method
+## FileWebRequest::set_Headers(System::SharedPtr\<WebHeaderCollection\>) method
 
 
 Sets the collection of the HTTP headers.

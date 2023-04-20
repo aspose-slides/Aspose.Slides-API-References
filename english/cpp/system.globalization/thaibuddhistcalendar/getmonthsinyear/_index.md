@@ -27,11 +27,6 @@ int System::Globalization::ThaiBuddhistCalendar::GetMonthsInYear(int year, int e
 
 Number of months in the specified year of specified era.
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::GetMonthsInYear(int) const method
 
 
@@ -41,11 +36,6 @@ RTTI information.
 virtual int System::Globalization::Calendar::GetMonthsInYear(int year) const
 ```
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::GetMonthsInYear(int, int) const method
 
 

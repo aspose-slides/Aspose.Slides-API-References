@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/commentauthor/set_name/
 ---
-## CommentAuthor::set_Name([System::String](../../../system/string/)) method
+## CommentAuthor::set_Name(System::String) method
 
 
 Sets the author's name. Write [System::String](../../../system/string/).

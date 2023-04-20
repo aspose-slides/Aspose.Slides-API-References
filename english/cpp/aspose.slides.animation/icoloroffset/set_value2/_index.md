@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/icoloroffset/set_value2/
 ---
-## IColorOffset::set_Value2(**float**) method
+## IColorOffset::set_Value2(float) method
 
 
 Defines third value of offset. Write **float**.

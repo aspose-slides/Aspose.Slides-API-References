@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.effects/duotone/equals/
 ---
-## Duotone::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Duotone::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [Duotone](../) is equal to the current [Duotone](../).

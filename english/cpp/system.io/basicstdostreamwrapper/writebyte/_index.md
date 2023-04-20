@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.io/basicstdostreamwrapper/writebyte/
 ---
-## BasicSTDOStreamWrapper::WriteByte(**uint8_t**) method
+## BasicSTDOStreamWrapper::WriteByte(uint8_t) method
 
 
 If wrapping mode is binary, writes to the stream the specified unsigned 8-bit integer value, otherwise convert it to char_type type and then write the result to the stream.

@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system/typeinfo/getmember/
 ---
-## TypeInfo::GetMember(const [String](../../string/)\&) const method
+## TypeInfo::GetMember(const String\&) const method
 
 
 Gets list of the members with specified name.

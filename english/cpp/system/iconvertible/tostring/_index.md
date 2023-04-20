@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system/iconvertible/tostring/
 ---
-## IConvertible::ToString([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToString(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent [System::String](../../string/) using the specified culture-specific formatting information.
@@ -26,14 +26,6 @@ virtual System::String System::IConvertible::ToString(System::SharedPtr<System::
 
 A [System::String](../../string/) instance equivalent to the value of this instance.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [IConvertible](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## IConvertible::ToString() const method
 
 
@@ -50,7 +42,9 @@ virtual String System::Object::ToString() const
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [String](../../string/)
+* Class [IFormatProvider](../../iformatprovider/)
 * Class [IConvertible](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

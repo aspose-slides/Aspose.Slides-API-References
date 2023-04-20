@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing/pen/pen/
 ---
-## Pen::Pen(const [Color](../../color/)\&) constructor
+## Pen::Pen(const Color\&) constructor
 
 
 Constructs a new [Pen](../) object representing the specified color.
@@ -22,13 +22,7 @@ System::Drawing::Pen::Pen(const Color &color)
 | --- | --- | --- |
 | color | const [Color](../../color/)\& | The color of the pen represented by the object being constructed |
 
-## See Also
-
-* Class [Color](../../color/)
-* Class [Pen](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Pen::Pen(const [Color](../../color/)\&, **float**) constructor
+## Pen::Pen(const Color\&, float) constructor
 
 
 Constructs a new [Pen](../) object representing the specified color and width.
@@ -45,13 +39,7 @@ System::Drawing::Pen::Pen(const Color &color, float width)
 | color | const [Color](../../color/)\& | The color of the pen represented by the object being constructed |
 | width | **float** | The width of the pen represented by the object being constructed |
 
-## See Also
-
-* Class [Color](../../color/)
-* Class [Pen](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Pen::Pen(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&) constructor
+## Pen::Pen(const SharedPtr\<Brush\>\&) constructor
 
 
 Constructs a new [Pen](../) object and initializes it with the specified [Brush](../../brush/) object.
@@ -67,14 +55,7 @@ System::Drawing::Pen::Pen(const SharedPtr<Brush> &brush)
 | --- | --- | --- |
 | brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | The [Brush](../../brush/) object that specifies the fill properties of the pen represented by the object being constructed |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Pen](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Pen::Pen(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, **float**) constructor
+## Pen::Pen(const SharedPtr\<Brush\>\&, float) constructor
 
 
 Constructs a new [Pen](../) object and initializes it with the specified [Brush](../../brush/) object.
@@ -94,7 +75,8 @@ System::Drawing::Pen::Pen(const SharedPtr<Brush> &brush, float width)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
+* Class [Color](../../color/)
 * Class [Pen](../)
+* Class [Brush](../../brush/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

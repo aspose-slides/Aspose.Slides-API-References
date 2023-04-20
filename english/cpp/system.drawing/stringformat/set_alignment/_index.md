@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/stringformat/set_alignment/
 ---
-## StringFormat::set_Alignment([StringAlignment](../../stringalignment/)) method
+## StringFormat::set_Alignment(StringAlignment) method
 
 
 Sets horizontal alignment of the string.

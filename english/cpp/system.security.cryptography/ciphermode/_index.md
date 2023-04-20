@@ -3,7 +3,7 @@ title: CipherMode
 second_title: Aspose.Slides for C++ API Reference
 description: Block cipher mode.
 type: docs
-weight: 885
+weight: 794
 url: /cpp/system.security.cryptography/ciphermode/
 ---
 ## CipherMode enum

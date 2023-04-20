@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlnodelist/idx_get/
 ---
-## XmlNodeList::idx_get(**int32_t**) method
+## XmlNodeList::idx_get(int32_t) method
 
 
 Returns a node at the given index.

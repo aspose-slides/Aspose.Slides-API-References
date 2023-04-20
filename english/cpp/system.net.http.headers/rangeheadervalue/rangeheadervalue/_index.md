@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::Headers::RangeHeaderValue::RangeHeaderValue()
 ```
 
-## See Also
-
-* Class [RangeHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## RangeHeaderValue::RangeHeaderValue([Nullable](../../../system/nullable/)\<**int64_t**\>, [Nullable](../../../system/nullable/)\<**int64_t**\>) constructor
+## RangeHeaderValue::RangeHeaderValue(Nullable\<int64_t\>, Nullable\<int64_t\>) constructor
 
 
 Constructs a new instance.
@@ -39,7 +34,7 @@ System::Net::Http::Headers::RangeHeaderValue::RangeHeaderValue(Nullable<int64_t>
 
 ## See Also
 
-* Class [Nullable](../../../system/nullable/)
 * Class [RangeHeaderValue](../)
+* Class [Nullable](../../../system/nullable/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

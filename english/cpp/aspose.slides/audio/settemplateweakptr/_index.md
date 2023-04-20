@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/audio/settemplateweakptr/
 ---
-## Audio::SetTemplateWeakPtr(**uint32_t**) method
+## Audio::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

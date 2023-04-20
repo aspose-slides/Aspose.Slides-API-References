@@ -15,12 +15,7 @@ Constructs empty dictionary.
 System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary()
 ```
 
-## See Also
-
-* Class [SortedDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## SortedDictionary::SortedDictionary(const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\&) constructor
+## SortedDictionary::SortedDictionary(const SharedPtr\<IComparer\<typename BasePointerType\<TKey\>::type\>\>\&) constructor
 
 
 Constructs empty dictionary.
@@ -36,14 +31,7 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 | --- | --- | --- |
 | comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\& | Comparer to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IComparer](../../icomparer/)
-* Class [SortedDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## SortedDictionary::SortedDictionary(const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\&) constructor
+## SortedDictionary::SortedDictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
 
 
 Copy constructor.
@@ -59,14 +47,7 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 | --- | --- | --- |
 | src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | Source dictionary to copy data from. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IDictionary](../../idictionary/)
-* Class [SortedDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## SortedDictionary::SortedDictionary(const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\&, const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<typename BasePointerType\<TKey\>::type\>\>\&) constructor
+## SortedDictionary::SortedDictionary(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&, const SharedPtr\<IComparer\<typename BasePointerType\<TKey\>::type\>\>\&) constructor
 
 
 Copy constructor.
@@ -86,8 +67,8 @@ System::Collections::Generic::SortedDictionary<TKey, TValue>::SortedDictionary(c
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IDictionary](../../idictionary/)
-* Class [IComparer](../../icomparer/)
 * Class [SortedDictionary](../)
+* Class [IComparer](../../icomparer/)
+* Class [IDictionary](../../idictionary/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

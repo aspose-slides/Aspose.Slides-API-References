@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/shapestyle/set_effectstyleindex/
 ---
-## ShapeStyle::set_EffectStyleIndex(**uint32_t**) method
+## ShapeStyle::set_EffectStyleIndex(uint32_t) method
 
 
 Sets shape's effect column index in a style matrix. Write **uint32_t**.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/icamera/set_zoom/
 ---
-## ICamera::set_Zoom(**float**) method
+## ICamera::set_Zoom(float) method
 
 
 [Camera](../../camera/) zoom (positive value in percentage) Write **float**.

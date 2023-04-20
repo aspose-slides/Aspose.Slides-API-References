@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/ithreedformat/set_depth/
 ---
-## IThreeDFormat::set_Depth(**double**) method
+## IThreeDFormat::set_Depth(double) method
 
 
 Sets the depth of a 3D shape. Write **double**.

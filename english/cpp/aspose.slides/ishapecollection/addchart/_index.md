@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/ishapecollection/addchart/
 ---
-## IShapeCollection::AddChart([Charts::ChartType](../../../aspose.slides.charts/charttype/), **float**, **float**, **float**, **float**) method
+## IShapeCollection::AddChart(Charts::ChartType, float, float, float, float) method
 
 
 Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
@@ -30,15 +30,7 @@ virtual System::SharedPtr<Charts::IChart> Aspose::Slides::IShapeCollection::AddC
 
 Created chart.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [ChartType](../../../aspose.slides.charts/charttype/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::AddChart([Charts::ChartType](../../../aspose.slides.charts/charttype/), **float**, **float**, **float**, **float**, **bool**) method
+## IShapeCollection::AddChart(Charts::ChartType, float, float, float, float, bool) method
 
 
 Creates a new Chart and adds it to the end of the collection.
@@ -65,9 +57,9 @@ Created chart.
 
 ## See Also
 
+* Enum [ChartType](../../../aspose.slides.charts/charttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [ChartType](../../../aspose.slides.charts/charttype/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

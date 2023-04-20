@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system/array/exists/
 ---
-## Array::Exists([ArrayPtr](../../arrayptr/)\<T\>, std::function\<**bool**(T)>) method
+## Array::Exists(ArrayPtr\<T\>, std::function\<bool(T)>) method
 
 
 Determines if the specified [Array](../) object contains an element that satisfies requirements of the specified predicate.

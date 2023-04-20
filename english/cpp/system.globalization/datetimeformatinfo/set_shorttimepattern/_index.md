@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.globalization/datetimeformatinfo/set_shorttimepattern/
 ---
-## DateTimeFormatInfo::set_ShortTimePattern(const [String](../../../system/string/)\&) method
+## DateTimeFormatInfo::set_ShortTimePattern(const String\&) method
 
 
 Sets short time pattern.

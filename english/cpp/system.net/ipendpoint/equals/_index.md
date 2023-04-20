@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.net/ipendpoint/equals/
 ---
-## IPEndPoint::Equals([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## IPEndPoint::Equals(System::SharedPtr\<Object\>) method
 
 
 Compares objects using C# [Object.Equals](../../../system/object/equals/) semantics.

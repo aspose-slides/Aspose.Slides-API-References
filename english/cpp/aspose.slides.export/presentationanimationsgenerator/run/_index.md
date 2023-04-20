@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.export/presentationanimationsgenerator/run/
 ---
-## PresentationAnimationsGenerator::Run([System::SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../../aspose.slides/islide/)\>\>\>) method
+## PresentationAnimationsGenerator::Run(System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<ISlide\>\>\>) method
 
 
 Run the animation events generation for each slide.
@@ -43,15 +43,7 @@ animationsGenerator->Run(presentation->get_Slides());
 
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../../system.collections.generic/ienumerable/)
-* Class [ISlide](../../../aspose.slides/islide/)
-* Class [PresentationAnimationsGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## PresentationAnimationsGenerator::Run([System::SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<[System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../../aspose.slides/islide/)\>\>\>, **int32_t**, [PresentationPlayer::FrameTickHandler](../../presentationplayer/frametickhandler/)) method
+## PresentationAnimationsGenerator::Run(System::SharedPtr\<System::Collections::Generic::IEnumerable\<System::SharedPtr\<ISlide\>\>\>, int32_t, PresentationPlayer::FrameTickHandler) method
 
 
 Run the animation events generation for each slide.
@@ -83,9 +75,9 @@ animationsGenerator->Run(presentation->get_Slides(), 33, static_cast<Presentatio
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [FrameTickHandler](../../presentationplayer/frametickhandler/)
 * Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Class [ISlide](../../../aspose.slides/islide/)
-* Typedef [FrameTickHandler](../../presentationplayer/frametickhandler/)
 * Class [PresentationAnimationsGenerator](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

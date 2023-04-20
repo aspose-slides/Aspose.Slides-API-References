@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.globalization/koreancalendar/getdayofweek/
 ---
-## KoreanCalendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## KoreanCalendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

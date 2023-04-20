@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/gradientformat/get_gradientstop/
 ---
-## GradientFormat::get_GradientStop(**int32_t**) method
+## GradientFormat::get_GradientStop(int32_t) method
 
 
 Returns a gradient stop at the specified index.

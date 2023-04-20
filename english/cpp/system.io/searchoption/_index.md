@@ -3,7 +3,7 @@ title: SearchOption
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies a search should be performed only in the current directory, or in the current directory and all its subdirectories.
 type: docs
-weight: 534
+weight: 521
 url: /cpp/system.io/searchoption/
 ---
 ## SearchOption enum

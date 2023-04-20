@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.text/stringbuilder/appendformat/
 ---
-## StringBuilder::AppendFormat(const [String](../../../system/string/)\&, const TArgs\&...) method
+## StringBuilder::AppendFormat(const String\&, const TArgs\&...) method
 
 
 Appends formated string to builder.
@@ -33,14 +33,7 @@ template<class...> StringBuilder * System::Text::StringBuilder::AppendFormat(con
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::AppendFormat(const [SharedPtr](../../../system/sharedptr/)\<[IFormatProvider](../../../system/iformatprovider/)\>\&, const [String](../../../system/string/)\&, const TArgs\&...) method
+## StringBuilder::AppendFormat(const SharedPtr\<IFormatProvider\>\&, const String\&, const TArgs\&...) method
 
 
 Appends formated string to builder.
@@ -70,10 +63,9 @@ This pointer.
 
 ## See Also
 
-* Class [StringBuilder](../)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFormatProvider](../../../system/iformatprovider/)
-* Class [String](../../../system/string/)
 * Class [StringBuilder](../)
+* Class [String](../../../system/string/)
+* Class [IFormatProvider](../../../system/iformatprovider/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

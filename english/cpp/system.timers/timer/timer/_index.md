@@ -19,12 +19,7 @@ System::Timers::Timer::Timer()
 
 
 Constructs stopped timer with unspecified interval. 
-## See Also
-
-* Class [Timer](../)
-* Namespace [System::Timers](../../)
-* Library [Aspose.Slides](../../../)
-## Timer::Timer(**double**) constructor
+## Timer::Timer(double) constructor
 
 
 Constructs stopped timer with specified interval.

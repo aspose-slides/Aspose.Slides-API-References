@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/warningheadervalue/tryparse/
 ---
-## WarningHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[WarningHeaderValue](../)\>\&) method
+## WarningHeaderValue::TryParse(String, System::SharedPtr\<WarningHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [WarningHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [WarningHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [WarningHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

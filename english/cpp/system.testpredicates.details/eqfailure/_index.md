@@ -3,7 +3,7 @@ title: EqFailure()
 second_title: Aspose.Slides for C++ API Reference
 description: Formats == assertion failure for output.
 type: docs
-weight: 27
+weight: 1
 url: /cpp/system.testpredicates.details/eqfailure/
 ---
 ## System::TestPredicates::Details::EqFailure(const char *, const char *, T1\&, T2\&) function

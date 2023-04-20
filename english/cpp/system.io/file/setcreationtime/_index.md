@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.io/file/setcreationtime/
 ---
-## File::SetCreationTime(const [String](../../../system/string/)\&, [DateTime](../../../system/datetime/)) method
+## File::SetCreationTime(const String\&, DateTime) method
 
 
 NOT IMPLEMENTED.

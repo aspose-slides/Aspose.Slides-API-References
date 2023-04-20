@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.diagnostics/debug/writeline/
 ---
-## Debug::WriteLine(const [String](../../../system/string/)\&) method
+## Debug::WriteLine(const String\&) method
 
 
 Writes line to debug interface.
@@ -22,13 +22,7 @@ static void System::Diagnostics::Debug::WriteLine(const String &message)
 | --- | --- | --- |
 | message | const [String](../../../system/string/)\& | Message to write. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Struct [Debug](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Debug::WriteLine(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Debug::WriteLine(const String\&, const String\&) method
 
 
 Writes line to debug interface.
@@ -45,12 +39,6 @@ static void System::Diagnostics::Debug::WriteLine(const String &message, const S
 | message | const [String](../../../system/string/)\& | Message to write. |
 | message2 | const [String](../../../system/string/)\& | Extra message. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Struct [Debug](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
 ## Debug::WriteLine(const char_t *) method
 
 
@@ -67,12 +55,7 @@ static void System::Diagnostics::Debug::WriteLine(const char_t *message)
 | --- | --- | --- |
 | message | const char_t * | Message to write. |
 
-## See Also
-
-* Struct [Debug](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## Debug::WriteLine(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Debug::WriteLine(const SharedPtr\<Object\>\&) method
 
 
 Writes line to debug interface.
@@ -91,6 +74,7 @@ static void System::Diagnostics::Debug::WriteLine(const SharedPtr<Object> &obj)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Struct [Debug](../)
 * Namespace [System::Diagnostics](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.text.regularexpressions/groupcollection/addgroup/
 ---
-## GroupCollection::AddGroup(const [GroupPtr](../../groupptr/)\&) method
+## GroupCollection::AddGroup(const GroupPtr\&) method
 
 
 Adds group into collection.

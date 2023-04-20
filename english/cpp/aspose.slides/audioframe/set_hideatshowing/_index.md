@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/audioframe/set_hideatshowing/
 ---
-## AudioFrame::set_HideAtShowing(**bool**) method
+## AudioFrame::set_HideAtShowing(bool) method
 
 
 Determines whether an [AudioFrame](../) is hidden. Write **bool**.

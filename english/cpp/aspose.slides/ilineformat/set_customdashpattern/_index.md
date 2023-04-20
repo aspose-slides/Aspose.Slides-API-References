@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/ilineformat/set_customdashpattern/
 ---
-## ILineFormat::set_CustomDashPattern([System::ArrayPtr](../../../system/arrayptr/)\<**float**\>) method
+## ILineFormat::set_CustomDashPattern(System::ArrayPtr\<float\>) method
 
 
 Sets the custom dash pattern. Write **float**[].

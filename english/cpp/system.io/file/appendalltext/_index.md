@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.io/file/appendalltext/
 ---
-## File::AppendAllText(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [EncodingPtr](../../../system/encodingptr/)\&) method
+## File::AppendAllText(const String\&, const String\&, const EncodingPtr\&) method
 
 
 Appends the specified string to the specified file using the specified encoding.
@@ -26,8 +26,8 @@ static void System::IO::File::AppendAllText(const String &path, const String &co
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [EncodingPtr](../../../system/encodingptr/)
+* Class [String](../../../system/string/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

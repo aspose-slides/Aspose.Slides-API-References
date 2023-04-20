@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/istringordoublechartvalue/set_asliteraldouble/
 ---
-## IStringOrDoubleChartValue::set_AsLiteralDouble(**double**) method
+## IStringOrDoubleChartValue::set_AsLiteralDouble(double) method
 
 
 Sets the literal double if DataSourceType property is [DataSourceType::DoubleLiterals](../../datasourcetype/). Write **double**.

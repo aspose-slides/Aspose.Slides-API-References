@@ -6,7 +6,7 @@ type: docs
 weight: 560
 url: /cpp/aspose.slides/presentation/get_image/
 ---
-## Presentation::get_Image(**int32_t**) method
+## Presentation::get_Image(int32_t) method
 
 
 Returns image in the presentation at the specified index.

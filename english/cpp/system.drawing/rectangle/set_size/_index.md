@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.drawing/rectangle/set_size/
 ---
-## Rectangle::set_Size([Size](../../size/)) method
+## Rectangle::set_Size(Size) method
 
 
 Sets the width and height of the rectangle represented by the current object.

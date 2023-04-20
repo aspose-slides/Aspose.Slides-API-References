@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.runtime.interopservices/marshal/writeint16/
 ---
-## Marshal::WriteInt16(IntPtr, int, **int16_t**) method
+## Marshal::WriteInt16(IntPtr, int, int16_t) method
 
 
 Writes short to memory.

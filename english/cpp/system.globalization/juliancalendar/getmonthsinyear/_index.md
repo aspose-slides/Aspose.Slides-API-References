@@ -27,11 +27,6 @@ int System::Globalization::JulianCalendar::GetMonthsInYear(int year, int era) co
 
 Number of months in the specified year of specified era.
 
-## See Also
-
-* Class [JulianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JulianCalendar::GetMonthsInYear(int) const method
 
 
@@ -41,11 +36,6 @@ RTTI information.
 virtual int System::Globalization::Calendar::GetMonthsInYear(int year) const
 ```
 
-## See Also
-
-* Class [JulianCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JulianCalendar::GetMonthsInYear(int, int) const method
 
 

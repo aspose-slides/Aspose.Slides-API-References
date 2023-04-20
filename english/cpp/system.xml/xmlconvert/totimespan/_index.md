@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.xml/xmlconvert/totimespan/
 ---
-## XmlConvert::ToTimeSpan(const [String](../../../system/string/)\&) method
+## XmlConvert::ToTimeSpan(const String\&) method
 
 
 Converts the [String](../../../system/string/) to a [TimeSpan](../../../system/timespan/) equivalent.

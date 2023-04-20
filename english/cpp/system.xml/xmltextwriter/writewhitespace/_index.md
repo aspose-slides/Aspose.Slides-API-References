@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.xml/xmltextwriter/writewhitespace/
 ---
-## XmlTextWriter::WriteWhitespace([String](../../../system/string/)) method
+## XmlTextWriter::WriteWhitespace(String) method
 
 
 Writes out the given white space.

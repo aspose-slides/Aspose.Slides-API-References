@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/iorientationtransition/set_direction/
 ---
-## IOrientationTransition::set_Direction([Orientation](../../../aspose.slides/orientation/)) method
+## IOrientationTransition::set_Direction(Orientation) method
 
 
 Direction of transition. Write [Orientation](../../../aspose.slides/orientation/).

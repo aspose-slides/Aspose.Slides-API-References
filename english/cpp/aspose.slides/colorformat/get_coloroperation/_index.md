@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.slides/colorformat/get_coloroperation/
 ---
-## ColorFormat::get_ColorOperation(**int32_t**) method
+## ColorFormat::get_ColorOperation(int32_t) method
 
 
 Returns color transformation operation applied to color at the specified index. Read/write [Aspose::Slides::IColorOperation](../../icoloroperation/)

@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system/decimal/parse/
 ---
-## Decimal::Parse(const [String](../../string/)\&) method
+## Decimal::Parse(const String\&) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class.
@@ -26,14 +26,7 @@ static Decimal System::Decimal::Parse(const String &s)
 
 A new instance of [Decimal](../) class representing a value equivalent to that represented by the specified string.
 
-## See Also
-
-* Class [Decimal](../)
-* Class [String](../../string/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/)) method
+## Decimal::Parse(const String\&, Globalization::NumberStyles) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class using the specified style.
@@ -54,15 +47,7 @@ static Decimal System::Decimal::Parse(const String &s, Globalization::NumberStyl
 
 A new instance of [Decimal](../) class representing a value equivalent to that represented by the specified string
 
-## See Also
-
-* Class [Decimal](../)
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Parse(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Decimal::Parse(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class using the specified format provider.
@@ -83,16 +68,7 @@ static Decimal System::Decimal::Parse(const String &s, const SharedPtr<IFormatPr
 
 A new instance of [Decimal](../) class representing a value equivalent to that represented by the specified string
 
-## See Also
-
-* Class [Decimal](../)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Parse(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Decimal::Parse(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the string representation of a decimal number into an equivalent instance of [Decimal](../) class using the specified style and format provider.
@@ -116,11 +92,10 @@ A new instance of [Decimal](../) class representing a value equivalent to that r
 
 ## See Also
 
-* Class [Decimal](../)
-* Class [String](../../string/)
 * Enum [NumberStyles](../../../system.globalization/numberstyles/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
 * Class [Decimal](../)
+* Class [String](../../string/)
+* Class [IFormatProvider](../../iformatprovider/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

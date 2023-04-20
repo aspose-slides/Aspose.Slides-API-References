@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.text/utf7encoding/operator_equal_equal/
 ---
-## UTF7Encoding::operator==(const [UTF7Encoding](../)\&) const method
+## UTF7Encoding::operator==(const UTF7Encoding\&) const method
 
 
 Compares encodings parameters.
@@ -28,7 +28,6 @@ True if parameters match, false otherwise.
 
 ## See Also
 
-* Class [UTF7Encoding](../)
 * Class [UTF7Encoding](../)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

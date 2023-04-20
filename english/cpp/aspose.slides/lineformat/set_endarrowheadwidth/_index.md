@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides/lineformat/set_endarrowheadwidth/
 ---
-## LineFormat::set_EndArrowheadWidth([LineArrowheadWidth](../../linearrowheadwidth/)) method
+## LineFormat::set_EndArrowheadWidth(LineArrowheadWidth) method
 
 
 Sets the arrowhead width at the end of a line. Write [LineArrowheadWidth](../../linearrowheadwidth/).

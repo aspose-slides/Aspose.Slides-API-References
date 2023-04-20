@@ -6,7 +6,7 @@ type: docs
 weight: 859
 url: /cpp/system.xml.xpath/xpathnavigator/selectdescendants/
 ---
-## XPathNavigator::SelectDescendants([XPathNodeType](../../xpathnodetype/), **bool**) method
+## XPathNavigator::SelectDescendants(XPathNodeType, bool) method
 
 
 Selects all the descendant nodes of the current node that have a matching XPathNodeType.
@@ -27,15 +27,7 @@ virtual SharedPtr<XPathNodeIterator> System::Xml::XPath::XPathNavigator::SelectD
 
 An [XPathNodeIterator](../../xpathnodeiterator/) that contains the selected nodes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNodeIterator](../../xpathnodeiterator/)
-* Enum [XPathNodeType](../../xpathnodetype/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::SelectDescendants([String](../../../system/string/), [String](../../../system/string/), **bool**) method
+## XPathNavigator::SelectDescendants(String, String, bool) method
 
 
 Selects all the descendant nodes of the current node with the local name and namespace URI specified.
@@ -59,9 +51,10 @@ An [XPathNodeIterator](../../xpathnodeiterator/) that contains the selected node
 
 ## See Also
 
+* Enum [XPathNodeType](../../xpathnodetype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XPathNodeIterator](../../xpathnodeiterator/)
-* Class [String](../../../system/string/)
 * Class [XPathNavigator](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

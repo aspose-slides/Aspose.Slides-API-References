@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net.http/httpmessageinvoker/httpmessageinvoker/
 ---
-## HttpMessageInvoker::HttpMessageInvoker([System::SharedPtr](../../../system/sharedptr/)\<[HttpMessageHandler](../../httpmessagehandler/)\>) constructor
+## HttpMessageInvoker::HttpMessageInvoker(System::SharedPtr\<HttpMessageHandler\>) constructor
 
 
 Constructs a new instance.
@@ -22,14 +22,7 @@ System::Net::Http::HttpMessageInvoker::HttpMessageInvoker(System::SharedPtr<Http
 | --- | --- | --- |
 | handler | [System::SharedPtr](../../../system/sharedptr/)\<[HttpMessageHandler](../../httpmessagehandler/)\> | The HTTP handler used for sending requests. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpMessageHandler](../../httpmessagehandler/)
-* Class [HttpMessageInvoker](../)
-* Namespace [System::Net::Http](../../)
-* Library [Aspose.Slides](../../../)
-## HttpMessageInvoker::HttpMessageInvoker([System::SharedPtr](../../../system/sharedptr/)\<[HttpMessageHandler](../../httpmessagehandler/)\>, **bool**) constructor
+## HttpMessageInvoker::HttpMessageInvoker(System::SharedPtr\<HttpMessageHandler\>, bool) constructor
 
 
 Constructs a new instance.

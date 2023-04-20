@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.smartart/smartartshape/set_shapetype/
 ---
-## SmartArtShape::set_ShapeType([Aspose::Slides::ShapeType](../../../aspose.slides/shapetype/)) method
+## SmartArtShape::set_ShapeType(Aspose::Slides::ShapeType) method
 
 
 Sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Write [Slides::ShapeType](../../../aspose.slides/shapetype/).

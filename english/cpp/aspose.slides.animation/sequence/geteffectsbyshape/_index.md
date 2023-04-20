@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.animation/sequence/geteffectsbyshape/
 ---
-## Sequence::GetEffectsByShape([System::SharedPtr](../../../system/sharedptr/)\<[IShape](../../../aspose.slides/ishape/)\>) method
+## Sequence::GetEffectsByShape(System::SharedPtr\<IShape\>) method
 
 
 Returns array of effects for the specified shape.

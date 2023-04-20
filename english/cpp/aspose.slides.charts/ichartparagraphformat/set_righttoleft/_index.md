@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.charts/ichartparagraphformat/set_righttoleft/
 ---
-## IChartParagraphFormat::set_RightToLeft([NullableBool](../../../aspose.slides/nullablebool/)) method
+## IChartParagraphFormat::set_RightToLeft(NullableBool) method
 
 
 Determines whether the Right to Left writing is used in a paragraph. Write [NullableBool](../../../aspose.slides/nullablebool/).

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.security.cryptography/ecdsabotan/importparameters/
 ---
-## ECDsaBotan::ImportParameters(const [ECParameters](../../ecparameters/)\&) method
+## ECDsaBotan::ImportParameters(const ECParameters\&) method
 
 
 Imports all parameters from data structure.
@@ -24,7 +24,7 @@ void System::Security::Cryptography::ECDsaBotan::ImportParameters(const ECParame
 
 ## See Also
 
-* Struct [ECParameters](../../ecparameters/)
 * Class [ECDsaBotan](../)
+* Struct [ECParameters](../../ecparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

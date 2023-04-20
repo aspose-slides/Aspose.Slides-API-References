@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system/convert/frombase64string/
 ---
-## Convert::FromBase64String(const [String](../../string/)\&) method
+## Convert::FromBase64String(const String\&) method
 
 
 Decodes base-64 encoded data represented as a string.

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.charts/chartdatapointcollection/idx_get/
 ---
-## ChartDataPointCollection::idx_get(**int32_t**) method
+## ChartDataPointCollection::idx_get(int32_t) method
 
 
 Returns the series data point by index (its serial number in this collection).
@@ -15,14 +15,7 @@ Returns the series data point by index (its serial number in this collection).
 System::SharedPtr<IChartDataPoint> Aspose::Slides::Charts::ChartDataPointCollection::idx_get(int32_t index) override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChartDataPoint](../../ichartdatapoint/)
-* Class [ChartDataPointCollection](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartDataPointCollection::idx_get([System::SharedPtr](../../../system/sharedptr/)\<[IChartDataPoint](../../ichartdatapoint/)\>) method
+## ChartDataPointCollection::idx_get(System::SharedPtr\<IChartDataPoint\>) method
 
 
 Return index (serial number) of data point in this collection.

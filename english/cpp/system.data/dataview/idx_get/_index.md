@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.data/dataview/idx_get/
 ---
-## DataView::idx_get(const **int32_t**) method
+## DataView::idx_get(const int32_t) method
 
 
 Gets row views.

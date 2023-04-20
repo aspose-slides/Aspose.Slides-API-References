@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.globalization/stringinfo/set_string/
 ---
-## StringInfo::set_String(const [String](../../../system/string/)\&) method
+## StringInfo::set_String(const String\&) method
 
 
 Sets the value of the [StringInfo](../) object.

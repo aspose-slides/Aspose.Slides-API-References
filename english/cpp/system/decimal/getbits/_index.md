@@ -6,7 +6,7 @@ type: docs
 weight: 508
 url: /cpp/system/decimal/getbits/
 ---
-## Decimal::GetBits(const [Decimal](../)\&) method
+## Decimal::GetBits(const Decimal\&) method
 
 
 Converts the specified [Decimal](../) object into the binary representation of the value it represents.
@@ -29,7 +29,6 @@ An array whose elements represent distinct bits of the binary representation of 
 ## See Also
 
 * Typedef [ArrayPtr](../../arrayptr/)
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -3,7 +3,7 @@ title: SystemWIOStreamWrapper
 second_title: Aspose.Slides for C++ API Reference
 description: Specializations of BasicSystemIOStreamWrapper for wchar_t character types.
 type: docs
-weight: 846
+weight: 833
 url: /cpp/system.io/systemwiostreamwrapper/
 ---
 ## SystemWIOStreamWrapper typedef

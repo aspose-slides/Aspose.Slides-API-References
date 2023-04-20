@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.drawing/image/fromstream/
 ---
-## Image::FromStream(const [SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>\&, **bool**, **bool**) method
+## Image::FromStream(const SharedPtr\<System::IO::Stream\>\&, bool, bool) method
 
 
 Creates an [Image](../) object from the specified stream.
@@ -33,6 +33,5 @@ A shared pointer to the created [Image](../) object.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Image](../)
 * Class [Stream](../../../system.io/stream/)
-* Class [Image](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

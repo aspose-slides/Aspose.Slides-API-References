@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/set_dispositiontype/
 ---
-## ContentDispositionHeaderValue::set_DispositionType([String](../../../system/string/)) method
+## ContentDispositionHeaderValue::set_DispositionType(String) method
 
 
 Sets a disposition type.

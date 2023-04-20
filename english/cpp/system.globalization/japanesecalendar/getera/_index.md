@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.globalization/japanesecalendar/getera/
 ---
-## JapaneseCalendar::GetEra([DateTime](../../../system/datetime/)) const method
+## JapaneseCalendar::GetEra(DateTime) const method
 
 
 Gets era for the specified time point.

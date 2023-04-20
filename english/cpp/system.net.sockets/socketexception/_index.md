@@ -3,7 +3,7 @@ title: SocketException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 274
+weight: 248
 url: /cpp/system.net.sockets/socketexception/
 ---
 ## SocketException typedef

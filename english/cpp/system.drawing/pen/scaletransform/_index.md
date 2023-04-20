@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.drawing/pen/scaletransform/
 ---
-## Pen::ScaleTransform(**float**, **float**, [Drawing2D::MatrixOrder](../../../system.drawing.drawing2d/matrixorder/)) method
+## Pen::ScaleTransform(float, float, Drawing2D::MatrixOrder) method
 
 
 Scales the local geometric transformation by the specified factors in the specified order.

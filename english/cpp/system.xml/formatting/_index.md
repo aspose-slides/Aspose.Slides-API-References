@@ -3,7 +3,7 @@ title: Formatting
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies formatting options for the XmlTextWriter.
 type: docs
-weight: 664
+weight: 638
 url: /cpp/system.xml/formatting/
 ---
 ## Formatting enum

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system/enum/tryparse/
 ---
-## Enum::TryParse(const [String](../../string/)\&, E\&) method
+## Enum::TryParse(const String\&, E\&) method
 
 
 Tries to convert the specified string into equivalent enum constant.
@@ -27,13 +27,7 @@ static bool System::Enum<E, Guard>::TryParse(const String &str, E &result)
 
 True if conversion succeeded, otherwise - false
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Enum](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Enum::TryParse(const [String](../../string/)\&, **bool**, E\&) method
+## Enum::TryParse(const String\&, bool, E\&) method
 
 
 Tries to convert the specified string into equivalent enum constant.

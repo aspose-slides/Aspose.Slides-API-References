@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/trendline/set_trendlinetype/
 ---
-## Trendline::set_TrendlineType([Aspose::Slides::Charts::TrendlineType](../../trendlinetype/)) method
+## Trendline::set_TrendlineType(Aspose::Slides::Charts::TrendlineType) method
 
 
 Sets type of trend line. Write [Charts::TrendlineType](../../trendlinetype/).

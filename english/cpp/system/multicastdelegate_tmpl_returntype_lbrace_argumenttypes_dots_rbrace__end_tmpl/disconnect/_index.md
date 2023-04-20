@@ -3,10 +3,10 @@ title: disconnect()
 second_title: Aspose.Slides for C++ API Reference
 description: Removes the specified delegate from the delegate collection.
 type: docs
-weight: 118
+weight: 157
 url: /cpp/system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/disconnect/
 ---
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect([Callback](../callback/)) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(Callback) method
 
 
 Removes the specified delegate from the delegate collection.
@@ -26,12 +26,6 @@ MulticastDelegate & System::MulticastDelegate<ReturnType(ArgumentTypes...)>::dis
 
 A reference to the self
 
-## See Also
-
-* Typedef [Callback](../callback/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(MemberType ClassType::*, ClassType *) method
 
 
@@ -60,12 +54,7 @@ template<class MemberType,class ClassType> MulticastDelegate & System::Multicast
 
 A reference to the self
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(MemberType ClassType::*, const [SharedPtr](../../sharedptr/)\<ClassType\>\&) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(MemberType ClassType::*, const SharedPtr\<ClassType\>\&) method
 
 
 Removes the specified non-static method of the specified object from the delegate collection.
@@ -93,13 +82,7 @@ template<class MemberType,class ClassType> MulticastDelegate & System::Multicast
 
 A reference to the self
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect([MulticastDelegate](../multicastdelegate/)\&) method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::disconnect(MulticastDelegate\&) method
 
 
 Removes the specified MulticastDelegate object from the delegate collection.
@@ -121,6 +104,9 @@ A reference to the self
 
 ## See Also
 
+* Typedef [Callback](../callback/)
+* Typedef [SharedPtr](../../sharedptr/)
+* Method [MulticastDelegate](../multicastdelegate/)
 * Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

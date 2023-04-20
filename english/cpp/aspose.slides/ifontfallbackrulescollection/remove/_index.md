@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/ifontfallbackrulescollection/remove/
 ---
-## IFontFallBackRulesCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IFontFallBackRule](../../ifontfallbackrule/)\>) method
+## IFontFallBackRulesCollection::Remove(System::SharedPtr\<IFontFallBackRule\>) method
 
 
 Removes the first occurrence of a specific FallBack rule from the collection.

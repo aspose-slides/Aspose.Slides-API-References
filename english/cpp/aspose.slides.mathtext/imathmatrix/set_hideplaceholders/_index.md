@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.mathtext/imathmatrix/set_hideplaceholders/
 ---
-## IMathMatrix::set_HidePlaceholders(**bool**) method
+## IMathMatrix::set_HidePlaceholders(bool) method
 
 
 Hide the placeholders for empty matrix elements Default: false

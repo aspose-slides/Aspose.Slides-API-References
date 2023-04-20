@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides/iparagraphformat/set_latinlinebreak/
 ---
-## IParagraphFormat::set_LatinLineBreak([NullableBool](../../nullablebool/)) method
+## IParagraphFormat::set_LatinLineBreak(NullableBool) method
 
 
 Determines whether the Latin line break is used in a paragraph. No inheritance applied. Write [NullableBool](../../nullablebool/).

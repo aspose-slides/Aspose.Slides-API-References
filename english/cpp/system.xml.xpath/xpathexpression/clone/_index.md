@@ -24,6 +24,5 @@ A new [XPathExpression](../) object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XPathExpression](../)
-* Class [XPathExpression](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

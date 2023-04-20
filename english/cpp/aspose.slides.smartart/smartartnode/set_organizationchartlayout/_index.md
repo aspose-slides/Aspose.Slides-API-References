@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.smartart/smartartnode/set_organizationchartlayout/
 ---
-## SmartArtNode::set_OrganizationChartLayout([OrganizationChartLayoutType](../../organizationchartlayouttype/)) method
+## SmartArtNode::set_OrganizationChartLayout(OrganizationChartLayoutType) method
 
 
 Sets organization chart layout type associated with current node. Write [OrganizationChartLayoutType](../../organizationchartlayouttype/).

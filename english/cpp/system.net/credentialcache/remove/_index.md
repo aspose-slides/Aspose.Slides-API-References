@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/credentialcache/remove/
 ---
-## CredentialCache::Remove([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)) method
+## CredentialCache::Remove(System::SharedPtr\<Uri\>, String) method
 
 
 Removes network credentials for the specified URI prefix and authentication type.
@@ -23,15 +23,7 @@ void System::Net::CredentialCache::Remove(System::SharedPtr<Uri> uriPrefix, Stri
 | uriPrefix | [System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\> | The URI prefix. |
 | authenticationType | [String](../../../system/string/) | The authentication type. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Uri](../../../system/uri/)
-* Class [String](../../../system/string/)
-* Class [CredentialCache](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CredentialCache::Remove([String](../../../system/string/), **int32_t**, [String](../../../system/string/)) method
+## CredentialCache::Remove(String, int32_t, String) method
 
 
 Removes network credentials for the specified host name, port, and authentication type.
@@ -51,6 +43,8 @@ void System::Net::CredentialCache::Remove(String host, int32_t port, String auth
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Uri](../../../system/uri/)
 * Class [String](../../../system/string/)
 * Class [CredentialCache](../)
 * Namespace [System::Net](../../)

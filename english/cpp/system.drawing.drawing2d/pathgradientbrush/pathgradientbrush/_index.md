@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/pathgradientbrush/
 ---
-## PathGradientBrush::PathGradientBrush(const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\&, [WrapMode](../../wrapmode/)) constructor
+## PathGradientBrush::PathGradientBrush(const ArrayPtr\<PointF\>\&, WrapMode) constructor
 
 
 Constructs a new instance of [PathGradientBrush](../) class.
@@ -23,15 +23,7 @@ System::Drawing::Drawing2D::PathGradientBrush::PathGradientBrush(const ArrayPtr<
 | points | const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../../system.drawing/pointf/)\>\& | An array that contains vertices of the path |
 | wrapMode | [WrapMode](../../wrapmode/) | Specifies how the fills drawn by a brush represented by the object being created should be tiled |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../../system.drawing/pointf/)
-* Enum [WrapMode](../../wrapmode/)
-* Class [PathGradientBrush](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## PathGradientBrush::PathGradientBrush(const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\&, [WrapMode](../../wrapmode/)) constructor
+## PathGradientBrush::PathGradientBrush(const ArrayPtr\<Point\>\&, WrapMode) constructor
 
 
 Constructs a new instance of [PathGradientBrush](../) class.
@@ -48,15 +40,7 @@ System::Drawing::Drawing2D::PathGradientBrush::PathGradientBrush(const ArrayPtr<
 | points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../../system.drawing/point/)\>\& | An array that contains vertices of the path |
 | wrapMode | [WrapMode](../../wrapmode/) | Specifies how the fills drawn by a brush represented by the object being created should be tiled |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../../system.drawing/point/)
-* Enum [WrapMode](../../wrapmode/)
-* Class [PathGradientBrush](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
-## PathGradientBrush::PathGradientBrush(const [SharedPtr](../../../system/sharedptr/)\<[GraphicsPath](../../graphicspath/)\>\&) constructor
+## PathGradientBrush::PathGradientBrush(const SharedPtr\<GraphicsPath\>\&) constructor
 
 
 Constructs a new instance of [PathGradientBrush](../) class.
@@ -74,8 +58,12 @@ System::Drawing::Drawing2D::PathGradientBrush::PathGradientBrush(const SharedPtr
 
 ## See Also
 
+* Enum [WrapMode](../../wrapmode/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [GraphicsPath](../../graphicspath/)
+* Class [PointF](../../../system.drawing/pointf/)
 * Class [PathGradientBrush](../)
+* Class [Point](../../../system.drawing/point/)
+* Class [GraphicsPath](../../graphicspath/)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

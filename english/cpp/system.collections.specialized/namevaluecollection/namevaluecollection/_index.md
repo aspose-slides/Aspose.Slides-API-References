@@ -15,12 +15,7 @@ Initializes a new instance of the [NameValueCollection](../) class that is empty
 System::Collections::Specialized::NameValueCollection::NameValueCollection()
 ```
 
-## See Also
-
-* Class [NameValueCollection](../)
-* Namespace [System::Collections::Specialized](../../)
-* Library [Aspose.Slides](../../../)
-## NameValueCollection::NameValueCollection(const [System::SharedPtr](../../../system/sharedptr/)\<[NameValueCollection](../)\>\&) constructor
+## NameValueCollection::NameValueCollection(const System::SharedPtr\<NameValueCollection\>\&) constructor
 
 
 Copies the entries from the specified [NameValueCollection](../) to a new [NameValueCollection](../).
@@ -32,7 +27,6 @@ System::Collections::Specialized::NameValueCollection::NameValueCollection(const
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [NameValueCollection](../)
 * Class [NameValueCollection](../)
 * Namespace [System::Collections::Specialized](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemasimplecontentextension/set_basetypename/
 ---
-## XmlSchemaSimpleContentExtension::set_BaseTypeName(const [SharedPtr](../../../system/sharedptr/)\<[XmlQualifiedName](../../../system.xml/xmlqualifiedname/)\>\&) method
+## XmlSchemaSimpleContentExtension::set_BaseTypeName(const SharedPtr\<XmlQualifiedName\>\&) method
 
 
 Sets the name of a built-in data type or simple type from which this type is extended.

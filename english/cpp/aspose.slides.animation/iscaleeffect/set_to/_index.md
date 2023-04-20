@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/iscaleeffect/set_to/
 ---
-## IScaleEffect::set_To([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## IScaleEffect::set_To(System::Drawing::PointF) method
 
 
 Specifies the target location for an animation scale effect (in percents). Write [System::Drawing::PointF](../../../system.drawing/pointf/).

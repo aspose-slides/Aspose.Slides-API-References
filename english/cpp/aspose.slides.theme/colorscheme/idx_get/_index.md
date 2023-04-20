@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.theme/colorscheme/idx_get/
 ---
-## ColorScheme::idx_get([ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)) method
+## ColorScheme::idx_get(ColorSchemeIndex) method
 
 
 Gets the element at the specified index. Read-only [IColorFormat](../../../aspose.slides/icolorformat/).
@@ -17,9 +17,9 @@ System::SharedPtr<IColorFormat> Aspose::Slides::Theme::ColorScheme::idx_get(Colo
 
 ## See Also
 
+* Enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IColorFormat](../../../aspose.slides/icolorformat/)
-* Enum [ColorSchemeIndex](../../../aspose.slides/colorschemeindex/)
 * Class [ColorScheme](../)
 * Namespace [Aspose::Slides::Theme](../../)
 * Library [Aspose.Slides](../../../)

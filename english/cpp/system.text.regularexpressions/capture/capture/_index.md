@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.text.regularexpressions/capture/capture/
 ---
-## Capture::Capture(const [UStringPtr](../../ustringptr/)\&, int, int) constructor
+## Capture::Capture(const UStringPtr\&, int, int) constructor
 
 
 Constructor.

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.web.services.protocols/httpwebclientprotocol/set_useragent/
 ---
-## HttpWebClientProtocol::set_UserAgent([String](../../../system/string/)) method
+## HttpWebClientProtocol::set_UserAgent(String) method
 
 
 Sets a value of the 'User-Agent' header.

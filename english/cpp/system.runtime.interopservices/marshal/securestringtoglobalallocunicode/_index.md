@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.runtime.interopservices/marshal/securestringtoglobalallocunicode/
 ---
-## Marshal::SecureStringToGlobalAllocUnicode(const [SharedPtr](../../../system/sharedptr/)\<[Security::SecureString](../../../system.security/securestring/)\>\&) method
+## Marshal::SecureStringToGlobalAllocUnicode(const SharedPtr\<Security::SecureString\>\&) method
 
 
 Copies contents of specified secure string into unmanaged memory.

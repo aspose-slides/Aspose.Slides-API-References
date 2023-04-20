@@ -15,12 +15,7 @@ Null pointer constructor.
 System::Collections::Generic::HashSetPtr<T>::HashSetPtr()
 ```
 
-## See Also
-
-* Class [HashSetPtr](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## HashSetPtr::HashSetPtr(const [SharedPtr](../../../system/sharedptr/)\<[HashSet](../../hashset/)\<T\>\>\&) constructor
+## HashSetPtr::HashSetPtr(const SharedPtr\<HashSet\<T\>\>\&) constructor
 
 
 Copy constructor.
@@ -39,7 +34,7 @@ System::Collections::Generic::HashSetPtr<T>::HashSetPtr(const SharedPtr<HashSet<
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HashSet](../../hashset/)
 * Class [HashSetPtr](../)
+* Class [HashSet](../../hashset/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

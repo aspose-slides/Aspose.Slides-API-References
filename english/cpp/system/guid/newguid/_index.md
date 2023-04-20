@@ -18,6 +18,5 @@ static Guid System::Guid::NewGuid()
 ## See Also
 
 * Class [Guid](../)
-* Class [Guid](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

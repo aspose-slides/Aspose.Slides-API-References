@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.globalization/calendar/addmonths/
 ---
-## Calendar::AddMonths([DateTime](../../../system/datetime/), int) const method
+## Calendar::AddMonths(DateTime, int) const method
 
 
 Adds months to time point.

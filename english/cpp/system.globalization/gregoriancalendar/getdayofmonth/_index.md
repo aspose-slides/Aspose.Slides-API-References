@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.globalization/gregoriancalendar/getdayofmonth/
 ---
-## GregorianCalendar::GetDayOfMonth([DateTime](../../../system/datetime/)) const method
+## GregorianCalendar::GetDayOfMonth(DateTime) const method
 
 
 Gets day of month for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system/iconvertible/touint32/
 ---
-## IConvertible::ToUInt32([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToUInt32(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent 32-bit uint32_teger using the specified culture-specific formatting information.

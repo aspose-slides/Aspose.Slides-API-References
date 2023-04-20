@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.globalization/hebrewcalendar/getdayofweek/
 ---
-## HebrewCalendar::GetDayOfWeek([DateTime](../../../system/datetime/)) const method
+## HebrewCalendar::GetDayOfWeek(DateTime) const method
 
 
 Gets day of week for the specified time point.

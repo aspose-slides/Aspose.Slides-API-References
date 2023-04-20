@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml.schema/xmlschemaelement/set_isnillable/
 ---
-## XmlSchemaElement::set_IsNillable(**bool**) method
+## XmlSchemaElement::set_IsNillable(bool) method
 
 
 Sets information that indicates if **xsi:nil** can occur in the instance data. Indicates if an explicit nil value can be assigned to the element.

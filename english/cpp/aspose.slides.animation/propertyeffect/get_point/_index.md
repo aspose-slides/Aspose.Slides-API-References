@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.animation/propertyeffect/get_point/
 ---
-## PropertyEffect::get_Point(**int32_t**) method
+## PropertyEffect::get_Point(int32_t) method
 
 
 Returns a point of the animation at the specified index.

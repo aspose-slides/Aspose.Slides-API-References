@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides/table/get_row/
 ---
-## Table::get_Row(**int32_t**) method
+## Table::get_Row(int32_t) method
 
 
 Returns a row at the specified index.

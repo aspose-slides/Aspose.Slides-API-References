@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.xml/xmlconvert/toboolean/
 ---
-## XmlConvert::ToBoolean([String](../../../system/string/)) method
+## XmlConvert::ToBoolean(String) method
 
 
 Converts the [String](../../../system/string/) to a [Boolean](../../../system/boolean/) equivalent.

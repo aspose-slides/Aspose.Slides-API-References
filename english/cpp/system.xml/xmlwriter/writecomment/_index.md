@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.xml/xmlwriter/writecomment/
 ---
-## XmlWriter::WriteComment([String](../../../system/string/)) method
+## XmlWriter::WriteComment(String) method
 
 
 When overridden in a derived class, writes out a comment **** containing the specified text.

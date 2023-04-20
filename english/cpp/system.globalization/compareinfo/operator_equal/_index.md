@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/compareinfo/operator_equal/
 ---
-## CompareInfo::operator=(const [CompareInfo](../)\&) method
+## CompareInfo::operator=(const CompareInfo\&) method
 
 
 
@@ -17,7 +17,6 @@ CompareInfo & System::Globalization::CompareInfo::operator=(const CompareInfo &)
 
 ## See Also
 
-* Class [CompareInfo](../)
 * Class [CompareInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

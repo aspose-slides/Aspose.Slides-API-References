@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/mathfractionfactory/createmathfraction/
 ---
-## MathFractionFactory::CreateMathFraction([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [MathFractionTypes](../../mathfractiontypes/)) method
+## MathFractionFactory::CreateMathFraction(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>, MathFractionTypes) method
 
 
 Creates a math fraction
@@ -28,16 +28,7 @@ System::SharedPtr<IMathFraction> Aspose::Slides::MathText::MathFractionFactory::
 
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFraction](../../imathfraction/)
-* Class [IMathElement](../../imathelement/)
-* Enum [MathFractionTypes](../../mathfractiontypes/)
-* Class [MathFractionFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathFractionFactory::CreateMathFraction([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathFractionFactory::CreateMathFraction(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates a math fraction
@@ -60,6 +51,7 @@ System::SharedPtr<IMathFraction> Aspose::Slides::MathText::MathFractionFactory::
 
 ## See Also
 
+* Enum [MathFractionTypes](../../mathfractiontypes/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathFraction](../../imathfraction/)
 * Class [IMathElement](../../imathelement/)

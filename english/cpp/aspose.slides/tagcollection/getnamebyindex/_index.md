@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/tagcollection/getnamebyindex/
 ---
-## TagCollection::GetNameByIndex(**int32_t**) method
+## TagCollection::GetNameByIndex(int32_t) method
 
 
 Returns key of a tag at the specified index.

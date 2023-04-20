@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.charts/ichartdatacell/set_presetnumberformat/
 ---
-## IChartDataCell::set_PresetNumberFormat(**uint8_t**) method
+## IChartDataCell::set_PresetNumberFormat(uint8_t) method
 
 
 Sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Write **uint8_t**.

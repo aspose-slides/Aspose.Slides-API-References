@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.threading/threadpool/threadpool/
 ---
-## ThreadPool::ThreadPool(const [ThreadPool](../)\&) constructor
+## ThreadPool::ThreadPool(const ThreadPool\&) constructor
 
 
 No copying.
@@ -17,7 +17,6 @@ System::Threading::ThreadPool::ThreadPool(const ThreadPool &)=delete
 
 ## See Also
 
-* Class [ThreadPool](../)
 * Class [ThreadPool](../)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

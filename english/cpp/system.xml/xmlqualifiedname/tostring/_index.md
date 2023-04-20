@@ -20,13 +20,7 @@ String System::Xml::XmlQualifiedName::ToString() const override
 
 The string value of the [XmlQualifiedName](../) in the format of **namespace:localname**. If the object does not have a namespace defined, this method returns just the local name.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlQualifiedName](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlQualifiedName::ToString(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlQualifiedName::ToString(const String\&, const String\&) method
 
 
 Returns the string value of the [XmlQualifiedName](../).

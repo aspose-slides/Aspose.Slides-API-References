@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/coloroperationcollection/idx_set/
 ---
-## ColorOperationCollection::idx_set(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IColorOperation](../../icoloroperation/)\>) method
+## ColorOperationCollection::idx_set(int32_t, System::SharedPtr\<IColorOperation\>) method
 
 
 Sets the operation at the specified index. Write [ColorOperation](../../coloroperation/).

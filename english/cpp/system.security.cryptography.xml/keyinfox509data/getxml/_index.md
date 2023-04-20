@@ -15,14 +15,7 @@ url: /cpp/system.security.cryptography.xml/keyinfox509data/getxml/
 SharedPtr<System::Xml::XmlElement> System::Security::Cryptography::Xml::KeyInfoX509Data::GetXml() override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlElement](../../../system.xml/xmlelement/)
-* Class [KeyInfoX509Data](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## KeyInfoX509Data::GetXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlDocument](../../../system.xml/xmldocument/)\>) method
+## KeyInfoX509Data::GetXml(SharedPtr\<System::Xml::XmlDocument\>) method
 
 
 
@@ -35,7 +28,7 @@ SharedPtr<System::Xml::XmlElement> System::Security::Cryptography::Xml::KeyInfoX
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlElement](../../../system.xml/xmlelement/)
-* Class [XmlDocument](../../../system.xml/xmldocument/)
 * Class [KeyInfoX509Data](../)
+* Class [XmlDocument](../../../system.xml/xmldocument/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http/httpmessageinvoker/send/
 ---
-## HttpMessageInvoker::Send([System::SharedPtr](../../../system/sharedptr/)\<[HttpRequestMessage](../../httprequestmessage/)\>) method
+## HttpMessageInvoker::Send(System::SharedPtr\<HttpRequestMessage\>) method
 
 
 Sends the specified request.

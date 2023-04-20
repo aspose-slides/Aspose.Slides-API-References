@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/system.drawing/graphics/fillrectangle/
 ---
-## Graphics::FillRectangle(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, **float**, **float**, **float**, **float**) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, float, float, float, float) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -26,14 +26,7 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, flo
 | width | **float** | The width of the rectangle to fill |
 | height | **float** | The height of the rectangle to fill |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillRectangle(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, int, int, int, int) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, int, int, int, int) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -53,14 +46,7 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, int
 | width | int | The width of the rectangle to fill |
 | height | int | The height of the rectangle to fill |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillRectangle(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, [Rectangle](../../rectangle/)) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, Rectangle) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -77,15 +63,7 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, Rec
 | brush | const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\& | A [Brush](../../brush/) object to use for filling |
 | rect | [Rectangle](../../rectangle/) | A [Rectangle](../../rectangle/) object that specifies the location and size of the rectangle to fill |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillRectangle(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, [RectangleF](../../rectanglef/)) method
+## Graphics::FillRectangle(const SharedPtr\<Brush\>\&, RectangleF) method
 
 
 Fills the specified rectangle with the specified brush.
@@ -106,7 +84,8 @@ void System::Drawing::Graphics::FillRectangle(const SharedPtr<Brush> &brush, Rec
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Brush](../../brush/)
-* Class [RectangleF](../../rectanglef/)
 * Class [Graphics](../)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

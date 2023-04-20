@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.drawing/rectanglef/fromltrb/
 ---
-## RectangleF::FromLTRB(**float**, **float**, **float**, **float**) method
+## RectangleF::FromLTRB(float, float, float, float) method
 
 
 Constructs a new [RectangleF](../) object that represents a rectangle with the specified edge locations.
@@ -31,7 +31,6 @@ An instance of [RectangleF](../) class that represents the speified rectangle
 
 ## See Also
 
-* Class [RectangleF](../)
 * Class [RectangleF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

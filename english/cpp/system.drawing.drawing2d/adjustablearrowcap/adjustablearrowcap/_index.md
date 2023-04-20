@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing.drawing2d/adjustablearrowcap/adjustablearrowcap/
 ---
-## AdjustableArrowCap::AdjustableArrowCap(**float**, **float**, **bool**) constructor
+## AdjustableArrowCap::AdjustableArrowCap(float, float, bool) constructor
 
 
 Constructs a new instance of [AdjustableArrowCap](../) with the specified width and height.

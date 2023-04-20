@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.io/file/getlastwritetimeutc/
 ---
-## File::GetLastWriteTimeUtc(const [String](../../../system/string/)\&) method
+## File::GetLastWriteTimeUtc(const String\&) method
 
 
 Returns the last write time of the specified entity as UTC time.

@@ -26,12 +26,6 @@ static Color System::Drawing::Color::FromArgb(int argb)
 
 An object that represents the specified color.
 
-## See Also
-
-* Class [Color](../)
-* Class [Color](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Color::FromArgb(int, int, int, int) method
 
 
@@ -55,12 +49,6 @@ static Color System::Drawing::Color::FromArgb(int alpha, int red, int green, int
 
 An object that represents the specified color.
 
-## See Also
-
-* Class [Color](../)
-* Class [Color](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Color::FromArgb(int, int, int) method
 
 
@@ -83,13 +71,7 @@ static Color System::Drawing::Color::FromArgb(int red, int green, int blue)
 
 An object that represents the specified color.
 
-## See Also
-
-* Class [Color](../)
-* Class [Color](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Color::FromArgb(int, [Color](../)) method
+## Color::FromArgb(int, Color) method
 
 
 Constructs an instance of [Color](../) class that reprsents the specfied color.
@@ -112,7 +94,6 @@ An object that represents the specified color.
 
 ## See Also
 
-* Class [Color](../)
 * Class [Color](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

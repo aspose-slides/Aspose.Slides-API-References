@@ -15,12 +15,7 @@ This constructor creates new VBA project from scratch. Project will be created i
 Aspose::Slides::Vba::VbaProject::VbaProject()
 ```
 
-## See Also
-
-* Class [VbaProject](../)
-* Namespace [Aspose::Slides::Vba](../../)
-* Library [Aspose.Slides](../../../)
-## VbaProject::VbaProject([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) constructor
+## VbaProject::VbaProject(System::ArrayPtr\<uint8_t\>) constructor
 
 
 This constructor loads VBA project from binary representation of OLE container.

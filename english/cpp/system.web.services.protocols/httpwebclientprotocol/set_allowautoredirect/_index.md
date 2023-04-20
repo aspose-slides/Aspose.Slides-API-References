@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web.services.protocols/httpwebclientprotocol/set_allowautoredirect/
 ---
-## HttpWebClientProtocol::set_AllowAutoRedirect(**bool**) method
+## HttpWebClientProtocol::set_AllowAutoRedirect(bool) method
 
 
 Sets a value that indicates if the client follows server redirects.

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.warnings/iwarninginfo/
 Represents a base interface for all warnings.
 
 ```cpp
-class IWarningInfo : public System::Object
+class IWarningInfo : public virtual System::Object
 ```
 
 ## Methods

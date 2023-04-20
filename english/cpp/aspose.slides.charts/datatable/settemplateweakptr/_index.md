@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.charts/datatable/settemplateweakptr/
 ---
-## DataTable::SetTemplateWeakPtr(**uint32_t**) method
+## DataTable::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

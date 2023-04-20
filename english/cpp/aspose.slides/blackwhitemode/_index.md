@@ -3,7 +3,7 @@ title: BlackWhiteMode
 second_title: Aspose.Slides for C++ API Reference
 description: Determines how colored shape should be transformed into black and white.
 type: docs
-weight: 5643
+weight: 5383
 url: /cpp/aspose.slides/blackwhitemode/
 ---
 ## BlackWhiteMode enum

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.net/icredentials/getcredential/
 ---
-## ICredentials::GetCredential([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)) method
+## ICredentials::GetCredential(System::SharedPtr\<Uri\>, String) method
 
 
 Returns credentials for the specified URI and authentication type.

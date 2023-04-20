@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides/icolorformat/set_luminance/
 ---
-## IColorFormat::set_Luminance(**float**) method
+## IColorFormat::set_Luminance(float) method
 
 
 Sets the luminance component of a color in HSL representation. All color transformations are ignored. Write **float**.

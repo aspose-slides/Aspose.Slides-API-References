@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlcharacterdata/set_value/
 ---
-## XmlCharacterData::set_Value([String](../../../system/string/)) method
+## XmlCharacterData::set_Value(String) method
 
 
 Sets the value of the node.

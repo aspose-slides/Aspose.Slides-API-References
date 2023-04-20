@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.collections/ilistimplvaluetype/indexof/
 ---
-## IListImplValueType::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) const method
+## IListImplValueType::IndexOf(System::SharedPtr\<System::Object\>) const method
 
 
 Gets index of first appearance of item in container.

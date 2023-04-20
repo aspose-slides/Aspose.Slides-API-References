@@ -6,7 +6,7 @@ type: docs
 weight: 820
 url: /cpp/system.xml.xpath/xpathnavigator/matches/
 ---
-## XPathNavigator::Matches([SharedPtr](../../../system/sharedptr/)\<[XPathExpression](../../xpathexpression/)\>) method
+## XPathNavigator::Matches(SharedPtr\<XPathExpression\>) method
 
 
 Determines whether the current node matches the specified [XPathExpression](../../xpathexpression/).
@@ -26,14 +26,7 @@ virtual bool System::Xml::XPath::XPathNavigator::Matches(SharedPtr<XPathExpressi
 
 **true** if the current node matches the [XPathExpression](../../xpathexpression/); otherwise, **false**.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathExpression](../../xpathexpression/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::Matches([String](../../../system/string/)) method
+## XPathNavigator::Matches(String) method
 
 
 Determines whether the current node matches the specified [XPath](../../) expression.
@@ -55,7 +48,9 @@ virtual bool System::Xml::XPath::XPathNavigator::Matches(String xpath)
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XPathExpression](../../xpathexpression/)
 * Class [XPathNavigator](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

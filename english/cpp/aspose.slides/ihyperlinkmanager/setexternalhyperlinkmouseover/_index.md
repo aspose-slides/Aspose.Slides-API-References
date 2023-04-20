@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/ihyperlinkmanager/setexternalhyperlinkmouseover/
 ---
-## IHyperlinkManager::SetExternalHyperlinkMouseOver([System::String](../../../system/string/)) method
+## IHyperlinkManager::SetExternalHyperlinkMouseOver(System::String) method
 
 
 Sets external hyperlink mouse over.

@@ -26,7 +26,6 @@ template<class ReturnType,class...>class Delegate< ReturnType(ArgumentTypes...)>
 
 | Method | Description |
 | --- | --- |
-| [DelegateEquality](../delegateequality/) [CompareDelegateTo](./comparedelegateto/)(const [Delegate](./delegate/)\&) const | Compares two delegates for equality and alikeness. |
 |  [Delegate](./delegate/)() | Default constructor. Constructs the delegate object that does not point to anything. |
 |  [Delegate](./delegate/)(const Delegate\&) |  |
 |  [Delegate](./delegate/)(Delegate\&&) | Moving copy constructor. Takes the ownership of an entity pointed to by the specified delegate. |
@@ -35,10 +34,10 @@ template<class ReturnType,class...>class Delegate< ReturnType(ArgumentTypes...)>
 |  [Delegate](./delegate/)(int, T\&) | Constructor. Constructs a delegate from the specified function object. |
 |  [Delegate](./delegate/)(long, T\&&) | Moving constructor. Constructs a delegate from the specified function object. |
 |  [Delegate](./delegate/)(MemberType ClassType::*, ClassType *) | Constructor. Constructs a delegate that points to the specified non-static method of the specified object. |
-|  [Delegate](./delegate/)(MemberType ClassType::*, const [SharedPtr](../sharedptr/)\<ClassType\>\&) | Constructor. Constructs a delegate that points to the specified non-static method of the specified object. |
+|  [Delegate](./delegate/)(MemberType MemberClass::*, const [SharedPtr](../sharedptr/)\<ClassType\>\&) | Constructor. Constructs a delegate that points to the specified non-static method of the specified object. |
 |  [Delegate](./delegate/)(std::function\<R(Args...)>) | Constructs a delegate object that points to an std::function function object. |
-| **bool** [Empty](./empty/)() | Determines if the current delegate object is empty, e.g. does not point to any entity. |
-| ReturnType [operator()](./operator_call/)(ArgumentTypes...) | Invokes a function, method or a function object that is pointed to by current delegate object. |
+| **bool** [Empty](./empty/)() const | Determines if the current delegate object is empty, e.g. does not point to any entity. |
+| ReturnType [operator()](./operator_call/)(ArgumentTypes...) const | Invokes a function, method or a function object that is pointed to by current delegate object. |
 | [Delegate](./delegate/)\& [operator=](./operator_equal/)(const [Delegate](./delegate/)\&) |  |
 | [Delegate](./delegate/)\& [operator=](./operator_equal/)([Delegate](./delegate/)\&&) | Moving assignment operator. Takes the ownership of an entity pointed to by the specified delegate. |
 | **bool** [operator==](./operator_equal_equal/)(const [Delegate](./delegate/)\&) const | Compares two delegate objects to check if they point to the same entity. |

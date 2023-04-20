@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/webrequest/set_prefixlist/
 ---
-## WebRequest::set_PrefixList([System::SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::List](../../../system.collections.generic/list/)\<[System::SharedPtr](../../../system/sharedptr/)\<**WebRequest::WebRequestPrefixElement**\>\>\>) method
+## WebRequest::set_PrefixList(System::SharedPtr\<Collections::Generic::List\<System::SharedPtr\<WebRequest::WebRequestPrefixElement\>\>\>) method
 
 
 Sets the prefix list.

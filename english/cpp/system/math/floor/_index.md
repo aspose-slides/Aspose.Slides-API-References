@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/math/floor/
 ---
-## Math::Floor(const [Decimal](../../decimal/)\&) method
+## Math::Floor(const Decimal\&) method
 
 
 Returns the largest integral value that is less than or equal to the specified value.
@@ -26,13 +26,7 @@ static Decimal System::Math::Floor(const Decimal &d)
 
 The largest integral value that is less than or equal to **d**
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Floor(**double**) method
+## Math::Floor(double) method
 
 
 Returns the largest integral value that is less than or equal to the specified value.
@@ -54,6 +48,7 @@ The largest integral value that is less than or equal to **d**
 
 ## See Also
 
+* Class [Decimal](../../decimal/)
 * Struct [Math](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

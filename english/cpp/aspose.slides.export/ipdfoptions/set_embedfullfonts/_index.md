@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.export/ipdfoptions/set_embedfullfonts/
 ---
-## IPdfOptions::set_EmbedFullFonts(**bool**) method
+## IPdfOptions::set_EmbedFullFonts(bool) method
 
 
 Determines if all characters of font should be embedded or only used subset. Write **bool**.

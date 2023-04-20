@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system.globalization/numberformatinfo/set_positiveinfinitysymbol/
 ---
-## NumberFormatInfo::set_PositiveInfinitySymbol(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_PositiveInfinitySymbol(const String\&) method
 
 
 Sets positive infinity symbol.

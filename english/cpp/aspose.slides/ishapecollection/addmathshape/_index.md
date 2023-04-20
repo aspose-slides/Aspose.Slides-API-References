@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides/ishapecollection/addmathshape/
 ---
-## IShapeCollection::AddMathShape(**float**, **float**, **float**, **float**) method
+## IShapeCollection::AddMathShape(float, float, float, float) method
 
 
 Creates a new [AutoShape](../../autoshape/) of the type Rectangle to host mathematical content inside and adds it to the end of the collection.

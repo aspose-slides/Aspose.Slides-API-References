@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/alphaceiling/equals/
 ---
-## AlphaCeiling::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## AlphaCeiling::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [AlphaCeiling](../) is equal to the current [AlphaCeiling](../).

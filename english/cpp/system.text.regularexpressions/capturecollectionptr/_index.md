@@ -3,7 +3,7 @@ title: CaptureCollectionPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer to capture collection.
 type: docs
-weight: 157
+weight: 144
 url: /cpp/system.text.regularexpressions/capturecollectionptr/
 ---
 ## CaptureCollectionPtr typedef

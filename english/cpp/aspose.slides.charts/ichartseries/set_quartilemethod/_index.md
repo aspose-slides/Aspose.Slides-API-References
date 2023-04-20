@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/aspose.slides.charts/ichartseries/set_quartilemethod/
 ---
-## IChartSeries::set_QuartileMethod([QuartileMethodType](../../quartilemethodtype/)) method
+## IChartSeries::set_QuartileMethod(QuartileMethodType) method
 
 
 Represents quartile method. Applies only to BoxAndWhisker charts.

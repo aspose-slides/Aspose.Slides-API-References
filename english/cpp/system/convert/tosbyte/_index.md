@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system/convert/tosbyte/
 ---
-## Convert::ToSByte(**bool**) method
+## Convert::ToSByte(bool) method
 
 
 Converts the specified boolean value to an equivalent 8-bit signed integer.
@@ -15,12 +15,7 @@ Converts the specified boolean value to an equivalent 8-bit signed integer.
 static constexpr int8_t System::Convert::ToSByte(bool value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**uint8_t**) method
+## Convert::ToSByte(uint8_t) method
 
 
 Converts the specified 8-bit unsigned integer to an equivalent 8-bit signed integer.
@@ -29,12 +24,7 @@ Converts the specified 8-bit unsigned integer to an equivalent 8-bit signed inte
 static int8_t System::Convert::ToSByte(uint8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**int8_t**) method
+## Convert::ToSByte(int8_t) method
 
 
 Returns the specified 8-bit signed integer.
@@ -43,12 +33,7 @@ Returns the specified 8-bit signed integer.
 static constexpr int8_t System::Convert::ToSByte(int8_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**uint16_t**) method
+## Convert::ToSByte(uint16_t) method
 
 
 Converts the specified 16-bit unsigned integer to an equivalent 8-bit signed integer.
@@ -57,12 +42,7 @@ Converts the specified 16-bit unsigned integer to an equivalent 8-bit signed int
 static int8_t System::Convert::ToSByte(uint16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**int16_t**) method
+## Convert::ToSByte(int16_t) method
 
 
 Converts the specified 16-bit signed integer to an equivalent 8-bit signed integer.
@@ -71,12 +51,7 @@ Converts the specified 16-bit signed integer to an equivalent 8-bit signed integ
 static int8_t System::Convert::ToSByte(int16_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**uint32_t**) method
+## Convert::ToSByte(uint32_t) method
 
 
 Converts the specified 32-bit unsigned integer to an equivalent 8-bit signed integer.
@@ -85,12 +60,7 @@ Converts the specified 32-bit unsigned integer to an equivalent 8-bit signed int
 static int8_t System::Convert::ToSByte(uint32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**int32_t**) method
+## Convert::ToSByte(int32_t) method
 
 
 Converts the specified 32-bit signed integer to an equivalent 8-bit signed integer.
@@ -99,12 +69,7 @@ Converts the specified 32-bit signed integer to an equivalent 8-bit signed integ
 static int8_t System::Convert::ToSByte(int32_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**uint64_t**) method
+## Convert::ToSByte(uint64_t) method
 
 
 Converts the specified 64-bit unsigned integer to an equivalent 8-bit signed integer.
@@ -113,12 +78,7 @@ Converts the specified 64-bit unsigned integer to an equivalent 8-bit signed int
 static int8_t System::Convert::ToSByte(uint64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**int64_t**) method
+## Convert::ToSByte(int64_t) method
 
 
 Converts the specified 64-bit signed integer to an equivalent 8-bit signed integer.
@@ -127,12 +87,7 @@ Converts the specified 64-bit signed integer to an equivalent 8-bit signed integ
 static int8_t System::Convert::ToSByte(int64_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**float**) method
+## Convert::ToSByte(float) method
 
 
 Converts the specified float number to an equivalent 8-bit signed integer.
@@ -141,12 +96,7 @@ Converts the specified float number to an equivalent 8-bit signed integer.
 static int8_t System::Convert::ToSByte(float value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(**double**) method
+## Convert::ToSByte(double) method
 
 
 Converts the specified double number to an equivalent 8-bit signed integer.
@@ -155,12 +105,7 @@ Converts the specified double number to an equivalent 8-bit signed integer.
 static int8_t System::Convert::ToSByte(double value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [Decimal](../../decimal/)\&) method
+## Convert::ToSByte(const Decimal\&) method
 
 
 Converts the specified decimal number to an equivalent 8-bit signed integer.
@@ -169,12 +114,6 @@ Converts the specified decimal number to an equivalent 8-bit signed integer.
 static int8_t System::Convert::ToSByte(const Decimal &value)
 ```
 
-## See Also
-
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToSByte(char_t) method
 
 
@@ -184,12 +123,7 @@ Converts the specified unicode character to an equivalent 8-bit signed integer.
 static int8_t System::Convert::ToSByte(char_t value)
 ```
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte([DateTime](../../datetime/)) method
+## Convert::ToSByte(DateTime) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -198,12 +132,6 @@ Conversion is not supported. Always throws InvalidCastException.
 static int8_t System::Convert::ToSByte(DateTime value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToSByte(std::nullptr_t) method
 
 
@@ -218,11 +146,6 @@ static constexpr int8_t System::Convert::ToSByte(std::nullptr_t)
 
 Zero.
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToSByte(const char_t *) method
 
 
@@ -243,12 +166,7 @@ static int8_t System::Convert::ToSByte(const char_t *value)
 
 The 8-bit integer value equal to the number represented by the specified c-string
 
-## See Also
-
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&) method
+## Convert::ToSByte(const String\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 8-bit integer value.
@@ -268,13 +186,7 @@ static int8_t System::Convert::ToSByte(const String &value)
 
 The 8-bit integer value equal to the number represented by the specified string
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, int) method
+## Convert::ToSByte(const String\&, int) method
 
 
 Converts the specified string containing the string representation of a number in the specified base to the equivalent 8-bit integer value.
@@ -295,13 +207,7 @@ static int8_t System::Convert::ToSByte(const String &value, int from_base)
 
 The 8-bit integer value equal to the number represented by the specified string
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToSByte(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent unsigned 8-bit integer value using the provided formatting information.
@@ -322,15 +228,7 @@ static int8_t System::Convert::ToSByte(const String &value, const SharedPtr<IFor
 
 The 8-bit integer value equal to the number represented by the specified string
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToSByte(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -339,15 +237,7 @@ The 8-bit integer value equal to the number represented by the specified string
 static int8_t System::Convert::ToSByte(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToSByte(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -356,15 +246,7 @@ static int8_t System::Convert::ToSByte(const String &value, const SharedPtr<Glob
 static int8_t System::Convert::ToSByte(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToSByte(const String\&, std::nullptr_t) method
 
 
 
@@ -373,13 +255,7 @@ static int8_t System::Convert::ToSByte(const String &value, const SharedPtr<Glob
 static int8_t System::Convert::ToSByte(const String &value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToSByte(const String\&, Globalization::NumberStyles, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string containing the string representation of a number to the equivalent 8-bit integer value using the provided formatting information and number style.
@@ -401,16 +277,7 @@ static int8_t System::Convert::ToSByte(const String &value, Globalization::Numbe
 
 The unsigned 8-bit integer value equal to the number represented by the specified string
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToSByte(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -419,16 +286,7 @@ The unsigned 8-bit integer value equal to the number represented by the specifie
 static int8_t System::Convert::ToSByte(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToSByte(const String\&, Globalization::NumberStyles, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -437,16 +295,7 @@ static int8_t System::Convert::ToSByte(const String &value, Globalization::Numbe
 static int8_t System::Convert::ToSByte(const String &value, Globalization::NumberStyles styles, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [String](../../string/)\&, [Globalization::NumberStyles](../../../system.globalization/numberstyles/), std::nullptr_t) method
+## Convert::ToSByte(const String\&, Globalization::NumberStyles, std::nullptr_t) method
 
 
 
@@ -455,14 +304,7 @@ static int8_t System::Convert::ToSByte(const String &value, Globalization::Numbe
 static int8_t System::Convert::ToSByte(const String &value, Globalization::NumberStyles styles, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Enum [NumberStyles](../../../system.globalization/numberstyles/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte([Enum](../../enum/)) method
+## Convert::ToSByte(Enum) method
 
 
 
@@ -471,13 +313,7 @@ static int8_t System::Convert::ToSByte(const String &value, Globalization::Numbe
 template<typename Enum,typename> static int8_t System::Convert::ToSByte(Enum value)
 ```
 
-## See Also
-
-* Struct [Enum](../../enum/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToSByte(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToSByte(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified boxed value to equivalent 8-bit integer value.
@@ -500,9 +336,16 @@ An 8-bit integer value equivalent to the specified boxed value
 
 ## See Also
 
+* Enum [NumberStyles](../../../system.globalization/numberstyles/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
+* Class [Decimal](../../decimal/)
+* Class [DateTime](../../datetime/)
+* Class [String](../../string/)
 * Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
+* Class [Object](../../object/)
 * Struct [Convert](../)
+* Struct [Enum](../../enum/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

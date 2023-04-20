@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.animation/behaviorcollection/idx_get/
 ---
-## BehaviorCollection::idx_get(**int32_t**) method
+## BehaviorCollection::idx_get(int32_t) method
 
 
 Retirns a behavior at the specified index.

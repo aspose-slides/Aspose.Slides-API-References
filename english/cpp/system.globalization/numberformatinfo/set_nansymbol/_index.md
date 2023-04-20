@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.globalization/numberformatinfo/set_nansymbol/
 ---
-## NumberFormatInfo::set_NaNSymbol(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_NaNSymbol(const String\&) method
 
 
 Sets Not-a-Number symbol.

@@ -20,14 +20,7 @@ virtual System::SharedPtr<IGroupShape> Aspose::Slides::IShapeCollection::AddGrou
 
 Created [GroupShape](../../groupshape/) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IGroupShape](../../igroupshape/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::AddGroupShape([System::SharedPtr](../../../system/sharedptr/)\<[ISvgImage](../../isvgimage/)\>, **float**, **float**, **float**, **float**) method
+## IShapeCollection::AddGroupShape(System::SharedPtr\<ISvgImage\>, float, float, float, float) method
 
 
 Creates a new [GroupShape](../../groupshape/), fills it with converted shapes from SVG and adds it to the end of the collection.
@@ -55,7 +48,7 @@ Created [GroupShape](../../groupshape/) object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IGroupShape](../../igroupshape/)
-* Class [ISvgImage](../../isvgimage/)
 * Class [IShapeCollection](../)
+* Class [ISvgImage](../../isvgimage/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

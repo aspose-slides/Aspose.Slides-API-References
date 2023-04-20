@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system/convert/todatetime/
 ---
-## Convert::ToDateTime(**bool**) method
+## Convert::ToDateTime(bool) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -15,13 +15,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(bool value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**uint8_t**) method
+## Convert::ToDateTime(uint8_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -30,13 +24,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(uint8_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**int8_t**) method
+## Convert::ToDateTime(int8_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -45,13 +33,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(int8_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**uint16_t**) method
+## Convert::ToDateTime(uint16_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -60,13 +42,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(uint16_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**int16_t**) method
+## Convert::ToDateTime(int16_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -75,13 +51,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(int16_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**uint32_t**) method
+## Convert::ToDateTime(uint32_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -90,13 +60,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(uint32_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**int32_t**) method
+## Convert::ToDateTime(int32_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -105,13 +69,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(int32_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**uint64_t**) method
+## Convert::ToDateTime(uint64_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -120,13 +78,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(uint64_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**int64_t**) method
+## Convert::ToDateTime(int64_t) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -135,13 +87,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(int64_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**float**) method
+## Convert::ToDateTime(float) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -150,13 +96,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(float value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(**double**) method
+## Convert::ToDateTime(double) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -165,13 +105,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(double value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(const [Decimal](../../decimal/)\&) method
+## Convert::ToDateTime(const Decimal\&) method
 
 
 Conversion is not supported. Always throws InvalidCastException.
@@ -180,13 +114,6 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(const Decimal &value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToDateTime(char_t) method
 
 
@@ -196,13 +123,7 @@ Conversion is not supported. Always throws InvalidCastException.
 static DateTime System::Convert::ToDateTime(char_t value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime([DateTime](../../datetime/)) method
+## Convert::ToDateTime(DateTime) method
 
 
 Returns the specified date and time.
@@ -211,13 +132,7 @@ Returns the specified date and time.
 static constexpr DateTime System::Convert::ToDateTime(DateTime value)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(const [String](../../string/)\&) method
+## Convert::ToDateTime(const String\&) method
 
 
 Converts the specified string to an instance of [DateTime](../../datetime/) class.
@@ -237,14 +152,7 @@ static DateTime System::Convert::ToDateTime(const String &value)
 
 An instance of [DateTime](../../datetime/) class representing the date and time information represented by the specified string
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDateTime(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified string to an instance of [DateTime](../../datetime/) class using the provided formatting information.
@@ -265,16 +173,7 @@ static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr
 
 An instance of [DateTime](../../datetime/) class representing the date and time information represented by the specified string
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToDateTime(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -283,16 +182,7 @@ An instance of [DateTime](../../datetime/) class representing the date and time 
 static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&) method
+## Convert::ToDateTime(const String\&, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) method
 
 
 
@@ -301,16 +191,7 @@ static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr
 static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToDateTime(const String\&, std::nullptr_t) method
 
 
 
@@ -319,14 +200,7 @@ static DateTime System::Convert::ToDateTime(const String &value, const SharedPtr
 static DateTime System::Convert::ToDateTime(const String &value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToDateTime(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToDateTime(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified boxed value to equivalent [DateTime](../../datetime/) value.
@@ -349,10 +223,14 @@ A [DateTime](../../datetime/) value equivalent to the specified boxed value
 
 ## See Also
 
-* Class [DateTime](../../datetime/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
+* Class [DateTime](../../datetime/)
+* Class [Decimal](../../decimal/)
+* Class [String](../../string/)
 * Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
+* Class [Object](../../object/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

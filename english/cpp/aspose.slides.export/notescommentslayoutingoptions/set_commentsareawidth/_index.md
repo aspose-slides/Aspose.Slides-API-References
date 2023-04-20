@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.export/notescommentslayoutingoptions/set_commentsareawidth/
 ---
-## NotesCommentsLayoutingOptions::set_CommentsAreaWidth(**int32_t**) method
+## NotesCommentsLayoutingOptions::set_CommentsAreaWidth(int32_t) method
 
 
 Sets the width of the comment output area in pixels (Applies only if comments are displayed on the right).

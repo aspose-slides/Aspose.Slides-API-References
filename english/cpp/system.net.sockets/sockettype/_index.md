@@ -3,7 +3,7 @@ title: SocketType
 second_title: Aspose.Slides for C++ API Reference
 description: Enumerates the socket types.
 type: docs
-weight: 131
+weight: 105
 url: /cpp/system.net.sockets/sockettype/
 ---
 ## SocketType enum

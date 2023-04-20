@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections.generic/details_keynotfoundexception/is/
 ---
-## Details_KeyNotFoundException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_KeyNotFoundException::Is(const System::TypeInfo\&) const method
 
 
 

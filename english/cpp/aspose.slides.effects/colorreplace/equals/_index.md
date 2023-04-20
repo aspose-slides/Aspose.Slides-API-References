@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.effects/colorreplace/equals/
 ---
-## ColorReplace::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ColorReplace::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [ColorReplace](../) is equal to the current [ColorReplace](../).

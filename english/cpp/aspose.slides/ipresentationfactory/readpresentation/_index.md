@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/ipresentationfactory/readpresentation/
 ---
-## IPresentationFactory::ReadPresentation([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## IPresentationFactory::ReadPresentation(System::ArrayPtr\<uint8_t\>) method
 
 
 Reads an existing presentation from array
@@ -26,15 +26,7 @@ virtual System::SharedPtr<IPresentation> Aspose::Slides::IPresentationFactory::R
 
 Read presentation
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentation](../../ipresentation/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [IPresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationFactory::ReadPresentation([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::SharedPtr](../../../system/sharedptr/)\<[ILoadOptions](../../iloadoptions/)\>) method
+## IPresentationFactory::ReadPresentation(System::ArrayPtr\<uint8_t\>, System::SharedPtr\<ILoadOptions\>) method
 
 
 Reads an existing presentation from array with additional load options
@@ -55,16 +47,7 @@ virtual System::SharedPtr<IPresentation> Aspose::Slides::IPresentationFactory::R
 
 Read presentation
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentation](../../ipresentation/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [ILoadOptions](../../iloadoptions/)
-* Class [IPresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationFactory::ReadPresentation([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## IPresentationFactory::ReadPresentation(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Reads an existing presentation from stream
@@ -84,15 +67,7 @@ virtual System::SharedPtr<IPresentation> Aspose::Slides::IPresentationFactory::R
 
 Read presentation
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentation](../../ipresentation/)
-* Class [Stream](../../../system.io/stream/)
-* Class [IPresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationFactory::ReadPresentation([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ILoadOptions](../../iloadoptions/)\>) method
+## IPresentationFactory::ReadPresentation(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<ILoadOptions\>) method
 
 
 Reads an existing presentation from stream with additional load options
@@ -113,16 +88,7 @@ virtual System::SharedPtr<IPresentation> Aspose::Slides::IPresentationFactory::R
 
 Read presentation
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentation](../../ipresentation/)
-* Class [Stream](../../../system.io/stream/)
-* Class [ILoadOptions](../../iloadoptions/)
-* Class [IPresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationFactory::ReadPresentation([System::String](../../../system/string/)) method
+## IPresentationFactory::ReadPresentation(System::String) method
 
 
 Reads an existing presentation from file
@@ -142,15 +108,7 @@ virtual System::SharedPtr<IPresentation> Aspose::Slides::IPresentationFactory::R
 
 Read presentation
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPresentation](../../ipresentation/)
-* Class [String](../../../system/string/)
-* Class [IPresentationFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationFactory::ReadPresentation([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[ILoadOptions](../../iloadoptions/)\>) method
+## IPresentationFactory::ReadPresentation(System::String, System::SharedPtr\<ILoadOptions\>) method
 
 
 Reads an existing presentation from stream with additional load options
@@ -174,9 +132,11 @@ Read presentation
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [IPresentation](../../ipresentation/)
-* Class [String](../../../system/string/)
-* Class [ILoadOptions](../../iloadoptions/)
 * Class [IPresentationFactory](../)
+* Class [ILoadOptions](../../iloadoptions/)
+* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

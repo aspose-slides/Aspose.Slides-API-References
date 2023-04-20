@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.export.xaml/xamloptions/set_outputsaver/
 ---
-## XamlOptions::set_OutputSaver([System::SharedPtr](../../../system/sharedptr/)\<[IXamlOutputSaver](../../ixamloutputsaver/)\>) method
+## XamlOptions::set_OutputSaver(System::SharedPtr\<IXamlOutputSaver\>) method
 
 
 Represents an implementation of IOutputSaver interface.

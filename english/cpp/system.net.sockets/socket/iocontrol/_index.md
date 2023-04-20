@@ -6,7 +6,7 @@ type: docs
 weight: 703
 url: /cpp/system.net.sockets/socket/iocontrol/
 ---
-## Socket::IOControl(**int32_t**, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Socket::IOControl(int32_t, System::ArrayPtr\<uint8_t\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Sets low-level operating modes for the socket.
@@ -28,13 +28,7 @@ int32_t System::Net::Sockets::Socket::IOControl(int32_t ioControlCode, System::A
 
 The number of bytes in the **optionOutValue** parameter.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::IOControl([IOControlCode](../../iocontrolcode/), [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## Socket::IOControl(IOControlCode, System::ArrayPtr\<uint8_t\>, System::ArrayPtr\<uint8_t\>) method
 
 
 Sets low-level operating modes for the socket.

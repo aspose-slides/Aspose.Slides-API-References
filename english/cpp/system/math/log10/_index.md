@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system/math/log10/
 ---
-## Math::Log10(**double**) method
+## Math::Log10(double) method
 
 
 Returns the base-10 logarithm of the specified value.

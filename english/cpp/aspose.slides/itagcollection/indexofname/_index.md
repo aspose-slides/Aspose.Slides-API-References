@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/itagcollection/indexofname/
 ---
-## ITagCollection::IndexOfName([System::String](../../../system/string/)) method
+## ITagCollection::IndexOfName(System::String) method
 
 
 Returns the zero-based index of the specified key in the collection.

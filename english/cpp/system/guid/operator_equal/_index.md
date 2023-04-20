@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/guid/operator_equal/
 ---
-## Guid::operator=(const [Guid](../)\&) method
+## Guid::operator=(const Guid\&) method
 
 
 Assigns to the current object the GUID value represented by the specified [Guid](../) object.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [Guid](../)
 * Class [Guid](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

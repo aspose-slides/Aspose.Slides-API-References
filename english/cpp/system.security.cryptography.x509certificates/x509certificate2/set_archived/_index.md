@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.security.cryptography.x509certificates/x509certificate2/set_archived/
 ---
-## X509Certificate2::set_Archived(**bool**) const method
+## X509Certificate2::set_Archived(bool) const method
 
 
 Sets a value indicating that certificate is archived.

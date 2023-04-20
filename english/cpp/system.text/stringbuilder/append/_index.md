@@ -26,12 +26,6 @@ StringBuilder * System::Text::StringBuilder::Append(char_t c)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Append(char_t, int) method
 
 
@@ -53,13 +47,7 @@ StringBuilder * System::Text::StringBuilder::Append(char_t c, int count)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\&) method
+## StringBuilder::Append(const ArrayPtr\<char_t\>\&) method
 
 
 Adds characters array to builder.
@@ -79,14 +67,7 @@ StringBuilder * System::Text::StringBuilder::Append(const ArrayPtr<char_t> &arr)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(const [ArrayPtr](../../../system/arrayptr/)\<char_t\>\&, int, int) method
+## StringBuilder::Append(const ArrayPtr\<char_t\>\&, int, int) method
 
 
 Adds characters array slice to builder.
@@ -108,14 +89,7 @@ StringBuilder * System::Text::StringBuilder::Append(const ArrayPtr<char_t> &arr,
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(const [String](../../../system/string/)\&) method
+## StringBuilder::Append(const String\&) method
 
 
 Adds string to builder.
@@ -135,14 +109,7 @@ StringBuilder * System::Text::StringBuilder::Append(const String &str)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(const [String](../../../system/string/)\&, int, int) method
+## StringBuilder::Append(const String\&, int, int) method
 
 
 Adds string slice to builder.
@@ -164,14 +131,7 @@ StringBuilder * System::Text::StringBuilder::Append(const String &str, int start
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [String](../../../system/string/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(const [SharedPtr](../../../system/sharedptr/)\<T\>\&) method
+## StringBuilder::Append(const SharedPtr\<T\>\&) method
 
 
 Adds object's string representation to builder.
@@ -197,14 +157,7 @@ template<class T> StringBuilder * System::Text::StringBuilder::Append(const Shar
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(const [SharedPtr](../../../system/sharedptr/)\<[StringBuilder](../)\>\&) method
+## StringBuilder::Append(const SharedPtr\<StringBuilder\>\&) method
 
 
 Adds builder's content to builder.
@@ -224,14 +177,7 @@ StringBuilder * System::Text::StringBuilder::Append(const SharedPtr<StringBuilde
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(**float**) method
+## StringBuilder::Append(float) method
 
 
 Adds floating point value to builder.
@@ -251,13 +197,7 @@ StringBuilder * System::Text::StringBuilder::Append(float f)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## StringBuilder::Append(**double**) method
+## StringBuilder::Append(double) method
 
 
 Adds floating point value to builder.
@@ -277,12 +217,6 @@ StringBuilder * System::Text::StringBuilder::Append(double df)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Append(int) method
 
 
@@ -303,12 +237,6 @@ StringBuilder * System::Text::StringBuilder::Append(int i)
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Append(T) method
 
 
@@ -335,12 +263,6 @@ template<typename T> std::enable_if<std::is_arithmetic<T>::value, StringBuilder 
 
 This pointer.
 
-## See Also
-
-* Class [StringBuilder](../)
-* Class [StringBuilder](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
 ## StringBuilder::Append(E) method
 
 
@@ -369,7 +291,9 @@ This pointer.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [StringBuilder](../)
-* Class [StringBuilder](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Text](../../)
 * Library [Aspose.Slides](../../../)

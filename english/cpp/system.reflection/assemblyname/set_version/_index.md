@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.reflection/assemblyname/set_version/
 ---
-## AssemblyName::set_Version(const [Version](../../../system/version/)\&) method
+## AssemblyName::set_Version(const Version\&) method
 
 
 Sets assembly version.

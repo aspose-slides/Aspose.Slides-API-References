@@ -3,10 +3,10 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1886
+weight: 1860
 url: /cpp/system/operator_not_equal/
 ---
-## System::operator!=([ArraySegment](../arraysegment/)\<T\>, [ArraySegment](../arraysegment/)\<T\>) function
+## System::operator!=(ArraySegment\<T\>, ArraySegment\<T\>) function
 
 
 
@@ -15,12 +15,7 @@ url: /cpp/system/operator_not_equal/
 template<typename T> bool System::operator!=(ArraySegment<T> a, ArraySegment<T> b)
 ```
 
-## See Also
-
-* Class [ArraySegment](../arraysegment/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(std::nullptr_t, [DateTime](../datetime/)) function
+## System::operator!=(std::nullptr_t, DateTime) function
 
 
 
@@ -29,12 +24,7 @@ template<typename T> bool System::operator!=(ArraySegment<T> a, ArraySegment<T> 
 constexpr bool System::operator!=(std::nullptr_t, DateTime)
 ```
 
-## See Also
-
-* Class [DateTime](../datetime/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(std::nullptr_t, const [DateTimeOffset](../datetimeoffset/)\&) function
+## System::operator!=(std::nullptr_t, const DateTimeOffset\&) function
 
 
 
@@ -43,12 +33,7 @@ constexpr bool System::operator!=(std::nullptr_t, DateTime)
 constexpr bool System::operator!=(std::nullptr_t, const DateTimeOffset &)
 ```
 
-## See Also
-
-* Class [DateTimeOffset](../datetimeoffset/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(std::nullptr_t, const [Nullable](../nullable/)\<T\>\&) function
+## System::operator!=(std::nullptr_t, const Nullable\<T\>\&) function
 
 
 Determines if the specified [Nullable](../nullable/) object represents a value that is not equal to null.
@@ -68,12 +53,7 @@ template<typename T> bool System::operator!=(std::nullptr_t, const Nullable<T> &
 
 True if the specified object represents non-null value, false otherwise
 
-## See Also
-
-* Class [Nullable](../nullable/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(const T1\&, const [Nullable](../nullable/)\<T2\>\&) function
+## System::operator!=(const T1\&, const Nullable\<T2\>\&) function
 
 
 Determines if the specified value is not equal to the value represented by the specified [Nullable](../nullable/) object by applying [operator!=()](./) to these values.
@@ -101,13 +81,7 @@ template<typename T1,typename T2> std::enable_if<!IsNullable<T1>::value, bool>::
 
 True if the comparands are not equal, otherwise - false
 
-## See Also
-
-* Struct [IsNullable](../isnullable/)
-* Class [Nullable](../nullable/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(const [SmartPtr](../smartptr/)\<X\>\&, const [SmartPtr](../smartptr/)\<Y\>\&) function
+## System::operator!=(const SmartPtr\<X\>\&, const SmartPtr\<Y\>\&) function
 
 
 Non-equal-compares two smart pointers.
@@ -135,12 +109,7 @@ template<class X,class Y> bool System::operator!=(const SmartPtr<X> &x, const Sm
 
 False if pointers match, true otherwise.
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=([SmartPtr](../smartptr/)\<X\> const\&, std::nullptr_t) function
+## System::operator!=(SmartPtr\<X\> const\&, std::nullptr_t) function
 
 
 Checks if smart pointer is not null.
@@ -166,12 +135,7 @@ template<class X> bool System::operator!=(SmartPtr<X> const &x, std::nullptr_t)
 
 False if pointer is null, true otherwise.
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(std::nullptr_t, [SmartPtr](../smartptr/)\<X\> const\&) function
+## System::operator!=(std::nullptr_t, SmartPtr\<X\> const\&) function
 
 
 Checks if smart pointer is not null.
@@ -197,12 +161,7 @@ template<class X> bool System::operator!=(std::nullptr_t, SmartPtr<X> const &x)
 
 False if pointer is null, true otherwise.
 
-## See Also
-
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(const [SmartPtr](../smartptr/)\<X\>\&, const Y *) function
+## System::operator!=(const SmartPtr\<X\>\&, const Y *) function
 
 
 Inequality comparison smart pointer against simple (C) pointer.
@@ -230,13 +189,7 @@ template<class X,class Y> std::enable_if<std::is_base_of<Object, Y>::value &&det
 
 False if pointers match, true otherwise.
 
-## See Also
-
-* Class [Object](../object/)
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(const X *, const [SmartPtr](../smartptr/)\<Y\>\&) function
+## System::operator!=(const X *, const SmartPtr\<Y\>\&) function
 
 
 Equality comparison smart pointer against simple (C) pointer.
@@ -264,13 +217,7 @@ template<class X,class Y> std::enable_if<std::is_base_of<Object, X>::value &&det
 
 False if pointers match, true otherwise.
 
-## See Also
-
-* Class [Object](../object/)
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(Chars\&, const [String](../string/)\&) function
+## System::operator!=(Chars\&, const String\&) function
 
 
 [String](../string/) comparison.
@@ -297,12 +244,7 @@ template<class Chars,typename std::enable_if< IsStringLiteral< Chars, char_t >::
 
 false if strings match, true otherwise.
 
-## See Also
-
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(T\&, const [String](../string/)\&) function
+## System::operator!=(T\&, const String\&) function
 
 
 [String](../string/) comparison.
@@ -329,12 +271,7 @@ template<class T,typename std::enable_if< IsStringPointer< T, char_t >::value >:
 
 false if strings match, true otherwise.
 
-## See Also
-
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(const [SharedPtr](../sharedptr/)\<[Object](../object/)\>\&, const [String](../string/)\&) function
+## System::operator!=(const SharedPtr\<Object\>\&, const String\&) function
 
 
 [Object](../object/) and string comparison.
@@ -355,14 +292,7 @@ bool System::operator!=(const SharedPtr<Object> &left, const String &right)
 
 false if object string representation equals to string, true otherwise.
 
-## See Also
-
-* Typedef [SharedPtr](../sharedptr/)
-* Class [Object](../object/)
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(std::nullptr_t, const [String](../string/)\&) function
+## System::operator!=(std::nullptr_t, const String\&) function
 
 
 Checks if string is null.
@@ -382,12 +312,7 @@ bool System::operator!=(std::nullptr_t, const String &str)
 
 false if string is null, true otherwise.
 
-## See Also
-
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(std::nullptr_t, [TimeSpan](../timespan/)) function
+## System::operator!=(std::nullptr_t, TimeSpan) function
 
 
 
@@ -396,12 +321,7 @@ false if string is null, true otherwise.
 constexpr bool System::operator!=(std::nullptr_t, TimeSpan)
 ```
 
-## See Also
-
-* Class [TimeSpan](../timespan/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::operator!=(const [SharedPtr](../sharedptr/)\<[Uri](../uri/)\>\&, const [SharedPtr](../sharedptr/)\<[Uri](../uri/)\>\&) function
+## System::operator!=(const SharedPtr\<Uri\>\&, const SharedPtr\<Uri\>\&) function
 
 
 Determines if the URIs represented by the current and specified objects are not equal.
@@ -425,6 +345,15 @@ True if URIs not equal, otherwise - false
 ## See Also
 
 * Typedef [SharedPtr](../sharedptr/)
+* Class [ArraySegment](../arraysegment/)
+* Class [DateTime](../datetime/)
+* Class [DateTimeOffset](../datetimeoffset/)
+* Class [Nullable](../nullable/)
+* Class [SmartPtr](../smartptr/)
+* Class [Object](../object/)
+* Class [String](../string/)
+* Class [TimeSpan](../timespan/)
 * Class [Uri](../uri/)
+* Struct [IsNullable](../isnullable/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

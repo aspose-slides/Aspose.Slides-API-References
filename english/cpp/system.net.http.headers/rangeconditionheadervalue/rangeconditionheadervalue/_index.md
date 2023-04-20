@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/rangeconditionheadervalue/rangeconditionheadervalue/
 ---
-## RangeConditionHeaderValue::RangeConditionHeaderValue([DateTimeOffset](../../../system/datetimeoffset/)) constructor
+## RangeConditionHeaderValue::RangeConditionHeaderValue(DateTimeOffset) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::Headers::RangeConditionHeaderValue::RangeConditionHeaderValue
 | --- | --- | --- |
 | date | [DateTimeOffset](../../../system/datetimeoffset/) | The date value. |
 
-## See Also
-
-* Class [DateTimeOffset](../../../system/datetimeoffset/)
-* Class [RangeConditionHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## RangeConditionHeaderValue::RangeConditionHeaderValue([System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../../entitytagheadervalue/)\>) constructor
+## RangeConditionHeaderValue::RangeConditionHeaderValue(System::SharedPtr\<EntityTagHeaderValue\>) constructor
 
 
 Constructs a new instance.
@@ -44,14 +38,7 @@ System::Net::Http::Headers::RangeConditionHeaderValue::RangeConditionHeaderValue
 | --- | --- | --- |
 | entityTag | [System::SharedPtr](../../../system/sharedptr/)\<[EntityTagHeaderValue](../../entitytagheadervalue/)\> | The 'ETag' header value. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EntityTagHeaderValue](../../entitytagheadervalue/)
-* Class [RangeConditionHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## RangeConditionHeaderValue::RangeConditionHeaderValue([String](../../../system/string/)) constructor
+## RangeConditionHeaderValue::RangeConditionHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -69,7 +56,10 @@ System::Net::Http::Headers::RangeConditionHeaderValue::RangeConditionHeaderValue
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [DateTimeOffset](../../../system/datetimeoffset/)
 * Class [RangeConditionHeaderValue](../)
+* Class [EntityTagHeaderValue](../../entitytagheadervalue/)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

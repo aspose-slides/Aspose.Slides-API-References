@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.xml.schema/xmlschemavalidator/validateendelement/
 ---
-## XmlSchemaValidator::ValidateEndElement(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\&) method
+## XmlSchemaValidator::ValidateEndElement(const SharedPtr\<XmlSchemaInfo\>\&) method
 
 
 Verifies if the text content of the element is valid according to its data type for elements with simple content, and verifies if the content of the current element is complete for elements with complex content.
@@ -26,15 +26,7 @@ SharedPtr<Object> System::Xml::Schema::XmlSchemaValidator::ValidateEndElement(co
 
 The parsed, typed text value of the element if the element has simple content.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [XmlSchemaInfo](../../xmlschemainfo/)
-* Class [XmlSchemaValidator](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaValidator::ValidateEndElement(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaInfo](../../xmlschemainfo/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## XmlSchemaValidator::ValidateEndElement(const SharedPtr\<XmlSchemaInfo\>\&, const SharedPtr\<Object\>\&) method
 
 
 Verifies if the text content of the element specified is valid according to its data type.

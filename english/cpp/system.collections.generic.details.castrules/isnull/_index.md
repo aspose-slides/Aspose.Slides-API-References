@@ -3,7 +3,7 @@ title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks that the represented value is nullptr.
 type: docs
-weight: 27
+weight: 14
 url: /cpp/system.collections.generic.details.castrules/isnull/
 ---
 ## System::Collections::Generic::Details::CastRules::IsNull(T) function
@@ -26,11 +26,7 @@ template<typename T> bool System::Collections::Generic::Details::CastRules::IsNu
 
 Always returns false.
 
-## See Also
-
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
-## System::Collections::Generic::Details::CastRules::IsNull([SharedPtr](../../system/sharedptr/)\<T\>) function
+## System::Collections::Generic::Details::CastRules::IsNull(SharedPtr\<T\>) function
 
 
 Checks that the represented value is nullptr.
@@ -56,12 +52,7 @@ template<typename T> bool System::Collections::Generic::Details::CastRules::IsNu
 
 True if the value is nullptr, otherwise false.
 
-## See Also
-
-* Typedef [SharedPtr](../../system/sharedptr/)
-* Namespace [System::Collections::Generic::Details::CastRules](../)
-* Library [Aspose.Slides](../../)
-## System::Collections::Generic::Details::CastRules::IsNull([Nullable](../../system/nullable/)\<T\>) function
+## System::Collections::Generic::Details::CastRules::IsNull(Nullable\<T\>) function
 
 
 Checks that the represented value is nullptr.
@@ -89,6 +80,7 @@ True if the value is nullptr, otherwise false.
 
 ## See Also
 
+* Typedef [SharedPtr](../../system/sharedptr/)
 * Class [Nullable](../../system/nullable/)
 * Namespace [System::Collections::Generic::Details::CastRules](../)
 * Library [Aspose.Slides](../../)

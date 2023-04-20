@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.effects/imagetransformoperationcollection/idx_get/
 ---
-## ImageTransformOperationCollection::idx_get(**int32_t**) method
+## ImageTransformOperationCollection::idx_get(int32_t) method
 
 
 Returns an [ImageTransformOperation](../../imagetransformoperation/) from the collection by it's index.

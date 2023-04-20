@@ -20,12 +20,7 @@ virtual double System::Xml::XmlReader::ReadElementContentAsDouble()
 
 The element content as a double-precision floating-point number.
 
-## See Also
-
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsDouble([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsDouble(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as a double-precision floating-point number.
@@ -48,7 +43,7 @@ The element content as a double-precision floating-point number.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

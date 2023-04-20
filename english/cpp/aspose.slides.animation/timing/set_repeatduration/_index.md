@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.animation/timing/set_repeatduration/
 ---
-## Timing::set_RepeatDuration(**float**) method
+## Timing::set_RepeatDuration(float) method
 
 
 Describes the number of times the effect should repeat. Write **float**.

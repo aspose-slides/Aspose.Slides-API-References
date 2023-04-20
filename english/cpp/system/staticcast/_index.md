@@ -3,10 +3,10 @@ title: StaticCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs static cast on SmartPtr objects.
 type: docs
-weight: 2185
+weight: 1860
 url: /cpp/system/staticcast/
 ---
-## System::StaticCast([SmartPtr](../smartptr/)\<TFrom\> const\&) function
+## System::StaticCast(SmartPtr\<TFrom\> const\&) function
 
 
 Performs static cast on [SmartPtr](../smartptr/) objects.
@@ -36,13 +36,7 @@ Cast result if cast is allowed.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::StaticCast([WeakPtr](../weakptr/)\<TFrom\> const\&) function
+## System::StaticCast(WeakPtr\<TFrom\> const\&) function
 
 
 Performs static cast on [WeakPtr](../weakptr/) objects.
@@ -72,12 +66,6 @@ Cast result if cast is allowed.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [CastResult](../castresult/)
-* Class [WeakPtr](../weakptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::StaticCast(std::nullptr_t) function
 
 
@@ -101,11 +89,6 @@ nullptr.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [CastResult](../castresult/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::StaticCast(TFrom) function
 
 
@@ -115,10 +98,6 @@ Specialization for arithmetic types.
 template<typename TTo,typename TFrom> std::enable_if<std::is_arithmetic<TFrom>::value, TTo>::type System::StaticCast(TFrom value)
 ```
 
-## See Also
-
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::StaticCast(TTo) function
 
 
@@ -128,11 +107,6 @@ Process cast from [String](../string/) to [String](../string/).
 template<typename TTo> std::enable_if<std::is_same<TTo, System::String>::value, TTo>::type System::StaticCast(TTo value)
 ```
 
-## See Also
-
-* Class [String](../string/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::StaticCast(const TFrom *) function
 
 
@@ -142,10 +116,6 @@ Specialization for arithmetic types.
 template<typename TTo,typename TFrom> std::enable_if<std::is_arithmetic<TFrom>::value, TTo>::type System::StaticCast(const TFrom *value)
 ```
 
-## See Also
-
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::StaticCast(const TFrom\&) function
 
 
@@ -176,13 +146,6 @@ Cast result if cast is allowed.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Class [String](../string/)
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Struct [IsSmartPtr](../issmartptr/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
 ## System::StaticCast(const TFrom\&) function
 
 
@@ -213,12 +176,7 @@ Cast result if cast is allowed.
 Deprecated
 :   Left for backwards compatibility. Use ExplicitCast instead.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Namespace [System](../)
-* Library [Aspose.Slides](../../)
-## System::StaticCast([SmartPtr](../smartptr/)\<TFrom\>) function
+## System::StaticCast(SmartPtr\<TFrom\>) function
 
 
 Performs static cast on Objects to Exception objects.
@@ -250,8 +208,12 @@ Deprecated
 
 ## See Also
 
+* Class [SmartPtr](../smartptr/)
+* Class [WeakPtr](../weakptr/)
+* Class [String](../string/)
 * Class [Object](../object/)
 * Struct [IsExceptionWrapper](../isexceptionwrapper/)
-* Class [SmartPtr](../smartptr/)
+* Struct [CastResult](../castresult/)
+* Struct [IsSmartPtr](../issmartptr/)
 * Namespace [System](../)
 * Library [Aspose.Slides](../../)

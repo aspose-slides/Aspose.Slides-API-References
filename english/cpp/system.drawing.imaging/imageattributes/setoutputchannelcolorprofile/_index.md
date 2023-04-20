@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.drawing.imaging/imageattributes/setoutputchannelcolorprofile/
 ---
-## ImageAttributes::SetOutputChannelColorProfile(const [String](../../../system/string/)\&, [ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::SetOutputChannelColorProfile(const String\&, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.
@@ -18,8 +18,8 @@ void System::Drawing::Imaging::ImageAttributes::SetOutputChannelColorProfile(con
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [ColorAdjustType](../../coloradjusttype/)
+* Class [String](../../../system/string/)
 * Class [ImageAttributes](../)
 * Namespace [System::Drawing::Imaging](../../)
 * Library [Aspose.Slides](../../../)

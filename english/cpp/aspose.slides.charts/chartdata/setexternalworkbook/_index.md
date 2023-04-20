@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides.charts/chartdata/setexternalworkbook/
 ---
-## ChartData::SetExternalWorkbook([System::String](../../../system/string/)) method
+## ChartData::SetExternalWorkbook(System::String) method
 
 
 Sets external workbook as a data source for the chart. [Chart](../../chart/) data will be updated from the target workbook.
@@ -33,13 +33,7 @@ auto chartData = chart->get_ChartData();
 (System::AsCast<Aspose::Slides::Charts::ChartData>(chartData))->SetExternalWorkbook(u"../../workbook.xlsx");
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ChartData](../)
-* Namespace [Aspose::Slides::Charts](../../)
-* Library [Aspose.Slides](../../../)
-## ChartData::SetExternalWorkbook([System::String](../../../system/string/), **bool**) method
+## ChartData::SetExternalWorkbook(System::String, bool) method
 
 
 Sets external workbook as a data source for the chart.

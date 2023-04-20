@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/slideshowsettings/set_slideshowtype/
 ---
-## SlideShowSettings::set_SlideShowType([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::SlideShowType](../../slideshowtype/)\>) method
+## SlideShowSettings::set_SlideShowType(System::SharedPtr\<Aspose::Slides::SlideShowType\>) method
 
 
 Sets the slide show type. Represented by the following [SlideShowType](../../slideshowtype/) ancestors: [BrowsedAtKiosk](../../browsedatkiosk/), [PresentedBySpeaker](../../presentedbyspeaker/) and [BrowsedByIndividual](../../browsedbyindividual/)

@@ -27,11 +27,6 @@ int System::Globalization::ThaiBuddhistCalendar::GetLeapMonth(int year, int era)
 
 Leap month of the speicified year of the specified era or zero if the year has no leap month.
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::GetLeapMonth(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetLeapMonth(int year) const
 
 Leap month of the speicified year or zero if the year has no leap month.
 
-## See Also
-
-* Class [ThaiBuddhistCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ThaiBuddhistCalendar::GetLeapMonth(int, int) const method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.charts/errorbarsformat/set_format/
 ---
-## ErrorBarsFormat::set_Format([System::SharedPtr](../../../system/sharedptr/)\<[IFormat](../../iformat/)\>) method
+## ErrorBarsFormat::set_Format(System::SharedPtr\<IFormat\>) method
 
 
 Represents the format of the error bars. Write [IFormat](../../iformat/).

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http.headers/objectcollection/settemplateweakptr/
 ---
-## ObjectCollection::SetTemplateWeakPtr(**uint32_t**) method
+## ObjectCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

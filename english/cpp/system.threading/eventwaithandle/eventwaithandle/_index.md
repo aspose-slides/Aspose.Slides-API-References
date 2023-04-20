@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.threading/eventwaithandle/eventwaithandle/
 ---
-## EventWaitHandle::EventWaitHandle(**bool**, [EventResetMode](../../eventresetmode/)) constructor
+## EventWaitHandle::EventWaitHandle(bool, EventResetMode) constructor
 
 
 Constructor.

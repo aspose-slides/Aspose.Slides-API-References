@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.charts/axis/set_displayunit/
 ---
-## Axis::set_DisplayUnit([DisplayUnitType](../../displayunittype/)) method
+## Axis::set_DisplayUnit(DisplayUnitType) method
 
 
 Specifies the scaling value of the display units for the value axis. Write [DisplayUnitType](../../displayunittype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic.details/enumerableselectmanyadapter/enumerableselectmanyadapter/
 ---
-## EnumerableSelectManyAdapter::EnumerableSelectManyAdapter([SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../../system.collections.generic/ienumerable/)\<Source\>\>, const [Func](../../../system/func/)\<Source, [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../../system.collections.generic/ienumerable/)\<Result\>\>\>\&) constructor
+## EnumerableSelectManyAdapter::EnumerableSelectManyAdapter(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, SharedPtr\<IEnumerable\<Result\>\>\>\&) constructor
 
 
 

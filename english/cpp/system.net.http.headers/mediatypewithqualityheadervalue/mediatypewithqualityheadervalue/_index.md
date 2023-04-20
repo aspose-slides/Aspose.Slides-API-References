@@ -15,12 +15,7 @@ Constructs a new instance.
 System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::MediaTypeWithQualityHeaderValue()
 ```
 
-## See Also
-
-* Class [MediaTypeWithQualityHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## MediaTypeWithQualityHeaderValue::MediaTypeWithQualityHeaderValue([String](../../../system/string/)) constructor
+## MediaTypeWithQualityHeaderValue::MediaTypeWithQualityHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -36,13 +31,7 @@ System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::MediaTypeWithQualit
 | --- | --- | --- |
 | mediaType | [String](../../../system/string/) | A string representation of the media-type header value. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [MediaTypeWithQualityHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## MediaTypeWithQualityHeaderValue::MediaTypeWithQualityHeaderValue([String](../../../system/string/), **double**) constructor
+## MediaTypeWithQualityHeaderValue::MediaTypeWithQualityHeaderValue(String, double) constructor
 
 
 Constructs a new instance.
@@ -61,7 +50,7 @@ System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::MediaTypeWithQualit
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [MediaTypeWithQualityHeaderValue](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

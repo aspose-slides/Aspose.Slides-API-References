@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.smartart/ismartartnodecollection/idx_get/
 ---
-## ISmartArtNodeCollection::idx_get(**int32_t**) method
+## ISmartArtNodeCollection::idx_get(int32_t) method
 
 
 Returns node by index. Read-only [ISmartArtNode](../../ismartartnode/)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.xsl/ixsltcontextfunction/invoke/
 ---
-## IXsltContextFunction::Invoke([SharedPtr](../../../system/sharedptr/)\<[XsltContext](../../xsltcontext/)\>, [ArrayPtr](../../../system/arrayptr/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>, [SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::XPathNavigator](../../../system.xml.xpath/xpathnavigator/)\>) method
+## IXsltContextFunction::Invoke(SharedPtr\<XsltContext\>, ArrayPtr\<SharedPtr\<Object\>\>, SharedPtr\<System::Xml::XPath::XPathNavigator\>) method
 
 
 Provides the method to invoke the function with the given arguments in the given context.
@@ -31,9 +31,9 @@ An [Object](../../../system/object/) representing the return value of the functi
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [Object](../../../system/object/)
 * Class [XsltContext](../../xsltcontext/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [XPathNavigator](../../../system.xml.xpath/xpathnavigator/)
 * Class [IXsltContextFunction](../)
 * Namespace [System::Xml::Xsl](../../)

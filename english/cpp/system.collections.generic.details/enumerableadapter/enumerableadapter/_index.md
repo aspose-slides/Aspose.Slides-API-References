@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic.details/enumerableadapter/enumerableadapter/
 ---
-## EnumerableAdapter::EnumerableAdapter([SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../../system.collections.generic/ienumerable/)\<Source\>\>) constructor
+## EnumerableAdapter::EnumerableAdapter(SharedPtr\<IEnumerable\<Source\>\>) constructor
 
 
 

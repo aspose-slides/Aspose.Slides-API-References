@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/layoutslidecollection/remove/
 ---
-## LayoutSlideCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## LayoutSlideCollection::Remove(System::SharedPtr\<ILayoutSlide\>) method
 
 
 Removes a layout from the collection.

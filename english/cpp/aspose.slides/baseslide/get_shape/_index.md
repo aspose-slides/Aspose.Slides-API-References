@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/baseslide/get_shape/
 ---
-## BaseSlide::get_Shape(**int32_t**) method
+## BaseSlide::get_Shape(int32_t) method
 
 
 Returns the shape at the specified index. Read-only [Aspose::Slides::IShape](../../ishape/)

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/getdispositiontypelength/
 ---
-## ContentDispositionHeaderValue::GetDispositionTypeLength([String](../../../system/string/), **int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## ContentDispositionHeaderValue::GetDispositionTypeLength(String, int32_t, System::SharedPtr\<Object\>\&) method
 
 
 Converts a passed string from the specified index to an instance of the [ContentDispositionHeaderValue](../) class.
@@ -30,8 +30,8 @@ The length of a parsed substring, otherwise 0.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Object](../../../system/object/)
 * Class [ContentDispositionHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)

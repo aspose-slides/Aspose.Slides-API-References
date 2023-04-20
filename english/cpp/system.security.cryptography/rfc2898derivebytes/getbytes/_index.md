@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/rfc2898derivebytes/getbytes/
 ---
-## Rfc2898DeriveBytes::GetBytes(**int32_t**) method
+## Rfc2898DeriveBytes::GetBytes(int32_t) method
 
 
 Fills existing array elements with pseudo-random key bytes.

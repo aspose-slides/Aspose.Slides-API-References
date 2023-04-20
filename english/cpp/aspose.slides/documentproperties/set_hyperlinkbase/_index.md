@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/aspose.slides/documentproperties/set_hyperlinkbase/
 ---
-## DocumentProperties::set_HyperlinkBase([System::String](../../../system/string/)) method
+## DocumentProperties::set_HyperlinkBase(System::String) method
 
 
 Sets the HyperlinkBase document property. Write [System::String](../../../system/string/).

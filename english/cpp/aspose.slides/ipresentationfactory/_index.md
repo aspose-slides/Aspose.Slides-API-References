@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ipresentationfactory/
 Allows to create presentation via COM interface
 
 ```cpp
-class IPresentationFactory : public System::Object
+class IPresentationFactory : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/aspose.slides.export/iswfoptions/set_enablecontextmenu/
 ---
-## ISwfOptions::set_EnableContextMenu(**bool**) method
+## ISwfOptions::set_EnableContextMenu(bool) method
 
 
 Enable/disable context menu. Default is true.

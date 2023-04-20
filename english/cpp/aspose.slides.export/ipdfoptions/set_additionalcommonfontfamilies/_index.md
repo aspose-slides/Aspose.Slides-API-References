@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.export/ipdfoptions/set_additionalcommonfontfamilies/
 ---
-## IPdfOptions::set_AdditionalCommonFontFamilies([System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>) method
+## IPdfOptions::set_AdditionalCommonFontFamilies(System::ArrayPtr\<System::String\>) method
 
 
 Sets an array of user-defined names of font families which [Aspose.Slides](../../../aspose.slides/) should consider common. Write [System::String](../../../system/string/)[].

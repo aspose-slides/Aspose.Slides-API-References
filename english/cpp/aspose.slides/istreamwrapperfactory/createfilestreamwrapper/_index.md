@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/istreamwrapperfactory/createfilestreamwrapper/
 ---
-## IStreamWrapperFactory::CreateFileStreamWrapper([System::String](../../../system/string/), [System::IO::FileMode](../../../system.io/filemode/)) method
+## IStreamWrapperFactory::CreateFileStreamWrapper(System::String, System::IO::FileMode) method
 
 
 Creates FileStream with the specified path and creation mode.
@@ -27,16 +27,7 @@ virtual System::SharedPtr<IStreamWrapper> Aspose::Slides::IStreamWrapperFactory:
 
 Stream wrapper for COM interface [IStreamWrapper](../../istreamwrapper/)
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IStreamWrapper](../../istreamwrapper/)
-* Class [String](../../../system/string/)
-* Enum [FileMode](../../../system.io/filemode/)
-* Class [IStreamWrapperFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IStreamWrapperFactory::CreateFileStreamWrapper([System::String](../../../system/string/), [System::IO::FileMode](../../../system.io/filemode/), [System::IO::FileAccess](../../../system.io/fileaccess/)) method
+## IStreamWrapperFactory::CreateFileStreamWrapper(System::String, System::IO::FileMode, System::IO::FileAccess) method
 
 
 Creates FileStream with the specified path, creation mode, and read/write permission.
@@ -60,11 +51,11 @@ Stream wrapper for COM interface [IStreamWrapper](../../istreamwrapper/)
 
 ## See Also
 
+* Enum [FileMode](../../../system.io/filemode/)
+* Enum [FileAccess](../../../system.io/fileaccess/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IStreamWrapper](../../istreamwrapper/)
 * Class [String](../../../system/string/)
-* Enum [FileMode](../../../system.io/filemode/)
-* Enum [FileAccess](../../../system.io/fileaccess/)
 * Class [IStreamWrapperFactory](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

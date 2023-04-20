@@ -15,12 +15,7 @@ Initializes a new instance of the [SVGOptions](../) class.
 Aspose::Slides::Export::SVGOptions::SVGOptions()
 ```
 
-## See Also
-
-* Class [SVGOptions](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## SVGOptions::SVGOptions([System::SharedPtr](../../../system/sharedptr/)\<[ILinkEmbedController](../../ilinkembedcontroller/)\>) constructor
+## SVGOptions::SVGOptions(System::SharedPtr\<ILinkEmbedController\>) constructor
 
 
 Initializes a new instance of the [SVGOptions](../) class specifying the link embedding controller object.
@@ -44,7 +39,7 @@ Link embedding controller is a delegate object that is responsible for making de
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ILinkEmbedController](../../ilinkembedcontroller/)
 * Class [SVGOptions](../)
+* Class [ILinkEmbedController](../../ilinkembedcontroller/)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

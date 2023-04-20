@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system/math/cosh/
 ---
-## Math::Cosh(**double**) method
+## Math::Cosh(double) method
 
 
 Calculates the hyperbolic cosine of the specified value.

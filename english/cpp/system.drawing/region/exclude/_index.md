@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.drawing/region/exclude/
 ---
-## Region::Exclude(const [RectangleF](../../rectanglef/)\&) method
+## Region::Exclude(const RectangleF\&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the region defined by the specified rectange from it.
@@ -22,13 +22,7 @@ void System::Drawing::Region::Exclude(const RectangleF &rect)
 | --- | --- | --- |
 | rect | const [RectangleF](../../rectanglef/)\& | A rectangle that defines a region to exclude |
 
-## See Also
-
-* Class [RectangleF](../../rectanglef/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Exclude(const [Rectangle](../../rectangle/)\&) method
+## Region::Exclude(const Rectangle\&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the region defined by the specified rectange from it.
@@ -44,13 +38,7 @@ void System::Drawing::Region::Exclude(const Rectangle &rect)
 | --- | --- | --- |
 | rect | const [Rectangle](../../rectangle/)\& | A rectangle that defines a region to exclude |
 
-## See Also
-
-* Class [Rectangle](../../rectangle/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Exclude(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\&) method
+## Region::Exclude(const SharedPtr\<Drawing2D::GraphicsPath\>\&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the region defined by the specified path from it.
@@ -66,14 +54,7 @@ void System::Drawing::Region::Exclude(const SharedPtr<Drawing2D::GraphicsPath> &
 | --- | --- | --- |
 | path | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\& | A path that defines a region to exclude |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Region::Exclude(const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>\&) method
+## Region::Exclude(const SharedPtr\<Region\>\&) method
 
 
 Replaces the region represented by the current object with the result of exclusion of the specified region from it.
@@ -92,7 +73,9 @@ void System::Drawing::Region::Exclude(const SharedPtr<Region> &region)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [RectangleF](../../rectanglef/)
 * Class [Region](../)
-* Class [Region](../)
+* Class [Rectangle](../../rectangle/)
+* Class [GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

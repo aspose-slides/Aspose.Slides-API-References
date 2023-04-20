@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.slides.export/ipdfoptions/set_applyimagetransparent/
 ---
-## IPdfOptions::set_ApplyImageTransparent(**bool**) method
+## IPdfOptions::set_ApplyImageTransparent(bool) method
 
 
 Applies the specified transparent color to an image if **true**.

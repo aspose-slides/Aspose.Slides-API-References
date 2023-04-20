@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.effects/imagetransformoperationfactory/createalphabilevel/
 ---
-## ImageTransformOperationFactory::CreateAlphaBiLevel(**float**) method
+## ImageTransformOperationFactory::CreateAlphaBiLevel(float) method
 
 
 Creates Alpha [BiLevel](../../bilevel/) effect.

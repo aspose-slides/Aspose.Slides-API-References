@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/textframe/get_paragraph/
 ---
-## TextFrame::get_Paragraph(**int32_t**) method
+## TextFrame::get_Paragraph(int32_t) method
 
 
 Returns a paragraph in a frame at the specified index.

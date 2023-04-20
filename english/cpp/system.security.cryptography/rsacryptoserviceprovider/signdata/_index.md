@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.security.cryptography/rsacryptoserviceprovider/signdata/
 ---
-## RSACryptoServiceProvider::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## RSACryptoServiceProvider::SignData(const ByteArrayPtr\&, const SharedPtr\<Object\>\&) method
 
 
 Computes the signature of specified input value.
@@ -27,15 +27,7 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignData(
 
 [RSA](../../rsa/) signature for specified data.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [RSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSACryptoServiceProvider::SignData(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## RSACryptoServiceProvider::SignData(const SharedPtr\<IO::Stream\>\&, const SharedPtr\<Object\>\&) method
 
 
 Computes the signature of specified input value.
@@ -56,16 +48,7 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignData(
 
 [RSA](../../rsa/) signature for specified data.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Object](../../../system/object/)
-* Class [RSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSACryptoServiceProvider::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **int32_t**, **int32_t**, const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## RSACryptoServiceProvider::SignData(const ByteArrayPtr\&, int32_t, int32_t, const SharedPtr\<Object\>\&) method
 
 
 Computes the signature of specified input value.
@@ -94,5 +77,6 @@ ByteArrayPtr System::Security::Cryptography::RSACryptoServiceProvider::SignData(
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
 * Class [RSACryptoServiceProvider](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

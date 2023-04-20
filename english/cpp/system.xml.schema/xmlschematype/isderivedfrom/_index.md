@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.xml.schema/xmlschematype/isderivedfrom/
 ---
-## XmlSchemaType::IsDerivedFrom([SharedPtr](../../../system/sharedptr/)\<[XmlSchemaType](../)\>, const [SharedPtr](../../../system/sharedptr/)\<[XmlSchemaType](../)\>\&, [XmlSchemaDerivationMethod](../../xmlschemaderivationmethod/)) method
+## XmlSchemaType::IsDerivedFrom(SharedPtr\<XmlSchemaType\>, const SharedPtr\<XmlSchemaType\>\&, XmlSchemaDerivationMethod) method
 
 
 Returns a value indicating if the derived schema type specified is derived from the base schema type specified.
@@ -30,9 +30,8 @@ static bool System::Xml::Schema::XmlSchemaType::IsDerivedFrom(SharedPtr<XmlSchem
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchemaType](../)
 * Enum [XmlSchemaDerivationMethod](../../xmlschemaderivationmethod/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlSchemaType](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

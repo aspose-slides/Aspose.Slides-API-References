@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/textstyle/getlevel/
 ---
-## TextStyle::GetLevel(**int32_t**) method
+## TextStyle::GetLevel(int32_t) method
 
 
 If level of style exist returns it, otherwise returns null.

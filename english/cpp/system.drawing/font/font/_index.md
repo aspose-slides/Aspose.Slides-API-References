@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.drawing/font/font/
 ---
-## Font::Font(const [SharedPtr](../../../system/sharedptr/)\<[Font](../)\>\&, [FontStyle](../../fontstyle/)) constructor
+## Font::Font(const SharedPtr\<Font\>\&, FontStyle) constructor
 
 
 Constructs a new instance of [Font](../) class that represents the specified existing font with the specified font style.
@@ -23,15 +23,7 @@ System::Drawing::Font::Font(const SharedPtr<Font> &prototype, FontStyle new_styl
 | prototype | const [SharedPtr](../../../system/sharedptr/)\<[Font](../)\>\& | The existing font to create the new one from |
 | new_style | [FontStyle](../../fontstyle/) | A font style to apply to the new font |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Font](../)
-* Enum [FontStyle](../../fontstyle/)
-* Class [Font](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Font::Font(const [SharedPtr](../../../system/sharedptr/)\<[FontFamily](../../fontfamily/)\>\&, **float**, [FontStyle](../../fontstyle/), [GraphicsUnit](../../graphicsunit/), **uint8_t**, **bool**) constructor
+## Font::Font(const SharedPtr\<FontFamily\>\&, float, FontStyle, GraphicsUnit, uint8_t, bool) constructor
 
 
 Constructs a new instance of [Font](../) class.
@@ -52,16 +44,7 @@ System::Drawing::Font::Font(const SharedPtr<FontFamily> &family, float em_size, 
 | gdi_charset | **uint8_t** | A GDI charset to be used for the new font |
 | gdi_vertical_font | **bool** | True if the new font is derived from a GDI vertical font |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [FontFamily](../../fontfamily/)
-* Enum [FontStyle](../../fontstyle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Font](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Font::Font(const [SharedPtr](../../../system/sharedptr/)\<[FontFamily](../../fontfamily/)\>\&, **float**, [GraphicsUnit](../../graphicsunit/)) constructor
+## Font::Font(const SharedPtr\<FontFamily\>\&, float, GraphicsUnit) constructor
 
 
 Constructs a new instance of [Font](../) class.
@@ -79,15 +62,7 @@ System::Drawing::Font::Font(const SharedPtr<FontFamily> &family, float em_size, 
 | em_size | **float** | The em size of the new font in the units specified by **unit** parameter |
 | unit | [GraphicsUnit](../../graphicsunit/) | The measurement units of the new font |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [FontFamily](../../fontfamily/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Font](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Font::Font(const [String](../../../system/string/)\&, **float**, [FontStyle](../../fontstyle/), [GraphicsUnit](../../graphicsunit/), **uint8_t**, **bool**) constructor
+## Font::Font(const String\&, float, FontStyle, GraphicsUnit, uint8_t, bool) constructor
 
 
 Constructs a new instance of [Font](../) class.
@@ -108,15 +83,7 @@ System::Drawing::Font::Font(const String &family_name, float em_size, FontStyle 
 | gdi_charset | **uint8_t** | A GDI charset to be used for the new font |
 | gdi_vertical_font | **bool** | True if the new font is derived from a GDI vertical font |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [FontStyle](../../fontstyle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Class [Font](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Font::Font(const [String](../../../system/string/)\&, **float**, [GraphicsUnit](../../graphicsunit/)) constructor
+## Font::Font(const String\&, float, GraphicsUnit) constructor
 
 
 Constructs a new instance of [Font](../) class.
@@ -136,8 +103,11 @@ System::Drawing::Font::Font(const String &family_name, float em_size, GraphicsUn
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Enum [FontStyle](../../fontstyle/)
 * Enum [GraphicsUnit](../../graphicsunit/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Font](../)
+* Class [FontFamily](../../fontfamily/)
+* Class [String](../../../system/string/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

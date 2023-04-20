@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.effects/reflection/set_rectanglealign/
 ---
-## Reflection::set_RectangleAlign([RectangleAlignment](../../../aspose.slides/rectanglealignment/)) method
+## Reflection::set_RectangleAlign(RectangleAlignment) method
 
 
 Rectangle alignment. Write [RectangleAlignment](../../../aspose.slides/rectanglealignment/).

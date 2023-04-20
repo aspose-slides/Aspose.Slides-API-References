@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/igloballayoutslidecollection/addclone/
 ---
-## IGlobalLayoutSlideCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## IGlobalLayoutSlideCollection::AddClone(System::SharedPtr\<ILayoutSlide\>) method
 
 
 Adds a copy of a specified layout slide to the presentation.
@@ -30,14 +30,7 @@ Added slide.
 
 
 When cloning a layout between different presentations layout's master can be cloned too to keep source formatting. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ILayoutSlide](../../ilayoutslide/)
-* Class [IGlobalLayoutSlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IGlobalLayoutSlideCollection::AddClone([System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>) method
+## IGlobalLayoutSlideCollection::AddClone(System::SharedPtr\<ILayoutSlide\>, System::SharedPtr\<IMasterSlide\>) method
 
 
 Adds a copy of a specified layout slide to the presentation.
@@ -66,7 +59,7 @@ New layout will be linked with defined master in destination presentation. So th
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ILayoutSlide](../../ilayoutslide/)
-* Class [IMasterSlide](../../imasterslide/)
 * Class [IGlobalLayoutSlideCollection](../)
+* Class [IMasterSlide](../../imasterslide/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

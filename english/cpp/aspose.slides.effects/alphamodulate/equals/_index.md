@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/alphamodulate/equals/
 ---
-## AlphaModulate::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## AlphaModulate::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [AlphaModulate](../) is equal to the current [AlphaModulate](../).

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/mediatypeheadervalue/set_mediatype/
 ---
-## MediaTypeHeaderValue::set_MediaType([String](../../../system/string/)) method
+## MediaTypeHeaderValue::set_MediaType(String) method
 
 
 Sets a value of the media-type header.

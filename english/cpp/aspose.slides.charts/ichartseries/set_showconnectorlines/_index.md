@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.slides.charts/ichartseries/set_showconnectorlines/
 ---
-## IChartSeries::set_ShowConnectorLines(**bool**) method
+## IChartSeries::set_ShowConnectorLines(bool) method
 
 
 Represents connector lines. Applies only to Waterfall charts.

@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.xml/xmlwriter/writebase64/
 ---
-## XmlWriter::WriteBase64([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) method
+## XmlWriter::WriteBase64(ArrayPtr\<uint8_t\>, int32_t, int32_t) method
 
 
 When overridden in a derived class, encodes the specified binary bytes as Base64 and writes out the resulting text.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.export/embedallfontshtmlcontroller/writeslideend/
 ---
-## EmbedAllFontsHtmlController::WriteSlideEnd([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlGenerator](../../ihtmlgenerator/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../../aspose.slides/islide/)\>) method
+## EmbedAllFontsHtmlController::WriteSlideEnd(System::SharedPtr\<IHtmlGenerator\>, System::SharedPtr\<ISlide\>) method
 
 
 Called to write html slide footer. Called once per each of slides.

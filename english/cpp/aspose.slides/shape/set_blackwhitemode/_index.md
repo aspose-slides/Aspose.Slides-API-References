@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.slides/shape/set_blackwhitemode/
 ---
-## Shape::set_BlackWhiteMode([Aspose::Slides::BlackWhiteMode](../../blackwhitemode/)) method
+## Shape::set_BlackWhiteMode(Aspose::Slides::BlackWhiteMode) method
 
 
 Property specifies how a shape will render in black-and-white display mode.. Write [Slides::BlackWhiteMode](../../blackwhitemode/).

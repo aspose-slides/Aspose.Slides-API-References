@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/system.xml.xpath/xpathnavigator/movetonamespace/
 ---
-## XPathNavigator::MoveToNamespace([String](../../../system/string/)) method
+## XPathNavigator::MoveToNamespace(String) method
 
 
 Moves the [XPathNavigator](../) to the namespace node with the specified namespace prefix.

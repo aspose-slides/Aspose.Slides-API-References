@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.componentmodel/typeconverter/convertfrom/
 ---
-## TypeConverter::ConvertFrom(const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## TypeConverter::ConvertFrom(const System::SharedPtr\<System::Object\>\&) method
 
 
 Converts objects.
@@ -26,14 +26,7 @@ System::SharedPtr<System::Object> System::ComponentModel::TypeConverter::Convert
 
 converted object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [TypeConverter](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## TypeConverter::ConvertFrom(const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\&, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## TypeConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::SharedPtr\<System::Object\>\&) method
 
 
 Converts objects.
@@ -55,16 +48,7 @@ virtual System::SharedPtr<System::Object> System::ComponentModel::TypeConverter:
 
 converted object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [ITypeDescriptorContext](../../itypedescriptorcontext/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [TypeConverter](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## TypeConverter::ConvertFrom(const [System::SharedPtr](../../../system/sharedptr/)\<[ITypeDescriptorContext](../../itypedescriptorcontext/)\>\&, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&, const [System::String](../../../system/string/)\&) method
+## TypeConverter::ConvertFrom(const System::SharedPtr\<ITypeDescriptorContext\>\&, const System::SharedPtr\<System::Globalization::CultureInfo\>\&, const System::String\&) method
 
 
 Converts string to object.
@@ -90,9 +74,9 @@ converted object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Object](../../../system/object/)
+* Class [TypeConverter](../)
 * Class [ITypeDescriptorContext](../../itypedescriptorcontext/)
 * Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [String](../../../system/string/)
-* Class [TypeConverter](../)
 * Namespace [System::ComponentModel](../../)
 * Library [Aspose.Slides](../../../)

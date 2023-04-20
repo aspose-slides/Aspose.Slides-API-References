@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/icharttextblockformat/set_centertext/
 ---
-## IChartTextBlockFormat::set_CenterText([NullableBool](../../../aspose.slides/nullablebool/)) method
+## IChartTextBlockFormat::set_CenterText(NullableBool) method
 
 
 If [NullableBool::True](../../../aspose.slides/nullablebool/) then text should be centered in box horizontally. Write [NullableBool](../../../aspose.slides/nullablebool/).

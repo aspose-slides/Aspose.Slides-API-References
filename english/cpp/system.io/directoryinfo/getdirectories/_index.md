@@ -15,14 +15,7 @@ Returns an array containing shared pointers to [DirectoryInfo](../) objects repr
 ArrayPtr<DirectoryInfoPtr> System::IO::DirectoryInfo::GetDirectories()
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [DirectoryInfoPtr](../../../system/directoryinfoptr/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::GetDirectories(const [String](../../../system/string/)\&) method
+## DirectoryInfo::GetDirectories(const String\&) method
 
 
 Searches for the directories that satisfy the specified search criteria in the directory represented by the current object.
@@ -42,15 +35,7 @@ ArrayPtr<DirectoryInfoPtr> System::IO::DirectoryInfo::GetDirectories(const Strin
 
 An array of shared pointers to [DirectoryInfo](../) objects representing the found directories whose names match **searchPattern**
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [DirectoryInfoPtr](../../../system/directoryinfoptr/)
-* Class [String](../../../system/string/)
-* Class [DirectoryInfo](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## DirectoryInfo::GetDirectories(const [String](../../../system/string/)\&, [SearchOption](../../searchoption/)) method
+## DirectoryInfo::GetDirectories(const String\&, SearchOption) method
 
 
 Searches for the directories that satisfy the specified search criteria either in the directory represented by the current object or in the whole directory tree rooted in the directory represented by the current object.
@@ -73,10 +58,10 @@ An array of shared pointers to [DirectoryInfo](../) objects representing the fou
 
 ## See Also
 
+* Enum [SearchOption](../../searchoption/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [DirectoryInfoPtr](../../../system/directoryinfoptr/)
-* Class [String](../../../system/string/)
-* Enum [SearchOption](../../searchoption/)
 * Class [DirectoryInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

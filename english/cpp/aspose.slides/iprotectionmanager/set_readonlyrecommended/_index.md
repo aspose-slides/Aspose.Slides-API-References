@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/iprotectionmanager/set_readonlyrecommended/
 ---
-## IProtectionManager::set_ReadOnlyRecommended(**bool**) method
+## IProtectionManager::set_ReadOnlyRecommended(bool) method
 
 
 Sets read-only recommendation. Write **bool**.

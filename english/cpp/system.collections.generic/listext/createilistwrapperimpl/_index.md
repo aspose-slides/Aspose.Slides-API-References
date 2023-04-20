@@ -15,14 +15,6 @@ url: /cpp/system.collections.generic/listext/createilistwrapperimpl/
 template<typename T1> std::enable_if<System::IsSmartPtr<T1>::value, System::SharedPtr<System::Collections::IList>>::type System::Collections::Generic::ListExt<T>::CreateIListWrapperImpl()
 ```
 
-## See Also
-
-* Struct [IsSmartPtr](../../../system/issmartptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections/ilist/)
-* Class [ListExt](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## ListExt::CreateIListWrapperImpl() method
 
 
@@ -32,15 +24,6 @@ template<typename T1> std::enable_if<System::IsSmartPtr<T1>::value, System::Shar
 template<typename T1> std::enable_if<!System::IsSmartPtr<T1>::value &&System::IsBoxable<T1>::value, System::SharedPtr<System::Collections::IList>>::type System::Collections::Generic::ListExt<T>::CreateIListWrapperImpl()
 ```
 
-## See Also
-
-* Struct [IsSmartPtr](../../../system/issmartptr/)
-* Struct [IsBoxable](../../../system/isboxable/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IList](../../../system.collections/ilist/)
-* Class [ListExt](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## ListExt::CreateIListWrapperImpl() method
 
 
@@ -52,10 +35,10 @@ template<typename T1> std::enable_if<!System::IsSmartPtr<T1>::value &&!System::I
 
 ## See Also
 
-* Struct [IsSmartPtr](../../../system/issmartptr/)
-* Struct [IsBoxable](../../../system/isboxable/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IList](../../../system.collections/ilist/)
 * Class [ListExt](../)
+* Struct [IsSmartPtr](../../../system/issmartptr/)
+* Struct [IsBoxable](../../../system/isboxable/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

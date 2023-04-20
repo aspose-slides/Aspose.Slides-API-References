@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.lowcode/foreach/masterslide/
 ---
-## ForEach::MasterSlide([System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\>, [ForEach::ForEachMasterSlideCallback](../foreachmasterslidecallback/)) method
+## ForEach::MasterSlide(System::SharedPtr\<Presentation\>, ForEach::ForEachMasterSlideCallback) method
 
 
 Iterate each [ForEach::MasterSlide](./) in the [Presentation](../../../aspose.slides/presentation/).
@@ -41,8 +41,8 @@ ForEach::MasterSlide(pres, callback);
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Presentation](../../../aspose.slides/presentation/)
 * Typedef [ForEachMasterSlideCallback](../foreachmasterslidecallback/)
+* Class [Presentation](../../../aspose.slides/presentation/)
 * Class [ForEach](../)
 * Namespace [Aspose::Slides::LowCode](../../)
 * Library [Aspose.Slides](../../../)

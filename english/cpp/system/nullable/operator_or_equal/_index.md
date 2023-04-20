@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system/nullable/operator_or_equal/
 ---
-## Nullable::operator|=(**bool**) method
+## Nullable::operator|=(bool) method
 
 
 Applies [operator|=()](./) to the value represented by the current object using the specified value as a right-side argument.
@@ -34,7 +34,6 @@ A reference to the self.
 
 ## See Also
 
-* Class [Nullable](../)
 * Class [Nullable](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

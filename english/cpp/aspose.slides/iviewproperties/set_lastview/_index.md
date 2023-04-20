@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/iviewproperties/set_lastview/
 ---
-## IViewProperties::set_LastView([ViewType](../../viewtype/)) method
+## IViewProperties::set_LastView(ViewType) method
 
 
 Specifies the view mode that was used when the presentation document was last saved. Write [ViewType](../../viewtype/).

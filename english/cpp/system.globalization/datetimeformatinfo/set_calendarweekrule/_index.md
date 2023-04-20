@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.globalization/datetimeformatinfo/set_calendarweekrule/
 ---
-## DateTimeFormatInfo::set_CalendarWeekRule([CalendarWeekRule](../../calendarweekrule/)) method
+## DateTimeFormatInfo::set_CalendarWeekRule(CalendarWeekRule) method
 
 
 Sets calendar week rule associated with formatter.

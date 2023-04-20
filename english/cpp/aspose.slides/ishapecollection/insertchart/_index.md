@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/ishapecollection/insertchart/
 ---
-## IShapeCollection::InsertChart([Charts::ChartType](../../../aspose.slides.charts/charttype/), **float**, **float**, **float**, **float**, **int32_t**) method
+## IShapeCollection::InsertChart(Charts::ChartType, float, float, float, float, int32_t) method
 
 
 Creates a new Chart, initialize it with sample series data and settings and inserts it to the specified position in the collection.
@@ -31,15 +31,7 @@ virtual System::SharedPtr<Charts::IChart> Aspose::Slides::IShapeCollection::Inse
 
 Created chart.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [ChartType](../../../aspose.slides.charts/charttype/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::InsertChart([Charts::ChartType](../../../aspose.slides.charts/charttype/), **float**, **float**, **float**, **float**, **int32_t**, **bool**) method
+## IShapeCollection::InsertChart(Charts::ChartType, float, float, float, float, int32_t, bool) method
 
 
 Creates a new Chart and inserts it to the specified position in the collection.
@@ -67,9 +59,9 @@ Created chart.
 
 ## See Also
 
+* Enum [ChartType](../../../aspose.slides.charts/charttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IChart](../../../aspose.slides.charts/ichart/)
-* Enum [ChartType](../../../aspose.slides.charts/charttype/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

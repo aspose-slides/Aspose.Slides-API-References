@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/webrequest/set_defaultwebproxy/
 ---
-## WebRequest::set_DefaultWebProxy([System::SharedPtr](../../../system/sharedptr/)\<[IWebProxy](../../iwebproxy/)\>) method
+## WebRequest::set_DefaultWebProxy(System::SharedPtr\<IWebProxy\>) method
 
 
 Sets the global HTTP proxy.

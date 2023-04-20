@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system/timezoneinfo/createcustomtimezone/
 ---
-## TimeZoneInfo::CreateCustomTimeZone(const [String](../../string/)\&, [TimeSpan](../../timespan/), const [String](../../string/)\&, const [String](../../string/)\&, const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[AdjustmentRulePtr](../adjustmentruleptr/)\>\&, **bool**) method
+## TimeZoneInfo::CreateCustomTimeZone(const String\&, TimeSpan, const String\&, const String\&, const String\&, const ArrayPtr\<AdjustmentRulePtr\>\&, bool) method
 
 
 Creates a custom time zone.
@@ -32,17 +32,7 @@ static TimeZoneInfoPtr System::TimeZoneInfo::CreateCustomTimeZone(const String &
 
 New time zone.
 
-## See Also
-
-* Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
-* Class [String](../../string/)
-* Class [TimeSpan](../../timespan/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [AdjustmentRulePtr](../adjustmentruleptr/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::CreateCustomTimeZone(const [String](../../string/)\&, [TimeSpan](../../timespan/), const [String](../../string/)\&, const [String](../../string/)\&, const [String](../../string/)\&, const [ArrayPtr](../../arrayptr/)\<[AdjustmentRulePtr](../adjustmentruleptr/)\>\&) method
+## TimeZoneInfo::CreateCustomTimeZone(const String\&, TimeSpan, const String\&, const String\&, const String\&, const ArrayPtr\<AdjustmentRulePtr\>\&) method
 
 
 Creates a custom time zone.
@@ -67,17 +57,7 @@ static TimeZoneInfoPtr System::TimeZoneInfo::CreateCustomTimeZone(const String &
 
 New time zone.
 
-## See Also
-
-* Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
-* Class [String](../../string/)
-* Class [TimeSpan](../../timespan/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Typedef [AdjustmentRulePtr](../adjustmentruleptr/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::CreateCustomTimeZone(const [String](../../string/)\&, [TimeSpan](../../timespan/), const [String](../../string/)\&, const [String](../../string/)\&) method
+## TimeZoneInfo::CreateCustomTimeZone(const String\&, TimeSpan, const String\&, const String\&) method
 
 
 Creates a custom time zone.
@@ -103,6 +83,8 @@ New time zone.
 ## See Also
 
 * Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
+* Typedef [ArrayPtr](../../arrayptr/)
+* Typedef [AdjustmentRulePtr](../adjustmentruleptr/)
 * Class [String](../../string/)
 * Class [TimeSpan](../../timespan/)
 * Class [TimeZoneInfo](../)

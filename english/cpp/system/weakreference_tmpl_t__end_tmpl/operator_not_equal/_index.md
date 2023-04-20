@@ -20,12 +20,7 @@ bool System::WeakReference<T>::operator!=(std::nullptr_t) const
 
 True if referenced object is not null, false otherwise.
 
-## See Also
-
-* Class [WeakReference< T >](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## WeakReference< T >::operator!=(const [WeakReference](../weakreference/)\<T\>\&) const method
+## WeakReference< T >::operator!=(const WeakReference\<T\>\&) const method
 
 
 Compares referenced object to another instance WeakReference class.
@@ -47,6 +42,7 @@ True if compared objects reference different objects, false if objects are same.
 
 ## See Also
 
+* Method [WeakReference](../weakreference/)
 * Class [WeakReference< T >](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

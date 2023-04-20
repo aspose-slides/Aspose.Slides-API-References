@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.drawing/size/truncate/
 ---
-## Size::Truncate(const [SizeF](../../sizef/)\&) method
+## Size::Truncate(const SizeF\&) method
 
 
 Constructs a [Size](../) object from the specified [SizeF](../../sizef/) object by truncating the [SizeF](../../sizef/) object's width and height values to the next lower integer values.
@@ -30,6 +30,5 @@ A [Size](../) object constructed from **size**
 
 * Class [Size](../)
 * Class [SizeF](../../sizef/)
-* Class [Size](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemafacet/set_isfixed/
 ---
-## XmlSchemaFacet::set_IsFixed(**bool**) method
+## XmlSchemaFacet::set_IsFixed(bool) method
 
 
 Sets information that indicates that this facet is fixed.

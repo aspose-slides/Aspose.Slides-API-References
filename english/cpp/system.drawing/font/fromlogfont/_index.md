@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.drawing/font/fromlogfont/
 ---
-## Font::FromLogFont(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Font::FromLogFont(const SharedPtr\<Object\>\&) method
 
 
 NOT IMPLEMENTED.
@@ -21,6 +21,5 @@ static SharedPtr<Font> System::Drawing::Font::FromLogFont(const SharedPtr<Object
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Font](../)
 * Class [Object](../../../system/object/)
-* Class [Font](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

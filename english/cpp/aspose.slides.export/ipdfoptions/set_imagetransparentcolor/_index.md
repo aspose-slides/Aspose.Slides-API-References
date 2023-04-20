@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.slides.export/ipdfoptions/set_imagetransparentcolor/
 ---
-## IPdfOptions::set_ImageTransparentColor([System::Drawing::Color](../../../system.drawing/color/)) method
+## IPdfOptions::set_ImageTransparentColor(System::Drawing::Color) method
 
 
 Sets the image transparent color.

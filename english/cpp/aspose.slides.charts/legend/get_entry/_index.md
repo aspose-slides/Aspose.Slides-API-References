@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/aspose.slides.charts/legend/get_entry/
 ---
-## Legend::get_Entry(**int32_t**) method
+## Legend::get_Entry(int32_t) method
 
 
 Get properties of legend entry corresponding to data point in chart at the specified index. In case of chart types: bar-of-pie, exploded pie, exploded pie 3D, pie, pie 3D, pie-of-pie, data point is taken from first series.

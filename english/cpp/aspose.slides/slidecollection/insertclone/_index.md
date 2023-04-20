@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/slidecollection/insertclone/
 ---
-## SlideCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>) method
+## SlideCollection::InsertClone(int32_t, System::SharedPtr\<ISlide\>) method
 
 
 Inserts a copy of a specified slide to specified position of the collection.
@@ -58,14 +58,7 @@ destPres->get_Slides()->InsertClone(2, srcPres->get_Slides()->idx_get(0));
 destPres->Save(u"Aspose2_out.pptx", SaveFormat::Pptx);
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## SlideCollection::InsertClone(int32_t, System::SharedPtr\<ISlide\>, System::SharedPtr\<ILayoutSlide\>) method
 
 
 Inserts a copy of a specified slide to specified position of the collection.
@@ -87,15 +80,7 @@ System::SharedPtr<ISlide> Aspose::Slides::SlideCollection::InsertClone(int32_t i
 
 Inserted slide.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [ILayoutSlide](../../ilayoutslide/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ISlide](../../islide/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>, **bool**) method
+## SlideCollection::InsertClone(int32_t, System::SharedPtr\<ISlide\>, System::SharedPtr\<IMasterSlide\>, bool) method
 
 
 Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false).
@@ -122,7 +107,8 @@ Inserted slide.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ISlide](../../islide/)
-* Class [IMasterSlide](../../imasterslide/)
 * Class [SlideCollection](../)
+* Class [ILayoutSlide](../../ilayoutslide/)
+* Class [IMasterSlide](../../imasterslide/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography.pkcs/signedcms/signedcms/
 ---
-## SignedCms::SignedCms(const [SharedPtr](../../../system/sharedptr/)\<[ContentInfo](../../contentinfo/)\>\&, **bool**) constructor
+## SignedCms::SignedCms(const SharedPtr\<ContentInfo\>\&, bool) constructor
 
 
 Constructor.

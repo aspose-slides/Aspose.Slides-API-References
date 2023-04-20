@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing.imaging/bitmapdata/set_pixelformat/
 ---
-## BitmapData::set_PixelFormat([PixelFormat](../../pixelformat/)) method
+## BitmapData::set_PixelFormat(PixelFormat) method
 
 
 Sets the pixel format of the bitmap image.

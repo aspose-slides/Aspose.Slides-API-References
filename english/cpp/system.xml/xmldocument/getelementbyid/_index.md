@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.xml/xmldocument/getelementbyid/
 ---
-## XmlDocument::GetElementById([String](../../../system/string/)) method
+## XmlDocument::GetElementById(String) method
 
 
 Returns the [XmlElement](../../xmlelement/) with the specified ID.

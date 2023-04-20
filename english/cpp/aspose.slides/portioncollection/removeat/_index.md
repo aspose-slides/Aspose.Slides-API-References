@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/portioncollection/removeat/
 ---
-## PortionCollection::RemoveAt(**int32_t**) method
+## PortionCollection::RemoveAt(int32_t) method
 
 
 Removes the element at the specified index of the collection.

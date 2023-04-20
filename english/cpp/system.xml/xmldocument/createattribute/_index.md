@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.xml/xmldocument/createattribute/
 ---
-## XmlDocument::CreateAttribute(const [String](../../../system/string/)\&) method
+## XmlDocument::CreateAttribute(const String\&) method
 
 
 Creates an [XmlAttribute](../../xmlattribute/) with the specified name.
@@ -26,15 +26,7 @@ SharedPtr<XmlAttribute> System::Xml::XmlDocument::CreateAttribute(const String &
 
 The new [XmlAttribute](../../xmlattribute/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlAttribute](../../xmlattribute/)
-* Class [String](../../../system/string/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::CreateAttribute(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateAttribute(const String\&, const String\&) method
 
 
 Creates an [XmlAttribute](../../xmlattribute/) with the specified qualified name and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).
@@ -55,15 +47,7 @@ SharedPtr<XmlAttribute> System::Xml::XmlDocument::CreateAttribute(const String &
 
 The new [XmlAttribute](../../xmlattribute/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlAttribute](../../xmlattribute/)
-* Class [String](../../../system/string/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::CreateAttribute(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlDocument::CreateAttribute(const String\&, const String\&, const String\&) method
 
 
 Creates an [XmlAttribute](../../xmlattribute/) with the specified [XmlNode::get_Prefix](../../xmlnode/get_prefix/), [XmlDocument::get_LocalName](../get_localname/), and [XmlNode::get_NamespaceURI](../../xmlnode/get_namespaceuri/).

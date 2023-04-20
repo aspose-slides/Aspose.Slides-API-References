@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.globalization/stringinfo/operator_equal/
 ---
-## StringInfo::operator=(const [StringInfo](../)\&) method
+## StringInfo::operator=(const StringInfo\&) method
 
 
 
@@ -17,7 +17,6 @@ StringInfo & System::Globalization::StringInfo::operator=(const StringInfo &)=de
 
 ## See Also
 
-* Class [StringInfo](../)
 * Class [StringInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

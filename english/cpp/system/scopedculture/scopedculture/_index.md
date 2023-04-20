@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/scopedculture/scopedculture/
 ---
-## ScopedCulture::ScopedCulture(const [String](../../string/)\&) constructor
+## ScopedCulture::ScopedCulture(const String\&) constructor
 
 
 
@@ -15,13 +15,7 @@ url: /cpp/system/scopedculture/scopedculture/
 System::ScopedCulture::ScopedCulture(const String &culture_name)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [ScopedCulture](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ScopedCulture::ScopedCulture(const [ScopedCulture](../)\&) constructor
+## ScopedCulture::ScopedCulture(const ScopedCulture\&) constructor
 
 
 
@@ -32,7 +26,7 @@ System::ScopedCulture::ScopedCulture(const ScopedCulture &)=delete
 
 ## See Also
 
-* Class [ScopedCulture](../)
+* Class [String](../../string/)
 * Class [ScopedCulture](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 482
 url: /cpp/aspose.slides.charts/iaxis/set_majortickmark/
 ---
-## IAxis::set_MajorTickMark([TickMarkType](../../tickmarktype/)) method
+## IAxis::set_MajorTickMark(TickMarkType) method
 
 
 Represents the type of major tick mark for the specified axis. Write [TickMarkType](../../tickmarktype/).

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides/slidecollection/insertemptyslide/
 ---
-## SlideCollection::InsertEmptySlide(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[ILayoutSlide](../../ilayoutslide/)\>) method
+## SlideCollection::InsertEmptySlide(int32_t, System::SharedPtr\<ILayoutSlide\>) method
 
 
 Inserts a copy of a specified slide to specified position of the collection.

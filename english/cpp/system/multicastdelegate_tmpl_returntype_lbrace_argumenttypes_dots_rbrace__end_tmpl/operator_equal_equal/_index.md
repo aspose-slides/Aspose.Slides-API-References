@@ -3,7 +3,7 @@ title: operator==()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines whether the delegate collection is empty.
 type: docs
-weight: 66
+weight: 105
 url: /cpp/system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_equal_equal/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator==(const std::nullptr_t\&) const method
@@ -20,15 +20,10 @@ bool System::MulticastDelegate<ReturnType(ArgumentTypes...)>::operator==(const s
 
 True if the delegate collection is empty, otherwise - false
 
-## See Also
-
-* Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator==(const [MulticastDelegate](../multicastdelegate/)\&) const method
+## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator==(const MulticastDelegate\&) const method
 
 
-Determines whether two instances of MulticastDelegate - the current object and the specified object - point to the same delegates collection.
+Determines whether two instances of MulticastDelegate - the current object and the specified object - are equal.
 
 ```cpp
 bool System::MulticastDelegate<ReturnType(ArgumentTypes...)>::operator==(const MulticastDelegate &other) const
@@ -47,6 +42,7 @@ True if both objects represent the same delegates collection, otherwise - false
 
 ## See Also
 
+* Method [MulticastDelegate](../multicastdelegate/)
 * Class [MulticastDelegate< ReturnType(ArgumentTypes...)>](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

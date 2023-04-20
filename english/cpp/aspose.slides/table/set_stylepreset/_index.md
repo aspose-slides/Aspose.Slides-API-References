@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/table/set_stylepreset/
 ---
-## Table::set_StylePreset([TableStylePreset](../../tablestylepreset/)) method
+## Table::set_StylePreset(TableStylePreset) method
 
 
 Sets builtin table style. Write [TableStylePreset](../../tablestylepreset/).

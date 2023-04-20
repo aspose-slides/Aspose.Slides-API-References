@@ -15,11 +15,6 @@ Returns value if found; or **Value()** otherwise.
 mapped_t System::Collections::Generic::BaseDictionary<Map>::GetValueOrDefault(const key_t &key) const override
 ```
 
-## See Also
-
-* Class [BaseDictionary](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## BaseDictionary::GetValueOrDefault(const key_t\&, const mapped_t\&) const method
 
 

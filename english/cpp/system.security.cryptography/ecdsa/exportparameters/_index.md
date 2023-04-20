@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography/ecdsa/exportparameters/
 ---
-## ECDsa::ExportParameters(**bool**) method
+## ECDsa::ExportParameters(bool) method
 
 
 Exports named or explicit parameters.
@@ -28,7 +28,7 @@ Exported parameters structure.
 
 ## See Also
 
-* Struct [ECParameters](../../ecparameters/)
 * Class [ECDsa](../)
+* Struct [ECParameters](../../ecparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

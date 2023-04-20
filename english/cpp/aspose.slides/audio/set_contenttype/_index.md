@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/audio/set_contenttype/
 ---
-## Audio::set_ContentType([System::String](../../../system/string/)) method
+## Audio::set_ContentType(System::String) method
 
 
 Returns a MIME type of an audio, encoded in [Audio::get_BinaryData](../get_binarydata/). Read-only [System::String](../../../system/string/).

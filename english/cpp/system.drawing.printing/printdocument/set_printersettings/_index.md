@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing.printing/printdocument/set_printersettings/
 ---
-## PrintDocument::set_PrinterSettings(const [SharedPtr](../../../system/sharedptr/)\<[PrinterSettings](../../printersettings/)\>\&) method
+## PrintDocument::set_PrinterSettings(const SharedPtr\<PrinterSettings\>\&) method
 
 
 NOT IMPLEMENTED.

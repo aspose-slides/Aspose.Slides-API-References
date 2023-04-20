@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.drawing.drawing2d/pathgradientbrush/multiplytransform/
 ---
-## PathGradientBrush::MultiplyTransform(const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../../matrix/)\>\&, [MatrixOrder](../../matrixorder/)) method
+## PathGradientBrush::MultiplyTransform(const SharedPtr\<Matrix\>\&, MatrixOrder) method
 
 
 Multiplies current object's transform matrix by the specified matrix.
@@ -25,9 +25,9 @@ void System::Drawing::Drawing2D::PathGradientBrush::MultiplyTransform(const Shar
 
 ## See Also
 
+* Enum [MatrixOrder](../../matrixorder/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Matrix](../../matrix/)
-* Enum [MatrixOrder](../../matrixorder/)
 * Class [PathGradientBrush](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

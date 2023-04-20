@@ -15,12 +15,7 @@ Default constructor.
 System::Collections::Generic::ICollection<T>::ICollection()
 ```
 
-## See Also
-
-* Class [ICollection](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## ICollection::ICollection(const [ICollection](../)\&) constructor
+## ICollection::ICollection(const ICollection\&) constructor
 
 
 Copy constructor.
@@ -29,13 +24,7 @@ Copy constructor.
 System::Collections::Generic::ICollection<T>::ICollection(const ICollection &)
 ```
 
-## See Also
-
-* Class [ICollection](../)
-* Class [ICollection](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## ICollection::ICollection([ICollection](../)\&&) constructor
+## ICollection::ICollection(ICollection\&&) constructor
 
 
 Move constructor.
@@ -46,7 +35,6 @@ System::Collections::Generic::ICollection<T>::ICollection(ICollection &&) noexce
 
 ## See Also
 
-* Class [ICollection](../)
 * Class [ICollection](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.export/pdfoptions/set_jpegquality/
 ---
-## PdfOptions::set_JpegQuality(**uint8_t**) method
+## PdfOptions::set_JpegQuality(uint8_t) method
 
 
 Sets a value determining the quality of the JPEG images inside PDF document. Write **uint8_t**.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/ihtmlformattingcontroller/writedocumentend/
 ---
-## IHtmlFormattingController::WriteDocumentEnd([System::SharedPtr](../../../system/sharedptr/)\<[IHtmlGenerator](../../ihtmlgenerator/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IPresentation](../../../aspose.slides/ipresentation/)\>) method
+## IHtmlFormattingController::WriteDocumentEnd(System::SharedPtr\<IHtmlGenerator\>, System::SharedPtr\<IPresentation\>) method
 
 
 Called to write html document footer. Called once per presentation conversion.

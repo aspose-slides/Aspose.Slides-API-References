@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.drawing.imaging/imageattributes/setcolorkey/
 ---
-## ImageAttributes::SetColorKey([Color](../../../system.drawing/color/), [Color](../../../system.drawing/color/), [ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::SetColorKey(Color, Color, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.
@@ -18,8 +18,8 @@ void System::Drawing::Imaging::ImageAttributes::SetColorKey(Color colorLow, Colo
 
 ## See Also
 
-* Class [Color](../../../system.drawing/color/)
 * Enum [ColorAdjustType](../../coloradjusttype/)
+* Class [Color](../../../system.drawing/color/)
 * Class [ImageAttributes](../)
 * Namespace [System::Drawing::Imaging](../../)
 * Library [Aspose.Slides](../../../)

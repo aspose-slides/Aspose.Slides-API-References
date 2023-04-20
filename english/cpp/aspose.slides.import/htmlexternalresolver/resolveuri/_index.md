@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.import/htmlexternalresolver/resolveuri/
 ---
-## HtmlExternalResolver::ResolveUri([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## HtmlExternalResolver::ResolveUri(System::String, System::String) method
 
 
 Resolves the absolute URI from the base and relative URIs.

@@ -15,11 +15,6 @@ Constructs a new instance of [ColorBlend](../) class.
 System::Drawing::Drawing2D::ColorBlend::ColorBlend()
 ```
 
-## See Also
-
-* Class [ColorBlend](../)
-* Namespace [System::Drawing::Drawing2D](../../)
-* Library [Aspose.Slides](../../../)
 ## ColorBlend::ColorBlend(int) constructor
 
 

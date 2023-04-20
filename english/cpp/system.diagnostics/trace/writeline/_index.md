@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.diagnostics/trace/writeline/
 ---
-## Trace::WriteLine(const [String](../../../system/string/)\&) method
+## Trace::WriteLine(const String\&) method
 
 
 Writes line to debugger trace.

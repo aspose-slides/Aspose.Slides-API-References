@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/rngcryptoserviceprovider/getbytes/
 ---
-## RNGCryptoServiceProvider::GetBytes([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## RNGCryptoServiceProvider::GetBytes(ArrayPtr\<uint8_t\>) method
 
 
 Fills existing array elements with random bytes.
@@ -22,13 +22,7 @@ void System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes(ArrayPtr
 | --- | --- | --- |
 | bytes | [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Bytes array to fill. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [RNGCryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RNGCryptoServiceProvider::GetBytes(System::Details::ArrayView\<**uint8_t**\>) method
+## RNGCryptoServiceProvider::GetBytes(System::Details::ArrayView\<uint8_t\>) method
 
 
 Fills existing array view elements with random bytes.
@@ -46,6 +40,7 @@ void System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes(System::
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [RNGCryptoServiceProvider](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

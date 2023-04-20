@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/gradientformat/set_gradientdirection/
 ---
-## GradientFormat::set_GradientDirection([Aspose::Slides::GradientDirection](../../gradientdirection/)) method
+## GradientFormat::set_GradientDirection(Aspose::Slides::GradientDirection) method
 
 
 Sets the style of a gradient. Write [Slides::GradientDirection](../../gradientdirection/).

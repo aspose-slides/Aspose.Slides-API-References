@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.diagnostics/stacktrace/operator_equal/
 ---
-## StackTrace::operator=(const [StackTrace](../)\&) const method
+## StackTrace::operator=(const StackTrace\&) const method
 
 
 No assignment.
@@ -17,7 +17,6 @@ const StackTrace & System::Diagnostics::StackTrace::operator=(const StackTrace &
 
 ## See Also
 
-* Class [StackTrace](../)
 * Class [StackTrace](../)
 * Namespace [System::Diagnostics](../../)
 * Library [Aspose.Slides](../../../)

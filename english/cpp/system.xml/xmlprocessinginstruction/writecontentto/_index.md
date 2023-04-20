@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.xml/xmlprocessinginstruction/writecontentto/
 ---
-## XmlProcessingInstruction::WriteContentTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlProcessingInstruction::WriteContentTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves all the children of the node to the specified [XmlWriter](../../xmlwriter/). Because ProcessingInstruction nodes do not have children, this method has no effect.

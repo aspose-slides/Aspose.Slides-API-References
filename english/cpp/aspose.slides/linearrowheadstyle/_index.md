@@ -3,7 +3,7 @@ title: LineArrowheadStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the style of an arrowhead.
 type: docs
-weight: 5916
+weight: 5656
 url: /cpp/aspose.slides/linearrowheadstyle/
 ---
 ## LineArrowheadStyle enum

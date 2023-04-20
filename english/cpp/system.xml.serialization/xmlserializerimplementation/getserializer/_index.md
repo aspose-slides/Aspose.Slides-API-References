@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml.serialization/xmlserializerimplementation/getserializer/
 ---
-## XmlSerializerImplementation::GetSerializer(const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlSerializerImplementation::GetSerializer(const TypeInfo\&) method
 
 
 

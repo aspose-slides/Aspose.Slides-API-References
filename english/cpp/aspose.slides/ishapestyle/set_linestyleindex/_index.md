@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/ishapestyle/set_linestyleindex/
 ---
-## IShapeStyle::set_LineStyleIndex(**uint16_t**) method
+## IShapeStyle::set_LineStyleIndex(uint16_t) method
 
 
 Sets line's column index in a style matrix. Write **uint16_t**.

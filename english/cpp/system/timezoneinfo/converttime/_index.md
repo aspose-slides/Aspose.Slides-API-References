@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/timezoneinfo/converttime/
 ---
-## TimeZoneInfo::ConvertTime([DateTime](../../datetime/), const [TimeZoneInfoPtr](../../timezoneinfoptr/)\&, const [TimeZoneInfoPtr](../../timezoneinfoptr/)\&) method
+## TimeZoneInfo::ConvertTime(DateTime, const TimeZoneInfoPtr\&, const TimeZoneInfoPtr\&) method
 
 
 [Convert](../../convert/) time from one time zone to another.
@@ -28,14 +28,7 @@ static DateTime System::TimeZoneInfo::ConvertTime(DateTime date_time, const Time
 
 Converted date and time.
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::ConvertTime(const [DateTimeOffset](../../datetimeoffset/)\&, const [TimeZoneInfoPtr](../../timezoneinfoptr/)\&) method
+## TimeZoneInfo::ConvertTime(const DateTimeOffset\&, const TimeZoneInfoPtr\&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -56,14 +49,7 @@ static DateTimeOffset System::TimeZoneInfo::ConvertTime(const DateTimeOffset &da
 
 Converted date and time.
 
-## See Also
-
-* Class [DateTimeOffset](../../datetimeoffset/)
-* Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::ConvertTime([DateTime](../../datetime/), const [TimeZoneInfoPtr](../../timezoneinfoptr/)\&) method
+## TimeZoneInfo::ConvertTime(DateTime, const TimeZoneInfoPtr\&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -86,8 +72,9 @@ Converted date and time.
 
 ## See Also
 
-* Class [DateTime](../../datetime/)
 * Typedef [TimeZoneInfoPtr](../../timezoneinfoptr/)
+* Class [DateTime](../../datetime/)
 * Class [TimeZoneInfo](../)
+* Class [DateTimeOffset](../../datetimeoffset/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

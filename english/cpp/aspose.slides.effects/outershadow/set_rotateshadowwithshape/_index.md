@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.effects/outershadow/set_rotateshadowwithshape/
 ---
-## OuterShadow::set_RotateShadowWithShape(**bool**) method
+## OuterShadow::set_RotateShadowWithShape(bool) method
 
 
 Specifies whether the shadow should rotate with the shape if the shape is rotated. Write **bool**.

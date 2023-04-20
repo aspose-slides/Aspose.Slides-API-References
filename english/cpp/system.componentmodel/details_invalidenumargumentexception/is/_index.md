@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.componentmodel/details_invalidenumargumentexception/is/
 ---
-## Details_InvalidEnumArgumentException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_InvalidEnumArgumentException::Is(const System::TypeInfo\&) const method
 
 
 

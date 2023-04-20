@@ -20,12 +20,6 @@ reverse_iterator System::Collections::ObjectModel::Collection<T>::rbegin() noexc
 
 A reverse iterator pointing to the last element in the list (first in reverse).
 
-## See Also
-
-* Typedef [reverse_iterator](../reverse_iterator/)
-* Class [Collection](../)
-* Namespace [System::Collections::ObjectModel](../../)
-* Library [Aspose.Slides](../../../)
 ## Collection::rbegin() const method
 
 
@@ -42,6 +36,7 @@ A reverse iterator pointing to the last element in the const-qualified list (fir
 
 ## See Also
 
+* Typedef [reverse_iterator](../reverse_iterator/)
 * Typedef [const_reverse_iterator](../const_reverse_iterator/)
 * Class [Collection](../)
 * Namespace [System::Collections::ObjectModel](../../)

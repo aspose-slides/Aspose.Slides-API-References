@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.globalization/sortversion/operator_not_equal/
 ---
-## SortVersion::operator!=(const [SortVersion](../)\&) method
+## SortVersion::operator!=(const SortVersion\&) method
 
 
 Checks if current [SortVersion](../) instance is not equal to a specified [SortVersion](../) object.
@@ -28,7 +28,6 @@ true if objects represents the different versions, otherwise - false.
 
 ## See Also
 
-* Class [SortVersion](../)
 * Class [SortVersion](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

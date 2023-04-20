@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.collections.generic/ienumerable/linq_orderby/
 ---
-## IEnumerable::LINQ_OrderBy(const [Func](../../../system/func/)\<T, Key\>\&) method
+## IEnumerable::LINQ_OrderBy(const Func\<T, Key\>\&) method
 
 
 Sorts the elements of a sequence in ascending order according to the key values selected by keySelector.
@@ -26,15 +26,7 @@ template<typename Key> SharedPtr<IEnumerable<T>> System::Collections::Generic::I
 
 An [IEnumerable](../) whose elements are sorted according to a key
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
-* Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_OrderBy(const [Func](../../../system/func/)\<Source, Key\>\&) method
+## IEnumerable::LINQ_OrderBy(const Func\<Source, Key\>\&) method
 
 
 
@@ -48,6 +40,5 @@ template<typename Key> SharedPtr<IEnumerable<Source>> System::Collections::Gener
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IEnumerable](../)
 * Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

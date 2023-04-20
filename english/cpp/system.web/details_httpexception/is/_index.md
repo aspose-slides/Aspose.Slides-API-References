@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.web/details_httpexception/is/
 ---
-## Details_HttpException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_HttpException::Is(const System::TypeInfo\&) const method
 
 
 

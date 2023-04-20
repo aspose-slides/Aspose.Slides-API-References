@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/ipatternformat/set_patternstyle/
 ---
-## IPatternFormat::set_PatternStyle([Aspose::Slides::PatternStyle](../../patternstyle/)) method
+## IPatternFormat::set_PatternStyle(Aspose::Slides::PatternStyle) method
 
 
 Sets the pattern style. Write [Slides::PatternStyle](../../patternstyle/).

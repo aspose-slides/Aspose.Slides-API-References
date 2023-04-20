@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security/securestringmarshal/securestringtoglobalallocansi/
 ---
-## SecureStringMarshal::SecureStringToGlobalAllocAnsi(const [SharedPtr](../../../system/sharedptr/)\<[Security::SecureString](../../securestring/)\>\&) method
+## SecureStringMarshal::SecureStringToGlobalAllocAnsi(const SharedPtr\<Security::SecureString\>\&) method
 
 
 Copies contents of specified secure string into unmanaged memory, converting into ANSI format.

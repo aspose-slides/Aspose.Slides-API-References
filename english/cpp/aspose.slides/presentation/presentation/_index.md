@@ -15,12 +15,7 @@ This constructor creates new presentation from scratch. Created presentation has
 Aspose::Slides::Presentation::Presentation()
 ```
 
-## See Also
-
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Presentation([System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::LoadOptions](../../loadoptions/)\>) constructor
+## Presentation::Presentation(System::SharedPtr\<Aspose::Slides::LoadOptions\>) constructor
 
 
 This constructor creates new presentation from scratch. Created presentation has one empty slide.
@@ -36,14 +31,7 @@ Aspose::Slides::Presentation::Presentation(System::SharedPtr<Aspose::Slides::Loa
 | --- | --- | --- |
 | loadOptions | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::LoadOptions](../../loadoptions/)\> | Additional load options. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [LoadOptions](../../loadoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Presentation([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) constructor
+## Presentation::Presentation(System::SharedPtr\<System::IO::Stream\>) constructor
 
 
 This constructor is the primary mechanism for reading an existing [Presentation](../).
@@ -69,14 +57,7 @@ auto pres = MakeObject<Presentation>(fis);
 fis->Close();
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Presentation([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::LoadOptions](../../loadoptions/)\>) constructor
+## Presentation::Presentation(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Aspose::Slides::LoadOptions\>) constructor
 
 
 This constructor is the primary mechanism for reading an existing [Presentation](../).
@@ -93,15 +74,7 @@ Aspose::Slides::Presentation::Presentation(System::SharedPtr<System::IO::Stream>
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | Input stream. |
 | loadOptions | [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::LoadOptions](../../loadoptions/)\> | Additional load options. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [LoadOptions](../../loadoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Presentation([System::String](../../../system/string/)) constructor
+## Presentation::Presentation(System::String) constructor
 
 
 This constructor gets a source file path from which the contents of the [Presentation](../) are read.
@@ -125,13 +98,7 @@ Aspose::Slides::Presentation::Presentation(System::String file)
 auto pres = MakeObject<Presentation>(u"demo.pptx");
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Presentation([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Aspose::Slides::LoadOptions](../../loadoptions/)\>) constructor
+## Presentation::Presentation(System::String, System::SharedPtr\<Aspose::Slides::LoadOptions\>) constructor
 
 
 This constructor gets a source file path from which the contents of the [Presentation](../) are read.
@@ -150,9 +117,10 @@ Aspose::Slides::Presentation::Presentation(System::String file, System::SharedPt
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [LoadOptions](../../loadoptions/)
 * Class [Presentation](../)
+* Class [LoadOptions](../../loadoptions/)
+* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

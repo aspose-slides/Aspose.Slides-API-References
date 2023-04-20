@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.web.services.protocols/soapheaderattribute/set_direction/
 ---
-## SoapHeaderAttribute::set_Direction([SoapHeaderDirection](../../soapheaderdirection/)) method
+## SoapHeaderAttribute::set_Direction(SoapHeaderDirection) method
 
 
 Sets the SOAP header direction.

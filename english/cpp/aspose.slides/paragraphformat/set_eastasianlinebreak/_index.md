@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/paragraphformat/set_eastasianlinebreak/
 ---
-## ParagraphFormat::set_EastAsianLineBreak([NullableBool](../../nullablebool/)) method
+## ParagraphFormat::set_EastAsianLineBreak(NullableBool) method
 
 
 Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Write [NullableBool](../../nullablebool/).

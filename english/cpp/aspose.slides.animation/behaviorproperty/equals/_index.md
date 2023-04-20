@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.animation/behaviorproperty/equals/
 ---
-## BehaviorProperty::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## BehaviorProperty::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Checks if this object is equal to another.

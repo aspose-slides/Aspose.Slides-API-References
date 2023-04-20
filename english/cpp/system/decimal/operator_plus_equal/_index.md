@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system/decimal/operator_plus_equal/
 ---
-## Decimal::operator+=(const [Decimal](../)\&) method
+## Decimal::operator+=(const Decimal\&) method
 
 
 Assigns to the current object a new value that is a sum of values represented by the current and specified objects.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

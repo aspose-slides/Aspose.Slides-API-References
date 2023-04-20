@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/igroupshapelock/set_selectlocked/
 ---
-## IGroupShapeLock::set_SelectLocked(**bool**) method
+## IGroupShapeLock::set_SelectLocked(bool) method
 
 
 Determines whether selecting this shape is forbidden. Write **bool**.

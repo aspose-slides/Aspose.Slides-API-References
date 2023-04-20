@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.web/httputility/htmlencode/
 ---
-## HttpUtility::HtmlEncode(const [String](../../../system/string/)\&) method
+## HttpUtility::HtmlEncode(const String\&) method
 
 
 Encodes Html fragment.
@@ -26,13 +26,7 @@ static String System::Web::HttpUtility::HtmlEncode(const String &str)
 
 Encoded Html fragment.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::HtmlEncode(const [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## HttpUtility::HtmlEncode(const SharedPtr\<Object\>\&) method
 
 
 Encodes Html fragment.
@@ -52,15 +46,7 @@ static String System::Web::HttpUtility::HtmlEncode(const SharedPtr<Object> &valu
 
 Encoded Html fragment.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [HttpUtility](../)
-* Namespace [System::Web](../../)
-* Library [Aspose.Slides](../../../)
-## HttpUtility::HtmlEncode(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## HttpUtility::HtmlEncode(const String\&, const SharedPtr\<IO::TextWriter\>\&) method
 
 
 Encodes Html fragment.
@@ -79,9 +65,10 @@ static void System::Web::HttpUtility::HtmlEncode(const String &str, const Shared
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
+* Class [String](../../../system/string/)
 * Class [HttpUtility](../)
+* Class [Object](../../../system/object/)
+* Class [TextWriter](../../../system.io/textwriter/)
 * Namespace [System::Web](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system/guid/operator_equal_equal/
 ---
-## Guid::operator==(const [Guid](../)\&) const method
+## Guid::operator==(const Guid\&) const method
 
 
 Determines if the GUIDs represented by the current and specified objects are equal.
@@ -28,7 +28,6 @@ True if the GUIDs represented by the current and the specified objects are equal
 
 ## See Also
 
-* Class [Guid](../)
 * Class [Guid](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

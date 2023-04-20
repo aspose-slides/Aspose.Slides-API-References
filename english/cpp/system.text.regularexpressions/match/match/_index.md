@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.text.regularexpressions/match/match/
 ---
-## Match::Match(const [UStringPtr](../../ustringptr/)\&, int, int) constructor
+## Match::Match(const UStringPtr\&, int, int) constructor
 
 
 Constructor.

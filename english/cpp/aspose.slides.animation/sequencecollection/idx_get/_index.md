@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/sequencecollection/idx_get/
 ---
-## SequenceCollection::idx_get(**int32_t**) method
+## SequenceCollection::idx_get(int32_t) method
 
 
 Returns a sequense at the specified index.

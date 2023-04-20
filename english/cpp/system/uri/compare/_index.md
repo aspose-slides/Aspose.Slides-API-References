@@ -6,7 +6,7 @@ type: docs
 weight: 521
 url: /cpp/system/uri/compare/
 ---
-## Uri::Compare(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&, [UriComponents](../../uricomponents/), [UriFormat](../../uriformat/), [StringComparison](../../stringcomparison/)) method
+## Uri::Compare(const SharedPtr\<Uri\>\&, const SharedPtr\<Uri\>\&, UriComponents, UriFormat, StringComparison) method
 
 
 Compares the specified [Uri](../) objects using the specified comparison rules.
@@ -32,11 +32,10 @@ A negative value if **uri1** is less than **uri2**; 0 if uri1 and uri2 are equal
 
 ## See Also
 
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
 * Enum [UriComponents](../../uricomponents/)
 * Enum [UriFormat](../../uriformat/)
 * Enum [StringComparison](../../stringcomparison/)
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

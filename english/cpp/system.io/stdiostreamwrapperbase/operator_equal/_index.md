@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/stdiostreamwrapperbase/operator_equal/
 ---
-## STDIOStreamWrapperBase::operator=(const [STDIOStreamWrapperBase](../)\&) method
+## STDIOStreamWrapperBase::operator=(const STDIOStreamWrapperBase\&) method
 
 
 Copy assignment operator. Deleted.
@@ -17,7 +17,6 @@ STDIOStreamWrapperBase & System::IO::STDIOStreamWrapperBase<T, typename>::operat
 
 ## See Also
 
-* Class [STDIOStreamWrapperBase](../)
 * Class [STDIOStreamWrapperBase](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

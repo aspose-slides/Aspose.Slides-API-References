@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/set_name/
 ---
-## ContentDispositionHeaderValue::set_Name([String](../../../system/string/)) method
+## ContentDispositionHeaderValue::set_Name(String) method
 
 
 Sets a name for a part of the content body.

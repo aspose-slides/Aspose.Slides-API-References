@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/aspose.slides.charts/chartseries/get_label/
 ---
-## ChartSeries::get_Label(**int32_t**) method
+## ChartSeries::get_Label(int32_t) method
 
 
 Returns data label for the data point of this series at the specified index.

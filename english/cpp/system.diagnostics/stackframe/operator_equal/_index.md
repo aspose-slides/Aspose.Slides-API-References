@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.diagnostics/stackframe/operator_equal/
 ---
-## StackFrame::operator=(const [StackFrame](../)\&) const method
+## StackFrame::operator=(const StackFrame\&) const method
 
 
 No changing.
@@ -17,7 +17,6 @@ const StackFrame & System::Diagnostics::StackFrame::operator=(const StackFrame &
 
 ## See Also
 
-* Class [StackFrame](../)
 * Class [StackFrame](../)
 * Namespace [System::Diagnostics](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.text.regularexpressions/regex/match/
 ---
-## Regex::Match(const [String](../../../system/string/)\&) method
+## Regex::Match(const String\&) method
 
 
 Matches regex against string.
@@ -26,14 +26,7 @@ MatchPtr System::Text::RegularExpressions::Regex::Match(const String &input)
 
 [Match](../../match/) value containing match status and submatches.
 
-## See Also
-
-* Typedef [MatchPtr](../../matchptr/)
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Match(const [String](../../../system/string/)\&, int, int) method
+## Regex::Match(const String\&, int, int) method
 
 
 Matches regex against string.
@@ -55,14 +48,7 @@ MatchPtr System::Text::RegularExpressions::Regex::Match(const String &input, int
 
 [Match](../../match/) value containing match status and submatches.
 
-## See Also
-
-* Typedef [MatchPtr](../../matchptr/)
-* Class [String](../../../system/string/)
-* Class [Regex](../)
-* Namespace [System::Text::RegularExpressions](../../)
-* Library [Aspose.Slides](../../../)
-## Regex::Match(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [RegexOptions](../../regexoptions/), [TimeSpan](../../../system/timespan/), int, int) method
+## Regex::Match(const String\&, const String\&, RegexOptions, TimeSpan, int, int) method
 
 
 Matches string and pattern.
@@ -89,10 +75,10 @@ First match found.
 
 ## See Also
 
+* Enum [RegexOptions](../../regexoptions/)
 * Typedef [MatchPtr](../../matchptr/)
 * Class [String](../../../system/string/)
-* Enum [RegexOptions](../../regexoptions/)
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Regex](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Text::RegularExpressions](../../)
 * Library [Aspose.Slides](../../../)

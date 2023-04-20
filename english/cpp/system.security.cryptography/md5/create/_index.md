@@ -20,14 +20,7 @@ static SharedPtr<MD5> System::Security::Cryptography::MD5::Create()
 
 Newly created algorithm object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [MD5](../)
-* Class [MD5](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## MD5::Create(const [String](../../../system/string/)\&) method
+## MD5::Create(const String\&) method
 
 
 Creates [MD5](../) algorithm.
@@ -52,6 +45,5 @@ Newly created algorithm object.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [MD5](../)
 * Class [String](../../../system/string/)
-* Class [MD5](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

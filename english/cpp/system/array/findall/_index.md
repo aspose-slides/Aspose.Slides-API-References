@@ -6,7 +6,7 @@ type: docs
 weight: 638
 url: /cpp/system/array/findall/
 ---
-## Array::FindAll([System::ArrayPtr](../../arrayptr/)\<T\>, [System::Predicate](../../predicate/)\<T\>) method
+## Array::FindAll(System::ArrayPtr\<T\>, System::Predicate\<T\>) method
 
 
 Retrieves all the elements that match the conditions defined by the specified predicate.

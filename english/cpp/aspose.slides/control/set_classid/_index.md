@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/control/set_classid/
 ---
-## Control::set_ClassId([System::Guid](../../../system/guid/)) method
+## Control::set_ClassId(System::Guid) method
 
 
 Gets class id of this control. Read-only [System::Guid](../../../system/guid/).

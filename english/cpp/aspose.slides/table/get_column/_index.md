@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides/table/get_column/
 ---
-## Table::get_Column(**int32_t**) method
+## Table::get_Column(int32_t) method
 
 
 Returns a column at the specified index. Read-only [Aspose::Slides::IColumn](../../icolumn/).

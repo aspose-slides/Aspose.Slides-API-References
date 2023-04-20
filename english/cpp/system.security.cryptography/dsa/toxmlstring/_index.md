@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/dsa/toxmlstring/
 ---
-## DSA::ToXmlString(**bool**) method
+## DSA::ToXmlString(bool) method
 
 
 Exports all parameters in XML format.

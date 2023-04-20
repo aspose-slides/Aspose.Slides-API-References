@@ -6,7 +6,7 @@ type: docs
 weight: 456
 url: /cpp/system.xml/xmlnodereader/readcontentasbinhex/
 ---
-## XmlNodeReader::ReadContentAsBinHex([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**) method
+## XmlNodeReader::ReadContentAsBinHex(ArrayPtr\<uint8_t\>, int32_t, int32_t) method
 
 
 Reads the content and returns the BinHex decoded binary bytes.

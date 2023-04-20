@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system/timespan/operator_minus/
 ---
-## TimeSpan::operator-([TimeSpan](../)) const method
+## TimeSpan::operator-(TimeSpan) const method
 
 
 Returns a new instance of [TimeSpan](../) class that represents a time interval which is the result of subtraction of the time interval represented by the specified object from the time interval represented by the current object.
@@ -26,12 +26,6 @@ TimeSpan System::TimeSpan::operator-(TimeSpan value) const
 
 A new instance of [TimeSpan](../) class that represents a time interval which is the result of subtraction of the time interval represented by the specified object from the time interval represented by the current object.
 
-## See Also
-
-* Class [TimeSpan](../)
-* Class [TimeSpan](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## TimeSpan::operator-() const method
 
 
@@ -43,7 +37,6 @@ TimeSpan System::TimeSpan::operator-() const
 
 ## See Also
 
-* Class [TimeSpan](../)
 * Class [TimeSpan](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

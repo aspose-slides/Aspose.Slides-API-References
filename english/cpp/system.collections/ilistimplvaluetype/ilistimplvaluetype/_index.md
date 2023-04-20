@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections/ilistimplvaluetype/ilistimplvaluetype/
 ---
-## IListImplValueType::IListImplValueType([System::SharedPtr](../../../system/sharedptr/)\<[System::Collections::Generic::IList](../../../system.collections.generic/ilist/)\<T\>\>) constructor
+## IListImplValueType::IListImplValueType(System::SharedPtr\<System::Collections::Generic::IList\<T\>\>) constructor
 
 
 Creates new object instance.

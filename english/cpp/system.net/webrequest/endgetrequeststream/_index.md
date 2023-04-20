@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.net/webrequest/endgetrequeststream/
 ---
-## WebRequest::EndGetRequestStream([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## WebRequest::EndGetRequestStream(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous operation to get a stream completes.

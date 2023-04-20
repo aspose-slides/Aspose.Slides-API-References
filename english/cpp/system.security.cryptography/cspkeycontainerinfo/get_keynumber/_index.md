@@ -17,8 +17,8 @@ SharedPtr<KeyNumber> System::Security::Cryptography::CspKeyContainerInfo::get_Ke
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
 * Enum [KeyNumber](../../keynumber/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [CspKeyContainerInfo](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

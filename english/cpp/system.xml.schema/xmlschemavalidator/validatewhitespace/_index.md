@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml.schema/xmlschemavalidator/validatewhitespace/
 ---
-## XmlSchemaValidator::ValidateWhitespace(const [String](../../../system/string/)\&) method
+## XmlSchemaValidator::ValidateWhitespace(const String\&) method
 
 
 Validates whether the white space in the **string** specified is allowed in the current element context, and accumulates the white space for validation if the current element has simple content.
@@ -22,13 +22,7 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace(const String &e
 | --- | --- | --- |
 | elementValue | const [String](../../../system/string/)\& | A white space **string** to validate in the current element context. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlSchemaValidator](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaValidator::ValidateWhitespace([XmlValueGetter](../../xmlvaluegetter/)) method
+## XmlSchemaValidator::ValidateWhitespace(XmlValueGetter) method
 
 
 Validates whether the white space returned by the XmlValueGetter object specified is allowed in the current element context, and accumulates the white space for validation if the current element has simple content.
@@ -47,6 +41,7 @@ void System::Xml::Schema::XmlSchemaValidator::ValidateWhitespace(XmlValueGetter 
 ## See Also
 
 * Typedef [XmlValueGetter](../../xmlvaluegetter/)
+* Class [String](../../../system/string/)
 * Class [XmlSchemaValidator](../)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

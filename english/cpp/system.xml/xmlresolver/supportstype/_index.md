@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlresolver/supportstype/
 ---
-## XmlResolver::SupportsType([SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, const [TypeInfo](../../../system/typeinfo/)\&) method
+## XmlResolver::SupportsType(SharedPtr\<Uri\>, const TypeInfo\&) method
 
 
 Enables the resolver to return types other than Stream.

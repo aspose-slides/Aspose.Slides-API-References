@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/namevaluewithparametersheadervalue/tryparse/
 ---
-## NameValueWithParametersHeaderValue::TryParse([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[NameValueWithParametersHeaderValue](../)\>\&) method
+## NameValueWithParametersHeaderValue::TryParse(String, System::SharedPtr\<NameValueWithParametersHeaderValue\>\&) method
 
 
 Tries to convert a passed string to an instance of the [NameValueWithParametersHeaderValue](../) class.
@@ -29,9 +29,8 @@ True when the parsing is successfully done, otherwise false.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [NameValueWithParametersHeaderValue](../)
+* Class [String](../../../system/string/)
 * Class [NameValueWithParametersHeaderValue](../)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

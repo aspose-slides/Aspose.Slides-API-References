@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.animation/sequencecollection/removeat/
 ---
-## SequenceCollection::RemoveAt(**int32_t**) method
+## SequenceCollection::RemoveAt(int32_t) method
 
 
 Removes sequence at the specified index.

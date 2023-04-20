@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.export/gifoptions/set_defaultdelay/
 ---
-## GifOptions::set_DefaultDelay(**int32_t**) method
+## GifOptions::set_DefaultDelay(int32_t) method
 
 
 Sets default delay time [ms]. This value will be used if the [ISlideShowTransition::set_AdvanceAfterTime()](../../../aspose.slides/islideshowtransition/set_advanceaftertime/) method was not called. The default value is 1000.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/ipresentationinfo/checkpassword/
 ---
-## IPresentationInfo::CheckPassword([System::String](../../../system/string/)) method
+## IPresentationInfo::CheckPassword(System::String) method
 
 
 Checks whether a password is correct for a presentation protected with open password.

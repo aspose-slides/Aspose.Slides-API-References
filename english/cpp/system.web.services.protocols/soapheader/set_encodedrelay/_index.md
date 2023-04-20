@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.web.services.protocols/soapheader/set_encodedrelay/
 ---
-## SoapHeader::set_EncodedRelay([String](../../../system/string/)) method
+## SoapHeader::set_EncodedRelay(String) method
 
 
 Sets a string representation of the 'relay' attribute value.

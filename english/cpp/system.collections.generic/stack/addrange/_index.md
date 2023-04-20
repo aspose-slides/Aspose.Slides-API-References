@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.collections.generic/stack/addrange/
 ---
-## Stack::AddRange([IEnumerablePtr](../ienumerableptr/)) method
+## Stack::AddRange(IEnumerablePtr) method
 
 
 Puts elements into stack.

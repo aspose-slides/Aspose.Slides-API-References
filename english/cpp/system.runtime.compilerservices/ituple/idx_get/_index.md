@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.runtime.compilerservices/ituple/idx_get/
 ---
-## ITuple::idx_get(**int32_t**) const method
+## ITuple::idx_get(int32_t) const method
 
 
 Returns the element at position index.

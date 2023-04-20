@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/igenericcollection/copyto/
 ---
-## IGenericCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<T\>, **int32_t**) method
+## IGenericCollection::CopyTo(System::ArrayPtr\<T\>, int32_t) method
 
 
 Copies all elements from the collection into the specified array.

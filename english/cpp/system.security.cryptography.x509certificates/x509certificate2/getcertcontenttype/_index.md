@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.security.cryptography.x509certificates/x509certificate2/getcertcontenttype/
 ---
-## X509Certificate2::GetCertContentType(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## X509Certificate2::GetCertContentType(const ByteArrayPtr\&) method
 
 
 Gets the type of certificate contained in the specified byte array.
@@ -26,14 +26,7 @@ static X509ContentType System::Security::Cryptography::X509Certificates::X509Cer
 
 Type of X.509 certificate.
 
-## See Also
-
-* Enum [X509ContentType](../../x509contenttype/)
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [X509Certificate2](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509Certificate2::GetCertContentType(const [String](../../../system/string/)\&) method
+## X509Certificate2::GetCertContentType(const String\&) method
 
 
 Gets the type of certificate contained in the specified file.
@@ -56,7 +49,8 @@ Type of X.509 certificate.
 ## See Also
 
 * Enum [X509ContentType](../../x509contenttype/)
-* Class [String](../../../system/string/)
+* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Class [X509Certificate2](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

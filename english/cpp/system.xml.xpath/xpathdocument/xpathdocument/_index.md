@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.xml.xpath/xpathdocument/xpathdocument/
 ---
-## XPathDocument::XPathDocument(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&) constructor
+## XPathDocument::XPathDocument(const SharedPtr\<XmlReader\>\&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data that is contained in the specified [XmlReader](../../../system.xml/xmlreader/) object.
@@ -22,14 +22,7 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<XmlReader> &rea
 | --- | --- | --- |
 | reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | The [XmlReader](../../../system.xml/xmlreader/) object that contains the XML data. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XPathDocument](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathDocument::XPathDocument(const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\&, [XmlSpace](../../../system.xml/xmlspace/)) constructor
+## XPathDocument::XPathDocument(const SharedPtr\<XmlReader\>\&, XmlSpace) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data that is contained in the specified [XmlReader](../../../system.xml/xmlreader/) object with the specified white space handling.
@@ -46,15 +39,7 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<XmlReader> &rea
 | reader | const [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>\& | The [XmlReader](../../../system.xml/xmlreader/) object that contains the XML data. |
 | space | [XmlSpace](../../../system.xml/xmlspace/) | An XmlSpace object. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Enum [XmlSpace](../../../system.xml/xmlspace/)
-* Class [XPathDocument](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathDocument::XPathDocument(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\&) constructor
+## XPathDocument::XPathDocument(const SharedPtr\<IO::TextReader\>\&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data that is contained in the specified TextReader object.
@@ -70,14 +55,7 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<IO::TextReader>
 | --- | --- | --- |
 | textReader | const [SharedPtr](../../../system/sharedptr/)\<[IO::TextReader](../../../system.io/textreader/)\>\& | The TextReader object that contains the XML data. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextReader](../../../system.io/textreader/)
-* Class [XPathDocument](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathDocument::XPathDocument(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) constructor
+## XPathDocument::XPathDocument(const SharedPtr\<IO::Stream\>\&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data in the specified Stream object.
@@ -93,14 +71,7 @@ System::Xml::XPath::XPathDocument::XPathDocument(const SharedPtr<IO::Stream> &st
 | --- | --- | --- |
 | stream | const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\& | The Stream object that contains the XML data. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XPathDocument](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathDocument::XPathDocument(const [String](../../../system/string/)\&) constructor
+## XPathDocument::XPathDocument(const String\&) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data in the specified file.
@@ -116,13 +87,7 @@ System::Xml::XPath::XPathDocument::XPathDocument(const String &uri)
 | --- | --- | --- |
 | uri | const [String](../../../system/string/)\& | The path of the file that contains the XML data. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XPathDocument](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathDocument::XPathDocument(const [String](../../../system/string/)\&, [XmlSpace](../../../system.xml/xmlspace/)) constructor
+## XPathDocument::XPathDocument(const String\&, XmlSpace) constructor
 
 
 Initializes a new instance of the [XPathDocument](../) class from the XML data in the file specified with the white space handling specified.
@@ -141,8 +106,12 @@ System::Xml::XPath::XPathDocument::XPathDocument(const String &uri, XmlSpace spa
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [XmlSpace](../../../system.xml/xmlspace/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlReader](../../../system.xml/xmlreader/)
 * Class [XPathDocument](../)
+* Class [TextReader](../../../system.io/textreader/)
+* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.io/file/openwrite/
 ---
-## File::OpenWrite(const [String](../../../system/string/)\&) method
+## File::OpenWrite(const String\&) method
 
 
 Opens the specified file for writing only, in 'OpenOrCreate' mode with no sharing.

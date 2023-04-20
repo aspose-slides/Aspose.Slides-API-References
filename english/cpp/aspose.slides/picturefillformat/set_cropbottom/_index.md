@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/picturefillformat/set_cropbottom/
 ---
-## PictureFillFormat::set_CropBottom(**float**) method
+## PictureFillFormat::set_CropBottom(float) method
 
 
 Sets the number of percents of real image height that are cropped off the bottom of the picture. Write **float**.

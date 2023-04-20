@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.animation/propertyeffect/set_valuetype/
 ---
-## PropertyEffect::set_ValueType([PropertyValueType](../../propertyvaluetype/)) method
+## PropertyEffect::set_ValueType(PropertyValueType) method
 
 
 Specifies the type of a property value. Write [PropertyValueType](../../propertyvaluetype/).

@@ -20,14 +20,7 @@ static SharedPtr<ECDsa> System::Security::Cryptography::ECDsa::Create()
 
 ECDSA algorithm object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ECDsa](../)
-* Class [ECDsa](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsa::Create(const [ECCurve](../../eccurve/)\&) method
+## ECDsa::Create(const ECCurve\&) method
 
 
 Creates default ECDSA aglorithm implementation with newly created key over the specified curve.
@@ -47,15 +40,7 @@ static SharedPtr<ECDsa> System::Security::Cryptography::ECDsa::Create(const ECCu
 
 ECDSA algorithm object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ECDsa](../)
-* Struct [ECCurve](../../eccurve/)
-* Class [ECDsa](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsa::Create(const [ECParameters](../../ecparameters/)\&) method
+## ECDsa::Create(const ECParameters\&) method
 
 
 Creates default ECDSA aglorithm implementation using the specified parameters.
@@ -75,15 +60,7 @@ static SharedPtr<ECDsa> System::Security::Cryptography::ECDsa::Create(const ECPa
 
 ECDSA algorithm object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ECDsa](../)
-* Struct [ECParameters](../../ecparameters/)
-* Class [ECDsa](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## ECDsa::Create(const [String](../../../system/string/)\&) method
+## ECDsa::Create(const String\&) method
 
 
 Creates specified ECDSA aglorithm implementation.
@@ -108,6 +85,7 @@ ECDSA algorithm object.
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ECDsa](../)
 * Class [String](../../../system/string/)
-* Class [ECDsa](../)
+* Struct [ECCurve](../../eccurve/)
+* Struct [ECParameters](../../ecparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/fontsubstrule/fontsubstrule/
 ---
-## FontSubstRule::FontSubstRule([System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>) constructor
+## FontSubstRule::FontSubstRule(System::SharedPtr\<IFontData\>, System::SharedPtr\<IFontData\>) constructor
 
 
 Creates new instance.
@@ -23,14 +23,7 @@ Aspose::Slides::FontSubstRule::FontSubstRule(System::SharedPtr<IFontData> source
 | sourceFont | [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\> | Source font. |
 | destFont | [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\> | Destination font. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IFontData](../../ifontdata/)
-* Class [FontSubstRule](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## FontSubstRule::FontSubstRule([System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IFontData](../../ifontdata/)\>, [FontSubstCondition](../../fontsubstcondition/)) constructor
+## FontSubstRule::FontSubstRule(System::SharedPtr\<IFontData\>, System::SharedPtr\<IFontData\>, FontSubstCondition) constructor
 
 
 Creates new instance.
@@ -50,9 +43,9 @@ Aspose::Slides::FontSubstRule::FontSubstRule(System::SharedPtr<IFontData> source
 
 ## See Also
 
+* Enum [FontSubstCondition](../../fontsubstcondition/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IFontData](../../ifontdata/)
-* Enum [FontSubstCondition](../../fontsubstcondition/)
 * Class [FontSubstRule](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

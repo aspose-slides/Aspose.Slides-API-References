@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.sockets/lingeroption/set_enabled/
 ---
-## LingerOption::set_Enabled(**bool**) method
+## LingerOption::set_Enabled(bool) method
 
 
 Sets a value that indicates if the socket will delay closing in an attempt to send all pending data.

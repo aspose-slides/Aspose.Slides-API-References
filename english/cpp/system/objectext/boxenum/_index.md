@@ -3,7 +3,7 @@ title: BoxEnum()
 second_title: Aspose.Slides for C++ API Reference
 description: Boxes enum types for being propagated as Object.
 type: docs
-weight: 196
+weight: 183
 url: /cpp/system/objectext/boxenum/
 ---
 ## ObjectExt::BoxEnum(T) method

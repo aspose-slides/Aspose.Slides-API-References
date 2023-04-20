@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.io/basicsystemistreamwrapper/assignrv/
 ---
-## BasicSystemIStreamWrapper::AssignRV([BasicSystemIStreamWrapper](../)\&&) method
+## BasicSystemIStreamWrapper::AssignRV(BasicSystemIStreamWrapper\&&) method
 
 
 Used in move constructor and move assignment operator to reset pointers and call [swap()](../swap/).
@@ -24,7 +24,6 @@ void System::IO::BasicSystemIStreamWrapper<Elem, Traits>::AssignRV(BasicSystemIS
 
 ## See Also
 
-* Class [BasicSystemIStreamWrapper](../)
 * Class [BasicSystemIStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

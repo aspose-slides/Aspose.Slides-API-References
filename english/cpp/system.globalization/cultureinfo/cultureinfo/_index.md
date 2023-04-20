@@ -25,12 +25,7 @@ System::Globalization::CultureInfo::CultureInfo(int culture)
 
 
 Constructor. 
-## See Also
-
-* Class [CultureInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CultureInfo::CultureInfo(int, **bool**) constructor
+## CultureInfo::CultureInfo(int, bool) constructor
 
 
 Constructor.
@@ -47,12 +42,7 @@ System::Globalization::CultureInfo::CultureInfo(int culture, bool use_user_overr
 | culture | int | Culture identifier. |
 | use_user_override | **bool** | If true, use user-defined values instead of systems; PARAMETER IGNORED. |
 
-## See Also
-
-* Class [CultureInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CultureInfo::CultureInfo(const [String](../../../system/string/)\&) constructor
+## CultureInfo::CultureInfo(const String\&) constructor
 
 
 Constructor.
@@ -68,13 +58,7 @@ System::Globalization::CultureInfo::CultureInfo(const String &name)
 | --- | --- | --- |
 | name | const [String](../../../system/string/)\& | Culture name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CultureInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CultureInfo::CultureInfo(const [String](../../../system/string/)\&, **bool**) constructor
+## CultureInfo::CultureInfo(const String\&, bool) constructor
 
 
 Constructor.
@@ -91,12 +75,6 @@ System::Globalization::CultureInfo::CultureInfo(const String &name, bool use_use
 | name | const [String](../../../system/string/)\& | Culture name. |
 | use_user_override | **bool** | If true, use user-defined values instead of systems; PARAMETER IGNORED. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [CultureInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## CultureInfo::CultureInfo(std::nullptr_t) constructor
 
 
@@ -109,5 +87,6 @@ System::Globalization::CultureInfo::CultureInfo(std::nullptr_t)
 ## See Also
 
 * Class [CultureInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

@@ -15,14 +15,7 @@ Creates default [RSA](../) aglorithm implementation.
 static SharedPtr<RSA> System::Security::Cryptography::RSA::Create()
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSA](../)
-* Class [RSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSA::Create(const [String](../../../system/string/)\&) method
+## RSA::Create(const String\&) method
 
 
 Creates default [RSA](../) algorithm implementation.
@@ -38,15 +31,7 @@ static SharedPtr<RSA> System::Security::Cryptography::RSA::Create(const String &
 | --- | --- | --- |
 | alg_name | const [String](../../../system/string/)\& | Must be \"System.Security.Cryptography.RSACryptoServiceProvider\". |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSA](../)
-* Class [String](../../../system/string/)
-* Class [RSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSA::Create(**int32_t**) method
+## RSA::Create(int32_t) method
 
 
 Creates default [RSA](../) algorithm implementation with specifed key size.
@@ -62,14 +47,7 @@ static SharedPtr<RSA> System::Security::Cryptography::RSA::Create(int32_t key_si
 | --- | --- | --- |
 | key_size_in_bits | **int32_t** | The key size, in bits. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [RSA](../)
-* Class [RSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## RSA::Create(const [RSAParameters](../../rsaparameters/)\&) method
+## RSA::Create(const RSAParameters\&) method
 
 
 Creates default [RSA](../) algorithm implementation with specifed parameters.
@@ -89,7 +67,7 @@ static SharedPtr<RSA> System::Security::Cryptography::RSA::Create(const RSAParam
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [RSA](../)
+* Class [String](../../../system/string/)
 * Struct [RSAParameters](../../rsaparameters/)
-* Class [RSA](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

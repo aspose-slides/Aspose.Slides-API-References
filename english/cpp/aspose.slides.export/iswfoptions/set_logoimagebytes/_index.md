@@ -6,7 +6,7 @@ type: docs
 weight: 326
 url: /cpp/aspose.slides.export/iswfoptions/set_logoimagebytes/
 ---
-## ISwfOptions::set_LogoImageBytes([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) method
+## ISwfOptions::set_LogoImageBytes(System::ArrayPtr\<uint8_t\>) method
 
 
 Image that will be displayed as logo in the top right corner of the viewer. 

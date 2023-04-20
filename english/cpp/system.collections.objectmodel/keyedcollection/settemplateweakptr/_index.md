@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.collections.objectmodel/keyedcollection/settemplateweakptr/
 ---
-## KeyedCollection::SetTemplateWeakPtr(**uint32_t**) method
+## KeyedCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Makes specific template argument to be treated as weak pointer instead of shared pointer (if applicable).

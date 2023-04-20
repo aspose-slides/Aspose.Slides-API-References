@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.data.sqlclient/sqlconnectionstringbuilder/set_datasource/
 ---
-## SqlConnectionStringBuilder::set_DataSource(const [String](../../../system/string/)\&) method
+## SqlConnectionStringBuilder::set_DataSource(const String\&) method
 
 
 Gets data source (e. g. hostname and port).

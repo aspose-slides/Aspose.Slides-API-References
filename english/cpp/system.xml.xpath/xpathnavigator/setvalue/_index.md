@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.xml.xpath/xpathnavigator/setvalue/
 ---
-## XPathNavigator::SetValue([String](../../../system/string/)) method
+## XPathNavigator::SetValue(String) method
 
 
 Sets the value of the current node.

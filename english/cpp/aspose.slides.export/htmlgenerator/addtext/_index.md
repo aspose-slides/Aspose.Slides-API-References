@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.export/htmlgenerator/addtext/
 ---
-## HtmlGenerator::AddText([System::String](../../../system/string/)) method
+## HtmlGenerator::AddText(System::String) method
 
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
@@ -22,13 +22,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddText(System::String text) overrid
 | --- | --- | --- |
 | text | [System::String](../../../system/string/) | Text to add. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## HtmlGenerator::AddText([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>) method
+## HtmlGenerator::AddText(System::ArrayPtr\<char16_t\>) method
 
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
@@ -44,13 +38,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddText(System::ArrayPtr<char16_t> t
 | --- | --- | --- |
 | text | [System::ArrayPtr](../../../system/arrayptr/)\<char16_t\> | Text to add. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [HtmlGenerator](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## HtmlGenerator::AddText([System::ArrayPtr](../../../system/arrayptr/)\<char16_t\>, **int32_t**, **int32_t**) method
+## HtmlGenerator::AddText(System::ArrayPtr\<char16_t\>, int32_t, int32_t) method
 
 
 Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced.
@@ -71,6 +59,7 @@ void Aspose::Slides::Export::HtmlGenerator::AddText(System::ArrayPtr<char16_t> t
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [HtmlGenerator](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

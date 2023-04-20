@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system/decimal/operator_minus_equal/
 ---
-## Decimal::operator-=(const [Decimal](../)\&) method
+## Decimal::operator-=(const Decimal\&) method
 
 
 Assigns to the current object a new value that is the result of subtraction of the value represented by the specified object from the value represented by the current object.
@@ -28,7 +28,6 @@ A reference to the self
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

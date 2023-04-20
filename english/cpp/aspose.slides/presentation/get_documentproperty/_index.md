@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/aspose.slides/presentation/get_documentproperty/
 ---
-## Presentation::get_DocumentProperty([System::String](../../../system/string/)) method
+## Presentation::get_DocumentProperty(System::String) method
 
 
 Returns custom property defined by name.

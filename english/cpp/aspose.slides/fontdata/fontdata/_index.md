@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/fontdata/fontdata/
 ---
-## FontData::FontData([System::String](../../../system/string/)) constructor
+## FontData::FontData(System::String) constructor
 
 
 Creates a new [FontData](../) object with the specified font name.

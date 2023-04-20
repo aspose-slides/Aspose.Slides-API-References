@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/ipendpoint/ipendpoint/
 ---
-## IPEndPoint::IPEndPoint(**int64_t**, **int32_t**) constructor
+## IPEndPoint::IPEndPoint(int64_t, int32_t) constructor
 
 
 Constructs a new instance.
@@ -23,12 +23,7 @@ System::Net::IPEndPoint::IPEndPoint(int64_t address, int32_t port)
 | address | **int64_t** | The host IP address. |
 | port | **int32_t** | The port number. |
 
-## See Also
-
-* Class [IPEndPoint](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## IPEndPoint::IPEndPoint([System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../ipaddress/)\>, **int32_t**) constructor
+## IPEndPoint::IPEndPoint(System::SharedPtr\<IPAddress\>, int32_t) constructor
 
 
 Constructs a new instance.
@@ -48,7 +43,7 @@ System::Net::IPEndPoint::IPEndPoint(System::SharedPtr<IPAddress> address, int32_
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPAddress](../../ipaddress/)
 * Class [IPEndPoint](../)
+* Class [IPAddress](../../ipaddress/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

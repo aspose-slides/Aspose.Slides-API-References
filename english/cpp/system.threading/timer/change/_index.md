@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.threading/timer/change/
 ---
-## Timer::Change(**int64_t**, **int64_t**) method
+## Timer::Change(int64_t, int64_t) method
 
 
 Re-schedules or cancels timer.
@@ -23,12 +23,7 @@ bool System::Threading::Timer::Change(int64_t dueTime, int64_t period)
 | dueTime | **int64_t** | [Timeout](../../timeout/) before next invocation of callback function, in milliseconds; negative values cancel timer even if it was scheduled. |
 | period | **int64_t** | [Timeout](../../timeout/) between consequental invocations of callback function, in milliseconds; non-positive values mean that timer should only be executed once. |
 
-## See Also
-
-* Class [Timer](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## Timer::Change([System::TimeSpan](../../../system/timespan/), [System::TimeSpan](../../../system/timespan/)) method
+## Timer::Change(System::TimeSpan, System::TimeSpan) method
 
 
 Re-schedules or cancels timer.
@@ -47,7 +42,7 @@ bool System::Threading::Timer::Change(System::TimeSpan dueTime, System::TimeSpan
 
 ## See Also
 
-* Class [TimeSpan](../../../system/timespan/)
 * Class [Timer](../)
+* Class [TimeSpan](../../../system/timespan/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.net/httpwebrequest/set_proxy/
 ---
-## HttpWebRequest::set_Proxy([System::SharedPtr](../../../system/sharedptr/)\<[IWebProxy](../../iwebproxy/)\>) method
+## HttpWebRequest::set_Proxy(System::SharedPtr\<IWebProxy\>) method
 
 
 Sets the HTTP proxy.

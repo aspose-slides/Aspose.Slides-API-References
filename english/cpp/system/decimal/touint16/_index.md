@@ -6,7 +6,7 @@ type: docs
 weight: 664
 url: /cpp/system/decimal/touint16/
 ---
-## Decimal::ToUInt16([Decimal](../)) method
+## Decimal::ToUInt16(Decimal) method
 
 
 Converts the [Decimal](../) value to unsigned 16-bit integer value.
@@ -17,7 +17,6 @@ static uint16_t System::Decimal::ToUInt16(Decimal value)
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

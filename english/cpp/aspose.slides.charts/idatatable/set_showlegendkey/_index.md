@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.charts/idatatable/set_showlegendkey/
 ---
-## IDataTable::set_ShowLegendKey(**bool**) method
+## IDataTable::set_ShowLegendKey(bool) method
 
 
 True if the data label legend key is visible. Write **bool**.

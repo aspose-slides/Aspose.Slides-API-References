@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system/math/pow/
 ---
-## Math::Pow(**double**, **double**) method
+## Math::Pow(double, double) method
 
 
 Returns the specified value raised to the specified power.

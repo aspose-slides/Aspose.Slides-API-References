@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.security.cryptography/dsa/signdata/
 ---
-## DSA::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSA::SignData(const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -23,14 +23,7 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 | data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../) signature for the input data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [DSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSA::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **int32_t**, **int32_t**, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSA::SignData(const ByteArrayPtr\&, int32_t, int32_t, const HashAlgorithmName\&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -49,14 +42,7 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 | count | **int32_t** | Number of bytes to use as input data. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../) signature for the input data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [DSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSA::SignData(const [StreamPtr](../../../system/streamptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSA::SignData(const StreamPtr\&, const HashAlgorithmName\&) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm, and signs the result.
@@ -77,7 +63,7 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const StreamPtr &stre
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
 * Typedef [StreamPtr](../../../system/streamptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Class [DSA](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

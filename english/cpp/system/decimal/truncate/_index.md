@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system/decimal/truncate/
 ---
-## Decimal::Truncate(const [Decimal](../)\&) method
+## Decimal::Truncate(const Decimal\&) method
 
 
 Returns the [Decimal](../) object representing a value that has integral part equal to that of the value represented by the specified [Decimal](../) object of the with all fractional digits discarded.
@@ -28,7 +28,6 @@ A [Decimal](../) object representing a decimal value whose integral part is equa
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

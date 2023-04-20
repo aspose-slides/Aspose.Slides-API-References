@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.schema/xmlschemainfo/set_isdefault/
 ---
-## XmlSchemaInfo::set_IsDefault(**bool**) method
+## XmlSchemaInfo::set_IsDefault(bool) method
 
 
 Sets a value indicating if this validated XML node was set as the result of a default being applied during XML [Schema](../../) Definition Language (XSD) schema validation.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/colorformat/set_color/
 ---
-## ColorFormat::set_Color([System::Drawing::Color](../../../system.drawing/color/)) method
+## ColorFormat::set_Color(System::Drawing::Color) method
 
 
 Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Write [System::Drawing::Color](../../../system.drawing/color/).

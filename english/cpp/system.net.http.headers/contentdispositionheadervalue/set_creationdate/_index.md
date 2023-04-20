@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/set_creationdate/
 ---
-## ContentDispositionHeaderValue::set_CreationDate([Nullable](../../../system/nullable/)\<[DateTimeOffset](../../../system/datetimeoffset/)\>) method
+## ContentDispositionHeaderValue::set_CreationDate(Nullable\<DateTimeOffset\>) method
 
 
 Sets the file creation date.

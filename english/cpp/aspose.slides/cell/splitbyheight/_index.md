@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.slides/cell/splitbyheight/
 ---
-## Cell::SplitByHeight(**double**) method
+## Cell::SplitByHeight(double) method
 
 
 Splits the cell by height.

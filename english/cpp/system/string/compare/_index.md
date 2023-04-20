@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/system/string/compare/
 ---
-## String::Compare(const [String](../)\&, int, const [String](../)\&, int, int, **bool**) method
+## String::Compare(const String\&, int, const String\&, int, int, bool) method
 
 
 Less-equal-greater-compares two substrings.
@@ -31,13 +31,7 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Compare(const [String](../)\&, int, const [String](../)\&, int, int, **bool**, const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## String::Compare(const String\&, int, const String\&, int, int, bool, const SharedPtr\<System::Globalization::CultureInfo\>\&) method
 
 
 Less-equal-greater-compares two substrings.
@@ -63,15 +57,7 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Compare(const [String](../)\&, const [String](../)\&, [System::StringComparison](../../stringcomparison/)) method
+## String::Compare(const String\&, const String\&, System::StringComparison) method
 
 
 Less-equal-greater-compares two strings.
@@ -93,14 +79,7 @@ static int System::String::Compare(const String &strA, const String &strB, Syste
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Compare(const [String](../)\&, int, const [String](../)\&, int, int, [System::StringComparison](../../stringcomparison/)) method
+## String::Compare(const String\&, int, const String\&, int, int, System::StringComparison) method
 
 
 Less-equal-greater-compares two strings.
@@ -125,14 +104,7 @@ static int System::String::Compare(const String &strA, int indexA, const String 
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Compare(const [String](../)\&, const [String](../)\&, **bool**) method
+## String::Compare(const String\&, const String\&, bool) method
 
 
 Less-equal-greater-compares two strings.
@@ -154,13 +126,7 @@ static int System::String::Compare(const String &strA, const String &strB, bool 
 
 Negative value if first substring is less then second, zero if they match, positive value otherwise.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Compare(const [String](../)\&, const [String](../)\&, **bool**, const [SharedPtr](../../sharedptr/)\<[System::Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## String::Compare(const String\&, const String\&, bool, const SharedPtr\<System::Globalization::CultureInfo\>\&) method
 
 
 Less-equal-greater-compares two strings.
@@ -185,9 +151,9 @@ Negative value if first substring is less then second, zero if they match, posit
 
 ## See Also
 
-* Class [String](../)
+* Enum [StringComparison](../../stringcomparison/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [String](../)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/isummaryzoomsectioncollection/removesummaryzoomsection/
 ---
-## ISummaryZoomSectionCollection::RemoveSummaryZoomSection([System::SharedPtr](../../../system/sharedptr/)\<[ISection](../../isection/)\>) method
+## ISummaryZoomSectionCollection::RemoveSummaryZoomSection(System::SharedPtr\<ISection\>) method
 
 
 Remove Summary Zoom [Section](../../section/) object from the collection.

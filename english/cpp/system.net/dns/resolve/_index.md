@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/dns/resolve/
 ---
-## Dns::Resolve([String](../../../system/string/)) method
+## Dns::Resolve(String) method
 
 
 Creates a new IPHostEntry-class instance using the specified host name.

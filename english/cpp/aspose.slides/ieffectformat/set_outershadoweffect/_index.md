@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/ieffectformat/set_outershadoweffect/
 ---
-## IEffectFormat::set_OuterShadowEffect([System::SharedPtr](../../../system/sharedptr/)\<[Effects::IOuterShadow](../../../aspose.slides.effects/ioutershadow/)\>) method
+## IEffectFormat::set_OuterShadowEffect(System::SharedPtr\<Effects::IOuterShadow\>) method
 
 
 Outer shadow. Write [Effects::IOuterShadow](../../../aspose.slides.effects/ioutershadow/).

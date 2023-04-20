@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography/asymmetricsignatureformatter/setkey/
 ---
-## AsymmetricSignatureFormatter::SetKey([System::SharedPtr](../../../system/sharedptr/)\<[AsymmetricAlgorithm](../../asymmetricalgorithm/)\>) method
+## AsymmetricSignatureFormatter::SetKey(System::SharedPtr\<AsymmetricAlgorithm\>) method
 
 
 Sets asymmetric algorithm to use when calculating the signature.

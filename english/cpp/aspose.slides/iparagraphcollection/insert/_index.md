@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/iparagraphcollection/insert/
 ---
-## IParagraphCollection::Insert(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>) method
+## IParagraphCollection::Insert(int32_t, System::SharedPtr\<IParagraph\>) method
 
 
 Inserts a [Paragraph](../../paragraph/) into the collection at the specified index.
@@ -23,14 +23,7 @@ virtual void Aspose::Slides::IParagraphCollection::Insert(int32_t index, System:
 | index | **int32_t** | The zero-based index at which [Paragraph](../../paragraph/) should be inserted. |
 | value | [System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\> | The [Paragraph](../../paragraph/) to insert. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraph](../../iparagraph/)
-* Class [IParagraphCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IParagraphCollection::Insert(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IParagraphCollection](../)\>) method
+## IParagraphCollection::Insert(int32_t, System::SharedPtr\<IParagraphCollection\>) method
 
 
 Inserts a content of [ParagraphCollection](../../paragraphcollection/) into the collection at the specified index.
@@ -50,7 +43,7 @@ virtual void Aspose::Slides::IParagraphCollection::Insert(int32_t index, System:
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraphCollection](../)
+* Class [IParagraph](../../iparagraph/)
 * Class [IParagraphCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.security.cryptography.xml/xmldsigc14ntransform/getdigestedoutput/
 ---
-## XmlDsigC14NTransform::GetDigestedOutput([SharedPtr](../../../system/sharedptr/)\<[HashAlgorithm](../../../system.security.cryptography/hashalgorithm/)\>) method
+## XmlDsigC14NTransform::GetDigestedOutput(SharedPtr\<HashAlgorithm\>) method
 
 
 

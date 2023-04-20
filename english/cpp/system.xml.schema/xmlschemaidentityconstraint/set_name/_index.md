@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaidentityconstraint/set_name/
 ---
-## XmlSchemaIdentityConstraint::set_Name(const [String](../../../system/string/)\&) method
+## XmlSchemaIdentityConstraint::set_Name(const String\&) method
 
 
 Sets the name of the identity constraint.

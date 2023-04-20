@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.web.services.protocols/soapdocumentmethodattribute/set_use/
 ---
-## SoapDocumentMethodAttribute::set_Use([Description::SoapBindingUse](../../../system.web.services.description/soapbindinguse/)) method
+## SoapDocumentMethodAttribute::set_Use(Description::SoapBindingUse) method
 
 
 Sets a value that determines the message encoding method.

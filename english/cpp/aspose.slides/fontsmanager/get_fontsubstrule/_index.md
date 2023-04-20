@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/fontsmanager/get_fontsubstrule/
 ---
-## FontsManager::get_FontSubstRule(**int32_t**) method
+## FontsManager::get_FontSubstRule(int32_t) method
 
 
 Returns font substitution rule at the specified index to use when rendering.

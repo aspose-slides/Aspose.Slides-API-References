@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.io/memorystream/setlength/
 ---
-## MemoryStream::SetLength(**int64_t**) method
+## MemoryStream::SetLength(int64_t) method
 
 
 Sets the length of the stream represented by the current object.

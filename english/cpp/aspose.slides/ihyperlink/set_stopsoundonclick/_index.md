@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/ihyperlink/set_stopsoundonclick/
 ---
-## IHyperlink::set_StopSoundOnClick(**bool**) method
+## IHyperlink::set_StopSoundOnClick(bool) method
 
 
 Determines whether the sound should be stopped on hyperlink click. Write **bool**.

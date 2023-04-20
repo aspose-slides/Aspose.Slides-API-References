@@ -3,7 +3,7 @@ title: CameraPresetType
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define camera preset type.
 type: docs
-weight: 5669
+weight: 5409
 url: /cpp/aspose.slides/camerapresettype/
 ---
 ## CameraPresetType enum

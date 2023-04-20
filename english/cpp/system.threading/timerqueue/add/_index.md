@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.threading/timerqueue/add/
 ---
-## TimerQueue::Add([Timer](../../timer/) *) method
+## TimerQueue::Add(Timer *) method
 
 
 Registers timer in queue.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.threading/monitor/isentered/
 ---
-## Monitor::IsEntered(const [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\&) method
+## Monitor::IsEntered(const System::SharedPtr\<Object\>\&) method
 
 
 Determines whether the current thread holds the lock on the specified object.

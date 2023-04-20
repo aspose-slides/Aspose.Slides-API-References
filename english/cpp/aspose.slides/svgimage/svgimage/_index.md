@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/svgimage/svgimage/
 ---
-## SvgImage::SvgImage([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>) constructor
+## SvgImage::SvgImage(System::ArrayPtr\<uint8_t\>) constructor
 
 
 Creates new [SvgImage](../) object.
@@ -22,13 +22,7 @@ Aspose::Slides::SvgImage::SvgImage(System::ArrayPtr<uint8_t> data)
 | --- | --- | --- |
 | data | [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\> | Svg data. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [SvgImage](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SvgImage::SvgImage([System::String](../../../system/string/)) constructor
+## SvgImage::SvgImage(System::String) constructor
 
 
 Creates new [SvgImage](../) object.
@@ -44,13 +38,7 @@ Aspose::Slides::SvgImage::SvgImage(System::String svgContent)
 | --- | --- | --- |
 | svgContent | [System::String](../../../system/string/) | Svg content. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [SvgImage](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SvgImage::SvgImage([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) constructor
+## SvgImage::SvgImage(System::SharedPtr\<System::IO::Stream\>) constructor
 
 
 Creates new [SvgImage](../) object.
@@ -66,14 +54,7 @@ Aspose::Slides::SvgImage::SvgImage(System::SharedPtr<System::IO::Stream> stream)
 | --- | --- | --- |
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | Svg stream. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [SvgImage](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SvgImage::SvgImage([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\>, [System::String](../../../system/string/)) constructor
+## SvgImage::SvgImage(System::ArrayPtr\<uint8_t\>, System::SharedPtr\<Import::IExternalResourceResolver\>, System::String) constructor
 
 
 Creates new [SvgImage](../) object.
@@ -91,16 +72,7 @@ Aspose::Slides::SvgImage::SvgImage(System::ArrayPtr<uint8_t> data, System::Share
 | externalResResolver | [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\> | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | [System::String](../../../system/string/) | Base URI of the specified Svg. Used to resolve relative links. |
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
-* Class [String](../../../system/string/)
-* Class [SvgImage](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SvgImage::SvgImage([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\>, [System::String](../../../system/string/)) constructor
+## SvgImage::SvgImage(System::String, System::SharedPtr\<Import::IExternalResourceResolver\>, System::String) constructor
 
 
 Creates new [SvgImage](../) object.
@@ -118,15 +90,7 @@ Aspose::Slides::SvgImage::SvgImage(System::String svgContent, System::SharedPtr<
 | externalResResolver | [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\> | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | baseUri | [System::String](../../../system/string/) | Base URI of the specified Svg. Used to resolve relative links. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
-* Class [SvgImage](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SvgImage::SvgImage([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[Import::IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)\>, [System::String](../../../system/string/)) constructor
+## SvgImage::SvgImage(System::SharedPtr\<System::IO::Stream\>, System::SharedPtr\<Import::IExternalResourceResolver\>, System::String) constructor
 
 
 Creates new [SvgImage](../) object.
@@ -146,10 +110,11 @@ Aspose::Slides::SvgImage::SvgImage(System::SharedPtr<System::IO::Stream> stream,
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [SvgImage](../)
+* Class [String](../../../system/string/)
 * Class [Stream](../../../system.io/stream/)
 * Class [IExternalResourceResolver](../../../aspose.slides.import/iexternalresourceresolver/)
-* Class [String](../../../system/string/)
-* Class [SvgImage](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

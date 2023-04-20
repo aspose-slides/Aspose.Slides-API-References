@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/summaryzoomsectioncollection/indexof/
 ---
-## SummaryZoomSectionCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[ISummaryZoomSection](../../isummaryzoomsection/)\>) method
+## SummaryZoomSectionCollection::IndexOf(System::SharedPtr\<ISummaryZoomSection\>) method
 
 
 Returns an index of the specified [SummaryZoomSection](../../summaryzoomsection/) object.

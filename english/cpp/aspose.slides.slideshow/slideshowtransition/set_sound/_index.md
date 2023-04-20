@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/slideshowtransition/set_sound/
 ---
-## SlideShowTransition::set_Sound([System::SharedPtr](../../../system/sharedptr/)\<[IAudio](../../../aspose.slides/iaudio/)\>) method
+## SlideShowTransition::set_Sound(System::SharedPtr\<IAudio\>) method
 
 
 Sets the embedded audio data. Write [IAudio](../../../aspose.slides/iaudio/).

@@ -28,14 +28,7 @@ Example:
 auto borderBox = System::MakeObject<MathematicalText>(u"x+y+z")->ToBorderBox();
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathBorderBox](../../imathborderbox/)
-* Class [MathElementBase](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathElementBase::ToBorderBox(**bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**, **bool**) method
+## MathElementBase::ToBorderBox(bool, bool, bool, bool, bool, bool, bool, bool) method
 
 
 Places this element in a border-box

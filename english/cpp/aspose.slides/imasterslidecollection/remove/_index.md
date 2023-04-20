@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/imasterslidecollection/remove/
 ---
-## IMasterSlideCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>) method
+## IMasterSlideCollection::Remove(System::SharedPtr\<IMasterSlide\>) method
 
 
 Removes the first occurrence of a specific object from the collection.

@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/aspose.slides/ishapecollection/insertgroupshape/
 ---
-## IShapeCollection::InsertGroupShape(**int32_t**) method
+## IShapeCollection::InsertGroupShape(int32_t) method
 
 
 Creates a new [GroupShape](../../groupshape/) and inserts it to the collection at the specified index. [GroupShape](../../groupshape/) frame size and position will be fitted to content when new shape will be added into the [GroupShape](../../groupshape/).

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/math/atan2/
 ---
-## Math::Atan2(**double**, **double**) method
+## Math::Atan2(double, double) method
 
 
 Calculates the arctan of the ration of the specified values.

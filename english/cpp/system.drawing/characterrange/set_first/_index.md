@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing/characterrange/set_first/
 ---
-## CharacterRange::set_First(**int32_t**) method
+## CharacterRange::set_First(int32_t) method
 
 
 Sets the position of the first character of the range represented by the current object.

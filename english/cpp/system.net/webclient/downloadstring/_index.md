@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/webclient/downloadstring/
 ---
-## WebClient::DownloadString(const [String](../../../system/string/)\&) const method
+## WebClient::DownloadString(const String\&) const method
 
 
 Downloads the specified resource as a string.
@@ -26,13 +26,7 @@ String System::Net::WebClient::DownloadString(const String &address) const
 
 The string that contains the requested resource.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [WebClient](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## WebClient::DownloadString(const [SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>\&) const method
+## WebClient::DownloadString(const SharedPtr\<Uri\>\&) const method
 
 
 Downloads the specified resource as a string.
@@ -54,9 +48,9 @@ The string that contains the requested resource.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Uri](../../../system/uri/)
+* Class [String](../../../system/string/)
 * Class [WebClient](../)
+* Class [Uri](../../../system/uri/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

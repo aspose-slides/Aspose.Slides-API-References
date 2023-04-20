@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.drawing/rectanglef/equals/
 ---
-## RectangleF::Equals(const [RectangleF](../)\&) const method
+## RectangleF::Equals(const RectangleF\&) const method
 
 
 Determines if the rectangles represented by the current and the specified objects are identical.
@@ -28,7 +28,6 @@ True if the rectangles represented by the current and the specified objects are 
 
 ## See Also
 
-* Class [RectangleF](../)
 * Class [RectangleF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

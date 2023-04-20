@@ -20,13 +20,7 @@ virtual Decimal System::Xml::XmlReader::ReadElementContentAsDecimal()
 
 The element content as a [Decimal](../../../system/decimal/) object.
 
-## See Also
-
-* Class [Decimal](../../../system/decimal/)
-* Class [XmlReader](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlReader::ReadElementContentAsDecimal([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlReader::ReadElementContentAsDecimal(String, String) method
 
 
 Checks that the specified local name and namespace URI matches that of the current element, then reads the current element and returns the contents as a [Decimal](../../../system/decimal/) object.
@@ -50,7 +44,7 @@ The element content as a [Decimal](../../../system/decimal/) object.
 ## See Also
 
 * Class [Decimal](../../../system/decimal/)
-* Class [String](../../../system/string/)
 * Class [XmlReader](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

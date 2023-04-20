@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.theme/iformatscheme/get_backgroundfillstyle/
 ---
-## IFormatScheme::get_BackgroundFillStyle(**int32_t**) method
+## IFormatScheme::get_BackgroundFillStyle(int32_t) method
 
 
 Returns the theme-defined background fill style at the specified index. Read-only [Aspose::Slides::IFillFormat](../../../aspose.slides/ifillformat/).

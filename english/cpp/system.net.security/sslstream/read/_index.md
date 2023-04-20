@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.net.security/sslstream/read/
 ---
-## SslStream::Read(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## SslStream::Read(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -28,13 +28,7 @@ int32_t System::Net::Security::SslStream::Read(const ArrayPtr<uint8_t> &buffer, 
 
 The number of bytes read
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [SslStream](../)
-* Namespace [System::Net::Security](../../)
-* Library [Aspose.Slides](../../../)
-## SslStream::Read(const System::Details::ArrayView\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## SslStream::Read(const System::Details::ArrayView\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Reads the specified number of bytes from the stream and writes them to the specified byte array.
@@ -58,6 +52,7 @@ The number of bytes read
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [SslStream](../)
 * Namespace [System::Net::Security](../../)
 * Library [Aspose.Slides](../../../)

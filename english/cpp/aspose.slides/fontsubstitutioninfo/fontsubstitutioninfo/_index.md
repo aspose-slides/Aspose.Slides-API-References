@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/
 ---
-## FontSubstitutionInfo::FontSubstitutionInfo([System::String](../../../system/string/), [System::String](../../../system/string/)) constructor
+## FontSubstitutionInfo::FontSubstitutionInfo(System::String, System::String) constructor
 
 
 Creates an instance of [FontSubstitutionInfo](../) class.

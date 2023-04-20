@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.runtime.serialization/formatterconverter/touint16/
 ---
-## FormatterConverter::ToUInt16([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FormatterConverter::ToUInt16(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a **uint16_t**.

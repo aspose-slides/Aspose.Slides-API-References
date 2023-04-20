@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.drawing/graphics/fillpath/
 ---
-## Graphics::FillPath(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::GraphicsPath](../../../system.drawing.drawing2d/graphicspath/)\>\&) method
+## Graphics::FillPath(const SharedPtr\<Brush\>\&, const SharedPtr\<Drawing2D::GraphicsPath\>\&) method
 
 
 Fills the interiors of the specified path using the specified brush.

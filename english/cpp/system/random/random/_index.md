@@ -15,12 +15,7 @@ Initializes a new instance, using a time-dependent default seed value.
 System::Random::Random()
 ```
 
-## See Also
-
-* Class [Random](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Random::Random(**int32_t**) constructor
+## Random::Random(int32_t) constructor
 
 
 Initializes a new instance of the [System.Random](../) class, using the specified seed value.

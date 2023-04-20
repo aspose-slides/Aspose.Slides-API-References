@@ -3,7 +3,7 @@ title: operator()()
 second_title: Aspose.Slides for C++ API Reference
 description: Invokes all delegates currently present in the delegates collection. Delegates are invoked in the same order as they were added to the collection. The operator blocks while the delegates are executed.
 type: docs
-weight: 183
+weight: 222
 url: /cpp/system/multicastdelegate_tmpl_returntype_lbrace_argumenttypes_dots_rbrace__end_tmpl/operator_call/
 ---
 ## MulticastDelegate< ReturnType(ArgumentTypes...)>::operator()(ArgumentTypes...) const method

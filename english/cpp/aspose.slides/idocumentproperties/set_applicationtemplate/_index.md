@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides/idocumentproperties/set_applicationtemplate/
 ---
-## IDocumentProperties::set_ApplicationTemplate([System::String](../../../system/string/)) method
+## IDocumentProperties::set_ApplicationTemplate(System::String) method
 
 
 Sets the template of a application. Write [System::String](../../../system/string/).

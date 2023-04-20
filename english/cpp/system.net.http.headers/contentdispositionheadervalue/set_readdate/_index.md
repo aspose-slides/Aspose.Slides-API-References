@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.net.http.headers/contentdispositionheadervalue/set_readdate/
 ---
-## ContentDispositionHeaderValue::set_ReadDate([Nullable](../../../system/nullable/)\<[DateTimeOffset](../../../system/datetimeoffset/)\>) method
+## ContentDispositionHeaderValue::set_ReadDate(Nullable\<DateTimeOffset\>) method
 
 
 Sets the date when the file read the last time.

@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathaccentfactory/
 Allows to create a math accent
 
 ```cpp
-class IMathAccentFactory : public System::Object
+class IMathAccentFactory : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system/version/equals/
 ---
-## Version::Equals(const [Version](../)\&) const method
+## Version::Equals(const Version\&) const method
 
 
 Determines if the version numbers represented by the current and the specified objects are equal.
@@ -28,7 +28,6 @@ True if version numbers represented by the current object and the specified obje
 
 ## See Also
 
-* Class [Version](../)
 * Class [Version](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

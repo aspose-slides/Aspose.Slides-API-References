@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/aspose.slides.export/pdfoptions/set_applyimagetransparent/
 ---
-## PdfOptions::set_ApplyImageTransparent(**bool**) method
+## PdfOptions::set_ApplyImageTransparent(bool) method
 
 
 Applies the specified transparent color to an image if **true**.

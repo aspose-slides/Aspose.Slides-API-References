@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.globalization/compareinfo/gethashcode/
 ---
-## CompareInfo::GetHashCode(const [String](../../../system/string/)\&, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::GetHashCode(const String\&, CompareOptions) const method
 
 
 Gets string hash code based on specified comparison options.
@@ -27,13 +27,6 @@ virtual int System::Globalization::CompareInfo::GetHashCode(const String &value,
 
 Hash code.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## CompareInfo::GetHashCode() const method
 
 
@@ -50,6 +43,8 @@ Hash code value as calculated by corresponding class.
 
 ## See Also
 
+* Enum [CompareOptions](../../compareoptions/)
+* Class [String](../../../system/string/)
 * Class [CompareInfo](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

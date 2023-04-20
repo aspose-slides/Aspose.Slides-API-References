@@ -3,7 +3,7 @@ title: OOXMLException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 6709
+weight: 6449
 url: /cpp/aspose.slides/ooxmlexception/
 ---
 ## OOXMLException typedef

@@ -15,12 +15,7 @@ Constructor.
 System::Text::UTF32Encoding::UTF32Encoding()
 ```
 
-## See Also
-
-* Class [UTF32Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF32Encoding::UTF32Encoding(**bool**, **bool**) constructor
+## UTF32Encoding::UTF32Encoding(bool, bool) constructor
 
 
 Constructor.
@@ -37,12 +32,7 @@ System::Text::UTF32Encoding::UTF32Encoding(bool big_endian, bool byte_order_mark
 | big_endian | **bool** | Whether codepage is big endian as opposite to little endian. |
 | byte_order_mark | **bool** | Whether to insert BOM. |
 
-## See Also
-
-* Class [UTF32Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF32Encoding::UTF32Encoding(**bool**, **bool**, **bool**) constructor
+## UTF32Encoding::UTF32Encoding(bool, bool, bool) constructor
 
 
 Constructor.

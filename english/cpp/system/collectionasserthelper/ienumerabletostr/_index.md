@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/collectionasserthelper/ienumerabletostr/
 ---
-## CollectionAssertHelper::IEnumerableToStr(const [System::SharedPtr](../../sharedptr/)\<[System::Collections::Generic::IEnumerable](../../../system.collections.generic/ienumerable/)\<T\>\>\&) method
+## CollectionAssertHelper::IEnumerableToStr(const System::SharedPtr\<System::Collections::Generic::IEnumerable\<T\>\>\&) method
 
 
 Converts collection to string by joining string representations of elements.
@@ -34,8 +34,8 @@ Joint values of collection.
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
+* Class [String](../../string/)
 * Class [IEnumerable](../../../system.collections.generic/ienumerable/)
 * Struct [CollectionAssertHelper](../)
 * Namespace [System](../../)

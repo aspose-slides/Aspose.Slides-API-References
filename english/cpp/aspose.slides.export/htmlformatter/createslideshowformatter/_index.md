@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.export/htmlformatter/createslideshowformatter/
 ---
-## HtmlFormatter::CreateSlideShowFormatter([System::String](../../../system/string/), **bool**) method
+## HtmlFormatter::CreateSlideShowFormatter(System::String, bool) method
 
 
 Creates and returns HTML formatter for a simple slide show html which shows slides one after another.
@@ -32,6 +32,5 @@ static System::SharedPtr<HtmlFormatter> Aspose::Slides::Export::HtmlFormatter::C
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [HtmlFormatter](../)
 * Class [String](../../../system/string/)
-* Class [HtmlFormatter](../)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.globalization/datetimeformatinfo/set_dateseparator/
 ---
-## DateTimeFormatInfo::set_DateSeparator(const [String](../../../system/string/)\&) method
+## DateTimeFormatInfo::set_DateSeparator(const String\&) method
 
 
 Sets date separator.

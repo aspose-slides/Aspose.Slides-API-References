@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.net.http.headers/httpheadervaluecollection/settemplateweakptr/
 ---
-## HttpHeaderValueCollection::SetTemplateWeakPtr(**uint32_t**) method
+## HttpHeaderValueCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

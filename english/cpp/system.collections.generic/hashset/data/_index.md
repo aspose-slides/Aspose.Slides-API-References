@@ -20,12 +20,6 @@ set_t & System::Collections::Generic::HashSet<T>::data()
 
 Reference to underlying data structure.
 
-## See Also
-
-* Typedef [set_t](../set_t/)
-* Class [HashSet](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## HashSet::data() const method
 
 

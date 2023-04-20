@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.web/httpresponse/binarywrite/
 ---
-## HttpResponse::BinaryWrite(const [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) method
+## HttpResponse::BinaryWrite(const System::ArrayPtr\<uint8_t\>\&) method
 
 
 Not implemented.

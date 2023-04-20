@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.net/webrequest/set_usedefaultcredentials/
 ---
-## WebRequest::set_UseDefaultCredentials(**bool**) method
+## WebRequest::set_UseDefaultCredentials(bool) method
 
 
 Sets a value that indicates if the 'Credential' property is equal to the 'DefaultCredentials' property.

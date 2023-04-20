@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.collections.generic/ienumerable/linq_select/
 ---
-## IEnumerable::LINQ_Select(const [Func](../../../system/func/)\<T, ResultType\>\&) method
+## IEnumerable::LINQ_Select(const Func\<T, ResultType\>\&) method
 
 
 Transforms elements of a sequence.
@@ -32,15 +32,7 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 An [IEnumerable](../) that contains elements returned by the **selector** function.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
-* Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_Select(const [Func](../../../system/func/)\<T, **int32_t**, ResultType\>\&) method
+## IEnumerable::LINQ_Select(const Func\<T, int32_t, ResultType\>\&) method
 
 
 Transforms each element of a sequence into a new form by incorporating the element's index.
@@ -66,15 +58,7 @@ template<typename ResultType> SharedPtr<IEnumerable<ResultType>> System::Collect
 
 An [IEnumerable](../) that contains elements returned by the **selector** function.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
-* Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_Select(const [Func](../../../system/func/)\<Source, Result\>\&) method
+## IEnumerable::LINQ_Select(const Func\<Source, Result\>\&) method
 
 
 
@@ -83,15 +67,7 @@ An [IEnumerable](../) that contains elements returned by the **selector** functi
 template<typename Result> SharedPtr<IEnumerable<Result>> System::Collections::Generic::IEnumerable<T>::LINQ_Select(const Func<Source, Result> &selector)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
-* Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_Select(const [Func](../../../system/func/)\<Source, **int32_t**, Result\>\&) method
+## IEnumerable::LINQ_Select(const Func\<Source, int32_t, Result\>\&) method
 
 
 
@@ -105,6 +81,5 @@ template<typename Result> SharedPtr<IEnumerable<Result>> System::Collections::Ge
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IEnumerable](../)
 * Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

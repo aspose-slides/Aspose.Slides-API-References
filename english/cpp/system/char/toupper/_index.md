@@ -26,12 +26,7 @@ static char_t System::Char::ToUpper(char_t c)
 
 The specified character in upper case if the specified character is a lower case letter, otherwise - the specified character
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Char::ToUpper(char_t, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Char::ToUpper(char_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 Converts the specified character to upper case.
@@ -55,7 +50,7 @@ The specified character in upper case if the specified character is a lower case
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Class [Char](../)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

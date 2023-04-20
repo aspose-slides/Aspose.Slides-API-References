@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides.charts/chartseries/set_numberformatofvalues/
 ---
-## ChartSeries::set_NumberFormatOfValues([System::String](../../../system/string/)) method
+## ChartSeries::set_NumberFormatOfValues(System::String) method
 
 
 NumberFormatOfValues. Write [System::String](../../../system/string/).

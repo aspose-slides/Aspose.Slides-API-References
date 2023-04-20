@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/system.xml/xmlreader/lookupnamespace/
 ---
-## XmlReader::LookupNamespace(const [String](../../../system/string/)\&) method
+## XmlReader::LookupNamespace(const String\&) method
 
 
 When overridden in a derived class, resolves a namespace prefix in the current element's scope.

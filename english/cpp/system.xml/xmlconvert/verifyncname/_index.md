@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml/xmlconvert/verifyncname/
 ---
-## XmlConvert::VerifyNCName(const [String](../../../system/string/)\&) method
+## XmlConvert::VerifyNCName(const String\&) method
 
 
 Verifies that the name is a valid **NCName** according to the W3C Extended Markup Language recommendation. An **NCName** is a name that cannot contain a colon.

@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system/decimal/equals/
 ---
-## Decimal::Equals(const [Decimal](../)\&) const method
+## Decimal::Equals(const Decimal\&) const method
 
 
 Determines if the values represented by the current object and the specified object are equal.
@@ -26,13 +26,7 @@ bool System::Decimal::Equals(const Decimal &d) const
 
 True if the value represented by the current and the specified objects are equal, otherwise - false
 
-## See Also
-
-* Class [Decimal](../)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Equals(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) const method
+## Decimal::Equals(const SharedPtr\<Object\>\&) const method
 
 
 Determines if the values represented by the current object and the specified object are equal.
@@ -52,14 +46,7 @@ bool System::Decimal::Equals(const SharedPtr<Object> &obj) const
 
 True if the value represented by the current and the specified objects are equal, otherwise - false
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Decimal::Equals(const [Decimal](../)\&, const [Decimal](../)\&) method
+## Decimal::Equals(const Decimal\&, const Decimal\&) method
 
 
 Determines if the values represented by the specified objects are equal.
@@ -82,7 +69,8 @@ True if the values represented by **d1** and **d2** are equal, otherwise - false
 
 ## See Also
 
+* Typedef [SharedPtr](../../sharedptr/)
 * Class [Decimal](../)
-* Class [Decimal](../)
+* Class [Object](../../object/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

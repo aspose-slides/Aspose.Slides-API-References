@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.animation/timing/set_autoreverse/
 ---
-## Timing::set_AutoReverse(**bool**) method
+## Timing::set_AutoReverse(bool) method
 
 
 Describes whether to automatically play the animation in reverse after playing it in the forward direction. Write **bool**.

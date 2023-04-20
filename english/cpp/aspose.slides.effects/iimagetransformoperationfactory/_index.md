@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.effects/iimagetransformoperationfactory/
 Allows to create image effects' instances
 
 ```cpp
-class IImageTransformOperationFactory : public System::Object
+class IImageTransformOperationFactory : public virtual System::Object
 ```
 
 ## Methods

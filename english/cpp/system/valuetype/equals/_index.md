@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/valuetype/equals/
 ---
-## ValueType::Equals(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) method
+## ValueType::Equals(const SharedPtr\<Object\>\&) method
 
 
 Supports value type and reference type comparison.

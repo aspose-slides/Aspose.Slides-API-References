@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.collections.generic/ienumerable/linq_groupby/
 ---
-## IEnumerable::LINQ_GroupBy([System::Func](../../../system/func/)\<T, Key\>) method
+## IEnumerable::LINQ_GroupBy(System::Func\<T, Key\>) method
 
 
 Groups the elements of a sequence.
@@ -32,16 +32,7 @@ template<typename Key> System::SharedPtr<IEnumerable<System::SharedPtr<System::L
 
 An [IEnumerable](../) that contains a sequence of objects and a key
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../)
-* Class [IGrouping](../../../system.linq/igrouping/)
-* Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## IEnumerable::LINQ_GroupBy([System::Func](../../../system/func/)\<Source, Key\>) method
+## IEnumerable::LINQ_GroupBy(System::Func\<Source, Key\>) method
 
 
 
@@ -56,6 +47,5 @@ template<typename Key> SharedPtr<IEnumerable<SharedPtr<System::Linq::IGrouping<K
 * Class [IEnumerable](../)
 * Class [IGrouping](../../../system.linq/igrouping/)
 * Class [Func](../../../system/func/)
-* Class [IEnumerable](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

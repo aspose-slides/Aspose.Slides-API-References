@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.io/file/encrypt/
 ---
-## File::Encrypt(const [String](../../../system/string/)\&) method
+## File::Encrypt(const String\&) method
 
 
 NOT IMPLEMENTED.

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.mathtext/mathfunctionfactory/createmathfunction/
 ---
-## MathFunctionFactory::CreateMathFunction([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathFunctionFactory::CreateMathFunction(System::SharedPtr\<IMathElement\>, System::SharedPtr\<IMathElement\>) method
 
 
 Creates math function
@@ -27,15 +27,7 @@ System::SharedPtr<IMathFunction> Aspose::Slides::MathText::MathFunctionFactory::
 
 new math function
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathFunction](../../imathfunction/)
-* Class [IMathElement](../../imathelement/)
-* Class [MathFunctionFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## MathFunctionFactory::CreateMathFunction([System::String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## MathFunctionFactory::CreateMathFunction(System::String, System::SharedPtr\<IMathElement\>) method
 
 
 Creates math function
@@ -60,8 +52,8 @@ new math function
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathFunction](../../imathfunction/)
-* Class [String](../../../system/string/)
 * Class [IMathElement](../../imathelement/)
 * Class [MathFunctionFactory](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

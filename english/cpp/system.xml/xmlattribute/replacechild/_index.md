@@ -6,7 +6,7 @@ type: docs
 weight: 235
 url: /cpp/system.xml/xmlattribute/replacechild/
 ---
-## XmlAttribute::ReplaceChild([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>, [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>) method
+## XmlAttribute::ReplaceChild(SharedPtr\<XmlNode\>, SharedPtr\<XmlNode\>) method
 
 
 Replaces the child node specified with the new child node specified.

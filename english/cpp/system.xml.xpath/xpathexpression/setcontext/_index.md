@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.xml.xpath/xpathexpression/setcontext/
 ---
-## XPathExpression::SetContext([SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\>) method
+## XPathExpression::SetContext(SharedPtr\<XmlNamespaceManager\>) method
 
 
 When overridden in a derived class, specifies the [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) object to use for namespace resolution.
@@ -22,14 +22,7 @@ virtual void System::Xml::XPath::XPathExpression::SetContext(SharedPtr<XmlNamesp
 | --- | --- | --- |
 | nsManager | [SharedPtr](../../../system/sharedptr/)\<[XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)\> | An [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/) object to use for namespace resolution. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)
-* Class [XPathExpression](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathExpression::SetContext([SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>) method
+## XPathExpression::SetContext(SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 When overridden in a derived class, specifies the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object to use for namespace resolution.
@@ -48,7 +41,8 @@ virtual void System::Xml::XPath::XPathExpression::SetContext(SharedPtr<IXmlNames
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
+* Class [XmlNamespaceManager](../../../system.xml/xmlnamespacemanager/)
 * Class [XPathExpression](../)
+* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

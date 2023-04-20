@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing.imaging/imageattributes/setoutputchannel/
 ---
-## ImageAttributes::SetOutputChannel([ColorChannelFlag](../../colorchannelflag/), [ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::SetOutputChannel(ColorChannelFlag, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

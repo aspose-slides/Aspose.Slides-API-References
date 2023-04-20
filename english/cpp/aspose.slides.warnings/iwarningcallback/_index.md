@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.warnings/iwarningcallback/
 Interface for classes which receive warning
 
 ```cpp
-class IWarningCallback : public System::Object
+class IWarningCallback : public virtual System::Object
 ```
 
 ## Methods

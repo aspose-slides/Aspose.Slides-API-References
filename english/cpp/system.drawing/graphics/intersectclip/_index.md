@@ -6,7 +6,7 @@ type: docs
 weight: 950
 url: /cpp/system.drawing/graphics/intersectclip/
 ---
-## Graphics::IntersectClip(const [System::SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>\&) method
+## Graphics::IntersectClip(const System::SharedPtr\<Region\>\&) method
 
 
 Updates the clip region of this object to the intersection of the current clip and the specified clip.
@@ -22,14 +22,7 @@ void System::Drawing::Graphics::IntersectClip(const System::SharedPtr<Region> &r
 | --- | --- | --- |
 | region | const [System::SharedPtr](../../../system/sharedptr/)\<[Region](../../region/)\>\& | The region to intersect with |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Region](../../region/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IntersectClip([System::Drawing::RectangleF](../../rectanglef/)) method
+## Graphics::IntersectClip(System::Drawing::RectangleF) method
 
 
 Updates the clip region of this object to the intersection of the current clip and the specified clip.
@@ -45,13 +38,7 @@ void System::Drawing::Graphics::IntersectClip(System::Drawing::RectangleF rect)
 | --- | --- | --- |
 | rect | [System::Drawing::RectangleF](../../rectanglef/) | The rectangle to intersect with |
 
-## See Also
-
-* Class [RectangleF](../../rectanglef/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::IntersectClip([System::Drawing::Rectangle](../../rectangle/)) method
+## Graphics::IntersectClip(System::Drawing::Rectangle) method
 
 
 Updates the clip region of this object to the intersection of the current clip and the specified clip.
@@ -69,7 +56,10 @@ void System::Drawing::Graphics::IntersectClip(System::Drawing::Rectangle rect)
 
 ## See Also
 
-* Class [Rectangle](../../rectangle/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Region](../../region/)
 * Class [Graphics](../)
+* Class [RectangleF](../../rectanglef/)
+* Class [Rectangle](../../rectangle/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

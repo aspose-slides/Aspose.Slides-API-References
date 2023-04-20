@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/imasternotesslideheaderfootermanager/setheaderandchildheadersvisibility/
 ---
-## IMasterNotesSlideHeaderFooterManager::SetHeaderAndChildHeadersVisibility(**bool**) method
+## IMasterNotesSlideHeaderFooterManager::SetHeaderAndChildHeadersVisibility(bool) method
 
 
 Changes master notes slide header placeholder and all child header placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.

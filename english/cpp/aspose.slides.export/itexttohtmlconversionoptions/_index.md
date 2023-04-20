@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.export/itexttohtmlconversionoptions/
 Options for extracting HTML from the Pptx text.
 
 ```cpp
-class ITextToHtmlConversionOptions : public System::Object
+class ITextToHtmlConversionOptions : public virtual System::Object
 ```
 
 ## Methods

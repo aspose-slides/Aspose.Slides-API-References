@@ -15,12 +15,7 @@ Constructor. Uses default parameters.
 System::Security::Cryptography::DSACryptoServiceProvider::DSACryptoServiceProvider()
 ```
 
-## See Also
-
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::DSACryptoServiceProvider(const [DSAParameters](../../dsaparameters/)\&) constructor
+## DSACryptoServiceProvider::DSACryptoServiceProvider(const DSAParameters\&) constructor
 
 
 Constructor.
@@ -36,13 +31,7 @@ System::Security::Cryptography::DSACryptoServiceProvider::DSACryptoServiceProvid
 | --- | --- | --- |
 | parameters | const [DSAParameters](../../dsaparameters/)\& | Algorithm parameters. |
 
-## See Also
-
-* Struct [DSAParameters](../../dsaparameters/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::DSACryptoServiceProvider(const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>\&) constructor
+## DSACryptoServiceProvider::DSACryptoServiceProvider(const SharedPtr\<CspParameters\>\&) constructor
 
 
 Constructor. Not implemented.
@@ -58,14 +47,7 @@ System::Security::Cryptography::DSACryptoServiceProvider::DSACryptoServiceProvid
 | --- | --- | --- |
 | parameters | const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>\& | Algorithm parameters. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [CspParameters](../../cspparameters/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::DSACryptoServiceProvider(**int32_t**) constructor
+## DSACryptoServiceProvider::DSACryptoServiceProvider(int32_t) constructor
 
 
 Constructor.
@@ -81,12 +63,7 @@ System::Security::Cryptography::DSACryptoServiceProvider::DSACryptoServiceProvid
 | --- | --- | --- |
 | key_size | **int32_t** | Key size in bits. |
 
-## See Also
-
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::DSACryptoServiceProvider(**int32_t**, const [SharedPtr](../../../system/sharedptr/)\<[CspParameters](../../cspparameters/)\>\&) constructor
+## DSACryptoServiceProvider::DSACryptoServiceProvider(int32_t, const SharedPtr\<CspParameters\>\&) constructor
 
 
 Constructor. Not implemented.
@@ -106,7 +83,8 @@ System::Security::Cryptography::DSACryptoServiceProvider::DSACryptoServiceProvid
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [CspParameters](../../cspparameters/)
 * Class [DSACryptoServiceProvider](../)
+* Class [CspParameters](../../cspparameters/)
+* Struct [DSAParameters](../../dsaparameters/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

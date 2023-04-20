@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/ipresentationinfo/writebindedpresentation/
 ---
-## IPresentationInfo::WriteBindedPresentation([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## IPresentationInfo::WriteBindedPresentation(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Writes binded presentation to stream.
@@ -22,14 +22,7 @@ virtual void Aspose::Slides::IPresentationInfo::WriteBindedPresentation(System::
 | --- | --- | --- |
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | The stream must be seekable and writable. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [IPresentationInfo](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPresentationInfo::WriteBindedPresentation([System::String](../../../system/string/)) method
+## IPresentationInfo::WriteBindedPresentation(System::String) method
 
 
 Writes binded presentation to file.
@@ -47,7 +40,9 @@ virtual void Aspose::Slides::IPresentationInfo::WriteBindedPresentation(System::
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Stream](../../../system.io/stream/)
 * Class [IPresentationInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

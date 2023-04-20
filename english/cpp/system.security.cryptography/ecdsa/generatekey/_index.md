@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography/ecdsa/generatekey/
 ---
-## ECDsa::GenerateKey(const [ECCurve](../../eccurve/)\&) method
+## ECDsa::GenerateKey(const ECCurve\&) method
 
 
 Generates a new public/private key pair for the specified curve.
@@ -24,7 +24,7 @@ virtual void System::Security::Cryptography::ECDsa::GenerateKey(const ECCurve &c
 
 ## See Also
 
-* Struct [ECCurve](../../eccurve/)
 * Class [ECDsa](../)
+* Struct [ECCurve](../../eccurve/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

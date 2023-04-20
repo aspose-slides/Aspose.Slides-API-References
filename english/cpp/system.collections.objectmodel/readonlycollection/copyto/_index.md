@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.collections.objectmodel/readonlycollection/copyto/
 ---
-## ReadOnlyCollection::CopyTo([System::ArrayPtr](../../../system/arrayptr/)\<T\>, int) method
+## ReadOnlyCollection::CopyTo(System::ArrayPtr\<T\>, int) method
 
 
 Copies container elements to existing array elements.

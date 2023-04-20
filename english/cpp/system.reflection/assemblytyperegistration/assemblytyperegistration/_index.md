@@ -15,12 +15,7 @@ Creates singleton, thus registering type in executing assembly.
 System::Reflection::AssemblyTypeRegistration<T>::AssemblyTypeRegistration()
 ```
 
-## See Also
-
-* Class [AssemblyTypeRegistration](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## AssemblyTypeRegistration::AssemblyTypeRegistration(const [SharedPtr](../../../system/sharedptr/)\<[Assembly](../../assembly/)\>\&) constructor
+## AssemblyTypeRegistration::AssemblyTypeRegistration(const SharedPtr\<Assembly\>\&) constructor
 
 
 Creates singleton, thus registering type in the specified assembly.
@@ -32,7 +27,7 @@ System::Reflection::AssemblyTypeRegistration<T>::AssemblyTypeRegistration(const 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Assembly](../../assembly/)
 * Class [AssemblyTypeRegistration](../)
+* Class [Assembly](../../assembly/)
 * Namespace [System::Reflection](../../)
 * Library [Aspose.Slides](../../../)

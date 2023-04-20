@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/setblendtriangularshape/
 ---
-## LinearGradientBrush::SetBlendTriangularShape(**float**, **float**) method
+## LinearGradientBrush::SetBlendTriangularShape(float, float) method
 
 
 NOT IMPLEMENTED.

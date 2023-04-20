@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.export/svgoptions/set_shapeformattingcontroller/
 ---
-## SVGOptions::set_ShapeFormattingController([System::SharedPtr](../../../system/sharedptr/)\<[ISvgShapeFormattingController](../../isvgshapeformattingcontroller/)\>) method
+## SVGOptions::set_ShapeFormattingController(System::SharedPtr\<ISvgShapeFormattingController\>) method
 
 
 Returns and sets a callback interface which allows user to control shape conversion. Write [ISvgShapeFormattingController](../../isvgshapeformattingcontroller/).

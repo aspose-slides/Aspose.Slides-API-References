@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.globalization/regioninfo/equals/
 ---
-## RegionInfo::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## RegionInfo::Equals(SharedPtr\<Object\>) method
 
 
 

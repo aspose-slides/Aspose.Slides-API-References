@@ -15,12 +15,7 @@ Constructs a new [Size](../) object and initializes its width and height values 
 System::Drawing::Size::Size()
 ```
 
-## See Also
-
-* Class [Size](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Size::Size(const [Point](../../point/)\&) constructor
+## Size::Size(const Point\&) constructor
 
 
 Constructs a new [Size](../) object and initializes its width and height values with the values of X and Y coordinates of the specifide point correspondingly.
@@ -36,12 +31,6 @@ System::Drawing::Size::Size(const Point &point)
 | --- | --- | --- |
 | point | const [Point](../../point/)\& | A [Point](../../point/) object whose X and Y coordinates are used to initialize width and height value of the [Size](../) object being created |
 
-## See Also
-
-* Class [Point](../../point/)
-* Class [Size](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Size::Size(int, int) constructor
 
 
@@ -62,5 +51,6 @@ System::Drawing::Size::Size(int width, int height)
 ## See Also
 
 * Class [Size](../)
+* Class [Point](../../point/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

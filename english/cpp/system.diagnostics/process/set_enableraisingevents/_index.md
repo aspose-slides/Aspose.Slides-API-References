@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.diagnostics/process/set_enableraisingevents/
 ---
-## Process::set_EnableRaisingEvents(**bool**) method
+## Process::set_EnableRaisingEvents(bool) method
 
 
 Sets whether the event Exited should be raised when the process terminates.

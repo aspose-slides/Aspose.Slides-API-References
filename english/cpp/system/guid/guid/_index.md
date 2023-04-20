@@ -15,12 +15,7 @@ Constructs an object that represents a GUID consisting of all zeroes.
 System::Guid::Guid()
 ```
 
-## See Also
-
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&) constructor
+## Guid::Guid(const ArrayPtr\<uint8_t\>\&) constructor
 
 
 Constructs an object that represents a GUID specified as an array of unsigned 8-bit integer values.
@@ -36,13 +31,7 @@ System::Guid::Guid(const ArrayPtr<uint8_t> &b)
 | --- | --- | --- |
 | b | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | A byte-array containing separate bytes of the GUID |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(const System::Details::ArrayView\<**uint8_t**\>\&) constructor
+## Guid::Guid(const System::Details::ArrayView\<uint8_t\>\&) constructor
 
 
 Constructs an object that represents a GUID specified as an array view of unsigned 8-bit integer values.
@@ -58,12 +47,7 @@ System::Guid::Guid(const System::Details::ArrayView<uint8_t> &b)
 | --- | --- | --- |
 | b | const System::Details::ArrayView\<**uint8_t**\>\& | A byte-array containing separate bytes of the GUID |
 
-## See Also
-
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(const [String](../../string/)\&) constructor
+## Guid::Guid(const String\&) constructor
 
 
 Constructs an object that represents a GUID specified as a string.
@@ -79,13 +63,7 @@ System::Guid::Guid(const String &g)
 | --- | --- | --- |
 | g | const [String](../../string/)\& | The string representation of a GUID to be represented by the object being constructed |
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(**int32_t**, **int16_t**, **int16_t**, const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&) constructor
+## Guid::Guid(int32_t, int16_t, int16_t, const ArrayPtr\<uint8_t\>\&) constructor
 
 
 Constructs an instance of [Guid](../) class from the specified GUID components.
@@ -104,13 +82,7 @@ System::Guid::Guid(int32_t a, int16_t b, int16_t c, const ArrayPtr<uint8_t> &d)
 | c | **int16_t** | Bits 48-63 of the GUID |
 | d | const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\& | A byte array containing bits 64-127 of the GUID |
 
-## See Also
-
-* Typedef [ArrayPtr](../../arrayptr/)
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(**int32_t**, **int16_t**, **int16_t**, const System::Details::ArrayView\<**uint8_t**\>\&) constructor
+## Guid::Guid(int32_t, int16_t, int16_t, const System::Details::ArrayView\<uint8_t\>\&) constructor
 
 
 Constructs an instance of [Guid](../) class from the specified GUID components.
@@ -129,12 +101,7 @@ System::Guid::Guid(int32_t a, int16_t b, int16_t c, const System::Details::Array
 | c | **int16_t** | Bits 48-63 of the GUID |
 | d | const System::Details::ArrayView\<**uint8_t**\>\& | A byte array view containing bits 64-127 of the GUID |
 
-## See Also
-
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(**int32_t**, **int16_t**, **int16_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**) constructor
+## Guid::Guid(int32_t, int16_t, int16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t) constructor
 
 
 Constructs an instance of [Guid](../) class from the specified unsigned integers and bytes.
@@ -160,12 +127,7 @@ System::Guid::Guid(int32_t a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_
 | j | **uint8_t** | Bits 112-119 of the GUID |
 | k | **uint8_t** | Bits 120-127 of the GUID |
 
-## See Also
-
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(**uint32_t**, **uint16_t**, **uint16_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**, **uint8_t**) constructor
+## Guid::Guid(uint32_t, uint16_t, uint16_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t, uint8_t) constructor
 
 
 Constructs an instance of [Guid](../) class from the specified unsigned integers and bytes.
@@ -191,12 +153,7 @@ System::Guid::Guid(uint32_t a, uint16_t b, uint16_t c, uint8_t d, uint8_t e, uin
 | j | **uint8_t** | Bits 112-119 of the GUID |
 | k | **uint8_t** | Bits 120-127 of the GUID |
 
-## See Also
-
-* Class [Guid](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Guid::Guid(const [Guid](../)\&) constructor
+## Guid::Guid(const Guid\&) constructor
 
 
 Constructs an object that represents the same GUID as the specified object.
@@ -214,7 +171,8 @@ System::Guid::Guid(const Guid &guid)
 
 ## See Also
 
+* Typedef [ArrayPtr](../../arrayptr/)
 * Class [Guid](../)
-* Class [Guid](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

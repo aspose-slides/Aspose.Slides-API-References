@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.security.cryptography/dsa/createsignature/
 ---
-## DSA::CreateSignature([ByteArrayPtr](../../../system/bytearrayptr/)) method
+## DSA::CreateSignature(ByteArrayPtr) method
 
 
 Create [DSA](../) signature for the specified data.

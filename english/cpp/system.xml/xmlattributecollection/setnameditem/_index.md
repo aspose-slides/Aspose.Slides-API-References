@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlattributecollection/setnameditem/
 ---
-## XmlAttributeCollection::SetNamedItem([SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>) method
+## XmlAttributeCollection::SetNamedItem(SharedPtr\<XmlNode\>) method
 
 
 Adds an [XmlNode](../../xmlnode/) using its [XmlNode::get_Name](../../xmlnode/get_name/) result.

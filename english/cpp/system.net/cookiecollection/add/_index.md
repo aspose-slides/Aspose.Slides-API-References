@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/cookiecollection/add/
 ---
-## CookieCollection::Add(const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>\&) method
+## CookieCollection::Add(const System::SharedPtr\<Cookie\>\&) method
 
 
 Adds a cookie to the collection.
@@ -22,14 +22,7 @@ void System::Net::CookieCollection::Add(const System::SharedPtr<Cookie> &cookie)
 | --- | --- | --- |
 | cookie | const [System::SharedPtr](../../../system/sharedptr/)\<[Cookie](../../cookie/)\>\& | The cookie to add. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Cookie](../../cookie/)
-* Class [CookieCollection](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## CookieCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[CookieCollection](../)\>) method
+## CookieCollection::Add(System::SharedPtr\<CookieCollection\>) method
 
 
 Adds cookies from the specified collection to the current one.
@@ -48,7 +41,7 @@ void System::Net::CookieCollection::Add(System::SharedPtr<CookieCollection> cook
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [CookieCollection](../)
+* Class [Cookie](../../cookie/)
 * Class [CookieCollection](../)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

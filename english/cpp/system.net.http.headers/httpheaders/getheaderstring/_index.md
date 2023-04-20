@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net.http.headers/httpheaders/getheaderstring/
 ---
-## HttpHeaders::GetHeaderString([String](../../../system/string/)) method
+## HttpHeaders::GetHeaderString(String) method
 
 
 Returns a string representation of values by the specified header name.
@@ -26,13 +26,7 @@ String System::Net::Http::Headers::HttpHeaders::GetHeaderString(String headerNam
 
 A string representation of values by the specified header name.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [HttpHeaders](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## HttpHeaders::GetHeaderString([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## HttpHeaders::GetHeaderString(String, System::SharedPtr\<Object\>) method
 
 
 Returns a string representation of values by the specified header name.
@@ -55,9 +49,9 @@ A string representation of values by the specified header name.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
+* Class [String](../../../system/string/)
 * Class [HttpHeaders](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

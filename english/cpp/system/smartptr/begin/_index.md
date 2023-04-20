@@ -20,11 +20,6 @@ template<typename Q> auto System::SmartPtr<T>::begin() -> decltype(std::declval<
 
 iterator to the begin of collection
 
-## See Also
-
-* Class [SmartPtr](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## SmartPtr::begin() const method
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/paragraph/get_portion/
 ---
-## Paragraph::get_Portion(**int32_t**) method
+## Paragraph::get_Portion(int32_t) method
 
 
 Returns a text portion at the specified index.

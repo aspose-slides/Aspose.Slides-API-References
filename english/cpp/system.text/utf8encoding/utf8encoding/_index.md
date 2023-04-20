@@ -15,12 +15,7 @@ Constructor.
 System::Text::UTF8Encoding::UTF8Encoding()
 ```
 
-## See Also
-
-* Class [UTF8Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF8Encoding::UTF8Encoding(**bool**) constructor
+## UTF8Encoding::UTF8Encoding(bool) constructor
 
 
 Constructor.
@@ -36,12 +31,7 @@ System::Text::UTF8Encoding::UTF8Encoding(bool encoder_should_emit_utf8_idetifier
 | --- | --- | --- |
 | encoder_should_emit_utf8_idetifier | **bool** | Whether to insert BOM. |
 
-## See Also
-
-* Class [UTF8Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## UTF8Encoding::UTF8Encoding(**bool**, **bool**) constructor
+## UTF8Encoding::UTF8Encoding(bool, bool) constructor
 
 
 Constructor.

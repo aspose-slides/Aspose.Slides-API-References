@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system/iconvertible/toint16/
 ---
-## IConvertible::ToInt16([System::SharedPtr](../../sharedptr/)\<[System::IFormatProvider](../../iformatprovider/)\>) method
+## IConvertible::ToInt16(System::SharedPtr\<System::IFormatProvider\>) method
 
 
 Converts the value of this instance to an equivalent 16-bit signed integer using the specified culture-specific formatting information.

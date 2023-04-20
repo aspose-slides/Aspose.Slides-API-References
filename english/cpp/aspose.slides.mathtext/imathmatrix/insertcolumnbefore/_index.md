@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/aspose.slides.mathtext/imathmatrix/insertcolumnbefore/
 ---
-## IMathMatrix::InsertColumnBefore(**int32_t**) method
+## IMathMatrix::InsertColumnBefore(int32_t) method
 
 
 Insert a new column before the specified one Initially all elements in the new column are null.

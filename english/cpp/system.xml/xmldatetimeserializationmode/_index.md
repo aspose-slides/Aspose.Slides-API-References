@@ -3,7 +3,7 @@ title: XmlDateTimeSerializationMode
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how to treat the time value when converting between string and DateTime.
 type: docs
-weight: 781
+weight: 755
 url: /cpp/system.xml/xmldatetimeserializationmode/
 ---
 ## XmlDateTimeSerializationMode enum

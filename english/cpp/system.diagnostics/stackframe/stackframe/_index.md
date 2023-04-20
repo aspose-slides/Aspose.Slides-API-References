@@ -22,12 +22,7 @@ System::Diagnostics::StackFrame::StackFrame(int skip_frames)
 | --- | --- | --- |
 | skip_frames | int | How many frames to skip. |
 
-## See Also
-
-* Class [StackFrame](../)
-* Namespace [System::Diagnostics](../../)
-* Library [Aspose.Slides](../../../)
-## StackFrame::StackFrame(const [StackFrame](../)\&) constructor
+## StackFrame::StackFrame(const StackFrame\&) constructor
 
 
 No copying.
@@ -38,7 +33,6 @@ System::Diagnostics::StackFrame::StackFrame(const StackFrame &)=delete
 
 ## See Also
 
-* Class [StackFrame](../)
 * Class [StackFrame](../)
 * Namespace [System::Diagnostics](../../)
 * Library [Aspose.Slides](../../../)

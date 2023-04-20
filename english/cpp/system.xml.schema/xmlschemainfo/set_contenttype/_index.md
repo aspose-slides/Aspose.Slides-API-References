@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml.schema/xmlschemainfo/set_contenttype/
 ---
-## XmlSchemaInfo::set_ContentType([XmlSchemaContentType](../../xmlschemacontenttype/)) method
+## XmlSchemaInfo::set_ContentType(XmlSchemaContentType) method
 
 
 Sets the XmlSchemaContentType object that corresponds to the content type of this validated XML node.

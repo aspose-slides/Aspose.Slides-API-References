@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system/convert/tostring/
 ---
-## Convert::ToString(**int8_t**) method
+## Convert::ToString(int8_t) method
 
 
 Converts the specified value to its string representation.
@@ -26,13 +26,7 @@ static String System::Convert::ToString(int8_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**) method
+## Convert::ToString(uint8_t) method
 
 
 Converts the specified value to its string representation.
@@ -52,13 +46,7 @@ static String System::Convert::ToString(uint8_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**) method
+## Convert::ToString(int16_t) method
 
 
 Converts the specified value to its string representation.
@@ -78,13 +66,7 @@ static String System::Convert::ToString(int16_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**) method
+## Convert::ToString(uint16_t) method
 
 
 Converts the specified value to its string representation.
@@ -104,13 +86,7 @@ static String System::Convert::ToString(uint16_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**) method
+## Convert::ToString(int32_t) method
 
 
 Converts the specified value to its string representation.
@@ -130,13 +106,7 @@ static String System::Convert::ToString(int32_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**) method
+## Convert::ToString(uint32_t) method
 
 
 Converts the specified value to its string representation.
@@ -156,13 +126,7 @@ static String System::Convert::ToString(uint32_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**) method
+## Convert::ToString(int64_t) method
 
 
 Converts the specified value to its string representation.
@@ -182,13 +146,7 @@ static String System::Convert::ToString(int64_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**) method
+## Convert::ToString(uint64_t) method
 
 
 Converts the specified value to its string representation.
@@ -208,13 +166,7 @@ static String System::Convert::ToString(uint64_t value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**) method
+## Convert::ToString(float) method
 
 
 Converts the specified value to its string representation.
@@ -234,13 +186,7 @@ static String System::Convert::ToString(float value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**) method
+## Convert::ToString(double) method
 
 
 Converts the specified value to its string representation.
@@ -260,13 +206,7 @@ static String System::Convert::ToString(double value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&) method
+## Convert::ToString(const Decimal\&) method
 
 
 Converts the specified value to its string representation.
@@ -286,14 +226,7 @@ static String System::Convert::ToString(const Decimal &value)
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/)) method
+## Convert::ToString(DateTime) method
 
 
 Converts the specified value to its string representation.
@@ -313,14 +246,7 @@ static String System::Convert::ToString(DateTime value)
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int8_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -341,15 +267,7 @@ static String System::Convert::ToString(int8_t value, const SharedPtr<IFormatPro
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int8_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -358,15 +276,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int8_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int8_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -375,15 +285,7 @@ static String System::Convert::ToString(int8_t value, const SharedPtr<Globalizat
 static String System::Convert::ToString(int8_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, std::nullptr_t) method
+## Convert::ToString(int8_t, std::nullptr_t) method
 
 
 
@@ -392,13 +294,7 @@ static String System::Convert::ToString(int8_t value, const SharedPtr<Globalizat
 static String System::Convert::ToString(int8_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint8_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -419,15 +315,7 @@ static String System::Convert::ToString(uint8_t value, const SharedPtr<IFormatPr
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint8_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -436,15 +324,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint8_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint8_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -453,15 +333,7 @@ static String System::Convert::ToString(uint8_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(uint8_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, std::nullptr_t) method
+## Convert::ToString(uint8_t, std::nullptr_t) method
 
 
 
@@ -470,13 +342,7 @@ static String System::Convert::ToString(uint8_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(uint8_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int16_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -497,15 +363,7 @@ static String System::Convert::ToString(int16_t value, const SharedPtr<IFormatPr
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int16_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -514,15 +372,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int16_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int16_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -531,15 +381,7 @@ static String System::Convert::ToString(int16_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int16_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, std::nullptr_t) method
+## Convert::ToString(int16_t, std::nullptr_t) method
 
 
 
@@ -548,13 +390,7 @@ static String System::Convert::ToString(int16_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int16_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint16_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -575,15 +411,7 @@ static String System::Convert::ToString(uint16_t value, const SharedPtr<IFormatP
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint16_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -592,15 +420,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint16_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint16_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -609,15 +429,7 @@ static String System::Convert::ToString(uint16_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint16_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, std::nullptr_t) method
+## Convert::ToString(uint16_t, std::nullptr_t) method
 
 
 
@@ -626,13 +438,7 @@ static String System::Convert::ToString(uint16_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint16_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int32_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -653,15 +459,7 @@ static String System::Convert::ToString(int32_t value, const SharedPtr<IFormatPr
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int32_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -670,15 +468,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int32_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int32_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -687,15 +477,7 @@ static String System::Convert::ToString(int32_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int32_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, std::nullptr_t) method
+## Convert::ToString(int32_t, std::nullptr_t) method
 
 
 
@@ -704,13 +486,7 @@ static String System::Convert::ToString(int32_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int32_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint32_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -731,15 +507,7 @@ static String System::Convert::ToString(uint32_t value, const SharedPtr<IFormatP
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint32_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -748,15 +516,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint32_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint32_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -765,15 +525,7 @@ static String System::Convert::ToString(uint32_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint32_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, std::nullptr_t) method
+## Convert::ToString(uint32_t, std::nullptr_t) method
 
 
 
@@ -782,13 +534,7 @@ static String System::Convert::ToString(uint32_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint32_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int64_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -809,15 +555,7 @@ static String System::Convert::ToString(int64_t value, const SharedPtr<IFormatPr
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int64_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -826,15 +564,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int64_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int64_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -843,15 +573,7 @@ static String System::Convert::ToString(int64_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int64_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, std::nullptr_t) method
+## Convert::ToString(int64_t, std::nullptr_t) method
 
 
 
@@ -860,13 +582,7 @@ static String System::Convert::ToString(int64_t value, const SharedPtr<Globaliza
 static String System::Convert::ToString(int64_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint64_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -887,15 +603,7 @@ static String System::Convert::ToString(uint64_t value, const SharedPtr<IFormatP
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint64_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -904,15 +612,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint64_t value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint64_t, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -921,15 +621,7 @@ static String System::Convert::ToString(uint64_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint64_t value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, std::nullptr_t) method
+## Convert::ToString(uint64_t, std::nullptr_t) method
 
 
 
@@ -938,13 +630,7 @@ static String System::Convert::ToString(uint64_t value, const SharedPtr<Globaliz
 static String System::Convert::ToString(uint64_t value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(float, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -965,15 +651,7 @@ static String System::Convert::ToString(float value, const SharedPtr<IFormatProv
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(float, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -982,15 +660,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(float value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(float, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -999,15 +669,7 @@ static String System::Convert::ToString(float value, const SharedPtr<Globalizati
 static String System::Convert::ToString(float value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, std::nullptr_t) method
+## Convert::ToString(float, std::nullptr_t) method
 
 
 
@@ -1016,13 +678,7 @@ static String System::Convert::ToString(float value, const SharedPtr<Globalizati
 static String System::Convert::ToString(float value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(double, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -1043,15 +699,7 @@ static String System::Convert::ToString(double value, const SharedPtr<IFormatPro
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(double, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1060,15 +708,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(double value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(double, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1077,15 +717,7 @@ static String System::Convert::ToString(double value, const SharedPtr<Globalizat
 static String System::Convert::ToString(double value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, std::nullptr_t) method
+## Convert::ToString(double, std::nullptr_t) method
 
 
 
@@ -1094,13 +726,7 @@ static String System::Convert::ToString(double value, const SharedPtr<Globalizat
 static String System::Convert::ToString(double value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(const Decimal\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -1121,16 +747,7 @@ static String System::Convert::ToString(const Decimal &value, const SharedPtr<IF
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(const Decimal\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1139,16 +756,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(const Decimal &value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(const Decimal\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1157,16 +765,7 @@ static String System::Convert::ToString(const Decimal &value, const SharedPtr<Gl
 static String System::Convert::ToString(const Decimal &value, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, std::nullptr_t) method
+## Convert::ToString(const Decimal\&, std::nullptr_t) method
 
 
 
@@ -1175,14 +774,7 @@ static String System::Convert::ToString(const Decimal &value, const SharedPtr<Gl
 static String System::Convert::ToString(const Decimal &value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(DateTime, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to string using the culture-specific format information.
@@ -1203,16 +795,7 @@ static String System::Convert::ToString(DateTime value, const SharedPtr<IFormatP
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(DateTime, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1221,16 +804,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(DateTime value, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), const [SharedPtr](../../sharedptr/)\<[Globalization::DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)\>\&) method
+## Convert::ToString(DateTime, const SharedPtr\<Globalization::DateTimeFormatInfo\>\&) method
 
 
 
@@ -1239,16 +813,7 @@ static String System::Convert::ToString(DateTime value, const SharedPtr<Globaliz
 static String System::Convert::ToString(DateTime value, const SharedPtr<Globalization::DateTimeFormatInfo> &dtfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), std::nullptr_t) method
+## Convert::ToString(DateTime, std::nullptr_t) method
 
 
 
@@ -1257,14 +822,7 @@ static String System::Convert::ToString(DateTime value, const SharedPtr<Globaliz
 static String System::Convert::ToString(DateTime value, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int8_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1286,15 +844,7 @@ static String System::Convert::ToString(int8_t value, const String &format, cons
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int8_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1303,15 +853,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int8_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int8_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1320,15 +862,7 @@ static String System::Convert::ToString(int8_t value, const String &format, cons
 static String System::Convert::ToString(int8_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(int8_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1337,13 +871,7 @@ static String System::Convert::ToString(int8_t value, const String &format, cons
 static String System::Convert::ToString(int8_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint8_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1365,15 +893,7 @@ static String System::Convert::ToString(uint8_t value, const String &format, con
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint8_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1382,15 +902,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint8_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint8_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1399,15 +911,7 @@ static String System::Convert::ToString(uint8_t value, const String &format, con
 static String System::Convert::ToString(uint8_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(uint8_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1416,13 +920,7 @@ static String System::Convert::ToString(uint8_t value, const String &format, con
 static String System::Convert::ToString(uint8_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int16_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1444,15 +942,7 @@ static String System::Convert::ToString(int16_t value, const String &format, con
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int16_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1461,15 +951,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int16_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int16_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1478,15 +960,7 @@ static String System::Convert::ToString(int16_t value, const String &format, con
 static String System::Convert::ToString(int16_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(int16_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1495,13 +969,7 @@ static String System::Convert::ToString(int16_t value, const String &format, con
 static String System::Convert::ToString(int16_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint16_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1523,15 +991,7 @@ static String System::Convert::ToString(uint16_t value, const String &format, co
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint16_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1540,15 +1000,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint16_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint16_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1557,15 +1009,7 @@ static String System::Convert::ToString(uint16_t value, const String &format, co
 static String System::Convert::ToString(uint16_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(uint16_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1574,13 +1018,7 @@ static String System::Convert::ToString(uint16_t value, const String &format, co
 static String System::Convert::ToString(uint16_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int32_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1602,15 +1040,7 @@ static String System::Convert::ToString(int32_t value, const String &format, con
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int32_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1619,15 +1049,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int32_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int32_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1636,15 +1058,7 @@ static String System::Convert::ToString(int32_t value, const String &format, con
 static String System::Convert::ToString(int32_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(int32_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1653,13 +1067,7 @@ static String System::Convert::ToString(int32_t value, const String &format, con
 static String System::Convert::ToString(int32_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint32_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1681,15 +1089,7 @@ static String System::Convert::ToString(uint32_t value, const String &format, co
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint32_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1698,15 +1098,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint32_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint32_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1715,15 +1107,7 @@ static String System::Convert::ToString(uint32_t value, const String &format, co
 static String System::Convert::ToString(uint32_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(uint32_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1732,13 +1116,7 @@ static String System::Convert::ToString(uint32_t value, const String &format, co
 static String System::Convert::ToString(uint32_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(int64_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1760,15 +1138,7 @@ static String System::Convert::ToString(int64_t value, const String &format, con
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(int64_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1777,15 +1147,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(int64_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(int64_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1794,15 +1156,7 @@ static String System::Convert::ToString(int64_t value, const String &format, con
 static String System::Convert::ToString(int64_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(int64_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1811,13 +1165,7 @@ static String System::Convert::ToString(int64_t value, const String &format, con
 static String System::Convert::ToString(int64_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(uint64_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1839,15 +1187,7 @@ static String System::Convert::ToString(uint64_t value, const String &format, co
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(uint64_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1856,15 +1196,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(uint64_t value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(uint64_t, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1873,15 +1205,7 @@ static String System::Convert::ToString(uint64_t value, const String &format, co
 static String System::Convert::ToString(uint64_t value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint64_t**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(uint64_t, const String\&, std::nullptr_t) method
 
 
 
@@ -1890,13 +1214,7 @@ static String System::Convert::ToString(uint64_t value, const String &format, co
 static String System::Convert::ToString(uint64_t value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(float, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1918,15 +1236,7 @@ static String System::Convert::ToString(float value, const String &format, const
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(float, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -1935,15 +1245,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(float value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(float, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -1952,15 +1254,7 @@ static String System::Convert::ToString(float value, const String &format, const
 static String System::Convert::ToString(float value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**float**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(float, const String\&, std::nullptr_t) method
 
 
 
@@ -1969,13 +1263,7 @@ static String System::Convert::ToString(float value, const String &format, const
 static String System::Convert::ToString(float value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(double, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -1997,15 +1285,7 @@ static String System::Convert::ToString(double value, const String &format, cons
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(double, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -2014,15 +1294,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(double value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(double, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -2031,15 +1303,7 @@ static String System::Convert::ToString(double value, const String &format, cons
 static String System::Convert::ToString(double value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**double**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(double, const String\&, std::nullptr_t) method
 
 
 
@@ -2048,13 +1312,7 @@ static String System::Convert::ToString(double value, const String &format, cons
 static String System::Convert::ToString(double value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(const Decimal\&, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -2076,16 +1334,7 @@ static String System::Convert::ToString(const Decimal &value, const String &form
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(const Decimal\&, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -2094,16 +1343,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(const Decimal &value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(const Decimal\&, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -2112,16 +1352,7 @@ static String System::Convert::ToString(const Decimal &value, const String &form
 static String System::Convert::ToString(const Decimal &value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Decimal](../../decimal/)\&, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(const Decimal\&, const String\&, std::nullptr_t) method
 
 
 
@@ -2130,14 +1361,7 @@ static String System::Convert::ToString(const Decimal &value, const String &form
 static String System::Convert::ToString(const Decimal &value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Decimal](../../decimal/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(DateTime, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation using the specified string format and culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -2159,16 +1383,7 @@ static String System::Convert::ToString(DateTime value, const String &format, co
 
 The string representation of the specified value.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(DateTime, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -2177,16 +1392,7 @@ The string representation of the specified value.
 static String System::Convert::ToString(DateTime value, const String &format, const SharedPtr<Globalization::CultureInfo> &culture)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(DateTime, const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 
@@ -2195,16 +1401,7 @@ static String System::Convert::ToString(DateTime value, const String &format, co
 static String System::Convert::ToString(DateTime value, const String &format, const SharedPtr<Globalization::NumberFormatInfo> &nfi)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString([DateTime](../../datetime/), const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(DateTime, const String\&, std::nullptr_t) method
 
 
 
@@ -2213,14 +1410,7 @@ static String System::Convert::ToString(DateTime value, const String &format, co
 static String System::Convert::ToString(DateTime value, const String &format, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Class [DateTime](../../datetime/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Guid](../../guid/)\&) method
+## Convert::ToString(const Guid\&) method
 
 
 Converts the specified value to string.
@@ -2240,14 +1430,7 @@ static String System::Convert::ToString(const Guid &value)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Guid](../../guid/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [Guid](../../guid/)\&, const [String](../../string/)\&) method
+## Convert::ToString(const Guid\&, const String\&) method
 
 
 Converts the specified value to string using the specified string format.
@@ -2268,13 +1451,6 @@ static String System::Convert::ToString(const Guid &value, const String &format)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Guid](../../guid/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToString(const char_t(&), std::nullptr_t) method
 
 
@@ -2301,13 +1477,7 @@ template<size_t> static String System::Convert::ToString(const char_t(&value)[N]
 
 The string representation of the specified array.
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const char_t(&), const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(const char_t(&), const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified array of unicode characters to string using the specified culture-specific format information provided by the specified [IFormatProvider](../../iformatprovider/) object.
@@ -2333,15 +1503,7 @@ template<size_t> static String System::Convert::ToString(const char_t(&value)[N]
 
 The string representation of the specified array.
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const char_t(&), const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(const char_t(&), const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 
@@ -2350,15 +1512,7 @@ The string representation of the specified array.
 template<size_t> static String System::Convert::ToString(const char_t(&value)[N], const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(const String\&, std::nullptr_t) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2367,13 +1521,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(const String &value, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2382,15 +1530,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(const String &value, const SharedPtr<IFormatProvider> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2399,15 +1539,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(const String &value, const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(const String\&, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2416,14 +1548,6 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(const String &value, const SharedPtr<Globalization::NumberFormatInfo> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Convert::ToString(char_t, std::nullptr_t) method
 
 
@@ -2433,13 +1557,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, std::nullptr_t=nullptr)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(char_t, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(char_t, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2448,15 +1566,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const SharedPtr<IFormatProvider> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(char_t, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(char_t, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2465,15 +1575,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(char_t, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(char_t, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2482,15 +1584,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const String &, const SharedPtr<IFormatProvider> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(char_t, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(char_t, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2499,15 +1593,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const String &, const SharedPtr<Globalization::CultureInfo> &)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(char_t, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(char_t, const String\&, std::nullptr_t) method
 
 
 Returns the specified value; no conversion is performed.
@@ -2516,13 +1602,7 @@ Returns the specified value; no conversion is performed.
 static String System::Convert::ToString(char_t value, const String &, std::nullptr_t)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**bool**, std::nullptr_t) method
+## Convert::ToString(bool, std::nullptr_t) method
 
 
 Converts the specified value to its string representation.
@@ -2542,13 +1622,7 @@ static String System::Convert::ToString(bool value, std::nullptr_t=nullptr)
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**bool**, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(bool, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation.
@@ -2568,15 +1642,7 @@ static String System::Convert::ToString(bool value, const SharedPtr<IFormatProvi
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**bool**, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(bool, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 Converts the specified value to its string representation.
@@ -2596,15 +1662,7 @@ static String System::Convert::ToString(bool value, const SharedPtr<Globalizatio
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**bool**, const [SharedPtr](../../sharedptr/)\<[Globalization::NumberFormatInfo](../../../system.globalization/numberformatinfo/)\>\&) method
+## Convert::ToString(bool, const SharedPtr\<Globalization::NumberFormatInfo\>\&) method
 
 
 Converts the specified value to its string representation.
@@ -2624,15 +1682,7 @@ static String System::Convert::ToString(bool value, const SharedPtr<Globalizatio
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**bool**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(bool, const String\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified value to its string representation.
@@ -2652,15 +1702,7 @@ static String System::Convert::ToString(bool value, const String &, const Shared
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**bool**, const [String](../../string/)\&, const [SharedPtr](../../sharedptr/)\<[Globalization::CultureInfo](../../../system.globalization/cultureinfo/)\>\&) method
+## Convert::ToString(bool, const String\&, const SharedPtr\<Globalization::CultureInfo\>\&) method
 
 
 Converts the specified value to its string representation.
@@ -2680,15 +1722,7 @@ static String System::Convert::ToString(bool value, const String &, const Shared
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [CultureInfo](../../../system.globalization/cultureinfo/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**bool**, const [String](../../string/)\&, std::nullptr_t) method
+## Convert::ToString(bool, const String\&, std::nullptr_t) method
 
 
 Converts the specified value to its string representation.
@@ -2708,13 +1742,7 @@ static String System::Convert::ToString(bool value, const String &, std::nullptr
 
 The string representation of the specified value
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int8_t**, int) method
+## Convert::ToString(int8_t, int) method
 
 
 Converts the specified integer value to its string representation in the specified base.
@@ -2735,13 +1763,7 @@ static String System::Convert::ToString(int8_t value, int to_base)
 
 The string representation of the specified value in the specified base
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int16_t**, int) method
+## Convert::ToString(int16_t, int) method
 
 
 Converts the specified integer value to its string representation in the specified base.
@@ -2762,13 +1784,7 @@ static String System::Convert::ToString(int16_t value, int to_base)
 
 The string representation of the specified value in the specified base
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int32_t**, int) method
+## Convert::ToString(int32_t, int) method
 
 
 Converts the specified integer value to its string representation in the specified base.
@@ -2789,13 +1805,7 @@ static String System::Convert::ToString(int32_t value, int to_base)
 
 The string representation of the specified value in the specified base
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**int64_t**, int) method
+## Convert::ToString(int64_t, int) method
 
 
 Converts the specified integer value to its string representation in the specified base.
@@ -2816,13 +1826,7 @@ static String System::Convert::ToString(int64_t value, int to_base)
 
 The string representation of the specified value in the specified base
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint8_t**, int) method
+## Convert::ToString(uint8_t, int) method
 
 
 
@@ -2831,13 +1835,7 @@ The string representation of the specified value in the specified base
 static String System::Convert::ToString(uint8_t value, int to_base)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint16_t**, int) method
+## Convert::ToString(uint16_t, int) method
 
 
 
@@ -2846,13 +1844,7 @@ static String System::Convert::ToString(uint8_t value, int to_base)
 static String System::Convert::ToString(uint16_t value, int to_base)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(**uint32_t**, int) method
+## Convert::ToString(uint32_t, int) method
 
 
 
@@ -2861,13 +1853,7 @@ static String System::Convert::ToString(uint16_t value, int to_base)
 static String System::Convert::ToString(uint32_t value, int to_base)
 ```
 
-## See Also
-
-* Class [String](../../string/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToString(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&, const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&) method
+## Convert::ToString(const SharedPtr\<Object\>\&, const SharedPtr\<IFormatProvider\>\&) method
 
 
 Converts the specified boxed value to its string representation. If the type of boxed value is [String](../../string/), the specified string format is used during conversion.
@@ -2890,10 +1876,16 @@ A string representing the specified boxed value
 
 ## See Also
 
-* Class [String](../../string/)
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
+* Class [String](../../string/)
+* Class [Decimal](../../decimal/)
+* Class [DateTime](../../datetime/)
 * Class [IFormatProvider](../../iformatprovider/)
+* Class [CultureInfo](../../../system.globalization/cultureinfo/)
+* Class [NumberFormatInfo](../../../system.globalization/numberformatinfo/)
+* Class [DateTimeFormatInfo](../../../system.globalization/datetimeformatinfo/)
+* Class [Guid](../../guid/)
+* Class [Object](../../object/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

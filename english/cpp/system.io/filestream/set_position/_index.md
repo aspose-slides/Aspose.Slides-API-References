@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.io/filestream/set_position/
 ---
-## FileStream::set_Position(**int64_t**) method
+## FileStream::set_Position(int64_t) method
 
 
 Flushes the stream and then sets the stream's position.

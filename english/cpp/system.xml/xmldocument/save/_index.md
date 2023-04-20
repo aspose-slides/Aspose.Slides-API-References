@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/system.xml/xmldocument/save/
 ---
-## XmlDocument::Save([String](../../../system/string/)) method
+## XmlDocument::Save(String) method
 
 
 Saves the XML document to the specified file. If the specified file exists, this method overwrites it.
@@ -22,13 +22,7 @@ virtual void System::Xml::XmlDocument::Save(String filename)
 | --- | --- | --- |
 | filename | [String](../../../system/string/) | The location of the file where you want to save the document. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::Save([SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>) method
+## XmlDocument::Save(SharedPtr\<IO::Stream\>) method
 
 
 Saves the XML document to the specified stream.
@@ -44,14 +38,7 @@ virtual void System::Xml::XmlDocument::Save(SharedPtr<IO::Stream> outStream)
 | --- | --- | --- |
 | outStream | [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\> | The stream to which you want to save. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::Save([SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>) method
+## XmlDocument::Save(SharedPtr\<IO::TextWriter\>) method
 
 
 Saves the XML document to the specified TextWriter.
@@ -67,14 +54,7 @@ virtual void System::Xml::XmlDocument::Save(SharedPtr<IO::TextWriter> writer)
 | --- | --- | --- |
 | writer | [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\> | The TextWriter to which you want to save. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XmlDocument](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlDocument::Save([SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>) method
+## XmlDocument::Save(SharedPtr\<XmlWriter\>) method
 
 
 Saves the XML document to the specified [XmlWriter](../../xmlwriter/).
@@ -93,7 +73,10 @@ virtual void System::Xml::XmlDocument::Save(SharedPtr<XmlWriter> w)
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../xmlwriter/)
+* Class [String](../../../system/string/)
 * Class [XmlDocument](../)
+* Class [Stream](../../../system.io/stream/)
+* Class [TextWriter](../../../system.io/textwriter/)
+* Class [XmlWriter](../../xmlwriter/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_indexoutofrangeexception/is/
 ---
-## Details_IndexOutOfRangeException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_IndexOutOfRangeException::Is(const System::TypeInfo\&) const method
 
 
 

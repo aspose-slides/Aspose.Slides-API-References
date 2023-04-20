@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaannotated/set_id/
 ---
-## XmlSchemaAnnotated::set_Id(const [String](../../../system/string/)\&) method
+## XmlSchemaAnnotated::set_Id(const String\&) method
 
 
 Sets the string id.

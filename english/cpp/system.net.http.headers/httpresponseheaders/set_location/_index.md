@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/httpresponseheaders/set_location/
 ---
-## HttpResponseHeaders::set_Location([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## HttpResponseHeaders::set_Location(System::SharedPtr\<Uri\>) method
 
 
 Sets a value of the 'Location' header.

@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/system/decimal/multiply/
 ---
-## Decimal::Multiply(const [Decimal](../)\&, const [Decimal](../)\&) method
+## Decimal::Multiply(const Decimal\&, const Decimal\&) method
 
 
 Multiplies two specified [Decimal](../) values.
@@ -29,7 +29,6 @@ The result of multiplying **d1** and **d2**.
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

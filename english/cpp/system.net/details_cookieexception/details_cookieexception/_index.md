@@ -15,11 +15,6 @@ Constructs a new instance.
 System::Net::Details_CookieException::Details_CookieException()
 ```
 
-## See Also
-
-* Class [Details_CookieException](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
 ## Details_CookieException::Details_CookieException(std::nullptr_t) constructor
 
 
@@ -35,12 +30,7 @@ System::Net::Details_CookieException::Details_CookieException(std::nullptr_t)
 
 Used to support the null pointer value. 
 
-## See Also
-
-* Class [Details_CookieException](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Details_CookieException::Details_CookieException([String](../../../system/string/)) constructor
+## Details_CookieException::Details_CookieException(String) constructor
 
 
 Constructs a new instance.
@@ -56,13 +46,7 @@ System::Net::Details_CookieException::Details_CookieException(String message)
 | --- | --- | --- |
 | message | [String](../../../system/string/) | An error description. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Details_CookieException](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## Details_CookieException::Details_CookieException([String](../../../system/string/), [Exception](../../../system/exception/)) constructor
+## Details_CookieException::Details_CookieException(String, Exception) constructor
 
 
 Constructs a new instance.
@@ -81,8 +65,8 @@ System::Net::Details_CookieException::Details_CookieException(String message, Ex
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [Exception](../../../system/exception/)
 * Class [Details_CookieException](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.globalization/taiwancalendar/getdayofmonth/
 ---
-## TaiwanCalendar::GetDayOfMonth([DateTime](../../../system/datetime/)) const method
+## TaiwanCalendar::GetDayOfMonth(DateTime) const method
 
 
 Gets day of month for the specified time point.

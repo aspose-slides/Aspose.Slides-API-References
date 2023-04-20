@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/system.net.sockets/socket/sendto/
 ---
-## Socket::SendTo([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -30,16 +30,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::ArrayPtr<uint8_t> buffer, i
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::ArrayView\<uint8_t\>, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -63,15 +54,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, int32_t, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -95,15 +78,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::SendTo(System::Detai
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::ArrayPtr\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -126,16 +101,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::ArrayPtr<uint8_t> buffer, i
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::ArrayView\<**uint8_t**\>, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::ArrayView\<uint8_t\>, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -158,15 +124,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::StackArray\<**uint8_t**, N\>\&, **int32_t**, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, int32_t, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -189,15 +147,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::SendTo(System::Detai
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::ArrayPtr\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -219,16 +169,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::ArrayPtr<uint8_t> buffer, S
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::ArrayView\<**uint8_t**\>, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::ArrayView\<uint8_t\>, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -250,15 +191,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::StackArray\<**uint8_t**, N\>\&, [SocketFlags](../../socketflags/), [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, SocketFlags, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -280,15 +213,7 @@ template<std::size_t> int32_t System::Net::Sockets::Socket::SendTo(System::Detai
 
 The number of sent bytes.
 
-## See Also
-
-* Enum [SocketFlags](../../socketflags/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::ArrayPtr\<uint8_t\>, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -309,15 +234,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::ArrayPtr<uint8_t> buffer, S
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::ArrayView\<**uint8_t**\>, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::ArrayView\<uint8_t\>, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -338,14 +255,7 @@ int32_t System::Net::Sockets::Socket::SendTo(System::Details::ArrayView<uint8_t>
 
 The number of sent bytes.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [EndPoint](../../../system.net/endpoint/)
-* Class [Socket](../)
-* Namespace [System::Net::Sockets](../../)
-* Library [Aspose.Slides](../../../)
-## Socket::SendTo(System::Details::StackArray\<**uint8_t**, N\>\&, [System::SharedPtr](../../../system/sharedptr/)\<[EndPoint](../../../system.net/endpoint/)\>) method
+## Socket::SendTo(System::Details::StackArray\<uint8_t, N\>\&, System::SharedPtr\<EndPoint\>) method
 
 
 Sends the specified data to the specified endpoint.
@@ -368,6 +278,8 @@ The number of sent bytes.
 
 ## See Also
 
+* Enum [SocketFlags](../../socketflags/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [EndPoint](../../../system.net/endpoint/)
 * Class [Socket](../)

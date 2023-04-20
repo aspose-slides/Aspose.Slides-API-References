@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.theme/ilineformatcollection/idx_get/
 ---
-## ILineFormatCollection::idx_get(**int32_t**) method
+## ILineFormatCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [ILineFormat](../../../aspose.slides/ilineformat/).

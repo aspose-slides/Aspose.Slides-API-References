@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.io/file/move/
 ---
-## File::Move(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## File::Move(const String\&, const String\&) method
 
 
 Moves the specified file to the new location.

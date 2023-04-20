@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iresourceloadingargs/
 Interface for external resource loading arguments.
 
 ```cpp
-class IResourceLoadingArgs : public System::Object
+class IResourceLoadingArgs : public virtual System::Object
 ```
 
 ## Methods

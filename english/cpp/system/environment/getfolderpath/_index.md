@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system/environment/getfolderpath/
 ---
-## Environment::GetFolderPath([SpecialFolder](../specialfolder/)) method
+## Environment::GetFolderPath(SpecialFolder) method
 
 
 Returns fully qualified path to the specified system folder.
@@ -28,8 +28,8 @@ Fully qualified path to the specified system folder
 
 ## See Also
 
-* Class [String](../../string/)
 * Enum [SpecialFolder](../specialfolder/)
+* Class [String](../../string/)
 * Struct [Environment](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

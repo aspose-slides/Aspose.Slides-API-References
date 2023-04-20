@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/aspose.slides/groupshapelock/set_sizelocked/
 ---
-## GroupShapeLock::set_SizeLocked(**bool**) method
+## GroupShapeLock::set_SizeLocked(bool) method
 
 
 Determines whether resizing this shape is forbidden. Write **bool**.

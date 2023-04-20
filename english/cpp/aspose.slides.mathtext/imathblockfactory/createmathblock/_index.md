@@ -20,14 +20,7 @@ virtual System::SharedPtr<IMathBlock> Aspose::Slides::MathText::IMathBlockFactor
 
 new math block
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathBlock](../../imathblock/)
-* Class [IMathBlockFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathBlockFactory::CreateMathBlock([System::SharedPtr](../../../system/sharedptr/)\<[IMathElement](../../imathelement/)\>) method
+## IMathBlockFactory::CreateMathBlock(System::SharedPtr\<IMathElement\>) method
 
 
 Create a math block and place the element in it
@@ -47,15 +40,7 @@ virtual System::SharedPtr<IMathBlock> Aspose::Slides::MathText::IMathBlockFactor
 
 new math block
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathBlock](../../imathblock/)
-* Class [IMathElement](../../imathelement/)
-* Class [IMathBlockFactory](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
-## IMathBlockFactory::CreateMathBlock([System::SharedPtr](../../../system/sharedptr/)\<[IMathElementCollection](../../imathelementcollection/)\>) method
+## IMathBlockFactory::CreateMathBlock(System::SharedPtr\<IMathElementCollection\>) method
 
 
 Create a math block and place elements in it
@@ -79,7 +64,8 @@ new math block
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IMathBlock](../../imathblock/)
-* Class [IMathElementCollection](../../imathelementcollection/)
 * Class [IMathBlockFactory](../)
+* Class [IMathElement](../../imathelement/)
+* Class [IMathElementCollection](../../imathelementcollection/)
 * Namespace [Aspose::Slides::MathText](../../)
 * Library [Aspose.Slides](../../../)

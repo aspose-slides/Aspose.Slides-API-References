@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml/nametable/get/
 ---
-## NameTable::Get(const [String](../../../system/string/)\&) method
+## NameTable::Get(const String\&) method
 
 
 Returns the atomized string with the specified value.
@@ -26,13 +26,7 @@ const String & System::Xml::NameTable::Get(const String &value) override
 
 The atomized string object or **nullptr** if the string has not already been atomized.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [NameTable](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## NameTable::Get(const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>\&, **int32_t**, **int32_t**) method
+## NameTable::Get(const ArrayPtr\<char16_t\>\&, int32_t, int32_t) method
 
 
 Returns the atomized string containing the same characters as the specified range of characters in the given array.
@@ -56,8 +50,8 @@ The atomized string or **nullptr** if the string has not already been atomized. 
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [NameTable](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

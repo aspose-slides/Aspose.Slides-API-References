@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/icustomxmlpart/
 Represents custom xml part.
 
 ```cpp
-class ICustomXmlPart : public System::Object
+class ICustomXmlPart : public virtual System::Object
 ```
 
 ## Methods

@@ -27,11 +27,6 @@ bool System::Globalization::UmAlQuraCalendar::IsLeapYear(int year, int era) cons
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [UmAlQuraCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## UmAlQuraCalendar::IsLeapYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual bool System::Globalization::Calendar::IsLeapYear(int year) const
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [UmAlQuraCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## UmAlQuraCalendar::IsLeapYear(int, int) const method
 
 

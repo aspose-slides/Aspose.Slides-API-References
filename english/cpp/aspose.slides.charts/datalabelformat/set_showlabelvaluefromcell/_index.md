@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.slides.charts/datalabelformat/set_showlabelvaluefromcell/
 ---
-## DataLabelFormat::set_ShowLabelValueFromCell(**bool**) method
+## DataLabelFormat::set_ShowLabelValueFromCell(bool) method
 
 
 Represents a specified chart's data label cell value display behavior. True displays cell value. False to hide. Write **bool**.

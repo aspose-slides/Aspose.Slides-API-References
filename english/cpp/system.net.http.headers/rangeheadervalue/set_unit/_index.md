@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net.http.headers/rangeheadervalue/set_unit/
 ---
-## RangeHeaderValue::set_Unit([String](../../../system/string/)) method
+## RangeHeaderValue::set_Unit(String) method
 
 
 Sets a unit.

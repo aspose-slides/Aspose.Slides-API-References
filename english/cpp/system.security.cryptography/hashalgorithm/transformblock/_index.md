@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/hashalgorithm/transformblock/
 ---
-## HashAlgorithm::TransformBlock([ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int, int, [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, int) method
+## HashAlgorithm::TransformBlock(ArrayPtr\<uint8_t\>, int, int, ArrayPtr\<uint8_t\>, int) method
 
 
 Processes block of data and copies data to output array.

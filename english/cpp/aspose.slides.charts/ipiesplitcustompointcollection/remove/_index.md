@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.charts/ipiesplitcustompointcollection/remove/
 ---
-## IPieSplitCustomPointCollection::Remove(**int32_t**) method
+## IPieSplitCustomPointCollection::Remove(int32_t) method
 
 
 Removes item from collection by it index in parent series points collection.

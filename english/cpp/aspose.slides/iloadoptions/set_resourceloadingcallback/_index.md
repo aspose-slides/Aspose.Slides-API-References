@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides/iloadoptions/set_resourceloadingcallback/
 ---
-## ILoadOptions::set_ResourceLoadingCallback([System::SharedPtr](../../../system/sharedptr/)\<[IResourceLoadingCallback](../../iresourceloadingcallback/)\>) method
+## ILoadOptions::set_ResourceLoadingCallback(System::SharedPtr\<IResourceLoadingCallback\>) method
 
 
 Sets callback interface which manages external resources loading. Write [IResourceLoadingCallback](../../iresourceloadingcallback/).

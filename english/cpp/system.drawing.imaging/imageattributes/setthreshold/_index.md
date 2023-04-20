@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system.drawing.imaging/imageattributes/setthreshold/
 ---
-## ImageAttributes::SetThreshold(**float**, [ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::SetThreshold(float, ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

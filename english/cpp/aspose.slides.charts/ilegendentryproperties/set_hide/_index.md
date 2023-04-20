@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/ilegendentryproperties/set_hide/
 ---
-## ILegendEntryProperties::set_Hide(**bool**) method
+## ILegendEntryProperties::set_Hide(bool) method
 
 
 Sets the hide flag of legend entry. Write **bool**.

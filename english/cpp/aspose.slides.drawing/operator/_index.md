@@ -3,10 +3,10 @@ title: operator/()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 92
+weight: 79
 url: /cpp/aspose.slides.drawing/operator//
 ---
-## Aspose::Slides::Drawing::operator/([Margin32f](../margin32f/), **int32_t**) function
+## Aspose::Slides::Drawing::operator/(Margin32f, int32_t) function
 
 
 
@@ -15,12 +15,7 @@ url: /cpp/aspose.slides.drawing/operator//
 Margin32f Aspose::Slides::Drawing::operator/(Margin32f l, int32_t r)
 ```
 
-## See Also
-
-* Class [Margin32f](../margin32f/)
-* Namespace [Aspose::Slides::Drawing](../)
-* Library [Aspose.Slides](../../)
-## Aspose::Slides::Drawing::operator/([Margin64d](../margin64d/), **double**) function
+## Aspose::Slides::Drawing::operator/(Margin64d, double) function
 
 
 
@@ -29,12 +24,7 @@ Margin32f Aspose::Slides::Drawing::operator/(Margin32f l, int32_t r)
 Margin64d Aspose::Slides::Drawing::operator/(Margin64d l, double r)
 ```
 
-## See Also
-
-* Class [Margin64d](../margin64d/)
-* Namespace [Aspose::Slides::Drawing](../)
-* Library [Aspose.Slides](../../)
-## Aspose::Slides::Drawing::operator/([Vector2d32f](../vector2d32f/), **int32_t**) function
+## Aspose::Slides::Drawing::operator/(Vector2d32f, int32_t) function
 
 
 
@@ -43,12 +33,7 @@ Margin64d Aspose::Slides::Drawing::operator/(Margin64d l, double r)
 Vector2d32f Aspose::Slides::Drawing::operator/(Vector2d32f l, int32_t r)
 ```
 
-## See Also
-
-* Class [Vector2d32f](../vector2d32f/)
-* Namespace [Aspose::Slides::Drawing](../)
-* Library [Aspose.Slides](../../)
-## Aspose::Slides::Drawing::operator/([Vector2d64d](../vector2d64d/), **int32_t**) function
+## Aspose::Slides::Drawing::operator/(Vector2d64d, int32_t) function
 
 
 
@@ -59,6 +44,9 @@ Vector2d64d Aspose::Slides::Drawing::operator/(Vector2d64d l, int32_t r)
 
 ## See Also
 
+* Class [Margin32f](../margin32f/)
+* Class [Margin64d](../margin64d/)
+* Class [Vector2d32f](../vector2d32f/)
 * Class [Vector2d64d](../vector2d64d/)
 * Namespace [Aspose::Slides::Drawing](../)
 * Library [Aspose.Slides](../../)

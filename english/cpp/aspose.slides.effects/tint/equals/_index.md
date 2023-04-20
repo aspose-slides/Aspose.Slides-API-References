@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/tint/equals/
 ---
-## Tint::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## Tint::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [Tint](../) is equal to the current [Tint](../).

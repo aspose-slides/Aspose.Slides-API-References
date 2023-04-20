@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides.charts/chart/set_haslegend/
 ---
-## Chart::set_HasLegend(**bool**) method
+## Chart::set_HasLegend(bool) method
 
 
 Determines whether a chart has a legend. Write **bool**.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/wheeltransition/set_spokes/
 ---
-## WheelTransition::set_Spokes(**uint32_t**) method
+## WheelTransition::set_Spokes(uint32_t) method
 
 
 Number spokes of wheel transition. Write **uint32_t**.

@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/aspose.slides.mathtext/imathborderbox/set_strikethroughvertical/
 ---
-## IMathBorderBox::set_StrikethroughVertical(**bool**) method
+## IMathBorderBox::set_StrikethroughVertical(bool) method
 
 
 Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line.

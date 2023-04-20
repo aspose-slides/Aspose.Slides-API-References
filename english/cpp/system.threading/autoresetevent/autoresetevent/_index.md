@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.threading/autoresetevent/autoresetevent/
 ---
-## AutoResetEvent::AutoResetEvent(**bool**) constructor
+## AutoResetEvent::AutoResetEvent(bool) constructor
 
 
 Constructor.

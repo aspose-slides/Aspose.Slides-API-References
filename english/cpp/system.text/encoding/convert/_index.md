@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.text/encoding/convert/
 ---
-## Encoding::Convert(const [EncodingPtr](../../../system/encodingptr/)\&, const [EncodingPtr](../../../system/encodingptr/)\&, const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&) method
+## Encoding::Convert(const EncodingPtr\&, const EncodingPtr\&, const ArrayPtr\<uint8_t\>\&) method
 
 
 Converts bytes between two encodings.
@@ -28,14 +28,7 @@ static ArrayPtr<uint8_t> System::Text::Encoding::Convert(const EncodingPtr &src_
 
 Converted bytes.
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [EncodingPtr](../../../system/encodingptr/)
-* Class [Encoding](../)
-* Namespace [System::Text](../../)
-* Library [Aspose.Slides](../../../)
-## Encoding::Convert(const [EncodingPtr](../../../system/encodingptr/)\&, const [EncodingPtr](../../../system/encodingptr/)\&, const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, int, int) method
+## Encoding::Convert(const EncodingPtr\&, const EncodingPtr\&, const ArrayPtr\<uint8_t\>\&, int, int) method
 
 
 Converts bytes between two encodings.

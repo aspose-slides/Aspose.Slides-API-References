@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/aspose.slides.export/pdfoptions/set_savemetafilesaspng/
 ---
-## PdfOptions::set_SaveMetafilesAsPng(**bool**) method
+## PdfOptions::set_SaveMetafilesAsPng(bool) method
 
 
 True to convert all metafiles used in a presentation to the PNG images. Write **bool**.

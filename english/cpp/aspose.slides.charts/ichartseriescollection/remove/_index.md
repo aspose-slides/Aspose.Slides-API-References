@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/ichartseriescollection/remove/
 ---
-## IChartSeriesCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IChartSeries](../../ichartseries/)\>) method
+## IChartSeriesCollection::Remove(System::SharedPtr\<IChartSeries\>) method
 
 
 Removes the specified value.

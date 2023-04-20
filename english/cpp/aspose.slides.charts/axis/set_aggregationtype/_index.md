@@ -6,7 +6,7 @@ type: docs
 weight: 1054
 url: /cpp/aspose.slides.charts/axis/set_aggregationtype/
 ---
-## Axis::set_AggregationType([AxisAggregationType](../../axisaggregationtype/)) method
+## Axis::set_AggregationType(AxisAggregationType) method
 
 
 Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only.

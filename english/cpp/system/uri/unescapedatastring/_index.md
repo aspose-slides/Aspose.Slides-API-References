@@ -6,7 +6,7 @@ type: docs
 weight: 547
 url: /cpp/system/uri/unescapedatastring/
 ---
-## Uri::UnescapeDataString(const [String](../../string/)\&) method
+## Uri::UnescapeDataString(const String\&) method
 
 
 Unescapes the specified escaped string.

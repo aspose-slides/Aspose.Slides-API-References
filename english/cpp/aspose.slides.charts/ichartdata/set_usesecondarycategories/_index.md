@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/ichartdata/set_usesecondarycategories/
 ---
-## IChartData::set_UseSecondaryCategories(**bool**) method
+## IChartData::set_UseSecondaryCategories(bool) method
 
 
 If set to false then [IChartData::get_SecondaryCategories](../get_secondarycategories/) returns null and data in [IChartData::get_Categories](../get_categories/) is used both for primary and secondary series. If set to true then data in [IChartData::get_SecondaryCategories](../get_secondarycategories/) is used for secondary series and data in [IChartData::get_Categories](../get_categories/) is used for primary series. Write **bool**.

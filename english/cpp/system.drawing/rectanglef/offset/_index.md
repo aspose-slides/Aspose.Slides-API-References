@@ -6,7 +6,7 @@ type: docs
 weight: 300
 url: /cpp/system.drawing/rectanglef/offset/
 ---
-## RectangleF::Offset(const [PointF](../../pointf/)\&) method
+## RectangleF::Offset(const PointF\&) method
 
 
 Offsets the position of the rectangle represented by the current object by the specified amounts.
@@ -22,13 +22,7 @@ void System::Drawing::RectangleF::Offset(const PointF &pos)
 | --- | --- | --- |
 | pos | const [PointF](../../pointf/)\& | The [PointF](../../pointf/) object that specifies the amount by which the rectangle is offset; the point's X coordinat value specifies the amount to add to the X coordinate of the upper left corner of the rectangle and the point's Y coordinate specifies the amount to add to the Y coordinate of the upper left corner of the rectangle |
 
-## See Also
-
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## RectangleF::Offset(**float**, **float**) method
+## RectangleF::Offset(float, float) method
 
 
 Offsets the position of the rectangle represented by the current object by the specified amounts.
@@ -47,6 +41,7 @@ void System::Drawing::RectangleF::Offset(float x, float y)
 
 ## See Also
 
+* Class [PointF](../../pointf/)
 * Class [RectangleF](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

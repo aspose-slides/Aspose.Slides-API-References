@@ -15,12 +15,7 @@ Creates object. Initializes all internal data structures.
 System::Object::Object()
 ```
 
-## See Also
-
-* Class [Object](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Object::Object([Object](../) const\&) constructor
+## Object::Object(Object const\&) constructor
 
 
 Copy constructor. Doesn't copy anything, really, just initializes new object and enables copy constructing subclasses.
@@ -38,7 +33,6 @@ System::Object::Object(Object const &x)
 
 ## See Also
 
-* Class [Object](../)
 * Class [Object](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

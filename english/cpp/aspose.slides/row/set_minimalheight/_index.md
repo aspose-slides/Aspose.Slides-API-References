@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/row/set_minimalheight/
 ---
-## Row::set_MinimalHeight(**double**) method
+## Row::set_MinimalHeight(double) method
 
 
 Sets the minimal possible height of a row. Write **double**.

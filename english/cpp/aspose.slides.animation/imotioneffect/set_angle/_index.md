@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/aspose.slides.animation/imotioneffect/set_angle/
 ---
-## IMotionEffect::set_Angle(**float**) method
+## IMotionEffect::set_Angle(float) method
 
 
 Describes the relative angle of the motion path. Write **float**.

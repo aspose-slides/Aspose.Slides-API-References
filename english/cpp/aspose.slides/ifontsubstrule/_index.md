@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/ifontsubstrule/
 Represents font subtituition information
 
 ```cpp
-class IFontSubstRule : public System::Object
+class IFontSubstRule : public virtual System::Object
 ```
 
 ## Methods

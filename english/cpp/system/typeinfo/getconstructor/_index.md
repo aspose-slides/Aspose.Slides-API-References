@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system/typeinfo/getconstructor/
 ---
-## TypeInfo::GetConstructor(const [ArrayPtr](../../arrayptr/)\<[TypeInfo](../)\>\&) const method
+## TypeInfo::GetConstructor(const ArrayPtr\<TypeInfo\>\&) const method
 
 
 Searches for a public instance constructor whose parameters match the types in the specified array.
@@ -18,9 +18,8 @@ SharedPtr<System::Reflection::ConstructorInfo> System::TypeInfo::GetConstructor(
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [ConstructorInfo](../../../system.reflection/constructorinfo/)
 * Typedef [ArrayPtr](../../arrayptr/)
-* Class [TypeInfo](../)
+* Class [ConstructorInfo](../../../system.reflection/constructorinfo/)
 * Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

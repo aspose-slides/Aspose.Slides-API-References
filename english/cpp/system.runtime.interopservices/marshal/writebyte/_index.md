@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.runtime.interopservices/marshal/writebyte/
 ---
-## Marshal::WriteByte(IntPtr, int, **uint8_t**) method
+## Marshal::WriteByte(IntPtr, int, uint8_t) method
 
 
 Writes byte to memory.
@@ -24,12 +24,7 @@ static void System::Runtime::InteropServices::Marshal::WriteByte(IntPtr ptr, int
 | offset | int | Offset to memory buffer. |
 | value | **uint8_t** | to write. |
 
-## See Also
-
-* Class [Marshal](../)
-* Namespace [System::Runtime::InteropServices](../../)
-* Library [Aspose.Slides](../../../)
-## Marshal::WriteByte(IntPtr, **uint8_t**) method
+## Marshal::WriteByte(IntPtr, uint8_t) method
 
 
 Writes byte to memory.

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.threading/details_threadabortexception/is/
 ---
-## Details_ThreadAbortException::Is(const [System::TypeInfo](../../../system/typeinfo/)\&) const method
+## Details_ThreadAbortException::Is(const System::TypeInfo\&) const method
 
 
 

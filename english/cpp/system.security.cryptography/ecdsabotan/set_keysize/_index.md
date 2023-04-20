@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography/ecdsabotan/set_keysize/
 ---
-## ECDsaBotan::set_KeySize(**int32_t**) method
+## ECDsaBotan::set_KeySize(int32_t) method
 
 
 Sets key size.

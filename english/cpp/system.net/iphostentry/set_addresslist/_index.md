@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/iphostentry/set_addresslist/
 ---
-## IPHostEntry::set_AddressList([System::ArrayPtr](../../../system/arrayptr/)\<[System::SharedPtr](../../../system/sharedptr/)\<[IPAddress](../../ipaddress/)\>\>) method
+## IPHostEntry::set_AddressList(System::ArrayPtr\<System::SharedPtr\<IPAddress\>\>) method
 
 
 Sets a collection of IP addresses of the host.

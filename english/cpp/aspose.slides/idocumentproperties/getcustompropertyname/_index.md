@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/aspose.slides/idocumentproperties/getcustompropertyname/
 ---
-## IDocumentProperties::GetCustomPropertyName(**int32_t**) method
+## IDocumentProperties::GetCustomPropertyName(int32_t) method
 
 
 Return a custom property name at the specified index.

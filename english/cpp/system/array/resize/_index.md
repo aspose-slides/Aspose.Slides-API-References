@@ -6,7 +6,7 @@ type: docs
 weight: 729
 url: /cpp/system/array/resize/
 ---
-## Array::Resize([ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&, int) method
+## Array::Resize(ArrayPtr\<Type\>\&, int) method
 
 
 Changes the size of the specified array to the specified value or crates new array with specified size.
@@ -26,6 +26,7 @@ template<typename Type> static void System::Array<T>::Resize(ArrayPtr<Type> &arr
 ## See Also
 
 * Typedef [ArrayPtr](../../arrayptr/)
+* Method [Type](../../object/type/)
 * Class [Array](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

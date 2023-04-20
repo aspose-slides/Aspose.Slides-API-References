@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.slides/presentation/save/
 ---
-## Presentation::Save([System::String](../../../system/string/), [Export::SaveFormat](../../../aspose.slides.export/saveformat/)) method
+## Presentation::Save(System::String, Export::SaveFormat) method
 
 
 Saves all slides of a presentation to a file with the specified format.
@@ -23,14 +23,7 @@ void Aspose::Slides::Presentation::Save(System::String fname, Export::SaveFormat
 | fname | [System::String](../../../system/string/) | Path to the created file. |
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [Export::SaveFormat](../../../aspose.slides.export/saveformat/)) method
+## Presentation::Save(System::SharedPtr\<System::IO::Stream\>, Export::SaveFormat) method
 
 
 Saves all slides of a presentation to a stream in the specified format.
@@ -47,15 +40,7 @@ void Aspose::Slides::Presentation::Save(System::SharedPtr<System::IO::Stream> st
 | stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | Output stream. |
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::String](../../../system/string/), [Export::SaveFormat](../../../aspose.slides.export/saveformat/), [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\>) method
+## Presentation::Save(System::String, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>) method
 
 
 Saves all slides of a presentation to a file with the specified format and with additional options.
@@ -281,16 +266,7 @@ htmlOptions->set_SlideImageFormat(SlideImageFormat::Svg(svgOptions));
 pres->Save(System::IO::Path::Combine(path, fileName), SaveFormat::Html, htmlOptions);
 ```
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISaveOptions](../../../aspose.slides.export/isaveoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [Export::SaveFormat](../../../aspose.slides.export/saveformat/), [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\>) method
+## Presentation::Save(System::SharedPtr\<System::IO::Stream\>, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>) method
 
 
 Saves all slides of a presentation to a stream in the specified format and with additional options.
@@ -308,16 +284,7 @@ void Aspose::Slides::Presentation::Save(System::SharedPtr<System::IO::Stream> st
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | Additional format options. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Class [ISaveOptions](../../../aspose.slides.export/isaveoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::SharedPtr](../../../system/sharedptr/)\<[Export::Xaml::IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions/)\>) method
+## Presentation::Save(System::SharedPtr\<Export::Xaml::IXamlOptions\>) method
 
 
 Saves all slides of a presentation to a set of files representing XAML markup.
@@ -348,14 +315,7 @@ pres->Save(options);
 
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::String](../../../system/string/), [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, [Export::SaveFormat](../../../aspose.slides.export/saveformat/)) method
+## Presentation::Save(System::String, System::ArrayPtr\<int32_t\>, Export::SaveFormat) method
 
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
@@ -373,15 +333,7 @@ void Aspose::Slides::Presentation::Save(System::String fname, System::ArrayPtr<i
 | slides | [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\> | Array with slide positions, starting from 1. |
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::String](../../../system/string/), [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, [Export::SaveFormat](../../../aspose.slides.export/saveformat/), [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\>) method
+## Presentation::Save(System::String, System::ArrayPtr\<int32_t\>, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>) method
 
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.
@@ -400,17 +352,7 @@ void Aspose::Slides::Presentation::Save(System::String fname, System::ArrayPtr<i
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\> | Additional format options. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISaveOptions](../../../aspose.slides.export/isaveoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, [Export::SaveFormat](../../../aspose.slides.export/saveformat/)) method
+## Presentation::Save(System::SharedPtr\<System::IO::Stream\>, System::ArrayPtr\<int32_t\>, Export::SaveFormat) method
 
 
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
@@ -428,16 +370,7 @@ void Aspose::Slides::Presentation::Save(System::SharedPtr<System::IO::Stream> st
 | slides | [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\> | Array with slide positions, starting from 1. |
 | format | [Export::SaveFormat](../../../aspose.slides.export/saveformat/) | Format of the exported data. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>, [System::ArrayPtr](../../../system/arrayptr/)\<**int32_t**\>, [Export::SaveFormat](../../../aspose.slides.export/saveformat/), [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\>) method
+## Presentation::Save(System::SharedPtr\<System::IO::Stream\>, System::ArrayPtr\<int32_t\>, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>) method
 
 
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
@@ -495,17 +428,7 @@ for (int32_t index = 0; index < pres->get_Slides()->get_Count(); index++)
 }
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Class [ISaveOptions](../../../aspose.slides.export/isaveoptions/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::String](../../../system/string/), [Export::SaveFormat](../../../aspose.slides.export/saveformat/), [System::SharedPtr](../../../system/sharedptr/)\<[System::Web::HttpResponse](../../../system.web/httpresponse/)\>, **bool**) method
+## Presentation::Save(System::String, Export::SaveFormat, System::SharedPtr\<System::Web::HttpResponse\>, bool) method
 
 
 Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide.
@@ -524,16 +447,7 @@ void Aspose::Slides::Presentation::Save(System::String fname, Export::SaveFormat
 | response | [System::SharedPtr](../../../system/sharedptr/)\<[System::Web::HttpResponse](../../../system.web/httpresponse/)\> | Response object where to save the document. |
 | showInline | **bool** | True to show an option to open the presentation inside the browser. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [HttpResponse](../../../system.web/httpresponse/)
-* Class [Presentation](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## Presentation::Save([System::String](../../../system/string/), [Export::SaveFormat](../../../aspose.slides.export/saveformat/), [System::SharedPtr](../../../system/sharedptr/)\<[Export::ISaveOptions](../../../aspose.slides.export/isaveoptions/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[System::Web::HttpResponse](../../../system.web/httpresponse/)\>, **bool**) method
+## Presentation::Save(System::String, Export::SaveFormat, System::SharedPtr\<Export::ISaveOptions\>, System::SharedPtr\<System::Web::HttpResponse\>, bool) method
 
 
 Sends the presentation to the client browser. This method is absent in ClientProfile versions of Aspose.Slide.
@@ -555,11 +469,14 @@ void Aspose::Slides::Presentation::Save(System::String fname, Export::SaveFormat
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [SaveFormat](../../../aspose.slides.export/saveformat/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISaveOptions](../../../aspose.slides.export/isaveoptions/)
-* Class [HttpResponse](../../../system.web/httpresponse/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [String](../../../system/string/)
 * Class [Presentation](../)
+* Class [Stream](../../../system.io/stream/)
+* Class [ISaveOptions](../../../aspose.slides.export/isaveoptions/)
+* Class [IXamlOptions](../../../aspose.slides.export.xaml/ixamloptions/)
+* Class [HttpResponse](../../../system.web/httpresponse/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

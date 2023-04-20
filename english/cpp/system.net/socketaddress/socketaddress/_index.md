@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net/socketaddress/socketaddress/
 ---
-## SocketAddress::SocketAddress([Sockets::AddressFamily](../../../system.net.sockets/addressfamily/)) constructor
+## SocketAddress::SocketAddress(Sockets::AddressFamily) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::SocketAddress::SocketAddress(Sockets::AddressFamily family)
 | --- | --- | --- |
 | family | [Sockets::AddressFamily](../../../system.net.sockets/addressfamily/) | The address family. |
 
-## See Also
-
-* Enum [AddressFamily](../../../system.net.sockets/addressfamily/)
-* Class [SocketAddress](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## SocketAddress::SocketAddress([Sockets::AddressFamily](../../../system.net.sockets/addressfamily/), **int32_t**) constructor
+## SocketAddress::SocketAddress(Sockets::AddressFamily, int32_t) constructor
 
 
 Constructs a new instance.

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.drawing/point/truncate/
 ---
-## Point::Truncate(const [PointF](../../pointf/)\&) method
+## Point::Truncate(const PointF\&) method
 
 
 Constructs a [Point](../) object from the specified [PointF](../../pointf/) object by truncating the [PointF](../../pointf/) object's X and Y coordinates values to the next lower integer values.
@@ -30,6 +30,5 @@ A [Point](../) object constructed from **point**
 
 * Class [Point](../)
 * Class [PointF](../../pointf/)
-* Class [Point](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

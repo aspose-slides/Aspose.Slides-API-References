@@ -6,7 +6,7 @@ type: docs
 weight: 612
 url: /cpp/system/string/lastindexof/
 ---
-## String::LastIndexOf(const [String](../)\&, int) const method
+## String::LastIndexOf(const String\&, int) const method
 
 
 Substring backward lookup.
@@ -27,13 +27,7 @@ int System::String::LastIndexOf(const String &str, int startIndex=INT32_MAX) con
 
 Index of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::LastIndexOf(const [String](../)\&, [System::StringComparison](../../stringcomparison/)) const method
+## String::LastIndexOf(const String\&, System::StringComparison) const method
 
 
 Substring backward lookup.
@@ -54,14 +48,7 @@ int System::String::LastIndexOf(const String &str, System::StringComparison comp
 
 Index of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::LastIndexOf(const [String](../)\&, int, [System::StringComparison](../../stringcomparison/)) const method
+## String::LastIndexOf(const String\&, int, System::StringComparison) const method
 
 
 Substring backward lookup.
@@ -83,14 +70,7 @@ int System::String::LastIndexOf(const String &str, int startIndex, System::Strin
 
 Index of last found substring or -1 if not found. For empty lookup string, always returns string length.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::LastIndexOf(const [String](../)\&, int, int, [StringComparison](../../stringcomparison/)) const method
+## String::LastIndexOf(const String\&, int, int, StringComparison) const method
 
 
 Substring backward lookup.
@@ -113,13 +93,6 @@ int System::String::LastIndexOf(const String &value, int startIndex, int count, 
 
 Index of last found substring or -1 if not found. For empty lookup string, always returns startIndex+count.
 
-## See Also
-
-* Class [String](../)
-* Enum [StringComparison](../../stringcomparison/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::LastIndexOf(char_t) const method
 
 
@@ -140,12 +113,7 @@ int System::String::LastIndexOf(char_t value) const
 
 Index of last character position or -1 if not found.
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::LastIndexOf(char_t, **int32_t**) const method
+## String::LastIndexOf(char_t, int32_t) const method
 
 
 Character backward lookup.
@@ -166,12 +134,7 @@ int System::String::LastIndexOf(char_t value, int32_t startIndex) const
 
 Index of last character position since startIndex or -1 if not found.
 
-## See Also
-
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::LastIndexOf(char_t, **int32_t**, **int32_t**) const method
+## String::LastIndexOf(char_t, int32_t, int32_t) const method
 
 
 Character backward lookup.
@@ -195,6 +158,7 @@ Index of last character position since startIndex or -1 if not found.
 
 ## See Also
 
+* Enum [StringComparison](../../stringcomparison/)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

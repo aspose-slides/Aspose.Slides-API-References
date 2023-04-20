@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system/datetime/addticks/
 ---
-## DateTime::AddTicks(**int64_t**) const method
+## DateTime::AddTicks(int64_t) const method
 
 
 Returns a new instance of the [DateTime](../) class representing the date and time value which is the sum of the value represented by the current object and the specified number of 100-nanosecond intervals.
@@ -28,7 +28,6 @@ A new instance of the [DateTime](../) class representing the date and time value
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

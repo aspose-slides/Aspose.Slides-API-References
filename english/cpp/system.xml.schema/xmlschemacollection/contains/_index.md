@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml.schema/xmlschemacollection/contains/
 ---
-## XmlSchemaCollection::Contains(const [SharedPtr](../../../system/sharedptr/)\<[XmlSchema](../../xmlschema/)\>\&) method
+## XmlSchemaCollection::Contains(const SharedPtr\<XmlSchema\>\&) method
 
 
 Returns a value indicating whether the **targetNamespace** of the specified [XmlSchema](../../xmlschema/) is in the collection.
@@ -26,14 +26,7 @@ bool System::Xml::Schema::XmlSchemaCollection::Contains(const SharedPtr<XmlSchem
 
 **true** if there is a schema in the collection with the same **targetNamespace**; otherwise, **false**.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlSchema](../../xmlschema/)
-* Class [XmlSchemaCollection](../)
-* Namespace [System::Xml::Schema](../../)
-* Library [Aspose.Slides](../../../)
-## XmlSchemaCollection::Contains(const [String](../../../system/string/)\&) method
+## XmlSchemaCollection::Contains(const String\&) method
 
 
 Returns a value indicating whether a schema with the specified namespace is in the collection.
@@ -55,7 +48,9 @@ bool System::Xml::Schema::XmlSchemaCollection::Contains(const String &ns)
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlSchema](../../xmlschema/)
 * Class [XmlSchemaCollection](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml::Schema](../../)
 * Library [Aspose.Slides](../../../)

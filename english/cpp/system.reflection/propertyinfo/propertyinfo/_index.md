@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.reflection/propertyinfo/propertyinfo/
 ---
-## PropertyInfo::PropertyInfo([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)() const) constructor
+## PropertyInfo::PropertyInfo(String, System::SharedPtr\<PropertyType\>(ClassType::*)() const) constructor
 
 
 Constructor. Property with only const getter.
@@ -30,14 +30,7 @@ template<class PropertyType,typename ClassType> System::Reflection::PropertyInfo
 | name | [String](../../../system/string/) | Property name. |
 | get_prop_method | [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)() const | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)()) constructor
+## PropertyInfo::PropertyInfo(String, System::SharedPtr\<PropertyType\>(ClassType::*)()) constructor
 
 
 Constructor. Property with only non-const getter.
@@ -61,14 +54,7 @@ template<class PropertyType,typename ClassType> System::Reflection::PropertyInfo
 | name | [String](../../../system/string/) | Property name. |
 | get_prop_method | [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)() | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)([System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>), [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)() const) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(System::SharedPtr\<PropertyType\>), System::SharedPtr\<PropertyType\>(ClassType::*)() const) constructor
 
 
 Constructor.
@@ -93,14 +79,7 @@ template<class PropertyType,typename ClassType> System::Reflection::PropertyInfo
 | set_prop_method | void(ClassType::*)([System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>) | Setter method. |
 | get_prop_method | [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)() const | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)([System::Nullable](../../../system/nullable/)\<NullableType\>), [System::Nullable](../../../system/nullable/)\<NullableType\>(ClassType::*)()) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(System::Nullable\<NullableType\>), System::Nullable\<NullableType\>(ClassType::*)()) constructor
 
 
 Constructor. [Nullable](../../../system/nullable/) property with setter and getter.
@@ -125,14 +104,7 @@ template<class NullableType,typename ClassType> System::Reflection::PropertyInfo
 | set_prop_method | void(ClassType::*)([System::Nullable](../../../system/nullable/)\<NullableType\>) | Setter method. |
 | get_prop_method | [System::Nullable](../../../system/nullable/)\<NullableType\>(ClassType::*)() | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Nullable](../../../system/nullable/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)([System::Nullable](../../../system/nullable/)\<NullableType\>), [System::Nullable](../../../system/nullable/)\<NullableType\>(ClassType::*)() const) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(System::Nullable\<NullableType\>), System::Nullable\<NullableType\>(ClassType::*)() const) constructor
 
 
 Constructor. [Nullable](../../../system/nullable/) property with const getter only.
@@ -157,14 +129,7 @@ template<class NullableType,typename ClassType> System::Reflection::PropertyInfo
 | set_prop_method | void(ClassType::*)([System::Nullable](../../../system/nullable/)\<NullableType\>) | Setter method. |
 | get_prop_method | [System::Nullable](../../../system/nullable/)\<NullableType\>(ClassType::*)() const | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Nullable](../../../system/nullable/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)([System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>), [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)()) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(System::SharedPtr\<PropertyType\>), System::SharedPtr\<PropertyType\>(ClassType::*)()) constructor
 
 
 Constructor. [Object](../../../system/object/) property with getter only.
@@ -189,14 +154,7 @@ template<class PropertyType,typename ClassType> System::Reflection::PropertyInfo
 | set_prop_method | void(ClassType::*)([System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>) | Setter method. |
 | get_prop_method | [System::SharedPtr](../../../system/sharedptr/)\<PropertyType\>(ClassType::*)() | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)([System::String](../../../system/string/)), [System::String](../../../system/string/)(ClassType::*)()) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(System::String), System::String(ClassType::*)()) constructor
 
 
 Constructs string property information.
@@ -220,13 +178,7 @@ template<typename ClassType> System::Reflection::PropertyInfo::PropertyInfo(Stri
 | set_prop_method | void(ClassType::*)([System::String](../../../system/string/)) | Setter method. |
 | get_prop_method | [System::String](../../../system/string/)(ClassType::*)() | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)([System::String](../../../system/string/)), [System::String](../../../system/string/)(ClassType::*)() const) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(System::String), System::String(ClassType::*)() const) constructor
 
 
 Constructs string property information from class with const getter.
@@ -250,13 +202,7 @@ template<typename ClassType> System::Reflection::PropertyInfo::PropertyInfo(Stri
 | set_prop_method | void(ClassType::*)([System::String](../../../system/string/)) | Setter method. |
 | get_prop_method | [System::String](../../../system/string/)(ClassType::*)() const | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)(**bool**), **bool**(ClassType::*)()) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(bool), bool(ClassType::*)()) constructor
 
 
 Constructs boolean property information.
@@ -280,13 +226,7 @@ template<typename ClassType> System::Reflection::PropertyInfo::PropertyInfo(Stri
 | set_prop_method | void(ClassType::*)(**bool**) | Setter method. |
 | get_prop_method | **bool**(ClassType::*)() | Getter method. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [PropertyInfo](../)
-* Namespace [System::Reflection](../../)
-* Library [Aspose.Slides](../../../)
-## PropertyInfo::PropertyInfo([String](../../../system/string/), void(ClassType::*)(**bool**), **bool**(ClassType::*)() const) constructor
+## PropertyInfo::PropertyInfo(String, void(ClassType::*)(bool), bool(ClassType::*)() const) constructor
 
 
 Constructs boolean property information from class with const getter.
@@ -312,7 +252,9 @@ template<typename ClassType> System::Reflection::PropertyInfo::PropertyInfo(Stri
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [String](../../../system/string/)
 * Class [PropertyInfo](../)
+* Class [Nullable](../../../system/nullable/)
 * Namespace [System::Reflection](../../)
 * Library [Aspose.Slides](../../../)

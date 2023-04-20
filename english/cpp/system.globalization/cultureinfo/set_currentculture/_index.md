@@ -6,7 +6,7 @@ type: docs
 weight: 534
 url: /cpp/system.globalization/cultureinfo/set_currentculture/
 ---
-## CultureInfo::set_CurrentCulture(const [CultureInfoPtr](../../cultureinfoptr/)\&) method
+## CultureInfo::set_CurrentCulture(const CultureInfoPtr\&) method
 
 
 Sets culture for current thread.

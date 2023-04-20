@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/convert/tobase64string/
 ---
-## Convert::ToBase64String(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, **bool**) method
+## Convert::ToBase64String(const ArrayPtr\<uint8_t\>\&, bool) method
 
 
 Base-64 encodes elements in the specified byte array and returns the encoded data as a string.
@@ -27,14 +27,7 @@ static String System::Convert::ToBase64String(const ArrayPtr<uint8_t> &in_array,
 
 The string containing the base-64 encoded representation of the input array
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBase64String(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int, int, **bool**) method
+## Convert::ToBase64String(const ArrayPtr\<uint8_t\>\&, int, int, bool) method
 
 
 Base-64 encodes a range of elements in the specified byte array and returns the encoded data as a string.
@@ -57,14 +50,7 @@ static String System::Convert::ToBase64String(const ArrayPtr<uint8_t> &in_array,
 
 The string containing the base-64 encoded representation of the range of elements of the input array
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBase64String(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, [Base64FormattingOptions](../../base64formattingoptions/)) method
+## Convert::ToBase64String(const ArrayPtr\<uint8_t\>\&, Base64FormattingOptions) method
 
 
 Base-64 encodes elements in the specified byte array and returns the encoded data as a string.
@@ -85,15 +71,7 @@ static String System::Convert::ToBase64String(const ArrayPtr<uint8_t> &in_array,
 
 The string containing the base-64 encoded representation of the input array
 
-## See Also
-
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
-* Enum [Base64FormattingOptions](../../base64formattingoptions/)
-* Struct [Convert](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Convert::ToBase64String(const [ArrayPtr](../../arrayptr/)\<**uint8_t**\>\&, int, int, [Base64FormattingOptions](../../base64formattingoptions/)) method
+## Convert::ToBase64String(const ArrayPtr\<uint8_t\>\&, int, int, Base64FormattingOptions) method
 
 
 Base-64 encodes a range of elements in the specified byte array and returns the encoded data as a string.
@@ -118,9 +96,9 @@ The string containing the base-64 encoded representation of the range of element
 
 ## See Also
 
-* Class [String](../../string/)
-* Typedef [ArrayPtr](../../arrayptr/)
 * Enum [Base64FormattingOptions](../../base64formattingoptions/)
+* Typedef [ArrayPtr](../../arrayptr/)
+* Class [String](../../string/)
 * Struct [Convert](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

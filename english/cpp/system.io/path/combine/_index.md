@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.io/path/combine/
 ---
-## Path::Combine(const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## Path::Combine(const ArrayPtr\<String\>\&) method
 
 
 Combines the specified path segments into a single path inserting directory separator characters between the segments if necessary.
@@ -26,14 +26,7 @@ static String System::IO::Path::Combine(const ArrayPtr<String> &paths)
 
 The combined path
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Path](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## Path::Combine(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Path::Combine(const String\&, const String\&) method
 
 
 Combines two specified path segments into a single path inserting directory separator character between the segments if necessary.
@@ -54,13 +47,7 @@ static String System::IO::Path::Combine(const String &path1, const String &path2
 
 The combined path
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Path](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## Path::Combine(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Path::Combine(const String\&, const String\&, const String\&) method
 
 
 Combines three specified path segments into a single path inserting directory separator characters between the segments if necessary.
@@ -82,13 +69,7 @@ static String System::IO::Path::Combine(const String &path1, const String &path2
 
 The combined path
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [Path](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## Path::Combine(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## Path::Combine(const String\&, const String\&, const String\&, const String\&) method
 
 
 Combines four specified path segments into a single path inserting directory separator characters between the segments if necessary.
@@ -113,6 +94,7 @@ The combined path
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
 * Class [Path](../)
 * Namespace [System::IO](../../)

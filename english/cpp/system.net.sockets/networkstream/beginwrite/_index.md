@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.net.sockets/networkstream/beginwrite/
 ---
-## NetworkStream::BeginWrite([System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, **int32_t**, **int32_t**, [AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## NetworkStream::BeginWrite(System::ArrayPtr\<uint8_t\>, int32_t, int32_t, AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous write operation.
@@ -33,9 +33,9 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
 * Class [Object](../../../system/object/)
 * Class [NetworkStream](../)
 * Namespace [System::Net::Sockets](../../)

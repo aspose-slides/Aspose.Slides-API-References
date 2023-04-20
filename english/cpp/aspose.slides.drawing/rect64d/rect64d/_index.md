@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.drawing/rect64d/rect64d/
 ---
-## Rect64d::Rect64d([Vector2d64d](../../vector2d64d/), [Vector2d64d](../../vector2d64d/)) constructor
+## Rect64d::Rect64d(Vector2d64d, Vector2d64d) constructor
 
 
 
@@ -15,13 +15,7 @@ url: /cpp/aspose.slides.drawing/rect64d/rect64d/
 Aspose::Slides::Drawing::Rect64d::Rect64d(Vector2d64d pos, Vector2d64d size)
 ```
 
-## See Also
-
-* Class [Vector2d64d](../../vector2d64d/)
-* Class [Rect64d](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Rect64d::Rect64d(**double**, **double**, **double**, **double**) constructor
+## Rect64d::Rect64d(double, double, double, double) constructor
 
 
 
@@ -30,11 +24,6 @@ Aspose::Slides::Drawing::Rect64d::Rect64d(Vector2d64d pos, Vector2d64d size)
 Aspose::Slides::Drawing::Rect64d::Rect64d(double x, double y, double width, double height)
 ```
 
-## See Also
-
-* Class [Rect64d](../)
-* Namespace [Aspose::Slides::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Rect64d::Rect64d() constructor
 
 
@@ -46,6 +35,7 @@ Aspose::Slides::Drawing::Rect64d::Rect64d()
 
 ## See Also
 
+* Class [Vector2d64d](../../vector2d64d/)
 * Class [Rect64d](../)
 * Namespace [Aspose::Slides::Drawing](../../)
 * Library [Aspose.Slides](../../../)

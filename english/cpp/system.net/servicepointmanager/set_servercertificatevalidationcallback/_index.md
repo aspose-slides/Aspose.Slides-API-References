@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.net/servicepointmanager/set_servercertificatevalidationcallback/
 ---
-## ServicePointManager::set_ServerCertificateValidationCallback([Security::RemoteCertificateValidationCallback](../../../system.net.security/remotecertificatevalidationcallback/)) method
+## ServicePointManager::set_ServerCertificateValidationCallback(Security::RemoteCertificateValidationCallback) method
 
 
 Sets the callback that is used to validate a server certificate.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.runtime.serialization/formatterconverter/toboolean/
 ---
-## FormatterConverter::ToBoolean([System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## FormatterConverter::ToBoolean(System::SharedPtr\<Object\>) method
 
 
 Converts a value to a bool.

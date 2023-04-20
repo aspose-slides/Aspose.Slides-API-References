@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/multiplytransform/
 ---
-## LinearGradientBrush::MultiplyTransform(const [SharedPtr](../../../system/sharedptr/)\<[Matrix](../../matrix/)\>\&, [MatrixOrder](../../matrixorder/)) method
+## LinearGradientBrush::MultiplyTransform(const SharedPtr\<Matrix\>\&, MatrixOrder) method
 
 
 Multiplies current object's transform matrix by the specified matrix.
@@ -25,9 +25,9 @@ void System::Drawing::Drawing2D::LinearGradientBrush::MultiplyTransform(const Sh
 
 ## See Also
 
+* Enum [MatrixOrder](../../matrixorder/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Matrix](../../matrix/)
-* Enum [MatrixOrder](../../matrixorder/)
 * Class [LinearGradientBrush](../)
 * Namespace [System::Drawing::Drawing2D](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/iportioncollection/add/
 ---
-## IPortionCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IPortion](../../iportion/)\>) method
+## IPortionCollection::Add(System::SharedPtr\<IPortion\>) method
 
 
 Adds a [Portion](../../portion/) to the end of collection.

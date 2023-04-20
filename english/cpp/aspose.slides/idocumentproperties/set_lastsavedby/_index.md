@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/aspose.slides/idocumentproperties/set_lastsavedby/
 ---
-## IDocumentProperties::set_LastSavedBy([System::String](../../../system/string/)) method
+## IDocumentProperties::set_LastSavedBy(System::String) method
 
 
 Sets the name of a last person who modified a presentation. Write [System::String](../../../system/string/).

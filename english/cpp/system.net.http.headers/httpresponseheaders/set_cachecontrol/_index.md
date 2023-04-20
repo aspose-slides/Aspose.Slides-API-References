@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.net.http.headers/httpresponseheaders/set_cachecontrol/
 ---
-## HttpResponseHeaders::set_CacheControl([System::SharedPtr](../../../system/sharedptr/)\<[CacheControlHeaderValue](../../cachecontrolheadervalue/)\>) method
+## HttpResponseHeaders::set_CacheControl(System::SharedPtr\<CacheControlHeaderValue\>) method
 
 
 Sets a value of the 'Cache-Control' header.

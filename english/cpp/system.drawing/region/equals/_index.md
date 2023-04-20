@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.drawing/region/equals/
 ---
-## Region::Equals(const [SharedPtr](../../../system/sharedptr/)\<[Region](../)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\&) method
+## Region::Equals(const SharedPtr\<Region\>\&, const SharedPtr\<Graphics\>\&) method
 
 
 Determines whether the specified region is identical to the region represented by the current object on the specified drawing surface.
@@ -32,6 +32,5 @@ True if the interior of the specified region is identical to the interior of the
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Region](../)
 * Class [Graphics](../../graphics/)
-* Class [Region](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

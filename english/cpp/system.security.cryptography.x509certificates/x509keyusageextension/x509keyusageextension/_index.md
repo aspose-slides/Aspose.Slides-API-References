@@ -15,12 +15,7 @@ Default constructor.
 System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509KeyUsageExtension()
 ```
 
-## See Also
-
-* Class [X509KeyUsageExtension](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509KeyUsageExtension::X509KeyUsageExtension(const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\&, **bool**) constructor
+## X509KeyUsageExtension::X509KeyUsageExtension(const SharedPtr\<AsnEncodedData\>\&, bool) constructor
 
 
 Constructor.
@@ -37,14 +32,7 @@ System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509Key
 | encoded_key_usage | const [SharedPtr](../../../system/sharedptr/)\<[AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)\>\& | Encoded data of key usages. |
 | critical | **bool** | Criticality sign. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)
-* Class [X509KeyUsageExtension](../)
-* Namespace [System::Security::Cryptography::X509Certificates](../../)
-* Library [Aspose.Slides](../../../)
-## X509KeyUsageExtension::X509KeyUsageExtension([X509KeyUsageFlags](../../x509keyusageflags/), **bool**) constructor
+## X509KeyUsageExtension::X509KeyUsageExtension(X509KeyUsageFlags, bool) constructor
 
 
 Constructor.
@@ -64,6 +52,8 @@ System::Security::Cryptography::X509Certificates::X509KeyUsageExtension::X509Key
 ## See Also
 
 * Enum [X509KeyUsageFlags](../../x509keyusageflags/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [X509KeyUsageExtension](../)
+* Class [AsnEncodedData](../../../system.security.cryptography/asnencodeddata/)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

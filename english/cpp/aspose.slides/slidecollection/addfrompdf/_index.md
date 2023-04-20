@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides/slidecollection/addfrompdf/
 ---
-## SlideCollection::AddFromPdf([System::String](../../../system/string/)) method
+## SlideCollection::AddFromPdf(System::String) method
 
 
 Creates slides from the PDF document and adds them to the end of the collection.
@@ -36,16 +36,7 @@ pres->get_Slides()->AddFromPdf(u"document.pdf");
 pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
 ```
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ISlide](../../islide/)
-* Class [String](../../../system/string/)
-* Class [SlideCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## SlideCollection::AddFromPdf([System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\>) method
+## SlideCollection::AddFromPdf(System::SharedPtr\<System::IO::Stream\>) method
 
 
 Creates slides from the PDF document and adds them to the end of the collection.
@@ -84,7 +75,8 @@ pres->Save(u"fromPdfDocument.pptx", SaveFormat::Pptx);
 * Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ISlide](../../islide/)
-* Class [Stream](../../../system.io/stream/)
+* Class [String](../../../system/string/)
 * Class [SlideCollection](../)
+* Class [Stream](../../../system.io/stream/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -28,11 +28,6 @@ bool System::Globalization::HebrewCalendar::IsLeapMonth(int year, int month, int
 
 True if specified month is leap, false otherwise.
 
-## See Also
-
-* Class [HebrewCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HebrewCalendar::IsLeapMonth(int, int) const method
 
 
@@ -54,11 +49,6 @@ virtual bool System::Globalization::Calendar::IsLeapMonth(int year, int month) c
 
 True if specified month is leap, false otherwise.
 
-## See Also
-
-* Class [HebrewCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## HebrewCalendar::IsLeapMonth(int, int, int) const method
 
 

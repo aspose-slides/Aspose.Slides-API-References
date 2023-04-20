@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.xsl.runtime/stringconcat/set_delimiter/
 ---
-## StringConcat::set_Delimiter(const [String](../../../system/string/)\&) method
+## StringConcat::set_Delimiter(const String\&) method
 
 
 Sets the string that delimits concatenated strings.

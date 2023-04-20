@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmlprocessinginstruction/set_data/
 ---
-## XmlProcessingInstruction::set_Data(const [String](../../../system/string/)\&) method
+## XmlProcessingInstruction::set_Data(const String\&) method
 
 
 Sets the content of the processing instruction, excluding the target.

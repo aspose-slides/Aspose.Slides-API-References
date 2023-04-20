@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.charts/chartdatacell/set_formula/
 ---
-## ChartDataCell::set_Formula([System::String](../../../system/string/)) method
+## ChartDataCell::set_Formula(System::String) method
 
 
 Sets the formula in A1-style.

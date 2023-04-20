@@ -6,7 +6,7 @@ type: docs
 weight: 716
 url: /cpp/system.xml/xmltextreader/getnamespacesinscope/
 ---
-## XmlTextReader::GetNamespacesInScope([XmlNamespaceScope](../../xmlnamespacescope/)) method
+## XmlTextReader::GetNamespacesInScope(XmlNamespaceScope) method
 
 
 Returns a collection that contains all namespaces currently in-scope.
@@ -28,10 +28,10 @@ An IDictionary object that contains all the current in-scope namespaces. If the 
 
 ## See Also
 
+* Enum [XmlNamespaceScope](../../xmlnamespacescope/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IDictionary](../../../system.collections.generic/idictionary/)
 * Class [String](../../../system/string/)
-* Enum [XmlNamespaceScope](../../xmlnamespacescope/)
 * Class [XmlTextReader](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

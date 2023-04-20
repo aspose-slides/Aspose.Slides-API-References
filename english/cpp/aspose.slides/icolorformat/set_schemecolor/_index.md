@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/icolorformat/set_schemecolor/
 ---
-## IColorFormat::set_SchemeColor([Aspose::Slides::SchemeColor](../../schemecolor/)) method
+## IColorFormat::set_SchemeColor(Aspose::Slides::SchemeColor) method
 
 
 Sets the color identified by a color scheme. Write [Slides::SchemeColor](../../schemecolor/).

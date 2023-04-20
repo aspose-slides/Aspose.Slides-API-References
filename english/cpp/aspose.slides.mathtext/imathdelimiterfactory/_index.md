@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathdelimiterfactory/
 Allows to create a math delimiter
 
 ```cpp
-class IMathDelimiterFactory : public System::Object
+class IMathDelimiterFactory : public virtual System::Object
 ```
 
 ## Methods

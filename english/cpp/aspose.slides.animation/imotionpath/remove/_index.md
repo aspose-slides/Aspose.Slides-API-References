@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.animation/imotionpath/remove/
 ---
-## IMotionPath::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IMotionCmdPath](../../imotioncmdpath/)\>) method
+## IMotionPath::Remove(System::SharedPtr\<IMotionCmdPath\>) method
 
 
 Removes specified commans from the collection.

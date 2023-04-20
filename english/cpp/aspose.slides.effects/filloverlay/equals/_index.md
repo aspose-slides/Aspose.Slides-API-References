@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.effects/filloverlay/equals/
 ---
-## FillOverlay::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## FillOverlay::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Determines whether the specified [FillOverlay](../) is equal to the current [FillOverlay](../).

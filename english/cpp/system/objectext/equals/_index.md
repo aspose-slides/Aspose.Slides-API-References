@@ -3,7 +3,7 @@ title: Equals()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 27
+weight: 14
 url: /cpp/system/objectext/equals/
 ---
 ## ObjectExt::Equals(const T\&, const T2\&) method
@@ -15,12 +15,6 @@ url: /cpp/system/objectext/equals/
 template<typename T,typename T2> static std::enable_if<IsExceptionWrapper<T>::value, bool>::type System::ObjectExt::Equals(const T &obj, const T2 &another)
 ```
 
-## See Also
-
-* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::Equals(const T\&, const T2\&) method
 
 
@@ -49,12 +43,6 @@ template<typename T,typename T2> static std::enable_if<IsSmartPtr<T>::value, boo
 
 True if objects are considered equal, false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::Equals(T, const T2\&) method
 
 
@@ -83,13 +71,6 @@ template<typename T,typename T2> static std::enable_if<!IsExceptionWrapper<T>::v
 
 True if objects are considered equal, false otherwise.
 
-## See Also
-
-* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## ObjectExt::Equals(const T\&, const T2\&) method
 
 
@@ -118,13 +99,7 @@ template<typename T,typename T2> static std::enable_if<!IsSmartPtr<T>::value &&s
 
 True if objects are considered equal, false otherwise.
 
-## See Also
-
-* Struct [IsSmartPtr](../../issmartptr/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Equals(const char_t(&), [String](../../string/)) method
+## ObjectExt::Equals(const char_t(&), String) method
 
 
 Substitution for C# [Object.Equals](../../object/equals/) calls working for any type in C++. Overload for string literal with string comparison.
@@ -151,13 +126,7 @@ template<size_t> static bool System::ObjectExt::Equals(const char_t(&obj)[N], St
 
 True if strings match, false otherwise.
 
-## See Also
-
-* Class [String](../../string/)
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Equals(const **float**\&, const **float**\&) method
+## ObjectExt::Equals(const float\&, const float\&) method
 
 
 Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN.
@@ -178,12 +147,7 @@ bool System::ObjectExt::Equals(const float &obj, const float &another)
 
 True if **obj** and **another** are both NaN or equal, false otherwise.
 
-## See Also
-
-* Class [ObjectExt](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ObjectExt::Equals(const **double**\&, const **double**\&) method
+## ObjectExt::Equals(const double\&, const double\&) method
 
 
 Emulates C#-style floating point comparison where two NaNs are considered equal even though according to IEC 60559:1989 NaN is not equal to any value, including NaN.
@@ -207,5 +171,8 @@ True if **obj** and **another** are both NaN or equal, false otherwise.
 ## See Also
 
 * Class [ObjectExt](../)
+* Class [String](../../string/)
+* Struct [IsExceptionWrapper](../../isexceptionwrapper/)
+* Struct [IsSmartPtr](../../issmartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

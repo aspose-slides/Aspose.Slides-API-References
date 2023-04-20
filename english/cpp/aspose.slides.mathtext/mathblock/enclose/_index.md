@@ -36,13 +36,6 @@ auto block = System::MakeObject<MathematicalText>(u"x")->Join(u"+y");
 auto delimiter = System::ExplicitCast<IMathElement>(block)->Enclose(u'[', u']');
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IMathDelimiter](../../imathdelimiter/)
-* Class [MathBlock](../)
-* Namespace [Aspose::Slides::MathText](../../)
-* Library [Aspose.Slides](../../../)
 ## MathBlock::Enclose(char16_t, char16_t, char16_t) method
 
 

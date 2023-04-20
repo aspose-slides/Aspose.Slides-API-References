@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.globalization/sortversion/equals/
 ---
-## SortVersion::Equals([SharedPtr](../../../system/sharedptr/)\<[SortVersion](../)\>) method
+## SortVersion::Equals(SharedPtr\<SortVersion\>) method
 
 
 Checks if current [SortVersion](../) instance is equal to a specified [SortVersion](../) object.
@@ -26,14 +26,7 @@ bool System::Globalization::SortVersion::Equals(SharedPtr<SortVersion> other) ov
 
 true if objects represents the same version, otherwise - false.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [SortVersion](../)
-* Class [SortVersion](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## SortVersion::Equals([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## SortVersion::Equals(SharedPtr\<Object\>) method
 
 
 Checks if current [SortVersion](../) instance is equal to a specified [SortVersion](../) object.
@@ -56,7 +49,7 @@ true if objects represents the same version, otherwise - false.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [SortVersion](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

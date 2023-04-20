@@ -16,12 +16,7 @@ virtual void System::Array<T>::Clear() override
 ```
 
 
-## See Also
-
-* Class [Array](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Array::Clear(const [ArrayPtr](../../arrayptr/)\<[Type](../../object/type/)\>\&, int, int) method
+## Array::Clear(const ArrayPtr\<Type\>\&, int, int) method
 
 
 Replaces **count** values starting at the **startIndex** index in the specified array with default values.
@@ -48,6 +43,7 @@ template<typename Type> static void System::Array<T>::Clear(const ArrayPtr<Type>
 ## See Also
 
 * Typedef [ArrayPtr](../../arrayptr/)
+* Method [Type](../../object/type/)
 * Class [Array](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

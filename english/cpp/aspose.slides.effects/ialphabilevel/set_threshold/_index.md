@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/ialphabilevel/set_threshold/
 ---
-## IAlphaBiLevel::set_Threshold(**float**) method
+## IAlphaBiLevel::set_Threshold(float) method
 
 
 Returns effect threshold. Write **float**.

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.globalization/textinfo/totitlecase/
 ---
-## TextInfo::ToTitleCase([String](../../../system/string/)) const method
+## TextInfo::ToTitleCase(String) const method
 
 
 Converts string to title case (except for acronyms that are in upper case already).

@@ -6,7 +6,7 @@ type: docs
 weight: 261
 url: /cpp/system/environment/failfast/
 ---
-## Environment::FailFast(const [String](../../string/)\&) method
+## Environment::FailFast(const String\&) method
 
 
 Aborts the current process.

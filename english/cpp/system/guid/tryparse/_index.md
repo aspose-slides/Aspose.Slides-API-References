@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system/guid/tryparse/
 ---
-## Guid::TryParse(const [String](../../string/)\&, [Guid](../)\&) method
+## Guid::TryParse(const String\&, Guid\&) method
 
 
 Tries to convert the specified string into [Guid](../) object.
@@ -30,7 +30,6 @@ True, if input string represents valid [Guid](../), otherwise false.
 ## See Also
 
 * Class [String](../../string/)
-* Class [Guid](../)
 * Class [Guid](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

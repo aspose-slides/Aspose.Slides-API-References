@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/math/acos/
 ---
-## Math::Acos(**double**) method
+## Math::Acos(double) method
 
 
 Calculates the arccosine of the specified value.

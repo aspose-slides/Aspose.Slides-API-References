@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.collections.generic/_keylist/contains/
 ---
-## _KeyList::Contains(const [TKey](../../_keycollection/tkey/)\&) const method
+## _KeyList::Contains(const TKey\&) const method
 
 
 Checks if specified key is present in collection.

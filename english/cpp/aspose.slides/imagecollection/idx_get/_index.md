@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/imagecollection/idx_get/
 ---
-## ImageCollection::idx_get(**int32_t**) method
+## ImageCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [IPPImage](../../ippimage/).

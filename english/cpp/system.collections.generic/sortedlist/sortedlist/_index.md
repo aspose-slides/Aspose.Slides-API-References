@@ -15,12 +15,7 @@ Constructs empty list.
 System::Collections::Generic::SortedList<TKey, TValue>::SortedList()
 ```
 
-## See Also
-
-* Class [SortedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## SortedList::SortedList(const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<TKey\>\>\&) constructor
+## SortedList::SortedList(const SharedPtr\<IComparer\<TKey\>\>\&) constructor
 
 
 Constructs empty list.
@@ -36,14 +31,7 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(const SharedP
 | --- | --- | --- |
 | comparer | const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<TKey\>\>\& | Comparer to use. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IComparer](../../icomparer/)
-* Class [SortedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## SortedList::SortedList(const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\&) constructor
+## SortedList::SortedList(const SharedPtr\<IDictionary\<TKey, TValue\>\>\&) constructor
 
 
 Copy constructor.
@@ -59,14 +47,7 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(const SharedP
 | --- | --- | --- |
 | src | const [SharedPtr](../../../system/sharedptr/)\<[IDictionary](../../idictionary/)\<TKey, TValue\>\>\& | [Dictionary](../../dictionary/) to copy data from. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IDictionary](../../idictionary/)
-* Class [SortedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## SortedList::SortedList(const [map_t](../map_t/)\&) constructor
+## SortedList::SortedList(const map_t\&) constructor
 
 
 Copy constructor.
@@ -82,12 +63,6 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(const map_t &
 | --- | --- | --- |
 | map | const [map_t](../map_t/)\& | Map tp copy data from. |
 
-## See Also
-
-* Typedef [map_t](../map_t/)
-* Class [SortedList](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## SortedList::SortedList(int) constructor
 
 
@@ -106,6 +81,10 @@ System::Collections::Generic::SortedList<TKey, TValue>::SortedList(int capacity)
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [map_t](../map_t/)
 * Class [SortedList](../)
+* Class [IComparer](../../icomparer/)
+* Class [IDictionary](../../idictionary/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.io/stdiostreamwrapperbase/set_position/
 ---
-## STDIOStreamWrapperBase::set_Position(**int64_t**) method
+## STDIOStreamWrapperBase::set_Position(int64_t) method
 
 
 Sets the stream's position.

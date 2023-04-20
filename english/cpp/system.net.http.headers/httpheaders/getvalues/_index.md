@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/httpheaders/getvalues/
 ---
-## HttpHeaders::GetValues([String](../../../system/string/)) method
+## HttpHeaders::GetValues(String) method
 
 
 Returns corresponding values by the specified name.

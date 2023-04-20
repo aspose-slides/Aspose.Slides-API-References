@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml.serialization/ixmlserializable/writexml/
 ---
-## IXmlSerializable::WriteXml([System::SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlWriter](../../../system.xml/xmlwriter/)\>) method
+## IXmlSerializable::WriteXml(System::SharedPtr\<System::Xml::XmlWriter\>) method
 
 
 Serializes the current object to XML representation.

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.collections/bitarray/idx_set/
 ---
-## BitArray::idx_set(int, **bool**) method
+## BitArray::idx_set(int, bool) method
 
 
 Setter function.

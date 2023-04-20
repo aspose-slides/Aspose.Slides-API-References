@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/aspose.slides/ipictureframelock/set_sizelocked/
 ---
-## IPictureFrameLock::set_SizeLocked(**bool**) method
+## IPictureFrameLock::set_SizeLocked(bool) method
 
 
 Determines whether a resizing this shape is forbidden. Write **bool**.

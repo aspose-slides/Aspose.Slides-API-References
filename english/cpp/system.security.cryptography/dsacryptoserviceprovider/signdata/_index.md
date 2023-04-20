@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.security.cryptography/dsacryptoserviceprovider/signdata/
 ---
-## DSACryptoServiceProvider::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&) method
 
 
 Computes the signature of specified input value.
@@ -26,13 +26,7 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignData(
 
 [DSA](../../dsa/) signature for specified data.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::SignData(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) method
+## DSACryptoServiceProvider::SignData(const SharedPtr\<IO::Stream\>\&) method
 
 
 Computes the signature of specified input value.
@@ -52,15 +46,7 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignData(
 
 [DSA](../../dsa/) signature for specified data.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../../system.io/stream/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **int32_t**, **int32_t**) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&, int32_t, int32_t) method
 
 
 Computes the signature of specified input value.
@@ -82,13 +68,7 @@ ByteArrayPtr System::Security::Cryptography::DSACryptoServiceProvider::SignData(
 
 [DSA](../../dsa/) signature for specified data.
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&, const HashAlgorithmName\&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -105,14 +85,7 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 | data | const [ByteArrayPtr](../../../system/bytearrayptr/)\& | Input data array. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::SignData(const [ByteArrayPtr](../../../system/bytearrayptr/)\&, **int32_t**, **int32_t**, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSACryptoServiceProvider::SignData(const ByteArrayPtr\&, int32_t, int32_t, const HashAlgorithmName\&) method
 
 
 Computes the hash value of the specified data array using the specified hash algorithm, and signs the result.
@@ -131,14 +104,7 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const ByteArrayPtr &d
 | count | **int32_t** | Number of bytes to use as input data. |
 | hash_algorithm | const [HashAlgorithmName](../../hashalgorithmname/)\& | Hash algorithm. return [DSA](../../dsa/) signature for the input data. |
 
-## See Also
-
-* Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
-* Class [DSACryptoServiceProvider](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSACryptoServiceProvider::SignData(const [StreamPtr](../../../system/streamptr/)\&, const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## DSACryptoServiceProvider::SignData(const StreamPtr\&, const HashAlgorithmName\&) method
 
 
 Computes the hash value of the specified binary stream using the specified hash algorithm, and signs the result.
@@ -158,8 +124,10 @@ ByteArrayPtr System::Security::Cryptography::DSA::SignData(const StreamPtr &stre
 ## See Also
 
 * Typedef [ByteArrayPtr](../../../system/bytearrayptr/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Typedef [StreamPtr](../../../system/streamptr/)
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Class [DSACryptoServiceProvider](../)
+* Class [Stream](../../../system.io/stream/)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

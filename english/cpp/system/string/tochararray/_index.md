@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system/string/tochararray/
 ---
-## String::ToCharArray(**int32_t**, **int32_t**) const method
+## String::ToCharArray(int32_t, int32_t) const method
 
 
 Converts string or substring to array of characters.

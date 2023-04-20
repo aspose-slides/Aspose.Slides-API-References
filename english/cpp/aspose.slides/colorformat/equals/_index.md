@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.slides/colorformat/equals/
 ---
-## ColorFormat::Equals([System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>) method
+## ColorFormat::Equals(System::SharedPtr\<System::Object\>) method
 
 
 Checks for equality with specified object.

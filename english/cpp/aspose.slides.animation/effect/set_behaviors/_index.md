@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.animation/effect/set_behaviors/
 ---
-## Effect::set_Behaviors([System::SharedPtr](../../../system/sharedptr/)\<[IBehaviorCollection](../../ibehaviorcollection/)\>) method
+## Effect::set_Behaviors(System::SharedPtr\<IBehaviorCollection\>) method
 
 
 Returns collection of behavior for effect. Write [IBehaviorCollection](../../ibehaviorcollection/).

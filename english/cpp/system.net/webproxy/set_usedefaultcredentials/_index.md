@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net/webproxy/set_usedefaultcredentials/
 ---
-## WebProxy::set_UseDefaultCredentials(**bool**) method
+## WebProxy::set_UseDefaultCredentials(bool) method
 
 
 Sets a value that indicates if the default credentials must be sent with requests.

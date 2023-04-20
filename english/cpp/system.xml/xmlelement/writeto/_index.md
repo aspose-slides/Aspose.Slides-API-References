@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.xml/xmlelement/writeto/
 ---
-## XmlElement::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlElement::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the current node to the specified [XmlWriter](../../xmlwriter/).

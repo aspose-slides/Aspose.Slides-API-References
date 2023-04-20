@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/inormalviewproperties/set_verticalbarstate/
 ---
-## INormalViewProperties::set_VerticalBarState([SplitterBarStateType](../../splitterbarstatetype/)) method
+## INormalViewProperties::set_VerticalBarState(SplitterBarStateType) method
 
 
 Specifies the state that the vertical splitter bar should be shown in. A vertical splitter bar separates the slide from the side content region.

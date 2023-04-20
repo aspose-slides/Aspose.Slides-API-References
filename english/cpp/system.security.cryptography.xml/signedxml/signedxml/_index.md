@@ -15,12 +15,7 @@ url: /cpp/system.security.cryptography.xml/signedxml/signedxml/
 System::Security::Cryptography::Xml::SignedXml::SignedXml()
 ```
 
-## See Also
-
-* Class [SignedXml](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## SignedXml::SignedXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlDocument](../../../system.xml/xmldocument/)\>) constructor
+## SignedXml::SignedXml(SharedPtr\<System::Xml::XmlDocument\>) constructor
 
 
 
@@ -29,14 +24,7 @@ System::Security::Cryptography::Xml::SignedXml::SignedXml()
 System::Security::Cryptography::Xml::SignedXml::SignedXml(SharedPtr<System::Xml::XmlDocument> document)
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlDocument](../../../system.xml/xmldocument/)
-* Class [SignedXml](../)
-* Namespace [System::Security::Cryptography::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## SignedXml::SignedXml([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XmlElement](../../../system.xml/xmlelement/)\>) constructor
+## SignedXml::SignedXml(SharedPtr\<System::Xml::XmlElement\>) constructor
 
 
 
@@ -48,7 +36,8 @@ System::Security::Cryptography::Xml::SignedXml::SignedXml(SharedPtr<System::Xml:
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlElement](../../../system.xml/xmlelement/)
 * Class [SignedXml](../)
+* Class [XmlDocument](../../../system.xml/xmldocument/)
+* Class [XmlElement](../../../system.xml/xmlelement/)
 * Namespace [System::Security::Cryptography::Xml](../../)
 * Library [Aspose.Slides](../../../)

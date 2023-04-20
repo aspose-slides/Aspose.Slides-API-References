@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.export/itexttohtmlconversionoptions/set_encodingname/
 ---
-## ITextToHtmlConversionOptions::set_EncodingName([System::String](../../../system/string/)) method
+## ITextToHtmlConversionOptions::set_EncodingName(System::String) method
 
 
 Sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Write [System::String](../../../system/string/).

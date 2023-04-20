@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.charts/ichartcategorylevelsmanager/idx_get/
 ---
-## IChartCategoryLevelsManager::idx_get(**int32_t**) method
+## IChartCategoryLevelsManager::idx_get(int32_t) method
 
 
 Returns [IChartDataCell](../../ichartdatacell/) object for defined level.

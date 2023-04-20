@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system/timezoneinfo/getutcoffset/
 ---
-## TimeZoneInfo::GetUtcOffset([DateTime](../../datetime/)) const method
+## TimeZoneInfo::GetUtcOffset(DateTime) const method
 
 
 Calculates difference between time in this time zone and UTC time zone for a specified date and time.
@@ -26,14 +26,7 @@ TimeSpan System::TimeZoneInfo::GetUtcOffset(DateTime date_time) const
 
 Time difference between time zones.
 
-## See Also
-
-* Class [TimeSpan](../../timespan/)
-* Class [DateTime](../../datetime/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::GetUtcOffset(const [DateTimeOffset](../../datetimeoffset/)\&) const method
+## TimeZoneInfo::GetUtcOffset(const DateTimeOffset\&) const method
 
 
 Calculates difference between time in this time zone and UTC time zone for a specified date and time.
@@ -56,7 +49,8 @@ Time difference between time zones.
 ## See Also
 
 * Class [TimeSpan](../../timespan/)
-* Class [DateTimeOffset](../../datetimeoffset/)
+* Class [DateTime](../../datetime/)
 * Class [TimeZoneInfo](../)
+* Class [DateTimeOffset](../../datetimeoffset/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

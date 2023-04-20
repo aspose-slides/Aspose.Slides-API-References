@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.smartart/ismartartshapecollection/idx_get/
 ---
-## ISmartArtShapeCollection::idx_get(**int32_t**) method
+## ISmartArtShapeCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [ISmartArtShape](../../ismartartshape/).

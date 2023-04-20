@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/aspose.slides.charts/chartseries/set_numberformatofbubblesizes/
 ---
-## ChartSeries::set_NumberFormatOfBubbleSizes([System::String](../../../system/string/)) method
+## ChartSeries::set_NumberFormatOfBubbleSizes(System::String) method
 
 
 NumberFormatOfBubbleSizes. Write [System::String](../../../system/string/).

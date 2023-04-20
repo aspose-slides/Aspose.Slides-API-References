@@ -6,7 +6,7 @@ type: docs
 weight: 1002
 url: /cpp/system.drawing/graphics/enumeratemetafile/
 ---
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\&, [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<PointF\>\&, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -16,17 +16,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\&, [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<Point\>\&, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -36,17 +26,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [Point](../../point/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Point, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -56,16 +36,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [Point](../../point/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [PointF](../../pointf/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, PointF, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -75,16 +46,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [PointF](../../pointf/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [Rectangle](../../rectangle/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Rectangle, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -94,16 +56,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [Rectangle](../../rectangle/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [RectangleF](../../rectanglef/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, RectangleF, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -113,16 +66,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [RectangleF](../../rectanglef/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [Point](../../point/), [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Point, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -132,18 +76,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [Point](../../point/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [PointF](../../pointf/), [RectangleF](../../rectanglef/), [GraphicsUnit](../../graphicsunit/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, PointF, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -153,18 +86,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\&, [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<Point\>\&, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -174,19 +96,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\&, [RectangleF](../../rectanglef/), [GraphicsUnit](../../graphicsunit/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, const ArrayPtr\<PointF\>\&, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -196,19 +106,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
-* Class [RectangleF](../../rectanglef/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [Rectangle](../../rectangle/), [Rectangle](../../rectangle/), [GraphicsUnit](../../graphicsunit/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, Rectangle, Rectangle, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -218,17 +116,7 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 ```
 
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [Rectangle](../../rectangle/)
-* Enum [GraphicsUnit](../../graphicsunit/)
-* Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::EnumerateMetafile(const [SharedPtr](../../../system/sharedptr/)\<[Imaging::Metafile](../../../system.drawing.imaging/metafile/)\>\&, [RectangleF](../../rectanglef/), [RectangleF](../../rectanglef/), [GraphicsUnit](../../graphicsunit/), [Graphics::EnumerateMetafileProc](../enumeratemetafileproc/)) method
+## Graphics::EnumerateMetafile(const SharedPtr\<Imaging::Metafile\>\&, RectangleF, RectangleF, GraphicsUnit, Graphics::EnumerateMetafileProc) method
 
 
 NOT IMPLEMENTED.
@@ -240,11 +128,15 @@ void System::Drawing::Graphics::EnumerateMetafile(const SharedPtr<Imaging::Metaf
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Metafile](../../../system.drawing.imaging/metafile/)
-* Class [RectangleF](../../rectanglef/)
 * Enum [GraphicsUnit](../../graphicsunit/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Typedef [EnumerateMetafileProc](../enumeratemetafileproc/)
+* Class [Metafile](../../../system.drawing.imaging/metafile/)
+* Class [PointF](../../pointf/)
 * Class [Graphics](../)
+* Class [Point](../../point/)
+* Class [Rectangle](../../rectangle/)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

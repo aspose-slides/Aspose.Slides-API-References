@@ -15,12 +15,7 @@ Does nothing.
 virtual void System::IO::StringReader::Dispose() override
 ```
 
-## See Also
-
-* Class [StringReader](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StringReader::Dispose(**bool**) method
+## StringReader::Dispose(bool) method
 
 
 Does nothing.

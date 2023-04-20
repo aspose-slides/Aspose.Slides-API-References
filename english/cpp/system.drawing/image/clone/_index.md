@@ -24,6 +24,5 @@ A copy of the current object.
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Image](../)
-* Class [Image](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.charts/ichartdataworkbook/clear/
 ---
-## IChartDataWorkbook::Clear(**int32_t**) method
+## IChartDataWorkbook::Clear(int32_t) method
 
 
 Clear all cells values on sheet

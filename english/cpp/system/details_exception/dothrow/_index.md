@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system/details_exception/dothrow/
 ---
-## Details_Exception::DoThrow(const [ExceptionPtr](../../exceptionptr/)\&) const method
+## Details_Exception::DoThrow(const ExceptionPtr\&) const method
 
 
 Throws exception instance wrapped by exception wrapper.

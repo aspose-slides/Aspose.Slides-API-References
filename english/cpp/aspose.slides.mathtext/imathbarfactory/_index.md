@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathbarfactory/
 Allows to create a math bar
 
 ```cpp
-class IMathBarFactory : public System::Object
+class IMathBarFactory : public virtual System::Object
 ```
 
 ## Methods

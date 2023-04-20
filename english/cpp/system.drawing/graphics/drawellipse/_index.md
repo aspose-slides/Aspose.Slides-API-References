@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system.drawing/graphics/drawellipse/
 ---
-## Graphics::DrawEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, [Rectangle](../../rectangle/)) method
+## Graphics::DrawEllipse(const SharedPtr\<Pen\>\&, Rectangle) method
 
 
 Draws the specified ellipse using the specified pen on the surface represented by the current object.
@@ -23,15 +23,7 @@ void System::Drawing::Graphics::DrawEllipse(const SharedPtr<Pen> &pen, Rectangle
 | pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the ellipse |
 | rect | [Rectangle](../../rectangle/) | The rectangle that defines the ellipse |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Rectangle](../../rectangle/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, [RectangleF](../../rectanglef/)) method
+## Graphics::DrawEllipse(const SharedPtr\<Pen\>\&, RectangleF) method
 
 
 Draws the specified ellipse using the specified pen on the surface represented by the current object.
@@ -48,15 +40,7 @@ void System::Drawing::Graphics::DrawEllipse(const SharedPtr<Pen> &pen, Rectangle
 | pen | const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\& | A pen to use when drawing the ellipse |
 | rect | [RectangleF](../../rectanglef/) | The rectangle that defines the ellipse |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [RectangleF](../../rectanglef/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, int, int, int, int) method
+## Graphics::DrawEllipse(const SharedPtr\<Pen\>\&, int, int, int, int) method
 
 
 Draws the specified ellipse using the specified pen on the surface represented by the current object.
@@ -76,14 +60,7 @@ void System::Drawing::Graphics::DrawEllipse(const SharedPtr<Pen> &pen, int x, in
 | width | int | The width of the rectangle that defines the ellipse |
 | height | int | The height of the rectangle that defines the ellipse |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Pen](../../pen/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawEllipse(const [SharedPtr](../../../system/sharedptr/)\<[Pen](../../pen/)\>\&, **float**, **float**, **float**, **float**) method
+## Graphics::DrawEllipse(const SharedPtr\<Pen\>\&, float, float, float, float) method
 
 
 Draws the specified ellipse using the specified pen on the surface represented by the current object.
@@ -107,6 +84,8 @@ void System::Drawing::Graphics::DrawEllipse(const SharedPtr<Pen> &pen, float x, 
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Pen](../../pen/)
+* Class [Rectangle](../../rectangle/)
 * Class [Graphics](../)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

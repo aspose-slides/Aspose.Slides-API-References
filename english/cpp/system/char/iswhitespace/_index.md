@@ -27,11 +27,6 @@ static bool System::Char::IsWhiteSpace(const char_t *str, int idx)
 
 True if the character at the specified index is a white space character, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsWhiteSpace(char_t) method
 
 
@@ -52,12 +47,7 @@ static bool System::Char::IsWhiteSpace(char_t c)
 
 True if the specified character is a white space character, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Char::IsWhiteSpace(const [String](../../string/)\&, int) method
+## Char::IsWhiteSpace(const String\&, int) method
 
 
 Determines whether the character at the specified index in the specified string is classified as a white space character.
@@ -80,7 +70,7 @@ True if the character at the specified index is a white space character, otherwi
 
 ## See Also
 
-* Class [String](../../string/)
 * Class [Char](../)
+* Class [String](../../string/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

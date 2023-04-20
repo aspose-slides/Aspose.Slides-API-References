@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system/arraysegment/equals/
 ---
-## ArraySegment::Equals([System::SharedPtr](../../sharedptr/)\<[Object](../../object/)\>) method
+## ArraySegment::Equals(System::SharedPtr\<Object\>) method
 
 
 
@@ -15,14 +15,7 @@ url: /cpp/system/arraysegment/equals/
 virtual bool System::ArraySegment<T>::Equals(System::SharedPtr<Object> obj) override
 ```
 
-## See Also
-
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
-* Class [ArraySegment](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## ArraySegment::Equals([ArraySegment](../)\<T\>) method
+## ArraySegment::Equals(ArraySegment\<T\>) method
 
 
 
@@ -33,7 +26,8 @@ bool System::ArraySegment<T>::Equals(ArraySegment<T> obj)
 
 ## See Also
 
-* Class [ArraySegment](../)
+* Typedef [SharedPtr](../../sharedptr/)
+* Class [Object](../../object/)
 * Class [ArraySegment](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

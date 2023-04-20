@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.security.cryptography.xml/keyinfox509data/addissuerserial/
 ---
-## KeyInfoX509Data::AddIssuerSerial([String](../../../system/string/), [String](../../../system/string/)) method
+## KeyInfoX509Data::AddIssuerSerial(String, String) method
 
 
 

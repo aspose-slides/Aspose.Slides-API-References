@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides.animation/isequence/removeat/
 ---
-## ISequence::RemoveAt(**int32_t**) method
+## ISequence::RemoveAt(int32_t) method
 
 
 Removes an effect from a collection.

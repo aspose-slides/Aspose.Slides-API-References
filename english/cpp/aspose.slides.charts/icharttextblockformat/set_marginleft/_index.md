@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/icharttextblockformat/set_marginleft/
 ---
-## IChartTextBlockFormat::set_MarginLeft(**double**) method
+## IChartTextBlockFormat::set_MarginLeft(double) method
 
 
 Sets the left margin (points) in a [TextFrame](../../../aspose.slides/textframe/). Changing of this property can produce a certain influence only for these chart parts: [DataLabel](../../datalabel/) and [DataLabelFormat](../../datalabelformat/) (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). Write **double**.

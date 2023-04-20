@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.animation/ibehaviorproperty/
 Represent property types for animation behavior. Follows the list of properties from [https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx](https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx) and [https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx](https://msdn.microsoft.com/en-us/library/documentformat.openxml.presentation.attributename(v=office.15).aspx)
 
 ```cpp
-class IBehaviorProperty : public System::Object
+class IBehaviorProperty : public virtual System::Object
 ```
 
 ## Methods

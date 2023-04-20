@@ -20,15 +20,7 @@ virtual System::ArrayPtr<System::SharedPtr<IShape>> Aspose::Slides::IShapeCollec
 
 Array of [IShape](../../ishape/)
 
-## See Also
-
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IShape](../../ishape/)
-* Class [IShapeCollection](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IShapeCollection::ToArray(**int32_t**, **int32_t**) method
+## IShapeCollection::ToArray(int32_t, int32_t) method
 
 
 Creates and returns an array with all shapes from the specified range in it.

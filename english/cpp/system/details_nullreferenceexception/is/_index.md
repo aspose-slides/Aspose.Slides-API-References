@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system/details_nullreferenceexception/is/
 ---
-## Details_NullReferenceException::Is(const [System::TypeInfo](../../typeinfo/)\&) const method
+## Details_NullReferenceException::Is(const System::TypeInfo\&) const method
 
 
 

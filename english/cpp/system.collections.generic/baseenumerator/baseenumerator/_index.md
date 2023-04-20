@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic/baseenumerator/baseenumerator/
 ---
-## BaseEnumerator::BaseEnumerator(const [Object::ptr](../../../system/object/ptr/)\&, Container\&) constructor
+## BaseEnumerator::BaseEnumerator(const Object::ptr\&, Container\&) constructor
 
 
 Initializes iterator.

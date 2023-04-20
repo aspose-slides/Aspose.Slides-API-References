@@ -6,7 +6,7 @@ type: docs
 weight: 391
 url: /cpp/system.net.sockets/socket/set_dontfragment/
 ---
-## Socket::set_DontFragment(**bool**) method
+## Socket::set_DontFragment(bool) method
 
 
 Sets a value that indicates if the socket allows IP datagrams to be fragmented.

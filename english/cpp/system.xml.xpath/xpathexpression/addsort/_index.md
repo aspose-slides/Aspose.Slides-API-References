@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.xml.xpath/xpathexpression/addsort/
 ---
-## XPathExpression::AddSort([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>\>) method
+## XPathExpression::AddSort(SharedPtr\<Object\>, SharedPtr\<Collections::Generic::IComparer\<SharedPtr\<Object\>\>\>) method
 
 
 When overridden in a derived class, sorts the nodes selected by the [XPath](../../) expression according to the specified IComparer object.
@@ -23,15 +23,7 @@ virtual void System::Xml::XPath::XPathExpression::AddSort(SharedPtr<Object> expr
 | expr | [SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\> | An object representing the sort key. This can be the **string** value of the node or an [XPathExpression](../) object with a compiled [XPath](../../) expression. |
 | comparer | [SharedPtr](../../../system/sharedptr/)\<[Collections::Generic::IComparer](../../../system.collections.generic/icomparer/)\<[SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>\>\> | An IComparer object that provides the specific data type comparisons for comparing two objects for equivalence. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
-* Class [IComparer](../../../system.collections.generic/icomparer/)
-* Class [XPathExpression](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathExpression::AddSort([SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>, [XmlSortOrder](../../xmlsortorder/), [XmlCaseOrder](../../xmlcaseorder/), [String](../../../system/string/), [XmlDataType](../../xmldatatype/)) method
+## XPathExpression::AddSort(SharedPtr\<Object\>, XmlSortOrder, XmlCaseOrder, String, XmlDataType) method
 
 
 When overridden in a derived class, sorts the nodes selected by the [XPath](../../) expression according to the supplied parameters.
@@ -53,12 +45,13 @@ virtual void System::Xml::XPath::XPathExpression::AddSort(SharedPtr<Object> expr
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Enum [XmlSortOrder](../../xmlsortorder/)
 * Enum [XmlCaseOrder](../../xmlcaseorder/)
-* Class [String](../../../system/string/)
 * Enum [XmlDataType](../../xmldatatype/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Object](../../../system/object/)
+* Class [IComparer](../../../system.collections.generic/icomparer/)
 * Class [XPathExpression](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

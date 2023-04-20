@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides.export/ipdfoptions/set_embedtruetypefontsforascii/
 ---
-## IPdfOptions::set_EmbedTrueTypeFontsForASCII(**bool**) method
+## IPdfOptions::set_EmbedTrueTypeFontsForASCII(bool) method
 
 
 True to embed true type fonts for ASCII characters 32-127. [Fonts](../../../aspose.slides/fonts/) for character codes greater than 127 are always embedded. Write **bool**.

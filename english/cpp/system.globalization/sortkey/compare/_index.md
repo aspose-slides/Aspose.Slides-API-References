@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.globalization/sortkey/compare/
 ---
-## SortKey::Compare(const [SortKeyPtr](../../sortkeyptr/)\&, const [SortKeyPtr](../../sortkeyptr/)\&) method
+## SortKey::Compare(const SortKeyPtr\&, const SortKeyPtr\&) method
 
 
 Compares two sort keys.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides.charts/chartcategorycollection/indexof/
 ---
-## ChartCategoryCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IChartCategory](../../ichartcategory/)\>) method
+## ChartCategoryCollection::IndexOf(System::SharedPtr\<IChartCategory\>) method
 
 
 Searches for the specified [ChartCategory](../../chartcategory/) and returns the zero-based index of the first occurrence within the entire Collection.

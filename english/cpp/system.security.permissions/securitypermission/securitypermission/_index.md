@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.permissions/securitypermission/securitypermission/
 ---
-## SecurityPermission::SecurityPermission([PermissionState](../../permissionstate/)) constructor
+## SecurityPermission::SecurityPermission(PermissionState) constructor
 
 
 Constructor.
@@ -22,13 +22,7 @@ System::Security::Permissions::SecurityPermission::SecurityPermission(Permission
 | --- | --- | --- |
 | state | [PermissionState](../../permissionstate/) | Permission state. |
 
-## See Also
-
-* Enum [PermissionState](../../permissionstate/)
-* Class [SecurityPermission](../)
-* Namespace [System::Security::Permissions](../../)
-* Library [Aspose.Slides](../../../)
-## SecurityPermission::SecurityPermission([SecurityPermissionFlag](../../securitypermissionflag/)) constructor
+## SecurityPermission::SecurityPermission(SecurityPermissionFlag) constructor
 
 
 Constructor.
@@ -46,6 +40,7 @@ System::Security::Permissions::SecurityPermission::SecurityPermission(SecurityPe
 
 ## See Also
 
+* Enum [PermissionState](../../permissionstate/)
 * Enum [SecurityPermissionFlag](../../securitypermissionflag/)
 * Class [SecurityPermission](../)
 * Namespace [System::Security::Permissions](../../)

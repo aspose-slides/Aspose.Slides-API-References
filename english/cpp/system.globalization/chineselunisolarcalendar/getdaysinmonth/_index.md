@@ -28,11 +28,6 @@ int System::Globalization::ChineseLunisolarCalendar::GetDaysInMonth(int year, in
 
 Number of days in specified month of specified year of specified era.
 
-## See Also
-
-* Class [ChineseLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ChineseLunisolarCalendar::GetDaysInMonth(int, int) const method
 
 
@@ -54,11 +49,6 @@ virtual int System::Globalization::Calendar::GetDaysInMonth(int year, int month)
 
 Number of days in specified month of specified year.
 
-## See Also
-
-* Class [ChineseLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## ChineseLunisolarCalendar::GetDaysInMonth(int, int, int) const method
 
 

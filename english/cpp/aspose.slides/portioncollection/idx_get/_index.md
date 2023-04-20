@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/portioncollection/idx_get/
 ---
-## PortionCollection::idx_get(**int32_t**) method
+## PortionCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

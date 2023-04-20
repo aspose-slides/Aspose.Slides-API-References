@@ -20,14 +20,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create()
 
 [DSA](../) algorithm object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [DSA](../)
-* Class [DSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSA::Create(const [String](../../../system/string/)\&) method
+## DSA::Create(const String\&) method
 
 
 Creates default [DSA](../) algorithm implementation.
@@ -47,15 +40,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create(const String &
 
 [DSA](../) algorithm object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [DSA](../)
-* Class [String](../../../system/string/)
-* Class [DSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSA::Create(**int32_t**) method
+## DSA::Create(int32_t) method
 
 
 Creates default [DSA](../) algorithm implementation with specifed key size.
@@ -71,14 +56,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create(int32_t key_si
 | --- | --- | --- |
 | key_size_in_bits | **int32_t** | The key size, in bits. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [DSA](../)
-* Class [DSA](../)
-* Namespace [System::Security::Cryptography](../../)
-* Library [Aspose.Slides](../../../)
-## DSA::Create(const [DSAParameters](../../dsaparameters/)\&) method
+## DSA::Create(const DSAParameters\&) method
 
 
 Creates default [DSA](../) algorithm implementation with specifed parameters.
@@ -98,7 +76,7 @@ static SharedPtr<DSA> System::Security::Cryptography::DSA::Create(const DSAParam
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [DSA](../)
+* Class [String](../../../system/string/)
 * Struct [DSAParameters](../../dsaparameters/)
-* Class [DSA](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.io/unmanagedmemorystream/set_positionpointer/
 ---
-## UnmanagedMemoryStream::set_PositionPointer(**uint8_t** *) method
+## UnmanagedMemoryStream::set_PositionPointer(uint8_t *) method
 
 
 NOT IMPLEMENTED.

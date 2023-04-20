@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/iconnectorlock/set_rotatelocked/
 ---
-## IConnectorLock::set_RotateLocked(**bool**) method
+## IConnectorLock::set_RotateLocked(bool) method
 
 
 Determines whether a changing rotation angle of this shape is forbidden. Write **bool**.

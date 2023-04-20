@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.slideshow/isidedirectiontransition/set_direction/
 ---
-## ISideDirectionTransition::set_Direction([TransitionSideDirectionType](../../transitionsidedirectiontype/)) method
+## ISideDirectionTransition::set_Direction(TransitionSideDirectionType) method
 
 
 Direction of transition. Write [TransitionSideDirectionType](../../transitionsidedirectiontype/).

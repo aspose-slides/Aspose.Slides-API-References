@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.threading/threadpool/queueuserworkitem/
 ---
-## ThreadPool::QueueUserWorkItem([WaitCallback](../../waitcallback/)) method
+## ThreadPool::QueueUserWorkItem(WaitCallback) method
 
 
 Puts work item into queue which is present with callback with no parameter.
@@ -26,13 +26,7 @@ static bool System::Threading::ThreadPool::QueueUserWorkItem(WaitCallback callba
 
 Always returns true.
 
-## See Also
-
-* Typedef [WaitCallback](../../waitcallback/)
-* Class [ThreadPool](../)
-* Namespace [System::Threading](../../)
-* Library [Aspose.Slides](../../../)
-## ThreadPool::QueueUserWorkItem([WaitCallback](../../waitcallback/), const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## ThreadPool::QueueUserWorkItem(WaitCallback, const System::SharedPtr\<System::Object\>\&) method
 
 
 Puts work item into queue which is present with callback with no parameter.
@@ -57,7 +51,7 @@ Always returns true.
 
 * Typedef [WaitCallback](../../waitcallback/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [ThreadPool](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

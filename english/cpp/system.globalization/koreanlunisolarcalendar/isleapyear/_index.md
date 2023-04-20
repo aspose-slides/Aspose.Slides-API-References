@@ -27,11 +27,6 @@ bool System::Globalization::KoreanLunisolarCalendar::IsLeapYear(int year, int er
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [KoreanLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## KoreanLunisolarCalendar::IsLeapYear(int) const method
 
 
@@ -52,11 +47,6 @@ virtual bool System::Globalization::Calendar::IsLeapYear(int year) const
 
 True if specified year is leap, false otherwise.
 
-## See Also
-
-* Class [KoreanLunisolarCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## KoreanLunisolarCalendar::IsLeapYear(int, int) const method
 
 

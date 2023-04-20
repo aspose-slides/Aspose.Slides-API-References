@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/ierrorbarsformat/set_type/
 ---
-## IErrorBarsFormat::set_Type([ErrorBarType](../../errorbartype/)) method
+## IErrorBarsFormat::set_Type(ErrorBarType) method
 
 
 Sets type of error bars. Write [ErrorBarType](../../errorbartype/).

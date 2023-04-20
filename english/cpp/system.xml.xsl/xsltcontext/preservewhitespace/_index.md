@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml.xsl/xsltcontext/preservewhitespace/
 ---
-## XsltContext::PreserveWhitespace([SharedPtr](../../../system/sharedptr/)\<[System::Xml::XPath::XPathNavigator](../../../system.xml.xpath/xpathnavigator/)\>) method
+## XsltContext::PreserveWhitespace(SharedPtr\<System::Xml::XPath::XPathNavigator\>) method
 
 
 When overridden in a derived class, evaluates whether to preserve white space nodes or strip them for the given context.

@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/system/typeinfo/settemplparamtype/
 ---
-## TypeInfo::SetTemplParamType(const [TypeInfo](../)\&) method
+## TypeInfo::SetTemplParamType(const TypeInfo\&) method
 
 
 Sets template parameter type descritor.
@@ -24,7 +24,6 @@ void System::TypeInfo::SetTemplParamType(const TypeInfo &templParam)
 
 ## See Also
 
-* Class [TypeInfo](../)
 * Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

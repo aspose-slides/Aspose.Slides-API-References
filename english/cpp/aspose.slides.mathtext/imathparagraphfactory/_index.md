@@ -12,7 +12,7 @@ url: /cpp/aspose.slides.mathtext/imathparagraphfactory/
 Allows to create a math paragraph
 
 ```cpp
-class IMathParagraphFactory : public System::Object
+class IMathParagraphFactory : public virtual System::Object
 ```
 
 ## Methods

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml/xmlnametable/add/
 ---
-## XmlNameTable::Add(const [ArrayPtr](../../../system/arrayptr/)\<char16_t\>\&, **int32_t**, **int32_t**) method
+## XmlNameTable::Add(const ArrayPtr\<char16_t\>\&, int32_t, int32_t) method
 
 
 When overridden in a derived class, atomizes the specified string and adds it to the [XmlNameTable](../).
@@ -28,14 +28,7 @@ virtual const String & System::Xml::XmlNameTable::Add(const ArrayPtr<char16_t> &
 
 The new atomized string or the existing one if it already exists. If length is zero, [String::Empty](../../../system/string/empty/) is returned.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [XmlNameTable](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNameTable::Add(const [String](../../../system/string/)\&) method
+## XmlNameTable::Add(const String\&) method
 
 
 When overridden in a derived class, atomizes the specified string and adds it to the [XmlNameTable](../).
@@ -57,6 +50,7 @@ The new atomized string or the existing one if it already exists.
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [String](../../../system/string/)
 * Class [XmlNameTable](../)
 * Namespace [System::Xml](../../)

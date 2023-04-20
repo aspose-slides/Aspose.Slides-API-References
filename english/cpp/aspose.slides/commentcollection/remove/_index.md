@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides/commentcollection/remove/
 ---
-## CommentCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IComment](../../icomment/)\>) method
+## CommentCollection::Remove(System::SharedPtr\<IComment\>) method
 
 
 Removes the first occurrence of the specified comment in a collection.

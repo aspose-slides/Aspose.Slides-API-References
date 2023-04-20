@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/inormalviewproperties/set_showoutlineicons/
 ---
-## INormalViewProperties::set_ShowOutlineIcons(**bool**) method
+## INormalViewProperties::set_ShowOutlineIcons(bool) method
 
 
 Specifies whether the application should show icons if displaying outline content in any of the content regions of normal view mode. Write **bool**.

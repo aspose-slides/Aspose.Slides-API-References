@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.collections.generic.details/enumerableselectindexadapter/enumerableselectindexadapter/
 ---
-## EnumerableSelectIndexAdapter::EnumerableSelectIndexAdapter([SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../../system.collections.generic/ienumerable/)\<Source\>\>, const [Func](../../../system/func/)\<Source, **int32_t**, Result\>\&) constructor
+## EnumerableSelectIndexAdapter::EnumerableSelectIndexAdapter(SharedPtr\<IEnumerable\<Source\>\>, const Func\<Source, int32_t, Result\>\&) constructor
 
 
 

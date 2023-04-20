@@ -15,11 +15,6 @@ Default constructor.
 System::WeakReference<T>::WeakReference()
 ```
 
-## See Also
-
-* Class [WeakReference< T >](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## WeakReference< T >::WeakReference(std::nullptr_t) method
 
 
@@ -29,12 +24,7 @@ Constructor from nullptr.
 System::WeakReference<T>::WeakReference(std::nullptr_t)
 ```
 
-## See Also
-
-* Class [WeakReference< T >](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## WeakReference< T >::WeakReference(const [SmartPtr](../../smartptr/)\<T\>\&) method
+## WeakReference< T >::WeakReference(const SmartPtr\<T\>\&) method
 
 
 Initializes a new instance of the WeakReference class, referencing the specified object.
@@ -50,13 +40,7 @@ System::WeakReference<T>::WeakReference(const SmartPtr<T> &data)
 | --- | --- | --- |
 | data | const [SmartPtr](../../smartptr/)\<T\>\& | [Object](../../object/) to store. |
 
-## See Also
-
-* Class [SmartPtr](../../smartptr/)
-* Class [WeakReference< T >](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## WeakReference< T >::WeakReference(const [SmartPtr](../../smartptr/)\<T\>\&, **bool**) method
+## WeakReference< T >::WeakReference(const SmartPtr\<T\>\&, bool) method
 
 
 Initializes a new instance of the WeakReference class, referencing the specified object.
@@ -75,7 +59,7 @@ System::WeakReference<T>::WeakReference(const SmartPtr<T> &data, bool trackResur
 
 ## See Also
 
-* Class [SmartPtr](../../smartptr/)
 * Class [WeakReference< T >](../)
+* Class [SmartPtr](../../smartptr/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.text/encoding/set_decoderfallback/
 ---
-## Encoding::set_DecoderFallback(const [DecoderFallbackPtr](../../../system/decoderfallbackptr/)\&) method
+## Encoding::set_DecoderFallback(const DecoderFallbackPtr\&) method
 
 
 Sets decoder fallback.

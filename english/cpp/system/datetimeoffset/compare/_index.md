@@ -6,7 +6,7 @@ type: docs
 weight: 651
 url: /cpp/system/datetimeoffset/compare/
 ---
-## DateTimeOffset::Compare(const [DateTimeOffset](../)\&, const [DateTimeOffset](../)\&) method
+## DateTimeOffset::Compare(const DateTimeOffset\&, const DateTimeOffset\&) method
 
 
 Compares two [DateTimeOffset](../) objects.
@@ -29,7 +29,6 @@ static int System::DateTimeOffset::Compare(const DateTimeOffset &first, const Da
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

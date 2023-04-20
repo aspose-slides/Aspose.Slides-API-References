@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/geometryshape/get_adjustment/
 ---
-## GeometryShape::get_Adjustment(**int32_t**) method
+## GeometryShape::get_Adjustment(int32_t) method
 
 
 Returns a shape's adjustments value at the specified index.

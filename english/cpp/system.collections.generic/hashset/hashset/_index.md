@@ -15,12 +15,7 @@ Creates empty set.
 System::Collections::Generic::HashSet<T>::HashSet()
 ```
 
-## See Also
-
-* Class [HashSet](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## HashSet::HashSet(const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\&) constructor
+## HashSet::HashSet(const SharedPtr\<IEqualityComparer\<T\>\>\&) constructor
 
 
 Creates empty set that uses the specified equality comparer.
@@ -36,14 +31,7 @@ System::Collections::Generic::HashSet<T>::HashSet(const SharedPtr<IEqualityCompa
 | --- | --- | --- |
 | comparer | const [SharedPtr](../../../system/sharedptr/)\<[IEqualityComparer](../../iequalitycomparer/)\<T\>\>\& | Comparer object to associate with hashset. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEqualityComparer](../../iequalitycomparer/)
-* Class [HashSet](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## HashSet::HashSet(const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>\&) constructor
+## HashSet::HashSet(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
 
 
 Creates hashset based on enumerable values.
@@ -55,7 +43,8 @@ System::Collections::Generic::HashSet<T>::HashSet(const SharedPtr<IEnumerable<T>
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../ienumerable/)
 * Class [HashSet](../)
+* Class [IEqualityComparer](../../iequalitycomparer/)
+* Class [IEnumerable](../../ienumerable/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

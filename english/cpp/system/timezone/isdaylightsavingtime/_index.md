@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system/timezone/isdaylightsavingtime/
 ---
-## TimeZone::IsDaylightSavingTime([DateTime](../../datetime/)) method
+## TimeZone::IsDaylightSavingTime(DateTime) method
 
 
 Determines if the date and time value represented by the specified [DateTime](../../datetime/) object falls in the range of daylight saving time for the time zone represented by the current [TimeZone](../) object.

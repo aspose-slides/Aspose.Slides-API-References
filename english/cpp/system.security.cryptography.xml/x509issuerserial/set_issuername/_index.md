@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.xml/x509issuerserial/set_issuername/
 ---
-## X509IssuerSerial::set_IssuerName([String](../../../system/string/)) method
+## X509IssuerSerial::set_IssuerName(String) method
 
 
 

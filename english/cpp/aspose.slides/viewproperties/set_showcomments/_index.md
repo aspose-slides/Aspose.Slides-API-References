@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides/viewproperties/set_showcomments/
 ---
-## ViewProperties::set_ShowComments([NullableBool](../../nullablebool/)) method
+## ViewProperties::set_ShowComments(NullableBool) method
 
 
 Specifies whether the slide comments should be shown. Write [NullableBool](../../nullablebool/).

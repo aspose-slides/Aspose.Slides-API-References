@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides/islide/rendertographics/
 ---
-## ISlide::RenderToGraphics([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\>, **int32_t**, **int32_t**) method
+## ISlide::RenderToGraphics(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, int32_t, int32_t) method
 
 
 Renders certain slide to a Graphics object.
@@ -28,15 +28,7 @@ virtual void Aspose::Slides::ISlide::RenderToGraphics(System::SharedPtr<Export::
 Deprecated
 :   Use ISlide.RenderToGraphics(IRenderingOptions, Graphics, int, int) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Graphics](../../../system.drawing/graphics/)
-* Class [ISlide](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlide::RenderToGraphics([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\>, **float**) method
+## ISlide::RenderToGraphics(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, float) method
 
 
 Renders certain slide to a Graphics object.
@@ -57,15 +49,7 @@ virtual void Aspose::Slides::ISlide::RenderToGraphics(System::SharedPtr<Export::
 Deprecated
 :   Use ISlide.RenderToGraphics(IRenderingOptions, Graphics, float) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Graphics](../../../system.drawing/graphics/)
-* Class [ISlide](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlide::RenderToGraphics([System::SharedPtr](../../../system/sharedptr/)\<[Export::INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\>) method
+## ISlide::RenderToGraphics(System::SharedPtr\<Export::INotesCommentsLayoutingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>) method
 
 
 Renders certain slide to a Graphics object.
@@ -85,15 +69,7 @@ virtual void Aspose::Slides::ISlide::RenderToGraphics(System::SharedPtr<Export::
 Deprecated
 :   Use ISlide.RenderToGraphics(IRenderingOptions, Graphics) instead. The method will be removed after release of version 21.4.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
-* Class [Graphics](../../../system.drawing/graphics/)
-* Class [ISlide](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlide::RenderToGraphics([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\>) method
+## ISlide::RenderToGraphics(System::SharedPtr\<Export::IRenderingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>) method
 
 
 Renders certain slide to a Graphics object.
@@ -110,15 +86,7 @@ virtual void Aspose::Slides::ISlide::RenderToGraphics(System::SharedPtr<Export::
 | options | [System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\> | Rendering options. |
 | graphics | [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\> | The object where to render to. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Graphics](../../../system.drawing/graphics/)
-* Class [ISlide](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlide::RenderToGraphics([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\>, **float**, **float**) method
+## ISlide::RenderToGraphics(System::SharedPtr\<Export::IRenderingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, float, float) method
 
 
 Renders certain slide to a Graphics object with custom scaling.
@@ -137,15 +105,7 @@ virtual void Aspose::Slides::ISlide::RenderToGraphics(System::SharedPtr<Export::
 | scaleX | **float** | The scale for rendering the slide (1.0 is 100%) in the x-axis direction. |
 | scaleY | **float** | The scale for rendering the slide (1.0 is 100%) in the y-axis direction. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
-* Class [Graphics](../../../system.drawing/graphics/)
-* Class [ISlide](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## ISlide::RenderToGraphics([System::SharedPtr](../../../system/sharedptr/)\<[Export::IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)\>, [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::Graphics](../../../system.drawing/graphics/)\>, [System::Drawing::Size](../../../system.drawing/size/)) method
+## ISlide::RenderToGraphics(System::SharedPtr\<Export::IRenderingOptions\>, System::SharedPtr\<System::Drawing::Graphics\>, System::Drawing::Size) method
 
 
 Renders certain slide to a Graphics object using specified size.
@@ -166,9 +126,10 @@ virtual void Aspose::Slides::ISlide::RenderToGraphics(System::SharedPtr<Export::
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
+* Class [INotesCommentsLayoutingOptions](../../../aspose.slides.export/inotescommentslayoutingoptions/)
 * Class [Graphics](../../../system.drawing/graphics/)
-* Class [Size](../../../system.drawing/size/)
 * Class [ISlide](../)
+* Class [IRenderingOptions](../../../aspose.slides.export/irenderingoptions/)
+* Class [Size](../../../system.drawing/size/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

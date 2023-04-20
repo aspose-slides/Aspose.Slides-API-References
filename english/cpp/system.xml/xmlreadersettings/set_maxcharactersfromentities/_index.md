@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.xml/xmlreadersettings/set_maxcharactersfromentities/
 ---
-## XmlReaderSettings::set_MaxCharactersFromEntities(**int64_t**) method
+## XmlReaderSettings::set_MaxCharactersFromEntities(int64_t) method
 
 
 Sets a value indicating the maximum allowable number of characters in a document that result from expanding entities.

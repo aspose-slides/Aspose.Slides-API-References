@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.net.security/sslstream/set_readtimeout/
 ---
-## SslStream::set_ReadTimeout(**int32_t**) method
+## SslStream::set_ReadTimeout(int32_t) method
 
 
 Sets a value that determines whether the current stream can time out.

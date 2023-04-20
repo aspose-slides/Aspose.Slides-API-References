@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/aspose.slides/ishapecollection/addtable/
 ---
-## IShapeCollection::AddTable(**float**, **float**, [System::ArrayPtr](../../../system/arrayptr/)\<**double**\>, [System::ArrayPtr](../../../system/arrayptr/)\<**double**\>) method
+## IShapeCollection::AddTable(float, float, System::ArrayPtr\<double\>, System::ArrayPtr\<double\>) method
 
 
 Creates a new [Table](../../table/) and adds it to the end of the collection.
@@ -32,8 +32,8 @@ Created [Table](../../table/) object.
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITable](../../itable/)
 * Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [ITable](../../itable/)
 * Class [IShapeCollection](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system/uri/isbaseof/
 ---
-## Uri::IsBaseOf(const [SharedPtr](../../sharedptr/)\<[Uri](../)\>\&) const method
+## Uri::IsBaseOf(const SharedPtr\<Uri\>\&) const method
 
 
 Determines of the URI represented by the current [Uri](../) object is a base of URI represented by the specified [Uri](../) object.
@@ -29,7 +29,6 @@ True if the URI represented by the current [Uri](../) object is a base of URI re
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Uri](../)
 * Class [Uri](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.net.sockets/tcplistener/beginaccepttcpclient/
 ---
-## TcpListener::BeginAcceptTcpClient([AsyncCallback](../../../system/asynccallback/), [System::SharedPtr](../../../system/sharedptr/)\<[Object](../../../system/object/)\>) method
+## TcpListener::BeginAcceptTcpClient(AsyncCallback, System::SharedPtr\<Object\>) method
 
 
 Initiates an asynchronous accept operation.
@@ -30,8 +30,8 @@ An [IAsyncResult](../../../system/iasyncresult/) object representing the initiat
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IAsyncResult](../../../system/iasyncresult/)
 * Typedef [AsyncCallback](../../../system/asynccallback/)
+* Class [IAsyncResult](../../../system/iasyncresult/)
 * Class [Object](../../../system/object/)
 * Class [TcpListener](../)
 * Namespace [System::Net::Sockets](../../)

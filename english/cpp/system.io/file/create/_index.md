@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.io/file/create/
 ---
-## File::Create(const [String](../../../system/string/)\&, **int32_t**, [FileOptions](../../fileoptions/)) method
+## File::Create(const String\&, int32_t, FileOptions) method
 
 
 Creates a new file (or overwrites existing) and opens it for reading and writing access using the specified buffer size and options.
@@ -30,9 +30,9 @@ A shared pointer to the [FileStream](../../filestream/) object associated with t
 
 ## See Also
 
+* Enum [FileOptions](../../fileoptions/)
 * Typedef [FileStreamPtr](../../../system/filestreamptr/)
 * Class [String](../../../system/string/)
-* Enum [FileOptions](../../fileoptions/)
 * Class [File](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

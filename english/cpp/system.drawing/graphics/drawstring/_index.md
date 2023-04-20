@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system.drawing/graphics/drawstring/
 ---
-## Graphics::DrawString(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, [PointF](../../pointf/), const [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::StringFormat](../../stringformat/)\>\&) method
+## Graphics::DrawString(const String\&, const SharedPtr\<Font\>\&, const SharedPtr\<Brush\>\&, PointF, const System::SharedPtr\<System::Drawing::StringFormat\>\&) method
 
 
 Draws the specified string at the specified location using the specified font and brush.
@@ -26,18 +26,7 @@ void System::Drawing::Graphics::DrawString(const String &str, const SharedPtr<Fo
 | topLeft | [PointF](../../pointf/) | Specifies the location of the upper left corner of the drawn string |
 | stringFormat | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::StringFormat](../../stringformat/)\>\& | Specified the format of the string |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Font](../../font/)
-* Class [Brush](../../brush/)
-* Class [PointF](../../pointf/)
-* Class [StringFormat](../../stringformat/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawString(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, [RectangleF](../../rectanglef/), const [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::StringFormat](../../stringformat/)\>\&) method
+## Graphics::DrawString(const String\&, const SharedPtr\<Font\>\&, const SharedPtr\<Brush\>\&, RectangleF, const System::SharedPtr\<System::Drawing::StringFormat\>\&) method
 
 
 Draws the specified string in the specified rectangle using the specified font and brush.
@@ -57,18 +46,7 @@ void System::Drawing::Graphics::DrawString(const String &str, const SharedPtr<Fo
 | layoutRectangle | [RectangleF](../../rectanglef/) | Specifies a rectangle to draw the string in |
 | stringFormat | const [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::StringFormat](../../stringformat/)\>\& | Specified the format of the string |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Font](../../font/)
-* Class [Brush](../../brush/)
-* Class [RectangleF](../../rectanglef/)
-* Class [StringFormat](../../stringformat/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::DrawString(const [String](../../../system/string/)\&, const [SharedPtr](../../../system/sharedptr/)\<[Font](../../font/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, **float**, **float**, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Drawing::StringFormat](../../stringformat/)\>\&) method
+## Graphics::DrawString(const String\&, const SharedPtr\<Font\>\&, const SharedPtr\<Brush\>\&, float, float, const System::SharedPtr\<System::Drawing::StringFormat\>\&) method
 
 
 Draws the specified string at the specified location using the specified font and brush.
@@ -91,11 +69,13 @@ void System::Drawing::Graphics::DrawString(const String &str, const SharedPtr<Fo
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [String](../../../system/string/)
 * Class [Font](../../font/)
 * Class [Brush](../../brush/)
+* Class [PointF](../../pointf/)
 * Class [StringFormat](../../stringformat/)
 * Class [Graphics](../)
+* Class [RectangleF](../../rectanglef/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

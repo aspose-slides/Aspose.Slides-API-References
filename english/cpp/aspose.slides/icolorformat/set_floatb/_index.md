@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides/icolorformat/set_floatb/
 ---
-## IColorFormat::set_FloatB(**float**) method
+## IColorFormat::set_FloatB(float) method
 
 
 Sets the blue component of a color. All color transformations are ignored. Write **float**.

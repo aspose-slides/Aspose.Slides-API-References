@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.drawing.imaging/imageattributes/clearoutputchannel/
 ---
-## ImageAttributes::ClearOutputChannel([ColorAdjustType](../../coloradjusttype/)) method
+## ImageAttributes::ClearOutputChannel(ColorAdjustType) method
 
 
 NOT IMPLEMENTED.

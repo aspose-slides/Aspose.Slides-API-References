@@ -19,6 +19,5 @@ ArrayPtr<TypeInfo> System::TypeInfo::GetInterfaces() const
 
 * Typedef [ArrayPtr](../../arrayptr/)
 * Class [TypeInfo](../)
-* Class [TypeInfo](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

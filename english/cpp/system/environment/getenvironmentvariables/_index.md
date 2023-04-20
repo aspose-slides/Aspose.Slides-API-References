@@ -15,14 +15,7 @@ Returns a dictionary containing all environment variables names and their values
 static Collections::Generic::DictionaryPtr<String, String> System::Environment::GetEnvironmentVariables()
 ```
 
-## See Also
-
-* Class [DictionaryPtr](../../../system.collections.generic/dictionaryptr/)
-* Class [String](../../string/)
-* Struct [Environment](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Environment::GetEnvironmentVariables([EnvironmentVariableTarget](../../environmentvariabletarget/)) method
+## Environment::GetEnvironmentVariables(EnvironmentVariableTarget) method
 
 
 Returns a dictionary containing all environment variables' names and their values from the specified location.
@@ -44,9 +37,9 @@ A dictionary containing all environment variables' names and their values from t
 
 ## See Also
 
+* Enum [EnvironmentVariableTarget](../../environmentvariabletarget/)
 * Class [DictionaryPtr](../../../system.collections.generic/dictionaryptr/)
 * Class [String](../../string/)
-* Enum [EnvironmentVariableTarget](../../environmentvariabletarget/)
 * Struct [Environment](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

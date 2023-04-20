@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/aspose.slides.charts/axis/set_crosstype/
 ---
-## Axis::set_CrossType([CrossesType](../../crossestype/)) method
+## Axis::set_CrossType(CrossesType) method
 
 
 Represents the CrossType on the specified axis where the other axis crosses. Write [CrossesType](../../crossestype/).

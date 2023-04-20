@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.globalization/textinfo/readonly/
 ---
-## TextInfo::ReadOnly(const [TextInfoPtr](../../textinfoptr/)\&) method
+## TextInfo::ReadOnly(const TextInfoPtr\&) method
 
 
 Gets a read only version of culture.

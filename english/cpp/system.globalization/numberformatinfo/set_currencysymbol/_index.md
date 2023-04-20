@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.globalization/numberformatinfo/set_currencysymbol/
 ---
-## NumberFormatInfo::set_CurrencySymbol(const [String](../../../system/string/)\&) method
+## NumberFormatInfo::set_CurrencySymbol(const String\&) method
 
 
 Sets currency symbol.

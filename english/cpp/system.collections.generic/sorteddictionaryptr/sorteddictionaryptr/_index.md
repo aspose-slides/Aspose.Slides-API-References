@@ -15,12 +15,7 @@ Constructs null pointer.
 System::Collections::Generic::SortedDictionaryPtr<T, V>::SortedDictionaryPtr()
 ```
 
-## See Also
-
-* Class [SortedDictionaryPtr](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## SortedDictionaryPtr::SortedDictionaryPtr(const [SharedPtr](../../../system/sharedptr/)\<[SortedDictionary](../../sorteddictionary/)\<T, V\>\>\&) constructor
+## SortedDictionaryPtr::SortedDictionaryPtr(const SharedPtr\<SortedDictionary\<T, V\>\>\&) constructor
 
 
 Constructs pointer to specified sorted dictionary.
@@ -39,7 +34,7 @@ System::Collections::Generic::SortedDictionaryPtr<T, V>::SortedDictionaryPtr(con
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [SortedDictionary](../../sorteddictionary/)
 * Class [SortedDictionaryPtr](../)
+* Class [SortedDictionary](../../sorteddictionary/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

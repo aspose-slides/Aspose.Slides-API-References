@@ -6,7 +6,7 @@ type: docs
 weight: 781
 url: /cpp/system.xml.xpath/xpathnavigator/selectsinglenode/
 ---
-## XPathNavigator::SelectSingleNode([String](../../../system/string/)) method
+## XPathNavigator::SelectSingleNode(String) method
 
 
 Selects a single node in the [XPathNavigator](../) using the specified [XPath](../../) query.
@@ -26,15 +26,7 @@ virtual SharedPtr<XPathNavigator> System::Xml::XPath::XPathNavigator::SelectSing
 
 An [XPathNavigator](../) object that contains the first matching node for the [XPath](../../) query specified; otherwise, **nullptr** if there are no query results.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
-* Class [String](../../../system/string/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::SelectSingleNode([String](../../../system/string/), [SharedPtr](../../../system/sharedptr/)\<[IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)\>) method
+## XPathNavigator::SelectSingleNode(String, SharedPtr\<IXmlNamespaceResolver\>) method
 
 
 Selects a single node in the [XPathNavigator](../) object using the specified [XPath](../../) query with the [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/) object specified to resolve namespace prefixes.
@@ -55,16 +47,7 @@ virtual SharedPtr<XPathNavigator> System::Xml::XPath::XPathNavigator::SelectSing
 
 An [XPathNavigator](../) object that contains the first matching node for the [XPath](../../) query specified; otherwise **nullptr** if there are no query results.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XPathNavigator](../)
-* Class [String](../../../system/string/)
-* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::SelectSingleNode([SharedPtr](../../../system/sharedptr/)\<[XPathExpression](../../xpathexpression/)\>) method
+## XPathNavigator::SelectSingleNode(SharedPtr\<XPathExpression\>) method
 
 
 Selects a single node in the [XPathNavigator](../) using the specified [XPathExpression](../../xpathexpression/) object.
@@ -88,7 +71,8 @@ An [XPathNavigator](../) object that contains the first matching node for the [X
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XPathNavigator](../)
+* Class [String](../../../system/string/)
+* Class [IXmlNamespaceResolver](../../../system.xml/ixmlnamespaceresolver/)
 * Class [XPathExpression](../../xpathexpression/)
-* Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

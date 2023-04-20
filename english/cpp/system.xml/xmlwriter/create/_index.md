@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.xml/xmlwriter/create/
 ---
-## XmlWriter::Create(const [String](../../../system/string/)\&) method
+## XmlWriter::Create(const String\&) method
 
 
 Creates a new [XmlWriter](../) instance using the specified filename.
@@ -26,15 +26,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const String &outputF
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [String](../../../system/string/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [String](../../../system/string/)\&, [SharedPtr](../../../system/sharedptr/)\<[XmlWriterSettings](../../xmlwritersettings/)\>) method
+## XmlWriter::Create(const String\&, SharedPtr\<XmlWriterSettings\>) method
 
 
 Creates a new [XmlWriter](../) instance using the filename and [XmlWriterSettings](../../xmlwritersettings/) object.
@@ -55,16 +47,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const String &outputF
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [String](../../../system/string/)
-* Class [XmlWriterSettings](../../xmlwritersettings/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&) method
+## XmlWriter::Create(const SharedPtr\<IO::Stream\>\&) method
 
 
 Creates a new [XmlWriter](../) instance using the specified stream.
@@ -84,15 +67,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const SharedPtr<IO::S
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::Stream](../../../system.io/stream/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlWriterSettings](../../xmlwritersettings/)\>) method
+## XmlWriter::Create(const SharedPtr\<IO::Stream\>\&, SharedPtr\<XmlWriterSettings\>) method
 
 
 Creates a new [XmlWriter](../) instance using the stream and [XmlWriterSettings](../../xmlwritersettings/) object.
@@ -113,16 +88,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const SharedPtr<IO::S
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [Stream](../../../system.io/stream/)
-* Class [XmlWriterSettings](../../xmlwritersettings/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&) method
+## XmlWriter::Create(const SharedPtr\<IO::TextWriter\>\&) method
 
 
 Creates a new [XmlWriter](../) instance using the specified TextWriter.
@@ -142,15 +108,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const SharedPtr<IO::T
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[IO::TextWriter](../../../system.io/textwriter/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlWriterSettings](../../xmlwritersettings/)\>) method
+## XmlWriter::Create(const SharedPtr\<IO::TextWriter\>\&, SharedPtr\<XmlWriterSettings\>) method
 
 
 Creates a new [XmlWriter](../) instance using the TextWriter and [XmlWriterSettings](../../xmlwritersettings/) objects.
@@ -171,16 +129,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const SharedPtr<IO::T
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [TextWriter](../../../system.io/textwriter/)
-* Class [XmlWriterSettings](../../xmlwritersettings/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[Text::StringBuilder](../../../system.text/stringbuilder/)\>\&) method
+## XmlWriter::Create(const SharedPtr\<Text::StringBuilder\>\&) method
 
 
 Creates a new [XmlWriter](../) instance using the specified [Text::StringBuilder](../../../system.text/stringbuilder/).
@@ -200,15 +149,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const SharedPtr<Text:
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [StringBuilder](../../../system.text/stringbuilder/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[Text::StringBuilder](../../../system.text/stringbuilder/)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlWriterSettings](../../xmlwritersettings/)\>) method
+## XmlWriter::Create(const SharedPtr\<Text::StringBuilder\>\&, SharedPtr\<XmlWriterSettings\>) method
 
 
 Creates a new [XmlWriter](../) instance using the [Text::StringBuilder](../../../system.text/stringbuilder/) and [XmlWriterSettings](../../xmlwritersettings/) objects.
@@ -229,16 +170,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const SharedPtr<Text:
 
 An [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [StringBuilder](../../../system.text/stringbuilder/)
-* Class [XmlWriterSettings](../../xmlwritersettings/)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../)\>\&) method
+## XmlWriter::Create(const SharedPtr\<XmlWriter\>\&) method
 
 
 Creates a new [XmlWriter](../) instance using the specified [XmlWriter](../) object.
@@ -258,14 +190,7 @@ static SharedPtr<XmlWriter> System::Xml::XmlWriter::Create(const SharedPtr<XmlWr
 
 An [XmlWriter](../) object that is wrapped around the specified [XmlWriter](../) object.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../)
-* Class [XmlWriter](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlWriter::Create(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../)\>\&, [SharedPtr](../../../system/sharedptr/)\<[XmlWriterSettings](../../xmlwritersettings/)\>) method
+## XmlWriter::Create(const SharedPtr\<XmlWriter\>\&, SharedPtr\<XmlWriterSettings\>) method
 
 
 Creates a new [XmlWriter](../) instance using the specified [XmlWriter](../) and [XmlWriterSettings](../../xmlwritersettings/) objects.
@@ -290,7 +215,10 @@ An [XmlWriter](../) object that is wrapped around the specified [XmlWriter](../)
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlWriter](../)
+* Class [String](../../../system/string/)
 * Class [XmlWriterSettings](../../xmlwritersettings/)
-* Class [XmlWriter](../)
+* Class [Stream](../../../system.io/stream/)
+* Class [TextWriter](../../../system.io/textwriter/)
+* Class [StringBuilder](../../../system.text/stringbuilder/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

@@ -27,11 +27,6 @@ int System::Globalization::TaiwanCalendar::GetLeapMonth(int year, int era) const
 
 Leap month of the speicified year of the specified era or zero if the year has no leap month.
 
-## See Also
-
-* Class [TaiwanCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## TaiwanCalendar::GetLeapMonth(int) const method
 
 
@@ -52,11 +47,6 @@ virtual int System::Globalization::Calendar::GetLeapMonth(int year) const
 
 Leap month of the speicified year or zero if the year has no leap month.
 
-## See Also
-
-* Class [TaiwanCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## TaiwanCalendar::GetLeapMonth(int, int) const method
 
 

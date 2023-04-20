@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.collections.generic/compareradapter/set_comparator/
 ---
-## ComparerAdapter::set_Comparator(const [SharedPtr](../../../system/sharedptr/)\<[IComparer](../../icomparer/)\<T\>\>\&) method
+## ComparerAdapter::set_Comparator(const SharedPtr\<IComparer\<T\>\>\&) method
 
 
 Sets comparator object.

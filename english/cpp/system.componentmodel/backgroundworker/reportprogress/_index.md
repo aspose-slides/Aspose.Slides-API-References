@@ -22,12 +22,7 @@ void System::ComponentModel::BackgroundWorker::ReportProgress(int percentProgres
 | --- | --- | --- |
 | percentProgress | int | The percentage, from 0 to 100, of the background operation that is complete. |
 
-## See Also
-
-* Class [BackgroundWorker](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## BackgroundWorker::ReportProgress(int, const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## BackgroundWorker::ReportProgress(int, const System::SharedPtr\<System::Object\>\&) method
 
 
 Raises the **System::ComponentModel::BackgroundWorker::ProgressChanged** event with userState object.
@@ -47,7 +42,7 @@ void System::ComponentModel::BackgroundWorker::ReportProgress(int percentProgres
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [BackgroundWorker](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::ComponentModel](../../)
 * Library [Aspose.Slides](../../../)

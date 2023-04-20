@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.net/cookiecontainer/set_capacity/
 ---
-## CookieContainer::set_Capacity(**int32_t**) method
+## CookieContainer::set_Capacity(int32_t) method
 
 
 Sets the collection capacity.

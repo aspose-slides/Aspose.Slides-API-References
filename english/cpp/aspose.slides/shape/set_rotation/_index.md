@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/aspose.slides/shape/set_rotation/
 ---
-## Shape::set_Rotation(**float**) method
+## Shape::set_Rotation(float) method
 
 
 Sets the number of degrees the specified shape is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Write **float**.

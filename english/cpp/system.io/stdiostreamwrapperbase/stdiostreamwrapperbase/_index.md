@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.io/stdiostreamwrapperbase/stdiostreamwrapperbase/
 ---
-## STDIOStreamWrapperBase::STDIOStreamWrapperBase(const [STDIOStreamWrapperBase](../)\&) constructor
+## STDIOStreamWrapperBase::STDIOStreamWrapperBase(const STDIOStreamWrapperBase\&) constructor
 
 
 Copy constructor. Deleted.
@@ -17,7 +17,6 @@ System::IO::STDIOStreamWrapperBase<T, typename>::STDIOStreamWrapperBase(const ST
 
 ## See Also
 
-* Class [STDIOStreamWrapperBase](../)
 * Class [STDIOStreamWrapperBase](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

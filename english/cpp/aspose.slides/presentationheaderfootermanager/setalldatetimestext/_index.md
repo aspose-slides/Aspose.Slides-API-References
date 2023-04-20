@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides/presentationheaderfootermanager/setalldatetimestext/
 ---
-## PresentationHeaderFooterManager::SetAllDateTimesText([System::String](../../../system/string/)) method
+## PresentationHeaderFooterManager::SetAllDateTimesText(System::String) method
 
 
 Sets text to all date-time placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master.

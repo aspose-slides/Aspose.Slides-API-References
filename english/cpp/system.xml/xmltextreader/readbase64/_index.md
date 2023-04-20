@@ -6,7 +6,7 @@ type: docs
 weight: 768
 url: /cpp/system.xml/xmltextreader/readbase64/
 ---
-## XmlTextReader::ReadBase64(const [ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>\&, **int32_t**, **int32_t**) method
+## XmlTextReader::ReadBase64(const ArrayPtr\<uint8_t\>\&, int32_t, int32_t) method
 
 
 Decodes Base64 and returns the decoded binary bytes.

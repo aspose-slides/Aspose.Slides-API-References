@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.net.sockets/networkstream/set_writetimeout/
 ---
-## NetworkStream::set_WriteTimeout(**int32_t**) method
+## NetworkStream::set_WriteTimeout(int32_t) method
 
 
 Sets a value, in milliseconds, that determines how long the stream will attempt to read before timing out.

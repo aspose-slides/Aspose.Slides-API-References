@@ -6,7 +6,7 @@ type: docs
 weight: 352
 url: /cpp/system/datetimeoffset/compareto/
 ---
-## DateTimeOffset::CompareTo(const [DateTimeOffset](../)\&) const method
+## DateTimeOffset::CompareTo(const DateTimeOffset\&) const method
 
 
 Compares two [DateTimeOffset](../) objects.
@@ -26,13 +26,7 @@ int System::DateTimeOffset::CompareTo(const DateTimeOffset &other) const
 
 -1 - if current object is earlier than **other**, 1 - if current object is later than **other**, 0 - if current object is equal to **other**.
 
-## See Also
-
-* Class [DateTimeOffset](../)
-* Class [DateTimeOffset](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## DateTimeOffset::CompareTo(const [SharedPtr](../../sharedptr/)\<[Object](../../object/)\>\&) const method
+## DateTimeOffset::CompareTo(const SharedPtr\<Object\>\&) const method
 
 
 Compares two [DateTimeOffset](../) objects.
@@ -55,7 +49,7 @@ int System::DateTimeOffset::CompareTo(const SharedPtr<Object> &obj) const
 ## See Also
 
 * Typedef [SharedPtr](../../sharedptr/)
-* Class [Object](../../object/)
 * Class [DateTimeOffset](../)
+* Class [Object](../../object/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

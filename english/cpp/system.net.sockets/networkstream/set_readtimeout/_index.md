@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.sockets/networkstream/set_readtimeout/
 ---
-## NetworkStream::set_ReadTimeout(**int32_t**) method
+## NetworkStream::set_ReadTimeout(int32_t) method
 
 
 Sets a value that determines whether the current stream can time out.

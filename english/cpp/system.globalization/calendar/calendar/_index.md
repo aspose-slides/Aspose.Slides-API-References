@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.globalization/calendar/calendar/
 ---
-## Calendar::Calendar(const [Calendar](../)\&) constructor
+## Calendar::Calendar(const Calendar\&) constructor
 
 
 RTTI information.
@@ -17,7 +17,6 @@ System::Globalization::Calendar::Calendar(const Calendar &)=delete
 
 ## See Also
 
-* Class [Calendar](../)
 * Class [Calendar](../)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

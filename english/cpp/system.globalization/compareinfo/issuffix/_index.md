@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.globalization/compareinfo/issuffix/
 ---
-## CompareInfo::IsSuffix(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [CompareOptions](../../compareoptions/)) const method
+## CompareInfo::IsSuffix(const String\&, const String\&, CompareOptions) const method
 
 
 Checks if the specified string ends with the specified suffix using the specified compare options.
@@ -28,14 +28,7 @@ virtual bool System::Globalization::CompareInfo::IsSuffix(const String &source, 
 
 True if string ends with suffix; otherwise false.
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Enum [CompareOptions](../../compareoptions/)
-* Class [CompareInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CompareInfo::IsSuffix(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) const method
+## CompareInfo::IsSuffix(const String\&, const String\&) const method
 
 
 Checks if the specified string ends with the specified suffix.
@@ -58,6 +51,7 @@ True if string ends with suffix; otherwise false.
 
 ## See Also
 
+* Enum [CompareOptions](../../compareoptions/)
 * Class [String](../../../system/string/)
 * Class [CompareInfo](../)
 * Namespace [System::Globalization](../../)

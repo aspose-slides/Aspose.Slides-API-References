@@ -26,13 +26,7 @@ static UnicodeCategory System::Globalization::CharUnicodeInfo::GetUnicodeCategor
 
 Unicode category.
 
-## See Also
-
-* Enum [UnicodeCategory](../../unicodecategory/)
-* Class [CharUnicodeInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CharUnicodeInfo::GetUnicodeCategory(const [String](../../../system/string/)\&, int) method
+## CharUnicodeInfo::GetUnicodeCategory(const String\&, int) method
 
 
 Gets unicode category of the character at the specified index of the string.
@@ -56,7 +50,7 @@ Unicode category.
 ## See Also
 
 * Enum [UnicodeCategory](../../unicodecategory/)
-* Class [String](../../../system/string/)
 * Class [CharUnicodeInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.drawing/region/transform/
 ---
-## Region::Transform(const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\&) method
+## Region::Transform(const SharedPtr\<Drawing2D::Matrix\>\&) method
 
 
 Transforms this region by the specified matrix.
@@ -22,13 +22,6 @@ void System::Drawing::Region::Transform(const SharedPtr<Drawing2D::Matrix> &matr
 | --- | --- | --- |
 | matrix | const [SharedPtr](../../../system/sharedptr/)\<[Drawing2D::Matrix](../../../system.drawing.drawing2d/matrix/)\>\& | Transformation matrix |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Matrix](../../../system.drawing.drawing2d/matrix/)
-* Class [Region](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
 ## Region::Transform(const SkMatrix\&) method
 
 
@@ -47,6 +40,8 @@ void System::Drawing::Region::Transform(const SkMatrix &matrix)
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Matrix](../../../system.drawing.drawing2d/matrix/)
 * Class [Region](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

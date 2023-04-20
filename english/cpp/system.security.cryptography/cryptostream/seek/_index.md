@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.security.cryptography/cryptostream/seek/
 ---
-## CryptoStream::Seek(**int64_t**, [IO::SeekOrigin](../../../system.io/seekorigin/)) method
+## CryptoStream::Seek(int64_t, IO::SeekOrigin) method
 
 
 Seeks position in stream. Not supported.

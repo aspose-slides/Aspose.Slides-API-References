@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.drawing.drawing2d/customlinecap/set_basecap/
 ---
-## CustomLineCap::set_BaseCap([LineCap](../../linecap/)) method
+## CustomLineCap::set_BaseCap(LineCap) method
 
 
 Sets the base line cap value for this custom cap.

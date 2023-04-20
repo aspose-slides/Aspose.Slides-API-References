@@ -6,7 +6,7 @@ type: docs
 weight: 443
 url: /cpp/system/datetime/compareto/
 ---
-## DateTime::CompareTo([DateTime](../)) const method
+## DateTime::CompareTo(DateTime) const method
 
 
 Compares two date and time values represented by the current object and the specified instance of [DateTime](../) class and returns the value indicating values' relative positions on the time line.
@@ -28,7 +28,6 @@ A value that is less than 0 if the current object represents a value that is ear
 
 ## See Also
 
-* Class [DateTime](../)
 * Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/aspose.slides/ilineformat/equals/
 ---
-## ILineFormat::Equals([System::SharedPtr](../../../system/sharedptr/)\<[ILineFormat](../)\>) method
+## ILineFormat::Equals(System::SharedPtr\<ILineFormat\>) method
 
 
 Determines whether the two [LineFormat](../../lineformat/) instances are equal.
@@ -29,7 +29,6 @@ virtual bool Aspose::Slides::ILineFormat::Equals(System::SharedPtr<ILineFormat> 
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ILineFormat](../)
 * Class [ILineFormat](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

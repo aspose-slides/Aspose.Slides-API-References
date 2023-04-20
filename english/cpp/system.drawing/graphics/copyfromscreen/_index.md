@@ -6,7 +6,7 @@ type: docs
 weight: 1028
 url: /cpp/system.drawing/graphics/copyfromscreen/
 ---
-## Graphics::CopyFromScreen([Point](../../point/), [Point](../../point/), [Size](../../size/), [CopyPixelOperation](../../copypixeloperation/)) method
+## Graphics::CopyFromScreen(Point, Point, Size, CopyPixelOperation) method
 
 
 NOT IMPLEMENTED.
@@ -16,15 +16,7 @@ void System::Drawing::Graphics::CopyFromScreen(Point upperLeftSource, Point uppe
 ```
 
 
-## See Also
-
-* Class [Point](../../point/)
-* Class [Size](../../size/)
-* Enum [CopyPixelOperation](../../copypixeloperation/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::CopyFromScreen(**int32_t**, **int32_t**, **int32_t**, **int32_t**, [Size](../../size/), [CopyPixelOperation](../../copypixeloperation/)) method
+## Graphics::CopyFromScreen(int32_t, int32_t, int32_t, int32_t, Size, CopyPixelOperation) method
 
 
 NOT IMPLEMENTED.
@@ -36,8 +28,9 @@ void System::Drawing::Graphics::CopyFromScreen(int32_t sourceX, int32_t sourceY,
 
 ## See Also
 
-* Class [Size](../../size/)
 * Enum [CopyPixelOperation](../../copypixeloperation/)
+* Class [Point](../../point/)
+* Class [Size](../../size/)
 * Class [Graphics](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

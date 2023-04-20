@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net/webclient/set_encoding/
 ---
-## WebClient::set_Encoding(const [SharedPtr](../../../system/sharedptr/)\<[Text::Encoding](../../../system.text/encoding/)\>\&) method
+## WebClient::set_Encoding(const SharedPtr\<Text::Encoding\>\&) method
 
 
 Sets the encoding used to download or upload strings.

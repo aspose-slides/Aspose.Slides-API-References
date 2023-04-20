@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.globalization/gregoriancalendar/set_calendartype/
 ---
-## GregorianCalendar::set_CalendarType([GregorianCalendarTypes](../../gregoriancalendartypes/)) method
+## GregorianCalendar::set_CalendarType(GregorianCalendarTypes) method
 
 
 Sets Gregorian calendar type.

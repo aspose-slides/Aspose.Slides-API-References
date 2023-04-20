@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/aspose.slides.charts/ilayoutable/set_height/
 ---
-## ILayoutable::set_Height(**float**) method
+## ILayoutable::set_Height(float) method
 
 
 Specifies the height of the chart element as a fraction of the height of the chart. Write **float**.

@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/globallayoutslidecollection/add/
 ---
-## GlobalLayoutSlideCollection::Add([System::SharedPtr](../../../system/sharedptr/)\<[IMasterSlide](../../imasterslide/)\>, [SlideLayoutType](../../slidelayouttype/), [System::String](../../../system/string/)) method
+## GlobalLayoutSlideCollection::Add(System::SharedPtr\<IMasterSlide\>, SlideLayoutType, System::String) method
 
 
 Adds a new layout slide to the presentation.
@@ -35,10 +35,10 @@ Added slide.
 
 ## See Also
 
+* Enum [SlideLayoutType](../../slidelayouttype/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [ILayoutSlide](../../ilayoutslide/)
 * Class [IMasterSlide](../../imasterslide/)
-* Enum [SlideLayoutType](../../slidelayouttype/)
 * Class [String](../../../system/string/)
 * Class [GlobalLayoutSlideCollection](../)
 * Namespace [Aspose::Slides](../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system/math/ieeeremainder/
 ---
-## Math::IEEERemainder(**double**, **double**) method
+## Math::IEEERemainder(double, double) method
 
 
 Returns the remainder resulting from the division of a specified number by another specified number.

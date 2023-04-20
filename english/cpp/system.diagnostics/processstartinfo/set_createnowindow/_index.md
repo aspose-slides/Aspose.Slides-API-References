@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.diagnostics/processstartinfo/set_createnowindow/
 ---
-## ProcessStartInfo::set_CreateNoWindow(**bool**) method
+## ProcessStartInfo::set_CreateNoWindow(bool) method
 
 
 Sets NoWindow property.

@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/aspose.slides/protectionmanager/encrypt/
 ---
-## ProtectionManager::Encrypt([System::String](../../../system/string/)) method
+## ProtectionManager::Encrypt(System::String) method
 
 
 Encrypts [Presentation](../../presentation/) with specified password.

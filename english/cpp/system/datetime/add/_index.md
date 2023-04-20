@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system/datetime/add/
 ---
-## DateTime::Add([TimeSpan](../../timespan/)) const method
+## DateTime::Add(TimeSpan) const method
 
 
 Returns a new instance of [DateTime](../) class that represents a date and time value that results from addition of the specified time span to the date and time value represented by the current object.
@@ -30,6 +30,5 @@ A new instance of [DateTime](../) class that represents a date and time value th
 
 * Class [DateTime](../)
 * Class [TimeSpan](../../timespan/)
-* Class [DateTime](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

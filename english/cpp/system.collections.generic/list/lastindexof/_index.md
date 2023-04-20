@@ -26,12 +26,7 @@ int32_t System::Collections::Generic::List<T>::LastIndexOf(const T &item) const
 
 The zero-based index of the last occurrence of item within the entire the [List](../), if found; otherwise, -1.
 
-## See Also
-
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::LastIndexOf(const T\&, **int32_t**) const method
+## List::LastIndexOf(const T\&, int32_t) const method
 
 
 Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the [List](../) that extends from the first element to the specified index.
@@ -52,12 +47,7 @@ int32_t System::Collections::Generic::List<T>::LastIndexOf(const T &item, int32_
 
 The zero-based index of the last occurrence of item within the range of elements in the [List](../) that extends from the first element to index, if found; otherwise, -1.
 
-## See Also
-
-* Class [List](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## List::LastIndexOf(const T\&, **int32_t**, **int32_t**) const method
+## List::LastIndexOf(const T\&, int32_t, int32_t) const method
 
 
 Searches for the specified object and returns the zero-based index of the last occurrence within the range of elements in the [List](../) that contains the specified number of elements and ends at the specified index.

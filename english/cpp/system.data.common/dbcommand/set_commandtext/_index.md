@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.data.common/dbcommand/set_commandtext/
 ---
-## DbCommand::set_CommandText([String](../../../system/string/)) const method
+## DbCommand::set_CommandText(String) const method
 
 
 Sets DB command text.

@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.io/filesysteminfo/set_lastwritetime/
 ---
-## FileSystemInfo::set_LastWriteTime([DateTime](../../../system/datetime/)) method
+## FileSystemInfo::set_LastWriteTime(DateTime) method
 
 
 Sets the last write time of the entity represented by the current object as local time.

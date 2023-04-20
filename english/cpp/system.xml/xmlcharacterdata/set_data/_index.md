@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.xml/xmlcharacterdata/set_data/
 ---
-## XmlCharacterData::set_Data([String](../../../system/string/)) method
+## XmlCharacterData::set_Data(String) method
 
 
 Sets the data of the node.

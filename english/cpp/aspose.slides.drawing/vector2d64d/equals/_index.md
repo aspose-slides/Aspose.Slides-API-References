@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.drawing/vector2d64d/equals/
 ---
-## Vector2d64d::Equals(const [Vector2d64d](../)\&) method
+## Vector2d64d::Equals(const Vector2d64d\&) method
 
 
 
@@ -17,7 +17,6 @@ bool Aspose::Slides::Drawing::Vector2d64d::Equals(const Vector2d64d &other)
 
 ## See Also
 
-* Class [Vector2d64d](../)
 * Class [Vector2d64d](../)
 * Namespace [Aspose::Slides::Drawing](../../)
 * Library [Aspose.Slides](../../../)

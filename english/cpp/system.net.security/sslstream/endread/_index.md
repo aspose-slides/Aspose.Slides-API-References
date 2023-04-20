@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.net.security/sslstream/endread/
 ---
-## SslStream::EndRead([System::SharedPtr](../../../system/sharedptr/)\<[IAsyncResult](../../../system/iasyncresult/)\>) method
+## SslStream::EndRead(System::SharedPtr\<IAsyncResult\>) method
 
 
 Waits until the specified asynchronous read operation completes.

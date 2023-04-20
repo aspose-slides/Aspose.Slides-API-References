@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system.io/streamwriter/streamwriter/
 ---
-## StreamWriter::StreamWriter(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&) constructor
+## StreamWriter::StreamWriter(const SharedPtr\<Stream\>\&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified underlying stream using UTF-8 encoding and a buffer with default size of 1024 bytes.
@@ -22,14 +22,7 @@ System::IO::StreamWriter::StreamWriter(const SharedPtr<Stream> &stream)
 | --- | --- | --- |
 | stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying stream to write characters to |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::StreamWriter(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&, const [EncodingPtr](../../../system/encodingptr/)\&) constructor
+## StreamWriter::StreamWriter(const SharedPtr\<Stream\>\&, const EncodingPtr\&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified underlying stream using the specified encoding and a buffer with default size of 1024 bytes.
@@ -46,15 +39,7 @@ System::IO::StreamWriter::StreamWriter(const SharedPtr<Stream> &stream, const En
 | stream | const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\& | The underlying stream to write characters to |
 | encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The encoding to use |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Typedef [EncodingPtr](../../../system/encodingptr/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::StreamWriter(const [SharedPtr](../../../system/sharedptr/)\<[Stream](../../stream/)\>\&, const [EncodingPtr](../../../system/encodingptr/)\&, int, **bool**) constructor
+## StreamWriter::StreamWriter(const SharedPtr\<Stream\>\&, const EncodingPtr\&, int, bool) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified underlying stream using the specified encoding and a buffer of the specified size. A parameter specifies whether the underlying stream should be closed when the [StreamWriter](../) object is disposed.
@@ -73,15 +58,7 @@ System::IO::StreamWriter::StreamWriter(const SharedPtr<Stream> &stream, const En
 | buffer_size | int | The minimum size of the buffer in bytes |
 | leave_open | **bool** | Specifies whether the underlying stream should be left open after the current [StreamWriter](../) object is disposed |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Stream](../../stream/)
-* Typedef [EncodingPtr](../../../system/encodingptr/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::StreamWriter(const [String](../../../system/string/)\&) constructor
+## StreamWriter::StreamWriter(const String\&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified file using UTF-8 encoding and a buffer with default size of 1024 bytes.
@@ -97,13 +74,7 @@ System::IO::StreamWriter::StreamWriter(const String &path)
 | --- | --- | --- |
 | path | const [String](../../../system/string/)\& | The path of the file to write characters to |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::StreamWriter(const [String](../../../system/string/)\&, **bool**, const [EncodingPtr](../../../system/encodingptr/)\&) constructor
+## StreamWriter::StreamWriter(const String\&, bool, const EncodingPtr\&) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified file using the specified encoding and a buffer with default size of 1024 bytes. A parameter specifies whether the data should be appened to the file or the file should be overwritten.
@@ -121,14 +92,7 @@ System::IO::StreamWriter::StreamWriter(const String &path, bool append, const En
 | append | **bool** | Specifies whether the data should be appended to the specified file (true) or the file should be overwritten (false) |
 | encoding | const [EncodingPtr](../../../system/encodingptr/)\& | The encoding to use |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Typedef [EncodingPtr](../../../system/encodingptr/)
-* Class [StreamWriter](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## StreamWriter::StreamWriter(const [String](../../../system/string/)\&, **bool**, const [EncodingPtr](../../../system/encodingptr/)\&, int) constructor
+## StreamWriter::StreamWriter(const String\&, bool, const EncodingPtr\&, int) constructor
 
 
 Constructs an instance of [StreamWriter](../) object that writes characters to the specified file using the specified encoding and buffer size. A parameter specifies whether the data should be appened to the file or the file should be overwritten.
@@ -149,8 +113,10 @@ System::IO::StreamWriter::StreamWriter(const String &path, bool append, const En
 
 ## See Also
 
-* Class [String](../../../system/string/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Typedef [EncodingPtr](../../../system/encodingptr/)
+* Class [Stream](../../stream/)
 * Class [StreamWriter](../)
+* Class [String](../../../system/string/)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

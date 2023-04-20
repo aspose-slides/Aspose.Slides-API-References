@@ -6,7 +6,7 @@ type: docs
 weight: 677
 url: /cpp/aspose.slides/idocumentproperties/setcustompropertyvalue/
 ---
-## IDocumentProperties::SetCustomPropertyValue([System::String](../../../system/string/), **bool**) method
+## IDocumentProperties::SetCustomPropertyValue(System::String, bool) method
 
 
 Sets a named boolean custom property.
@@ -23,13 +23,7 @@ virtual void Aspose::Slides::IDocumentProperties::SetCustomPropertyValue(System:
 | name | [System::String](../../../system/string/) | Name of the custom property to set |
 | value | **bool** | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IDocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IDocumentProperties::SetCustomPropertyValue([System::String](../../../system/string/), **int32_t**) method
+## IDocumentProperties::SetCustomPropertyValue(System::String, int32_t) method
 
 
 Sets a named integer custom property.
@@ -46,13 +40,7 @@ virtual void Aspose::Slides::IDocumentProperties::SetCustomPropertyValue(System:
 | name | [System::String](../../../system/string/) | Name of the custom property to set |
 | value | **int32_t** | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IDocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IDocumentProperties::SetCustomPropertyValue([System::String](../../../system/string/), [System::DateTime](../../../system/datetime/)) method
+## IDocumentProperties::SetCustomPropertyValue(System::String, System::DateTime) method
 
 
 Sets a named DateTime custom property.
@@ -69,14 +57,7 @@ virtual void Aspose::Slides::IDocumentProperties::SetCustomPropertyValue(System:
 | name | [System::String](../../../system/string/) | Name of the custom property to set |
 | value | [System::DateTime](../../../system/datetime/) | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [DateTime](../../../system/datetime/)
-* Class [IDocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IDocumentProperties::SetCustomPropertyValue([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## IDocumentProperties::SetCustomPropertyValue(System::String, System::String) method
 
 
 Sets a named string custom property.
@@ -93,13 +74,7 @@ virtual void Aspose::Slides::IDocumentProperties::SetCustomPropertyValue(System:
 | name | [System::String](../../../system/string/) | Name of the custom property to set |
 | value | [System::String](../../../system/string/) | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IDocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IDocumentProperties::SetCustomPropertyValue([System::String](../../../system/string/), **float**) method
+## IDocumentProperties::SetCustomPropertyValue(System::String, float) method
 
 
 Sets a named float custom property.
@@ -116,13 +91,7 @@ virtual void Aspose::Slides::IDocumentProperties::SetCustomPropertyValue(System:
 | name | [System::String](../../../system/string/) | Name of the custom property to set |
 | value | **float** | Custom property value |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [IDocumentProperties](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IDocumentProperties::SetCustomPropertyValue([System::String](../../../system/string/), **double**) method
+## IDocumentProperties::SetCustomPropertyValue(System::String, double) method
 
 
 Sets a named double custom property.
@@ -143,5 +112,6 @@ virtual void Aspose::Slides::IDocumentProperties::SetCustomPropertyValue(System:
 
 * Class [String](../../../system/string/)
 * Class [IDocumentProperties](../)
+* Class [DateTime](../../../system/datetime/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

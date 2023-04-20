@@ -15,11 +15,6 @@ Constructs empty queue.
 System::Collections::Generic::Queue<T>::Queue()
 ```
 
-## See Also
-
-* Class [Queue](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## Queue::Queue(int) constructor
 
 
@@ -36,12 +31,7 @@ System::Collections::Generic::Queue<T>::Queue(int capacity)
 | --- | --- | --- |
 | capacity | int | Number of elements to reserve. |
 
-## See Also
-
-* Class [Queue](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## Queue::Queue(const [SharedPtr](../../../system/sharedptr/)\<[IEnumerable](../../ienumerable/)\<T\>\>\&) constructor
+## Queue::Queue(const SharedPtr\<IEnumerable\<T\>\>\&) constructor
 
 
 Copy constructor.
@@ -60,7 +50,7 @@ System::Collections::Generic::Queue<T>::Queue(const SharedPtr<IEnumerable<T>> &i
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IEnumerable](../../ienumerable/)
 * Class [Queue](../)
+* Class [IEnumerable](../../ienumerable/)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

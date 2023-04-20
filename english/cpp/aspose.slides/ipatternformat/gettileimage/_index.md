@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/aspose.slides/ipatternformat/gettileimage/
 ---
-## IPatternFormat::GetTileImage([System::Drawing::Color](../../../system.drawing/color/), [System::Drawing::Color](../../../system.drawing/color/)) method
+## IPatternFormat::GetTileImage(System::Drawing::Color, System::Drawing::Color) method
 
 
 Creates a tile image for the pattern fill with a specified colors.
@@ -27,15 +27,7 @@ virtual System::SharedPtr<System::Drawing::Bitmap> Aspose::Slides::IPatternForma
 
 Tile [System::Drawing::Bitmap](../../../system.drawing/bitmap/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Bitmap](../../../system.drawing/bitmap/)
-* Class [Color](../../../system.drawing/color/)
-* Class [IPatternFormat](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IPatternFormat::GetTileImage([System::Drawing::Color](../../../system.drawing/color/)) method
+## IPatternFormat::GetTileImage(System::Drawing::Color) method
 
 
 Creates a tile image for the pattern fill.

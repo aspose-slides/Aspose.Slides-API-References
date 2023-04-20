@@ -3,7 +3,7 @@ title: SplitterBarStateType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and secondary region within a viewing area.
 type: docs
-weight: 6358
+weight: 6098
 url: /cpp/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType enum

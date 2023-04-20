@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.xml/xmlreadersettings/set_dtdprocessing/
 ---
-## XmlReaderSettings::set_DtdProcessing([System::Xml::DtdProcessing](../../dtdprocessing/)) method
+## XmlReaderSettings::set_DtdProcessing(System::Xml::DtdProcessing) method
 
 
 Sets a value that determines the processing of DTDs.

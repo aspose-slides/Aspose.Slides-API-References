@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.drawing.drawing2d/adjustablearrowcap/set_filled/
 ---
-## AdjustableArrowCap::set_Filled(**bool**) method
+## AdjustableArrowCap::set_Filled(bool) method
 
 
 Sets a value that specifies if the arrow represented by the current object is filled.

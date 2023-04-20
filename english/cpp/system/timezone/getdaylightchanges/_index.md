@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system/timezone/getdaylightchanges/
 ---
-## TimeZone::GetDaylightChanges(**int32_t**) method
+## TimeZone::GetDaylightChanges(int32_t) method
 
 
 Returns the daylight saving time period for a particular year.

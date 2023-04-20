@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.xml/signedxml/set_signingkeyname/
 ---
-## SignedXml::set_SigningKeyName([String](../../../system/string/)) method
+## SignedXml::set_SigningKeyName(String) method
 
 
 

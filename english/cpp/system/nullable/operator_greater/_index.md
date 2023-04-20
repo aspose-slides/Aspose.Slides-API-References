@@ -15,11 +15,6 @@ Always returns false.
 bool System::Nullable<T>::operator>(std::nullptr_t) const
 ```
 
-## See Also
-
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Nullable::operator>(const T1\&) const method
 
 
@@ -46,13 +41,7 @@ template<typename T1> std::enable_if<!IsNullable<T1>::value, bool>::type System:
 
 True if the value represented by the current object is greater than the specified value, otherwise - false
 
-## See Also
-
-* Struct [IsNullable](../../isnullable/)
-* Class [Nullable](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Nullable::operator>(const [Nullable](../)\<T1\>\&) const method
+## Nullable::operator>(const Nullable\<T1\>\&) const method
 
 
 Determines if the value represented by the current object is greater than the value represented by the specified [Nullable](../) object by applying [operator>()](./) to these values.
@@ -81,6 +70,6 @@ True if the value represented by the current object is greater than the value re
 ## See Also
 
 * Class [Nullable](../)
-* Class [Nullable](../)
+* Struct [IsNullable](../../isnullable/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

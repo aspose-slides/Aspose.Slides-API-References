@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml/xmlattribute/set_innerxml/
 ---
-## XmlAttribute::set_InnerXml([String](../../../system/string/)) method
+## XmlAttribute::set_InnerXml(String) method
 
 
 Sets the value of the attribute.

@@ -27,11 +27,6 @@ static bool System::Char::IsLetter(const char_t *str, int idx)
 
 True if the character at the specified index is Unicode letter, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsLetter(char_t) method
 
 

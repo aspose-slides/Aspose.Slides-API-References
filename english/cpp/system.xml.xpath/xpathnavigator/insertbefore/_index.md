@@ -20,14 +20,7 @@ virtual SharedPtr<XmlWriter> System::Xml::XPath::XPathNavigator::InsertBefore()
 
 An [XmlWriter](../../../system.xml/xmlwriter/) object used to create a new sibling node before the currently selected node.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlWriter](../../../system.xml/xmlwriter/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::InsertBefore([String](../../../system/string/)) method
+## XPathNavigator::InsertBefore(String) method
 
 
 Creates a new sibling node before the currently selected node using the XML string specified.
@@ -43,13 +36,7 @@ virtual void System::Xml::XPath::XPathNavigator::InsertBefore(String newSibling)
 | --- | --- | --- |
 | newSibling | [String](../../../system/string/) | The XML data string for the new sibling node. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::InsertBefore([SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\>) method
+## XPathNavigator::InsertBefore(SharedPtr\<XmlReader\>) method
 
 
 Creates a new sibling node before the currently selected node using the XML contents of the [XmlReader](../../../system.xml/xmlreader/) object specified.
@@ -65,14 +52,7 @@ virtual void System::Xml::XPath::XPathNavigator::InsertBefore(SharedPtr<XmlReade
 | --- | --- | --- |
 | newSibling | [SharedPtr](../../../system/sharedptr/)\<[XmlReader](../../../system.xml/xmlreader/)\> | An [XmlReader](../../../system.xml/xmlreader/) object positioned on the XML data for the new sibling node. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlReader](../../../system.xml/xmlreader/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
-## XPathNavigator::InsertBefore([SharedPtr](../../../system/sharedptr/)\<[XPathNavigator](../)\>) method
+## XPathNavigator::InsertBefore(SharedPtr\<XPathNavigator\>) method
 
 
 Creates a new sibling node before the currently selected node using the nodes in the [XPathNavigator](../) specified.
@@ -91,7 +71,9 @@ virtual void System::Xml::XPath::XPathNavigator::InsertBefore(SharedPtr<XPathNav
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlWriter](../../../system.xml/xmlwriter/)
 * Class [XPathNavigator](../)
-* Class [XPathNavigator](../)
+* Class [String](../../../system/string/)
+* Class [XmlReader](../../../system.xml/xmlreader/)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

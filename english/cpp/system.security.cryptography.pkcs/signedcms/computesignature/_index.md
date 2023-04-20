@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.security.cryptography.pkcs/signedcms/computesignature/
 ---
-## SignedCms::ComputeSignature(const [SharedPtr](../../../system/sharedptr/)\<[CmsSigner](../../cmssigner/)\>\&, **bool**) method
+## SignedCms::ComputeSignature(const SharedPtr\<CmsSigner\>\&, bool) method
 
 
 Creates a signature.

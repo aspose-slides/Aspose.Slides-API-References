@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.web.services.protocols/soapdocumentmethodattribute/set_requestnamespace/
 ---
-## SoapDocumentMethodAttribute::set_RequestNamespace([String](../../../system/string/)) method
+## SoapDocumentMethodAttribute::set_RequestNamespace(String) method
 
 
 Sets the namespace associated with the SOAP request.

@@ -6,7 +6,7 @@ type: docs
 weight: 196
 url: /cpp/system.xml/xmlparsercontext/set_xmllang/
 ---
-## XmlParserContext::set_XmlLang(const [String](../../../system/string/)\&) method
+## XmlParserContext::set_XmlLang(const String\&) method
 
 
 Sets the current **xml:lang** scope.

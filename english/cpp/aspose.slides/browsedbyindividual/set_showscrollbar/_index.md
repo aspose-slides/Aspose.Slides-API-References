@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/browsedbyindividual/set_showscrollbar/
 ---
-## BrowsedByIndividual::set_ShowScrollbar(**bool**) method
+## BrowsedByIndividual::set_ShowScrollbar(bool) method
 
 
 Show Scroll Bar in Window

@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides.export/ilinkembedcontroller/getobjectstoringlocation/
 ---
-## ILinkEmbedController::GetObjectStoringLocation(**int32_t**, [System::ArrayPtr](../../../system/arrayptr/)\<**uint8_t**\>, [System::String](../../../system/string/), [System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## ILinkEmbedController::GetObjectStoringLocation(int32_t, System::ArrayPtr\<uint8_t\>, System::String, System::String, System::String) method
 
 
 Determines where object should be stored. This method is called once for each object id. It is not guaranteed that there won't be two objects with same data, semanticName and contentType but with different id.

@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system.net/cookiecontainer/setcookies/
 ---
-## CookieContainer::SetCookies([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>, [String](../../../system/string/)) method
+## CookieContainer::SetCookies(System::SharedPtr\<Uri\>, String) method
 
 
 Copies cookies from the specified header to the collection and associates them with the specified URI.

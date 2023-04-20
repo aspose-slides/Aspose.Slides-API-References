@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/productheadervalue/productheadervalue/
 ---
-## ProductHeaderValue::ProductHeaderValue([String](../../../system/string/)) constructor
+## ProductHeaderValue::ProductHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -22,13 +22,7 @@ System::Net::Http::Headers::ProductHeaderValue::ProductHeaderValue(String name)
 | --- | --- | --- |
 | name | [String](../../../system/string/) | The product token name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ProductHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## ProductHeaderValue::ProductHeaderValue([String](../../../system/string/), [String](../../../system/string/)) constructor
+## ProductHeaderValue::ProductHeaderValue(String, String) constructor
 
 
 Constructs a new instance.

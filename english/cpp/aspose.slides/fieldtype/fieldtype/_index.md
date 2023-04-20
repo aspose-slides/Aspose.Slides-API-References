@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides/fieldtype/fieldtype/
 ---
-## FieldType::FieldType([System::String](../../../system/string/)) constructor
+## FieldType::FieldType(System::String) constructor
 
 
 Initializes a new instance of [FieldType](../) class.

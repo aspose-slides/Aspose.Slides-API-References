@@ -6,7 +6,7 @@ type: docs
 weight: 742
 url: /cpp/system.net/httpwebrequest/set_connectiongroupname/
 ---
-## HttpWebRequest::set_ConnectionGroupName([System::String](../../../system/string/)) method
+## HttpWebRequest::set_ConnectionGroupName(System::String) method
 
 
 Sets the name of the connection group.

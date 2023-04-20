@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.xml/xmlwritersettings/set_newlineonattributes/
 ---
-## XmlWriterSettings::set_NewLineOnAttributes(**bool**) method
+## XmlWriterSettings::set_NewLineOnAttributes(bool) method
 
 
 Sets a value indicating whether to write attributes on a new line.

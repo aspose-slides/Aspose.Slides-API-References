@@ -15,12 +15,7 @@ Constructs a new [SizeF](../) object and initializes its width and height values
 System::Drawing::SizeF::SizeF()
 ```
 
-## See Also
-
-* Class [SizeF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## SizeF::SizeF(const [PointF](../../pointf/)\&) constructor
+## SizeF::SizeF(const PointF\&) constructor
 
 
 Constructs a new [SizeF](../) object and initializes its width and height values with the values of X and Y coordinates of the specifide point correspondingly.
@@ -36,13 +31,7 @@ System::Drawing::SizeF::SizeF(const PointF &point)
 | --- | --- | --- |
 | point | const [PointF](../../pointf/)\& | A [Point](../../point/) object whose X and Y coordinates are used to initialize width and height value of the [SizeF](../) object being created |
 
-## See Also
-
-* Class [PointF](../../pointf/)
-* Class [SizeF](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## SizeF::SizeF(**float**, **float**) constructor
+## SizeF::SizeF(float, float) constructor
 
 
 Constructs a new [SizeF](../) object and initializes it with the specified value.
@@ -62,5 +51,6 @@ System::Drawing::SizeF::SizeF(float width, float height)
 ## See Also
 
 * Class [SizeF](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

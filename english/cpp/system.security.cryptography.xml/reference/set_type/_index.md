@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography.xml/reference/set_type/
 ---
-## Reference::set_Type([String](../../../system/string/)) method
+## Reference::set_Type(String) method
 
 
 

@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system/decimal/operator_minus/
 ---
-## Decimal::operator-(const [Decimal](../)\&) const method
+## Decimal::operator-(const Decimal\&) const method
 
 
 Returns a new instance of [Decimal](../) class that represents a value that is the result of subtraction of the value represented by the specified object from the value represented by the current object.
@@ -26,12 +26,6 @@ Decimal System::Decimal::operator-(const Decimal &d) const
 
 A new instance of [Decimal](../) class that represents a value that is the result of subtraction of the value represented by the specified object from the value represented by the current object
 
-## See Also
-
-* Class [Decimal](../)
-* Class [Decimal](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Decimal::operator-() const method
 
 
@@ -43,7 +37,6 @@ Decimal System::Decimal::operator-() const
 
 ## See Also
 
-* Class [Decimal](../)
 * Class [Decimal](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

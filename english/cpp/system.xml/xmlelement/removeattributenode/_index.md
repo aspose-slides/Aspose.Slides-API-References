@@ -6,7 +6,7 @@ type: docs
 weight: 274
 url: /cpp/system.xml/xmlelement/removeattributenode/
 ---
-## XmlElement::RemoveAttributeNode([SharedPtr](../../../system/sharedptr/)\<[XmlAttribute](../../xmlattribute/)\>) method
+## XmlElement::RemoveAttributeNode(SharedPtr\<XmlAttribute\>) method
 
 
 Removes the specified [XmlAttribute](../../xmlattribute/).
@@ -26,14 +26,7 @@ virtual SharedPtr<XmlAttribute> System::Xml::XmlElement::RemoveAttributeNode(Sha
 
 The removed [XmlAttribute](../../xmlattribute/) or **nullptr** if **oldAttr** is not an attribute node of the [XmlElement](../).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlAttribute](../../xmlattribute/)
-* Class [XmlElement](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlElement::RemoveAttributeNode([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlElement::RemoveAttributeNode(String, String) method
 
 
 Removes the [XmlAttribute](../../xmlattribute/) specified by the local name and namespace URI. (If the removed attribute has a default value, it is immediately replaced).
@@ -58,7 +51,7 @@ The removed [XmlAttribute](../../xmlattribute/) or **nullptr** if the [XmlElemen
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlAttribute](../../xmlattribute/)
-* Class [String](../../../system/string/)
 * Class [XmlElement](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

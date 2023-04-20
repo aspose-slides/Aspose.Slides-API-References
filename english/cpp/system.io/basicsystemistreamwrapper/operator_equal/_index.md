@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.io/basicsystemistreamwrapper/operator_equal/
 ---
-## BasicSystemIStreamWrapper::operator=(const [BasicSystemIStreamWrapper](../)\&) method
+## BasicSystemIStreamWrapper::operator=(const BasicSystemIStreamWrapper\&) method
 
 
 Copy assignment operator. Deleted.
@@ -15,13 +15,7 @@ Copy assignment operator. Deleted.
 BasicSystemIStreamWrapper & System::IO::BasicSystemIStreamWrapper<Elem, Traits>::operator=(const BasicSystemIStreamWrapper &)=delete
 ```
 
-## See Also
-
-* Class [BasicSystemIStreamWrapper](../)
-* Class [BasicSystemIStreamWrapper](../)
-* Namespace [System::IO](../../)
-* Library [Aspose.Slides](../../../)
-## BasicSystemIStreamWrapper::operator=([BasicSystemIStreamWrapper](../)\&&) method
+## BasicSystemIStreamWrapper::operator=(BasicSystemIStreamWrapper\&&) method
 
 
 Move assignment operator.
@@ -43,7 +37,6 @@ BasicSystemIStreamWrapper & System::IO::BasicSystemIStreamWrapper<Elem, Traits>:
 
 ## See Also
 
-* Class [BasicSystemIStreamWrapper](../)
 * Class [BasicSystemIStreamWrapper](../)
 * Namespace [System::IO](../../)
 * Library [Aspose.Slides](../../../)

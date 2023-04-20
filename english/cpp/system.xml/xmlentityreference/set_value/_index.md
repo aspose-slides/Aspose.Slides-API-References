@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.xml/xmlentityreference/set_value/
 ---
-## XmlEntityReference::set_Value([String](../../../system/string/)) method
+## XmlEntityReference::set_Value(String) method
 
 
 Sets the value of the node.

@@ -18,6 +18,5 @@ static HashAlgorithmName System::Security::Cryptography::HashAlgorithmName::get_
 ## See Also
 
 * Struct [HashAlgorithmName](../)
-* Struct [HashAlgorithmName](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

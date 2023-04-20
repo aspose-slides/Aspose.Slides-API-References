@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system.xml/xmltextreader/set_normalization/
 ---
-## XmlTextReader::set_Normalization(**bool**) method
+## XmlTextReader::set_Normalization(bool) method
 
 
 Sets a value indicating whether to normalize white space and attribute values.

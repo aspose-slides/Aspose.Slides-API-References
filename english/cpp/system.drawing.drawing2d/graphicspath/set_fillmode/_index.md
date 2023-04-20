@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.drawing.drawing2d/graphicspath/set_fillmode/
 ---
-## GraphicsPath::set_FillMode([FillMode](../../fillmode/)) method
+## GraphicsPath::set_FillMode(FillMode) method
 
 
 Sets the fill mode of the current object.

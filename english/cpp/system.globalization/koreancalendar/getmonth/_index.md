@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.globalization/koreancalendar/getmonth/
 ---
-## KoreanCalendar::GetMonth([DateTime](../../../system/datetime/)) const method
+## KoreanCalendar::GetMonth(DateTime) const method
 
 
 Gets month for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides.charts/ichartdatapoint/set_setastotal/
 ---
-## IChartDataPoint::set_SetAsTotal(**bool**) method
+## IChartDataPoint::set_SetAsTotal(bool) method
 
 
 Sets data point as total. Applied for Waterfall series type only.

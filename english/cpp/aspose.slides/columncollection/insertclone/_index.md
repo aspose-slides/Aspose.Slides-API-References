@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/columncollection/insertclone/
 ---
-## ColumnCollection::InsertClone(**int32_t**, [System::SharedPtr](../../../system/sharedptr/)\<[IColumn](../../icolumn/)\>, **bool**) method
+## ColumnCollection::InsertClone(int32_t, System::SharedPtr\<IColumn\>, bool) method
 
 
 Creates a copy of the specified template column and insert it at the specified position in a table.

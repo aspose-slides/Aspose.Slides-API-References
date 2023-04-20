@@ -26,12 +26,7 @@ static int System::Globalization::CharUnicodeInfo::GetDigitValue(char16_t ch)
 
 The digit value or -1 if the specified character is not a digit.
 
-## See Also
-
-* Class [CharUnicodeInfo](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
-## CharUnicodeInfo::GetDigitValue(const [String](../../../system/string/)\&, int) method
+## CharUnicodeInfo::GetDigitValue(const String\&, int) method
 
 
 Gets digit value of the character at the specified index of the string.
@@ -54,7 +49,7 @@ The digit value or -1 if the specified character is not a digit.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [CharUnicodeInfo](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Globalization](../../)
 * Library [Aspose.Slides](../../../)

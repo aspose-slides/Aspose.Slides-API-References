@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.drawing/rectangle/set_location/
 ---
-## Rectangle::set_Location([Point](../../point/)) method
+## Rectangle::set_Location(Point) method
 
 
 Sets the location of the upper left corner of the rectangle represented by the current object.

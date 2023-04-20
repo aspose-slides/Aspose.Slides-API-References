@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.io/directory/getcreationtime/
 ---
-## Directory::GetCreationTime(const [String](../../../system/string/)\&) method
+## Directory::GetCreationTime(const String\&) method
 
 
 Returns the creation time of the specified entity as local time.

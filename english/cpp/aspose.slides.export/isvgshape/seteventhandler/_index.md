@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/aspose.slides.export/isvgshape/seteventhandler/
 ---
-## ISvgShape::SetEventHandler([SvgEvent](../../svgevent/), [System::String](../../../system/string/)) method
+## ISvgShape::SetEventHandler(SvgEvent, System::String) method
 
 
 Sets event handler for the shape

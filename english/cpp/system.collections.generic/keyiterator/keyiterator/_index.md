@@ -23,11 +23,6 @@ System::Collections::Generic::KeyIterator<Dict>::KeyIterator(typename Dict::map_
 | iterator | typename Dict::map_t::const_iterator\&& | Iterator to hold. |
 | end | typename Dict::map_t::const_iterator\&& | Iterator to the end of the container. |
 
-## See Also
-
-* Class [KeyIterator](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
 ## KeyIterator::KeyIterator(const typename Dict::map_t::const_iterator\&, const typename Dict::map_t::const_iterator\&) constructor
 
 
@@ -45,12 +40,7 @@ System::Collections::Generic::KeyIterator<Dict>::KeyIterator(const typename Dict
 | iterator | const typename Dict::map_t::const_iterator\& | Iterator to hold. |
 | end | const typename Dict::map_t::const_iterator\& | Iterator to the end of the container. |
 
-## See Also
-
-* Class [KeyIterator](../)
-* Namespace [System::Collections::Generic](../../)
-* Library [Aspose.Slides](../../../)
-## KeyIterator::KeyIterator([KeyIterator](../)\&&) constructor
+## KeyIterator::KeyIterator(KeyIterator\&&) constructor
 
 
 Move constructor.
@@ -68,7 +58,6 @@ System::Collections::Generic::KeyIterator<Dict>::KeyIterator(KeyIterator &&other
 
 ## See Also
 
-* Class [KeyIterator](../)
 * Class [KeyIterator](../)
 * Namespace [System::Collections::Generic](../../)
 * Library [Aspose.Slides](../../../)

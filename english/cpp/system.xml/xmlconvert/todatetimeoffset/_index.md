@@ -6,7 +6,7 @@ type: docs
 weight: 430
 url: /cpp/system.xml/xmlconvert/todatetimeoffset/
 ---
-## XmlConvert::ToDateTimeOffset(const [String](../../../system/string/)\&) method
+## XmlConvert::ToDateTimeOffset(const String\&) method
 
 
 Converts the supplied [String](../../../system/string/) to a [DateTimeOffset](../../../system/datetimeoffset/) equivalent.
@@ -26,14 +26,7 @@ static DateTimeOffset System::Xml::XmlConvert::ToDateTimeOffset(const String &s)
 
 The [DateTimeOffset](../../../system/datetimeoffset/) equivalent of the supplied string.
 
-## See Also
-
-* Class [DateTimeOffset](../../../system/datetimeoffset/)
-* Class [String](../../../system/string/)
-* Class [XmlConvert](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlConvert::ToDateTimeOffset(const [String](../../../system/string/)\&, const [String](../../../system/string/)\&) method
+## XmlConvert::ToDateTimeOffset(const String\&, const String\&) method
 
 
 Converts the supplied [String](../../../system/string/) to a [DateTimeOffset](../../../system/datetimeoffset/) equivalent.
@@ -54,14 +47,7 @@ static DateTimeOffset System::Xml::XmlConvert::ToDateTimeOffset(const String &s,
 
 The [DateTimeOffset](../../../system/datetimeoffset/) equivalent of the supplied string.
 
-## See Also
-
-* Class [DateTimeOffset](../../../system/datetimeoffset/)
-* Class [String](../../../system/string/)
-* Class [XmlConvert](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlConvert::ToDateTimeOffset(const [String](../../../system/string/)\&, const [ArrayPtr](../../../system/arrayptr/)\<[String](../../../system/string/)\>\&) method
+## XmlConvert::ToDateTimeOffset(const String\&, const ArrayPtr\<String\>\&) method
 
 
 Converts the supplied [String](../../../system/string/) to a [DateTimeOffset](../../../system/datetimeoffset/) equivalent.
@@ -84,9 +70,9 @@ The [DateTimeOffset](../../../system/datetimeoffset/) equivalent of the supplied
 
 ## See Also
 
+* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [DateTimeOffset](../../../system/datetimeoffset/)
 * Class [String](../../../system/string/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
 * Class [XmlConvert](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

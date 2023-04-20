@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/system/datetimeoffset/addticks/
 ---
-## DateTimeOffset::AddTicks(**int64_t**) const method
+## DateTimeOffset::AddTicks(int64_t) const method
 
 
 Adds a specified number of ticks to the [DateTimeOffset](../) object.
@@ -28,7 +28,6 @@ Result of operation.
 
 ## See Also
 
-* Class [DateTimeOffset](../)
 * Class [DateTimeOffset](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

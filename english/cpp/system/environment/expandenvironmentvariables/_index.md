@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system/environment/expandenvironmentvariables/
 ---
-## Environment::ExpandEnvironmentVariables(const [String](../../string/)\&) method
+## Environment::ExpandEnvironmentVariables(const String\&) method
 
 
 Replaces the names of environment variables found in the specified string with the values of those variables and returns the resulting string.

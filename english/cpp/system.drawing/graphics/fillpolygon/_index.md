@@ -6,7 +6,7 @@ type: docs
 weight: 417
 url: /cpp/system.drawing/graphics/fillpolygon/
 ---
-## Graphics::FillPolygon(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\&, [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/)) method
+## Graphics::FillPolygon(const SharedPtr\<Brush\>\&, const ArrayPtr\<Point\>\&, Drawing2D::FillMode) method
 
 
 Fills the interiors of the specified polygon using the specified brush.
@@ -24,17 +24,7 @@ void System::Drawing::Graphics::FillPolygon(const SharedPtr<Brush> &brush, const
 | points | const [ArrayPtr](../../../system/arrayptr/)\<[Point](../../point/)\>\& | An array containing the points that define the polygon |
 | fillMode | [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/) | The fill mode |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [Point](../../point/)
-* Enum [FillMode](../../../system.drawing.drawing2d/fillmode/)
-* Class [Graphics](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Graphics::FillPolygon(const [SharedPtr](../../../system/sharedptr/)\<[Brush](../../brush/)\>\&, const [ArrayPtr](../../../system/arrayptr/)\<[PointF](../../pointf/)\>\&, [Drawing2D::FillMode](../../../system.drawing.drawing2d/fillmode/)) method
+## Graphics::FillPolygon(const SharedPtr\<Brush\>\&, const ArrayPtr\<PointF\>\&, Drawing2D::FillMode) method
 
 
 Fills the interiors of the specified polygon using the specified brush.
@@ -54,11 +44,12 @@ void System::Drawing::Graphics::FillPolygon(const SharedPtr<Brush> &brush, const
 
 ## See Also
 
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Brush](../../brush/)
-* Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [PointF](../../pointf/)
 * Enum [FillMode](../../../system.drawing.drawing2d/fillmode/)
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Typedef [ArrayPtr](../../../system/arrayptr/)
+* Class [Brush](../../brush/)
+* Class [Point](../../point/)
 * Class [Graphics](../)
+* Class [PointF](../../pointf/)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

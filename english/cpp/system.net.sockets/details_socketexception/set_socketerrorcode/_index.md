@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.net.sockets/details_socketexception/set_socketerrorcode/
 ---
-## Details_SocketException::set_SocketErrorCode([SocketError](../../socketerror/)) method
+## Details_SocketException::set_SocketErrorCode(SocketError) method
 
 
 Sets the socket error code.

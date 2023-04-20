@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.security.cryptography/oid/fromfriendlyname/
 ---
-## Oid::FromFriendlyName(const [String](../../../system/string/)\&, [OidGroup](../../oidgroup/)) method
+## Oid::FromFriendlyName(const String\&, OidGroup) method
 
 
 Create OID object from the specified OID friendly name.
@@ -25,10 +25,9 @@ static SharedPtr<Oid> System::Security::Cryptography::Oid::FromFriendlyName(cons
 
 ## See Also
 
+* Enum [OidGroup](../../oidgroup/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [Oid](../)
 * Class [String](../../../system/string/)
-* Enum [OidGroup](../../oidgroup/)
-* Class [Oid](../)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

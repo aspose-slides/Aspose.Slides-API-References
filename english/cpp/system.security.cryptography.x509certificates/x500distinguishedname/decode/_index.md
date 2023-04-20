@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.security.cryptography.x509certificates/x500distinguishedname/decode/
 ---
-## X500DistinguishedName::Decode([X500DistinguishedNameFlags](../../x500distinguishednameflags/)) const method
+## X500DistinguishedName::Decode(X500DistinguishedNameFlags) const method
 
 
 Decodes name using parameters specified by flags.
@@ -28,8 +28,8 @@ Decoded name.
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Enum [X500DistinguishedNameFlags](../../x500distinguishednameflags/)
+* Class [String](../../../system/string/)
 * Class [X500DistinguishedName](../)
 * Namespace [System::Security::Cryptography::X509Certificates](../../)
 * Library [Aspose.Slides](../../../)

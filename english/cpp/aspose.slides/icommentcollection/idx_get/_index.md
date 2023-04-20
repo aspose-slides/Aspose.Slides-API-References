@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/icommentcollection/idx_get/
 ---
-## ICommentCollection::idx_get(**int32_t**) method
+## ICommentCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index. Read-only [IComment](../../icomment/).

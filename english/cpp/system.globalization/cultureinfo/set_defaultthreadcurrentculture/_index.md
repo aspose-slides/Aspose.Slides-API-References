@@ -6,7 +6,7 @@ type: docs
 weight: 469
 url: /cpp/system.globalization/cultureinfo/set_defaultthreadcurrentculture/
 ---
-## CultureInfo::set_DefaultThreadCurrentCulture(const [CultureInfoPtr](../../cultureinfoptr/)\&) method
+## CultureInfo::set_DefaultThreadCurrentCulture(const CultureInfoPtr\&) method
 
 
 Sets default culture in the current application domain.

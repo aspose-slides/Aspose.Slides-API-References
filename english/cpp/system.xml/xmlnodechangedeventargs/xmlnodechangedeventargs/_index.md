@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.xml/xmlnodechangedeventargs/xmlnodechangedeventargs/
 ---
-## XmlNodeChangedEventArgs::XmlNodeChangedEventArgs(const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\&, const [SharedPtr](../../../system/sharedptr/)\<[XmlNode](../../xmlnode/)\>\&, const [String](../../../system/string/)\&, const [String](../../../system/string/)\&, [XmlNodeChangedAction](../../xmlnodechangedaction/)) constructor
+## XmlNodeChangedEventArgs::XmlNodeChangedEventArgs(const SharedPtr\<XmlNode\>\&, const SharedPtr\<XmlNode\>\&, const SharedPtr\<XmlNode\>\&, const String\&, const String\&, XmlNodeChangedAction) constructor
 
 
 Initializes a new instance of the [XmlNodeChangedEventArgs](../) class.
@@ -29,10 +29,10 @@ System::Xml::XmlNodeChangedEventArgs::XmlNodeChangedEventArgs(const SharedPtr<Xm
 
 ## See Also
 
+* Enum [XmlNodeChangedAction](../../xmlnodechangedaction/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [XmlNode](../../xmlnode/)
 * Class [String](../../../system/string/)
-* Enum [XmlNodeChangedAction](../../xmlnodechangedaction/)
 * Class [XmlNodeChangedEventArgs](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

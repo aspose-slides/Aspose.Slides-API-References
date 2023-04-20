@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.effects/blur/set_radius/
 ---
-## Blur::set_Radius(**double**) method
+## Blur::set_Radius(double) method
 
 
 Sets blur radius. Write **double**.

@@ -6,7 +6,7 @@ type: docs
 weight: 586
 url: /cpp/system.xml/xmlnode/idx_get/
 ---
-## XmlNode::idx_get([String](../../../system/string/)) method
+## XmlNode::idx_get(String) method
 
 
 Returns the first child element with the specified [XmlNode::get_Name](../get_name/).
@@ -26,15 +26,7 @@ virtual SharedPtr<XmlElement> System::Xml::XmlNode::idx_get(String name)
 
 The first [XmlElement](../../xmlelement/) that matches the specified name. It returns **nullptr** if there is no match.
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [XmlElement](../../xmlelement/)
-* Class [String](../../../system/string/)
-* Class [XmlNode](../)
-* Namespace [System::Xml](../../)
-* Library [Aspose.Slides](../../../)
-## XmlNode::idx_get([String](../../../system/string/), [String](../../../system/string/)) method
+## XmlNode::idx_get(String, String) method
 
 
 Returns the first child element with the specified [XmlNode::get_LocalName](../get_localname/) and [XmlNode::get_NamespaceURI](../get_namespaceuri/) values.

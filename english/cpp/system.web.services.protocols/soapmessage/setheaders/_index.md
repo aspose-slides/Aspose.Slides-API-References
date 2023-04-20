@@ -6,7 +6,7 @@ type: docs
 weight: 287
 url: /cpp/system.web.services.protocols/soapmessage/setheaders/
 ---
-## SoapMessage::SetHeaders([System::SharedPtr](../../../system/sharedptr/)\<[SoapHeaderCollection](../../soapheadercollection/)\>) method
+## SoapMessage::SetHeaders(System::SharedPtr\<SoapHeaderCollection\>) method
 
 
 Sets the collection of the SOAP headers.

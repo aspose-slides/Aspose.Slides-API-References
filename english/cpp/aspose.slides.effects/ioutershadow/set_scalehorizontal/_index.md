@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides.effects/ioutershadow/set_scalehorizontal/
 ---
-## IOuterShadow::set_ScaleHorizontal(**double**) method
+## IOuterShadow::set_ScaleHorizontal(double) method
 
 
 Specifies the horizontal scaling factor, negative scaling causes a flip. Write **double**.

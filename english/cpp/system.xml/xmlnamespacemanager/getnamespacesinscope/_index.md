@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.xml/xmlnamespacemanager/getnamespacesinscope/
 ---
-## XmlNamespaceManager::GetNamespacesInScope([XmlNamespaceScope](../../xmlnamespacescope/)) method
+## XmlNamespaceManager::GetNamespacesInScope(XmlNamespaceScope) method
 
 
 Returns a collection of namespace names keyed by prefix which can be used to enumerate the namespaces currently in scope.
@@ -28,10 +28,10 @@ A collection of namespace and prefix pairs currently in scope.
 
 ## See Also
 
+* Enum [XmlNamespaceScope](../../xmlnamespacescope/)
 * Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [IDictionary](../../../system.collections.generic/idictionary/)
 * Class [String](../../../system/string/)
-* Enum [XmlNamespaceScope](../../xmlnamespacescope/)
 * Class [XmlNamespaceManager](../)
 * Namespace [System::Xml](../../)
 * Library [Aspose.Slides](../../../)

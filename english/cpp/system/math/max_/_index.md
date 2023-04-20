@@ -6,7 +6,7 @@ type: docs
 weight: 365
 url: /cpp/system/math/max_/
 ---
-## Math::Max_(**float**, **float**) method
+## Math::Max_(float, float) method
 
 
 Returns the largest single-precision floating point value out of the two specified.
@@ -27,12 +27,7 @@ float System::Math::Max_(float val1, float val2)
 
 The largest value out of **val1** and **val2**; or NaN if one of the operands is NaN
 
-## See Also
-
-* Struct [Math](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## Math::Max_(**double**, **double**) method
+## Math::Max_(double, double) method
 
 
 Returns the largest double-precision floating point value out of the two specified.

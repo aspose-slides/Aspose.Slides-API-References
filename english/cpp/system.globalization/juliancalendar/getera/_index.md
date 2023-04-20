@@ -6,7 +6,7 @@ type: docs
 weight: 105
 url: /cpp/system.globalization/juliancalendar/getera/
 ---
-## JulianCalendar::GetEra([DateTime](../../../system/datetime/)) const method
+## JulianCalendar::GetEra(DateTime) const method
 
 
 Gets era for the specified time point.

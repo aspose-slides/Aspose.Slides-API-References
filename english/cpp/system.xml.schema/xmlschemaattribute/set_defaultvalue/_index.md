@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.xml.schema/xmlschemaattribute/set_defaultvalue/
 ---
-## XmlSchemaAttribute::set_DefaultValue(const [String](../../../system/string/)\&) method
+## XmlSchemaAttribute::set_DefaultValue(const String\&) method
 
 
 Sets the default value for the attribute.

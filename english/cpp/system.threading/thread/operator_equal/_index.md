@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.threading/thread/operator_equal/
 ---
-## Thread::operator=(const [Thread](../)\&) method
+## Thread::operator=(const Thread\&) method
 
 
 Copies TLS data from different thread.
@@ -28,7 +28,6 @@ Self reference.
 
 ## See Also
 
-* Class [Thread](../)
 * Class [Thread](../)
 * Namespace [System::Threading](../../)
 * Library [Aspose.Slides](../../../)

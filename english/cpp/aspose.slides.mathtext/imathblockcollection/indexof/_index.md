@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.mathtext/imathblockcollection/indexof/
 ---
-## IMathBlockCollection::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## IMathBlockCollection::IndexOf(System::SharedPtr\<IMathBlock\>) method
 
 
 Determines the index of a specific [IMathBlock](../../imathblock/) in collection.

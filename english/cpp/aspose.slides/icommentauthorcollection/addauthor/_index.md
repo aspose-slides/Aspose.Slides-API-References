@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides/icommentauthorcollection/addauthor/
 ---
-## ICommentAuthorCollection::AddAuthor([System::String](../../../system/string/), [System::String](../../../system/string/)) method
+## ICommentAuthorCollection::AddAuthor(System::String, System::String) method
 
 
 Add new author at the end of a collection.

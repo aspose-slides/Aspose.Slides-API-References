@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.animation/imotioneffect/set_from/
 ---
-## IMotionEffect::set_From([System::Drawing::PointF](../../../system.drawing/pointf/)) method
+## IMotionEffect::set_From(System::Drawing::PointF) method
 
 
 Specifies an x/y co-ordinate to start the animation from (in percents). Write [System::Drawing::PointF](../../../system.drawing/pointf/).

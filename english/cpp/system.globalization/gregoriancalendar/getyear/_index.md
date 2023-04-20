@@ -6,7 +6,7 @@ type: docs
 weight: 170
 url: /cpp/system.globalization/gregoriancalendar/getyear/
 ---
-## GregorianCalendar::GetYear([DateTime](../../../system/datetime/)) const method
+## GregorianCalendar::GetYear(DateTime) const method
 
 
 Gets year for the specified time point.

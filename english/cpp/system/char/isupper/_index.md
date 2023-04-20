@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/system/char/isupper/
 ---
-## Char::IsUpper(const [String](../../string/)\&, int) method
+## Char::IsUpper(const String\&, int) method
 
 
 Determines whether the character at the specified index in the specified string is classified as an upper case letter.
@@ -27,12 +27,6 @@ static bool System::Char::IsUpper(const String &str, int idx)
 
 True if the character at the specified index is an upper case letter, otherwise - false
 
-## See Also
-
-* Class [String](../../string/)
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsUpper(const char_t *, int) method
 
 
@@ -54,11 +48,6 @@ static bool System::Char::IsUpper(const char_t *str, int idx)
 
 True if the character at the specified index is an upper case letter, otherwise - false
 
-## See Also
-
-* Class [Char](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## Char::IsUpper(char_t) method
 
 
@@ -81,6 +70,7 @@ True if the specified character is an upper case letter, otherwise - false
 
 ## See Also
 
+* Class [String](../../string/)
 * Class [Char](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

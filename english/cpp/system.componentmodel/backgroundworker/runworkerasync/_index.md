@@ -15,12 +15,7 @@ Starts execution of a background operation.
 void System::ComponentModel::BackgroundWorker::RunWorkerAsync()
 ```
 
-## See Also
-
-* Class [BackgroundWorker](../)
-* Namespace [System::ComponentModel](../../)
-* Library [Aspose.Slides](../../../)
-## BackgroundWorker::RunWorkerAsync(const [System::SharedPtr](../../../system/sharedptr/)\<[System::Object](../../../system/object/)\>\&) method
+## BackgroundWorker::RunWorkerAsync(const System::SharedPtr\<System::Object\>\&) method
 
 
 Starts execution of a background operation.
@@ -39,7 +34,7 @@ void System::ComponentModel::BackgroundWorker::RunWorkerAsync(const System::Shar
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Object](../../../system/object/)
 * Class [BackgroundWorker](../)
+* Class [Object](../../../system/object/)
 * Namespace [System::ComponentModel](../../)
 * Library [Aspose.Slides](../../../)

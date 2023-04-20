@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system/collectionasserthelper/tofullmessage/
 ---
-## CollectionAssertHelper::ToFullMessage(const [System::String](../../string/)\&) method
+## CollectionAssertHelper::ToFullMessage(const System::String\&) method
 
 
 Formats string to be used as message text.

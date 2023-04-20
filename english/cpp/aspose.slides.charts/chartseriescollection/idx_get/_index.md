@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/aspose.slides.charts/chartseriescollection/idx_get/
 ---
-## ChartSeriesCollection::idx_get(**int32_t**) method
+## ChartSeriesCollection::idx_get(int32_t) method
 
 
 Gets the element at the specified index.

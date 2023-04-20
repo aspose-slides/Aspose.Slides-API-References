@@ -6,7 +6,7 @@ type: docs
 weight: 92
 url: /cpp/system.xml/xmldocumentfragment/writeto/
 ---
-## XmlDocumentFragment::WriteTo(const [SharedPtr](../../../system/sharedptr/)\<[XmlWriter](../../xmlwriter/)\>\&) method
+## XmlDocumentFragment::WriteTo(const SharedPtr\<XmlWriter\>\&) method
 
 
 Saves the node to the specified [XmlWriter](../../xmlwriter/).

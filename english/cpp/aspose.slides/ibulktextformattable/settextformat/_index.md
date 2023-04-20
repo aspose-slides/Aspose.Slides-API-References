@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/aspose.slides/ibulktextformattable/settextformat/
 ---
-## IBulkTextFormattable::SetTextFormat([System::SharedPtr](../../../system/sharedptr/)\<[IPortionFormat](../../iportionformat/)\>) method
+## IBulkTextFormattable::SetTextFormat(System::SharedPtr\<IPortionFormat\>) method
 
 
 Sets defined portion format properties to all element's portions.
@@ -22,14 +22,7 @@ virtual void Aspose::Slides::IBulkTextFormattable::SetTextFormat(System::SharedP
 | --- | --- | --- |
 | source | [System::SharedPtr](../../../system/sharedptr/)\<[IPortionFormat](../../iportionformat/)\> | [IPortionFormat](../../iportionformat/) object with necessary properties set. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IPortionFormat](../../iportionformat/)
-* Class [IBulkTextFormattable](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IBulkTextFormattable::SetTextFormat([System::SharedPtr](../../../system/sharedptr/)\<[IParagraphFormat](../../iparagraphformat/)\>) method
+## IBulkTextFormattable::SetTextFormat(System::SharedPtr\<IParagraphFormat\>) method
 
 
 Sets defined paragraph format properties to all element's paragraphs.
@@ -45,14 +38,7 @@ virtual void Aspose::Slides::IBulkTextFormattable::SetTextFormat(System::SharedP
 | --- | --- | --- |
 | source | [System::SharedPtr](../../../system/sharedptr/)\<[IParagraphFormat](../../iparagraphformat/)\> | [IParagraphFormat](../../iparagraphformat/) object with necessary properties set. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraphFormat](../../iparagraphformat/)
-* Class [IBulkTextFormattable](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IBulkTextFormattable::SetTextFormat([System::SharedPtr](../../../system/sharedptr/)\<[ITextFrameFormat](../../itextframeformat/)\>) method
+## IBulkTextFormattable::SetTextFormat(System::SharedPtr\<ITextFrameFormat\>) method
 
 
 Sets defined text frame format properties to all element's text frames.
@@ -71,7 +57,9 @@ virtual void Aspose::Slides::IBulkTextFormattable::SetTextFormat(System::SharedP
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ITextFrameFormat](../../itextframeformat/)
+* Class [IPortionFormat](../../iportionformat/)
 * Class [IBulkTextFormattable](../)
+* Class [IParagraphFormat](../../iparagraphformat/)
+* Class [ITextFrameFormat](../../itextframeformat/)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.drawing/stringformat/settabstops/
 ---
-## StringFormat::SetTabStops(**float**, const [ArrayPtr](../../../system/arrayptr/)\<**float**\>\&) method
+## StringFormat::SetTabStops(float, const ArrayPtr\<float\>\&) method
 
 
 Sets the tab stops for the current [StringFormat](../) object.

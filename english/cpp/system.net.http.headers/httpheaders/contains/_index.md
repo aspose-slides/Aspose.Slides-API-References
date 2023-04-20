@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.net.http.headers/httpheaders/contains/
 ---
-## HttpHeaders::Contains([String](../../../system/string/)) method
+## HttpHeaders::Contains(String) method
 
 
 

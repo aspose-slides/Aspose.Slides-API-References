@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/system.security/securityelement/set_tag/
 ---
-## SecurityElement::set_Tag(const [String](../../../system/string/)\&) method
+## SecurityElement::set_Tag(const String\&) method
 
 
 Sets tag name.

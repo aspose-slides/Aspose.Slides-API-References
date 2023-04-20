@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.globalization/calendar/addweeks/
 ---
-## Calendar::AddWeeks([DateTime](../../../system/datetime/), int) const method
+## Calendar::AddWeeks(DateTime, int) const method
 
 
 Adds weeks to time point.

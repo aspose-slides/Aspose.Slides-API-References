@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing/font/getheight/
 ---
-## Font::GetHeight(const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\&) method
+## Font::GetHeight(const SharedPtr\<Graphics\>\&) method
 
 
 Returns the line spacing of the font represented by the current object, in the current unit of a specified [Graphics](../../graphics/) object.
@@ -22,14 +22,7 @@ float System::Drawing::Font::GetHeight(const SharedPtr<Graphics> &graphics)
 | --- | --- | --- |
 | graphics | const [SharedPtr](../../../system/sharedptr/)\<[Graphics](../../graphics/)\>\& | A [Graphics](../../graphics/) object that specifies the measurement units |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [Graphics](../../graphics/)
-* Class [Font](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Font::GetHeight(**float**) method
+## Font::GetHeight(float) method
 
 
 Returns the height of the font represented by the current object when drawn to a display device with the specified vertical resolution.
@@ -51,6 +44,8 @@ The hegiht of the font in pixels
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Graphics](../../graphics/)
 * Class [Font](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

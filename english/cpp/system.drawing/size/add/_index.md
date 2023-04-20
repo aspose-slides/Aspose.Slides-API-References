@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system.drawing/size/add/
 ---
-## Size::Add(const [Size](../)\&, const [Size](../)\&) method
+## Size::Add(const Size\&, const Size\&) method
 
 
 Returns a new [Size](../) object that is a sum of the specified [Size](../) object, i.e. whose width value is equal to the sum of width values of the specified objects and height value is equal to the sum of height values of the specified objects.
@@ -29,7 +29,6 @@ The [Size](../) object which is the sum of **size1** and **size2**
 
 ## See Also
 
-* Class [Size](../)
 * Class [Size](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

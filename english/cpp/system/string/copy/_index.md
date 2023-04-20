@@ -6,7 +6,7 @@ type: docs
 weight: 833
 url: /cpp/system/string/copy/
 ---
-## String::Copy(const [String](../)\&) method
+## String::Copy(const String\&) method
 
 
 Creates string copy.
@@ -28,7 +28,6 @@ Copy of passed string.
 
 ## See Also
 
-* Class [String](../)
 * Class [String](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

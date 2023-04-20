@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/shapebevel/set_beveltype/
 ---
-## ShapeBevel::set_BevelType([BevelPresetType](../../bevelpresettype/)) method
+## ShapeBevel::set_BevelType(BevelPresetType) method
 
 
 Bevel type. Write [BevelPresetType](../../bevelpresettype/).

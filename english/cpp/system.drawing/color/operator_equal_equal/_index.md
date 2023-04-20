@@ -15,12 +15,7 @@ Always returns false.
 bool System::Drawing::Color::operator==(const std::nullptr_t &r) const
 ```
 
-## See Also
-
-* Class [Color](../)
-* Namespace [System::Drawing](../../)
-* Library [Aspose.Slides](../../../)
-## Color::operator==(const [Color](../)\&) const method
+## Color::operator==(const Color\&) const method
 
 
 Determines if the current and the specified [Color](../) objects represent the same color.
@@ -42,7 +37,6 @@ True if both the current and the specified objects represent the same color, oth
 
 ## See Also
 
-* Class [Color](../)
 * Class [Color](../)
 * Namespace [System::Drawing](../../)
 * Library [Aspose.Slides](../../../)

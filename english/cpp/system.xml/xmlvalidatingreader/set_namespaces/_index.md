@@ -6,7 +6,7 @@ type: docs
 weight: 404
 url: /cpp/system.xml/xmlvalidatingreader/set_namespaces/
 ---
-## XmlValidatingReader::set_Namespaces(**bool**) method
+## XmlValidatingReader::set_Namespaces(bool) method
 
 
 Sets a value indicating whether to do namespace support.

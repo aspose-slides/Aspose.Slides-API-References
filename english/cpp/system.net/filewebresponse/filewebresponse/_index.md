@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/filewebresponse/filewebresponse/
 ---
-## FileWebResponse::FileWebResponse([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) constructor
+## FileWebResponse::FileWebResponse(System::SharedPtr\<Uri\>) constructor
 
 
 Constructs a new instance.

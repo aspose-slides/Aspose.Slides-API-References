@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http/httpclient/set_baseaddress/
 ---
-## HttpClient::set_BaseAddress([System::SharedPtr](../../../system/sharedptr/)\<[Uri](../../../system/uri/)\>) method
+## HttpClient::set_BaseAddress(System::SharedPtr\<Uri\>) method
 
 
 Sets the base address of the resource that is used for sending requests.

@@ -20,14 +20,7 @@ virtual System::SharedPtr<IParagraph> Aspose::Slides::IParagraphFactory::CreateP
 
 [Paragraph](../../paragraph/).
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [IParagraph](../../iparagraph/)
-* Class [IParagraphFactory](../)
-* Namespace [Aspose::Slides](../../)
-* Library [Aspose.Slides](../../../)
-## IParagraphFactory::CreateParagraph([System::SharedPtr](../../../system/sharedptr/)\<[IParagraph](../../iparagraph/)\>) method
+## IParagraphFactory::CreateParagraph(System::SharedPtr\<IParagraph\>) method
 
 
 Creates a new paragraph with specified paragraph data using.

@@ -6,7 +6,7 @@ type: docs
 weight: 378
 url: /cpp/system.xml/xmltextwriter/writestring/
 ---
-## XmlTextWriter::WriteString(const [String](../../../system/string/)\&) method
+## XmlTextWriter::WriteString(const String\&) method
 
 
 Writes the given text content.

@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/system.xml/xmlparsercontext/set_xmlspace/
 ---
-## XmlParserContext::set_XmlSpace([System::Xml::XmlSpace](../../xmlspace/)) method
+## XmlParserContext::set_XmlSpace(System::Xml::XmlSpace) method
 
 
 Sets the current **xml:space** scope.

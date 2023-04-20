@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/aspose.slides.mathtext/mathparagraph/indexof/
 ---
-## MathParagraph::IndexOf([System::SharedPtr](../../../system/sharedptr/)\<[IMathBlock](../../imathblock/)\>) method
+## MathParagraph::IndexOf(System::SharedPtr\<IMathBlock\>) method
 
 
 Determines the index of a specific [IMathBlock](../../imathblock/) in collection.

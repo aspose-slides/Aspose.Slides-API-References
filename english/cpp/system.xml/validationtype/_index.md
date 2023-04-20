@@ -3,7 +3,7 @@ title: ValidationType
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the type of validation to perform.
 type: docs
-weight: 729
+weight: 703
 url: /cpp/system.xml/validationtype/
 ---
 ## ValidationType enum

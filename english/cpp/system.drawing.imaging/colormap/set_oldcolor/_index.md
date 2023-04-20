@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/system.drawing.imaging/colormap/set_oldcolor/
 ---
-## ColorMap::set_OldColor(const [Color](../../../system.drawing/color/)\&) method
+## ColorMap::set_OldColor(const Color\&) method
 
 
 Sets the old [Color](../../../system.drawing/color/) object representing the color to be converted.

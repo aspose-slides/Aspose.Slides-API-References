@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides.charts/ichartseriesgroup/set_bubblesizescale/
 ---
-## IChartSeriesGroup::set_BubbleSizeScale(**int32_t**) method
+## IChartSeriesGroup::set_BubbleSizeScale(int32_t) method
 
 
 Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Write **int32_t**.

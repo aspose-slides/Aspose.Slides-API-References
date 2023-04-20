@@ -12,7 +12,7 @@ url: /cpp/aspose.slides/iprogresscallback/
 Represents a callback object for saving progress updates in percentage.
 
 ```cpp
-class IProgressCallback : public System::Object
+class IProgressCallback : public virtual System::Object
 ```
 
 ## Methods

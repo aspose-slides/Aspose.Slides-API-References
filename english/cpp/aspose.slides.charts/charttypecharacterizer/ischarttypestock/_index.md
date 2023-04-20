@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/aspose.slides.charts/charttypecharacterizer/ischarttypestock/
 ---
-## ChartTypeCharacterizer::IsChartTypeStock([ChartType](../../charttype/)) method
+## ChartTypeCharacterizer::IsChartTypeStock(ChartType) method
 
 
 Return true if chartType is one of Stock subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see \"Change Chart Type\" dialog in PowerPoint): [ChartType::HighLowClose](../../charttype/), [ChartType::OpenHighLowClose](../../charttype/), [ChartType::VolumeHighLowClose](../../charttype/), [ChartType::VolumeOpenHighLowClose](../../charttype/).

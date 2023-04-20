@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http.headers/productinfoheadervalue/productinfoheadervalue/
 ---
-## ProductInfoHeaderValue::ProductInfoHeaderValue([String](../../../system/string/), [String](../../../system/string/)) constructor
+## ProductInfoHeaderValue::ProductInfoHeaderValue(String, String) constructor
 
 
 Constructs a new instance.
@@ -23,13 +23,7 @@ System::Net::Http::Headers::ProductInfoHeaderValue::ProductInfoHeaderValue(Strin
 | productName | [String](../../../system/string/) | The product token name. |
 | productVersion | [String](../../../system/string/) | The product token version. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ProductInfoHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## ProductInfoHeaderValue::ProductInfoHeaderValue([System::SharedPtr](../../../system/sharedptr/)\<[ProductHeaderValue](../../productheadervalue/)\>) constructor
+## ProductInfoHeaderValue::ProductInfoHeaderValue(System::SharedPtr\<ProductHeaderValue\>) constructor
 
 
 Constructs a new instance.
@@ -45,14 +39,7 @@ System::Net::Http::Headers::ProductInfoHeaderValue::ProductInfoHeaderValue(Syste
 | --- | --- | --- |
 | product | [System::SharedPtr](../../../system/sharedptr/)\<[ProductHeaderValue](../../productheadervalue/)\> | The ProductHeaderValue-class instance that is used to initialize the new instance. |
 
-## See Also
-
-* Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [ProductHeaderValue](../../productheadervalue/)
-* Class [ProductInfoHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## ProductInfoHeaderValue::ProductInfoHeaderValue([String](../../../system/string/)) constructor
+## ProductInfoHeaderValue::ProductInfoHeaderValue(String) constructor
 
 
 Constructs a new instance.
@@ -70,7 +57,9 @@ System::Net::Http::Headers::ProductInfoHeaderValue::ProductInfoHeaderValue(Strin
 
 ## See Also
 
+* Typedef [SharedPtr](../../../system/sharedptr/)
 * Class [String](../../../system/string/)
 * Class [ProductInfoHeaderValue](../)
+* Class [ProductHeaderValue](../../productheadervalue/)
 * Namespace [System::Net::Http::Headers](../../)
 * Library [Aspose.Slides](../../../)

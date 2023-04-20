@@ -6,7 +6,7 @@ type: docs
 weight: 690
 url: /cpp/system.net/httpwebrequest/addrange/
 ---
-## HttpWebRequest::AddRange(**int32_t**) method
+## HttpWebRequest::AddRange(int32_t) method
 
 
 Adds the 'Range' header to the current request.
@@ -22,12 +22,7 @@ virtual void System::Net::HttpWebRequest::AddRange(int32_t range)
 | --- | --- | --- |
 | range | **int32_t** | The beginning or the end of the request range. |
 
-## See Also
-
-* Class [HttpWebRequest](../)
-* Namespace [System::Net](../../)
-* Library [Aspose.Slides](../../../)
-## HttpWebRequest::AddRange([System::String](../../../system/string/), **int32_t**, **int32_t**) method
+## HttpWebRequest::AddRange(System::String, int32_t, int32_t) method
 
 
 Adds the 'Range' header to the current request.
@@ -47,7 +42,7 @@ virtual void System::Net::HttpWebRequest::AddRange(System::String rangeSpecifier
 
 ## See Also
 
-* Class [String](../../../system/string/)
 * Class [HttpWebRequest](../)
+* Class [String](../../../system/string/)
 * Namespace [System::Net](../../)
 * Library [Aspose.Slides](../../../)

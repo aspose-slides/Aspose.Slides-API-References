@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system.net.http.headers/viaheadervalue/viaheadervalue/
 ---
-## ViaHeaderValue::ViaHeaderValue([String](../../../system/string/), [String](../../../system/string/)) constructor
+## ViaHeaderValue::ViaHeaderValue(String, String) constructor
 
 
 Constructs a new instance.
@@ -23,13 +23,7 @@ System::Net::Http::Headers::ViaHeaderValue::ViaHeaderValue(String protocolVersio
 | protocolVersion | [String](../../../system/string/) | The protocol version. |
 | receivedBy | [String](../../../system/string/) | The host and port that the request or response was received by. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ViaHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## ViaHeaderValue::ViaHeaderValue([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) constructor
+## ViaHeaderValue::ViaHeaderValue(String, String, String) constructor
 
 
 Constructs a new instance.
@@ -47,13 +41,7 @@ System::Net::Http::Headers::ViaHeaderValue::ViaHeaderValue(String protocolVersio
 | receivedBy | [String](../../../system/string/) | The host and port that the request or response was received by. |
 | protocolName | [String](../../../system/string/) | The protocol name. |
 
-## See Also
-
-* Class [String](../../../system/string/)
-* Class [ViaHeaderValue](../)
-* Namespace [System::Net::Http::Headers](../../)
-* Library [Aspose.Slides](../../../)
-## ViaHeaderValue::ViaHeaderValue([String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/), [String](../../../system/string/)) constructor
+## ViaHeaderValue::ViaHeaderValue(String, String, String, String) constructor
 
 
 Constructs a new instance.

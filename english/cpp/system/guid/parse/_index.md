@@ -6,7 +6,7 @@ type: docs
 weight: 144
 url: /cpp/system/guid/parse/
 ---
-## Guid::Parse(const [String](../../string/)\&) method
+## Guid::Parse(const String\&) method
 
 
 Converts the specified string representation of a GUID into equivalent [Guid](../) object.
@@ -30,6 +30,5 @@ A [Guid](../) object representing a GUID equivalent to that represented by **inp
 
 * Class [Guid](../)
 * Class [String](../../string/)
-* Class [Guid](../)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

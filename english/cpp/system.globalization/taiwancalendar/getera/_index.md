@@ -6,7 +6,7 @@ type: docs
 weight: 131
 url: /cpp/system.globalization/taiwancalendar/getera/
 ---
-## TaiwanCalendar::GetEra([DateTime](../../../system/datetime/)) const method
+## TaiwanCalendar::GetEra(DateTime) const method
 
 
 Gets era for the specified time point.

@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/system.globalization/calendar/getdayofyear/
 ---
-## Calendar::GetDayOfYear([DateTime](../../../system/datetime/)) const method
+## Calendar::GetDayOfYear(DateTime) const method
 
 
 Gets day of year for the specified time point.

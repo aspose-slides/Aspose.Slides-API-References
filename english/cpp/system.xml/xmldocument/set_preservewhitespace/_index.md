@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.xml/xmldocument/set_preservewhitespace/
 ---
-## XmlDocument::set_PreserveWhitespace(**bool**) method
+## XmlDocument::set_PreserveWhitespace(bool) method
 
 
 Sets a value indicating whether to preserve white space in element content.

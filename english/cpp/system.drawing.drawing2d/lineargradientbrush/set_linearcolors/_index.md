@@ -6,7 +6,7 @@ type: docs
 weight: 248
 url: /cpp/system.drawing.drawing2d/lineargradientbrush/set_linearcolors/
 ---
-## LinearGradientBrush::set_LinearColors(const [ArrayPtr](../../../system/arrayptr/)\<[Color](../../../system.drawing/color/)\>\&) method
+## LinearGradientBrush::set_LinearColors(const ArrayPtr\<Color\>\&) method
 
 
 Sets starting and ending colors of this gradient.

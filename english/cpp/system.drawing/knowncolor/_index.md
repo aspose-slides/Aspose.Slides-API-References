@@ -3,7 +3,7 @@ title: KnownColor
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the known system colors.
 type: docs
-weight: 430
+weight: 417
 url: /cpp/system.drawing/knowncolor/
 ---
 ## KnownColor enum

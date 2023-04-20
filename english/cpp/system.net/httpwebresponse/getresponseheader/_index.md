@@ -6,7 +6,7 @@ type: docs
 weight: 118
 url: /cpp/system.net/httpwebresponse/getresponseheader/
 ---
-## HttpWebResponse::GetResponseHeader([String](../../../system/string/)) method
+## HttpWebResponse::GetResponseHeader(String) method
 
 
 Returns the corresponding value for the specified header name.

@@ -33,12 +33,6 @@ DateTime System::Globalization::JapaneseCalendar::ToDateTime(int year, int month
 
 [DateTime](../../../system/datetime/) object that has specified components.
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::ToDateTime(int, int, int, int, int, int, int) const method
 
 
@@ -65,12 +59,6 @@ virtual DateTime System::Globalization::Calendar::ToDateTime(int year, int month
 
 [DateTime](../../../system/datetime/) object that has specified components.
 
-## See Also
-
-* Class [DateTime](../../../system/datetime/)
-* Class [JapaneseCalendar](../)
-* Namespace [System::Globalization](../../)
-* Library [Aspose.Slides](../../../)
 ## JapaneseCalendar::ToDateTime(int, int, int, int, int, int, int, int) const method
 
 

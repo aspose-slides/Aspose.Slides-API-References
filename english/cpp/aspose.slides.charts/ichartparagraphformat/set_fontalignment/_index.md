@@ -6,7 +6,7 @@ type: docs
 weight: 339
 url: /cpp/aspose.slides.charts/ichartparagraphformat/set_fontalignment/
 ---
-## IChartParagraphFormat::set_FontAlignment([Aspose::Slides::FontAlignment](../../../aspose.slides/fontalignment/)) method
+## IChartParagraphFormat::set_FontAlignment(Aspose::Slides::FontAlignment) method
 
 
 Sets a font alignment in a paragraph. Write [Slides::FontAlignment](../../../aspose.slides/fontalignment/).

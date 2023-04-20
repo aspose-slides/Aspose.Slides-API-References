@@ -6,7 +6,7 @@ type: docs
 weight: 495
 url: /cpp/aspose.slides/documentproperties/set_contentstatus/
 ---
-## DocumentProperties::set_ContentStatus([System::String](../../../system/string/)) method
+## DocumentProperties::set_ContentStatus(System::String) method
 
 
 Sets the content status of a presentation. Write [System::String](../../../system/string/).

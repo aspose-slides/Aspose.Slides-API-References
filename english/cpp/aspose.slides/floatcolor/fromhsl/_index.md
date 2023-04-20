@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/aspose.slides/floatcolor/fromhsl/
 ---
-## FloatColor::FromHSL(**float**, **float**, **float**) method
+## FloatColor::FromHSL(float, float, float) method
 
 
 
@@ -18,7 +18,6 @@ static System::SharedPtr<FloatColor> Aspose::Slides::FloatColor::FromHSL(float h
 ## See Also
 
 * Typedef [SharedPtr](../../../system/sharedptr/)
-* Class [FloatColor](../)
 * Class [FloatColor](../)
 * Namespace [Aspose::Slides](../../)
 * Library [Aspose.Slides](../../../)

@@ -6,7 +6,7 @@ type: docs
 weight: 989
 url: /cpp/system.xml/xmlreader/isname/
 ---
-## XmlReader::IsName(const [String](../../../system/string/)\&) method
+## XmlReader::IsName(const String\&) method
 
 
 Returns a value indicating whether the string argument is a valid XML name.

@@ -6,7 +6,7 @@ type: docs
 weight: 313
 url: /cpp/system.net.security/sslstream/set_position/
 ---
-## SslStream::set_Position(**int64_t**) method
+## SslStream::set_Position(int64_t) method
 
 
 Sets the stream's position.

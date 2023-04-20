@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net/networkcredential/set_domain/
 ---
-## NetworkCredential::set_Domain([String](../../../system/string/)) method
+## NetworkCredential::set_Domain(String) method
 
 
 Sets the domain that verifies the credentials.

@@ -6,7 +6,7 @@ type: docs
 weight: 66
 url: /cpp/system.net.http.headers/httprequestheaders/set_authorization/
 ---
-## HttpRequestHeaders::set_Authorization([System::SharedPtr](../../../system/sharedptr/)\<[AuthenticationHeaderValue](../../authenticationheadervalue/)\>) method
+## HttpRequestHeaders::set_Authorization(System::SharedPtr\<AuthenticationHeaderValue\>) method
 
 
 Sets a value of the 'Authorization' header.

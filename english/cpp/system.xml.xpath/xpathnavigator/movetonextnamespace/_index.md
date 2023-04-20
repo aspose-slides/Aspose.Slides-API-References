@@ -6,7 +6,7 @@ type: docs
 weight: 573
 url: /cpp/system.xml.xpath/xpathnavigator/movetonextnamespace/
 ---
-## XPathNavigator::MoveToNextNamespace([XPathNamespaceScope](../../xpathnamespacescope/)) method
+## XPathNavigator::MoveToNextNamespace(XPathNamespaceScope) method
 
 
 When overridden in a derived class, moves the [XPathNavigator](../) to the next namespace node matching the XPathNamespaceScope specified.
@@ -26,12 +26,6 @@ virtual bool System::Xml::XPath::XPathNavigator::MoveToNextNamespace(XPathNamesp
 
 **true** if the [XPathNavigator](../) is successful moving to the next namespace node; otherwise, **false**. If **false**, the position of the [XPathNavigator](../) is unchanged.
 
-## See Also
-
-* Enum [XPathNamespaceScope](../../xpathnamespacescope/)
-* Class [XPathNavigator](../)
-* Namespace [System::Xml::XPath](../../)
-* Library [Aspose.Slides](../../../)
 ## XPathNavigator::MoveToNextNamespace() method
 
 
@@ -48,6 +42,7 @@ bool System::Xml::XPath::XPathNavigator::MoveToNextNamespace()
 
 ## See Also
 
+* Enum [XPathNamespaceScope](../../xpathnamespacescope/)
 * Class [XPathNavigator](../)
 * Namespace [System::Xml::XPath](../../)
 * Library [Aspose.Slides](../../../)

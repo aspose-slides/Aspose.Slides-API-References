@@ -6,7 +6,7 @@ type: docs
 weight: 209
 url: /cpp/aspose.slides/ioleobjectframe/set_updateautomatic/
 ---
-## IOleObjectFrame::set_UpdateAutomatic(**bool**) method
+## IOleObjectFrame::set_UpdateAutomatic(bool) method
 
 
 Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Write **bool**.

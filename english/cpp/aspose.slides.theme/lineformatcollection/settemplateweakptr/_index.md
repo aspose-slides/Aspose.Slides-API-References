@@ -6,7 +6,7 @@ type: docs
 weight: 183
 url: /cpp/aspose.slides.theme/lineformatcollection/settemplateweakptr/
 ---
-## LineFormatCollection::SetTemplateWeakPtr(**uint32_t**) method
+## LineFormatCollection::SetTemplateWeakPtr(uint32_t) method
 
 
 Set n'th template argument a weak pointer (rather than shared). Allows switching pointers in containers to weak mode.

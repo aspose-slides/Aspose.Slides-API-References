@@ -6,7 +6,7 @@ type: docs
 weight: 1
 url: /cpp/system/attribute/getcustomattribute/
 ---
-## Attribute::GetCustomAttribute(const [TypeInfo](../../typeinfo/)\&, const [TypeInfo](../../typeinfo/)\&) method
+## Attribute::GetCustomAttribute(const TypeInfo\&, const TypeInfo\&) method
 
 
 Returns a custom attribute of a specified type appllied to specified type.

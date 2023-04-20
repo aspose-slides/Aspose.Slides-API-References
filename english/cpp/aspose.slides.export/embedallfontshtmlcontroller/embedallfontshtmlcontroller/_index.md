@@ -15,12 +15,7 @@ Creates new instance
 Aspose::Slides::Export::EmbedAllFontsHtmlController::EmbedAllFontsHtmlController()
 ```
 
-## See Also
-
-* Class [EmbedAllFontsHtmlController](../)
-* Namespace [Aspose::Slides::Export](../../)
-* Library [Aspose.Slides](../../../)
-## EmbedAllFontsHtmlController::EmbedAllFontsHtmlController([System::ArrayPtr](../../../system/arrayptr/)\<[System::String](../../../system/string/)\>) constructor
+## EmbedAllFontsHtmlController::EmbedAllFontsHtmlController(System::ArrayPtr\<System::String\>) constructor
 
 
 Creates new instance
@@ -39,7 +34,7 @@ Aspose::Slides::Export::EmbedAllFontsHtmlController::EmbedAllFontsHtmlController
 ## See Also
 
 * Typedef [ArrayPtr](../../../system/arrayptr/)
-* Class [String](../../../system/string/)
 * Class [EmbedAllFontsHtmlController](../)
+* Class [String](../../../system/string/)
 * Namespace [Aspose::Slides::Export](../../)
 * Library [Aspose.Slides](../../../)

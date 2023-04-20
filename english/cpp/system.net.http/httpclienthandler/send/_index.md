@@ -6,7 +6,7 @@ type: docs
 weight: 27
 url: /cpp/system.net.http/httpclienthandler/send/
 ---
-## HttpClientHandler::Send([System::SharedPtr](../../../system/sharedptr/)\<[HttpRequestMessage](../../httprequestmessage/)\>) method
+## HttpClientHandler::Send(System::SharedPtr\<HttpRequestMessage\>) method
 
 
 Sends the specified request.

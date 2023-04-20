@@ -6,7 +6,7 @@ type: docs
 weight: 222
 url: /cpp/aspose.slides/shape/set_hidden/
 ---
-## Shape::set_Hidden(**bool**) method
+## Shape::set_Hidden(bool) method
 
 
 Determines whether the shape is hidden. Write **bool**.

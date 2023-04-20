@@ -6,7 +6,7 @@ type: docs
 weight: 157
 url: /cpp/system.collections/ilistimplreftype/boxvalue/
 ---
-## IListImplRefType::BoxValue([System::SharedPtr](../../../system/sharedptr/)\<T\>) method
+## IListImplRefType::BoxValue(System::SharedPtr\<T\>) method
 
 
 Converting type reference into object value into object.

@@ -6,7 +6,7 @@ type: docs
 weight: 79
 url: /cpp/aspose.slides.charts/ichartcategorycollection/remove/
 ---
-## IChartCategoryCollection::Remove([System::SharedPtr](../../../system/sharedptr/)\<[IChartCategory](../../ichartcategory/)\>) method
+## IChartCategoryCollection::Remove(System::SharedPtr\<IChartCategory\>) method
 
 
 Removes the specified value.

@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /cpp/system.security.cryptography/ecdsabotan/set_hashalgorithm/
 ---
-## ECDsaBotan::set_HashAlgorithm(const [HashAlgorithmName](../../hashalgorithmname/)\&) method
+## ECDsaBotan::set_HashAlgorithm(const HashAlgorithmName\&) method
 
 
 Sets hash algortihm.
@@ -24,7 +24,7 @@ void System::Security::Cryptography::ECDsaBotan::set_HashAlgorithm(const HashAlg
 
 ## See Also
 
-* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Class [ECDsaBotan](../)
+* Struct [HashAlgorithmName](../../hashalgorithmname/)
 * Namespace [System::Security::Cryptography](../../)
 * Library [Aspose.Slides](../../../)

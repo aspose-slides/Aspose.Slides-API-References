@@ -6,7 +6,7 @@ type: docs
 weight: 53
 url: /cpp/system/timezoneinfo/converttimebysystemtimezoneid/
 ---
-## TimeZoneInfo::ConvertTimeBySystemTimeZoneId([DateTime](../../datetime/), const [String](../../string/)\&) method
+## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime, const String\&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -27,14 +27,7 @@ static DateTime System::TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime dat
 
 Converted date and time.
 
-## See Also
-
-* Class [DateTime](../../datetime/)
-* Class [String](../../string/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(const [DateTimeOffset](../../datetimeoffset/)\&, const [String](../../string/)\&) method
+## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(const DateTimeOffset\&, const String\&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -55,14 +48,7 @@ static DateTimeOffset System::TimeZoneInfo::ConvertTimeBySystemTimeZoneId(const 
 
 Converted date and time.
 
-## See Also
-
-* Class [DateTimeOffset](../../datetimeoffset/)
-* Class [String](../../string/)
-* Class [TimeZoneInfo](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## TimeZoneInfo::ConvertTimeBySystemTimeZoneId([DateTime](../../datetime/), const [String](../../string/)\&, const [String](../../string/)\&) method
+## TimeZoneInfo::ConvertTimeBySystemTimeZoneId(DateTime, const String\&, const String\&) method
 
 
 [Convert](../../convert/) time to the time in a specified time zone.
@@ -89,5 +75,6 @@ Converted date and time.
 * Class [DateTime](../../datetime/)
 * Class [String](../../string/)
 * Class [TimeZoneInfo](../)
+* Class [DateTimeOffset](../../datetimeoffset/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)

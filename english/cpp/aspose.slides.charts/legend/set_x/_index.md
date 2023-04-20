@@ -6,7 +6,7 @@ type: docs
 weight: 14
 url: /cpp/aspose.slides.charts/legend/set_x/
 ---
-## Legend::set_X(**float**) method
+## Legend::set_X(float) method
 
 
 Sets the x coordinate of a legend as a fraction of the width of the chart. Write **float**.

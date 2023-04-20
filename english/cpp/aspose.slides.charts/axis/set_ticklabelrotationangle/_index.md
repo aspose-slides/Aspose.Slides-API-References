@@ -6,7 +6,7 @@ type: docs
 weight: 898
 url: /cpp/aspose.slides.charts/axis/set_ticklabelrotationangle/
 ---
-## Axis::set_TickLabelRotationAngle(**float**) method
+## Axis::set_TickLabelRotationAngle(float) method
 
 
 Represents the rotation angle of tick labels. Write **float**.

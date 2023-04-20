@@ -6,7 +6,7 @@ type: docs
 weight: 846
 url: /cpp/system/string/format/
 ---
-## String::Format(const [SharedPtr](../../sharedptr/)\<[IFormatProvider](../../iformatprovider/)\>\&, const [String](../)\&, const Args\&...) method
+## String::Format(const SharedPtr\<IFormatProvider\>\&, const String\&, const Args\&...) method
 
 
 Formats string in C# style.
@@ -30,15 +30,7 @@ template<class...> String System::String::Format(const SharedPtr<IFormatProvider
 | format | const [String](../)\& | Format string. |
 | args | const Args\&... | Arguments to format string. |
 
-## See Also
-
-* Class [String](../)
-* Typedef [SharedPtr](../../sharedptr/)
-* Class [IFormatProvider](../../iformatprovider/)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Format(std::nullptr_t, const [String](../)\&, const Args\&...) method
+## String::Format(std::nullptr_t, const String\&, const Args\&...) method
 
 
 Formats string in C# style.
@@ -61,12 +53,6 @@ template<class...> String System::String::Format(std::nullptr_t, const String &f
 | format | std::nullptr_t | Format string. |
 | args | const [String](../)\& | Arguments to format string. |
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
 ## String::Format(std::nullptr_t, const char16_t(&), const Args\&...) method
 
 
@@ -90,13 +76,7 @@ template<std::size_t,class...> String System::String::Format(std::nullptr_t, con
 | format | std::nullptr_t | Format string. |
 | args | const char16_t(&) | Arguments to format string. |
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Format(const [String](../)\&, const Args\&...) method
+## String::Format(const String\&, const Args\&...) method
 
 
 Formats string in C# style.
@@ -119,13 +99,7 @@ template<class...> String System::String::Format(const String &format, const Arg
 | format | const [String](../)\& | Format string. |
 | args | const Args\&... | Arguments to format string. |
 
-## See Also
-
-* Class [String](../)
-* Class [String](../)
-* Namespace [System](../../)
-* Library [Aspose.Slides](../../../)
-## String::Format(const [String](../)\&, const [System::ArrayPtr](../../arrayptr/)\<T\>\&) method
+## String::Format(const String\&, const System::ArrayPtr\<T\>\&) method
 
 
 Formats string in C# style.
@@ -150,8 +124,9 @@ template<class T> String System::String::Format(const String &format, const Syst
 
 ## See Also
 
-* Class [String](../)
+* Typedef [SharedPtr](../../sharedptr/)
 * Typedef [ArrayPtr](../../arrayptr/)
 * Class [String](../)
+* Class [IFormatProvider](../../iformatprovider/)
 * Namespace [System](../../)
 * Library [Aspose.Slides](../../../)
