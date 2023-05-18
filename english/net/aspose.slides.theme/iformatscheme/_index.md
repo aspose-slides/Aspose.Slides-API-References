@@ -3,7 +3,7 @@ title: IFormatScheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Stores theme-defined formats for the shapes.
 type: docs
-weight: 10570
+weight: 10580
 url: /net/aspose.slides.theme/iformatscheme/
 ---
 ## IFormatScheme interface

@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 8700
+weight: 8710
 url: /net/aspose.slides/patternformat/
 ---
 ## PatternFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/patternformat/
 Represents a pattern to fill a shape.
 
 ```csharp
-public class PatternFormat : PVIObject, IPatternFormat
+public sealed class PatternFormat : PVIObject, IPatternFormat
 ```
 
 ## Properties

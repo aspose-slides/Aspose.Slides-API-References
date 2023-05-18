@@ -3,7 +3,7 @@ title: AxesManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to chart axes.
 type: docs
-weight: 1050
+weight: 1060
 url: /net/aspose.slides.charts/axesmanager/
 ---
 ## AxesManager class

@@ -3,7 +3,7 @@ title: MathFunctionsOfOneArgument
 second_title: Aspose.Sildes for .NET API Reference
 description: Common mathematical functions of one argument
 type: docs
-weight: 8100
+weight: 8110
 url: /net/aspose.slides.mathtext/mathfunctionsofoneargument/
 ---
 ## MathFunctionsOfOneArgument enumeration

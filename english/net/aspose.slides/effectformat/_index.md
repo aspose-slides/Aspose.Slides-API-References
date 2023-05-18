@@ -3,7 +3,7 @@ title: EffectFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents effect properties of shape.
 type: docs
-weight: 2680
+weight: 2690
 url: /net/aspose.slides/effectformat/
 ---
 ## EffectFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/effectformat/
 Represents effect properties of shape.
 
 ```csharp
-public class EffectFormat : PVIObject, IEffectFormat
+public sealed class EffectFormat : PVIObject, IEffectFormat
 ```
 
 ## Properties

@@ -3,7 +3,7 @@ title: BulletType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the type of the extended bullets.
 type: docs
-weight: 980
+weight: 990
 url: /net/aspose.slides/bullettype/
 ---
 ## BulletType enumeration

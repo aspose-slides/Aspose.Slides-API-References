@@ -3,7 +3,7 @@ title: Camera
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents Camera.
 type: docs
-weight: 990
+weight: 1000
 url: /net/aspose.slides/camera/
 ---
 ## Camera class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/camera/
 Represents Camera.
 
 ```csharp
-public class Camera : PVIObject, ICamera
+public sealed class Camera : PVIObject, ICamera
 ```
 
 ## Properties

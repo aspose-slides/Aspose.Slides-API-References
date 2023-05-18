@@ -3,7 +3,7 @@ title: CategoryAxisType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type of a category axis.
 type: docs
-weight: 1130
+weight: 1140
 url: /net/aspose.slides.charts/categoryaxistype/
 ---
 ## CategoryAxisType enumeration

@@ -6,7 +6,7 @@ type: docs
 weight: 50
 url: /net/aspose.slides.lowcode/foreach/shape/
 ---
-## Shape(Presentation, ForEachShapeCallback) {#shape_1}
+## Shape(Presentation, ForEachShapeCallback) {#shape_2}
 
 Iterate each `Shape` in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
 
@@ -25,6 +25,42 @@ public static void Shape(Presentation pres, ForEachShapeCallback forEachShape)
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     ForEach.Shape(pres, (shape, slide, index) => 
+    {
+        System.Console.WriteLine($"{shape.Name}, index: {index}");
+    });
+} 
+```
+
+### See Also
+
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [ForEachShapeCallback](../../foreach.foreachshapecallback)
+* class [ForEach](../../foreach)
+* namespace [Aspose.Slides.LowCode](../../foreach)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Shape(Presentation, bool, ForEachShapeCallback) {#shape_1}
+
+Iterate each [`Shape`](../shape) in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) and [`NotesSlide`](../../../aspose.slides/notesslide) if needed.
+
+```csharp
+public static void Shape(Presentation pres, bool includeNotes, ForEachShapeCallback forEachShape)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate layout shapes |
+| includeNotes | Boolean | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachShape | ForEachShapeCallback | Callback that will be invoked for each shape |
+
+### Examples
+
+```csharp
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    ForEach.Shape(pres, true, (shape, slide, index) => 
     {
         System.Console.WriteLine($"{shape.Name}, index: {index}");
     });

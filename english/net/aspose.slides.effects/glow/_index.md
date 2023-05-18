@@ -3,7 +3,7 @@ title: Glow
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Glow effect in which a color blurred outline is added outside the edges of the object.
 type: docs
-weight: 2830
+weight: 2840
 url: /net/aspose.slides.effects/glow/
 ---
 ## Glow class
@@ -11,7 +11,7 @@ url: /net/aspose.slides.effects/glow/
 Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.
 
 ```csharp
-public class Glow : IGlow
+public sealed class Glow : IGlow
 ```
 
 ## Properties

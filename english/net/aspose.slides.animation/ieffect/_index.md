@@ -3,7 +3,7 @@ title: IEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents animation effect.
 type: docs
-weight: 390
+weight: 400
 url: /net/aspose.slides.animation/ieffect/
 ---
 ## IEffect interface
@@ -18,6 +18,8 @@ public interface IEffect
 
 | Name | Description |
 | --- | --- |
+| [AfterAnimationColor](../../aspose.slides.animation/ieffect/afteranimationcolor) { get; set; } | Defined an after animation color for effect. Read/write [`IColorFormat`](../../aspose.slides/icolorformat). |
+| [AfterAnimationType](../../aspose.slides.animation/ieffect/afteranimationtype) { get; set; } | Defined an after animation type for effect. Read/write [`AfterAnimationType`](./afteranimationtype). |
 | [Behaviors](../../aspose.slides.animation/ieffect/behaviors) { get; set; } | Returns collection of behavior for effect. Read/write [`IBehaviorCollection`](../ibehaviorcollection). |
 | [PresetClassType](../../aspose.slides.animation/ieffect/presetclasstype) { get; set; } | Defines class of effect. Read/write [`EffectPresetClassType`](../effectpresetclasstype). |
 | [Sequence](../../aspose.slides.animation/ieffect/sequence) { get; } | Returns a sequence for an effect. Read-only [`ISequence`](../isequence). |

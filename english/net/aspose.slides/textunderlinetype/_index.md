@@ -3,7 +3,7 @@ title: TextUnderlineType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the type of text underline.
 type: docs
-weight: 10310
+weight: 10320
 url: /net/aspose.slides/textunderlinetype/
 ---
 ## TextUnderlineType enumeration

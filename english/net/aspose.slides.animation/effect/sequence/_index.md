@@ -3,7 +3,7 @@ title: Sequence
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns a sequence for an effect. Read-only ISequenceaspose.slides.animation/isequence.
 type: docs
-weight: 30
+weight: 50
 url: /net/aspose.slides.animation/effect/sequence/
 ---
 ## Effect.Sequence property

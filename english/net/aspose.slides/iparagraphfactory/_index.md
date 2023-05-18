@@ -3,7 +3,7 @@ title: IParagraphFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create paragraphs
 type: docs
-weight: 6100
+weight: 6110
 url: /net/aspose.slides/iparagraphfactory/
 ---
 ## IParagraphFactory interface

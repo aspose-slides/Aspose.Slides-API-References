@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents LightRig.
 type: docs
-weight: 7070
+weight: 7080
 url: /net/aspose.slides/lightrig/
 ---
 ## LightRig class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/lightrig/
 Represents LightRig.
 
 ```csharp
-public class LightRig : PVIObject, ILightRig
+public sealed class LightRig : PVIObject, ILightRig
 ```
 
 ## Properties

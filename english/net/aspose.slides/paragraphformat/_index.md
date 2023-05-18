@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: This class contains the paragraph formatting properties. Unlike IParagraphFormatEffectiveData./iparagraphformateffectivedata all properties of this class are writeable.
 type: docs
-weight: 8660
+weight: 8670
 url: /net/aspose.slides/paragraphformat/
 ---
 ## ParagraphFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/paragraphformat/
 This class contains the paragraph formatting properties. Unlike [`IParagraphFormatEffectiveData`](../iparagraphformateffectivedata), all properties of this class are writeable.
 
 ```csharp
-public class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
+public sealed class ParagraphFormat : PVIObject, IChartParagraphFormat, IParagraphFormat
 ```
 
 ## Constructors

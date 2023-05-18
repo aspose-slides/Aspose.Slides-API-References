@@ -3,7 +3,7 @@ title: ChartData
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents data used for a chart plotting.
 type: docs
-weight: 1190
+weight: 1200
 url: /net/aspose.slides.charts/chartdata/
 ---
 ## ChartData class

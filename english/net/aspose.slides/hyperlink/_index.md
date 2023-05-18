@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 4720
+weight: 4730
 url: /net/aspose.slides/hyperlink/
 ---
 ## Hyperlink class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/hyperlink/
 Represents a hyperlink.
 
 ```csharp
-public class Hyperlink : PVIObject, IHyperlink
+public sealed class Hyperlink : PVIObject, IHyperlink
 ```
 
 ## Constructors

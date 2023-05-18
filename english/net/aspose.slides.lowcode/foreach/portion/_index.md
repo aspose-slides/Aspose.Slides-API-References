@@ -6,7 +6,7 @@ type: docs
 weight: 40
 url: /net/aspose.slides.lowcode/foreach/portion/
 ---
-## ForEach.Portion method
+## Portion(Presentation, ForEachPortionCallback) {#portion_1}
 
 Iterate each `Portion` in the [`Presentation`](../../../aspose.slides/presentation). Portions will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
 
@@ -25,6 +25,43 @@ public static void Portion(Presentation pres, ForEachPortionCallback forEachPort
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     ForEach.Portion(pres, (portion, para, slide, index) =>
+    {
+        System.Console.WriteLine($"{portion.Text}, index: {index}");
+    });
+} 
+```
+
+### See Also
+
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [ForEachPortionCallback](../../foreach.foreachportioncallback)
+* class [ForEach](../../foreach)
+* namespace [Aspose.Slides.LowCode](../../foreach)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Portion(Presentation, bool, ForEachPortionCallback) {#portion}
+
+Iterate each [`Portion`](../portion) in the [`Presentation`](../../../aspose.slides/presentation). Portions will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) and [`NotesSlide`](../../../aspose.slides/notesslide)
+
+```csharp
+public static void Portion(Presentation pres, bool includeNotes, 
+    ForEachPortionCallback forEachPortion)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate portions |
+| includeNotes | Boolean | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachPortion | ForEachPortionCallback | Callback that will be invoked for each portion |
+
+### Examples
+
+```csharp
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    ForEach.Portion(pres, true, (portion, para, slide, index) =>
     {
         System.Console.WriteLine($"{portion.Text}, index: {index}");
     });

@@ -3,7 +3,7 @@ title: ITintEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.
 type: docs
-weight: 3370
+weight: 3380
 url: /net/aspose.slides.effects/itinteffectivedata/
 ---
 ## ITintEffectiveData interface

@@ -3,7 +3,7 @@ title: CellInvalidFormulaException
 second_title: Aspose.Sildes for .NET API Reference
 description: The exception that is thrown when a calculated formula is not correct or was not parsed.
 type: docs
-weight: 10010
+weight: 10020
 url: /net/aspose.slides.spreadsheet/cellinvalidformulaexception/
 ---
 ## CellInvalidFormulaException class

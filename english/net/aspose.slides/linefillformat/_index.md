@@ -3,7 +3,7 @@ title: LineFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents properties for lines filling.
 type: docs
-weight: 7160
+weight: 7170
 url: /net/aspose.slides/linefillformat/
 ---
 ## LineFillFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/linefillformat/
 Represents properties for lines filling.
 
 ```csharp
-public class LineFillFormat : PVIObject, ILineFillFormat
+public sealed class LineFillFormat : PVIObject, ILineFillFormat
 ```
 
 ## Properties

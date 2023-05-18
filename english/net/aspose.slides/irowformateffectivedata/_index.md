@@ -3,7 +3,7 @@ title: IRowFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective table row formatting properties.
 type: docs
-weight: 6400
+weight: 6410
 url: /net/aspose.slides/irowformateffectivedata/
 ---
 ## IRowFormatEffectiveData interface

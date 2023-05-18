@@ -3,7 +3,7 @@ title: MathRadicalFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create math radical
 type: docs
-weight: 8300
+weight: 8310
 url: /net/aspose.slides.mathtext/mathradicalfactory/
 ---
 ## MathRadicalFactory class

@@ -3,7 +3,7 @@ title: ICustomXmlPart
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents custom xml part.
 type: docs
-weight: 5250
+weight: 5260
 url: /net/aspose.slides/icustomxmlpart/
 ---
 ## ICustomXmlPart interface

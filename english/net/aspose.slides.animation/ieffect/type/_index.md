@@ -3,7 +3,7 @@ title: Type
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines type of effect. Read/write EffectTypeaspose.slides.animation/effecttype.
 type: docs
-weight: 100
+weight: 120
 url: /net/aspose.slides.animation/ieffect/type/
 ---
 ## IEffect.Type property

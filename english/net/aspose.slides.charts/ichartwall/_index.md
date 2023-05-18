@@ -3,7 +3,7 @@ title: IChartWall
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents walls on 3d charts.
 type: docs
-weight: 1890
+weight: 1900
 url: /net/aspose.slides.charts/ichartwall/
 ---
 ## IChartWall interface

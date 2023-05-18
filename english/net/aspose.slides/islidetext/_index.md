@@ -3,7 +3,7 @@ title: ISlideText
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the text extracted from the slide
 type: docs
-weight: 6600
+weight: 6610
 url: /net/aspose.slides/islidetext/
 ---
 ## ISlideText interface

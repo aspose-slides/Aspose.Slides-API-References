@@ -3,7 +3,7 @@ title: IMathParagraphFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math paragraph
 type: docs
-weight: 7770
+weight: 7780
 url: /net/aspose.slides.mathtext/imathparagraphfactory/
 ---
 ## IMathParagraphFactory interface

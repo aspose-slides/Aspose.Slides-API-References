@@ -3,7 +3,7 @@ title: IAxis
 second_title: Aspose.Sildes for .NET API Reference
 description: Encapsulates the object that represents a charts axis.
 type: docs
-weight: 1590
+weight: 1600
 url: /net/aspose.slides.charts/iaxis/
 ---
 ## IAxis interface

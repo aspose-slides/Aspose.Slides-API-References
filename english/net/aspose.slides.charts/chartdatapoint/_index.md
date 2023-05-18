@@ -3,7 +3,7 @@ title: ChartDataPoint
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents series data point.
 type: docs
-weight: 1210
+weight: 1220
 url: /net/aspose.slides.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
@@ -44,7 +44,7 @@ public class ChartDataPoint : IChartDataPoint
 
 | Name | Description |
 | --- | --- |
-| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined. |
+| [GetAutomaticDataPointColor](../../aspose.slides.charts/chartdatapoint/getautomaticdatapointcolor)() | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. This color is used by default if FillType equals NotDefined. |
 | [Remove](../../aspose.slides.charts/chartdatapoint/remove)() | Removes DataPoint from chart series. |
 
 ### See Also

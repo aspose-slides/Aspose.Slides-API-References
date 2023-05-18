@@ -3,7 +3,7 @@ title: TrendlineType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents type of trend line
 type: docs
-weight: 2370
+weight: 2380
 url: /net/aspose.slides.charts/trendlinetype/
 ---
 ## TrendlineType enumeration

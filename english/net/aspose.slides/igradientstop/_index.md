@@ -3,7 +3,7 @@ title: IGradientStop
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a gradient format.
 type: docs
-weight: 5570
+weight: 5580
 url: /net/aspose.slides/igradientstop/
 ---
 ## IGradientStop interface

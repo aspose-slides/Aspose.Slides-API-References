@@ -3,7 +3,7 @@ title: IGifOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents GIF exporting options.
 type: docs
-weight: 3630
+weight: 3640
 url: /net/aspose.slides.export/igifoptions/
 ---
 ## IGifOptions interface

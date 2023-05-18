@@ -3,7 +3,7 @@ title: ISequenceCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of interactive sequences.
 type: docs
-weight: 500
+weight: 510
 url: /net/aspose.slides.animation/isequencecollection/
 ---
 ## ISequenceCollection interface

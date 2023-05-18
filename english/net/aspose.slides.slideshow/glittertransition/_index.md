@@ -3,7 +3,7 @@ title: GlitterTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Glitter slide transition effect.
 type: docs
-weight: 9350
+weight: 9360
 url: /net/aspose.slides.slideshow/glittertransition/
 ---
 ## GlitterTransition class

@@ -3,7 +3,7 @@ title: ChartTitle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents chart title properties.
 type: docs
-weight: 1370
+weight: 1380
 url: /net/aspose.slides.charts/charttitle/
 ---
 ## ChartTitle class

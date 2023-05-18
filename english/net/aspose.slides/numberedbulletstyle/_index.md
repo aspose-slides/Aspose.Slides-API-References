@@ -3,7 +3,7 @@ title: NumberedBulletStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the style of the numbered bullets.
 type: docs
-weight: 8530
+weight: 8540
 url: /net/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle enumeration

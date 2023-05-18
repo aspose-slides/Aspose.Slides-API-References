@@ -3,7 +3,7 @@ title: BlobManagementOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options which can be used to manage BLOB handling rules and other BLOB settings.
 type: docs
-weight: 930
+weight: 940
 url: /net/aspose.slides/blobmanagementoptions/
 ---
 ## BlobManagementOptions class

@@ -3,7 +3,7 @@ title: ExternalResourceResolver
 second_title: Aspose.Sildes for .NET API Reference
 description: Callback class used to resolve external resources during Html Svg documents import. Using this resolver could create a vulnerability when client provided HTML or SVG file will make server software to obtain local or network file. Use with caution. It is recommended not to specify ExternalResourceResolver at all only embedded objects will be read or create some subclass which checks if specified uri is valid.
 type: docs
-weight: 6950
+weight: 6960
 url: /net/aspose.slides.import/externalresourceresolver/
 ---
 ## ExternalResourceResolver class

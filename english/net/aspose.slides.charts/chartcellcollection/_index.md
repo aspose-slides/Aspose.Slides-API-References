@@ -3,7 +3,7 @@ title: ChartCellCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of a cells with data.
 type: docs
-weight: 1180
+weight: 1190
 url: /net/aspose.slides.charts/chartcellcollection/
 ---
 ## ChartCellCollection class

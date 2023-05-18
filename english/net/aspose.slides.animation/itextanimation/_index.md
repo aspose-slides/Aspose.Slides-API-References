@@ -3,7 +3,7 @@ title: ITextAnimation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent text animation.
 type: docs
-weight: 520
+weight: 530
 url: /net/aspose.slides.animation/itextanimation/
 ---
 ## ITextAnimation interface

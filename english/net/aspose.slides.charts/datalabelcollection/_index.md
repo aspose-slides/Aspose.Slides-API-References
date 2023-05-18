@@ -3,7 +3,7 @@ title: DataLabelCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a series labels.
 type: docs
-weight: 1440
+weight: 1450
 url: /net/aspose.slides.charts/datalabelcollection/
 ---
 ## DataLabelCollection class
@@ -24,7 +24,7 @@ public class DataLabelCollection : DomObject<ChartSeries>, IDataLabelCollection
 | [DefaultDataLabelFormat](../../aspose.slides.charts/datalabelcollection/defaultdatalabelformat) { get; } | Gets the default data label format. Read-only [`IDataLabelFormat`](../idatalabelformat). |
 | [IsVisible](../../aspose.slides.charts/datalabelcollection/isvisible) { get; } | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only Boolean. |
 | [Item](../../aspose.slides.charts/datalabelcollection/item) { get; } | Gets the data label for the data point with the specified index. |
-| [LeaderLinesColor](../../aspose.slides.charts/datalabelcollection/leaderlinescolor) { get; set; } | Gets or sets the color of all leader lines in the collection. Read/write Color. |
+| [LeaderLinesFormat](../../aspose.slides.charts/datalabelcollection/leaderlinesformat) { get; } | Represents data labels leader lines format. Read-only [`IChartLinesFormat`](../ichartlinesformat). |
 | [ParentSeries](../../aspose.slides.charts/datalabelcollection/parentseries) { get; } | Gets the parent series. Read-only [`IChartSeries`](../ichartseries). |
 
 ## Methods

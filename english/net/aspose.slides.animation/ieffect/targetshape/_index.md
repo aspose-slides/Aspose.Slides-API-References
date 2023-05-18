@@ -3,7 +3,7 @@ title: TargetShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Returns target shape for effect. Read-only IShapeaspose.slides/ishape.
 type: docs
-weight: 70
+weight: 90
 url: /net/aspose.slides.animation/ieffect/targetshape/
 ---
 ## IEffect.TargetShape property

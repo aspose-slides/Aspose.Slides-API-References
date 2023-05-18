@@ -3,7 +3,7 @@ title: SplitterBarStateType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the state that the splitter bar should be shown in. The splitter bar separates a primary and secondary region within a viewing area.
 type: docs
-weight: 9990
+weight: 10000
 url: /net/aspose.slides/splitterbarstatetype/
 ---
 ## SplitterBarStateType enumeration

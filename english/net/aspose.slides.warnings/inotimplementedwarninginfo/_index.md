@@ -3,7 +3,7 @@ title: INotImplementedWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a warning about known not implemented feature which wont be implemented in the near future.
 type: docs
-weight: 11070
+weight: 11080
 url: /net/aspose.slides.warnings/inotimplementedwarninginfo/
 ---
 ## INotImplementedWarningInfo interface

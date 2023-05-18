@@ -3,7 +3,7 @@ title: ChartLinesFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents gridlines format properties.
 type: docs
-weight: 1290
+weight: 1300
 url: /net/aspose.slides.charts/chartlinesformat/
 ---
 ## ChartLinesFormat class

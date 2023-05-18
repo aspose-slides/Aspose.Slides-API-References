@@ -3,7 +3,7 @@ title: FillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a fill formatting options.
 type: docs
-weight: 4410
+weight: 4420
 url: /net/aspose.slides/fillformat/
 ---
 ## FillFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/fillformat/
 Represents a fill formatting options.
 
 ```csharp
-public class FillFormat : PVIObject, IFillFormat
+public sealed class FillFormat : PVIObject, IFillFormat
 ```
 
 ## Properties

@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of digital signatures attached to a document.
 type: docs
-weight: 2650
+weight: 2660
 url: /net/aspose.slides/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class

@@ -3,7 +3,7 @@ title: IImageTransformOperationCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 3220
+weight: 3230
 url: /net/aspose.slides.effects/iimagetransformoperationcollection/
 ---
 ## IImageTransformOperationCollection interface

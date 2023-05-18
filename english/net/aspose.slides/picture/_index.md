@@ -3,7 +3,7 @@ title: Picture
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a picture in a presentation.
 type: docs
-weight: 8730
+weight: 8740
 url: /net/aspose.slides/picture/
 ---
 ## Picture class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/picture/
 Represents a picture in a presentation.
 
 ```csharp
-public class Picture : ISlidesPicture
+public sealed class Picture : ISlidesPicture
 ```
 
 ## Properties

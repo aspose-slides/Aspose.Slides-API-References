@@ -3,7 +3,7 @@ title: IChartSeriesGroupCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the collection of groups of combinable series.
 type: docs
-weight: 1840
+weight: 1850
 url: /net/aspose.slides.charts/ichartseriesgroupcollection/
 ---
 ## IChartSeriesGroupCollection interface

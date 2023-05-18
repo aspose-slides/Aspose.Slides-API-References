@@ -3,7 +3,7 @@ title: SvgExternalFontsHandling
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a way to handle external fonts used for text drawing.
 type: docs
-weight: 4140
+weight: 4150
 url: /net/aspose.slides.export/svgexternalfontshandling/
 ---
 ## SvgExternalFontsHandling enumeration

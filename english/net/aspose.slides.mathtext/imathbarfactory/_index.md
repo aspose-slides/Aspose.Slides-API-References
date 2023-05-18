@@ -3,7 +3,7 @@ title: IMathBarFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math bar
 type: docs
-weight: 7500
+weight: 7510
 url: /net/aspose.slides.mathtext/imathbarfactory/
 ---
 ## IMathBarFactory interface

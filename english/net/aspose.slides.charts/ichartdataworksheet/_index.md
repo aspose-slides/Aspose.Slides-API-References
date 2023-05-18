@@ -3,7 +3,7 @@ title: IChartDataWorksheet
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents worksheet associated with IChartDataCell./ichartdatacell
 type: docs
-weight: 1750
+weight: 1760
 url: /net/aspose.slides.charts/ichartdataworksheet/
 ---
 ## IChartDataWorksheet interface

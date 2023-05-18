@@ -3,7 +3,7 @@ title: ChartPortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: This class contains the chart portion formatting properties used in charts. Unlike IPortionFormatEffectiveData../aspose.slides/iportionformateffectivedata all properties of this class are writeable.
 type: docs
-weight: 1310
+weight: 1320
 url: /net/aspose.slides.charts/chartportionformat/
 ---
 ## ChartPortionFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides.charts/chartportionformat/
 This class contains the chart portion formatting properties used in charts. Unlike [`IPortionFormatEffectiveData`](../../aspose.slides/iportionformateffectivedata), all properties of this class are writeable.
 
 ```csharp
-public class ChartPortionFormat : BasePortionFormat, IChartPortionFormat
+public sealed class ChartPortionFormat : BasePortionFormat, IChartPortionFormat
 ```
 
 ## Properties

@@ -3,7 +3,7 @@ title: IImageCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of PPImage.
 type: docs
-weight: 5690
+weight: 5700
 url: /net/aspose.slides/iimagecollection/
 ---
 ## IImageCollection interface

@@ -3,7 +3,7 @@ title: HtmlFormatter
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents HTML file template.
 type: docs
-weight: 3580
+weight: 3590
 url: /net/aspose.slides.export/htmlformatter/
 ---
 ## HtmlFormatter class

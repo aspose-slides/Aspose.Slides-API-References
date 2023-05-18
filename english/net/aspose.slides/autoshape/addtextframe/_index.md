@@ -11,7 +11,7 @@ url: /net/aspose.slides/autoshape/addtextframe/
 Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text.
 
 ```csharp
-public virtual ITextFrame AddTextFrame(string text)
+public ITextFrame AddTextFrame(string text)
 ```
 
 | Parameter | Type | Description |

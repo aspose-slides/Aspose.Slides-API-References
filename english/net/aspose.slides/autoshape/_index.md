@@ -3,7 +3,7 @@ title: AutoShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an AutoShape.
 type: docs
-weight: 800
+weight: 810
 url: /net/aspose.slides/autoshape/
 ---
 ## AutoShape class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/autoshape/
 Represents an AutoShape.
 
 ```csharp
-public class AutoShape : GeometryShape, IAutoShape
+public sealed class AutoShape : GeometryShape, IAutoShape
 ```
 
 ## Properties
@@ -62,7 +62,7 @@ public class AutoShape : GeometryShape, IAutoShape
 | Name | Description |
 | --- | --- |
 | [AddPlaceholder](../../aspose.slides/shape/addplaceholder)(IPlaceholder) | Adds a new placeholder if there is no and sets placeholder properties to a specified one. |
-| virtual [AddTextFrame](../../aspose.slides/autoshape/addtextframe)(string) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
+| [AddTextFrame](../../aspose.slides/autoshape/addtextframe)(string) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
 | [CreateShapeElements](../../aspose.slides/geometryshape/createshapeelements)() | Creates and returns array of shape's elements. |
 | [GetBasePlaceholder](../../aspose.slides/shape/getbaseplaceholder)() | Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited. |
 | [GetGeometryPaths](../../aspose.slides/geometryshape/getgeometrypaths)() | Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape. |

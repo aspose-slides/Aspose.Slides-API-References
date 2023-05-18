@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a line.
 type: docs
-weight: 7170
+weight: 7180
 url: /net/aspose.slides/lineformat/
 ---
 ## LineFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/lineformat/
 Represents format of a line.
 
 ```csharp
-public class LineFormat : PVIObject, ILineFormat
+public sealed class LineFormat : PVIObject, ILineFormat
 ```
 
 ## Properties

@@ -3,7 +3,7 @@ title: Sound
 second_title: Aspose.Sildes for .NET API Reference
 description: Defined embedded sound for effect. Read/write IAudioaspose.slides/iaudio.
 type: docs
-weight: 40
+weight: 60
 url: /net/aspose.slides.animation/ieffect/sound/
 ---
 ## IEffect.Sound property

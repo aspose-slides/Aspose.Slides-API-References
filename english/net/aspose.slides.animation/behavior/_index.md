@@ -3,7 +3,7 @@ title: Behavior
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent base class behavior of effect.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.slides.animation/behavior/
 ---
 ## Behavior class

@@ -6,7 +6,7 @@ type: docs
 weight: 30
 url: /net/aspose.slides.lowcode/foreach/paragraph/
 ---
-## ForEach.Paragraph method
+## Paragraph(Presentation, ForEachParagraphCallback) {#paragraph_1}
 
 Iterate each `Paragraph` in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)
 
@@ -25,6 +25,43 @@ public static void Paragraph(Presentation pres, ForEachParagraphCallback forEach
 using (Presentation pres = new Presentation("pres.pptx"))
 {
     ForEach.Paragraph(pres, (para, slide, index) =>
+    {
+        System.Console.WriteLine($"{para.Text}, index: {index}");
+    });
+}        
+```
+
+### See Also
+
+* class [Presentation](../../../aspose.slides/presentation)
+* delegate [ForEachParagraphCallback](../../foreach.foreachparagraphcallback)
+* class [ForEach](../../foreach)
+* namespace [Aspose.Slides.LowCode](../../foreach)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## Paragraph(Presentation, bool, ForEachParagraphCallback) {#paragraph}
+
+Iterate each [`Paragraph`](../paragraph) in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide), [`LayoutSlide`](../layoutslide) and [`NotesSlide`](../../../aspose.slides/notesslide)
+
+```csharp
+public static void Paragraph(Presentation pres, bool includeNotes, 
+    ForEachParagraphCallback forEachParagraph)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | Presentation | Presentation to iterate paragraphs |
+| includeNotes | Boolean | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachParagraph | ForEachParagraphCallback | Callback that will be invoked for each paragraph |
+
+### Examples
+
+```csharp
+using (Presentation pres = new Presentation("pres.pptx"))
+{
+    ForEach.Paragraph(pres, true, (para, slide, index) =>
     {
         System.Console.WriteLine($"{para.Text}, index: {index}");
     });

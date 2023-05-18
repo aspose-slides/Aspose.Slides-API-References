@@ -3,7 +3,7 @@ title: IChartDataCell
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents cell for chart data.
 type: docs
-weight: 1690
+weight: 1700
 url: /net/aspose.slides.charts/ichartdatacell/
 ---
 ## IChartDataCell interface

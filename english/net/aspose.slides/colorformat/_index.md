@@ -3,7 +3,7 @@ title: ColorFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a color used in a presentation.
 type: docs
-weight: 2390
+weight: 2400
 url: /net/aspose.slides/colorformat/
 ---
 ## ColorFormat class
@@ -11,7 +11,7 @@ url: /net/aspose.slides/colorformat/
 Represents a color used in a presentation.
 
 ```csharp
-public class ColorFormat : PVIObject, IColorFormat
+public sealed class ColorFormat : PVIObject, IColorFormat
 ```
 
 ## Properties

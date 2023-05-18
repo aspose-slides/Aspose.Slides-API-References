@@ -3,7 +3,7 @@ title: IChartSeriesGroup
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents group of series.
 type: docs
-weight: 1830
+weight: 1840
 url: /net/aspose.slides.charts/ichartseriesgroup/
 ---
 ## IChartSeriesGroup interface

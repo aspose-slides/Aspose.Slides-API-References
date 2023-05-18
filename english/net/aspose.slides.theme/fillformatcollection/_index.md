@@ -3,7 +3,7 @@ title: FillFormatCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the collection of fill styles.
 type: docs
-weight: 10420
+weight: 10430
 url: /net/aspose.slides.theme/fillformatcollection/
 ---
 ## FillFormatCollection class

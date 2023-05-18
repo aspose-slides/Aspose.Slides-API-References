@@ -3,7 +3,7 @@ title: IFillOverlay
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 type: docs
-weight: 3120
+weight: 3130
 url: /net/aspose.slides.effects/ifilloverlay/
 ---
 ## IFillOverlay interface

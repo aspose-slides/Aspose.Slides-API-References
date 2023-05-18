@@ -3,7 +3,7 @@ title: ChartTypeCharacterizer
 second_title: Aspose.Sildes for .NET API Reference
 description: Helper for getting additional information about charts and series by its ChartType.
 type: docs
-weight: 1390
+weight: 1400
 url: /net/aspose.slides.charts/charttypecharacterizer/
 ---
 ## ChartTypeCharacterizer class

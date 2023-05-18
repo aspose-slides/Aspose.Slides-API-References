@@ -3,7 +3,7 @@ title: ChartShapeType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a shape of chart.
 type: docs
-weight: 1350
+weight: 1360
 url: /net/aspose.slides.charts/chartshapetype/
 ---
 ## ChartShapeType enumeration

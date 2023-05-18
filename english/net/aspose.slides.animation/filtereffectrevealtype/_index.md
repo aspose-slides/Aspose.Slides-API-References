@@ -3,7 +3,7 @@ title: FilterEffectRevealType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents filter reveal type.
 type: docs
-weight: 280
+weight: 290
 url: /net/aspose.slides.animation/filtereffectrevealtype/
 ---
 ## FilterEffectRevealType enumeration

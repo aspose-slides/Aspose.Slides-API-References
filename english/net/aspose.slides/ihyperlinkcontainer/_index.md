@@ -3,7 +3,7 @@ title: IHyperlinkContainer
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents hyperlink object.
 type: docs
-weight: 5660
+weight: 5670
 url: /net/aspose.slides/ihyperlinkcontainer/
 ---
 ## IHyperlinkContainer interface

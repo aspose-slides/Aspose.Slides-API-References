@@ -3,7 +3,7 @@ title: FillOverlay
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 type: docs
-weight: 2820
+weight: 2830
 url: /net/aspose.slides.effects/filloverlay/
 ---
 ## FillOverlay class
@@ -11,7 +11,7 @@ url: /net/aspose.slides.effects/filloverlay/
 Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.
 
 ```csharp
-public class FillOverlay : ImageTransformOperation, IFillOverlay
+public sealed class FillOverlay : ImageTransformOperation, IFillOverlay
 ```
 
 ## Properties

@@ -3,7 +3,7 @@ title: IOuterShadow
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an Outer Shadow effect.
 type: docs
-weight: 3280
+weight: 3290
 url: /net/aspose.slides.effects/ioutershadow/
 ---
 ## IOuterShadow interface

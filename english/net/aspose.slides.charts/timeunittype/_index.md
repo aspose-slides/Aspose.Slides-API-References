@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the base unit for the category axis
 type: docs
-weight: 2340
+weight: 2350
 url: /net/aspose.slides.charts/timeunittype/
 ---
 ## TimeUnitType enumeration

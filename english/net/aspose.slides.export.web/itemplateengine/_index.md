@@ -3,7 +3,7 @@ title: ITemplateEngine
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a template engine that transforms template and data pair into resulting output usually HTML.
 type: docs
-weight: 4260
+weight: 4270
 url: /net/aspose.slides.export.web/itemplateengine/
 ---
 ## ITemplateEngine interface

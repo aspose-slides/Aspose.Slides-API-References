@@ -3,7 +3,7 @@ title: TickLabelPositionType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the position type of tick-mark labels on the specified axis.
 type: docs
-weight: 2320
+weight: 2330
 url: /net/aspose.slides.charts/ticklabelpositiontype/
 ---
 ## TickLabelPositionType enumeration

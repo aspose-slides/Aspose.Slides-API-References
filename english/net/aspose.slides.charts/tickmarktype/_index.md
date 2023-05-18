@@ -3,7 +3,7 @@ title: TickMarkType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the tick mark type for the specified axis.
 type: docs
-weight: 2330
+weight: 2340
 url: /net/aspose.slides.charts/tickmarktype/
 ---
 ## TickMarkType enumeration

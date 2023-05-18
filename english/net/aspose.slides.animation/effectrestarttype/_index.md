@@ -3,7 +3,7 @@ title: EffectRestartType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent restart types for timing.
 type: docs
-weight: 230
+weight: 240
 url: /net/aspose.slides.animation/effectrestarttype/
 ---
 ## EffectRestartType enumeration

@@ -3,7 +3,7 @@ title: MorphTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Ripple slide transition effect.
 type: docs
-weight: 9550
+weight: 9560
 url: /net/aspose.slides.slideshow/morphtransition/
 ---
 ## MorphTransition class

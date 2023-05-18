@@ -3,7 +3,7 @@ title: Convert
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of methods intended to convert Presentation../aspose.slides/presentation.
 type: docs
-weight: 7260
+weight: 7270
 url: /net/aspose.slides.lowcode/convert/
 ---
 ## Convert class

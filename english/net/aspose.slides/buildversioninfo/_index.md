@@ -3,7 +3,7 @@ title: BuildVersionInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains information about version of Aspose.Slides.
 type: docs
-weight: 960
+weight: 970
 url: /net/aspose.slides/buildversioninfo/
 ---
 ## BuildVersionInfo class

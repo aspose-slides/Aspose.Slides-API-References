@@ -3,7 +3,7 @@ title: EffectStyle
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an effect style.
 type: docs
-weight: 10380
+weight: 10390
 url: /net/aspose.slides.theme/effectstyle/
 ---
 ## EffectStyle class

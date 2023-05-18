@@ -3,7 +3,7 @@ title: IChartDataWorkbook
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to embedded Excel workbook
 type: docs
-weight: 1740
+weight: 1750
 url: /net/aspose.slides.charts/ichartdataworkbook/
 ---
 ## IChartDataWorkbook interface

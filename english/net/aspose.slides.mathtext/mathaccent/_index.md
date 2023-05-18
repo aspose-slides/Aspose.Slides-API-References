@@ -3,7 +3,7 @@ title: MathAccent
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the accent function consisting of a base and a combining diacritical mark Example ́
 type: docs
-weight: 7890
+weight: 7900
 url: /net/aspose.slides.mathtext/mathaccent/
 ---
 ## MathAccent class

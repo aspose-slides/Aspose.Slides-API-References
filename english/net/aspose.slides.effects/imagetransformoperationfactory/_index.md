@@ -3,7 +3,7 @@ title: ImageTransformOperationFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create image transform operations
 type: docs
-weight: 3410
+weight: 3420
 url: /net/aspose.slides.effects/imagetransformoperationfactory/
 ---
 ## ImageTransformOperationFactory class
