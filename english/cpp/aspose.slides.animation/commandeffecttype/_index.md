@@ -3,7 +3,7 @@ title: CommandEffectType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents command effect type for command effect behavior.
 type: docs
-weight: 703
+weight: 716
 url: /cpp/aspose.slides.animation/commandeffecttype/
 ---
 ## CommandEffectType enum

@@ -3,7 +3,7 @@ title: "System::IO::Compression"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 573
+weight: 560
 url: /cpp/system.io.compression/
 ---
 

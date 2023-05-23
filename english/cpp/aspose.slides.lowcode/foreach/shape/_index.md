@@ -41,6 +41,42 @@ auto callback = std::function<void(SharedPtr<Shape> shape, SharedPtr<BaseSlide> 
 ForEach::Shape(pres, callback);
 ```
 
+## ForEach::Shape(System::SharedPtr\<Presentation\>, bool, ForEach::ForEachShapeCallback) method
+
+
+Iterate each [ForEach::Shape](./) in the [Presentation](../../../aspose.slides/presentation/).
+
+```cpp
+static void Aspose::Slides::LowCode::ForEach::Shape(System::SharedPtr<Presentation> pres, bool includeNotes, ForEach::ForEachShapeCallback forEachShape)
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | [System::SharedPtr](../../../system/sharedptr/)\<[Presentation](../../../aspose.slides/presentation/)\> | [Presentation](../../../aspose.slides/presentation/) to iterate layout shapes |
+| includeNotes | **bool** | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachShape | [ForEach::ForEachShapeCallback](../foreachshapecallback/) | Callback that will be invoked for each shape |
+## Remarks
+
+
+Shapes will be iterated in all type of slides - [ForEach::Slide](../slide/), [ForEach::MasterSlide](../masterslide/), [ForEach::LayoutSlide](../layoutslide/) and [NotesSlide](../../../aspose.slides/notesslide/) if needed.
+
+
+
+```cpp
+auto pres = System::MakeObject<Presentation>(u"pres.pptx");
+
+auto lambda = [](SharedPtr<Shape> shape, SharedPtr<BaseSlide> slide, int32_t index) -> void
+{
+    System::Console::WriteLine(u"{0}, index: {1}", shape->get_Name(), index);
+};
+auto callback = std::function<void(SharedPtr<Shape> shape, SharedPtr<BaseSlide> slide, int32_t index)>(lambda);
+
+ForEach::Shape(pres, true, callback);
+```
+
 ## ForEach::Shape(System::SharedPtr\<BaseSlide\>, ForEach::ForEachShapeCallback) method
 
 

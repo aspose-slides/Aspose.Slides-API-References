@@ -3,7 +3,7 @@ title: get_IsVisible()
 second_title: Aspose.Slides for C++ API Reference
 description: False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only bool.
 type: docs
-weight: 40
+weight: 53
 url: /cpp/aspose.slides.charts/idatalabelcollection/get_isvisible/
 ---
 ## IDataLabelCollection::get_IsVisible() method

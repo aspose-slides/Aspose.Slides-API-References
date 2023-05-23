@@ -3,7 +3,7 @@ title: "System::Runtime::Serialization"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 742
+weight: 729
 url: /cpp/system.runtime.serialization/
 ---
 

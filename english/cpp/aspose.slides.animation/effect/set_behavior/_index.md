@@ -3,7 +3,7 @@ title: set_Behavior()
 second_title: Aspose.Slides for C++ API Reference
 description: Set animation behavior at the specified index.
 type: docs
-weight: 248
+weight: 300
 url: /cpp/aspose.slides.animation/effect/set_behavior/
 ---
 ## Effect::set_Behavior(int32_t, System::SharedPtr\<IBehavior\>) method

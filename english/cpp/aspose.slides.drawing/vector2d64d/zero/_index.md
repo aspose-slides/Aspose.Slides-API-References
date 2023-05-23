@@ -3,7 +3,7 @@ title: Zero
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 105
+weight: 157
 url: /cpp/aspose.slides.drawing/vector2d64d/zero/
 ---
 ## Zero field

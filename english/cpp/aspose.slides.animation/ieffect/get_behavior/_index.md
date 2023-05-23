@@ -3,7 +3,7 @@ title: get_Behavior()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns animation behavior at the specified index.
 type: docs
-weight: 235
+weight: 287
 url: /cpp/aspose.slides.animation/ieffect/get_behavior/
 ---
 ## IEffect::get_Behavior(int32_t) method

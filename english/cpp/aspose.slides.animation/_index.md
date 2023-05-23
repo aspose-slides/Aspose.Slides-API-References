@@ -66,6 +66,7 @@ url: /cpp/aspose.slides.animation/
 
 | Enum | Description |
 | --- | --- |
+| [AfterAnimationType](./afteranimationtype/) | Represents the after animation type of an animation effect. |
 | [BehaviorAccumulateType](./behavioraccumulatetype/) | Represents types of accumulation of effect behaviors. |
 | [BehaviorAdditiveType](./behavioradditivetype/) | Represents additive type for effect behavior. |
 | [BuildType](./buildtype/) | Determines how text will appear on a shape during animation. |

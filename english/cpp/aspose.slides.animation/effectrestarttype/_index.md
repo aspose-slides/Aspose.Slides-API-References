@@ -3,7 +3,7 @@ title: EffectRestartType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent restart types for timing.
 type: docs
-weight: 768
+weight: 781
 url: /cpp/aspose.slides.animation/effectrestarttype/
 ---
 ## EffectRestartType enum

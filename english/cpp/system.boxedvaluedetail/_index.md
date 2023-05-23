@@ -3,7 +3,7 @@ title: "System::BoxedValueDetail"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 287
+weight: 274
 url: /cpp/system.boxedvaluedetail/
 ---
 

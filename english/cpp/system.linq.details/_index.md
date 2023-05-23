@@ -3,7 +3,7 @@ title: "System::Linq::Details"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 599
+weight: 586
 url: /cpp/system.linq.details/
 ---
 

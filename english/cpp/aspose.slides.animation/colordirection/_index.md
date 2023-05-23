@@ -3,7 +3,7 @@ title: ColorDirection
 second_title: Aspose.Slides for C++ API Reference
 description: Represents color direction for color effect behavior.
 type: docs
-weight: 677
+weight: 690
 url: /cpp/aspose.slides.animation/colordirection/
 ---
 ## ColorDirection enum

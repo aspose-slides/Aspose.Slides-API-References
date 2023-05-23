@@ -3,7 +3,7 @@ title: "Aspose::Slides::SmartArt"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 196
+weight: 183
 url: /cpp/aspose.slides.smartart/
 ---
 

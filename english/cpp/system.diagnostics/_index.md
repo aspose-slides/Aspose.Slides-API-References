@@ -3,7 +3,7 @@ title: "System::Diagnostics"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 456
+weight: 443
 url: /cpp/system.diagnostics/
 ---
 

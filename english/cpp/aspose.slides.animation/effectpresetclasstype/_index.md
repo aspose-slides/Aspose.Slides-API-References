@@ -3,7 +3,7 @@ title: EffectPresetClassType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent effect class types.
 type: docs
-weight: 755
+weight: 768
 url: /cpp/aspose.slides.animation/effectpresetclasstype/
 ---
 ## EffectPresetClassType enum

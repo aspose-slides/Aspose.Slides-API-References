@@ -3,7 +3,7 @@ title: FilterEffectRevealType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents filter reveal type.
 type: docs
-weight: 820
+weight: 833
 url: /cpp/aspose.slides.animation/filtereffectrevealtype/
 ---
 ## FilterEffectRevealType enum

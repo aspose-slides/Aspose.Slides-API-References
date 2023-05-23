@@ -3,7 +3,7 @@ title: One
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 118
+weight: 170
 url: /cpp/aspose.slides.drawing/vector2d64d/one/
 ---
 ## One field

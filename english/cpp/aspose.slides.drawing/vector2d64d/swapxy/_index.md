@@ -3,7 +3,7 @@ title: SwapXY()
 second_title: Aspose.Slides for C++ API Reference
 description: Swap X and Y
 type: docs
-weight: 14
+weight: 40
 url: /cpp/aspose.slides.drawing/vector2d64d/swapxy/
 ---
 ## Vector2d64d::SwapXY() method

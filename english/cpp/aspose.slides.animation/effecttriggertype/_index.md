@@ -3,7 +3,7 @@ title: EffectTriggerType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent trigger type of effect.
 type: docs
-weight: 794
+weight: 807
 url: /cpp/aspose.slides.animation/effecttriggertype/
 ---
 ## EffectTriggerType enum

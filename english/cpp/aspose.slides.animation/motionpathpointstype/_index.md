@@ -3,7 +3,7 @@ title: MotionPathPointsType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent types of points in animation motion path.
 type: docs
-weight: 898
+weight: 911
 url: /cpp/aspose.slides.animation/motionpathpointstype/
 ---
 ## MotionPathPointsType enum

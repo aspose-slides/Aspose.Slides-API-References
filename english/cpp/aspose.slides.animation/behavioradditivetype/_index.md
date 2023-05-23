@@ -3,7 +3,7 @@ title: BehaviorAdditiveType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents additive type for effect behavior.
 type: docs
-weight: 651
+weight: 664
 url: /cpp/aspose.slides.animation/behavioradditivetype/
 ---
 ## BehaviorAdditiveType enum

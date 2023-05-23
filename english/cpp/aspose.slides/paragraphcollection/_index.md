@@ -13,8 +13,7 @@ Represents a collection of a paragraphs.
 
 ```cpp
 class ParagraphCollection : public Aspose::Slides::DomObject<System::SharedPtr<Aspose::Slides::TextFrame>>,
-                            public Aspose::Slides::IParagraphCollection,
-                            public Aspose::Slides::Patterns::IObserver
+                            public Aspose::Slides::IParagraphCollection
 ```
 
 ## Methods
@@ -126,6 +125,5 @@ class ParagraphCollection : public Aspose::Slides::DomObject<System::SharedPtr<A
 
 * Class [DomObject](../domobject/)
 * Class [IParagraphCollection](../iparagraphcollection/)
-* Class [IObserver](../../aspose.slides.patterns/iobserver/)
 * Namespace [Aspose::Slides](../)
 * Library [Aspose.Slides](../../)

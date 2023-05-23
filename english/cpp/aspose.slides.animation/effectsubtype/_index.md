@@ -3,7 +3,7 @@ title: EffectSubtype
 second_title: Aspose.Slides for C++ API Reference
 description: Represents subtypes of animation effect.
 type: docs
-weight: 781
+weight: 794
 url: /cpp/aspose.slides.animation/effectsubtype/
 ---
 ## EffectSubtype enum

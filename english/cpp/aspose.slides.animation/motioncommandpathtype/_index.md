@@ -3,7 +3,7 @@ title: MotionCommandPathType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent types of command for animation motion effect behavior.
 type: docs
-weight: 859
+weight: 872
 url: /cpp/aspose.slides.animation/motioncommandpathtype/
 ---
 ## MotionCommandPathType enum

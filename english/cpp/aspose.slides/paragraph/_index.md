@@ -13,7 +13,6 @@ Represents a paragraph of text.
 
 ```cpp
 class Paragraph : public Aspose::Slides::IParagraph,
-                  public Aspose::Slides::Patterns::IObservable,
                   public Aspose::Slides::IDOMObject
 ```
 
@@ -57,18 +56,15 @@ class Paragraph : public Aspose::Slides::IParagraph,
 | int [SharedCount](../../system/object/sharedcount/)() const | Gets current value of shared reference counter. |
 | [Object](../../system/object/) * [SharedRefAdded](../../system/object/sharedrefadded/)() | Increments shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | int [SharedRefRemovedSafe](../../system/object/sharedrefremovedsafe/)() | Decrements and returns shared reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
-| virtual ASPOSE_SLIDES_LOCAL_API void [Subscribe](../../aspose.slides.patterns/iobservable/subscribe/)([System::SharedPtr](../../system/sharedptr/)\<[IObserver](../../aspose.slides.patterns/iobserver/)\>) |  |
 | virtual [String](../../system/string/) [ToString](../../system/object/tostring/)() const | Analog of C# [Object.ToString()](../../system/object/tostring/) method. Enables converting custom objects to string. |
 | static const [TypeInfo](../../system/typeinfo/)\& [Type](../../system/object/type/)() | Implements C# typeof([System.Object](../../system/object/)) construct. |
 | void [Unlock](../../system/object/unlock/)() | Implements C# lock() statement unlocking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
-| virtual ASPOSE_SLIDES_LOCAL_API void [Unsubscribe](../../aspose.slides.patterns/iobservable/unsubscribe/)([System::SharedPtr](../../system/sharedptr/)\<[IObserver](../../aspose.slides.patterns/iobserver/)\>) |  |
 | Detail::SmartPtrCounter * [WeakRefAdded](../../system/object/weakrefadded/)() | Increments weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | void [WeakRefRemoved](../../system/object/weakrefremoved/)() | Decrements weak reference count. Shouldn't be called directly; instead, use smart pointers or ThisProtector. |
 | virtual  [~Object](../../system/object/~object/)() | Destroys object. Frees all internal data structures. |
 ## See Also
 
 * Class [IParagraph](../iparagraph/)
-* Class [IObservable](../../aspose.slides.patterns/iobservable/)
 * Class [IDOMObject](../idomobject/)
 * Namespace [Aspose::Slides](../)
 * Library [Aspose.Slides](../../)

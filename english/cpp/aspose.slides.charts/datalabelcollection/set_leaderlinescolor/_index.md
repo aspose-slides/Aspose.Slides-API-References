@@ -3,7 +3,7 @@ title: set_LeaderLinesColor()
 second_title: Aspose.Slides for C++ API Reference
 description: "Sets the color of all leader lines in the collection. Write System::Drawing::Color."
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.slides.charts/datalabelcollection/set_leaderlinescolor/
 ---
 ## DataLabelCollection::set_LeaderLinesColor(System::Drawing::Color) method
@@ -16,6 +16,10 @@ void Aspose::Slides::Charts::DataLabelCollection::set_LeaderLinesColor(System::D
 ```
 
 ## Remarks
+
+
+Deprecated
+:   Use [Aspose.Slides.Charts.IDataLabelCollection](../../idatalabelcollection/) instead. The method will be removed after release of version 23.8.
 
 
 Example: 

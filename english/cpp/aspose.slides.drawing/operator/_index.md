@@ -42,6 +42,15 @@ Vector2d32f Aspose::Slides::Drawing::operator/(Vector2d32f l, int32_t r)
 Vector2d64d Aspose::Slides::Drawing::operator/(Vector2d64d l, int32_t r)
 ```
 
+## Aspose::Slides::Drawing::operator/(Vector2d64d, double) function
+
+
+
+
+```cpp
+Vector2d64d Aspose::Slides::Drawing::operator/(Vector2d64d l, double r)
+```
+
 ## See Also
 
 * Class [Margin32f](../margin32f/)

@@ -3,7 +3,7 @@ title: "System::Drawing::Imaging"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 495
+weight: 482
 url: /cpp/system.drawing.imaging/
 ---
 

@@ -3,7 +3,7 @@ title: idx_get()
 second_title: Aspose.Slides for C++ API Reference
 description: Gets the data label for the data point with the specified index.
 type: docs
-weight: 144
+weight: 157
 url: /cpp/aspose.slides.charts/datalabelcollection/idx_get/
 ---
 ## DataLabelCollection::idx_get(int32_t) method
