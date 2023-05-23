@@ -3,7 +3,7 @@ title: MasterSlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of master slides.
 type: docs
-weight: 302
+weight: 303
 url: /java/com.aspose.slides/masterslidecollection/
 ---
 **Inheritance:**

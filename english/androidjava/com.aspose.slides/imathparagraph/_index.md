@@ -3,7 +3,7 @@ title: IMathParagraph
 second_title: Aspose.Slides for Android via Java API Reference
 description: Mathematical paragraph that is a container for mathematical blocks IMathBlock
 type: docs
-weight: 912
+weight: 913
 url: /androidjava/com.aspose.slides/imathparagraph/
 ---
 **All Implemented Interfaces:**

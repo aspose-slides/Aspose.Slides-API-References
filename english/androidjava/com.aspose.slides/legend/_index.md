@@ -3,7 +3,7 @@ title: Legend
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents charts legend properties.
 type: docs
-weight: 268
+weight: 269
 url: /androidjava/com.aspose.slides/legend/
 ---
 **Inheritance:**

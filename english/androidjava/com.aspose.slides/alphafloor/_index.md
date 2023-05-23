@@ -3,7 +3,7 @@ title: AlphaFloor
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Alpha Floor effect.
 type: docs
-weight: 14
+weight: 15
 url: /androidjava/com.aspose.slides/alphafloor/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IAlphaFloor](../../com.aspose.slides/ialphafloor), com.aspose.slides.IVisualEffect
 ```
-public class AlphaFloor extends ImageTransformOperation implements IAlphaFloor, IVisualEffect
+public final class AlphaFloor extends ImageTransformOperation implements IAlphaFloor, IVisualEffect
 ```
 
 Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent.

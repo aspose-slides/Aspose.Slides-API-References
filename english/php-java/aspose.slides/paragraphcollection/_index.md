@@ -35,6 +35,5 @@ url: /php-java/aspose.slides/paragraphcollection/
 | [isReadOnly](isreadonly)() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 | [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [notify](notify)(Object) |  |
 | [remove](remove)([Paragraph](../paragraph)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 | [removeAt](removeat)(int) | Removes the element at the specified index of the collection. |

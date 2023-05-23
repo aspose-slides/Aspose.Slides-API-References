@@ -3,7 +3,7 @@ title: CommentCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of comments of one author.
 type: docs
-weight: 129
+weight: 130
 url: /java/com.aspose.slides/commentcollection/
 ---
 **Inheritance:**

@@ -26,7 +26,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathLimit](../../mathlimit) value)  method
+## set_Item(int row, int column, [MathMatrix](../../mathmatrix) value)  method
 
  Element of matrix
  
@@ -45,7 +45,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathMatrix](../../mathmatrix) value)  method
+## set_Item(int row, int column, [MathLimit](../../mathlimit) value)  method
 
  Element of matrix
  
@@ -140,7 +140,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathNaryOperator](../../mathnaryoperator) value)  method
+## set_Item(int row, int column, [MathAccent](../../mathaccent) value)  method
 
  Element of matrix
  
@@ -159,7 +159,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathAccent](../../mathaccent) value)  method
+## set_Item(int row, int column, [MathNaryOperator](../../mathnaryoperator) value)  method
 
  Element of matrix
  
@@ -235,6 +235,25 @@ void
 ---
 
 
+## set_Item(int row, int column, [MathSubscriptElement](../../mathsubscriptelement) value)  method
+
+ Element of matrix
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+### Returns
+void
+
+
+---
+
+
 ## set_Item(int row, int column, [MathSuperscriptElement](../../mathsuperscriptelement) value)  method
 
  Element of matrix
@@ -273,7 +292,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathSubscriptElement](../../mathsubscriptelement) value)  method
+## set_Item(int row, int column, [MathFraction](../../mathfraction) value)  method
 
  Element of matrix
  
@@ -293,25 +312,6 @@ void
 
 
 ## set_Item(int row, int column, [MathematicalText](../../mathematicaltext) value)  method
-
- Element of matrix
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-### Returns
-void
-
-
----
-
-
-## set_Item(int row, int column, [MathFraction](../../mathfraction) value)  method
 
  Element of matrix
  

@@ -3,7 +3,7 @@ title: InnerShadow
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Inner Shadow effect.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.slides/innershadow/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.aspose.slides.IInnerShadow](../../com.aspose.slides/iinnershadow), com.aspose.slides.IVisualEffect, com.aspose.slides.IDOMObject, com.aspose.slides.IPVIObject, java.lang.Cloneable
 ```
-public class InnerShadow implements IInnerShadow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
+public final class InnerShadow implements IInnerShadow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
 ```
 
 Represents a Inner Shadow effect.

@@ -3,7 +3,7 @@ title: AudioFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents an audio clip on a slide.
 type: docs
-weight: 23
+weight: 24
 url: /java/com.aspose.slides/audioframe/
 ---
 **Inheritance:**

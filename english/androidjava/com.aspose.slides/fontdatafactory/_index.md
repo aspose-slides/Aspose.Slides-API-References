@@ -3,7 +3,7 @@ title: FontDataFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: FontData factory
 type: docs
-weight: 202
+weight: 203
 url: /androidjava/com.aspose.slides/fontdatafactory/
 ---
 **Inheritance:**

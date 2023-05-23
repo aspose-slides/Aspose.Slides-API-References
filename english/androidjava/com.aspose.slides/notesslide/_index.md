@@ -3,7 +3,7 @@ title: NotesSlide
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a notes slide in a presentation.
 type: docs
-weight: 377
+weight: 378
 url: /androidjava/com.aspose.slides/notesslide/
 ---
 **Inheritance:**

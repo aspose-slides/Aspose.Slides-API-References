@@ -3,7 +3,7 @@ title: IPathSegment
 second_title: Aspose.Slides for Java API Reference
 description: Represents segment of graphics path of GeometryShape
 type: docs
-weight: 959
+weight: 960
 url: /java/com.aspose.slides/ipathsegment/
 ---```
 public interface IPathSegment

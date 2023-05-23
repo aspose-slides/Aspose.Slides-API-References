@@ -3,7 +3,7 @@ title: setSubtype
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 160
+weight: 200
 url: /php-java/aspose.slides/effect/setsubtype/
 ---
 

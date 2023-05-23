@@ -3,7 +3,7 @@ title: EffectType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the type of an animation effect.
 type: docs
-weight: 173
+weight: 174
 url: /androidjava/com.aspose.slides/effecttype/
 ---
 **Inheritance:**

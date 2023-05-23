@@ -3,7 +3,7 @@ title: ITint
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Tint effect.
 type: docs
-weight: 1085
+weight: 1086
 url: /java/com.aspose.slides/itint/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: ITextAnimationCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of text animations.
 type: docs
-weight: 1068
+weight: 1069
 url: /java/com.aspose.slides/itextanimationcollection/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: ISpreadsheetOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents options which can be used to specify additional spreadsheets behavior.
 type: docs
-weight: 1046
+weight: 1047
 url: /androidjava/com.aspose.slides/ispreadsheetoptions/
 ---```
 public interface ISpreadsheetOptions

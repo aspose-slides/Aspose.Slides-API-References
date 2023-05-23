@@ -3,7 +3,7 @@ title: PdfTextCompression
 second_title: Aspose.Slides for Android via Java API Reference
 description: Constants which define the type of a compression applied to all content in the PDF file except images.
 type: docs
-weight: 412
+weight: 413
 url: /androidjava/com.aspose.slides/pdftextcompression/
 ---
 **Inheritance:**

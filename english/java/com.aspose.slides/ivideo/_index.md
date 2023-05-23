@@ -3,7 +3,7 @@ title: IVideo
 second_title: Aspose.Slides for Java API Reference
 description: Represents a video embedded into a presentation.
 type: docs
-weight: 1101
+weight: 1102
 url: /java/com.aspose.slides/ivideo/
 ---```
 public interface IVideo

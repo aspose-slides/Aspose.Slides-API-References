@@ -3,7 +3,7 @@ title: EffectFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create effects
 type: docs
-weight: 164
+weight: 165
 url: /androidjava/com.aspose.slides/effectfactory/
 ---
 **Inheritance:**

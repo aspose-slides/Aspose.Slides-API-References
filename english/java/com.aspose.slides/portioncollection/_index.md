@@ -3,7 +3,7 @@ title: PortionCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of portions.
 type: docs
-weight: 429
+weight: 430
 url: /java/com.aspose.slides/portioncollection/
 ---
 **Inheritance:**

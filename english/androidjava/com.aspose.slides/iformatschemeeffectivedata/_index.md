@@ -3,7 +3,7 @@ title: IFormatSchemeEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective format scheme properties.
 type: docs
-weight: 797
+weight: 798
 url: /androidjava/com.aspose.slides/iformatschemeeffectivedata/
 ---```
 public interface IFormatSchemeEffectiveData

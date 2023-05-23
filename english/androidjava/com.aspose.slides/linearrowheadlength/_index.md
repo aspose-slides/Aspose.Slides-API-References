@@ -3,7 +3,7 @@ title: LineArrowheadLength
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the length of an arrowhead.
 type: docs
-weight: 278
+weight: 279
 url: /androidjava/com.aspose.slides/linearrowheadlength/
 ---
 **Inheritance:**

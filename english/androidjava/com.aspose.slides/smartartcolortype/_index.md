@@ -3,7 +3,7 @@ title: SmartArtColorType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents color scheme of a SmartArt diagram.
 type: docs
-weight: 518
+weight: 519
 url: /androidjava/com.aspose.slides/smartartcolortype/
 ---
 **Inheritance:**

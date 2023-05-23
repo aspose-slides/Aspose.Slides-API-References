@@ -3,7 +3,7 @@ title: MathLimit
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the Limit object consisting of text on the baseline and reduced-size text immediately above or below it.
 type: docs
-weight: 336
+weight: 337
 url: /androidjava/com.aspose.slides/mathlimit/
 ---
 **Inheritance:**

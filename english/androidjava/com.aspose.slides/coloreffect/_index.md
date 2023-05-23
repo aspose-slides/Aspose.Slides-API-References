@@ -3,7 +3,7 @@ title: ColorEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a color effect for an animation behavior.
 type: docs
-weight: 108
+weight: 109
 url: /androidjava/com.aspose.slides/coloreffect/
 ---
 **Inheritance:**

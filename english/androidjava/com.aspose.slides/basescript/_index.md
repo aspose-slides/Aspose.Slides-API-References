@@ -3,7 +3,7 @@ title: BaseScript
 second_title: Aspose.Slides for Android via Java API Reference
 description: Math script
 type: docs
-weight: 42
+weight: 43
 url: /androidjava/com.aspose.slides/basescript/
 ---
 **Inheritance:**

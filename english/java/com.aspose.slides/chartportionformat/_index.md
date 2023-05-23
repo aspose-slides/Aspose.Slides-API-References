@@ -3,7 +3,7 @@ title: ChartPortionFormat
 second_title: Aspose.Slides for Java API Reference
 description: This class contains the chart portion formatting properties used in charts.
 type: docs
-weight: 94
+weight: 95
 url: /java/com.aspose.slides/chartportionformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IChartPortionFormat](../../com.aspose.slides/ichartportionformat)
 ```
-public class ChartPortionFormat extends BasePortionFormat implements IChartPortionFormat
+public final class ChartPortionFormat extends BasePortionFormat implements IChartPortionFormat
 ```
 
 This class contains the chart portion formatting properties used in charts. Unlike [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata), all properties of this class are writeable.

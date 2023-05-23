@@ -3,7 +3,7 @@ title: Glow
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Glow effect in which a color blurred outline  is added outside the edges of the object.
 type: docs
-weight: 224
+weight: 225
 url: /java/com.aspose.slides/glow/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.aspose.slides.IGlow](../../com.aspose.slides/iglow), com.aspose.slides.IVisualEffect, com.aspose.slides.IDOMObject, com.aspose.slides.IPVIObject, java.lang.Cloneable
 ```
-public class Glow implements IGlow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
+public final class Glow implements IGlow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
 ```
 
 Represents a Glow effect, in which a color blurred outline is added outside the edges of the object.

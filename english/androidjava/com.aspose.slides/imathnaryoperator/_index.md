@@ -3,7 +3,7 @@ title: IMathNaryOperator
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies an N-ary mathematical object such as Summation and Integral.
 type: docs
-weight: 909
+weight: 910
 url: /androidjava/com.aspose.slides/imathnaryoperator/
 ---
 **All Implemented Interfaces:**

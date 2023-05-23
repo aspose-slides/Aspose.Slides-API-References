@@ -3,7 +3,7 @@ title: MathLeftSubSuperscriptElement
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the Sub-Superscript object which consists of a base  and a subscript and superscript placed to the left of the base.
 type: docs
-weight: 335
+weight: 336
 url: /androidjava/com.aspose.slides/mathleftsubsuperscriptelement/
 ---
 **Inheritance:**

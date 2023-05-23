@@ -3,7 +3,7 @@ title: ViewType
 second_title: Aspose.Slides for Java API Reference
 description: Presentation view types
 type: docs
-weight: 613
+weight: 614
 url: /java/com.aspose.slides/viewtype/
 ---
 **Inheritance:**

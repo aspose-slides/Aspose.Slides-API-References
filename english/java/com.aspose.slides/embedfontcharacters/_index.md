@@ -3,7 +3,7 @@ title: EmbedFontCharacters
 second_title: Aspose.Slides for Java API Reference
 description: Represents the rule to use for adding new embedding font into
 type: docs
-weight: 176
+weight: 177
 url: /java/com.aspose.slides/embedfontcharacters/
 ---
 **Inheritance:**

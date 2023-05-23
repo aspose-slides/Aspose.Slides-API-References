@@ -3,7 +3,7 @@ title: SummaryZoomFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Summary Zoom object in a slide.
 type: docs
-weight: 534
+weight: 535
 url: /java/com.aspose.slides/summaryzoomframe/
 ---
 **Inheritance:**

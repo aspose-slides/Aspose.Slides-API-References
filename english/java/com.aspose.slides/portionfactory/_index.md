@@ -3,7 +3,7 @@ title: PortionFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create test portions
 type: docs
-weight: 430
+weight: 431
 url: /java/com.aspose.slides/portionfactory/
 ---
 **Inheritance:**

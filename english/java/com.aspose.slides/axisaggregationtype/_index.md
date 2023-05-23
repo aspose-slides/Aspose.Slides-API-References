@@ -3,7 +3,7 @@ title: AxisAggregationType
 second_title: Aspose.Slides for Java API Reference
 description: Represents aggregation type of category axis.
 type: docs
-weight: 31
+weight: 32
 url: /java/com.aspose.slides/axisaggregationtype/
 ---
 **Inheritance:**

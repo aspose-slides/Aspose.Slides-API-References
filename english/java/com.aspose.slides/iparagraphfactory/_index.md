@@ -3,7 +3,7 @@ title: IParagraphFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create paragraphs
 type: docs
-weight: 956
+weight: 957
 url: /java/com.aspose.slides/iparagraphfactory/
 ---```
 public interface IParagraphFactory

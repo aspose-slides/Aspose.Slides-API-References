@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/layoutslide/getthememanager/
  
 
 ### Returns
-[SlideThemeManager](../../slidethememanager), [LayoutSlideThemeManager](../../layoutslidethememanager), [ChartThemeManager](../../chartthememanager), [NotesSlideThemeManager](../../notesslidethememanager), [BaseOverrideThemeManager](../../baseoverridethememanager)
+[SlideThemeManager](../../slidethememanager), [LayoutSlideThemeManager](../../layoutslidethememanager), [ChartThemeManager](../../chartthememanager), [BaseOverrideThemeManager](../../baseoverridethememanager), [NotesSlideThemeManager](../../notesslidethememanager)
 
 
 ---

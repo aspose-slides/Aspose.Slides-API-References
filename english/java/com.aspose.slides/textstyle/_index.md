@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Slides for Java API Reference
 description: This class contains the text style formatting properties.
 type: docs
-weight: 567
+weight: 568
 url: /java/com.aspose.slides/textstyle/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ITextStyle](../../com.aspose.slides/itextstyle), com.aspose.slides.IStyleColorOwner
 ```
-public class TextStyle extends PVIObject implements ITextStyle, IStyleColorOwner
+public final class TextStyle extends PVIObject implements ITextStyle, IStyleColorOwner
 ```
 
 This class contains the text style formatting properties.

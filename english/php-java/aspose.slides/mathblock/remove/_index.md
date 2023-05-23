@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## remove([MathLimit](../../mathlimit) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathLimit](../../mathlimit) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathMatrix](../../mathmatrix) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -53,6 +35,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathMatrix](../../mathmatrix) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## remove([MathLimit](../../mathlimit) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathLimit](../../mathlimit) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -133,24 +133,6 @@ boolean
 ---
 
 
-## remove([MathNaryOperator](../../mathnaryoperator) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathNaryOperator](../../mathnaryoperator) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathAccent](../../mathaccent) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -161,6 +143,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathAccent](../../mathaccent) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## remove([MathNaryOperator](../../mathnaryoperator) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathNaryOperator](../../mathnaryoperator) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -223,6 +223,24 @@ boolean
 ---
 
 
+## remove([MathSubscriptElement](../../mathsubscriptelement) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathSubscriptElement](../../mathsubscriptelement) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
 ## remove([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -259,7 +277,7 @@ boolean
 ---
 
 
-## remove([MathSubscriptElement](../../mathsubscriptelement) item)  method
+## remove([MathFraction](../../mathfraction) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -268,7 +286,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathSubscriptElement](../../mathsubscriptelement) | The object to remove from the collection. |
+| item | [MathFraction](../../mathfraction) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -287,24 +305,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathematicalText](../../mathematicaltext) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
-## remove([MathFraction](../../mathfraction) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFraction](../../mathfraction) | The object to remove from the collection. |
 
 ### Returns
 boolean

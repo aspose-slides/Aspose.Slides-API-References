@@ -3,7 +3,7 @@ title: SlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a slides.
 type: docs
-weight: 503
+weight: 504
 url: /java/com.aspose.slides/slidecollection/
 ---
 **Inheritance:**

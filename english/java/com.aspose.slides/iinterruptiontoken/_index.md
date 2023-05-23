@@ -3,7 +3,7 @@ title: IInterruptionToken
 second_title: Aspose.Slides for Java API Reference
 description: This class represents the token to use for signaling long running tasks whether the interruption was requested.
 type: docs
-weight: 841
+weight: 842
 url: /java/com.aspose.slides/iinterruptiontoken/
 ---```
 public interface IInterruptionToken

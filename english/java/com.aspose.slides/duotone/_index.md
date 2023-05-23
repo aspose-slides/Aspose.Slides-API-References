@@ -3,7 +3,7 @@ title: Duotone
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Duotone effect.
 type: docs
-weight: 160
+weight: 161
 url: /java/com.aspose.slides/duotone/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IDuotone](../../com.aspose.slides/iduotone), com.aspose.slides.IVisualEffect
 ```
-public class Duotone extends ImageTransformOperation implements IDuotone, IVisualEffect
+public final class Duotone extends ImageTransformOperation implements IDuotone, IVisualEffect
 ```
 
 Represents a Duotone effect. For each pixel, combines Color1 and Color2 through a linear interpolation to determine the new color for that pixel.

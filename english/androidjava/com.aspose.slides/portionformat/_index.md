@@ -3,7 +3,7 @@ title: PortionFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: This class contains the text portion formatting properties.
 type: docs
-weight: 431
+weight: 432
 url: /androidjava/com.aspose.slides/portionformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IPortionFormat](../../com.aspose.slides/iportionformat)
 ```
-public class PortionFormat extends BasePortionFormat implements IPortionFormat
+public final class PortionFormat extends BasePortionFormat implements IPortionFormat
 ```
 
 This class contains the text portion formatting properties. Unlike [IPortionFormatEffectiveData](../../com.aspose.slides/iportionformateffectivedata), all properties of this class are writeable.

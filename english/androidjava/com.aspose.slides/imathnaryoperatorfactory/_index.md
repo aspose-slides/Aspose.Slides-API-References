@@ -3,7 +3,7 @@ title: IMathNaryOperatorFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create IMathNaryOperator
 type: docs
-weight: 910
+weight: 911
 url: /androidjava/com.aspose.slides/imathnaryoperatorfactory/
 ---```
 public interface IMathNaryOperatorFactory

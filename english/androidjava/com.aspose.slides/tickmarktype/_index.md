@@ -3,7 +3,7 @@ title: TickMarkType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the tick mark type for the specified axis.
 type: docs
-weight: 575
+weight: 576
 url: /androidjava/com.aspose.slides/tickmarktype/
 ---
 **Inheritance:**

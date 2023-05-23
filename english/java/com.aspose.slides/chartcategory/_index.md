@@ -3,7 +3,7 @@ title: ChartCategory
 second_title: Aspose.Slides for Java API Reference
 description: Represents chart categories.
 type: docs
-weight: 78
+weight: 79
 url: /java/com.aspose.slides/chartcategory/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents format of a line.
 type: docs
-weight: 284
+weight: 285
 url: /java/com.aspose.slides/lineformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ILineFormat](../../com.aspose.slides/ilineformat)
 ```
-public class LineFormat extends PVIObject implements ILineFormat
+public final class LineFormat extends PVIObject implements ILineFormat
 ```
 
 Represents format of a line.

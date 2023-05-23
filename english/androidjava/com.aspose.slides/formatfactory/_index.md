@@ -3,7 +3,7 @@ title: FormatFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create formats via COM interface.
 type: docs
-weight: 216
+weight: 217
 url: /androidjava/com.aspose.slides/formatfactory/
 ---
 **Inheritance:**

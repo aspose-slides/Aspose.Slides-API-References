@@ -3,7 +3,7 @@ title: FilterEffect
 second_title: Aspose.Slides for Java API Reference
 description: Represent filter effect of behavior.
 type: docs
-weight: 194
+weight: 195
 url: /java/com.aspose.slides/filtereffect/
 ---
 **Inheritance:**

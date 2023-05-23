@@ -3,7 +3,7 @@ title: PresetShadow
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Preset Shadow effect.
 type: docs
-weight: 454
+weight: 455
 url: /java/com.aspose.slides/presetshadow/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.aspose.slides.IPresetShadow](../../com.aspose.slides/ipresetshadow), com.aspose.slides.IVisualEffect, com.aspose.slides.IDOMObject, com.aspose.slides.IPVIObject, java.lang.Cloneable
 ```
-public class PresetShadow implements IPresetShadow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
+public final class PresetShadow implements IPresetShadow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
 ```
 
 Represents a Preset Shadow effect.

@@ -3,7 +3,7 @@ title: WarningType
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type of warning.
 type: docs
-weight: 614
+weight: 615
 url: /java/com.aspose.slides/warningtype/
 ---
 **Inheritance:**

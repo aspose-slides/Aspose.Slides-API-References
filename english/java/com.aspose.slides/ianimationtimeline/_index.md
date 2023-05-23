@@ -3,7 +3,7 @@ title: IAnimationTimeLine
 second_title: Aspose.Slides for Java API Reference
 description: Represents timeline of animation.
 type: docs
-weight: 642
+weight: 643
 url: /java/com.aspose.slides/ianimationtimeline/
 ---```
 public interface IAnimationTimeLine

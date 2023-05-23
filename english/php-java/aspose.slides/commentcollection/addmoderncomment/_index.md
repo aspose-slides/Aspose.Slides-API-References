@@ -51,28 +51,6 @@ url: /php-java/aspose.slides/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [SmartArtShape](../../smartartshape) shape, Point2D.Float position, Date creationTime)  method
-
- Add new modern comment at the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
 ## addModernComment(String text, [Slide](../../slide) slide, [Table](../../table) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
@@ -85,6 +63,28 @@ url: /php-java/aspose.slides/commentcollection/addmoderncomment/
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [Table](../table) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
+## addModernComment(String text, [Slide](../../slide) slide, [SmartArtShape](../../smartartshape) shape, Point2D.Float position, Date creationTime)  method
+
+ Add new modern comment at the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [SmartArtShape](../smartartshape) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -359,28 +359,6 @@ url: /php-java/aspose.slides/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [AudioFrame](../../audioframe) shape, Point2D.Float position, Date creationTime)  method
-
- Add new modern comment at the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| text | String | Plain text of a new modern comment. |
-| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [AudioFrame](../audioframe) | Shape on a slide to which a new modern comment is associated. |
-| position | Point2D.Float | Position on a slide where to add a new modern comment. |
-| creationTime | Date | Time of a modern comment creation. |
-
-### Returns
-[ModernComment](../../moderncomment)
-
-
----
-
-
 ## addModernComment(String text, [Slide](../../slide) slide, [Chart](../../chart) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
@@ -403,7 +381,7 @@ url: /php-java/aspose.slides/commentcollection/addmoderncomment/
 ---
 
 
-## addModernComment(String text, [Slide](../../slide) slide, [LegacyDiagram](../../legacydiagram) shape, Point2D.Float position, Date creationTime)  method
+## addModernComment(String text, [Slide](../../slide) slide, [AudioFrame](../../audioframe) shape, Point2D.Float position, Date creationTime)  method
 
  Add new modern comment at the end of a collection.
  
@@ -414,7 +392,7 @@ url: /php-java/aspose.slides/commentcollection/addmoderncomment/
 | --- | --- | --- |
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
-| shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
+| shape | [AudioFrame](../audioframe) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 
@@ -437,6 +415,28 @@ url: /php-java/aspose.slides/commentcollection/addmoderncomment/
 | text | String | Plain text of a new modern comment. |
 | slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
 | shape | [ZoomObject](../zoomobject) | Shape on a slide to which a new modern comment is associated. |
+| position | Point2D.Float | Position on a slide where to add a new modern comment. |
+| creationTime | Date | Time of a modern comment creation. |
+
+### Returns
+[ModernComment](../../moderncomment)
+
+
+---
+
+
+## addModernComment(String text, [Slide](../../slide) slide, [LegacyDiagram](../../legacydiagram) shape, Point2D.Float position, Date creationTime)  method
+
+ Add new modern comment at the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| text | String | Plain text of a new modern comment. |
+| slide | [Slide](../slide) | Slide in a presentation where to add a new modern comment. |
+| shape | [LegacyDiagram](../legacydiagram) | Shape on a slide to which a new modern comment is associated. |
 | position | Point2D.Float | Position on a slide where to add a new modern comment. |
 | creationTime | Date | Time of a modern comment creation. |
 

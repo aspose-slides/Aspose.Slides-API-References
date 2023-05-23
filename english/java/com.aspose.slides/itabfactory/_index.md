@@ -3,7 +3,7 @@ title: ITabFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allow to create ITab instances
 type: docs
-weight: 1061
+weight: 1062
 url: /java/com.aspose.slides/itabfactory/
 ---```
 public interface ITabFactory

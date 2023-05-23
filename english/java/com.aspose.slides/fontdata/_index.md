@@ -3,7 +3,7 @@ title: FontData
 second_title: Aspose.Slides for Java API Reference
 description: Represents a font definition.
 type: docs
-weight: 201
+weight: 202
 url: /java/com.aspose.slides/fontdata/
 ---
 **Inheritance:**

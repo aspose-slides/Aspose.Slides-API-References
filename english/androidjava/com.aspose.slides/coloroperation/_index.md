@@ -3,7 +3,7 @@ title: ColorOperation
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents different color operations used for color transformations.
 type: docs
-weight: 111
+weight: 112
 url: /androidjava/com.aspose.slides/coloroperation/
 ---
 **Inheritance:**

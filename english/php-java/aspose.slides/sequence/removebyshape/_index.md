@@ -31,7 +31,7 @@ void
 ---
 
 
-## removeByShape([SmartArtShape](../../smartartshape) shape)  method
+## removeByShape([Table](../../table) shape)  method
 
  Remove effect for the specified shape.
  
@@ -43,7 +43,7 @@ void
 ---
 
 
-## removeByShape([Table](../../table) shape)  method
+## removeByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -199,18 +199,6 @@ void
 ---
 
 
-## removeByShape([AudioFrame](../../audioframe) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## removeByShape([Chart](../../chart) shape)  method
 
  Remove effect for the specified shape.
@@ -223,7 +211,7 @@ void
 ---
 
 
-## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
+## removeByShape([AudioFrame](../../audioframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -236,6 +224,18 @@ void
 
 
 ## removeByShape([ZoomObject](../../zoomobject) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Remove effect for the specified shape.
  

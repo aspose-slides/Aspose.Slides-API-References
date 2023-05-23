@@ -3,7 +3,7 @@ title: IColorChange
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Color Change effect.
 type: docs
-weight: 710
+weight: 711
 url: /java/com.aspose.slides/icolorchange/
 ---
 **All Implemented Interfaces:**

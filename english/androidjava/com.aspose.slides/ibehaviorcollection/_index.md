@@ -3,7 +3,7 @@ title: IBehaviorCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of behavior effects.
 type: docs
-weight: 664
+weight: 665
 url: /androidjava/com.aspose.slides/ibehaviorcollection/
 ---
 **All Implemented Interfaces:**

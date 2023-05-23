@@ -3,7 +3,7 @@ title: ExtraColorSchemeCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of additional color schemes.
 type: docs
-weight: 186
+weight: 187
 url: /java/com.aspose.slides/extracolorschemecollection/
 ---
 **Inheritance:**

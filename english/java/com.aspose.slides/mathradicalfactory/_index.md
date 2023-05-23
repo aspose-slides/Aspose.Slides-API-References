@@ -3,7 +3,7 @@ title: MathRadicalFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create math radical
 type: docs
-weight: 348
+weight: 349
 url: /java/com.aspose.slides/mathradicalfactory/
 ---
 **Inheritance:**

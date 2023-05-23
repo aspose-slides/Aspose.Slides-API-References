@@ -3,7 +3,7 @@ title: IChartSeriesCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of
 type: docs
-weight: 702
+weight: 703
 url: /androidjava/com.aspose.slides/ichartseriescollection/
 ---
 **All Implemented Interfaces:**

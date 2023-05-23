@@ -3,7 +3,7 @@ title: ChartDataSourceType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a type of data source of the chart
 type: docs
-weight: 88
+weight: 89
 url: /androidjava/com.aspose.slides/chartdatasourcetype/
 ---
 **Inheritance:**

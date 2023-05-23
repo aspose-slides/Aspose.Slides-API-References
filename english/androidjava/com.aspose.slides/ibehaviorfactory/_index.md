@@ -3,7 +3,7 @@ title: IBehaviorFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create animation effects
 type: docs
-weight: 665
+weight: 666
 url: /androidjava/com.aspose.slides/ibehaviorfactory/
 ---```
 public interface IBehaviorFactory

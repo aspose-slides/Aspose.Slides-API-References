@@ -3,7 +3,7 @@ title: IBulletFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents paragraph bullet formatting properties.
 type: docs
-weight: 674
+weight: 675
 url: /java/com.aspose.slides/ibulletformat/
 ---```
 public interface IBulletFormat

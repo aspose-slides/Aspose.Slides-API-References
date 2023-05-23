@@ -3,7 +3,7 @@ title: Compress
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a group of methods intended to compress .
 type: docs
-weight: 132
+weight: 133
 url: /androidjava/com.aspose.slides/compress/
 ---
 **Inheritance:**

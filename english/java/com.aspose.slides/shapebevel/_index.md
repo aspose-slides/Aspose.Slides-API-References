@@ -3,7 +3,7 @@ title: ShapeBevel
 second_title: Aspose.Slides for Java API Reference
 description: Contains the properties of shapes main face relief.
 type: docs
-weight: 488
+weight: 489
 url: /java/com.aspose.slides/shapebevel/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IShapeBevel](../../com.aspose.slides/ishapebevel)
 ```
-public class ShapeBevel extends PVIObject implements IShapeBevel
+public final class ShapeBevel extends PVIObject implements IShapeBevel
 ```
 
 Contains the properties of shape's main face relief.

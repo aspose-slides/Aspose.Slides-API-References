@@ -3,7 +3,7 @@ title: SplitTransition
 second_title: Aspose.Slides for Java API Reference
 description: Split slide transition effect.
 type: docs
-weight: 527
+weight: 528
 url: /java/com.aspose.slides/splittransition/
 ---
 **Inheritance:**

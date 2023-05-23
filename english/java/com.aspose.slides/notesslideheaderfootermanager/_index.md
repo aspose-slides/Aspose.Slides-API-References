@@ -3,7 +3,7 @@ title: NotesSlideHeaderFooterManager
 second_title: Aspose.Slides for Java API Reference
 description: Represents manager which holds behavior of the notes slide placeholders including header placeholder.
 type: docs
-weight: 378
+weight: 379
 url: /java/com.aspose.slides/notesslideheaderfootermanager/
 ---
 **Inheritance:**

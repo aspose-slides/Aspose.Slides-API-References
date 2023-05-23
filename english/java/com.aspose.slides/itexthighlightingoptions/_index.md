@@ -3,7 +3,7 @@ title: ITextHighlightingOptions
 second_title: Aspose.Slides for Java API Reference
 description: Represents options which can be used to highlight text in text frame.
 type: docs
-weight: 1072
+weight: 1073
 url: /java/com.aspose.slides/itexthighlightingoptions/
 ---```
 public interface ITextHighlightingOptions

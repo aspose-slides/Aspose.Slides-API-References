@@ -3,7 +3,7 @@ title: OuterShadow
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Outer Shadow effect.
 type: docs
-weight: 393
+weight: 394
 url: /androidjava/com.aspose.slides/outershadow/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.aspose.slides.IOuterShadow](../../com.aspose.slides/ioutershadow), com.aspose.slides.IVisualEffect, com.aspose.slides.IDOMObject, com.aspose.slides.IPVIObject, java.lang.Cloneable
 ```
-public class OuterShadow implements IOuterShadow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
+public final class OuterShadow implements IOuterShadow, IVisualEffect, IDOMObject, IPVIObject, Cloneable
 ```
 
 Represents an Outer Shadow effect.

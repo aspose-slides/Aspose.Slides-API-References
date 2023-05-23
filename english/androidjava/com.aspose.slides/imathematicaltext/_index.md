@@ -3,7 +3,7 @@ title: IMathematicalText
 second_title: Aspose.Slides for Android via Java API Reference
 description: Mathematical text
 type: docs
-weight: 923
+weight: 924
 url: /androidjava/com.aspose.slides/imathematicaltext/
 ---
 **All Implemented Interfaces:**

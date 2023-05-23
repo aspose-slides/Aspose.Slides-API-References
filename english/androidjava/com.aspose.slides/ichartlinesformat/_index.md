@@ -3,7 +3,7 @@ title: IChartLinesFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents gridlines format properties.
 type: docs
-weight: 697
+weight: 698
 url: /androidjava/com.aspose.slides/ichartlinesformat/
 ---```
 public interface IChartLinesFormat

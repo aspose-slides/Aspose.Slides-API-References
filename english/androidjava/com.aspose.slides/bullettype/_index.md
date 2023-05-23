@@ -3,7 +3,7 @@ title: BulletType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the type of the extended bullets.
 type: docs
-weight: 65
+weight: 66
 url: /androidjava/com.aspose.slides/bullettype/
 ---
 **Inheritance:**

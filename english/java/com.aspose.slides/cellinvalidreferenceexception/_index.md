@@ -3,7 +3,7 @@ title: CellInvalidReferenceException
 second_title: Aspose.Slides for Java API Reference
 description: The exception that is thrown when an invalid cell reference is encountered.
 type: docs
-weight: 75
+weight: 76
 url: /java/com.aspose.slides/cellinvalidreferenceexception/
 ---
 **Inheritance:**

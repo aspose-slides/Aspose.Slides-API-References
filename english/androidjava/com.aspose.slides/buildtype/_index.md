@@ -3,7 +3,7 @@ title: BuildType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Determines how text will appear on a shape during animation.
 type: docs
-weight: 62
+weight: 63
 url: /androidjava/com.aspose.slides/buildtype/
 ---
 **Inheritance:**

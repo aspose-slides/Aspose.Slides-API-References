@@ -53,21 +53,21 @@ url: /php-java/aspose.slides/mathmatrix/
 | [setRowGap](setrowgap)(long) | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
 | [setRowGapRule](setrowgaprule)(int) | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
 | [set_Item](set_item)(int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathLimit](../mathlimit)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathMatrix](../mathmatrix)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathLimit](../mathlimit)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBlock](../mathblock)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathRadical](../mathradical)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathArray](../matharray)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathAccent](../mathaccent)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBorderBox](../mathborderbox)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBar](../mathbar)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathSuperscriptElement](../mathsuperscriptelement)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathFunction](../mathfunction)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathFraction](../mathfraction)) | Element of matrix |
+| [set_Item](set_item)(int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathBox](../mathbox)) | Element of matrix |
 | [set_Item](set_item)(int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |

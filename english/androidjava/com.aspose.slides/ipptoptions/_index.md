@@ -3,7 +3,7 @@ title: IPptOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control how a presentation is saved in PPT format.
 type: docs
-weight: 977
+weight: 978
 url: /androidjava/com.aspose.slides/ipptoptions/
 ---
 **All Implemented Interfaces:**

@@ -31,7 +31,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
+## getEffectsByShape([Table](../../table) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -43,7 +43,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Table](../../table) shape)  method
+## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -199,18 +199,6 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([AudioFrame](../../audioframe) shape)  method
-
- Returns array of effects for the specified shape.
- 
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## getEffectsByShape([Chart](../../chart) shape)  method
 
  Returns array of effects for the specified shape.
@@ -223,7 +211,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  method
+## getEffectsByShape([AudioFrame](../../audioframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -236,6 +224,18 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 
 
 ## getEffectsByShape([ZoomObject](../../zoomobject) shape)  method
+
+ Returns array of effects for the specified shape.
+ 
+
+### Returns
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  method
 
  Returns array of effects for the specified shape.
  

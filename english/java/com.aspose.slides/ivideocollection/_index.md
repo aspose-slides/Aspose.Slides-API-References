@@ -3,7 +3,7 @@ title: IVideoCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of Video objects.
 type: docs
-weight: 1102
+weight: 1103
 url: /java/com.aspose.slides/ivideocollection/
 ---
 **All Implemented Interfaces:**

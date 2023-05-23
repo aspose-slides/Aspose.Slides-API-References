@@ -3,7 +3,7 @@ title: IHtmlExternalResolver
 second_title: Aspose.Slides for Java API Reference
 description: Callback interface used by HTML import routine to obtain referrenced objects such as images.
 type: docs
-weight: 823
+weight: 824
 url: /java/com.aspose.slides/ihtmlexternalresolver/
 ---
 **All Implemented Interfaces:**

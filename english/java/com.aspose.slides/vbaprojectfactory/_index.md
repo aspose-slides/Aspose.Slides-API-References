@@ -3,7 +3,7 @@ title: VbaProjectFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create VBA project via COM interface
 type: docs
-weight: 602
+weight: 603
 url: /java/com.aspose.slides/vbaprojectfactory/
 ---
 **Inheritance:**

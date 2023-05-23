@@ -79,7 +79,7 @@ boolean
 ---
 
 
-## removeItem([ColorChange](../../colorchange) item)  method
+## removeItem([InnerShadow](../../innershadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -88,7 +88,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorChange](../../colorchange) | The object to remove from the IGenericCollection. |
+| item | [InnerShadow](../../innershadow) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -103,7 +103,7 @@ boolean
 ---
 
 
-## removeItem([InnerShadow](../../innershadow) item)  method
+## removeItem([ColorChange](../../colorchange) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -112,7 +112,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [InnerShadow](../../innershadow) | The object to remove from the IGenericCollection. |
+| item | [ColorChange](../../colorchange) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -319,7 +319,7 @@ boolean
 ---
 
 
-## removeItem([AlphaCeiling](../../alphaceiling) item)  method
+## removeItem([AlphaInverse](../../alphainverse) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -328,7 +328,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaCeiling](../../alphaceiling) | The object to remove from the IGenericCollection. |
+| item | [AlphaInverse](../../alphainverse) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -343,7 +343,7 @@ boolean
 ---
 
 
-## removeItem([AlphaInverse](../../alphainverse) item)  method
+## removeItem([AlphaCeiling](../../alphaceiling) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -352,7 +352,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaInverse](../../alphainverse) | The object to remove from the IGenericCollection. |
+| item | [AlphaCeiling](../../alphaceiling) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -415,7 +415,7 @@ boolean
 ---
 
 
-## removeItem([AlphaReplace](../../alphareplace) item)  method
+## removeItem([PresetShadow](../../presetshadow) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -424,7 +424,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaReplace](../../alphareplace) | The object to remove from the IGenericCollection. |
+| item | [PresetShadow](../../presetshadow) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -439,7 +439,7 @@ boolean
 ---
 
 
-## removeItem([PresetShadow](../../presetshadow) item)  method
+## removeItem([AlphaReplace](../../alphareplace) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -448,7 +448,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [PresetShadow](../../presetshadow) | The object to remove from the IGenericCollection. |
+| item | [AlphaReplace](../../alphareplace) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean

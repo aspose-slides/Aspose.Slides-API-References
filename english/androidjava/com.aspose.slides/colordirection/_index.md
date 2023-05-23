@@ -3,7 +3,7 @@ title: ColorDirection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents color direction for color effect behavior.
 type: docs
-weight: 107
+weight: 108
 url: /androidjava/com.aspose.slides/colordirection/
 ---
 **Inheritance:**

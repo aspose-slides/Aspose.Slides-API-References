@@ -3,7 +3,7 @@ title: IColorOperationCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of color transform operations.
 type: docs
-weight: 716
+weight: 717
 url: /java/com.aspose.slides/icoloroperationcollection/
 ---
 **All Implemented Interfaces:**

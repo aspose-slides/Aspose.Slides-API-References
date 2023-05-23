@@ -3,7 +3,7 @@ title: PresentationPlayer
 second_title: Aspose.Slides for Java API Reference
 description: Represents the player of animations associated with the .
 type: docs
-weight: 450
+weight: 451
 url: /java/com.aspose.slides/presentationplayer/
 ---
 **Inheritance:**

@@ -21,6 +21,7 @@ url: /php-java/aspose.slides/datalabelcollection/
 | [getCountOfVisibleDataLabels](getcountofvisibledatalabels)() | Gets the number of visible data labels in the collection. Read-only int. |
 | [getDefaultDataLabelFormat](getdefaultdatalabelformat)() | Gets the default data label format. Read-only IDataLabelFormat. |
 | [getLeaderLinesColor](getleaderlinescolor)() | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
+| [getLeaderLinesFormat](getleaderlinesformat)() | Represents data labels leader lines format. Read-only IChartLinesFormat. |
 | [getParentSeries](getparentseries)() | Gets the parent series. Read-only IChartSeries. |
 | [getPresentation](getpresentation)() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 | [getSlide](getslide)() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |

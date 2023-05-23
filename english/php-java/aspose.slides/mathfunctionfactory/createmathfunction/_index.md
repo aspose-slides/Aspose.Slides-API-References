@@ -26,25 +26,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -56,6 +37,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -140,25 +140,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -170,6 +151,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -235,6 +235,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -273,7 +292,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -283,7 +302,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -303,25 +322,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -368,367 +368,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBlock](../../mathblock) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathRadical](../../mathradical) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathArray](../../matharray) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathAccent](../../mathaccent) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBar](../../mathbar) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathFunction](../../mathfunction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBox](../../mathbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathLimit](../../mathlimit) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit](../mathlimit) | Element used as a function name |
-| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -748,25 +387,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -778,6 +398,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -862,25 +501,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -892,6 +512,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -957,6 +596,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -995,7 +653,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -1005,7 +663,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1025,25 +683,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathMatrix](../../mathmatrix) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathMatrix](../mathmatrix) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1090,6 +729,367 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBlock](../../mathblock) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathRadical](../../mathradical) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathArray](../../matharray) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathAccent](../../mathaccent) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBar](../../mathbar) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathFunction](../../mathfunction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathFraction](../../mathfraction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathBox](../../mathbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathLimit](../../mathlimit) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit](../mathlimit) | Element used as a function name |
+| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathBlock](../../mathblock) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -1109,25 +1109,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBlock](../../mathblock) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBlock](../../mathblock) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -1139,6 +1120,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBlock](../../mathblock) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBlock](../mathblock) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1223,25 +1223,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBlock](../../mathblock) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBlock](../../mathblock) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -1253,6 +1234,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBlock](../../mathblock) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBlock](../mathblock) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1318,6 +1318,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathBlock](../../mathblock) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBlock](../mathblock) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathBlock](../../mathblock) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -1356,7 +1375,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBlock](../../mathblock) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathBlock](../../mathblock) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -1366,7 +1385,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1386,25 +1405,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBlock](../mathblock) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathBlock](../../mathblock) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBlock](../mathblock) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1470,25 +1470,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathRadical](../../mathradical) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathRadical](../../mathradical) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -1500,6 +1481,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathRadical](../../mathradical) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRadical](../mathradical) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1584,25 +1584,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathRadical](../../mathradical) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathRadical](../../mathradical) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -1614,6 +1595,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathRadical](../../mathradical) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRadical](../mathradical) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1679,6 +1679,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathRadical](../../mathradical) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRadical](../mathradical) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathRadical](../../mathradical) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -1717,7 +1736,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathRadical](../../mathradical) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathRadical](../../mathradical) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -1727,7 +1746,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1747,25 +1766,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathRadical](../mathradical) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathRadical](../../mathradical) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRadical](../mathradical) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1831,25 +1831,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathArray](../../matharray) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathArray](../../matharray) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -1861,6 +1842,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathArray](../../matharray) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathArray](../matharray) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -1945,25 +1945,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathArray](../../matharray) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathArray](../../matharray) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -1975,6 +1956,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathArray](../../matharray) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathArray](../matharray) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -2040,6 +2040,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathArray](../../matharray) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathArray](../matharray) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathArray](../../matharray) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -2078,7 +2097,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathArray](../../matharray) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathArray](../../matharray) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -2088,7 +2107,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -2108,25 +2127,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathArray](../matharray) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathArray](../../matharray) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathArray](../matharray) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -2192,25 +2192,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -2222,6 +2203,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -2306,25 +2306,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -2336,6 +2317,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -2401,6 +2401,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -2439,7 +2458,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -2449,7 +2468,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -2469,25 +2488,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathDelimiter](../../mathdelimiter) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathDelimiter](../mathdelimiter) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -2534,367 +2534,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBlock](../../mathblock) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathRadical](../../mathradical) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathArray](../../matharray) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathAccent](../../mathaccent) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBar](../../mathbar) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFunction](../../mathfunction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBox](../../mathbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
-| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathAccent](../../mathaccent) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -2914,25 +2553,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathAccent](../../mathaccent) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathAccent](../../mathaccent) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -2944,6 +2564,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathAccent](../../mathaccent) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathAccent](../mathaccent) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3028,25 +2667,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathAccent](../../mathaccent) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathAccent](../../mathaccent) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -3058,6 +2678,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathAccent](../../mathaccent) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathAccent](../mathaccent) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3123,6 +2762,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathAccent](../../mathaccent) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathAccent](../mathaccent) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathAccent](../../mathaccent) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -3161,7 +2819,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathAccent](../../mathaccent) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathAccent](../../mathaccent) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -3171,7 +2829,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3191,25 +2849,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathAccent](../mathaccent) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathAccent](../../mathaccent) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathAccent](../mathaccent) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3256,6 +2895,367 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBlock](../../mathblock) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathRadical](../../mathradical) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathArray](../../matharray) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathAccent](../../mathaccent) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBar](../../mathbar) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFunction](../../mathfunction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathFraction](../../mathfraction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathBox](../../mathbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathNaryOperator](../../mathnaryoperator) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator](../mathnaryoperator) | Element used as a function name |
+| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -3275,25 +3275,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -3305,6 +3286,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3389,25 +3389,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -3419,6 +3400,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3484,6 +3484,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -3522,7 +3541,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -3532,7 +3551,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3552,25 +3571,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathBorderBox](../../mathborderbox) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBorderBox](../mathborderbox) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3636,25 +3636,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -3666,6 +3647,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3750,25 +3750,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -3780,6 +3761,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3845,6 +3845,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -3883,7 +3902,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -3893,7 +3912,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3913,25 +3932,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathGroupingCharacter](../../mathgroupingcharacter) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter](../mathgroupingcharacter) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -3997,25 +3997,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBar](../../mathbar) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBar](../../mathbar) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -4027,6 +4008,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBar](../../mathbar) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBar](../mathbar) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -4111,25 +4111,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBar](../../mathbar) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBar](../../mathbar) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -4141,6 +4122,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBar](../../mathbar) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBar](../mathbar) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -4206,6 +4206,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathBar](../../mathbar) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBar](../mathbar) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathBar](../../mathbar) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -4244,7 +4263,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBar](../../mathbar) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathBar](../../mathbar) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -4254,7 +4273,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -4274,25 +4293,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBar](../mathbar) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathBar](../../mathbar) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBar](../mathbar) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -4339,728 +4339,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBlock](../../mathblock) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathRadical](../../mathradical) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathArray](../../matharray) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathAccent](../../mathaccent) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBar](../../mathbar) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBox](../../mathbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBlock](../../mathblock) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathRadical](../../mathradical) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathArray](../../matharray) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathAccent](../../mathaccent) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBar](../../mathbar) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathFunction](../../mathfunction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBox](../../mathbox) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFunction](../../mathfunction) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction](../mathfunction) | Element used as a function name |
-| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -5080,25 +4358,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -5110,6 +4369,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -5194,25 +4472,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -5224,6 +4483,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -5289,6 +4567,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -5327,7 +4624,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -5337,7 +4634,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -5357,25 +4654,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathSubscriptElement](../../mathsubscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSubscriptElement](../mathsubscriptelement) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -5422,7 +4700,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
 
  Creates math function
  
@@ -5431,7 +4709,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
 
 ### Returns
@@ -5441,7 +4719,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
  
@@ -5450,26 +4728,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
 
 ### Returns
@@ -5479,7 +4738,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBlock](../../mathblock) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
 
  Creates math function
  
@@ -5488,7 +4747,26 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBlock](../../mathblock) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
 
 ### Returns
@@ -5498,7 +4776,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRadical](../../mathradical) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathRadical](../../mathradical) baseArgument)  method
 
  Creates math function
  
@@ -5507,7 +4785,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
 
 ### Returns
@@ -5517,7 +4795,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathArray](../../matharray) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathArray](../../matharray) baseArgument)  method
 
  Creates math function
  
@@ -5526,7 +4804,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathArray](../../matharray) | Element used as a function argument |
 
 ### Returns
@@ -5536,7 +4814,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
 
  Creates math function
  
@@ -5545,7 +4823,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
 
 ### Returns
@@ -5555,7 +4833,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
  
@@ -5564,26 +4842,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathAccent](../../mathaccent) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
 
 ### Returns
@@ -5593,7 +4852,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
 
  Creates math function
  
@@ -5602,7 +4861,26 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
 
 ### Returns
@@ -5612,7 +4890,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
 
  Creates math function
  
@@ -5621,7 +4899,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
 
 ### Returns
@@ -5631,7 +4909,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBar](../../mathbar) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBar](../../mathbar) baseArgument)  method
 
  Creates math function
  
@@ -5640,7 +4918,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
 
 ### Returns
@@ -5650,7 +4928,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
 
  Creates math function
  
@@ -5659,45 +4937,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFunction](../../mathfunction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
 
 ### Returns
@@ -5707,7 +4947,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
  
@@ -5716,8 +4956,8 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
-| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -5726,7 +4966,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFraction](../../mathfraction) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFunction](../../mathfunction) baseArgument)  method
 
  Creates math function
  
@@ -5735,7 +4975,26 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
@@ -5745,7 +5004,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBox](../../mathbox) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
 
  Creates math function
  
@@ -5754,7 +5013,26 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathBox](../../mathbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
 
 ### Returns
@@ -5764,7 +5042,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
+## createMathFunction([MathSuperscriptElement](../../mathsuperscriptelement) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
 
  Creates math function
  
@@ -5773,7 +5051,368 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| funcName | [MathSuperscriptElement](../mathsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBlock](../../mathblock) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathRadical](../../mathradical) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathArray](../../matharray) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathAccent](../../mathaccent) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBar](../../mathbar) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathFunction](../../mathfunction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathFraction](../../mathfraction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathBox](../../mathbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
+| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFunction](../../mathfunction) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction](../mathfunction) | Element used as a function name |
 | baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
 
 ### Returns
@@ -5802,25 +5441,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathFraction](../../mathfraction) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathFraction](../../mathfraction) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -5832,6 +5452,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFraction](../../mathfraction) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFraction](../mathfraction) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -5916,25 +5555,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathFraction](../../mathfraction) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathFraction](../../mathfraction) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -5946,6 +5566,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathFraction](../../mathfraction) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFraction](../mathfraction) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6011,6 +5650,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathFraction](../../mathfraction) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFraction](../mathfraction) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathFraction](../../mathfraction) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -6049,7 +5707,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathFraction](../../mathfraction) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathFraction](../../mathfraction) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -6059,7 +5717,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6079,25 +5737,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathFraction](../mathfraction) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathFraction](../../mathfraction) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFraction](../mathfraction) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6144,6 +5783,367 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBlock](../../mathblock) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathBlock](../../mathblock) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRadical](../../mathradical) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathRadical](../../mathradical) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathArray](../../matharray) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathArray](../../matharray) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathDelimiter](../../mathdelimiter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathDelimiter](../../mathdelimiter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathAccent](../../mathaccent) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBorderBox](../../mathborderbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathBorderBox](../../mathborderbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathGroupingCharacter](../../mathgroupingcharacter) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathGroupingCharacter](../../mathgroupingcharacter) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBar](../../mathbar) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathBar](../../mathbar) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathSuperscriptElement](../../mathsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFunction](../../mathfunction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathFunction](../../mathfunction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathFraction](../../mathfraction) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathematicalText](../../mathematicaltext) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathBox](../../mathbox) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathBox](../../mathbox) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathematicalText](../../mathematicaltext) funcName, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText](../mathematicaltext) | Element used as a function name |
+| baseArgument | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathBox](../../mathbox) funcName, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -6163,25 +6163,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBox](../../mathbox) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBox](../../mathbox) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -6193,6 +6174,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBox](../../mathbox) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBox](../mathbox) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6277,25 +6277,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBox](../../mathbox) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathBox](../../mathbox) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -6307,6 +6288,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathBox](../../mathbox) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBox](../mathbox) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6372,6 +6372,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathBox](../../mathbox) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBox](../mathbox) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathBox](../../mathbox) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -6410,7 +6429,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathBox](../../mathbox) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathBox](../../mathbox) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -6420,7 +6439,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6440,25 +6459,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathBox](../mathbox) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathBox](../../mathbox) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBox](../mathbox) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6524,25 +6524,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -6554,6 +6535,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6638,25 +6638,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -6668,6 +6649,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6733,6 +6733,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -6771,7 +6790,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -6781,7 +6800,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6801,25 +6820,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Element used as a function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6885,25 +6885,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction(String funcName, [MathLimit](../../mathlimit) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | String | Function name |
-| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction(String funcName, [MathMatrix](../../mathmatrix) baseArgument)  method
 
  Creates math function
@@ -6915,6 +6896,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | String | Function name |
 | baseArgument | [MathMatrix](../../mathmatrix) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction(String funcName, [MathLimit](../../mathlimit) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | String | Function name |
+| baseArgument | [MathLimit](../../mathlimit) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -6999,25 +6999,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction(String funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | String | Function name |
-| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
 ## createMathFunction(String funcName, [MathAccent](../../mathaccent) baseArgument)  method
 
  Creates math function
@@ -7029,6 +7010,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | String | Function name |
 | baseArgument | [MathAccent](../../mathaccent) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
+## createMathFunction(String funcName, [MathNaryOperator](../../mathnaryoperator) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | String | Function name |
+| baseArgument | [MathNaryOperator](../../mathnaryoperator) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -7094,6 +7094,25 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
+## createMathFunction(String funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+
+ Creates math function
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | String | Function name |
+| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+
+### Returns
+[MathFunction](../../mathfunction)
+
+
+---
+
+
 ## createMathFunction(String funcName, [MathSuperscriptElement](../../mathsuperscriptelement) baseArgument)  method
 
  Creates math function
@@ -7132,7 +7151,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 ---
 
 
-## createMathFunction(String funcName, [MathSubscriptElement](../../mathsubscriptelement) baseArgument)  method
+## createMathFunction(String funcName, [MathFraction](../../mathfraction) baseArgument)  method
 
  Creates math function
  
@@ -7142,7 +7161,7 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | String | Function name |
-| baseArgument | [MathSubscriptElement](../../mathsubscriptelement) | Element used as a function argument |
+| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)
@@ -7162,25 +7181,6 @@ url: /php-java/aspose.slides/mathfunctionfactory/createmathfunction/
 | --- | --- | --- |
 | funcName | String | Function name |
 | baseArgument | [MathematicalText](../../mathematicaltext) | Element used as a function argument |
-
-### Returns
-[MathFunction](../../mathfunction)
-
-
----
-
-
-## createMathFunction(String funcName, [MathFraction](../../mathfraction) baseArgument)  method
-
- Creates math function
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | String | Function name |
-| baseArgument | [MathFraction](../../mathfraction) | Element used as a function argument |
 
 ### Returns
 [MathFunction](../../mathfunction)

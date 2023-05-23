@@ -3,7 +3,7 @@ title: IMathRightSubSuperscriptElementFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create IMathRightSubSuperscriptElementFactory
 type: docs
-weight: 918
+weight: 919
 url: /androidjava/com.aspose.slides/imathrightsubsuperscriptelementfactory/
 ---```
 public interface IMathRightSubSuperscriptElementFactory

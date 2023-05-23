@@ -3,7 +3,7 @@ title: SvgEvent
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 538
+weight: 539
 url: /androidjava/com.aspose.slides/svgevent/
 ---
 **Inheritance:**

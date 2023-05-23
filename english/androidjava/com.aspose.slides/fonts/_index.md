@@ -3,7 +3,7 @@ title: Fonts
 second_title: Aspose.Slides for Android via Java API Reference
 description: Fonts collection.
 type: docs
-weight: 211
+weight: 212
 url: /androidjava/com.aspose.slides/fonts/
 ---
 **Inheritance:**

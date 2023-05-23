@@ -3,7 +3,7 @@ title: EffectFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents effect properties of shape.
 type: docs
-weight: 166
+weight: 167
 url: /androidjava/com.aspose.slides/effectformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectFormat](../../com.aspose.slides/ieffectformat)
 ```
-public class EffectFormat extends PVIObject implements IEffectFormat
+public final class EffectFormat extends PVIObject implements IEffectFormat
 ```
 
 Represents effect properties of shape.

@@ -3,7 +3,7 @@ title: GrayScale
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Gray Scale effect.
 type: docs
-weight: 234
+weight: 235
 url: /java/com.aspose.slides/grayscale/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IGrayScale](../../com.aspose.slides/igrayscale), com.aspose.slides.IVisualEffect
 ```
-public class GrayScale extends ImageTransformOperation implements IGrayScale, IVisualEffect
+public final class GrayScale extends ImageTransformOperation implements IGrayScale, IVisualEffect
 ```
 
 Represents a Gray Scale effect. Converts all effect color values to a shade of gray, corresponding to their luminance. Effect alpha (opacity) values are unaffected.

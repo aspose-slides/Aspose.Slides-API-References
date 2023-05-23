@@ -3,7 +3,7 @@ title: GifOptions
 second_title: Aspose.Slides for Java API Reference
 description: Represents GIF exporting options.
 type: docs
-weight: 221
+weight: 222
 url: /java/com.aspose.slides/gifoptions/
 ---
 **Inheritance:**

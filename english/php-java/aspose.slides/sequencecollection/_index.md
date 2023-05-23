@@ -18,8 +18,8 @@ url: /php-java/aspose.slides/sequencecollection/
 | --- | --- |
 | [add](add)([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([Table](../table)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
@@ -32,10 +32,10 @@ url: /php-java/aspose.slides/sequencecollection/
 | [add](add)([AutoShape](../autoshape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([SectionZoomFrame](../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([PictureFrame](../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([AudioFrame](../audioframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([AudioFrame](../audioframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
 | [clear](clear)() | Removes all sequences from a collection. |
 | [getCount](getcount)() | Returns the number of elements in a collection Read-only int. |
 | [get_Item](get_item)(int) | Returns a sequense at the specified index. |

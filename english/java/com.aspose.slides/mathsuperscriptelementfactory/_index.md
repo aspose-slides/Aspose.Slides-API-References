@@ -3,7 +3,7 @@ title: MathSuperscriptElementFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create IMathSuperscriptElement
 type: docs
-weight: 356
+weight: 357
 url: /java/com.aspose.slides/mathsuperscriptelementfactory/
 ---
 **Inheritance:**

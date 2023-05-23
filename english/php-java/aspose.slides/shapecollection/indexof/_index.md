@@ -43,24 +43,6 @@ int
 ---
 
 
-## indexOf([SmartArtShape](../../smartartshape) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SmartArtShape](../../smartartshape) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([Table](../../table) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -71,6 +53,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Table](../../table) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([SmartArtShape](../../smartartshape) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArtShape](../../smartartshape) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -295,24 +295,6 @@ int
 ---
 
 
-## indexOf([AudioFrame](../../audioframe) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AudioFrame](../../audioframe) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([Chart](../../chart) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -331,7 +313,7 @@ int
 ---
 
 
-## indexOf([LegacyDiagram](../../legacydiagram) shape)  method
+## indexOf([AudioFrame](../../audioframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
  
@@ -340,7 +322,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [LegacyDiagram](../../legacydiagram) | The shape to locate in the collection. |
+| shape | [AudioFrame](../../audioframe) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -359,6 +341,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../../zoomobject) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../../legacydiagram) | The shape to locate in the collection. |
 
 ### Returns
 int

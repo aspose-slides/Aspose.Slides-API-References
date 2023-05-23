@@ -3,7 +3,7 @@ title: IVbaReferenceCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a VBA Project references.
 type: docs
-weight: 1096
+weight: 1097
 url: /java/com.aspose.slides/ivbareferencecollection/
 ---
 **All Implemented Interfaces:**

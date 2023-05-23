@@ -3,7 +3,7 @@ title: Chart
 second_title: Aspose.Slides for Java API Reference
 description: Represents an graphic chart on a slide.
 type: docs
-weight: 77
+weight: 78
 url: /java/com.aspose.slides/chart/
 ---
 **Inheritance:**

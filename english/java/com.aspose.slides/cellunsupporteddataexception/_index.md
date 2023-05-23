@@ -3,7 +3,7 @@ title: CellUnsupportedDataException
 second_title: Aspose.Slides for Java API Reference
 description: The exception that is thrown when an unsupported data is encountered in a spreadsheet cell.
 type: docs
-weight: 76
+weight: 77
 url: /java/com.aspose.slides/cellunsupporteddataexception/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ForEach
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a group of methods intended to iterate over different  model objects.
 type: docs
-weight: 214
+weight: 215
 url: /androidjava/com.aspose.slides/foreach/
 ---
 **Inheritance:**
@@ -19,13 +19,7 @@ Represents a group of methods intended to iterate over different [Presentation](
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.portion(pres, (portion, para, slide, index) ->
->          portion.getPortionFormat().setLatinFont(new FontData("Times New Roman")));
-> 
->      pres.save("pres-out.pptx", SaveFormat.Pptx);
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.portion(pres, new ForEach.ForEachPortionCallback() {
 > ```
 ## Constructors
 
@@ -40,9 +34,12 @@ Represents a group of methods intended to iterate over different [Presentation](
 | [masterSlide(Presentation pres, ForEach.ForEachMasterSlideCallback forEachMasterSlide)](#masterSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachMasterSlideCallback-) | Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
 | [layoutSlide(Presentation pres, ForEach.ForEachLayoutSlideCallback forEachLayoutSlide)](#layoutSlide-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachLayoutSlideCallback-) | Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) in the [Presentation](../../com.aspose.slides/presentation). |
 | [shape(Presentation pres, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each [Shape](../../com.aspose.slides/shape) in the [Presentation](../../com.aspose.slides/presentation). |
+| [shape(Presentation pres, boolean includeNotes, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each  Shape  in the [Presentation](../../com.aspose.slides/presentation). |
 | [shape(BaseSlide baseSlide, ForEach.ForEachShapeCallback forEachShape)](#shape-com.aspose.slides.BaseSlide-com.aspose.slides.ForEach.ForEachShapeCallback-) | Iterate each [Shape](../../com.aspose.slides/shape) in the [BaseSlide](../../com.aspose.slides/baseslide). |
-| [paragraph(Presentation pres, ForEach.ForEachParagraphCallback forEachParagraph)](#paragraph-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachParagraphCallback-) | Iterate each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) in the [Presentation](../../com.aspose.slides/presentation). |
-| [portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion)](#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-) | Iterate each \#portion(Presentation,ForEachPortionCallback).portion(Presentation,ForEachPortionCallback) in the [Presentation](../../com.aspose.slides/presentation). |
+| [paragraph(Presentation pres, ForEach.ForEachParagraphCallback forEachParagraph)](#paragraph-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachParagraphCallback-) | Iterate each [Paragraph](../../com.aspose.slides/paragraph) in the [Presentation](../../com.aspose.slides/presentation). |
+| [paragraph(Presentation pres, boolean includeNotes, ForEach.ForEachParagraphCallback forEachParagraph)](#paragraph-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachParagraphCallback-) | Iterate each [Paragraph](../../com.aspose.slides/paragraph) in the [Presentation](../../com.aspose.slides/presentation). |
+| [portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion)](#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-) | Iterate each [Portion](../../com.aspose.slides/portion) in the [Presentation](../../com.aspose.slides/presentation). |
+| [portion(Presentation pres, boolean includeNotes, ForEach.ForEachPortionCallback forEachPortion)](#portion-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachPortionCallback-) | Iterate each [Portion](../../com.aspose.slides/portion) in the [Presentation](../../com.aspose.slides/presentation). |
 ### ForEach() {#ForEach--}
 ```
 public ForEach()
@@ -62,11 +59,7 @@ Iterate each \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEa
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.slide(pres, (slide, index) ->
->          slide.setName(String.format("Slide #%d", index)));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.slide(pres, new ForEach.ForEachSlideCallback() {
 > ```
 
 **Parameters:**
@@ -88,11 +81,7 @@ Iterate each \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.masterSlide(pres, (slide, index) ->
->          slide.setName(String.format("Master Slide #%d", index)));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.masterSlide(pres, new ForEach.ForEachMasterSlideCallback() {
 > ```
 
 **Parameters:**
@@ -114,11 +103,7 @@ Iterate each \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.layoutSlide(pres, (layoutSlide, index) ->
->          layoutSlide.setName(String.format("Layout Slide #%d", index)));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.layoutSlide(pres, new ForEach.ForEachLayoutSlideCallback() {
 > ```
 
 **Parameters:**
@@ -140,11 +125,7 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [Presentation](../../
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.shape(pres, (shape, slide, index) ->
->          System.out.println(String.format("%s, index: %d", shape.getName(), index)));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.shape(pres, new ForEach.ForEachShapeCallback() {
 > ```
 
 **Parameters:**
@@ -156,6 +137,33 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [Presentation](../../
 --------------------
 
 Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+
+### shape(Presentation pres, boolean includeNotes, ForEach.ForEachShapeCallback forEachShape) {#shape-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachShapeCallback-}
+```
+public static void shape(Presentation pres, boolean includeNotes, ForEach.ForEachShapeCallback forEachShape)
+```
+
+
+Iterate each  Shape  in the [Presentation](../../com.aspose.slides/presentation).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      ForEach.shape(pres, true, new ForEach.ForEachShapeCallback() {
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | [Presentation](../../com.aspose.slides/presentation) | Presentation to iterate layout shapes |
+| includeNotes | boolean | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachShape | [ForEachShapeCallback](../../com.aspose.slides/foreachshapecallback) | Callback that will be invoked for each shape
+
+--------------------
+
+Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback), \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) and [NotesSlide](../../com.aspose.slides/notesslide) if needed. |
 
 ### shape(BaseSlide baseSlide, ForEach.ForEachShapeCallback forEachShape) {#shape-com.aspose.slides.BaseSlide-com.aspose.slides.ForEach.ForEachShapeCallback-}
 ```
@@ -170,12 +178,7 @@ Iterate each [Shape](../../com.aspose.slides/shape) in the [BaseSlide](../../com
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.slide(pres, (slide, index) ->
->          ForEach.shape(slide, (shape, baseSlide, shapeIndex) ->
->                  System.out.println(String.format("%s, index: %d", shape.getName(), shapeIndex))));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.slide(pres, new ForEach.ForEachSlideCallback() {
 > ```
 
 **Parameters:**
@@ -194,18 +197,14 @@ public static void paragraph(Presentation pres, ForEach.ForEachParagraphCallback
 ```
 
 
-Iterate each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presentation,ForEachParagraphCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each [Paragraph](../../com.aspose.slides/paragraph) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.paragraph(pres, (para, slide, index) ->
->          System.out.println(String.format("%s, index: %d", para.getText(), index)));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.paragraph(pres, new ForEach.ForEachParagraphCallback() {
 > ```
 
 **Parameters:**
@@ -218,24 +217,47 @@ Iterate each \#paragraph(Presentation,ForEachParagraphCallback).paragraph(Presen
 
 Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
-### portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion) {#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-}
+### paragraph(Presentation pres, boolean includeNotes, ForEach.ForEachParagraphCallback forEachParagraph) {#paragraph-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachParagraphCallback-}
 ```
-public static void portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion)
+public static void paragraph(Presentation pres, boolean includeNotes, ForEach.ForEachParagraphCallback forEachParagraph)
 ```
 
 
-Iterate each \#portion(Presentation,ForEachPortionCallback).portion(Presentation,ForEachPortionCallback) in the [Presentation](../../com.aspose.slides/presentation).
+Iterate each [Paragraph](../../com.aspose.slides/paragraph) in the [Presentation](../../com.aspose.slides/presentation).
 
 --------------------
 
 > ```
 > Presentation pres = new Presentation("pres.pptx");
 >  try {
->      ForEach.portion(pres, (portion, para, slide, index) ->
->          System.out.println(String.format("%s, index: %d", portion.getText(), index)));
->  } finally {
->      if (pres != null) pres.dispose();
->  }
+>      ForEach.paragraph(pres, true, new ForEach.ForEachParagraphCallback() {
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | [Presentation](../../com.aspose.slides/presentation) | Presentation to iterate paragraphs |
+| includeNotes | boolean | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachParagraph | [ForEachParagraphCallback](../../com.aspose.slides/foreachparagraphcallback) | Callback that will be invoked for each paragraph
+
+--------------------
+
+Shapes will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback), \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) and [NotesSlide](../../com.aspose.slides/notesslide) |
+
+### portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion) {#portion-com.aspose.slides.Presentation-com.aspose.slides.ForEach.ForEachPortionCallback-}
+```
+public static void portion(Presentation pres, ForEach.ForEachPortionCallback forEachPortion)
+```
+
+
+Iterate each [Portion](../../com.aspose.slides/portion) in the [Presentation](../../com.aspose.slides/presentation).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      ForEach.portion(pres, new ForEach.ForEachPortionCallback() {
 > ```
 
 **Parameters:**
@@ -247,4 +269,31 @@ Iterate each \#portion(Presentation,ForEachPortionCallback).portion(Presentation
 --------------------
 
 Portions will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback) and \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+
+### portion(Presentation pres, boolean includeNotes, ForEach.ForEachPortionCallback forEachPortion) {#portion-com.aspose.slides.Presentation-boolean-com.aspose.slides.ForEach.ForEachPortionCallback-}
+```
+public static void portion(Presentation pres, boolean includeNotes, ForEach.ForEachPortionCallback forEachPortion)
+```
+
+
+Iterate each [Portion](../../com.aspose.slides/portion) in the [Presentation](../../com.aspose.slides/presentation).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      ForEach.portion(pres, true, new ForEach.ForEachPortionCallback() {
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| pres | [Presentation](../../com.aspose.slides/presentation) | Presentation to iterate portions |
+| includeNotes | boolean | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachPortion | [ForEachPortionCallback](../../com.aspose.slides/foreachportioncallback) | Callback that will be invoked for each portion
+
+--------------------
+
+Portions will be iterated in all type of slides - \#slide(Presentation,ForEachSlideCallback).slide(Presentation,ForEachSlideCallback), \#masterSlide(Presentation,ForEachMasterSlideCallback).masterSlide(Presentation,ForEachMasterSlideCallback), \#layoutSlide(Presentation,ForEachLayoutSlideCallback).layoutSlide(Presentation,ForEachLayoutSlideCallback) and [NotesSlide](../../com.aspose.slides/notesslide) |
 

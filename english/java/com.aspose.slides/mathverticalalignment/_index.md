@@ -3,7 +3,7 @@ title: MathVerticalAlignment
 second_title: Aspose.Slides for Java API Reference
 description: Vertical Alignment
 type: docs
-weight: 358
+weight: 359
 url: /java/com.aspose.slides/mathverticalalignment/
 ---
 **Inheritance:**

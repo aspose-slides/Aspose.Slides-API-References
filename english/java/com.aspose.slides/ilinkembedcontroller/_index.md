@@ -3,7 +3,7 @@ title: ILinkEmbedController
 second_title: Aspose.Slides for Java API Reference
 description: Callback interface used to determine how object should be processed during saving.
 type: docs
-weight: 863
+weight: 864
 url: /java/com.aspose.slides/ilinkembedcontroller/
 ---```
 public interface ILinkEmbedController

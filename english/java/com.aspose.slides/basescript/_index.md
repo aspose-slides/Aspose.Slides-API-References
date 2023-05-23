@@ -3,7 +3,7 @@ title: BaseScript
 second_title: Aspose.Slides for Java API Reference
 description: Math script
 type: docs
-weight: 42
+weight: 43
 url: /java/com.aspose.slides/basescript/
 ---
 **Inheritance:**

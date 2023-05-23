@@ -61,24 +61,6 @@ boolean
 ---
 
 
-## containsItem([ColorChange](../../colorchange) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [ColorChange](../../colorchange) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([InnerShadow](../../innershadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -89,6 +71,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [InnerShadow](../../innershadow) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([ColorChange](../../colorchange) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ColorChange](../../colorchange) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean
@@ -241,24 +241,6 @@ boolean
 ---
 
 
-## containsItem([AlphaCeiling](../../alphaceiling) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaCeiling](../../alphaceiling) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([AlphaInverse](../../alphainverse) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -269,6 +251,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaInverse](../../alphainverse) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([AlphaCeiling](../../alphaceiling) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaCeiling](../../alphaceiling) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean
@@ -313,24 +313,6 @@ boolean
 ---
 
 
-## containsItem([AlphaReplace](../../alphareplace) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaReplace](../../alphareplace) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([PresetShadow](../../presetshadow) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -341,6 +323,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [PresetShadow](../../presetshadow) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([AlphaReplace](../../alphareplace) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaReplace](../../alphareplace) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean

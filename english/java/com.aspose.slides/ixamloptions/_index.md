@@ -3,7 +3,7 @@ title: IXamlOptions
 second_title: Aspose.Slides for Java API Reference
 description: Options that control how a XAML document is saved.
 type: docs
-weight: 1110
+weight: 1111
 url: /java/com.aspose.slides/ixamloptions/
 ---
 **All Implemented Interfaces:**

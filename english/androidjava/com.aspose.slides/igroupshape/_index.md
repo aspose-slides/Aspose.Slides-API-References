@@ -3,7 +3,7 @@ title: IGroupShape
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a group of shapes on a slide.
 type: docs
-weight: 818
+weight: 819
 url: /androidjava/com.aspose.slides/igroupshape/
 ---
 **All Implemented Interfaces:**

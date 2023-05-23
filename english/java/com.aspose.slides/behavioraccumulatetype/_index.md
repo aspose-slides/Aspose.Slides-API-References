@@ -3,7 +3,7 @@ title: BehaviorAccumulateType
 second_title: Aspose.Slides for Java API Reference
 description: Represents types of accumulation of effect behaviors.
 type: docs
-weight: 48
+weight: 49
 url: /java/com.aspose.slides/behavioraccumulatetype/
 ---
 **Inheritance:**

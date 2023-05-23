@@ -3,7 +3,7 @@ title: ILineFillFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents properties for lines filling.
 type: docs
-weight: 856
+weight: 857
 url: /androidjava/com.aspose.slides/ilinefillformat/
 ---
 **All Implemented Interfaces:**

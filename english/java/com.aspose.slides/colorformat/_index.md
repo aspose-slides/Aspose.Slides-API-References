@@ -3,7 +3,7 @@ title: ColorFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a color used in a presentation.
 type: docs
-weight: 109
+weight: 110
 url: /java/com.aspose.slides/colorformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IColorFormat](../../com.aspose.slides/icolorformat)
 ```
-public class ColorFormat extends PVIObject implements IColorFormat
+public final class ColorFormat extends PVIObject implements IColorFormat
 ```
 
 Represents a color used in a presentation.

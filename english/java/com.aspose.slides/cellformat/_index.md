@@ -3,7 +3,7 @@ title: CellFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents format of a table cell.
 type: docs
-weight: 73
+weight: 74
 url: /java/com.aspose.slides/cellformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ICellFormat](../../com.aspose.slides/icellformat)
 ```
-public class CellFormat extends PVIObject implements ICellFormat
+public final class CellFormat extends PVIObject implements ICellFormat
 ```
 
 Represents format of a table cell.

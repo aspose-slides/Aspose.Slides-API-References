@@ -3,7 +3,7 @@ title: AlphaReplace
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents and Alpha Replace effect.
 type: docs
-weight: 18
+weight: 19
 url: /androidjava/com.aspose.slides/alphareplace/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IAlphaReplace](../../com.aspose.slides/ialphareplace), com.aspose.slides.IVisualEffect
 ```
-public class AlphaReplace extends ImageTransformOperation implements IAlphaReplace, IVisualEffect
+public final class AlphaReplace extends ImageTransformOperation implements IAlphaReplace, IVisualEffect
 ```
 
 Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha.

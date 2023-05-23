@@ -3,7 +3,7 @@ title: IProtectionManager
 second_title: Aspose.Slides for Java API Reference
 description: Presentation password protection management.
 type: docs
-weight: 991
+weight: 992
 url: /java/com.aspose.slides/iprotectionmanager/
 ---```
 public interface IProtectionManager

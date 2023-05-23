@@ -3,7 +3,7 @@ title: PropertyEffect
 second_title: Aspose.Slides for Java API Reference
 description: Represent property effect behavior.
 type: docs
-weight: 457
+weight: 458
 url: /java/com.aspose.slides/propertyeffect/
 ---
 **Inheritance:**

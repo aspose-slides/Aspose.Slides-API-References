@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: Aspose.Slides for Java API Reference
 description: Represents options which can be used to specify additional spreadsheets behavior.
 type: docs
-weight: 529
+weight: 530
 url: /java/com.aspose.slides/spreadsheetoptions/
 ---
 **Inheritance:**

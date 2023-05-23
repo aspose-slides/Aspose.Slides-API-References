@@ -3,7 +3,7 @@ title: IResourceLoadingArgs
 second_title: Aspose.Slides for Android via Java API Reference
 description: Interface for external resource loading arguments.
 type: docs
-weight: 995
+weight: 996
 url: /androidjava/com.aspose.slides/iresourceloadingargs/
 ---```
 public interface IResourceLoadingArgs

@@ -3,7 +3,7 @@ title: ChartSeries
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a chart series.
 type: docs
-weight: 95
+weight: 96
 url: /androidjava/com.aspose.slides/chartseries/
 ---
 **Inheritance:**

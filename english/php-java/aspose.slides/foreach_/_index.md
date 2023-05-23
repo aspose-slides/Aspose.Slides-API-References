@@ -26,8 +26,11 @@ url: /php-java/aspose.slides/foreach_/
 | --- | --- |
 | [layoutSlide](layoutslide)([Presentation](../presentation), [ForEach_.ForEachLayoutSlideCallback](../foreach_.foreachlayoutslidecallback)) | Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
 | [masterSlide](masterslide)([Presentation](../presentation), [ForEach_.ForEachMasterSlideCallback](../foreach_.foreachmasterslidecallback)) | Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
-| [paragraph](paragraph)([Presentation](../presentation), [ForEach_.ForEachParagraphCallback](../foreach_.foreachparagraphcallback)) | Iterate each #paragraph(Presentation,ForEachParagraphCallback) in the Presentation. |
-| [portion](portion)([Presentation](../presentation), [ForEach_.ForEachPortionCallback](../foreach_.foreachportioncallback)) | Iterate each #portion(Presentation,ForEachPortionCallback) in the Presentation. |
+| [paragraph](paragraph)([Presentation](../presentation), [ForEach_.ForEachParagraphCallback](../foreach_.foreachparagraphcallback)) | Iterate each Paragraph in the Presentation. |
+| [paragraph](paragraph)([Presentation](../presentation), boolean, [ForEach_.ForEachParagraphCallback](../foreach_.foreachparagraphcallback)) | Iterate each Paragraph in the Presentation. |
+| [portion](portion)([Presentation](../presentation), [ForEach_.ForEachPortionCallback](../foreach_.foreachportioncallback)) | Iterate each Portion in the Presentation. |
+| [portion](portion)([Presentation](../presentation), boolean, [ForEach_.ForEachPortionCallback](../foreach_.foreachportioncallback)) | Iterate each Portion in the Presentation. |
 | [shape](shape)([Presentation](../presentation), [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the Presentation. |
+| [shape](shape)([Presentation](../presentation), boolean, [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the Presentation. |
 | [shape](shape)([BaseSlide](../baseslide), [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the BaseSlide. |
 | [slide](slide)([Presentation](../presentation), [ForEach_.ForEachSlideCallback](../foreach_.foreachslidecallback)) | Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |

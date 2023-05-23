@@ -3,7 +3,7 @@ title: ErrorBarType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents type of error bar
 type: docs
-weight: 180
+weight: 181
 url: /androidjava/com.aspose.slides/errorbartype/
 ---
 **Inheritance:**

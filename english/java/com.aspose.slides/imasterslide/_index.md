@@ -3,7 +3,7 @@ title: IMasterSlide
 second_title: Aspose.Slides for Java API Reference
 description: Represents a master slide in a presentation.
 type: docs
-weight: 875
+weight: 876
 url: /java/com.aspose.slides/imasterslide/
 ---
 **All Implemented Interfaces:**

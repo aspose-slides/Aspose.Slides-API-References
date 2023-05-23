@@ -3,7 +3,7 @@ title: IColumnCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of columns in a table.
 type: docs
-weight: 722
+weight: 723
 url: /androidjava/com.aspose.slides/icolumncollection/
 ---
 **All Implemented Interfaces:**

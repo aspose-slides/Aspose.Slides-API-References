@@ -3,7 +3,7 @@ title: OdpException
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a standard internal exception type.
 type: docs
-weight: 385
+weight: 386
 url: /androidjava/com.aspose.slides/odpexception/
 ---
 **Inheritance:**

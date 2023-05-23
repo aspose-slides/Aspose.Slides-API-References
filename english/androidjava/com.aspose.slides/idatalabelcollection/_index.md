@@ -3,7 +3,7 @@ title: IDataLabelCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a series labels.
 type: docs
-weight: 741
+weight: 742
 url: /androidjava/com.aspose.slides/idatalabelcollection/
 ---
 **All Implemented Interfaces:**
@@ -19,6 +19,7 @@ Represents a series labels.
 | --- | --- |
 | [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Returns default format of all data labels in the collection. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Represents data labels leader lines format. |
 | [getLeaderLinesColor()](#getLeaderLinesColor--) | Gets or sets the color of all leader lines in the collection. |
 | [setLeaderLinesColor(Integer value)](#setLeaderLinesColor-java.lang.Integer-) | Gets or sets the color of all leader lines in the collection. |
 | [isVisible()](#isVisible--) | False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). |
@@ -56,6 +57,33 @@ Returns default format of all data labels in the collection. Read-only [IDataLab
 
 **Returns:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
+### getLeaderLinesFormat() {#getLeaderLinesFormat--}
+```
+public abstract IChartLinesFormat getLeaderLinesFormat()
+```
+
+
+Represents data labels leader lines format. Read-only [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      IDataLabelCollection labels = series.get_Item(0).getLabels();
+>      labels.getLeaderLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
+>      labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### getLeaderLinesColor() {#getLeaderLinesColor--}
 ```
 public abstract Integer getLeaderLinesColor()

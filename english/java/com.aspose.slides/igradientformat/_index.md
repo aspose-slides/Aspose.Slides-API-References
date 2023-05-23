@@ -3,7 +3,7 @@ title: IGradientFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represent a gradient format.
 type: docs
-weight: 808
+weight: 809
 url: /java/com.aspose.slides/igradientformat/
 ---
 **All Implemented Interfaces:**

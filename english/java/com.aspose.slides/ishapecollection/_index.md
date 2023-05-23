@@ -3,7 +3,7 @@ title: IShapeCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a shapes.
 type: docs
-weight: 1020
+weight: 1021
 url: /java/com.aspose.slides/ishapecollection/
 ---
 **All Implemented Interfaces:**

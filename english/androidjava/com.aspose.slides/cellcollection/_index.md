@@ -3,7 +3,7 @@ title: CellCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of cells.
 type: docs
-weight: 72
+weight: 73
 url: /androidjava/com.aspose.slides/cellcollection/
 ---
 **Inheritance:**

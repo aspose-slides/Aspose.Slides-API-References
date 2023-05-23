@@ -3,7 +3,7 @@ title: IParagraphCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a paragraphs.
 type: docs
-weight: 955
+weight: 956
 url: /java/com.aspose.slides/iparagraphcollection/
 ---
 **All Implemented Interfaces:**

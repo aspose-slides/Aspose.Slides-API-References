@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 942
+weight: 943
 url: /androidjava/com.aspose.slides/ioleobjectframe/
 ---
 **All Implemented Interfaces:**

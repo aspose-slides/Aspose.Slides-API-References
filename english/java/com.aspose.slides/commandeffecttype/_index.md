@@ -3,7 +3,7 @@ title: CommandEffectType
 second_title: Aspose.Slides for Java API Reference
 description: Represents command effect type for command effect behavior.
 type: docs
-weight: 125
+weight: 126
 url: /java/com.aspose.slides/commandeffecttype/
 ---
 **Inheritance:**

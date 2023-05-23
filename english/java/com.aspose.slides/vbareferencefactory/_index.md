@@ -3,7 +3,7 @@ title: VbaReferenceFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create VBA project references via COM interface
 type: docs
-weight: 604
+weight: 605
 url: /java/com.aspose.slides/vbareferencefactory/
 ---
 **Inheritance:**

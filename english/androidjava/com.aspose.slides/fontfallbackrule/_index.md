@@ -3,7 +3,7 @@ title: FontFallBackRule
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents font fallback rule
 type: docs
-weight: 203
+weight: 204
 url: /androidjava/com.aspose.slides/fontfallbackrule/
 ---
 **Inheritance:**

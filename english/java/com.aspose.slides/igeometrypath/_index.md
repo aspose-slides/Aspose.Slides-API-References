@@ -3,7 +3,7 @@ title: IGeometryPath
 second_title: Aspose.Slides for Java API Reference
 description: Represents geometry path of GeometryShape
 type: docs
-weight: 801
+weight: 802
 url: /java/com.aspose.slides/igeometrypath/
 ---```
 public interface IGeometryPath

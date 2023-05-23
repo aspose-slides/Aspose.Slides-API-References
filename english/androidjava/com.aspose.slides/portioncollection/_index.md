@@ -3,7 +3,7 @@ title: PortionCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of portions.
 type: docs
-weight: 429
+weight: 430
 url: /androidjava/com.aspose.slides/portioncollection/
 ---
 **Inheritance:**

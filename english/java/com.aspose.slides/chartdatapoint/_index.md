@@ -3,7 +3,7 @@ title: ChartDataPoint
 second_title: Aspose.Slides for Java API Reference
 description: Represents series data point.
 type: docs
-weight: 84
+weight: 85
 url: /java/com.aspose.slides/chartdatapoint/
 ---
 **Inheritance:**

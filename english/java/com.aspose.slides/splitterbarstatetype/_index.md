@@ -3,7 +3,7 @@ title: SplitterBarStateType
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the state that the splitter bar should be shown in.
 type: docs
-weight: 528
+weight: 529
 url: /java/com.aspose.slides/splitterbarstatetype/
 ---
 **Inheritance:**

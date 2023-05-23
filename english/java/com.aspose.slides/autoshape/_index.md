@@ -3,7 +3,7 @@ title: AutoShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents an AutoShape.
 type: docs
-weight: 26
+weight: 27
 url: /java/com.aspose.slides/autoshape/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.Shape](../../com.aspose.slides/shape), [com
 **All Implemented Interfaces:**
 [com.aspose.slides.IAutoShape](../../com.aspose.slides/iautoshape)
 ```
-public class AutoShape extends GeometryShape implements IAutoShape
+public final class AutoShape extends GeometryShape implements IAutoShape
 ```
 
 Represents an AutoShape.
@@ -82,7 +82,7 @@ Determines whether this autoshape should be filled with slide's background fill 
 
 ### addTextFrame(String text) {#addTextFrame-java.lang.String-}
 ```
-public ITextFrame addTextFrame(String text)
+public final ITextFrame addTextFrame(String text)
 ```
 
 

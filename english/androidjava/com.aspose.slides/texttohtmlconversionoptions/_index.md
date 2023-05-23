@@ -3,7 +3,7 @@ title: TextToHtmlConversionOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Options for extracting HTML from the Pptx text.
 type: docs
-weight: 568
+weight: 569
 url: /androidjava/com.aspose.slides/texttohtmlconversionoptions/
 ---
 **Inheritance:**

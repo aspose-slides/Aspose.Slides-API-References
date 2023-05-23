@@ -3,7 +3,7 @@ title: Slide
 second_title: Aspose.Slides for Java API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 502
+weight: 503
 url: /java/com.aspose.slides/slide/
 ---
 **Inheritance:**

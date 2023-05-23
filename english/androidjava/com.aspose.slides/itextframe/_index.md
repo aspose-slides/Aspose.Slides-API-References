@@ -3,7 +3,7 @@ title: ITextFrame
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 1069
+weight: 1070
 url: /androidjava/com.aspose.slides/itextframe/
 ---
 **All Implemented Interfaces:**

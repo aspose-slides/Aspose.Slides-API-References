@@ -3,7 +3,7 @@ title: DocumentProperties
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents properties of a presentation.
 type: docs
-weight: 157
+weight: 158
 url: /androidjava/com.aspose.slides/documentproperties/
 ---
 **Inheritance:**

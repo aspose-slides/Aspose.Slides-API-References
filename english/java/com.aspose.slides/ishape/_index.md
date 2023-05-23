@@ -3,7 +3,7 @@ title: IShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 1017
+weight: 1018
 url: /java/com.aspose.slides/ishape/
 ---
 **All Implemented Interfaces:**

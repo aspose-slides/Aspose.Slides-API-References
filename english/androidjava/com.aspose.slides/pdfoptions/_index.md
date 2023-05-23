@@ -3,7 +3,7 @@ title: PdfOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 411
+weight: 412
 url: /androidjava/com.aspose.slides/pdfoptions/
 ---
 **Inheritance:**

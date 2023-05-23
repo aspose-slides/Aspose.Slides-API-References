@@ -3,7 +3,7 @@ title: IColorOperation
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents different color operations used for color transformations.
 type: docs
-weight: 715
+weight: 716
 url: /androidjava/com.aspose.slides/icoloroperation/
 ---```
 public interface IColorOperation

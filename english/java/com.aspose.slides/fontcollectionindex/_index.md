@@ -3,7 +3,7 @@ title: FontCollectionIndex
 second_title: Aspose.Slides for Java API Reference
 description: Represents fonts index in a collection.
 type: docs
-weight: 200
+weight: 201
 url: /java/com.aspose.slides/fontcollectionindex/
 ---
 **Inheritance:**

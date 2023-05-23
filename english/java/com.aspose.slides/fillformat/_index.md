@@ -3,7 +3,7 @@ title: FillFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a fill formatting options.
 type: docs
-weight: 190
+weight: 191
 url: /java/com.aspose.slides/fillformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IFillFormat](../../com.aspose.slides/ifillformat)
 ```
-public class FillFormat extends PVIObject implements IFillFormat
+public final class FillFormat extends PVIObject implements IFillFormat
 ```
 
 Represents a fill formatting options.

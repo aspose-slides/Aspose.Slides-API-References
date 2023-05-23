@@ -3,7 +3,7 @@ title: AlphaInverse
 second_title: Aspose.Slides for Java API Reference
 description: Represents an Alpha Inverse effect.
 type: docs
-weight: 15
+weight: 16
 url: /java/com.aspose.slides/alphainverse/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: SmartArtNode
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents node of a SmartArt object
 type: docs
-weight: 520
+weight: 521
 url: /androidjava/com.aspose.slides/smartartnode/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.aspose.slides.ISmartArtNode](../../com.aspose.slides/ismartartnode)
 ```
-public class SmartArtNode implements ISmartArtNode
+public final class SmartArtNode implements ISmartArtNode
 ```
 
 Represents node of a SmartArt object

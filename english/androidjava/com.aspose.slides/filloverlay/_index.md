@@ -3,7 +3,7 @@ title: FillOverlay
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Fill Overlay effect.
 type: docs
-weight: 192
+weight: 193
 url: /androidjava/com.aspose.slides/filloverlay/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IFillOverlay](../../com.aspose.slides/ifilloverlay), com.aspose.slides.IVisualEffect
 ```
-public class FillOverlay extends ImageTransformOperation implements IFillOverlay, IVisualEffect
+public final class FillOverlay extends ImageTransformOperation implements IFillOverlay, IVisualEffect
 ```
 
 Represents a Fill Overlay effect. A fill overlay may be used to specify an additional fill for an object and blend the two fills together.

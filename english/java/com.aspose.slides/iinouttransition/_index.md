@@ -3,7 +3,7 @@ title: IInOutTransition
 second_title: Aspose.Slides for Java API Reference
 description: In-Out slide transition effect.
 type: docs
-weight: 837
+weight: 838
 url: /java/com.aspose.slides/iinouttransition/
 ---
 **All Implemented Interfaces:**

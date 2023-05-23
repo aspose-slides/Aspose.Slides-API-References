@@ -3,7 +3,7 @@ title: ChartTitle
 second_title: Aspose.Slides for Java API Reference
 description: Represents chart title properties.
 type: docs
-weight: 101
+weight: 102
 url: /java/com.aspose.slides/charttitle/
 ---
 **Inheritance:**

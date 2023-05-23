@@ -3,7 +3,7 @@ title: IColorEffect
 second_title: Aspose.Slides for Java API Reference
 description: Represents a color effect for an animation behavior.
 type: docs
-weight: 712
+weight: 713
 url: /java/com.aspose.slides/icoloreffect/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: ShapeUtil
 second_title: Aspose.Slides for Android via Java API Reference
 description: Offer methods which helps to process shapes objects.
 type: docs
-weight: 497
+weight: 498
 url: /androidjava/com.aspose.slides/shapeutil/
 ---
 **Inheritance:**

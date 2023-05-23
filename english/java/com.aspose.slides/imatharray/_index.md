@@ -3,7 +3,7 @@ title: IMathArray
 second_title: Aspose.Slides for Java API Reference
 description: Specifies a vertical array of equations or any mathematical objects
 type: docs
-weight: 883
+weight: 884
 url: /java/com.aspose.slides/imatharray/
 ---
 **All Implemented Interfaces:**

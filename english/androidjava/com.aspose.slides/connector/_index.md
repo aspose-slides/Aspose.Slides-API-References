@@ -3,7 +3,7 @@ title: Connector
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a connector.
 type: docs
-weight: 134
+weight: 135
 url: /androidjava/com.aspose.slides/connector/
 ---
 **Inheritance:**

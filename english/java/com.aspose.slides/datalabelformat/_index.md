@@ -3,7 +3,7 @@ title: DataLabelFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents formatting options for DataLabel.
 type: docs
-weight: 149
+weight: 150
 url: /java/com.aspose.slides/datalabelformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
 ```
-public class DataLabelFormat extends PVIObject implements IDataLabelFormat
+public final class DataLabelFormat extends PVIObject implements IDataLabelFormat
 ```
 
 Represents formatting options for DataLabel.

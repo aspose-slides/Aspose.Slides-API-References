@@ -3,7 +3,7 @@ title: CommentAuthorCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of comment authors.
 type: docs
-weight: 128
+weight: 129
 url: /androidjava/com.aspose.slides/commentauthorcollection/
 ---
 **Inheritance:**

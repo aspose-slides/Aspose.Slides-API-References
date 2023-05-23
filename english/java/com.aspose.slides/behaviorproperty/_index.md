@@ -3,7 +3,7 @@ title: BehaviorProperty
 second_title: Aspose.Slides for Java API Reference
 description: Represent property types for animation behavior.
 type: docs
-weight: 52
+weight: 53
 url: /java/com.aspose.slides/behaviorproperty/
 ---
 **Inheritance:**

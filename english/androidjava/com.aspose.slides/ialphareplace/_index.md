@@ -3,7 +3,7 @@ title: IAlphaReplace
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents base IImageTransformOperation interface.
 type: docs
-weight: 640
+weight: 641
 url: /androidjava/com.aspose.slides/ialphareplace/
 ---
 **All Implemented Interfaces:**

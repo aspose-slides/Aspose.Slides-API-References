@@ -25,24 +25,6 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathLimit](../../mathlimit) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
 ## createMathDelimiter([MathMatrix](../../mathmatrix) element)  method
 
  Create a math delimiter by applying to the element
@@ -53,6 +35,24 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathMatrix](../../mathmatrix) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
+## createMathDelimiter([MathLimit](../../mathlimit) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../../mathlimit) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)
@@ -133,24 +133,6 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathNaryOperator](../../mathnaryoperator) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
 ## createMathDelimiter([MathAccent](../../mathaccent) element)  method
 
  Create a math delimiter by applying to the element
@@ -161,6 +143,24 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathAccent](../../mathaccent) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
+## createMathDelimiter([MathNaryOperator](../../mathnaryoperator) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathNaryOperator](../../mathnaryoperator) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)
@@ -223,6 +223,24 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
+## createMathDelimiter([MathSubscriptElement](../../mathsubscriptelement) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
 ## createMathDelimiter([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math delimiter by applying to the element
@@ -259,7 +277,7 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathSubscriptElement](../../mathsubscriptelement) element)  method
+## createMathDelimiter([MathFraction](../../mathfraction) element)  method
 
  Create a math delimiter by applying to the element
  
@@ -268,7 +286,7 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply delimiter |
+| element | [MathFraction](../../mathfraction) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)
@@ -287,24 +305,6 @@ url: /php-java/aspose.slides/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
-## createMathDelimiter([MathFraction](../../mathfraction) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)

@@ -3,7 +3,7 @@ title: IBaseSlideHeaderFooterManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents manager which holds behavior of the footer date-time page number placeholders for all slide types.
 type: docs
-weight: 661
+weight: 662
 url: /androidjava/com.aspose.slides/ibaseslideheaderfootermanager/
 ---
 **All Implemented Interfaces:**

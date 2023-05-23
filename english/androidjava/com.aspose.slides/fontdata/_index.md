@@ -3,7 +3,7 @@ title: FontData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a font definition.
 type: docs
-weight: 201
+weight: 202
 url: /androidjava/com.aspose.slides/fontdata/
 ---
 **Inheritance:**

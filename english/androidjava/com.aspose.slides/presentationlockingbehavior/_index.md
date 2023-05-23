@@ -3,7 +3,7 @@ title: PresentationLockingBehavior
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the behavior regarding treating the  source file or  java.io.InputStream while loading and working with an instance of .
 type: docs
-weight: 449
+weight: 450
 url: /androidjava/com.aspose.slides/presentationlockingbehavior/
 ---
 **Inheritance:**

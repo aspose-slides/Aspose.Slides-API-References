@@ -3,7 +3,7 @@ title: Camera
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents Camera.
 type: docs
-weight: 66
+weight: 67
 url: /androidjava/com.aspose.slides/camera/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ICamera](../../com.aspose.slides/icamera)
 ```
-public class Camera extends PVIObject implements ICamera
+public final class Camera extends PVIObject implements ICamera
 ```
 
 Represents Camera.

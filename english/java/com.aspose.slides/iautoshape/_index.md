@@ -3,7 +3,7 @@ title: IAutoShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents an AutoShape.
 type: docs
-weight: 646
+weight: 647
 url: /java/com.aspose.slides/iautoshape/
 ---
 **All Implemented Interfaces:**

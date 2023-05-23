@@ -3,7 +3,7 @@ title: AutoShapeLock
 second_title: Aspose.Slides for Android via Java API Reference
 description: Determines which operations are disabled on the parent AutoshapeEx.
 type: docs
-weight: 27
+weight: 28
 url: /androidjava/com.aspose.slides/autoshapelock/
 ---
 **Inheritance:**

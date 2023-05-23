@@ -3,7 +3,7 @@ title: IErrorBarsCustomValues
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the errors bar values.
 type: docs
-weight: 765
+weight: 766
 url: /java/com.aspose.slides/ierrorbarscustomvalues/
 ---```
 public interface IErrorBarsCustomValues

@@ -3,7 +3,7 @@ title: ControlCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: A collection of ActiveX controls.
 type: docs
-weight: 137
+weight: 138
 url: /androidjava/com.aspose.slides/controlcollection/
 ---
 **Inheritance:**

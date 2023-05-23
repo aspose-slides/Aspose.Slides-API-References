@@ -3,7 +3,7 @@ title: IChartDataPointLevel
 second_title: Aspose.Slides for Java API Reference
 description: Represents data point level.
 type: docs
-weight: 692
+weight: 693
 url: /java/com.aspose.slides/ichartdatapointlevel/
 ---```
 public interface IChartDataPointLevel

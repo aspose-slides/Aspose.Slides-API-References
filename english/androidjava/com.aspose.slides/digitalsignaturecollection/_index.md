@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of digital signatures attached to a document.
 type: docs
-weight: 154
+weight: 155
 url: /androidjava/com.aspose.slides/digitalsignaturecollection/
 ---
 **Inheritance:**

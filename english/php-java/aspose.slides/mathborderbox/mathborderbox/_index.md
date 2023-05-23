@@ -22,21 +22,6 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathLimit](../../mathlimit) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
 ## MathBorderBox([MathMatrix](../../mathmatrix) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -47,6 +32,21 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathMatrix](../../mathmatrix) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
+## MathBorderBox([MathLimit](../../mathlimit) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../../mathlimit) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -112,21 +112,6 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathNaryOperator](../../mathnaryoperator) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
 ## MathBorderBox([MathAccent](../../mathaccent) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -137,6 +122,21 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathAccent](../../mathaccent) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
+## MathBorderBox([MathNaryOperator](../../mathnaryoperator) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathNaryOperator](../../mathnaryoperator) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -187,6 +187,21 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
+## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
 ## MathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -217,7 +232,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+## MathBorderBox([MathFraction](../../mathfraction) element)  constructor
 
  Creates MathBorderBox element with rectangular border
  
@@ -226,7 +241,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the border box is applied. Can be null. |
+| element | [MathFraction](../../mathfraction) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -242,21 +257,6 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
-## MathBorderBox([MathFraction](../../mathfraction) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -315,7 +315,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathLimit](../../mathlimit) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathMatrix](../../mathmatrix) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -324,7 +324,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../mathlimit) | The base element to which the border box is applied |
+| element | [MathMatrix](../mathmatrix) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -338,7 +338,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathMatrix](../../mathmatrix) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathLimit](../../mathlimit) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -347,7 +347,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | The base element to which the border box is applied |
+| element | [MathLimit](../mathlimit) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -453,7 +453,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathNaryOperator](../../mathnaryoperator) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathAccent](../../mathaccent) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -462,7 +462,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | The base element to which the border box is applied |
+| element | [MathAccent](../mathaccent) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -476,7 +476,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathAccent](../../mathaccent) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathNaryOperator](../../mathnaryoperator) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -485,7 +485,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../mathaccent) | The base element to which the border box is applied |
+| element | [MathNaryOperator](../mathnaryoperator) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -568,6 +568,29 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
+## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+
+ Creates MathBorderBox element 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the border box is applied |
+| hideTop | boolean | Hide Top Edge |
+| hideBottom | boolean | Hide Bottom Edge |
+| hideLeft | boolean | Hide Left Edge |
+| hideRight | boolean | Hide Right Edge |
+| strikethroughHorizontal | boolean | Strikethrough Horizontal |
+| strikethroughVertical | boolean | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
+
+
+---
+
+
 ## MathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
@@ -614,7 +637,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -623,7 +646,7 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the border box is applied |
+| element | [MathFraction](../mathfraction) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -647,29 +670,6 @@ url: /php-java/aspose.slides/mathborderbox/mathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../mathematicaltext) | The base element to which the border box is applied |
-| hideTop | boolean | Hide Top Edge |
-| hideBottom | boolean | Hide Bottom Edge |
-| hideLeft | boolean | Hide Left Edge |
-| hideRight | boolean | Hide Right Edge |
-| strikethroughHorizontal | boolean | Strikethrough Horizontal |
-| strikethroughVertical | boolean | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | boolean | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | boolean | Strikethrough Top-Left to Bottom-Right |
-
-
----
-
-
-## MathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
-
- Creates MathBorderBox element 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |

@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Slides for Java API Reference
 description: This class contains the paragraph formatting properties.
 type: docs
-weight: 402
+weight: 403
 url: /java/com.aspose.slides/paragraphformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IParagraphFormat](../../com.aspose.slides/iparagraphformat), [com.aspose.slides.IChartParagraphFormat](../../com.aspose.slides/ichartparagraphformat)
 ```
-public class ParagraphFormat extends PVIObject implements IParagraphFormat, IChartParagraphFormat
+public final class ParagraphFormat extends PVIObject implements IParagraphFormat, IChartParagraphFormat
 ```
 
 This class contains the paragraph formatting properties. Unlike [IParagraphFormatEffectiveData](../../com.aspose.slides/iparagraphformateffectivedata), all properties of this class are writeable.

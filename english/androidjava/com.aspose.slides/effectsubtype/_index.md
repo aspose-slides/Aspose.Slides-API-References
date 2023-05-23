@@ -3,7 +3,7 @@ title: EffectSubtype
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents subtypes of animation effect.
 type: docs
-weight: 171
+weight: 172
 url: /androidjava/com.aspose.slides/effectsubtype/
 ---
 **Inheritance:**

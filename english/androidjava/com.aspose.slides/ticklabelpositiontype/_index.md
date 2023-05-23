@@ -3,7 +3,7 @@ title: TickLabelPositionType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the position type of tick-mark labels on the specified axis.
 type: docs
-weight: 574
+weight: 575
 url: /androidjava/com.aspose.slides/ticklabelpositiontype/
 ---
 **Inheritance:**

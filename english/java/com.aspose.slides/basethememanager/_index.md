@@ -3,7 +3,7 @@ title: BaseThemeManager
 second_title: Aspose.Slides for Java API Reference
 description: Base class for classes that provide access to different types of themes.
 type: docs
-weight: 46
+weight: 47
 url: /java/com.aspose.slides/basethememanager/
 ---
 **Inheritance:**

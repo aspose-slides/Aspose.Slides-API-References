@@ -3,7 +3,7 @@ title: AxisAggregationType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents aggregation type of category axis.
 type: docs
-weight: 31
+weight: 32
 url: /androidjava/com.aspose.slides/axisaggregationtype/
 ---
 **Inheritance:**

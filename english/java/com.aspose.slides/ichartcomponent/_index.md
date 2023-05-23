@@ -3,7 +3,7 @@ title: IChartComponent
 second_title: Aspose.Slides for Java API Reference
 description: Represents a component of a chart.
 type: docs
-weight: 687
+weight: 688
 url: /java/com.aspose.slides/ichartcomponent/
 ---
 **All Implemented Interfaces:**

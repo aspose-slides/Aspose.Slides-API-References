@@ -3,7 +3,7 @@ title: IGraphicalObject
 second_title: Aspose.Slides for Java API Reference
 description: Represents abstract graphical object.
 type: docs
-weight: 814
+weight: 815
 url: /java/com.aspose.slides/igraphicalobject/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: Background
 second_title: Aspose.Slides for Java API Reference
 description: Represents background of a slide.
 type: docs
-weight: 35
+weight: 36
 url: /java/com.aspose.slides/background/
 ---
 **Inheritance:**

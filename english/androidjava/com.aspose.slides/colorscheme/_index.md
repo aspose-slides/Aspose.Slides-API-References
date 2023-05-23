@@ -3,7 +3,7 @@ title: ColorScheme
 second_title: Aspose.Slides for Android via Java API Reference
 description: Stores theme-defined colors.
 type: docs
-weight: 114
+weight: 115
 url: /androidjava/com.aspose.slides/colorscheme/
 ---
 **Inheritance:**

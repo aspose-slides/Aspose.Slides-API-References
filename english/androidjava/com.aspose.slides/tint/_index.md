@@ -3,7 +3,7 @@ title: Tint
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Tint effect.
 type: docs
-weight: 581
+weight: 582
 url: /androidjava/com.aspose.slides/tint/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ITint](../../com.aspose.slides/itint), com.aspose.slides.IVisualEffect
 ```
-public class Tint extends ImageTransformOperation implements ITint, IVisualEffect
+public final class Tint extends ImageTransformOperation implements ITint, IVisualEffect
 ```
 
 Represents a Tint effect. Shifts effect color values towards/away from hue by the specified amount.

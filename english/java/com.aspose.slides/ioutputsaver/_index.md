@@ -3,7 +3,7 @@ title: IOutputSaver
 second_title: Aspose.Slides for Java API Reference
 description: Represents an output saving service.
 type: docs
-weight: 948
+weight: 949
 url: /java/com.aspose.slides/ioutputsaver/
 ---```
 public interface IOutputSaver

@@ -3,7 +3,7 @@ title: IThemeManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent theme properties.
 type: docs
-weight: 1078
+weight: 1079
 url: /androidjava/com.aspose.slides/ithememanager/
 ---```
 public interface IThemeManager

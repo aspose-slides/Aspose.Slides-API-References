@@ -3,7 +3,7 @@ title: BrowsedAtKiosk
 second_title: Aspose.Slides for Java API Reference
 description: Browsed at a kiosk full screen
 type: docs
-weight: 59
+weight: 60
 url: /java/com.aspose.slides/browsedatkiosk/
 ---
 **Inheritance:**

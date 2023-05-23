@@ -3,7 +3,7 @@ title: ISectionSlideCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a slides in the section.
 type: docs
-weight: 1012
+weight: 1013
 url: /androidjava/com.aspose.slides/isectionslidecollection/
 ---
 **All Implemented Interfaces:**

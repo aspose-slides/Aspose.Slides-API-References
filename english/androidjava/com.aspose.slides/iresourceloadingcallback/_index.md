@@ -3,7 +3,7 @@ title: IResourceLoadingCallback
 second_title: Aspose.Slides for Android via Java API Reference
 description: Callback interface used to manage external resources loading.
 type: docs
-weight: 996
+weight: 997
 url: /androidjava/com.aspose.slides/iresourceloadingcallback/
 ---```
 public interface IResourceLoadingCallback

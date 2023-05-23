@@ -3,7 +3,7 @@ title: IRowCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents table row collection.
 type: docs
-weight: 1003
+weight: 1004
 url: /java/com.aspose.slides/irowcollection/
 ---
 **All Implemented Interfaces:**

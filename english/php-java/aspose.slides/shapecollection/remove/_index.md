@@ -43,24 +43,6 @@ void
 ---
 
 
-## remove([SmartArtShape](../../smartartshape) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SmartArtShape](../../smartartshape) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([Table](../../table) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -71,6 +53,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Table](../../table) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([SmartArtShape](../../smartartshape) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SmartArtShape](../../smartartshape) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -295,24 +295,6 @@ void
 ---
 
 
-## remove([AudioFrame](../../audioframe) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AudioFrame](../../audioframe) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([Chart](../../chart) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -331,7 +313,7 @@ void
 ---
 
 
-## remove([LegacyDiagram](../../legacydiagram) shape)  method
+## remove([AudioFrame](../../audioframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
  
@@ -340,7 +322,7 @@ void
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [LegacyDiagram](../../legacydiagram) | The shape to remove from the collection. |
+| shape | [AudioFrame](../../audioframe) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -359,6 +341,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomObject](../../zoomobject) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([LegacyDiagram](../../legacydiagram) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [LegacyDiagram](../../legacydiagram) | The shape to remove from the collection. |
 
 ### Returns
 void

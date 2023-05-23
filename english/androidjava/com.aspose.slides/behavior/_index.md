@@ -3,7 +3,7 @@ title: Behavior
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent base class behavior of effect.
 type: docs
-weight: 47
+weight: 48
 url: /androidjava/com.aspose.slides/behavior/
 ---
 **Inheritance:**

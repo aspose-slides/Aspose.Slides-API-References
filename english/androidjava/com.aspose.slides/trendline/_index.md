@@ -3,7 +3,7 @@ title: Trendline
 second_title: Aspose.Slides for Android via Java API Reference
 description: Class represents trend line of chart series
 type: docs
-weight: 595
+weight: 596
 url: /androidjava/com.aspose.slides/trendline/
 ---
 **Inheritance:**

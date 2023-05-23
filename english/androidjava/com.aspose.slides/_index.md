@@ -13,6 +13,7 @@ url: /androidjava/com.aspose.slides/
 | --- | --- |
 | [AdjustValue](../com.aspose.slides/adjustvalue) | Represents a geometry shape's adjustment value. |
 | [AdjustValueCollection](../com.aspose.slides/adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
+| [AfterAnimationType](../com.aspose.slides/afteranimationtype) | Represents the after animation type of an animation effect. |
 | [AlphaBiLevel](../com.aspose.slides/alphabilevel) | Represents an Alpha Bi-Level effect. |
 | [AlphaCeiling](../com.aspose.slides/alphaceiling) | Represents an Alpha Ceiling effect. |
 | [AlphaFloor](../com.aspose.slides/alphafloor) | Represents an Alpha Floor effect. |

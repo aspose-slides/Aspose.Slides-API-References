@@ -12,6 +12,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | --- | --- |
 | [AdjustValue](adjustvalue) | Represents a geometry shape's adjustment value. These values affect shape's form. |
 | [AdjustValueCollection](adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
+| [AfterAnimationType](afteranimationtype) | Represents the after animation type of an animation effect. |
 | [AlphaBiLevel](alphabilevel) | Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque). |
 | [AlphaCeiling](alphaceiling) | Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque. |
 | [AlphaFloor](alphafloor) | Represents an Alpha Floor effect. Alpha (opacity) values less than 100% are changed to zero. In other words, anything partially transparent becomes fully transparent. |

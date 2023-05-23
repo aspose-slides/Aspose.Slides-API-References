@@ -3,7 +3,7 @@ title: EffectTriggerType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent trigger type of effect.
 type: docs
-weight: 172
+weight: 173
 url: /androidjava/com.aspose.slides/effecttriggertype/
 ---
 **Inheritance:**

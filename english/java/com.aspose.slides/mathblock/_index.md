@@ -3,7 +3,7 @@ title: MathBlock
 second_title: Aspose.Slides for Java API Reference
 description: Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line.
 type: docs
-weight: 313
+weight: 314
 url: /java/com.aspose.slides/mathblock/
 ---
 **Inheritance:**

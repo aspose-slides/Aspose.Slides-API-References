@@ -3,7 +3,7 @@ title: IEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents animation effect.
 type: docs
-weight: 751
+weight: 752
 url: /androidjava/com.aspose.slides/ieffect/
 ---```
 public interface IEffect
@@ -31,6 +31,10 @@ Represents animation effect.
 | [setSound(IAudio value)](#setSound-com.aspose.slides.IAudio-) | Defined embedded sound for effect. |
 | [getStopPreviousSound()](#getStopPreviousSound--) | This attribute specifies if the animation effect stops the previous sound. |
 | [setStopPreviousSound(boolean value)](#setStopPreviousSound-boolean-) | This attribute specifies if the animation effect stops the previous sound. |
+| [getAfterAnimationType()](#getAfterAnimationType--) | Defined an after animation type for effect. |
+| [setAfterAnimationType(int value)](#setAfterAnimationType-int-) | Defined an after animation type for effect. |
+| [getAfterAnimationColor()](#getAfterAnimationColor--) | Defined an after animation color for effect. |
+| [setAfterAnimationColor(IColorFormat value)](#setAfterAnimationColor-com.aspose.slides.IColorFormat-) | Defined an after animation color for effect. |
 ### getSequence() {#getSequence--}
 ```
 public abstract ISequence getSequence()
@@ -309,4 +313,116 @@ This attribute specifies if the animation effect stops the previous sound. Read/
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getAfterAnimationType() {#getAfterAnimationType--}
+```
+public abstract int getAfterAnimationType()
+```
+
+
+Defined an after animation type for effect. Read/write  AfterAnimationType (\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect After animation to "Hide on Next Mouse Click"
+>      firstSlideEffect.setAfterAnimationType(AfterAnimationType.HideOnNextMouseClick);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setAfterAnimationType(int value) {#setAfterAnimationType-int-}
+```
+public abstract void setAfterAnimationType(int value)
+```
+
+
+Defined an after animation type for effect. Read/write  AfterAnimationType (\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect After animation to "Hide on Next Mouse Click"
+>      firstSlideEffect.setAfterAnimationType(AfterAnimationType.HideOnNextMouseClick);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getAfterAnimationColor() {#getAfterAnimationColor--}
+```
+public abstract IColorFormat getAfterAnimationColor()
+```
+
+
+Defined an after animation color for effect. Read/write [IColorFormat](../../com.aspose.slides/icolorformat).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect After animation type to "Color"
+>      firstSlideEffect.setAfterAnimationType(AfterAnimationType.Color);
+> 
+>      // Set the effect After animation color.
+>      firstSlideEffect.getAfterAnimationColor().setColor(Color.BLUE);
+>  }finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+[IColorFormat](../../com.aspose.slides/icolorformat)
+### setAfterAnimationColor(IColorFormat value) {#setAfterAnimationColor-com.aspose.slides.IColorFormat-}
+```
+public abstract void setAfterAnimationColor(IColorFormat value)
+```
+
+
+Defined an after animation color for effect. Read/write [IColorFormat](../../com.aspose.slides/icolorformat).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect After animation type to "Color"
+>      firstSlideEffect.setAfterAnimationType(AfterAnimationType.Color);
+> 
+>      // Set the effect After animation color.
+>      firstSlideEffect.getAfterAnimationColor().setColor(Color.BLUE);
+>  }finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [IColorFormat](../../com.aspose.slides/icolorformat) |  |
 

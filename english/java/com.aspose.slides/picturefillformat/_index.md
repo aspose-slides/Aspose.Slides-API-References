@@ -3,7 +3,7 @@ title: PictureFillFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 415
+weight: 416
 url: /java/com.aspose.slides/picturefillformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IPictureFillFormat](../../com.aspose.slides/ipicturefillformat)
 ```
-public class PictureFillFormat extends PVIObject implements IPictureFillFormat
+public final class PictureFillFormat extends PVIObject implements IPictureFillFormat
 ```
 
 Represents a picture fill style.

@@ -3,7 +3,7 @@ title: IFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents chart format properties.
 type: docs
-weight: 794
+weight: 795
 url: /androidjava/com.aspose.slides/iformat/
 ---```
 public interface IFormat

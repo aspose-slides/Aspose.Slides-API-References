@@ -3,7 +3,7 @@ title: GeometryPath
 second_title: Aspose.Slides for Java API Reference
 description: Represents geometry path of GeometryShape
 type: docs
-weight: 219
+weight: 220
 url: /java/com.aspose.slides/geometrypath/
 ---
 **Inheritance:**

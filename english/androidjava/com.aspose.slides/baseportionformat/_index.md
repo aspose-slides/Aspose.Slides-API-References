@@ -3,7 +3,7 @@ title: BasePortionFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Common text portion formatting properties.
 type: docs
-weight: 41
+weight: 42
 url: /androidjava/com.aspose.slides/baseportionformat/
 ---
 **Inheritance:**

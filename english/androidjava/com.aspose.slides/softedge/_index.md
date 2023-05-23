@@ -3,7 +3,7 @@ title: SoftEdge
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a soft edge effect.
 type: docs
-weight: 525
+weight: 526
 url: /androidjava/com.aspose.slides/softedge/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.aspose.slides.ISoftEdge](../../com.aspose.slides/isoftedge), com.aspose.slides.IVisualEffect, com.aspose.slides.IDOMObject, com.aspose.slides.IPVIObject, java.lang.Cloneable
 ```
-public class SoftEdge implements ISoftEdge, IVisualEffect, IDOMObject, IPVIObject, Cloneable
+public final class SoftEdge implements ISoftEdge, IVisualEffect, IDOMObject, IPVIObject, Cloneable
 ```
 
 Represents a soft edge effect. The edges of the shape are blurred, while the fill is not affected.

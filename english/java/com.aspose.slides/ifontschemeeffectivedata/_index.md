@@ -3,7 +3,7 @@ title: IFontSchemeEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which contains effective font scheme properties.
 type: docs
-weight: 786
+weight: 787
 url: /java/com.aspose.slides/ifontschemeeffectivedata/
 ---```
 public interface IFontSchemeEffectiveData

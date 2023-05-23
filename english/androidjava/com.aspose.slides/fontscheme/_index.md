@@ -3,7 +3,7 @@ title: FontScheme
 second_title: Aspose.Slides for Android via Java API Reference
 description: Stores theme-defined fonts.
 type: docs
-weight: 205
+weight: 206
 url: /androidjava/com.aspose.slides/fontscheme/
 ---
 **Inheritance:**

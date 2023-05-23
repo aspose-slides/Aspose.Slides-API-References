@@ -21,7 +21,7 @@ void
 
 | Exception | Condition |
 | --- | --- |
- | com.aspose.ms.System.ArgumentException | Thrown when value is ShapeType.NotDefined or ShapeType.Custom |
+ | ArgumentException | Thrown when value is ShapeType.NotDefined or ShapeType.Custom |
 
 
 ---

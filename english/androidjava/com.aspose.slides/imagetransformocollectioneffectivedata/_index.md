@@ -3,7 +3,7 @@ title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object that represents a readonly collection of effective image transform effects.
 type: docs
-weight: 250
+weight: 251
 url: /androidjava/com.aspose.slides/imagetransformocollectioneffectivedata/
 ---
 **Inheritance:**

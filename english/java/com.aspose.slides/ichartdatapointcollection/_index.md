@@ -3,7 +3,7 @@ title: IChartDataPointCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of a series data point.
 type: docs
-weight: 691
+weight: 692
 url: /java/com.aspose.slides/ichartdatapointcollection/
 ---
 **All Implemented Interfaces:**

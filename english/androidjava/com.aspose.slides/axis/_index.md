@@ -3,7 +3,7 @@ title: Axis
 second_title: Aspose.Slides for Android via Java API Reference
 description: Encapsulates the object that represents a charts axis.
 type: docs
-weight: 30
+weight: 31
 url: /androidjava/com.aspose.slides/axis/
 ---
 **Inheritance:**

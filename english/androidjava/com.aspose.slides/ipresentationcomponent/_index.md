@@ -3,7 +3,7 @@ title: IPresentationComponent
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a component of a presentation.
 type: docs
-weight: 981
+weight: 982
 url: /androidjava/com.aspose.slides/ipresentationcomponent/
 ---```
 public interface IPresentationComponent

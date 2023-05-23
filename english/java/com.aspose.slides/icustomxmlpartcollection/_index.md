@@ -3,7 +3,7 @@ title: ICustomXmlPartCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of custom xml parts.
 type: docs
-weight: 739
+weight: 740
 url: /java/com.aspose.slides/icustomxmlpartcollection/
 ---
 **All Implemented Interfaces:**

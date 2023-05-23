@@ -3,7 +3,7 @@ title: BlobManagementOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents options which can be used to manage BLOB handling rules and other BLOB settings.
 type: docs
-weight: 57
+weight: 58
 url: /androidjava/com.aspose.slides/blobmanagementoptions/
 ---
 **Inheritance:**

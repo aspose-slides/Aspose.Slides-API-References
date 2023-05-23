@@ -3,7 +3,7 @@ title: Table
 second_title: Aspose.Slides for Java API Reference
 description: Represents a table on a slide.
 type: docs
-weight: 549
+weight: 550
 url: /java/com.aspose.slides/table/
 ---
 **Inheritance:**

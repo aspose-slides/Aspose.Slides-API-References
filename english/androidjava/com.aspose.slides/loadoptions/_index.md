@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 291
+weight: 292
 url: /androidjava/com.aspose.slides/loadoptions/
 ---
 **Inheritance:**
@@ -135,6 +135,7 @@ Returns or sets Regular font used in case source font is not found. Read/write S
 >      pres.save("output_out.pdf", SaveFormat.Pdf);
 >      // Generate XPS
 >      pres.save("output_out.xps", SaveFormat.Xps);
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -183,6 +184,7 @@ Returns or sets Regular font used in case source font is not found. Read/write S
 >      pres.save("output_out.pdf", SaveFormat.Pdf);
 >      // Generate XPS
 >      pres.save("output_out.xps", SaveFormat.Xps);
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

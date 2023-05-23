@@ -3,7 +3,7 @@ title: SectionCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of sections.
 type: docs
-weight: 481
+weight: 482
 url: /androidjava/com.aspose.slides/sectioncollection/
 ---
 **Inheritance:**

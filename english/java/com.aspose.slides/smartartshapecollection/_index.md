@@ -3,7 +3,7 @@ title: SmartArtShapeCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a SmartArt shapes
 type: docs
-weight: 524
+weight: 525
 url: /java/com.aspose.slides/smartartshapecollection/
 ---
 **Inheritance:**

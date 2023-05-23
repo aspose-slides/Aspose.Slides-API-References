@@ -3,7 +3,7 @@ title: MasterSlide
 second_title: Aspose.Slides for Java API Reference
 description: Represents a master slide in a presentation.
 type: docs
-weight: 301
+weight: 302
 url: /java/com.aspose.slides/masterslide/
 ---
 **Inheritance:**

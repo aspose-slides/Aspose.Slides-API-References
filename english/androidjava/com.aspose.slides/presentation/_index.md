@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 444
+weight: 445
 url: /androidjava/com.aspose.slides/presentation/
 ---
 **Inheritance:**
@@ -365,7 +365,7 @@ Returns a list of all slides that are defined in the presentation. Read-only [IS
 >     }
 >      // Write the presentation to disk
 >      pres.save("ContentBG_Img_out.pptx", SaveFormat.Pptx);
->  }
+>  } catch (IOException e) { }
 >  finally
 >  {
 >      if (pres != null) pres.dispose();
@@ -824,7 +824,7 @@ Returns the collection of all images in the presentation. Read-only [IImageColle
 >          }
 >      }
 >      pres.save("pres-out.pptx", SaveFormat.Pptx);
->  }
+>  } catch (IOException e){ }
 >  finally
 >  {
 >      if (pres != null) pres.dispose();

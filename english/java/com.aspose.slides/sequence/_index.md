@@ -3,7 +3,7 @@ title: Sequence
 second_title: Aspose.Slides for Java API Reference
 description: Represents sequence collection of effects.
 type: docs
-weight: 484
+weight: 485
 url: /java/com.aspose.slides/sequence/
 ---
 **Inheritance:**

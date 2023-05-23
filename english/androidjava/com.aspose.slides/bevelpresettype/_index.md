@@ -3,7 +3,7 @@ title: BevelPresetType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Constants which define 3D bevel of shape.
 type: docs
-weight: 54
+weight: 55
 url: /androidjava/com.aspose.slides/bevelpresettype/
 ---
 **Inheritance:**

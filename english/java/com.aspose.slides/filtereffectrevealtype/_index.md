@@ -3,7 +3,7 @@ title: FilterEffectRevealType
 second_title: Aspose.Slides for Java API Reference
 description: Represents filter reveal type.
 type: docs
-weight: 195
+weight: 196
 url: /java/com.aspose.slides/filtereffectrevealtype/
 ---
 **Inheritance:**

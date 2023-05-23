@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: Aspose.Slides for Java API Reference
 description: Abstract class with options that control how a presentation is saved.
 type: docs
-weight: 476
+weight: 477
 url: /java/com.aspose.slides/saveoptions/
 ---
 **Inheritance:**

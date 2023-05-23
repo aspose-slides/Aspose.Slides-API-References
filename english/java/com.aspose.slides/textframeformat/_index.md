@@ -3,7 +3,7 @@ title: TextFrameFormat
 second_title: Aspose.Slides for Java API Reference
 description: Contains the TextFrames formatTextFrameFormatting properties.
 type: docs
-weight: 562
+weight: 563
 url: /java/com.aspose.slides/textframeformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ITextFrameFormat](../../com.aspose.slides/itextframeformat), [com.aspose.slides.IChartTextBlockFormat](../../com.aspose.slides/icharttextblockformat)
 ```
-public class TextFrameFormat extends PVIObject implements ITextFrameFormat, IChartTextBlockFormat
+public final class TextFrameFormat extends PVIObject implements ITextFrameFormat, IChartTextBlockFormat
 ```
 
 Contains the TextFrame's formatTextFrameFormatting properties.

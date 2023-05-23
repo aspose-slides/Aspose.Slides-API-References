@@ -3,7 +3,7 @@ title: CommentsPositions
 second_title: Aspose.Slides for Java API Reference
 description: Represents the rule to render comments into exported document
 type: docs
-weight: 130
+weight: 131
 url: /java/com.aspose.slides/commentspositions/
 ---
 **Inheritance:**

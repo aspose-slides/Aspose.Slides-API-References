@@ -3,7 +3,7 @@ title: TransitionSoundMode
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent sound mode of transition.
 type: docs
-weight: 591
+weight: 592
 url: /androidjava/com.aspose.slides/transitionsoundmode/
 ---
 **Inheritance:**

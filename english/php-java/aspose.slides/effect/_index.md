@@ -16,6 +16,8 @@ url: /php-java/aspose.slides/effect/
 
 | Name | Description |
 | --- | --- |
+| [getAfterAnimationColor](getafteranimationcolor)() | Defined an after animation color for effect. Read/write IColorFormat. |
+| [getAfterAnimationType](getafteranimationtype)() | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 | [getBehaviors](getbehaviors)() | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 | [getPresetClassType](getpresetclasstype)() | Defines class of effect. Read/write EffectPresetClassType. |
 | [getSequence](getsequence)() | Returns a sequence for an effect. Read-only ISequence. |
@@ -26,6 +28,8 @@ url: /php-java/aspose.slides/effect/
 | [getTextAnimation](gettextanimation)() | TextAnimation Read-only ITextAnimation. |
 | [getTiming](gettiming)() | Defines timing value for effect. Read/write ITiming. |
 | [getType](gettype)() | Defines type of effect. Read/write EffectType. |
+| [setAfterAnimationColor](setafteranimationcolor)([ColorFormat](../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
+| [setAfterAnimationType](setafteranimationtype)(int) | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 | [setBehaviors](setbehaviors)([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 | [setPresetClassType](setpresetclasstype)(int) | Defines class of effect. Read/write EffectPresetClassType. |
 | [setSound](setsound)([Audio](../audio)) | Defined embedded sound for effect. Read/write IAudio. |

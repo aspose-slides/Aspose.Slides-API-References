@@ -3,7 +3,7 @@ title: ISlideSize
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a size of slide.
 type: docs
-weight: 1035
+weight: 1036
 url: /androidjava/com.aspose.slides/islidesize/
 ---```
 public interface ISlideSize

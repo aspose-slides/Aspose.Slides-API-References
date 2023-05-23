@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents different text alignment styles.
 type: docs
-weight: 554
+weight: 555
 url: /androidjava/com.aspose.slides/textalignment/
 ---
 **Inheritance:**

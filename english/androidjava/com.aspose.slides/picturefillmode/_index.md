@@ -3,7 +3,7 @@ title: PictureFillMode
 second_title: Aspose.Slides for Android via Java API Reference
 description: Determines how picture will fill area.
 type: docs
-weight: 416
+weight: 417
 url: /androidjava/com.aspose.slides/picturefillmode/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: PatternFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 407
+weight: 408
 url: /androidjava/com.aspose.slides/patternformat/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IPatternFormat](../../com.aspose.slides/ipatternformat)
 ```
-public class PatternFormat extends PVIObject implements IPatternFormat
+public final class PatternFormat extends PVIObject implements IPatternFormat
 ```
 
 Represents a pattern to fill a shape.

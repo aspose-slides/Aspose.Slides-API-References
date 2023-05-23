@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 243
+weight: 244
 url: /androidjava/com.aspose.slides/hyperlink/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IHyperlink](../../com.aspose.slides/ihyperlink), com.aspose.slides.IDOMObject
 ```
-public class Hyperlink extends PVIObject implements IHyperlink, IDOMObject
+public final class Hyperlink extends PVIObject implements IHyperlink, IDOMObject
 ```
 
 Represents a hyperlink.

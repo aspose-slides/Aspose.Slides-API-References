@@ -3,7 +3,7 @@ title: CommonSlideViewProperties
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents common slide view properties.
 type: docs
-weight: 131
+weight: 132
 url: /androidjava/com.aspose.slides/commonslideviewproperties/
 ---
 **Inheritance:**

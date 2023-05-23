@@ -3,7 +3,7 @@ title: ITheme
 second_title: Aspose.Slides for Java API Reference
 description: Represents a theme.
 type: docs
-weight: 1076
+weight: 1077
 url: /java/com.aspose.slides/itheme/
 ---
 **All Implemented Interfaces:**

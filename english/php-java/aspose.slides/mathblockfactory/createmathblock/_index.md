@@ -37,24 +37,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathLimit](../../mathlimit) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathLimit](../../mathlimit) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathMatrix](../../mathmatrix) mathElement)  method
 
  Create a math block and place the element in it
@@ -65,6 +47,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathMatrix](../../mathmatrix) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathLimit](../../mathlimit) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathLimit](../../mathlimit) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -145,24 +145,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathNaryOperator](../../mathnaryoperator) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathNaryOperator](../../mathnaryoperator) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathAccent](../../mathaccent) mathElement)  method
 
  Create a math block and place the element in it
@@ -173,6 +155,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathAccent](../../mathaccent) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathNaryOperator](../../mathnaryoperator) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathNaryOperator](../../mathnaryoperator) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -235,6 +235,24 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
+## createMathBlock([MathSubscriptElement](../../mathsubscriptelement) mathElement)  method
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathSubscriptElement](../../mathsubscriptelement) | A math element |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## createMathBlock([MathSuperscriptElement](../../mathsuperscriptelement) mathElement)  method
 
  Create a math block and place the element in it
@@ -271,7 +289,7 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathSubscriptElement](../../mathsubscriptelement) mathElement)  method
+## createMathBlock([MathFraction](../../mathfraction) mathElement)  method
 
  Create a math block and place the element in it
  
@@ -280,7 +298,7 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathSubscriptElement](../../mathsubscriptelement) | A math element |
+| mathElement | [MathFraction](../../mathfraction) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -299,24 +317,6 @@ url: /php-java/aspose.slides/mathblockfactory/createmathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathematicalText](../../mathematicaltext) | A math element |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathFraction](../../mathfraction) mathElement)  method
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFraction](../../mathfraction) | A math element |
 
 ### Returns
 [MathBlock](../../mathblock)

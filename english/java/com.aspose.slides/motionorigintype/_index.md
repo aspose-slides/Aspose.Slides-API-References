@@ -3,7 +3,7 @@ title: MotionOriginType
 second_title: Aspose.Slides for Java API Reference
 description: Specifies what the origin of the motion path is relative to.
 type: docs
-weight: 368
+weight: 369
 url: /java/com.aspose.slides/motionorigintype/
 ---
 **Inheritance:**

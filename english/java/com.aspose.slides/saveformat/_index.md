@@ -3,7 +3,7 @@ title: SaveFormat
 second_title: Aspose.Slides for Java API Reference
 description: Constants which define the format of a saved presentation.
 type: docs
-weight: 475
+weight: 476
 url: /java/com.aspose.slides/saveformat/
 ---
 **Inheritance:**

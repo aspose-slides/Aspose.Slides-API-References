@@ -3,7 +3,7 @@ title: IHtmlFormatter
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents HTML file template.
 type: docs
-weight: 824
+weight: 825
 url: /androidjava/com.aspose.slides/ihtmlformatter/
 ---```
 public interface IHtmlFormatter

@@ -3,7 +3,7 @@ title: Comment
 second_title: Aspose.Slides for Java API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.slides/comment/
 ---
 **Inheritance:**

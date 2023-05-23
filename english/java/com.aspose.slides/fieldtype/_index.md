@@ -3,7 +3,7 @@ title: FieldType
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type of field.
 type: docs
-weight: 188
+weight: 189
 url: /java/com.aspose.slides/fieldtype/
 ---
 **Inheritance:**

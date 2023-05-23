@@ -3,7 +3,7 @@ title: MasterTheme
 second_title: Aspose.Slides for Java API Reference
 description: Represents a master theme.
 type: docs
-weight: 304
+weight: 305
 url: /java/com.aspose.slides/mastertheme/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.Theme](../../com.aspose.slides/theme)
 **All Implemented Interfaces:**
 [com.aspose.slides.IMasterTheme](../../com.aspose.slides/imastertheme)
 ```
-public class MasterTheme extends Theme implements IMasterTheme
+public final class MasterTheme extends Theme implements IMasterTheme
 ```
 
 Represents a master theme.

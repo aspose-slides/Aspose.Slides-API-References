@@ -3,7 +3,7 @@ title: ShapeElementStrokeSource
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents how shape element should be drawn.
 type: docs
-weight: 492
+weight: 493
 url: /androidjava/com.aspose.slides/shapeelementstrokesource/
 ---
 **Inheritance:**

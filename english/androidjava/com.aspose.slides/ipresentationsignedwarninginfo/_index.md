@@ -3,7 +3,7 @@ title: IPresentationSignedWarningInfo
 second_title: Aspose.Slides for Android via Java API Reference
 description: This warning indicates that the presentation being read has the signature  and this signature will be removed during processing.
 type: docs
-weight: 985
+weight: 986
 url: /androidjava/com.aspose.slides/ipresentationsignedwarninginfo/
 ---
 **All Implemented Interfaces:**

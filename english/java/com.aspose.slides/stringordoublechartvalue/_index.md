@@ -3,7 +3,7 @@ title: StringOrDoubleChartValue
 second_title: Aspose.Slides for Java API Reference
 description: Represent string or double value which can be stored in pptx presentation document in two ways 1 in cell/cells of workbook related to chart 2 as literal value.
 type: docs
-weight: 532
+weight: 533
 url: /java/com.aspose.slides/stringordoublechartvalue/
 ---
 **Inheritance:**

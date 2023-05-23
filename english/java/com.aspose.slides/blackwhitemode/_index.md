@@ -3,7 +3,7 @@ title: BlackWhiteMode
 second_title: Aspose.Slides for Java API Reference
 description: Determines how colored shape should be transformed into black and white.
 type: docs
-weight: 56
+weight: 57
 url: /java/com.aspose.slides/blackwhitemode/
 ---
 **Inheritance:**

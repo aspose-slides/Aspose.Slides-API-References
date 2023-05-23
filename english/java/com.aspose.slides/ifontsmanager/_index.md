@@ -3,7 +3,7 @@ title: IFontsManager
 second_title: Aspose.Slides for Java API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 793
+weight: 794
 url: /java/com.aspose.slides/ifontsmanager/
 ---```
 public interface IFontsManager

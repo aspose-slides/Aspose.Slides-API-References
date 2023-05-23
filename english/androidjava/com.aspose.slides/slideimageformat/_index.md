@@ -3,7 +3,7 @@ title: SlideImageFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Determines format in which slide image will be saved for presentation to HTML export.
 type: docs
-weight: 505
+weight: 506
 url: /androidjava/com.aspose.slides/slideimageformat/
 ---
 **Inheritance:**

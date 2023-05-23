@@ -3,7 +3,7 @@ title: GradientStopCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represnts a collection of gradient stops.
 type: docs
-weight: 229
+weight: 230
 url: /java/com.aspose.slides/gradientstopcollection/
 ---
 **Inheritance:**

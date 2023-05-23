@@ -3,7 +3,7 @@ title: IPatternFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 960
+weight: 961
 url: /androidjava/com.aspose.slides/ipatternformat/
 ---```
 public interface IPatternFormat

@@ -3,7 +3,7 @@ title: Output
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of output elements for IWebDocument.
 type: docs
-weight: 394
+weight: 395
 url: /java/com.aspose.slides/output/
 ---
 **Inheritance:**

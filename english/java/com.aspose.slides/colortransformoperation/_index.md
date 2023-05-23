@@ -3,7 +3,7 @@ title: ColorTransformOperation
 second_title: Aspose.Slides for Java API Reference
 description: Defines color transform operation.
 type: docs
-weight: 118
+weight: 119
 url: /java/com.aspose.slides/colortransformoperation/
 ---
 **Inheritance:**

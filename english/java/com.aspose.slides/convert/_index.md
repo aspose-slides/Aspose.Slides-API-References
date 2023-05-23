@@ -3,7 +3,7 @@ title: Convert
 second_title: Aspose.Slides for Java API Reference
 description: Represents a group of methods intended to convert .
 type: docs
-weight: 140
+weight: 141
 url: /java/com.aspose.slides/convert/
 ---
 **Inheritance:**

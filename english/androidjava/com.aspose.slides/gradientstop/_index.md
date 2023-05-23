@@ -3,7 +3,7 @@ title: GradientStop
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a gradient format.
 type: docs
-weight: 228
+weight: 229
 url: /androidjava/com.aspose.slides/gradientstop/
 ---
 **Inheritance:**

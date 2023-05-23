@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Slides for Java API Reference
 description: Represents LightRig.
 type: docs
-weight: 274
+weight: 275
 url: /java/com.aspose.slides/lightrig/
 ---
 **Inheritance:**
@@ -12,7 +12,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ILightRig](../../com.aspose.slides/ilightrig)
 ```
-public class LightRig extends PVIObject implements ILightRig
+public final class LightRig extends PVIObject implements ILightRig
 ```
 
 Represents LightRig.

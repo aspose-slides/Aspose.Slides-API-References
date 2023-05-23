@@ -3,7 +3,7 @@ title: IFillFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a fill formatting options.
 type: docs
-weight: 772
+weight: 773
 url: /java/com.aspose.slides/ifillformat/
 ---
 **All Implemented Interfaces:**
