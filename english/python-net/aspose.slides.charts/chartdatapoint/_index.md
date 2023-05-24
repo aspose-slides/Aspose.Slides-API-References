@@ -41,7 +41,7 @@ The ChartDataPoint type exposes the following members:
 | Name | Description |
 | :- | :- |
 |remove()|Removes DataPoint from chart series.|
-|get_automatic_data_point_color()|Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. <br/>            This color is used by default if FillType equals NotDefined.|
+|get_automatic_data_point_color()|Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style.<br/>            This color is used by default if FillType equals NotDefined.|
 
 ### See Also
 

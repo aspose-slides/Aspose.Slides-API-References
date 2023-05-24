@@ -3,7 +3,7 @@ title: MotionOriginType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 680
+weight: 690
 url: /python-net/aspose.slides.animation/motionorigintype/
 ---
 

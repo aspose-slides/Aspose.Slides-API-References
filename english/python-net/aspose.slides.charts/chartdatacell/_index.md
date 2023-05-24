@@ -23,7 +23,7 @@ The ChartDataCell type exposes the following members:
 |chart_data_worksheet|Gets the worksheet.<br/>            Read-only [IChartDataWorksheet](/slides/python-net/aspose.slides.charts/ichartdataworksheet/).|
 |is_hidden|Determines whether the cell is hidden.<br/>            Read-only bool.|
 |custom_number_format|Gets or sets the custom display format of numbers and dates. <br/>            If value is empty will be used PresetNumberFormat value.<br/>            Read/write string.|
-|preset_number_format|Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]".<br/>             Read/write int.|
+|preset_number_format|Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49].<br/>             Read/write int.|
 ## Methods
 | Name | Description |
 | :- | :- |
