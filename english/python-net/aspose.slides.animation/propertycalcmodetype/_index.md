@@ -3,7 +3,7 @@ title: PropertyCalcModeType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.slides.animation/propertycalcmodetype/
 ---
 

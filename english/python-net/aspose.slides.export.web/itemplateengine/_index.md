@@ -15,6 +15,7 @@ The ITemplateEngine type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
+|add_template(key, template, model_type)|Adds the template to the template collection.|
 |compile(key, model)|Transforms the template with the given key and model object to output.|
 
 ### See Also
