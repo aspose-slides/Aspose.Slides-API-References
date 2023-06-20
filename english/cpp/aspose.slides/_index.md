@@ -446,6 +446,7 @@ url: /cpp/aspose.slides/
 | [System::SharedPtr](../system/sharedptr/)\<[IColorFormat](./icolorformat/)\> [get_BackColor](./get_backcolor/)() override | Returns the background pattern color. Read-only [IColorFormat](./icolorformat/). |
 | [System::SharedPtr](../system/sharedptr/)\<[System::Drawing::Bitmap](../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../system.drawing/color/), [System::Drawing::Color](../system.drawing/color/)) override | Creates a tile image for the pattern fill with a specified colors. |
 | [System::SharedPtr](../system/sharedptr/)\<[System::Drawing::Bitmap](../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../system.drawing/color/)) override | Creates a tile image for the pattern fill. |
+| **uint32_t** [get_Version](./get_version/)() override |  |
 | void [CreateChildObjects](./createchildobjects/)() override |  |
 | [System::SharedPtr](../system/sharedptr/)\<[System::Object](../system/object/)\> [CreateRealObject](./createrealobject/)() override |  |
 | virtual  [~PatternFormat](./~patternformat/)() |  |

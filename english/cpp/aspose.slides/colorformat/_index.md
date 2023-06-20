@@ -45,7 +45,6 @@ class ColorFormat : public Aspose::Slides::PVIObject,
 | **float** [get_Saturation](./get_saturation/)() override | Returns the saturation component of a color in HSL representation. All color transformations are ignored. Read **float**. |
 | [Aspose::Slides::SchemeColor](../schemecolor/) [get_SchemeColor](./get_schemecolor/)() override | Returns the color identified by a color scheme. Read [Slides::SchemeColor](../schemecolor/). |
 | [Aspose::Slides::SystemColor](../systemcolor/) [get_SystemColor](./get_systemcolor/)() override | Returns the color identified by the system color table. Read [Slides::SystemColor](../systemcolor/). |
-| virtual ASPOSE_SLIDES_LOCAL_API **uint32_t** [get_Version](../ipviobject/get_version/)() | Version. Read-only **uint32_t**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | **int32_t** [GetHashCode](./gethashcode/)() const override | Returns hash code. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |

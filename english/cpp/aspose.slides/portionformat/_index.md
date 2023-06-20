@@ -59,7 +59,6 @@ class PortionFormat : public Aspose::Slides::BasePortionFormat,
 | [Aspose::Slides::TextCapType](../textcaptype/) [get_TextCapType](../baseportionformat/get_textcaptype/)() override | Returns the type of text capitalization. No inheritance applied. Read [Slides::TextCapType](../textcaptype/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IFillFormat](../ifillformat/)\> [get_UnderlineFillFormat](../baseportionformat/get_underlinefillformat/)() override | Returns the underline line [FillFormat](../fillformat/) properties. No inheritance applied. Read-only [IFillFormat](../ifillformat/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[ILineFormat](../ilineformat/)\> [get_UnderlineLineFormat](../baseportionformat/get_underlinelineformat/)() override | Returns the [LineFormat](../lineformat/) properties used to outline underline line. No inheritance applied. Read-only [ILineFormat](../ilineformat/). |
-| virtual ASPOSE_SLIDES_LOCAL_API **uint32_t** [get_Version](../ipviobject/get_version/)() | Version. Read-only **uint32_t**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IPortionFormatEffectiveData](../iportionformateffectivedata/)\> [GetEffective](./geteffective/)() override | Gets effective portion formatting data with the inheritance applied. |
 | **int32_t** [GetHashCode](../pviobject/gethashcode/)() const override | Returns hash code. |

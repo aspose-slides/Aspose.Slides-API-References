@@ -43,7 +43,6 @@ class TextFrameFormat : public Aspose::Slides::PVIObject,
 | [Aspose::Slides::TextVerticalType](../textverticaltype/) [get_TextVerticalType](./get_textverticaltype/)() override | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read [Slides::TextVerticalType](../textverticaltype/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[IThreeDFormat](../ithreedformat/)\> [get_ThreeDFormat](./get_threedformat/)() override | Returns the [ThreeDFormat](../threedformat/) object that represents 3d effect properties for a text. Read-only [IThreeDFormat](../ithreedformat/). |
 | [TextShapeType](../textshapetype/) [get_Transform](./get_transform/)() override | Gets text wrapping shape. Read [TextShapeType](../textshapetype/). |
-| virtual ASPOSE_SLIDES_LOCAL_API **uint32_t** [get_Version](../ipviobject/get_version/)() | Version. Read-only **uint32_t**. |
 | [NullableBool](../nullablebool/) [get_WrapText](./get_wraptext/)() override | **True** if text is wrapped at [TextFrame](../textframe/)'s margins. Read [NullableBool](../nullablebool/). |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | [System::SharedPtr](../../system/sharedptr/)\<[ITextFrameFormatEffectiveData](../itextframeformateffectivedata/)\> [GetEffective](./geteffective/)() override | Gets effective text frame formatting data with the inheritance applied. |

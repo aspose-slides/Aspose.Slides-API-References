@@ -45,7 +45,6 @@ class Hyperlink : public Aspose::Slides::PVIObject,
 | [System::String](../../system/string/) [get_TargetFrame](./get_targetframe/)() override | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite [System::String](../../system/string/). |
 | [System::SharedPtr](../../system/sharedptr/)\<[ISlide](../islide/)\> [get_TargetSlide](./get_targetslide/)() override | If the [Hyperlink](./) targets specific slide returns this slide. Read-only [ISlide](../islide/). |
 | [System::String](../../system/string/) [get_Tooltip](./get_tooltip/)() override | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read [System::String](../../system/string/). |
-| virtual ASPOSE_SLIDES_LOCAL_API **uint32_t** [get_Version](../ipviobject/get_version/)() | Version. Read-only **uint32_t**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | **int32_t** [GetHashCode](./gethashcode/)() const override | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |

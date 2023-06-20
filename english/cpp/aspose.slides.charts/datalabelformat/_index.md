@@ -44,7 +44,6 @@ class DataLabelFormat : public Aspose::Slides::PVIObject,
 | **bool** [get_ShowSeriesName](./get_showseriesname/)() override | Returns a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. Read **bool**. |
 | **bool** [get_ShowValue](./get_showvalue/)() override | Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Read **bool**. |
 | [System::SharedPtr](../../system/sharedptr/)\<[IChartTextFormat](../icharttextformat/)\> [get_TextFormat](./get_textformat/)() override | Returns chart text format. Read-only [IChartTextFormat](../icharttextformat/). |
-| virtual ASPOSE_SLIDES_LOCAL_API **uint32_t** [get_Version](../../aspose.slides/ipviobject/get_version/)() | Version. Read-only **uint32_t**. |
 | Detail::SmartPtrCounter * [GetCounter](../../system/object/getcounter/)() | Gets reference counter data structure associated with the object. |
 | **int32_t** [GetHashCode](../../aspose.slides/pviobject/gethashcode/)() const override | Returns hash code. |
 | virtual const [TypeInfo](../../system/typeinfo/)\& [GetType](../../system/object/gettype/)() const | Gets actual type of object. Analog of C# [System.Object.GetType()](../../system/object/gettype/) call. |
