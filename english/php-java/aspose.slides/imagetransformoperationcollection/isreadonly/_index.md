@@ -3,7 +3,7 @@ title: isReadOnly
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 230
+weight: 240
 url: /php-java/aspose.slides/imagetransformoperationcollection/isreadonly/
 ---
 

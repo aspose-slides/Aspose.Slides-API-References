@@ -27,6 +27,7 @@ url: /php-java/aspose.slides/threedformat/
 | [getExtrusionHeight](getextrusionheight)() | Returns or sets the height of an extrusion effect. Read/write double. |
 | [getLightRig](getlightrig)() | Returns or sets the type of a light. Read-only ILightRig. |
 | [getMaterial](getmaterial)() | Returns or sets the type of a material. Read/write MaterialPresetType. |
+| [getVersion](getversion)() |  |
 | [setContourWidth](setcontourwidth)(double) | Returns or sets the width of a 3D contour. Read/write double. |
 | [setDepth](setdepth)(double) | Returns or sets the depth of a 3D shape. Read/write double. |
 | [setExtrusionHeight](setextrusionheight)(double) | Returns or sets the height of an extrusion effect. Read/write double. |

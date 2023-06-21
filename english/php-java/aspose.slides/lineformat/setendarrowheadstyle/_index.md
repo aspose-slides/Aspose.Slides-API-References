@@ -3,7 +3,7 @@ title: setEndArrowheadStyle
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 280
+weight: 300
 url: /php-java/aspose.slides/lineformat/setendarrowheadstyle/
 ---
 

@@ -20,10 +20,21 @@ Represents chart format properties.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getFill()](#getFill--) | Returns fill style properties of a chart. |
 | [getLine()](#getLine--) | Returns line style properties of a chart. |
 | [getEffect()](#getEffect--) | Returns effects used for a chart. |
 | [getEffect3D()](#getEffect3D--) | Returns 3D format of a chart. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getFill() {#getFill--}
 ```
 public final IFillFormat getFill()

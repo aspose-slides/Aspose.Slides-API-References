@@ -28,6 +28,7 @@ Represents background of a slide.
 | [getStyleIndex()](#getStyleIndex--) | Returns an index of BackgroundType.Themed fill in background theme collection. |
 | [setStyleIndex(int value)](#setStyleIndex-int-) | Returns an index of BackgroundType.Themed fill in background theme collection. |
 | [getEffective()](#getEffective--) | Gets effective background data with the inheritance applied. |
+| [getVersion()](#getVersion--) |  |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | Returns the parent slide of a shape. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a slide. |
@@ -133,6 +134,16 @@ Gets effective background data with the inheritance applied.
 
 **Returns:**
 [IBackgroundEffectiveData](../../com.aspose.slides/ibackgroundeffectivedata) - A [IBackgroundEffectiveData](../../com.aspose.slides/ibackgroundeffectivedata).
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()

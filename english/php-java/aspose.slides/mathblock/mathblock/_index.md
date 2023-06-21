@@ -121,21 +121,6 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 ---
 
 
-## MathBlock([MathAccent](../../mathaccent) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathAccent](../../mathaccent) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathNaryOperator](../../mathnaryoperator) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -151,7 +136,7 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 ---
 
 
-## MathBlock([MathBorderBox](../../mathborderbox) mathElement)  constructor
+## MathBlock([MathAccent](../../mathaccent) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
  
@@ -160,7 +145,7 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBorderBox](../../mathborderbox) | The mathematical element to put in the block |
+| mathElement | [MathAccent](../../mathaccent) | The mathematical element to put in the block |
 
 
 ---
@@ -181,6 +166,21 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 ---
 
 
+## MathBlock([MathBorderBox](../../mathborderbox) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBorderBox](../../mathborderbox) | The mathematical element to put in the block |
+
+
+---
+
+
 ## MathBlock([MathBar](../../mathbar) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -196,21 +196,6 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 ---
 
 
-## MathBlock([MathSubscriptElement](../../mathsubscriptelement) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSubscriptElement](../../mathsubscriptelement) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathSuperscriptElement](../../mathsuperscriptelement) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -221,6 +206,21 @@ url: /php-java/aspose.slides/mathblock/mathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathSuperscriptElement](../../mathsuperscriptelement) | The mathematical element to put in the block |
+
+
+---
+
+
+## MathBlock([MathSubscriptElement](../../mathsubscriptelement) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathSubscriptElement](../../mathsubscriptelement) | The mathematical element to put in the block |
 
 
 ---

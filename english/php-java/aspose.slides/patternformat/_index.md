@@ -21,4 +21,5 @@ url: /php-java/aspose.slides/patternformat/
 | [getPatternStyle](getpatternstyle)() | Returns or sets the pattern style. Read/write PatternStyle. |
 | [getTileImage](gettileimage)(Color, Color) | Creates a tile image for the pattern fill with a specified colors. |
 | [getTileImage](gettileimage)(Color) | Creates a tile image for the pattern fill. |
+| [getVersion](getversion)() |  |
 | [setPatternStyle](setpatternstyle)(byte) | Returns or sets the pattern style. Read/write PatternStyle. |

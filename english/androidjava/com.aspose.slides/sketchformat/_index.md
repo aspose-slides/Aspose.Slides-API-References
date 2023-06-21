@@ -20,8 +20,19 @@ Represents properties for lines sketch format.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getSketchType()](#getSketchType--) | Returns or sets the sketch type. |
 | [setSketchType(int value)](#setSketchType-int-) | Returns or sets the sketch type. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getSketchType() {#getSketchType--}
 ```
 public final int getSketchType()

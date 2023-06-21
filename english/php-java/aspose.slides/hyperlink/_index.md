@@ -44,6 +44,7 @@ url: /php-java/aspose.slides/hyperlink/
 | [getTargetFrame](gettargetframe)() | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 | [getTargetSlide](gettargetslide)() | If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
 | [getTooltip](gettooltip)() | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
+| [getVersion](getversion)() |  |
 | [hashCode](hashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 | [op_Equality](op_equality)([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for equality. |
 | [op_Inequality](op_inequality)([Hyperlink](../hyperlink), [Hyperlink](../hyperlink)) | Tests two hyperlinks for inequality. |

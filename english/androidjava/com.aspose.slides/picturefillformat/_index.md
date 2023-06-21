@@ -20,6 +20,7 @@ Represents a picture fill style.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getDpi()](#getDpi--) | Returns or sets the dpi which is used to fill a picture. |
 | [setDpi(int value)](#setDpi-int-) | Returns or sets the dpi which is used to fill a picture. |
 | [getPictureFillMode()](#getPictureFillMode--) | Returns or sets the picture fill mode. |
@@ -41,6 +42,16 @@ Represents a picture fill style.
 | [setStretchOffsetRight(float value)](#setStretchOffsetRight-float-) | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. |
 | [getStretchOffsetBottom()](#getStretchOffsetBottom--) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
 | [setStretchOffsetBottom(float value)](#setStretchOffsetBottom-float-) | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getDpi() {#getDpi--}
 ```
 public final int getDpi()

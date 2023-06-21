@@ -20,12 +20,23 @@ Represents LightRig.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getDirection()](#getDirection--) | Light direction. |
 | [setDirection(int value)](#setDirection-int-) | Light direction. |
 | [getLightType()](#getLightType--) | Represents a preset light right that can be applied to a shape. |
 | [setLightType(int value)](#setLightType-int-) | Represents a preset light right that can be applied to a shape. |
 | [setRotation(float latitude, float longitude, float revolution)](#setRotation-float-float-float-) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
 | [getRotation()](#getRotation--) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getDirection() {#getDirection--}
 ```
 public final int getDirection()

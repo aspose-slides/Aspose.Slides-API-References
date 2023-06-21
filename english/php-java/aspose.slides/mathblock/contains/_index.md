@@ -133,24 +133,6 @@ boolean
 ---
 
 
-## contains([MathAccent](../../mathaccent) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathAccent](../../mathaccent) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathNaryOperator](../../mathnaryoperator) item)  method
 
  Determines whether the collection contains a specific value.
@@ -169,7 +151,7 @@ boolean
 ---
 
 
-## contains([MathBorderBox](../../mathborderbox) item)  method
+## contains([MathAccent](../../mathaccent) item)  method
 
  Determines whether the collection contains a specific value.
  
@@ -178,7 +160,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBorderBox](../../mathborderbox) | The object to locate in the collection. |
+| item | [MathAccent](../../mathaccent) | The object to locate in the collection. |
 
 ### Returns
 boolean
@@ -205,6 +187,24 @@ boolean
 ---
 
 
+## contains([MathBorderBox](../../mathborderbox) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBorderBox](../../mathborderbox) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
 ## contains([MathBar](../../mathbar) item)  method
 
  Determines whether the collection contains a specific value.
@@ -223,24 +223,6 @@ boolean
 ---
 
 
-## contains([MathSubscriptElement](../../mathsubscriptelement) item)  method
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathSubscriptElement](../../mathsubscriptelement) | The object to locate in the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## contains([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Determines whether the collection contains a specific value.
@@ -251,6 +233,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../../mathsuperscriptelement) | The object to locate in the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## contains([MathSubscriptElement](../../mathsubscriptelement) item)  method
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathSubscriptElement](../../mathsubscriptelement) | The object to locate in the collection. |
 
 ### Returns
 boolean

@@ -7,24 +7,6 @@ weight: 160
 url: /php-java/aspose.slides/imagetransformoperationcollection/additem/
 ---
 
-## addItem([HSL](../../hsl) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [HSL](../../hsl) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([SoftEdge](../../softedge) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -35,6 +17,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [SoftEdge](../../softedge) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([HSL](../../hsl) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [HSL](../../hsl) | The image effect to add to the end of a collection. |
 
 ### Returns
 void
@@ -61,24 +61,6 @@ void
 ---
 
 
-## addItem([InnerShadow](../../innershadow) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [InnerShadow](../../innershadow) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([ColorChange](../../colorchange) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -89,6 +71,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [ColorChange](../../colorchange) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([InnerShadow](../../innershadow) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [InnerShadow](../../innershadow) | The image effect to add to the end of a collection. |
 
 ### Returns
 void
@@ -151,24 +151,6 @@ void
 ---
 
 
-## addItem([AlphaFloor](../../alphafloor) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [AlphaFloor](../../alphafloor) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([AlphaModulateFixed](../../alphamodulatefixed) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -179,6 +161,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [AlphaModulateFixed](../../alphamodulatefixed) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([AlphaFloor](../../alphafloor) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [AlphaFloor](../../alphafloor) | The image effect to add to the end of a collection. |
 
 ### Returns
 void
@@ -313,24 +313,6 @@ void
 ---
 
 
-## addItem([PresetShadow](../../presetshadow) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [PresetShadow](../../presetshadow) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([AlphaReplace](../../alphareplace) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -341,6 +323,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [AlphaReplace](../../alphareplace) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([PresetShadow](../../presetshadow) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [PresetShadow](../../presetshadow) | The image effect to add to the end of a collection. |
 
 ### Returns
 void

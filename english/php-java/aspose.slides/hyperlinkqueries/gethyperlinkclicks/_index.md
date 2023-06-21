@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/hyperlinkqueries/gethyperlinkclicks/
  
 
 ### Returns
-[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, Collection, ReadOnlyCollection, List
+[BehaviorPropertyCollection](../../behaviorpropertycollection), KeyedCollection, ReadOnlyCollection, Collection, List
 
 
 ---

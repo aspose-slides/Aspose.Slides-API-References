@@ -24,3 +24,4 @@ url: /php-java/aspose.slides/cellformat/
 | [getBorderTop](getbordertop)() | Returns a top border line properties object. Read-only ILineFormat. |
 | [getEffective](geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
 | [getFillFormat](getfillformat)() | Returns a cell fill properties object. Read-only IFillFormat. |
+| [getVersion](getversion)() |  |

@@ -16,36 +16,24 @@ public final class TextStyle extends PVIObject implements ITextStyle, IStyleColo
 ```
 
 This class contains the text style formatting properties.
-## Fields
-
-| Field | Description |
-| --- | --- |
-| [MaxLevelCount](#MaxLevelCount) | Maximum count of style levels that can be defined. |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getLevel(int index)](#getLevel-int-) | If level of style exist returns it, otherwise returns null. |
 | [getDefaultParagraphFormat()](#getDefaultParagraphFormat--) | Default paragraph propertiies. |
 | [getEffective()](#getEffective--) | Gets effective text style formatting data with the inheritance applied. |
-### MaxLevelCount {#MaxLevelCount}
+### getVersion() {#getVersion--}
 ```
-public static final byte MaxLevelCount
+public long getVersion()
 ```
 
 
-Maximum count of style levels that can be defined. Use it with \#getLevel(int).getLevel(int)
+Version. Read-only long.
 
---------------------
-
-> ```
-> for (int i = 0; i < TextStyle.MaxLevelCount; i++)
->  {
->      IParagraphFormat paragraphFormat = getLevel(i);
->      ...
->  }
-> ```
-
+**Returns:**
+long
 ### getLevel(int index) {#getLevel-int-}
 ```
 public final IParagraphFormat getLevel(int index)

@@ -20,9 +20,20 @@ Represents a gradient format.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getPosition()](#getPosition--) | Returns or sets the position (0..1) of a gradient stop. |
 | [setPosition(float value)](#setPosition-float-) | Returns or sets the position (0..1) of a gradient stop. |
 | [getColor()](#getColor--) | Returns the color of a gradient stop. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getPosition() {#getPosition--}
 ```
 public final float getPosition()

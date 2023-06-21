@@ -14,7 +14,7 @@ url: /php-java/aspose.slides/shape/getbaseplaceholder/
  A null is returned if the current shape is not inherited.
 
 ### Returns
-[Connector](../../connector), [GraphicalObject](../../graphicalobject), [Table](../../table), [SmartArtShape](../../smartartshape), [Shape](../../shape), [Ink](../../ink), [GeometryShape](../../geometryshape), [SummaryZoomFrame](../../summaryzoomframe), [ZoomFrame](../../zoomframe), [SummaryZoomSection](../../summaryzoomsection), [OleObjectFrame](../../oleobjectframe), [VideoFrame](../../videoframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [SectionZoomFrame](../../sectionzoomframe), [PictureFrame](../../pictureframe), [Chart](../../chart), [AudioFrame](../../audioframe), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
+[Connector](../../connector), [GraphicalObject](../../graphicalobject), [Shape](../../shape), [SmartArtShape](../../smartartshape), [Table](../../table), [Ink](../../ink), [SummaryZoomFrame](../../summaryzoomframe), [GeometryShape](../../geometryshape), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [VideoFrame](../../videoframe), [OleObjectFrame](../../oleobjectframe), [SmartArt](../../smartart), [GroupShape](../../groupshape), [AutoShape](../../autoshape), [PictureFrame](../../pictureframe), [SectionZoomFrame](../../sectionzoomframe), [AudioFrame](../../audioframe), [Chart](../../chart), [ZoomObject](../../zoomobject), [LegacyDiagram](../../legacydiagram)
 
 
 ---

@@ -133,24 +133,6 @@ url: /php-java/aspose.slides/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathAccent](../../mathaccent) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Creates a math array and places the specified element in it 
@@ -169,7 +151,7 @@ url: /php-java/aspose.slides/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathBorderBox](../../mathborderbox) element)  method
+## createMathArray([MathAccent](../../mathaccent) element)  method
 
  Creates a math array and places the specified element in it 
  
@@ -178,7 +160,7 @@ url: /php-java/aspose.slides/matharrayfactory/creatematharray/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | math element to place in array |
+| element | [MathAccent](../../mathaccent) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)
@@ -205,6 +187,24 @@ url: /php-java/aspose.slides/matharrayfactory/creatematharray/
 ---
 
 
+## createMathArray([MathBorderBox](../../mathborderbox) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
 ## createMathArray([MathBar](../../mathbar) element)  method
 
  Creates a math array and places the specified element in it 
@@ -223,24 +223,6 @@ url: /php-java/aspose.slides/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathSubscriptElement](../../mathsubscriptelement) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Creates a math array and places the specified element in it 
@@ -251,6 +233,24 @@ url: /php-java/aspose.slides/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
+## createMathArray([MathSubscriptElement](../../mathsubscriptelement) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)

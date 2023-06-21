@@ -20,6 +20,7 @@ Represents format of a table cell.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getFillFormat()](#getFillFormat--) | Returns a cell fill properties object. |
 | [getBorderLeft()](#getBorderLeft--) | Returns a left border line properties object. |
 | [getBorderTop()](#getBorderTop--) | Returns a top border line properties object. |
@@ -28,6 +29,16 @@ Represents format of a table cell.
 | [getBorderDiagonalDown()](#getBorderDiagonalDown--) | Returns a top-left to bottom-right diagonal line properties object. |
 | [getBorderDiagonalUp()](#getBorderDiagonalUp--) | Returns a bottom-left to top-right diagonal line properties object. |
 | [getEffective()](#getEffective--) | Gets effective table cell formatting properties with inheritance and table styles applied. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getFillFormat() {#getFillFormat--}
 ```
 public final IFillFormat getFillFormat()

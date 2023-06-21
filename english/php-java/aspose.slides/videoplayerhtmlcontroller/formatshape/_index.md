@@ -27,7 +27,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [Table](../../table) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Shape](../../shape) shape)  method
 
 
 ### Returns
@@ -47,7 +47,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [Shape](../../shape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Table](../../table) shape)  method
 
 
 ### Returns
@@ -77,16 +77,6 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [ZoomFrame](../../zoomframe) shape)  method
-
-
-### Returns
-void
-
-
----
-
-
 ## formatShape([SvgShape](../../svgshape) svgShape, [SummaryZoomSection](../../summaryzoomsection) shape)  method
 
 
@@ -97,7 +87,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [OleObjectFrame](../../oleobjectframe) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [ZoomFrame](../../zoomframe) shape)  method
 
 
 ### Returns
@@ -108,6 +98,16 @@ void
 
 
 ## formatShape([SvgShape](../../svgshape) svgShape, [VideoFrame](../../videoframe) shape)  method
+
+
+### Returns
+void
+
+
+---
+
+
+## formatShape([SvgShape](../../svgshape) svgShape, [OleObjectFrame](../../oleobjectframe) shape)  method
 
 
 ### Returns
@@ -147,16 +147,6 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [SectionZoomFrame](../../sectionzoomframe) shape)  method
-
-
-### Returns
-void
-
-
----
-
-
 ## formatShape([SvgShape](../../svgshape) svgShape, [PictureFrame](../../pictureframe) shape)  method
 
 
@@ -167,7 +157,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [Chart](../../chart) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SectionZoomFrame](../../sectionzoomframe) shape)  method
 
 
 ### Returns
@@ -178,6 +168,16 @@ void
 
 
 ## formatShape([SvgShape](../../svgshape) svgShape, [AudioFrame](../../audioframe) shape)  method
+
+
+### Returns
+void
+
+
+---
+
+
+## formatShape([SvgShape](../../svgshape) svgShape, [Chart](../../chart) shape)  method
 
 
 ### Returns

@@ -20,6 +20,7 @@ Represents effect properties of shape.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [isNoEffects()](#isNoEffects--) | Returns true if all effects are disabled (as just created, default EffectFormat object). |
 | [getBlurEffect()](#getBlurEffect--) | Blur effect. |
 | [setBlurEffect(IBlur value)](#setBlurEffect-com.aspose.slides.IBlur-) | Blur effect. |
@@ -54,6 +55,16 @@ Represents effect properties of shape.
 | [disableReflectionEffect()](#disableReflectionEffect--) | Disables reflection effect. |
 | [disableSoftEdgeEffect()](#disableSoftEdgeEffect--) | Disables soft edge effect. |
 | [getEffective()](#getEffective--) | Gets effective effect formatting data with the inheritance applied. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### isNoEffects() {#isNoEffects--}
 ```
 public final boolean isNoEffects()

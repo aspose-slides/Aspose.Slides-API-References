@@ -3,7 +3,7 @@ title: setKeepTextFlat
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 240
+weight: 250
 url: /php-java/aspose.slides/textframeformat/setkeeptextflat/
 ---
 

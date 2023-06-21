@@ -7,24 +7,6 @@ weight: 200
 url: /php-java/aspose.slides/imagetransformoperationcollection/containsitem/
 ---
 
-## containsItem([HSL](../../hsl) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [HSL](../../hsl) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([SoftEdge](../../softedge) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -35,6 +17,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [SoftEdge](../../softedge) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([HSL](../../hsl) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [HSL](../../hsl) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean
@@ -61,24 +61,6 @@ boolean
 ---
 
 
-## containsItem([InnerShadow](../../innershadow) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [InnerShadow](../../innershadow) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([ColorChange](../../colorchange) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -89,6 +71,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [ColorChange](../../colorchange) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([InnerShadow](../../innershadow) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [InnerShadow](../../innershadow) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean
@@ -151,24 +151,6 @@ boolean
 ---
 
 
-## containsItem([AlphaFloor](../../alphafloor) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaFloor](../../alphafloor) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -179,6 +161,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([AlphaFloor](../../alphafloor) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaFloor](../../alphafloor) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean
@@ -313,24 +313,6 @@ boolean
 ---
 
 
-## containsItem([PresetShadow](../../presetshadow) item)  method
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [PresetShadow](../../presetshadow) | The object to locate in the IGenericCollection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## containsItem([AlphaReplace](../../alphareplace) item)  method
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -341,6 +323,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaReplace](../../alphareplace) | The object to locate in the IGenericCollection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## containsItem([PresetShadow](../../presetshadow) item)  method
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [PresetShadow](../../presetshadow) | The object to locate in the IGenericCollection. |
 
 ### Returns
 boolean

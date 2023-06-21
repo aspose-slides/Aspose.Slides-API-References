@@ -20,6 +20,7 @@ Represents properties for lines filling.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getFillType()](#getFillType--) | Returns or sets the fill type. |
 | [setFillType(byte value)](#setFillType-byte-) | Returns or sets the fill type. |
 | [getRotateWithShape()](#getRotateWithShape--) | Determines whether the fill should be rotated with a shape. |
@@ -27,6 +28,16 @@ Represents properties for lines filling.
 | [getSolidFillColor()](#getSolidFillColor--) | Returns the color of a solid fill. |
 | [getGradientFormat()](#getGradientFormat--) | Returns the gradient fill format. |
 | [getPatternFormat()](#getPatternFormat--) | Returns the pattern fill format. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getFillType() {#getFillType--}
 ```
 public final byte getFillType()

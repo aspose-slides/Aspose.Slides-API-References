@@ -27,6 +27,7 @@ url: /php-java/aspose.slides/loadoptions/
 | [getDefaultAsianFont](getdefaultasianfont)() | Returns or sets Asian font used in case source font is not found. Read/write String. |
 | [getDefaultRegularFont](getdefaultregularfont)() | Returns or sets Regular font used in case source font is not found. Read/write String. |
 | [getDefaultSymbolFont](getdefaultsymbolfont)() | Returns or sets Symbol font used in case source font is not found. Read/write String. |
+| [getDefaultTextLanguage](getdefaulttextlanguage)() | Returns or sets the default language for presentation text. Read/write String. |
 | [getDocumentLevelFontSources](getdocumentlevelfontsources)() | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 | [getInterruptionToken](getinterruptiontoken)() | The token to monitor for interruption requests. This token manages the whole IPresentation instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the InterruptionTokenSource#interrupt method of the InterruptionTokenSource. |
 | [getLoadFormat](getloadformat)() | Returns or sets format of a presentation to load. Read/write LoadFormat. |
@@ -39,6 +40,7 @@ url: /php-java/aspose.slides/loadoptions/
 | [setDefaultAsianFont](setdefaultasianfont)(String) | Returns or sets Asian font used in case source font is not found. Read/write String. |
 | [setDefaultRegularFont](setdefaultregularfont)(String) | Returns or sets Regular font used in case source font is not found. Read/write String. |
 | [setDefaultSymbolFont](setdefaultsymbolfont)(String) | Returns or sets Symbol font used in case source font is not found. Read/write String. |
+| [setDefaultTextLanguage](setdefaulttextlanguage)(String) | Returns or sets the default language for presentation text. Read/write String. |
 | [setDocumentLevelFontSources](setdocumentlevelfontsources)([FontSources](../fontsources)) | Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations |
 | [setInterruptionToken](setinterruptiontoken)([InterruptionToken](../interruptiontoken)) | The token to monitor for interruption requests. This token manages the whole IPresentation instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the InterruptionTokenSource#interrupt method of the InterruptionTokenSource. |
 | [setLoadFormat](setloadformat)(int) | Returns or sets format of a presentation to load. Read/write LoadFormat. |

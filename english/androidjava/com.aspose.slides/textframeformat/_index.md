@@ -25,6 +25,7 @@ Contains the TextFrame's formatTextFrameFormatting properties.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getTextStyle()](#getTextStyle--) | Returns text's style. |
 | [getThreeDFormat()](#getThreeDFormat--) | Returns the ThreeDFormat object that represents 3d effect properties for a text. |
 | [getMarginLeft()](#getMarginLeft--) | Returns or sets the left margin (points) in a TextFrame. |
@@ -64,6 +65,16 @@ public TextFrameFormat()
 
 Initializes a new instance of [TextFrameFormat](../../com.aspose.slides/textframeformat) class.
 
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getTextStyle() {#getTextStyle--}
 ```
 public final ITextStyle getTextStyle()

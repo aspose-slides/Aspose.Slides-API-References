@@ -3,7 +3,7 @@ title: setSketchType
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 20
+weight: 30
 url: /php-java/aspose.slides/sketchformat/setsketchtype/
 ---
 

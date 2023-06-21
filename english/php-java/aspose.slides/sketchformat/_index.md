@@ -17,4 +17,5 @@ url: /php-java/aspose.slides/sketchformat/
 | Name | Description |
 | --- | --- |
 | [getSketchType](getsketchtype)() | Returns or sets the sketch type. Read/write LineSketchType. |
+| [getVersion](getversion)() |  |
 | [setSketchType](setsketchtype)(int) | Returns or sets the sketch type. Read/write LineSketchType. |

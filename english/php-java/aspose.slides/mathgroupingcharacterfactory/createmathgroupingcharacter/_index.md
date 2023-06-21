@@ -154,27 +154,6 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
-## createMathGroupingCharacter([MathAccent](../../mathaccent) element, char character, int position, int verticalJustification)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
@@ -196,7 +175,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
-## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathAccent](../../mathaccent) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -205,7 +184,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply grouping character |
+| element | [MathAccent](../mathaccent) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -238,6 +217,27 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
+## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
 ## createMathGroupingCharacter([MathBar](../../mathbar) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
@@ -259,7 +259,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
-## createMathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathSuperscriptElement](../../mathsuperscriptelement) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -268,7 +268,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply grouping character |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -280,7 +280,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
-## createMathGroupingCharacter([MathSuperscriptElement](../../mathsuperscriptelement) element, char character, int position, int verticalJustification)  method
+## createMathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element, char character, int position, int verticalJustification)  method
 
  Creates a math grouping character
  
@@ -289,7 +289,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply grouping character |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -532,24 +532,6 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
-## createMathGroupingCharacter([MathAccent](../../mathaccent) element)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply grouping character |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element)  method
 
  Creates a math grouping character
@@ -568,7 +550,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
-## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element)  method
+## createMathGroupingCharacter([MathAccent](../../mathaccent) element)  method
 
  Creates a math grouping character
  
@@ -577,7 +559,7 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | math element to apply grouping character |
+| element | [MathAccent](../../mathaccent) | math element to apply grouping character |
 
 ### Returns
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -604,6 +586,24 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
+## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | math element to apply grouping character |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
 ## createMathGroupingCharacter([MathBar](../../mathbar) element)  method
 
  Creates a math grouping character
@@ -622,24 +622,6 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 ---
 
 
-## createMathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element)  method
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply grouping character |
-
-### Returns
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Creates a math grouping character
@@ -650,6 +632,24 @@ url: /php-java/aspose.slides/mathgroupingcharacterfactory/createmathgroupingchar
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to apply grouping character |
+
+### Returns
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element)  method
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply grouping character |
 
 ### Returns
 [MathGroupingCharacter](../../mathgroupingcharacter)

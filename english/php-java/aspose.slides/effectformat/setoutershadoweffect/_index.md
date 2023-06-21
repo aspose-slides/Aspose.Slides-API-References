@@ -3,7 +3,7 @@ title: setOuterShadowEffect
 second_title: Aspose.Sildes for PHP via Java API Reference
 description: 
 type: docs
-weight: 310
+weight: 320
 url: /php-java/aspose.slides/effectformat/setoutershadoweffect/
 ---
 

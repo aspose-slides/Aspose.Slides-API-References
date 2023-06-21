@@ -133,24 +133,6 @@ int
 ---
 
 
-## indexOf([MathAccent](../../mathaccent) item)  method
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathAccent](../../mathaccent) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([MathNaryOperator](../../mathnaryoperator) item)  method
 
  Determines the index of a specific math element in collection.
@@ -169,7 +151,7 @@ int
 ---
 
 
-## indexOf([MathBorderBox](../../mathborderbox) item)  method
+## indexOf([MathAccent](../../mathaccent) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -178,7 +160,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBorderBox](../../mathborderbox) | The element to locate in the collection. |
+| item | [MathAccent](../../mathaccent) | The element to locate in the collection. |
 
 ### Returns
 int
@@ -205,6 +187,24 @@ int
 ---
 
 
+## indexOf([MathBorderBox](../../mathborderbox) item)  method
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBorderBox](../../mathborderbox) | The element to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
 ## indexOf([MathBar](../../mathbar) item)  method
 
  Determines the index of a specific math element in collection.
@@ -223,24 +223,6 @@ int
 ---
 
 
-## indexOf([MathSubscriptElement](../../mathsubscriptelement) item)  method
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathSubscriptElement](../../mathsubscriptelement) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([MathSuperscriptElement](../../mathsuperscriptelement) item)  method
 
  Determines the index of a specific math element in collection.
@@ -251,6 +233,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([MathSubscriptElement](../../mathsubscriptelement) item)  method
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathSubscriptElement](../../mathsubscriptelement) | The element to locate in the collection. |
 
 ### Returns
 int

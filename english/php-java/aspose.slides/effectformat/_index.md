@@ -40,6 +40,7 @@ url: /php-java/aspose.slides/effectformat/
 | [getPresetShadowEffect](getpresetshadoweffect)() | Preset shadow. Read/write IPresetShadow. |
 | [getReflectionEffect](getreflectioneffect)() | Reflection. Read/write IReflection. |
 | [getSoftEdgeEffect](getsoftedgeeffect)() | Soft edge. Read/write ISoftEdge. |
+| [getVersion](getversion)() |  |
 | [isNoEffects](isnoeffects)() | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
 | [setBlurEffect](setblureffect)([Blur](../blur)) | Blur effect. Read/write IBlur. |
 | [setBlurEffect](setblureffect)(double, boolean) | Sets blur effect. |

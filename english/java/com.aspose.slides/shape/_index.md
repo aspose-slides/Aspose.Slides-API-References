@@ -220,7 +220,7 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 --------------------
 
 > ```
-> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
+> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sense in general case (particularly in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 >  
 >  IShape shape = ...;
 >  shape.setFrame(new ShapeFrame(Float.NaN, Float.NaN, Float.NaN, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, Float.NaN));
@@ -272,7 +272,7 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 --------------------
 
 > ```
-> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
+> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sense in general case (particularly in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 >  
 >  IShape shape = ...;
 >  shape.setFrame(new ShapeFrame(Float.NaN, Float.NaN, Float.NaN, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, Float.NaN));

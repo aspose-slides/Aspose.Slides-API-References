@@ -21,6 +21,7 @@ url: /php-java/aspose.slides/gradientstopcollection/
 | [addSchemeColor](addschemecolor)(float, int) | Creates the new gradient stop and adds it to the end of collection. |
 | [clear](clear)() | Removes all gradient stops from a collection. |
 | [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
+| [getVersion](getversion)() |  |
 | [get_Item](get_item)(int) | Returns the gradient stop by index. |
 | [insert](insert)(int, float, Color) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 | [insertPresetColor](insertpresetcolor)(int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |

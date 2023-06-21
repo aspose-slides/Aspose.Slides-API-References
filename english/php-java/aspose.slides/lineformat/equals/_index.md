@@ -7,6 +7,16 @@ weight: 10
 url: /php-java/aspose.slides/lineformat/equals/
 ---
 
+## equals(Object obj)  method
+
+
+### Returns
+boolean
+
+
+---
+
+
 ## equals([LineFormat](../../lineformat) lineFormat)  method
 
  Determines whether the two LineFormat instances are equal.

@@ -20,3 +20,4 @@ url: /php-java/aspose.slides/format/
 | [getEffect3D](geteffect3d)() | Returns 3D format of a chart. Read-only IThreeDFormat. |
 | [getFill](getfill)() | Returns fill style properties of a chart. Read-only IFillFormat. |
 | [getLine](getline)() | Returns line style properties of a chart. Read-only ILineFormat. |
+| [getVersion](getversion)() |  |

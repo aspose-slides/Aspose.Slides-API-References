@@ -24,5 +24,6 @@ url: /php-java/aspose.slides/background/
 | [getStyleColor](getstylecolor)() | Return a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormat. |
 | [getStyleIndex](getstyleindex)() | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 | [getType](gettype)() | Returns a type of background fill. Read/write BackgroundType. |
+| [getVersion](getversion)() |  |
 | [setStyleIndex](setstyleindex)(int) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 | [setType](settype)(byte) | Returns a type of background fill. Read/write BackgroundType. |

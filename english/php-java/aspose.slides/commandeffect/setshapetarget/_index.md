@@ -33,7 +33,7 @@ void
 ---
 
 
-## setShapeTarget([Table](../../table) value)  method
+## setShapeTarget([Shape](../../shape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -59,7 +59,7 @@ void
 ---
 
 
-## setShapeTarget([Shape](../../shape) value)  method
+## setShapeTarget([Table](../../table) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -98,19 +98,6 @@ void
 ---
 
 
-## setShapeTarget([ZoomFrame](../../zoomframe) value)  method
-
- Defines shape target of command effect.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setShapeTarget([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Defines shape target of command effect.
@@ -124,7 +111,7 @@ void
 ---
 
 
-## setShapeTarget([OleObjectFrame](../../oleobjectframe) value)  method
+## setShapeTarget([ZoomFrame](../../zoomframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -138,6 +125,19 @@ void
 
 
 ## setShapeTarget([VideoFrame](../../videoframe) value)  method
+
+ Defines shape target of command effect.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setShapeTarget([OleObjectFrame](../../oleobjectframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -189,19 +189,6 @@ void
 ---
 
 
-## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
-
- Defines shape target of command effect.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setShapeTarget([PictureFrame](../../pictureframe) value)  method
 
  Defines shape target of command effect.
@@ -215,7 +202,7 @@ void
 ---
 
 
-## setShapeTarget([Chart](../../chart) value)  method
+## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -229,6 +216,19 @@ void
 
 
 ## setShapeTarget([AudioFrame](../../audioframe) value)  method
+
+ Defines shape target of command effect.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setShapeTarget([Chart](../../chart) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.

@@ -112,6 +112,7 @@ Represents 3-D properties.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getContourWidth()](#getContourWidth--) | Returns or sets the width of a 3D contour. |
 | [setContourWidth(double value)](#setContourWidth-double-) | Returns or sets the width of a 3D contour. |
 | [getExtrusionHeight()](#getExtrusionHeight--) | Returns or sets the height of an extrusion effect. |
@@ -127,6 +128,16 @@ Represents 3-D properties.
 | [getMaterial()](#getMaterial--) | Returns or sets the type of a material. |
 | [setMaterial(int value)](#setMaterial-int-) | Returns or sets the type of a material. |
 | [getEffective()](#getEffective--) | Gets effective 3-D formatting data with the inheritance applied. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getContourWidth() {#getContourWidth--}
 ```
 public final double getContourWidth()

@@ -23,5 +23,6 @@ url: /php-java/aspose.slides/fillformat/
 | [getPictureFillFormat](getpicturefillformat)() | Returns the picture fill format. Read-only IPictureFillFormat. |
 | [getRotateWithShape](getrotatewithshape)() | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
 | [getSolidFillColor](getsolidfillcolor)() | Returns the fill color. Read-only IColorFormat. |
+| [getVersion](getversion)() |  |
 | [setFillType](setfilltype)(byte) | Returns or sets the type of filling. Read/write FillType. |
 | [setRotateWithShape](setrotatewithshape)(byte) | Determines whether the fill should be rotated with shape. Read/write NullableBool. |

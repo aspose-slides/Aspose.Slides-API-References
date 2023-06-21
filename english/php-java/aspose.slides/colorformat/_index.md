@@ -35,6 +35,7 @@ url: /php-java/aspose.slides/colorformat/
 | [getSaturation](getsaturation)() | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 | [getSchemeColor](getschemecolor)() | Returns or sets the color identified by a color scheme. Read/write SchemeColor. |
 | [getSystemColor](getsystemcolor)() | Returns or sets the color identified by the system color table. Read/write SystemColor. |
+| [getVersion](getversion)() |  |
 | [hashCode](hashcode)() | Returns hash code. |
 | [setB](setb)(byte) | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
 | [setColor](setcolor)(Color) | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write java.awt.Color. |

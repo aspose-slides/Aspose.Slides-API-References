@@ -20,6 +20,7 @@ Represents a fill formatting options.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getFillType()](#getFillType--) | Returns or sets the type of filling. |
 | [setFillType(byte value)](#setFillType-byte-) | Returns or sets the type of filling. |
 | [getSolidFillColor()](#getSolidFillColor--) | Returns the fill color. |
@@ -29,6 +30,16 @@ Represents a fill formatting options.
 | [getRotateWithShape()](#getRotateWithShape--) | Determines whether the fill should be rotated with shape. |
 | [setRotateWithShape(byte value)](#setRotateWithShape-byte-) | Determines whether the fill should be rotated with shape. |
 | [getEffective()](#getEffective--) | Gets effective fill formatting data with the inheritance applied. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getFillType() {#getFillType--}
 ```
 public final byte getFillType()

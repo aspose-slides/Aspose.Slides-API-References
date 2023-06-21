@@ -20,6 +20,7 @@ Common text portion formatting properties.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getLineFormat()](#getLineFormat--) | Returns the LineFormat properties for text outlining. |
 | [getFillFormat()](#getFillFormat--) | Returns the text FillFormat properties. |
 | [getEffectFormat()](#getEffectFormat--) | Returns the text EffectFormat properties. |
@@ -66,6 +67,16 @@ Common text portion formatting properties.
 | [setAlternativeLanguageId(String value)](#setAlternativeLanguageId-java.lang.String-) | Returns or sets the Id of an alternative language. |
 | [getSpacing()](#getSpacing--) | Returns or sets the intercharacter spacing increment. |
 | [setSpacing(float value)](#setSpacing-float-) | Returns or sets the intercharacter spacing increment. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getLineFormat() {#getLineFormat--}
 ```
 public final ILineFormat getLineFormat()

@@ -20,6 +20,7 @@ Represents formatting options for DataLabel.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [isNumberFormatLinkedToSource()](#isNumberFormatLinkedToSource--) | Read/write boolean. |
 | [setNumberFormatLinkedToSource(boolean value)](#setNumberFormatLinkedToSource-boolean-) | Read/write boolean. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the DataLabels object. |
@@ -49,6 +50,16 @@ Represents formatting options for DataLabel.
 | [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets or returns a Variant representing the separator used for the data labels on a chart. |
 | [getTextFormat()](#getTextFormat--) | Returns chart text format. |
 | [getChart()](#getChart--) | Returns the chart. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### isNumberFormatLinkedToSource() {#isNumberFormatLinkedToSource--}
 ```
 public final boolean isNumberFormatLinkedToSource()

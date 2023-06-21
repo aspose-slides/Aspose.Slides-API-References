@@ -20,12 +20,23 @@ Defines a plane in which effects, such as glow and shadow, are applied in relati
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getNormalVector()](#getNormalVector--) | Returns or sets a normal vector. |
 | [setNormalVector(float[] value)](#setNormalVector-float---) | Returns or sets a normal vector. |
 | [getAnchorPoint()](#getAnchorPoint--) | Returns or sets a point in 3D space. |
 | [setAnchorPoint(float[] value)](#setAnchorPoint-float---) | Returns or sets a point in 3D space. |
 | [getUpVector()](#getUpVector--) | Returns or sets a vector representing up. |
 | [setUpVector(float[] value)](#setUpVector-float---) | Returns or sets a vector representing up. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getNormalVector() {#getNormalVector--}
 ```
 public final float[] getNormalVector()

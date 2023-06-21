@@ -25,6 +25,8 @@ Contains the properties of shape's main face relief.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
+| [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [getWidth()](#getWidth--) | Bevel width. |
 | [setWidth(double value)](#setWidth-double-) | Bevel width. |
 | [getHeight()](#getHeight--) | Bevel height. |
@@ -44,6 +46,31 @@ Creates new instance.
 | --- | --- | --- |
 | bIsTopBevel | boolean | Is top bevel. |
 
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Compares with specified object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### getWidth() {#getWidth--}
 ```
 public final double getWidth()

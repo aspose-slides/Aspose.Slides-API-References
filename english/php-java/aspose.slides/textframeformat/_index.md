@@ -38,6 +38,7 @@ url: /php-java/aspose.slides/textframeformat/
 | [getTextVerticalType](gettextverticaltype)() | Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write TextVerticalType. |
 | [getThreeDFormat](getthreedformat)() | Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only IThreeDFormat. |
 | [getTransform](gettransform)() | Gets or sets text wrapping shape. Read/write TextShapeType. |
+| [getVersion](getversion)() |  |
 | [getWrapText](getwraptext)() | True if text is wrapped at TextFrame's margins. Read/write NullableBool. |
 | [setAnchoringType](setanchoringtype)(byte) | Returns or sets vertical anchor text in a TextFrameEx. Read/write TextAnchorType. |
 | [setAutofitType](setautofittype)(byte) | Returns or sets text's autofit mode. Read/write TextAutofitType. |

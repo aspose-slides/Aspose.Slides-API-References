@@ -20,6 +20,8 @@ Represents format of a line.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
+| [equals(Object obj)](#equals-java.lang.Object-) |  |
 | [isFormatNotDefined()](#isFormatNotDefined--) | Returns true if line format is not defined (as just created, default). |
 | [getFillFormat()](#getFillFormat--) | Returns the fill format of a line. |
 | [getSketchFormat()](#getSketchFormat--) | Returns the sketch format of a line. |
@@ -53,6 +55,31 @@ Represents format of a line.
 | [setEndArrowheadLength(byte value)](#setEndArrowheadLength-byte-) | Returns or sets the arrowhead length at the end of a line. |
 | [equals(ILineFormat lineFormat)](#equals-com.aspose.slides.ILineFormat-) | Determines whether the two LineFormat instances are equal. |
 | [getEffective()](#getEffective--) | Gets effective line formatting data with the inheritance applied. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
+### equals(Object obj) {#equals-java.lang.Object-}
+```
+public boolean equals(Object obj)
+```
+
+
+Compares with specified object.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| obj | java.lang.Object |  |
+
+**Returns:**
+boolean
 ### isFormatNotDefined() {#isFormatNotDefined--}
 ```
 public final boolean isFormatNotDefined()

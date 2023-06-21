@@ -22,8 +22,10 @@ url: /php-java/aspose.slides/shapebevel/
 
 | Name | Description |
 | --- | --- |
+| [equals](equals)(Object) |  |
 | [getBevelType](getbeveltype)() | Bevel type. Read/write BevelPresetType. |
 | [getHeight](getheight)() | Bevel height. Read/write double. |
+| [getVersion](getversion)() |  |
 | [getWidth](getwidth)() | Bevel width. Read/write double. |
 | [setBevelType](setbeveltype)(int) | Bevel type. Read/write BevelPresetType. |
 | [setHeight](setheight)(double) | Bevel height. Read/write double. |

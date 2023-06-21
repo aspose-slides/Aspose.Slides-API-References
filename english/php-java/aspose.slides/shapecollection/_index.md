@@ -26,62 +26,62 @@ url: /php-java/aspose.slides/shapecollection/
 | [addChart](addchart)(int, float, float, float, float, boolean) | Creates a new Chart and adds it to the end of the collection. |
 | [addClone](addclone)([Connector](../connector), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([GraphicalObject](../graphicalobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-| [addClone](addclone)([Table](../table), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-| [addClone](addclone)([SmartArtShape](../smartartshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([Shape](../shape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| [addClone](addclone)([SmartArtShape](../smartartshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| [addClone](addclone)([Table](../table), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([Ink](../ink), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-| [addClone](addclone)([ZoomFrame](../zoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-| [addClone](addclone)([OleObjectFrame](../oleobjectframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| [addClone](addclone)([ZoomFrame](../zoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([VideoFrame](../videoframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| [addClone](addclone)([OleObjectFrame](../oleobjectframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([SmartArt](../smartart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([GroupShape](../groupshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([AutoShape](../autoshape), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-| [addClone](addclone)([SectionZoomFrame](../sectionzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([PictureFrame](../pictureframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
-| [addClone](addclone)([Chart](../chart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| [addClone](addclone)([SectionZoomFrame](../sectionzoomframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([AudioFrame](../audioframe), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
+| [addClone](addclone)([Chart](../chart), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([ZoomObject](../zoomobject), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([LegacyDiagram](../legacydiagram), float, float, float, float) | Adds a copy of a specified shape to the end of the collection. |
 | [addClone](addclone)([Connector](../connector), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([GraphicalObject](../graphicalobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [addClone](addclone)([Table](../table), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [addClone](addclone)([SmartArtShape](../smartartshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([Shape](../shape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [addClone](addclone)([SmartArtShape](../smartartshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [addClone](addclone)([Table](../table), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([Ink](../ink), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomFrame](../summaryzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [addClone](addclone)([ZoomFrame](../zoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomSection](../summaryzoomsection), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [addClone](addclone)([OleObjectFrame](../oleobjectframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [addClone](addclone)([ZoomFrame](../zoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([VideoFrame](../videoframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [addClone](addclone)([OleObjectFrame](../oleobjectframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([SmartArt](../smartart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([GroupShape](../groupshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([AutoShape](../autoshape), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [addClone](addclone)([SectionZoomFrame](../sectionzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([PictureFrame](../pictureframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [addClone](addclone)([Chart](../chart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [addClone](addclone)([SectionZoomFrame](../sectionzoomframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([AudioFrame](../audioframe), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [addClone](addclone)([Chart](../chart), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([ZoomObject](../zoomobject), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([LegacyDiagram](../legacydiagram), float, float) | Adds a copy of a specified shape to the end of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [addClone](addclone)([Connector](../connector)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([GraphicalObject](../graphicalobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [addClone](addclone)([Table](../table)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [addClone](addclone)([SmartArtShape](../smartartshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([Shape](../shape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [addClone](addclone)([SmartArtShape](../smartartshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [addClone](addclone)([Table](../table)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([Ink](../ink)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomFrame](../summaryzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [addClone](addclone)([ZoomFrame](../zoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([SummaryZoomSection](../summaryzoomsection)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [addClone](addclone)([OleObjectFrame](../oleobjectframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [addClone](addclone)([ZoomFrame](../zoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([VideoFrame](../videoframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [addClone](addclone)([OleObjectFrame](../oleobjectframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([SmartArt](../smartart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([GroupShape](../groupshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([AutoShape](../autoshape)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [addClone](addclone)([SectionZoomFrame](../sectionzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([PictureFrame](../pictureframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [addClone](addclone)([Chart](../chart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [addClone](addclone)([SectionZoomFrame](../sectionzoomframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([AudioFrame](../audioframe)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [addClone](addclone)([Chart](../chart)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([ZoomObject](../zoomobject)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addClone](addclone)([LegacyDiagram](../legacydiagram)) | Adds a copy of a specified shape to the end of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [addConnector](addconnector)(int, float, float, float, float) | Creates a new Connector, tunes it from default template and adds it to the end of the collection. |
@@ -107,22 +107,22 @@ url: /php-java/aspose.slides/shapecollection/
 | [get_Item](get_item)(int) | Gets the element at the specified index. Read-only IShape. |
 | [indexOf](indexof)([Connector](../connector)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([GraphicalObject](../graphicalobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-| [indexOf](indexof)([Table](../table)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-| [indexOf](indexof)([SmartArtShape](../smartartshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([Shape](../shape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| [indexOf](indexof)([SmartArtShape](../smartartshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| [indexOf](indexof)([Table](../table)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([Ink](../ink)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([SummaryZoomFrame](../summaryzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-| [indexOf](indexof)([ZoomFrame](../zoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([SummaryZoomSection](../summaryzoomsection)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-| [indexOf](indexof)([OleObjectFrame](../oleobjectframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| [indexOf](indexof)([ZoomFrame](../zoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([VideoFrame](../videoframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| [indexOf](indexof)([OleObjectFrame](../oleobjectframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([SmartArt](../smartart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([GroupShape](../groupshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([AutoShape](../autoshape)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-| [indexOf](indexof)([SectionZoomFrame](../sectionzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([PictureFrame](../pictureframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
-| [indexOf](indexof)([Chart](../chart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| [indexOf](indexof)([SectionZoomFrame](../sectionzoomframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([AudioFrame](../audioframe)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
+| [indexOf](indexof)([Chart](../chart)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([ZoomObject](../zoomobject)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [indexOf](indexof)([LegacyDiagram](../legacydiagram)) | Returns the zero-based index of the first occurrence of a shape in the collection. |
 | [insertAudioFrameCD](insertaudioframecd)(int, float, float, float, float) | Insert an AudioFrame with CD. |
@@ -135,62 +135,62 @@ url: /php-java/aspose.slides/shapecollection/
 | [insertChart](insertchart)(int, float, float, float, float, int, boolean) | Creates a new Chart and inserts it to the specified position in the collection. |
 | [insertClone](insertclone)(int, [Connector](../connector), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [GraphicalObject](../graphicalobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insertClone](insertclone)(int, [Table](../table), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insertClone](insertclone)(int, [SmartArtShape](../smartartshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [Shape](../shape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| [insertClone](insertclone)(int, [SmartArtShape](../smartartshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| [insertClone](insertclone)(int, [Table](../table), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [Ink](../ink), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [SummaryZoomFrame](../summaryzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insertClone](insertclone)(int, [ZoomFrame](../zoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [SummaryZoomSection](../summaryzoomsection), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insertClone](insertclone)(int, [OleObjectFrame](../oleobjectframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| [insertClone](insertclone)(int, [ZoomFrame](../zoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [VideoFrame](../videoframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| [insertClone](insertclone)(int, [OleObjectFrame](../oleobjectframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [SmartArt](../smartart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [GroupShape](../groupshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [AutoShape](../autoshape), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insertClone](insertclone)(int, [SectionZoomFrame](../sectionzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [PictureFrame](../pictureframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
-| [insertClone](insertclone)(int, [Chart](../chart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| [insertClone](insertclone)(int, [SectionZoomFrame](../sectionzoomframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [AudioFrame](../audioframe), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
+| [insertClone](insertclone)(int, [Chart](../chart), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [ZoomObject](../zoomobject), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [LegacyDiagram](../legacydiagram), float, float, float, float) | Inserts a copy of a specified shape to specified position of the collection. |
 | [insertClone](insertclone)(int, [Connector](../connector), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [GraphicalObject](../graphicalobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [Table](../table), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [SmartArtShape](../smartartshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Shape](../shape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [SmartArtShape](../smartartshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [Table](../table), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Ink](../ink), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomFrame](../summaryzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [ZoomFrame](../zoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomSection](../summaryzoomsection), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [OleObjectFrame](../oleobjectframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [ZoomFrame](../zoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [VideoFrame](../videoframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [OleObjectFrame](../oleobjectframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SmartArt](../smartart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [GroupShape](../groupshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [AutoShape](../autoshape), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [SectionZoomFrame](../sectionzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [PictureFrame](../pictureframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [Chart](../chart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [SectionZoomFrame](../sectionzoomframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [AudioFrame](../audioframe), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [Chart](../chart), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [ZoomObject](../zoomobject), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [LegacyDiagram](../legacydiagram), float, float) | Inserts a copy of a specified shape to specified position of the collection. Width and Height of the new shape are equal to Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Connector](../connector)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [GraphicalObject](../graphicalobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [Table](../table)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [SmartArtShape](../smartartshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Shape](../shape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [SmartArtShape](../smartartshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [Table](../table)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [Ink](../ink)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomFrame](../summaryzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [ZoomFrame](../zoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SummaryZoomSection](../summaryzoomsection)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [OleObjectFrame](../oleobjectframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [ZoomFrame](../zoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [VideoFrame](../videoframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [OleObjectFrame](../oleobjectframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [SmartArt](../smartart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [GroupShape](../groupshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [AutoShape](../autoshape)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [SectionZoomFrame](../sectionzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [PictureFrame](../pictureframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
-| [insertClone](insertclone)(int, [Chart](../chart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [SectionZoomFrame](../sectionzoomframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [AudioFrame](../audioframe)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
+| [insertClone](insertclone)(int, [Chart](../chart)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [ZoomObject](../zoomobject)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertClone](insertclone)(int, [LegacyDiagram](../legacydiagram)) | Inserts a copy of a specified shape to specified position of the collection. X, Y, Width and Height of the new shape are equal to X, Y, Width and Height of the source Shape. |
 | [insertConnector](insertconnector)(int, int, float, float, float, float) | Creates a new Connector, tunes it from default template and inserts it to the collection at the specified index. |
@@ -211,43 +211,43 @@ url: /php-java/aspose.slides/shapecollection/
 | [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
 | [remove](remove)([Connector](../connector)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([GraphicalObject](../graphicalobject)) | Removes the first occurrence of a specific shape from the collection. |
-| [remove](remove)([Table](../table)) | Removes the first occurrence of a specific shape from the collection. |
-| [remove](remove)([SmartArtShape](../smartartshape)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([Shape](../shape)) | Removes the first occurrence of a specific shape from the collection. |
+| [remove](remove)([SmartArtShape](../smartartshape)) | Removes the first occurrence of a specific shape from the collection. |
+| [remove](remove)([Table](../table)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([Ink](../ink)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([SummaryZoomFrame](../summaryzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
-| [remove](remove)([ZoomFrame](../zoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([SummaryZoomSection](../summaryzoomsection)) | Removes the first occurrence of a specific shape from the collection. |
-| [remove](remove)([OleObjectFrame](../oleobjectframe)) | Removes the first occurrence of a specific shape from the collection. |
+| [remove](remove)([ZoomFrame](../zoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([VideoFrame](../videoframe)) | Removes the first occurrence of a specific shape from the collection. |
+| [remove](remove)([OleObjectFrame](../oleobjectframe)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([SmartArt](../smartart)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([GroupShape](../groupshape)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([AutoShape](../autoshape)) | Removes the first occurrence of a specific shape from the collection. |
-| [remove](remove)([SectionZoomFrame](../sectionzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([PictureFrame](../pictureframe)) | Removes the first occurrence of a specific shape from the collection. |
-| [remove](remove)([Chart](../chart)) | Removes the first occurrence of a specific shape from the collection. |
+| [remove](remove)([SectionZoomFrame](../sectionzoomframe)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([AudioFrame](../audioframe)) | Removes the first occurrence of a specific shape from the collection. |
+| [remove](remove)([Chart](../chart)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([ZoomObject](../zoomobject)) | Removes the first occurrence of a specific shape from the collection. |
 | [remove](remove)([LegacyDiagram](../legacydiagram)) | Removes the first occurrence of a specific shape from the collection. |
 | [removeAt](removeat)(int) | Removes the element at the specified index of the collection. |
 | [reorder](reorder)(int, [Connector](../connector)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [GraphicalObject](../graphicalobject)) | Moves a shape from the collection to the specified position. |
-| [reorder](reorder)(int, [Table](../table)) | Moves a shape from the collection to the specified position. |
-| [reorder](reorder)(int, [SmartArtShape](../smartartshape)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [Shape](../shape)) | Moves a shape from the collection to the specified position. |
+| [reorder](reorder)(int, [SmartArtShape](../smartartshape)) | Moves a shape from the collection to the specified position. |
+| [reorder](reorder)(int, [Table](../table)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [Ink](../ink)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [SummaryZoomFrame](../summaryzoomframe)) | Moves a shape from the collection to the specified position. |
-| [reorder](reorder)(int, [ZoomFrame](../zoomframe)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [SummaryZoomSection](../summaryzoomsection)) | Moves a shape from the collection to the specified position. |
-| [reorder](reorder)(int, [OleObjectFrame](../oleobjectframe)) | Moves a shape from the collection to the specified position. |
+| [reorder](reorder)(int, [ZoomFrame](../zoomframe)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [VideoFrame](../videoframe)) | Moves a shape from the collection to the specified position. |
+| [reorder](reorder)(int, [OleObjectFrame](../oleobjectframe)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [SmartArt](../smartart)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [GroupShape](../groupshape)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [AutoShape](../autoshape)) | Moves a shape from the collection to the specified position. |
-| [reorder](reorder)(int, [SectionZoomFrame](../sectionzoomframe)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [PictureFrame](../pictureframe)) | Moves a shape from the collection to the specified position. |
-| [reorder](reorder)(int, [Chart](../chart)) | Moves a shape from the collection to the specified position. |
+| [reorder](reorder)(int, [SectionZoomFrame](../sectionzoomframe)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [AudioFrame](../audioframe)) | Moves a shape from the collection to the specified position. |
+| [reorder](reorder)(int, [Chart](../chart)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [ZoomObject](../zoomobject)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, [LegacyDiagram](../legacydiagram)) | Moves a shape from the collection to the specified position. |
 | [reorder](reorder)(int, com.aspose.slides.IShape[]) | Moves shapes from the collection to the specified position. Shapes will be placed starting from index in order they appear in list. |

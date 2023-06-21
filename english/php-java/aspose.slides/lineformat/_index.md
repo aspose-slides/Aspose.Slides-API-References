@@ -16,6 +16,7 @@ url: /php-java/aspose.slides/lineformat/
 
 | Name | Description |
 | --- | --- |
+| [equals](equals)(Object) |  |
 | [equals](equals)([LineFormat](../lineformat)) | Determines whether the two LineFormat instances are equal. |
 | [getAlignment](getalignment)() | Returns or sets the line alignment. Read/write LineAlignment. |
 | [getBeginArrowheadLength](getbeginarrowheadlength)() | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
@@ -33,6 +34,7 @@ url: /php-java/aspose.slides/lineformat/
 | [getMiterLimit](getmiterlimit)() | Returns or sets the miter limit of a line. Read/write float. |
 | [getSketchFormat](getsketchformat)() | Returns the sketch format of a line. Read-only ILineFillFormat. |
 | [getStyle](getstyle)() | Returns or sets the line style. Read/write LineStyle. |
+| [getVersion](getversion)() |  |
 | [getWidth](getwidth)() | Returns or sets the width of a line. Read/write double. |
 | [isFormatNotDefined](isformatnotdefined)() | Returns true if line format is not defined (as just created, default). Read-only boolean. |
 | [setAlignment](setalignment)(byte) | Returns or sets the line alignment. Read/write LineAlignment. |

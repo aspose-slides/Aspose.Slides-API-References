@@ -20,12 +20,23 @@ Represents a pattern to fill a shape.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getPatternStyle()](#getPatternStyle--) | Returns or sets the pattern style. |
 | [setPatternStyle(byte value)](#setPatternStyle-byte-) | Returns or sets the pattern style. |
 | [getForeColor()](#getForeColor--) | Returns the foreground pattern color. |
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
 | [getTileImage(Color background, Color foreground)](#getTileImage-java.awt.Color-java.awt.Color-) | Creates a tile image for the pattern fill with a specified colors. |
 | [getTileImage(Color styleColor)](#getTileImage-java.awt.Color-) | Creates a tile image for the pattern fill. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getPatternStyle() {#getPatternStyle--}
 ```
 public final byte getPatternStyle()

@@ -27,6 +27,7 @@ url: /php-java/aspose.slides/picturefillformat/
 | [getStretchOffsetLeft](getstretchoffsetleft)() | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
 | [getStretchOffsetRight](getstretchoffsetright)() | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
 | [getStretchOffsetTop](getstretchoffsettop)() | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
+| [getVersion](getversion)() |  |
 | [setCropBottom](setcropbottom)(float) | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write float. |
 | [setCropLeft](setcropleft)(float) | Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write float. |
 | [setCropRight](setcropright)(float) | Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write float. |

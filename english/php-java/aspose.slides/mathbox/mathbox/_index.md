@@ -112,21 +112,6 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 ---
 
 
-## MathBox([MathAccent](../../mathaccent) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathNaryOperator](../../mathnaryoperator) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -142,7 +127,7 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 ---
 
 
-## MathBox([MathBorderBox](../../mathborderbox) element)  constructor
+## MathBox([MathAccent](../../mathaccent) element)  constructor
 
  Initializes MathBox with the specified element as an argument
  
@@ -151,7 +136,7 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The base element to which the box is applied. Can be null. |
+| element | [MathAccent](../../mathaccent) | The base element to which the box is applied. Can be null. |
 
 
 ---
@@ -172,6 +157,21 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 ---
 
 
+## MathBox([MathBorderBox](../../mathborderbox) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
 ## MathBox([MathBar](../../mathbar) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -187,21 +187,6 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 ---
 
 
-## MathBox([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -212,6 +197,21 @@ url: /php-java/aspose.slides/mathbox/mathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
+## MathBox([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the box is applied. Can be null. |
 
 
 ---
