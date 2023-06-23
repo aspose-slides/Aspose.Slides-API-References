@@ -3,7 +3,7 @@ title: InterruptionToken
 second_title: Aspose.Sildes for .NET API Reference
 description: The token to monitor for interruption requests.  This token manages the whole IPresentationaspose.slides/ipresentation instance lifetime. Any long-running operation such as presentaion loading or saving will be interrupted via calling of the Interruptaspose.slides/iinterruptiontokensource/interrupt method of the IInterruptionTokenSourceaspose.slides/iinterruptiontokensource.
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/iloadoptions/interruptiontoken/
 ---
 ## ILoadOptions.InterruptionToken property

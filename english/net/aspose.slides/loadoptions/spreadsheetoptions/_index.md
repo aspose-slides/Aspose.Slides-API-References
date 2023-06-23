@@ -3,7 +3,7 @@ title: SpreadsheetOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets options for spreadsheets. For example these options affect calculating formulas for charts.
 type: docs
-weight: 120
+weight: 130
 url: /net/aspose.slides/loadoptions/spreadsheetoptions/
 ---
 ## LoadOptions.SpreadsheetOptions property

@@ -42,7 +42,7 @@ public sealed class LineFormat : PVIObject, ILineFormat
 | Name | Description |
 | --- | --- |
 | [Equals](../../aspose.slides/lineformat/equals#equals)(ILineFormat) | Determines whether the two LineFormat instances are equal. |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [Equals](../../aspose.slides/lineformat/equals#equals_1)(object) |  |
 | [GetEffective](../../aspose.slides/lineformat/geteffective)() | Gets effective line formatting data with the inheritance applied. |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 

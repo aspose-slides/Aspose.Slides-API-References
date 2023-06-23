@@ -33,7 +33,7 @@ public sealed class ShapeBevel : PVIObject, IShapeBevel
 
 | Name | Description |
 | --- | --- |
-| override [Equals](../../aspose.slides/pviobject/equals)(object) | Compares with specified object. |
+| override [Equals](../../aspose.slides/shapebevel/equals)(object) |  |
 | override [GetHashCode](../../aspose.slides/pviobject/gethashcode)() | Returns hash code. |
 
 ### See Also
