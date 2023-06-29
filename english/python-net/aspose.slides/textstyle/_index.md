@@ -17,7 +17,6 @@ The TextStyle type exposes the following members:
 | :- | :- |
 |as_i_presentation_component|Allows to get base IPresentationComponent interface.<br/>            Read-only [IPresentationComponent](/slides/python-net/aspose.slides/ipresentationcomponent/).|
 |default_paragraph_format|Default paragraph propertiies.<br/>            Read-only [IParagraphFormat](/slides/python-net/aspose.slides/iparagraphformat/).|
-|MAX_LEVEL_COUNT|Maximum count of style levels that can be defined.<br/>            Use it with GetLevel(int index)|
 |slide|Returns the base slide.<br/>            Read-only [IBaseSlide](/slides/python-net/aspose.slides/ibaseslide/).|
 |presentation|Returns the presentation. <br/>            Read-only [IPresentation](/slides/python-net/aspose.slides/ipresentation/).|
 ## Methods
