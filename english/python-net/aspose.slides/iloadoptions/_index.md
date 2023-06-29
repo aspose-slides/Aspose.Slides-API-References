@@ -27,6 +27,7 @@ The ILoadOptions type exposes the following members:
 |interruption_token|The token to monitor for interruption requests.|
 |resource_loading_callback|Returns or sets callback interface which manages external resources loading.<br/>            Read/write [IResourceLoadingCallback](/slides/python-net/aspose.slides/iresourceloadingcallback/).|
 |spreadsheet_options|Represents options which can be used to specify additional spreadsheets behavior.|
+|default_text_language|Returns or sets the default language for presentation text.<br/>             Read/write string.|
 
 ### See Also
 
