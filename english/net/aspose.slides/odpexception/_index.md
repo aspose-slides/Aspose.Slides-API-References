@@ -3,7 +3,7 @@ title: OdpException
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a standard internal exception type.
 type: docs
-weight: 8570
+weight: 8610
 url: /net/aspose.slides/odpexception/
 ---
 ## OdpException class

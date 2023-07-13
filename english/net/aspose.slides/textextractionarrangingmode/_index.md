@@ -3,7 +3,7 @@ title: TextExtractionArrangingMode
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the mode to use during text extraction
 type: docs
-weight: 10250
+weight: 10290
 url: /net/aspose.slides/textextractionarrangingmode/
 ---
 ## TextExtractionArrangingMode enumeration

@@ -3,7 +3,7 @@ title: ForEach
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of methods intended to iterate over different Presentation../aspose.slides/presentation model objects. These methods can be useful if you need to iterate and change some Presentation elements formatting or content e.g. change each portion formatting.
 type: docs
-weight: 7290
+weight: 7330
 url: /net/aspose.slides.lowcode/foreach/
 ---
 ## ForEach class

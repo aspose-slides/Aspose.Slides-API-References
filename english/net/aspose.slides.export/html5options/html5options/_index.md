@@ -1,14 +1,14 @@
 ---
 title: Html5Options
 second_title: Aspose.Sildes for .NET API Reference
-description: The default constructor.
+description: Default constructor.
 type: docs
 weight: 10
 url: /net/aspose.slides.export/html5options/html5options/
 ---
 ## Html5Options constructor
 
-The default constructor.
+Default constructor.
 
 ```csharp
 public Html5Options()

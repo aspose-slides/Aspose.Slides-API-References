@@ -3,7 +3,7 @@ title: IOverrideTheme
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a overriding theme.
 type: docs
-weight: 10650
+weight: 10690
 url: /net/aspose.slides.theme/ioverridetheme/
 ---
 ## IOverrideTheme interface

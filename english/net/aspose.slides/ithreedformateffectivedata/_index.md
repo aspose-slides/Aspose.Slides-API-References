@@ -3,7 +3,7 @@ title: IThreeDFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents effective 3-D formatting properties.
 type: docs
-weight: 6850
+weight: 6890
 url: /net/aspose.slides/ithreedformateffectivedata/
 ---
 ## IThreeDFormatEffectiveData interface

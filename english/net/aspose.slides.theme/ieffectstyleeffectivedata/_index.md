@@ -3,7 +3,7 @@ title: IEffectStyleEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective effect style properties.
 type: docs
-weight: 10510
+weight: 10550
 url: /net/aspose.slides.theme/ieffectstyleeffectivedata/
 ---
 ## IEffectStyleEffectiveData interface

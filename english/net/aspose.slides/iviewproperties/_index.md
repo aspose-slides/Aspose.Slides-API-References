@@ -3,7 +3,7 @@ title: IViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 6900
+weight: 6940
 url: /net/aspose.slides/iviewproperties/
 ---
 ## IViewProperties interface

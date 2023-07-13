@@ -3,7 +3,7 @@ title: IStreamWrapperFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Factory of StreamWrappers. For COM interface.
 type: docs
-weight: 6650
+weight: 6690
 url: /net/aspose.slides/istreamwrapperfactory/
 ---
 ## IStreamWrapperFactory interface

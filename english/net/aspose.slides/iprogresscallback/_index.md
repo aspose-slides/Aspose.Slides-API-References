@@ -3,7 +3,7 @@ title: IProgressCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a callback object for saving progress updates in percentage.
 type: docs
-weight: 6340
+weight: 6380
 url: /net/aspose.slides/iprogresscallback/
 ---
 ## IProgressCallback interface

@@ -3,7 +3,7 @@ title: IImageTransformOperation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents abstract image transformation effect.
 type: docs
-weight: 3220
+weight: 3260
 url: /net/aspose.slides.effects/iimagetransformoperation/
 ---
 ## IImageTransformOperation interface

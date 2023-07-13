@@ -3,7 +3,7 @@ title: ITagCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the collection of tags user defined pairs of strings
 type: docs
-weight: 6770
+weight: 6810
 url: /net/aspose.slides/itagcollection/
 ---
 ## ITagCollection interface

@@ -3,7 +3,7 @@ title: IAlphaFloorEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents an Alpha Floor effect. Alpha opacity values less than 100 are changed to zero. In other words anything partially transparent becomes fully transparent.
 type: docs
-weight: 2920
+weight: 2960
 url: /net/aspose.slides.effects/ialphaflooreffectivedata/
 ---
 ## IAlphaFloorEffectiveData interface

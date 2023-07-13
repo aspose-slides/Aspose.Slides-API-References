@@ -3,7 +3,7 @@ title: IFontData
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a font definition.
 type: docs
-weight: 5390
+weight: 5430
 url: /net/aspose.slides/ifontdata/
 ---
 ## IFontData interface

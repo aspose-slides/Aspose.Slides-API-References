@@ -3,7 +3,7 @@ title: PathFillModeType
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the manner in which a path should be filled
 type: docs
-weight: 8690
+weight: 8730
 url: /net/aspose.slides/pathfillmodetype/
 ---
 ## PathFillModeType enumeration

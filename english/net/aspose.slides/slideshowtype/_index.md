@@ -3,7 +3,7 @@ title: SlideShowType
 second_title: Aspose.Sildes for .NET API Reference
 description: Base slide show settings. Ancestors represent types of the slide show PresentedBySpeaker./presentedbyspeaker Presented by a speaker full screen BrowsedByIndividual./browsedbyindividual Browsed by individual window BrowsedAtKiosk./browsedatkiosk Browsed at a kiosk full screen
 type: docs
-weight: 9800
+weight: 9840
 url: /net/aspose.slides/slideshowtype/
 ---
 ## SlideShowType class

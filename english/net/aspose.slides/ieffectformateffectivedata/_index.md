@@ -3,7 +3,7 @@ title: IEffectFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Imutable object which contains effective effect formatting properties.
 type: docs
-weight: 5320
+weight: 5360
 url: /net/aspose.slides/ieffectformateffectivedata/
 ---
 ## IEffectFormatEffectiveData interface

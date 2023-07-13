@@ -3,7 +3,7 @@ title: SlideShowSettings
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the slide show settings for the presentation.
 type: docs
-weight: 9790
+weight: 9830
 url: /net/aspose.slides/slideshowsettings/
 ---
 ## SlideShowSettings class

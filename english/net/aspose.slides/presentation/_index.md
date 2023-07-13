@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 8950
+weight: 8990
 url: /net/aspose.slides/presentation/
 ---
 ## Presentation class

@@ -3,7 +3,7 @@ title: IHtml5Options
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML5 exporting options.
 type: docs
-weight: 3650
+weight: 3690
 url: /net/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options interface
@@ -21,6 +21,8 @@ public interface IHtml5Options : ISaveOptions
 | [AnimateShapes](../../aspose.slides.export/ihtml5options/animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/ihtml5options/animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
 | [AsISaveOptions](../../aspose.slides.export/ihtml5options/asisaveoptions) { get; } | Returns ISaveOptions interface. Read-only [`ISaveOptions`](../isaveoptions). |
+| [EmbedImages](../../aspose.slides.export/ihtml5options/embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |
+| [OutputPath](../../aspose.slides.export/ihtml5options/outputpath) { get; set; } | Determines where external resources should be stored. Read/write String. |
 
 ### Examples
 

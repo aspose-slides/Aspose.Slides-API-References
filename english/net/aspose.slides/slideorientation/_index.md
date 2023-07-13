@@ -3,7 +3,7 @@ title: SlideOrientation
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the slide orientation.
 type: docs
-weight: 9310
+weight: 9350
 url: /net/aspose.slides/slideorientation/
 ---
 ## SlideOrientation enumeration

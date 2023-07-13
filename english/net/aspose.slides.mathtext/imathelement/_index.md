@@ -3,7 +3,7 @@ title: IMathElement
 second_title: Aspose.Sildes for .NET API Reference
 description: Base interface of any mathematical element fraction mathmatical text function expression with multiple elements etc
 type: docs
-weight: 7610
+weight: 7650
 url: /net/aspose.slides.mathtext/imathelement/
 ---
 ## IMathElement interface

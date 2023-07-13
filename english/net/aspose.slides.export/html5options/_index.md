@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML5 exporting options.
 type: docs
-weight: 3580
+weight: 3620
 url: /net/aspose.slides.export/html5options/
 ---
 ## Html5Options class
@@ -18,7 +18,7 @@ public class Html5Options : SaveOptions, IHtml5Options
 
 | Name | Description |
 | --- | --- |
-| [Html5Options](html5options)() | The default constructor. |
+| [Html5Options](html5options)() | Default constructor. |
 
 ## Properties
 
@@ -27,6 +27,8 @@ public class Html5Options : SaveOptions, IHtml5Options
 | [AnimateShapes](../../aspose.slides.export/html5options/animateshapes) { get; set; } | Returns or sets shapes animation option. Read/write Boolean. |
 | [AnimateTransitions](../../aspose.slides.export/html5options/animatetransitions) { get; set; } | Returns or sets transitions animation option. Read/write Boolean. |
 | [DefaultRegularFont](../../aspose.slides.export/saveoptions/defaultregularfont) { get; set; } | Returns or sets font used in case source font is not found. Read-write String. |
+| [EmbedImages](../../aspose.slides.export/html5options/embedimages) { get; set; } | Returns or sets images embedding option. Read/write Boolean. |
+| [OutputPath](../../aspose.slides.export/html5options/outputpath) { get; set; } | Determines where external resources should be stored. Read/write String. |
 | [ProgressCallback](../../aspose.slides.export/saveoptions/progresscallback) { get; set; } | Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../aspose.slides/iprogresscallback). |
 | [WarningCallback](../../aspose.slides.export/saveoptions/warningcallback) { get; set; } | Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../aspose.slides.warnings/iwarningcallback). |
 

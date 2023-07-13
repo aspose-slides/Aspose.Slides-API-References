@@ -3,7 +3,7 @@ title: SVGOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an SVG options.
 type: docs
-weight: 4080
+weight: 4120
 url: /net/aspose.slides.export/svgoptions/
 ---
 ## SVGOptions class

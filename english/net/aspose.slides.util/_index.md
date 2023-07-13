@@ -3,7 +3,7 @@ title: Aspose.Slides.Util
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains util classes that helps to work with presentations.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.slides.util/
 ---
 Contains util classes that helps to work with presentations.

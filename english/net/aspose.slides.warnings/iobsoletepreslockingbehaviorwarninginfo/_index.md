@@ -3,7 +3,7 @@ title: IObsoletePresLockingBehaviorWarningInfo
 second_title: Aspose.Sildes for .NET API Reference
 description: This warning indicates that an obsolete presentation locking behavior is used.
 type: docs
-weight: 11090
+weight: 11130
 url: /net/aspose.slides.warnings/iobsoletepreslockingbehaviorwarninginfo/
 ---
 ## IObsoletePresLockingBehaviorWarningInfo interface

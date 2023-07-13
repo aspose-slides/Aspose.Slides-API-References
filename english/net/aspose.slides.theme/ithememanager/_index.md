@@ -3,7 +3,7 @@ title: IThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent theme properties.
 type: docs
-weight: 10700
+weight: 10740
 url: /net/aspose.slides.theme/ithememanager/
 ---
 ## IThemeManager interface

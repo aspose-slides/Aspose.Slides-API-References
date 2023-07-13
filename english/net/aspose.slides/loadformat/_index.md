@@ -3,7 +3,7 @@ title: LoadFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Indicates the format of the document that is to be loaded.
 type: docs
-weight: 7220
+weight: 7260
 url: /net/aspose.slides/loadformat/
 ---
 ## LoadFormat enumeration

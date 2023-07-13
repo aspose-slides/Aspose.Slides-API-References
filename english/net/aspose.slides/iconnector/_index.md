@@ -3,7 +3,7 @@ title: IConnector
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a connector.
 type: docs
-weight: 5200
+weight: 5240
 url: /net/aspose.slides/iconnector/
 ---
 ## IConnector interface

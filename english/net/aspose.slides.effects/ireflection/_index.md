@@ -3,7 +3,7 @@ title: IReflection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a reflection effect.
 type: docs
-weight: 3330
+weight: 3370
 url: /net/aspose.slides.effects/ireflection/
 ---
 ## IReflection interface
