@@ -3,7 +3,7 @@ title: PrintToStringImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: "Prints System::Object subclass to string using ToString() method."
 type: docs
-weight: 1
+weight: 14
 url: /cpp/system.testpredicates.details/printtostringimpl/
 ---
 ## System::TestPredicates::Details::PrintToStringImpl(const SharedPtr\<T\>\&, long long) function

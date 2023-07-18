@@ -3,7 +3,7 @@ title: FileOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents advanced options for creating FileStream object.
 type: docs
-weight: 495
+weight: 508
 url: /cpp/system.io/fileoptions/
 ---
 ## FileOptions enum

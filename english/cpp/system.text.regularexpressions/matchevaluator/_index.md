@@ -3,7 +3,7 @@ title: MatchEvaluator
 second_title: Aspose.Slides for C++ API Reference
 description: Delegate type to evaluate match.
 type: docs
-weight: 209
+weight: 222
 url: /cpp/system.text.regularexpressions/matchevaluator/
 ---
 ## MatchEvaluator typedef

@@ -3,7 +3,7 @@ title: NumberedBulletStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the style of the numbered bullets.
 type: docs
-weight: 5786
+weight: 5812
 url: /cpp/aspose.slides/numberedbulletstyle/
 ---
 ## NumberedBulletStyle enum

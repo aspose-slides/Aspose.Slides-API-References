@@ -3,7 +3,7 @@ title: AreEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares arguments for AreEqual assertion translation.
 type: docs
-weight: 1
+weight: 14
 url: /cpp/system.testpredicates/areequal/
 ---
 ## System::TestPredicates::AreEqual(const char *, const char *, T1\&&, T2\&&) function

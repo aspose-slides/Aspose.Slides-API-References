@@ -3,7 +3,7 @@ title: "Aspose::Slides::LowCode"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 131
+weight: 144
 url: /cpp/aspose.slides.lowcode/
 ---
 

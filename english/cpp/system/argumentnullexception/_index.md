@@ -3,7 +3,7 @@ title: ArgumentNullException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2588
+weight: 3368
 url: /cpp/system/argumentnullexception/
 ---
 ## ArgumentNullException typedef

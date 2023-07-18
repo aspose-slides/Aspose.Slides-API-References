@@ -3,7 +3,7 @@ title: AreSame()
 second_title: Aspose.Slides for C++ API Reference
 description: Are-same-compares arguments for AreSame assertion translation.
 type: docs
-weight: 1
+weight: 66
 url: /cpp/system.testpredicates/aresame/
 ---
 ## System::TestPredicates::AreSame(const char *, const char *, const T1\&, const T2\&) function

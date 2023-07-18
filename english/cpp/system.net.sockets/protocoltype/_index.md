@@ -3,7 +3,7 @@ title: ProtocolType
 second_title: Aspose.Slides for C++ API Reference
 description: Enumerates the protocol types.
 type: docs
-weight: 157
+weight: 183
 url: /cpp/system.net.sockets/protocoltype/
 ---
 ## ProtocolType enum

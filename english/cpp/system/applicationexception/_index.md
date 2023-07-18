@@ -3,7 +3,7 @@ title: ApplicationException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2458
+weight: 3238
 url: /cpp/system/applicationexception/
 ---
 ## ApplicationException typedef

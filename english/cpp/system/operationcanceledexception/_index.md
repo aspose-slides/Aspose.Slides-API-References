@@ -3,7 +3,7 @@ title: OperationCanceledException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2783
+weight: 3563
 url: /cpp/system/operationcanceledexception/
 ---
 ## OperationCanceledException typedef

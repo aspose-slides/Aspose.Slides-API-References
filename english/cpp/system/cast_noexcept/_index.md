@@ -3,7 +3,7 @@ title: Cast_noexcept()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs cast on SmartPtr objects.
 type: docs
-weight: 1860
+weight: 2120
 url: /cpp/system/cast_noexcept/
 ---
 ## System::Cast_noexcept(SmartPtr\<TFrom\> const\&) function

@@ -3,7 +3,7 @@ title: SocketOptionName
 second_title: Aspose.Slides for C++ API Reference
 description: Defines socket option names for the Socket class.
 type: docs
-weight: 222
+weight: 248
 url: /cpp/system.net.sockets/socketoptionname/
 ---
 ## SocketOptionName enum

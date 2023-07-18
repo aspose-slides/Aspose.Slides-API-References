@@ -3,7 +3,7 @@ title: TextCapType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of text capitalisation.
 type: docs
-weight: 6189
+weight: 6215
 url: /cpp/aspose.slides/textcaptype/
 ---
 ## TextCapType enum

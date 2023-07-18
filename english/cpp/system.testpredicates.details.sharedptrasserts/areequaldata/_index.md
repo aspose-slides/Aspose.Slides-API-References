@@ -3,7 +3,7 @@ title: AreEqualData()
 second_title: Aspose.Slides for C++ API Reference
 description: "Equal-compares two containers using System::Object::Equals on elements. Works for SmartPtr elements."
 type: docs
-weight: 1
+weight: 14
 url: /cpp/system.testpredicates.details.sharedptrasserts/areequaldata/
 ---
 ## System::TestPredicates::Details::SharedPtrAsserts::AreEqualData(const T1\&, const T2\&) function

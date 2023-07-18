@@ -3,7 +3,7 @@ title: ImagePixelFormat
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the pixel format for the generated images.
 type: docs
-weight: 807
+weight: 820
 url: /cpp/aspose.slides.export/imagepixelformat/
 ---
 ## ImagePixelFormat enum

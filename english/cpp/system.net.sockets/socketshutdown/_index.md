@@ -3,7 +3,7 @@ title: SocketShutdown
 second_title: Aspose.Slides for C++ API Reference
 description: Defines constants used by the Socket.Shutdown method.
 type: docs
-weight: 235
+weight: 261
 url: /cpp/system.net.sockets/socketshutdown/
 ---
 ## SocketShutdown enum

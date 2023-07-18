@@ -3,7 +3,7 @@ title: "System::Collections::Generic::Details"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 326
+weight: 339
 url: /cpp/system.collections.generic.details/
 ---
 

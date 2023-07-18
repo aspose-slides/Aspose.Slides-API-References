@@ -3,7 +3,7 @@ title: NotNullAreEqualHelper()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares abstract collections.
 type: docs
-weight: 1
+weight: 66
 url: /cpp/system.testpredicates.details.sharedptrasserts/notnullareequalhelper/
 ---
 ## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualHelper(const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&, const SharedPtr\<System::Collections::Generic::ICollection\<T\>\>\&) function

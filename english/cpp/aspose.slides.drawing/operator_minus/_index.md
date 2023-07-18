@@ -3,7 +3,7 @@ title: operator-()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 79
+weight: 144
 url: /cpp/aspose.slides.drawing/operator_minus/
 ---
 ## Aspose::Slides::Drawing::operator-(Vector2d32f, Vector2d32f) function

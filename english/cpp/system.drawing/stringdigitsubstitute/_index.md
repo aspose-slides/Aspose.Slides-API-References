@@ -3,7 +3,7 @@ title: StringDigitSubstitute
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how digits in a string are substituted according to the locale or language.
 type: docs
-weight: 456
+weight: 469
 url: /cpp/system.drawing/stringdigitsubstitute/
 ---
 ## StringDigitSubstitute enum

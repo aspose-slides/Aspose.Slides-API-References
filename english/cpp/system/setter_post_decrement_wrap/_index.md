@@ -3,7 +3,7 @@ title: setter_post_decrement_wrap()
 second_title: Aspose.Slides for C++ API Reference
 description: Translator translates C#'s post-decrement expressions targeting class' property that has setter and getter defined, into invocation of this function.
 type: docs
-weight: 1860
+weight: 2471
 url: /cpp/system/setter_post_decrement_wrap/
 ---
 ## System::setter_post_decrement_wrap(T(*)(), void(*)(T)) function

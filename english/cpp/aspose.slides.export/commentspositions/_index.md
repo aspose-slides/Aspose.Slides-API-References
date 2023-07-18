@@ -3,7 +3,7 @@ title: CommentsPositions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the rule to render comments into exported document
 type: docs
-weight: 768
+weight: 781
 url: /cpp/aspose.slides.export/commentspositions/
 ---
 ## CommentsPositions enum

@@ -3,7 +3,7 @@ title: PrintTo()
 second_title: Aspose.Slides for C++ API Reference
 description: Prints value to ostream. Mostly used for debug.
 type: docs
-weight: 1860
+weight: 1977
 url: /cpp/system/printto/
 ---
 ## System::PrintTo(DateTime, std::ostream *) function

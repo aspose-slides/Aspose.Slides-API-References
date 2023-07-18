@@ -3,7 +3,7 @@ title: LightRigPresetType
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define light preset types.
 type: docs
-weight: 5617
+weight: 5643
 url: /cpp/aspose.slides/lightrigpresettype/
 ---
 ## LightRigPresetType enum

@@ -3,7 +3,7 @@ title: StringFormatFlags
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the display and layout information for the strings of text.
 type: docs
-weight: 469
+weight: 482
 url: /cpp/system.drawing/stringformatflags/
 ---
 ## StringFormatFlags enum

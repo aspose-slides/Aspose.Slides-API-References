@@ -3,7 +3,7 @@ title: "Aspose::Slides::Export"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 79
+weight: 92
 url: /cpp/aspose.slides.export/
 ---
 

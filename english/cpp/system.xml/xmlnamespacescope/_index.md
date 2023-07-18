@@ -3,7 +3,7 @@ title: XmlNamespaceScope
 second_title: Aspose.Slides for C++ API Reference
 description: Defines the namespace scope.
 type: docs
-weight: 768
+weight: 794
 url: /cpp/system.xml/xmlnamespacescope/
 ---
 ## XmlNamespaceScope enum

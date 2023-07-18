@@ -3,7 +3,7 @@ title: PlaceholderSize
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the size of a placeholder.
 type: docs
-weight: 5877
+weight: 5903
 url: /cpp/aspose.slides/placeholdersize/
 ---
 ## PlaceholderSize enum

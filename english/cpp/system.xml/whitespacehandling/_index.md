@@ -3,7 +3,7 @@ title: WhitespaceHandling
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how white space is handled.
 type: docs
-weight: 716
+weight: 742
 url: /cpp/system.xml/whitespacehandling/
 ---
 ## WhitespaceHandling enum

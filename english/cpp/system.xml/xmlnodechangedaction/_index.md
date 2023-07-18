@@ -3,7 +3,7 @@ title: XmlNodeChangedAction
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the type of node change.
 type: docs
-weight: 781
+weight: 807
 url: /cpp/system.xml/xmlnodechangedaction/
 ---
 ## XmlNodeChangedAction enum

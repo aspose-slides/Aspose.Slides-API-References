@@ -3,7 +3,7 @@ title: operator<<()
 second_title: Aspose.Slides for C++ API Reference
 description: Insert data into the stream using UTF-8 encoding.
 type: docs
-weight: 638
+weight: 664
 url: /cpp/system.collections.generic/operator_less_less/
 ---
 ## System::Collections::Generic::operator<<(std::ostream\&, const KeyValuePair\<TKey, TValue\>\&) function

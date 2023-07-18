@@ -3,7 +3,7 @@ title: NotesPositions
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the rule to render notes into exported document
 type: docs
-weight: 833
+weight: 846
 url: /cpp/aspose.slides.export/notespositions/
 ---
 ## NotesPositions enum

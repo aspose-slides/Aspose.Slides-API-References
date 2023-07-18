@@ -3,7 +3,7 @@ title: StringAlignment
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the string alignment relative to its layout rectangle.
 type: docs
-weight: 443
+weight: 456
 url: /cpp/system.drawing/stringalignment/
 ---
 ## StringAlignment enum

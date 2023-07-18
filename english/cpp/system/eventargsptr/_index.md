@@ -3,7 +3,7 @@ title: EventArgsPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Shared pointer to an instance of EventArgs class.
 type: docs
-weight: 2393
+weight: 3173
 url: /cpp/system/eventargsptr/
 ---
 ## EventArgsPtr typedef

@@ -3,7 +3,7 @@ title: FileSystemInfoPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::IO::FileSystemInfo class."
 type: docs
-weight: 2289
+weight: 3069
 url: /cpp/system/filesysteminfoptr/
 ---
 ## FileSystemInfoPtr typedef

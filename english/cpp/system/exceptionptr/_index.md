@@ -3,7 +3,7 @@ title: ExceptionPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Type alias used by exception wrappers.
 type: docs
-weight: 2419
+weight: 3199
 url: /cpp/system/exceptionptr/
 ---
 ## ExceptionPtr typedef

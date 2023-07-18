@@ -3,7 +3,7 @@ title: DtdProcessing
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the options for processing DTDs. The DtdProcessing enumeration is used by the XmlReaderSettings class.
 type: docs
-weight: 612
+weight: 638
 url: /cpp/system.xml/dtdprocessing/
 ---
 ## DtdProcessing enum

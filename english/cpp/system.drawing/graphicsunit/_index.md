@@ -3,7 +3,7 @@ title: GraphicsUnit
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a unit of measure.
 type: docs
-weight: 404
+weight: 417
 url: /cpp/system.drawing/graphicsunit/
 ---
 ## GraphicsUnit enum

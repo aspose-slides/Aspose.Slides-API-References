@@ -3,7 +3,7 @@ title: ReadState
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the state of the reader.
 type: docs
-weight: 677
+weight: 703
 url: /cpp/system.xml/readstate/
 ---
 ## ReadState enum

@@ -3,7 +3,7 @@ title: NotNullAreNotEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Not-equal-compares dictionaries of value types.
 type: docs
-weight: 1
+weight: 118
 url: /cpp/system.testpredicates.details.sharedptrasserts/notnullarenotequal/
 ---
 ## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreNotEqual(const char *, const char *, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>\&, const SharedPtr\<System::Collections::Generic::Dictionary\<K, V\>\>\&) function

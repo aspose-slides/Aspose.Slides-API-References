@@ -3,7 +3,7 @@ title: SvgExternalFontsHandling
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a way to handle external fonts used for text drawing.
 type: docs
-weight: 937
+weight: 950
 url: /cpp/aspose.slides.export/svgexternalfontshandling/
 ---
 ## SvgExternalFontsHandling enum

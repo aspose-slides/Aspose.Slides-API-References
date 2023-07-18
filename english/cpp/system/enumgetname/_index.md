@@ -3,7 +3,7 @@ title: EnumGetName()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1860
+weight: 1912
 url: /cpp/system/enumgetname/
 ---
 ## System::EnumGetName(T) function

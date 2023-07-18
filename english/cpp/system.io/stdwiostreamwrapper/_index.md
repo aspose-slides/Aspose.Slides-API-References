@@ -3,7 +3,7 @@ title: STDWIOStreamWrapper
 second_title: Aspose.Slides for C++ API Reference
 description: Specializations of BasicSTDIOStreamWrapper for wchar_t character types.
 type: docs
-weight: 755
+weight: 768
 url: /cpp/system.io/stdwiostreamwrapper/
 ---
 ## STDWIOStreamWrapper typedef

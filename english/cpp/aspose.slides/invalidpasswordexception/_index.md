@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 6397
+weight: 6423
 url: /cpp/aspose.slides/invalidpasswordexception/
 ---
 ## InvalidPasswordException typedef

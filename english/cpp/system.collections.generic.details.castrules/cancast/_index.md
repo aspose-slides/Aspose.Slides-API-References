@@ -3,7 +3,7 @@ title: CanCast()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks the cast possibility.
 type: docs
-weight: 14
+weight: 40
 url: /cpp/system.collections.generic.details.castrules/cancast/
 ---
 ## System::Collections::Generic::Details::CastRules::CanCast(Source) function

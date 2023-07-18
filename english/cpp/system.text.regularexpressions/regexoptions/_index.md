@@ -3,7 +3,7 @@ title: RegexOptions
 second_title: Aspose.Slides for C++ API Reference
 description: Regex options.
 type: docs
-weight: 105
+weight: 118
 url: /cpp/system.text.regularexpressions/regexoptions/
 ---
 ## RegexOptions enum

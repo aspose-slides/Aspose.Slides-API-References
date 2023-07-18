@@ -3,7 +3,7 @@ title: XmlTokenizedType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the XML type for the string. This allows the string to be read as a particular XML type, for example a CDATA section type.
 type: docs
-weight: 690
+weight: 716
 url: /cpp/system.xml/xmltokenizedtype/
 ---
 ## XmlTokenizedType enum

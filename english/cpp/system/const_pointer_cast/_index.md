@@ -3,7 +3,7 @@ title: const_pointer_cast()
 second_title: Aspose.Slides for C++ API Reference
 description: Casts smart pointers using const_cast.
 type: docs
-weight: 1860
+weight: 2536
 url: /cpp/system/const_pointer_cast/
 ---
 ## System::const_pointer_cast(SmartPtr\<X\> const\&) function

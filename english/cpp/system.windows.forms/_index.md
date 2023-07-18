@@ -3,7 +3,7 @@ title: "System::Windows::Forms"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1028
+weight: 1041
 url: /cpp/system.windows.forms/
 ---
 

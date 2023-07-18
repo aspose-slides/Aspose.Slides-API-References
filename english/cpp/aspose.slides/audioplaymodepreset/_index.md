@@ -3,7 +3,7 @@ title: AudioPlayModePreset
 second_title: Aspose.Slides for C++ API Reference
 description: Constants which define how a sound is played.
 type: docs
-weight: 5331
+weight: 5357
 url: /cpp/aspose.slides/audioplaymodepreset/
 ---
 ## AudioPlayModePreset enum

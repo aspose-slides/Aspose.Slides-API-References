@@ -3,7 +3,7 @@ title: NotNullAreEqualImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares arrays or lists.
 type: docs
-weight: 1
+weight: 40
 url: /cpp/system.testpredicates.details.sharedptrasserts/notnullareequalimpl/
 ---
 ## System::TestPredicates::Details::SharedPtrAsserts::NotNullAreEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function

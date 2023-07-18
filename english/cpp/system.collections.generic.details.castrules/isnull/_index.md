@@ -3,7 +3,7 @@ title: IsNull()
 second_title: Aspose.Slides for C++ API Reference
 description: Checks that the represented value is nullptr.
 type: docs
-weight: 14
+weight: 27
 url: /cpp/system.collections.generic.details.castrules/isnull/
 ---
 ## System::Collections::Generic::Details::CastRules::IsNull(T) function

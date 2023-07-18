@@ -431,26 +431,6 @@ url: /cpp/aspose.slides/
 | **bool** [operator==](./operator_equal_equal/)([System::SharedPtr](../system/sharedptr/)\<[Hyperlink](./hyperlink/)\>, [System::SharedPtr](../system/sharedptr/)\<[Hyperlink](./hyperlink/)\>) |  |
 | **bool** [operator!=](./operator_not_equal/)([System::SharedPtr](../system/sharedptr/)\<[FieldType](./fieldtype/)\>, [System::SharedPtr](../system/sharedptr/)\<[FieldType](./fieldtype/)\>) |  |
 | **bool** [operator!=](./operator_not_equal/)([System::SharedPtr](../system/sharedptr/)\<[Hyperlink](./hyperlink/)\>, [System::SharedPtr](../system/sharedptr/)\<[Hyperlink](./hyperlink/)\>) |  |
-| [System::SharedPtr](../system/sharedptr/)\<[IFontData](./ifontdata/)\> [get_LatinFont](./get_latinfont/)() override | Returns the Latin font. Read [IFontData](./ifontdata/). |
-| void [set_LatinFont](./set_latinfont/)([System::SharedPtr](../system/sharedptr/)\<[IFontData](./ifontdata/)\>) override | Sets the Latin font. Write [IFontData](./ifontdata/). |
-| [System::SharedPtr](../system/sharedptr/)\<[IFontData](./ifontdata/)\> [get_EastAsianFont](./get_eastasianfont/)() override | Returns the East Asian font. Read [IFontData](./ifontdata/). |
-| void [set_EastAsianFont](./set_eastasianfont/)([System::SharedPtr](../system/sharedptr/)\<[IFontData](./ifontdata/)\>) override | Sets the East Asian font. Write [IFontData](./ifontdata/). |
-| [System::SharedPtr](../system/sharedptr/)\<[IFontData](./ifontdata/)\> [get_ComplexScriptFont](./get_complexscriptfont/)() override | Returns the complex script font. Read [IFontData](./ifontdata/). |
-| void [set_ComplexScriptFont](./set_complexscriptfont/)([System::SharedPtr](../system/sharedptr/)\<[IFontData](./ifontdata/)\>) override | Sets the complex script font. Write [IFontData](./ifontdata/). |
-| static ASPOSE_SLIDES_LOCAL_API [System::SharedPtr](../system/sharedptr/)\<[System::Collections::Generic::IDictionary](../system.collections.generic/idictionary/)\<[System::String](../system/string/), [System::SharedPtr](../system/sharedptr/)\<Fonts::FontSelectionRule\>\>\> [CreateFontSelectionRulesMap](./createfontselectionrulesmap/)(const [System::ArrayPtr](../system/arrayptr/)\<[System::SharedPtr](../system/sharedptr/)\<Fonts::FontSelectionRule\>\>\&) |  |
-| ASPOSE_SLIDES_LOCAL_API void [Changed](./changed/)() |  |
-| ASPOSE_SLIDES_LOCAL_API void [OnFontsChanged](./onfontschanged/)() |  |
-| [Aspose::Slides::PatternStyle](./patternstyle/) [get_PatternStyle](./get_patternstyle/)() override | Returns the pattern style. Read [Slides::PatternStyle](./patternstyle/). |
-| void [set_PatternStyle](./set_patternstyle/)([Aspose::Slides::PatternStyle](./patternstyle/)) override | Sets the pattern style. Write [Slides::PatternStyle](./patternstyle/). |
-| [System::SharedPtr](../system/sharedptr/)\<[IColorFormat](./icolorformat/)\> [get_ForeColor](./get_forecolor/)() override | Returns the foreground pattern color. Read-only [IColorFormat](./icolorformat/). |
-| [System::SharedPtr](../system/sharedptr/)\<[IColorFormat](./icolorformat/)\> [get_BackColor](./get_backcolor/)() override | Returns the background pattern color. Read-only [IColorFormat](./icolorformat/). |
-| [System::SharedPtr](../system/sharedptr/)\<[System::Drawing::Bitmap](../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../system.drawing/color/), [System::Drawing::Color](../system.drawing/color/)) override | Creates a tile image for the pattern fill with a specified colors. |
-| [System::SharedPtr](../system/sharedptr/)\<[System::Drawing::Bitmap](../system.drawing/bitmap/)\> [GetTileImage](./gettileimage/)([System::Drawing::Color](../system.drawing/color/)) override | Creates a tile image for the pattern fill. |
-| **uint32_t** [get_Version](./get_version/)() override |  |
-| void [CreateChildObjects](./createchildobjects/)() override |  |
-| [System::SharedPtr](../system/sharedptr/)\<[System::Object](../system/object/)\> [CreateRealObject](./createrealobject/)() override |  |
-| virtual  [~PatternFormat](./~patternformat/)() |  |
-| static ASPOSE_SLIDES_LOCAL_API [System::SharedPtr](../system/sharedptr/)\<[System::Collections::Generic::Dictionary](../system.collections.generic/dictionary/)\<**int32_t**, [System::SharedPtr](../system/sharedptr/)\<**PatternFormat::Pattern**\>\>\> [LoadPatterns](./loadpatterns/)([System::String](../system/string/)) |  |
 ## Enums
 
 | Enum | Description |

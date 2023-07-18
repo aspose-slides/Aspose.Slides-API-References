@@ -3,7 +3,7 @@ title: STDIOStreamWrappingMode
 second_title: Aspose.Slides for C++ API Reference
 description: "Specifies the mode of I/O operations that wrappers will perform on std::iostreams-like streams."
 type: docs
-weight: 547
+weight: 560
 url: /cpp/system.io/stdiostreamwrappingmode/
 ---
 ## STDIOStreamWrappingMode enum

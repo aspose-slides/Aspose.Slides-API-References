@@ -3,7 +3,7 @@ title: AreSameImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Are-same-compares smart pointers.
 type: docs
-weight: 1
+weight: 79
 url: /cpp/system.testpredicates/aresameimpl/
 ---
 ## System::TestPredicates::AreSameImpl(const char *, const char *, const T1\&, const T2\&, long long) function

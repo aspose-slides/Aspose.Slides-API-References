@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two key-value pairs using inverse 'equals' semantics.
 type: docs
-weight: 638
+weight: 651
 url: /cpp/system.collections.generic/operator_not_equal/
 ---
 ## System::Collections::Generic::operator!=(const KeyValuePair\<TKey, TValue\>\&, const KeyValuePair\<TKey, TValue\>\&) function

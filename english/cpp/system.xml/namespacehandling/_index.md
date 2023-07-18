@@ -3,7 +3,7 @@ title: NamespaceHandling
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies whether to remove duplicate namespace declarations in the XmlWriter.
 type: docs
-weight: 651
+weight: 677
 url: /cpp/system.xml/namespacehandling/
 ---
 ## NamespaceHandling enum

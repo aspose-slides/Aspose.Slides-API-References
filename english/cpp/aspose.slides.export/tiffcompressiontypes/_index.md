@@ -3,7 +3,7 @@ title: TiffCompressionTypes
 second_title: Aspose.Slides for C++ API Reference
 description: Provides options that control how a presentation is compressed in TIFF format.
 type: docs
-weight: 963
+weight: 976
 url: /cpp/aspose.slides.export/tiffcompressiontypes/
 ---
 ## TiffCompressionTypes enum

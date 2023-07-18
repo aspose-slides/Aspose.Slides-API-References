@@ -3,7 +3,7 @@ title: has_operator_equals
 second_title: Aspose.Slides for C++ API Reference
 description: Dummy typedef to check for operator == existance.
 type: docs
-weight: 209
+weight: 274
 url: /cpp/system.collections.generic.details/has_operator_equals/
 ---
 ## has_operator_equals typedef

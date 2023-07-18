@@ -3,7 +3,7 @@ title: DateTimeFormatDataPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer to hold implementation type.
 type: docs
-weight: 53
+weight: 79
 url: /cpp/system.globalization.details/datetimeformatdataptr/
 ---
 ## DateTimeFormatDataPtr typedef

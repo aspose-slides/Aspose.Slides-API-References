@@ -3,7 +3,7 @@ title: "System::Xml::XPath"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 1093
+weight: 1106
 url: /cpp/system.xml.xpath/
 ---
 

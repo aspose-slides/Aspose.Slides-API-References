@@ -55,9 +55,9 @@ class TimeSpan
 | [TimeSpan](./) [operator-](./operator_minus/)([TimeSpan](./)) const | Returns a new instance of [TimeSpan](./) class that represents a time interval which is the result of subtraction of the time interval represented by the specified object from the time interval represented by the current object. |
 | [TimeSpan](./) [operator-](./operator_minus/)() const | Returns a new instance of [TimeSpan](./) object that represents negated value represented by the current [TimeSpan](./) object. |
 | [TimeSpan](./)\& [operator-=](./operator_minus_equal/)([TimeSpan](./)) | Assigns to the current object the time interval which is the result of subtraction of the time interval represented by the specified object from the time interval represented by the current object. |
-| [TimeSpan](./) [operator/](./operator//)(**double**) const |  |
-| constexpr **double** [operator/](./operator//)([TimeSpan](./)) const |  |
-| [TimeSpan](./)\& [operator/=](./operator/_equal/)(**double**) |  |
+| [TimeSpan](./) [operator/](./operator_div/)(**double**) const |  |
+| constexpr **double** [operator/](./operator_div/)([TimeSpan](./)) const |  |
+| [TimeSpan](./)\& [operator/=](./operator_div_equal/)(**double**) |  |
 | constexpr **bool** [operator<](./operator_less/)([TimeSpan](./)) const | Determines if the time interval represented by the current object is shorter than the time interval represented by the specified object. |
 | constexpr **bool** [operator<](./operator_less/)(std::nullptr_t) const |  |
 | constexpr **bool** [operator<=](./operator_less_equal/)([TimeSpan](./)) const | Determines if the time interval represented by the current object is shorter than or equal to the time interval represented by the specified object. |

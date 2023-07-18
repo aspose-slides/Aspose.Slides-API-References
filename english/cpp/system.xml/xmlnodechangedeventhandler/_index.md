@@ -3,7 +3,7 @@ title: XmlNodeChangedEventHandler
 second_title: Aspose.Slides for C++ API Reference
 description: "Represents the method that handles XmlDocument::NodeChanged, XmlDocument::NodeChanging, XmlDocument::NodeInserted, XmlDocument::NodeInserting, XmlDocument::NodeRemoved and XmlDocument::NodeRemoving events."
 type: docs
-weight: 885
+weight: 911
 url: /cpp/system.xml/xmlnodechangedeventhandler/
 ---
 ## XmlNodeChangedEventHandler typedef

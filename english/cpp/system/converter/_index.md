@@ -3,7 +3,7 @@ title: Converter
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a pointer to the invokable entity that accepts a single argument of the TInput type and returns a value of the TOutput type.
 type: docs
-weight: 2367
+weight: 3147
 url: /cpp/system/converter/
 ---
 ## Converter typedef

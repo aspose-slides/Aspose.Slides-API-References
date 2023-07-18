@@ -3,7 +3,7 @@ title: LineArrowheadLength
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the length of an arrowhead.
 type: docs
-weight: 5643
+weight: 5669
 url: /cpp/aspose.slides/linearrowheadlength/
 ---
 ## LineArrowheadLength enum

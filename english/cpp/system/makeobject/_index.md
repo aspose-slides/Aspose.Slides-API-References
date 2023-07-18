@@ -3,7 +3,7 @@ title: MakeObject()
 second_title: Aspose.Slides for C++ API Reference
 description: Creates object on heap and returns shared pointer to it.
 type: docs
-weight: 1860
+weight: 2484
 url: /cpp/system/makeobject/
 ---
 ## System::MakeObject(Args\&&...) function

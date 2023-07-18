@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 79
+weight: 118
 url: /cpp/aspose.slides.drawing/operator_not_equal/
 ---
 ## Aspose::Slides::Drawing::operator!=(Margin64d, Margin64d) function

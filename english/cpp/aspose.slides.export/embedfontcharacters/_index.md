@@ -3,7 +3,7 @@ title: EmbedFontCharacters
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the rule to use for adding new embedding font into IPresentation
 type: docs
-weight: 794
+weight: 807
 url: /cpp/aspose.slides.export/embedfontcharacters/
 ---
 ## EmbedFontCharacters enum

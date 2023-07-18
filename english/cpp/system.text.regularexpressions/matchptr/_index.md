@@ -3,7 +3,7 @@ title: MatchPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Match pointer.
 type: docs
-weight: 183
+weight: 196
 url: /cpp/system.text.regularexpressions/matchptr/
 ---
 ## MatchPtr typedef

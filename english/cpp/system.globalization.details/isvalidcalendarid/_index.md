@@ -3,7 +3,7 @@ title: IsValidCalendarId()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 14
+weight: 27
 url: /cpp/system.globalization.details/isvalidcalendarid/
 ---
 ## System::Globalization::Details::IsValidCalendarId(CalendarId) function

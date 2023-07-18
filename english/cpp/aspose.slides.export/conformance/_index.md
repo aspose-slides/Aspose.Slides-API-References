@@ -3,7 +3,7 @@ title: Conformance
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the conformance class to which the PresentationML document conforms.
 type: docs
-weight: 781
+weight: 794
 url: /cpp/aspose.slides.export/conformance/
 ---
 ## Conformance enum

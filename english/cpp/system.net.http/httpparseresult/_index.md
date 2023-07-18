@@ -3,7 +3,7 @@ title: HttpParseResult
 second_title: Aspose.Slides for C++ API Reference
 description: Indicates the parsing result.
 type: docs
-weight: 170
+weight: 196
 url: /cpp/system.net.http/httpparseresult/
 ---
 ## HttpParseResult enum

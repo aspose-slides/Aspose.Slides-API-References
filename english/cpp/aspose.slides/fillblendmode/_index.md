@@ -3,7 +3,7 @@ title: FillBlendMode
 second_title: Aspose.Slides for C++ API Reference
 description: Determines blend mode.
 type: docs
-weight: 5487
+weight: 5513
 url: /cpp/aspose.slides/fillblendmode/
 ---
 ## FillBlendMode enum

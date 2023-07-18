@@ -3,7 +3,7 @@ title: IOException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 586
+weight: 599
 url: /cpp/system.io/ioexception/
 ---
 ## IOException typedef

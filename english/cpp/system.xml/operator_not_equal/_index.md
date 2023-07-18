@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: Compares two XmlQualifiedName objects.
 type: docs
-weight: 599
+weight: 612
 url: /cpp/system.xml/operator_not_equal/
 ---
 ## System::Xml::operator!=(const SharedPtr\<XmlQualifiedName\>\&, const SharedPtr\<XmlQualifiedName\>\&) function

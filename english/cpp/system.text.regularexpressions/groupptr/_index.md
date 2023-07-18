@@ -3,7 +3,7 @@ title: GroupPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer to group.
 type: docs
-weight: 157
+weight: 170
 url: /cpp/system.text.regularexpressions/groupptr/
 ---
 ## GroupPtr typedef

@@ -3,7 +3,7 @@ title: PatternStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the pattern style.
 type: docs
-weight: 5838
+weight: 5864
 url: /cpp/aspose.slides/patternstyle/
 ---
 ## PatternStyle enum

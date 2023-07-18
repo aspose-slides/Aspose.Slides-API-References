@@ -3,7 +3,7 @@ title: IsInfinity()
 second_title: Aspose.Slides for C++ API Reference
 description: Determines if the specified value represents infinity.
 type: docs
-weight: 1860
+weight: 2354
 url: /cpp/system/isinfinity/
 ---
 ## System::IsInfinity(const T\&) function

@@ -3,7 +3,7 @@ title: PlatformNotSupportedException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2562
+weight: 3342
 url: /cpp/system/platformnotsupportedexception/
 ---
 ## PlatformNotSupportedException typedef

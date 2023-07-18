@@ -3,7 +3,7 @@ title: EncoderReplacementFallbackBufferPtr
 second_title: Aspose.Slides for C++ API Reference
 description: "An alias for a smart pointer that points to an instance of System::Text::EncoderReplacementFallbackBuffer class."
 type: docs
-weight: 2159
+weight: 2939
 url: /cpp/system/encoderreplacementfallbackbufferptr/
 ---
 ## EncoderReplacementFallbackBufferPtr typedef

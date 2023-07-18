@@ -3,7 +3,7 @@ title: System
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 261
+weight: 274
 url: /cpp/system/
 ---
 
@@ -276,7 +276,7 @@ url: /cpp/system/
 | std::enable_if\<[IsStringPointer](./isstringpointer/)\<T, char_t\>::value, [String](./string/)\>::type [operator+](./operator_plus/)(T\&, const [String](./string/)\&) | [String](./string/) concatenation. |
 | [String](./string/) [operator+](./operator_plus/)(const char_t, const [String](./string/)\&) | [String](./string/) concatenation. |
 | [Decimal](./decimal/) [operator*](./operator_star/)(const T\&, const [Decimal](./decimal/)\&) | Returns a new instance of [Decimal](./decimal/) class that represents a value that is a result of multiplication of the specified value and the value represented by the specified [Decimal](./decimal/) object. |
-| [Decimal](./decimal/) [operator/](./operator//)(const T\&, const [Decimal](./decimal/)\&) | Returns a new instance of [Decimal](./decimal/) class that represents a value that is a result of division of the specified value and the value represented by the specified [Decimal](./decimal/) object. |
+| [Decimal](./decimal/) [operator/](./operator_div/)(const T\&, const [Decimal](./decimal/)\&) | Returns a new instance of [Decimal](./decimal/) class that represents a value that is a result of division of the specified value and the value represented by the specified [Decimal](./decimal/) object. |
 | std::enable_if\<[IsExceptionWrapper](./isexceptionwrapper/)\<T\>::value, constT\&\>::type [Default](./default/)() | Returns the default-constructed instance of the specified type. |
 | std::enable_if<\![IsExceptionWrapper](./isexceptionwrapper/)\<T\>::value, constT\&\>::type [Default](./default/)() | Returns the default-constructed instance of the specified type. |
 | std::enable_if_t\<Details::is_lambda_void_void\<T\>::value\> [DoTryFinally](./dotryfinally/)(T\&&, F\&&) | The sigle function that emulates behavior of C#'s try[-catch]-finally statement. During translation of C#'s try[-catch]-finally statement with translator's option finally_statement_as_lambda set to true, the statement is translated into the invocation of this method. |

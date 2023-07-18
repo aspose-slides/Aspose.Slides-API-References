@@ -3,7 +3,7 @@ title: CastEnumerableTo()
 second_title: Aspose.Slides for C++ API Reference
 description: Performs the explicit casting of elements of the specified enumerable object to different type.
 type: docs
-weight: 1860
+weight: 2562
 url: /cpp/system/castenumerableto/
 ---
 ## System::CastEnumerableTo(const From\&) function

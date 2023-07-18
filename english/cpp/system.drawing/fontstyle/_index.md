@@ -3,7 +3,7 @@ title: FontStyle
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a font style.
 type: docs
-weight: 391
+weight: 404
 url: /cpp/system.drawing/fontstyle/
 ---
 ## FontStyle enum

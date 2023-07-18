@@ -3,7 +3,7 @@ title: IOControlCode
 second_title: Aspose.Slides for C++ API Reference
 description: Enumerates the IO control codes.
 type: docs
-weight: 131
+weight: 157
 url: /cpp/system.net.sockets/iocontrolcode/
 ---
 ## IOControlCode enum

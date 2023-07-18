@@ -3,7 +3,7 @@ title: AreEqualImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Equal-compares floating point with arithmetic types.
 type: docs
-weight: 1
+weight: 27
 url: /cpp/system.testpredicates/areequalimpl/
 ---
 ## System::TestPredicates::AreEqualImpl(const char *, const char *, const T1, const T2, long long) function

@@ -3,7 +3,7 @@ title: ExceptionType
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 742
+weight: 768
 url: /cpp/system.xml/exceptiontype/
 ---
 ## ExceptionType enum

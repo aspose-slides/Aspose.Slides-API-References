@@ -3,7 +3,7 @@ title: CryptographicException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 898
+weight: 989
 url: /cpp/system.security.cryptography/cryptographicexception/
 ---
 ## CryptographicException typedef

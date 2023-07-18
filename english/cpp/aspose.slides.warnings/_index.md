@@ -3,7 +3,7 @@ title: "Aspose::Slides::Warnings"
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 248
+weight: 261
 url: /cpp/aspose.slides.warnings/
 ---
 

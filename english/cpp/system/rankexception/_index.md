@@ -3,7 +3,7 @@ title: RankException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 2705
+weight: 3485
 url: /cpp/system/rankexception/
 ---
 ## RankException typedef

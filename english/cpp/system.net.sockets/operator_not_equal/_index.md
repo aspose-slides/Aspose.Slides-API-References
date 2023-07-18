@@ -3,7 +3,7 @@ title: operator!=()
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 105
+weight: 118
 url: /cpp/system.net.sockets/operator_not_equal/
 ---
 ## System::Net::Sockets::operator!=(IPPacketInformation, IPPacketInformation) function

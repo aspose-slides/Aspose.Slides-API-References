@@ -3,7 +3,7 @@ title: PptxEditException
 second_title: Aspose.Slides for C++ API Reference
 description: 
 type: docs
-weight: 6527
+weight: 6553
 url: /cpp/aspose.slides/pptxeditexception/
 ---
 ## PptxEditException typedef

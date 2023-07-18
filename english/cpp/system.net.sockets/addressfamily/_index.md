@@ -3,7 +3,7 @@ title: AddressFamily
 second_title: Aspose.Slides for C++ API Reference
 description: Enumerates the address families.
 type: docs
-weight: 118
+weight: 144
 url: /cpp/system.net.sockets/addressfamily/
 ---
 ## AddressFamily enum

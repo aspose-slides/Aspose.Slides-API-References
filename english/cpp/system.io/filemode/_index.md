@@ -3,7 +3,7 @@ title: FileMode
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how a file should be opened.
 type: docs
-weight: 482
+weight: 495
 url: /cpp/system.io/filemode/
 ---
 ## FileMode enum

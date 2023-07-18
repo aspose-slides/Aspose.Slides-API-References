@@ -3,7 +3,7 @@ title: StringComparison
 second_title: Aspose.Slides for C++ API Reference
 description: Defines string comparison style.
 type: docs
-weight: 1964
+weight: 2744
 url: /cpp/system/stringcomparison/
 ---
 ## StringComparison enum

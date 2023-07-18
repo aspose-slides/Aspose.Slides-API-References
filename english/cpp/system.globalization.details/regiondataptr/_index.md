@@ -3,7 +3,7 @@ title: RegionDataPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Pointer to hold implementation type.
 type: docs
-weight: 79
+weight: 105
 url: /cpp/system.globalization.details/regiondataptr/
 ---
 ## RegionDataPtr typedef

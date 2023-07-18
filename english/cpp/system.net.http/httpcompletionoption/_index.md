@@ -3,7 +3,7 @@ title: HttpCompletionOption
 second_title: Aspose.Slides for C++ API Reference
 description: Indicates when an HttpClient operation should be completed.
 type: docs
-weight: 157
+weight: 183
 url: /cpp/system.net.http/httpcompletionoption/
 ---
 ## HttpCompletionOption enum

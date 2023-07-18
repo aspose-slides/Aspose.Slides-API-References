@@ -3,7 +3,7 @@ title: AreNotEqual()
 second_title: Aspose.Slides for C++ API Reference
 description: Not-equal-compares arguments for AreEqual assertion translation.
 type: docs
-weight: 1
+weight: 40
 url: /cpp/system.testpredicates/arenotequal/
 ---
 ## System::TestPredicates::AreNotEqual(const char *, const char *, T1\&&, T2\&&) function

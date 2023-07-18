@@ -3,7 +3,7 @@ title: MatchCollectionPtr
 second_title: Aspose.Slides for C++ API Reference
 description: Match collection pointer.
 type: docs
-weight: 196
+weight: 209
 url: /cpp/system.text.regularexpressions/matchcollectionptr/
 ---
 ## MatchCollectionPtr typedef

@@ -3,7 +3,7 @@ title: FileAccess
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies the type of access when opening the file.
 type: docs
-weight: 456
+weight: 469
 url: /cpp/system.io/fileaccess/
 ---
 ## FileAccess enum

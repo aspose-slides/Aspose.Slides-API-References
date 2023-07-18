@@ -3,7 +3,7 @@ title: AreNotEqualImpl()
 second_title: Aspose.Slides for C++ API Reference
 description: Not-equal-compares values one or both of them being Decimal.
 type: docs
-weight: 1
+weight: 53
 url: /cpp/system.testpredicates/arenotequalimpl/
 ---
 ## System::TestPredicates::AreNotEqualImpl(const char *, const char *, const T1\&, const T2\&, long long) function
