@@ -3,7 +3,7 @@ title: PresetColor
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents predefined color presets.
 type: docs
-weight: 454
+weight: 458
 url: /androidjava/com.aspose.slides/presetcolor/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: IVbaReferenceCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a VBA Project references.
 type: docs
-weight: 1097
+weight: 1102
 url: /androidjava/com.aspose.slides/ivbareferencecollection/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: TextCapType
 second_title: Aspose.Slides for Java API Reference
 description: Represents the type of text capitalisation.
 type: docs
-weight: 560
+weight: 564
 url: /java/com.aspose.slides/textcaptype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: TransitionEightDirectionType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent eight direction transition types.
 type: docs
-weight: 585
+weight: 589
 url: /androidjava/com.aspose.slides/transitioneightdirectiontype/
 ---
 **Inheritance:**

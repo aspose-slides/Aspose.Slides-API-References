@@ -3,7 +3,7 @@ title: IColumnFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents format of a table column.
 type: docs
-weight: 724
+weight: 728
 url: /java/com.aspose.slides/icolumnformat/
 ---```
 public interface IColumnFormat

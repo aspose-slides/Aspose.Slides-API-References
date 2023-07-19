@@ -3,7 +3,7 @@ title: IChartSeriesReadonlyCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a readonly collection of
 type: docs
-weight: 706
+weight: 710
 url: /java/com.aspose.slides/ichartseriesreadonlycollection/
 ---
 **All Implemented Interfaces:**

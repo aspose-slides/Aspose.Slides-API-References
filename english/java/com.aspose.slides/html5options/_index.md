@@ -3,7 +3,7 @@ title: Html5Options
 second_title: Aspose.Slides for Java API Reference
 description: Represents a HTML5 exporting options.
 type: docs
-weight: 239
+weight: 240
 url: /java/com.aspose.slides/html5options/
 ---
 **Inheritance:**
@@ -37,7 +37,7 @@ Represents a HTML5 exporting options.
 
 | Constructor | Description |
 | --- | --- |
-| [Html5Options()](#Html5Options--) |  |
+| [Html5Options()](#Html5Options--) | Default constructor. |
 ## Methods
 
 | Method | Description |
@@ -46,11 +46,17 @@ Represents a HTML5 exporting options.
 | [setAnimateTransitions(boolean value)](#setAnimateTransitions-boolean-) | Returns or sets transitions animation option. |
 | [getAnimateShapes()](#getAnimateShapes--) | Returns or sets shapes animation option. |
 | [setAnimateShapes(boolean value)](#setAnimateShapes-boolean-) | Returns or sets shapes animation option. |
+| [getEmbedImages()](#getEmbedImages--) | Returns or sets images embedding option. |
+| [setEmbedImages(boolean value)](#setEmbedImages-boolean-) | Returns or sets images embedding option. |
+| [getOutputPath()](#getOutputPath--) | Determines where external resources should be stored. |
+| [setOutputPath(String value)](#setOutputPath-java.lang.String-) | Determines where external resources should be stored. |
 ### Html5Options() {#Html5Options--}
 ```
 public Html5Options()
 ```
 
+
+Default constructor.
 
 ### getAnimateTransitions() {#getAnimateTransitions--}
 ```
@@ -161,4 +167,112 @@ Returns or sets shapes animation option. Read/write boolean.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean |  |
+
+### getEmbedImages() {#getEmbedImages--}
+```
+public final boolean getEmbedImages()
+```
+
+
+Returns or sets images embedding option. Read/write  boolean .
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      Html5Options html5Options = new Html5Options();
+>      html5Options.setEmbedImages(false);
+>      pres.save("demo-linked-images.html", SaveFormat.Html5, html5Options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setEmbedImages(boolean value) {#setEmbedImages-boolean-}
+```
+public final void setEmbedImages(boolean value)
+```
+
+
+Returns or sets images embedding option. Read/write  boolean .
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      Html5Options html5Options = new Html5Options();
+>      html5Options.setEmbedImages(false);
+>      pres.save("demo-linked-images.html", SaveFormat.Html5, html5Options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getOutputPath() {#getOutputPath--}
+```
+public final String getOutputPath()
+```
+
+
+Determines where external resources should be stored. Read/write String.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      Html5Options html5Options = new Html5Options();
+>      html5Options.setEmbedImages(false);
+>      html5Options.setOutputPath(the_desired_path);
+>      pres.save("demo-linked-images.html", SaveFormat.Html5, html5Options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+java.lang.String
+### setOutputPath(String value) {#setOutputPath-java.lang.String-}
+```
+public final void setOutputPath(String value)
+```
+
+
+Determines where external resources should be stored. Read/write String.
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      Html5Options html5Options = new Html5Options();
+>      html5Options.setEmbedImages(false);
+>      html5Options.setOutputPath(the_desired_path);
+>      pres.save("demo-linked-images.html", SaveFormat.Html5, html5Options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 

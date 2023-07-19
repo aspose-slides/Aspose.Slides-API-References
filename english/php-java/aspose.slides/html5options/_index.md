@@ -16,7 +16,7 @@ url: /php-java/aspose.slides/html5options/
 
 | Name | Description |
 | --- | --- |
-| [Html5Options](html5options)() |  |
+| [Html5Options](html5options)() | Default constructor. |
 
 ## Methods
 
@@ -24,5 +24,9 @@ url: /php-java/aspose.slides/html5options/
 | --- | --- |
 | [getAnimateShapes](getanimateshapes)() | Returns or sets shapes animation option. Read/write boolean. |
 | [getAnimateTransitions](getanimatetransitions)() | Returns or sets transitions animation option. Read/write boolean. |
+| [getEmbedImages](getembedimages)() | Returns or sets images embedding option. Read/write boolean. |
+| [getOutputPath](getoutputpath)() | Determines where external resources should be stored. Read/write String. |
 | [setAnimateShapes](setanimateshapes)(boolean) | Returns or sets shapes animation option. Read/write boolean. |
 | [setAnimateTransitions](setanimatetransitions)(boolean) | Returns or sets transitions animation option. Read/write boolean. |
+| [setEmbedImages](setembedimages)(boolean) | Returns or sets images embedding option. Read/write boolean. |
+| [setOutputPath](setoutputpath)(String) | Determines where external resources should be stored. Read/write String. |

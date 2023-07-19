@@ -3,7 +3,7 @@ title: IPictureEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective picture properties.
 type: docs
-weight: 964
+weight: 969
 url: /androidjava/com.aspose.slides/ipictureeffectivedata/
 ---```
 public interface IPictureEffectiveData

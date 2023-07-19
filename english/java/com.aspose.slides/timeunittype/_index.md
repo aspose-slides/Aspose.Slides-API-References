@@ -3,7 +3,7 @@ title: TimeUnitType
 second_title: Aspose.Slides for Java API Reference
 description: Represents the base unit for the category axis
 type: docs
-weight: 580
+weight: 584
 url: /java/com.aspose.slides/timeunittype/
 ---
 **Inheritance:**

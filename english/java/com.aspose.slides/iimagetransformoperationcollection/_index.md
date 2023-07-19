@@ -3,7 +3,7 @@ title: IImageTransformOperationCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 836
+weight: 840
 url: /java/com.aspose.slides/iimagetransformoperationcollection/
 ---
 **All Implemented Interfaces:**

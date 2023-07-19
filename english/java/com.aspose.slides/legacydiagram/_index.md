@@ -3,7 +3,7 @@ title: LegacyDiagram
 second_title: Aspose.Slides for Java API Reference
 description: Represents a legacy diagram object.
 type: docs
-weight: 268
+weight: 269
 url: /java/com.aspose.slides/legacydiagram/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ShapeCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a shapes.
 type: docs
-weight: 490
+weight: 494
 url: /java/com.aspose.slides/shapecollection/
 ---
 **Inheritance:**
@@ -553,6 +553,7 @@ Creates a new Section Zoom object and inserts it to a collection at the specifie
 >  try {
 >      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
 >      ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().insertSectionZoomFrame(2, 150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

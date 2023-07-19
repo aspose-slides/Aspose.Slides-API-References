@@ -43,24 +43,6 @@ void
 ---
 
 
-## remove([Shape](../../shape) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../../shape) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([SmartArtShape](../../smartartshape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -71,6 +53,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SmartArtShape](../../smartartshape) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([Shape](../../shape) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Shape](../../shape) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -133,24 +133,6 @@ void
 ---
 
 
-## remove([SummaryZoomSection](../../summaryzoomsection) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([ZoomFrame](../../zoomframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -161,6 +143,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomFrame](../../zoomframe) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([SummaryZoomSection](../../summaryzoomsection) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -259,24 +259,6 @@ void
 ---
 
 
-## remove([PictureFrame](../../pictureframe) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -287,6 +269,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([PictureFrame](../../pictureframe) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../../pictureframe) | The shape to remove from the collection. |
 
 ### Returns
 void

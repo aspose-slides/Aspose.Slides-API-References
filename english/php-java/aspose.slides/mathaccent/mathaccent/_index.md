@@ -22,21 +22,6 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 ---
 
 
-## MathAccent([MathMatrix](../../mathmatrix) element)  constructor
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | a math element to apply accent |
-
-
----
-
-
 ## MathAccent([MathLimit](../../mathlimit) element)  constructor
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -47,6 +32,21 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLimit](../../mathlimit) | a math element to apply accent |
+
+
+---
+
+
+## MathAccent([MathMatrix](../../mathmatrix) element)  constructor
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../../mathmatrix) | a math element to apply accent |
 
 
 ---
@@ -112,21 +112,6 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 ---
 
 
-## MathAccent([MathNaryOperator](../../mathnaryoperator) element)  constructor
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | a math element to apply accent |
-
-
----
-
-
 ## MathAccent([MathAccent](../../mathaccent) element)  constructor
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -137,6 +122,21 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathAccent](../../mathaccent) | a math element to apply accent |
+
+
+---
+
+
+## MathAccent([MathNaryOperator](../../mathnaryoperator) element)  constructor
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathNaryOperator](../../mathnaryoperator) | a math element to apply accent |
 
 
 ---
@@ -202,21 +202,6 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 ---
 
 
-## MathAccent([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
-
- Creates a math accent applying to a specified math element with the default accent character value
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | a math element to apply accent |
-
-
----
-
-
 ## MathAccent([MathFunction](../../mathfunction) element)  constructor
 
  Creates a math accent applying to a specified math element with the default accent character value
@@ -227,6 +212,21 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFunction](../../mathfunction) | a math element to apply accent |
+
+
+---
+
+
+## MathAccent([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+
+ Creates a math accent applying to a specified math element with the default accent character value
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | a math element to apply accent |
 
 
 ---
@@ -308,22 +308,6 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 ---
 
 
-## MathAccent([MathMatrix](../../mathmatrix) element, char accentCharacter)  constructor
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-
----
-
-
 ## MathAccent([MathLimit](../../mathlimit) element, char accentCharacter)  constructor
 
  Creates a math accent applying to a specified math element
@@ -334,6 +318,22 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathLimit](../mathlimit) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+
+---
+
+
+## MathAccent([MathMatrix](../../mathmatrix) element, char accentCharacter)  constructor
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 
@@ -404,22 +404,6 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 ---
 
 
-## MathAccent([MathNaryOperator](../../mathnaryoperator) element, char accentCharacter)  constructor
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-
----
-
-
 ## MathAccent([MathAccent](../../mathaccent) element, char accentCharacter)  constructor
 
  Creates a math accent applying to a specified math element
@@ -430,6 +414,22 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathAccent](../mathaccent) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+
+---
+
+
+## MathAccent([MathNaryOperator](../../mathnaryoperator) element, char accentCharacter)  constructor
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 
@@ -500,22 +500,6 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 ---
 
 
-## MathAccent([MathSubscriptElement](../../mathsubscriptelement) element, char accentCharacter)  constructor
-
- Creates a math accent applying to a specified math element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply accent |
-| accentCharacter | char | accent character |
-
-
----
-
-
 ## MathAccent([MathFunction](../../mathfunction) element, char accentCharacter)  constructor
 
  Creates a math accent applying to a specified math element
@@ -526,6 +510,22 @@ url: /php-java/aspose.slides/mathaccent/mathaccent/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFunction](../mathfunction) | math element to apply accent |
+| accentCharacter | char | accent character |
+
+
+---
+
+
+## MathAccent([MathSubscriptElement](../../mathsubscriptelement) element, char accentCharacter)  constructor
+
+ Creates a math accent applying to a specified math element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply accent |
 | accentCharacter | char | accent character |
 
 

@@ -3,7 +3,7 @@ title: ThreeDFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents 3-D properties.
 type: docs
-weight: 574
+weight: 578
 url: /androidjava/com.aspose.slides/threedformat/
 ---
 **Inheritance:**

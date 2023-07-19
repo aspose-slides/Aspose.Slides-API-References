@@ -3,7 +3,7 @@ title: PictureFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents a frame with a picture inside.
 type: docs
-weight: 418
+weight: 422
 url: /java/com.aspose.slides/pictureframe/
 ---
 **Inheritance:**

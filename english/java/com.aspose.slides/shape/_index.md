@@ -3,7 +3,7 @@ title: Shape
 second_title: Aspose.Slides for Java API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 488
+weight: 492
 url: /java/com.aspose.slides/shape/
 ---
 **Inheritance:**

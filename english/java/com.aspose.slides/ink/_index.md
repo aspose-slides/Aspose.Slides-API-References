@@ -3,7 +3,7 @@ title: Ink
 second_title: Aspose.Slides for Java API Reference
 description: Represents an ink object on a slide.
 type: docs
-weight: 256
+weight: 257
 url: /java/com.aspose.slides/ink/
 ---
 **Inheritance:**

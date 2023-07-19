@@ -3,7 +3,7 @@ title: ISvgTSpan
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents options for SVG text portion tspan.
 type: docs
-weight: 1057
+weight: 1062
 url: /androidjava/com.aspose.slides/isvgtspan/
 ---```
 public interface ISvgTSpan

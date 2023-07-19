@@ -43,24 +43,6 @@ int
 ---
 
 
-## indexOf([Shape](../../shape) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../../shape) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([SmartArtShape](../../smartartshape) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -71,6 +53,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SmartArtShape](../../smartartshape) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([Shape](../../shape) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Shape](../../shape) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -133,24 +133,6 @@ int
 ---
 
 
-## indexOf([SummaryZoomSection](../../summaryzoomsection) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([ZoomFrame](../../zoomframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -161,6 +143,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomFrame](../../zoomframe) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([SummaryZoomSection](../../summaryzoomsection) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | The shape to locate in the collection. |
 
 ### Returns
 int
@@ -259,24 +259,6 @@ int
 ---
 
 
-## indexOf([PictureFrame](../../pictureframe) shape)  method
-
- Returns the zero-based index of the first occurrence of a shape in the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | The shape to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns the zero-based index of the first occurrence of a shape in the collection.
@@ -287,6 +269,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SectionZoomFrame](../../sectionzoomframe) | The shape to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([PictureFrame](../../pictureframe) shape)  method
+
+ Returns the zero-based index of the first occurrence of a shape in the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../../pictureframe) | The shape to locate in the collection. |
 
 ### Returns
 int

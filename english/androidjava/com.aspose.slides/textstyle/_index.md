@@ -3,7 +3,7 @@ title: TextStyle
 second_title: Aspose.Slides for Android via Java API Reference
 description: This class contains the text style formatting properties.
 type: docs
-weight: 568
+weight: 572
 url: /androidjava/com.aspose.slides/textstyle/
 ---
 **Inheritance:**

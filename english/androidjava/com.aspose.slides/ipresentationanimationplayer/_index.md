@@ -3,7 +3,7 @@ title: IPresentationAnimationPlayer
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a player of the animation.
 type: docs
-weight: 981
+weight: 986
 url: /androidjava/com.aspose.slides/ipresentationanimationplayer/
 ---```
 public interface IPresentationAnimationPlayer

@@ -3,7 +3,7 @@ title: IChartCellCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of a cells with data.
 type: docs
-weight: 687
+weight: 691
 url: /java/com.aspose.slides/ichartcellcollection/
 ---
 **All Implemented Interfaces:**

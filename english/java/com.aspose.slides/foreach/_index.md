@@ -3,7 +3,7 @@ title: ForEach
 second_title: Aspose.Slides for Java API Reference
 description: Represents a group of methods intended to iterate over different  model objects.
 type: docs
-weight: 215
+weight: 216
 url: /java/com.aspose.slides/foreach/
 ---
 **Inheritance:**
@@ -21,7 +21,6 @@ Represents a group of methods intended to iterate over different [Presentation](
 >  try {
 >      ForEach.portion(pres, (portion, para, slide, index) ->
 >          portion.getPortionFormat().setLatinFont(new FontData("Times New Roman")));
-> 
 >      pres.save("pres-out.pptx", SaveFormat.Pptx);
 >  } finally {
 >      if (pres != null) pres.dispose();

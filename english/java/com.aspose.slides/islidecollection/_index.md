@@ -3,7 +3,7 @@ title: ISlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a slides.
 type: docs
-weight: 1031
+weight: 1036
 url: /java/com.aspose.slides/islidecollection/
 ---
 **All Implemented Interfaces:**

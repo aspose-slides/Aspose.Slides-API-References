@@ -3,7 +3,7 @@ title: PortionFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: This class contains the text portion formatting properties.
 type: docs
-weight: 432
+weight: 436
 url: /androidjava/com.aspose.slides/portionformat/
 ---
 **Inheritance:**

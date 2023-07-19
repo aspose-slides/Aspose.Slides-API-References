@@ -3,7 +3,7 @@ title: IAlphaModulate
 second_title: Aspose.Slides for Java API Reference
 description: Represents an Alpha Modulate effect.
 type: docs
-weight: 637
+weight: 641
 url: /java/com.aspose.slides/ialphamodulate/
 ---
 **All Implemented Interfaces:**

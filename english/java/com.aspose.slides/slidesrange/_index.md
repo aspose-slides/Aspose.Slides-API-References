@@ -3,7 +3,7 @@ title: SlidesRange
 second_title: Aspose.Slides for Java API Reference
 description: Slides range
 type: docs
-weight: 517
+weight: 521
 url: /java/com.aspose.slides/slidesrange/
 ---
 **Inheritance:**

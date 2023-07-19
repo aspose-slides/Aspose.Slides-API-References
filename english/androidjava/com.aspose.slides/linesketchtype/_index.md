@@ -3,7 +3,7 @@ title: LineSketchType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents which sketch type or effect a shape has been assigned.
 type: docs
-weight: 288
+weight: 289
 url: /androidjava/com.aspose.slides/linesketchtype/
 ---
 **Inheritance:**

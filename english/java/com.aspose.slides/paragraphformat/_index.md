@@ -3,7 +3,7 @@ title: ParagraphFormat
 second_title: Aspose.Slides for Java API Reference
 description: This class contains the paragraph formatting properties.
 type: docs
-weight: 403
+weight: 407
 url: /java/com.aspose.slides/paragraphformat/
 ---
 **Inheritance:**

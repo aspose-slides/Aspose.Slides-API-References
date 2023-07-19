@@ -3,7 +3,7 @@ title: IChartData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents data used for a chart plotting.
 type: docs
-weight: 689
+weight: 693
 url: /androidjava/com.aspose.slides/ichartdata/
 ---```
 public interface IChartData

@@ -3,7 +3,7 @@ title: FormatScheme
 second_title: Aspose.Slides for Java API Reference
 description: Stores theme-defined formats for the shapes.
 type: docs
-weight: 218
+weight: 219
 url: /java/com.aspose.slides/formatscheme/
 ---
 **Inheritance:**

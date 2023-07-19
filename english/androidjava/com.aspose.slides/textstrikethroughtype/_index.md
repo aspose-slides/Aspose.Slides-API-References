@@ -3,7 +3,7 @@ title: TextStrikethroughType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the type of text strikethrough.
 type: docs
-weight: 567
+weight: 571
 url: /androidjava/com.aspose.slides/textstrikethroughtype/
 ---
 **Inheritance:**

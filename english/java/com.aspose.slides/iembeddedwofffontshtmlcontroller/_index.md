@@ -3,7 +3,7 @@ title: IEmbeddedWoffFontsHtmlController
 second_title: Aspose.Slides for Java API Reference
 description: Embedded woff fonts html controller.
 type: docs
-weight: 764
+weight: 768
 url: /java/com.aspose.slides/iembeddedwofffontshtmlcontroller/
 ---
 **All Implemented Interfaces:**

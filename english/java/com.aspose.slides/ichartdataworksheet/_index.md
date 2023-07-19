@@ -3,7 +3,7 @@ title: IChartDataWorksheet
 second_title: Aspose.Slides for Java API Reference
 description: Represents worksheet associated with
 type: docs
-weight: 696
+weight: 700
 url: /java/com.aspose.slides/ichartdataworksheet/
 ---```
 public interface IChartDataWorksheet

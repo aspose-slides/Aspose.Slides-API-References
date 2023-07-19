@@ -3,7 +3,7 @@ title: MathParagraphFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math paragraph
 type: docs
-weight: 346
+weight: 349
 url: /java/com.aspose.slides/mathparagraphfactory/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: FontSubstitutionInfo
 second_title: Aspose.Slides for Java API Reference
 description: This structure represents the information about the font replacement when it will be rendered.
 type: docs
-weight: 211
+weight: 212
 url: /java/com.aspose.slides/fontsubstitutioninfo/
 ---
 **Inheritance:**

@@ -55,24 +55,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([Shape](../../shape) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Shape](../../shape) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([SmartArtShape](../../smartartshape) shape)  method
 
  Returns all elements 
@@ -83,6 +65,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SmartArtShape](../../smartartshape) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([Shape](../../shape) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Shape](../../shape) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -145,24 +145,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([SummaryZoomSection](../../summaryzoomsection) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [SummaryZoomSection](../../summaryzoomsection) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([ZoomFrame](../../zoomframe) shape)  method
 
  Returns all elements 
@@ -173,6 +155,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [ZoomFrame](../../zoomframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([SummaryZoomSection](../../summaryzoomsection) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [SummaryZoomSection](../../summaryzoomsection) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -271,24 +271,6 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([PictureFrame](../../pictureframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns all elements 
@@ -299,6 +281,24 @@ url: /php-java/aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [SectionZoomFrame](../../sectionzoomframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([PictureFrame](../../pictureframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [PictureFrame](../../pictureframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)

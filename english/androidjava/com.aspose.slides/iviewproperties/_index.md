@@ -3,7 +3,7 @@ title: IViewProperties
 second_title: Aspose.Slides for Android via Java API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 1107
+weight: 1112
 url: /androidjava/com.aspose.slides/iviewproperties/
 ---```
 public interface IViewProperties

@@ -3,7 +3,7 @@ title: InterruptionTokenSource
 second_title: Aspose.Slides for Java API Reference
 description: Represents the source of .
 type: docs
-weight: 260
+weight: 261
 url: /java/com.aspose.slides/interruptiontokensource/
 ---
 **Inheritance:**

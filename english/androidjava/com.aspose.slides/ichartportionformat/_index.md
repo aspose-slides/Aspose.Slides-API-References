@@ -3,7 +3,7 @@ title: IChartPortionFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the chart portion formatting properties used in charts.
 type: docs
-weight: 701
+weight: 705
 url: /androidjava/com.aspose.slides/ichartportionformat/
 ---
 **All Implemented Interfaces:**

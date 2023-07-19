@@ -3,7 +3,7 @@ title: TableFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents format of a table.
 type: docs
-weight: 551
+weight: 555
 url: /java/com.aspose.slides/tableformat/
 ---
 **Inheritance:**

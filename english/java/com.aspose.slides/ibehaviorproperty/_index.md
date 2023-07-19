@@ -3,7 +3,7 @@ title: IBehaviorProperty
 second_title: Aspose.Slides for Java API Reference
 description: Represent property types for animation behavior.
 type: docs
-weight: 667
+weight: 671
 url: /java/com.aspose.slides/ibehaviorproperty/
 ---```
 public interface IBehaviorProperty

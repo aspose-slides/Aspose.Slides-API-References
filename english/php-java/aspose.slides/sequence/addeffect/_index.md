@@ -49,7 +49,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([Shape](../../shape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SmartArtShape](../../smartartshape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -58,7 +58,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](../shape) | Shape object IShape for adding an effect |
+| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -70,7 +70,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([SmartArtShape](../../smartartshape) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Shape](../../shape) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -79,7 +79,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SmartArtShape](../smartartshape) | Shape object IShape for adding an effect |
+| shape | [Shape](../shape) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -154,7 +154,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([SummaryZoomSection](../../summaryzoomsection) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([ZoomFrame](../../zoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -163,7 +163,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SummaryZoomSection](../summaryzoomsection) | Shape object IShape for adding an effect |
+| shape | [ZoomFrame](../zoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -175,7 +175,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([ZoomFrame](../../zoomframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SummaryZoomSection](../../summaryzoomsection) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -184,7 +184,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [ZoomFrame](../zoomframe) | Shape object IShape for adding an effect |
+| shape | [SummaryZoomSection](../summaryzoomsection) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -301,7 +301,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([PictureFrame](../../pictureframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([SectionZoomFrame](../../sectionzoomframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -310,7 +310,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [PictureFrame](../pictureframe) | Shape object IShape for adding an effect |
+| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -322,7 +322,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([SectionZoomFrame](../../sectionzoomframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([PictureFrame](../../pictureframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -331,7 +331,7 @@ url: /php-java/aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [SectionZoomFrame](../sectionzoomframe) | Shape object IShape for adding an effect |
+| shape | [PictureFrame](../pictureframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |

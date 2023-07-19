@@ -3,7 +3,7 @@ title: IErrorBarsFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents error bars of chart series.
 type: docs
-weight: 767
+weight: 771
 url: /java/com.aspose.slides/ierrorbarsformat/
 ---
 **All Implemented Interfaces:**

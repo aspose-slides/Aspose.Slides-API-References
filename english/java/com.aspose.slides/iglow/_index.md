@@ -3,7 +3,7 @@ title: IGlow
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Glow effect in which a color blurred outline  is added outside the edges of the object.
 type: docs
-weight: 807
+weight: 811
 url: /java/com.aspose.slides/iglow/
 ---
 **All Implemented Interfaces:**

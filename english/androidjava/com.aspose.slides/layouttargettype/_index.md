@@ -3,7 +3,7 @@ title: LayoutTargetType
 second_title: Aspose.Slides for Android via Java API Reference
 description: If layout of the plot area defined manually this property specifies whether  to layout the plot area by its inside not including axis and axis labels or outside including axis and axis labels.
 type: docs
-weight: 266
+weight: 267
 url: /androidjava/com.aspose.slides/layouttargettype/
 ---
 **Inheritance:**

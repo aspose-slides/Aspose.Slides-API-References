@@ -3,7 +3,7 @@ title: TemplateContext
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a model object interface for a template engine.
 type: docs
-weight: 554
+weight: 558
 url: /androidjava/com.aspose.slides/templatecontext/
 ---
 **Inheritance:**

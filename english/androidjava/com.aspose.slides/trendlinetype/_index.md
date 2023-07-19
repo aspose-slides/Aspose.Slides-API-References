@@ -3,7 +3,7 @@ title: TrendlineType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents type of trend line
 type: docs
-weight: 598
+weight: 602
 url: /androidjava/com.aspose.slides/trendlinetype/
 ---
 **Inheritance:**

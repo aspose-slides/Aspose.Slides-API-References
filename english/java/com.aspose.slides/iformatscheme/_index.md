@@ -3,7 +3,7 @@ title: IFormatScheme
 second_title: Aspose.Slides for Java API Reference
 description: Stores theme-defined formats for the shapes.
 type: docs
-weight: 797
+weight: 801
 url: /java/com.aspose.slides/iformatscheme/
 ---
 **All Implemented Interfaces:**

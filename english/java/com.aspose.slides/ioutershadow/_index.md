@@ -3,7 +3,7 @@ title: IOuterShadow
 second_title: Aspose.Slides for Java API Reference
 description: Represents an Outer Shadow effect.
 type: docs
-weight: 946
+weight: 951
 url: /java/com.aspose.slides/ioutershadow/
 ---
 **All Implemented Interfaces:**

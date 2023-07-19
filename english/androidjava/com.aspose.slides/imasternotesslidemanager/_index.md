@@ -3,7 +3,7 @@ title: IMasterNotesSlideManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Master notes slide manager.
 type: docs
-weight: 875
+weight: 880
 url: /androidjava/com.aspose.slides/imasternotesslidemanager/
 ---```
 public interface IMasterNotesSlideManager

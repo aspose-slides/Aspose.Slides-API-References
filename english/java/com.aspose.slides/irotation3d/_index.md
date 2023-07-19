@@ -3,7 +3,7 @@ title: IRotation3D
 second_title: Aspose.Slides for Java API Reference
 description: Represents 3D rotation of a chart.
 type: docs
-weight: 1001
+weight: 1006
 url: /java/com.aspose.slides/irotation3d/
 ---```
 public interface IRotation3D

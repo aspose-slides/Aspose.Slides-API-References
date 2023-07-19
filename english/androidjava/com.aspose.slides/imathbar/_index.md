@@ -3,7 +3,7 @@ title: IMathBar
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the bar function consisting of a base argument and an overbar or underbar
 type: docs
-weight: 886
+weight: 891
 url: /androidjava/com.aspose.slides/imathbar/
 ---
 **All Implemented Interfaces:**

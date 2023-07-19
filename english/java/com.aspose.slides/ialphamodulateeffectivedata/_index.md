@@ -3,7 +3,7 @@ title: IAlphaModulateEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which represents an Alpha Modulate effect.
 type: docs
-weight: 638
+weight: 642
 url: /java/com.aspose.slides/ialphamodulateeffectivedata/
 ---
 **All Implemented Interfaces:**

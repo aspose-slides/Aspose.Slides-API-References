@@ -3,7 +3,7 @@ title: SwfOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control how a presentation is saved in Swf format.
 type: docs
-weight: 544
+weight: 548
 url: /androidjava/com.aspose.slides/swfoptions/
 ---
 **Inheritance:**

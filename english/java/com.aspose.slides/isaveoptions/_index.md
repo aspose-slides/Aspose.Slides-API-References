@@ -3,7 +3,7 @@ title: ISaveOptions
 second_title: Aspose.Slides for Java API Reference
 description: Options that control how a presentation is saved.
 type: docs
-weight: 1008
+weight: 1013
 url: /java/com.aspose.slides/isaveoptions/
 ---```
 public interface ISaveOptions

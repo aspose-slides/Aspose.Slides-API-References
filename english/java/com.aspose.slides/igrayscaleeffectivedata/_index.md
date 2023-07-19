@@ -3,7 +3,7 @@ title: IGrayScaleEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which representsepresents a Gray Scale effect.
 type: docs
-weight: 818
+weight: 822
 url: /java/com.aspose.slides/igrayscaleeffectivedata/
 ---
 **All Implemented Interfaces:**

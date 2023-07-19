@@ -3,7 +3,7 @@ title: Hyperlink
 second_title: Aspose.Slides for Java API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 244
+weight: 245
 url: /java/com.aspose.slides/hyperlink/
 ---
 **Inheritance:**

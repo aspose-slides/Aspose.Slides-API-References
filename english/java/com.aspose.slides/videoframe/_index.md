@@ -3,7 +3,7 @@ title: VideoFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 609
+weight: 613
 url: /java/com.aspose.slides/videoframe/
 ---
 **Inheritance:**

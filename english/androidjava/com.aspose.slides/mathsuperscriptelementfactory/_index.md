@@ -3,7 +3,7 @@ title: MathSuperscriptElementFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create IMathSuperscriptElement
 type: docs
-weight: 357
+weight: 360
 url: /androidjava/com.aspose.slides/mathsuperscriptelementfactory/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: SvgImage
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an SVG image.
 type: docs
-weight: 541
+weight: 545
 url: /androidjava/com.aspose.slides/svgimage/
 ---
 **Inheritance:**

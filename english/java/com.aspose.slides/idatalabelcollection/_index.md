@@ -3,7 +3,7 @@ title: IDataLabelCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a series labels.
 type: docs
-weight: 742
+weight: 746
 url: /java/com.aspose.slides/idatalabelcollection/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: VbaProject
 second_title: Aspose.Slides for Java API Reference
 description: Represents VBA project with presentation macros.
 type: docs
-weight: 602
+weight: 606
 url: /java/com.aspose.slides/vbaproject/
 ---
 **Inheritance:**

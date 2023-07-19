@@ -31,7 +31,7 @@ void
 ---
 
 
-## removeByShape([Shape](../../shape) shape)  method
+## removeByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -43,7 +43,7 @@ void
 ---
 
 
-## removeByShape([SmartArtShape](../../smartartshape) shape)  method
+## removeByShape([Shape](../../shape) shape)  method
 
  Remove effect for the specified shape.
  
@@ -91,7 +91,7 @@ void
 ---
 
 
-## removeByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
+## removeByShape([ZoomFrame](../../zoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -103,7 +103,7 @@ void
 ---
 
 
-## removeByShape([ZoomFrame](../../zoomframe) shape)  method
+## removeByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Remove effect for the specified shape.
  
@@ -175,7 +175,7 @@ void
 ---
 
 
-## removeByShape([PictureFrame](../../pictureframe) shape)  method
+## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -187,7 +187,7 @@ void
 ---
 
 
-## removeByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
+## removeByShape([PictureFrame](../../pictureframe) shape)  method
 
  Remove effect for the specified shape.
  

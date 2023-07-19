@@ -3,7 +3,7 @@ title: LoadingStreamBehavior
 second_title: Aspose.Slides for Android via Java API Reference
 description: The java.io.InputStream passed to a method is considered as a Binary Large Object BLOB see  description.
 type: docs
-weight: 293
+weight: 294
 url: /androidjava/com.aspose.slides/loadingstreambehavior/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ITextStyleEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which contains effective text style properties.
 type: docs
-weight: 1075
+weight: 1080
 url: /java/com.aspose.slides/itextstyleeffectivedata/
 ---```
 public interface ITextStyleEffectiveData

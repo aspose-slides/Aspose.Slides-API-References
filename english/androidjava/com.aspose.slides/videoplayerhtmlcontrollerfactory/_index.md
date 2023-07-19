@@ -3,7 +3,7 @@ title: VideoPlayerHtmlControllerFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create VideoPlayerHtmlController.
 type: docs
-weight: 612
+weight: 616
 url: /androidjava/com.aspose.slides/videoplayerhtmlcontrollerfactory/
 ---
 **Inheritance:**

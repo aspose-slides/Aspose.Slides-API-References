@@ -3,7 +3,7 @@ title: LineCapStyle
 second_title: Aspose.Slides for Java API Reference
 description: Represents the line cap style.
 type: docs
-weight: 282
+weight: 283
 url: /java/com.aspose.slides/linecapstyle/
 ---
 **Inheritance:**

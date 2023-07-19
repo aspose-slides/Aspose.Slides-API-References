@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 292
+weight: 293
 url: /androidjava/com.aspose.slides/loadoptions/
 ---
 **Inheritance:**
@@ -390,12 +390,12 @@ Specifies sources for external fonts to be used by the presentation. These fonts
 > ```
 > The following example shows how to specify custom fonts used with PowerPoint Presentation.
 >  
->  File file = new File("customfonts\\CustomFont1.ttf");
+>  File file = new File("customfonts/CustomFont1.ttf");
 >  byte memoryFont1[] = new byte[(int) file.length()];
 >  BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
 >  DataInputStream dis = new DataInputStream(bis);
 >  dis.readFully(memoryFont1);
->  file = new File("customfonts\\CustomFont2.ttf");
+>  file = new File("customfonts/CustomFont2.ttf");
 >  byte memoryFont2[] = new byte[(int) file.length()];
 >  bis = new BufferedInputStream(new FileInputStream(file));
 >  dis = new DataInputStream(bis);
@@ -427,12 +427,12 @@ Specifies sources for external fonts to be used by the presentation. These fonts
 > ```
 > The following example shows how to specify custom fonts used with PowerPoint Presentation.
 >  
->  File file = new File("customfonts\\CustomFont1.ttf");
+>  File file = new File("customfonts/CustomFont1.ttf");
 >  byte memoryFont1[] = new byte[(int) file.length()];
 >  BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
 >  DataInputStream dis = new DataInputStream(bis);
 >  dis.readFully(memoryFont1);
->  file = new File("customfonts\\CustomFont2.ttf");
+>  file = new File("customfonts/CustomFont2.ttf");
 >  byte memoryFont2[] = new byte[(int) file.length()];
 >  bis = new BufferedInputStream(new FileInputStream(file));
 >  dis = new DataInputStream(bis);

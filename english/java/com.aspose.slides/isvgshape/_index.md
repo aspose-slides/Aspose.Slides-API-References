@@ -3,7 +3,7 @@ title: ISvgShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 1054
+weight: 1059
 url: /java/com.aspose.slides/isvgshape/
 ---```
 public interface ISvgShape

@@ -3,7 +3,7 @@ title: IConnectorLock
 second_title: Aspose.Slides for Java API Reference
 description: Determines which operations are disabled on the parent Connector.
 type: docs
-weight: 733
+weight: 737
 url: /java/com.aspose.slides/iconnectorlock/
 ---
 **All Implemented Interfaces:**

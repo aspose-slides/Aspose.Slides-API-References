@@ -3,7 +3,7 @@ title: Presentation
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 445
+weight: 449
 url: /androidjava/com.aspose.slides/presentation/
 ---
 **Inheritance:**
@@ -352,17 +352,9 @@ Returns a list of all slides that are defined in the presentation. Read-only [IS
 >          // Add image to presentation's images collection
 >          IPPImage imgx = pres.getImages().addImage(fos);
 >          pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->             } catch (IOException e) {
->                  e.printStackTrace();
->             }
->         }
->     }
+>          if (fos != null) fos.close();
+>      }
 >      // Write the presentation to disk
 >      pres.save("ContentBG_Img_out.pptx", SaveFormat.Pptx);
 >  } catch (IOException e) { }
@@ -567,18 +559,11 @@ Returns a list of all master slides that are defined in the presentation. Read-o
 >          fos = new FileInputStream("image.png");
 >          IPPImage image = pres.getImages().addImage(fos);
 >          masterSlide.getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
 >      pres.save("pres.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -812,16 +797,8 @@ Returns the collection of all images in the presentation. Read-only [IImageColle
 >          IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
 >          pictureFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
 >          pictureFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
 >      pres.save("pres-out.pptx", SaveFormat.Pptx);
 >  } catch (IOException e){ }
@@ -855,19 +832,12 @@ Returns the collection of all embedded audio files in the presentation. Read-onl
 >          IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(10, 10, 100, 100, audio);
 >          audioFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
 >          audioFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
 >      pres.save("pres-out.pptx", SaveFormat.Pptx);
 >  }
+>  catch (IOException e) {}
 >  finally
 >  {
 >      if (pres != null) pres.dispose();
@@ -1660,7 +1630,7 @@ Saves specified slides of a presentation to a stream in the specified format wit
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
->      com.aspose.slides.android.Size size = new Size(960, 720);
+>      com.aspose.slides.android.Size size = new com.aspose.slides.android.Size(960, 720);
 >      for (int index = 0; index < pres.getSlides().size(); index++) {
 >          ISlide slide = pres.getSlides().get_Item(index);
 >          FileOutputStream out = new FileOutputStream("slide_" + index + ".png");

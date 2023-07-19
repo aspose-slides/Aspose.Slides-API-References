@@ -3,7 +3,7 @@ title: IDuotone
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Duotone effect.
 type: docs
-weight: 750
+weight: 754
 url: /androidjava/com.aspose.slides/iduotone/
 ---
 **All Implemented Interfaces:**

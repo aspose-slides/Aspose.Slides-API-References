@@ -3,7 +3,7 @@ title: TabAlignment
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the tab alignment.
 type: docs
-weight: 547
+weight: 551
 url: /androidjava/com.aspose.slides/tabalignment/
 ---
 **Inheritance:**

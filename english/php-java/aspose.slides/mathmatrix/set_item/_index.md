@@ -26,7 +26,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathMatrix](../../mathmatrix) value)  method
+## set_Item(int row, int column, [MathLimit](../../mathlimit) value)  method
 
  Element of matrix
  
@@ -45,7 +45,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathLimit](../../mathlimit) value)  method
+## set_Item(int row, int column, [MathMatrix](../../mathmatrix) value)  method
 
  Element of matrix
  
@@ -140,7 +140,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathNaryOperator](../../mathnaryoperator) value)  method
+## set_Item(int row, int column, [MathAccent](../../mathaccent) value)  method
 
  Element of matrix
  
@@ -159,7 +159,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathAccent](../../mathaccent) value)  method
+## set_Item(int row, int column, [MathNaryOperator](../../mathnaryoperator) value)  method
 
  Element of matrix
  
@@ -254,7 +254,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathSubscriptElement](../../mathsubscriptelement) value)  method
+## set_Item(int row, int column, [MathFunction](../../mathfunction) value)  method
 
  Element of matrix
  
@@ -273,7 +273,7 @@ void
 ---
 
 
-## set_Item(int row, int column, [MathFunction](../../mathfunction) value)  method
+## set_Item(int row, int column, [MathSubscriptElement](../../mathsubscriptelement) value)  method
 
  Element of matrix
  

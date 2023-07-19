@@ -3,7 +3,7 @@ title: QuartileMethodType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Returns type of quartile method
 type: docs
-weight: 461
+weight: 465
 url: /androidjava/com.aspose.slides/quartilemethodtype/
 ---
 **Inheritance:**

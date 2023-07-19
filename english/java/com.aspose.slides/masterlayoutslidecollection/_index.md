@@ -3,7 +3,7 @@ title: MasterLayoutSlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collections of all layout slides of defined master slide.
 type: docs
-weight: 299
+weight: 302
 url: /java/com.aspose.slides/masterlayoutslidecollection/
 ---
 **Inheritance:**

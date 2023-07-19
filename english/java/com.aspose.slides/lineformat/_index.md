@@ -3,7 +3,7 @@ title: LineFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents format of a line.
 type: docs
-weight: 285
+weight: 286
 url: /java/com.aspose.slides/lineformat/
 ---
 **Inheritance:**

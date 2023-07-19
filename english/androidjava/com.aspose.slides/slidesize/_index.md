@@ -3,7 +3,7 @@ title: SlideSize
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a size of slide.
 type: docs
-weight: 512
+weight: 516
 url: /androidjava/com.aspose.slides/slidesize/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: IColumnCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of columns in a table.
 type: docs
-weight: 723
+weight: 727
 url: /java/com.aspose.slides/icolumncollection/
 ---
 **All Implemented Interfaces:**

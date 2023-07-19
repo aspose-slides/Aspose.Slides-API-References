@@ -3,7 +3,7 @@ title: TransitionPattern
 second_title: Aspose.Slides for Java API Reference
 description: Specifies a geometric pattern that tiles together to fill a larger area.
 type: docs
-weight: 589
+weight: 593
 url: /java/com.aspose.slides/transitionpattern/
 ---
 **Inheritance:**

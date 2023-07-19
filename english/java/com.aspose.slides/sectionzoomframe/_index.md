@@ -3,7 +3,7 @@ title: SectionZoomFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Section Zoom object in a slide.
 type: docs
-weight: 484
+weight: 488
 url: /java/com.aspose.slides/sectionzoomframe/
 ---
 **Inheritance:**

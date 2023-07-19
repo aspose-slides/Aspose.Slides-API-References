@@ -3,7 +3,7 @@ title: ITiming
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents animation timing.
 type: docs
-weight: 1085
+weight: 1090
 url: /androidjava/com.aspose.slides/itiming/
 ---```
 public interface ITiming

@@ -3,7 +3,7 @@ title: IChartDataPoint
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents series data point.
 type: docs
-weight: 691
+weight: 695
 url: /androidjava/com.aspose.slides/ichartdatapoint/
 ---
 **All Implemented Interfaces:**

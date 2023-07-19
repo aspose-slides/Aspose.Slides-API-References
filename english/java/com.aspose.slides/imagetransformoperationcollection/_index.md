@@ -3,7 +3,7 @@ title: ImageTransformOperationCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 253
+weight: 254
 url: /java/com.aspose.slides/imagetransformoperationcollection/
 ---
 **Inheritance:**

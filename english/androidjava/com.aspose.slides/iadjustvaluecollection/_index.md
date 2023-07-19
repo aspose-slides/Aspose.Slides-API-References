@@ -3,7 +3,7 @@ title: IAdjustValueCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Reprasents a collection of shapes adjustments.
 type: docs
-weight: 628
+weight: 632
 url: /androidjava/com.aspose.slides/iadjustvaluecollection/
 ---
 **All Implemented Interfaces:**

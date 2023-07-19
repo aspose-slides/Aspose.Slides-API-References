@@ -3,7 +3,7 @@ title: MathNaryOperator
 second_title: Aspose.Slides for Java API Reference
 description: Specifies an N-ary mathematical object such as Summation and Integral.
 type: docs
-weight: 342
+weight: 345
 url: /java/com.aspose.slides/mathnaryoperator/
 ---
 **Inheritance:**

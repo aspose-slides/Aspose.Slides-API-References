@@ -3,7 +3,7 @@ title: VideoCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of Video objects.
 type: docs
-weight: 608
+weight: 612
 url: /java/com.aspose.slides/videocollection/
 ---
 **Inheritance:**

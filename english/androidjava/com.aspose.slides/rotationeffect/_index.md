@@ -3,7 +3,7 @@ title: RotationEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent rotation behavior of effect.
 type: docs
-weight: 471
+weight: 475
 url: /androidjava/com.aspose.slides/rotationeffect/
 ---
 **Inheritance:**

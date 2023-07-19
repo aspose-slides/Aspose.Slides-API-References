@@ -3,7 +3,7 @@ title: IDocumentProperties
 second_title: Aspose.Slides for Java API Reference
 description: Represents properties of a presentation.
 type: docs
-weight: 748
+weight: 752
 url: /java/com.aspose.slides/idocumentproperties/
 ---```
 public interface IDocumentProperties

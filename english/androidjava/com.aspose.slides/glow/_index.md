@@ -3,7 +3,7 @@ title: Glow
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Glow effect in which a color blurred outline  is added outside the edges of the object.
 type: docs
-weight: 225
+weight: 226
 url: /androidjava/com.aspose.slides/glow/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: ForEach
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a group of methods intended to iterate over different  model objects.
 type: docs
-weight: 215
+weight: 216
 url: /androidjava/com.aspose.slides/foreach/
 ---
 **Inheritance:**

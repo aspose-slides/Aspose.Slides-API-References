@@ -3,7 +3,7 @@ title: IMathGroupingCharacterFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math grouping character
 type: docs
-weight: 904
+weight: 909
 url: /java/com.aspose.slides/imathgroupingcharacterfactory/
 ---```
 public interface IMathGroupingCharacterFactory

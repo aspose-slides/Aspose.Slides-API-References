@@ -3,7 +3,7 @@ title: IMasterSlide
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a master slide in a presentation.
 type: docs
-weight: 876
+weight: 881
 url: /androidjava/com.aspose.slides/imasterslide/
 ---
 **All Implemented Interfaces:**

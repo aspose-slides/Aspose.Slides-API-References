@@ -3,7 +3,7 @@ title: IBlobManagementOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: A Binary Large Object BLOB is a binary data stored as a single entity - i.e.
 type: docs
-weight: 671
+weight: 675
 url: /androidjava/com.aspose.slides/iblobmanagementoptions/
 ---```
 public interface IBlobManagementOptions

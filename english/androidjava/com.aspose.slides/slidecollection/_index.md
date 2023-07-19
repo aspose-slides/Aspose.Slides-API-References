@@ -3,7 +3,7 @@ title: SlideCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a slides.
 type: docs
-weight: 504
+weight: 508
 url: /androidjava/com.aspose.slides/slidecollection/
 ---
 **Inheritance:**
@@ -537,17 +537,10 @@ Creates slides from HTML text and adds them to the end of the collection.
 >          pres.getSlides().addFromHtml(fos);
 >          // Use the Save method to save the file as a PowerPoint document.
 >          pres.save("MyPresentation.pptx", SaveFormat.Pptx);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

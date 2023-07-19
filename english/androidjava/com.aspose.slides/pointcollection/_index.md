@@ -3,7 +3,7 @@ title: PointCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent collection of animation points.
 type: docs
-weight: 428
+weight: 432
 url: /androidjava/com.aspose.slides/pointcollection/
 ---
 **Inheritance:**

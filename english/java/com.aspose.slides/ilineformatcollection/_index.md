@@ -3,7 +3,7 @@ title: ILineFormatCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents the collection of line styles.
 type: docs
-weight: 860
+weight: 864
 url: /java/com.aspose.slides/ilineformatcollection/
 ---
 **All Implemented Interfaces:**

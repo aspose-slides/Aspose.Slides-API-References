@@ -3,7 +3,7 @@ title: IMathRightSubSuperscriptElement
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the Sub-Superscript object which consists of a base  and a subscript and superscript placed to the right of the base.
 type: docs
-weight: 918
+weight: 923
 url: /java/com.aspose.slides/imathrightsubsuperscriptelement/
 ---
 **All Implemented Interfaces:**

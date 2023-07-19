@@ -3,7 +3,7 @@ title: IPresentationText
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the text extracted from the slide
 type: docs
-weight: 987
+weight: 992
 url: /androidjava/com.aspose.slides/ipresentationtext/
 ---```
 public interface IPresentationText

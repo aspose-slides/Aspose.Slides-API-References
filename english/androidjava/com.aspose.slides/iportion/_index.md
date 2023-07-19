@@ -3,7 +3,7 @@ title: IPortion
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 973
+weight: 978
 url: /androidjava/com.aspose.slides/iportion/
 ---
 **All Implemented Interfaces:**

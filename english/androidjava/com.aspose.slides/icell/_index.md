@@ -3,7 +3,7 @@ title: ICell
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a cell in a table.
 type: docs
-weight: 679
+weight: 683
 url: /androidjava/com.aspose.slides/icell/
 ---
 **All Implemented Interfaces:**

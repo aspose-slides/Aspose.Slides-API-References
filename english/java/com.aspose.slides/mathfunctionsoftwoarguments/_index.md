@@ -3,7 +3,7 @@ title: MathFunctionsOfTwoArguments
 second_title: Aspose.Slides for Java API Reference
 description: Common mathematical functions of two arguments
 type: docs
-weight: 330
+weight: 333
 url: /java/com.aspose.slides/mathfunctionsoftwoarguments/
 ---
 **Inheritance:**

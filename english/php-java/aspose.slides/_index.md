@@ -187,6 +187,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [FilterEffectRevealType](filtereffectrevealtype) | Represents filter reveal type. |
 | [FilterEffectSubtype](filtereffectsubtype) | Represents filter effect subtypes. |
 | [FilterEffectType](filtereffecttype) | Represents filter effect types. |
+| [Flavor](flavor) | All markdown specifications used in program. |
 | [FlyThroughTransition](flythroughtransition) | Fly-through slide transition effect. |
 | [FontAlignment](fontalignment) | Represents vertical font alignment. |
 | [FontCollectionIndex](fontcollectionindex) | Represents font's index in a collection. |
@@ -281,6 +282,8 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [LoadOptions](loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
 | [LoadingStreamBehavior](loadingstreambehavior) | The java.io.InputStream passed to a method is considered as a Binary Large Object (BLOB) (see IBlobManagementOptions description). Values of this enumeration identify how the java.io.InputStream should be treated when it passed to the method. Depending on the requirements, different decisions could be made to provide the most efficient behavior. |
 | [Luminance](luminance) | Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart. |
+| [MarkdownExportType](markdownexporttype) | Type of rendering document. |
+| [MarkdownSaveOptions](markdownsaveoptions) | Represents options that control how presentation should be saved to markdown. |
 | [Marker](marker) | Represents marker of a chert. |
 | [MarkerStyleType](markerstyletype) | Determines form of marker on chart's data point. |
 | [MasterHandoutSlide](masterhandoutslide) | Represents master slide for handouts. |
@@ -358,6 +361,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [MotionPath](motionpath) | Represent motion path. |
 | [MotionPathEditMode](motionpatheditmode) | Specifies how the motion path moves when the target shape is moved |
 | [MotionPathPointsType](motionpathpointstype) | Represent types of points in animation motion path. |
+| [NewLineType](newlinetype) | Type of new line that will be used in generated document. |
 | [NormalViewProperties](normalviewproperties) | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. |
 | [NormalViewRestoredProperties](normalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
 | [NotesCommentsLayoutingOptions](notescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |

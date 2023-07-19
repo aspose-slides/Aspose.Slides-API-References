@@ -3,7 +3,7 @@ title: TextAnimation
 second_title: Aspose.Slides for Java API Reference
 description: Represent text animation.
 type: docs
-weight: 557
+weight: 561
 url: /java/com.aspose.slides/textanimation/
 ---
 **Inheritance:**

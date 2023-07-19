@@ -3,7 +3,7 @@ title: ITextStyle
 second_title: Aspose.Slides for Android via Java API Reference
 description: Text style formatting properties.
 type: docs
-weight: 1074
+weight: 1079
 url: /androidjava/com.aspose.slides/itextstyle/
 ---```
 public interface ITextStyle

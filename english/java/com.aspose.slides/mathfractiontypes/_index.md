@@ -3,7 +3,7 @@ title: MathFractionTypes
 second_title: Aspose.Slides for Java API Reference
 description: Fraction Types
 type: docs
-weight: 326
+weight: 329
 url: /java/com.aspose.slides/mathfractiontypes/
 ---
 **Inheritance:**

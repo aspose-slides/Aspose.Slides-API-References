@@ -3,7 +3,7 @@ title: IMathBlockFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math block
 type: docs
-weight: 890
+weight: 895
 url: /java/com.aspose.slides/imathblockfactory/
 ---```
 public interface IMathBlockFactory

@@ -3,7 +3,7 @@ title: IChartDataPointLevelsManager
 second_title: Aspose.Slides for Java API Reference
 description: Container of data point levels.
 type: docs
-weight: 694
+weight: 698
 url: /java/com.aspose.slides/ichartdatapointlevelsmanager/
 ---```
 public interface IChartDataPointLevelsManager

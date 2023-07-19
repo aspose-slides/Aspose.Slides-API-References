@@ -3,7 +3,7 @@ title: MotionPathPointsType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent types of points in animation motion path.
 type: docs
-weight: 372
+weight: 375
 url: /androidjava/com.aspose.slides/motionpathpointstype/
 ---
 **Inheritance:**

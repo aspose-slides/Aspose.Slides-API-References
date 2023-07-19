@@ -3,7 +3,7 @@ title: LightRig
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents LightRig.
 type: docs
-weight: 275
+weight: 276
 url: /androidjava/com.aspose.slides/lightrig/
 ---
 **Inheritance:**

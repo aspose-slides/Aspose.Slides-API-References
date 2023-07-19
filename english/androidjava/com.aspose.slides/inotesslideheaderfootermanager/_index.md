@@ -3,7 +3,7 @@ title: INotesSlideHeaderFooterManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents manager which holds behavior of the notes slide placeholders including header placeholder.
 type: docs
-weight: 939
+weight: 944
 url: /androidjava/com.aspose.slides/inotesslideheaderfootermanager/
 ---
 **All Implemented Interfaces:**

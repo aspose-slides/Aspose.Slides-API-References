@@ -3,7 +3,7 @@ title: TransitionSpeed
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent transition speed types.
 type: docs
-weight: 593
+weight: 597
 url: /androidjava/com.aspose.slides/transitionspeed/
 ---
 **Inheritance:**

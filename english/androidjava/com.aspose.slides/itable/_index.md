@@ -3,7 +3,7 @@ title: ITable
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a table on a slide.
 type: docs
-weight: 1063
+weight: 1068
 url: /androidjava/com.aspose.slides/itable/
 ---
 **All Implemented Interfaces:**

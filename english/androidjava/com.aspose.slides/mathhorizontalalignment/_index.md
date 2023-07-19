@@ -3,7 +3,7 @@ title: MathHorizontalAlignment
 second_title: Aspose.Slides for Android via Java API Reference
 description: Horizontal Alignment
 type: docs
-weight: 333
+weight: 336
 url: /androidjava/com.aspose.slides/mathhorizontalalignment/
 ---
 **Inheritance:**

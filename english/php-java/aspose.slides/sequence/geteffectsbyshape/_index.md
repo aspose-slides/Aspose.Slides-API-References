@@ -31,7 +31,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Shape](../../shape) shape)  method
+## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -43,7 +43,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
+## getEffectsByShape([Shape](../../shape) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -91,7 +91,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
+## getEffectsByShape([ZoomFrame](../../zoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -103,7 +103,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([ZoomFrame](../../zoomframe) shape)  method
+## getEffectsByShape([SummaryZoomSection](../../summaryzoomsection) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -175,7 +175,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([PictureFrame](../../pictureframe) shape)  method
+## getEffectsByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -187,7 +187,7 @@ url: /php-java/aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([SectionZoomFrame](../../sectionzoomframe) shape)  method
+## getEffectsByShape([PictureFrame](../../pictureframe) shape)  method
 
  Returns array of effects for the specified shape.
  

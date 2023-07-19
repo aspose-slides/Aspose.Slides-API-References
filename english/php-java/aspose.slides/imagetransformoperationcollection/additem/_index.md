@@ -61,24 +61,6 @@ void
 ---
 
 
-## addItem([ColorChange](../../colorchange) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [ColorChange](../../colorchange) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([InnerShadow](../../innershadow) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -89,6 +71,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [InnerShadow](../../innershadow) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([ColorChange](../../colorchange) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [ColorChange](../../colorchange) | The image effect to add to the end of a collection. |
 
 ### Returns
 void
@@ -241,24 +241,6 @@ void
 ---
 
 
-## addItem([AlphaInverse](../../alphainverse) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [AlphaInverse](../../alphainverse) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([AlphaCeiling](../../alphaceiling) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -269,6 +251,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [AlphaCeiling](../../alphaceiling) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([AlphaInverse](../../alphainverse) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [AlphaInverse](../../alphainverse) | The image effect to add to the end of a collection. |
 
 ### Returns
 void
@@ -349,24 +349,6 @@ void
 ---
 
 
-## addItem([ColorReplace](../../colorreplace) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [ColorReplace](../../colorreplace) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([BiLevel](../../bilevel) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -377,6 +359,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [BiLevel](../../bilevel) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([ColorReplace](../../colorreplace) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [ColorReplace](../../colorreplace) | The image effect to add to the end of a collection. |
 
 ### Returns
 void

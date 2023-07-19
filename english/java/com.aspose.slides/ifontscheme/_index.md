@@ -3,7 +3,7 @@ title: IFontScheme
 second_title: Aspose.Slides for Java API Reference
 description: Stores theme-defined fonts.
 type: docs
-weight: 786
+weight: 790
 url: /java/com.aspose.slides/ifontscheme/
 ---```
 public interface IFontScheme

@@ -3,7 +3,7 @@ title: FrameTickEventArgs
 second_title: Aspose.Slides for Java API Reference
 description: Represents arguments of the PresentationPlayer.FrameTick event.
 type: docs
-weight: 219
+weight: 220
 url: /java/com.aspose.slides/frametickeventargs/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: SvgEvent
 second_title: Aspose.Slides for Java API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 539
+weight: 543
 url: /java/com.aspose.slides/svgevent/
 ---
 **Inheritance:**

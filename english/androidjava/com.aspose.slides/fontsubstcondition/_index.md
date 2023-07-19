@@ -3,7 +3,7 @@ title: FontSubstCondition
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a rule fot font substitution
 type: docs
-weight: 208
+weight: 209
 url: /androidjava/com.aspose.slides/fontsubstcondition/
 ---
 **Inheritance:**

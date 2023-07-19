@@ -3,7 +3,7 @@ title: ITint
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Tint effect.
 type: docs
-weight: 1086
+weight: 1091
 url: /androidjava/com.aspose.slides/itint/
 ---
 **All Implemented Interfaces:**

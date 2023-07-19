@@ -3,7 +3,7 @@ title: InnerShadow
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Inner Shadow effect.
 type: docs
-weight: 257
+weight: 258
 url: /androidjava/com.aspose.slides/innershadow/
 ---
 **Inheritance:**

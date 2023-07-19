@@ -3,7 +3,7 @@ title: OleObjectFrame
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 389
+weight: 393
 url: /androidjava/com.aspose.slides/oleobjectframe/
 ---
 **Inheritance:**
@@ -42,18 +42,11 @@ Represents an OLE object on a slide.
 >          try {
 >              fos = new FileOutputStream(extractedPath);
 >              fos.write(data);
->                 } catch (IOException e) {
->              throw new RuntimeException(e);
->         } finally {
->              if (fos != null) {
->                  try {
->                      fos.close();
->                 } catch (IOException e) {
->                      e.printStackTrace();
->                 }
->             }
->         }
+>          } finally {
+>              if (fos != null) fos.close();
+>          }
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

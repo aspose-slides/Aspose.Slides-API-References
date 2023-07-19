@@ -3,7 +3,7 @@ title: ZoomObject
 second_title: Aspose.Slides for Java API Reference
 description: Represents an Zoom object in a slide.
 type: docs
-weight: 624
+weight: 628
 url: /java/com.aspose.slides/zoomobject/
 ---
 **Inheritance:**

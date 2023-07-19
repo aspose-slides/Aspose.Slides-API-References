@@ -3,7 +3,7 @@ title: IMetered
 second_title: Aspose.Slides for Java API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 926
+weight: 931
 url: /java/com.aspose.slides/imetered/
 ---```
 public interface IMetered

@@ -45,7 +45,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([Shape](../../shape) value)  method
+## setStartShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -64,7 +64,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
+## setStartShapeConnectedTo([Shape](../../shape) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -140,7 +140,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
+## setStartShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -159,7 +159,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
+## setStartShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -273,7 +273,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
+## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.
@@ -292,7 +292,7 @@ void
 ---
 
 
-## setStartShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
+## setStartShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the beginning of the connector to.
  Read/write  IShape.

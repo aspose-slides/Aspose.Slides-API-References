@@ -3,7 +3,7 @@ title: IFilterEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent filter effect of behavior.
 type: docs
-weight: 780
+weight: 784
 url: /androidjava/com.aspose.slides/ifiltereffect/
 ---
 **All Implemented Interfaces:**

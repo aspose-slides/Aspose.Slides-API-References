@@ -3,7 +3,7 @@ title: IPortionFormat
 second_title: Aspose.Slides for Java API Reference
 description: This class contains the text portion formatting properties.
 type: docs
-weight: 976
+weight: 981
 url: /java/com.aspose.slides/iportionformat/
 ---
 **All Implemented Interfaces:**

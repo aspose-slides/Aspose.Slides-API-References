@@ -3,7 +3,7 @@ title: SequenceCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of interactive sequences.
 type: docs
-weight: 486
+weight: 490
 url: /androidjava/com.aspose.slides/sequencecollection/
 ---
 **Inheritance:**

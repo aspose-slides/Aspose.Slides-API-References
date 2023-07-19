@@ -3,7 +3,7 @@ title: IChart
 second_title: Aspose.Slides for Java API Reference
 description: Represents an graphic chart on a slide.
 type: docs
-weight: 683
+weight: 687
 url: /java/com.aspose.slides/ichart/
 ---
 **All Implemented Interfaces:**

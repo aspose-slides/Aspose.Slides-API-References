@@ -3,7 +3,7 @@ title: IVbaReferenceOleTwiddledTypeLib
 second_title: Aspose.Slides for Java API Reference
 description: Represents modified OLE Automation type library reference in which  all controls are marked as extensible.
 type: docs
-weight: 1099
+weight: 1104
 url: /java/com.aspose.slides/ivbareferenceoletwiddledtypelib/
 ---
 **All Implemented Interfaces:**

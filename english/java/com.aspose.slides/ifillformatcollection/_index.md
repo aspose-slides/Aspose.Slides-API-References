@@ -3,7 +3,7 @@ title: IFillFormatCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents the collection of fill styles.
 type: docs
-weight: 774
+weight: 778
 url: /java/com.aspose.slides/ifillformatcollection/
 ---
 **All Implemented Interfaces:**

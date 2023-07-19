@@ -3,7 +3,7 @@ title: Slide
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 503
+weight: 507
 url: /androidjava/com.aspose.slides/slide/
 ---
 **Inheritance:**
@@ -167,17 +167,10 @@ Returns a Thumbnail Bitmap object with custom scaling.
 >      try {
 >          fos = new FileOutputStream("Thumbnail_out.png");
 >          bmp.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -196,18 +189,11 @@ Returns a Thumbnail Bitmap object with custom scaling.
 >          try {
 >              fos = new FileOutputStream("Thumbnail_out_" + slide.getSlideNumber() + ".png");
 >              bmp.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->          } catch (IOException e) {
->              throw new RuntimeException(e);
 >          } finally {
->              if (fos != null) {
->                  try {
->                      fos.close();
->                  } catch (IOException e) {
->                      e.printStackTrace();
->                  }
->              }
+>              if (fos != null) fos.close();
 >          }
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -226,18 +212,11 @@ Returns a Thumbnail Bitmap object with custom scaling.
 >          try {
 >              fos = new FileOutputStream("Thumbnail_out" + slide.getSlideNumber() + ".jpg");
 >              bmp.compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, fos);
->          } catch (IOException e) {
->              throw new RuntimeException(e);
 >          } finally {
->              if (fos != null) {
->                  try {
->                      fos.close();
->                  } catch (IOException e) {
->                      e.printStackTrace();
->                  }
->              }
+>              if (fos != null) fos.close();
 >          }
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -262,18 +241,11 @@ Returns a Thumbnail Bitmap object with custom scaling.
 >          try {
 >              fos = new FileOutputStream("Slide_" + slide.getSlideNumber() + ".jpg");
 >              bmp.compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, fos);
->          } catch (IOException e) {
->              throw new RuntimeException(e);
 >          } finally {
->              if (fos != null) {
->                  try {
->                      fos.close();
->                  } catch (IOException e) {
->                      e.printStackTrace();
->                  }
->              }
+>              if (fos != null) fos.close();
 >          }
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -319,17 +291,10 @@ Returns a Thumbnail Bitmap object with specified size.
 >      try {
 >          fos = new FileOutputStream("Slide_0.jpg");
 >          bmp.compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, fos);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -452,17 +417,10 @@ Returns a Thumbnail android.graphics.Bitmap object with custom scaling.
 >      try {
 >          fos = new FileOutputStream("Slide_Notes_Comments_0.png");
 >          bmp.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -540,7 +498,7 @@ Renders certain slide to a Graphics object.
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
 >      // Gets the presentation slide size
->      SizeF slideSize = pres.getSlideSize().getSize();
+>      com.aspose.slides.android.SizeF slideSize = pres.getSlideSize().getSize();
 >      // Creates a Bitmap with the slide size
 >      android.graphics.Bitmap image = android.graphics.Bitmap.createBitmap((int)slideSize.getWidth(), (int)slideSize.getHeight(), Bitmap.Config.ARGB_8888);
 >      Canvas graphics = new Canvas(image);
@@ -549,17 +507,10 @@ Renders certain slide to a Graphics object.
 >      try {
 >          fos = new FileOutputStream("Slide_0.png");
 >          image.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -631,17 +582,10 @@ Renders certain slide to a Graphics object using specified size.
 >      try {
 >          fos = new FileOutputStream("Slide_0.png");
 >          image.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -668,17 +612,10 @@ Renders certain slide to a Graphics object using specified size.
 >      try {
 >          fos = new FileOutputStream("Slide_0.png");
 >          image.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

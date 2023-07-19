@@ -27,7 +27,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [Shape](../../shape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SmartArtShape](../../smartartshape) shape)  method
 
 
 ### Returns
@@ -37,7 +37,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [SmartArtShape](../../smartartshape) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [Shape](../../shape) shape)  method
 
 
 ### Returns
@@ -77,7 +77,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [SummaryZoomSection](../../summaryzoomsection) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [ZoomFrame](../../zoomframe) shape)  method
 
 
 ### Returns
@@ -87,7 +87,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [ZoomFrame](../../zoomframe) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SummaryZoomSection](../../summaryzoomsection) shape)  method
 
 
 ### Returns
@@ -147,7 +147,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [PictureFrame](../../pictureframe) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [SectionZoomFrame](../../sectionzoomframe) shape)  method
 
 
 ### Returns
@@ -157,7 +157,7 @@ void
 ---
 
 
-## formatShape([SvgShape](../../svgshape) svgShape, [SectionZoomFrame](../../sectionzoomframe) shape)  method
+## formatShape([SvgShape](../../svgshape) svgShape, [PictureFrame](../../pictureframe) shape)  method
 
 
 ### Returns

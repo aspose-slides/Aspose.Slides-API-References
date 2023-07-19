@@ -3,7 +3,7 @@ title: SectionSlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of slides in the section.
 type: docs
-weight: 483
+weight: 487
 url: /java/com.aspose.slides/sectionslidecollection/
 ---
 **Inheritance:**

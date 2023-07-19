@@ -3,7 +3,7 @@ title: MathArrayFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math array
 type: docs
-weight: 311
+weight: 314
 url: /java/com.aspose.slides/matharrayfactory/
 ---
 **Inheritance:**

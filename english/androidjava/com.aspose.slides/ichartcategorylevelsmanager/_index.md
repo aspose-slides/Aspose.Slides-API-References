@@ -3,7 +3,7 @@ title: IChartCategoryLevelsManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Managed container of the values of the chart category levels.
 type: docs
-weight: 686
+weight: 690
 url: /androidjava/com.aspose.slides/ichartcategorylevelsmanager/
 ---```
 public interface IChartCategoryLevelsManager

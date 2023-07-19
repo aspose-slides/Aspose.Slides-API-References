@@ -3,7 +3,7 @@ title: IOuterShadowEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which represents an Outer Shadow effect.
 type: docs
-weight: 947
+weight: 952
 url: /androidjava/com.aspose.slides/ioutershadoweffectivedata/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: PptxUnsupportedFormatException
 second_title: Aspose.Slides for Java API Reference
 description: Exception which thrown when presentation file format is unsupported.
 type: docs
-weight: 444
+weight: 448
 url: /java/com.aspose.slides/pptxunsupportedformatexception/
 ---
 **Inheritance:**

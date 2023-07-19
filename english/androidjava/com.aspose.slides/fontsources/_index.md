@@ -3,7 +3,7 @@ title: FontSources
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides file and memory sources for external fonts.
 type: docs
-weight: 207
+weight: 208
 url: /androidjava/com.aspose.slides/fontsources/
 ---
 **Inheritance:**

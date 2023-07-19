@@ -3,7 +3,7 @@ title: ITextFrameFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective text frame formatting properties.
 type: docs
-weight: 1072
+weight: 1077
 url: /androidjava/com.aspose.slides/itextframeformateffectivedata/
 ---```
 public interface ITextFrameFormatEffectiveData

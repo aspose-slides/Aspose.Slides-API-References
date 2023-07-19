@@ -3,7 +3,7 @@ title: MathFractionFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math fraction
 type: docs
-weight: 325
+weight: 328
 url: /java/com.aspose.slides/mathfractionfactory/
 ---
 **Inheritance:**

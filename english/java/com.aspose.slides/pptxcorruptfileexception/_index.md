@@ -3,7 +3,7 @@ title: PptxCorruptFileException
 second_title: Aspose.Slides for Java API Reference
 description: Exception which thrown when presentation file is probably corrupt.
 type: docs
-weight: 439
+weight: 443
 url: /java/com.aspose.slides/pptxcorruptfileexception/
 ---
 **Inheritance:**

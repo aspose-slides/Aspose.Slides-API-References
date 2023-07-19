@@ -3,7 +3,7 @@ title: IHyperlink
 second_title: Aspose.Slides for Java API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 829
+weight: 833
 url: /java/com.aspose.slides/ihyperlink/
 ---```
 public interface IHyperlink

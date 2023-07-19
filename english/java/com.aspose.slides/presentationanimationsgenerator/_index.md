@@ -3,7 +3,7 @@ title: PresentationAnimationsGenerator
 second_title: Aspose.Slides for Java API Reference
 description: Represents a generator of the animations in the .
 type: docs
-weight: 446
+weight: 450
 url: /java/com.aspose.slides/presentationanimationsgenerator/
 ---
 **Inheritance:**

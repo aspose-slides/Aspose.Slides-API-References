@@ -3,7 +3,7 @@ title: IPictureFillFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 965
+weight: 970
 url: /java/com.aspose.slides/ipicturefillformat/
 ---
 **All Implemented Interfaces:**

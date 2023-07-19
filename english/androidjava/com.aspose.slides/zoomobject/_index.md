@@ -3,7 +3,7 @@ title: ZoomObject
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Zoom object in a slide.
 type: docs
-weight: 624
+weight: 628
 url: /androidjava/com.aspose.slides/zoomobject/
 ---
 **Inheritance:**
@@ -52,17 +52,10 @@ Gets or sets the image type of a zoom object. Read/write [ZoomImageType](../../c
 >          IPPImage image = pres.getImages().addImage(fos);
 >          IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1), image);
 >          zoomFrame.setImageType(ZoomImageType.Preview);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -96,17 +89,10 @@ Gets or sets the image type of a zoom object. Read/write [ZoomImageType](../../c
 >          IPPImage image = pres.getImages().addImage(fos);
 >          IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1), image);
 >          zoomFrame.setImageType(ZoomImageType.Preview);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -252,17 +238,10 @@ Gets or sets image for zoom object. Read/write [IPPImage](../../com.aspose.slide
 >          fos = new FileInputStream("image.png");
 >          IPPImage image = pres.getImages().addImage(fos);
 >          zoomFrame.setImage(image);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -291,17 +270,10 @@ Gets or sets image for zoom object. Read/write [IPPImage](../../com.aspose.slide
 >          fos = new FileInputStream("image.png");
 >          IPPImage image = pres.getImages().addImage(fos);
 >          zoomFrame.setImage(image);
->      } catch (IOException e) {
->          throw new RuntimeException(e);
 >      } finally {
->          if (fos != null) {
->              try {
->                  fos.close();
->              } catch (IOException e) {
->                  e.printStackTrace();
->              }
->          }
+>          if (fos != null) fos.close();
 >      }
+>  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

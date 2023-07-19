@@ -3,7 +3,7 @@ title: ViewProperties
 second_title: Aspose.Slides for Android via Java API Reference
 description: Presentation wide view properties.
 type: docs
-weight: 613
+weight: 617
 url: /androidjava/com.aspose.slides/viewproperties/
 ---
 **Inheritance:**

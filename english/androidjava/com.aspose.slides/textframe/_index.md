@@ -3,7 +3,7 @@ title: TextFrame
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 562
+weight: 566
 url: /androidjava/com.aspose.slides/textframe/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: TextAnimationCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of text animations.
 type: docs
-weight: 558
+weight: 562
 url: /java/com.aspose.slides/textanimationcollection/
 ---
 **Inheritance:**

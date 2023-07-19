@@ -3,7 +3,7 @@ title: SoftEdge
 second_title: Aspose.Slides for Java API Reference
 description: Represents a soft edge effect.
 type: docs
-weight: 526
+weight: 530
 url: /java/com.aspose.slides/softedge/
 ---
 **Inheritance:**

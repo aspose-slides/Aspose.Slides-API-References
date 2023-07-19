@@ -3,7 +3,7 @@ title: TrendlineCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of Trendline
 type: docs
-weight: 597
+weight: 601
 url: /androidjava/com.aspose.slides/trendlinecollection/
 ---
 **Inheritance:**

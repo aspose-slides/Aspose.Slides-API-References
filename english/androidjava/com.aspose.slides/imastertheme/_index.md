@@ -3,7 +3,7 @@ title: IMasterTheme
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a master theme.
 type: docs
-weight: 879
+weight: 884
 url: /androidjava/com.aspose.slides/imastertheme/
 ---
 **All Implemented Interfaces:**

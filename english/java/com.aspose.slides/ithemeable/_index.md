@@ -3,7 +3,7 @@ title: IThemeable
 second_title: Aspose.Slides for Java API Reference
 description: Represents objects that can be themed with .
 type: docs
-weight: 1080
+weight: 1085
 url: /java/com.aspose.slides/ithemeable/
 ---
 **All Implemented Interfaces:**

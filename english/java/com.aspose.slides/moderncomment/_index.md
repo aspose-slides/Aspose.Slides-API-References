@@ -3,7 +3,7 @@ title: ModernComment
 second_title: Aspose.Slides for Java API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 363
+weight: 366
 url: /java/com.aspose.slides/moderncomment/
 ---
 **Inheritance:**

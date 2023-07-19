@@ -3,7 +3,7 @@ title: PptxReadException
 second_title: Aspose.Slides for Java API Reference
 description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 443
+weight: 447
 url: /java/com.aspose.slides/pptxreadexception/
 ---
 **Inheritance:**

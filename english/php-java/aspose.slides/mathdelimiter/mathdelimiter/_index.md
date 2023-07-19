@@ -28,7 +28,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathMatrix](../../mathmatrix) element)  constructor
+## MathDelimiter([MathLimit](../../mathlimit) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -37,7 +37,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathLimit](../../mathlimit) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -49,7 +49,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathLimit](../../mathlimit) element)  constructor
+## MathDelimiter([MathMatrix](../../mathmatrix) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -58,7 +58,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathMatrix](../../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -154,7 +154,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathNaryOperator](../../mathnaryoperator) element)  constructor
+## MathDelimiter([MathAccent](../../mathaccent) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -163,7 +163,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathAccent](../../mathaccent) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -175,7 +175,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathAccent](../../mathaccent) element)  constructor
+## MathDelimiter([MathNaryOperator](../../mathnaryoperator) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -184,7 +184,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathNaryOperator](../../mathnaryoperator) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -280,7 +280,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+## MathDelimiter([MathFunction](../../mathfunction) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -289,7 +289,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathFunction](../../mathfunction) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -301,7 +301,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathFunction](../../mathfunction) element)  constructor
+## MathDelimiter([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -310,7 +310,7 @@ url: /php-java/aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 

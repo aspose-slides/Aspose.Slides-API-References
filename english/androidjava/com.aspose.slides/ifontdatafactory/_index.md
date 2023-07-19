@@ -3,7 +3,7 @@ title: IFontDataFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: FontData factory interface
 type: docs
-weight: 783
+weight: 787
 url: /androidjava/com.aspose.slides/ifontdatafactory/
 ---```
 public interface IFontDataFactory

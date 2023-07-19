@@ -3,7 +3,7 @@ title: Portion
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a portion of text inside a text paragraph.
 type: docs
-weight: 429
+weight: 433
 url: /androidjava/com.aspose.slides/portion/
 ---
 **Inheritance:**

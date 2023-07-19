@@ -3,7 +3,7 @@ title: ISvgShapeFormattingController
 second_title: Aspose.Slides for Android via Java API Reference
 description: Controls SVG shape generation.
 type: docs
-weight: 1056
+weight: 1061
 url: /androidjava/com.aspose.slides/isvgshapeformattingcontroller/
 ---```
 public interface ISvgShapeFormattingController

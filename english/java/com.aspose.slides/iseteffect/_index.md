@@ -3,7 +3,7 @@ title: ISetEffect
 second_title: Aspose.Slides for Java API Reference
 description: Represents a set effect for an animation behavior.
 type: docs
-weight: 1017
+weight: 1022
 url: /java/com.aspose.slides/iseteffect/
 ---
 **All Implemented Interfaces:**

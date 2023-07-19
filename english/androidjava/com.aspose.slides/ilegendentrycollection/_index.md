@@ -3,7 +3,7 @@ title: ILegendEntryCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents legends collection.
 type: docs
-weight: 852
+weight: 856
 url: /androidjava/com.aspose.slides/ilegendentrycollection/
 ---```
 public interface ILegendEntryCollection

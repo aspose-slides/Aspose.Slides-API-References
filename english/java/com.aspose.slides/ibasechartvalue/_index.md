@@ -3,7 +3,7 @@ title: IBaseChartValue
 second_title: Aspose.Slides for Java API Reference
 description: Represents a value of a chart.
 type: docs
-weight: 655
+weight: 659
 url: /java/com.aspose.slides/ibasechartvalue/
 ---```
 public interface IBaseChartValue

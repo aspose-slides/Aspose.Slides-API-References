@@ -3,7 +3,7 @@ title: PresentedBySpeaker
 second_title: Aspose.Slides for Android via Java API Reference
 description: Presented by a speaker full screen
 type: docs
-weight: 453
+weight: 457
 url: /androidjava/com.aspose.slides/presentedbyspeaker/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: SVGOptions
 second_title: Aspose.Slides for Java API Reference
 description: Represents an SVG options.
 type: docs
-weight: 475
+weight: 479
 url: /java/com.aspose.slides/svgoptions/
 ---
 **Inheritance:**

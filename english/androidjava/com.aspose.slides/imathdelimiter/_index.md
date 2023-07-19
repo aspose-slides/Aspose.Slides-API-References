@@ -3,7 +3,7 @@ title: IMathDelimiter
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the delimiter object consisting of opening and closing characters such as parentheses  braces brackets and vertical bars and one or more mathematical elements inside separated by a specified character.
 type: docs
-weight: 895
+weight: 900
 url: /androidjava/com.aspose.slides/imathdelimiter/
 ---
 **All Implemented Interfaces:**

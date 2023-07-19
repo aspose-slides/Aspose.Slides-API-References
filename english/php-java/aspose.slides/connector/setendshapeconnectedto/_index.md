@@ -45,7 +45,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([Shape](../../shape) value)  method
+## setEndShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -64,7 +64,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([SmartArtShape](../../smartartshape) value)  method
+## setEndShapeConnectedTo([Shape](../../shape) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -140,7 +140,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
+## setEndShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -159,7 +159,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([ZoomFrame](../../zoomframe) value)  method
+## setEndShapeConnectedTo([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -273,7 +273,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
+## setEndShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.
@@ -292,7 +292,7 @@ void
 ---
 
 
-## setEndShapeConnectedTo([SectionZoomFrame](../../sectionzoomframe) value)  method
+## setEndShapeConnectedTo([PictureFrame](../../pictureframe) value)  method
 
  Returns or sets the shape to attach the end of the connector to.
  Read/write  IShape.

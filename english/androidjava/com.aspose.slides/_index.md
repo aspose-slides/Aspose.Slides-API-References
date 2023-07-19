@@ -200,6 +200,7 @@ url: /androidjava/com.aspose.slides/
 | [FilterEffectRevealType](../com.aspose.slides/filtereffectrevealtype) | Represents filter reveal type. |
 | [FilterEffectSubtype](../com.aspose.slides/filtereffectsubtype) | Represents filter effect subtypes. |
 | [FilterEffectType](../com.aspose.slides/filtereffecttype) | Represents filter effect types. |
+| [Flavor](../com.aspose.slides/flavor) | All markdown specifications used in program. |
 | [FlyThroughTransition](../com.aspose.slides/flythroughtransition) | Fly-through slide transition effect. |
 | [FontAlignment](../com.aspose.slides/fontalignment) | Represents vertical font alignment. |
 | [FontCollectionIndex](../com.aspose.slides/fontcollectionindex) | Represents font's index in a collection. |
@@ -296,6 +297,8 @@ url: /androidjava/com.aspose.slides/
 | [LoadOptions](../com.aspose.slides/loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
 | [LoadingStreamBehavior](../com.aspose.slides/loadingstreambehavior) | The java.io.InputStream passed to a method is considered as a Binary Large Object (BLOB) (see [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions) description). |
 | [Luminance](../com.aspose.slides/luminance) | Represents a Luminance effect. |
+| [MarkdownExportType](../com.aspose.slides/markdownexporttype) | Type of rendering document. |
+| [MarkdownSaveOptions](../com.aspose.slides/markdownsaveoptions) | Represents options that control how presentation should be saved to markdown. |
 | [Marker](../com.aspose.slides/marker) | Represents marker of a chert. |
 | [MarkerStyleType](../com.aspose.slides/markerstyletype) | Determines form of marker on chart's data point. |
 | [MasterHandoutSlide](../com.aspose.slides/masterhandoutslide) | Represents master slide for handouts. |
@@ -374,6 +377,7 @@ url: /androidjava/com.aspose.slides/
 | [MotionPath](../com.aspose.slides/motionpath) | Represent motion path. |
 | [MotionPathEditMode](../com.aspose.slides/motionpatheditmode) | Specifies how the motion path moves when the target shape is moved |
 | [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) | Represent types of points in animation motion path. |
+| [NewLineType](../com.aspose.slides/newlinetype) | Type of new line that will be used in generated document. |
 | [NormalViewProperties](../com.aspose.slides/normalviewproperties) | Represents normal view properties. |
 | [NormalViewRestoredProperties](../com.aspose.slides/normalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
 | [NotesCommentsLayoutingOptions](../com.aspose.slides/notescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
@@ -874,6 +878,7 @@ url: /androidjava/com.aspose.slides/
 | [ILoadOptions](../com.aspose.slides/iloadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
 | [ILuminance](../com.aspose.slides/iluminance) | Represents a Luminance effect. |
 | [ILuminanceEffectiveData](../com.aspose.slides/iluminanceeffectivedata) | Represents a Luminance effect. |
+| [IMarkdownStreamWriter](../com.aspose.slides/imarkdownstreamwriter) | Base model for writing markdown data to stream. |
 | [IMarker](../com.aspose.slides/imarker) | Represents marker of a chert. |
 | [IMasterHandoutSlide](../com.aspose.slides/imasterhandoutslide) | Represents master slide for handouts. |
 | [IMasterHandoutSlideHeaderFooterManager](../com.aspose.slides/imasterhandoutslideheaderfootermanager) | Represents manager which holds behavior of the master handout slide placeholders, including header placeholder. |

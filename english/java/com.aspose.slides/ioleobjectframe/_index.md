@@ -3,7 +3,7 @@ title: IOleObjectFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 943
+weight: 948
 url: /java/com.aspose.slides/ioleobjectframe/
 ---
 **All Implemented Interfaces:**

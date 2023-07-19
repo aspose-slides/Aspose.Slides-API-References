@@ -19,7 +19,7 @@ url: /php-java/aspose.slides/imagetransformocollectioneffectivedata/get_item/
 | index | int | Index of element. |
 
 ### Returns
-BlurEffectiveData, ReflectionEffectiveData, BiLevelEffectiveData, AlphaReplaceEffectiveData, DuotoneEffectiveData, GrayScaleEffectiveData, AlphaModulateEffectiveData, AlphaInverseEffectiveData, GlowEffectiveData, PresetShadowEffectiveData, EffectEffectiveData, ColorReplaceEffectiveData, AlphaBiLevelEffectiveData, AlphaCeilingEffectiveData, AlphaModulateFixedEffectiveData, ColorChangeEffectiveData, TintEffectiveData, FillOverlayEffectiveData, AlphaFloorEffectiveData, InnerShadowEffectiveData, HSLEffectiveData, LuminanceEffectiveData, SoftEdgeEffectiveData, OuterShadowEffectiveData
+BlurEffectiveData, ReflectionEffectiveData, BiLevelEffectiveData, DuotoneEffectiveData, GrayScaleEffectiveData, AlphaReplaceEffectiveData, AlphaModulateEffectiveData, AlphaInverseEffectiveData, GlowEffectiveData, PresetShadowEffectiveData, EffectEffectiveData, ColorReplaceEffectiveData, AlphaBiLevelEffectiveData, ColorChangeEffectiveData, AlphaModulateFixedEffectiveData, AlphaCeilingEffectiveData, TintEffectiveData, FillOverlayEffectiveData, AlphaFloorEffectiveData, InnerShadowEffectiveData, HSLEffectiveData, LuminanceEffectiveData, SoftEdgeEffectiveData, OuterShadowEffectiveData
 
 
 ---

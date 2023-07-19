@@ -3,7 +3,7 @@ title: IHyperlinkManager
 second_title: Aspose.Slides for Java API Reference
 description: Provide hyperlinks management adding removing.
 type: docs
-weight: 831
+weight: 835
 url: /java/com.aspose.slides/ihyperlinkmanager/
 ---```
 public interface IHyperlinkManager

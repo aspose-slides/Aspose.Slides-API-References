@@ -3,7 +3,7 @@ title: OrientationTransition
 second_title: Aspose.Slides for Java API Reference
 description: Orientation slide transition effect.
 type: docs
-weight: 393
+weight: 397
 url: /java/com.aspose.slides/orientationtransition/
 ---
 **Inheritance:**

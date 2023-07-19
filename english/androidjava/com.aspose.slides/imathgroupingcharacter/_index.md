@@ -3,7 +3,7 @@ title: IMathGroupingCharacter
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies a grouping symbol above or below an expression usually to highlight the relationship between elements
 type: docs
-weight: 903
+weight: 908
 url: /androidjava/com.aspose.slides/imathgroupingcharacter/
 ---
 **All Implemented Interfaces:**

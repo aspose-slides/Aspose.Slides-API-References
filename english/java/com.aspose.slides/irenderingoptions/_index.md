@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Slides for Java API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 995
+weight: 1000
 url: /java/com.aspose.slides/irenderingoptions/
 ---
 **All Implemented Interfaces:**
@@ -29,6 +29,7 @@ Provides options that control how a presentation/slide is rendered.
 > 
 >      renderingOpts.setDefaultRegularFont("Arial Narrow");
 >      ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(renderingOpts), "PNG", new File("pres-ArialNarrowDefault.png"));
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

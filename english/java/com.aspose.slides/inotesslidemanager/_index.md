@@ -3,7 +3,7 @@ title: INotesSlideManager
 second_title: Aspose.Slides for Java API Reference
 description: Notes slide manager.
 type: docs
-weight: 940
+weight: 945
 url: /java/com.aspose.slides/inotesslidemanager/
 ---```
 public interface INotesSlideManager

@@ -3,7 +3,7 @@ title: TagCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents the collection of tags user defined pairs of strings
 type: docs
-weight: 553
+weight: 557
 url: /java/com.aspose.slides/tagcollection/
 ---
 **Inheritance:**

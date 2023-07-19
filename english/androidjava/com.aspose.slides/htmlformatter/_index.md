@@ -3,7 +3,7 @@ title: HtmlFormatter
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents HTML file template.
 type: docs
-weight: 241
+weight: 242
 url: /androidjava/com.aspose.slides/htmlformatter/
 ---
 **Inheritance:**

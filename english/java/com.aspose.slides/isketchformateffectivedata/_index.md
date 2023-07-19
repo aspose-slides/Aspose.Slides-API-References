@@ -3,7 +3,7 @@ title: ISketchFormatEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which contains effective line sketch properties.
 type: docs
-weight: 1029
+weight: 1034
 url: /java/com.aspose.slides/isketchformateffectivedata/
 ---```
 public interface ISketchFormatEffectiveData

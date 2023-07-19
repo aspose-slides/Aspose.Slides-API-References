@@ -3,7 +3,7 @@ title: SlideLayoutType
 second_title: Aspose.Slides for Java API Reference
 description: Represents the slide layout type.
 type: docs
-weight: 507
+weight: 511
 url: /java/com.aspose.slides/slidelayouttype/
 ---
 **Inheritance:**

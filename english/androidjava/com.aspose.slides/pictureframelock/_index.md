@@ -3,7 +3,7 @@ title: PictureFrameLock
 second_title: Aspose.Slides for Android via Java API Reference
 description: Determines which operations are disabled on the parent PictureFrame.
 type: docs
-weight: 419
+weight: 423
 url: /androidjava/com.aspose.slides/pictureframelock/
 ---
 **Inheritance:**

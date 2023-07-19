@@ -3,7 +3,7 @@ title: IHtmlOptions
 second_title: Aspose.Slides for Java API Reference
 description: Represents a HTML exporting options.
 type: docs
-weight: 828
+weight: 832
 url: /java/com.aspose.slides/ihtmloptions/
 ---
 **All Implemented Interfaces:**

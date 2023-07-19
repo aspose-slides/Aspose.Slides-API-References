@@ -3,7 +3,7 @@ title: IRenderingOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 995
+weight: 1000
 url: /androidjava/com.aspose.slides/irenderingoptions/
 ---
 **All Implemented Interfaces:**
@@ -21,35 +21,21 @@ Provides options that control how a presentation/slide is rendered.
 >  try {
 >      IRenderingOptions renderingOpts = new RenderingOptions();
 >      renderingOpts.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomTruncated);
->      try {
->          //ImageIO.write(image, "jpeg", new File(dataDir + "ContentBG_tnail.jpg"));
->          FileOutputStream out = new FileOutputStream("pres-Original.png");
->          pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
->          out.flush();
->          out.close();
->      } catch (IOException e) {
->          throw new IllegalStateException(e);
->      }
+>      FileOutputStream out = new FileOutputStream("pres-Original.png");
+>      pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
+>      out.flush();
+>      out.close();
 >      renderingOpts.setDefaultRegularFont("Arial Black");
->      try {
->          //ImageIO.write(image, "jpeg", new File(dataDir + "ContentBG_tnail.jpg"));
->          FileOutputStream out = new FileOutputStream("pres-ArialBlackDefault.png");
->          pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
->          out.flush();
->          out.close();
->      } catch (IOException e) {
->          throw new IllegalStateException(e);
->      }
+>      FileOutputStream out = new FileOutputStream("pres-ArialBlackDefault.png");
+>      pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
+>      out.flush();
+>      out.close();
 >      renderingOpts.setDefaultRegularFont("Arial Narrow");
->      try {
->          //ImageIO.write(image, "jpeg", new File(dataDir + "ContentBG_tnail.jpg"));
->          FileOutputStream out = new FileOutputStream("pres-ArialNarrowDefault.png");
->          pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
->          out.flush();
->          out.close();
->      } catch (IOException e) {
->          throw new IllegalStateException(e);
->      }
+>      FileOutputStream out = new FileOutputStream("pres-ArialNarrowDefault.png");
+>      pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
+>      out.flush();
+>      out.close();
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

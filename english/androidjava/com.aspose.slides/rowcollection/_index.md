@@ -3,7 +3,7 @@ title: RowCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents table row collection.
 type: docs
-weight: 473
+weight: 477
 url: /androidjava/com.aspose.slides/rowcollection/
 ---
 **Inheritance:**

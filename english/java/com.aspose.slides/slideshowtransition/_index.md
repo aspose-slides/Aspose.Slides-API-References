@@ -3,7 +3,7 @@ title: SlideShowTransition
 second_title: Aspose.Slides for Java API Reference
 description: Represents slide show transition.
 type: docs
-weight: 510
+weight: 514
 url: /java/com.aspose.slides/slideshowtransition/
 ---
 **Inheritance:**

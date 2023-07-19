@@ -33,7 +33,7 @@ void
 ---
 
 
-## setShapeTarget([Shape](../../shape) value)  method
+## setShapeTarget([SmartArtShape](../../smartartshape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -46,7 +46,7 @@ void
 ---
 
 
-## setShapeTarget([SmartArtShape](../../smartartshape) value)  method
+## setShapeTarget([Shape](../../shape) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -98,7 +98,7 @@ void
 ---
 
 
-## setShapeTarget([SummaryZoomSection](../../summaryzoomsection) value)  method
+## setShapeTarget([ZoomFrame](../../zoomframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -111,7 +111,7 @@ void
 ---
 
 
-## setShapeTarget([ZoomFrame](../../zoomframe) value)  method
+## setShapeTarget([SummaryZoomSection](../../summaryzoomsection) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -189,7 +189,7 @@ void
 ---
 
 
-## setShapeTarget([PictureFrame](../../pictureframe) value)  method
+## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -202,7 +202,7 @@ void
 ---
 
 
-## setShapeTarget([SectionZoomFrame](../../sectionzoomframe) value)  method
+## setShapeTarget([PictureFrame](../../pictureframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.

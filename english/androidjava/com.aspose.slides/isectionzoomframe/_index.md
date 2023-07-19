@@ -3,7 +3,7 @@ title: ISectionZoomFrame
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Section Zoom object in a slide.
 type: docs
-weight: 1014
+weight: 1019
 url: /androidjava/com.aspose.slides/isectionzoomframe/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,7 @@ title: Theme
 second_title: Aspose.Slides for Java API Reference
 description: Represents a theme.
 type: docs
-weight: 573
+weight: 577
 url: /java/com.aspose.slides/theme/
 ---
 **Inheritance:**

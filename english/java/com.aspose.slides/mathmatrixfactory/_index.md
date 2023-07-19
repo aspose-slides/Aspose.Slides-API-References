@@ -3,7 +3,7 @@ title: MathMatrixFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math matrix
 type: docs
-weight: 341
+weight: 344
 url: /java/com.aspose.slides/mathmatrixfactory/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: Tab
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a tabulation for a text.
 type: docs
-weight: 546
+weight: 550
 url: /androidjava/com.aspose.slides/tab/
 ---
 **Inheritance:**

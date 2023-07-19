@@ -3,7 +3,7 @@ title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object that represents a readonly collection of effective effect styles.
 type: docs
-weight: 760
+weight: 764
 url: /androidjava/com.aspose.slides/ieffectstylecollectioneffectivedata/
 ---
 **All Implemented Interfaces:**

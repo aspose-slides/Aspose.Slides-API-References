@@ -3,7 +3,7 @@ title: SetEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a set effect for an animation behavior.
 type: docs
-weight: 487
+weight: 491
 url: /androidjava/com.aspose.slides/seteffect/
 ---
 **Inheritance:**

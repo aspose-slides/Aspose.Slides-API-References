@@ -3,7 +3,7 @@ title: MathFunction
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies a function of an argument.
 type: docs
-weight: 327
+weight: 330
 url: /androidjava/com.aspose.slides/mathfunction/
 ---
 **Inheritance:**

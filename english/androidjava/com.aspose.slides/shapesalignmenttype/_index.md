@@ -3,7 +3,7 @@ title: ShapesAlignmentType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Defines a way to change the placement of selected shapes on the slide.
 type: docs
-weight: 499
+weight: 503
 url: /androidjava/com.aspose.slides/shapesalignmenttype/
 ---
 **Inheritance:**

@@ -3,7 +3,7 @@ title: IBulletFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective paragraph bullet formatting properties.
 type: docs
-weight: 676
+weight: 680
 url: /androidjava/com.aspose.slides/ibulletformateffectivedata/
 ---```
 public interface IBulletFormatEffectiveData
