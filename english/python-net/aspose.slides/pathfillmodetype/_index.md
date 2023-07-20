@@ -3,7 +3,7 @@ title: PathFillModeType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9700
+weight: 9710
 url: /python-net/aspose.slides/pathfillmodetype/
 ---
 

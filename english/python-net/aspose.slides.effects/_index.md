@@ -3,7 +3,7 @@ title: aspose.slides.effects
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
+weight: 90
 url: /python-net/aspose.slides.effects/
 ---
 

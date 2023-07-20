@@ -3,7 +3,7 @@ title: TextStrikethroughType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10020
+weight: 10030
 url: /python-net/aspose.slides/textstrikethroughtype/
 ---
 

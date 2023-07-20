@@ -3,7 +3,7 @@ title: PlaceholderSize
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9740
+weight: 9750
 url: /python-net/aspose.slides/placeholdersize/
 ---
 

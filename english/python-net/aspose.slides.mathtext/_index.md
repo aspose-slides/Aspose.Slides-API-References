@@ -3,7 +3,7 @@ title: aspose.slides.mathtext
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 130
+weight: 160
 url: /python-net/aspose.slides.mathtext/
 ---
 
