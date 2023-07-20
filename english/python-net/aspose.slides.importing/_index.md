@@ -3,7 +3,7 @@ title: aspose.slides.importing
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 100
+weight: 130
 url: /python-net/aspose.slides.importing/
 ---
 

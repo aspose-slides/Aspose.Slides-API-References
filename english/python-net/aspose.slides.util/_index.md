@@ -3,7 +3,7 @@ title: aspose.slides.util
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 180
+weight: 210
 url: /python-net/aspose.slides.util/
 ---
 

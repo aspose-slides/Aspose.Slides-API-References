@@ -33,6 +33,7 @@ Constants which define the format of a saved presentation.
 |FODP|Save presentation in FODP format.|
 |GIF|Save presentation in GIF format.|
 |HTML5|Save presentation in HTML format using new HTML5 templating system.|
+|MD|Save presentation in Markdown format|
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: aspose.slides.dom.ole
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 80
 url: /python-net/aspose.slides.dom.ole/
 ---
 

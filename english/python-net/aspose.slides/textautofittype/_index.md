@@ -3,7 +3,7 @@ title: TextAutofitType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9980
+weight: 9990
 url: /python-net/aspose.slides/textautofittype/
 ---
 

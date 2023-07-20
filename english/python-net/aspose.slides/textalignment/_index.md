@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9960
+weight: 9970
 url: /python-net/aspose.slides/textalignment/
 ---
 

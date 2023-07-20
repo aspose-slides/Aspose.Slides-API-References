@@ -3,7 +3,7 @@ title: NullableBool
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9650
+weight: 9660
 url: /python-net/aspose.slides/nullablebool/
 ---
 
