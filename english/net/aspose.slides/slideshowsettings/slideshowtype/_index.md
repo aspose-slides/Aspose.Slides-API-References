@@ -3,7 +3,7 @@ title: SlideShowType
 second_title: Aspose.Sildes for .NET API Reference
 description: Gets or sets the slide show type. Represented by the following SlideShowTypeaspose.slides/slideshowsettings/slideshowtype ancestors BrowsedAtKioskaspose.slides/browsedatkiosk PresentedBySpeakeraspose.slides/presentedbyspeaker and BrowsedByIndividualaspose.slides/browsedbyindividual
 type: docs
-weight: 60
+weight: 70
 url: /net/aspose.slides/slideshowsettings/slideshowtype/
 ---
 ## SlideShowSettings.SlideShowType property

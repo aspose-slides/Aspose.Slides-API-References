@@ -3,7 +3,7 @@ title: IGlowEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents a Glow effect in which a color blurred outline is added outside the edges of the object.
 type: docs
-weight: 3200
+weight: 3160
 url: /net/aspose.slides.effects/igloweffectivedata/
 ---
 ## IGlowEffectiveData interface

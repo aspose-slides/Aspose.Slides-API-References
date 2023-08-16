@@ -3,7 +3,7 @@ title: IHtml5Options
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a HTML5 exporting options.
 type: docs
-weight: 3690
+weight: 3660
 url: /net/aspose.slides.export/ihtml5options/
 ---
 ## IHtml5Options interface

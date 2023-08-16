@@ -3,7 +3,7 @@ title: IResponsiveHtmlController
 second_title: Aspose.Sildes for .NET API Reference
 description: Responsive HTML Controller
 type: docs
-weight: 3810
+weight: 3780
 url: /net/aspose.slides.export/iresponsivehtmlcontroller/
 ---
 ## IResponsiveHtmlController interface

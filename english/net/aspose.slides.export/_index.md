@@ -3,7 +3,7 @@ title: Aspose.Slides.Export
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for exporting Microsoft PowerPoint presentations to different formats like Html Pdf Svg Xps and others.
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.slides.export/
 ---
 Contains classes for exporting Microsoft PowerPoint presentations to different formats like Html, Pdf, Svg, Xps and others.
@@ -21,6 +21,7 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [HtmlFormatter](./htmlformatter) | Represents HTML file template. |
 | [HtmlGenerator](./htmlgenerator) | Html generator. |
 | [HtmlOptions](./htmloptions) | Represents a HTML exporting options. |
+| [MarkdownSaveOptions](./markdownsaveoptions) | Represents options that control how presentation should be saved to markdown. |
 | [NotesCommentsLayoutingOptions](./notescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |
 | [PdfOptions](./pdfoptions) | Provides options that control how a presentation is saved in Pdf format. |
 | [PptOptions](./pptoptions) | Provides options that control how a presentation is saved in PPT format. |
@@ -82,8 +83,11 @@ Contains classes for exporting Microsoft PowerPoint presentations to different f
 | [CommentsPositions](./commentspositions) | Represents the rule to render comments into exported document |
 | [Conformance](./conformance) | Specifies the conformance class to which the PresentationML document conforms. |
 | [EmbedFontCharacters](./embedfontcharacters) | Represents the rule to use for adding new embedding font into [`IPresentation`](../aspose.slides/ipresentation) |
+| [Flavor](./flavor) | All markdown specifications used in program. |
 | [ImagePixelFormat](./imagepixelformat) | Specifies the pixel format for the generated images. |
 | [LinkEmbedDecision](./linkembeddecision) | Determines how object will be processed during saving. |
+| [MarkdownExportType](./markdownexporttype) | Type of rendering document. |
+| [NewLineType](./newlinetype) | Type of new line that will be used in generated document. |
 | [NotesPositions](./notespositions) | Represents the rule to render notes into exported document |
 | [PdfAccessPermissions](./pdfaccesspermissions) | Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. |
 | [PdfCompliance](./pdfcompliance) | Constants which define the PDF standards compliance level. |

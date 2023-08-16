@@ -3,7 +3,7 @@ title: Aspose.Slides.Theme
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with different types of themes.
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.slides.theme/
 ---
 Contains classes for work with different types of themes.

@@ -3,7 +3,7 @@ title: ShowNarration
 second_title: Aspose.Sildes for .NET API Reference
 description: Show Narration in Slide Show
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.slides/slideshowsettings/shownarration/
 ---
 ## SlideShowSettings.ShowNarration property

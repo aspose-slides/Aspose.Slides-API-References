@@ -3,7 +3,7 @@ title: Aspose.Slides.Vba
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with VBA macros
 type: docs
-weight: 190
+weight: 180
 url: /net/aspose.slides.vba/
 ---
 Contains classes for work with VBA macros

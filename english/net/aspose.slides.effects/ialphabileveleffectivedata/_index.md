@@ -3,7 +3,7 @@ title: IAlphaBiLevelEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which represents an Alpha Bi-Level effect. Alpha Opacity values less than the threshold are changed to 0 fully transparent and alpha values greater than or equal to the threshold are changed to 100 fully opaque.
 type: docs
-weight: 2920
+weight: 2880
 url: /net/aspose.slides.effects/ialphabileveleffectivedata/
 ---
 ## IAlphaBiLevelEffectiveData interface

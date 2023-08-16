@@ -3,7 +3,7 @@ title: UseTimings
 second_title: Aspose.Sildes for .NET API Reference
 description: Use Timings in Slide Show
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.slides/slideshowsettings/usetimings/
 ---
 ## SlideShowSettings.UseTimings property

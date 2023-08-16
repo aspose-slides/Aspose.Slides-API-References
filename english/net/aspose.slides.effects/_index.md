@@ -3,7 +3,7 @@ title: Aspose.Slides.Effects
 second_title: Aspose.Sildes for .NET API Reference
 description: Contains classes for work with various effects in Microsoft PowerPoint presentations.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.slides.effects/
 ---
 Contains classes for work with various effects in Microsoft PowerPoint presentations.

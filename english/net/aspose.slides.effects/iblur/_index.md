@@ -3,7 +3,7 @@ title: IBlur
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Blur effect that is applied to the entire shape including its fill. All color channels including alpha are affected.
 type: docs
-weight: 3070
+weight: 3030
 url: /net/aspose.slides.effects/iblur/
 ---
 ## IBlur interface

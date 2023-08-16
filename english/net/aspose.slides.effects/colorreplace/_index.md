@@ -3,7 +3,7 @@ title: ColorReplace
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a Color Replacement effect. All effect colors are changed to a fixed color. Alpha values are unaffected.
 type: docs
-weight: 2840
+weight: 2800
 url: /net/aspose.slides.effects/colorreplace/
 ---
 ## ColorReplace class

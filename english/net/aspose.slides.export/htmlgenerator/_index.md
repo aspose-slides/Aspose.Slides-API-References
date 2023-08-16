@@ -3,7 +3,7 @@ title: HtmlGenerator
 second_title: Aspose.Sildes for .NET API Reference
 description: Html generator.
 type: docs
-weight: 3640
+weight: 3610
 url: /net/aspose.slides.export/htmlgenerator/
 ---
 ## HtmlGenerator class

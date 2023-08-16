@@ -3,7 +3,7 @@ title: Aspose.Slides.DOM.Ole
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.slides.dom.ole/
 ---
 

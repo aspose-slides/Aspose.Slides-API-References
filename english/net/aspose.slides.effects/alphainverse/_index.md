@@ -3,7 +3,7 @@ title: AlphaInverse
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an Alpha Inverse effect. Alpha opacity values are inverted by subtracting from 100.
 type: docs
-weight: 2770
+weight: 2730
 url: /net/aspose.slides.effects/alphainverse/
 ---
 ## AlphaInverse class

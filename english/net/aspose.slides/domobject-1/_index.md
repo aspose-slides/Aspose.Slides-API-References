@@ -3,7 +3,7 @@ title: DomObjectTParent
 second_title: Aspose.Sildes for .NET API Reference
 description: Base DOM object
 type: docs
-weight: 2720
+weight: 2680
 url: /net/aspose.slides/domobject-1/
 ---
 ## DomObject&lt;TParent&gt; class

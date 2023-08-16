@@ -3,7 +3,7 @@ title: IEffectFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create effects instances
 type: docs
-weight: 3160
+weight: 3120
 url: /net/aspose.slides.effects/ieffectfactory/
 ---
 ## IEffectFactory interface
