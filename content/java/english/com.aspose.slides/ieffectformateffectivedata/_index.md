@@ -3,7 +3,6 @@ title: IEffectFormatEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Imutable object which contains effective effect formatting properties.
 type: docs
-weight: 755
 url: /com.aspose.slides/ieffectformateffectivedata/
 ---
 **All Implemented Interfaces:**

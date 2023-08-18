@@ -3,7 +3,6 @@ title: SlideShowType
 second_title: Aspose.Slides for Java API Reference
 description: Base slide show settings.
 type: docs
-weight: 510
 url: /com.aspose.slides/slideshowtype/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: IComment
 second_title: Aspose.Slides for Java API Reference
 description: Represents a comment on a slide.
 type: docs
-weight: 726
 url: /com.aspose.slides/icomment/
 ---```
 public interface IComment

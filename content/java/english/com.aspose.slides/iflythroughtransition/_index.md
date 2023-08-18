@@ -3,7 +3,6 @@ title: IFlyThroughTransition
 second_title: Aspose.Slides for Java API Reference
 description: Fly-through slide transition effect.
 type: docs
-weight: 780
 url: /com.aspose.slides/iflythroughtransition/
 ---
 **All Implemented Interfaces:**

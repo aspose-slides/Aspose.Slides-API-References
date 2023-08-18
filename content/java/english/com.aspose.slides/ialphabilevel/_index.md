@@ -3,7 +3,6 @@ title: IAlphaBiLevel
 second_title: Aspose.Slides for Java API Reference
 description: Represents an Alpha Bi-Level effect.
 type: docs
-weight: 628
 url: /com.aspose.slides/ialphabilevel/
 ---
 **All Implemented Interfaces:**

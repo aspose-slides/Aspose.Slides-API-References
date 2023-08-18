@@ -3,7 +3,6 @@ title: IChartPlotArea
 second_title: Aspose.Slides for Java API Reference
 description: Represents chart title properties.
 type: docs
-weight: 699
 url: /com.aspose.slides/ichartplotarea/
 ---
 **All Implemented Interfaces:**

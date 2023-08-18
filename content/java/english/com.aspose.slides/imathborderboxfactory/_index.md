@@ -3,7 +3,6 @@ title: IMathBorderBoxFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math border box
 type: docs
-weight: 891
 url: /com.aspose.slides/imathborderboxfactory/
 ---```
 public interface IMathBorderBoxFactory

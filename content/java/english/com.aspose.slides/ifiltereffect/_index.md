@@ -3,7 +3,6 @@ title: IFilterEffect
 second_title: Aspose.Slides for Java API Reference
 description: Represent filter effect of behavior.
 type: docs
-weight: 779
 url: /com.aspose.slides/ifiltereffect/
 ---
 **All Implemented Interfaces:**

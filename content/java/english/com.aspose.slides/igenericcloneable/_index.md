@@ -3,7 +3,6 @@ title: IGenericCloneable
 second_title: Aspose.Slides for Java API Reference
 description: Represents generic version of ICloneable
 type: docs
-weight: 799
 url: /com.aspose.slides/igenericcloneable/
 ---```
 public interface IGenericCloneable<T>

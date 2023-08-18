@@ -3,7 +3,6 @@ title: ISketchFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents properties for lines sketch format.
 type: docs
-weight: 1027
 url: /com.aspose.slides/isketchformat/
 ---```
 public interface ISketchFormat

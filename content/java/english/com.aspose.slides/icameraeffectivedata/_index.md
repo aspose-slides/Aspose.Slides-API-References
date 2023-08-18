@@ -3,7 +3,6 @@ title: ICameraEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which contains effective camera properties.
 type: docs
-weight: 677
 url: /com.aspose.slides/icameraeffectivedata/
 ---```
 public interface ICameraEffectiveData

@@ -3,7 +3,6 @@ title: ShapeUtil
 second_title: Aspose.Slides for Java API Reference
 description: Offer methods which helps to process shapes objects.
 type: docs
-weight: 497
 url: /com.aspose.slides/shapeutil/
 ---
 **Inheritance:**

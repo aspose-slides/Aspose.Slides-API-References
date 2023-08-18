@@ -3,7 +3,6 @@ title: IFieldType
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type of field.
 type: docs
-weight: 771
 url: /com.aspose.slides/ifieldtype/
 ---```
 public interface IFieldType

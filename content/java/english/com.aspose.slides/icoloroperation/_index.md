@@ -3,7 +3,6 @@ title: IColorOperation
 second_title: Aspose.Slides for Java API Reference
 description: Represents different color operations used for color transformations.
 type: docs
-weight: 715
 url: /com.aspose.slides/icoloroperation/
 ---```
 public interface IColorOperation

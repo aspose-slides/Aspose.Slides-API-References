@@ -3,7 +3,6 @@ title: NullableBool
 second_title: Aspose.Slides for Java API Reference
 description: Represents triple boolean values.
 type: docs
-weight: 381
 url: /com.aspose.slides/nullablebool/
 ---
 **Inheritance:**

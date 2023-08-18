@@ -3,7 +3,6 @@ title: Slide
 second_title: Aspose.Slides for Java API Reference
 description: Represents a slide in a presentation.
 type: docs
-weight: 502
 url: /com.aspose.slides/slide/
 ---
 **Inheritance:**
@@ -150,6 +149,83 @@ public final BufferedImage getThumbnail(float scaleX, float scaleY)
 
 Returns a Thumbnail Bitmap object with custom scaling.
 
+--------------------
+
+> ```
+> The following example shows how to generate thumbnails from PowerPoint Presentation.
+>  
+>  // Instantiate a Presentation class that represents the presentation file
+>  Presentation pres = new Presentation("ThumbnailFromSlide.pptx");
+>  try {
+>      // Access the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Create a full scale image
+>      BufferedImage bmp = sld.getThumbnail(1f, 1f);
+>      // Save the image to disk in PNG format
+>      ImageIO.write(bmp, "PNG", new File("Thumbnail_out.png"));
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to converting slides to bitmap and saving the images in PNG.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try
+>  {
+>      for (ISlide slide : pres.getSlides())
+>      {
+>          // Converts the slide in the presentation to a Bitmap object
+>          BufferedImage bmp = slide.getThumbnail();
+>          // Saves the image in the PNG format
+>          ImageIO.write(bmp, "PNG", new File("Thumbnail_out_" + slide.getSlideNumber() + ".png"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint PPT/PPTX to JPG.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try
+>  {
+>      for (ISlide slide : pres.getSlides())
+>      {
+>          // Converts the slide in the presentation to a Bitmap object
+>          BufferedImage bmp = slide.getThumbnail();
+>          // Saves the image in the JPG format
+>          ImageIO.write(bmp, "JPG", new File("Thumbnail_out" + slide.getSlideNumber() + ".jpg"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint PPT/PPTX to JPG with customized dimensions.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try
+>  {
+>      // Define dimensions
+>      int desiredX = 1200;
+>      int desiredY = 800;
+>      // Get scaled values of X and Y
+>      float ScaleX = (float)(1.0 / pres.getSlideSize().getSize().getWidth()) * desiredX;
+>      float ScaleY = (float)(1.0 / pres.getSlideSize().getSize().getHeight()) * desiredY;
+>      for (ISlide slide : pres.getSlides())
+>      {
+>          // Converts the first slide in the presentation to a Bitmap object
+>          BufferedImage bmp = slide.getThumbnail(ScaleX, ScaleY);
+>          // Saves the image in the JPG format
+>          ImageIO.write(bmp, "JPG", new File("Slide_" + slide.getSlideNumber() + ".jpg"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -175,6 +251,23 @@ public final BufferedImage getThumbnail(Dimension imageSize)
 
 
 Returns a Thumbnail Bitmap object with specified size.
+
+--------------------
+
+> ```
+> The following example shows how to converting slides to images with custom sizes using Java.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try {
+>      // Converts the first slide in the presentation to a Bitmap with the specified size
+>      BufferedImage bmp = pres.getSlides().get_Item(0).getThumbnail(new Dimension(1820, 1040));
+>      // Saves the image in the JPEG format
+>      ImageIO.write(bmp, "JPG", new File("Slide_0.jpg"));
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -269,6 +362,33 @@ public final BufferedImage getThumbnail(IRenderingOptions options, float scaleX,
 
 Returns a Thumbnail BufferedImage object with custom scaling.
 
+--------------------
+
+> ```
+> The following example shows how to converting slides With notes and comments to Images using Java.
+>  
+>  Presentation pres = new Presentation("PresentationNotesComments.pptx");
+>  try {
+>      // Creates the rendering options
+>      IRenderingOptions options = new RenderingOptions();
+>      // Sets the position of the notes on the page
+>      options.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomTruncated);
+>      // Sets the position of the comments on the page
+>      options.getNotesCommentsLayouting().setCommentsPosition(CommentsPositions.Right);
+>      // Sets the width of the comment output area
+>      options.getNotesCommentsLayouting().setCommentsAreaWidth(500);
+>      // Sets the color for the comments area
+>      options.getNotesCommentsLayouting().setCommentsAreaColor(Color.WHITE);
+>      // Converts the first slide of the presentation to a Bitmap object
+>      BufferedImage bmp = pres.getSlides().get_Item(0).getThumbnail(options, 2f, 2f);
+>      // Saves the image in the GIF format
+>      ImageIO.write(bmp, "GIF", new File("Slide_Notes_Comments_0.gif"));
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -333,6 +453,33 @@ public final void renderToGraphics(INotesCommentsLayoutingOptions notesCommentsL
 
 Renders certain slide to a Graphics object.
 
+--------------------
+
+> ```
+> The following example shows how to convert the first slide of a PowerPoint presentation to a bitmap object using the RenderToGraphics method.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try {
+>      // Gets the presentation slide size
+>      Dimension2D slideSize = pres.getSlideSize().getSize();
+>      // Creates a Bitmap with the slide size
+>      BufferedImage image = new BufferedImage((int)slideSize.getWidth(), (int)slideSize.getHeight(), BufferedImage.TYPE_INT_ARGB);
+>      java.awt.Graphics graphics = image.createGraphics();
+>      try
+>      {
+>          pres.getSlides().get_Item(0).renderToGraphics(new RenderingOptions(), (Graphics2D) graphics);
+>      }
+>      finally
+>      {
+>          if (graphics != null) graphics.dispose();
+>      }
+>      ImageIO.write(image, "PNG", new File("Slide_0.png"));
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -377,6 +524,65 @@ public final void renderToGraphics(IRenderingOptions options, Graphics2D graphic
 
 Renders certain slide to a Graphics object using specified size.
 
+--------------------
+
+> ```
+> The following example shows how to convert the first slide to the framed image with the RenderToGraphics method.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try {
+>      // Gets the presentation slide size
+>      Dimension slideSize = new Dimension(1820, 1040);
+>      // Creates a Bitmap with the slide size
+>      BufferedImage image = new BufferedImage((int)slideSize.getWidth() + 50, (int)slideSize.getHeight() + 50, BufferedImage.TYPE_INT_ARGB);
+>      java.awt.Graphics graphics = image.createGraphics();
+>      try
+>      {
+>          graphics.setColor(Color.RED);
+>          graphics.fillRect(0, 0, (int)pres.getSlideSize().getSize().getWidth(), (int)pres.getSlideSize().getSize().getHeight());
+>          graphics.translate(25, 25);
+>          pres.getSlides().get_Item(0).renderToGraphics(new RenderingOptions(), (Graphics2D) graphics);
+>      }
+>      finally
+>      {
+>          if (graphics != null) graphics.dispose();
+>      }
+>      ImageIO.write(image, "PNG", new File("Slide_0.png"));
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to conversion process for a slide with notes using the RenderToGraphics.
+>  
+>  Presentation pres = new Presentation("Presentation.pptx");
+>  try {
+>      // Gets the presentation slide size
+>      Dimension notesSize = new Dimension((int)pres.getNotesSize().getSize().getWidth(), (int)pres.getNotesSize().getSize().getHeight());
+>      IRenderingOptions options = new RenderingOptions();
+>      // Sets the position of the notes
+>      options.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomTruncated);
+>      // Creates a Bitmap with the slide size
+>      BufferedImage image = new BufferedImage((int)notesSize.getWidth(), (int)notesSize.getHeight(), BufferedImage.TYPE_INT_ARGB);
+>      java.awt.Graphics graphics = image.createGraphics();
+>      try
+>      {
+>          graphics.setColor(Color.RED);
+>          graphics.fillRect(0, 0, (int)pres.getSlideSize().getSize().getWidth(), (int)pres.getSlideSize().getSize().getHeight());
+>          graphics.translate(25, 25);
+>          pres.getSlides().get_Item(0).renderToGraphics(options, (Graphics2D) graphics, notesSize);
+>      }
+>      finally
+>      {
+>          if (graphics != null) graphics.dispose();
+>      }
+>      ImageIO.write(image, "PNG", new File("Slide_0.png"));
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -392,6 +598,30 @@ public final void writeAsSvg(OutputStream stream)
 
 Saves content of slide as SVG file.
 
+--------------------
+
+> ```
+> The following example shows how to convert PowerPoint to PDF with custom options.
+>  
+>  // Presentation object can load PowerPoint formats like PPT, PPTX, ODP etc.
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      for (int index = 0; index < pres.getSlides().size(); index++)
+>      {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          FileOutputStream fileStream = new FileOutputStream("slide-" + index + ".svg");
+>          try {
+>              slide.writeAsSvg(fileStream);
+>          } finally {
+>              if (fileStream != null) fileStream.close();
+>          }
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -404,6 +634,35 @@ public final void writeAsSvg(OutputStream stream, ISVGOptions svgOptions)
 
 
 Saves content of slide as SVG file.
+
+--------------------
+
+> ```
+> The following example code shows how to generate SVG image with Custom Shape IDS from PowerPoint Presentation.
+>  
+>  // Instantiate a Presentation class that represents the presentation file
+>  Presentation pres = new Presentation("CreateSlidesSVGImage.pptx");
+>  try {
+>      // Access the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Create a memory stream object
+>      ByteArrayOutputStream svgStream = new ByteArrayOutputStream();
+>      // Generate SVG image of slide and save in memory stream
+>      sld.writeAsSvg(svgStream);
+>      // Save memory stream to file
+>      FileOutputStream fileStream = new FileOutputStream("Aspose_out.svg");
+>      try {
+>          svgStream.writeTo(fileStream);
+>      } finally {
+>          if (fileStream != null) fileStream.close();
+>      }
+>      svgStream.close();
+>  } catch(IOException e) { }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

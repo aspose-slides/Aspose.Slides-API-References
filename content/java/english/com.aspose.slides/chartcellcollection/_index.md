@@ -3,7 +3,6 @@ title: ChartCellCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of a cells with data.
 type: docs
-weight: 81
 url: /com.aspose.slides/chartcellcollection/
 ---
 **Inheritance:**

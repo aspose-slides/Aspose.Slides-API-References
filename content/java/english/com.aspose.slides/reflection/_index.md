@@ -3,7 +3,6 @@ title: Reflection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Reflection effect.
 type: docs
-weight: 462
 url: /com.aspose.slides/reflection/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 [com.aspose.slides.IReflection](../../com.aspose.slides/ireflection), com.aspose.slides.IVisualEffect, com.aspose.slides.IDOMObject, com.aspose.slides.IPVIObject, java.lang.Cloneable
 ```
-public class Reflection implements IReflection, IVisualEffect, IDOMObject, IPVIObject, Cloneable
+public final class Reflection implements IReflection, IVisualEffect, IDOMObject, IPVIObject, Cloneable
 ```
 
 Represents a Reflection effect.

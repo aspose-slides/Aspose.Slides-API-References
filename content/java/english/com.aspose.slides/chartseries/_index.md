@@ -3,7 +3,6 @@ title: ChartSeries
 second_title: Aspose.Slides for Java API Reference
 description: Represents a chart series.
 type: docs
-weight: 95
 url: /com.aspose.slides/chartseries/
 ---
 **Inheritance:**

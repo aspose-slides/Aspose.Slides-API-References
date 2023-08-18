@@ -3,7 +3,6 @@ title: IAlphaCeilingEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which represents an Alpha Ceiling effect.
 type: docs
-weight: 631
 url: /com.aspose.slides/ialphaceilingeffectivedata/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,6 @@ title: ColorChange
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Color Change effect.
 type: docs
-weight: 106
 url: /com.aspose.slides/colorchange/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IColorChange](../../com.aspose.slides/icolorchange), com.aspose.slides.IVisualEffect
 ```
-public class ColorChange extends ImageTransformOperation implements IColorChange, IVisualEffect
+public final class ColorChange extends ImageTransformOperation implements IColorChange, IVisualEffect
 ```
 
 Represents a Color Change effect. Instances of FromColor are replaced with instances of ToColor.

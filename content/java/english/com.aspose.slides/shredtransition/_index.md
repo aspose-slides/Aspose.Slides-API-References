@@ -3,7 +3,6 @@ title: ShredTransition
 second_title: Aspose.Slides for Java API Reference
 description: Shred slide transition effect.
 type: docs
-weight: 499
 url: /com.aspose.slides/shredtransition/
 ---
 **Inheritance:**

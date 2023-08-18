@@ -3,7 +3,6 @@ title: PdfOptions
 second_title: Aspose.Slides for Java API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 411
 url: /com.aspose.slides/pdfoptions/
 ---
 **Inheritance:**
@@ -16,6 +15,82 @@ public class PdfOptions extends SaveOptions implements IPdfOptions
 ```
 
 Provides options that control how a presentation is saved in Pdf format.
+
+--------------------
+
+> ```
+> The following example shows how to convert PowerPoint to PDF with custom options.
+>  
+>  Presentation pres = new Presentation("PowerPoint.pptx");
+>  try {
+>      // Instantiates the PdfOptions class
+>      PdfOptions pdfOptions = new PdfOptions();
+>      // Sets the Jpeg quality
+>      pdfOptions.setJpegQuality((byte)90);
+>      // Sets the behavior for metafiles
+>      pdfOptions.setSaveMetafilesAsPng(true);
+>      // Sets the text compression level
+>      pdfOptions.setTextCompression(PdfTextCompression.Flate);
+>      // Defines the PDF standard
+>      pdfOptions.setCompliance(PdfCompliance.Pdf15);
+>      // Saves the presentation as a PDF
+>      pres.save("PowerPoint-to-PDF.pdf", SaveFormat.Pdf, pdfOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PDF with hidden slides.
+>  
+>  // Instantiates a Presentation class that represents a PowerPoint file
+>  Presentation pres = new Presentation("PowerPoint.pptx");
+>  try {
+>      // Instantiates the PdfOptions class
+>      PdfOptions pdfOptions = new PdfOptions();
+>      // Adds hidden slides
+>      pdfOptions.setShowHiddenSlides(true);
+>      // Saves the presentation as a PDF
+>      pres.save("PowerPoint-to-PDF.pdf", SaveFormat.Pdf, pdfOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to password protected PDF.
+>  
+>  // Instantiates a Presentation object that represents a PowerPoint file
+>  Presentation pres = new Presentation("PowerPoint.pptx");
+>  try {
+>      // Instantiates the PdfOptions class
+>      PdfOptions pdfOptions = new PdfOptions();
+>      // Sets PDF password and access permissions
+>      pdfOptions.setPassword("password");
+>      pdfOptions.setAccessPermissions(PdfAccessPermissions.PrintDocument | PdfAccessPermissions.HighQualityPrint);
+>      // Saves the presentation as a PDF
+>      pres.save("PPTX-to-PDF.pdf", SaveFormat.Pdf, pdfOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PDF with notes.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation pres = new Presentation("SelectedSlides.pptx");
+>  try {
+>      Presentation auxPres = new Presentation();
+>      try {
+>          ISlide slide = pres.getSlides().get_Item(0);
+>          auxPres.getSlides().insertClone(0, slide);
+>          // Setting Slide Type and Size
+>          auxPres.getSlideSize().setSize(612F, 792F, SlideSizeScaleType.EnsureFit);
+>          PdfOptions pdfOptions = new PdfOptions();
+>          pdfOptions.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomFull);
+>          auxPres.save("PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
+>      } finally {
+>          if (auxPres != null) auxPres.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |
@@ -301,7 +376,7 @@ Desired conformance level for generated PDF document. Read/write [PdfCompliance]
 
 --------------------
 
-Default is [PdfCompliance.Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
+Default is [PdfCompliance.Pdf17](../../com.aspose.slides/pdfcompliance\#Pdf17).
 
 **Returns:**
 int
@@ -315,7 +390,7 @@ Desired conformance level for generated PDF document. Read/write [PdfCompliance]
 
 --------------------
 
-Default is [PdfCompliance.Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
+Default is [PdfCompliance.Pdf17](../../com.aspose.slides/pdfcompliance\#Pdf17).
 
 **Parameters:**
 | Parameter | Type | Description |

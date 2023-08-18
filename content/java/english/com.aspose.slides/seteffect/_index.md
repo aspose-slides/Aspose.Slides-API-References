@@ -3,7 +3,6 @@ title: SetEffect
 second_title: Aspose.Slides for Java API Reference
 description: Represents a set effect for an animation behavior.
 type: docs
-weight: 486
 url: /com.aspose.slides/seteffect/
 ---
 **Inheritance:**

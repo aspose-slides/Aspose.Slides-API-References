@@ -3,7 +3,6 @@ title: MathIntegralTypes
 second_title: Aspose.Slides for Java API Reference
 description: Mathematical integral types
 type: docs
-weight: 333
 url: /com.aspose.slides/mathintegraltypes/
 ---
 **Inheritance:**

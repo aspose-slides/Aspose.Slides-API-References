@@ -3,7 +3,6 @@ title: IImageTransformOperationFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create image effects instances
 type: docs
-weight: 836
 url: /com.aspose.slides/iimagetransformoperationfactory/
 ---```
 public interface IImageTransformOperationFactory

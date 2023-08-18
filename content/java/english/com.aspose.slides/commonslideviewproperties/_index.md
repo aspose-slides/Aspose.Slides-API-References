@@ -3,7 +3,6 @@ title: CommonSlideViewProperties
 second_title: Aspose.Slides for Java API Reference
 description: Represents common slide view properties.
 type: docs
-weight: 131
 url: /com.aspose.slides/commonslideviewproperties/
 ---
 **Inheritance:**
@@ -16,6 +15,23 @@ public class CommonSlideViewProperties implements ICommonSlideViewProperties
 ```
 
 Represents common slide view properties.
+
+--------------------
+
+> ```
+> The following example shows how to set the zoom value for slide of PowerPoint Presentation.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      // Setting View Properties of Presentation
+>      pres.getViewProperties().getSlideViewProperties().setScale(100); // Zoom value in percentages for slide view
+>      pres.getViewProperties().getNotesViewProperties().setScale(100); // Zoom value in percentages for notes view
+>      pres.save("Zoom_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

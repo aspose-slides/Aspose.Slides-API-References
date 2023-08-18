@@ -3,7 +3,6 @@ title: DisplayBlanksAsType
 second_title: Aspose.Slides for Java API Reference
 description: Determines how missing data will be displayed.
 type: docs
-weight: 155
 url: /com.aspose.slides/displayblanksastype/
 ---
 **Inheritance:**

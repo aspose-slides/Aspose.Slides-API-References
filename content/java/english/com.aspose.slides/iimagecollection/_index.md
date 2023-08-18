@@ -3,7 +3,6 @@ title: IImageCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of PPImage.
 type: docs
-weight: 832
 url: /com.aspose.slides/iimagecollection/
 ---
 **All Implemented Interfaces:**

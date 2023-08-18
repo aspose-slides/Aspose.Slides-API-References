@@ -3,7 +3,6 @@ title: Convert.GetOutPathCallback
 second_title: Aspose.Slides for Java API Reference
 description: 
 type: docs
-weight: 10
 url: /com.aspose.slides/convert.getoutpathcallback/
 ---```
 public static interface Convert.GetOutPathCallback

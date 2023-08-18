@@ -3,7 +3,6 @@ title: PictureFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents a frame with a picture inside.
 type: docs
-weight: 417
 url: /com.aspose.slides/pictureframe/
 ---
 **Inheritance:**
@@ -16,6 +15,32 @@ public class PictureFrame extends GeometryShape implements IPictureFrame
 ```
 
 Represents a frame with a picture inside.
+
+--------------------
+
+> ```
+> The following examples shows how to change Audio Frame Thumbnail.
+>  
+>  Presentation presentation = new Presentation();
+>  try {
+>      ISlide slide = presentation.getSlides().get_Item(0);
+>      // Adds an audio frame to the slide with a specified position and size.
+>      FileInputStream audioStream = new FileInputStream("sample2.mp3");
+>      IAudioFrame audioFrame = slide.getShapes().addAudioFrameEmbedded(150, 100, 50, 50, audioStream);
+>      audioStream.close();
+>      // Adds an image to presentation resources.
+>      FileInputStream imageStream = new FileInputStream("eagle.jpeg");
+>      IPPImage audioImage = presentation.getImages().addImage(imageStream);
+>      imageStream.close();
+>      // Sets the image for the audio frame.
+>      audioFrame.getPictureFormat().getPicture().setImage(audioImage);
+>      //Saves the modified presentation to disk
+>      presentation.save("example_out.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

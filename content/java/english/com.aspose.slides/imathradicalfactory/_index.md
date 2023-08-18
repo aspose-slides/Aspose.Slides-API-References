@@ -3,7 +3,6 @@ title: IMathRadicalFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create math radical
 type: docs
-weight: 916
 url: /com.aspose.slides/imathradicalfactory/
 ---```
 public interface IMathRadicalFactory

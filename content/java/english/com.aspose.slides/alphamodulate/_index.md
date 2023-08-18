@@ -3,7 +3,6 @@ title: AlphaModulate
 second_title: Aspose.Slides for Java API Reference
 description: Represents an Alpha Modulate effect.
 type: docs
-weight: 16
 url: /com.aspose.slides/alphamodulate/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IAlphaModulate](../../com.aspose.slides/ialphamodulate), com.aspose.slides.IVisualEffect
 ```
-public class AlphaModulate extends ImageTransformOperation implements IAlphaModulate, IVisualEffect
+public final class AlphaModulate extends ImageTransformOperation implements IAlphaModulate, IVisualEffect
 ```
 
 Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate.

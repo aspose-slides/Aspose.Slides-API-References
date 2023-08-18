@@ -3,7 +3,6 @@ title: IDataLabelFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents formatting options for DataLabel.
 type: docs
-weight: 742
 url: /com.aspose.slides/idatalabelformat/
 ---
 **All Implemented Interfaces:**

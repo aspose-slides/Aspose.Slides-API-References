@@ -3,7 +3,6 @@ title: BrowsedByIndividual
 second_title: Aspose.Slides for Java API Reference
 description: Browsed by individual window
 type: docs
-weight: 60
 url: /com.aspose.slides/browsedbyindividual/
 ---
 **Inheritance:**

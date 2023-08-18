@@ -3,7 +3,6 @@ title: IHyperlinkContainer
 second_title: Aspose.Slides for Java API Reference
 description: Represents hyperlink object.
 type: docs
-weight: 829
 url: /com.aspose.slides/ihyperlinkcontainer/
 ---```
 public interface IHyperlinkContainer

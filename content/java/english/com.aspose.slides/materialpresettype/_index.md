@@ -3,7 +3,6 @@ title: MaterialPresetType
 second_title: Aspose.Slides for Java API Reference
 description: Constants which define material of shape.
 type: docs
-weight: 306
 url: /com.aspose.slides/materialpresettype/
 ---
 **Inheritance:**

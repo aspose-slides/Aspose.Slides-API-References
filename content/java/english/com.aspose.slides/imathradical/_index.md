@@ -3,7 +3,6 @@ title: IMathRadical
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the radical function consisting of a base and an optional degree.
 type: docs
-weight: 915
 url: /com.aspose.slides/imathradical/
 ---
 **All Implemented Interfaces:**

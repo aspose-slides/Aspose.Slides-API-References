@@ -3,7 +3,6 @@ title: EffectFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents effect properties of shape.
 type: docs
-weight: 166
 url: /com.aspose.slides/effectformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IEffectFormat](../../com.aspose.slides/ieffectformat)
 ```
-public class EffectFormat extends PVIObject implements IEffectFormat
+public final class EffectFormat extends PVIObject implements IEffectFormat
 ```
 
 Represents effect properties of shape.
@@ -20,6 +19,7 @@ Represents effect properties of shape.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [isNoEffects()](#isNoEffects--) | Returns true if all effects are disabled (as just created, default EffectFormat object). |
 | [getBlurEffect()](#getBlurEffect--) | Blur effect. |
 | [setBlurEffect(IBlur value)](#setBlurEffect-com.aspose.slides.IBlur-) | Blur effect. |
@@ -54,6 +54,16 @@ Represents effect properties of shape.
 | [disableReflectionEffect()](#disableReflectionEffect--) | Disables reflection effect. |
 | [disableSoftEdgeEffect()](#disableSoftEdgeEffect--) | Disables soft edge effect. |
 | [getEffective()](#getEffective--) | Gets effective effect formatting data with the inheritance applied. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### isNoEffects() {#isNoEffects--}
 ```
 public final boolean isNoEffects()

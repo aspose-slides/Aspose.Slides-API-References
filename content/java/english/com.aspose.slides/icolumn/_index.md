@@ -3,7 +3,6 @@ title: IColumn
 second_title: Aspose.Slides for Java API Reference
 description: Represents a column in a table.
 type: docs
-weight: 721
 url: /com.aspose.slides/icolumn/
 ---
 **All Implemented Interfaces:**

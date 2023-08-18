@@ -3,7 +3,6 @@ title: ChartDataWorksheet
 second_title: Aspose.Slides for Java API Reference
 description: Represents worksheet associated with
 type: docs
-weight: 90
 url: /com.aspose.slides/chartdataworksheet/
 ---
 **Inheritance:**

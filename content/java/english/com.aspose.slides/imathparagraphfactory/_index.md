@@ -3,7 +3,6 @@ title: IMathParagraphFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math paragraph
 type: docs
-weight: 913
 url: /com.aspose.slides/imathparagraphfactory/
 ---```
 public interface IMathParagraphFactory

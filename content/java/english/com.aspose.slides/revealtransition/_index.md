@@ -3,7 +3,6 @@ title: RevealTransition
 second_title: Aspose.Slides for Java API Reference
 description: Reveal slide transition effect.
 type: docs
-weight: 467
 url: /com.aspose.slides/revealtransition/
 ---
 **Inheritance:**

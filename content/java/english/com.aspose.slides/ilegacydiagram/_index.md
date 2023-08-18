@@ -3,7 +3,6 @@ title: ILegacyDiagram
 second_title: Aspose.Slides for Java API Reference
 description: Represents a legacy diagram object
 type: docs
-weight: 849
 url: /com.aspose.slides/ilegacydiagram/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,6 @@ title: MathFunctionFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math function
 type: docs
-weight: 327
 url: /com.aspose.slides/mathfunctionfactory/
 ---
 **Inheritance:**

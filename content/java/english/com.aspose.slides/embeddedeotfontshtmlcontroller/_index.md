@@ -3,7 +3,6 @@ title: EmbeddedEotFontsHtmlController
 second_title: Aspose.Slides for Java API Reference
 description: The formatting controller class to use for fonts embedding in EOT format
 type: docs
-weight: 177
 url: /com.aspose.slides/embeddedeotfontshtmlcontroller/
 ---
 **Inheritance:**

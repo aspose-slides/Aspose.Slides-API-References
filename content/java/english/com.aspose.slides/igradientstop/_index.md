@@ -3,7 +3,6 @@ title: IGradientStop
 second_title: Aspose.Slides for Java API Reference
 description: Represents a gradient format.
 type: docs
-weight: 810
 url: /com.aspose.slides/igradientstop/
 ---```
 public interface IGradientStop

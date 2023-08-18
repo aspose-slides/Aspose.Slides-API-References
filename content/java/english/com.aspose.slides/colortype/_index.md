@@ -3,7 +3,6 @@ title: ColorType
 second_title: Aspose.Slides for Java API Reference
 description: Represents different color modes.
 type: docs
-weight: 119
 url: /com.aspose.slides/colortype/
 ---
 **Inheritance:**

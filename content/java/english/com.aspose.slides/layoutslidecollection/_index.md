@@ -3,7 +3,6 @@ title: LayoutSlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a base class for collection of a layout slides.
 type: docs
-weight: 262
 url: /com.aspose.slides/layoutslidecollection/
 ---
 **Inheritance:**

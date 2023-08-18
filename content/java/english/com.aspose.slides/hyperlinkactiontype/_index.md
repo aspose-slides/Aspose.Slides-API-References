@@ -3,7 +3,6 @@ title: HyperlinkActionType
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type of hyperlink action.
 type: docs
-weight: 244
 url: /com.aspose.slides/hyperlinkactiontype/
 ---
 **Inheritance:**

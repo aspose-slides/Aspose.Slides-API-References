@@ -3,7 +3,6 @@ title: IShapeFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents shape frames properties.
 type: docs
-weight: 1022
 url: /com.aspose.slides/ishapeframe/
 ---
 **All Implemented Interfaces:**

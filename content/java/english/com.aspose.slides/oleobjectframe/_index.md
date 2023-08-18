@@ -3,7 +3,6 @@ title: OleObjectFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 388
 url: /com.aspose.slides/oleobjectframe/
 ---
 **Inheritance:**
@@ -16,6 +15,35 @@ public class OleObjectFrame extends GraphicalObject implements IOleObjectFrame
 ```
 
 Represents an OLE object on a slide.
+
+--------------------
+
+> ```
+> The following example shows how to accessing OLE Object frames.
+>  
+>  // Loads the PPTX to a presentation object
+>  Presentation pres = new Presentation("AccessingOLEObjectFrame.pptx");
+>  try {
+>      // Accesses the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Casts the shape to OleObjectFrame
+>      OleObjectFrame oleObjectFrame = (OleObjectFrame) sld.getShapes().get_Item(0);
+>      // Reads the OLE Object and writes it to disk
+>      if (oleObjectFrame != null) {
+>          // Gets embedded file data
+>          byte[] data = oleObjectFrame.getEmbeddedData().getEmbeddedFileData();
+>          // Gets embedded file extention
+>          String fileExtension = oleObjectFrame.getEmbeddedData().getEmbeddedFileExtension();
+>          // Creates a path to save the extracted file
+>          String extractedPath = "excelFromOLE_out" + fileExtension;
+>          // Saves extracted data
+>          Files.write(Paths.get(extractedPath), data);
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

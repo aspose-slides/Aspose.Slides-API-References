@@ -3,7 +3,6 @@ title: IMultipleCellChartValue
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of a chart cells.
 type: docs
-weight: 931
 url: /com.aspose.slides/imultiplecellchartvalue/
 ---
 **All Implemented Interfaces:**

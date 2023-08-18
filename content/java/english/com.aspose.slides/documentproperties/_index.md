@@ -3,7 +3,6 @@ title: DocumentProperties
 second_title: Aspose.Slides for Java API Reference
 description: Represents properties of a presentation.
 type: docs
-weight: 157
 url: /com.aspose.slides/documentproperties/
 ---
 **Inheritance:**
@@ -16,6 +15,44 @@ public class DocumentProperties implements IDocumentProperties, IGenericCloneabl
 ```
 
 Represents properties of a presentation.
+
+--------------------
+
+> ```
+> The following example shows how to access built-in Properties of PowerPoint Presentation.
+>  
+>  // Instantiate the Presentation class that represents the presentation
+>  Presentation pres = new Presentation("AccessBuiltin Properties.pptx");
+>  try {
+>      // Create a reference to IDocumentProperties object associated with Presentation
+>      IDocumentProperties documentProperties = pres.getDocumentProperties();
+>      // Display the builtin properties
+>      System.out.println("Category : " + documentProperties.getCategory());
+>      System.out.println("Current Status : " + documentProperties.getContentStatus());
+>      System.out.println("Creation Date : " + documentProperties.getCreatedTime());
+>      System.out.println("Author : " + documentProperties.getAuthor());
+>      System.out.println("Description : " + documentProperties.getComments());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to modify built-in Properties of PowerPoint Presentation.
+>  
+>  // Instantiate the Presentation class that represents the Presentation
+>  Presentation pres = new Presentation("ModifyBuiltinProperties.pptx");
+>  try {
+>      // Create a reference to IDocumentProperties object associated with Presentation
+>      IDocumentProperties documentProperties = pres.getDocumentProperties();
+>      // Set the builtin properties
+>      documentProperties.setAuthor("Aspose.Slides for Java");
+>      documentProperties.setTitle("Modifying Presentation Properties");
+>      documentProperties.setSubject("Aspose Subject");
+>      // Save your presentation to a file
+>      pres.save("DocumentProperties_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |

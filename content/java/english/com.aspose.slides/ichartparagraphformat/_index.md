@@ -3,7 +3,6 @@ title: IChartParagraphFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a paragraph formatting properties of a chart.
 type: docs
-weight: 698
 url: /com.aspose.slides/ichartparagraphformat/
 ---```
 public interface IChartParagraphFormat

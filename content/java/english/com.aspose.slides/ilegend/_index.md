@@ -3,7 +3,6 @@ title: ILegend
 second_title: Aspose.Slides for Java API Reference
 description: Represents charts legend properties.
 type: docs
-weight: 850
 url: /com.aspose.slides/ilegend/
 ---
 **All Implemented Interfaces:**

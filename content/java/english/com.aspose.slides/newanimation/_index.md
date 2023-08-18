@@ -3,7 +3,6 @@ title: PresentationAnimationsGenerator.NewAnimation
 second_title: Aspose.Slides for Java API Reference
 description: An event represents that a new animation was generated.
 type: docs
-weight: 10
 url: /com.aspose.slides/presentationanimationsgenerator.newanimation/
 ---```
 public static interface PresentationAnimationsGenerator.NewAnimation

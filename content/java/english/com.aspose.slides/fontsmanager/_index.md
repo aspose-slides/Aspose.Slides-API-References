@@ -3,7 +3,6 @@ title: FontsManager
 second_title: Aspose.Slides for Java API Reference
 description: Manages fonts across the presentation.
 type: docs
-weight: 213
 url: /com.aspose.slides/fontsmanager/
 ---
 **Inheritance:**
@@ -16,6 +15,40 @@ public class FontsManager implements IFontsManager
 ```
 
 Manages fonts across the presentation.
+
+--------------------
+
+> ```
+> The following example shows how to add embedded fonts to PowerPoint Presentation.
+>  
+>  // Load presentation
+>  Presentation pres = new Presentation("Fonts.pptx");
+>  try {
+>      // Load source font to be replaced
+>      IFontData sourceFont = new FontData("Arial");
+>      IFontData[] allFonts = pres.getFontsManager().getFonts();
+>      for (IFontData font : allFonts)
+>      {
+>          boolean fontAlreadyEmbedded = false;
+>          IFontData[] embeddedFonts = pres.getFontsManager().getEmbeddedFonts();
+>          for (int i = 0; i < embeddedFonts.length; i++)
+>          {
+>              if (embeddedFonts[i].equals(font))
+>              {
+>                  fontAlreadyEmbedded = true;
+>                  break;
+>              }
+>          }
+>          if (!fontAlreadyEmbedded) {
+>              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
+>          }
+>      }
+>      // Save the presentation
+>      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

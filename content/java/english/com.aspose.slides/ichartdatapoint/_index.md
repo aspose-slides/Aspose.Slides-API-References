@@ -3,7 +3,6 @@ title: IChartDataPoint
 second_title: Aspose.Slides for Java API Reference
 description: Represents series data point.
 type: docs
-weight: 690
 url: /com.aspose.slides/ichartdatapoint/
 ---
 **All Implemented Interfaces:**
@@ -40,6 +39,7 @@ Represents series data point.
 | [getInvertIfNegative()](#getInvertIfNegative--) | Specifies the data point shall invert its colors if the value is negative. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Specifies the data point shall invert its colors if the value is negative. |
 | [getDataPointLevels()](#getDataPointLevels--) | Returns container of data point levels. |
+| [getIndex()](#getIndex--) | Determines which of the parent's children collection this data point applies to. |
 ### getXValue() {#getXValue--}
 ```
 public abstract IStringOrDoubleChartValue getXValue()
@@ -283,3 +283,13 @@ Returns container of data point levels. Applied for Treeamp and Sunburst series.
 
 **Returns:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
+### getIndex() {#getIndex--}
+```
+public abstract long getIndex()
+```
+
+
+Determines which of the parent's children collection this data point applies to. Read long.
+
+**Returns:**
+long

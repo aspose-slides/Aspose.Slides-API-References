@@ -3,7 +3,6 @@ title: BubbleSizeRepresentationType
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the possible ways to represent data as bubble chart sizes.
 type: docs
-weight: 61
 url: /com.aspose.slides/bubblesizerepresentationtype/
 ---
 **Inheritance:**

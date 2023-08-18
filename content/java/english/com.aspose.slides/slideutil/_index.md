@@ -3,7 +3,6 @@ title: SlideUtil
 second_title: Aspose.Slides for Java API Reference
 description: Offer methods which help to search shapes and text in a presentation.
 type: docs
-weight: 515
 url: /com.aspose.slides/slideutil/
 ---
 **Inheritance:**
@@ -29,6 +28,8 @@ Offer methods which help to search shapes and text in a presentation.
 | [alignShapes(int alignmentType, boolean alignToSlide, IBaseSlide slide, int[] shapeIndexes)](#alignShapes-int-boolean-com.aspose.slides.IBaseSlide-int---) | Changes the placement of selected shapes on the slide. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IGroupShape groupShape)](#alignShapes-int-boolean-com.aspose.slides.IGroupShape-) | Changes the placement of all shapes within group shape. |
 | [alignShapes(int alignmentType, boolean alignToSlide, IGroupShape groupShape, int[] shapeIndexes)](#alignShapes-int-boolean-com.aspose.slides.IGroupShape-int---) | Changes the placement of selected shapes within group shape. |
+| [findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace)](#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-) | Finds and replaces text in presentation with given format |
+| [findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace, PortionFormat format)](#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-com.aspose.slides.PortionFormat-) | Finds and replaces text in presentation with given format |
 | [getAllTextBoxes(IBaseSlide slide)](#getAllTextBoxes-com.aspose.slides.IBaseSlide-) | Returns all text frames on a slide in a PPTX presentation. |
 | [getAllTextFrames(IPresentation pres, boolean withMasters)](#getAllTextFrames-com.aspose.slides.IPresentation-boolean-) | Returns all text frames in a PPTX presentation. |
 ### SlideUtil() {#SlideUtil--}
@@ -219,6 +220,75 @@ Changes the placement of selected shapes within group shape. Aligns shapes to th
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
 | groupShape | [IGroupShape](../../com.aspose.slides/igroupshape) | Parent group shape. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+### findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace) {#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-}
+```
+public static void findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace)
+```
+
+
+Finds and replaces text in presentation with given format
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PortionFormat format = new PortionFormat();
+>      format.setFontHeight(24f);
+>      format.setFontItalic(NullableBool.True);
+>      format.getFillFormat().setFillType(FillType.Solid);
+>      format.getFillFormat().getSolidFillColor().setColor(Color.RED);
+> 
+>      SlideUtil.findAndReplaceText(pres, true, "[this block] ", "my text ", format);
+>      pres.save("replaced.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Scanned presentation. |
+| withMasters | boolean | Determines whether master slides should be scanned. |
+| find | java.lang.String | String value to find. |
+| replace | java.lang.String | String value to replace. |
+
+### findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace, PortionFormat format) {#findAndReplaceText-com.aspose.slides.IPresentation-boolean-java.lang.String-java.lang.String-com.aspose.slides.PortionFormat-}
+```
+public static void findAndReplaceText(IPresentation presentation, boolean withMasters, String find, String replace, PortionFormat format)
+```
+
+
+Finds and replaces text in presentation with given format
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      PortionFormat format = new PortionFormat();
+>      format.setFontHeight(24f);
+>      format.setFontItalic(NullableBool.True);
+>      format.getFillFormat().setFillType(FillType.Solid);
+>      format.getFillFormat().getSolidFillColor().setColor(Color.RED);
+> 
+>      SlideUtil.findAndReplaceText(pres, true, "[this block] ", "my text ", format);
+>      pres.save("replaced.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| presentation | [IPresentation](../../com.aspose.slides/ipresentation) | Scanned presentation. |
+| withMasters | boolean | Determines whether master slides should be scanned. |
+| find | java.lang.String | String value to find. |
+| replace | java.lang.String | String value to replace. |
+| format | [PortionFormat](../../com.aspose.slides/portionformat) | Format for replacing text portion. If null then will be used format of the first character of the found string |
 
 ### getAllTextBoxes(IBaseSlide slide) {#getAllTextBoxes-com.aspose.slides.IBaseSlide-}
 ```

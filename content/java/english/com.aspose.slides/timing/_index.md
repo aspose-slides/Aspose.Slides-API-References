@@ -3,7 +3,6 @@ title: Timing
 second_title: Aspose.Slides for Java API Reference
 description: Represents animation timing.
 type: docs
-weight: 580
 url: /com.aspose.slides/timing/
 ---
 **Inheritance:**
@@ -38,6 +37,8 @@ Represents animation timing.
 | [setRepeatDuration(float value)](#setRepeatDuration-float-) | Describes the number of times the effect should repeat. |
 | [getRestart()](#getRestart--) | Specifies if a effect is to restart after complete. |
 | [setRestart(int value)](#setRestart-int-) | Specifies if a effect is to restart after complete. |
+| [getRewind()](#getRewind--) | This attribute specifies if the effect will rewind when done playing. |
+| [setRewind(boolean value)](#setRewind-boolean-) | This attribute specifies if the effect will rewind when done playing. |
 | [getSpeed()](#getSpeed--) | Specifies the percentage by which to speed up (or slow down) the timing. |
 | [setSpeed(float value)](#setSpeed-float-) | Specifies the percentage by which to speed up (or slow down) the timing. |
 | [getTriggerDelayTime()](#getTriggerDelayTime--) | Describes delay time after trigger. |
@@ -51,7 +52,7 @@ public final float getAccelerate()
 ```
 
 
-Describes the percentage of duration accelerate behavior effect. Read/write  float .
+Describes the percentage of duration accelerate behavior effect. Read/write float.
 
 **Returns:**
 float
@@ -61,7 +62,7 @@ public final void setAccelerate(float value)
 ```
 
 
-Describes the percentage of duration accelerate behavior effect. Read/write  float .
+Describes the percentage of duration accelerate behavior effect. Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -74,7 +75,7 @@ public final float getDecelerate()
 ```
 
 
-Describes the percentage of duration decelerate behavior effect. Read/write  float .
+Describes the percentage of duration decelerate behavior effect. Read/write float.
 
 **Returns:**
 float
@@ -84,7 +85,7 @@ public final void setDecelerate(float value)
 ```
 
 
-Describes the percentage of duration decelerate behavior effect. Read/write  float .
+Describes the percentage of duration decelerate behavior effect. Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -97,7 +98,7 @@ public final boolean getAutoReverse()
 ```
 
 
-Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write  boolean .
+Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write boolean.
 
 **Returns:**
 boolean
@@ -107,7 +108,7 @@ public final void setAutoReverse(boolean value)
 ```
 
 
-Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write  boolean .
+Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write boolean.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -120,7 +121,7 @@ public final float getDuration()
 ```
 
 
-Describes the duration of animation effect. Read/write  float .
+Describes the duration of animation effect. Read/write float.
 
 **Returns:**
 float
@@ -130,7 +131,7 @@ public final void setDuration(float value)
 ```
 
 
-Describes the duration of animation effect. Read/write  float .
+Describes the duration of animation effect. Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -143,7 +144,7 @@ public final float getRepeatCount()
 ```
 
 
-Describes the number of times the effect should repeat. Read/write  float .
+Describes the number of times the effect should repeat. Read/write float.
 
 **Returns:**
 float
@@ -153,7 +154,7 @@ public final void setRepeatCount(float value)
 ```
 
 
-Describes the number of times the effect should repeat. Read/write  float .
+Describes the number of times the effect should repeat. Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -166,7 +167,7 @@ public final boolean getRepeatUntilEndSlide()
 ```
 
 
-This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean.
 
 --------------------
 
@@ -192,7 +193,7 @@ public final void setRepeatUntilEndSlide(boolean value)
 ```
 
 
-This attribute specifies if the effect will repeat until the end of the slide. Read/write  boolean .
+This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean.
 
 --------------------
 
@@ -221,7 +222,7 @@ public final boolean getRepeatUntilNextClick()
 ```
 
 
-This attribute specifies if the effect will repeat until the next click. Read/write  boolean .
+This attribute specifies if the effect will repeat until the next click. Read/write boolean.
 
 --------------------
 
@@ -247,7 +248,7 @@ public final void setRepeatUntilNextClick(boolean value)
 ```
 
 
-This attribute specifies if the effect will repeat until the next click. Read/write  boolean .
+This attribute specifies if the effect will repeat until the next click. Read/write boolean.
 
 --------------------
 
@@ -276,7 +277,7 @@ public final float getRepeatDuration()
 ```
 
 
-Describes the number of times the effect should repeat. Read/write  float .
+Describes the number of times the effect should repeat. Read/write float.
 
 **Returns:**
 float
@@ -286,7 +287,7 @@ public final void setRepeatDuration(float value)
 ```
 
 
-Describes the number of times the effect should repeat. Read/write  float .
+Describes the number of times the effect should repeat. Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -316,13 +317,68 @@ Specifies if a effect is to restart after complete. Read/write [EffectRestartTyp
 | --- | --- | --- |
 | value | int |  |
 
+### getRewind() {#getRewind--}
+```
+public final boolean getRewind()
+```
+
+
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Turn the effect Timing/Rewind on.
+>      effect.getTiming().setRewind(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+boolean
+### setRewind(boolean value) {#setRewind-boolean-}
+```
+public final void setRewind(boolean value)
+```
+
+
+This attribute specifies if the effect will rewind when done playing. Read/write boolean.
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the effects sequence for the first slide
+>      ISequence effectsSequence = presentation.getSlides().get_Item(0).getTimeline().getMainSequence();
+>      // Get the first effect of main sequence.
+>      IEffect effect = effectsSequence.get_Item(0);
+>      // Turn the effect Timing/Rewind on.
+>      effect.getTiming().setRewind(true);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
 ### getSpeed() {#getSpeed--}
 ```
 public final float getSpeed()
 ```
 
 
-Specifies the percentage by which to speed up (or slow down) the timing. Read/write  float .
+Specifies the percentage by which to speed up (or slow down) the timing. Read/write float.
 
 **Returns:**
 float
@@ -332,7 +388,7 @@ public final void setSpeed(float value)
 ```
 
 
-Specifies the percentage by which to speed up (or slow down) the timing. Read/write  float .
+Specifies the percentage by which to speed up (or slow down) the timing. Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -345,7 +401,7 @@ public final float getTriggerDelayTime()
 ```
 
 
-Describes delay time after trigger. Read/write  float .
+Describes delay time after trigger. Read/write float.
 
 **Returns:**
 float
@@ -355,7 +411,7 @@ public final void setTriggerDelayTime(float value)
 ```
 
 
-Describes delay time after trigger. Read/write  float .
+Describes delay time after trigger. Read/write float.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,6 @@ title: ForEach.ForEachSlideCallback
 second_title: Aspose.Slides for Java API Reference
 description: 
 type: docs
-weight: 15
 url: /com.aspose.slides/foreach.foreachslidecallback/
 ---```
 public static interface ForEach.ForEachSlideCallback

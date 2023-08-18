@@ -3,7 +3,6 @@ title: SourceFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents source file format.
 type: docs
-weight: 526
 url: /com.aspose.slides/sourceformat/
 ---
 **Inheritance:**

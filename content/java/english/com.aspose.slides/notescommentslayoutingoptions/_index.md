@@ -3,7 +3,6 @@ title: NotesCommentsLayoutingOptions
 second_title: Aspose.Slides for Java API Reference
 description: Provides options that control the look of layouting of notes and comments in exported document.
 type: docs
-weight: 374
 url: /com.aspose.slides/notescommentslayoutingoptions/
 ---
 **Inheritance:**

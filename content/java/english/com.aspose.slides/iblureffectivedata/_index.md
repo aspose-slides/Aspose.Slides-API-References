@@ -3,7 +3,6 @@ title: IBlurEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which represents a Blur effect that is applied to the entire shape including its fill.
 type: docs
-weight: 672
 url: /com.aspose.slides/iblureffectivedata/
 ---
 **All Implemented Interfaces:**
