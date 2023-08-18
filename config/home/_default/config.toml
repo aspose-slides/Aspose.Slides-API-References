@@ -63,10 +63,6 @@ defaultContentLang = 'en'
 		  url = "/python-net/"
 		  weight = 50	
     	[[languages.en.menu.main]]
-     	  name = "Aspose.Slides for Node.js via Java"
-		  url = "/nodejs-java/"
-		  weight = 60
-    	[[languages.en.menu.main]]
      	  name = "Aspose.Slides for PHP via Java"
 		  url = "/php-java/"
 		  weight = 70		  
@@ -97,10 +93,6 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides для Python через .NET"
 		  url = "../python-net/"
 		  weight = 50	
-    	[[languages.ru.menu.main]]
-     	  name = "Aspose.Slides для Node.js через Java"
-		  url = "../nodejs-java/"
-		  weight = 60
     	[[languages.ru.menu.main]]
      	  name = "Aspose.Slides для PHP через Java"
 		  url = "../php-java/"
@@ -133,10 +125,6 @@ defaultContentLang = 'en'
 		  url = "../python-net/"
 		  weight = 50	
     	[[languages.zh.menu.main]]
-     	  name = "Aspose.Slides for Node.js 通过 Java"
-		  url = "../nodejs-java/"
-		  weight = 60
-    	[[languages.zh.menu.main]]
      	  name = "Aspose.Slides for PHP 通过 Java"
 		  url = "../php-java/"
 		  weight = 70	
@@ -167,10 +155,6 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides pour Python via .NET"
 		  url = "../python-net/"
 		  weight = 50	
-    	[[languages.fr.menu.main]]
-     	  name = "Aspose.Slides pour Node.js via Java"
-		  url = "../nodejs-java/"
-		  weight = 60
     	[[languages.fr.menu.main]]
      	  name = "Aspose.Slides pour PHP via Java"
 		  url = "../php-java/"
@@ -203,10 +187,6 @@ defaultContentLang = 'en'
 		  url = "../python-net/"
 		  weight = 50	
     	[[languages.de.menu.main]]
-     	  name = "Aspose.Slides für Node.js über Java"
-		  url = "../nodejs-java/"
-		  weight = 60
-    	[[languages.de.menu.main]]
      	  name = "Aspose.Slides für PHP über Java"
 		  url = "../php-java/"
 		  weight = 70	
@@ -237,10 +217,6 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides para Python a través de .NET"
 		  url = "../python-net/"
 		  weight = 50	
-    	[[languages.es.menu.main]]
-     	  name = "Aspose.Slides para Node.js a través de Java"
-		  url = "../nodejs-java/"
-		  weight = 60
     	[[languages.es.menu.main]]
      	  name = "Aspose.Slides para PHP a través de Java"
 		  url = "../php-java/"
