@@ -1,0 +1,30 @@
+---
+title: MathJustification
+second_title: Aspose.Slides for C++ API Reference
+description: Specifies justification of the math paragraph (a series of adjacent instances of mathematical text within the same paragraph)
+type: docs
+weight: 1210
+url: /aspose.slides.mathtext/mathjustification/
+---
+## MathJustification enum
+
+
+Specifies justification of the math paragraph (a series of adjacent instances of mathematical text within the same paragraph)
+
+```cpp
+enum class MathJustification
+```
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| LeftJustified | 1 | Align mathematical text to the left |
+| RightJustified | 2 | Align mathematical text to the right |
+| Centered | 3 | Align mathematical text to the center |
+| CenteredAsGroup | 4 | Center on the page the entire group of math blocks as a single unit. This means that the instances of mathematical text can be aligned with respect to each other, but the entire group of mathematical text is centered as a whole. |
+
+## See Also
+
+* Namespace [Aspose::Slides::MathText](../)
+* Library [Aspose.Slides](../../)

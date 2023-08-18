@@ -1,0 +1,8 @@
+baseURL = "https://reference2.aspose.com/slides/python-net"
+
+[[deployment.targets]]
+name = "Stage"
+URL = "s3://reference2.aspose.com/?prefix=slides/python-net/&region=us-west-2"
+
+
+

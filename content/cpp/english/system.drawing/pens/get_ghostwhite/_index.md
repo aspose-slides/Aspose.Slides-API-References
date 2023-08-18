@@ -1,0 +1,24 @@
+---
+title: get_GhostWhite()
+second_title: Aspose.Slides for C++ API Reference
+description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF8F8FF.
+type: docs
+weight: 625
+url: /system.drawing/pens/get_ghostwhite/
+---
+## Pens::get_GhostWhite() method
+
+
+Returns a [Pen](../../pen/) object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFF8F8FF.
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_GhostWhite()
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Pen](../../pen/)
+* Class [Pens](../)
+* Namespace [System::Drawing](../../)
+* Library [Aspose.Slides](../../../)

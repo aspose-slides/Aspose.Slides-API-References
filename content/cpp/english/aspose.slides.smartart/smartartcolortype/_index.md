@@ -1,0 +1,64 @@
+---
+title: SmartArtColorType
+second_title: Aspose.Slides for C++ API Reference
+description: Represents color scheme of a SmartArt diagram.
+type: docs
+weight: 144
+url: /aspose.slides.smartart/smartartcolortype/
+---
+## SmartArtColorType enum
+
+
+Represents color scheme of a [SmartArt](../smartart/) diagram.
+
+```cpp
+enum class SmartArtColorType
+```
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| Dark1Outline | 0 | Dark1Outline |
+| Dark2Outline | 1 | Dark2Outline |
+| DarkFill | 2 | DarkFill |
+| ColorfulAccentColors | 3 | ColorfulAccentColors |
+| ColorfulAccentColors2to3 | 4 | ColorfulAccentColors2to3 |
+| ColorfulAccentColors3to4 | 5 | ColorfulAccentColors3to4 |
+| ColorfulAccentColors4to5 | 6 | ColorfulAccentColors4to5 |
+| ColorfulAccentColors5to6 | 7 | ColorfulAccentColors5to6 |
+| ColoredOutlineAccent1 | 8 | ColoredOutlineAccent1 |
+| ColoredFillAccent1 | 9 | ColoredFillAccent1 |
+| GradientRangeAccent1 | 10 | GradientRangeAccent1 |
+| GradientLoopAccent1 | 11 | GradientLoopAccent1 |
+| TransparentGradientRangeAccent1 | 12 | TransparentGradientRangeAccent1 |
+| ColoredOutlineAccent2 | 13 | ColoredOutlineAccent2 |
+| ColoredFillAccent2 | 14 | ColoredFillAccent2 |
+| GradientRangeAccent2 | 15 | GradientRangeAccent2 |
+| GradientLoopAccent2 | 16 | GradientLoopAccent2 |
+| TransparentGradientRangeAccent2 | 17 | TransparentGradientRangeAccent2 |
+| ColoredOutlineAccent3 | 18 | ColoredOutlineAccent3 |
+| ColoredFillAccent3 | 19 | ColoredFillAccent3 |
+| GradientRangeAccent3 | 20 | GradientRangeAccent3 |
+| GradientLoopAccent3 | 21 | GradientLoopAccent3 |
+| TransparentGradientRangeAccent3 | 22 | TransparentGradientRangeAccent3 |
+| ColoredOutlineAccent4 | 23 | ColoredOutlineAccent4 |
+| ColoredFillAccent4 | 24 | ColoredFillAccent4 |
+| GradientRangeAccent4 | 25 | GradientRangeAccent4 |
+| GradientLoopAccent4 | 26 | GradientLoopAccent4 |
+| TransparentGradientRangeAccent4 | 27 | TransparentGradientRangeAccent4 |
+| ColoredOutlineAccent5 | 28 | ColoredOutlineAccent5 |
+| ColoredFillAccent5 | 29 | ColoredFillAccent5 |
+| GradientRangeAccent5 | 30 | GradientRangeAccent5 |
+| GradientLoopAccent5 | 31 | GradientLoopAccent5 |
+| TransparentGradientRangeAccent5 | 32 | TransparentGradientRangeAccent5 |
+| ColoredOutlineAccent6 | 33 | ColoredOutlineAccent6 |
+| ColoredFillAccent6 | 34 | ColoredFillAccent6 |
+| GradientRangeAccent6 | 35 | GradientRangeAccent6 |
+| GradientLoopAccent6 | 36 | GradientLoopAccent6 |
+| TransparentGradientRangeAccent6 | 37 | TransparentGradientRangeAccent6 |
+
+## See Also
+
+* Namespace [Aspose::Slides::SmartArt](../)
+* Library [Aspose.Slides](../../)

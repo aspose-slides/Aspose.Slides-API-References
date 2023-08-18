@@ -1,0 +1,19 @@
+---
+title: getParent_IPresentationComponent
+second_title: Aspose.Sildes for Node.js via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/presetshadow/getparent_ipresentationcomponent/
+---
+
+## getParent_IPresentationComponent()  function
+
+
+### Result
+[GraphicalObject](../../graphicalobject), [ChartPortionFormat](../../chartportionformat), [FillFormat](../../fillformat), [LightRig](../../lightrig), [Picture](../../picture), [AlphaReplace](../../alphareplace), [CellCollection](../../cellcollection), [Table](../../table), [SummaryZoomSection](../../summaryzoomsection), [BiLevel](../../bilevel), [AlphaCeiling](../../alphaceiling), [Luminance](../../luminance), [ColorScheme](../../colorscheme), [OverrideTheme](../../overridetheme), [Backdrop3DScene](../../backdrop3dscene), [Trendline](../../trendline), [ColorReplace](../../colorreplace), [Presentation](../../presentation), [Tint](../../tint), [Ink](../../ink), [GrayScale](../../grayscale), [AlphaFloor](../../alphafloor), [GradientStopCollection](../../gradientstopcollection), [ColorChange](../../colorchange), [Hyperlink](../../hyperlink), [DataTable](../../datatable), [Row](../../row), [Background](../../background), [TextFrameFormat](../../textframeformat), [Theme](../../theme), [GradientFormat](../../gradientformat), [Paragraph](../../paragraph), [DataLabelCollection](../../datalabelcollection), [DataLabelFormat](../../datalabelformat), [PVIObject](../../pviobject), [LegacyDiagram](../../legacydiagram), [Chart](../../chart), [Field](../../field), [AlphaModulate](../../alphamodulate), [ParagraphFormat](../../paragraphformat), [ChartTitle](../../charttitle), [AutoShape](../../autoshape), [ImageTransformOperationCollection](../../imagetransformoperationcollection), [EffectFormat](../../effectformat), [Control](../../control), [Camera](../../camera), [MasterNotesSlide](../../masternotesslide), [SmartArt](../../smartart), [CellFormat](../../cellformat), [GradientStop](../../gradientstop), [AlphaBiLevel](../../alphabilevel), [PortionFormat](../../portionformat), [GroupShape](../../groupshape), [Cell](../../cell), [AudioFrame](../../audioframe), [OleObjectFrame](../../oleobjectframe), [AlphaInverse](../../alphainverse), [ZoomObject](../../zoomobject), [HSL](../../hsl), [VideoFrame](../../videoframe), [BasePortionFormat](../../baseportionformat), [MasterHandoutSlide](../../masterhandoutslide), [MathPortion](../../mathportion), [ChartSeriesGroup](../../chartseriesgroup), [Legend](../../legend), [MasterSlide](../../masterslide), [TextStyle](../../textstyle), [ChartSeries](../../chartseries), [LegendEntryProperties](../../legendentryproperties), [BaseSlide](../../baseslide), [Blur](../../blur), [FillOverlay](../../filloverlay), [PictureFrame](../../pictureframe), [FormatScheme](../../formatscheme), [SectionZoomFrame](../../sectionzoomframe), [Axis](../../axis), [SmartArtShape](../../smartartshape), [SketchFormat](../../sketchformat), [ThreeDFormat](../../threedformat), [Tab](../../tab), [Shape](../../shape), [DataLabel](../../datalabel), [PictureFillFormat](../../picturefillformat), [Portion](../../portion), [ColorFormat](../../colorformat), [AlphaModulateFixed](../../alphamodulatefixed), [Duotone](../../duotone), [ShapeBevel](../../shapebevel), [ImageTransformOperation](../../imagetransformoperation), [LayoutSlide](../../layoutslide), [ZoomFrame](../../zoomframe), [LineFillFormat](../../linefillformat), [GeometryShape](../../geometryshape), [Column](../../column), [ParagraphCollection](../../paragraphcollection), [MasterTheme](../../mastertheme), [Connector](../../connector), [Format](../../format), [Slide](../../slide), [ChartPlotArea](../../chartplotarea), [PatternFormat](../../patternformat), [LineFormat](../../lineformat), [TextFrame](../../textframe), [SummaryZoomFrame](../../summaryzoomframe), [BulletFormat](../../bulletformat), [ErrorBarsFormat](../../errorbarsformat), [NotesSlide](../../notesslide)
+
+
+---
+
+

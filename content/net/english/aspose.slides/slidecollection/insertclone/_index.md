@@ -1,0 +1,137 @@
+---
+title: InsertClone
+second_title: Aspose.Sildes for .NET API Reference
+description: Inserts a copy of a specified slide to specified position of the collection.
+type: docs
+weight: 120
+url: /aspose.slides/slidecollection/insertclone/
+---
+## InsertClone(int, ISlide) {#insertclone}
+
+Inserts a copy of a specified slide to specified position of the collection.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new slide. |
+| sourceSlide | ISlide | Slide to clone. |
+
+### Return Value
+
+Inserted slide.
+
+### Remarks
+
+When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use [`InsertClone`](../insertclone) or [`InsertClone`](../insertclone) for cloning slides and [`AddClone`](../../imasterslidecollection/addclone) for cloning masters.
+
+### Examples
+
+The following example shows how to clone at another position within Presentation.
+
+```csharp
+[C#]
+// Instantiate Presentation class that represents a presentation file
+using (Presentation pres = new Presentation("CloneWithInSamePresentation.pptx"))
+{
+    // Clone the desired slide to the end of the collection of slides in the same presentation
+    ISlideCollection slds = pres.Slides;
+    // Clone the desired slide to the specified index in the same presentation
+    slds.InsertClone(2, pres.Slides[1]);
+    // Write the modified presentation to disk
+    pres.Save("Aspose_CloneWithInSamePresentation_out.pptx", SaveFormat.Pptx);
+}
+```
+
+The following example shows how to clone at another position within Presentation.
+
+```csharp
+[C#]
+// Instantiate Presentation class to load the source presentation file
+using (Presentation srcPres = new Presentation("CloneAtEndOfAnother.pptx"))
+{
+    // Instantiate Presentation class for destination PPTX (where slide is to be cloned)
+    using (Presentation destPres = new Presentation())
+    {
+        ISlideCollection slds = destPres.Slides;
+        slds.InsertClone(2, srcPres.Slides[0]);
+        // Write the destination presentation to disk
+        destPres.Save("Aspose2_out.pptx", SaveFormat.Pptx);
+    }
+}
+```
+
+### See Also
+
+* interface [ISlide](../../islide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, ILayoutSlide) {#insertclone_1}
+
+Inserts a copy of a specified slide to specified position of the collection.
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, ILayoutSlide destLayout)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new slide. |
+| sourceSlide | ISlide | Slide to clone. |
+| destLayout | ILayoutSlide | Layout slide for a new slide. |
+
+### Return Value
+
+Inserted slide.
+
+### See Also
+
+* interface [ISlide](../../islide)
+* interface [ILayoutSlide](../../ilayoutslide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+---
+
+## InsertClone(int, ISlide, IMasterSlide, bool) {#insertclone_2}
+
+Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false).
+
+```csharp
+public ISlide InsertClone(int index, ISlide sourceSlide, IMasterSlide destMaster, 
+    bool allowCloneMissingLayout)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| index | Int32 | Index of new slide. |
+| sourceSlide | ISlide | Slide to clone. |
+| destMaster | IMasterSlide | Master slide for a new slide. |
+| allowCloneMissingLayout | Boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
+
+### Return Value
+
+Inserted slide.
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| [PptxEditException](../../pptxeditexception) | Thrown if there is no appropriate layout in specified master and allowCloneMissingLayout is false. |
+
+### See Also
+
+* interface [ISlide](../../islide)
+* interface [IMasterSlide](../../imasterslide)
+* class [SlideCollection](../../slidecollection)
+* namespace [Aspose.Slides](../../slidecollection)
+* assembly [Aspose.Slides](../../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for Aspose.Slides.dll -->

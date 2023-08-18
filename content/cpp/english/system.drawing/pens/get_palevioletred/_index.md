@@ -1,0 +1,24 @@
+---
+title: get_PaleVioletRed()
+second_title: Aspose.Slides for C++ API Reference
+description: Returns a Pen object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDB7093.
+type: docs
+weight: 1379
+url: /system.drawing/pens/get_palevioletred/
+---
+## Pens::get_PaleVioletRed() method
+
+
+Returns a [Pen](../../pen/) object with a width of 1 and whose ARGB color in hexadecimal notation has a value of #FFDB7093.
+
+```cpp
+static SharedPtr<Pen> System::Drawing::Pens::get_PaleVioletRed()
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [Pen](../../pen/)
+* Class [Pens](../)
+* Namespace [System::Drawing](../../)
+* Library [Aspose.Slides](../../../)

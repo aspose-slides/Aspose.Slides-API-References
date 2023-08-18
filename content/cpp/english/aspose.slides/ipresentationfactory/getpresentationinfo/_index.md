@@ -1,0 +1,57 @@
+---
+title: GetPresentationInfo()
+second_title: Aspose.Slides for C++ API Reference
+description: Gets info about presentation in specified file.
+type: docs
+weight: 14
+url: /aspose.slides/ipresentationfactory/getpresentationinfo/
+---
+## IPresentationFactory::GetPresentationInfo(System::String) method
+
+
+Gets info about presentation in specified file.
+
+```cpp
+virtual System::SharedPtr<IPresentationInfo> Aspose::Slides::IPresentationFactory::GetPresentationInfo(System::String file)=0
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| file | [System::String](../../../system/string/) | [Presentation](../../presentation/) file. |
+
+### Return Value
+
+[Presentation](../../presentation/) info
+
+## IPresentationFactory::GetPresentationInfo(System::SharedPtr\<System::IO::Stream\>) method
+
+
+Gets info about presentation in specified stream.
+
+```cpp
+virtual System::SharedPtr<IPresentationInfo> Aspose::Slides::IPresentationFactory::GetPresentationInfo(System::SharedPtr<System::IO::Stream> stream)=0
+```
+
+
+### Arguments
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | [System::SharedPtr](../../../system/sharedptr/)\<[System::IO::Stream](../../../system.io/stream/)\> | [Presentation](../../presentation/) stream. |
+
+### Return Value
+
+[Presentation](../../presentation/) info.
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IPresentationInfo](../../ipresentationinfo/)
+* Class [String](../../../system/string/)
+* Class [IPresentationFactory](../)
+* Class [Stream](../../../system.io/stream/)
+* Namespace [Aspose::Slides](../../)
+* Library [Aspose.Slides](../../../)

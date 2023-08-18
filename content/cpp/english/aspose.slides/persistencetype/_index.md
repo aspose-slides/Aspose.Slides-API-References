@@ -1,0 +1,31 @@
+---
+title: PersistenceType
+second_title: Aspose.Slides for C++ API Reference
+description: Specifies the method used to store properties of the ActiveX control.
+type: docs
+weight: 5877
+url: /aspose.slides/persistencetype/
+---
+## PersistenceType enum
+
+
+Specifies the method used to store properties of the ActiveX control.
+
+```cpp
+enum class PersistenceType
+```
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| NotDefined | -1 | Persistance id not specified. |
+| PersistPropertyBag | 0 | Specifies that the ActiveX control is persisted using property-bag-based persistence. Property-bag-based persistence stores an ActiveX control by means of a collection of name and value pairs which specify the data persisted by the ActiveX control. |
+| PersistStream | 1 | Specifies that the ActiveX control is persisted using a stream-based persistence that does not support initialization of the ActiveX control to a default state. |
+| PersistStreamInit | 2 | Specifies that the ActiveX control is persisted using a stream-based persistence that supports initialization of the ActiveX control to a default state. |
+| PersistStorage | 3 | Specifies that the ActiveX control is persisted using storage-based persistence. |
+
+## See Also
+
+* Namespace [Aspose::Slides](../)
+* Library [Aspose.Slides](../../)

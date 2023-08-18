@@ -1,0 +1,24 @@
+---
+title: get_Dark1()
+second_title: Aspose.Slides for C++ API Reference
+description: First dark color in the scheme. Read-only IColorFormat.
+type: docs
+weight: 1
+url: /aspose.slides.theme/icolorscheme/get_dark1/
+---
+## IColorScheme::get_Dark1() method
+
+
+First dark color in the scheme. Read-only [IColorFormat](../../../aspose.slides/icolorformat/).
+
+```cpp
+virtual System::SharedPtr<IColorFormat> Aspose::Slides::Theme::IColorScheme::get_Dark1()=0
+```
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [IColorFormat](../../../aspose.slides/icolorformat/)
+* Class [IColorScheme](../)
+* Namespace [Aspose::Slides::Theme](../../)
+* Library [Aspose.Slides](../../../)

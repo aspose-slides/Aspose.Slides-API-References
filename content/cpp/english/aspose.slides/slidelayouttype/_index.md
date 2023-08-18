@@ -1,0 +1,62 @@
+---
+title: SlideLayoutType
+second_title: Aspose.Slides for C++ API Reference
+description: Represents the slide layout type.
+type: docs
+weight: 6059
+url: /aspose.slides/slidelayouttype/
+---
+## SlideLayoutType enum
+
+
+Represents the slide layout type.
+
+```cpp
+enum class SlideLayoutType : int8_t
+```
+
+### Values
+
+| Name | Value | Description |
+| --- | --- | --- |
+| Custom | -1 | Custom |
+| Title | 0 | Title |
+| Text | 1 | Text |
+| TwoColumnText | 2 | Two [Column](../column/) Text |
+| Table | 3 | [Table](../table/) |
+| TextAndChart | 4 | Text and Chart |
+| ChartAndText | 5 | Chart and Text |
+| Diagram | 6 | Diagram |
+| Chart | 7 | Chart |
+| TextAndClipArt | 8 | Text and Clip Art |
+| ClipArtAndText | 9 | Clip Art and Text |
+| TitleOnly | 10 | Title Only |
+| Blank | 11 | Blank |
+| TextAndObject | 12 | Text and Object |
+| ObjectAndText | 13 | Object and Text |
+| Object | 14 | Object |
+| TitleAndObject | 15 | Title and Object |
+| TextAndMedia | 16 | Text and Media |
+| MediaAndText | 17 | Media and Text |
+| ObjectOverText | 18 | Object over Text |
+| TextOverObject | 19 | Text over Object |
+| TextAndTwoObjects | 20 | Text and Two Objects |
+| TwoObjectsAndText | 21 | Two Objects and Text |
+| TwoObjectsOverText | 22 | Two Objects over Text |
+| FourObjects | 23 | Four Objects |
+| VerticalText | 24 | Vertical Text |
+| ClipArtAndVerticalText | 25 | Clip Art and Vertical Text |
+| VerticalTitleAndText | 26 | Vertical Title and Text |
+| VerticalTitleAndTextOverChart | 27 | Vertical Title and Text Over Chart |
+| TwoObjects | 28 | Two Objects |
+| ObjectAndTwoObject | 29 | Object and Two Object |
+| TwoObjectsAndObject | 30 | Two Objects and Object |
+| SectionHeader | 31 | [Section](../section/) Header |
+| TwoTextAndTwoObjects | 32 | Two Text and Two Objects |
+| TitleObjectAndCaption | 33 | Title, Object, and Caption |
+| PictureAndCaption | 34 | [Picture](../picture/) and Caption |
+
+## See Also
+
+* Namespace [Aspose::Slides](../)
+* Library [Aspose.Slides](../../)

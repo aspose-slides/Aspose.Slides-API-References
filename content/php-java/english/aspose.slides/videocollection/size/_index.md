@@ -1,0 +1,22 @@
+---
+title: size
+second_title: Aspose.Sildes for PHP via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/videocollection/size/
+---
+
+## size()  method
+
+ Returns a number of video files in the collection.
+ Read-only  int.
+ 
+
+### Returns
+int
+
+
+---
+
+

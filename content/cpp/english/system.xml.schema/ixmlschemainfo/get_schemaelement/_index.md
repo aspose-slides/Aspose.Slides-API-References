@@ -1,0 +1,29 @@
+---
+title: get_SchemaElement()
+second_title: Aspose.Slides for C++ API Reference
+description: Returns the compiled XmlSchemaElement that corresponds to this validated XML node.
+type: docs
+weight: 66
+url: /system.xml.schema/ixmlschemainfo/get_schemaelement/
+---
+## IXmlSchemaInfo::get_SchemaElement() method
+
+
+Returns the compiled [XmlSchemaElement](../../xmlschemaelement/) that corresponds to this validated XML node.
+
+```cpp
+virtual SharedPtr<XmlSchemaElement> System::Xml::Schema::IXmlSchemaInfo::get_SchemaElement()=0
+```
+
+
+### Return Value
+
+An [XmlSchemaElement](../../xmlschemaelement/) that corresponds to this validated XML node.
+
+## See Also
+
+* Typedef [SharedPtr](../../../system/sharedptr/)
+* Class [XmlSchemaElement](../../xmlschemaelement/)
+* Class [IXmlSchemaInfo](../)
+* Namespace [System::Xml::Schema](../../)
+* Library [Aspose.Slides](../../../)
