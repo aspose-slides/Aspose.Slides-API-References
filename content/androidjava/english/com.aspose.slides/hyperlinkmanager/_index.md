@@ -3,7 +3,6 @@ title: HyperlinkManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provide hyperlinks management adding removing.
 type: docs
-weight: 246
 url: /com.aspose.slides/hyperlinkmanager/
 ---
 **Inheritance:**
@@ -35,6 +34,36 @@ public final IHyperlink setExternalHyperlinkClick(String url)
 
 
 Set external hyperlink on click.
+
+--------------------
+
+> ```
+> The following sample code shows how to add Text Box with Hyperlink.
+>  
+>  // Instantiates a Presentation class that represents a PPTX
+>  Presentation pres = new Presentation();
+>  try {
+>      // Gets the first slide in the presentation
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      // Adds an AutoShape object with type set as Rectangle
+>      IShape pptxShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 150, 150, 150, 50);
+>      // Casts the shape to AutoShape
+>      IAutoShape pptxAutoShape = (IAutoShape) pptxShape;
+>      // Accesses the ITextFrame property associated with the AutoShape
+>      pptxAutoShape.addTextFrame("");
+>      ITextFrame textFrame = pptxAutoShape.getTextFrame();
+>      IPortion portion = textFrame.getParagraphs().get_Item(0).getPortions().get_Item(0);
+>      // Adds some text to the frame
+>      portion.setText("Aspose.Slides");
+>      // Sets the Hyperlink for the portion text
+>      IHyperlinkManager hypMan = portion.getPortionFormat().getHyperlinkManager();
+>      hypMan.setExternalHyperlinkClick("http://www.aspose.com");
+>      // Saves the PPTX Presentation
+>      pres.save("hLinkPPTX_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

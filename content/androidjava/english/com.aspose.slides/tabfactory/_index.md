@@ -3,7 +3,6 @@ title: TabFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create ITab instances
 type: docs
-weight: 548
 url: /com.aspose.slides/tabfactory/
 ---
 **Inheritance:**

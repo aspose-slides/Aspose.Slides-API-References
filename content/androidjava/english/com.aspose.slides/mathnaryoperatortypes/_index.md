@@ -3,7 +3,6 @@ title: MathNaryOperatorTypes
 second_title: Aspose.Slides for Android via Java API Reference
 description: Nary operator IMathNaryOperator types excluding integrals For integrals
 type: docs
-weight: 343
 url: /com.aspose.slides/mathnaryoperatortypes/
 ---
 **Inheritance:**

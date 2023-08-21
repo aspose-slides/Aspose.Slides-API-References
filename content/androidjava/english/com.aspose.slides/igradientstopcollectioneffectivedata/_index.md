@@ -3,7 +3,6 @@ title: IGradientStopCollectionEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of GradientStopData objects.
 type: docs
-weight: 812
 url: /com.aspose.slides/igradientstopcollectioneffectivedata/
 ---
 **All Implemented Interfaces:**

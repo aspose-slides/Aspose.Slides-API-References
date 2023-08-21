@@ -3,7 +3,6 @@ title: Luminance
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Luminance effect.
 type: docs
-weight: 293
 url: /com.aspose.slides/luminance/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ILuminance](../../com.aspose.slides/iluminance), com.aspose.slides.IVisualEffect
 ```
-public class Luminance extends ImageTransformOperation implements ILuminance, IVisualEffect
+public final class Luminance extends ImageTransformOperation implements ILuminance, IVisualEffect
 ```
 
 Represents a Luminance effect. Brightness linearly shifts all colors closer to white or black. Contrast scales all colors to be either closer or further apart.

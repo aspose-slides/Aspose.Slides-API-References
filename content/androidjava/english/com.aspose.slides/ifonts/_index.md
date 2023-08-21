@@ -3,7 +3,6 @@ title: IFonts
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents fonts collection.
 type: docs
-weight: 790
 url: /com.aspose.slides/ifonts/
 ---```
 public interface IFonts

@@ -3,7 +3,6 @@ title: OdpReadException
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 386
 url: /com.aspose.slides/odpreadexception/
 ---
 **Inheritance:**

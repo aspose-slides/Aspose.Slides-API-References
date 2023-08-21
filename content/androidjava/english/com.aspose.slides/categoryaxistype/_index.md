@@ -3,7 +3,6 @@ title: CategoryAxisType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a type of a category axis.
 type: docs
-weight: 69
 url: /com.aspose.slides/categoryaxistype/
 ---
 **Inheritance:**

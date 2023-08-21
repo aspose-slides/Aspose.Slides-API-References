@@ -3,7 +3,6 @@ title: OleObjectFrame
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 388
 url: /com.aspose.slides/oleobjectframe/
 ---
 **Inheritance:**
@@ -16,6 +15,41 @@ public class OleObjectFrame extends GraphicalObject implements IOleObjectFrame
 ```
 
 Represents an OLE object on a slide.
+
+--------------------
+
+> ```
+> The following example shows how to accessing OLE Object frames.
+>  
+>  // Loads the PPTX to a presentation object
+>  Presentation pres = new Presentation("AccessingOLEObjectFrame.pptx");
+>  try {
+>      // Accesses the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Casts the shape to OleObjectFrame
+>      OleObjectFrame oleObjectFrame = (OleObjectFrame) sld.getShapes().get_Item(0);
+>      // Reads the OLE Object and writes it to disk
+>      if (oleObjectFrame != null) {
+>          // Gets embedded file data
+>          byte[] data = oleObjectFrame.getEmbeddedData().getEmbeddedFileData();
+>          // Gets embedded file extention
+>          String fileExtension = oleObjectFrame.getEmbeddedData().getEmbeddedFileExtension();
+>          // Creates a path to save the extracted file
+>          String extractedPath = "excelFromOLE_out" + fileExtension;
+>          // Saves extracted data
+>          FileOutputStream fos = null;
+>          try {
+>              fos = new FileOutputStream(extractedPath);
+>              fos.write(data);
+>          } finally {
+>              if (fos != null) fos.close();
+>          }
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |
@@ -235,8 +269,23 @@ Sets information about OLE embedded data.
 >      OleObjectFrame oof = (OleObjectFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 >      if (oof != null)
 >      {
->          IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(Files.readAllBytes(Paths.get("Picture.png")), "png");
->          oof.setEmbeddedData(newData);
+>          BufferedInputStream bis = null;
+>          DataInputStream dis = null;
+>          try {
+>              File file = new File("Picture.png");
+>              byte[] bytes = new byte[(int) file.length()];
+>              bis = new BufferedInputStream(new FileInputStream(file));
+>              dis = new DataInputStream(bis);
+>              dis.readFully(bytes);
+>              IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(bytes, "png");
+>              oof.setEmbeddedData(newData);
+>          } finally {
+>              if (dis != null) {
+>                  dis.close();
+>              if (bis != null)
+>                  bis.close();
+>              }
+>          }
 >      }
 >  } catch (IOException e) {
 >  } finally {

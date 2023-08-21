@@ -3,7 +3,6 @@ title: ILightRigEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective light rig properties.
 type: docs
-weight: 855
 url: /com.aspose.slides/ilightrigeffectivedata/
 ---```
 public interface ILightRigEffectiveData

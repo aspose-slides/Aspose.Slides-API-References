@@ -3,7 +3,6 @@ title: XpsOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control how a presentation is saved in XPS format.
 type: docs
-weight: 619
 url: /com.aspose.slides/xpsoptions/
 ---
 **Inheritance:**
@@ -16,6 +15,36 @@ public class XpsOptions extends SaveOptions implements IXpsOptions
 ```
 
 Provides options that control how a presentation is saved in XPS format.
+
+--------------------
+
+> ```
+> The following example shows how to converting presentations to XPS using default settings.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation pres = new Presentation("Convert_XPS.pptx");
+>  try {
+>      // Saving the presentation to XPS document
+>      pres.save("XPS_Output_Without_XPSOption_out.xps", SaveFormat.Xps);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to converting presentations to XPS using custom settings.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation pres = new Presentation("Convert_XPS_Options.pptx");
+>  try {
+>      // Instantiate the TiffOptions class
+>      XpsOptions options = new XpsOptions();
+>      // Save MetaFiles as PNG
+>      options.setSaveMetafilesAsPng(true);
+>      // Save the presentation to XPS document
+>      pres.save("XPS_With_Options_out.xps", SaveFormat.Xps, options);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |

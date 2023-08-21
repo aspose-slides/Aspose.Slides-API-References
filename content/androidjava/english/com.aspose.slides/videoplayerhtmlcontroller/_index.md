@@ -3,7 +3,6 @@ title: VideoPlayerHtmlController
 second_title: Aspose.Slides for Android via Java API Reference
 description: This class allows export of video and audio files into a HTML
 type: docs
-weight: 610
 url: /com.aspose.slides/videoplayerhtmlcontroller/
 ---
 **Inheritance:**

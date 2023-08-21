@@ -3,7 +3,6 @@ title: ILineFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which contains effective line formatting properties.
 type: docs
-weight: 861
 url: /com.aspose.slides/ilineformateffectivedata/
 ---
 **All Implemented Interfaces:**

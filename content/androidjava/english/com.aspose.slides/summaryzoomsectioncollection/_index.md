@@ -3,7 +3,6 @@ title: SummaryZoomSectionCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of Summary Zoom Section objects.
 type: docs
-weight: 536
 url: /com.aspose.slides/summaryzoomsectioncollection/
 ---
 **Inheritance:**

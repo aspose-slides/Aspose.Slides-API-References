@@ -3,7 +3,6 @@ title: AlphaCeiling
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Alpha Ceiling effect.
 type: docs
-weight: 13
 url: /com.aspose.slides/alphaceiling/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IAlphaCeiling](../../com.aspose.slides/ialphaceiling), com.aspose.slides.IVisualEffect
 ```
-public class AlphaCeiling extends ImageTransformOperation implements IAlphaCeiling, IVisualEffect
+public final class AlphaCeiling extends ImageTransformOperation implements IAlphaCeiling, IVisualEffect
 ```
 
 Represents an Alpha Ceiling effect. Alpha (opacity) values greater than zero are changed to 100%. In other words, anything partially opaque becomes fully opaque.

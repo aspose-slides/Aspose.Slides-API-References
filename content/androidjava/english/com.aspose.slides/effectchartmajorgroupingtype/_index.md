@@ -3,7 +3,6 @@ title: EffectChartMajorGroupingType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the type of an animation effect for charts element.
 type: docs
-weight: 162
 url: /com.aspose.slides/effectchartmajorgroupingtype/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: IChartTitle
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents chart title properties.
 type: docs
-weight: 708
 url: /com.aspose.slides/icharttitle/
 ---
 **All Implemented Interfaces:**

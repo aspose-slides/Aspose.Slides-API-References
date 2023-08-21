@@ -3,7 +3,6 @@ title: ExtraColorScheme
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an additional color scheme which can be assigned to a slide.
 type: docs
-weight: 185
 url: /com.aspose.slides/extracolorscheme/
 ---
 **Inheritance:**

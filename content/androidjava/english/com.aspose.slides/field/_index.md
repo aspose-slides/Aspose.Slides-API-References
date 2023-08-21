@@ -3,7 +3,6 @@ title: Field
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a field.
 type: docs
-weight: 187
 url: /com.aspose.slides/field/
 ---
 **Inheritance:**

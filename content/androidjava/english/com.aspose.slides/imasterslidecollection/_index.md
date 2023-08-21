@@ -3,7 +3,6 @@ title: IMasterSlideCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of master slides.
 type: docs
-weight: 876
 url: /com.aspose.slides/imasterslidecollection/
 ---
 **All Implemented Interfaces:**

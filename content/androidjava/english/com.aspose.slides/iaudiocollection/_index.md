@@ -3,7 +3,6 @@ title: IAudioCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of embedded audio files.
 type: docs
-weight: 644
 url: /com.aspose.slides/iaudiocollection/
 ---
 **All Implemented Interfaces:**

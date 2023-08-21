@@ -3,7 +3,6 @@ title: ChartDataWorkbook
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides access to embedded Excel workbook
 type: docs
-weight: 89
 url: /com.aspose.slides/chartdataworkbook/
 ---
 **Inheritance:**

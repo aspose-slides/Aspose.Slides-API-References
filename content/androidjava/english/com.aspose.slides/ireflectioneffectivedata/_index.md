@@ -3,7 +3,6 @@ title: IReflectionEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which represents a Reflection effect.
 type: docs
-weight: 993
 url: /com.aspose.slides/ireflectioneffectivedata/
 ---
 **All Implemented Interfaces:**

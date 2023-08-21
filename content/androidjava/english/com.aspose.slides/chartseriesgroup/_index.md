@@ -3,7 +3,6 @@ title: ChartSeriesGroup
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents group of series.
 type: docs
-weight: 97
 url: /com.aspose.slides/chartseriesgroup/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: Size
 second_title: Aspose.Slides for Android via Java API Reference
 description: Class for describing width and height dimensions in some arbitrary unit.
 type: docs
-weight: 10
 url: /com.aspose.slides.android/size/
 ---
 **Inheritance:**

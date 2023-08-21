@@ -3,7 +3,6 @@ title: AlphaBiLevel
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Alpha Bi-Level effect.
 type: docs
-weight: 12
 url: /com.aspose.slides/alphabilevel/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IAlphaBiLevel](../../com.aspose.slides/ialphabilevel), com.aspose.slides.IVisualEffect
 ```
-public class AlphaBiLevel extends ImageTransformOperation implements IAlphaBiLevel, IVisualEffect
+public final class AlphaBiLevel extends ImageTransformOperation implements IAlphaBiLevel, IVisualEffect
 ```
 
 Represents an Alpha Bi-Level effect. Alpha (Opacity) values less than the threshold are changed to 0 (fully transparent) and alpha values greater than or equal to the threshold are changed to 100% (fully opaque).

@@ -3,7 +3,6 @@ title: IGifOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents GIF exporting options.
 type: docs
-weight: 803
 url: /com.aspose.slides/igifoptions/
 ---
 **All Implemented Interfaces:**

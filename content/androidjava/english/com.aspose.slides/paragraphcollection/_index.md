@@ -3,16 +3,15 @@ title: ParagraphCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a paragraphs.
 type: docs
-weight: 400
 url: /com.aspose.slides/paragraphcollection/
 ---
 **Inheritance:**
 java.lang.Object, com.aspose.slides.DomObject
 
 **All Implemented Interfaces:**
-[com.aspose.slides.IParagraphCollection](../../com.aspose.slides/iparagraphcollection), com.aspose.slides.IObserver
+[com.aspose.slides.IParagraphCollection](../../com.aspose.slides/iparagraphcollection)
 ```
-public final class ParagraphCollection extends DomObject<TextFrame> implements IParagraphCollection, IObserver
+public final class ParagraphCollection extends DomObject<TextFrame> implements IParagraphCollection
 ```
 
 Represents a collection of a paragraphs.
@@ -37,7 +36,6 @@ Represents a collection of a paragraphs.
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
 | [getSlide()](#getSlide--) | Returns the parent slide of a paragraphs collection. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a paragraphs collection. |
-| [notify(Object sender)](#notify-java.lang.Object-) |  |
 | [addFromHtml(String text)](#addFromHtml-java.lang.String-) | Adds text from specified html string to the collection. |
 | [addFromHtml(String text, IExternalResourceResolver resolver, String uri)](#addFromHtml-java.lang.String-com.aspose.slides.IExternalResourceResolver-java.lang.String-) | Adds text from specified html string to the collection. |
 | [exportToHtml(int firstParagraphIndex, int paragraphsCount, ITextToHtmlConversionOptions options)](#exportToHtml-int-int-com.aspose.slides.ITextToHtmlConversionOptions-) | Converts specifying paragraphs to the HTML and returns it as String object. |
@@ -252,19 +250,6 @@ Returns the parent presentation of a paragraphs collection. Read-only [IPresenta
 
 **Returns:**
 [IPresentation](../../com.aspose.slides/ipresentation)
-### notify(Object sender) {#notify-java.lang.Object-}
-```
-public final void notify(Object sender)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| sender | java.lang.Object |  |
-
 ### addFromHtml(String text) {#addFromHtml-java.lang.String-}
 ```
 public final void addFromHtml(String text)

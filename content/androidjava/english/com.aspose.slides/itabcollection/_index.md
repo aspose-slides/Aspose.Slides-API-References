@@ -3,7 +3,6 @@ title: ITabCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of tabs.
 type: docs
-weight: 1059
 url: /com.aspose.slides/itabcollection/
 ---
 **All Implemented Interfaces:**

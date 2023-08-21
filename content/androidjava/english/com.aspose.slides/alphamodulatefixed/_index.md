@@ -3,7 +3,6 @@ title: AlphaModulateFixed
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an Alpha Modulate Fixed effect.
 type: docs
-weight: 17
 url: /com.aspose.slides/alphamodulatefixed/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IAlphaModulateFixed](../../com.aspose.slides/ialphamodulatefixed), com.aspose.slides.IVisualEffect
 ```
-public class AlphaModulateFixed extends ImageTransformOperation implements IAlphaModulateFixed, IVisualEffect
+public final class AlphaModulateFixed extends ImageTransformOperation implements IAlphaModulateFixed, IVisualEffect
 ```
 
 Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.

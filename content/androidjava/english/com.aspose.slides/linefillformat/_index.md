@@ -3,7 +3,6 @@ title: LineFillFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents properties for lines filling.
 type: docs
-weight: 283
 url: /com.aspose.slides/linefillformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ILineFillFormat](../../com.aspose.slides/ilinefillformat)
 ```
-public class LineFillFormat extends PVIObject implements ILineFillFormat
+public final class LineFillFormat extends PVIObject implements ILineFillFormat
 ```
 
 Represents properties for lines filling.
@@ -20,6 +19,7 @@ Represents properties for lines filling.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getFillType()](#getFillType--) | Returns or sets the fill type. |
 | [setFillType(byte value)](#setFillType-byte-) | Returns or sets the fill type. |
 | [getRotateWithShape()](#getRotateWithShape--) | Determines whether the fill should be rotated with a shape. |
@@ -27,6 +27,16 @@ Represents properties for lines filling.
 | [getSolidFillColor()](#getSolidFillColor--) | Returns the color of a solid fill. |
 | [getGradientFormat()](#getGradientFormat--) | Returns the gradient fill format. |
 | [getPatternFormat()](#getPatternFormat--) | Returns the pattern fill format. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getFillType() {#getFillType--}
 ```
 public final byte getFillType()

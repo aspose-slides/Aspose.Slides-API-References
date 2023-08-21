@@ -3,7 +3,6 @@ title: ILayoutSlideCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a base class for collection of a layout slides.
 type: docs
-weight: 845
 url: /com.aspose.slides/ilayoutslidecollection/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,6 @@ title: ISlideShowTransition
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents slide show transition.
 type: docs
-weight: 1034
 url: /com.aspose.slides/islideshowtransition/
 ---```
 public interface ISlideShowTransition

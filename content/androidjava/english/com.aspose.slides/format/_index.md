@@ -3,7 +3,6 @@ title: Format
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents chart format properties.
 type: docs
-weight: 215
 url: /com.aspose.slides/format/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IFormat](../../com.aspose.slides/iformat)
 ```
-public class Format extends PVIObject implements IFormat
+public final class Format extends PVIObject implements IFormat
 ```
 
 Represents chart format properties.
@@ -20,10 +19,21 @@ Represents chart format properties.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getFill()](#getFill--) | Returns fill style properties of a chart. |
 | [getLine()](#getLine--) | Returns line style properties of a chart. |
 | [getEffect()](#getEffect--) | Returns effects used for a chart. |
 | [getEffect3D()](#getEffect3D--) | Returns 3D format of a chart. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getFill() {#getFill--}
 ```
 public final IFillFormat getFill()

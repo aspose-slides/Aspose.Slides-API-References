@@ -3,7 +3,6 @@ title: IMarker
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents marker of a chert.
 type: docs
-weight: 867
 url: /com.aspose.slides/imarker/
 ---```
 public interface IMarker

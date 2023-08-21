@@ -3,7 +3,6 @@ title: CameraPresetType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Constants which define camera preset type.
 type: docs
-weight: 67
 url: /com.aspose.slides/camerapresettype/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: ChartDataPoint
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents series data point.
 type: docs
-weight: 84
 url: /com.aspose.slides/chartdatapoint/
 ---
 **Inheritance:**
@@ -40,8 +39,9 @@ Represents series data point.
 | [getRelatedLegendEntry()](#getRelatedLegendEntry--) | Properties of corresponding legend entry in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. |
 | [remove()](#remove--) | Removes DataPoint from chart series. |
 | [getDataPointLevels()](#getDataPointLevels--) | Returns container of data point levels. |
+| [getIndex()](#getIndex--) | Determines which of the parent's children collection this data point applies to. |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
-| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. |
+| [getAutomaticDataPointColor()](#getAutomaticDataPointColor--) | Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. |
 | [getInvertIfNegative()](#getInvertIfNegative--) | Specifies the data point shall invert its colors if the value is negative. |
 | [setInvertIfNegative(boolean value)](#setInvertIfNegative-boolean-) | Specifies the data point shall invert its colors if the value is negative. |
 | [getActualX()](#getActualX--) | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. |
@@ -258,6 +258,16 @@ Returns container of data point levels. Applied for Treeamp and Sunburst series.
 
 **Returns:**
 [IChartDataPointLevelsManager](../../com.aspose.slides/ichartdatapointlevelsmanager)
+### getIndex() {#getIndex--}
+```
+public final long getIndex()
+```
+
+
+Determines which of the parent's children collection this data point applies to. Read long.
+
+**Returns:**
+long
 ### getParent_Immediate() {#getParent-Immediate--}
 ```
 public final IDOMObject getParent_Immediate()
@@ -274,7 +284,7 @@ public final Integer getAutomaticDataPointColor()
 ```
 
 
-Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried propery and chart style. This color is used by default if FillType equals NotDefined.
+Returns an automatic color of data point based on series index, data point index, ParentSeriesGroup.IsColorVaried property and chart style. This color is used by default if FillType equals NotDefined.
 
 **Returns:**
 java.lang.Integer

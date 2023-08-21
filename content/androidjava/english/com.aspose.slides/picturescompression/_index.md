@@ -3,7 +3,6 @@ title: PicturesCompression
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the pictures compression level
 type: docs
-weight: 420
 url: /com.aspose.slides/picturescompression/
 ---
 **Inheritance:**

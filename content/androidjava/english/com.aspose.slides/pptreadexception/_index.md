@@ -3,7 +3,6 @@ title: PptReadException
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an exception which thrown on presentation reading errors.
 type: docs
-weight: 436
 url: /com.aspose.slides/pptreadexception/
 ---
 **Inheritance:**

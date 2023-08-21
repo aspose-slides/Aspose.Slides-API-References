@@ -3,7 +3,6 @@ title: SlideShowSettings
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the slide show settings for the presentation.
 type: docs
-weight: 508
 url: /com.aspose.slides/slideshowsettings/
 ---
 **Inheritance:**
@@ -30,6 +29,8 @@ Represents the slide show settings for the presentation.
 | [setSlides(SlidesRange value)](#setSlides-com.aspose.slides.SlidesRange-) | Slides range |
 | [getUseTimings()](#getUseTimings--) | Use Timings in Slide Show |
 | [setUseTimings(boolean value)](#setUseTimings-boolean-) | Use Timings in Slide Show |
+| [getShowMediaControls()](#getShowMediaControls--) | Show Media Controls |
+| [setShowMediaControls(boolean value)](#setShowMediaControls-boolean-) | Show Media Controls |
 ### getSlideShowType() {#getSlideShowType--}
 ```
 public final SlideShowType getSlideShowType()
@@ -236,6 +237,29 @@ public final void setUseTimings(boolean value)
 
 
 Use Timings in Slide Show
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
+
+### getShowMediaControls() {#getShowMediaControls--}
+```
+public final boolean getShowMediaControls()
+```
+
+
+Show Media Controls
+
+**Returns:**
+boolean
+### setShowMediaControls(boolean value) {#setShowMediaControls-boolean-}
+```
+public final void setShowMediaControls(boolean value)
+```
+
+
+Show Media Controls
 
 **Parameters:**
 | Parameter | Type | Description |

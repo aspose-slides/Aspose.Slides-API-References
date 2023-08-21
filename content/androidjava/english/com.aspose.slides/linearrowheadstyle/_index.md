@@ -3,7 +3,6 @@ title: LineArrowheadStyle
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the style of an arrowhead.
 type: docs
-weight: 279
 url: /com.aspose.slides/linearrowheadstyle/
 ---
 **Inheritance:**

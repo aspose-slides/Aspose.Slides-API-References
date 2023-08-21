@@ -3,7 +3,6 @@ title: IRenderingOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides options that control how a presentation/slide is rendered.
 type: docs
-weight: 994
 url: /com.aspose.slides/irenderingoptions/
 ---
 **All Implemented Interfaces:**
@@ -21,14 +20,21 @@ Provides options that control how a presentation/slide is rendered.
 >  try {
 >      IRenderingOptions renderingOpts = new RenderingOptions();
 >      renderingOpts.getNotesCommentsLayouting().setNotesPosition(NotesPositions.BottomTruncated);
-> 
->      ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(renderingOpts), "PNG", new File("pres-Original.png"));
-> 
+>      FileOutputStream out = new FileOutputStream("pres-Original.png");
+>      pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
+>      out.flush();
+>      out.close();
 >      renderingOpts.setDefaultRegularFont("Arial Black");
->      ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(renderingOpts), "PNG", new File("pres-ArialBlackDefault.png"));
-> 
+>      FileOutputStream out = new FileOutputStream("pres-ArialBlackDefault.png");
+>      pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
+>      out.flush();
+>      out.close();
 >      renderingOpts.setDefaultRegularFont("Arial Narrow");
->      ImageIO.write(pres.getSlides().get_Item(0).getThumbnail(renderingOpts), "PNG", new File("pres-ArialNarrowDefault.png"));
+>      FileOutputStream out = new FileOutputStream("pres-ArialNarrowDefault.png");
+>      pres.getSlides().get_Item(0).getThumbnail(renderingOpts).compress(android.graphics.Bitmap.CompressFormat.JPEG, 100, out);
+>      out.flush();
+>      out.close();
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

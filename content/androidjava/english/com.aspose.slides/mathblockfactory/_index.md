@@ -3,7 +3,6 @@ title: MathBlockFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create a math block
 type: docs
-weight: 314
 url: /com.aspose.slides/mathblockfactory/
 ---
 **Inheritance:**

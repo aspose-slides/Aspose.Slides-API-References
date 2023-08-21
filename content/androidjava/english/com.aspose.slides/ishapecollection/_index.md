@@ -3,7 +3,6 @@ title: IShapeCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a shapes.
 type: docs
-weight: 1020
 url: /com.aspose.slides/ishapecollection/
 ---
 **All Implemented Interfaces:**
@@ -486,8 +485,14 @@ Adds a new Section Zoom object to the end of a collection with a predefined imag
 >  
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
 >  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -556,8 +561,14 @@ Creates a new Section Zoom object and inserts it to a collection at the specifie
 >  
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().insertSectionZoomFrame(2, 150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().insertSectionZoomFrame(2, 150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
 >  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
