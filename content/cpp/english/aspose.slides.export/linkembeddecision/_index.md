@@ -3,7 +3,7 @@ title: LinkEmbedDecision
 second_title: Aspose.Slides for C++ API Reference
 description: Determines how object will be processed during saving.
 type: docs
-weight: 833
+weight: 846
 url: /aspose.slides.export/linkembeddecision/
 ---
 ## LinkEmbedDecision enum

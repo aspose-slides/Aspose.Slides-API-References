@@ -3,7 +3,7 @@ title: SvgShape
 second_title: Aspose.Slides for C++ API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 664
+weight: 677
 url: /aspose.slides.export/svgshape/
 ---
 ## SvgShape class

@@ -43,7 +43,7 @@ class WebHeaderCollection : public System::Object
 | void [idx_set](./idx_set/)([HttpResponseHeader](../httpresponseheader/), [String](../../system/string/)) | Sets the header value using the specified response's header. |
 | void [idx_set](./idx_set/)([String](../../system/string/), [String](../../system/string/)) | Sets the header value using the specified header name. |
 | virtual **bool** [Is](../../system/object/is/)(const [TypeInfo](../../system/typeinfo/)\&) const | Check if object represents an instance of type described by targetType. Analog of C# 'is' operator. |
-| static **bool** [IsRestricted](./isrestricted/)(const [String](../../system/string/)\&) | Not implemented. |
+| static **bool** [IsRestricted](./isrestricted/)(const [String](../../system/string/)\&) | Tests whether the specified HTTP header can be set for the request. |
 | void [Lock](../../system/object/lock/)() | Implements C# lock() statement locking. Call directly or use [LockContext](../../system/lockcontext/) sentry object. |
 | virtual [ptr](../../system/object/ptr/) [MemberwiseClone](../../system/object/memberwiseclone/)() const | Analog of C# [Object.MemberwiseClone()](../../system/object/memberwiseclone/) method. Enables cloning custom types. |
 |  [Object](../../system/object/object/)() | Creates object. Initializes all internal data structures. |

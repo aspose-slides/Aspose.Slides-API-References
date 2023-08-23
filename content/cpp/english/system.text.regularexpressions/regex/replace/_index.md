@@ -114,6 +114,24 @@ String System::Text::RegularExpressions::Regex::Replace(const String &input, con
 
 Input strings with all matches replaced.
 
+## Regex::Replace(const String\&, const String\&, int) method
+
+
+Replaces substrings in string. Not implemented.
+
+```cpp
+String System::Text::RegularExpressions::Regex::Replace(const String &input, const String &replacement, int count)
+```
+
+## Regex::Replace(const String\&, const String\&, int, int) method
+
+
+Replaces substrings in string. Not implemented.
+
+```cpp
+String System::Text::RegularExpressions::Regex::Replace(const String &input, const String &replacement, int count, int startat)
+```
+
 ## Regex::Replace(const String\&, const char_t *, const char_t *) method
 
 
@@ -203,24 +221,6 @@ static String System::Text::RegularExpressions::Regex::Replace(const String &inp
 ### Return Value
 
 Input string with all regex matches replaced with replacement string.
-
-## Regex::Replace(const String\&, const String\&, int) method
-
-
-Replaces substrings in string. Not implemented.
-
-```cpp
-static String System::Text::RegularExpressions::Regex::Replace(const String &input, const String &replacement, int count)
-```
-
-## Regex::Replace(const String\&, const String\&, int, int) method
-
-
-Replaces substrings in string. Not implemented.
-
-```cpp
-static String System::Text::RegularExpressions::Regex::Replace(const String &input, const String &replacement, int count, int startat)
-```
 
 ## Regex::Replace(const String\&, const String\&, const String\&) method
 

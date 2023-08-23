@@ -1,15 +1,15 @@
 ---
 title: Html5Options()
 second_title: Aspose.Slides for C++ API Reference
-description: 
+description: Default constructor.
 type: docs
-weight: 53
+weight: 105
 url: /aspose.slides.export/html5options/html5options/
 ---
 ## Html5Options::Html5Options() constructor
 
 
-
+Default constructor.
 
 ```cpp
 Aspose::Slides::Export::Html5Options::Html5Options()

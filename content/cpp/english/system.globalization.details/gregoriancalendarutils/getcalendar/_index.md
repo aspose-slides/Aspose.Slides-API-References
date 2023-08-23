@@ -12,7 +12,7 @@ url: /system.globalization.details/gregoriancalendarutils/getcalendar/
 Gets thread-local gregorian ICU calendar.
 
 ```cpp
-static icu::Calendar & System::Globalization::Details::GregorianCalendarUtils::GetCalendar()
+static codeporting_icu::Calendar & System::Globalization::Details::GregorianCalendarUtils::GetCalendar()
 ```
 
 

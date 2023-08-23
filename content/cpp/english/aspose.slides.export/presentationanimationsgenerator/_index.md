@@ -3,7 +3,7 @@ title: PresentationAnimationsGenerator
 second_title: Aspose.Slides for C++ API Reference
 description: Represents a generator of the animations in the Presentation.
 type: docs
-weight: 560
+weight: 573
 url: /aspose.slides.export/presentationanimationsgenerator/
 ---
 ## PresentationAnimationsGenerator class

@@ -302,13 +302,13 @@ System::String::String(const ArrayPtr<char16_t> &arr, int offset, int len)
 | offset | int | Subarray start index. |
 | len | int | Subarray length. |
 
-## String::String(const icu::UnicodeString\&) constructor
+## String::String(const codeporting_icu::UnicodeString\&) constructor
 
 
 Wraps UnicodeString into [String](../).
 
 ```cpp
-System::String::String(const icu::UnicodeString &str)
+System::String::String(const codeporting_icu::UnicodeString &str)
 ```
 
 
@@ -316,15 +316,15 @@ System::String::String(const icu::UnicodeString &str)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | const icu::UnicodeString\& | UnicodeString to wrap into [String](../). |
+| str | const codeporting_icu::UnicodeString\& | UnicodeString to wrap into [String](../). |
 
-## String::String(icu::UnicodeString\&&) constructor
+## String::String(codeporting_icu::UnicodeString\&&) constructor
 
 
 Move constructor.
 
 ```cpp
-System::String::String(icu::UnicodeString &&str) noexcept
+System::String::String(codeporting_icu::UnicodeString &&str) noexcept
 ```
 
 
@@ -332,7 +332,7 @@ System::String::String(icu::UnicodeString &&str) noexcept
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| str | icu::UnicodeString\&& | UnicodeString to wrap into [String](../). |
+| str | codeporting_icu::UnicodeString\&& | UnicodeString to wrap into [String](../). |
 
 ## String::String(const std::wstring\&) constructor
 

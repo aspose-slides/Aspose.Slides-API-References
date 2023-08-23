@@ -21,8 +21,8 @@ class GregorianCalendarUtils
 | --- | --- |
 | static **double** [ConvertDateTimeToUDate](./convertdatetimetoudate/)([DateTime](../../system/datetime/)) | [Convert](../../system/convert/)[DateTime](../../system/datetime/) to ICU UDate. |
 | static [DateTime](../../system/datetime/) [ConvertUDateToDateTime](./convertudatetodatetime/)(const **double**) | [Convert](../../system/convert/) ICU UDate to [DateTime](../../system/datetime/). |
-| static std::unique_ptr\<icu::Calendar\> [CreateCalendar](./createcalendar/)() | Create gregorian ICU calendar. |
-| static icu::Calendar\& [GetCalendar](./getcalendar/)() | Gets thread-local gregorian ICU calendar. |
+| static std::unique_ptr\<codeporting_icu::Calendar\> [CreateCalendar](./createcalendar/)() | Create gregorian ICU calendar. |
+| static codeporting_icu::Calendar\& [GetCalendar](./getcalendar/)() | Gets thread-local gregorian ICU calendar. |
 | static int [GetDaysInMonth](./getdaysinmonth/)(int, int) | Gets number of days in specific month. |
 | static int [GetDaysInYear](./getdaysinyear/)(int) | Gets number of days in specific year. |
 | static **bool** [IsLeapDay](./isleapday/)(int, int, int) | Checks if the day is leap. |
