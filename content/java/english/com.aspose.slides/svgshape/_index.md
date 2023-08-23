@@ -3,7 +3,6 @@ title: SvgShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents options for SVG shape.
 type: docs
-weight: 541
 url: /com.aspose.slides/svgshape/
 ---
 **Inheritance:**

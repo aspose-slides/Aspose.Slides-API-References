@@ -3,7 +3,6 @@ title: ISoftEdge
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Soft Edge effect.
 type: docs
-weight: 1043
 url: /com.aspose.slides/isoftedge/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,6 @@ title: ISoftEdgeEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which represents a soft edge effect.
 type: docs
-weight: 1044
 url: /com.aspose.slides/isoftedgeeffectivedata/
 ---
 **All Implemented Interfaces:**

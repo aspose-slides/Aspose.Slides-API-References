@@ -3,7 +3,6 @@ title: GeometryShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents the parent class for all geometric shapes.
 type: docs
-weight: 220
 url: /com.aspose.slides/geometryshape/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: RowFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents format of a table row.
 type: docs
-weight: 473
 url: /com.aspose.slides/rowformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, com.aspose.slides.DomObject
 **All Implemented Interfaces:**
 [com.aspose.slides.IRowFormat](../../com.aspose.slides/irowformat), com.aspose.slides.IPVIObject
 ```
-public class RowFormat extends DomObject<Row> implements IRowFormat, IPVIObject
+public final class RowFormat extends DomObject<Row> implements IRowFormat, IPVIObject
 ```
 
 Represents format of a table row.

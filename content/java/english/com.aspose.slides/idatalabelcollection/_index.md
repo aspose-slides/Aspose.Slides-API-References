@@ -3,7 +3,6 @@ title: IDataLabelCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a series labels.
 type: docs
-weight: 741
 url: /com.aspose.slides/idatalabelcollection/
 ---
 **All Implemented Interfaces:**
@@ -19,6 +18,7 @@ Represents a series labels.
 | --- | --- |
 | [get_Item(int index)](#get-Item-int-) | Gets the data label for the data point with the specified index. |
 | [getDefaultDataLabelFormat()](#getDefaultDataLabelFormat--) | Returns default format of all data labels in the collection. |
+| [getLeaderLinesFormat()](#getLeaderLinesFormat--) | Represents data labels leader lines format. |
 | [getLeaderLinesColor()](#getLeaderLinesColor--) | Gets or sets the color of all leader lines in the collection. |
 | [setLeaderLinesColor(Color value)](#setLeaderLinesColor-java.awt.Color-) | Gets or sets the color of all leader lines in the collection. |
 | [isVisible()](#isVisible--) | False means that data label is not visible by default (and so all Show\*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). |
@@ -56,6 +56,33 @@ Returns default format of all data labels in the collection. Read-only [IDataLab
 
 **Returns:**
 [IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
+### getLeaderLinesFormat() {#getLeaderLinesFormat--}
+```
+public abstract IChartLinesFormat getLeaderLinesFormat()
+```
+
+
+Represents data labels leader lines format. Read-only [IChartLinesFormat](../../com.aspose.slides/ichartlinesformat).
+
+--------------------
+
+> ```
+> Example:
+>   
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      IChart chart = (IChart) pres.getSlides().get_Item(0).getShapes().get_Item(0);
+>      IChartSeriesCollection series = chart.getChartData().getSeries();
+>      IDataLabelCollection labels = series.get_Item(0).getLabels();
+>      labels.getLeaderLinesFormat().getLine().getFillFormat().setFillType(FillType.Solid);
+>      labels.getLeaderLinesFormat().getLine().getFillFormat().getSolidFillColor().setColor(new java.awt.Color(255, 0, 0, 255));
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+[IChartLinesFormat](../../com.aspose.slides/ichartlinesformat)
 ### getLeaderLinesColor() {#getLeaderLinesColor--}
 ```
 public abstract Color getLeaderLinesColor()
@@ -75,7 +102,7 @@ Gets or sets the color of all leader lines in the collection. Read/write java.aw
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
 >      IDataLabelCollection labels = series.get_Item(0).getLabels();
 > 
->      labels.setLeaderLinesColor(Color.RED);
+>      labels.setLeaderLinesColor(new java.awt.Color(255, 0, 0));
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -102,7 +129,7 @@ Gets or sets the color of all leader lines in the collection. Read/write java.aw
 >      IChartSeriesCollection series = chart.getChartData().getSeries();
 >      IDataLabelCollection labels = series.get_Item(0).getLabels();
 > 
->      labels.setLeaderLinesColor(Color.RED);
+>      labels.setLeaderLinesColor(new java.awt.Color(255, 0, 0));
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }

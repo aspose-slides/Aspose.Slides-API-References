@@ -3,7 +3,6 @@ title: IMathFractionFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math fraction
 type: docs
-weight: 899
 url: /com.aspose.slides/imathfractionfactory/
 ---```
 public interface IMathFractionFactory

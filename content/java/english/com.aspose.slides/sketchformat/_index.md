@@ -3,7 +3,6 @@ title: SketchFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents properties for lines sketch format.
 type: docs
-weight: 501
 url: /com.aspose.slides/sketchformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ISketchFormat](../../com.aspose.slides/isketchformat)
 ```
-public class SketchFormat extends PVIObject implements ISketchFormat
+public final class SketchFormat extends PVIObject implements ISketchFormat
 ```
 
 Represents properties for lines sketch format.
@@ -20,8 +19,19 @@ Represents properties for lines sketch format.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getSketchType()](#getSketchType--) | Returns or sets the sketch type. |
 | [setSketchType(int value)](#setSketchType-int-) | Returns or sets the sketch type. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getSketchType() {#getSketchType--}
 ```
 public final int getSketchType()

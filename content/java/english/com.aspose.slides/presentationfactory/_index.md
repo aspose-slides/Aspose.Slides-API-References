@@ -3,7 +3,6 @@ title: PresentationFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create presentation via COM interface
 type: docs
-weight: 446
 url: /com.aspose.slides/presentationfactory/
 ---
 **Inheritance:**
@@ -16,6 +15,35 @@ public class PresentationFactory implements IPresentationFactory
 ```
 
 Allows to create presentation via COM interface
+
+--------------------
+
+> ```
+> The following example shows how to checking a Presentation Format.
+>  
+>  IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo("pres.pptx");
+>  System.out.println(info.getLoadFormat()); // PPTX
+>  IPresentationInfo info2 = PresentationFactory.getInstance().getPresentationInfo("pres.ppt");
+>  System.out.println(info2.getLoadFormat()); // PPT
+>  IPresentationInfo info3 = PresentationFactory.getInstance().getPresentationInfo("pres.odp");
+>  System.out.println(info3.getLoadFormat()); // ODP
+>  
+>  The following example shows how to getting the properties of a Presentation.
+>  
+>  IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo("pres.pptx");
+>  IDocumentProperties props = info.readDocumentProperties();
+>  System.out.println(props.getCreatedTime());
+>  System.out.println(props.getSubject());
+>  System.out.println(props.getTitle());
+>  // ..
+>  
+>  The following example shows how to updating the properties of a Presentation.
+>  
+>  IPresentationInfo info = PresentationFactory.getInstance().getPresentationInfo("pres.pptx");
+>  IDocumentProperties props = info.readDocumentProperties();
+>  props.setTitle("My title");
+>  info.updateDocumentProperties(props);
+> ```
 ## Constructors
 
 | Constructor | Description |

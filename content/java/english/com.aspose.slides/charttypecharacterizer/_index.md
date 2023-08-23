@@ -3,7 +3,6 @@ title: ChartTypeCharacterizer
 second_title: Aspose.Slides for Java API Reference
 description: Helper for getting additional information about charts and series by its ChartType.
 type: docs
-weight: 103
 url: /com.aspose.slides/charttypecharacterizer/
 ---
 **Inheritance:**

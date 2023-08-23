@@ -3,7 +3,6 @@ title: ISummaryZoomSection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Summary Zoom Section object in a Summary Zoom frame.
 type: docs
-weight: 1050
 url: /com.aspose.slides/isummaryzoomsection/
 ---
 **All Implemented Interfaces:**

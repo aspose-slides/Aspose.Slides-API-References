@@ -3,7 +3,6 @@ title: Column
 second_title: Aspose.Slides for Java API Reference
 description: Represents a column in a table.
 type: docs
-weight: 120
 url: /com.aspose.slides/column/
 ---
 **Inheritance:**

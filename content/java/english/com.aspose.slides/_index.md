@@ -3,7 +3,6 @@ title: com.aspose.slides
 second_title: Aspose.Slides for Java API Reference
 description: 
 type: docs
-weight: 10
 url: /com.aspose.slides/
 ---
 
@@ -13,6 +12,7 @@ url: /com.aspose.slides/
 | --- | --- |
 | [AdjustValue](../com.aspose.slides/adjustvalue) | Represents a geometry shape's adjustment value. |
 | [AdjustValueCollection](../com.aspose.slides/adjustvaluecollection) | Reprasents a collection of shape's adjustments. |
+| [AfterAnimationType](../com.aspose.slides/afteranimationtype) | Represents the after animation type of an animation effect. |
 | [AlphaBiLevel](../com.aspose.slides/alphabilevel) | Represents an Alpha Bi-Level effect. |
 | [AlphaCeiling](../com.aspose.slides/alphaceiling) | Represents an Alpha Ceiling effect. |
 | [AlphaFloor](../com.aspose.slides/alphafloor) | Represents an Alpha Floor effect. |
@@ -199,6 +199,7 @@ url: /com.aspose.slides/
 | [FilterEffectRevealType](../com.aspose.slides/filtereffectrevealtype) | Represents filter reveal type. |
 | [FilterEffectSubtype](../com.aspose.slides/filtereffectsubtype) | Represents filter effect subtypes. |
 | [FilterEffectType](../com.aspose.slides/filtereffecttype) | Represents filter effect types. |
+| [Flavor](../com.aspose.slides/flavor) | All markdown specifications used in program. |
 | [FlyThroughTransition](../com.aspose.slides/flythroughtransition) | Fly-through slide transition effect. |
 | [FontAlignment](../com.aspose.slides/fontalignment) | Represents vertical font alignment. |
 | [FontCollectionIndex](../com.aspose.slides/fontcollectionindex) | Represents font's index in a collection. |
@@ -258,7 +259,7 @@ url: /com.aspose.slides/
 | [InOutTransition](../com.aspose.slides/inouttransition) | In-Out slide transition effect. |
 | [Ink](../com.aspose.slides/ink) | Represents an ink object on a slide. |
 | [InnerShadow](../com.aspose.slides/innershadow) | Represents a Inner Shadow effect. |
-| [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates) for IWebDocument. |
+| [Input](../com.aspose.slides/input) | Represents a collection of input elements (templates). |
 | [InterruptionToken](../com.aspose.slides/interruptiontoken) | This class represents the token to use for signaling long running tasks whether the interruption was requested. |
 | [InterruptionTokenSource](../com.aspose.slides/interruptiontokensource) | Represents the source of [InterruptionToken](../com.aspose.slides/interruptiontoken). |
 | [InvalidPasswordException](../com.aspose.slides/invalidpasswordexception) | Exception which thrown when presentation file format is unsupported. |
@@ -295,6 +296,8 @@ url: /com.aspose.slides/
 | [LoadOptions](../com.aspose.slides/loadoptions) | Allows to specify additional options (such as format or default font) when loading a presentation. |
 | [LoadingStreamBehavior](../com.aspose.slides/loadingstreambehavior) | The java.io.InputStream passed to a method is considered as a Binary Large Object (BLOB) (see [IBlobManagementOptions](../com.aspose.slides/iblobmanagementoptions) description). |
 | [Luminance](../com.aspose.slides/luminance) | Represents a Luminance effect. |
+| [MarkdownExportType](../com.aspose.slides/markdownexporttype) | Type of rendering document. |
+| [MarkdownSaveOptions](../com.aspose.slides/markdownsaveoptions) | Represents options that control how presentation should be saved to markdown. |
 | [Marker](../com.aspose.slides/marker) | Represents marker of a chert. |
 | [MarkerStyleType](../com.aspose.slides/markerstyletype) | Determines form of marker on chart's data point. |
 | [MasterHandoutSlide](../com.aspose.slides/masterhandoutslide) | Represents master slide for handouts. |
@@ -373,6 +376,7 @@ url: /com.aspose.slides/
 | [MotionPath](../com.aspose.slides/motionpath) | Represent motion path. |
 | [MotionPathEditMode](../com.aspose.slides/motionpatheditmode) | Specifies how the motion path moves when the target shape is moved |
 | [MotionPathPointsType](../com.aspose.slides/motionpathpointstype) | Represent types of points in animation motion path. |
+| [NewLineType](../com.aspose.slides/newlinetype) | Type of new line that will be used in generated document. |
 | [NormalViewProperties](../com.aspose.slides/normalviewproperties) | Represents normal view properties. |
 | [NormalViewRestoredProperties](../com.aspose.slides/normalviewrestoredproperties) | Specifies the sizing of the slide region ((width when a child of restoredTop, height when a child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized). |
 | [NotesCommentsLayoutingOptions](../com.aspose.slides/notescommentslayoutingoptions) | Provides options that control the look of layouting of notes and comments in exported document. |

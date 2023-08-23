@@ -3,7 +3,6 @@ title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Slides for Java API Reference
 description: Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list
 type: docs
-weight: 151
 url: /com.aspose.slides/datasourcetypeforerrorbarscustomvalues/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: IMasterLayoutSlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collections of all layout slides of defined master slide.
 type: docs
-weight: 871
 url: /com.aspose.slides/imasterlayoutslidecollection/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,6 @@ title: ChartType
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type of chart.
 type: docs
-weight: 102
 url: /com.aspose.slides/charttype/
 ---
 **Inheritance:**

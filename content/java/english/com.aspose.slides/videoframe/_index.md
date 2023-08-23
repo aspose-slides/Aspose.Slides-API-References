@@ -3,7 +3,6 @@ title: VideoFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents a video clip on a slide.
 type: docs
-weight: 608
 url: /com.aspose.slides/videoframe/
 ---
 **Inheritance:**
@@ -36,6 +35,10 @@ Represents a video clip on a slide.
 | [setLinkPathLong(String value)](#setLinkPathLong-java.lang.String-) | Returns or sets the name of an video file which is linked to a VideoFrame. |
 | [getEmbeddedVideo()](#getEmbeddedVideo--) | Returns or sets embedded video object. |
 | [setEmbeddedVideo(IVideo value)](#setEmbeddedVideo-com.aspose.slides.IVideo-) | Returns or sets embedded video object. |
+| [getTrimFromStart()](#getTrimFromStart--) | Trim start [ms] |
+| [setTrimFromStart(float value)](#setTrimFromStart-float-) | Trim start [ms] |
+| [getTrimFromEnd()](#getTrimFromEnd--) | Trim end [ms] |
+| [setTrimFromEnd(float value)](#setTrimFromEnd-float-) | Trim end [ms] |
 ### getRewindVideo() {#getRewindVideo--}
 ```
 public final boolean getRewindVideo()
@@ -219,4 +222,88 @@ Returns or sets embedded video object. Read/write [IVideo](../../com.aspose.slid
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IVideo](../../com.aspose.slides/ivideo) |  |
+
+### getTrimFromStart() {#getTrimFromStart--}
+```
+public final float getTrimFromStart()
+```
+
+
+Trim start [ms]
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
+>      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
+>      //set triming start time 1sec
+>      videoFrame.setTrimFromStart(1000f);
+>      //set triming end time 2sec
+>      videoFrame.setTrimFromEnd(2000f);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setTrimFromStart(float value) {#setTrimFromStart-float-}
+```
+public final void setTrimFromStart(float value)
+```
+
+
+Trim start [ms]
+
+--------------------
+
+> ```
+> Example:
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.mp4")));
+>      IVideoFrame videoFrame = slide.getShapes().addVideoFrame(0, 0, 100, 100, video);
+>      //set triming start time 1sec
+>      videoFrame.setTrimFromStart(1000f);
+>      //set triming end time 2sec
+>      videoFrame.setTrimFromEnd(2000f);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
+
+### getTrimFromEnd() {#getTrimFromEnd--}
+```
+public final float getTrimFromEnd()
+```
+
+
+Trim end [ms]
+
+**Returns:**
+float
+### setTrimFromEnd(float value) {#setTrimFromEnd-float-}
+```
+public final void setTrimFromEnd(float value)
+```
+
+
+Trim end [ms]
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
 

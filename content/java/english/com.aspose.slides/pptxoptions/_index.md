@@ -3,7 +3,6 @@ title: PptxOptions
 second_title: Aspose.Slides for Java API Reference
 description: Represents options for saving OpenXml presentations PPTX PPSX POTX PPTM PPSM POTM.
 type: docs
-weight: 441
 url: /com.aspose.slides/pptxoptions/
 ---
 **Inheritance:**

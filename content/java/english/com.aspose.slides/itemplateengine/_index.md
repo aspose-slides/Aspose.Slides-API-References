@@ -3,7 +3,6 @@ title: ITemplateEngine
 second_title: Aspose.Slides for Java API Reference
 description: Represents a template engine that transforms template and data pair into resulting output usually HTML.
 type: docs
-weight: 1066
 url: /com.aspose.slides/itemplateengine/
 ---```
 public interface ITemplateEngine

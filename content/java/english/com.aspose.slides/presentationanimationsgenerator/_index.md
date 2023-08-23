@@ -3,7 +3,6 @@ title: PresentationAnimationsGenerator
 second_title: Aspose.Slides for Java API Reference
 description: Represents a generator of the animations in the .
 type: docs
-weight: 445
 url: /com.aspose.slides/presentationanimationsgenerator/
 ---
 **Inheritance:**
@@ -16,6 +15,35 @@ public class PresentationAnimationsGenerator implements System.IDisposable
 ```
 
 Represents a generator of the animations in the [Presentation](../../com.aspose.slides/presentation).
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation("animated.pptx");
+>  try {
+>      PresentationAnimationsGenerator animationsGenerator = new PresentationAnimationsGenerator(pres);
+>      try {
+>          PresentationPlayer player = new PresentationPlayer(animationsGenerator, 33);
+>          try {
+>              player.setFrameTick((sender, args) ->
+>              {
+>                  try {
+>                      ImageIO.write(args.getFrame(), "PNG", new java.io.File("frame_" + sender.getFrameIndex() + ".png"));
+>                  } catch (IOException e) {
+>                      throw new RuntimeException(e);
+>                  }
+>              });
+>              animationsGenerator.run(pres.getSlides());
+>          } finally {
+>              if (player != null) player.dispose();
+>          }
+>      } finally {
+>          if (animationsGenerator != null) animationsGenerator.dispose();
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |

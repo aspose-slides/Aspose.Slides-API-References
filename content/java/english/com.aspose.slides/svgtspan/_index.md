@@ -3,7 +3,6 @@ title: SvgTSpan
 second_title: Aspose.Slides for Java API Reference
 description: Represents options for SVG text portion tspan.
 type: docs
-weight: 542
 url: /com.aspose.slides/svgtspan/
 ---
 **Inheritance:**

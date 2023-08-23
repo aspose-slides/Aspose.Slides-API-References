@@ -3,7 +3,6 @@ title: BehaviorAdditiveType
 second_title: Aspose.Slides for Java API Reference
 description: Represents additive type for effect behavior.
 type: docs
-weight: 49
 url: /com.aspose.slides/behavioradditivetype/
 ---
 **Inheritance:**

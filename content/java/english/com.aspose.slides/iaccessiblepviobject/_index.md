@@ -3,7 +3,6 @@ title: IAccessiblePVIObject
 second_title: Aspose.Slides for Java API Reference
 description: Represents a type that can return corresponding effective data with the inheritance applied.
 type: docs
-weight: 624
 url: /com.aspose.slides/iaccessiblepviobject/
 ---```
 public interface IAccessiblePVIObject<T>

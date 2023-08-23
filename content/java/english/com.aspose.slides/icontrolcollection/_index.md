@@ -3,7 +3,6 @@ title: IControlCollection
 second_title: Aspose.Slides for Java API Reference
 description: A collection of ActiveX controls.
 type: docs
-weight: 734
 url: /com.aspose.slides/icontrolcollection/
 ---
 **All Implemented Interfaces:**

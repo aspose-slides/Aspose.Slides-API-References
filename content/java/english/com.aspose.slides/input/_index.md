@@ -1,9 +1,8 @@
 ---
 title: Input
 second_title: Aspose.Slides for Java API Reference
-description: Represents a collection of input elements templates for IWebDocument.
+description: Represents a collection of input elements templates.
 type: docs
-weight: 257
 url: /com.aspose.slides/input/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object
 public final class Input
 ```
 
-Represents a collection of input elements (templates) for IWebDocument.
+Represents a collection of input elements (templates).
 ## Methods
 
 | Method | Description |

@@ -3,7 +3,6 @@ title: Presentation
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Microsoft PowerPoint presentation.
 type: docs
-weight: 444
 url: /com.aspose.slides/presentation/
 ---
 **Inheritance:**
@@ -16,6 +15,36 @@ public final class Presentation implements IPresentation, IDOMObject
 ```
 
 Represents a Microsoft PowerPoint presentation.
+
+--------------------
+
+> ```
+> The following example shows how to create PowerPoint Presentation.
+>   
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation pres = new Presentation();
+>  try {
+>      // Get the first slide
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      // Add an autoshape of type line
+>      slide.getShapes().addAutoShape(ShapeType.Line, 50, 150, 300, 0);
+>      // Save the presentation file.
+>      pres.save("NewPresentation_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>   
+>   The following example shows how to open and save Presentation.
+>   
+>  // Load any supported file in Presentation e.g. ppt, pptx, odp etc.
+>  Presentation pres = new Presentation("Sample.odp");
+>  try {
+>      // Save the presentation file.
+>      pres.save("OutputPresenation.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |
@@ -217,6 +246,55 @@ public final IPresentationHeaderFooterManager getHeaderFooterManager()
 
 Returns actual HeaderFooter manager. Read-only [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager).
 
+--------------------
+
+> ```
+> The following example shows how to set footer visibility inside Slide of PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("presentation.ppt");
+>  try
+>  {
+>      IBaseSlideHeaderFooterManager headerFooterManager = pres.getSlides().get_Item(0).getHeaderFooterManager();
+>      if (!headerFooterManager.isFooterVisible()) // Property IsFooterVisible is used for indicating that a slide footer placeholder is not present.
+>      {
+>          headerFooterManager.setFooterVisibility(true); // Method SetFooterVisibility is used for making a slide footer placeholder visible.
+>      }
+>      if (!headerFooterManager.isSlideNumberVisible()) // Property IsSlideNumberVisible is used for indicating that a slide page number placeholder is not present.
+>      {
+>          headerFooterManager.setSlideNumberVisibility(true); // Method SetSlideNumberVisibility is used for making a slide page number placeholder visible.
+>      }
+>      if (!headerFooterManager.isDateTimeVisible()) // Property IsDateTimeVisible is used for indicating that a slide date-time placeholder is not present.
+>      {
+>          headerFooterManager.setDateTimeVisibility(true); // Method SetFooterVisibility is used for making a slide date-time placeholder visible.
+>      }
+>      headerFooterManager.setFooterText("Footer text"); // Method SetFooterText is used for setting text to slide footer placeholder.
+>      headerFooterManager.setDateTimeText("Date and time text"); // Method SetDateTimeText is used for setting text to slide date-time placeholder.
+>      pres.save("Presentation.ppt", SaveFormat.Ppt);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set child footer visibility inside Slide.
+>  
+>  Presentation pres = new Presentation("presentation.ppt");
+>  try
+>  {
+>      IMasterSlideHeaderFooterManager headerFooterManager = pres.getMasters().get_Item(0).getHeaderFooterManager();
+>      headerFooterManager.setFooterAndChildFootersVisibility(true); // Method SetFooterAndChildFootersVisibility is used for making a master slide and all child footer placeholders visible.
+>      headerFooterManager.setSlideNumberAndChildSlideNumbersVisibility(true); // Method SetSlideNumberAndChildSlideNumbersVisibility is used for making a master slide and all child page number placeholders visible.
+>      headerFooterManager.setDateTimeAndChildDateTimesVisibility(true); // Method SetDateTimeAndChildDateTimesVisibility is used for making a master slide and all child date-time placeholders visible.
+> 
+>      headerFooterManager.setFooterAndChildFootersText("Footer text"); // Method SetFooterAndChildFootersText is used for setting text to master slide and all child footer placeholders.
+>      headerFooterManager.setDateTimeAndChildDateTimesText("Date and time text"); // Method SetDateTimeAndChildDateTimesText is used for setting text to master slide and all child date-time placeholders.
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [IPresentationHeaderFooterManager](../../com.aspose.slides/ipresentationheaderfootermanager)
 ### getProtectionManager() {#getProtectionManager--}
@@ -237,6 +315,96 @@ public final ISlideCollection getSlides()
 
 Returns a list of all slides that are defined in the presentation. Read-only [ISlideCollection](../../com.aspose.slides/islidecollection).
 
+--------------------
+
+> ```
+> The following example shows how to set slides' background color of PowerPoint Presentation.
+>  
+>  // Instantiate the Presentation class that represents the presentation file
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // Set the background color of the first ISlide to Blue
+>      pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
+>      pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
+>      pres.getSlides().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.BLUE);
+>      pres.save("ContentBG_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set slides' background image of PowerPoint Presentation.
+>  
+>  // Instantiate the Presentation class that represents the presentation file
+>  Presentation pres = new Presentation("SetImageAsBackground.pptx");
+>  try {
+>      // Set the background with Image
+>      pres.getSlides().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
+>      pres.getSlides().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Picture);
+>      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().setPictureFillMode(PictureFillMode.Stretch);
+>      // Set the picture
+>      BufferedImage img = ImageIO.read(new File("Tulips.jpg"));
+>      // Add image to presentation's images collection
+>      IPPImage imgx = pres.getImages().addImage(img);
+>      pres.getSlides().get_Item(0).getBackground().getFillFormat().getPictureFillFormat().getPicture().setImage(imgx);
+>      // Write the presentation to disk
+>      pres.save("ContentBG_Img_out.pptx", SaveFormat.Pptx);
+>  } catch (IOException e) { }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to add slide transition Presentation.
+>  
+>  // Instantiate Presentation class to load the source presentation file
+>  Presentation pres = new Presentation("AccessSlides.pptx");
+>  try
+>  {
+>      // Apply circle type transition on slide 1
+>      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
+>      // Apply comb type transition on slide 2
+>      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
+>      // Write the presentation to disk
+>      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to add advanced slide Transition.
+>  
+>  // Instantiate Presentation class that represents a presentation file
+>  Presentation pres = new Presentation("BetterSlideTransitions.pptx");
+>  try
+>  {
+>      // Apply circle type transition on slide 1
+>      pres.getSlides().get_Item(0).getSlideShowTransition().setType(TransitionType.Circle);
+>      // Set the transition time of 3 seconds
+>      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceOnClick(true);
+>      pres.getSlides().get_Item(0).getSlideShowTransition().setAdvanceAfterTime(3000);
+>      // Apply comb type transition on slide 2
+>      pres.getSlides().get_Item(1).getSlideShowTransition().setType(TransitionType.Comb);
+>      // Set the transition time of 5 seconds
+>      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceOnClick(true);
+>      pres.getSlides().get_Item(1).getSlideShowTransition().setAdvanceAfterTime(5000);
+>      // Apply zoom type transition on slide 3
+>      pres.getSlides().get_Item(2).getSlideShowTransition().setType(TransitionType.Zoom);
+>      // Set the transition time of 7 seconds
+>      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceOnClick(true);
+>      pres.getSlides().get_Item(2).getSlideShowTransition().setAdvanceAfterTime(7000);
+>      // Write the presentation to disk
+>      pres.save("SampleTransition_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [ISlideCollection](../../com.aspose.slides/islidecollection)
 ### getSections() {#getSections--}
@@ -247,6 +415,42 @@ public final ISectionCollection getSections()
 
 Returns a list of all slides sections that are defined in the presentation. Read-only [ISectionCollection](../../com.aspose.slides/isectioncollection).
 
+--------------------
+
+> ```
+> The following examples shows how to create Sections in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide defaultSlide = pres.getSlides().get_Item(0);
+>      ISlide newSlide1 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISlide newSlide2 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISlide newSlide3 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISlide newSlide4 = pres.getSlides().addEmptySlide(pres.getLayoutSlides().get_Item(0));
+>      ISection section1 = pres.getSections().addSection("Section 1", newSlide1);
+>      // section1 will be ended at newSlide2 and after it section2 will start
+>      ISection section2 = pres.getSections().addSection("Section 2", newSlide3);
+>      pres.save("pres-sections.pptx", SaveFormat.Pptx);
+>      pres.getSections().reorderSectionWithSlides(section2, 0);
+>      pres.save("pres-sections-moved.pptx", SaveFormat.Pptx);
+>      pres.getSections().removeSectionWithSlides(section2);
+>      pres.getSections().appendEmptySection("Last empty section");
+>      pres.save("pres-section-with-empty.pptx",SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to changing the names of Sections.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      ISection section = pres.getSections().get_Item(0);
+>      section.setName("My section");
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [ISectionCollection](../../com.aspose.slides/isectioncollection)
 ### getSlideSize() {#getSlideSize--}
@@ -256,6 +460,50 @@ public final ISlideSize getSlideSize()
 
 
 Returns slide size object. Read-only [ISlideSize](../../com.aspose.slides/islidesize).
+
+--------------------
+
+> ```
+> The following example shows how to change the slide size in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres-4x3-aspect-ratio.pptx");
+>  try {
+>      pres.getSlideSize().setSize(SlideSizeType.OnScreen16x9, SlideSizeScaleType.DoNotScale);
+>      pres.save("pres-4x3-aspect-ratio.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set slide size with respect to content scaling for a PowerPoint Presentation.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation presentation = new Presentation("AccessSlides.pptx");
+>  try {
+>      Presentation auxPresentation = new Presentation();
+>      try {
+>          ISlide slide = presentation.getSlides().get_Item(0);
+>          // Set the slide size of generated presentations to that of source
+>          presentation.getSlideSize().setSize(540, 720, SlideSizeScaleType.EnsureFit); // Method SetSize is used for set slide size with scale content to ensure fit
+>          presentation.getSlideSize().setSize(SlideSizeType.A4Paper, SlideSizeScaleType.Maximize); // Method SetSize is used for set slide size with maximize size of content
+>          // Save Presentation to disk
+>          auxPresentation.save("Set_Size&Type_out.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (auxPresentation != null) auxPresentation.dispose();
+>      }
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+>  
+>  The following example shows how to specifying custom slide sizes in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      pres.getSlideSize().setSize(780, 540, SlideSizeScaleType.DoNotScale); // A4 paper size
+>      pres.save("pres-a4-slide-size.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
 [ISlideSize](../../com.aspose.slides/islidesize)
@@ -291,6 +539,103 @@ public final IMasterSlideCollection getMasters()
 
 Returns a list of all master slides that are defined in the presentation. Read-only [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection).
 
+--------------------
+
+> ```
+> The following examples shows how to adding Images to Master Slides of PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      IMasterSlide masterSlide = slide.getLayoutSlide().getMasterSlide();
+>      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
+>      masterSlide.getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+>      pres.save("pres.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to change the background color of the master slide of PowerPoint Presentation.
+>  
+>  // Instantiate the Presentation class that represents the presentation file
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // Set the background color of the Master ISlide to Forest Green
+>      pres.getMasters().get_Item(0).getBackground().setType(BackgroundType.OwnBackground);
+>      pres.getMasters().get_Item(0).getBackground().getFillFormat().setFillType(FillType.Solid);
+>      pres.getMasters().get_Item(0).getBackground().getFillFormat().getSolidFillColor().setColor(Color.GREEN);
+>      // Write the presentation to disk
+>      pres.save("SetSlideBackgroundMaster_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add slide layout to PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class that represents the presentation file
+>  Presentation presentation = new Presentation("AccessSlides.pptx");
+>  try
+>  {
+>      // Try to search by layout slide type
+>      IMasterLayoutSlideCollection layoutSlides = presentation.getMasters().get_Item(0).getLayoutSlides();
+>      ILayoutSlide layoutSlide = null;
+>      if (layoutSlides.getByType(SlideLayoutType.TitleAndObject) != null)
+>          layoutSlide = layoutSlides.getByType(SlideLayoutType.TitleAndObject);
+>      else
+>          layoutSlide = layoutSlides.getByType(SlideLayoutType.Title);
+> 
+>      if (layoutSlide == null)
+>      {
+>          // The situation when a presentation doesn't contain some type of layouts.
+>          // presentation File only contains Blank and Custom layout types.
+>          // But layout slides with Custom types has different slide names,
+>          // like "Title", "Title and Content", etc. And it is possible to use these
+>          // names for layout slide selection.
+>          // Also it is possible to use the set of placeholder shape types. For example,
+>          // Title slide should have only Title pleceholder type, etc.
+>          for (ILayoutSlide titleAndObjectLayoutSlide : (Iterable) layoutSlides)
+>          {
+>              if ("Title and Object".equals(titleAndObjectLayoutSlide.getName()))
+>              {
+>                  layoutSlide = titleAndObjectLayoutSlide;
+>                  break;
+>              }
+>          }
+>          if (layoutSlide == null)
+>          {
+>              for (ILayoutSlide titleLayoutSlide : (Iterable) layoutSlides)
+>              {
+>                  if ("Title".equals(titleLayoutSlide.getName()))
+>                  {
+>                      layoutSlide = titleLayoutSlide;
+>                      break;
+>                  }
+>              }
+>              if (layoutSlide == null)
+>              {
+>                  layoutSlide = layoutSlides.getByType(SlideLayoutType.Blank);
+>                  if (layoutSlide == null)
+>                  {
+>                      layoutSlide = layoutSlides.add(SlideLayoutType.TitleAndObject, "Title and Object");
+>                  }
+>              }
+>          }
+>      }
+>      // Adding empty slide with added layout slide
+>      presentation.getSlides().insertEmptySlide(0, layoutSlide);
+>      // Save presentation
+>      presentation.save("AddLayoutSlides_out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
 **Returns:**
 [IMasterSlideCollection](../../com.aspose.slides/imasterslidecollection)
 ### getMasterNotesSlideManager() {#getMasterNotesSlideManager--}
@@ -320,6 +665,40 @@ public final IFontsManager getFontsManager()
 
 
 Returns fonts manager. Read-only [IFontsManager](../../com.aspose.slides/ifontsmanager).
+
+--------------------
+
+> ```
+> The following example shows how to add embedded fonts to PowerPoint Presentation.
+>  
+>  // Load presentation
+>  Presentation pres = new Presentation("Fonts.pptx");
+>  try {
+>      // Load source font to be replaced
+>      IFontData sourceFont = new FontData("Arial");
+>      IFontData[] allFonts = pres.getFontsManager().getFonts();
+>      for (IFontData font : allFonts)
+>      {
+>          boolean fontAlreadyEmbedded = false;
+>          IFontData[] embeddedFonts = pres.getFontsManager().getEmbeddedFonts();
+>          for (int i = 0; i < embeddedFonts.length; i++)
+>          {
+>              if (embeddedFonts[i].equals(font))
+>              {
+>                  fontAlreadyEmbedded = true;
+>                  break;
+>              }
+>          }
+>          if (!fontAlreadyEmbedded) {
+>              pres.getFontsManager().addEmbeddedFont(font, EmbedFontCharacters.All);
+>          }
+>      }
+>      // Save the presentation
+>      pres.save("AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
 [IFontsManager](../../com.aspose.slides/ifontsmanager)
@@ -361,6 +740,56 @@ public final IImageCollection getImages()
 
 Returns the collection of all images in the presentation. Read-only [IImageCollection](../../com.aspose.slides/iimagecollection).
 
+--------------------
+
+> ```
+> The following examples shows how to add image as BLOB in PowerPoint Presentation.
+>  
+>  // create a new presentation which will contain this image
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // supposed we have the large image file we want to include into the presentation
+>      FileInputStream fip = new FileInputStream("large_image.jpg");
+>      try
+>      {
+>          // let's add the image to the presentation - we choose KeepLocked behavior, because we not
+>          // have an intent to access the "largeImage.png" file.
+>          IPPImage img = pres.getImages().addImage(fip, LoadingStreamBehavior.KeepLocked);
+>          pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 0, 0, 300, 200, img);
+>          // save the presentation. Despite that the output presentation will be
+>          // large, the memory consumption will be low the whole lifetime of the pres object
+>          pres.save("presentationWithLargeImage.pptx", SaveFormat.Pptx);
+>      }
+>      finally
+>      {
+>          fip.close();
+>      }
+>  }
+>  catch (java.io.IOException e) { }
+>  finally
+>  {
+>      pres.dispose();
+>  }
+>  
+>  The following examples add a hyperlink to an image in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      // Adds image to presentation
+>      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
+>      // Creates picture frame on slide 1 based on previously added image
+>      IPictureFrame pictureFrame = pres.getSlides().get_Item(0).getShapes().addPictureFrame(ShapeType.Rectangle, 10, 10, 100, 100, image);
+>      pictureFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>      pictureFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  } catch (IOException e){ }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [IImageCollection](../../com.aspose.slides/iimagecollection)
 ### getAudios() {#getAudios--}
@@ -371,6 +800,26 @@ public final IAudioCollection getAudios()
 
 Returns the collection of all embedded audio files in the presentation. Read-only [IAudioCollection](../../com.aspose.slides/iaudiocollection).
 
+--------------------
+
+> ```
+> The following examples shows how to add a hyperlink to an audio file.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IAudio audio = pres.getAudios().addAudio(Files.readAllBytes(Paths.get("audio.mp3")));
+>      IAudioFrame audioFrame = pres.getSlides().get_Item(0).getShapes().addAudioFrameEmbedded(10, 10, 100, 100, audio);
+>      audioFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>      audioFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  }
+>  catch (IOException e) {}
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [IAudioCollection](../../com.aspose.slides/iaudiocollection)
 ### getVideos() {#getVideos--}
@@ -380,6 +829,195 @@ public final IVideoCollection getVideos()
 
 
 Returns the collection of all embedded video files in the presentation. Read-only [IVideoCollection](../../com.aspose.slides/ivideocollection).
+
+--------------------
+
+> ```
+> The following examples shows how to create embedded Video Frame in a PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class that represents the PPTX
+>  Presentation pres = new Presentation();
+>  try {
+>      // Get the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Embedd vide inside presentation
+>      IVideo vid = pres.getVideos().addVideo(new FileInputStream("Wildlife.mp4"));
+>      // Add Video Frame
+>      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 350, vid);
+>      // Set video to Video Frame
+>      vf.setEmbeddedVideo(vid);
+>      // Set Play Mode and Volume of the Video
+>      vf.setPlayMode(VideoPlayModePreset.Auto);
+>      vf.setVolume(AudioVolumeMode.Loud);
+>      // Write the PPTX file to disk
+>      pres.save("VideoFrame_out.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add a video passing path to the video file directly into AddVideoFrame method for PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      IVideoFrame vf = sld.getShapes().addVideoFrame(50, 150, 300, 150, "video1.avi");
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add large file through BLOB to a Presentation.
+>  
+>  // Creates a new presentation to which the video will be added
+>  Presentation pres = new Presentation();
+>  try {
+>      FileInputStream fileStream = new FileInputStream("veryLargeVideo.avi");
+>      try {
+>          // Let's add the video to the presentation - we chose the KeepLocked behavior because we do
+>          //not intend to access the "veryLargeVideo.avi" file.
+>          IVideo video = pres.getVideos().addVideo(fileStream, LoadingStreamBehavior.KeepLocked);
+>          pres.getSlides().get_Item(0).getShapes().addVideoFrame(0, 0, 480, 270, video);
+>          // Saves the presentation. While a large presentation gets outputted, the memory consumption
+>          // stays low through the pres object's lifecycle
+>          pres.save("presentationWithLargeVideo.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (fileStream != null) fileStream.close();
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to export large file through BLOB from PowerPoint Presentation.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  // Locks the source file and does NOT load it into memory
+>  loadOptions.getBlobManagementOptions().setPresentationLockingBehavior(PresentationLockingBehavior.KeepLocked);
+>  // Creates a Presentation's instance, locks the "hugePresentationWithAudiosAndVideos.pptx" file.
+>  Presentation pres = new Presentation("Large  Video File Test1.pptx", loadOptions);
+>  try {
+>      // Let's save each video to a file. To prevent high memory usage, we need a buffer that will be used
+>      // to transfer the data from the presentation's video stream to a stream for a newly created video file.
+>      byte[] buffer = new byte[81024];
+>      // Iterates through the videos
+>      for (int index = 0; index < pres.getVideos().size(); index++) {
+>          IVideo video = pres.getVideos().get_Item(index);
+>          // Opens the presentation video stream. Please, note that we intentionally avoided accessing properties
+>          // like video.BinaryData - because this property returns a byte array containing a full video, which then
+>          // causes bytes to be loaded into memory. We use video.GetStream, which will return Stream - and does NOT
+>          //  require us to load the whole video into the memory.
+>          InputStream presVideoStream = video.getStream();
+>          try {
+>              FileOutputStream outputFileStream = new FileOutputStream("video{index}.avi");
+>              try {
+>                  int bytesRead;
+>                  while ((bytesRead = presVideoStream.read(buffer, 0, buffer.length)) > 0) {
+>                      outputFileStream.write(buffer, 0, bytesRead);
+>                  }
+>              } finally {
+>                  if (outputFileStream != null) outputFileStream.close();
+>              }
+>          } finally {
+>              if (presVideoStream != null) presVideoStream.close();
+>          }
+>          // Memory consumption will remain low regardless of the size of the video or presentation,
+>      }
+>      // If necessary, you can apply the same steps for audio files.
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to add a hyperlink to a video in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IVideo video = pres.getVideos().addVideo(Files.readAllBytes(Paths.get("video.avi")));
+>      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 100, 100, video);
+>      videoFrame.setHyperlinkClick(new Hyperlink("https://www.aspose.com/"));
+>      videoFrame.getHyperlinkClick().setTooltip("More than 70% Fortune 100 companies trust Aspose APIs");
+>      pres.save("pres-out.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to create Video Frame with Video from Web Source in a PowerPoint Presentation.
+>  
+>  public static void run()
+>  {
+>      Presentation pres = new Presentation();
+>      try {
+>          addVideoFromYouTube(pres, "Tj75Arhq5ho");
+>          pres.save("AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx);
+>      } catch(IOException e) {
+>      } finally {
+>          if (pres != null) pres.dispose();
+>      }
+>  }
+>  private static void addVideoFromYouTube(Presentation pres, String videoId) throws IOException
+>  {
+>      //add videoFrame
+>      IVideoFrame videoFrame = pres.getSlides().get_Item(0).getShapes().addVideoFrame(10, 10, 427, 240, "https://www.youtube.com/embed/" + videoId);
+>      videoFrame.setPlayMode(VideoPlayModePreset.Auto);
+> 
+>      //load thumbnail
+>      String thumbnailUri = "http://img.youtube.com/vi/" + videoId + "/hqdefault.jpg";
+>      URL url = new URL(thumbnailUri);
+>      URLConnection connection = url.openConnection();
+>      connection.setConnectTimeout(5000);
+>      connection.setReadTimeout(10000);
+>      InputStream input = connection.getInputStream();
+>      ByteArrayOutputStream output = new ByteArrayOutputStream();
+>      try
+>      {
+>          byte[] buffer = new byte[8192];
+>          for (int count; (count = input.read(buffer)) > 0; )
+>          {
+>              output.write(buffer, 0, count);
+>          }
+>          videoFrame.getPictureFormat().getPicture().setImage(pres.getImages().addImage(output.toByteArray()));
+>      } finally {
+>          if (input != null) input.close();
+>          if (output != null) output.close();
+>      }
+>  }
+>  
+>  The following examples shows how to extract Video from slide of PowerPoint Presentation.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation presentation = new Presentation("Video.pptx");
+>  try {
+>      for (ISlide slide : presentation.getSlides())
+>      {
+>          for (IShape shape : presentation.getSlides().get_Item(0).getShapes())
+>          {
+>              if (shape instanceof VideoFrame)
+>              {
+>                  IVideoFrame vf = (IVideoFrame) shape;
+>                  String type = vf.getEmbeddedVideo().getContentType();
+>                  int ss = type.lastIndexOf('/');
+>                  type = type.substring(ss + 1);
+>                  byte[] buffer = vf.getEmbeddedVideo().getBinaryData();
+>                  FileOutputStream fop = new FileOutputStream("NewVideo_out." + type);
+>                  try
+>                  {
+>                      fop.write(buffer);
+>                      fop.flush();
+>                      fop.close();
+>                  }
+>                  finally
+>                  {
+>                      if (presentation != null) presentation.dispose();
+>                  }
+>              }
+>          }
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
 
 **Returns:**
 [IVideoCollection](../../com.aspose.slides/ivideocollection)
@@ -446,6 +1084,26 @@ public final ICustomXmlPart[] getAllCustomXmlParts()
 
 
 Returns all custom data parts in the presentaion. Read-only ICustomXmlPart[].
+
+--------------------
+
+> ```
+> The following examples show how to clear all custom xml parts from PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("PresentationWithCustomXml.pptx");
+>  try {
+>      // Iterate all custom XML Parts
+>      for (ICustomXmlPart item : pres.getAllCustomXmlParts())
+>      {
+>          item.remove();
+>      }
+>      pres.save("out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
 com.aspose.slides.ICustomXmlPart[]
@@ -547,6 +1205,26 @@ public final IMasterTheme getMasterTheme()
 
 
 Returns master theme. Read-only [IMasterTheme](../../com.aspose.slides/imastertheme).
+
+--------------------
+
+> ```
+> The following examples shows how to change a theme effect by altering parts of elements of PowerPoint Presentation.
+>  
+>  //Instantiate a presentation object that represents a presentation file
+>  Presentation pres = new Presentation("Subtle_Moderate_Intense.pptx");
+>  try {
+>      pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(0).getFillFormat().getSolidFillColor().setColor(Color.RED);
+>      ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).setFillType(FillType.Solid);
+>      ((FillFormat)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getSolidFillColor().setColor(Color.GREEN);
+>      ((EffectStyle)pres.getMasterTheme().getFormatScheme().getLineStyles().get_Item(2)).getEffectFormat().getOuterShadowEffect().setDistance(10f);
+>      pres.save("Design_04_Subtle_Moderate_Intense-out.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
 [IMasterTheme](../../com.aspose.slides/imastertheme)
@@ -886,6 +1564,52 @@ public final void save(OutputStream stream, int[] slides, int format, ISaveOptio
 
 
 Saves specified slides of a presentation to a stream in the specified format with page number keeping.
+
+--------------------
+
+> ```
+> The following example shows how to convert PowerPoint to PNG.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          ImageIO.write(slide.getThumbnail(), "PNG", new java.io.File("slide_" + index + ".png"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PNG with custom dimensions.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      float scaleX = 2f;
+>      float scaleY = 2f;
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          ImageIO.write(slide.getThumbnail(scaleX, scaleY), "PNG", new java.io.File("slide_" + index + ".png"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to convert PowerPoint to PNG with custom size.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      Dimension size = new Dimension(960, 720);
+>      for (int index = 0; index < pres.getSlides().size(); index++) {
+>          ISlide slide = pres.getSlides().get_Item(index);
+>          ImageIO.write(slide.getThumbnail(size), "PNG", new java.io.File("slide_" + index + ".png"));
+>      }
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

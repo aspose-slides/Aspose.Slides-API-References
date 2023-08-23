@@ -3,7 +3,6 @@ title: IGeometryShape
 second_title: Aspose.Slides for Java API Reference
 description: Represents the parent class for all geometric shapes.
 type: docs
-weight: 802
 url: /com.aspose.slides/igeometryshape/
 ---
 **All Implemented Interfaces:**

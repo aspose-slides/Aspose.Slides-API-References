@@ -3,7 +3,6 @@ title: GradientFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represent a gradient format.
 type: docs
-weight: 226
 url: /com.aspose.slides/gradientformat/
 ---
 **Inheritance:**
@@ -20,6 +19,7 @@ Represent a gradient format.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getTileFlip()](#getTileFlip--) | Returns or sets the flipping mode for a gradient. |
 | [setTileFlip(int value)](#setTileFlip-int-) | Returns or sets the flipping mode for a gradient. |
 | [getGradientDirection()](#getGradientDirection--) | Returns or sets the style of a gradient. |
@@ -31,6 +31,16 @@ Represent a gradient format.
 | [getGradientShape()](#getGradientShape--) | Returns or sets the shape of a gradient. |
 | [setGradientShape(byte value)](#setGradientShape-byte-) | Returns or sets the shape of a gradient. |
 | [getGradientStops()](#getGradientStops--) | Returns the collection of gradient stops. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getTileFlip() {#getTileFlip--}
 ```
 public final int getTileFlip()

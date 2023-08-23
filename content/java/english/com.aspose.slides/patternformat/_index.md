@@ -3,7 +3,6 @@ title: PatternFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a pattern to fill a shape.
 type: docs
-weight: 407
 url: /com.aspose.slides/patternformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IPatternFormat](../../com.aspose.slides/ipatternformat)
 ```
-public class PatternFormat extends PVIObject implements IPatternFormat
+public final class PatternFormat extends PVIObject implements IPatternFormat
 ```
 
 Represents a pattern to fill a shape.
@@ -20,12 +19,23 @@ Represents a pattern to fill a shape.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getPatternStyle()](#getPatternStyle--) | Returns or sets the pattern style. |
 | [setPatternStyle(byte value)](#setPatternStyle-byte-) | Returns or sets the pattern style. |
 | [getForeColor()](#getForeColor--) | Returns the foreground pattern color. |
 | [getBackColor()](#getBackColor--) | Returns the background pattern color. |
 | [getTileImage(Color background, Color foreground)](#getTileImage-java.awt.Color-java.awt.Color-) | Creates a tile image for the pattern fill with a specified colors. |
 | [getTileImage(Color styleColor)](#getTileImage-java.awt.Color-) | Creates a tile image for the pattern fill. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getPatternStyle() {#getPatternStyle--}
 ```
 public final byte getPatternStyle()

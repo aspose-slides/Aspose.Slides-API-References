@@ -3,7 +3,6 @@ title: MathPortion
 second_title: Aspose.Slides for Java API Reference
 description: Represents a portion with mathematical context inside.
 type: docs
-weight: 346
 url: /com.aspose.slides/mathportion/
 ---
 **Inheritance:**

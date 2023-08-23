@@ -3,7 +3,6 @@ title: DataSourceType
 second_title: Aspose.Slides for Java API Reference
 description: Data source types.
 type: docs
-weight: 150
 url: /com.aspose.slides/datasourcetype/
 ---
 **Inheritance:**

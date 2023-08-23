@@ -3,7 +3,6 @@ title: OptionalBlackTransition
 second_title: Aspose.Slides for Java API Reference
 description: Optional black slide transition effect.
 type: docs
-weight: 389
 url: /com.aspose.slides/optionalblacktransition/
 ---
 **Inheritance:**

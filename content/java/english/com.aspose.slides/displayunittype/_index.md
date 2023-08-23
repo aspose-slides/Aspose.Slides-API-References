@@ -3,7 +3,6 @@ title: DisplayUnitType
 second_title: Aspose.Slides for Java API Reference
 description: Determines multiplicity of the displayed data.
 type: docs
-weight: 156
 url: /com.aspose.slides/displayunittype/
 ---
 **Inheritance:**

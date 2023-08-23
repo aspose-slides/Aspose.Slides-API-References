@@ -3,7 +3,6 @@ title: ExternalResourceResolver
 second_title: Aspose.Slides for Java API Reference
 description: Callback class used to resolve external resources during Html Svg documents import.
 type: docs
-weight: 184
 url: /com.aspose.slides/externalresourceresolver/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: TextFrame
 second_title: Aspose.Slides for Java API Reference
 description: Represents a TextFrame.
 type: docs
-weight: 561
 url: /com.aspose.slides/textframe/
 ---
 **Inheritance:**
@@ -129,6 +128,24 @@ public final void highlightText(String text, Color highlightColor, ITextHighligh
 
 Highlight all matches of sample in text frame text using specified color.
 
+--------------------
+
+> ```
+> The following sample code shows how to Highlight Text in a PowerPoint Presentation.
+>  
+>  try {
+>      TextHighlightingOptions textHighlightingOptions = new TextHighlightingOptions();
+>      textHighlightingOptions.setWholeWordsOnly(true);
+>      // highlighting all words 'important'
+>      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("title", Color.BLUE);
+>      // highlighting all separate 'the' occurrences
+>      ((AutoShape)pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightText("to", Color.MAGENTA, textHighlightingOptions);
+>      pres.save("SomePresentation-out2.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -143,6 +160,22 @@ public final void highlightRegex(String regex, Color highlightColor, ITextHighli
 
 
 Highlight all matches of regular expression in text frame text using specified color.
+
+--------------------
+
+> ```
+> The following sample code shows how to Highlight Text using regular expression in a PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation("SomePresentation.pptx");
+>  try {
+>      TextHighlightingOptions options = new TextHighlightingOptions();
+>      // highlighting all words with 10 symbols or longer
+>      ((AutoShape) pres.getSlides().get_Item(0).getShapes().get_Item(0)).getTextFrame().highlightRegex("\\b[^\\s){5,}\\b", Color.BLUE, options);
+>      pres.save("SomePresentation-out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

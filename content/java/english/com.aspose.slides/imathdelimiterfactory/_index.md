@@ -3,7 +3,6 @@ title: IMathDelimiterFactory
 second_title: Aspose.Slides for Java API Reference
 description: Allows to create a math delimiter
 type: docs
-weight: 895
 url: /com.aspose.slides/imathdelimiterfactory/
 ---```
 public interface IMathDelimiterFactory

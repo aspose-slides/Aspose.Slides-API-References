@@ -3,7 +3,6 @@ title: ISmartArtNodeCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of SmartArt nodes.
 type: docs
-weight: 1040
 url: /com.aspose.slides/ismartartnodecollection/
 ---
 **All Implemented Interfaces:**

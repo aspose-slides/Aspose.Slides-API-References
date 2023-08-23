@@ -3,7 +3,6 @@ title: BulletFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents paragraph bullet formatting properties.
 type: docs
-weight: 64
 url: /com.aspose.slides/bulletformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IBulletFormat](../../com.aspose.slides/ibulletformat)
 ```
-public class BulletFormat extends PVIObject implements IBulletFormat
+public final class BulletFormat extends PVIObject implements IBulletFormat
 ```
 
 Represents paragraph bullet formatting properties.

@@ -3,7 +3,6 @@ title: ControlType
 second_title: Aspose.Slides for Java API Reference
 description: Defines a control type which should be embedded by .
 type: docs
-weight: 139
 url: /com.aspose.slides/controltype/
 ---
 **Inheritance:**

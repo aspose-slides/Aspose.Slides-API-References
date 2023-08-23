@@ -3,7 +3,6 @@ title: FontSubstRuleCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents collection of fonts substitution.
 type: docs
-weight: 209
 url: /com.aspose.slides/fontsubstrulecollection/
 ---
 **Inheritance:**

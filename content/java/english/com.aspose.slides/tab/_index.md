@@ -3,7 +3,6 @@ title: Tab
 second_title: Aspose.Slides for Java API Reference
 description: Represents a tabulation for a text.
 type: docs
-weight: 545
 url: /com.aspose.slides/tab/
 ---
 **Inheritance:**
@@ -25,6 +24,7 @@ Represents a tabulation for a text.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getPosition()](#getPosition--) | Returns or sets position of a tab. |
 | [setPosition(double value)](#setPosition-double-) | Returns or sets position of a tab. |
 | [getAlignment()](#getAlignment--) | Returns or sets align style of a tab. |
@@ -44,6 +44,16 @@ Creates new Tab
 | position | double | Tab position. |
 | align | int | Align. |
 
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getPosition() {#getPosition--}
 ```
 public final double getPosition()

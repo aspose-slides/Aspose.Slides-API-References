@@ -3,7 +3,6 @@ title: HyperlinkQueries
 second_title: Aspose.Slides for Java API Reference
 description: Provide easy access to contained hyperlinks.
 type: docs
-weight: 247
 url: /com.aspose.slides/hyperlinkqueries/
 ---
 **Inheritance:**

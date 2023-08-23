@@ -3,7 +3,6 @@ title: MasterSlideCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of master slides.
 type: docs
-weight: 302
 url: /com.aspose.slides/masterslidecollection/
 ---
 **Inheritance:**
@@ -122,6 +121,40 @@ public final IMasterSlide insertClone(int index, IMasterSlide sourceMaster)
 
 
 Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too.
+
+--------------------
+
+> ```
+> The following example shows how to clone master slide in another PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class to load the source presentation file
+>  Presentation srcPres = new Presentation("CloneToAnotherPresentationWithMaster.pptx");
+>  try {
+>      // Instantiate Presentation class for destination presentation (where slide is to be cloned)
+>      Presentation destPres = new Presentation();
+>      try {
+>          // Instantiate ISlide from the collection of slides in source presentation along with
+>          // Master slide
+>          ISlide SourceSlide = srcPres.getSlides().get_Item(0);
+>          IMasterSlide SourceMaster = SourceSlide.getLayoutSlide().getMasterSlide();
+>          // Get Master Slides of destination presentation
+>          IMasterSlideCollection masters = destPres.getMasters();
+>          // Clone the desired master slide from the source presentation to the collection of masters in the
+>          // Destination presentation
+>          IMasterSlide iSlide = masters.addClone(SourceMaster);
+>          // Collection of slides in the destination presentation
+>          ISlideCollection slds = destPres.getSlides();
+>          // Clone source slide to destination slides collection.
+>          slds.addClone(SourceSlide, iSlide, true);
+>          // Save the destination presentation to disk
+>          destPres.save("CloneToAnotherPresentationWithMaster_out.pptx", SaveFormat.Pptx);
+>      } finally {
+>          if (destPres != null) destPres.dispose();
+>      }
+>  } finally {
+>      if (srcPres != null) srcPres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -3,7 +3,6 @@ title: ILineFillFormatEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which contains effective line filling properties.
 type: docs
-weight: 857
 url: /com.aspose.slides/ilinefillformateffectivedata/
 ---
 **All Implemented Interfaces:**

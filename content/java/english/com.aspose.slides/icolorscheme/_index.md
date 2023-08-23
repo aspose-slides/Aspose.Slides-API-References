@@ -3,7 +3,6 @@ title: IColorScheme
 second_title: Aspose.Slides for Java API Reference
 description: Stores theme-defined colors.
 type: docs
-weight: 719
 url: /com.aspose.slides/icolorscheme/
 ---
 **All Implemented Interfaces:**

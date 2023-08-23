@@ -3,7 +3,6 @@ title: Fonts
 second_title: Aspose.Slides for Java API Reference
 description: Fonts collection.
 type: docs
-weight: 211
 url: /com.aspose.slides/fonts/
 ---
 **Inheritance:**

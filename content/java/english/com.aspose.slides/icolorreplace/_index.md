@@ -3,7 +3,6 @@ title: IColorReplace
 second_title: Aspose.Slides for Java API Reference
 description: Represents a Color Replacement effect.
 type: docs
-weight: 717
 url: /com.aspose.slides/icolorreplace/
 ---
 **All Implemented Interfaces:**

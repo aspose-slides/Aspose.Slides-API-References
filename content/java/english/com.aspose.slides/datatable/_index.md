@@ -3,7 +3,6 @@ title: DataTable
 second_title: Aspose.Slides for Java API Reference
 description: Represents data table properties.
 type: docs
-weight: 152
 url: /com.aspose.slides/datatable/
 ---
 **Inheritance:**

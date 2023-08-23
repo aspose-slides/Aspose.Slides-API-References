@@ -3,7 +3,6 @@ title: CrossesType
 second_title: Aspose.Slides for Java API Reference
 description: Determines where axis will cross.
 type: docs
-weight: 142
 url: /com.aspose.slides/crossestype/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: SlideThemeManager
 second_title: Aspose.Slides for Java API Reference
 description: Provides access to slide theme overriden.
 type: docs
-weight: 514
 url: /com.aspose.slides/slidethememanager/
 ---
 **Inheritance:**

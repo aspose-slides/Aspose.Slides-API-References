@@ -3,7 +3,6 @@ title: FontAlignment
 second_title: Aspose.Slides for Java API Reference
 description: Represents vertical font alignment.
 type: docs
-weight: 199
 url: /com.aspose.slides/fontalignment/
 ---
 **Inheritance:**

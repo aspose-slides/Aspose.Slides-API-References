@@ -3,7 +3,6 @@ title: ZoomLayout
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the summary zoom layout.
 type: docs
-weight: 622
 url: /com.aspose.slides/zoomlayout/
 ---
 **Inheritance:**

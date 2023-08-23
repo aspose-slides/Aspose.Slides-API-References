@@ -3,7 +3,6 @@ title: IPoint
 second_title: Aspose.Slides for Java API Reference
 description: Represent animation point.
 type: docs
-weight: 970
 url: /com.aspose.slides/ipoint/
 ---```
 public interface IPoint

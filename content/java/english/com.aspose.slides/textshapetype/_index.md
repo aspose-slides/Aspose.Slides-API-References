@@ -3,7 +3,6 @@ title: TextShapeType
 second_title: Aspose.Slides for Java API Reference
 description: Represents text wrapping shape.
 type: docs
-weight: 565
 url: /com.aspose.slides/textshapetype/
 ---
 **Inheritance:**

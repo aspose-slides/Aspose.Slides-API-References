@@ -3,7 +3,6 @@ title: BaseSlide
 second_title: Aspose.Slides for Java API Reference
 description: Represents common data for all slide types.
 type: docs
-weight: 44
 url: /com.aspose.slides/baseslide/
 ---
 **Inheritance:**
@@ -101,13 +100,38 @@ public final boolean equals(IBaseSlide slide)
 
 Determines whether the two IBaseSlide instances are equal. Returning value is calculated based on slide's structure and static content. Two slides are equal if all shapes, styles, texts, animation and other settings. etc. are equal. The comparison doesn't take into account unique identifier values, e.g. SlideId and dynamic content, e.g. current date value in Date Placeholder.
 
+--------------------
+
+> ```
+> The following example shows how to compare two slides.
+>  
+>  Presentation presentation1 = new Presentation("AccessSlides.pptx");
+>  try {
+>      Presentation presentation2 = new Presentation("HelloWorld.pptx");
+>      try {
+>          for (int i = 0; i < presentation1.getMasters().size(); i++)
+>          {
+>              for (int j = 0; j < presentation2.getMasters().size(); j++)
+>              {
+>                  if (presentation1.getMasters().get_Item(i).equals(presentation2.getMasters().get_Item(j)))
+>                      System.out.println(String.format("SomePresentation1 MasterSlide#%d is equal to SomePresentation2 MasterSlide#%d", i, j));
+>              }
+>          }
+>      } finally {
+>          if (presentation2 != null) presentation2.dispose();
+>      }
+>  } finally {
+>      if (presentation1 != null) presentation1.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | slide | [IBaseSlide](../../com.aspose.slides/ibaseslide) | The IBaseSlide to compare with the current IBaseSlide. |
 
 **Returns:**
-boolean - **true** if the specified IBaseSlide is equal to the current IBaseSlide; otherwise, **false**.
+boolean -  **true**  if the specified IBaseSlide is equal to the current IBaseSlide; otherwise,  **false** .
 ### joinPortionsWithSameFormatting() {#joinPortionsWithSameFormatting--}
 ```
 public void joinPortionsWithSameFormatting()

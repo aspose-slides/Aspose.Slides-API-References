@@ -3,7 +3,6 @@ title: DataLabel
 second_title: Aspose.Slides for Java API Reference
 description: Represents a series labels.
 type: docs
-weight: 147
 url: /com.aspose.slides/datalabel/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: NotesSlideManager
 second_title: Aspose.Slides for Java API Reference
 description: Notes slide manager.
 type: docs
-weight: 379
 url: /com.aspose.slides/notesslidemanager/
 ---
 **Inheritance:**
@@ -16,6 +15,39 @@ public final class NotesSlideManager extends DomObject<Slide> implements INotesS
 ```
 
 Notes slide manager.
+
+--------------------
+
+> ```
+> The following example shows how to Add Notes to specific ProwerPoint Presentation slide.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation pres = new Presentation("AccessSlides.pptx");
+>  try {
+>      // Add notes to first slide
+>      INotesSlideManager mgr = pres.getSlides().get_Item(0).getNotesSlideManager();
+>      INotesSlide noteSlide = mgr.addNotesSlide();
+>      noteSlide.getNotesTextFrame().setText("Your Notes");
+>      // Save presentation to disk
+>      pres.save("RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following examples shows how to remove Notes from PowerPoint Presentation's specific slide.
+>  
+>  // Instantiate a Presentation object that represents a presentation file
+>  Presentation pres = new Presentation("AccessSlides.pptx");
+>  try {
+>      // Removing notes of first slide
+>      INotesSlideManager mgr = pres.getSlides().get_Item(0).getNotesSlideManager();
+>      mgr.removeNotesSlide();
+>      // Save presentation to disk
+>      pres.save("RemoveNotesAtSpecificSlide_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

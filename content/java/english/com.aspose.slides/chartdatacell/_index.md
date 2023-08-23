@@ -3,7 +3,6 @@ title: ChartDataCell
 second_title: Aspose.Slides for Java API Reference
 description: Represents cell for chart data.
 type: docs
-weight: 83
 url: /com.aspose.slides/chartdatacell/
 ---
 **Inheritance:**
@@ -215,7 +214,7 @@ public final byte getPresetNumberFormat()
 ```
 
 
-Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write byte.
+Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write byte.
 
 --------------------
 
@@ -266,7 +265,7 @@ public final void setPresetNumberFormat(byte value)
 ```
 
 
-Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]". Read/write byte.
+Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write byte.
 
 --------------------
 

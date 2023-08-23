@@ -3,7 +3,6 @@ title: TextUnderlineType
 second_title: Aspose.Slides for Java API Reference
 description: Represents the type of text underline.
 type: docs
-weight: 569
 url: /com.aspose.slides/textunderlinetype/
 ---
 **Inheritance:**

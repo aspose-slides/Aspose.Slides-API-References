@@ -3,7 +3,6 @@ title: IPresetShadowEffectiveData
 second_title: Aspose.Slides for Java API Reference
 description: Immutable object which represents a Preset Shadow effect.
 type: docs
-weight: 988
 url: /com.aspose.slides/ipresetshadoweffectivedata/
 ---
 **All Implemented Interfaces:**

@@ -3,7 +3,6 @@ title: ColorFormat
 second_title: Aspose.Slides for Java API Reference
 description: Represents a color used in a presentation.
 type: docs
-weight: 109
 url: /com.aspose.slides/colorformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IColorFormat](../../com.aspose.slides/icolorformat)
 ```
-public class ColorFormat extends PVIObject implements IColorFormat
+public final class ColorFormat extends PVIObject implements IColorFormat
 ```
 
 Represents a color used in a presentation.
@@ -53,6 +52,7 @@ Represents a color used in a presentation.
 | [copyFrom(IColorFormat color)](#copyFrom-com.aspose.slides.IColorFormat-) | Copy color format from "color". |
 | [equals(Object obj)](#equals-java.lang.Object-) | Checks for equality with specified object. |
 | [hashCode()](#hashCode--) | Returns hash code. |
+| [getVersion()](#getVersion--) |  |
 | [getParent_ISlideComponent()](#getParent-ISlideComponent--) |  |
 | [getParent_IPresentationComponent()](#getParent-IPresentationComponent--) |  |
 ### getColorType() {#getColorType--}
@@ -440,6 +440,16 @@ Returns hash code.
 
 **Returns:**
 int - Hash code.
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getParent_ISlideComponent() {#getParent-ISlideComponent--}
 ```
 public final ISlideComponent getParent_ISlideComponent()

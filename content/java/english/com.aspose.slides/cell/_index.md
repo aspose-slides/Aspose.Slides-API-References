@@ -3,7 +3,6 @@ title: Cell
 second_title: Aspose.Slides for Java API Reference
 description: Represents a cell of a table.
 type: docs
-weight: 70
 url: /com.aspose.slides/cell/
 ---
 **Inheritance:**

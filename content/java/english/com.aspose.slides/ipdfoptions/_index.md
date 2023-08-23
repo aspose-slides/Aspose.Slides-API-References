@@ -3,7 +3,6 @@ title: IPdfOptions
 second_title: Aspose.Slides for Java API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 962
 url: /com.aspose.slides/ipdfoptions/
 ---
 **All Implemented Interfaces:**
@@ -275,7 +274,7 @@ Desired conformance level for generated PDF document. Read/write [PdfCompliance]
 
 --------------------
 
-Default is [PdfCompliance.Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
+Default is [PdfCompliance.Pdf17](../../com.aspose.slides/pdfcompliance\#Pdf17).
 
 **Returns:**
 int
@@ -289,7 +288,7 @@ Desired conformance level for generated PDF document. Read/write [PdfCompliance]
 
 --------------------
 
-Default is [PdfCompliance.Pdf15](../../com.aspose.slides/pdfcompliance\#Pdf15).
+Default is [PdfCompliance.Pdf17](../../com.aspose.slides/pdfcompliance\#Pdf17).
 
 **Parameters:**
 | Parameter | Type | Description |

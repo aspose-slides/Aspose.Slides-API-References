@@ -3,7 +3,6 @@ title: IShapeStyle
 second_title: Aspose.Slides for Java API Reference
 description: Represent shapes style reference.
 type: docs
-weight: 1023
 url: /com.aspose.slides/ishapestyle/
 ---```
 public interface IShapeStyle

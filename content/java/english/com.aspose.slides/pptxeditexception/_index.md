@@ -3,7 +3,6 @@ title: PptxEditException
 second_title: Aspose.Slides for Java API Reference
 description: Represents an exception thrown when edit presentation error is detected.
 type: docs
-weight: 439
 url: /com.aspose.slides/pptxeditexception/
 ---
 **Inheritance:**

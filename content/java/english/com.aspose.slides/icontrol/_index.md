@@ -3,7 +3,6 @@ title: IControl
 second_title: Aspose.Slides for Java API Reference
 description: Represents an ActiveX control.
 type: docs
-weight: 733
 url: /com.aspose.slides/icontrol/
 ---
 **All Implemented Interfaces:**

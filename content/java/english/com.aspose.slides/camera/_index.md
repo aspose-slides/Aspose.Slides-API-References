@@ -3,7 +3,6 @@ title: Camera
 second_title: Aspose.Slides for Java API Reference
 description: Represents Camera.
 type: docs
-weight: 66
 url: /com.aspose.slides/camera/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.ICamera](../../com.aspose.slides/icamera)
 ```
-public class Camera extends PVIObject implements ICamera
+public final class Camera extends PVIObject implements ICamera
 ```
 
 Represents Camera.
@@ -20,6 +19,7 @@ Represents Camera.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getCameraType()](#getCameraType--) | Camera type. |
 | [setCameraType(int value)](#setCameraType-int-) | Camera type. |
 | [getFieldOfViewAngle()](#getFieldOfViewAngle--) | Camera FOV (0-180 deg, field of View). |
@@ -28,6 +28,16 @@ Represents Camera.
 | [setZoom(float value)](#setZoom-float-) | Camera zoom (positive value in percentage). |
 | [setRotation(float latitude, float longitude, float revolution)](#setRotation-float-float-float-) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
 | [getRotation()](#getRotation--) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getCameraType() {#getCameraType--}
 ```
 public final int getCameraType()

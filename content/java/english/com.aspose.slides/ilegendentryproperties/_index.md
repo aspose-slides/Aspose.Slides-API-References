@@ -3,7 +3,6 @@ title: ILegendEntryProperties
 second_title: Aspose.Slides for Java API Reference
 description: Represents legend properties of a chart.
 type: docs
-weight: 852
 url: /com.aspose.slides/ilegendentryproperties/
 ---
 **All Implemented Interfaces:**

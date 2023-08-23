@@ -3,7 +3,6 @@ title: PlaceholderType
 second_title: Aspose.Slides for Java API Reference
 description: Represents the type of a placeholder.
 type: docs
-weight: 425
 url: /com.aspose.slides/placeholdertype/
 ---
 **Inheritance:**

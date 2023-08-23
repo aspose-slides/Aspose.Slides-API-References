@@ -3,7 +3,6 @@ title: ChartCategoryLevelsManager
 second_title: Aspose.Slides for Java API Reference
 description: Managed container of the values of the chart category levels.
 type: docs
-weight: 80
 url: /com.aspose.slides/chartcategorylevelsmanager/
 ---
 **Inheritance:**

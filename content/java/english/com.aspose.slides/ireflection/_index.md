@@ -3,7 +3,6 @@ title: IReflection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a reflection effect.
 type: docs
-weight: 992
 url: /com.aspose.slides/ireflection/
 ---
 **All Implemented Interfaces:**

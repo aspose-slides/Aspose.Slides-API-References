@@ -3,7 +3,6 @@ title: Hyperlink
 second_title: Aspose.Slides for Java API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 243
 url: /com.aspose.slides/hyperlink/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IHyperlink](../../com.aspose.slides/ihyperlink), com.aspose.slides.IDOMObject
 ```
-public class Hyperlink extends PVIObject implements IHyperlink, IDOMObject
+public final class Hyperlink extends PVIObject implements IHyperlink, IDOMObject
 ```
 
 Represents a hyperlink.
@@ -27,6 +26,7 @@ Represents a hyperlink.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getNoAction()](#getNoAction--) | Returns a special "do nothing" hyperlink. |
 | [getMedia()](#getMedia--) | Returns a special "play mediafile" hyperlink. |
 | [getNextSlide()](#getNextSlide--) | Returns a hyperlink to the next slide. |
@@ -102,6 +102,16 @@ Creates an instance of a hyperlink using another hyperlink as source, overriding
 | stopSoundsOnClick | boolean | Determines whether the sound should be stopped on hyperlink click. |
 | highlightClick | boolean | Determines whether the hyperlink should be highlighted on click. |
 
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getNoAction() {#getNoAction--}
 ```
 public static Hyperlink getNoAction()

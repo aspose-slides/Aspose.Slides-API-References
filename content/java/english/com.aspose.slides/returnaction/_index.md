@@ -3,7 +3,6 @@ title: ReturnAction
 second_title: Aspose.Slides for Java API Reference
 description: Represents warning callback decision options.
 type: docs
-weight: 466
 url: /com.aspose.slides/returnaction/
 ---
 **Inheritance:**

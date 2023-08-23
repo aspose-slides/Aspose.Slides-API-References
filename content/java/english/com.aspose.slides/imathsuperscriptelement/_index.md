@@ -3,7 +3,6 @@ title: IMathSuperscriptElement
 second_title: Aspose.Slides for Java API Reference
 description: Specifies the superscript object which consists of a base  and a reduced-size superscript placed above and to the right
 type: docs
-weight: 921
 url: /com.aspose.slides/imathsuperscriptelement/
 ---
 **All Implemented Interfaces:**

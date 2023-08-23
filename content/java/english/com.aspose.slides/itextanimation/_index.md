@@ -3,7 +3,6 @@ title: ITextAnimation
 second_title: Aspose.Slides for Java API Reference
 description: Represent text animation.
 type: docs
-weight: 1067
 url: /com.aspose.slides/itextanimation/
 ---```
 public interface ITextAnimation

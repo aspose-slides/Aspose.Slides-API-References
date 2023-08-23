@@ -3,7 +3,6 @@ title: PieSplitCustomPointCollection
 second_title: Aspose.Slides for Java API Reference
 description: Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
 type: docs
-weight: 421
 url: /com.aspose.slides/piesplitcustompointcollection/
 ---
 **Inheritance:**
