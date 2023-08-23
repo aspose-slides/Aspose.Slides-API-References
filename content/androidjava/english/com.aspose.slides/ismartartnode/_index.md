@@ -3,7 +3,6 @@ title: ISmartArtNode
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents node of a SmartArt diagram.
 type: docs
-weight: 1039
 url: /com.aspose.slides/ismartartnode/
 ---```
 public interface ISmartArtNode

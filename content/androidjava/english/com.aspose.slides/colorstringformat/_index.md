@@ -3,7 +3,6 @@ title: ColorStringFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a type of hyperlink action.
 type: docs
-weight: 117
 url: /com.aspose.slides/colorstringformat/
 ---
 **Inheritance:**

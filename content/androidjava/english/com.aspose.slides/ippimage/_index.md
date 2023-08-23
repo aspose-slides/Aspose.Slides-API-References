@@ -3,7 +3,6 @@ title: IPPImage
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an image in a presentation.
 type: docs
-weight: 953
 url: /com.aspose.slides/ippimage/
 ---```
 public interface IPPImage

@@ -3,7 +3,6 @@ title: HyperlinkColorSource
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents source of hyperlink color.
 type: docs
-weight: 245
 url: /com.aspose.slides/hyperlinkcolorsource/
 ---
 **Inheritance:**

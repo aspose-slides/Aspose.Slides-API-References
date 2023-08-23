@@ -3,7 +3,6 @@ title: TableStylePreset
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents builtin table styles.
 type: docs
-weight: 551
 url: /com.aspose.slides/tablestylepreset/
 ---
 **Inheritance:**

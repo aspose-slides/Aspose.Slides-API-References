@@ -3,7 +3,6 @@ title: LegendEntryProperties
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents legend properties of a chart.
 type: docs
-weight: 271
 url: /com.aspose.slides/legendentryproperties/
 ---
 **Inheritance:**

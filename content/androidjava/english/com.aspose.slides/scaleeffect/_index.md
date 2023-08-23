@@ -3,7 +3,6 @@ title: ScaleEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents animation scale effect.
 type: docs
-weight: 478
 url: /com.aspose.slides/scaleeffect/
 ---
 **Inheritance:**

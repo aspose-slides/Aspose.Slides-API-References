@@ -3,7 +3,6 @@ title: DataLabelFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents formatting options for DataLabel.
 type: docs
-weight: 149
 url: /com.aspose.slides/datalabelformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IDataLabelFormat](../../com.aspose.slides/idatalabelformat)
 ```
-public class DataLabelFormat extends PVIObject implements IDataLabelFormat
+public final class DataLabelFormat extends PVIObject implements IDataLabelFormat
 ```
 
 Represents formatting options for DataLabel.
@@ -20,6 +19,7 @@ Represents formatting options for DataLabel.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [isNumberFormatLinkedToSource()](#isNumberFormatLinkedToSource--) | Read/write boolean. |
 | [setNumberFormatLinkedToSource(boolean value)](#setNumberFormatLinkedToSource-boolean-) | Read/write boolean. |
 | [getNumberFormat()](#getNumberFormat--) | Represents the format string for the DataLabels object. |
@@ -49,6 +49,16 @@ Represents formatting options for DataLabel.
 | [setSeparator(String value)](#setSeparator-java.lang.String-) | Sets or returns a Variant representing the separator used for the data labels on a chart. |
 | [getTextFormat()](#getTextFormat--) | Returns chart text format. |
 | [getChart()](#getChart--) | Returns the chart. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### isNumberFormatLinkedToSource() {#isNumberFormatLinkedToSource--}
 ```
 public final boolean isNumberFormatLinkedToSource()

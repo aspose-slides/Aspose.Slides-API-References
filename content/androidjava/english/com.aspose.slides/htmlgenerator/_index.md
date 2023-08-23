@@ -3,7 +3,6 @@ title: HtmlGenerator
 second_title: Aspose.Slides for Android via Java API Reference
 description: Html generator.
 type: docs
-weight: 241
 url: /com.aspose.slides/htmlgenerator/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: MotionEffect
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent motion effect behavior of effect.
 type: docs
-weight: 367
 url: /com.aspose.slides/motioneffect/
 ---
 **Inheritance:**

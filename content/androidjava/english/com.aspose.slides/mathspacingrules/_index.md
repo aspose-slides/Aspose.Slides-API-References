@@ -3,7 +3,6 @@ title: MathSpacingRules
 second_title: Aspose.Slides for Android via Java API Reference
 description: Types of gap horizontal spacing between columns of a matrix
 type: docs
-weight: 352
 url: /com.aspose.slides/mathspacingrules/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: IChartDataPointCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of a series data point.
 type: docs
-weight: 691
 url: /com.aspose.slides/ichartdatapointcollection/
 ---
 **All Implemented Interfaces:**
@@ -17,8 +16,8 @@ Represents collection of a series data point.
 
 | Method | Description |
 | --- | --- |
-| [get_Item(int index)](#get-Item-int-) | Returns the series data point by index. |
-| [get_Item(IChartDataPoint pt)](#get-Item-com.aspose.slides.IChartDataPoint-) | Return index of data point in this collection. |
+| [get_Item(int index)](#get-Item-int-) | Returns the series data point by index (its serial number in this collection). |
+| [get_Item(IChartDataPoint pt)](#get-Item-com.aspose.slides.IChartDataPoint-) | Return index (serial number in this collection) of data point in this collection. |
 | [getDataSourceTypeForXValues()](#getDataSourceTypeForXValues--) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. |
 | [setDataSourceTypeForXValues(int value)](#setDataSourceTypeForXValues-int-) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. |
 | [getDataSourceTypeForYValues()](#getDataSourceTypeForYValues--) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. |
@@ -79,7 +78,7 @@ public abstract IChartDataPoint get_Item(int index)
 ```
 
 
-Returns the series data point by index.
+Returns the series data point by index (its serial number in this collection).
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -94,7 +93,7 @@ public abstract int get_Item(IChartDataPoint pt)
 ```
 
 
-Return index of data point in this collection.
+Return index (serial number in this collection) of data point in this collection.
 
 **Parameters:**
 | Parameter | Type | Description |

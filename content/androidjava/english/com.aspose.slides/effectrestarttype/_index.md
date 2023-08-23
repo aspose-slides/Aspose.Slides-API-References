@@ -3,7 +3,6 @@ title: EffectRestartType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent restart types for timing.
 type: docs
-weight: 168
 url: /com.aspose.slides/effectrestarttype/
 ---
 **Inheritance:**

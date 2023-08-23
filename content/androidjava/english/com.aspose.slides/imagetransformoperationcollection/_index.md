@@ -3,7 +3,6 @@ title: ImageTransformOperationCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of effects apllied to an image.
 type: docs
-weight: 252
 url: /com.aspose.slides/imagetransformoperationcollection/
 ---
 **Inheritance:**
@@ -20,6 +19,7 @@ Represents a collection of effects apllied to an image.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [get_Item(int index)](#get-Item-int-) | Returns an [ImageTransformOperation](../../com.aspose.slides/imagetransformoperation) from the collection by it's index. |
 | [removeAt(int index)](#removeAt-int-) | Removes an image effect from a collection at the specified index. |
 | [addAlphaBiLevelEffect(float threshold)](#addAlphaBiLevelEffect-float-) | Adds the new Alpha Bi-Level effect to the end of a collection. |
@@ -48,6 +48,16 @@ Represents a collection of effects apllied to an image.
 | [removeItem(IImageTransformOperation item)](#removeItem-com.aspose.slides.IImageTransformOperation-) | Removes the first occurrence of a specific object from the [IGenericCollection](../../com.aspose.slides/igenericcollection). |
 | [iterator()](#iterator--) | Returns an enumerator that iterates through the collection. |
 | [iteratorJava()](#iteratorJava--) | Returns a java iterator for the entire collection. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### get_Item(int index) {#get-Item-int-}
 ```
 public final IImageTransformOperation get_Item(int index)

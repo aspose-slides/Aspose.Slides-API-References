@@ -3,7 +3,6 @@ title: PptException
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a standard internal exception type.
 type: docs
-weight: 434
 url: /com.aspose.slides/pptexception/
 ---
 **Inheritance:**

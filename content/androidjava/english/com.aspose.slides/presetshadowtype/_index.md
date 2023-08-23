@@ -3,7 +3,6 @@ title: PresetShadowType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a preset for a shadow effect.
 type: docs
-weight: 455
 url: /com.aspose.slides/presetshadowtype/
 ---
 **Inheritance:**

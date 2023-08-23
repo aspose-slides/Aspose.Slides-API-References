@@ -3,7 +3,6 @@ title: PVIObject
 second_title: Aspose.Slides for Android via Java API Reference
 description: Encapsulates basic service infrastructure for objects can be a subject of property value inheritance.
 type: docs
-weight: 398
 url: /com.aspose.slides/pviobject/
 ---
 **Inheritance:**

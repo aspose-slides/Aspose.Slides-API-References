@@ -3,7 +3,6 @@ title: ILayoutSlideHeaderFooterManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents manager which holds behavior of the layout slide footer date-time page number placeholders and all child placeholders.
 type: docs
-weight: 846
 url: /com.aspose.slides/ilayoutslideheaderfootermanager/
 ---
 **All Implemented Interfaces:**

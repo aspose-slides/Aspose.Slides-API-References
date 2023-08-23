@@ -3,7 +3,6 @@ title: Shape
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 487
 url: /com.aspose.slides/shape/
 ---
 **Inheritance:**
@@ -91,6 +90,57 @@ public final IPlaceholder getPlaceholder()
 
 Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only [IPlaceholder](../../com.aspose.slides/iplaceholder).
 
+--------------------
+
+> ```
+> The following example shows how to change Text in Placeholder.
+>  
+>  // Instantiates a Presentation class
+>  Presentation pres = new Presentation("ReplacingText.pptx");
+>  try {
+>      // Accesses the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Iterates through shapes to find the placeholder
+>      for (IShape shp : sld.getShapes())
+>          if (shp.getPlaceholder() != null)
+>          {
+>              // Changes the text in each placeholder
+>              ((IAutoShape)shp).getTextFrame().setText("This is a Placeholder");
+>          }
+>      // Saves the presentation to disk
+>      pres.save("output_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example shows how to set Prompt Text in Placeholder.
+>  
+>  Presentation pres = new Presentation("Presentation2.pptx");
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      for (IShape shape : slide.getSlide().getShapes()) // Iterates through the slide
+>      {
+>          if (shape.getPlaceholder() != null && shape instanceof AutoShape)
+>          {
+>              String text = "";
+>              if (shape.getPlaceholder().getType() == PlaceholderType.CenteredTitle) // PowerPoint displays "Click to add title"
+>              {
+>                  text = "Add Title";
+>              }
+>              else if (shape.getPlaceholder().getType() == PlaceholderType.Subtitle) // Adds subtitle
+>              {
+>                  text = "Add Subtitle";
+>              }
+>              ((IAutoShape)shape).getTextFrame().setText(text);
+>              System.out.println("Placeholder with text: " + text);
+>          }
+>      }
+>      pres.save("Placeholders_PromptText.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [IPlaceholder](../../com.aspose.slides/iplaceholder)
 ### removePlaceholder() {#removePlaceholder--}
@@ -169,7 +219,7 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 --------------------
 
 > ```
-> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
+> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sense in general case (particularly in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 >  
 >  IShape shape = ...;
 >  shape.setFrame(new ShapeFrame(Float.NaN, Float.NaN, Float.NaN, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, Float.NaN));
@@ -221,7 +271,7 @@ Returns or sets the raw shape frame's properties. Read/write [IShapeFrame](../..
 --------------------
 
 > ```
-> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sence in general case (particulary in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
+> Code that attempts to assign undefined frame to IShape.getFrame() doesn't make sense in general case (particularly in case when parent GroupShape is multiple nested into other GroupShape-s). For example:
 >  
 >  IShape shape = ...;
 >  shape.setFrame(new ShapeFrame(Float.NaN, Float.NaN, Float.NaN, Float.NaN, NullableBool.NotDefined, NullableBool.NotDefined, Float.NaN));
@@ -333,6 +383,63 @@ public IFillFormat getFillFormat()
 
 
 Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only [IFillFormat](../../com.aspose.slides/ifillformat).
+
+--------------------
+
+> ```
+> The following example shows how to change the accent color for a theme of PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape shape = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 100, 100);
+>      shape.getFillFormat().setFillType(FillType.Solid);
+>      shape.getFillFormat().getSolidFillColor().setSchemeColor(SchemeColor.Accent4);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following example demonstrates how to obtain palette colors from the main theme color and then used in shapes.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      // Accent 4
+>      IShape shape1 = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 10, 50, 50);
+>      shape1.getFillFormat().setFillType(FillType.Solid);
+>      shape1.getFillFormat().getSolidFillColor().setSchemeColor(SchemeColor.Accent4);
+>      // Accent 4, Lighter 80%
+>      IShape shape2 = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 70, 50, 50);
+>      shape2.getFillFormat().setFillType(FillType.Solid);
+>      shape2.getFillFormat().getSolidFillColor().setSchemeColor(SchemeColor.Accent4);
+>      shape2.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.MultiplyLuminance, 0.2f);
+>      shape2.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.AddLuminance, 0.8f);
+>      // Accent 4, Lighter 60%
+>      IShape shape3 = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 130, 50, 50);
+>      shape3.getFillFormat().setFillType(FillType.Solid);
+>      shape3.getFillFormat().getSolidFillColor().setSchemeColor(SchemeColor.Accent4);
+>      shape3.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.MultiplyLuminance, 0.4f);
+>      shape3.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.AddLuminance, 0.6f);
+>      // Accent 4, Lighter 40%
+>      IShape shape4 = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 190, 50, 50);
+>      shape4.getFillFormat().setFillType(FillType.Solid);
+>      shape4.getFillFormat().getSolidFillColor().setSchemeColor(SchemeColor.Accent4);
+>      shape4.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.MultiplyLuminance, 0.6f);
+>      shape4.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.AddLuminance, 0.4f);
+>      // Accent 4, Darker 25%
+>      IShape shape5 = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 250, 50, 50);
+>      shape5.getFillFormat().setFillType(FillType.Solid);
+>      shape5.getFillFormat().getSolidFillColor().setSchemeColor(SchemeColor.Accent4);
+>      shape5.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.MultiplyLuminance, 0.75f);
+>      // Accent 4, Darker 50%
+>      IShape shape6 = slide.getShapes().addAutoShape(ShapeType.Rectangle, 10, 310, 50, 50);
+>      shape6.getFillFormat().setFillType(FillType.Solid);
+>      shape6.getFillFormat().getSolidFillColor().setSchemeColor(SchemeColor.Accent4);
+>      shape6.getFillFormat().getSolidFillColor().getColorTransform().add(ColorTransformOperation.MultiplyLuminance, 0.5f);
+>      pres.save("example_accent4.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Returns:**
 [IFillFormat](../../com.aspose.slides/ifillformat)

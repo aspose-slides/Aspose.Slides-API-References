@@ -3,7 +3,6 @@ title: TableFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents format of a table.
 type: docs
-weight: 550
 url: /com.aspose.slides/tableformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, com.aspose.slides.DomObject
 **All Implemented Interfaces:**
 [com.aspose.slides.ITableFormat](../../com.aspose.slides/itableformat), com.aspose.slides.IPVIObject
 ```
-public class TableFormat extends DomObject<Table> implements ITableFormat, IPVIObject
+public final class TableFormat extends DomObject<Table> implements ITableFormat, IPVIObject
 ```
 
 Represents format of a table.

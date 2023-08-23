@@ -3,7 +3,6 @@ title: IZoomObject
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Zoom object in a slide.
 type: docs
-weight: 1114
 url: /com.aspose.slides/izoomobject/
 ---
 **All Implemented Interfaces:**
@@ -43,9 +42,15 @@ Gets or sets the image type of a zoom object. Read/write [ZoomImageType](../../c
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1), image);
->      zoomFrame.setImageType(ZoomImageType.Preview);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1), image);
+>          zoomFrame.setImageType(ZoomImageType.Preview);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
 >  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -74,9 +79,15 @@ Gets or sets the image type of a zoom object. Read/write [ZoomImageType](../../c
 >  
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1), image);
->      zoomFrame.setImageType(ZoomImageType.Preview);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1), image);
+>          zoomFrame.setImageType(ZoomImageType.Preview);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
 >  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -218,8 +229,14 @@ Gets or sets image for zoom object. Read/write [IPPImage](../../com.aspose.slide
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1));
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      zoomFrame.setImage(image);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          zoomFrame.setImage(image);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
 >  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -244,8 +261,14 @@ Gets or sets image for zoom object. Read/write [IPPImage](../../com.aspose.slide
 >  Presentation pres = new Presentation("pres.pptx");
 >  try {
 >      IZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addZoomFrame(150, 20, 50, 50, pres.getSlides().get_Item(1));
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      zoomFrame.setImage(image);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          zoomFrame.setImage(image);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
 >  } catch(IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();

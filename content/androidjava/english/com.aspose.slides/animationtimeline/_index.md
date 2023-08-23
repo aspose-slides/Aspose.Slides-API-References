@@ -3,7 +3,6 @@ title: AnimationTimeLine
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents timeline of animation.
 type: docs
-weight: 19
 url: /com.aspose.slides/animationtimeline/
 ---
 **Inheritance:**

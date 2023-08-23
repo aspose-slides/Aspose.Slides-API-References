@@ -3,7 +3,6 @@ title: ColumnFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents format of a table column.
 type: docs
-weight: 122
 url: /com.aspose.slides/columnformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, com.aspose.slides.DomObject
 **All Implemented Interfaces:**
 [com.aspose.slides.IColumnFormat](../../com.aspose.slides/icolumnformat), com.aspose.slides.IPVIObject
 ```
-public class ColumnFormat extends DomObject<Column> implements IColumnFormat, IPVIObject
+public final class ColumnFormat extends DomObject<Column> implements IColumnFormat, IPVIObject
 ```
 
 Represents format of a table column.

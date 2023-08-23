@@ -3,7 +3,6 @@ title: IGlitterTransition
 second_title: Aspose.Slides for Android via Java API Reference
 description: Glitter slide transition effect.
 type: docs
-weight: 804
 url: /com.aspose.slides/iglittertransition/
 ---
 **All Implemented Interfaces:**

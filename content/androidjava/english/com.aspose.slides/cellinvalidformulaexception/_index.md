@@ -3,7 +3,6 @@ title: CellInvalidFormulaException
 second_title: Aspose.Slides for Android via Java API Reference
 description: The exception that is thrown when a calculated formula is not correct or was not parsed.
 type: docs
-weight: 74
 url: /com.aspose.slides/cellinvalidformulaexception/
 ---
 **Inheritance:**

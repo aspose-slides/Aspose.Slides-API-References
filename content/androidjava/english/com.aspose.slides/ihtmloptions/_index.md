@@ -3,7 +3,6 @@ title: IHtmlOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a HTML exporting options.
 type: docs
-weight: 827
 url: /com.aspose.slides/ihtmloptions/
 ---
 **All Implemented Interfaces:**

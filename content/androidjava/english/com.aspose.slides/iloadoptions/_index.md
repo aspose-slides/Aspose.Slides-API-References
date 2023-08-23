@@ -3,7 +3,6 @@ title: ILoadOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 864
 url: /com.aspose.slides/iloadoptions/
 ---```
 public interface ILoadOptions
@@ -38,6 +37,8 @@ Allows to specify additional options (such as format or default font) when loadi
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.slides.IResourceLoadingCallback-) | Returns or sets callback interface which manages external resources loading. |
 | [getSpreadsheetOptions()](#getSpreadsheetOptions--) | Represents options which can be used to specify additional spreadsheets behavior. |
 | [setSpreadsheetOptions(ISpreadsheetOptions value)](#setSpreadsheetOptions-com.aspose.slides.ISpreadsheetOptions-) | Represents options which can be used to specify additional spreadsheets behavior. |
+| [getDefaultTextLanguage()](#getDefaultTextLanguage--) | Returns or sets the default language for presentation text. |
+| [setDefaultTextLanguage(String value)](#setDefaultTextLanguage-java.lang.String-) | Returns or sets the default language for presentation text. |
 ### getLoadFormat() {#getLoadFormat--}
 ```
 public abstract int getLoadFormat()
@@ -333,4 +334,67 @@ Represents options which can be used to specify additional spreadsheets behavior
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ISpreadsheetOptions](../../com.aspose.slides/ispreadsheetoptions) |  |
+
+### getDefaultTextLanguage() {#getDefaultTextLanguage--}
+```
+public abstract String getDefaultTextLanguage()
+```
+
+
+Returns or sets the default language for presentation text. Read/write String.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  // Use load options to define the default text culture
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setDefaultTextLanguage("en-US");
+>  Presentation pres = new Presentation(loadOptions);
+>  try {
+>      // Add new rectangle shape with text
+>      IAutoShape shp = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
+>      shp.getTextFrame().setText("New Text");
+>      // Check the first portion language
+>      System.out.println(shp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().getLanguageId());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+java.lang.String
+### setDefaultTextLanguage(String value) {#setDefaultTextLanguage-java.lang.String-}
+```
+public abstract void setDefaultTextLanguage(String value)
+```
+
+
+Returns or sets the default language for presentation text. Read/write String.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  // Use load options to define the default text culture
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setDefaultTextLanguage("en-US");
+>  Presentation pres = new Presentation(loadOptions);
+>  try {
+>      // Add new rectangle shape with text
+>      IAutoShape shp = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
+>      shp.getTextFrame().setText("New Text");
+>      // Check the first portion language
+>      System.out.println(shp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().getLanguageId());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 

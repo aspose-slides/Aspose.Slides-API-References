@@ -3,7 +3,6 @@ title: IOleEmbeddedDataInfo
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents embedded data info for OLE object.
 type: docs
-weight: 941
 url: /com.aspose.slides/ioleembeddeddatainfo/
 ---```
 public interface IOleEmbeddedDataInfo

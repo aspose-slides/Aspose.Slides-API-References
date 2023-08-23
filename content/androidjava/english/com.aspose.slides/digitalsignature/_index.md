@@ -3,7 +3,6 @@ title: DigitalSignature
 second_title: Aspose.Slides for Android via Java API Reference
 description: Digital signature in signed file.
 type: docs
-weight: 153
 url: /com.aspose.slides/digitalsignature/
 ---
 **Inheritance:**
@@ -16,6 +15,51 @@ public class DigitalSignature implements IDigitalSignature
 ```
 
 Digital signature in signed file.
+
+--------------------
+
+> ```
+> The following example demonstrates how to add digital signature from a PFX certificate in PowerPoint Presentation.
+>  
+>  // Initialize Presentation instance
+>  Presentation pres = new Presentation();
+>  try {
+>     // Create DigitalSignature object with PFX file and PFX password
+>      DigitalSignature signature = new DigitalSignature("testsignature1.pfx", "testpass1");
+>      // Comment new digital signature
+>      signature.setComments("Aspose.Slides digital signing test.");
+>      // Add digital signature to presentation
+>      pres.getDigitalSignatures().add(signature);
+>      // Save presentation
+>      pres.save("SomePresentationSigned.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+>  
+>  The following sample code demonstrates how to validate digital signature of PowerPoint Presentation.
+>  
+>  // Initialize Presentation instance
+>  Presentation pres = new Presentation("SomePresentationSigned.pptx");
+>  try {
+>      if (pres.getDigitalSignatures().size() > 0)
+>      {
+>          boolean allSignaturesAreValid = true;
+>          System.out.println("Signatures used to sign the presentation: ");
+>          // Check if all digital signatures are valid
+>          for (IDigitalSignature signature : pres.getDigitalSignatures())
+>          {
+>              System.out.println(signature.getSignTime().toString() + " -- " + (signature.isValid() ? "VALID" : "INVALID"));
+>              allSignaturesAreValid &= signature.isValid();
+>          }
+>          if (allSignaturesAreValid)
+>              System.out.println("Presentation is genuine, all signatures are valid.");
+>          else
+>              System.out.println("Presentation has been modified since signing.");
+>      }
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |

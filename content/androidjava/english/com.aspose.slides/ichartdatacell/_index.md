@@ -3,7 +3,6 @@ title: IChartDataCell
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents cell for chart data.
 type: docs
-weight: 689
 url: /com.aspose.slides/ichartdatacell/
 ---```
 public interface IChartDataCell

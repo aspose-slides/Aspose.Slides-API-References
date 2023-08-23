@@ -3,7 +3,6 @@ title: StyleType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents chart style.
 type: docs
-weight: 533
 url: /com.aspose.slides/styletype/
 ---
 **Inheritance:**

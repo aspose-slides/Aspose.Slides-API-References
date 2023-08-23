@@ -3,7 +3,6 @@ title: BehaviorCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents collection of behavior effects.
 type: docs
-weight: 50
 url: /com.aspose.slides/behaviorcollection/
 ---
 **Inheritance:**

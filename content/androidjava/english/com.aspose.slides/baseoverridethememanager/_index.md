@@ -3,7 +3,6 @@ title: BaseOverrideThemeManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Base class for classes that provide access to different types of overriden themes.
 type: docs
-weight: 40
 url: /com.aspose.slides/baseoverridethememanager/
 ---
 **Inheritance:**

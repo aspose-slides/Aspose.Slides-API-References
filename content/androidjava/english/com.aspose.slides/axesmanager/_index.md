@@ -3,7 +3,6 @@ title: AxesManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides access to chart axes.
 type: docs
-weight: 29
 url: /com.aspose.slides/axesmanager/
 ---
 **Inheritance:**

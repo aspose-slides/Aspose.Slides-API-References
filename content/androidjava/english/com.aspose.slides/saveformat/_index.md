@@ -3,7 +3,6 @@ title: SaveFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Constants which define the format of a saved presentation.
 type: docs
-weight: 475
 url: /com.aspose.slides/saveformat/
 ---
 **Inheritance:**
@@ -36,6 +35,7 @@ Constants which define the format of a saved presentation.
 | [Fodp](#Fodp) | Save presentation in FODP format. |
 | [Gif](#Gif) | Save presentation in GIF format. |
 | [Html5](#Html5) | Save presentation in HTML format using new HTML5 templating system. |
+| [Md](#Md) | Save presentation in Markdown format |
 ### Ppt {#Ppt}
 ```
 public static final int Ppt
@@ -187,4 +187,12 @@ public static final int Html5
 
 
 Save presentation in HTML format using new HTML5 templating system.
+
+### Md {#Md}
+```
+public static final int Md
+```
+
+
+Save presentation in Markdown format
 

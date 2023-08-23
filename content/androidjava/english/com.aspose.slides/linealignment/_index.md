@@ -3,7 +3,6 @@ title: LineAlignment
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the lines alignment type.
 type: docs
-weight: 277
 url: /com.aspose.slides/linealignment/
 ---
 **Inheritance:**

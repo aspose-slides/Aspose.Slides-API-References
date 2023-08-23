@@ -3,7 +3,6 @@ title: Blur
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Blur effect that is applied to the entire shape including its fill.
 type: docs
-weight: 58
 url: /com.aspose.slides/blur/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IBlur](../../com.aspose.slides/iblur), com.aspose.slides.IVisualEffect
 ```
-public class Blur extends ImageTransformOperation implements IBlur, IVisualEffect
+public final class Blur extends ImageTransformOperation implements IBlur, IVisualEffect
 ```
 
 Represents a Blur effect that is applied to the entire shape, including its fill. All color channels, including alpha, are affected.

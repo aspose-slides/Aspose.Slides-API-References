@@ -3,7 +3,6 @@ title: IOleObjectFrame
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an OLE object on a slide.
 type: docs
-weight: 942
 url: /com.aspose.slides/ioleobjectframe/
 ---
 **All Implemented Interfaces:**
@@ -99,8 +98,23 @@ Sets information about OLE embedded data.
 >      OleObjectFrame oof = (OleObjectFrame) pres.getSlides().get_Item(0).getShapes().get_Item(0);
 >      if (oof != null)
 >      {
->          IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(Files.readAllBytes(Paths.get("Picture.png")), "png");
->          oof.setEmbeddedData(newData);
+>          BufferedInputStream bis = null;
+>          DataInputStream dis = null;
+>          try {
+>              File file = new File("Picture.png");
+>              byte[] bytes = new byte[(int) file.length()];
+>              bis = new BufferedInputStream(new FileInputStream(file));
+>              dis = new DataInputStream(bis);
+>              dis.readFully(bytes);
+>              IOleEmbeddedDataInfo newData = new OleEmbeddedDataInfo(bytes, "png");
+>              oof.setEmbeddedData(newData);
+>          } finally {
+>              if (dis != null) {
+>                  dis.close();
+>              if (bis != null)
+>                  bis.close();
+>              }
+>          }
 >      }
 >  } catch (IOException e) {
 >  } finally {

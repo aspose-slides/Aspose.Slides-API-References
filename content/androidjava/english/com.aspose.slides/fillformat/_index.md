@@ -3,7 +3,6 @@ title: FillFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a fill formatting options.
 type: docs
-weight: 190
 url: /com.aspose.slides/fillformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IFillFormat](../../com.aspose.slides/ifillformat)
 ```
-public class FillFormat extends PVIObject implements IFillFormat
+public final class FillFormat extends PVIObject implements IFillFormat
 ```
 
 Represents a fill formatting options.
@@ -20,6 +19,7 @@ Represents a fill formatting options.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [getFillType()](#getFillType--) | Returns or sets the type of filling. |
 | [setFillType(byte value)](#setFillType-byte-) | Returns or sets the type of filling. |
 | [getSolidFillColor()](#getSolidFillColor--) | Returns the fill color. |
@@ -29,6 +29,16 @@ Represents a fill formatting options.
 | [getRotateWithShape()](#getRotateWithShape--) | Determines whether the fill should be rotated with shape. |
 | [setRotateWithShape(byte value)](#setRotateWithShape-byte-) | Determines whether the fill should be rotated with shape. |
 | [getEffective()](#getEffective--) | Gets effective fill formatting data with the inheritance applied. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### getFillType() {#getFillType--}
 ```
 public final byte getFillType()

@@ -3,7 +3,6 @@ title: GifOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents GIF exporting options.
 type: docs
-weight: 221
 url: /com.aspose.slides/gifoptions/
 ---
 **Inheritance:**
@@ -16,6 +15,23 @@ public class GifOptions extends SaveOptions implements IGifOptions
 ```
 
 Represents GIF exporting options.
+
+--------------------
+
+> ```
+> The following example shows how to converting presentations to animated GIF using custom settings.
+>  
+>  Presentation pres = new Presentation("pres.pptx");
+>  try {
+>      GifOptions gifOptions = new GifOptions();
+>      gifOptions.setFrameSize(new com.aspose.slides.android.Size(960, 720)); // the size of the resulted GIF
+>      gifOptions.setDefaultDelay(2000); // how long each slide will be showed until it will be changed to the next one
+>      gifOptions.setTransitionFps(35); // increase FPS to better transition animation quality
+>      pres.save("pres.gif", SaveFormat.Gif, gifOptions);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Constructors
 
 | Constructor | Description |

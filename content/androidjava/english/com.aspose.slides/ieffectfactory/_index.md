@@ -3,7 +3,6 @@ title: IEffectFactory
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to create effects instances
 type: docs
-weight: 753
 url: /com.aspose.slides/ieffectfactory/
 ---```
 public interface IEffectFactory

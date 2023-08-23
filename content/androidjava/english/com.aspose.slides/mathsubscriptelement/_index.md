@@ -3,7 +3,6 @@ title: MathSubscriptElement
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the subscript object which consists of a base  and a reduced-size subscript placed below and to the right.
 type: docs
-weight: 353
 url: /com.aspose.slides/mathsubscriptelement/
 ---
 **Inheritance:**

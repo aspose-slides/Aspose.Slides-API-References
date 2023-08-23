@@ -3,7 +3,6 @@ title: NotesSlideThemeManager
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides access to notes slide theme overriden.
 type: docs
-weight: 380
 url: /com.aspose.slides/notesslidethememanager/
 ---
 **Inheritance:**

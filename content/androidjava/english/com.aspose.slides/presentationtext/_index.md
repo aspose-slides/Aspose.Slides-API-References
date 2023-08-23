@@ -3,7 +3,6 @@ title: PresentationText
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the text extracted from the presentation
 type: docs
-weight: 451
 url: /com.aspose.slides/presentationtext/
 ---
 **Inheritance:**

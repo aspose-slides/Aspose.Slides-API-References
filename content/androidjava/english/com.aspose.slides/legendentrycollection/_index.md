@@ -3,7 +3,6 @@ title: LegendEntryCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents legends collection.
 type: docs
-weight: 270
 url: /com.aspose.slides/legendentrycollection/
 ---
 **Inheritance:**

@@ -3,7 +3,6 @@ title: IFontSubstRule
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents font subtituition information
 type: docs
-weight: 788
 url: /com.aspose.slides/ifontsubstrule/
 ---```
 public interface IFontSubstRule

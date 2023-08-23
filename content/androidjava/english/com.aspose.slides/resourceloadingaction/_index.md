@@ -3,7 +3,6 @@ title: ResourceLoadingAction
 second_title: Aspose.Slides for Android via Java API Reference
 description: Specifies the mode of external resource loading.
 type: docs
-weight: 464
 url: /com.aspose.slides/resourceloadingaction/
 ---
 **Inheritance:**

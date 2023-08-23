@@ -3,7 +3,6 @@ title: GradientStopCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represnts a collection of gradient stops.
 type: docs
-weight: 229
 url: /com.aspose.slides/gradientstopcollection/
 ---
 **Inheritance:**
@@ -20,6 +19,7 @@ Represnts a collection of gradient stops.
 
 | Method | Description |
 | --- | --- |
+| [getVersion()](#getVersion--) |  |
 | [size()](#size--) | Returns the number of gradient stops in a collection. |
 | [get_Item(int index)](#get-Item-int-) | Returns the gradient stop by index. |
 | [add(float position, Integer color)](#add-float-java.lang.Integer-) | Creates the new gradient stop and adds it to the end of collection. |
@@ -35,6 +35,16 @@ Represnts a collection of gradient stops.
 | [copyTo(System.Array array, int index)](#copyTo-com.aspose.ms.System.Array-int-) | Copies all elements from the collection to the specified array. |
 | [isSynchronized()](#isSynchronized--) | Returns a value indicating whether access to the collection is synchronized (thread-safe). |
 | [getSyncRoot()](#getSyncRoot--) | Returns a synchronization root. |
+### getVersion() {#getVersion--}
+```
+public long getVersion()
+```
+
+
+Version. Read-only long.
+
+**Returns:**
+long
 ### size() {#size--}
 ```
 public final int size()

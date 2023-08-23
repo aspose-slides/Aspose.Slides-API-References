@@ -3,7 +3,6 @@ title: Picture
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a picture in a presentation.
 type: docs
-weight: 414
 url: /com.aspose.slides/picture/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object
 **All Implemented Interfaces:**
 com.aspose.slides.IPVIObject, [com.aspose.slides.ISlidesPicture](../../com.aspose.slides/islidespicture)
 ```
-public class Picture implements IPVIObject, ISlidesPicture
+public final class Picture implements IPVIObject, ISlidesPicture
 ```
 
 Represents a picture in a presentation.

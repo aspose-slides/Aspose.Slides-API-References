@@ -3,7 +3,6 @@ title: LoadOptions
 second_title: Aspose.Slides for Android via Java API Reference
 description: Allows to specify additional options such as format or default font when loading a presentation.
 type: docs
-weight: 291
 url: /com.aspose.slides/loadoptions/
 ---
 **Inheritance:**
@@ -50,6 +49,8 @@ Allows to specify additional options (such as format or default font) when loadi
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.slides.IResourceLoadingCallback-) | Returns or sets callback interface which manages external resources loading. |
 | [getSpreadsheetOptions()](#getSpreadsheetOptions--) | Gets options for spreadsheets. |
 | [setSpreadsheetOptions(ISpreadsheetOptions value)](#setSpreadsheetOptions-com.aspose.slides.ISpreadsheetOptions-) | Gets options for spreadsheets. |
+| [getDefaultTextLanguage()](#getDefaultTextLanguage--) | Returns or sets the default language for presentation text. |
+| [setDefaultTextLanguage(String value)](#setDefaultTextLanguage-java.lang.String-) | Returns or sets the default language for presentation text. |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -102,6 +103,45 @@ public final String getDefaultRegularFont()
 
 Returns or sets Regular font used in case source font is not found. Read/write String.
 
+--------------------
+
+> ```
+> The following example shows how to set default fonts for rendering PowerPoint Presentation.
+>  
+>  // Use load options to define the default regular and asian fonts
+>  LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+>  loadOptions.setDefaultRegularFont("Wingdings");
+>  loadOptions.setDefaultAsianFont("Wingdings");
+>  // Load the presentation
+>  Presentation pres = new Presentation("DefaultFonts.pptx", loadOptions);
+>  try {
+>      // Generate slide thumbnail
+>      android.graphics.Bitmap slideImage = pres.getSlides().get_Item(0).getThumbnail(1, 1);
+>      FileOutputStream fos = null;
+>      try {
+>          fos = new FileOutputStream("output_out.png");
+>          slideImage.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
+>      } catch (IOException e) {
+>          throw new RuntimeException(e);
+>      } finally {
+>          if (fos != null) {
+>              try {
+>                  fos.close();
+>              } catch (IOException e) {
+>                  e.printStackTrace();
+>              }
+>          }
+>      }
+>      // Generate PDF
+>      pres.save("output_out.pdf", SaveFormat.Pdf);
+>      // Generate XPS
+>      pres.save("output_out.xps", SaveFormat.Xps);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 java.lang.String
 ### setDefaultRegularFont(String value) {#setDefaultRegularFont-java.lang.String-}
@@ -111,6 +151,45 @@ public final void setDefaultRegularFont(String value)
 
 
 Returns or sets Regular font used in case source font is not found. Read/write String.
+
+--------------------
+
+> ```
+> The following example shows how to set default fonts for rendering PowerPoint Presentation.
+>  
+>  // Use load options to define the default regular and asian fonts
+>  LoadOptions loadOptions = new LoadOptions(LoadFormat.Auto);
+>  loadOptions.setDefaultRegularFont("Wingdings");
+>  loadOptions.setDefaultAsianFont("Wingdings");
+>  // Load the presentation
+>  Presentation pres = new Presentation("DefaultFonts.pptx", loadOptions);
+>  try {
+>      // Generate slide thumbnail
+>      android.graphics.Bitmap slideImage = pres.getSlides().get_Item(0).getThumbnail(1, 1);
+>      FileOutputStream fos = null;
+>      try {
+>          fos = new FileOutputStream("output_out.png");
+>          slideImage.compress(android.graphics.Bitmap.CompressFormat.PNG, 100, fos);
+>      } catch (IOException e) {
+>          throw new RuntimeException(e);
+>      } finally {
+>          if (fos != null) {
+>              try {
+>                  fos.close();
+>              } catch (IOException e) {
+>                  e.printStackTrace();
+>              }
+>          }
+>      }
+>      // Generate PDF
+>      pres.save("output_out.pdf", SaveFormat.Pdf);
+>      // Generate XPS
+>      pres.save("output_out.xps", SaveFormat.Xps);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -171,6 +250,21 @@ public final String getPassword()
 
 Gets or sets the password. Read/write String.
 
+--------------------
+
+> ```
+> The following sample code shows how to open password protected PowerPoint Presentation.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setPassword("YOUR_PASSWORD");
+>  Presentation pres = new Presentation("pres.pptx", loadOptions);
+>  try {
+>  // work with decrypted presentation
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 Value: The password.
 
 **Returns:**
@@ -182,6 +276,21 @@ public final void setPassword(String value)
 
 
 Gets or sets the password. Read/write String.
+
+--------------------
+
+> ```
+> The following sample code shows how to open password protected PowerPoint Presentation.
+>  
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setPassword("YOUR_PASSWORD");
+>  Presentation pres = new Presentation("pres.pptx", loadOptions);
+>  try {
+>  // work with decrypted presentation
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 Value: The password.
 
@@ -275,6 +384,33 @@ public final IFontSources getDocumentLevelFontSources()
 
 Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations
 
+--------------------
+
+> ```
+> The following example shows how to specify custom fonts used with PowerPoint Presentation.
+>  
+>  File file = new File("customfonts/CustomFont1.ttf");
+>  byte memoryFont1[] = new byte[(int) file.length()];
+>  BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
+>  DataInputStream dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont1);
+>  file = new File("customfonts/CustomFont2.ttf");
+>  byte memoryFont2[] = new byte[(int) file.length()];
+>  bis = new BufferedInputStream(new FileInputStream(file));
+>  dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont2);
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.getDocumentLevelFontSources().setFontFolders(new String[] { "assets\\fonts", "global\\fonts" });
+>  loadOptions.getDocumentLevelFontSources().setMemoryFonts(new byte[][] { memoryFont1, memoryFont2 });
+>  IPresentation presentation = new Presentation("MyPresentation.pptx", loadOptions);
+>  try {
+>  //work with the presentation
+>  //CustomFont1, CustomFont2 as well as fonts from assets\fonts & global\fonts folders and their subfolders are available to the presentation
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
 **Returns:**
 [IFontSources](../../com.aspose.slides/ifontsources)
 ### setDocumentLevelFontSources(IFontSources value) {#setDocumentLevelFontSources-com.aspose.slides.IFontSources-}
@@ -284,6 +420,33 @@ public final void setDocumentLevelFontSources(IFontSources value)
 
 
 Specifies sources for external fonts to be used by the presentation. These fonts are available to the presentation throughout its lifetime and are not shared with other presentations
+
+--------------------
+
+> ```
+> The following example shows how to specify custom fonts used with PowerPoint Presentation.
+>  
+>  File file = new File("customfonts/CustomFont1.ttf");
+>  byte memoryFont1[] = new byte[(int) file.length()];
+>  BufferedInputStream bis = new BufferedInputStream(new FileInputStream(file));
+>  DataInputStream dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont1);
+>  file = new File("customfonts/CustomFont2.ttf");
+>  byte memoryFont2[] = new byte[(int) file.length()];
+>  bis = new BufferedInputStream(new FileInputStream(file));
+>  dis = new DataInputStream(bis);
+>  dis.readFully(memoryFont2);
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.getDocumentLevelFontSources().setFontFolders(new String[] { "assets\\fonts", "global\\fonts" });
+>  loadOptions.getDocumentLevelFontSources().setMemoryFonts(new byte[][] { memoryFont1, memoryFont2 });
+>  IPresentation presentation = new Presentation("MyPresentation.pptx", loadOptions);
+>  try {
+>  //work with the presentation
+>  //CustomFont1, CustomFont2 as well as fonts from assets\fonts & global\fonts folders and their subfolders are available to the presentation
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -366,4 +529,67 @@ Gets options for spreadsheets. For example, these options affect calculating for
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [ISpreadsheetOptions](../../com.aspose.slides/ispreadsheetoptions) |  |
+
+### getDefaultTextLanguage() {#getDefaultTextLanguage--}
+```
+public final String getDefaultTextLanguage()
+```
+
+
+Returns or sets the default language for presentation text. Read/write String.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  // Use load options to define the default text culture
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setDefaultTextLanguage("en-US");
+>  Presentation pres = new Presentation(loadOptions);
+>  try {
+>      // Add new rectangle shape with text
+>      IAutoShape shp = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
+>      shp.getTextFrame().setText("New Text");
+>      // Check the first portion language
+>      System.out.println(shp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().getLanguageId());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Returns:**
+java.lang.String
+### setDefaultTextLanguage(String value) {#setDefaultTextLanguage-java.lang.String-}
+```
+public final void setDefaultTextLanguage(String value)
+```
+
+
+Returns or sets the default language for presentation text. Read/write String.
+
+--------------------
+
+> ```
+> Example:
+>   
+>  // Use load options to define the default text culture
+>  LoadOptions loadOptions = new LoadOptions();
+>  loadOptions.setDefaultTextLanguage("en-US");
+>  Presentation pres = new Presentation(loadOptions);
+>  try {
+>      // Add new rectangle shape with text
+>      IAutoShape shp = pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 50, 50, 150, 50);
+>      shp.getTextFrame().setText("New Text");
+>      // Check the first portion language
+>      System.out.println(shp.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getPortionFormat().getLanguageId());
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | java.lang.String |  |
 

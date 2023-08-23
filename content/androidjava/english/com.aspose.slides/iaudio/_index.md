@@ -3,7 +3,6 @@ title: IAudio
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents an embedded audio file.
 type: docs
-weight: 643
 url: /com.aspose.slides/iaudio/
 ---```
 public interface IAudio

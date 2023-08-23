@@ -3,7 +3,6 @@ title: IChartWall
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents walls on 3d charts.
 type: docs
-weight: 709
 url: /com.aspose.slides/ichartwall/
 ---```
 public interface IChartWall

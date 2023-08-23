@@ -3,7 +3,6 @@ title: PlaceholderSize
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the size of a placeholder.
 type: docs
-weight: 424
 url: /com.aspose.slides/placeholdersize/
 ---
 **Inheritance:**

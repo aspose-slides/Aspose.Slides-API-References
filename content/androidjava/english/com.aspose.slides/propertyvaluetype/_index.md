@@ -3,7 +3,6 @@ title: PropertyValueType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent property value types.
 type: docs
-weight: 458
 url: /com.aspose.slides/propertyvaluetype/
 ---
 **Inheritance:**

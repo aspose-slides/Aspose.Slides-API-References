@@ -3,7 +3,6 @@ title: TransitionValueBase
 second_title: Aspose.Slides for Android via Java API Reference
 description: Base class for slide transition effects.
 type: docs
-weight: 594
 url: /com.aspose.slides/transitionvaluebase/
 ---
 **Inheritance:**

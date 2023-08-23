@@ -3,7 +3,6 @@ title: BiLevel
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Bi-Level black/white effect.
 type: docs
-weight: 55
 url: /com.aspose.slides/bilevel/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IBiLevel](../../com.aspose.slides/ibilevel), com.aspose.slides.IVisualEffect
 ```
-public class BiLevel extends ImageTransformOperation implements IBiLevel, IVisualEffect
+public final class BiLevel extends ImageTransformOperation implements IBiLevel, IVisualEffect
 ```
 
 Represents a Bi-Level (black/white) effect. Input colors whose luminance is less than the specified threshold value are changed to black. Input colors whose luminance are greater than or equal the specified value are set to white. The alpha effect values are unaffected by this effect.

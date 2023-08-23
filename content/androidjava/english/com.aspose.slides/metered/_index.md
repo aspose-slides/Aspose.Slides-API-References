@@ -3,7 +3,6 @@ title: Metered
 second_title: Aspose.Slides for Android via Java API Reference
 description: Provides methods to set metered key.
 type: docs
-weight: 361
 url: /com.aspose.slides/metered/
 ---
 **Inheritance:**

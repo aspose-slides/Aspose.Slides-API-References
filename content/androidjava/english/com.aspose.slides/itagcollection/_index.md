@@ -3,7 +3,6 @@ title: ITagCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents the collection of tags user defined pairs of strings
 type: docs
-weight: 1065
 url: /com.aspose.slides/itagcollection/
 ---
 **All Implemented Interfaces:**

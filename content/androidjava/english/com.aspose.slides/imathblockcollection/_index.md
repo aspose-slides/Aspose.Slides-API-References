@@ -3,7 +3,6 @@ title: IMathBlockCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Collection of math blocks IMathBlock
 type: docs
-weight: 888
 url: /com.aspose.slides/imathblockcollection/
 ---
 **All Implemented Interfaces:**

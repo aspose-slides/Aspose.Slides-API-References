@@ -3,7 +3,6 @@ title: TransitionSideDirectionType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represent side direction transition types.
 type: docs
-weight: 590
 url: /com.aspose.slides/transitionsidedirectiontype/
 ---
 **Inheritance:**

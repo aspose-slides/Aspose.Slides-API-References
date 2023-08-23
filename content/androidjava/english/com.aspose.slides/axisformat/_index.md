@@ -3,7 +3,6 @@ title: AxisFormat
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents chart format properties.
 type: docs
-weight: 32
 url: /com.aspose.slides/axisformat/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, com.aspose.slides.DomObject
 **All Implemented Interfaces:**
 [com.aspose.slides.IAxisFormat](../../com.aspose.slides/iaxisformat), com.aspose.slides.IPVIObject
 ```
-public class AxisFormat extends DomObject<Axis> implements IAxisFormat, IPVIObject
+public final class AxisFormat extends DomObject<Axis> implements IAxisFormat, IPVIObject
 ```
 
 Represents chart format properties.

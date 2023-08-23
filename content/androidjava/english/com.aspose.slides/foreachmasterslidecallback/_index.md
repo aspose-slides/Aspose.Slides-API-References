@@ -3,7 +3,6 @@ title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Slides for Android via Java API Reference
 description: 
 type: docs
-weight: 11
 url: /com.aspose.slides/foreach.foreachmasterslidecallback/
 ---```
 public static interface ForEach.ForEachMasterSlideCallback

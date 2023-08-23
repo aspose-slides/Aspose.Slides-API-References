@@ -3,7 +3,6 @@ title: ISlidesPicture
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a picture in a presentation.
 type: docs
-weight: 1037
 url: /com.aspose.slides/islidespicture/
 ---
 **All Implemented Interfaces:**

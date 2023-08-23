@@ -3,7 +3,6 @@ title: HSL
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a Hue/Saturation/Luminance effect.
 type: docs
-weight: 237
 url: /com.aspose.slides/hsl/
 ---
 **Inheritance:**
@@ -12,7 +11,7 @@ java.lang.Object, [com.aspose.slides.PVIObject](../../com.aspose.slides/pviobjec
 **All Implemented Interfaces:**
 [com.aspose.slides.IHSL](../../com.aspose.slides/ihsl), com.aspose.slides.IVisualEffect
 ```
-public class HSL extends ImageTransformOperation implements IHSL, IVisualEffect
+public final class HSL extends ImageTransformOperation implements IHSL, IVisualEffect
 ```
 
 Represents a Hue/Saturation/Luminance effect. The hue, saturation, and luminance may each be adjusted relative to its current value.

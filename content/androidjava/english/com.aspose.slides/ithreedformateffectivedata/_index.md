@@ -3,7 +3,6 @@ title: IThreeDFormatEffectiveData
 second_title: Aspose.Slides for Android via Java API Reference
 description: Immutable object which represents effective 3-D formatting properties.
 type: docs
-weight: 1081
 url: /com.aspose.slides/ithreedformateffectivedata/
 ---
 **All Implemented Interfaces:**

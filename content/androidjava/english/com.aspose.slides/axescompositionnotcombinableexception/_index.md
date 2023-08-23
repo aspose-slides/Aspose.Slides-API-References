@@ -3,7 +3,6 @@ title: AxesCompositionNotCombinableException
 second_title: Aspose.Slides for Android via Java API Reference
 description: Exception which thrown when axes composition of the series is not combinable with present axes  composition in chart.
 type: docs
-weight: 28
 url: /com.aspose.slides/axescompositionnotcombinableexception/
 ---
 **Inheritance:**

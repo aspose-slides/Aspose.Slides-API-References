@@ -3,16 +3,15 @@ title: Paragraph
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a paragraph of text.
 type: docs
-weight: 399
 url: /com.aspose.slides/paragraph/
 ---
 **Inheritance:**
 java.lang.Object
 
 **All Implemented Interfaces:**
-[com.aspose.slides.IParagraph](../../com.aspose.slides/iparagraph), com.aspose.slides.IObservable, com.aspose.slides.IDOMObject
+[com.aspose.slides.IParagraph](../../com.aspose.slides/iparagraph), com.aspose.slides.IDOMObject
 ```
-public final class Paragraph implements IParagraph, IObservable, IDOMObject
+public final class Paragraph implements IParagraph, IDOMObject
 ```
 
 Represents a paragraph of text.
@@ -34,8 +33,6 @@ Represents a paragraph of text.
 | [getRect()](#getRect--) | Get coordinates of rect that bounds paragraph. |
 | [getEndParagraphPortionFormat()](#getEndParagraphPortionFormat--) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 | [setEndParagraphPortionFormat(IPortionFormat value)](#setEndParagraphPortionFormat-com.aspose.slides.IPortionFormat-) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
-| [subscribe(IObserver observer)](#subscribe-com.aspose.slides.IObserver-) |  |
-| [unsubscribe(IObserver observer)](#unsubscribe-com.aspose.slides.IObserver-) |  |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 | [getSlide()](#getSlide--) | Returns the parent slide of a paragraph. |
 | [getPresentation()](#getPresentation--) | Returns the parent presentation of a paragraph. |
@@ -153,32 +150,6 @@ Specifies the portion properties that are to be used if another portion is inser
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IPortionFormat](../../com.aspose.slides/iportionformat) |  |
-
-### subscribe(IObserver observer) {#subscribe-com.aspose.slides.IObserver-}
-```
-public final void subscribe(IObserver observer)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| observer | com.aspose.slides.IObserver |  |
-
-### unsubscribe(IObserver observer) {#unsubscribe-com.aspose.slides.IObserver-}
-```
-public final void unsubscribe(IObserver observer)
-```
-
-
-
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| observer | com.aspose.slides.IObserver |  |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```

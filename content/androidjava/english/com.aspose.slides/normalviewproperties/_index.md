@@ -3,7 +3,6 @@ title: NormalViewProperties
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents normal view properties.
 type: docs
-weight: 372
 url: /com.aspose.slides/normalviewproperties/
 ---
 **Inheritance:**
@@ -16,6 +15,25 @@ public class NormalViewProperties implements INormalViewProperties
 ```
 
 Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region.
+
+--------------------
+
+> ```
+> The following example shows how to configure ViewProperties.NormalViewProperties properties of a PowerPoint Presentation.
+>  
+>  //Instantiate a presentation object that represents a presentation file
+>  Presentation pres = new Presentation("demo.pptx");
+>  try {
+>      pres.getViewProperties().getNormalViewProperties().setHorizontalBarState(SplitterBarStateType.Restored);
+>      pres.getViewProperties().getNormalViewProperties().setVerticalBarState(SplitterBarStateType.Maximized);
+>      pres.getViewProperties().getNormalViewProperties().getRestoredTop().setAutoAdjust(true);
+>      pres.getViewProperties().getNormalViewProperties().getRestoredTop().setDimensionSize(80);
+>      pres.getViewProperties().getNormalViewProperties().setShowOutlineIcons(true);
+>      pres.save("presentation_normal_view_state.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 ## Methods
 
 | Method | Description |

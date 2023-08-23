@@ -3,7 +3,6 @@ title: ShapeCollection
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents a collection of a shapes.
 type: docs
-weight: 489
 url: /com.aspose.slides/shapecollection/
 ---
 **Inheritance:**
@@ -121,6 +120,74 @@ public final IChart addChart(int type, float x, float y, float width, float heig
 
 Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.
 
+--------------------
+
+> ```
+> The following example shows how to create Chart in PowerPoint Presentation.
+>  
+>  // Instantiates the Presentation class that represents a PPTX file
+>  Presentation pres = new Presentation();
+>  try {
+>      // Accesses the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Adds a chart with its default data
+>      IChart chart = sld.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
+>      // Sets the chart title
+>      chart.getChartTitle().addTextFrameForOverriding("Sample Title");
+>      chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
+>      chart.getChartTitle().setHeight(20);
+>      chart.setTitle(true);
+>      // Sets the first series to show values
+>      chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
+>      // Sets the index for the chart data sheet
+>      int defaultWorksheetIndex = 0;
+>      // Gets the chart data worksheet
+>      IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
+>      // Deletes the default generated series and categories
+>      chart.getChartData().getSeries().clear();
+>      chart.getChartData().getCategories().clear();
+>      // Adds new series
+>      chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.getType());
+>      chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.getType());
+>      // Adds new categories
+>      chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
+>      chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
+>      chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
+>      // Takes the first chart series
+>      IChartSeries series = chart.getChartData().getSeries().get_Item(0);
+>      // Populates series data
+>      series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
+>      series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
+>      series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
+>      // Sets the fill color for the series
+>      series.getFormat().getFill().setFillType(FillType.Solid);
+>      series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
+>      // Takes the second chart series
+>      series = chart.getChartData().getSeries().get_Item(1);
+>      // Populates series data
+>      series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
+>      series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
+>      series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
+>      // Sets the fill color for series
+>      series.getFormat().getFill().setFillType(FillType.Solid);
+>      series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
+>      // Sets the first label to show Category name
+>      IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
+>      lbl.getDataLabelFormat().setShowCategoryName(true);
+>      lbl = series.getDataPoints().get_Item(1).getLabel();
+>      lbl.getDataLabelFormat().setShowSeriesName(true);
+>      // Sets the series to show the value for the third label
+>      lbl = series.getDataPoints().get_Item(2).getLabel();
+>      lbl.getDataLabelFormat().setShowValue(true);
+>      lbl.getDataLabelFormat().setShowSeriesName(true);
+>      lbl.getDataLabelFormat().setSeparator("/");
+>      // Saves the PPTX file to disk
+>      pres.save("AsposeChart_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -163,11 +230,15 @@ Add SmartArt diagram.
 --------------------
 
 > ```
-> Example:
+> The following example shows how to add smart shape in PowerPoint Presentation.
 >  
 >  Presentation pres = new Presentation();
->  ISlide slide = pres.getSlides().get_Item(0);
->  ISmartArt smart = slide.getShapes().addSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+>  try {
+>      ISlide slide = pres.getSlides().get_Item(0);
+>      ISmartArt smart = slide.getShapes().addSmartArt(0, 0, 400, 400, SmartArtLayoutType.BasicBlockList);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
 > ```
 
 **Parameters:**
@@ -409,8 +480,14 @@ Adds a new Section Zoom object to the end of a collection with a predefined imag
 >  
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().addSectionZoomFrame(150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
 >  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
@@ -479,8 +556,15 @@ Creates a new Section Zoom object and inserts it to a collection at the specifie
 >  
 >  Presentation pres = new Presentation("Presentation.pptx");
 >  try {
->      IPPImage image = pres.getImages().addImage(Files.readAllBytes(Paths.get("image.png")));
->      ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().insertSectionZoomFrame(2, 150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      FileInputStream fos = null;
+>      try {
+>          fos = new FileInputStream("image.png");
+>          IPPImage image = pres.getImages().addImage(fos);
+>          ISectionZoomFrame zoomFrame = pres.getSlides().get_Item(0).getShapes().insertSectionZoomFrame(2, 150, 20, 50, 50, pres.getSections().get_Item(1), image);
+>      } finally {
+>          if (fos != null) fos.close();
+>      }
+>  } catch (IOException e) {
 >  } finally {
 >      if (pres != null) pres.dispose();
 >  }
@@ -583,11 +667,42 @@ Adds a new OLE object to the end of a collection.
 --------------------
 
 > ```
-> This example demonstrates adding an OLE object to the end of a collection:
+> The following examples shows how to adding OLE Object Frames to Slides of PowerPoint Presentation.
 >  
->  byte[] fileData = Files.readAllBytes(Paths.get("test.zip"));
->  IEmbeddedDataInfo dataInfo = new EmbeddedDataInfo(fileData, "zip");
->  IOleObjectFrame oleObjectFrame = slidees.getShapes().addOleObjectFrame(150, 20, 50, 50, dataInfo);
+>  // Instantiate Presentation class that represents the PPTX
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // Access the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+> 
+>      // Load an cel file to stream
+>      FileInputStream fs = new FileInputStream("book1.xlsx");
+>      ByteArrayOutputStream mstream = new ByteArrayOutputStream();
+>      byte[] buf = new byte[4096];
+> 
+>      while (true)
+>      {
+>          int bytesRead = fs.read(buf, 0, buf.length);
+>          if (bytesRead <= 0)
+>              break;
+>          mstream.write(buf, 0, bytesRead);
+>      }
+>      // Create data object for embedding
+>      IOleEmbeddedDataInfo dataInfo = new OleEmbeddedDataInfo(mstream.toByteArray(), "xlsx");
+> 
+>      // Add an Ole Object Frame shape
+>      IOleObjectFrame oleObjectFrame = sld.getShapes().addOleObjectFrame(0, 0, (float)pres.getSlideSize().getSize().getWidth(),
+>              (float)pres.getSlideSize().getSize().getHeight(), dataInfo);
+> 
+>      //Write the PPTX to disk
+>      pres.save("OleEmbed_out.pptx", SaveFormat.Pptx);
+>  }
+>  catch (IOException e) { }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
 > ```
 
 **Parameters:**
@@ -636,9 +751,9 @@ Creates a new OLE object and inserts it to a collection at the specified index.
 > ```
 > This example demonstrates inserting an OLE object at the second index:
 >  
->  byte[] fileData = Files.readAllBytes(Paths.get("test.zip"));
+>  byte[] fileData = ... // "test.zip"
 >  IOleDataInfo dataInfo = new OleDataInfo(fileData, "zip");
->  IOleObjectFrame oleObjectFrame = slidees.getShapes().addOleObjectFrame(2, 150, 20, 50, 50, dataInfo);
+>  IOleObjectFrame oleObjectFrame = slides.getShapes().addOleObjectFrame(2, 150, 20, 50, 50, dataInfo);
 > ```
 
 **Parameters:**
@@ -815,6 +930,35 @@ public final IAudioFrame addAudioFrameEmbedded(float x, float y, float width, fl
 
 
 Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list.
+
+--------------------
+
+> ```
+> The following examples shows how to create Audio Frame.
+>  
+>  // Instantiates a presentation class that represents a presentation file
+>  Presentation pres = new Presentation();
+>  try {
+>      // Gets the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Loads the the wav sound file to stream
+>      FileInputStream fstr = new FileInputStream("sampleaudio.wav");
+>      try {
+>          // Adds the Audio Frame
+>          IAudioFrame audioFrame = sld.getShapes().addAudioFrameEmbedded(50, 150, 100, 100, fstr);
+>          // Sets the Play Mode and Volume of the Audio
+>          audioFrame.setPlayMode(AudioPlayModePreset.Auto);
+>          audioFrame.setVolume(AudioVolumeMode.Loud);
+>      } finally {
+>          if (fstr != null) fstr.close();
+>      }
+>      // Writes the PowerPoint file to disk
+>      pres.save("AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
+>  } catch(IOException e) {
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1002,6 +1146,30 @@ public final IAutoShape addMathShape(float x, float y, float width, float height
 
 Creates a new Autoshape tuned from default template to math content and adds it to the end of the collection.
 
+--------------------
+
+> ```
+> The following example shows how to add Mathematical Equation in PowerPoint Presentation.
+>  
+>  Presentation pres = new Presentation();
+>  try {
+>      IAutoShape mathShape = pres.getSlides().get_Item(0).getShapes().addMathShape(0, 0, 720, 150);
+>      IMathParagraph mathParagraph = ((MathPortion)mathShape.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0)).getMathParagraph();
+>      IMathFraction fraction = new MathematicalText("x").divide("y");
+>      mathParagraph.add(new MathBlock(fraction));
+>      IMathBlock mathBlock = new MathematicalText("c")
+>          .setSuperscript("2")
+>          .join("=")
+>          .join(new MathematicalText("a").setSuperscript("2"))
+>          .join("+")
+>          .join(new MathematicalText("b").setSuperscript("2"));
+>      mathParagraph.add(mathBlock);
+>      pres.save("math.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -1061,6 +1229,34 @@ public final IGroupShape addGroupShape()
 
 Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.
 
+--------------------
+
+> ```
+> The following example shows how to add a group shape to a slide of PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class
+>  Presentation pres = new Presentation();
+>  try {
+>      // Get the first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+>      // Accessing the shape collection of slides
+>      IShapeCollection slideShapes = sld.getShapes();
+>      // Adding a group shape to the slide
+>      IGroupShape groupShape = slideShapes.addGroupShape();
+>      // Adding shapes inside added group shape
+>      groupShape.getShapes().addAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
+>      groupShape.getShapes().addAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
+>      groupShape.getShapes().addAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
+>      groupShape.getShapes().addAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
+>      // Adding group shape frame
+>      groupShape.setFrame(new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0));
+>      // Write the PPTX file to disk
+>      pres.save("GroupShape_out.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 [IGroupShape](../../com.aspose.slides/igroupshape) - Created GroupShape object.
 ### addGroupShape(ISvgImage svgImage, float x, float y, float width, float height) {#addGroupShape-com.aspose.slides.ISvgImage-float-float-float-float-}
@@ -1104,6 +1300,34 @@ public final IConnector addConnector(int shapeType, float x, float y, float widt
 
 
 Creates a new Connector, tunes it from default template and adds it to the end of the collection.
+
+--------------------
+
+> ```
+> The following example shows how to add a connector (a bent connector) between two shapes (an ellipse and rectangle) in PowerPoint Presentation.
+>  
+>  // Instantiates a presentation class that represents a PPTX file
+>  Presentation pres = new Presentation();
+>  try {
+>      // Accesses the shapes collection for a specific slide
+>      IShapeCollection shapes = pres.getSlides().get_Item(0).getShapes();
+>      // Adds an Ellipse autoshape
+>      IAutoShape ellipse = shapes.addAutoShape(ShapeType.Ellipse, 0, 100, 100, 100);
+>      // Adds a Rectangle autoshape
+>      IAutoShape rectangle = shapes.addAutoShape(ShapeType.Rectangle, 100, 300, 100, 100);
+>      // Adds a connector shape to the slide shape collection
+>      IConnector connector = shapes.addConnector(ShapeType.BentConnector2, 0, 0, 10, 10);
+>      // Connects the shapes using the connector
+>      connector.setStartShapeConnectedTo(ellipse);
+>      connector.setEndShapeConnectedTo(rectangle);
+>      // Calls reroute that sets the automatic shortest path between shapes
+>      connector.reroute();
+>      // Saves the presentation
+>      pres.save("Shapes-connector.pptx", SaveFormat.Pptx);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
@@ -1265,6 +1489,62 @@ public final ITable addTable(float x, float y, double[] columnWidths, double[] r
 
 
 Creates a new Table and adds it to the end of the collection.
+
+--------------------
+
+> ```
+> The following examples shows how to add table in PowerPoint Presentation.
+>  
+>  // Instantiate Presentation class that represents PPTX file
+>  Presentation pres = new Presentation();
+>  try
+>  {
+>      // Access first slide
+>      ISlide sld = pres.getSlides().get_Item(0);
+> 
+>      // Define columns with widths and rows with heights
+>      double[] dblCols = {50, 50, 50};
+>      double[] dblRows = {50, 30, 30, 30, 30};
+> 
+>      // Add table shape to slide
+>      ITable tbl = sld.getShapes().addTable(100, 50, dblCols, dblRows);
+> 
+>      // Set border format for each cell
+>      for (int row = 0; row < tbl.getRows().size(); row++)
+>      {
+>          for (int cell = 0; cell < tbl.getRows().get_Item(row).size(); cell++)
+>          {
+>              tbl.get_Item(cell, row).getCellFormat().getBorderTop().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderTop().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderTop().setWidth(5);
+> 
+>              tbl.get_Item(cell, row).getCellFormat().getBorderBottom().getFillFormat().setFillType((FillType.Solid));
+>              tbl.get_Item(cell, row).getCellFormat().getBorderBottom().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderBottom().setWidth(5);
+> 
+>              tbl.get_Item(cell, row).getCellFormat().getBorderLeft().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderLeft().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderLeft().setWidth(5);
+> 
+>              tbl.get_Item(cell, row).getCellFormat().getBorderRight().getFillFormat().setFillType(FillType.Solid);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderRight().getFillFormat().getSolidFillColor().setColor(Color.RED);
+>              tbl.get_Item(cell, row).getCellFormat().getBorderRight().setWidth(5);
+>          }
+>      }
+>      // Merge cells 1 & 2 of row 1
+>      tbl.mergeCells(tbl.get_Item(0, 0), tbl.get_Item(1, 1), false);
+> 
+>      // Add text to the merged cell
+>      tbl.get_Item(0, 0).getTextFrame().setText("Merged Cells");
+> 
+>      // Save PPTX to Disk
+>      pres.save("table.pptx", SaveFormat.Pptx);
+>  }
+>  finally
+>  {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |

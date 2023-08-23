@@ -3,7 +3,6 @@ title: ChartPlotArea
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents rectangle where chart should be plotted.
 type: docs
-weight: 93
 url: /com.aspose.slides/chartplotarea/
 ---
 **Inheritance:**

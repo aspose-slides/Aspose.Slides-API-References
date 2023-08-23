@@ -3,7 +3,6 @@ title: FilterEffectType
 second_title: Aspose.Slides for Android via Java API Reference
 description: Represents filter effect types.
 type: docs
-weight: 197
 url: /com.aspose.slides/filtereffecttype/
 ---
 **Inheritance:**
