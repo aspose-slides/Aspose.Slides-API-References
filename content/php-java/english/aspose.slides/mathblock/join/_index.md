@@ -169,24 +169,6 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
-## join([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  method
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to be joined |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## join([MathBorderBox](../../mathborderbox) mathElement)  method
 
  Joins a mathematical element with this mathematical block
@@ -205,6 +187,24 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
+## join([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to be joined |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## join([MathBar](../../mathbar) mathElement)  method
 
  Joins a mathematical element with this mathematical block
@@ -215,24 +215,6 @@ url: /aspose.slides/mathblock/join/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathBar](../../mathbar) | The element to be joined |
-
-### Returns
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathFunction](../../mathfunction) mathElement)  method
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -277,7 +259,7 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
-## join([MathematicalText](../../mathematicaltext) mathElement)  method
+## join([MathFunction](../../mathfunction) mathElement)  method
 
  Joins a mathematical element with this mathematical block
  
@@ -286,7 +268,7 @@ url: /aspose.slides/mathblock/join/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathematicalText](../../mathematicaltext) | The element to be joined |
+| mathElement | [MathFunction](../../mathfunction) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)
@@ -305,6 +287,24 @@ url: /aspose.slides/mathblock/join/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathFraction](../../mathfraction) | The element to be joined |
+
+### Returns
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathematicalText](../../mathematicaltext) mathElement)  method
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathematicalText](../../mathematicaltext) | The element to be joined |
 
 ### Returns
 [MathBlock](../../mathblock)

@@ -29,8 +29,8 @@ url: /aspose.slides/presentationanimationsgenerator/
 | [getExportedSlides](getexportedslides)() | Get the number of the exported slides count. |
 | [getFrameSize](getframesize)() | Gets the frame size. |
 | [getIncludeHiddenSlides](getincludehiddenslides)() | Get or sets if hidden slides should be included. |
-| [run](run)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.ISlide>) | Run the animation events generation for each slide. |
-| [run](run)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.ISlide>, int, [PresentationPlayer.FrameTick](../presentationplayer.frametick)) | Run the animation events generation for each slide. |
+| [run](run)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>) | Run the animation events generation for each slide. |
+| [run](run)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>, int, [PresentationPlayer.FrameTick](../presentationplayer.frametick)) | Run the animation events generation for each slide. |
 | [setDefaultDelay](setdefaultdelay)(int) | Gets or sets default delay time [ms]. |
 | [setIncludeHiddenSlides](setincludehiddenslides)(boolean) | Get or sets if hidden slides should be included. |
 | [setNewAnimation](setnewanimation)([PresentationAnimationsGenerator.NewAnimation](../presentationanimationsgenerator.newanimation)) | Set a new animation event. |

@@ -44,18 +44,6 @@ int
 ---
 
 
-## getCount([Table](../../table) shape)  method
-
- Returns count of effects for the specified shape.
- 
-
-### Returns
-int
-
-
----
-
-
 ## getCount([SmartArtShape](../../smartartshape) shape)  method
 
  Returns count of effects for the specified shape.
@@ -69,6 +57,18 @@ int
 
 
 ## getCount([Shape](../../shape) shape)  method
+
+ Returns count of effects for the specified shape.
+ 
+
+### Returns
+int
+
+
+---
+
+
+## getCount([Table](../../table) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -212,7 +212,7 @@ int
 ---
 
 
-## getCount([AudioFrame](../../audioframe) shape)  method
+## getCount([Chart](../../chart) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -224,7 +224,7 @@ int
 ---
 
 
-## getCount([Chart](../../chart) shape)  method
+## getCount([AudioFrame](../../audioframe) shape)  method
 
  Returns count of effects for the specified shape.
  

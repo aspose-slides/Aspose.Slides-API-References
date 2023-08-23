@@ -35,4 +35,5 @@ url: /aspose.slides/saveformat/
 | Fodp | 21 | Save presentation in FODP format. |
 | Gif | 22 | Save presentation in GIF format. |
 | Html5 | 23 | Save presentation in HTML format using new HTML5 templating system. |
+| Md | 24 | Save presentation in Markdown format |
 

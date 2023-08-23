@@ -31,18 +31,6 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Table](../../table) shape)  method
-
- Returns array of effects for the specified shape.
- 
-
-### Returns
-[Effect](../../effect)
-
-
----
-
-
 ## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Returns array of effects for the specified shape.
@@ -56,6 +44,18 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 
 
 ## getEffectsByShape([Shape](../../shape) shape)  method
+
+ Returns array of effects for the specified shape.
+ 
+
+### Returns
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([Table](../../table) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -199,7 +199,7 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([AudioFrame](../../audioframe) shape)  method
+## getEffectsByShape([Chart](../../chart) shape)  method
 
  Returns array of effects for the specified shape.
  
@@ -211,7 +211,7 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([Chart](../../chart) shape)  method
+## getEffectsByShape([AudioFrame](../../audioframe) shape)  method
 
  Returns array of effects for the specified shape.
  

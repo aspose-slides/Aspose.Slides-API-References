@@ -169,24 +169,6 @@ url: /aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
 ## createMathBox([MathBorderBox](../../mathborderbox) element)  method
 
  Create a math box by applying to the element
@@ -205,6 +187,24 @@ url: /aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
+## createMathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
 ## createMathBox([MathBar](../../mathbar) element)  method
 
  Create a math box by applying to the element
@@ -215,24 +215,6 @@ url: /aspose.slides/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | math element to apply box |
-
-### Returns
-[MathBox](../../mathbox)
-
-
----
-
-
-## createMathBox([MathFunction](../../mathfunction) element)  method
-
- Create a math box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)
@@ -277,7 +259,7 @@ url: /aspose.slides/mathboxfactory/createmathbox/
 ---
 
 
-## createMathBox([MathematicalText](../../mathematicaltext) element)  method
+## createMathBox([MathFunction](../../mathfunction) element)  method
 
  Create a math box by applying to the element
  
@@ -286,7 +268,7 @@ url: /aspose.slides/mathboxfactory/createmathbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to apply box |
+| element | [MathFunction](../../mathfunction) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)
@@ -305,6 +287,24 @@ url: /aspose.slides/mathboxfactory/createmathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to apply box |
+
+### Returns
+[MathBox](../../mathbox)
+
+
+---
+
+
+## createMathBox([MathematicalText](../../mathematicaltext) element)  method
+
+ Create a math box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | math element to apply box |
 
 ### Returns
 [MathBox](../../mathbox)

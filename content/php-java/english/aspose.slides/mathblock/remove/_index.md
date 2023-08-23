@@ -169,24 +169,6 @@ boolean
 ---
 
 
-## remove([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
 ## remove([MathBorderBox](../../mathborderbox) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -205,6 +187,24 @@ boolean
 ---
 
 
+## remove([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
 ## remove([MathBar](../../mathbar) item)  method
 
  Removes the first occurrence of a specific object from the collection.
@@ -215,24 +215,6 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathBar](../../mathbar) | The object to remove from the collection. |
-
-### Returns
-boolean
-
-
----
-
-
-## remove([MathFunction](../../mathfunction) item)  method
-
- Removes the first occurrence of a specific object from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -277,7 +259,7 @@ boolean
 ---
 
 
-## remove([MathematicalText](../../mathematicaltext) item)  method
+## remove([MathFunction](../../mathfunction) item)  method
 
  Removes the first occurrence of a specific object from the collection.
  
@@ -286,7 +268,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathematicalText](../../mathematicaltext) | The object to remove from the collection. |
+| item | [MathFunction](../../mathfunction) | The object to remove from the collection. |
 
 ### Returns
 boolean
@@ -305,6 +287,24 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathFraction](../../mathfraction) | The object to remove from the collection. |
+
+### Returns
+boolean
+
+
+---
+
+
+## remove([MathematicalText](../../mathematicaltext) item)  method
+
+ Removes the first occurrence of a specific object from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathematicalText](../../mathematicaltext) | The object to remove from the collection. |
 
 ### Returns
 boolean

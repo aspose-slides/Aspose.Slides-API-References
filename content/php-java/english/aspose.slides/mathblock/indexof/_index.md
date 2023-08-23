@@ -169,24 +169,6 @@ int
 ---
 
 
-## indexOf([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
 ## indexOf([MathBorderBox](../../mathborderbox) item)  method
 
  Determines the index of a specific math element in collection.
@@ -205,6 +187,24 @@ int
 ---
 
 
+## indexOf([MathGroupingCharacter](../../mathgroupingcharacter) item)  method
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
 ## indexOf([MathBar](../../mathbar) item)  method
 
  Determines the index of a specific math element in collection.
@@ -215,24 +215,6 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathBar](../../mathbar) | The element to locate in the collection. |
-
-### Returns
-int
-
-
----
-
-
-## indexOf([MathFunction](../../mathfunction) item)  method
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathFunction](../../mathfunction) | The element to locate in the collection. |
 
 ### Returns
 int
@@ -277,7 +259,7 @@ int
 ---
 
 
-## indexOf([MathematicalText](../../mathematicaltext) item)  method
+## indexOf([MathFunction](../../mathfunction) item)  method
 
  Determines the index of a specific math element in collection.
  
@@ -286,7 +268,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathematicalText](../../mathematicaltext) | The element to locate in the collection. |
+| item | [MathFunction](../../mathfunction) | The element to locate in the collection. |
 
 ### Returns
 int
@@ -305,6 +287,24 @@ int
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathFraction](../../mathfraction) | The element to locate in the collection. |
+
+### Returns
+int
+
+
+---
+
+
+## indexOf([MathematicalText](../../mathematicaltext) item)  method
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathematicalText](../../mathematicaltext) | The element to locate in the collection. |
 
 ### Returns
 int

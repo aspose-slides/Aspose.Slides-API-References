@@ -33,19 +33,6 @@ void
 ---
 
 
-## setShapeTarget([Table](../../table) value)  method
-
- Defines shape target of command effect.
- Read/write  IShape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## setShapeTarget([SmartArtShape](../../smartartshape) value)  method
 
  Defines shape target of command effect.
@@ -60,6 +47,19 @@ void
 
 
 ## setShapeTarget([Shape](../../shape) value)  method
+
+ Defines shape target of command effect.
+ Read/write  IShape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## setShapeTarget([Table](../../table) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -215,7 +215,7 @@ void
 ---
 
 
-## setShapeTarget([AudioFrame](../../audioframe) value)  method
+## setShapeTarget([Chart](../../chart) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.
@@ -228,7 +228,7 @@ void
 ---
 
 
-## setShapeTarget([Chart](../../chart) value)  method
+## setShapeTarget([AudioFrame](../../audioframe) value)  method
 
  Defines shape target of command effect.
  Read/write  IShape.

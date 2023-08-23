@@ -27,9 +27,9 @@ url: /aspose.slides/textanimationcollection/
 | [get_Item](get_item)(int) | Returns element by index. |
 | [get_Item](get_item)([Connector](../connector)) | Returns all elements |
 | [get_Item](get_item)([GraphicalObject](../graphicalobject)) | Returns all elements |
-| [get_Item](get_item)([Table](../table)) | Returns all elements |
 | [get_Item](get_item)([SmartArtShape](../smartartshape)) | Returns all elements |
 | [get_Item](get_item)([Shape](../shape)) | Returns all elements |
+| [get_Item](get_item)([Table](../table)) | Returns all elements |
 | [get_Item](get_item)([Ink](../ink)) | Returns all elements |
 | [get_Item](get_item)([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
 | [get_Item](get_item)([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
@@ -41,8 +41,8 @@ url: /aspose.slides/textanimationcollection/
 | [get_Item](get_item)([AutoShape](../autoshape)) | Returns all elements |
 | [get_Item](get_item)([SectionZoomFrame](../sectionzoomframe)) | Returns all elements |
 | [get_Item](get_item)([PictureFrame](../pictureframe)) | Returns all elements |
-| [get_Item](get_item)([AudioFrame](../audioframe)) | Returns all elements |
 | [get_Item](get_item)([Chart](../chart)) | Returns all elements |
+| [get_Item](get_item)([AudioFrame](../audioframe)) | Returns all elements |
 | [get_Item](get_item)([ZoomObject](../zoomobject)) | Returns all elements |
 | [get_Item](get_item)([LegacyDiagram](../legacydiagram)) | Returns all elements |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |

@@ -31,18 +31,6 @@ void
 ---
 
 
-## removeByShape([Table](../../table) shape)  method
-
- Remove effect for the specified shape.
- 
-
-### Returns
-void
-
-
----
-
-
 ## removeByShape([SmartArtShape](../../smartartshape) shape)  method
 
  Remove effect for the specified shape.
@@ -56,6 +44,18 @@ void
 
 
 ## removeByShape([Shape](../../shape) shape)  method
+
+ Remove effect for the specified shape.
+ 
+
+### Returns
+void
+
+
+---
+
+
+## removeByShape([Table](../../table) shape)  method
 
  Remove effect for the specified shape.
  
@@ -199,7 +199,7 @@ void
 ---
 
 
-## removeByShape([AudioFrame](../../audioframe) shape)  method
+## removeByShape([Chart](../../chart) shape)  method
 
  Remove effect for the specified shape.
  
@@ -211,7 +211,7 @@ void
 ---
 
 
-## removeByShape([Chart](../../chart) shape)  method
+## removeByShape([AudioFrame](../../audioframe) shape)  method
 
  Remove effect for the specified shape.
  

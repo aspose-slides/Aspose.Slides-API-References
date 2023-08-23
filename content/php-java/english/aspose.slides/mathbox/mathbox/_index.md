@@ -142,21 +142,6 @@ url: /aspose.slides/mathbox/mathbox/
 ---
 
 
-## MathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
 ## MathBox([MathBorderBox](../../mathborderbox) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -172,6 +157,21 @@ url: /aspose.slides/mathbox/mathbox/
 ---
 
 
+## MathBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
 ## MathBox([MathBar](../../mathbar) element)  constructor
 
  Initializes MathBox with the specified element as an argument
@@ -182,21 +182,6 @@ url: /aspose.slides/mathbox/mathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | The base element to which the box is applied. Can be null. |
-
-
----
-
-
-## MathBox([MathFunction](../../mathfunction) element)  constructor
-
- Initializes MathBox with the specified element as an argument
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the box is applied. Can be null. |
 
 
 ---
@@ -232,7 +217,7 @@ url: /aspose.slides/mathbox/mathbox/
 ---
 
 
-## MathBox([MathematicalText](../../mathematicaltext) element)  constructor
+## MathBox([MathFunction](../../mathfunction) element)  constructor
 
  Initializes MathBox with the specified element as an argument
  
@@ -241,7 +226,7 @@ url: /aspose.slides/mathbox/mathbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The base element to which the box is applied. Can be null. |
+| element | [MathFunction](../../mathfunction) | The base element to which the box is applied. Can be null. |
 
 
 ---
@@ -257,6 +242,21 @@ url: /aspose.slides/mathbox/mathbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | The base element to which the box is applied. Can be null. |
+
+
+---
+
+
+## MathBox([MathematicalText](../../mathematicaltext) element)  constructor
+
+ Initializes MathBox with the specified element as an argument
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | The base element to which the box is applied. Can be null. |
 
 
 ---

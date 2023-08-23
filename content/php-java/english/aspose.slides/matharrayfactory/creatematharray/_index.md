@@ -169,24 +169,6 @@ url: /aspose.slides/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
 ## createMathArray([MathBorderBox](../../mathborderbox) element)  method
 
  Creates a math array and places the specified element in it 
@@ -205,6 +187,24 @@ url: /aspose.slides/matharrayfactory/creatematharray/
 ---
 
 
+## createMathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
 ## createMathArray([MathBar](../../mathbar) element)  method
 
  Creates a math array and places the specified element in it 
@@ -215,24 +215,6 @@ url: /aspose.slides/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | math element to place in array |
-
-### Returns
-[MathArray](../../matharray)
-
-
----
-
-
-## createMathArray([MathFunction](../../mathfunction) element)  method
-
- Creates a math array and places the specified element in it 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)
@@ -277,7 +259,7 @@ url: /aspose.slides/matharrayfactory/creatematharray/
 ---
 
 
-## createMathArray([MathematicalText](../../mathematicaltext) element)  method
+## createMathArray([MathFunction](../../mathfunction) element)  method
 
  Creates a math array and places the specified element in it 
  
@@ -286,7 +268,7 @@ url: /aspose.slides/matharrayfactory/creatematharray/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to place in array |
+| element | [MathFunction](../../mathfunction) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)
@@ -305,6 +287,24 @@ url: /aspose.slides/matharrayfactory/creatematharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to place in array |
+
+### Returns
+[MathArray](../../matharray)
+
+
+---
+
+
+## createMathArray([MathematicalText](../../mathematicaltext) element)  method
+
+ Creates a math array and places the specified element in it 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | math element to place in array |
 
 ### Returns
 [MathArray](../../matharray)

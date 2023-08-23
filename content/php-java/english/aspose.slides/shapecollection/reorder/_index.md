@@ -45,25 +45,6 @@ void
 ---
 
 
-## reorder(int index, [Table](../../table) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [Table](../../table) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [SmartArtShape](../../smartartshape) shape)  method
 
  Moves a shape from the collection to the specified position.
@@ -94,6 +75,25 @@ void
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [Shape](../../shape) | Shape to move. |
+
+### Returns
+void
+
+
+---
+
+
+## reorder(int index, [Table](../../table) shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [Table](../../table) | Shape to move. |
 
 ### Returns
 void
@@ -311,25 +311,6 @@ void
 ---
 
 
-## reorder(int index, [AudioFrame](../../audioframe) shape)  method
-
- Moves a shape from the collection to the specified position.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Target index. |
-| shape | [AudioFrame](../../audioframe) | Shape to move. |
-
-### Returns
-void
-
-
----
-
-
 ## reorder(int index, [Chart](../../chart) shape)  method
 
  Moves a shape from the collection to the specified position.
@@ -341,6 +322,25 @@ void
 | --- | --- | --- |
 | index | int | Target index. |
 | shape | [Chart](../../chart) | Shape to move. |
+
+### Returns
+void
+
+
+---
+
+
+## reorder(int index, [AudioFrame](../../audioframe) shape)  method
+
+ Moves a shape from the collection to the specified position.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Target index. |
+| shape | [AudioFrame](../../audioframe) | Shape to move. |
 
 ### Returns
 void

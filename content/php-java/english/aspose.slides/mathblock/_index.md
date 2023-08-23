@@ -27,14 +27,14 @@ url: /aspose.slides/mathblock/
 | [MathBlock](mathblock)([MathDelimiter](../mathdelimiter)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathNaryOperator](../mathnaryoperator)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathAccent](../mathaccent)) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathBorderBox](../mathborderbox)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathBar](../mathbar)) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)([MathFunction](../mathfunction)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathSubscriptElement](../mathsubscriptelement)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
-| [MathBlock](mathblock)([MathematicalText](../mathematicaltext)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathFunction](../mathfunction)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathFraction](../mathfraction)) | Creates a new mathematical block and puts specified element in it |
+| [MathBlock](mathblock)([MathematicalText](../mathematicaltext)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathBox](../mathbox)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a new mathematical block and puts specified element in it |
 | [MathBlock](mathblock)(com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>) | Creates a new mathematical block and puts specified elements in it |
@@ -52,14 +52,14 @@ url: /aspose.slides/mathblock/
 | [add](add)([MathDelimiter](../mathdelimiter)) | Adds a math element to the end of the collection. |
 | [add](add)([MathNaryOperator](../mathnaryoperator)) | Adds a math element to the end of the collection. |
 | [add](add)([MathAccent](../mathaccent)) | Adds a math element to the end of the collection. |
-| [add](add)([MathGroupingCharacter](../mathgroupingcharacter)) | Adds a math element to the end of the collection. |
 | [add](add)([MathBorderBox](../mathborderbox)) | Adds a math element to the end of the collection. |
+| [add](add)([MathGroupingCharacter](../mathgroupingcharacter)) | Adds a math element to the end of the collection. |
 | [add](add)([MathBar](../mathbar)) | Adds a math element to the end of the collection. |
-| [add](add)([MathFunction](../mathfunction)) | Adds a math element to the end of the collection. |
 | [add](add)([MathSubscriptElement](../mathsubscriptelement)) | Adds a math element to the end of the collection. |
 | [add](add)([MathSuperscriptElement](../mathsuperscriptelement)) | Adds a math element to the end of the collection. |
-| [add](add)([MathematicalText](../mathematicaltext)) | Adds a math element to the end of the collection. |
+| [add](add)([MathFunction](../mathfunction)) | Adds a math element to the end of the collection. |
 | [add](add)([MathFraction](../mathfraction)) | Adds a math element to the end of the collection. |
+| [add](add)([MathematicalText](../mathematicaltext)) | Adds a math element to the end of the collection. |
 | [add](add)([MathBox](../mathbox)) | Adds a math element to the end of the collection. |
 | [add](add)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Adds a math element to the end of the collection. |
 | [clear](clear)() | Removes all elements from the collection. |
@@ -72,14 +72,14 @@ url: /aspose.slides/mathblock/
 | [contains](contains)([MathDelimiter](../mathdelimiter)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathNaryOperator](../mathnaryoperator)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathAccent](../mathaccent)) | Determines whether the collection contains a specific value. |
-| [contains](contains)([MathGroupingCharacter](../mathgroupingcharacter)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathBorderBox](../mathborderbox)) | Determines whether the collection contains a specific value. |
+| [contains](contains)([MathGroupingCharacter](../mathgroupingcharacter)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathBar](../mathbar)) | Determines whether the collection contains a specific value. |
-| [contains](contains)([MathFunction](../mathfunction)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathSubscriptElement](../mathsubscriptelement)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathSuperscriptElement](../mathsuperscriptelement)) | Determines whether the collection contains a specific value. |
-| [contains](contains)([MathematicalText](../mathematicaltext)) | Determines whether the collection contains a specific value. |
+| [contains](contains)([MathFunction](../mathfunction)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathFraction](../mathfraction)) | Determines whether the collection contains a specific value. |
+| [contains](contains)([MathematicalText](../mathematicaltext)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathBox](../mathbox)) | Determines whether the collection contains a specific value. |
 | [contains](contains)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Determines whether the collection contains a specific value. |
 | [copyTo](copyto)(com.aspose.slides.IMathElement[], int) | Copy to specified array. |
@@ -98,14 +98,14 @@ url: /aspose.slides/mathblock/
 | [indexOf](indexof)([MathDelimiter](../mathdelimiter)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathNaryOperator](../mathnaryoperator)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathAccent](../mathaccent)) | Determines the index of a specific math element in collection. |
-| [indexOf](indexof)([MathGroupingCharacter](../mathgroupingcharacter)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathBorderBox](../mathborderbox)) | Determines the index of a specific math element in collection. |
+| [indexOf](indexof)([MathGroupingCharacter](../mathgroupingcharacter)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathBar](../mathbar)) | Determines the index of a specific math element in collection. |
-| [indexOf](indexof)([MathFunction](../mathfunction)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathSubscriptElement](../mathsubscriptelement)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathSuperscriptElement](../mathsuperscriptelement)) | Determines the index of a specific math element in collection. |
-| [indexOf](indexof)([MathematicalText](../mathematicaltext)) | Determines the index of a specific math element in collection. |
+| [indexOf](indexof)([MathFunction](../mathfunction)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathFraction](../mathfraction)) | Determines the index of a specific math element in collection. |
+| [indexOf](indexof)([MathematicalText](../mathematicaltext)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathBox](../mathbox)) | Determines the index of a specific math element in collection. |
 | [indexOf](indexof)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Determines the index of a specific math element in collection. |
 | [insert](insert)(int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Inserts a MathElement into the collection at the specified index. |
@@ -117,14 +117,14 @@ url: /aspose.slides/mathblock/
 | [insert](insert)(int, [MathDelimiter](../mathdelimiter)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathNaryOperator](../mathnaryoperator)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathAccent](../mathaccent)) | Inserts a MathElement into the collection at the specified index. |
-| [insert](insert)(int, [MathGroupingCharacter](../mathgroupingcharacter)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathBorderBox](../mathborderbox)) | Inserts a MathElement into the collection at the specified index. |
+| [insert](insert)(int, [MathGroupingCharacter](../mathgroupingcharacter)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathBar](../mathbar)) | Inserts a MathElement into the collection at the specified index. |
-| [insert](insert)(int, [MathFunction](../mathfunction)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathSubscriptElement](../mathsubscriptelement)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathSuperscriptElement](../mathsuperscriptelement)) | Inserts a MathElement into the collection at the specified index. |
-| [insert](insert)(int, [MathematicalText](../mathematicaltext)) | Inserts a MathElement into the collection at the specified index. |
+| [insert](insert)(int, [MathFunction](../mathfunction)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathFraction](../mathfraction)) | Inserts a MathElement into the collection at the specified index. |
+| [insert](insert)(int, [MathematicalText](../mathematicaltext)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathBox](../mathbox)) | Inserts a MathElement into the collection at the specified index. |
 | [insert](insert)(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Inserts a MathElement into the collection at the specified index. |
 | [isReadOnly](isreadonly)() | Returns false because child elements collection can be modified. |
@@ -139,14 +139,14 @@ url: /aspose.slides/mathblock/
 | [join](join)([MathDelimiter](../mathdelimiter)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathNaryOperator](../mathnaryoperator)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathAccent](../mathaccent)) | Joins a mathematical element with this mathematical block |
-| [join](join)([MathGroupingCharacter](../mathgroupingcharacter)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathBorderBox](../mathborderbox)) | Joins a mathematical element with this mathematical block |
+| [join](join)([MathGroupingCharacter](../mathgroupingcharacter)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathBar](../mathbar)) | Joins a mathematical element with this mathematical block |
-| [join](join)([MathFunction](../mathfunction)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathSubscriptElement](../mathsubscriptelement)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathSuperscriptElement](../mathsuperscriptelement)) | Joins a mathematical element with this mathematical block |
-| [join](join)([MathematicalText](../mathematicaltext)) | Joins a mathematical element with this mathematical block |
+| [join](join)([MathFunction](../mathfunction)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathFraction](../mathfraction)) | Joins a mathematical element with this mathematical block |
+| [join](join)([MathematicalText](../mathematicaltext)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathBox](../mathbox)) | Joins a mathematical element with this mathematical block |
 | [join](join)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Joins a mathematical element with this mathematical block |
 | [join](join)(String) | Joins a mathematical text with this mathematical block |
@@ -160,14 +160,14 @@ url: /aspose.slides/mathblock/
 | [remove](remove)([MathDelimiter](../mathdelimiter)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathNaryOperator](../mathnaryoperator)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathAccent](../mathaccent)) | Removes the first occurrence of a specific object from the collection. |
-| [remove](remove)([MathGroupingCharacter](../mathgroupingcharacter)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathBorderBox](../mathborderbox)) | Removes the first occurrence of a specific object from the collection. |
+| [remove](remove)([MathGroupingCharacter](../mathgroupingcharacter)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathBar](../mathbar)) | Removes the first occurrence of a specific object from the collection. |
-| [remove](remove)([MathFunction](../mathfunction)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathSubscriptElement](../mathsubscriptelement)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathSuperscriptElement](../mathsuperscriptelement)) | Removes the first occurrence of a specific object from the collection. |
-| [remove](remove)([MathematicalText](../mathematicaltext)) | Removes the first occurrence of a specific object from the collection. |
+| [remove](remove)([MathFunction](../mathfunction)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathFraction](../mathfraction)) | Removes the first occurrence of a specific object from the collection. |
+| [remove](remove)([MathematicalText](../mathematicaltext)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathBox](../mathbox)) | Removes the first occurrence of a specific object from the collection. |
 | [remove](remove)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Removes the first occurrence of a specific object from the collection. |
 | [removeAt](removeat)(int) | Removes the element at the specified index of the collection. |
@@ -180,14 +180,14 @@ url: /aspose.slides/mathblock/
 | [set_Item](set_item)(int, [MathDelimiter](../mathdelimiter)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathNaryOperator](../mathnaryoperator)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathAccent](../mathaccent)) | Gets or sets IMathElement at the specified index. |
-| [set_Item](set_item)(int, [MathGroupingCharacter](../mathgroupingcharacter)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathBorderBox](../mathborderbox)) | Gets or sets IMathElement at the specified index. |
+| [set_Item](set_item)(int, [MathGroupingCharacter](../mathgroupingcharacter)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathBar](../mathbar)) | Gets or sets IMathElement at the specified index. |
-| [set_Item](set_item)(int, [MathFunction](../mathfunction)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathSubscriptElement](../mathsubscriptelement)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathSuperscriptElement](../mathsuperscriptelement)) | Gets or sets IMathElement at the specified index. |
-| [set_Item](set_item)(int, [MathematicalText](../mathematicaltext)) | Gets or sets IMathElement at the specified index. |
+| [set_Item](set_item)(int, [MathFunction](../mathfunction)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathFraction](../mathfraction)) | Gets or sets IMathElement at the specified index. |
+| [set_Item](set_item)(int, [MathematicalText](../mathematicaltext)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathBox](../mathbox)) | Gets or sets IMathElement at the specified index. |
 | [set_Item](set_item)(int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Gets or sets IMathElement at the specified index. |
 | [toMathArray](tomatharray)() | Puts child elements in a vertical array |

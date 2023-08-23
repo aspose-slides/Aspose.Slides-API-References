@@ -142,21 +142,6 @@ url: /aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathBorderBox](../../mathborderbox) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -172,6 +157,21 @@ url: /aspose.slides/matharray/matharray/
 ---
 
 
+## MathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
+
+
+---
+
+
 ## MathArray([MathBar](../../mathbar) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -182,21 +182,6 @@ url: /aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | The element to place in the array |
-
-
----
-
-
-## MathArray([MathFunction](../../mathfunction) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The element to place in the array |
 
 
 ---
@@ -232,7 +217,7 @@ url: /aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathematicalText](../../mathematicaltext) element)  constructor
+## MathArray([MathFunction](../../mathfunction) element)  constructor
 
  Creates a mathematical array and places the specified element in it
  
@@ -241,7 +226,7 @@ url: /aspose.slides/matharray/matharray/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
+| element | [MathFunction](../../mathfunction) | The element to place in the array |
 
 
 ---
@@ -257,6 +242,21 @@ url: /aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathematicalText](../../mathematicaltext) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
 
 
 ---

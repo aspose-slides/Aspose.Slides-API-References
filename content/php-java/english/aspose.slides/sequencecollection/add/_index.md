@@ -33,19 +33,6 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([Table](../../table) shapeTrigger)  method
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Returns
-[Sequence](../../sequence)
-
-
----
-
-
 ## add([SmartArtShape](../../smartartshape) shapeTrigger)  method
 
  Add new interactive sequence.
@@ -60,6 +47,19 @@ url: /aspose.slides/sequencecollection/add/
 
 
 ## add([Shape](../../shape) shapeTrigger)  method
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Returns
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([Table](../../table) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -215,7 +215,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([AudioFrame](../../audioframe) shapeTrigger)  method
+## add([Chart](../../chart) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -228,7 +228,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([Chart](../../chart) shapeTrigger)  method
+## add([AudioFrame](../../audioframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

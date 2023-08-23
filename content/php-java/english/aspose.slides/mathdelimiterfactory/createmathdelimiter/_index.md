@@ -169,24 +169,6 @@ url: /aspose.slides/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
 ## createMathDelimiter([MathBorderBox](../../mathborderbox) element)  method
 
  Create a math delimiter by applying to the element
@@ -205,6 +187,24 @@ url: /aspose.slides/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
+## createMathDelimiter([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
 ## createMathDelimiter([MathBar](../../mathbar) element)  method
 
  Create a math delimiter by applying to the element
@@ -215,24 +215,6 @@ url: /aspose.slides/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathBar](../../mathbar) | math element to apply delimiter |
-
-### Returns
-[MathDelimiter](../../mathdelimiter)
-
-
----
-
-
-## createMathDelimiter([MathFunction](../../mathfunction) element)  method
-
- Create a math delimiter by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)
@@ -277,7 +259,7 @@ url: /aspose.slides/mathdelimiterfactory/createmathdelimiter/
 ---
 
 
-## createMathDelimiter([MathematicalText](../../mathematicaltext) element)  method
+## createMathDelimiter([MathFunction](../../mathfunction) element)  method
 
  Create a math delimiter by applying to the element
  
@@ -286,7 +268,7 @@ url: /aspose.slides/mathdelimiterfactory/createmathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to apply delimiter |
+| element | [MathFunction](../../mathfunction) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)
@@ -305,6 +287,24 @@ url: /aspose.slides/mathdelimiterfactory/createmathdelimiter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathFraction](../../mathfraction) | math element to apply delimiter |
+
+### Returns
+[MathDelimiter](../../mathdelimiter)
+
+
+---
+
+
+## createMathDelimiter([MathematicalText](../../mathematicaltext) element)  method
+
+ Create a math delimiter by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathematicalText](../../mathematicaltext) | math element to apply delimiter |
 
 ### Returns
 [MathDelimiter](../../mathdelimiter)

@@ -151,21 +151,6 @@ url: /aspose.slides/mathblock/mathblock/
 ---
 
 
-## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
-
-
----
-
-
 ## MathBlock([MathBorderBox](../../mathborderbox) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -181,6 +166,21 @@ url: /aspose.slides/mathblock/mathblock/
 ---
 
 
+## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
+
+
+---
+
+
 ## MathBlock([MathBar](../../mathbar) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
@@ -191,21 +191,6 @@ url: /aspose.slides/mathblock/mathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathBar](../../mathbar) | The mathematical element to put in the block |
-
-
----
-
-
-## MathBlock([MathFunction](../../mathfunction) mathElement)  constructor
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | The mathematical element to put in the block |
 
 
 ---
@@ -241,7 +226,7 @@ url: /aspose.slides/mathblock/mathblock/
 ---
 
 
-## MathBlock([MathematicalText](../../mathematicaltext) mathElement)  constructor
+## MathBlock([MathFunction](../../mathfunction) mathElement)  constructor
 
  Creates a new mathematical block and puts specified element in it
  
@@ -250,7 +235,7 @@ url: /aspose.slides/mathblock/mathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathematicalText](../../mathematicaltext) | The mathematical element to put in the block |
+| mathElement | [MathFunction](../../mathfunction) | The mathematical element to put in the block |
 
 
 ---
@@ -266,6 +251,21 @@ url: /aspose.slides/mathblock/mathblock/
 | Name | Type | Description |
 | --- | --- | --- |
 | mathElement | [MathFraction](../../mathfraction) | The mathematical element to put in the block |
+
+
+---
+
+
+## MathBlock([MathematicalText](../../mathematicaltext) mathElement)  constructor
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathematicalText](../../mathematicaltext) | The mathematical element to put in the block |
 
 
 ---

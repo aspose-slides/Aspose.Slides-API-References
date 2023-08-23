@@ -88,15 +88,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -106,7 +97,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -115,7 +106,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -142,7 +133,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -152,6 +143,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -259,15 +259,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -277,7 +268,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -286,7 +277,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -313,7 +304,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -323,6 +314,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathMatrix](../../mathmatrix) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -430,15 +430,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -448,7 +439,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -457,7 +448,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -484,7 +475,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -494,6 +485,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathLimit](../../mathlimit) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -601,15 +601,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -619,7 +610,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -628,7 +619,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -655,7 +646,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -665,6 +656,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathBlock](../../mathblock) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -772,15 +772,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -790,7 +781,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -799,7 +790,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -826,7 +817,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -836,6 +827,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathRadical](../../mathradical) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -943,15 +943,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -961,7 +952,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -970,7 +961,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -997,7 +988,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1007,6 +998,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathArray](../../matharray) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1114,15 +1114,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -1132,7 +1123,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1141,7 +1132,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1168,7 +1159,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1178,6 +1169,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathDelimiter](../../mathdelimiter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1285,15 +1285,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -1303,7 +1294,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1312,7 +1303,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1339,7 +1330,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1349,6 +1340,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathNaryOperator](../../mathnaryoperator) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1456,15 +1456,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -1474,7 +1465,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1483,7 +1474,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1510,7 +1501,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1520,6 +1511,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1538,177 +1538,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathAccent](../../mathaccent) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBlock](../../mathblock) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRadical](../../mathradical) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathArray](../../matharray) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBar](../../mathbar) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBox](../../mathbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1798,15 +1627,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -1816,7 +1636,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1825,7 +1645,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1852,7 +1672,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1862,6 +1682,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1880,6 +1709,177 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathBorderBox](../../mathborderbox) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBlock](../../mathblock) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRadical](../../mathradical) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathArray](../../matharray) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBar](../../mathbar) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathBox](../../mathbox) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathGroupingCharacter](../../mathgroupingcharacter) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1969,15 +1969,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -1987,7 +1978,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -1996,7 +1987,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2023,7 +2014,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2033,6 +2024,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2051,177 +2051,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathBar](../../mathbar) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
-## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2311,15 +2140,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -2329,7 +2149,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2338,7 +2158,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2365,7 +2185,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2375,6 +2195,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathSubscriptElement](../../mathsubscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2482,15 +2311,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -2500,7 +2320,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2509,7 +2329,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2536,7 +2356,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2546,6 +2366,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathSuperscriptElement](../../mathsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2572,7 +2401,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2581,7 +2410,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2590,7 +2419,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2599,7 +2428,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBlock](../../mathblock) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBlock](../../mathblock) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2608,7 +2437,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRadical](../../mathradical) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathRadical](../../mathradical) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2617,7 +2446,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathArray](../../matharray) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathArray](../../matharray) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2626,7 +2455,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2635,7 +2464,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2644,7 +2473,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2653,7 +2482,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2662,7 +2491,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2671,7 +2500,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2680,7 +2509,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2689,7 +2518,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2698,7 +2527,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2707,7 +2536,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2716,7 +2545,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2725,7 +2554,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBox](../../mathbox) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathBox](../../mathbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2734,7 +2563,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
+## MathSubscriptElement([MathFunction](../../mathfunction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2824,15 +2653,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -2842,7 +2662,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2851,7 +2671,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2878,7 +2698,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2888,6 +2708,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2906,6 +2735,177 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathFraction](../../mathfraction) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathMatrix](../../mathmatrix) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathLimit](../../mathlimit) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBlock](../../mathblock) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRadical](../../mathradical) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathArray](../../matharray) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathDelimiter](../../mathdelimiter) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathNaryOperator](../../mathnaryoperator) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathAccent](../../mathaccent) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBar](../../mathbar) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSubscriptElement](../../mathsubscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathSuperscriptElement](../../mathsuperscriptelement) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathBox](../../mathbox) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathematicalText](../../mathematicaltext) baseArg, [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -2995,15 +2995,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -3013,7 +3004,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3022,7 +3013,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3049,7 +3040,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3059,6 +3050,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathBox](../../mathbox) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3166,15 +3166,6 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
-
- Initializes a new instance of the MathSubscriptElement class.
- 
-
-
----
-
-
 ## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathBorderBox](../../mathborderbox) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
@@ -3184,7 +3175,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
+## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathGroupingCharacter](../../mathgroupingcharacter) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3193,7 +3184,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
+## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathBar](../../mathbar) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3220,7 +3211,7 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 ---
 
 
-## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
+## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFunction](../../mathfunction) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  
@@ -3230,6 +3221,15 @@ url: /aspose.slides/mathsubscriptelement/mathsubscriptelement/
 
 
 ## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathFraction](../../mathfraction) subScript)  constructor
+
+ Initializes a new instance of the MathSubscriptElement class.
+ 
+
+
+---
+
+
+## MathSubscriptElement([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) baseArg, [MathematicalText](../../mathematicaltext) subScript)  constructor
 
  Initializes a new instance of the MathSubscriptElement class.
  

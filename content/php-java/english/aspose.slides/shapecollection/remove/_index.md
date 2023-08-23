@@ -43,24 +43,6 @@ void
 ---
 
 
-## remove([Table](../../table) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Table](../../table) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([SmartArtShape](../../smartartshape) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -89,6 +71,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Shape](../../shape) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([Table](../../table) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Table](../../table) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -295,24 +295,6 @@ void
 ---
 
 
-## remove([AudioFrame](../../audioframe) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [AudioFrame](../../audioframe) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([Chart](../../chart) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -323,6 +305,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [Chart](../../chart) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([AudioFrame](../../audioframe) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [AudioFrame](../../audioframe) | The shape to remove from the collection. |
 
 ### Returns
 void
