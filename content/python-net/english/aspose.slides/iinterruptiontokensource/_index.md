@@ -3,7 +3,6 @@ title: IInterruptionTokenSource
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1710
 url: /aspose.slides/iinterruptiontokensource/
 ---
 

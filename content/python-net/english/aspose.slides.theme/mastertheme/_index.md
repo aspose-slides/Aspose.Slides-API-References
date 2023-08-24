@@ -3,7 +3,6 @@ title: MasterTheme
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 400
 url: /aspose.slides.theme/mastertheme/
 ---
 

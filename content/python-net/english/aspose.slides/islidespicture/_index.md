@@ -3,7 +3,6 @@ title: ISlidesPicture
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2590
 url: /aspose.slides/islidespicture/
 ---
 

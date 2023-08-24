@@ -3,7 +3,6 @@ title: ImageTransformOCollectionEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 700
 url: /aspose.slides.effects/imagetransformocollectioneffectivedata/
 ---
 

@@ -3,7 +3,6 @@ title: IStringChartValue
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 930
 url: /aspose.slides.charts/istringchartvalue/
 ---
 

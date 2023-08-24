@@ -3,7 +3,6 @@ title: TextUnderlineType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10030
 url: /aspose.slides/textunderlinetype/
 ---
 

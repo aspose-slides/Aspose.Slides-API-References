@@ -3,7 +3,6 @@ title: ITextStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2790
 url: /aspose.slides/itextstyle/
 ---
 

@@ -3,7 +3,6 @@ title: MathFractionTypes
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 880
 url: /aspose.slides.mathtext/mathfractiontypes/
 ---
 

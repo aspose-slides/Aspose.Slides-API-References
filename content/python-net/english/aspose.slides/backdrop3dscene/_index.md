@@ -3,7 +3,6 @@ title: Backdrop3DScene
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /aspose.slides/backdrop3dscene/
 ---
 

@@ -3,7 +3,6 @@ title: MathDelimiter
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 580
 url: /aspose.slides.mathtext/mathdelimiter/
 ---
 

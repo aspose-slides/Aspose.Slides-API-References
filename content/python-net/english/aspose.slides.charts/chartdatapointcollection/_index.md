@@ -3,7 +3,6 @@ title: ChartDataPointCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 150
 url: /aspose.slides.charts/chartdatapointcollection/
 ---
 
@@ -25,7 +24,7 @@ The ChartDataPointCollection type exposes the following members:
 ## Indexer
 | Name | Description |
 | :- | :- |
-|[index]|Returns the series data point by index.|
+|[index]|Returns the series data point by index (its serial number in this collection).|
 ## Methods
 | Name | Description |
 | :- | :- |

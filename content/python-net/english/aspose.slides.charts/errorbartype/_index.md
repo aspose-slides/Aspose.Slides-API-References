@@ -3,7 +3,6 @@ title: ErrorBarType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1210
 url: /aspose.slides.charts/errorbartype/
 ---
 

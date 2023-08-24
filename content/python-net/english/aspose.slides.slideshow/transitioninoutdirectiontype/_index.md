@@ -3,7 +3,6 @@ title: TransitionInOutDirectionType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 390
 url: /aspose.slides.slideshow/transitioninoutdirectiontype/
 ---
 

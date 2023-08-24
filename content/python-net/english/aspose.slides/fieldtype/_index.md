@@ -3,7 +3,6 @@ title: FieldType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 490
 url: /aspose.slides/fieldtype/
 ---
 

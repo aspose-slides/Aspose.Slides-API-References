@@ -3,7 +3,6 @@ title: IChartLinesFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 600
 url: /aspose.slides.charts/ichartlinesformat/
 ---
 

@@ -3,7 +3,6 @@ title: ColumnFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 300
 url: /aspose.slides/columnformat/
 ---
 

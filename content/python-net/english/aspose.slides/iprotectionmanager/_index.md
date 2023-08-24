@@ -3,7 +3,6 @@ title: IProtectionManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2320
 url: /aspose.slides/iprotectionmanager/
 ---
 

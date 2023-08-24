@@ -3,7 +3,6 @@ title: LineArrowheadWidth
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9550
 url: /aspose.slides/linearrowheadwidth/
 ---
 

@@ -3,7 +3,6 @@ title: PresetColor
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9770
 url: /aspose.slides/presetcolor/
 ---
 

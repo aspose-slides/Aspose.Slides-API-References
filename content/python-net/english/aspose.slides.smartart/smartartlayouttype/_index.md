@@ -3,7 +3,6 @@ title: SmartArtLayoutType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 130
 url: /aspose.slides.smartart/smartartlayouttype/
 ---
 

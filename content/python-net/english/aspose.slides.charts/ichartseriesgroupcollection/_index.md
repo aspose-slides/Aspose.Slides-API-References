@@ -3,7 +3,6 @@ title: IChartSeriesGroupCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 670
 url: /aspose.slides.charts/ichartseriesgroupcollection/
 ---
 

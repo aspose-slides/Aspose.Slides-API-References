@@ -3,7 +3,6 @@ title: IPPImage
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2050
 url: /aspose.slides/ippimage/
 ---
 

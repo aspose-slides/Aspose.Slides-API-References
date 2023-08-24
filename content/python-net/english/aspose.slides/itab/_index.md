@@ -3,7 +3,6 @@ title: ITab
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2670
 url: /aspose.slides/itab/
 ---
 

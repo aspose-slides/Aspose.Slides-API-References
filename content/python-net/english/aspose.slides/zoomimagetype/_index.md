@@ -3,7 +3,6 @@ title: ZoomImageType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10090
 url: /aspose.slides/zoomimagetype/
 ---
 

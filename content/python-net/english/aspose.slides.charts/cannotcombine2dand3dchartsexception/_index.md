@@ -3,7 +3,6 @@ title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 60
 url: /aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
 

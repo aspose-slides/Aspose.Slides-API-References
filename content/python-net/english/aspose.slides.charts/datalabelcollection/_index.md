@@ -3,7 +3,6 @@ title: DataLabelCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 320
 url: /aspose.slides.charts/datalabelcollection/
 ---
 
@@ -20,6 +19,7 @@ The DataLabelCollection type exposes the following members:
 |count_of_visible_data_labels|Gets the number of visible data labels in the collection.<br/>            Read-only|
 |count|Gets the number of all data labels in the collection.<br/>            Read-only|
 |default_data_label_format|Gets the default data label format.<br/>            Read-only [IDataLabelFormat](/slides/python-net/aspose.slides.charts/idatalabelformat/).|
+|leader_lines_format|Represents data labels leader lines format.<br/>             Read-only [IChartLinesFormat](/slides/python-net/aspose.slides.charts/ichartlinesformat/).|
 |leader_lines_color|Gets or sets the color of all leader lines in the collection.<br/>            Read/write aspose.pydrawing.Color.|
 |parent_series|Gets the parent series.<br/>            Read-only [IChartSeries](/slides/python-net/aspose.slides.charts/ichartseries/).|
 |as_i_chart_component|Allows to get base IChartComponent interface.<br/>            Read-only [IChartComponent](/slides/python-net/aspose.slides.charts/ichartcomponent/).|

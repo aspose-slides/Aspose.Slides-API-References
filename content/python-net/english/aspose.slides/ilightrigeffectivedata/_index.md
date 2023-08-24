@@ -3,7 +3,6 @@ title: ILightRigEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1780
 url: /aspose.slides/ilightrigeffectivedata/
 ---
 

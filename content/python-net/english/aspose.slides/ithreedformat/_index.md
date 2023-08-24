@@ -3,7 +3,6 @@ title: IThreeDFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2810
 url: /aspose.slides/ithreedformat/
 ---
 

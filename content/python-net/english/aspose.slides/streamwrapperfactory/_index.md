@@ -3,7 +3,6 @@ title: StreamWrapperFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3830
 url: /aspose.slides/streamwrapperfactory/
 ---
 

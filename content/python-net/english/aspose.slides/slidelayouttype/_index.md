@@ -3,7 +3,6 @@ title: SlideLayoutType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9870
 url: /aspose.slides/slidelayouttype/
 ---
 

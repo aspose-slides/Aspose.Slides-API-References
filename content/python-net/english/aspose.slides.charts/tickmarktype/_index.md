@@ -3,7 +3,6 @@ title: TickMarkType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1330
 url: /aspose.slides.charts/tickmarktype/
 ---
 

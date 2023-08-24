@@ -3,7 +3,6 @@ title: LineCapStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9560
 url: /aspose.slides/linecapstyle/
 ---
 

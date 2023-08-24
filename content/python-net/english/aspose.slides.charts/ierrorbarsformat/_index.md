@@ -3,7 +3,6 @@ title: IErrorBarsFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 800
 url: /aspose.slides.charts/ierrorbarsformat/
 ---
 

@@ -3,7 +3,6 @@ title: IVbaReference
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 50
 url: /aspose.slides.vba/ivbareference/
 ---
 

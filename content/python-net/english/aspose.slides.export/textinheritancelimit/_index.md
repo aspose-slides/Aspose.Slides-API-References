@@ -3,7 +3,6 @@ title: TextInheritanceLimit
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 860
 url: /aspose.slides.export/textinheritancelimit/
 ---
 

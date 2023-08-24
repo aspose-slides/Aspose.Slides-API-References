@@ -3,7 +3,6 @@ title: Section
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3630
 url: /aspose.slides/section/
 ---
 

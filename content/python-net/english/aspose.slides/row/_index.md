@@ -3,7 +3,6 @@ title: Row
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3600
 url: /aspose.slides/row/
 ---
 
