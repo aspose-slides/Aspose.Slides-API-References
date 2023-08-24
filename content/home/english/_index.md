@@ -90,3 +90,17 @@ Aspose.Slides for PHP via Java is a class library that enables your applications
 These are links to useful resources:
 
 - [Aspose.Slides for PHP via Java API Reference](/slides/php-java/)
+
+## Aspose.Slides for Node.js via Java
+
+{{% alert color="primary" %}} 
+
+![Aspose.Slides for Node.js via Java Product Logo](home_9.png)
+
+Aspose.Slides for Node.js via Java is a class library that enables your applications to read and write PowerPoint® documents without using Microsoft PowerPoint®. Aspose.Slides for Node.js via Java is the first and only component that provides the functionality to manage PowerPoint® documents. Aspose.Slides for Node.js via Java provides a lot of key features such as managing text, shapes, tables & animations, adding audio and video to slides, previewing slides, exporting slides to SVG, PDF format and more.
+
+{{% /alert %}} 
+
+These are links to useful resources:
+
+- [Aspose.Slides for Node.js via Java API Reference](/slides/nodejs-java/)
