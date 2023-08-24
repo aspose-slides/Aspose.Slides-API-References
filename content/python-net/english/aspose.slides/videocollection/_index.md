@@ -3,7 +3,6 @@ title: VideoCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 4000
 url: /aspose.slides/videocollection/
 ---
 

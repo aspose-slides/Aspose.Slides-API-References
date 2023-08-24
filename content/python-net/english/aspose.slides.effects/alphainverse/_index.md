@@ -3,7 +3,6 @@ title: AlphaInverse
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 40
 url: /aspose.slides.effects/alphainverse/
 ---
 

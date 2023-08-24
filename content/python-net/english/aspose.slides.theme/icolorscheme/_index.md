@@ -3,7 +3,6 @@ title: IColorScheme
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 120
 url: /aspose.slides.theme/icolorscheme/
 ---
 

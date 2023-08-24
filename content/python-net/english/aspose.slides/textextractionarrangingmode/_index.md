@@ -3,7 +3,6 @@ title: TextExtractionArrangingMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 10000
 url: /aspose.slides/textextractionarrangingmode/
 ---
 

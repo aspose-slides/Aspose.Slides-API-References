@@ -3,7 +3,6 @@ title: ILuminanceEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 590
 url: /aspose.slides.effects/iluminanceeffectivedata/
 ---
 

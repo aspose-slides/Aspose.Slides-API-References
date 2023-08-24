@@ -3,7 +3,6 @@ title: NumberedBulletStyle
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9660
 url: /aspose.slides/numberedbulletstyle/
 ---
 

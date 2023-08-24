@@ -3,7 +3,6 @@ title: IMasterNotesSlideManager
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1910
 url: /aspose.slides/imasternotesslidemanager/
 ---
 

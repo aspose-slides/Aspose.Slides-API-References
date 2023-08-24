@@ -3,7 +3,6 @@ title: aspose.slides.ink
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 110
 url: /aspose.slides.ink/
 ---
 

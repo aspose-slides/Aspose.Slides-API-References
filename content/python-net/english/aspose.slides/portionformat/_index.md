@@ -3,7 +3,6 @@ title: PortionFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3420
 url: /aspose.slides/portionformat/
 ---
 

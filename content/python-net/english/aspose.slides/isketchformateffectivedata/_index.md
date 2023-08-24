@@ -3,7 +3,6 @@ title: ISketchFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2510
 url: /aspose.slides/isketchformateffectivedata/
 ---
 

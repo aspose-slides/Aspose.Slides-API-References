@@ -3,7 +3,6 @@ title: IFontDataFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1390
 url: /aspose.slides/ifontdatafactory/
 ---
 

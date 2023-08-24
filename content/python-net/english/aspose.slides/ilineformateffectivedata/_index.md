@@ -3,7 +3,6 @@ title: ILineFormatEffectiveData
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1820
 url: /aspose.slides/ilineformateffectivedata/
 ---
 

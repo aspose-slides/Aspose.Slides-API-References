@@ -3,7 +3,6 @@ title: ImageWrapper
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2910
 url: /aspose.slides/imagewrapper/
 ---
 

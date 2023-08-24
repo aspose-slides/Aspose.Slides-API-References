@@ -3,7 +3,6 @@ title: ColorStringFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9370
 url: /aspose.slides/colorstringformat/
 ---
 

@@ -3,7 +3,6 @@ title: LayoutSlideCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2970
 url: /aspose.slides/layoutslidecollection/
 ---
 

@@ -3,7 +3,6 @@ title: ITextHighlightingOptions
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2780
 url: /aspose.slides/itexthighlightingoptions/
 ---
 

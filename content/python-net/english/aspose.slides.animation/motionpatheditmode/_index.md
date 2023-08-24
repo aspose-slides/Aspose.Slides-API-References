@@ -3,7 +3,6 @@ title: MotionPathEditMode
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 690
 url: /aspose.slides.animation/motionpatheditmode/
 ---
 

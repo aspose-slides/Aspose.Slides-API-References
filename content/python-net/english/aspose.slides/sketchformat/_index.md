@@ -3,7 +3,6 @@ title: SketchFormat
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3730
 url: /aspose.slides/sketchformat/
 ---
 

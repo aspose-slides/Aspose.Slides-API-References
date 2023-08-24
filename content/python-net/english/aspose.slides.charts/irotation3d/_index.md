@@ -3,7 +3,6 @@ title: IRotation3D
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 910
 url: /aspose.slides.charts/irotation3d/
 ---
 

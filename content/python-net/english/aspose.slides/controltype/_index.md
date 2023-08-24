@@ -3,7 +3,6 @@ title: ControlType
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 9400
 url: /aspose.slides/controltype/
 ---
 

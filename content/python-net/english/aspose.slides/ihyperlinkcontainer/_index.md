@@ -3,7 +3,6 @@ title: IHyperlinkContainer
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1640
 url: /aspose.slides/ihyperlinkcontainer/
 ---
 

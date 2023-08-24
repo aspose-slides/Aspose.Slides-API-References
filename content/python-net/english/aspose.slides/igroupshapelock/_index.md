@@ -3,7 +3,6 @@ title: IGroupShapeLock
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1620
 url: /aspose.slides/igroupshapelock/
 ---
 

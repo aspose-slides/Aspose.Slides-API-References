@@ -3,7 +3,6 @@ title: Marker
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1010
 url: /aspose.slides.charts/marker/
 ---
 

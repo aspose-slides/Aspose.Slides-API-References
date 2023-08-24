@@ -3,7 +3,6 @@ title: aspose.slides.export.xaml
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 90
 url: /aspose.slides.export.xaml/
 ---
 

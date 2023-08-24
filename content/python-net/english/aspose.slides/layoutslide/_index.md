@@ -3,7 +3,6 @@ title: LayoutSlide
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2960
 url: /aspose.slides/layoutslide/
 ---
 

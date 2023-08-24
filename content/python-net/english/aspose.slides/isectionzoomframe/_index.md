@@ -3,7 +3,6 @@ title: ISectionZoomFrame
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2420
 url: /aspose.slides/isectionzoomframe/
 ---
 

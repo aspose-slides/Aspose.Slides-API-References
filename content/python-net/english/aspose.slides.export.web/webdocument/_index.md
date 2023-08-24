@@ -3,7 +3,6 @@ title: WebDocument
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 80
 url: /aspose.slides.export.web/webdocument/
 ---
 
@@ -24,7 +23,7 @@ The WebDocument type exposes the following members:
 ## Methods
 | Name | Description |
 | :- | :- |
-|save()|  |
+|save()|Saves the document output.|
 
 ### See Also
 

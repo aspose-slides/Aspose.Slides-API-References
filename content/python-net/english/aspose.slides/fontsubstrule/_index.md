@@ -3,7 +3,6 @@ title: FontSubstRule
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 560
 url: /aspose.slides/fontsubstrule/
 ---
 

@@ -3,7 +3,6 @@ title: OdpReadException
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3240
 url: /aspose.slides/odpreadexception/
 ---
 

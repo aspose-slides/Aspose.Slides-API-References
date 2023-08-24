@@ -3,7 +3,6 @@ title: Luminance
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 750
 url: /aspose.slides.effects/luminance/
 ---
 

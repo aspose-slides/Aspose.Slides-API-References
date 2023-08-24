@@ -3,7 +3,6 @@ title: ICustomXmlPartCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 1260
 url: /aspose.slides/icustomxmlpartcollection/
 ---
 

@@ -3,7 +3,6 @@ title: ISequenceCollection
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 310
 url: /aspose.slides.animation/isequencecollection/
 ---
 

@@ -3,7 +3,6 @@ title: IMotionEffect
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 230
 url: /aspose.slides.animation/imotioneffect/
 ---
 

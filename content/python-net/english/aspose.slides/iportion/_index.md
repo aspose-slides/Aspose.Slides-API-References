@@ -3,7 +3,6 @@ title: IPortion
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 2200
 url: /aspose.slides/iportion/
 ---
 

@@ -3,7 +3,6 @@ title: MathGroupingCharacter
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 650
 url: /aspose.slides.mathtext/mathgroupingcharacter/
 ---
 

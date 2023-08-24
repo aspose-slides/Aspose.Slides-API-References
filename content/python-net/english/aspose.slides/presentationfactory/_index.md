@@ -3,7 +3,6 @@ title: PresentationFactory
 second_title: Aspose.Sildes for Python via .NET API Reference
 description: 
 type: docs
-weight: 3540
 url: /aspose.slides/presentationfactory/
 ---
 
