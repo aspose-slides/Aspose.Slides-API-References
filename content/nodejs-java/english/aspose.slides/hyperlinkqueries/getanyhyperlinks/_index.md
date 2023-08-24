@@ -14,7 +14,7 @@ url: /aspose.slides/hyperlinkqueries/getanyhyperlinks/
  
 
 ### Result
-Collection, KeyedCollection, List, [BehaviorPropertyCollection](../../behaviorpropertycollection), ReadOnlyCollection
+KeyedCollection, List, [BehaviorPropertyCollection](../../behaviorpropertycollection), Collection, ReadOnlyCollection
 
 
 ---

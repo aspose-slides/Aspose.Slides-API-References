@@ -7,21 +7,6 @@ type: docs
 url: /aspose.slides/portioncollection/add/
 ---
 
-## add([MathPortion](../../mathportion) value)  function
-
- Adds a Portion to the end of collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| value | [MathPortion](../../mathportion) | The Portion to be added to the end of the collection. |
-
-
----
-
-
 ## add([Portion](../../portion) value)  function
 
  Adds a Portion to the end of collection.
@@ -32,6 +17,21 @@ url: /aspose.slides/portioncollection/add/
 | Name | Type | Description |
 | --- | --- | --- |
 | value | [Portion](../../portion) | The Portion to be added to the end of the collection. |
+
+
+---
+
+
+## add([MathPortion](../../mathportion) value)  function
+
+ Adds a Portion to the end of collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | [MathPortion](../../mathportion) | The Portion to be added to the end of the collection. |
 
 
 ---

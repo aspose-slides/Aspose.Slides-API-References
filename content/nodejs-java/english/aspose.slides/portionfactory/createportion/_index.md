@@ -13,7 +13,7 @@ url: /aspose.slides/portionfactory/createportion/
  
 
 ### Result
-[MathPortion](../../mathportion), [Portion](../../portion)
+[Portion](../../portion), [MathPortion](../../mathportion)
 
 
 ---
@@ -31,25 +31,7 @@ url: /aspose.slides/portionfactory/createportion/
 | str | String | String. |
 
 ### Result
-[MathPortion](../../mathportion), [Portion](../../portion)
-
-
----
-
-
-## createPortion([MathPortion](../../mathportion) portion)  function
-
- Creates a portion with the using of a specified portion data.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| portion | [MathPortion](../../mathportion) | A portion to use. |
-
-### Result
-[MathPortion](../../mathportion), [Portion](../../portion)
+[Portion](../../portion), [MathPortion](../../mathportion)
 
 
 ---
@@ -67,7 +49,25 @@ url: /aspose.slides/portionfactory/createportion/
 | portion | [Portion](../../portion) | A portion to use. |
 
 ### Result
-[MathPortion](../../mathportion), [Portion](../../portion)
+[Portion](../../portion), [MathPortion](../../mathportion)
+
+
+---
+
+
+## createPortion([MathPortion](../../mathportion) portion)  function
+
+ Creates a portion with the using of a specified portion data.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| portion | [MathPortion](../../mathportion) | A portion to use. |
+
+### Result
+[Portion](../../portion), [MathPortion](../../mathportion)
 
 
 ---

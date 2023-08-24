@@ -7,6 +7,42 @@ type: docs
 url: /aspose.slides/mathblock/join/
 ---
 
+## join([MathLimit](../../mathlimit) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathLimit](../../mathlimit) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathBorderBox](../../mathborderbox) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBorderBox](../../mathborderbox) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## join([MathFraction](../../mathfraction) mathElement)  function
 
  Joins a mathematical element with this mathematical block
@@ -25,7 +61,7 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
-## join([MathMatrix](../../mathmatrix) mathElement)  function
+## join([MathDelimiter](../../mathdelimiter) mathElement)  function
 
  Joins a mathematical element with this mathematical block
  
@@ -34,7 +70,7 @@ url: /aspose.slides/mathblock/join/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathMatrix](../../mathmatrix) | The element to be joined |
+| mathElement | [MathDelimiter](../../mathdelimiter) | The element to be joined |
 
 ### Result
 [MathBlock](../../mathblock)
@@ -61,24 +97,6 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
-## join([MathAccent](../../mathaccent) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathAccent](../../mathaccent) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## join([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) mathElement)  function
 
  Joins a mathematical element with this mathematical block
@@ -97,7 +115,7 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
-## join([MathBar](../../mathbar) mathElement)  function
+## join([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) mathElement)  function
 
  Joins a mathematical element with this mathematical block
  
@@ -106,7 +124,97 @@ url: /aspose.slides/mathblock/join/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBar](../../mathbar) | The element to be joined |
+| mathElement | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathBox](../../mathbox) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBox](../../mathbox) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathMatrix](../../mathmatrix) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathMatrix](../../mathmatrix) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathArray](../../matharray) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathArray](../../matharray) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## join([MathBlock](../../mathblock) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBlock](../../mathblock) | The element to be joined |
 
 ### Result
 [MathBlock](../../mathblock)
@@ -151,6 +259,24 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
+## join([MathNaryOperator](../../mathnaryoperator) mathElement)  function
+
+ Joins a mathematical element with this mathematical block
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathNaryOperator](../../mathnaryoperator) | The element to be joined |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## join([MathematicalText](../../mathematicaltext) mathElement)  function
 
  Joins a mathematical element with this mathematical block
@@ -169,7 +295,7 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
-## join([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) mathElement)  function
+## join([MathAccent](../../mathaccent) mathElement)  function
 
  Joins a mathematical element with this mathematical block
  
@@ -178,133 +304,7 @@ url: /aspose.slides/mathblock/join/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathDelimiter](../../mathdelimiter) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathDelimiter](../../mathdelimiter) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathBox](../../mathbox) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathBox](../../mathbox) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathBlock](../../mathblock) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathBlock](../../mathblock) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathLimit](../../mathlimit) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathLimit](../../mathlimit) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathArray](../../matharray) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathArray](../../matharray) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to be joined |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## join([MathNaryOperator](../../mathnaryoperator) mathElement)  function
-
- Joins a mathematical element with this mathematical block
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathNaryOperator](../../mathnaryoperator) | The element to be joined |
+| mathElement | [MathAccent](../../mathaccent) | The element to be joined |
 
 ### Result
 [MathBlock](../../mathblock)
@@ -331,7 +331,7 @@ url: /aspose.slides/mathblock/join/
 ---
 
 
-## join([MathBorderBox](../../mathborderbox) mathElement)  function
+## join([MathBar](../../mathbar) mathElement)  function
 
  Joins a mathematical element with this mathematical block
  
@@ -340,7 +340,7 @@ url: /aspose.slides/mathblock/join/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBorderBox](../../mathborderbox) | The element to be joined |
+| mathElement | [MathBar](../../mathbar) | The element to be joined |
 
 ### Result
 [MathBlock](../../mathblock)

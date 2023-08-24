@@ -7,7 +7,20 @@ type: docs
 url: /aspose.slides/sequencecollection/add/
 ---
 
-## add([Chart](../../chart) shapeTrigger)  function
+## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([Connector](../../connector) shapeTrigger)  function
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -33,7 +46,98 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
+## add([Shape](../../shape) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([Ink](../../ink) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
 ## add([GroupShape](../../groupshape) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([SmartArtShape](../../smartartshape) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([SummaryZoomSection](../../summaryzoomsection) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([ZoomObject](../../zoomobject) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([SmartArt](../../smartart) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([VideoFrame](../../videoframe) shapeTrigger)  function
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -59,7 +163,20 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([AudioFrame](../../audioframe) shapeTrigger)  function
+## add([ZoomFrame](../../zoomframe) shapeTrigger)  function
+
+ Add new interactive sequence.
+ Read/write  Sequence.
+ 
+
+### Result
+[Sequence](../../sequence)
+
+
+---
+
+
+## add([AutoShape](../../autoshape) shapeTrigger)  function
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -98,7 +215,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([ZoomObject](../../zoomobject) shapeTrigger)  function
+## add([AudioFrame](../../audioframe) shapeTrigger)  function
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -111,46 +228,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([AutoShape](../../autoshape) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([VideoFrame](../../videoframe) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([SmartArtShape](../../smartartshape) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([SmartArt](../../smartart) shapeTrigger)  function
+## add([Chart](../../chart) shapeTrigger)  function
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -177,84 +255,6 @@ url: /aspose.slides/sequencecollection/add/
 
 
 ## add([SummaryZoomFrame](../../summaryzoomframe) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([Ink](../../ink) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([SummaryZoomSection](../../summaryzoomsection) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([ZoomFrame](../../zoomframe) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([Shape](../../shape) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([LegacyDiagram](../../legacydiagram) shapeTrigger)  function
-
- Add new interactive sequence.
- Read/write  Sequence.
- 
-
-### Result
-[Sequence](../../sequence)
-
-
----
-
-
-## add([Connector](../../connector) shapeTrigger)  function
 
  Add new interactive sequence.
  Read/write  Sequence.

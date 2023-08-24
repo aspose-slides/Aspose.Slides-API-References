@@ -7,6 +7,24 @@ type: docs
 url: /aspose.slides/imagetransformoperationcollection/containsitem/
 ---
 
+## containsItem([AlphaFloor](../../alphafloor) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaFloor](../../alphafloor) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
 ## containsItem([Luminance](../../luminance) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -43,7 +61,7 @@ boolean
 ---
 
 
-## containsItem([FillOverlay](../../filloverlay) item)  function
+## containsItem([BiLevel](../../bilevel) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -52,7 +70,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [FillOverlay](../../filloverlay) | The object to locate in the IGenericCollection. |
+| item | [BiLevel](../../bilevel) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -61,7 +79,7 @@ boolean
 ---
 
 
-## containsItem([SoftEdge](../../softedge) item)  function
+## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -70,7 +88,25 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../../softedge) | The object to locate in the IGenericCollection. |
+| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([Blur](../../blur) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Blur](../../blur) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -97,7 +133,7 @@ boolean
 ---
 
 
-## containsItem([InnerShadow](../../innershadow) item)  function
+## containsItem([AlphaCeiling](../../alphaceiling) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -106,7 +142,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [InnerShadow](../../innershadow) | The object to locate in the IGenericCollection. |
+| item | [AlphaCeiling](../../alphaceiling) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -115,7 +151,7 @@ boolean
 ---
 
 
-## containsItem([AlphaInverse](../../alphainverse) item)  function
+## containsItem([ColorReplace](../../colorreplace) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -124,7 +160,133 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaInverse](../../alphainverse) | The object to locate in the IGenericCollection. |
+| item | [ColorReplace](../../colorreplace) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([GrayScale](../../grayscale) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [GrayScale](../../grayscale) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([OuterShadow](../../outershadow) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [OuterShadow](../../outershadow) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([Tint](../../tint) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Tint](../../tint) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([AlphaBiLevel](../../alphabilevel) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaBiLevel](../../alphabilevel) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([Reflection](../../reflection) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Reflection](../../reflection) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([FillOverlay](../../filloverlay) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [FillOverlay](../../filloverlay) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## containsItem([AlphaReplace](../../alphareplace) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [AlphaReplace](../../alphareplace) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -169,7 +331,7 @@ boolean
 ---
 
 
-## containsItem([ColorReplace](../../colorreplace) item)  function
+## containsItem([SoftEdge](../../softedge) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -178,7 +340,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorReplace](../../colorreplace) | The object to locate in the IGenericCollection. |
+| item | [SoftEdge](../../softedge) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -187,7 +349,7 @@ boolean
 ---
 
 
-## containsItem([AlphaReplace](../../alphareplace) item)  function
+## containsItem([InnerShadow](../../innershadow) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -196,79 +358,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaReplace](../../alphareplace) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([AlphaModulateFixed](../../alphamodulatefixed) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaModulateFixed](../../alphamodulatefixed) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([Tint](../../tint) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Tint](../../tint) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([OuterShadow](../../outershadow) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [OuterShadow](../../outershadow) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([Reflection](../../reflection) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Reflection](../../reflection) | The object to locate in the IGenericCollection. |
+| item | [InnerShadow](../../innershadow) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -295,7 +385,7 @@ boolean
 ---
 
 
-## containsItem([AlphaBiLevel](../../alphabilevel) item)  function
+## containsItem([AlphaInverse](../../alphainverse) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -304,97 +394,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaBiLevel](../../alphabilevel) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([GrayScale](../../grayscale) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [GrayScale](../../grayscale) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([Blur](../../blur) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [Blur](../../blur) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([BiLevel](../../bilevel) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [BiLevel](../../bilevel) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([AlphaFloor](../../alphafloor) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaFloor](../../alphafloor) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## containsItem([AlphaCeiling](../../alphaceiling) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [AlphaCeiling](../../alphaceiling) | The object to locate in the IGenericCollection. |
+| item | [AlphaInverse](../../alphainverse) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean

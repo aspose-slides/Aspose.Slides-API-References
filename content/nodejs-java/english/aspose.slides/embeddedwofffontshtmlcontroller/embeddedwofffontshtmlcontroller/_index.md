@@ -19,7 +19,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-## EmbeddedWoffFontsHtmlController([ResponsiveHtmlController](../../responsivehtmlcontroller) controller) function
+## EmbeddedWoffFontsHtmlController([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) controller) function
 
  Creates new instance.
  
@@ -28,7 +28,7 @@ EmbeddedWoffFontsHtmlController
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [ResponsiveHtmlController](../../responsivehtmlcontroller) | HTML formatting controller. |
+| controller | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | HTML formatting controller. |
 
 ### Result
 EmbeddedWoffFontsHtmlController
@@ -73,7 +73,7 @@ EmbeddedWoffFontsHtmlController
 ---
 
 
-## EmbeddedWoffFontsHtmlController([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) controller) function
+## EmbeddedWoffFontsHtmlController([ResponsiveHtmlController](../../responsivehtmlcontroller) controller) function
 
  Creates new instance.
  
@@ -82,7 +82,7 @@ EmbeddedWoffFontsHtmlController
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | HTML formatting controller. |
+| controller | [ResponsiveHtmlController](../../responsivehtmlcontroller) | HTML formatting controller. |
 
 ### Result
 EmbeddedWoffFontsHtmlController

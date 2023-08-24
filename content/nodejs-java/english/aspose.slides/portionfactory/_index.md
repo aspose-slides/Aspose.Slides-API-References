@@ -26,5 +26,5 @@ url: /aspose.slides/portionfactory/
 | --- | --- |
 | [createPortion](createportion)() | Creates an empty text portion. |
 | [createPortion](createportion)(String) | Creates a text portion from specified string. |
-| [createPortion](createportion)([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
 | [createPortion](createportion)([Portion](../portion)) | Creates a portion with the using of a specified portion data. |
+| [createPortion](createportion)([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |

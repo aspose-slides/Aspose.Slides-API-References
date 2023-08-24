@@ -13,7 +13,7 @@ url: /aspose.slides/portioncollection/get_item/
  
 
 ### Result
-[MathPortion](../../mathportion), [Portion](../../portion)
+[Portion](../../portion), [MathPortion](../../mathportion)
 
 
 ---

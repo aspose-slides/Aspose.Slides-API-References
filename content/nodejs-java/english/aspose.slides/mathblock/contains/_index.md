@@ -7,6 +7,42 @@ type: docs
 url: /aspose.slides/mathblock/contains/
 ---
 
+## contains([MathLimit](../../mathlimit) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathLimit](../../mathlimit) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([MathBorderBox](../../mathborderbox) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBorderBox](../../mathborderbox) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
 ## contains([MathFraction](../../mathfraction) item)  function
 
  Determines whether the collection contains a specific value.
@@ -25,7 +61,7 @@ boolean
 ---
 
 
-## contains([MathMatrix](../../mathmatrix) item)  function
+## contains([MathDelimiter](../../mathdelimiter) item)  function
 
  Determines whether the collection contains a specific value.
  
@@ -34,7 +70,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathMatrix](../../mathmatrix) | The object to locate in the collection. |
+| item | [MathDelimiter](../../mathdelimiter) | The object to locate in the collection. |
 
 ### Result
 boolean
@@ -61,24 +97,6 @@ boolean
 ---
 
 
-## contains([MathAccent](../../mathaccent) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathAccent](../../mathaccent) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
 ## contains([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  function
 
  Determines whether the collection contains a specific value.
@@ -97,7 +115,7 @@ boolean
 ---
 
 
-## contains([MathBar](../../mathbar) item)  function
+## contains([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  function
 
  Determines whether the collection contains a specific value.
  
@@ -106,7 +124,97 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBar](../../mathbar) | The object to locate in the collection. |
+| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([MathBox](../../mathbox) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBox](../../mathbox) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([MathMatrix](../../mathmatrix) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathMatrix](../../mathmatrix) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([MathGroupingCharacter](../../mathgroupingcharacter) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([MathArray](../../matharray) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathArray](../../matharray) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([MathBlock](../../mathblock) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBlock](../../mathblock) | The object to locate in the collection. |
 
 ### Result
 boolean
@@ -151,6 +259,24 @@ boolean
 ---
 
 
+## contains([MathNaryOperator](../../mathnaryoperator) item)  function
+
+ Determines whether the collection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathNaryOperator](../../mathnaryoperator) | The object to locate in the collection. |
+
+### Result
+boolean
+
+
+---
+
+
 ## contains([MathematicalText](../../mathematicaltext) item)  function
 
  Determines whether the collection contains a specific value.
@@ -169,7 +295,7 @@ boolean
 ---
 
 
-## contains([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  function
+## contains([MathAccent](../../mathaccent) item)  function
 
  Determines whether the collection contains a specific value.
  
@@ -178,133 +304,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([MathDelimiter](../../mathdelimiter) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathDelimiter](../../mathdelimiter) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([MathBox](../../mathbox) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathBox](../../mathbox) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([MathBlock](../../mathblock) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathBlock](../../mathblock) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([MathLimit](../../mathlimit) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathLimit](../../mathlimit) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([MathArray](../../matharray) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathArray](../../matharray) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([MathGroupingCharacter](../../mathgroupingcharacter) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The object to locate in the collection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([MathNaryOperator](../../mathnaryoperator) item)  function
-
- Determines whether the collection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathNaryOperator](../../mathnaryoperator) | The object to locate in the collection. |
+| item | [MathAccent](../../mathaccent) | The object to locate in the collection. |
 
 ### Result
 boolean
@@ -331,7 +331,7 @@ boolean
 ---
 
 
-## contains([MathBorderBox](../../mathborderbox) item)  function
+## contains([MathBar](../../mathbar) item)  function
 
  Determines whether the collection contains a specific value.
  
@@ -340,7 +340,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBorderBox](../../mathborderbox) | The object to locate in the collection. |
+| item | [MathBar](../../mathbar) | The object to locate in the collection. |
 
 ### Result
 boolean

@@ -23,22 +23,6 @@ url: /aspose.slides/behaviorcollection/insert/
 ---
 
 
-## insert(int index, [MotionEffect](../../motioneffect) item)  function
-
- Inserts new behavior to a collection at the specified index.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| index | int | Index where new behavior should be inserted. |
-| item | [MotionEffect](../../motioneffect) | Behavior to insert. |
-
-
----
-
-
 ## insert(int index, [FilterEffect](../../filtereffect) item)  function
 
  Inserts new behavior to a collection at the specified index.
@@ -55,7 +39,7 @@ url: /aspose.slides/behaviorcollection/insert/
 ---
 
 
-## insert(int index, [RotationEffect](../../rotationeffect) item)  function
+## insert(int index, [MotionEffect](../../motioneffect) item)  function
 
  Inserts new behavior to a collection at the specified index.
  
@@ -65,7 +49,23 @@ url: /aspose.slides/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [RotationEffect](../../rotationeffect) | Behavior to insert. |
+| item | [MotionEffect](../../motioneffect) | Behavior to insert. |
+
+
+---
+
+
+## insert(int index, [ScaleEffect](../../scaleeffect) item)  function
+
+ Inserts new behavior to a collection at the specified index.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index where new behavior should be inserted. |
+| item | [ScaleEffect](../../scaleeffect) | Behavior to insert. |
 
 
 ---
@@ -87,7 +87,7 @@ url: /aspose.slides/behaviorcollection/insert/
 ---
 
 
-## insert(int index, [ScaleEffect](../../scaleeffect) item)  function
+## insert(int index, [RotationEffect](../../rotationeffect) item)  function
 
  Inserts new behavior to a collection at the specified index.
  
@@ -97,7 +97,7 @@ url: /aspose.slides/behaviorcollection/insert/
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where new behavior should be inserted. |
-| item | [ScaleEffect](../../scaleeffect) | Behavior to insert. |
+| item | [RotationEffect](../../rotationeffect) | Behavior to insert. |
 
 
 ---

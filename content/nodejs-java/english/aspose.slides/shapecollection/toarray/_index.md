@@ -13,7 +13,7 @@ url: /aspose.slides/shapecollection/toarray/
  
 
 ### Result
-[Chart](../../chart), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [PictureFrame](../../pictureframe), [AudioFrame](../../audioframe), [OleObjectFrame](../../oleobjectframe), [SectionZoomFrame](../../sectionzoomframe), [ZoomObject](../../zoomobject), [AutoShape](../../autoshape), [VideoFrame](../../videoframe), [SmartArtShape](../../smartartshape), [SmartArt](../../smartart), [Table](../../table), [SummaryZoomFrame](../../summaryzoomframe), [Ink](../../ink), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [GeometryShape](../../geometryshape), [Shape](../../shape), [LegacyDiagram](../../legacydiagram), [Connector](../../connector)
+[LegacyDiagram](../../legacydiagram), [Connector](../../connector), [GraphicalObject](../../graphicalobject), [Shape](../../shape), [Ink](../../ink), [GroupShape](../../groupshape), [SmartArtShape](../../smartartshape), [SummaryZoomSection](../../summaryzoomsection), [ZoomObject](../../zoomobject), [SmartArt](../../smartart), [VideoFrame](../../videoframe), [PictureFrame](../../pictureframe), [ZoomFrame](../../zoomframe), [AutoShape](../../autoshape), [GeometryShape](../../geometryshape), [OleObjectFrame](../../oleobjectframe), [SectionZoomFrame](../../sectionzoomframe), [AudioFrame](../../audioframe), [Chart](../../chart), [Table](../../table), [SummaryZoomFrame](../../summaryzoomframe)
 
 
 ---
@@ -32,7 +32,7 @@ url: /aspose.slides/shapecollection/toarray/
 | count | int | A number of shapes to return. |
 
 ### Result
-[Chart](../../chart), [GraphicalObject](../../graphicalobject), [GroupShape](../../groupshape), [PictureFrame](../../pictureframe), [AudioFrame](../../audioframe), [OleObjectFrame](../../oleobjectframe), [SectionZoomFrame](../../sectionzoomframe), [ZoomObject](../../zoomobject), [AutoShape](../../autoshape), [VideoFrame](../../videoframe), [SmartArtShape](../../smartartshape), [SmartArt](../../smartart), [Table](../../table), [SummaryZoomFrame](../../summaryzoomframe), [Ink](../../ink), [SummaryZoomSection](../../summaryzoomsection), [ZoomFrame](../../zoomframe), [GeometryShape](../../geometryshape), [Shape](../../shape), [LegacyDiagram](../../legacydiagram), [Connector](../../connector)
+[LegacyDiagram](../../legacydiagram), [Connector](../../connector), [GraphicalObject](../../graphicalobject), [Shape](../../shape), [Ink](../../ink), [GroupShape](../../groupshape), [SmartArtShape](../../smartartshape), [SummaryZoomSection](../../summaryzoomsection), [ZoomObject](../../zoomobject), [SmartArt](../../smartart), [VideoFrame](../../videoframe), [PictureFrame](../../pictureframe), [ZoomFrame](../../zoomframe), [AutoShape](../../autoshape), [GeometryShape](../../geometryshape), [OleObjectFrame](../../oleobjectframe), [SectionZoomFrame](../../sectionzoomframe), [AudioFrame](../../audioframe), [Chart](../../chart), [Table](../../table), [SummaryZoomFrame](../../summaryzoomframe)
 
 
 ---

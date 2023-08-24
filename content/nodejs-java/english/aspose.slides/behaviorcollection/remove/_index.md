@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## remove([MotionEffect](../../motioneffect) item)  function
-
- Removes specified behavior from a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MotionEffect](../../motioneffect) | Behavior to remove. |
-
-### Result
-boolean
-
-
----
-
-
 ## remove([FilterEffect](../../filtereffect) item)  function
 
  Removes specified behavior from a collection.
@@ -61,7 +43,7 @@ boolean
 ---
 
 
-## remove([RotationEffect](../../rotationeffect) item)  function
+## remove([MotionEffect](../../motioneffect) item)  function
 
  Removes specified behavior from a collection.
  
@@ -70,7 +52,25 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [RotationEffect](../../rotationeffect) | Behavior to remove. |
+| item | [MotionEffect](../../motioneffect) | Behavior to remove. |
+
+### Result
+boolean
+
+
+---
+
+
+## remove([ScaleEffect](../../scaleeffect) item)  function
+
+ Removes specified behavior from a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ScaleEffect](../../scaleeffect) | Behavior to remove. |
 
 ### Result
 boolean
@@ -97,7 +97,7 @@ boolean
 ---
 
 
-## remove([ScaleEffect](../../scaleeffect) item)  function
+## remove([RotationEffect](../../rotationeffect) item)  function
 
  Removes specified behavior from a collection.
  
@@ -106,7 +106,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ScaleEffect](../../scaleeffect) | Behavior to remove. |
+| item | [RotationEffect](../../rotationeffect) | Behavior to remove. |
 
 ### Result
 boolean

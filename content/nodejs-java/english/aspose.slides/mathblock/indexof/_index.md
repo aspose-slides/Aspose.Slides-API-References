@@ -7,6 +7,42 @@ type: docs
 url: /aspose.slides/mathblock/indexof/
 ---
 
+## indexOf([MathLimit](../../mathlimit) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathLimit](../../mathlimit) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
+## indexOf([MathBorderBox](../../mathborderbox) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBorderBox](../../mathborderbox) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
 ## indexOf([MathFraction](../../mathfraction) item)  function
 
  Determines the index of a specific math element in collection.
@@ -25,7 +61,7 @@ int
 ---
 
 
-## indexOf([MathMatrix](../../mathmatrix) item)  function
+## indexOf([MathDelimiter](../../mathdelimiter) item)  function
 
  Determines the index of a specific math element in collection.
  
@@ -34,7 +70,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathMatrix](../../mathmatrix) | The element to locate in the collection. |
+| item | [MathDelimiter](../../mathdelimiter) | The element to locate in the collection. |
 
 ### Result
 int
@@ -61,24 +97,6 @@ int
 ---
 
 
-## indexOf([MathAccent](../../mathaccent) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathAccent](../../mathaccent) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
 ## indexOf([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  function
 
  Determines the index of a specific math element in collection.
@@ -97,7 +115,7 @@ int
 ---
 
 
-## indexOf([MathBar](../../mathbar) item)  function
+## indexOf([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  function
 
  Determines the index of a specific math element in collection.
  
@@ -106,7 +124,97 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBar](../../mathbar) | The element to locate in the collection. |
+| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
+## indexOf([MathBox](../../mathbox) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBox](../../mathbox) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
+## indexOf([MathMatrix](../../mathmatrix) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathMatrix](../../mathmatrix) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
+## indexOf([MathGroupingCharacter](../../mathgroupingcharacter) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
+## indexOf([MathArray](../../matharray) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathArray](../../matharray) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
+## indexOf([MathBlock](../../mathblock) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBlock](../../mathblock) | The element to locate in the collection. |
 
 ### Result
 int
@@ -151,6 +259,24 @@ int
 ---
 
 
+## indexOf([MathNaryOperator](../../mathnaryoperator) item)  function
+
+ Determines the index of a specific math element in collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathNaryOperator](../../mathnaryoperator) | The element to locate in the collection. |
+
+### Result
+int
+
+
+---
+
+
 ## indexOf([MathematicalText](../../mathematicaltext) item)  function
 
  Determines the index of a specific math element in collection.
@@ -169,7 +295,7 @@ int
 ---
 
 
-## indexOf([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  function
+## indexOf([MathAccent](../../mathaccent) item)  function
 
  Determines the index of a specific math element in collection.
  
@@ -178,133 +304,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
-## indexOf([MathDelimiter](../../mathdelimiter) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathDelimiter](../../mathdelimiter) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
-## indexOf([MathBox](../../mathbox) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathBox](../../mathbox) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
-## indexOf([MathBlock](../../mathblock) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathBlock](../../mathblock) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
-## indexOf([MathLimit](../../mathlimit) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathLimit](../../mathlimit) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
-## indexOf([MathArray](../../matharray) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathArray](../../matharray) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
-## indexOf([MathGroupingCharacter](../../mathgroupingcharacter) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to locate in the collection. |
-
-### Result
-int
-
-
----
-
-
-## indexOf([MathNaryOperator](../../mathnaryoperator) item)  function
-
- Determines the index of a specific math element in collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathNaryOperator](../../mathnaryoperator) | The element to locate in the collection. |
+| item | [MathAccent](../../mathaccent) | The element to locate in the collection. |
 
 ### Result
 int
@@ -331,7 +331,7 @@ int
 ---
 
 
-## indexOf([MathBorderBox](../../mathborderbox) item)  function
+## indexOf([MathBar](../../mathbar) item)  function
 
  Determines the index of a specific math element in collection.
  
@@ -340,7 +340,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBorderBox](../../mathborderbox) | The element to locate in the collection. |
+| item | [MathBar](../../mathbar) | The element to locate in the collection. |
 
 ### Result
 int

@@ -14,7 +14,7 @@ url: /aspose.slides/loadoptions/getresourceloadingcallback/
  
 
 ### Result
-ResourceLoadingAdapter, SvgResourceResolver
+SvgResourceResolver, ResourceLoadingAdapter
 
 
 ---

@@ -7,7 +7,16 @@ type: docs
 url: /aspose.slides/sequence/removebyshape/
 ---
 
-## removeByShape([Chart](../../chart) shape)  function
+## removeByShape([LegacyDiagram](../../legacydiagram) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([Connector](../../connector) shape)  function
 
  Remove effect for the specified shape.
  
@@ -25,7 +34,70 @@ url: /aspose.slides/sequence/removebyshape/
 ---
 
 
+## removeByShape([Shape](../../shape) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([Ink](../../ink) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
 ## removeByShape([GroupShape](../../groupshape) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([SmartArtShape](../../smartartshape) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([SummaryZoomSection](../../summaryzoomsection) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([ZoomObject](../../zoomobject) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([SmartArt](../../smartart) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([VideoFrame](../../videoframe) shape)  function
 
  Remove effect for the specified shape.
  
@@ -43,7 +115,16 @@ url: /aspose.slides/sequence/removebyshape/
 ---
 
 
-## removeByShape([AudioFrame](../../audioframe) shape)  function
+## removeByShape([ZoomFrame](../../zoomframe) shape)  function
+
+ Remove effect for the specified shape.
+ 
+
+
+---
+
+
+## removeByShape([AutoShape](../../autoshape) shape)  function
 
  Remove effect for the specified shape.
  
@@ -70,7 +151,7 @@ url: /aspose.slides/sequence/removebyshape/
 ---
 
 
-## removeByShape([ZoomObject](../../zoomobject) shape)  function
+## removeByShape([AudioFrame](../../audioframe) shape)  function
 
  Remove effect for the specified shape.
  
@@ -79,34 +160,7 @@ url: /aspose.slides/sequence/removebyshape/
 ---
 
 
-## removeByShape([AutoShape](../../autoshape) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([VideoFrame](../../videoframe) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([SmartArtShape](../../smartartshape) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([SmartArt](../../smartart) shape)  function
+## removeByShape([Chart](../../chart) shape)  function
 
  Remove effect for the specified shape.
  
@@ -125,60 +179,6 @@ url: /aspose.slides/sequence/removebyshape/
 
 
 ## removeByShape([SummaryZoomFrame](../../summaryzoomframe) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([Ink](../../ink) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([SummaryZoomSection](../../summaryzoomsection) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([ZoomFrame](../../zoomframe) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([Shape](../../shape) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([LegacyDiagram](../../legacydiagram) shape)  function
-
- Remove effect for the specified shape.
- 
-
-
----
-
-
-## removeByShape([Connector](../../connector) shape)  function
 
  Remove effect for the specified shape.
  

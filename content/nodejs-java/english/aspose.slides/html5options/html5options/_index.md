@@ -9,6 +9,8 @@ url: /aspose.slides/html5options/html5options/
 
 ## Html5Options() function
 
+ Default constructor.
+ 
 
 ### Result
 Html5Options

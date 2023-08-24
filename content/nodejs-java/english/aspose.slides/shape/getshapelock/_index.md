@@ -14,7 +14,7 @@ url: /aspose.slides/shape/getshapelock/
  
 
 ### Result
-[BaseShapeLock](../../baseshapelock), [GroupShapeLock](../../groupshapelock), [PictureFrameLock](../../pictureframelock), [AutoShapeLock](../../autoshapelock), [GraphicalObjectLock](../../graphicalobjectlock), [ConnectorLock](../../connectorlock)
+[GraphicalObjectLock](../../graphicalobjectlock), [PictureFrameLock](../../pictureframelock), [BaseShapeLock](../../baseshapelock), [GroupShapeLock](../../groupshapelock), [AutoShapeLock](../../autoshapelock), [ConnectorLock](../../connectorlock)
 
 
 ---

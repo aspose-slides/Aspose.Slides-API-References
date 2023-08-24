@@ -19,7 +19,7 @@ url: /aspose.slides/behaviorcollection/get_item/
 | index | int | Index of a behavior to return. |
 
 ### Result
-[ColorEffect](../../coloreffect), [MotionEffect](../../motioneffect), [Behavior](../../behavior), [FilterEffect](../../filtereffect), [RotationEffect](../../rotationeffect), [CommandEffect](../../commandeffect), [ScaleEffect](../../scaleeffect), [SetEffect](../../seteffect)
+[ColorEffect](../../coloreffect), [FilterEffect](../../filtereffect), [MotionEffect](../../motioneffect), [ScaleEffect](../../scaleeffect), [CommandEffect](../../commandeffect), [Behavior](../../behavior), [RotationEffect](../../rotationeffect), [SetEffect](../../seteffect)
 
 
 ---

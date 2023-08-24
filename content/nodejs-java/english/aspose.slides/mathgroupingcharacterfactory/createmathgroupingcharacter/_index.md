@@ -7,6 +7,48 @@ type: docs
 url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
+## createMathGroupingCharacter([MathLimit](../../mathlimit) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../mathlimit) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
 ## createMathGroupingCharacter([MathFraction](../../mathfraction) element, char character, int position, int verticalJustification)  function
 
  Creates a math grouping character
@@ -28,7 +70,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathMatrix](../../mathmatrix) element, char character, int position, int verticalJustification)  function
+## createMathGroupingCharacter([MathDelimiter](../../mathdelimiter) element, char character, int position, int verticalJustification)  function
 
  Creates a math grouping character
  
@@ -37,7 +79,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../mathmatrix) | math element to apply grouping character |
+| element | [MathDelimiter](../mathdelimiter) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -70,27 +112,6 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathAccent](../../mathaccent) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../mathaccent) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) element, char character, int position, int verticalJustification)  function
 
  Creates a math grouping character
@@ -112,7 +133,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathBar](../../mathbar) element, char character, int position, int verticalJustification)  function
+## createMathGroupingCharacter([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) element, char character, int position, int verticalJustification)  function
 
  Creates a math grouping character
  
@@ -121,7 +142,112 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar](../mathbar) | math element to apply grouping character |
+| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathBox](../../mathbox) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../mathbox) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathMatrix](../../mathmatrix) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../mathmatrix) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathArray](../../matharray) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathArray](../matharray) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathBlock](../../mathblock) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBlock](../mathblock) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -175,6 +301,27 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
+## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element, char character, int position, int verticalJustification)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathNaryOperator](../mathnaryoperator) | math element to apply grouping character |
+| character | char | grouping character |
+| position | int | position of grouping character |
+| verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
 ## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element, char character, int position, int verticalJustification)  function
 
  Creates a math grouping character
@@ -196,7 +343,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) element, char character, int position, int verticalJustification)  function
+## createMathGroupingCharacter([MathAccent](../../mathaccent) element, char character, int position, int verticalJustification)  function
 
  Creates a math grouping character
  
@@ -205,154 +352,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathDelimiter](../../mathdelimiter) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathDelimiter](../mathdelimiter) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathBox](../../mathbox) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBox](../mathbox) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathBlock](../../mathblock) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBlock](../mathblock) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathLimit](../../mathlimit) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../mathlimit) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathArray](../../matharray) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathArray](../matharray) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply grouping character |
-| character | char | grouping character |
-| position | int | position of grouping character |
-| verticalJustification | int | vertical justification |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element, char character, int position, int verticalJustification)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../mathnaryoperator) | math element to apply grouping character |
+| element | [MathAccent](../mathaccent) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
@@ -385,7 +385,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  function
+## createMathGroupingCharacter([MathBar](../../mathbar) element, char character, int position, int verticalJustification)  function
 
  Creates a math grouping character
  
@@ -394,10 +394,46 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply grouping character |
+| element | [MathBar](../mathbar) | math element to apply grouping character |
 | character | char | grouping character |
 | position | int | position of grouping character |
 | verticalJustification | int | vertical justification |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathLimit](../../mathlimit) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathLimit](../../mathlimit) | math element to apply grouping character |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | math element to apply grouping character |
 
 ### Result
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -424,7 +460,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathMatrix](../../mathmatrix) element)  function
+## createMathGroupingCharacter([MathDelimiter](../../mathdelimiter) element)  function
 
  Creates a math grouping character
  
@@ -433,7 +469,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | math element to apply grouping character |
+| element | [MathDelimiter](../../mathdelimiter) | math element to apply grouping character |
 
 ### Result
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -460,24 +496,6 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathAccent](../../mathaccent) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
 ## createMathGroupingCharacter([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) element)  function
 
  Creates a math grouping character
@@ -496,7 +514,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathBar](../../mathbar) element)  function
+## createMathGroupingCharacter([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) element)  function
 
  Creates a math grouping character
  
@@ -505,7 +523,97 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar](../../mathbar) | math element to apply grouping character |
+| element | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | math element to apply grouping character |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathBox](../../mathbox) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBox](../../mathbox) | math element to apply grouping character |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathMatrix](../../mathmatrix) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathMatrix](../../mathmatrix) | math element to apply grouping character |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply grouping character |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathArray](../../matharray) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathArray](../../matharray) | math element to apply grouping character |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
+## createMathGroupingCharacter([MathBlock](../../mathblock) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBlock](../../mathblock) | math element to apply grouping character |
 
 ### Result
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -550,6 +658,24 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
+## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element)  function
+
+ Creates a math grouping character
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathNaryOperator](../../mathnaryoperator) | math element to apply grouping character |
+
+### Result
+[MathGroupingCharacter](../../mathgroupingcharacter)
+
+
+---
+
+
 ## createMathGroupingCharacter([MathematicalText](../../mathematicaltext) element)  function
 
  Creates a math grouping character
@@ -568,7 +694,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) element)  function
+## createMathGroupingCharacter([MathAccent](../../mathaccent) element)  function
 
  Creates a math grouping character
  
@@ -577,133 +703,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathDelimiter](../../mathdelimiter) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathDelimiter](../../mathdelimiter) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathBox](../../mathbox) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBox](../../mathbox) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathBlock](../../mathblock) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBlock](../../mathblock) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathLimit](../../mathlimit) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathArray](../../matharray) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathArray](../../matharray) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply grouping character |
-
-### Result
-[MathGroupingCharacter](../../mathgroupingcharacter)
-
-
----
-
-
-## createMathGroupingCharacter([MathNaryOperator](../../mathnaryoperator) element)  function
-
- Creates a math grouping character
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | math element to apply grouping character |
+| element | [MathAccent](../../mathaccent) | math element to apply grouping character |
 
 ### Result
 [MathGroupingCharacter](../../mathgroupingcharacter)
@@ -730,7 +730,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
 
 
-## createMathGroupingCharacter([MathBorderBox](../../mathborderbox) element)  function
+## createMathGroupingCharacter([MathBar](../../mathbar) element)  function
 
  Creates a math grouping character
  
@@ -739,7 +739,7 @@ url: /aspose.slides/mathgroupingcharacterfactory/createmathgroupingcharacter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | math element to apply grouping character |
+| element | [MathBar](../../mathbar) | math element to apply grouping character |
 
 ### Result
 [MathGroupingCharacter](../../mathgroupingcharacter)

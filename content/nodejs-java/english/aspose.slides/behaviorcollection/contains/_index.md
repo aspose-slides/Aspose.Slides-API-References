@@ -25,24 +25,6 @@ boolean
 ---
 
 
-## contains([MotionEffect](../../motioneffect) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MotionEffect](../../motioneffect) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
 ## contains([FilterEffect](../../filtereffect) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -61,7 +43,7 @@ boolean
 ---
 
 
-## contains([RotationEffect](../../rotationeffect) item)  function
+## contains([MotionEffect](../../motioneffect) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -70,7 +52,25 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [RotationEffect](../../rotationeffect) | The object to locate in the IGenericCollection. |
+| item | [MotionEffect](../../motioneffect) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([ScaleEffect](../../scaleeffect) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ScaleEffect](../../scaleeffect) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -97,7 +97,7 @@ boolean
 ---
 
 
-## contains([ScaleEffect](../../scaleeffect) item)  function
+## contains([RotationEffect](../../rotationeffect) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -106,7 +106,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ScaleEffect](../../scaleeffect) | The object to locate in the IGenericCollection. |
+| item | [RotationEffect](../../rotationeffect) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean

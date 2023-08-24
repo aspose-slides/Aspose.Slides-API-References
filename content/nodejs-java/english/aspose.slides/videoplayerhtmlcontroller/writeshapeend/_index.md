@@ -7,7 +7,14 @@ type: docs
 url: /aspose.slides/videoplayerhtmlcontroller/writeshapeend/
 ---
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Chart](../../chart) shape)  function
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Connector](../../connector) shape)  function
 
 
 
@@ -21,7 +28,56 @@ url: /aspose.slides/videoplayerhtmlcontroller/writeshapeend/
 ---
 
 
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Shape](../../shape) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Ink](../../ink) shape)  function
+
+
+
+---
+
+
 ## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [GroupShape](../../groupshape) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SmartArtShape](../../smartartshape) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomSection](../../summaryzoomsection) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SmartArt](../../smartart) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [VideoFrame](../../videoframe) shape)  function
 
 
 
@@ -35,7 +91,14 @@ url: /aspose.slides/videoplayerhtmlcontroller/writeshapeend/
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [AudioFrame](../../audioframe) shape)  function
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [ZoomFrame](../../zoomframe) shape)  function
+
+
+
+---
+
+
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [AutoShape](../../autoshape) shape)  function
 
 
 
@@ -56,35 +119,14 @@ url: /aspose.slides/videoplayerhtmlcontroller/writeshapeend/
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [ZoomObject](../../zoomobject) shape)  function
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [AudioFrame](../../audioframe) shape)  function
 
 
 
 ---
 
 
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [AutoShape](../../autoshape) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [VideoFrame](../../videoframe) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SmartArtShape](../../smartartshape) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SmartArt](../../smartart) shape)  function
+## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Chart](../../chart) shape)  function
 
 
 
@@ -99,48 +141,6 @@ url: /aspose.slides/videoplayerhtmlcontroller/writeshapeend/
 
 
 ## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomFrame](../../summaryzoomframe) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Ink](../../ink) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [SummaryZoomSection](../../summaryzoomsection) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [ZoomFrame](../../zoomframe) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Shape](../../shape) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [LegacyDiagram](../../legacydiagram) shape)  function
-
-
-
----
-
-
-## writeShapeEnd([HtmlGenerator](../../htmlgenerator) generator, [Connector](../../connector) shape)  function
 
 
 

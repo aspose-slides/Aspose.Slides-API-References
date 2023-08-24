@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/portioncollection/remove/
 ---
 
-## remove([MathPortion](../../mathportion) item)  function
+## remove([Portion](../../portion) item)  function
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -16,7 +16,7 @@ url: /aspose.slides/portioncollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathPortion](../../mathportion) | The object to remove from the IGenericCollection. |
+| item | [Portion](../../portion) | The object to remove from the IGenericCollection. |
 
 ### Result
 boolean
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-## remove([Portion](../../portion) item)  function
+## remove([MathPortion](../../mathportion) item)  function
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -40,7 +40,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Portion](../../portion) | The object to remove from the IGenericCollection. |
+| item | [MathPortion](../../mathportion) | The object to remove from the IGenericCollection. |
 
 ### Result
 boolean

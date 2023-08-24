@@ -19,6 +19,42 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
+## createMathBlock([MathLimit](../../mathlimit) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathLimit](../../mathlimit) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathBorderBox](../../mathborderbox) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBorderBox](../../mathborderbox) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## createMathBlock([MathFraction](../../mathfraction) mathElement)  function
 
  Create a math block and place the element in it
@@ -37,7 +73,7 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathMatrix](../../mathmatrix) mathElement)  function
+## createMathBlock([MathDelimiter](../../mathdelimiter) mathElement)  function
 
  Create a math block and place the element in it
  
@@ -46,7 +82,7 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathMatrix](../../mathmatrix) | A math element |
+| mathElement | [MathDelimiter](../../mathdelimiter) | A math element |
 
 ### Result
 [MathBlock](../../mathblock)
@@ -73,24 +109,6 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathAccent](../../mathaccent) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathAccent](../../mathaccent) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
 ## createMathBlock([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) mathElement)  function
 
  Create a math block and place the element in it
@@ -109,7 +127,7 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathBar](../../mathbar) mathElement)  function
+## createMathBlock([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) mathElement)  function
 
  Create a math block and place the element in it
  
@@ -118,7 +136,97 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBar](../../mathbar) | A math element |
+| mathElement | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathBox](../../mathbox) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBox](../../mathbox) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathMatrix](../../mathmatrix) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathMatrix](../../mathmatrix) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathArray](../../matharray) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathArray](../../matharray) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
+## createMathBlock([MathBlock](../../mathblock) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBlock](../../mathblock) | A math element |
 
 ### Result
 [MathBlock](../../mathblock)
@@ -163,6 +271,24 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
+## createMathBlock([MathNaryOperator](../../mathnaryoperator) mathElement)  function
+
+ Create a math block and place the element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathNaryOperator](../../mathnaryoperator) | A math element |
+
+### Result
+[MathBlock](../../mathblock)
+
+
+---
+
+
 ## createMathBlock([MathematicalText](../../mathematicaltext) mathElement)  function
 
  Create a math block and place the element in it
@@ -181,7 +307,7 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) mathElement)  function
+## createMathBlock([MathAccent](../../mathaccent) mathElement)  function
 
  Create a math block and place the element in it
  
@@ -190,133 +316,7 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathDelimiter](../../mathdelimiter) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathDelimiter](../../mathdelimiter) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathBox](../../mathbox) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathBox](../../mathbox) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathBlock](../../mathblock) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathBlock](../../mathblock) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathLimit](../../mathlimit) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathLimit](../../mathlimit) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathArray](../../matharray) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathArray](../../matharray) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | A math element |
-
-### Result
-[MathBlock](../../mathblock)
-
-
----
-
-
-## createMathBlock([MathNaryOperator](../../mathnaryoperator) mathElement)  function
-
- Create a math block and place the element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathNaryOperator](../../mathnaryoperator) | A math element |
+| mathElement | [MathAccent](../../mathaccent) | A math element |
 
 ### Result
 [MathBlock](../../mathblock)
@@ -343,7 +343,7 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 ---
 
 
-## createMathBlock([MathBorderBox](../../mathborderbox) mathElement)  function
+## createMathBlock([MathBar](../../mathbar) mathElement)  function
 
  Create a math block and place the element in it
  
@@ -352,7 +352,7 @@ url: /aspose.slides/mathblockfactory/createmathblock/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBorderBox](../../mathborderbox) | A math element |
+| mathElement | [MathBar](../../mathbar) | A math element |
 
 ### Result
 [MathBlock](../../mathblock)

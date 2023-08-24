@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/portioncollection/set_item/
 ---
 
-## set_Item(int index, [MathPortion](../../mathportion) value)  function
+## set_Item(int index, [Portion](../../portion) value)  function
 
  Gets the element at the specified index.
  
@@ -16,7 +16,7 @@ url: /aspose.slides/portioncollection/set_item/
 ---
 
 
-## set_Item(int index, [Portion](../../portion) value)  function
+## set_Item(int index, [MathPortion](../../mathportion) value)  function
 
  Gets the element at the specified index.
  

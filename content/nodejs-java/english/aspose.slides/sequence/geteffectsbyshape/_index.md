@@ -7,7 +7,19 @@ type: docs
 url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
-## getEffectsByShape([Chart](../../chart) shape)  function
+## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([Connector](../../connector) shape)  function
 
  Returns array of effects for the specified shape.
  
@@ -31,7 +43,91 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
+## getEffectsByShape([Shape](../../shape) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([Ink](../../ink) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
 ## getEffectsByShape([GroupShape](../../groupshape) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([SummaryZoomSection](../../summaryzoomsection) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([ZoomObject](../../zoomobject) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([SmartArt](../../smartart) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([VideoFrame](../../videoframe) shape)  function
 
  Returns array of effects for the specified shape.
  
@@ -55,7 +151,19 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([AudioFrame](../../audioframe) shape)  function
+## getEffectsByShape([ZoomFrame](../../zoomframe) shape)  function
+
+ Returns array of effects for the specified shape.
+ 
+
+### Result
+[Effect](../../effect)
+
+
+---
+
+
+## getEffectsByShape([AutoShape](../../autoshape) shape)  function
 
  Returns array of effects for the specified shape.
  
@@ -91,7 +199,7 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([ZoomObject](../../zoomobject) shape)  function
+## getEffectsByShape([AudioFrame](../../audioframe) shape)  function
 
  Returns array of effects for the specified shape.
  
@@ -103,43 +211,7 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 ---
 
 
-## getEffectsByShape([AutoShape](../../autoshape) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([VideoFrame](../../videoframe) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([SmartArtShape](../../smartartshape) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([SmartArt](../../smartart) shape)  function
+## getEffectsByShape([Chart](../../chart) shape)  function
 
  Returns array of effects for the specified shape.
  
@@ -164,78 +236,6 @@ url: /aspose.slides/sequence/geteffectsbyshape/
 
 
 ## getEffectsByShape([SummaryZoomFrame](../../summaryzoomframe) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([Ink](../../ink) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([SummaryZoomSection](../../summaryzoomsection) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([ZoomFrame](../../zoomframe) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([Shape](../../shape) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([LegacyDiagram](../../legacydiagram) shape)  function
-
- Returns array of effects for the specified shape.
- 
-
-### Result
-[Effect](../../effect)
-
-
----
-
-
-## getEffectsByShape([Connector](../../connector) shape)  function
 
  Returns array of effects for the specified shape.
  

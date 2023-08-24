@@ -19,7 +19,7 @@ ResponsiveHtmlController
 ---
 
 
-## ResponsiveHtmlController([ResponsiveHtmlController](../../responsivehtmlcontroller) controller) function
+## ResponsiveHtmlController([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) controller) function
 
  Creates new instance
  
@@ -28,7 +28,7 @@ ResponsiveHtmlController
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [ResponsiveHtmlController](../../responsivehtmlcontroller) | HTML formatting controller |
+| controller | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | HTML formatting controller |
 
 ### Result
 ResponsiveHtmlController
@@ -73,7 +73,7 @@ ResponsiveHtmlController
 ---
 
 
-## ResponsiveHtmlController([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) controller) function
+## ResponsiveHtmlController([ResponsiveHtmlController](../../responsivehtmlcontroller) controller) function
 
  Creates new instance
  
@@ -82,7 +82,7 @@ ResponsiveHtmlController
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | HTML formatting controller |
+| controller | [ResponsiveHtmlController](../../responsivehtmlcontroller) | HTML formatting controller |
 
 ### Result
 ResponsiveHtmlController

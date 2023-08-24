@@ -14,7 +14,7 @@ url: /aspose.slides/slideshowtransition/getvalue/
  
 
 ### Result
-[MorphTransition](../../morphtransition), [OrientationTransition](../../orientationtransition), [InOutTransition](../../inouttransition), [RippleTransition](../../rippletransition), [FlyThroughTransition](../../flythroughtransition), [CornerDirectionTransition](../../cornerdirectiontransition), [SideDirectionTransition](../../sidedirectiontransition), [ShredTransition](../../shredtransition), [LeftRightDirectionTransition](../../leftrightdirectiontransition), [EmptyTransition](../../emptytransition), [EightDirectionTransition](../../eightdirectiontransition), [RevealTransition](../../revealtransition), [OptionalBlackTransition](../../optionalblacktransition), [SplitTransition](../../splittransition), [TransitionValueBase](../../transitionvaluebase), [WheelTransition](../../wheeltransition), [GlitterTransition](../../glittertransition)
+[EmptyTransition](../../emptytransition), [GlitterTransition](../../glittertransition), [OrientationTransition](../../orientationtransition), [EightDirectionTransition](../../eightdirectiontransition), [RevealTransition](../../revealtransition), [WheelTransition](../../wheeltransition), [OptionalBlackTransition](../../optionalblacktransition), [RippleTransition](../../rippletransition), [LeftRightDirectionTransition](../../leftrightdirectiontransition), [ShredTransition](../../shredtransition), [SideDirectionTransition](../../sidedirectiontransition), [InOutTransition](../../inouttransition), [CornerDirectionTransition](../../cornerdirectiontransition), [MorphTransition](../../morphtransition), [FlyThroughTransition](../../flythroughtransition), [TransitionValueBase](../../transitionvaluebase), [SplitTransition](../../splittransition)
 
 
 ---

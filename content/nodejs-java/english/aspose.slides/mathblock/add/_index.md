@@ -7,6 +7,36 @@ type: docs
 url: /aspose.slides/mathblock/add/
 ---
 
+## add([MathLimit](../../mathlimit) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathLimit](../../mathlimit) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
+## add([MathBorderBox](../../mathborderbox) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBorderBox](../../mathborderbox) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
 ## add([MathFraction](../../mathfraction) item)  function
 
  Adds a math element to the end of the collection.
@@ -22,7 +52,7 @@ url: /aspose.slides/mathblock/add/
 ---
 
 
-## add([MathMatrix](../../mathmatrix) item)  function
+## add([MathDelimiter](../../mathdelimiter) item)  function
 
  Adds a math element to the end of the collection.
  
@@ -31,7 +61,7 @@ url: /aspose.slides/mathblock/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathMatrix](../../mathmatrix) | The IMathElement to be added to the end of the collection. |
+| item | [MathDelimiter](../../mathdelimiter) | The IMathElement to be added to the end of the collection. |
 
 
 ---
@@ -52,21 +82,6 @@ url: /aspose.slides/mathblock/add/
 ---
 
 
-## add([MathAccent](../../mathaccent) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathAccent](../../mathaccent) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
 ## add([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) item)  function
 
  Adds a math element to the end of the collection.
@@ -82,7 +97,7 @@ url: /aspose.slides/mathblock/add/
 ---
 
 
-## add([MathBar](../../mathbar) item)  function
+## add([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  function
 
  Adds a math element to the end of the collection.
  
@@ -91,7 +106,82 @@ url: /aspose.slides/mathblock/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBar](../../mathbar) | The IMathElement to be added to the end of the collection. |
+| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
+## add([MathBox](../../mathbox) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBox](../../mathbox) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
+## add([MathMatrix](../../mathmatrix) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathMatrix](../../mathmatrix) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
+## add([MathGroupingCharacter](../../mathgroupingcharacter) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
+## add([MathArray](../../matharray) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathArray](../../matharray) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
+## add([MathBlock](../../mathblock) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathBlock](../../mathblock) | The IMathElement to be added to the end of the collection. |
 
 
 ---
@@ -127,6 +217,21 @@ url: /aspose.slides/mathblock/add/
 ---
 
 
+## add([MathNaryOperator](../../mathnaryoperator) item)  function
+
+ Adds a math element to the end of the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [MathNaryOperator](../../mathnaryoperator) | The IMathElement to be added to the end of the collection. |
+
+
+---
+
+
 ## add([MathematicalText](../../mathematicaltext) item)  function
 
  Adds a math element to the end of the collection.
@@ -142,7 +247,7 @@ url: /aspose.slides/mathblock/add/
 ---
 
 
-## add([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) item)  function
+## add([MathAccent](../../mathaccent) item)  function
 
  Adds a math element to the end of the collection.
  
@@ -151,112 +256,7 @@ url: /aspose.slides/mathblock/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
-## add([MathDelimiter](../../mathdelimiter) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathDelimiter](../../mathdelimiter) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
-## add([MathBox](../../mathbox) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathBox](../../mathbox) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
-## add([MathBlock](../../mathblock) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathBlock](../../mathblock) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
-## add([MathLimit](../../mathlimit) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathLimit](../../mathlimit) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
-## add([MathArray](../../matharray) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathArray](../../matharray) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
-## add([MathGroupingCharacter](../../mathgroupingcharacter) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathGroupingCharacter](../../mathgroupingcharacter) | The IMathElement to be added to the end of the collection. |
-
-
----
-
-
-## add([MathNaryOperator](../../mathnaryoperator) item)  function
-
- Adds a math element to the end of the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathNaryOperator](../../mathnaryoperator) | The IMathElement to be added to the end of the collection. |
+| item | [MathAccent](../../mathaccent) | The IMathElement to be added to the end of the collection. |
 
 
 ---
@@ -277,7 +277,7 @@ url: /aspose.slides/mathblock/add/
 ---
 
 
-## add([MathBorderBox](../../mathborderbox) item)  function
+## add([MathBar](../../mathbar) item)  function
 
  Adds a math element to the end of the collection.
  
@@ -286,7 +286,7 @@ url: /aspose.slides/mathblock/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathBorderBox](../../mathborderbox) | The IMathElement to be added to the end of the collection. |
+| item | [MathBar](../../mathbar) | The IMathElement to be added to the end of the collection. |
 
 
 ---

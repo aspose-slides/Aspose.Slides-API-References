@@ -25,7 +25,7 @@ url: /aspose.slides/shapecollection/insertpictureframe/
 | image | [PPImage](../../ppimage) | The image of picture frame. |
 
 ### Result
-[PictureFrame](../../pictureframe), [AudioFrame](../../audioframe), [VideoFrame](../../videoframe)
+[AudioFrame](../../audioframe), [VideoFrame](../../videoframe), [PictureFrame](../../pictureframe)
 
 
 ---

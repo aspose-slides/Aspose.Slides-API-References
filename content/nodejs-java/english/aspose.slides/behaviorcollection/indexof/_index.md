@@ -25,24 +25,6 @@ int
 ---
 
 
-## indexOf([MotionEffect](../../motioneffect) item)  function
-
- Determines the index of a specific item in the  List.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MotionEffect](../../motioneffect) | The object to locate in the List. |
-
-### Result
-int
-
-
----
-
-
 ## indexOf([FilterEffect](../../filtereffect) item)  function
 
  Determines the index of a specific item in the  List.
@@ -61,7 +43,7 @@ int
 ---
 
 
-## indexOf([RotationEffect](../../rotationeffect) item)  function
+## indexOf([MotionEffect](../../motioneffect) item)  function
 
  Determines the index of a specific item in the  List.
  
@@ -70,7 +52,25 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [RotationEffect](../../rotationeffect) | The object to locate in the List. |
+| item | [MotionEffect](../../motioneffect) | The object to locate in the List. |
+
+### Result
+int
+
+
+---
+
+
+## indexOf([ScaleEffect](../../scaleeffect) item)  function
+
+ Determines the index of a specific item in the  List.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ScaleEffect](../../scaleeffect) | The object to locate in the List. |
 
 ### Result
 int
@@ -97,7 +97,7 @@ int
 ---
 
 
-## indexOf([ScaleEffect](../../scaleeffect) item)  function
+## indexOf([RotationEffect](../../rotationeffect) item)  function
 
  Determines the index of a specific item in the  List.
  
@@ -106,7 +106,7 @@ int
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ScaleEffect](../../scaleeffect) | The object to locate in the List. |
+| item | [RotationEffect](../../rotationeffect) | The object to locate in the List. |
 
 ### Result
 int

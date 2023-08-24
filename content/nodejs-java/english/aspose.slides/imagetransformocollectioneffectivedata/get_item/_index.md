@@ -19,7 +19,7 @@ url: /aspose.slides/imagetransformocollectioneffectivedata/get_item/
 | index | int | Index of element. |
 
 ### Result
-AlphaModulateEffectiveData, PresetShadowEffectiveData, BiLevelEffectiveData, GlowEffectiveData, DuotoneEffectiveData, BlurEffectiveData, TintEffectiveData, ReflectionEffectiveData, HSLEffectiveData, AlphaInverseEffectiveData, AlphaFloorEffectiveData, AlphaBiLevelEffectiveData, AlphaModulateFixedEffectiveData, AlphaCeilingEffectiveData, SoftEdgeEffectiveData, GrayScaleEffectiveData, ColorChangeEffectiveData, InnerShadowEffectiveData, LuminanceEffectiveData, OuterShadowEffectiveData, FillOverlayEffectiveData, ColorReplaceEffectiveData, EffectEffectiveData, AlphaReplaceEffectiveData
+InnerShadowEffectiveData, AlphaReplaceEffectiveData, AlphaCeilingEffectiveData, PresetShadowEffectiveData, ColorReplaceEffectiveData, AlphaBiLevelEffectiveData, OuterShadowEffectiveData, AlphaModulateFixedEffectiveData, TintEffectiveData, SoftEdgeEffectiveData, AlphaFloorEffectiveData, AlphaInverseEffectiveData, HSLEffectiveData, BiLevelEffectiveData, GlowEffectiveData, FillOverlayEffectiveData, ReflectionEffectiveData, BlurEffectiveData, ColorChangeEffectiveData, EffectEffectiveData, GrayScaleEffectiveData, DuotoneEffectiveData, LuminanceEffectiveData, AlphaModulateEffectiveData
 
 
 ---

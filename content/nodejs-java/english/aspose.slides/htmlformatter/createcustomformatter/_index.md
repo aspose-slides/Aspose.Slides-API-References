@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/htmlformatter/createcustomformatter/
 ---
 
-## createCustomFormatter([ResponsiveHtmlController](../../responsivehtmlcontroller) formattingController)  function
+## createCustomFormatter([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) formattingController)  function
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
@@ -16,7 +16,7 @@ url: /aspose.slides/htmlformatter/createcustomformatter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [ResponsiveHtmlController](../../responsivehtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
 
 ### Result
 HtmlFormatter
@@ -61,7 +61,7 @@ HtmlFormatter
 ---
 
 
-## createCustomFormatter([EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) formattingController)  function
+## createCustomFormatter([ResponsiveHtmlController](../../responsivehtmlcontroller) formattingController)  function
 
  Creates and returns HTML formatter for custom callback-driven html generation.
  
@@ -70,7 +70,7 @@ HtmlFormatter
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [ResponsiveHtmlController](../../responsivehtmlcontroller) | Callback interface which controls html file generation. |
 
 ### Result
 HtmlFormatter
