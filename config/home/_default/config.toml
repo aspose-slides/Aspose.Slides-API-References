@@ -65,7 +65,11 @@ defaultContentLang = 'en'
     	[[languages.en.menu.main]]
      	  name = "Aspose.Slides for PHP via Java"
 		  url = "/php-java/"
-		  weight = 70		  
+		  weight = 70
+    	[[languages.en.menu.main]]
+     	  name = "Aspose.Slides for Node.js via Java"
+		  url = "/nodejs-java/"
+		  weight = 80
   [languages.ru]
     contentDir = 'content/home/russian'
     languageName = 'Русский'
@@ -96,7 +100,11 @@ defaultContentLang = 'en'
     	[[languages.ru.menu.main]]
      	  name = "Aspose.Slides для PHP через Java"
 		  url = "../php-java/"
-		  weight = 70		 	
+		  weight = 70	
+    	[[languages.ru.menu.main]]
+     	  name = "Aspose.Slides для NodeJS через Java"
+		  url = "../nodejs-java/"
+		  weight = 80	    
   [languages.zh]
     contentDir = 'content/home/chinese'
     languageName = "简体中文"
@@ -127,7 +135,11 @@ defaultContentLang = 'en'
     	[[languages.zh.menu.main]]
      	  name = "Aspose.Slides for PHP 通过 Java"
 		  url = "../php-java/"
-		  weight = 70	
+		  weight = 70
+    	[[languages.zh.menu.main]]
+     	  name = "Aspose.Slides for NodeJS 通过 Java"
+		  url = "../nodejs-java/"
+		  weight = 80    
   [languages.fr]
     contentDir = 'content/home/french'
     languageName = "Français"
@@ -159,6 +171,10 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides pour PHP via Java"
 		  url = "../php-java/"
 		  weight = 70	
+    	[[languages.fr.menu.main]]
+     	  name = "Aspose.Slides pour NodeJS via Java"
+		  url = "../nodejs-java/"
+		  weight = 80	    
   [languages.de]
     contentDir = 'content/home/german'
     languageName = "Deutsch"
@@ -189,7 +205,11 @@ defaultContentLang = 'en'
     	[[languages.de.menu.main]]
      	  name = "Aspose.Slides für PHP über Java"
 		  url = "../php-java/"
-		  weight = 70	
+		  weight = 70
+    	[[languages.de.menu.main]]
+     	  name = "Aspose.Slides für NodeJS über Java"
+		  url = "../nodejs-java/"
+		  weight = 80
   [languages.es]
     contentDir = 'content/home/spanish'
     languageName = "Español"
@@ -221,7 +241,10 @@ defaultContentLang = 'en'
      	  name = "Aspose.Slides para PHP a través de Java"
 		  url = "../php-java/"
 		  weight = 70	
-
+    	[[languages.es.menu.main]]
+     	  name = "Aspose.Slides para NodeJS a través de Java"
+		  url = "../nodejs-java/"
+		  weight = 80
 ignoreFiles = ["(?i:readme.md)", '\.spin$']
 
 # Image processing configuration.
