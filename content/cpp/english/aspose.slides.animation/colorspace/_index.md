@@ -3,7 +3,7 @@ title: ColorSpace
 second_title: Aspose.Slides for C++ API Reference
 description: Represents color space for color effect behavior.
 type: docs
-weight: 703
+weight: 716
 url: /aspose.slides.animation/colorspace/
 ---
 ## ColorSpace enum

@@ -3,7 +3,7 @@ title: FilterEffectType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents filter effect types.
 type: docs
-weight: 859
+weight: 872
 url: /aspose.slides.animation/filtereffecttype/
 ---
 ## FilterEffectType enum

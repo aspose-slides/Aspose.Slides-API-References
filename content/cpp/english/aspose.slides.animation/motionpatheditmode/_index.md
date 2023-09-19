@@ -3,7 +3,7 @@ title: MotionPathEditMode
 second_title: Aspose.Slides for C++ API Reference
 description: Specifies how the motion path moves when the target shape is moved
 type: docs
-weight: 898
+weight: 911
 url: /aspose.slides.animation/motionpatheditmode/
 ---
 ## MotionPathEditMode enum

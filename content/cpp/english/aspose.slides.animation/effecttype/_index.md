@@ -3,7 +3,7 @@ title: EffectType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of an animation effect.
 type: docs
-weight: 820
+weight: 833
 url: /aspose.slides.animation/effecttype/
 ---
 ## EffectType enum

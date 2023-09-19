@@ -3,7 +3,7 @@ title: EffectChartMajorGroupingType
 second_title: Aspose.Slides for C++ API Reference
 description: Represents the type of an animation effect for chart's element.
 type: docs
-weight: 729
+weight: 742
 url: /aspose.slides.animation/effectchartmajorgroupingtype/
 ---
 ## EffectChartMajorGroupingType enum

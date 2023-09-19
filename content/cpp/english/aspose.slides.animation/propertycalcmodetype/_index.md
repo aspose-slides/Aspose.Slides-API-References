@@ -3,7 +3,7 @@ title: PropertyCalcModeType
 second_title: Aspose.Slides for C++ API Reference
 description: Represent calc mode for animation property.
 type: docs
-weight: 924
+weight: 937
 url: /aspose.slides.animation/propertycalcmodetype/
 ---
 ## PropertyCalcModeType enum

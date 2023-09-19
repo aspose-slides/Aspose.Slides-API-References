@@ -1,7 +1,7 @@
 ---
 title: set_AfterAnimationColor()
 second_title: Aspose.Slides for C++ API Reference
-description: Defined an after animation color for effect. Write IColorFormat.
+description: Defines an after animation color for effect. Write IColorFormat.
 type: docs
 weight: 261
 url: /aspose.slides.animation/effect/set_afteranimationcolor/
@@ -9,7 +9,7 @@ url: /aspose.slides.animation/effect/set_afteranimationcolor/
 ## Effect::set_AfterAnimationColor(System::SharedPtr\<IColorFormat\>) method
 
 
-Defined an after animation color for effect. Write [IColorFormat](../../../aspose.slides/icolorformat/).
+Defines an after animation color for effect. Write [IColorFormat](../../../aspose.slides/icolorformat/).
 
 ```cpp
 void Aspose::Slides::Animation::Effect::set_AfterAnimationColor(System::SharedPtr<IColorFormat> value) override

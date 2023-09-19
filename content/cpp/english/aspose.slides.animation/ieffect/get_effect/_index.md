@@ -3,7 +3,7 @@ title: get_Effect()
 second_title: Aspose.Slides for C++ API Reference
 description: Returns an affect of a sequence at the specified index.
 type: docs
-weight: 274
+weight: 326
 url: /aspose.slides.animation/ieffect/get_effect/
 ---
 ## IEffect::get_Effect(int32_t) method

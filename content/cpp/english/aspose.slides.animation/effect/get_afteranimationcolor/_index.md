@@ -1,7 +1,7 @@
 ---
 title: get_AfterAnimationColor()
 second_title: Aspose.Slides for C++ API Reference
-description: Defined an after animation color for effect. Read IColorFormat.
+description: Defines an after animation color for effect. Read IColorFormat.
 type: docs
 weight: 248
 url: /aspose.slides.animation/effect/get_afteranimationcolor/
@@ -9,7 +9,7 @@ url: /aspose.slides.animation/effect/get_afteranimationcolor/
 ## Effect::get_AfterAnimationColor() method
 
 
-Defined an after animation color for effect. Read [IColorFormat](../../../aspose.slides/icolorformat/).
+Defines an after animation color for effect. Read [IColorFormat](../../../aspose.slides/icolorformat/).
 
 ```cpp
 System::SharedPtr<IColorFormat> Aspose::Slides::Animation::Effect::get_AfterAnimationColor() override
