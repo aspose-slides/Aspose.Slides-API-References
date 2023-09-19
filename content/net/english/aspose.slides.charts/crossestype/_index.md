@@ -3,9 +3,10 @@ title: CrossesType
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines where axis will cross.
 type: docs
-weight: 1430
+weight: 1440
 url: /aspose.slides.charts/crossestype/
 ---
+
 ## CrossesType enumeration
 
 Determines where axis will cross.

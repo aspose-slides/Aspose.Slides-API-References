@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/sequencecollection/getenumerator/
 ---
+
 ## SequenceCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

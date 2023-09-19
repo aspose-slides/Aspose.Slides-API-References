@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.import/
 ---
+
 Contains classes importing data into Microsoft PowerPoint presentations.
 
 ## Classes

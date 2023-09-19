@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.vba/vbareferencecollection/add/
 ---
+
 ## VbaReferenceCollection.Add method
 
 Adds the new reference to references collection

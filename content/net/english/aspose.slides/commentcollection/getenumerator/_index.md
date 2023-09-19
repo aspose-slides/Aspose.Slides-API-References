@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/commentcollection/getenumerator/
 ---
+
 ## CommentCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

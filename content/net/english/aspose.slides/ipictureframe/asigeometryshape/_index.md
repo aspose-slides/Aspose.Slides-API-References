@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ipictureframe/asigeometryshape/
 ---
+
 ## IPictureFrame.AsIGeometryShape property
 
 Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../../igeometryshape).

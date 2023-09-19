@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.util/slideutil/alignshapes/
 ---
+
 ## AlignShapes(ShapesAlignmentType, bool, IBaseSlide) {#alignshapes}
 
 Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other.

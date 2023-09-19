@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartcategorycollection/issynchronized/
 ---
+
 ## ChartCategoryCollection.IsSynchronized property
 
 Returns a value indicating whether access to the List is synchronized (thread safe). Read-only Boolean.

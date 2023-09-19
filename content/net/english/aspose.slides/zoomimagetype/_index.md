@@ -3,9 +3,10 @@ title: ZoomImageType
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines whether the Zoom object is using the slide preview or a cover image.
 type: docs
-weight: 11200
+weight: 11210
 url: /aspose.slides/zoomimagetype/
 ---
+
 ## ZoomImageType enumeration
 
 Defines whether the Zoom object is using the slide preview or a cover image.

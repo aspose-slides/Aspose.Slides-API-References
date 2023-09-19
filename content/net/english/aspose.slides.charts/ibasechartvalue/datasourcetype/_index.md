@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ibasechartvalue/datasourcetype/
 ---
+
 ## IBaseChartValue.DataSourceType property
 
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual. In other words it specifies the type of value of the Data property. This property is read-only. For changing value of this property you can use one of the ChartDataPointCollection.DataSourceTypeFor&lt;...&gt; properties. Read/write `DataSourceType`.

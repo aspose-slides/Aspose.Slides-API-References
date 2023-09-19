@@ -6,6 +6,7 @@ type: docs
 weight: 360
 url: /aspose.slides/ishapecollection/insertzoomframe/
 ---
+
 ## InsertZoomFrame(int, float, float, float, float, ISlide) {#insertzoomframe}
 
 Creates a new Zoom object and inserts it to a collection at the specified index.

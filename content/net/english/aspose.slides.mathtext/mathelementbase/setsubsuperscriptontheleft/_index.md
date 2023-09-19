@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.mathtext/mathelementbase/setsubsuperscriptontheleft/
 ---
+
 ## SetSubSuperscriptOnTheLeft(IMathElement, IMathElement) {#setsubsuperscriptontheleft}
 
 Creates subscript and superscript on the left

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/ialphaceiling/asiimagetransformoperation/
 ---
+
 ## IAlphaCeiling.AsIImageTransformOperation property
 
 Allows to get base IImageTransformOperationEx interface. Read-only [`IImageTransformOperation`](../../iimagetransformoperation).

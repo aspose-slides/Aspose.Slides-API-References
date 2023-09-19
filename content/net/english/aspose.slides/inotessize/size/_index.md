@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/inotessize/size/
 ---
+
 ## INotesSize.Size property
 
 Returns or sets the size in points. Read/write SizeF.

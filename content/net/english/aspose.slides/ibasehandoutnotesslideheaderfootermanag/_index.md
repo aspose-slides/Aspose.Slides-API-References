@@ -3,9 +3,10 @@ title: IBaseHandoutNotesSlideHeaderFooterManag
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents manager which holds behavior of the placeholders including header placeholder for all types handout and notes slides.
 type: docs
-weight: 4940
+weight: 4950
 url: /aspose.slides/ibasehandoutnotesslideheaderfootermanag/
 ---
+
 ## IBaseHandoutNotesSlideHeaderFooterManag interface
 
 Represents manager which holds behavior of the placeholders, including header placeholder for all types handout and notes slides.

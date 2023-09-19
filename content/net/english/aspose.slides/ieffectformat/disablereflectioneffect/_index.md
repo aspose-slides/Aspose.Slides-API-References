@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/ieffectformat/disablereflectioneffect/
 ---
+
 ## IEffectFormat.DisableReflectionEffect method
 
 Disables reflection effect.

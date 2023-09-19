@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/hyperlinkmanager/setinternalhyperlinkmouseover/
 ---
+
 ## HyperlinkManager.SetInternalHyperlinkMouseOver method
 
 Sets internal hyperlink mouse over.

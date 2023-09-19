@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ipicturefillformateffectivedata/dpi/
 ---
+
 ## IPictureFillFormatEffectiveData.Dpi property
 
 Returns the dpi which is used to fill a picture. Read-only Int32.

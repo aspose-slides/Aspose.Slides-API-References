@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/shapeframe/centerx/
 ---
+
 ## ShapeFrame.CenterX property
 
 Returns the X coordinate of a frame's center. Read-only Single.

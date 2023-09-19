@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/istringordoublechartvalue/asisinglecellchartvalue/
 ---
+
 ## IStringOrDoubleChartValue.AsISingleCellChartValue property
 
 Allows to get base ISingleCellChartValue interface. Read-only [`ISingleCellChartValue`](../../isinglecellchartvalue).

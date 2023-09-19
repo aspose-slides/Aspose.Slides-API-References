@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/presentation/masternotesslidemanager/
 ---
+
 ## Presentation.MasterNotesSlideManager property
 
 Returns notes master manager. Read-only [`IMasterNotesSlideManager`](../../imasternotesslidemanager).

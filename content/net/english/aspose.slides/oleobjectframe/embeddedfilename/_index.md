@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/oleobjectframe/embeddedfilename/
 ---
+
 ## OleObjectFrame.EmbeddedFileName property
 
 Returns the path of embedded OLE object

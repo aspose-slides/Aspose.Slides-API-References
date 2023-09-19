@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibackgroundeffectivedata/asifillparamsource/
 ---
+
 ## IBackgroundEffectiveData.AsIFillParamSource property
 
 Returns IFillParamSource interface.

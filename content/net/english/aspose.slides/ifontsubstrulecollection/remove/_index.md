@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ifontsubstrulecollection/remove/
 ---
+
 ## IFontSubstRuleCollection.Remove method
 
 Removes the first occurrence of a specific object from the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/ieffect/afteranimationtype/
 ---
+
 ## IEffect.AfterAnimationType property
 
 Defined an after animation type for effect. Read/write `AfterAnimationType`.

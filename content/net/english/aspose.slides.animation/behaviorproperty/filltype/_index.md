@@ -6,6 +6,7 @@ type: docs
 weight: 390
 url: /aspose.slides.animation/behaviorproperty/filltype/
 ---
+
 ## BehaviorProperty.FillType property
 
 Represents 'fill.type' property

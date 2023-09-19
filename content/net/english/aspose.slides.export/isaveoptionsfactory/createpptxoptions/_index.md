@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/isaveoptionsfactory/createpptxoptions/
 ---
+
 ## ISaveOptionsFactory.CreatePptxOptions method
 
 Creates PPTX save options.

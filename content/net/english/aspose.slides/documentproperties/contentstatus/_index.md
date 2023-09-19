@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/documentproperties/contentstatus/
 ---
+
 ## DocumentProperties.ContentStatus property
 
 Returns or sets the content status of a presentation. Read/write String.

@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/ibaseportionformateffectivedata/languageid/
 ---
+
 ## IBasePortionFormatEffectiveData.LanguageId property
 
 Returns the Id of a language. Read-only String.

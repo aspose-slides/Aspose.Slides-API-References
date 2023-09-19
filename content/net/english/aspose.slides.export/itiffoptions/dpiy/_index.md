@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/itiffoptions/dpiy/
 ---
+
 ## ITiffOptions.DpiY property
 
 Specifies the vertical resolution in dots per inch. Read/write UInt32.

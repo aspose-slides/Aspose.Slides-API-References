@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itab/asicomparable/
 ---
+
 ## ITab.AsIComparable property
 
 Returns IComparable interface. Read-only IComparable.

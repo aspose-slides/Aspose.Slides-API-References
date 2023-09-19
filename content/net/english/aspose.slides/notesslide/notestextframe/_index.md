@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/notesslide/notestextframe/
 ---
+
 ## NotesSlide.NotesTextFrame property
 
 Returns a TextFrame with notes' text if there is one. Read-only [`ITextFrame`](../../itextframe).

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/imagecollection/addimage/
 ---
+
 ## AddImage(IPPImage) {#addimage}
 
 Adds a copy of an image from an another presentation.

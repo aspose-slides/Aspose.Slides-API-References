@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/ifilloverlayeffectivedata/blend/
 ---
+
 ## IFillOverlayEffectiveData.Blend property
 
 FillBlendMode. Read-only [`FillBlendMode`](../../../aspose.slides/fillblendmode).

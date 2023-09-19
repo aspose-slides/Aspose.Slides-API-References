@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/fieldtype/datetime10/
 ---
+
 ## FieldType.DateTime10 property
 
 Current date and time in a tenth predefined format (hh:mm for english). Read-only [`FieldType`](../../fieldtype).

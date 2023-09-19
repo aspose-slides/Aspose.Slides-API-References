@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/igifoptions/framesize/
 ---
+
 ## IGifOptions.FrameSize property
 
 Gets or sets frame size.

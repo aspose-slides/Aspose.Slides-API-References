@@ -6,6 +6,7 @@ type: docs
 weight: 290
 url: /aspose.slides/shape/x/
 ---
+
 ## Shape.X property
 
 Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write Single.

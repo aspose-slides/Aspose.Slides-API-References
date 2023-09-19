@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/ipresentation/sections/
 ---
+
 ## IPresentation.Sections property
 
 Returns a list of all slides sections that are defined in the presentation. Read-only [`ISectionCollection`](../../isectioncollection).

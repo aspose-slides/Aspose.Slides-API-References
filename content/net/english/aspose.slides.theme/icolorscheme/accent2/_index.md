@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/icolorscheme/accent2/
 ---
+
 ## IColorScheme.Accent2 property
 
 Second accent color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/ivideoplayerhtmlcontroller/asilinkembedcontroller/
 ---
+
 ## IVideoPlayerHtmlController.AsILinkEmbedController property
 
 Allows to get base ILinkEmbedController interface. Read-only [`ILinkEmbedController`](../../ilinkembedcontroller).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/icontrolpropertiescollection/item/
 ---
+
 ## IControlPropertiesCollection indexer
 
 Returns or sets property.

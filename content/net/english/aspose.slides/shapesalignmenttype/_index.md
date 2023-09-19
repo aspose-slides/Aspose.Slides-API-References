@@ -3,9 +3,10 @@ title: ShapesAlignmentType
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines a way to change the placement of selected shapes on the slide.
 type: docs
-weight: 9290
+weight: 9300
 url: /aspose.slides/shapesalignmenttype/
 ---
+
 ## ShapesAlignmentType enumeration
 
 Defines a way to change the placement of selected shapes on the slide.

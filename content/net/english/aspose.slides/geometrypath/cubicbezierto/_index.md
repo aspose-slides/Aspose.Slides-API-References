@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/geometrypath/cubicbezierto/
 ---
+
 ## CubicBezierTo(PointF, PointF, PointF) {#cubicbezierto_2}
 
 Adds cubic Bezier curve at the end the path

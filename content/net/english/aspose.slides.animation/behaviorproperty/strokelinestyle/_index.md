@@ -6,6 +6,7 @@ type: docs
 weight: 970
 url: /aspose.slides.animation/behaviorproperty/strokelinestyle/
 ---
+
 ## BehaviorProperty.StrokeLineStyle property
 
 Represents 'stroke.linestyle' property

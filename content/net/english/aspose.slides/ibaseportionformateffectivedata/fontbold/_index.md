@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ibaseportionformateffectivedata/fontbold/
 ---
+
 ## IBasePortionFormatEffectiveData.FontBold property
 
 Determines whether the font is bold. Read-only Boolean.

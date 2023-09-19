@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/itrendline/trendlinetype/
 ---
+
 ## ITrendline.TrendlineType property
 
 Gets or sets type of trend line. Read/write `TrendlineType`.

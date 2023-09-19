@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ishapebevel/height/
 ---
+
 ## IShapeBevel.Height property
 
 Bevel height. Read/write Double.

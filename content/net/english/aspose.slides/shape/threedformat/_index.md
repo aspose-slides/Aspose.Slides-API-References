@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/shape/threedformat/
 ---
+
 ## Shape.ThreeDFormat property
 
 Returns the ThreeDFormat object that 3d effect properties for a shape. Note: can return null for certain types of shapes which don't have 3d properties. Read-only [`IThreeDFormat`](../../ithreedformat).

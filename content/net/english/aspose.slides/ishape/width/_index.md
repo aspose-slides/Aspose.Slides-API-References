@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides/ishape/width/
 ---
+
 ## IShape.Width property
 
 Returns or sets the width of the shape. Read/write Single.

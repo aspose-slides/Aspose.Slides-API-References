@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/axescompositionnotcombinableexception/axescompositionnotcombinableexception/
 ---
+
 ## AxesCompositionNotCombinableException() {#constructor}
 
 Default constructor.

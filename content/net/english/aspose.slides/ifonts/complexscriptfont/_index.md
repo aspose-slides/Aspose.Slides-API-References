@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ifonts/complexscriptfont/
 ---
+
 ## IFonts.ComplexScriptFont property
 
 Returns or sets the complex script font. Read/write [`IFontData`](../../ifontdata).

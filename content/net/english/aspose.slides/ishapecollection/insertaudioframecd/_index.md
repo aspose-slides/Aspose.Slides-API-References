@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/ishapecollection/insertaudioframecd/
 ---
+
 ## IShapeCollection.InsertAudioFrameCD method
 
 Insert an AudioFrame with CD.

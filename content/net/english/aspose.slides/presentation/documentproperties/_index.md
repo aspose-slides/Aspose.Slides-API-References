@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/presentation/documentproperties/
 ---
+
 ## Presentation.DocumentProperties property
 
 Returns DocumentProperties object which contains standard and custom document properties. Read-only [`IDocumentProperties`](../../idocumentproperties).

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/shape/height/
 ---
+
 ## Shape.Height property
 
 Returns or sets the height of the shape. Read/write Single.

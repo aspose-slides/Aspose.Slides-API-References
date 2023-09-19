@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/chartdatacell/formula/
 ---
+
 ## ChartDataCell.Formula property
 
 Gets or sets the formula in A1-style.

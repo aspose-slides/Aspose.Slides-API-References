@@ -6,6 +6,7 @@ type: docs
 weight: 280
 url: /aspose.slides.charts/axis/isoverflowbin/
 ---
+
 ## Axis.IsOverflowBin property
 
 Specifies if overflow bin applied. Use IsAutomaticOverflowBin and OverflowBin to adjust overflow bin value.

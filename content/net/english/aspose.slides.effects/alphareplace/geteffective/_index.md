@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/alphareplace/geteffective/
 ---
+
 ## AlphaReplace.GetEffective method
 
 Gets effective Alpha Replace effect data with the inheritance applied.

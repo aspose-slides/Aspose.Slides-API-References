@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/charttextformat/copyfrom/
 ---
+
 ## ChartTextFormat.CopyFrom method
 
 Copies text format from specified text frame.

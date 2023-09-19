@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/ishape/isgrouped/
 ---
+
 ## IShape.IsGrouped property
 
 Determines whether the shape is grouped. Read-only Boolean.

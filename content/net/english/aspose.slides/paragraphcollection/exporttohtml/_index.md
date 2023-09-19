@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/paragraphcollection/exporttohtml/
 ---
+
 ## ParagraphCollection.ExportToHtml method
 
 Converts specifying paragraphs to the HTML and returns it as String object.

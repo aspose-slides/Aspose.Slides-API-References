@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/presentationanimationsgenerator/exportedslides/
 ---
+
 ## PresentationAnimationsGenerator.ExportedSlides property
 
 Get the number of the exported slides count.

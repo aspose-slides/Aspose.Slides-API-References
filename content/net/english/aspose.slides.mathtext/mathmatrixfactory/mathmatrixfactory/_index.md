@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathmatrixfactory/mathmatrixfactory/
 ---
+
 ## MathMatrixFactory constructor
 
 The default constructor.

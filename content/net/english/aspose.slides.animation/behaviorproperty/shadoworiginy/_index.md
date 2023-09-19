@@ -6,6 +6,7 @@ type: docs
 weight: 750
 url: /aspose.slides.animation/behaviorproperty/shadoworiginy/
 ---
+
 ## BehaviorProperty.ShadowOriginY property
 
 Represents 'shadow.origin.y' property

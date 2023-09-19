@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/ihsl/asiaccessiblepviobject/
 ---
+
 ## IHSL.AsIAccessiblePVIObject property
 
 Allows to get base IAccessiblePVIObject interface. Read-only [`IAccessiblePVIObject`](../../../aspose.slides/iaccessiblepviobject-1).

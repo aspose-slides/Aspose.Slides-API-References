@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/mathdelimiter/enclose/
 ---
+
 ## MathDelimiter.Enclose method
 
 Encloses a math element in specified characters such as parenthesis or another characters as framing

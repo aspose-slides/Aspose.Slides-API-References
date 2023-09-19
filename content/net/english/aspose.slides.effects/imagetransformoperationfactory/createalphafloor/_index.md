@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/imagetransformoperationfactory/createalphafloor/
 ---
+
 ## ImageTransformOperationFactory.CreateAlphaFloor method
 
 Creates Alpha floor effect.

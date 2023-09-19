@@ -3,9 +3,10 @@ title: MathBorderBoxFactory
 second_title: Aspose.Sildes for .NET API Reference
 description: Allows to create a math border box
 type: docs
-weight: 8030
+weight: 8040
 url: /aspose.slides.mathtext/mathborderboxfactory/
 ---
+
 ## MathBorderBoxFactory class
 
 Allows to create a math border box

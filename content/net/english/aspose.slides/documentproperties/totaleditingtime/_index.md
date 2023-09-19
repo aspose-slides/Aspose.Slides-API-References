@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides/documentproperties/totaleditingtime/
 ---
+
 ## DocumentProperties.TotalEditingTime property
 
 Total editing time of a presentation. Read/write TimeSpan.

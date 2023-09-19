@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/commentauthorcollection/findbynameandinitials/
 ---
+
 ## CommentAuthorCollection.FindByNameAndInitials method
 
 Find author in a collection by name and initials.

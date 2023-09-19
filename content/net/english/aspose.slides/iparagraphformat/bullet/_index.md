@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iparagraphformat/bullet/
 ---
+
 ## IParagraphFormat.Bullet property
 
 Returns bullet format of the paragraph. Read-only [`IBulletFormat`](../../ibulletformat).

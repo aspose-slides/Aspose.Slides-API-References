@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/portionformat/hyperlinkmanager/
 ---
+
 ## PortionFormat.HyperlinkManager property
 
 Hyperlinks manager. Read-only [`IHyperlinkManager`](../../ihyperlinkmanager).

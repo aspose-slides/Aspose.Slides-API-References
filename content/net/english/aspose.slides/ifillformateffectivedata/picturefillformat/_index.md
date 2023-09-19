@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ifillformateffectivedata/picturefillformat/
 ---
+
 ## IFillFormatEffectiveData.PictureFillFormat property
 
 Returns the picture fill format. Read-only [`IPictureFillFormatEffectiveData`](../../ipicturefillformateffectivedata).

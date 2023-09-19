@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/icellformat/geteffective/
 ---
+
 ## ICellFormat.GetEffective method
 
 Gets effective table cell formatting properties with inheritance and table styles applied.

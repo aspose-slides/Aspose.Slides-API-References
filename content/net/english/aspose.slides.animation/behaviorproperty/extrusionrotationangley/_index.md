@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.animation/behaviorproperty/extrusionrotationangley/
 ---
+
 ## BehaviorProperty.ExtrusionRotationAngleY property
 
 Represents 'extrusion.rotationangle.y' property

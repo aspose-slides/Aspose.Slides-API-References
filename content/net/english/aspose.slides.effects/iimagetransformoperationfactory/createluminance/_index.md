@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.effects/iimagetransformoperationfactory/createluminance/
 ---
+
 ## IImageTransformOperationFactory.CreateLuminance method
 
 Createtes Luminance effect.

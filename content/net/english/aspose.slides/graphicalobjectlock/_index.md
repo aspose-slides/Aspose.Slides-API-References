@@ -3,9 +3,10 @@ title: GraphicalObjectLock
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines which operations are disabled on the parent GraphicalObject.
 type: docs
-weight: 4740
+weight: 4750
 url: /aspose.slides/graphicalobjectlock/
 ---
+
 ## GraphicalObjectLock class
 
 Determines which operations are disabled on the parent GraphicalObject.

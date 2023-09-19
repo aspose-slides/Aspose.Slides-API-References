@@ -3,9 +3,10 @@ title: IBehaviorPropertyCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents timing properties for the effect behavior.
 type: docs
-weight: 360
+weight: 370
 url: /aspose.slides.animation/ibehaviorpropertycollection/
 ---
+
 ## IBehaviorPropertyCollection interface
 
 Represents timing properties for the effect behavior.

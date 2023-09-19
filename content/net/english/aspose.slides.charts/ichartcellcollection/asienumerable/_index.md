@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartcellcollection/asienumerable/
 ---
+
 ## IChartCellCollection.AsIEnumerable property
 
 Returns ICollection interface. Read-only IEnumerable.

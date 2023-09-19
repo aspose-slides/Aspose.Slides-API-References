@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/buildversioninfo/productmajor/
 ---
+
 ## BuildVersionInfo.ProductMajor field
 
 Major version number.

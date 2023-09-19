@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypepie/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypePie method
 
 Return true if chartType is one of Pie subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): BarOfPie, ExplodedPie, ExplodedPie3D, Pie, Pie3D, PieOfPie.

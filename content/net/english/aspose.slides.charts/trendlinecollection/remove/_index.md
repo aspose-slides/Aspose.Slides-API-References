@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/trendlinecollection/remove/
 ---
+
 ## TrendlineCollection.Remove method
 
 Removes the specified value.

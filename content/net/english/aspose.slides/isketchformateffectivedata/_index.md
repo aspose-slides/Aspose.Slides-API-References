@@ -3,9 +3,10 @@ title: ISketchFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective line sketch properties.
 type: docs
-weight: 6580
+weight: 6590
 url: /aspose.slides/isketchformateffectivedata/
 ---
+
 ## ISketchFormatEffectiveData interface
 
 Immutable object which contains effective line sketch properties.

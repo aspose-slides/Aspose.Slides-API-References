@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/igroupshapelock/positionlocked/
 ---
+
 ## IGroupShapeLock.PositionLocked property
 
 Determines whether moving this shape is forbidden. Read/write Boolean.

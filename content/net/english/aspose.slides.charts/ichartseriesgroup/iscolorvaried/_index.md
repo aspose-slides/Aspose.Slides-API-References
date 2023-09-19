@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/ichartseriesgroup/iscolorvaried/
 ---
+
 ## IChartSeriesGroup.IsColorVaried property
 
 Specifies that each data marker in the series has a different color. Read/write Boolean.

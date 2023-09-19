@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/connector/reroute/
 ---
+
 ## Connector.Reroute method
 
 Reroutes connector so that it take the shortest possible path between the shapes it connect.

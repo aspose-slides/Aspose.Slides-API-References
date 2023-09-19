@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipresentationinfo/iswriteprotected/
 ---
+
 ## IPresentationInfo.IsWriteProtected property
 
 Gets a value that indicates whether a binded presentation is write protected.

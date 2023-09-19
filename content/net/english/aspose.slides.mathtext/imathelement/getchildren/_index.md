@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/imathelement/getchildren/
 ---
+
 ## IMathElement.GetChildren method
 
 Get children elements

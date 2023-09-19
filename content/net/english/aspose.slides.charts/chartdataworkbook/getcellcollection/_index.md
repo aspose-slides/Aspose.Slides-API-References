@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartdataworkbook/getcellcollection/
 ---
+
 ## ChartDataWorkbook.GetCellCollection method
 
 Gets the set of cells.

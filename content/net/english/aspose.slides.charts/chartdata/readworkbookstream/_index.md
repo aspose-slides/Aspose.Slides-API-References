@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/chartdata/readworkbookstream/
 ---
+
 ## ChartData.ReadWorkbookStream method
 
 Writes the internally contained Excel workbook it into an in-memory stream.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/chartcategorycollection/copyto/
 ---
+
 ## ChartCategoryCollection.CopyTo method
 
 Copies all elements of the collection to the specified array.

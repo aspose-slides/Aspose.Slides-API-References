@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/imathelementcollection/indexof/
 ---
+
 ## IMathElementCollection.IndexOf method
 
 Determines the index of a specific math element in collection.

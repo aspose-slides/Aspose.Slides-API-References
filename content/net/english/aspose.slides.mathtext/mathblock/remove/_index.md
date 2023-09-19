@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.mathtext/mathblock/remove/
 ---
+
 ## MathBlock.Remove method
 
 Removes the first occurrence of a specific object from the collection.

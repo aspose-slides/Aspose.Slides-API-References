@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/mathblock/add/
 ---
+
 ## MathBlock.Add method
 
 Adds a math element to the end of the collection.

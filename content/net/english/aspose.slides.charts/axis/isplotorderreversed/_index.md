@@ -6,6 +6,7 @@ type: docs
 weight: 290
 url: /aspose.slides.charts/axis/isplotorderreversed/
 ---
+
 ## Axis.IsPlotOrderReversed property
 
 Represents if MS PowerPoint plots data points from last to first. Read/write Boolean.

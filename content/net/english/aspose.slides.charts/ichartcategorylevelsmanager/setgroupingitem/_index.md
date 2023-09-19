@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartcategorylevelsmanager/setgroupingitem/
 ---
+
 ## IChartCategoryLevelsManager.SetGroupingItem method
 
 Sets grouping item for defined level.

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/tagcollection/add/
 ---
+
 ## TagCollection.Add method
 
 Adds a new tag to collection.

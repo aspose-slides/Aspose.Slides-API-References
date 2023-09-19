@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/autoshape/usebackgroundfill/
 ---
+
 ## AutoShape.UseBackgroundFill property
 
 Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write Boolean.

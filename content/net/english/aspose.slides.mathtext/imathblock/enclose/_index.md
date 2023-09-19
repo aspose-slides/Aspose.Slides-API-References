@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathblock/enclose/
 ---
+
 ## IMathBlock.Enclose method
 
 Encloses child elements of this block in specified characters such as parenthesis or another as framing and delimit with a separator character

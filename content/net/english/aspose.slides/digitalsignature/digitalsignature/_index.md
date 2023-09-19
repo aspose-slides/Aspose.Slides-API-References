@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/digitalsignature/digitalsignature/
 ---
+
 ## DigitalSignature(X509Certificate2) {#constructor}
 
 Creates a new DigitalSignature object with the specified certificate.

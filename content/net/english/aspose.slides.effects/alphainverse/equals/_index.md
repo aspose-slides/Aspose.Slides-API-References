@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/alphainverse/equals/
 ---
+
 ## AlphaInverse.Equals method
 
 Determines whether the specified [`AlphaInverse`](../../alphainverse) is equal to the current [`AlphaInverse`](../../alphainverse).

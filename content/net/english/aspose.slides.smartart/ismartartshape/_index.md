@@ -3,9 +3,10 @@ title: ISmartArtShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a shape inside SmartArt diagram
 type: docs
-weight: 9920
+weight: 9930
 url: /aspose.slides.smartart/ismartartshape/
 ---
+
 ## ISmartArtShape interface
 
 Represents a shape inside SmartArt diagram

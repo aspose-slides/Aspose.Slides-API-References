@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichart/backwall/
 ---
+
 ## IChart.BackWall property
 
 Returns an object which allows to change format of the back wall of a 3D chart. Read-only [`IChartWall`](../../ichartwall).

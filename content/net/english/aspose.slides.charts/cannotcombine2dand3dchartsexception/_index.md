@@ -3,9 +3,10 @@ title: CannotCombine2DAnd3DChartsException
 second_title: Aspose.Sildes for .NET API Reference
 description: Exception which thrown when trying to combine 2D and 3D chart types.
 type: docs
-weight: 1130
+weight: 1140
 url: /aspose.slides.charts/cannotcombine2dand3dchartsexception/
 ---
+
 ## CannotCombine2DAnd3DChartsException class
 
 Exception which thrown when trying to combine 2D and 3D chart types.

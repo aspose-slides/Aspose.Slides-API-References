@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ivideoframe/hideatshowing/
 ---
+
 ## IVideoFrame.HideAtShowing property
 
 Determines whether a VideoFrame is hidden. Read/write Boolean.

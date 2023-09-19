@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides.charts/ichartdatapointcollection/clear/
 ---
+
 ## IChartDataPointCollection.Clear method
 
 Removes all elements from the collection.

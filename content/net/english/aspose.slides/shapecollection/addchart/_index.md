@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/shapecollection/addchart/
 ---
+
 ## AddChart(ChartType, float, float, float, float) {#addchart}
 
 Creates a new Chart, initialize it with sample series data and settings and adds it to the end of the collection.

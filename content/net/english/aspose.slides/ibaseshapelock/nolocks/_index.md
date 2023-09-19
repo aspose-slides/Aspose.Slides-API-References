@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibaseshapelock/nolocks/
 ---
+
 ## IBaseShapeLock.NoLocks property
 
 Return true if all lock-flags are disabled. Read-only Boolean.

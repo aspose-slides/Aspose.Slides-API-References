@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/iaxis/actualminorunit/
 ---
+
 ## IAxis.ActualMinorUnit property
 
 Specifies actual minor unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value.

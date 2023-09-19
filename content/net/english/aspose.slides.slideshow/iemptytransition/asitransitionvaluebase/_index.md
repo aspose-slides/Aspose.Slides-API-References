@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/iemptytransition/asitransitionvaluebase/
 ---
+
 ## IEmptyTransition.AsITransitionValueBase property
 
 Allows to get base ITransitionValueBase interface. Read-only [`ITransitionValueBase`](../../itransitionvaluebase).

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ihyperlink/equals/
 ---
+
 ## IHyperlink.Equals method
 
 Determines whether the two Hyperlink instances are equal.

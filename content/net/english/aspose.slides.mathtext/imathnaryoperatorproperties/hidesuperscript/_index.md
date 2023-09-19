@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathnaryoperatorproperties/hidesuperscript/
 ---
+
 ## IMathNaryOperatorProperties.HideSuperscript property
 
 Hide Superscript

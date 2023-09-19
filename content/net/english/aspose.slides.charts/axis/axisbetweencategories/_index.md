@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/axis/axisbetweencategories/
 ---
+
 ## Axis.AxisBetweenCategories property
 
 Represents if the value axis crosses the category axis between categories. This property applies only to category axes, and it doesn't apply to 3-D charts. Read/write Boolean.

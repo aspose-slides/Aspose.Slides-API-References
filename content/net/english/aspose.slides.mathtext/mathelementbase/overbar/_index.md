@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.mathtext/mathelementbase/overbar/
 ---
+
 ## MathElementBase.Overbar method
 
 Sets a bar on the top of this element

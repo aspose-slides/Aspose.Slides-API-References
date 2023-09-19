@@ -6,6 +6,7 @@ type: docs
 weight: 340
 url: /aspose.slides/shapecollection/insertgroupshape/
 ---
+
 ## ShapeCollection.InsertGroupShape method
 
 Creates a new GroupShape and inserts it to the collection at the specified index. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.

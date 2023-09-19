@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.mathtext/mathmatrix/insertrowafter/
 ---
+
 ## MathMatrix.InsertRowAfter method
 
 Insert a new row after the specified one Initially all elements in the new row are null.

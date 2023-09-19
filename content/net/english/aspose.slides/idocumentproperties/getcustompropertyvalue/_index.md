@@ -6,6 +6,7 @@ type: docs
 weight: 290
 url: /aspose.slides/idocumentproperties/getcustompropertyvalue/
 ---
+
 ## GetCustomPropertyValue(string, out bool) {#getcustompropertyvalue}
 
 Gets a named boolean value from the custom properties.

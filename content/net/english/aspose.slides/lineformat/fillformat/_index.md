@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/lineformat/fillformat/
 ---
+
 ## LineFormat.FillFormat property
 
 Returns the fill format of a line. Read-only [`ILineFillFormat`](../../ilinefillformat).

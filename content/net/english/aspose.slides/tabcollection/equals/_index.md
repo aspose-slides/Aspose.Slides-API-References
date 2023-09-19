@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/tabcollection/equals/
 ---
+
 ## TabCollection.Equals method
 
 Determines whether two TabsEx instances are equal.

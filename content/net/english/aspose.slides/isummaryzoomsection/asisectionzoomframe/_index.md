@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/isummaryzoomsection/asisectionzoomframe/
 ---
+
 ## ISummaryZoomSection.AsISectionZoomFrame property
 
 Returns ISectionZoomFrame interface.

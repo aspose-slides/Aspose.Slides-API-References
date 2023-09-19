@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathlimit/limit/
 ---
+
 ## MathLimit.Limit property
 
 Limit argument

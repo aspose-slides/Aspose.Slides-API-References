@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/audioframe/playacrossslides/
 ---
+
 ## AudioFrame.PlayAcrossSlides property
 
 Determines whether audio is playing across the slides. Read/write Boolean.

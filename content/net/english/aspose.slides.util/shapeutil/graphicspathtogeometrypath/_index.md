@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.util/shapeutil/graphicspathtogeometrypath/
 ---
+
 ## ShapeUtil.GraphicsPathToGeometryPath method
 
 Converts a GraphicsPath to the [`IGeometryPath`](../../../aspose.slides/igeometrypath) Return value of the method call can be used to change the geometry of a IGeometryShape object with IGeometryShape.SetGeometryPaths method.

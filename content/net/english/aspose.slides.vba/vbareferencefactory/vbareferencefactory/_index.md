@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/vbareferencefactory/vbareferencefactory/
 ---
+
 ## VbaReferenceFactory constructor
 
 The default constructor.

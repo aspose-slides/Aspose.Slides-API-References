@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/documentproperties/hyperlinkbase/
 ---
+
 ## DocumentProperties.HyperlinkBase property
 
 Returns or sets the HyperlinkBase document property. Read/write String.

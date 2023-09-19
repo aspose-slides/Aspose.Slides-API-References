@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/alphamodulatefixed/equals/
 ---
+
 ## AlphaModulateFixed.Equals method
 
 Determines whether the specified [`AlphaModulateFixed`](../../alphamodulatefixed) is equal to the current [`AlphaModulateFixed`](../../alphamodulatefixed).

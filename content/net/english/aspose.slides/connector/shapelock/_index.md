@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/connector/shapelock/
 ---
+
 ## Connector.ShapeLock property
 
 Returns shape's locks. Read-only [`IConnectorLock`](../../iconnectorlock).

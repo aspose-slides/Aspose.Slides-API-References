@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/documentproperties/lastsavedtime/
 ---
+
 ## DocumentProperties.LastSavedTime property
 
 Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by method [`ReadDocumentProperties`](../../ipresentationinfo/readdocumentproperties) Please see the example in [`UpdateDocumentProperties`](../../ipresentationinfo/updatedocumentproperties) method summary.

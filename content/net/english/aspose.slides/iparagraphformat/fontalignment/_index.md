@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iparagraphformat/fontalignment/
 ---
+
 ## IParagraphFormat.FontAlignment property
 
 Returns or sets a font alignment in a paragraph with no inheritance. Read/write [`FontAlignment`](../../fontalignment).

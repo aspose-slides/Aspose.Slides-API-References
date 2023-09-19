@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/portioncollection/item/
 ---
+
 ## PortionCollection indexer
 
 Gets the element at the specified index.

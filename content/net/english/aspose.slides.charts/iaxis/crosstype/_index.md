@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/iaxis/crosstype/
 ---
+
 ## IAxis.CrossType property
 
 Represents the CrossType on the specified axis where the other axis crosses. Read/write [`CrossesType`](../../crossestype).

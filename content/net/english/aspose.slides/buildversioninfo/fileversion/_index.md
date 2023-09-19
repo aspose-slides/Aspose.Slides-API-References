@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/buildversioninfo/fileversion/
 ---
+
 ## BuildVersionInfo.FileVersion field
 
 Version of assembly file.

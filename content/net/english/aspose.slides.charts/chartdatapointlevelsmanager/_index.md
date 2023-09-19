@@ -3,9 +3,10 @@ title: ChartDataPointLevelsManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.
 type: docs
-weight: 1250
+weight: 1260
 url: /aspose.slides.charts/chartdatapointlevelsmanager/
 ---
+
 ## ChartDataPointLevelsManager class
 
 Container of data point levels. Applied for Treeamp and Sunburst series. Data point levels indexing is zero-based.

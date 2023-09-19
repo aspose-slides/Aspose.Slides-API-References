@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/ishape/shapelock/
 ---
+
 ## IShape.ShapeLock property
 
 Returns shape's locks. Read-only [`IBaseShapeLock`](../../ibaseshapelock).

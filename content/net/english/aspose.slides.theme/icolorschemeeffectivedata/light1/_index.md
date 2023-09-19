@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.theme/icolorschemeeffectivedata/light1/
 ---
+
 ## IColorSchemeEffectiveData.Light1 property
 
 First light color in the scheme. Read-only Color.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/camera/zoom/
 ---
+
 ## Camera.Zoom property
 
 Camera zoom (positive value in percentage). Read/write Single.

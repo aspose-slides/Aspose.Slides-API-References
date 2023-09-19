@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/digitalsignaturecollection/item/
 ---
+
 ## DigitalSignatureCollection indexer
 
 Returns the signature by index.

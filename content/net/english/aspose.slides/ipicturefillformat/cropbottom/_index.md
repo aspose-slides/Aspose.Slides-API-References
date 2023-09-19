@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipicturefillformat/cropbottom/
 ---
+
 ## IPictureFillFormat.CropBottom property
 
 Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write Single.

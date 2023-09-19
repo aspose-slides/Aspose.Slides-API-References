@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/iaxis/actualmajorunitscale/
 ---
+
 ## IAxis.ActualMajorUnitScale property
 
 Specifies actual major unit scale of the axis. Call method IChart.ValidateChartLayout() previously to get actual value.

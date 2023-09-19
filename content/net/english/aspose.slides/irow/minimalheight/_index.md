@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/irow/minimalheight/
 ---
+
 ## IRow.MinimalHeight property
 
 Returns or sets the minimal possible height of a row. Read/write Double.

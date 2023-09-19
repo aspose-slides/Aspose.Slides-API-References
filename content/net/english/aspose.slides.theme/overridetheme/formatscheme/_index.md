@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/overridetheme/formatscheme/
 ---
+
 ## OverrideTheme.FormatScheme property
 
 Returns the shape format scheme. Read-only [`IFormatScheme`](../../iformatscheme).

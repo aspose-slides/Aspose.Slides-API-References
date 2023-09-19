@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/markdownsaveoptions/newlinetype/
 ---
+
 ## MarkdownSaveOptions.NewLineType property
 
 Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is `Unix`.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/ichartcellcollection/removeat/
 ---
+
 ## IChartCellCollection.RemoveAt method
 
 Removes a cell from the collection by index.

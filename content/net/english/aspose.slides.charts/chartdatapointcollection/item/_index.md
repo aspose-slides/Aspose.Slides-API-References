@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/chartdatapointcollection/item/
 ---
+
 ## ChartDataPointCollection indexer (1 of 2)
 
 Returns the series data point by index (its serial number in this collection).

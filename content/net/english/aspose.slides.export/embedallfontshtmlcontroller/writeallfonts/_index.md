@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/embedallfontshtmlcontroller/writeallfonts/
 ---
+
 ## EmbedAllFontsHtmlController.WriteAllFonts method
 
 Write all fonts contained in [`Presentation`](../../../aspose.slides/presentation).

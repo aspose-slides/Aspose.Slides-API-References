@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/pdfoptions/additionalcommonfontfamilies/
 ---
+
 ## PdfOptions.AdditionalCommonFontFamilies property
 
 Returns or sets an array of user-defined names of font families which Aspose.Slides should consider common. Read/write String[].

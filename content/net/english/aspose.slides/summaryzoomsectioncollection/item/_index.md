@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/summaryzoomsectioncollection/item/
 ---
+
 ## SummaryZoomSectionCollection indexer
 
 Gets the element at the specified index. Read-only [`ISummaryZoomSection`](../../isummaryzoomsection).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartdatacell/presetnumberformat/
 ---
+
 ## IChartDataCell.PresetNumberFormat property
 
 Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write Byte.

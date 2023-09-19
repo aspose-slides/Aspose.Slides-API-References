@@ -3,9 +3,10 @@ title: LegendDataLabelPosition
 second_title: Aspose.Sildes for .NET API Reference
 description: Determines position of data labels.
 type: docs
-weight: 2180
+weight: 2190
 url: /aspose.slides.charts/legenddatalabelposition/
 ---
+
 ## LegendDataLabelPosition enumeration
 
 Determines position of data labels.

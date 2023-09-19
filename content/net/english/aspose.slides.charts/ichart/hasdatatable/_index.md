@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/ichart/hasdatatable/
 ---
+
 ## IChart.HasDataTable property
 
 Determines whether a chart has a data table. Read/write Boolean.

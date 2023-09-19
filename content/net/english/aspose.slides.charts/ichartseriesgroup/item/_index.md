@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/ichartseriesgroup/item/
 ---
+
 ## IChartSeriesGroup indexer
 
 Gets the element at the specified index.

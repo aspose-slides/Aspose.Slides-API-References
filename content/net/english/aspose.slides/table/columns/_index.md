@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/table/columns/
 ---
+
 ## Table.Columns property
 
 Returns the collectoin of columns. Read-only [`IColumnCollection`](../../icolumncollection).

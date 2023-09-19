@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/textframe/presentation/
 ---
+
 ## TextFrame.Presentation property
 
 Returns the parent presentation of a TextFrame. Read-only [`IPresentation`](../../ipresentation).

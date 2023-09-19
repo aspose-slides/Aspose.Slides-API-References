@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.effects/outershadow/geteffective/
 ---
+
 ## OuterShadow.GetEffective method
 
 Gets effective Outer Shadow effect data with the inheritance applied.

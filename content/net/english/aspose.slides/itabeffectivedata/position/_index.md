@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/itabeffectivedata/position/
 ---
+
 ## ITabEffectiveData.Position property
 
 Returns position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read-only Double.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/imagetransformoperationfactory/imagetransformoperationfactory/
 ---
+
 ## ImageTransformOperationFactory constructor
 
 The default constructor.

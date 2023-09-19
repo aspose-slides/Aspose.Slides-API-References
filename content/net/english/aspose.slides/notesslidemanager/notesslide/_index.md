@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/notesslidemanager/notesslide/
 ---
+
 ## NotesSlideManager.NotesSlide property
 
 Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only [`INotesSlide`](../../inotesslide).

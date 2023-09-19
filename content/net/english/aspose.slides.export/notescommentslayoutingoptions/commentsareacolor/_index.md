@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/notescommentslayoutingoptions/commentsareacolor/
 ---
+
 ## NotesCommentsLayoutingOptions.CommentsAreaColor property
 
 Gets or sets the color of comments area (Applies only if comments are displayed on the right).

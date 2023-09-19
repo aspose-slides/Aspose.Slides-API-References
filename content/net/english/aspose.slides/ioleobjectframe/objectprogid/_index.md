@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ioleobjectframe/objectprogid/
 ---
+
 ## IOleObjectFrame.ObjectProgId property
 
 Returns the ProgID of an object. Read olny String.

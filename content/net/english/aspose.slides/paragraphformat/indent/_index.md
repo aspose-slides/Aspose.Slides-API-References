@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/paragraphformat/indent/
 ---
+
 ## ParagraphFormat.Indent property
 
 Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write Single.

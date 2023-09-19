@@ -6,6 +6,7 @@ type: docs
 weight: 670
 url: /aspose.slides.animation/behaviorproperty/shadowmatrixytoy/
 ---
+
 ## BehaviorProperty.ShadowMatrixYtoY property
 
 Represents 'shadow.matrix.ytoy' property

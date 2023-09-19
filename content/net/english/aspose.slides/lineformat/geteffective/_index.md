@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/lineformat/geteffective/
 ---
+
 ## LineFormat.GetEffective method
 
 Gets effective line formatting data with the inheritance applied.

@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides.charts/chartseries/overlap/
 ---
+
 ## ChartSeries.Overlap property
 
 Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.Overlap read/write property for change value. Read-only SByte.

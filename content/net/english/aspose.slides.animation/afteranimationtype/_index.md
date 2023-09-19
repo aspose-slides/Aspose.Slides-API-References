@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/afteranimationtype/
 ---
+
 ## AfterAnimationType enumeration
 
 Represents the after animation type of an animation effect.

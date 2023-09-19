@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/inormalviewproperties/showoutlineicons/
 ---
+
 ## INormalViewProperties.ShowOutlineIcons property
 
 Specifies whether the application should show icons if displaying outline content in any of the content regions of normal view mode. Read/write Boolean.

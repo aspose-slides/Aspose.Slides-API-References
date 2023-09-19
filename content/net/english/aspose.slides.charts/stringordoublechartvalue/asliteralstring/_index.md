@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/stringordoublechartvalue/asliteralstring/
 ---
+
 ## StringOrDoubleChartValue.AsLiteralString property
 
 Returns or sets value as literal string. Read/write String.

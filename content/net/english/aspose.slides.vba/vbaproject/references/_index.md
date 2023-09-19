@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.vba/vbaproject/references/
 ---
+
 ## VbaProject.References property
 
 Returns the list of all references that are contained in the VBA project. Read-only [`IVbaReferenceCollection`](../../ivbareferencecollection).

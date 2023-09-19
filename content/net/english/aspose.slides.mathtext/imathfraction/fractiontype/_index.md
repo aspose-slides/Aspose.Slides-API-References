@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathfraction/fractiontype/
 ---
+
 ## IMathFraction.FractionType property
 
 Fraction type Default: Bar

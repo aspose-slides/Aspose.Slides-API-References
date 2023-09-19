@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathbar/base/
 ---
+
 ## MathBar.Base property
 
 Base argument

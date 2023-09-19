@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/control/frame/
 ---
+
 ## Control.Frame property
 
 Returns or sets control's frame. Read/write [`IShapeFrame`](../../ishapeframe).

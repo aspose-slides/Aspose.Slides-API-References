@@ -3,9 +3,10 @@ title: EffectType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the type of an animation effect.
 type: docs
-weight: 270
+weight: 280
 url: /aspose.slides.animation/effecttype/
 ---
+
 ## EffectType enumeration
 
 Represents the type of an animation effect.

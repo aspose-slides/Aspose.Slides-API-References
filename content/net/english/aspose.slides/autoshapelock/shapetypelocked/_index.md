@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/autoshapelock/shapetypelocked/
 ---
+
 ## AutoShapeLock.ShapeTypeLocked property
 
 Determines whether a changing of a shape type is forbidden. Read/write Boolean.

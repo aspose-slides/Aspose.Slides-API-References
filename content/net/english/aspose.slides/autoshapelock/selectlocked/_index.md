@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/autoshapelock/selectlocked/
 ---
+
 ## AutoShapeLock.SelectLocked property
 
 Determines whether a selecting this shape is forbidden. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/isectioncollection/reordersectionwithslides/
 ---
+
 ## ISectionCollection.ReorderSectionWithSlides method
 
 Moves section and its slides from the collection to the specified position.

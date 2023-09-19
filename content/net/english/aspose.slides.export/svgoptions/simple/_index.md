@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/svgoptions/simple/
 ---
+
 ## SVGOptions.Simple property
 
 Returns settings for simpliest and smallest SVG file generation. Read-only [`SVGOptions`](../../svgoptions).

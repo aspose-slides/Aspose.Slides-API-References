@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/ichartcategorycollection/removeat/
 ---
+
 ## IChartCategoryCollection.RemoveAt method
 
 Removes the element at the given index.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/picture/slide/
 ---
+
 ## Picture.Slide property
 
 Returns the parent slide of a picture. Read-only [`IBaseSlide`](../../ibaseslide).

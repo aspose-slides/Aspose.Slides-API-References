@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides/effectformat/geteffective/
 ---
+
 ## EffectFormat.GetEffective method
 
 Gets effective effect formatting data with the inheritance applied.

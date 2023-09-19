@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/iparagraphformateffectivedata/righttoleft/
 ---
+
 ## IParagraphFormatEffectiveData.RightToLeft property
 
 Determines whether the Right to Left writing is used in a paragraph. Read-only Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 300
 url: /aspose.slides/presentation/dispose/
 ---
+
 ## Presentation.Dispose method
 
 Releases all resources used by this Presentation object.

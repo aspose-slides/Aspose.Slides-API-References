@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.effects/outershadow/skewhorizontal/
 ---
+
 ## OuterShadow.SkewHorizontal property
 
 Specifies the horizontal skew angle (in degrees). Read/write Double.

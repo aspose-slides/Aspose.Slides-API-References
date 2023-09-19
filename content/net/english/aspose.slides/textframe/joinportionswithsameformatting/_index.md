@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/textframe/joinportionswithsameformatting/
 ---
+
 ## TextFrame.JoinPortionsWithSameFormatting method
 
 Joins runs with same formatting in all paragraphs.

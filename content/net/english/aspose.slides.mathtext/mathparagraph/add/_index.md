@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/mathparagraph/add/
 ---
+
 ## MathParagraph.Add method
 
 Adds IMathBlock to the end of collection.

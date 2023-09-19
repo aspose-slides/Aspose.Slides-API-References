@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/idatalabelcollection/leaderlinesformat/
 ---
+
 ## IDataLabelCollection.LeaderLinesFormat property
 
 Represents data labels leader lines format. Read-only [`IChartLinesFormat`](../../ichartlinesformat).

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathblockcollection/asienumerable/
 ---
+
 ## IMathBlockCollection.AsIEnumerable property
 
 Allows to get base IEnumerable interface IEnumerable

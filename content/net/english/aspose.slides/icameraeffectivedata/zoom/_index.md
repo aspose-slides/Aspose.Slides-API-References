@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/icameraeffectivedata/zoom/
 ---
+
 ## ICameraEffectiveData.Zoom property
 
 Camera zoom (positive value in percentage). Read-only Single.

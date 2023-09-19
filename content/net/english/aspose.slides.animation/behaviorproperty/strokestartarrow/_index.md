@@ -6,6 +6,7 @@ type: docs
 weight: 1010
 url: /aspose.slides.animation/behaviorproperty/strokestartarrow/
 ---
+
 ## BehaviorProperty.StrokeStartArrow property
 
 Represents 'stroke.startArrow' property

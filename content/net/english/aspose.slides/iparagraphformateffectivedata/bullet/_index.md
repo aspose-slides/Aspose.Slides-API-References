@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iparagraphformateffectivedata/bullet/
 ---
+
 ## IParagraphFormatEffectiveData.Bullet property
 
 Returns a bullet format of a paragraph. Read-only [`IBulletFormatEffectiveData`](../../ibulletformateffectivedata).

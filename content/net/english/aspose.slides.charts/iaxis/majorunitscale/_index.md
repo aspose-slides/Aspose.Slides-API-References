@@ -6,6 +6,7 @@ type: docs
 weight: 370
 url: /aspose.slides.charts/iaxis/majorunitscale/
 ---
+
 ## IAxis.MajorUnitScale property
 
 Represents the major unit scale for the date axis. Read/write [`TimeUnitType`](../../timeunittype).

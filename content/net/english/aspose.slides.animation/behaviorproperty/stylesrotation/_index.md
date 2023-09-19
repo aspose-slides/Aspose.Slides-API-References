@@ -6,6 +6,7 @@ type: docs
 weight: 1120
 url: /aspose.slides.animation/behaviorproperty/stylesrotation/
 ---
+
 ## BehaviorProperty.StyleSRotation property
 
 Represents 'style.sRotation' property

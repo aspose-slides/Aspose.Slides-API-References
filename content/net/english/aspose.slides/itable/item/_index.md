@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/itable/item/
 ---
+
 ## ITable indexer
 
 Returns the cell at the specified column and row indexes. Read-only [`ICell`](../../icell).

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/control/name/
 ---
+
 ## Control.Name property
 
 Gets or sets the name of this control. Read/write String.

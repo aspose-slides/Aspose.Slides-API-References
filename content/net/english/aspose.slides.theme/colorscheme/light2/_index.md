@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.theme/colorscheme/light2/
 ---
+
 ## ColorScheme.Light2 property
 
 Second light color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

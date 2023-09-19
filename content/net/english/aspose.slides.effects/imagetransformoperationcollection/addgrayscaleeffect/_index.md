@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.effects/imagetransformoperationcollection/addgrayscaleeffect/
 ---
+
 ## ImageTransformOperationCollection.AddGrayScaleEffect method
 
 Adds the new Gray Scale effect to the end of a collection.

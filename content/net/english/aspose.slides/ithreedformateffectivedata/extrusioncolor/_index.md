@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ithreedformateffectivedata/extrusioncolor/
 ---
+
 ## IThreeDFormatEffectiveData.ExtrusionColor property
 
 Returns the color of an extrusion. Read-only Color.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iplaceholder/type/
 ---
+
 ## IPlaceholder.Type property
 
 Gets the type of a placeholder. Read-only [`PlaceholderType`](../../placeholdertype).

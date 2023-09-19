@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontdata/fontdata/
 ---
+
 ## FontData constructor
 
 Creates a new FontData object with the specified font name.

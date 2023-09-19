@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathematicaltext/mathematicaltext/
 ---
+
 ## MathematicalText() {#constructor}
 
 Default constructor (create String.Empty Value)

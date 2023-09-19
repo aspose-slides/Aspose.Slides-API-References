@@ -3,9 +3,10 @@ title: IImageWrapper
 second_title: Aspose.Sildes for .NET API Reference
 description: System.Drawing.Image wrapper for COM interface.
 type: docs
-weight: 5750
+weight: 5760
 url: /aspose.slides/iimagewrapper/
 ---
+
 ## IImageWrapper interface
 
 System.Drawing.Image wrapper for COM interface.

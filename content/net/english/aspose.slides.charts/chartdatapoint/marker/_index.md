@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.charts/chartdatapoint/marker/
 ---
+
 ## ChartDataPoint.Marker property
 
 Specifies a data marker. Read-only [`IMarker`](../../imarker).

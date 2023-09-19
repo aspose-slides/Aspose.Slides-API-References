@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.charts/datalabel/y/
 ---
+
 ## DataLabel.Y property
 
 Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write Single.

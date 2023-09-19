@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/videoplayerhtmlcontroller/videoplayerhtmlcontroller/
 ---
+
 ## VideoPlayerHtmlController constructor
 
 Creates a new instance of controller

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/presentationplayer/dispose/
 ---
+
 ## PresentationPlayer.Dispose method
 
 Disposes the instance of the [`PresentationPlayer`](../../presentationplayer).

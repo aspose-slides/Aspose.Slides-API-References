@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.charts/iaxis/displayunit/
 ---
+
 ## IAxis.DisplayUnit property
 
 Specifies the scaling value of the display units for the value axis. Read/write [`DisplayUnitType`](../../displayunittype).

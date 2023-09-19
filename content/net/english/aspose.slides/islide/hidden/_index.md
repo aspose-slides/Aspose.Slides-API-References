@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/islide/hidden/
 ---
+
 ## ISlide.Hidden property
 
 Determines whether the specified slide is hidden during a slide show. Read/write Boolean.

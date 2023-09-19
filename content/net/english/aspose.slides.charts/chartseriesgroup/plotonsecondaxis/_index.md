@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/chartseriesgroup/plotonsecondaxis/
 ---
+
 ## ChartSeriesGroup.PlotOnSecondAxis property
 
 Indicates if series of this group is plotted on secondary axis. Read-only Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.animation/imotioneffect/patheditmode/
 ---
+
 ## IMotionEffect.PathEditMode property
 
 Specifies how the motion path moves when shape is moved. Read/write [`MotionPathEditMode`](../../motionpatheditmode).

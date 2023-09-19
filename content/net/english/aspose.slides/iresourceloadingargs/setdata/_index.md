@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iresourceloadingargs/setdata/
 ---
+
 ## IResourceLoadingArgs.SetData method
 
 Sets user provided data of the resource which used if [`ResourceLoading`](../../iresourceloadingcallback/resourceloading) returns UserProvided.

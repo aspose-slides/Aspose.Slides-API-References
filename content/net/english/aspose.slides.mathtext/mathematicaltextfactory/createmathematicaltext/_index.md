@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathematicaltextfactory/createmathematicaltext/
 ---
+
 ## CreateMathematicalText() {#createmathematicaltext}
 
 Create empty mathematical text element

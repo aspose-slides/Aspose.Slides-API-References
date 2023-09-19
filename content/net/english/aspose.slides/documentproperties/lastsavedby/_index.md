@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/documentproperties/lastsavedby/
 ---
+
 ## DocumentProperties.LastSavedBy property
 
 Returns or sets the name of a last person who modified a presentation. Read/write String.

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/igradientformat/lineargradientangle/
 ---
+
 ## IGradientFormat.LinearGradientAngle property
 
 Returns or sets the angle of a gradient. Read/write Single.

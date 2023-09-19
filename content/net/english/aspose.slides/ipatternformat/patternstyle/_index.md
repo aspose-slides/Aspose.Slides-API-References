@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipatternformat/patternstyle/
 ---
+
 ## IPatternFormat.PatternStyle property
 
 Returns or sets the pattern style. Read/write [`PatternStyle`](../../patternstyle).

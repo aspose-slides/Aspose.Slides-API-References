@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/ibaseportionformateffectivedata/lineformat/
 ---
+
 ## IBasePortionFormatEffectiveData.LineFormat property
 
 Returns the LineFormat properties for text outlining. Read-only [`ILineFormatEffectiveData`](../../ilineformateffectivedata).

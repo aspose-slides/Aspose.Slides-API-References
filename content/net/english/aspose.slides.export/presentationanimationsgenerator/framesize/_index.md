@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/presentationanimationsgenerator/framesize/
 ---
+
 ## PresentationAnimationsGenerator.FrameSize field
 
 Gets the frame size.

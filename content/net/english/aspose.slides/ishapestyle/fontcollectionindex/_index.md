@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ishapestyle/fontcollectionindex/
 ---
+
 ## IShapeStyle.FontCollectionIndex property
 
 Returns or sets shape's font index in a font collection. Read/write [`FontCollectionIndex`](../../fontcollectionindex).

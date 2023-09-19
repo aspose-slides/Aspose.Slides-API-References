@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/htmlgenerator/nextslideindex/
 ---
+
 ## HtmlGenerator.NextSlideIndex property
 
 Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only Int32.

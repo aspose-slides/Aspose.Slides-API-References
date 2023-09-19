@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/iloadoptions/spreadsheetoptions/
 ---
+
 ## ILoadOptions.SpreadsheetOptions property
 
 Represents options which can be used to specify additional spreadsheets behavior.

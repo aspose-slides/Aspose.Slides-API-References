@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/geometrypath/moveto/
 ---
+
 ## MoveTo(PointF) {#moveto_1}
 
 Sets next point position.

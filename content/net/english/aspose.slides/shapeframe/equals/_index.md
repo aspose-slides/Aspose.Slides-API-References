@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/shapeframe/equals/
 ---
+
 ## Equals(object) {#equals_1}
 
 Returns a value indicating whether this instance is equal to a specified object.

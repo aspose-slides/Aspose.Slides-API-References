@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.lowcode/collect/shapes/
 ---
+
 ## Collect.Shapes method
 
 Collects all instances of [`Shape`](../../../aspose.slides/shape) in the [`Presentation`](../../../aspose.slides/presentation).

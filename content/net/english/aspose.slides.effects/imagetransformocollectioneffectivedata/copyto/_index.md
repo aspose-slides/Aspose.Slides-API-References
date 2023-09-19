@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/imagetransformocollectioneffectivedata/copyto/
 ---
+
 ## ImageTransformOCollectionEffectiveData.CopyTo method
 
 Copies all elements from the collection into the specified array.

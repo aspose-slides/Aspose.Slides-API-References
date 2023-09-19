@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/ihtmloptions/picturescompression/
 ---
+
 ## IHtmlOptions.PicturesCompression property
 
 Represents the pictures compression level Read/write `PicturesCompression`.

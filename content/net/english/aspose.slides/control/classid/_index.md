@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/control/classid/
 ---
+
 ## Control.ClassId property
 
 Gets class id of this control. Read-only Guid.

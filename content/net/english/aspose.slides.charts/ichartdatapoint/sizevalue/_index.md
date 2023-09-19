@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.charts/ichartdatapoint/sizevalue/
 ---
+
 ## IChartDataPoint.SizeValue property
 
 Returns the size value of chart data point. Used with Treemap and Sunburst charts. Read-only [`IDoubleChartValue`](../../idoublechartvalue).

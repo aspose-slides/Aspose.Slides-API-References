@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/zoomobject/returntoparent/
 ---
+
 ## ZoomObject.ReturnToParent property
 
 Gets or sets the navigation behavior in slideshow. Read/write Boolean. Default value: false

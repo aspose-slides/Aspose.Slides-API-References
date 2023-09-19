@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ishapecollection/addgroupshape/
 ---
+
 ## AddGroupShape() {#addgroupshape}
 
 Creates a new GroupShape and adds it to the end of the collection. GroupShape frame size and position will be fitted to content when new shape will be added into the GroupShape.

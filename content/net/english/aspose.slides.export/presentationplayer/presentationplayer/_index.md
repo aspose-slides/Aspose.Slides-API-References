@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/presentationplayer/presentationplayer/
 ---
+
 ## PresentationPlayer constructor
 
 Creates new instance of the [`PresentationPlayer`](../../presentationplayer).

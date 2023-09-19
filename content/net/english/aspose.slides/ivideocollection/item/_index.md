@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ivideocollection/item/
 ---
+
 ## IVideoCollection indexer
 
 Gets the element at the specified index. Read-only [`IVideo`](../../ivideo).

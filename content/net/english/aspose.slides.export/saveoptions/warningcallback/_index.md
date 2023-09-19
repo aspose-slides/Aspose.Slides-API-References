@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/saveoptions/warningcallback/
 ---
+
 ## SaveOptions.WarningCallback property
 
 Returns of sets an object which receives warnings and decides whether loading process will continue or will be aborted. Read/write [`IWarningCallback`](../../../aspose.slides.warnings/iwarningcallback).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/mathblock/clear/
 ---
+
 ## MathBlock.Clear method
 
 Removes all elements from the collection.

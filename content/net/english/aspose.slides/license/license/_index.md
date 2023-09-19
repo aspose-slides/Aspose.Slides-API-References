@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/license/license/
 ---
+
 ## License constructor
 
 Initializes a new instance of this class.

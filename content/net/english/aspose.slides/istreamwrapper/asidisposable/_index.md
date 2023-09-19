@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/istreamwrapper/asidisposable/
 ---
+
 ## IStreamWrapper.AsIDisposable property
 
 Allows to get base IDisposable interface. Read-only IDisposable.

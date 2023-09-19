@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ilegend/entries/
 ---
+
 ## ILegend.Entries property
 
 Gets legend entries. Read-only [`ILegendEntryCollection`](../../ilegendentrycollection).

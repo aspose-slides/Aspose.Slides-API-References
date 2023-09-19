@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/swfoptions/jpegquality/
 ---
+
 ## SwfOptions.JpegQuality property
 
 Specifies the quality of JPEG images. Default is 95.

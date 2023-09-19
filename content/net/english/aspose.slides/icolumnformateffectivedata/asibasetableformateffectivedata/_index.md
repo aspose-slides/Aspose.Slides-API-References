@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icolumnformateffectivedata/asibasetableformateffectivedata/
 ---
+
 ## IColumnFormatEffectiveData.AsIBaseTableFormatEffectiveData property
 
 Allows to get base IBaseTableFormatEffectiveData interface. Read-only [`IBaseTableFormatEffectiveData`](../../ibasetableformateffectivedata).

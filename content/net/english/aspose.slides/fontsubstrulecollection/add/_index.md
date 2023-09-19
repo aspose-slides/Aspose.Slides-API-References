@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/fontsubstrulecollection/add/
 ---
+
 ## FontSubstRuleCollection.Add method
 
 Adds the new font substitution rule to the collection

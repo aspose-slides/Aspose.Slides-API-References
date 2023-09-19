@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/effectformat/blureffect/
 ---
+
 ## EffectFormat.BlurEffect property
 
 Blur effect. Read/write [`IBlur`](../../../aspose.slides.effects/iblur).

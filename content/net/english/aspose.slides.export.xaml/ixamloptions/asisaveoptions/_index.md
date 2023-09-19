@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.xaml/ixamloptions/asisaveoptions/
 ---
+
 ## IXamlOptions.AsISaveOptions property
 
 Returns ISaveOptions interface. Read-only [`ISaveOptions`](../../../aspose.slides.export/isaveoptions).

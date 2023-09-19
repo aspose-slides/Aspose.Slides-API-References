@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/rowcollection/item/
 ---
+
 ## RowCollection indexer
 
 Returns the row at the specified index. Read-only [`Row`](../../row).

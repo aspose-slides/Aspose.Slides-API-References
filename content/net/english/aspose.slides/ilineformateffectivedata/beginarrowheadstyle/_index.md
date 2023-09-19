@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ilineformateffectivedata/beginarrowheadstyle/
 ---
+
 ## ILineFormatEffectiveData.BeginArrowheadStyle property
 
 Returns the arrowhead style at the beginning of a line. Read-only [`LineArrowheadStyle`](../../linearrowheadstyle).

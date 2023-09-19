@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ibackground/styleindex/
 ---
+
 ## IBackground.StyleIndex property
 
 Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write UInt16.

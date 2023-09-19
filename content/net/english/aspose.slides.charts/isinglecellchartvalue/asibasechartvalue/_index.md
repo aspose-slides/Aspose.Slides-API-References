@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/isinglecellchartvalue/asibasechartvalue/
 ---
+
 ## ISingleCellChartValue.AsIBaseChartValue property
 
 Allows to get base IBaseChartValue interface. Read-only [`IBaseChartValue`](../../ibasechartvalue).

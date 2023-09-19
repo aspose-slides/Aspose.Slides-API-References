@@ -6,6 +6,7 @@ type: docs
 weight: 370
 url: /aspose.slides/ishapecollection/remove/
 ---
+
 ## IShapeCollection.Remove method
 
 Removes the first occurrence of a specific shape from the collection.

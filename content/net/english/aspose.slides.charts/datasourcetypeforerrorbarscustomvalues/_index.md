@@ -3,9 +3,10 @@ title: DataSourceTypeForErrorBarsCustomValues
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list
 type: docs
-weight: 1480
+weight: 1490
 url: /aspose.slides.charts/datasourcetypeforerrorbarscustomvalues/
 ---
+
 ## DataSourceTypeForErrorBarsCustomValues class
 
 Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list

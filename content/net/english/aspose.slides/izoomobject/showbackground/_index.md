@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/izoomobject/showbackground/
 ---
+
 ## IZoomObject.ShowBackground property
 
 Gets or sets value that specifies whether the Zoom will use the background of the destination slide. Read/write Boolean. Default value: true

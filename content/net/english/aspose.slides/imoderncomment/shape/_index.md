@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/imoderncomment/shape/
 ---
+
 ## IModernComment.Shape property
 
 Returns a shape associated with the comment. Read-only [`IShape`](../../ishape).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/behaviorfactory/createcommandeffect/
 ---
+
 ## BehaviorFactory.CreateCommandEffect method
 
 Creates command effect.

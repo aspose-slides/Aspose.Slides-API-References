@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/imasterhandoutslidemanager/removemasterhandoutslide/
 ---
+
 ## IMasterHandoutSlideManager.RemoveMasterHandoutSlide method
 
 Removes master handout slide.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/updownbarsmanager/hasupdownbars/
 ---
+
 ## UpDownBarsManager.HasUpDownBars property
 
 HasUpDownBars. Read/write Boolean.

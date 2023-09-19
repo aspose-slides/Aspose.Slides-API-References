@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/pictureframe/shapetype/
 ---
+
 ## PictureFrame.ShapeType property
 
 Returns or sets the AutoShape type for a PictureFrame. There are allowable all items of the set [`ShapeType`](../../shapetype), except all sorts of lines:

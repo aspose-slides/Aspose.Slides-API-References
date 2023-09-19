@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.charts/chart/sidewall/
 ---
+
 ## Chart.SideWall property
 
 Returns an object which allows to change format of the side wall of a 3D chart. Read-only [`IChartWall`](../../ichartwall).

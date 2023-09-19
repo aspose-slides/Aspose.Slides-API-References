@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/icommentauthorcollection/remove/
 ---
+
 ## ICommentAuthorCollection.Remove method
 
 Removes the first occurrence of the specified author in a collection.

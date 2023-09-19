@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathfractionfactory/mathfractionfactory/
 ---
+
 ## MathFractionFactory constructor
 
 The default constructor.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/itable/lastrow/
 ---
+
 ## ITable.LastRow property
 
 Determines whether the last row of a table has to be drawn with a special formatting. Read/write Boolean.

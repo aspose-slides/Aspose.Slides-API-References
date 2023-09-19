@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/textframe/slide/
 ---
+
 ## TextFrame.Slide property
 
 Returns the parent slide of a TextFrame. Read-only [`IBaseSlide`](../../ibaseslide).

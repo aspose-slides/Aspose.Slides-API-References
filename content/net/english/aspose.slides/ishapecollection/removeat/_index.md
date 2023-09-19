@@ -6,6 +6,7 @@ type: docs
 weight: 380
 url: /aspose.slides/ishapecollection/removeat/
 ---
+
 ## IShapeCollection.RemoveAt method
 
 Removes the element at the specified index of the collection.

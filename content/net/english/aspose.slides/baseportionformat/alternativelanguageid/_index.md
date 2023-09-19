@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/baseportionformat/alternativelanguageid/
 ---
+
 ## BasePortionFormat.AlternativeLanguageId property
 
 Returns or sets the Id of an alternative language. Read/write String.

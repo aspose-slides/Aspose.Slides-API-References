@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/iupdownbarsmanager/hasupdownbars/
 ---
+
 ## IUpDownBarsManager.HasUpDownBars property
 
 Determines whether the chart has up/down bars. Read/write Boolean.

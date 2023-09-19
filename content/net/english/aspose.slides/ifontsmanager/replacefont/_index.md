@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ifontsmanager/replacefont/
 ---
+
 ## ReplaceFont(IFontData, IFontData) {#replacefont}
 
 Replace font in presentation

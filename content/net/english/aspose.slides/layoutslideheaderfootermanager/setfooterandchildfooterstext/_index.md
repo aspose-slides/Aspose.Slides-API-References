@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/layoutslideheaderfootermanager/setfooterandchildfooterstext/
 ---
+
 ## LayoutSlideHeaderFooterManager.SetFooterAndChildFootersText method
 
 Sets text to layout slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.

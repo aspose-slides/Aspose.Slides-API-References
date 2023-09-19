@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartcellcollection/add/
 ---
+
 ## Add(IChartDataCell) {#add}
 
 Add new cell to the collection.

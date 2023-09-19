@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ierrorbarsformat/type/
 ---
+
 ## IErrorBarsFormat.Type property
 
 Gets or sets type of error bars. Read/write [`ErrorBarType`](../../errorbartype).

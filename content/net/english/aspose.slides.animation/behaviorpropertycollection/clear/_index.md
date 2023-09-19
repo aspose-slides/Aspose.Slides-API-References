@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/behaviorpropertycollection/clear/
 ---
+
 ## BehaviorPropertyCollection.Clear method
 
 Removes all properties from the collection.

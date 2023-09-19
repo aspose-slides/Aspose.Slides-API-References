@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ithreedformat/extrusioncolor/
 ---
+
 ## IThreeDFormat.ExtrusionColor property
 
 Returns or sets the color of an extrusion. Read-only [`IColorFormat`](../../icolorformat).

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ihyperlink/targetslide/
 ---
+
 ## IHyperlink.TargetSlide property
 
 If the HyperlinkEx targets specific slide returns this slide. If the property become not null then property ExternalUrl become null. Read-only [`ISlide`](../../islide).

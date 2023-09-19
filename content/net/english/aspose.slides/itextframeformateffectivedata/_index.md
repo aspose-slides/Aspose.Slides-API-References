@@ -3,9 +3,10 @@ title: ITextFrameFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective text frame formatting properties.
 type: docs
-weight: 6840
+weight: 6850
 url: /aspose.slides/itextframeformateffectivedata/
 ---
+
 ## ITextFrameFormatEffectiveData interface
 
 Immutable object which contains effective text frame formatting properties.

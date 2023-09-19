@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/datatable/chart/
 ---
+
 ## DataTable.Chart property
 
 Returns chart. Read-only [`IChart`](../../ichart).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/shapeelement/graphicspath/
 ---
+
 ## ShapeElement.GraphicsPath property
 
 Returns an element's path. Read-only GraphicsPath.

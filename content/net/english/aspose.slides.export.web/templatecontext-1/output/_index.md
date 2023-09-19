@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export.web/templatecontext-1/output/
 ---
+
 ## TemplateContext&lt;TObject&gt;.Output property
 
 Returns collection of output elements of the host document. Read-only `Output`.

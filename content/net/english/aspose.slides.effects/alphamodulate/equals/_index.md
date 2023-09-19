@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/alphamodulate/equals/
 ---
+
 ## AlphaModulate.Equals method
 
 Determines whether the specified [`AlphaModulate`](../../alphamodulate) is equal to the current [`AlphaModulate`](../../alphamodulate).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ippimage/width/
 ---
+
 ## IPPImage.Width property
 
 Returns a width of an image. Read-only Int32.

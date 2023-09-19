@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ihyperlinkcontainer/hyperlinkclick/
 ---
+
 ## IHyperlinkContainer.HyperlinkClick property
 
 Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../../ihyperlink).

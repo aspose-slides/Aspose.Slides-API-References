@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipathsegment/segmentdata/
 ---
+
 ## IPathSegment.SegmentData property
 
 Path data of the segment

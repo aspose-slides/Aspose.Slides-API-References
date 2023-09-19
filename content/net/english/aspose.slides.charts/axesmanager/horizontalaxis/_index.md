@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/axesmanager/horizontalaxis/
 ---
+
 ## AxesManager.HorizontalAxis property
 
 Gets the chart's horizontal axis. Read-only [`IAxis`](../../iaxis).

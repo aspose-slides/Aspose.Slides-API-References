@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/tagcollection/getnamesoftags/
 ---
+
 ## TagCollection.GetNamesOfTags method
 
 Returns names of tags.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.export/htmlgenerator/addattributevalue/
 ---
+
 ## AddAttributeValue(string) {#addattributevalue_2}
 
 Quotes attribute value and adds it to the html file.

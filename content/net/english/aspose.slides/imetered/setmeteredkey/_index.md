@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/imetered/setmeteredkey/
 ---
+
 ## IMetered.SetMeteredKey method
 
 Sets metered public and private key.

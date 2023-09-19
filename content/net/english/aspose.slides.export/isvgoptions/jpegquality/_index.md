@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.export/isvgoptions/jpegquality/
 ---
+
 ## ISVGOptions.JpegQuality property
 
 Determines JPEG encoding quality. Read/write Int32.

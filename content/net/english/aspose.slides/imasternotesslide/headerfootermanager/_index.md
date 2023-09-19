@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imasternotesslide/headerfootermanager/
 ---
+
 ## IMasterNotesSlide.HeaderFooterManager property
 
 Returns HeaderFooter manager of the master notes slide. Read-only [`IMasterNotesSlideHeaderFooterManager`](../../imasternotesslideheaderfootermanager).

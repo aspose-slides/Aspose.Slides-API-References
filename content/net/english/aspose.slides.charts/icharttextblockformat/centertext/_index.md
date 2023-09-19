@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/icharttextblockformat/centertext/
 ---
+
 ## IChartTextBlockFormat.CenterText property
 
 If NullableBool.True then text should be centered in box horizontally. Read/write [`NullableBool`](../../../aspose.slides/nullablebool).

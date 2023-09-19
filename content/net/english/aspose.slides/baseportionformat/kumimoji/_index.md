@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/baseportionformat/kumimoji/
 ---
+
 ## BasePortionFormat.Kumimoji property
 
 Determines whether the numbers should ignore text eastern language-specific vertical text layout. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/icoloreffect/colorspace/
 ---
+
 ## IColorEffect.ColorSpace property
 
 Represent color space of behavior. Read/write `ColorSpace`.

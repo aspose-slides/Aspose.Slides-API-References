@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/ithemeable/createthemeeffective/
 ---
+
 ## IThemeable.CreateThemeEffective method
 
 Returns an effective theme for this themeable object.

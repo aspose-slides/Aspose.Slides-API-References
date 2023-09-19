@@ -6,6 +6,7 @@ type: docs
 weight: 600
 url: /aspose.slides.animation/behaviorproperty/shadowcolor/
 ---
+
 ## BehaviorProperty.ShadowColor property
 
 Represents 'shadow.color' property

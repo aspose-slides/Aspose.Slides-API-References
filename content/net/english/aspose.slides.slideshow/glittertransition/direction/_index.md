@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/glittertransition/direction/
 ---
+
 ## GlitterTransition.Direction property
 
 Direction of transition. Read/write [`TransitionSideDirectionType`](../../transitionsidedirectiontype).

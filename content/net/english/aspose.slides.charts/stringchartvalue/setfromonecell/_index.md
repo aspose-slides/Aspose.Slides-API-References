@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/stringchartvalue/setfromonecell/
 ---
+
 ## StringChartValue.SetFromOneCell method
 
 Sets value from specified cell.

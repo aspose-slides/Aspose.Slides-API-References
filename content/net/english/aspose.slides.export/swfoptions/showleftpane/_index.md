@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.export/swfoptions/showleftpane/
 ---
+
 ## SwfOptions.ShowLeftPane property
 
 Show/hide left pane. Can be overridden in flashvars. Default is true.

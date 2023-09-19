@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/scaleeffect/from/
 ---
+
 ## ScaleEffect.From property
 
 Specifies an x/y co-ordinate to start the animation from (in percents). Read/write PointF.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/icontrol/properties/
 ---
+
 ## IControl.Properties property
 
 Returns a collection of ActiveX properties. Read-only [`IControlPropertiesCollection`](../../icontrolpropertiescollection).

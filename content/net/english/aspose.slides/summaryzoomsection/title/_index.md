@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/summaryzoomsection/title/
 ---
+
 ## SummaryZoomSection.Title property
 
 Returns the text title of the Summary Zoom Section object.

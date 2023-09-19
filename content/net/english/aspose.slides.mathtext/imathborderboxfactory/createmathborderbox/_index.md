@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathborderboxfactory/createmathborderbox/
 ---
+
 ## CreateMathBorderBox(IMathElement) {#createmathborderbox}
 
 Create a math border box by applying to the element

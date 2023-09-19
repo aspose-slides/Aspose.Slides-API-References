@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathaccentfactory/mathaccentfactory/
 ---
+
 ## MathAccentFactory constructor
 
 The default constructor.

@@ -3,9 +3,10 @@ title: Hyperlink
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a hyperlink.
 type: docs
-weight: 4770
+weight: 4780
 url: /aspose.slides/hyperlink/
 ---
+
 ## Hyperlink class
 
 Represents a hyperlink.

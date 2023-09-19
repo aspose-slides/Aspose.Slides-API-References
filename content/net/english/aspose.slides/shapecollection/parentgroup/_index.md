@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/shapecollection/parentgroup/
 ---
+
 ## ShapeCollection.ParentGroup property
 
 Returns parent GroupShape object for a shapes collection. Read-only [`IGroupShape`](../../igroupshape).

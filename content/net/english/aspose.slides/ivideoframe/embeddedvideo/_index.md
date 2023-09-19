@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ivideoframe/embeddedvideo/
 ---
+
 ## IVideoFrame.EmbeddedVideo property
 
 Returns or sets embedded video object. Read/write [`IVideo`](../../ivideo).

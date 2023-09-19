@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.export/pdfoptions/jpegquality/
 ---
+
 ## PdfOptions.JpegQuality property
 
 Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write Byte.

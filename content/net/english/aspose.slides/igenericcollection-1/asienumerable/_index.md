@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/igenericcollection-1/asienumerable/
 ---
+
 ## IGenericCollection&lt;T&gt;.AsIEnumerable property
 
 Returns IEnumerable interface. Read-only IEnumerable.

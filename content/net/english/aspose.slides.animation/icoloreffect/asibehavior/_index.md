@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/icoloreffect/asibehavior/
 ---
+
 ## IColorEffect.AsIBehavior property
 
 Allows to get base IBehavior interface. Read-only [`IBehavior`](../../ibehavior).

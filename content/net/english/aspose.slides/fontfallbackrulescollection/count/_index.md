@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/fontfallbackrulescollection/count/
 ---
+
 ## FontFallBackRulesCollection.Count property
 
 Gets the number of rules actually contained in the collection. Read-only Int32.

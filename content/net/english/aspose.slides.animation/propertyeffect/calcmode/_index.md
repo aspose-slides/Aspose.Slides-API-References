@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/propertyeffect/calcmode/
 ---
+
 ## PropertyEffect.CalcMode property
 
 Specifies the interpolation mode for the animation Read/write [`PropertyCalcModeType`](../../propertycalcmodetype).

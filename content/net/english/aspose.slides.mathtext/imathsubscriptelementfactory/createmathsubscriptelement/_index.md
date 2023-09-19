@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathsubscriptelementfactory/createmathsubscriptelement/
 ---
+
 ## IMathSubscriptElementFactory.CreateMathSubscriptElement method
 
 Creates IMathSubscriptElement

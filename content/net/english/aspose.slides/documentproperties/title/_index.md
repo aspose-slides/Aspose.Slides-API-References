@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/documentproperties/title/
 ---
+
 ## DocumentProperties.Title property
 
 Returns or sets the title of a presentation. Read/write String.

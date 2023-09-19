@@ -3,9 +3,10 @@ title: SpreadsheetOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents options which can be used to specify additional spreadsheets behavior.
 type: docs
-weight: 10090
+weight: 10100
 url: /aspose.slides/spreadsheetoptions/
 ---
+
 ## SpreadsheetOptions class
 
 Represents options which can be used to specify additional spreadsheets behavior.

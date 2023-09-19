@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/lineformat/alignment/
 ---
+
 ## LineFormat.Alignment property
 
 Returns or sets the line alignment. Read/write [`LineAlignment`](../../linealignment).

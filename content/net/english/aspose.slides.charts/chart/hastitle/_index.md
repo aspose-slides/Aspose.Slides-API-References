@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/chart/hastitle/
 ---
+
 ## Chart.HasTitle property
 
 Determines whether a chart has a visible title. Read/write Boolean.

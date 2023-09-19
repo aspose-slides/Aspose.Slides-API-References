@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/legend/format/
 ---
+
 ## Legend.Format property
 
 Returns the format of a legend. Read-only [`IFormat`](../../iformat).

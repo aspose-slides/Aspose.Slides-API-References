@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itextframe/hyperlinkqueries/
 ---
+
 ## ITextFrame.HyperlinkQueries property
 
 Provides easy access to contained hyperlinks. Read-only [`IHyperlinkQueries`](../../ihyperlinkqueries).

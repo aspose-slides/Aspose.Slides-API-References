@@ -6,6 +6,7 @@ type: docs
 weight: 470
 url: /aspose.slides.animation/behaviorproperty/imagedatacroptop/
 ---
+
 ## BehaviorProperty.ImageDataCropTop property
 
 Represents 'imageData.cropTop' property

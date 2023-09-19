@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartcategorycollection/item/
 ---
+
 ## IChartCategoryCollection indexer
 
 Gets the element at the specified index.

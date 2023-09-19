@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/mathdelimiter/delimit/
 ---
+
 ## MathDelimiter.Delimit method
 
 Delimits arguments using the specified delimiter character

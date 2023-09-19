@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/iparagraph/getrect/
 ---
+
 ## IParagraph.GetRect method
 
 Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones.

@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/commentcollection/removeat/
 ---
+
 ## CommentCollection.RemoveAt method
 
 Removes the element at the specified index in a collection.

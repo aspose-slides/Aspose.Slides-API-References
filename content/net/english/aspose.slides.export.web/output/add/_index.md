@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/output/add/
 ---
+
 ## Add&lt;TContextObject&gt;(string, string, TContextObject) {#add_5}
 
 ```csharp

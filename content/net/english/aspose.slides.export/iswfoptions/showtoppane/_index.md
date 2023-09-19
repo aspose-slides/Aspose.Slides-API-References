@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.export/iswfoptions/showtoppane/
 ---
+
 ## ISwfOptions.ShowTopPane property
 
 Show/hide whole top pane. Can be overridden in flashvars. Default is true.

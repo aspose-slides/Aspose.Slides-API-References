@@ -3,9 +3,10 @@ title: EffectChartMinorGroupingType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the type of an animation effect for charts element in series or category.
 type: docs
-weight: 210
+weight: 220
 url: /aspose.slides.animation/effectchartminorgroupingtype/
 ---
+
 ## EffectChartMinorGroupingType enumeration
 
 Represents the type of an animation effect for chart's element in series or category.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/imagewrapper/image/
 ---
+
 ## ImageWrapper.Image property
 
 Gets Image. Read-only `Image`.

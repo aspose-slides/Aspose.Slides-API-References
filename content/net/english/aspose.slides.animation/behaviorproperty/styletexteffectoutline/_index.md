@@ -6,6 +6,7 @@ type: docs
 weight: 1160
 url: /aspose.slides.animation/behaviorproperty/styletexteffectoutline/
 ---
+
 ## BehaviorProperty.StyleTextEffectOutline property
 
 Represents 'style.textEffectOutline' property

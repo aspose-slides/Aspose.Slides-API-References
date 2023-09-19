@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.spreadsheet/cellunsupporteddataexception/cellunsupporteddataexception/
 ---
+
 ## CellUnsupportedDataException() {#constructor}
 
 Initializes a new instance of the [`CellUnsupportedDataException`](../../cellunsupporteddataexception) class.

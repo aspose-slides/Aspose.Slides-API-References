@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/ibehaviorfactory/createrotationeffect/
 ---
+
 ## IBehaviorFactory.CreateRotationEffect method
 
 Creates rotation effect.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/lightrig/lighttype/
 ---
+
 ## LightRig.LightType property
 
 Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write [`LightRigPresetType`](../../lightrigpresettype).

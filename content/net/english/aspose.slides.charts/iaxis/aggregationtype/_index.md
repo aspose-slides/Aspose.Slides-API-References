@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/iaxis/aggregationtype/
 ---
+
 ## IAxis.AggregationType property
 
 Represents aggregation type of category axis (binning). Applied to category. Used with Histogram or HistogramPareto series only.

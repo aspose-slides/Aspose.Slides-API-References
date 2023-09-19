@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/hyperlinkmanager/removehyperlinkmouseover/
 ---
+
 ## HyperlinkManager.RemoveHyperlinkMouseOver method
 
 Removes hyperlink mouse over.

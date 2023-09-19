@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/imultiplecellchartvalue/ascells/
 ---
+
 ## IMultipleCellChartValue.AsCells property
 
 Returns or sets the collection of chart cells. Read/write [`IChartCellCollection`](../../ichartcellcollection).

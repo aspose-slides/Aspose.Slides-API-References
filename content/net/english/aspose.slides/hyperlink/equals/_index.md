@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/hyperlink/equals/
 ---
+
 ## Equals(object) {#equals_1}
 
 Determines whether the two Hyperlink instances are equal.

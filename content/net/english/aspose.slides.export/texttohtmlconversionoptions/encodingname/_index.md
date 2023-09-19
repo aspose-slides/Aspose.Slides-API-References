@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/texttohtmlconversionoptions/encodingname/
 ---
+
 ## TextToHtmlConversionOptions.EncodingName property
 
 Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String.

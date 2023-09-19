@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/masterlayoutslidecollection/add/
 ---
+
 ## MasterLayoutSlideCollection.Add method
 
 Adds a new layout slide to the end of the collection.

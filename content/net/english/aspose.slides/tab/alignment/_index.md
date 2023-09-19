@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/tab/alignment/
 ---
+
 ## Tab.Alignment property
 
 Returns or sets align style of a tab. Read/write [`TabAlignment`](../../tabalignment).

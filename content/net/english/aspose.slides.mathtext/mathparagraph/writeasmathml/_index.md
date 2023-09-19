@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.mathtext/mathparagraph/writeasmathml/
 ---
+
 ## MathParagraph.WriteAsMathMl method
 
 Saves content of this [`MathParagraph`](../../mathparagraph) as MathML

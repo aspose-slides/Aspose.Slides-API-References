@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ivideoframe/fullscreenmode/
 ---
+
 ## IVideoFrame.FullScreenMode property
 
 Determines whether a video is shown in full screen mode. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.smartart/smartartnode/childnodes/
 ---
+
 ## SmartArtNode.ChildNodes property
 
 Returns collections of all child nodes of the current node. Read-only [`ISmartArtNodeCollection`](../../ismartartnodecollection).

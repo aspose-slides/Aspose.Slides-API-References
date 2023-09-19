@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathportion/mathparagraph/
 ---
+
 ## IMathPortion.MathParagraph property
 
 Math paragraph

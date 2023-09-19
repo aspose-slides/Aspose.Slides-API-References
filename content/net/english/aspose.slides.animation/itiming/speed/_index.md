@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.animation/itiming/speed/
 ---
+
 ## ITiming.Speed property
 
 Specifies the percentage by which to speed up (or slow down) the timing. Read/write Single.

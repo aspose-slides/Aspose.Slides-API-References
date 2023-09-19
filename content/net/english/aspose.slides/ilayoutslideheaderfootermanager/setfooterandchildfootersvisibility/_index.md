@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ilayoutslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
+
 ## ILayoutSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
 Changes layout slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on master slide.

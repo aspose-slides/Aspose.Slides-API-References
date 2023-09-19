@@ -3,9 +3,10 @@ title: StringChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent string value which can be stored in pptx presentation document in two ways 1 in cell/cells of workbook related to chart 2 as literal value.
 type: docs
-weight: 2300
+weight: 2310
 url: /aspose.slides.charts/stringchartvalue/
 ---
+
 ## StringChartValue class
 
 Represent string value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/videoframe/playloopmode/
 ---
+
 ## VideoFrame.PlayLoopMode property
 
 Determines whether a video is looped. Read/write Boolean.

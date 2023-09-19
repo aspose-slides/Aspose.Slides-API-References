@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/fontfallbackrule/removeat/
 ---
+
 ## FontFallBackRule.RemoveAt method
 
 Removes the FallBack font at the specified index of the list.

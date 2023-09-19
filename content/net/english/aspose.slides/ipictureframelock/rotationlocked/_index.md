@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ipictureframelock/rotationlocked/
 ---
+
 ## IPictureFrameLock.RotationLocked property
 
 Determines whether a changing rotation angle of this shape is forbidden. Read/write Boolean.

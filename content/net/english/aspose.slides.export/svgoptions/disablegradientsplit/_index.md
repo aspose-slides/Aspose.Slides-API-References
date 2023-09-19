@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.export/svgoptions/disablegradientsplit/
 ---
+
 ## SVGOptions.DisableGradientSplit property
 
 Disables splitting FromCornerX and FromCenter gradients. Read/write Boolean.

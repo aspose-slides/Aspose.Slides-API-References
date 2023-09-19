@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/ilinkembedcontroller/saveexternal/
 ---
+
 ## ILinkEmbedController.SaveExternal method
 
 Saves external object.

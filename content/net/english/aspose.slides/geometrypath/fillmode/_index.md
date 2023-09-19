@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/geometrypath/fillmode/
 ---
+
 ## GeometryPath.FillMode property
 
 Sets fill mode

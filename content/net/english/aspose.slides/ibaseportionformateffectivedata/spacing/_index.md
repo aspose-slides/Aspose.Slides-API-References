@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/ibaseportionformateffectivedata/spacing/
 ---
+
 ## IBasePortionFormatEffectiveData.Spacing property
 
 Returns the intercharacter spacing increment. Read-only Single.

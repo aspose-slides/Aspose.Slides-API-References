@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/layoutslide/layouttype/
 ---
+
 ## LayoutSlide.LayoutType property
 
 Returns layout type of this layout slide. Read-only [`SlideLayoutType`](../../slidelayouttype).

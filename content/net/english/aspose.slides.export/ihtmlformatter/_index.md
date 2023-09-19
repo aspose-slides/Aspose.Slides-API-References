@@ -3,9 +3,10 @@ title: IHtmlFormatter
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents HTML file template.
 type: docs
-weight: 3670
+weight: 3680
 url: /aspose.slides.export/ihtmlformatter/
 ---
+
 ## IHtmlFormatter interface
 
 Represents HTML file template.

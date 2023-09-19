@@ -6,6 +6,7 @@ type: docs
 weight: 360
 url: /aspose.slides/shape/writeassvg/
 ---
+
 ## WriteAsSvg(Stream) {#writeassvg}
 
 Saves content of Shape as SVG file.

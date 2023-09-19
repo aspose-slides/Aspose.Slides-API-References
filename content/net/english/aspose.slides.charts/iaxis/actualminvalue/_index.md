@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/iaxis/actualminvalue/
 ---
+
 ## IAxis.ActualMinValue property
 
 Specifies actual minimum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value.

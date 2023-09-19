@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ibulletformateffectivedata/numberedbulletstyle/
 ---
+
 ## IBulletFormatEffectiveData.NumberedBulletStyle property
 
 Returns the style of a numbered bullet. Read-only [`NumberedBulletStyle`](../../numberedbulletstyle).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/imastertheme/extracolorschemes/
 ---
+
 ## IMasterTheme.ExtraColorSchemes property
 
 Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only [`IExtraColorSchemeCollection`](../../iextracolorschemecollection).

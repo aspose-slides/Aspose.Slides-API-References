@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/piesplitcustompointcollection/syncroot/
 ---
+
 ## PieSplitCustomPointCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

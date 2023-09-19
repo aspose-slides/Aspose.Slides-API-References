@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathgroupingcharacterfactory/createmathgroupingcharacter/
 ---
+
 ## CreateMathGroupingCharacter(IMathElement, char, MathTopBotPositions, MathTopBotPositions) {#createmathgroupingcharacter_1}
 
 Creates a math grouping character

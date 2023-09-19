@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/rotationeffect/from/
 ---
+
 ## RotationEffect.From property
 
 Describes the starting value for the animation. Read/write Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/graphicalobject/graphicalobjectlock/
 ---
+
 ## GraphicalObject.GraphicalObjectLock property
 
 Returns shape's locks. Read-only [`IGraphicalObjectLock`](../../igraphicalobjectlock).

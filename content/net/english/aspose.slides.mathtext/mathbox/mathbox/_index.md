@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathbox/mathbox/
 ---
+
 ## MathBox constructor
 
 Initializes MathBox with the specified element as an argument

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icommonslideviewproperties/variablescale/
 ---
+
 ## ICommonSlideViewProperties.VariableScale property
 
 Specifies that the view content should automatically scale to best fit the current window size. Read/write Boolean.

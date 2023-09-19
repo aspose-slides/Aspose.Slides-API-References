@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/mathlimit/getchildren/
 ---
+
 ## MathLimit.GetChildren method
 
 Get children elements

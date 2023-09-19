@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/loadoptions/password/
 ---
+
 ## LoadOptions.Password property
 
 Gets or sets the password. Read/write String.

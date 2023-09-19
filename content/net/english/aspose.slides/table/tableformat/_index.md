@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/table/tableformat/
 ---
+
 ## Table.TableFormat property
 
 Returns the TableFormat object that contains formatting properties for this table. Read-only [`ITableFormat`](../../itableformat).

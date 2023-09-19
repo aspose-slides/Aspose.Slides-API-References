@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/mathparagraph/clear/
 ---
+
 ## MathParagraph.Clear method
 
 Removes all elements from the collection.

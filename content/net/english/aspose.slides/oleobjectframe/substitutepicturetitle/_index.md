@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/oleobjectframe/substitutepicturetitle/
 ---
+
 ## OleObjectFrame.SubstitutePictureTitle property
 
 Returns or sets the title for OleObject icon. Read/write String.

@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.export/ipdfoptions/sufficientresolution/
 ---
+
 ## IPdfOptions.SufficientResolution property
 
 Returns or sets a value determining resolution of images inside PDF document.

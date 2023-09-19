@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathleftsubsuperscriptelement/superscript/
 ---
+
 ## IMathLeftSubSuperscriptElement.Superscript property
 
 Superscript

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartdatapointlevel/format/
 ---
+
 ## ChartDataPointLevel.Format property
 
 Represents formatting properties of data point level. Read/write [`IFormat`](../../iformat).

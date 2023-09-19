@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/baseslide/findshapebyalttext/
 ---
+
 ## BaseSlide.FindShapeByAltText method
 
 Finds first occurrence of a shape with the specified alternative text.

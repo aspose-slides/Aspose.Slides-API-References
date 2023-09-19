@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ipicturefillformat/picture/
 ---
+
 ## IPictureFillFormat.Picture property
 
 Returns the picture. Read-only [`ISlidesPicture`](../../islidespicture).

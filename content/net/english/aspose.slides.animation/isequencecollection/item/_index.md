@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/isequencecollection/item/
 ---
+
 ## ISequenceCollection indexer
 
 Returns a sequense at the specified index.

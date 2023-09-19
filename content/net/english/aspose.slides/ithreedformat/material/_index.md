@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ithreedformat/material/
 ---
+
 ## IThreeDFormat.Material property
 
 Returns or sets the type of a material. Read/write [`MaterialPresetType`](../../materialpresettype).

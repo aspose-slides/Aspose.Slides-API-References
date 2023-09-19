@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/tagcollection/copyto/
 ---
+
 ## TagCollection.CopyTo method
 
 Copies all elements from the collection into the specified array.

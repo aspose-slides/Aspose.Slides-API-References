@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/loadoptions/spreadsheetoptions/
 ---
+
 ## LoadOptions.SpreadsheetOptions property
 
 Gets options for spreadsheets. For example, these options affect calculating formulas for charts.

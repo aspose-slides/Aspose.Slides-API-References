@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/icharttextblockformat/autofittype/
 ---
+
 ## IChartTextBlockFormat.AutofitType property
 
 Returns or sets text's autofit mode. Changing of this property can produce a certain influence only for these chart parts: DataLabel and DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). Read/write [`TextAutofitType`](../../../aspose.slides/textautofittype).

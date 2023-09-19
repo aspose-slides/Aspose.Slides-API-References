@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/igraphicalobject/asishape/
 ---
+
 ## IGraphicalObject.AsIShape property
 
 Allows to get base IShape interface. Read-only [`IShape`](../../ishape).

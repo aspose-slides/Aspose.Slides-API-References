@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/iportioncollection/removeat/
 ---
+
 ## IPortionCollection.RemoveAt method
 
 Removes the element at the specified index of the collection.

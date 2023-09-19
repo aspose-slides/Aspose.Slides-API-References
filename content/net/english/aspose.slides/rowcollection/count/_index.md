@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/rowcollection/count/
 ---
+
 ## RowCollection.Count property
 
 Gets the number of rows actually contained in the collection. Read-only Int32.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/islidecollection/insertfromhtml/
 ---
+
 ## InsertFromHtml(int, string, IExternalResourceResolver, string) {#insertfromhtml_5}
 
 Creates slides from HTML text and inserts them to the collection at the specified position.

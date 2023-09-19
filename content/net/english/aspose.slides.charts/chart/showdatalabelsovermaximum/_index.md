@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.charts/chart/showdatalabelsovermaximum/
 ---
+
 ## Chart.ShowDataLabelsOverMaximum property
 
 Specifies data labels over the maximum of the chart shall be shown. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/itable/horizontalbanding/
 ---
+
 ## ITable.HorizontalBanding property
 
 Determines whether the even rows has to be drawn with a different formatting. Read/write Boolean.

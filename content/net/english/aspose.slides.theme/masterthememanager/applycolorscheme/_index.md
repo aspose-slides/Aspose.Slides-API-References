@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/masterthememanager/applycolorscheme/
 ---
+
 ## MasterThemeManager.ApplyColorScheme method
 
 Applies extra color scheme to a slide.

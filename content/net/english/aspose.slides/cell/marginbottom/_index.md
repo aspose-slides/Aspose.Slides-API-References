@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/cell/marginbottom/
 ---
+
 ## Cell.MarginBottom property
 
 Returns or sets the bottom margin in a TextFrame. Read/write Double.

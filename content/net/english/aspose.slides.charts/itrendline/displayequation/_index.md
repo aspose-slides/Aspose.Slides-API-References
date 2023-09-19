@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/itrendline/displayequation/
 ---
+
 ## ITrendline.DisplayEquation property
 
 Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue). Read/write Boolean.

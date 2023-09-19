@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.effects/ioutershadow/scalehorizontal/
 ---
+
 ## IOuterShadow.ScaleHorizontal property
 
 Specifies the horizontal scaling factor, negative scaling causes a flip. Read/write Double.

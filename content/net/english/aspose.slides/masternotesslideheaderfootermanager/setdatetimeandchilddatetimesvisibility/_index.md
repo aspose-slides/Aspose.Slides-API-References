@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/masternotesslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
+
 ## MasterNotesSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
 Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.

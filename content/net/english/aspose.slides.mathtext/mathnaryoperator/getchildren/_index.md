@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.mathtext/mathnaryoperator/getchildren/
 ---
+
 ## MathNaryOperator.GetChildren method
 
 Get children elements

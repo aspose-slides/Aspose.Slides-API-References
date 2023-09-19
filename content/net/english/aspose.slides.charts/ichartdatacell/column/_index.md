@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartdatacell/column/
 ---
+
 ## IChartDataCell.Column property
 
 Returns the index of the column of worksheet in which the cell is located. Read-only Int32.

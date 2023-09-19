@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/ibehaviorcollection/item/
 ---
+
 ## IBehaviorCollection indexer
 
 Returns a behavior at the specified index.

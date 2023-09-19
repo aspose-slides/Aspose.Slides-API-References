@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/islidecollection/indexof/
 ---
+
 ## ISlideCollection.IndexOf method
 
 Returns an index of the specified slide in the collection.

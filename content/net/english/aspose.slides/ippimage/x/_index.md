@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ippimage/x/
 ---
+
 ## IPPImage.X property
 
 Returns a X-offset of an image. Read-only Int32.

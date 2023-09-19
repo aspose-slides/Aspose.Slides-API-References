@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartcategorycollection/indexof/
 ---
+
 ## IChartCategoryCollection.IndexOf method
 
 Searches for the specified [`IChartCategory`](../../ichartcategory) and returns the zero-based index of the first occurrence within the entire Collection

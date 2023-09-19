@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ilineformat/capstyle/
 ---
+
 ## ILineFormat.CapStyle property
 
 Returns or sets the line cap style. Read/write [`LineCapStyle`](../../linecapstyle).

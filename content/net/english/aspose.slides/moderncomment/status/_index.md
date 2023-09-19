@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/moderncomment/status/
 ---
+
 ## ModernComment.Status property
 
 Gets or sets the status of the comment. Read/write [`ModernCommentStatus`](../../moderncommentstatus).

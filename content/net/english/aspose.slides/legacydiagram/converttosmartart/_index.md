@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/legacydiagram/converttosmartart/
 ---
+
 ## LegacyDiagram.ConvertToSmartArt method
 
 Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position.

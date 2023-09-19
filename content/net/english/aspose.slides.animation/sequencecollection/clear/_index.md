@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/sequencecollection/clear/
 ---
+
 ## SequenceCollection.Clear method
 
 Removes all sequences from a collection.

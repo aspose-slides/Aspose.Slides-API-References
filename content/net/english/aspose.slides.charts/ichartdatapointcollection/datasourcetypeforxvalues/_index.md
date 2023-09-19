@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ichartdatapointcollection/datasourcetypeforxvalues/
 ---
+
 ## IChartDataPointCollection.DataSourceTypeForXValues property
 
 Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPointEx.XValue.Data property. Read/write [`DataSourceType`](../../datasourcetype).

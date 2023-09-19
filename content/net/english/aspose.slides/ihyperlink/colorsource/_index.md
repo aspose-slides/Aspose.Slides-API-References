@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ihyperlink/colorsource/
 ---
+
 ## IHyperlink.ColorSource property
 
 Represents the source of hyperlink color - either styles or portion format. Read/write [`HyperlinkColorSource`](../../hyperlinkcolorsource).

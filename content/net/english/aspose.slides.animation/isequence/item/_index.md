@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/isequence/item/
 ---
+
 ## ISequence indexer
 
 Returns an effect at the specified index.

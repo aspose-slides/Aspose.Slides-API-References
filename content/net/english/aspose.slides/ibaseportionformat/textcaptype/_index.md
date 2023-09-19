@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/ibaseportionformat/textcaptype/
 ---
+
 ## IBasePortionFormat.TextCapType property
 
 Returns or sets the type of text capitalization. No inheritance applied. Read/write [`TextCapType`](../../textcaptype).

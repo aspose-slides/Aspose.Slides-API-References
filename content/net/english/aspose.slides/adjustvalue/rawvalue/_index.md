@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/adjustvalue/rawvalue/
 ---
+
 ## AdjustValue.RawValue property
 
 Returns or sets ajustment value "as is". Read/write Int64.

@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/baseportionformat/lineformat/
 ---
+
 ## BasePortionFormat.LineFormat property
 
 Returns the LineFormat properties for text outlining. No inheritance applied. Read-only [`ILineFormat`](../../ilineformat).

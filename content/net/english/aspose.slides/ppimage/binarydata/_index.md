@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ppimage/binarydata/
 ---
+
 ## PPImage.BinaryData property
 
 Returns the copy of an image's data. Read-only Byte[].

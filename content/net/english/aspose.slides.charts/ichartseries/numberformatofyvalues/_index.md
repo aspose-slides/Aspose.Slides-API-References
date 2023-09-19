@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides.charts/ichartseries/numberformatofyvalues/
 ---
+
 ## IChartSeries.NumberFormatOfYValues property
 
 Returns or sets the number format for series y values. Read/write String.

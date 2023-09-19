@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipresentation/asidisposable/
 ---
+
 ## IPresentation.AsIDisposable property
 
 Returns IDisposable interface. Read-only IDisposable.

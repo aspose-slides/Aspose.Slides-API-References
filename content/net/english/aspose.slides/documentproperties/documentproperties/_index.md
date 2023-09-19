@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/documentproperties/documentproperties/
 ---
+
 ## DocumentProperties constructor
 
 Initializes new instance of class [`DocumentProperties`](../../documentproperties).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/itrendlinecollection/item/
 ---
+
 ## ITrendlineCollection indexer
 
 Gets the element at the specified index. Read-only [`ITrendline`](../../itrendline).

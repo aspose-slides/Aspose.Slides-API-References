@@ -6,6 +6,7 @@ type: docs
 weight: 440
 url: /aspose.slides.animation/behaviorproperty/imagedatacropbottom/
 ---
+
 ## BehaviorProperty.ImageDataCropBottom property
 
 Represents 'imageData.cropBottom' property

@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/shapecollection/clear/
 ---
+
 ## ShapeCollection.Clear method
 
 Removes all shapes from the collection.

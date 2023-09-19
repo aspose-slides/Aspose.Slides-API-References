@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.smartart/ismartartshape/asigeometryshape/
 ---
+
 ## ISmartArtShape.AsIGeometryShape property
 
 Allows to get base IGeometryShape interface. Read-only [`IGeometryShape`](../../../aspose.slides/igeometryshape).

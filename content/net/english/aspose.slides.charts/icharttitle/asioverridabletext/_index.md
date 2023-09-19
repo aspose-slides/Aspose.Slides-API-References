@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/icharttitle/asioverridabletext/
 ---
+
 ## IChartTitle.AsIOverridableText property
 
 Allows to get base IOverridableText interface. Read-only [`IOverridableText`](../../ioverridabletext).

@@ -6,6 +6,7 @@ type: docs
 weight: 440
 url: /aspose.slides.charts/chartseries/type/
 ---
+
 ## ChartSeries.Type property
 
 Returns a type of this series. Read/write [`ChartType`](../../charttype).

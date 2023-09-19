@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/documentproperties/lastprinted/
 ---
+
 ## DocumentProperties.LastPrinted property
 
 Returns the date when a presentation was printed last time. Read/write DateTime.

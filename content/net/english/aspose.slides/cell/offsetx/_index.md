@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/cell/offsetx/
 ---
+
 ## Cell.OffsetX property
 
 Returns a distance from left side of a table to left side of a cell. Read-only Double.

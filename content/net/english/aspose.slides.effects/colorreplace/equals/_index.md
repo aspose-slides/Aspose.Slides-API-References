@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/colorreplace/equals/
 ---
+
 ## ColorReplace.Equals method
 
 Determines whether the specified [`ColorReplace`](../../colorreplace) is equal to the current [`ColorReplace`](../../colorreplace).

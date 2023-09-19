@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides/icell/splitbywidth/
 ---
+
 ## ICell.SplitByWidth method
 
 Splits the cell by width.

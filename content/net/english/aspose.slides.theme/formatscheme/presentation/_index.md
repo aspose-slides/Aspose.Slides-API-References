@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.theme/formatscheme/presentation/
 ---
+
 ## FormatScheme.Presentation property
 
 Returns the parent presentation. Read-only [`IPresentation`](../../../aspose.slides/ipresentation).

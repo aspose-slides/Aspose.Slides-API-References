@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartplotarea/actualx/
 ---
+
 ## ChartPlotArea.ActualX property
 
 Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call method IChart.ValidateChartLayout() before to get actual values. Read Single.

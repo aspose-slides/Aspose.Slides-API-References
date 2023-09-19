@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.slideshow/slideshowtransition/sound/
 ---
+
 ## SlideShowTransition.Sound property
 
 Returns or sets the embedded audio data. Read/write [`IAudio`](../../../aspose.slides/iaudio).

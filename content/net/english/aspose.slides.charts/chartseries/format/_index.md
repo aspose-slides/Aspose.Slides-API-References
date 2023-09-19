@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/chartseries/format/
 ---
+
 ## ChartSeries.Format property
 
 Returns the format of a series. Read-only [`IFormat`](../../iformat).

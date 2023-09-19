@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathlimit/limit/
 ---
+
 ## IMathLimit.Limit property
 
 Limit argument

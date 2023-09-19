@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.effects/outershadow/scalevertical/
 ---
+
 ## OuterShadow.ScaleVertical property
 
 Specifies the vertical scaling factor, negative scaling causes a flip. Read/write Double.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/itrendline/asioverridabletext/
 ---
+
 ## ITrendline.AsIOverridableText property
 
 Returns IOverridableText interface. Read-only [`IOverridableText`](../../ioverridabletext).

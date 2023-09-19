@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/table/stylepreset/
 ---
+
 ## Table.StylePreset property
 
 Gets or sets builtin table style. Read/write [`TableStylePreset`](../../tablestylepreset).

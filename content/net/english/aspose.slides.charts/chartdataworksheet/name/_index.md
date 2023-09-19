@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/chartdataworksheet/name/
 ---
+
 ## ChartDataWorksheet.Name property
 
 Returns the name of the worksheet. Read-only String.

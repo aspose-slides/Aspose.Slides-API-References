@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/behaviorfactory/createmotioneffect/
 ---
+
 ## BehaviorFactory.CreateMotionEffect method
 
 Creates motion effect.

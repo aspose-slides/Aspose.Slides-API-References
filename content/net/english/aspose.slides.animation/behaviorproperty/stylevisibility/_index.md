@@ -6,6 +6,7 @@ type: docs
 weight: 1190
 url: /aspose.slides.animation/behaviorproperty/stylevisibility/
 ---
+
 ## BehaviorProperty.StyleVisibility property
 
 Represents 'style.visibility' property

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/mathblock/copyto/
 ---
+
 ## MathBlock.CopyTo method
 
 Copy to specified array.

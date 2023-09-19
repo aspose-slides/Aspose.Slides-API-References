@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ipiesplitcustompointcollection/add/
 ---
+
 ## IPieSplitCustomPointCollection.Add method
 
 Adds data point by its index in parent series points collection.

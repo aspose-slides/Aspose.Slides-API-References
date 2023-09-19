@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/presentationinfo/checkwriteprotection/
 ---
+
 ## PresentationInfo.CheckWriteProtection method
 
 Checks whether a password to modify is correct for a write protected presentation.

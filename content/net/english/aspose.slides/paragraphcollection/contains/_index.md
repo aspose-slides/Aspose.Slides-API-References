@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/paragraphcollection/contains/
 ---
+
 ## ParagraphCollection.Contains method
 
 Determines whether the ICollection contains a specific value.

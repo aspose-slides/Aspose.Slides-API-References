@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/softedge/equals/
 ---
+
 ## SoftEdge.Equals method
 
 Determines whether the specified [`SoftEdge`](../../softedge) is equal to the current [`SoftEdge`](../../softedge).

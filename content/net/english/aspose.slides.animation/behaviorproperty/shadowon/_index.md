@@ -6,6 +6,7 @@ type: docs
 weight: 720
 url: /aspose.slides.animation/behaviorproperty/shadowon/
 ---
+
 ## BehaviorProperty.ShadowOn property
 
 Represents 'shadow.on' property

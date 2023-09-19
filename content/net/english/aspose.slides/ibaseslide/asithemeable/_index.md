@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibaseslide/asithemeable/
 ---
+
 ## IBaseSlide.AsIThemeable property
 
 Allows to get base IThemeable interface. Read-only [`IThemeable`](../../../aspose.slides.theme/ithemeable).

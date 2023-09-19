@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/iparagraphformateffectivedata/hangingpunctuation/
 ---
+
 ## IParagraphFormatEffectiveData.HangingPunctuation property
 
 Determines whether the hanging punctuation is used in a paragraph. Read-only Boolean.

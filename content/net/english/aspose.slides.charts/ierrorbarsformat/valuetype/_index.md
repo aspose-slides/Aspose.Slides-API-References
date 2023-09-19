@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/ierrorbarsformat/valuetype/
 ---
+
 ## IErrorBarsFormat.ValueType property
 
 Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) property of specific data point in DataPoints collection of series. Read/write [`ErrorBarValueType`](../../errorbarvaluetype).

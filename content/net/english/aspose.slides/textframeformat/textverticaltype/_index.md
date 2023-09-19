@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/textframeformat/textverticaltype/
 ---
+
 ## TextFrameFormat.TextVerticalType property
 
 Determines text orientation. The resulted value of visual text rotation summarized from this property and custom angle in property RotationAngle. Read/write [`TextVerticalType`](../../textverticaltype).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ilegendentryproperties/hide/
 ---
+
 ## ILegendEntryProperties.Hide property
 
 Returns or sets the hide flag of legend entry. Read/write Boolean.

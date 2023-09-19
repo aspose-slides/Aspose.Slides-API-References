@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/istringordoublechartvalue/todouble/
 ---
+
 ## IStringOrDoubleChartValue.ToDouble method
 
 Converts value to double.

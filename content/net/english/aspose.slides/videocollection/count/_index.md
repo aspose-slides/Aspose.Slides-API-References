@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/videocollection/count/
 ---
+
 ## VideoCollection.Count property
 
 Returns a number of video files in the collection. Read-only Int32.

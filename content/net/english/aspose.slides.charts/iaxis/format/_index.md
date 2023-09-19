@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/iaxis/format/
 ---
+
 ## IAxis.Format property
 
 Represents format of axis. Read-only [`IAxisFormat`](../../iaxisformat).

@@ -6,6 +6,7 @@ type: docs
 weight: 330
 url: /aspose.slides.charts/chartseries/plotonsecondaxis/
 ---
+
 ## ChartSeries.PlotOnSecondAxis property
 
 Indicates if this series is plotted on secondary axis. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathsuperscriptelement/base/
 ---
+
 ## IMathSuperscriptElement.Base property
 
 Base argument

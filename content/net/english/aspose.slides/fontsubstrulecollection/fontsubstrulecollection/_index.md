@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontsubstrulecollection/fontsubstrulecollection/
 ---
+
 ## FontSubstRuleCollection constructor
 
 The default constructor.

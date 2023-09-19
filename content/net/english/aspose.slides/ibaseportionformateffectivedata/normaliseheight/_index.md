@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/ibaseportionformateffectivedata/normaliseheight/
 ---
+
 ## IBasePortionFormatEffectiveData.NormaliseHeight property
 
 Determines whether the height of a text should be normalized. Read-only Boolean.

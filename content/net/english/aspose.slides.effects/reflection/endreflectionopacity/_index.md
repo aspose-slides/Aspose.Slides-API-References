@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.effects/reflection/endreflectionopacity/
 ---
+
 ## Reflection.EndReflectionOpacity property
 
 End reflection opacity. (percents). Read/write Single.

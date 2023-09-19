@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/imathelement/integral/
 ---
+
 ## Integral(MathIntegralTypes, IMathElement, IMathElement, MathLimitLocations) {#integral_2}
 
 Takes the integral

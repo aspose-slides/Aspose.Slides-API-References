@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/charttitle/x/
 ---
+
 ## ChartTitle.X property
 
 Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single.

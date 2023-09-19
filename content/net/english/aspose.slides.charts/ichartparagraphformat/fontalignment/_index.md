@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ichartparagraphformat/fontalignment/
 ---
+
 ## IChartParagraphFormat.FontAlignment property
 
 Returns or sets a font alignment in a paragraph. Read/write [`FontAlignment`](../../../aspose.slides/fontalignment).

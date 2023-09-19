@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ibaseportionformateffectivedata/effectformat/
 ---
+
 ## IBasePortionFormatEffectiveData.EffectFormat property
 
 Returns the text EffectFormat properties. Read-only [`IEffectFormatEffectiveData`](../../ieffectformateffectivedata).

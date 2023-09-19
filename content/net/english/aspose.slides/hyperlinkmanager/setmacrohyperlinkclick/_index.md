@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/hyperlinkmanager/setmacrohyperlinkclick/
 ---
+
 ## HyperlinkManager.SetMacroHyperlinkClick method
 
 Set Macro hyperlink on a click.

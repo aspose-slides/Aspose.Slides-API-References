@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/motioneffect/from/
 ---
+
 ## MotionEffect.From property
 
 Specifies an x/y co-ordinate to start the animation from (in percents). Read/write PointF.

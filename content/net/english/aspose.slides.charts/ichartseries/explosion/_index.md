@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/ichartseries/explosion/
 ---
+
 ## IChartSeries.Explosion property
 
 The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. Read/write Int32.

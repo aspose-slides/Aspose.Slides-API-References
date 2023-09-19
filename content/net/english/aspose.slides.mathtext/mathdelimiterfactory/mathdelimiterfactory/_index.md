@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathdelimiterfactory/mathdelimiterfactory/
 ---
+
 ## MathDelimiterFactory constructor
 
 The default constructor.

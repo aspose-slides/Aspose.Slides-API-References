@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathblockcollection/add/
 ---
+
 ## IMathBlockCollection.Add method
 
 Adds IMathBlock to the end of collection.

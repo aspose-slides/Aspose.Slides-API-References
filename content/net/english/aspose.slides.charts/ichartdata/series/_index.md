@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartdata/series/
 ---
+
 ## IChartData.Series property
 
 Gets the series. Read-only [`IChartSeriesCollection`](../../ichartseriescollection).

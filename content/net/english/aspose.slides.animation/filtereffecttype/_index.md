@@ -3,9 +3,10 @@ title: FilterEffectType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents filter effect types.
 type: docs
-weight: 310
+weight: 320
 url: /aspose.slides.animation/filtereffecttype/
 ---
+
 ## FilterEffectType enumeration
 
 Represents filter effect types.

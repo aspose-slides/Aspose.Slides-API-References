@@ -3,9 +3,10 @@ title: RippleTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Ripple slide transition effect.
 type: docs
-weight: 9640
+weight: 9650
 url: /aspose.slides.slideshow/rippletransition/
 ---
+
 ## RippleTransition class
 
 Ripple slide transition effect.

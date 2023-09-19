@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/frametickeventargs/getframe/
 ---
+
 ## FrameTickEventArgs.GetFrame method
 
 Get the current [`PresentationPlayer`](../../presentationplayer) frame.

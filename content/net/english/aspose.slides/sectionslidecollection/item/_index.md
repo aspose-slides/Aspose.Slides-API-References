@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/sectionslidecollection/item/
 ---
+
 ## SectionSlideCollection indexer
 
 Gets the element at the specified index. Read-only [`ISlide`](../../islide).

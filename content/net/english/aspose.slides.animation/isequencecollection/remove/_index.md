@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/isequencecollection/remove/
 ---
+
 ## ISequenceCollection.Remove method
 
 Removes specified sequence from a collection.

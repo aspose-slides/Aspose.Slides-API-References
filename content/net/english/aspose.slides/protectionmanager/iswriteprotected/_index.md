@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/protectionmanager/iswriteprotected/
 ---
+
 ## ProtectionManager.IsWriteProtected property
 
 Gets a value indicating whether this presentation is write protected. Read-only Boolean.

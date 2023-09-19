@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/paragraphcollection/item/
 ---
+
 ## ParagraphCollection indexer
 
 Gets the element at the specified index.

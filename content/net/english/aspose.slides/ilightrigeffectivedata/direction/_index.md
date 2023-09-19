@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ilightrigeffectivedata/direction/
 ---
+
 ## ILightRigEffectiveData.Direction property
 
 Light direction. Read-only [`LightingDirection`](../../lightingdirection).

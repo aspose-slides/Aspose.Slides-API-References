@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.mathtext/imathelement/setlowerlimit/
 ---
+
 ## SetLowerLimit(IMathElement) {#setlowerlimit}
 
 Takes lower limit

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathnaryoperatorfactory/mathnaryoperatorfactory/
 ---
+
 ## MathNaryOperatorFactory constructor
 
 The default constructor.

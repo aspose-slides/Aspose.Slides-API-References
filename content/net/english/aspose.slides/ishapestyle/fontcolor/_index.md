@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ishapestyle/fontcolor/
 ---
+
 ## IShapeStyle.FontColor property
 
 Returns a shape's font color. Read-only [`IColorFormat`](../../icolorformat).

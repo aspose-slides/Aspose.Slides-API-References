@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibulletformateffectivedata/actualbulletvalue/
 ---
+
 ## IBulletFormatEffectiveData.ActualBulletValue property
 
 Returns actual bullet value for parent paragraph. Read-only String.

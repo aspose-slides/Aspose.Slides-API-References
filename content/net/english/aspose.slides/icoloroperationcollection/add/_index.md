@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icoloroperationcollection/add/
 ---
+
 ## Add(ColorTransformOperation, float) {#add_1}
 
 Adds a new operation to the end of collection.

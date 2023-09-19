@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathfraction/numerator/
 ---
+
 ## IMathFraction.Numerator property
 
 Numerator

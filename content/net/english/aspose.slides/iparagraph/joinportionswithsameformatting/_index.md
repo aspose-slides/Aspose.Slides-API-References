@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iparagraph/joinportionswithsameformatting/
 ---
+
 ## IParagraph.JoinPortionsWithSameFormatting method
 
 Joins runs with same formatting.

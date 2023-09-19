@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/isequencecollection/add/
 ---
+
 ## ISequenceCollection.Add method
 
 Add new interactive sequence.

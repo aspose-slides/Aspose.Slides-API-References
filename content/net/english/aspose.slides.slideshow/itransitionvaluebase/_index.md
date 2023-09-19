@@ -3,9 +3,10 @@ title: ITransitionValueBase
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents base class for slide transition effects.
 type: docs
-weight: 9560
+weight: 9570
 url: /aspose.slides.slideshow/itransitionvaluebase/
 ---
+
 ## ITransitionValueBase interface
 
 Represents base class for slide transition effects.

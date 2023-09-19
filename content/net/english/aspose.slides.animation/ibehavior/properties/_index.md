@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/ibehavior/properties/
 ---
+
 ## IBehavior.Properties property
 
 Represents properties of behavior. Read-only [`IBehaviorPropertyCollection`](../../ibehaviorpropertycollection).

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/oleobjectframe/objectname/
 ---
+
 ## OleObjectFrame.ObjectName property
 
 Returns or sets the name of an object. Read/write String.

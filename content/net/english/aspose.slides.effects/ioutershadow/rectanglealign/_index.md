@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/ioutershadow/rectanglealign/
 ---
+
 ## IOuterShadow.RectangleAlign property
 
 Rectangle alignment. Read/write [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).

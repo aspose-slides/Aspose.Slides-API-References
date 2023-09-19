@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/ipictureframelock/sizelocked/
 ---
+
 ## IPictureFrameLock.SizeLocked property
 
 Determines whether a resizing this shape is forbidden. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/ichartparagraphformat/spacewithin/
 ---
+
 ## IChartParagraphFormat.SpaceWithin property
 
 Returns or sets the amount of space between base lines in a paragraph. Read/write Single.

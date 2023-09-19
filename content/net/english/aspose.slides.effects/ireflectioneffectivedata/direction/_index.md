@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/ireflectioneffectivedata/direction/
 ---
+
 ## IReflectionEffectiveData.Direction property
 
 Direction of reflection. Read-only Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/templatecontext-1/global/
 ---
+
 ## TemplateContext&lt;TObject&gt;.Global property
 
 Returns global storage of the host document. Read-only [`Storage`](../../storage).

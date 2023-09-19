@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartdata/datasourcetype/
 ---
+
 ## ChartData.DataSourceType property
 
 Represents external workbook path if external data source, null otherwise

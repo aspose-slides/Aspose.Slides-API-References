@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/ishapecollection/addzoomframe/
 ---
+
 ## AddZoomFrame(float, float, float, float, ISlide) {#addzoomframe}
 
 Adds a new Zoom object to the end of a collection.

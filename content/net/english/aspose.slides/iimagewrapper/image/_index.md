@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iimagewrapper/image/
 ---
+
 ## IImageWrapper.Image property
 
 Gets the Syste.Drawing.Image Read-only `Image`.

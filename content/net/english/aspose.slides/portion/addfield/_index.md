@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/portion/addfield/
 ---
+
 ## AddField(IFieldType) {#addfield}
 
 Converts this portion to the automaticaly updated field.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.util/slideutil/findshape/
 ---
+
 ## FindShape(IPresentation, string) {#findshape_1}
 
 Find shape by alternative text in a PPTX presentation.

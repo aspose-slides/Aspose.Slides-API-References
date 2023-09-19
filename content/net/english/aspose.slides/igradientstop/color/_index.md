@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/igradientstop/color/
 ---
+
 ## IGradientStop.Color property
 
 Returns the color of a gradient stop. Read-only [`IColorFormat`](../../icolorformat).

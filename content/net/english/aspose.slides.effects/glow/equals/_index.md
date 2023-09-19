@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/glow/equals/
 ---
+
 ## Glow.Equals method
 
 Determines whether the specified [`Glow`](../../glow) is equal to the current [`Glow`](../../glow).

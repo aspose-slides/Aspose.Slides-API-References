@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/gradientstopcollection/item/
 ---
+
 ## GradientStopCollection indexer
 
 Returns the gradient stop by index.

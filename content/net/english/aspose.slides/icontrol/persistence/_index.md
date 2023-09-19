@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/icontrol/persistence/
 ---
+
 ## IControl.Persistence property
 
 Gets the method used to store properties of the ActiveX control. Read only [`PersistenceType`](../../persistencetype).

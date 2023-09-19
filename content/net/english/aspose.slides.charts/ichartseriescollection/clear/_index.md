@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartseriescollection/clear/
 ---
+
 ## IChartSeriesCollection.Clear method
 
 Removes all elements (including the chart style) from the collection.

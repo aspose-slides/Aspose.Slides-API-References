@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/chartplotarea/y/
 ---
+
 ## ChartPlotArea.Y property
 
 Returns or sets the y coordinate of the upper left corner of plot area bounding box as a fraction of the height of the chart (from 0 to 1). Read/write Single.

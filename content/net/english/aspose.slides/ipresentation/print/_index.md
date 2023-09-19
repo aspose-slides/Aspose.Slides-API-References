@@ -6,6 +6,7 @@ type: docs
 weight: 330
 url: /aspose.slides/ipresentation/print/
 ---
+
 ## Print() {#print}
 
 Prints the whole presentation to the default printer.

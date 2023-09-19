@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iprotectionmanager/encryptdocumentproperties/
 ---
+
 ## IProtectionManager.EncryptDocumentProperties property
 
 This property makes sense, if presentation is password protected. If true then document properties is encrypted in presentation file. If false then document properties is public while presentation is encrypted. Read/write Boolean.

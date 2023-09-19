@@ -6,6 +6,7 @@ type: docs
 weight: 310
 url: /aspose.slides/documentproperties/getcustompropertyname/
 ---
+
 ## DocumentProperties.GetCustomPropertyName method
 
 Return a custom property name at the specified index.

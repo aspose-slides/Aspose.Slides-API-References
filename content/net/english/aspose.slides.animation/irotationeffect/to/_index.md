@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/irotationeffect/to/
 ---
+
 ## IRotationEffect.To property
 
 Describes the ending value for the animation. Read/write Single.

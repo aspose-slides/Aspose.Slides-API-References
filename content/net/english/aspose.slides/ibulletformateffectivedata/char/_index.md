@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ibulletformateffectivedata/char/
 ---
+
 ## IBulletFormatEffectiveData.Char property
 
 Returns the bullet char of a paragraph. Read-only Char.

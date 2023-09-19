@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/iinouttransition/direction/
 ---
+
 ## IInOutTransition.Direction property
 
 Direction of a transition effect. Read/write [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).

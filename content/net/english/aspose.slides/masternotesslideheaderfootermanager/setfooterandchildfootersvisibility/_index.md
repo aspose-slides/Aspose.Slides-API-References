@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/masternotesslideheaderfootermanager/setfooterandchildfootersvisibility/
 ---
+
 ## MasterNotesSlideHeaderFooterManager.SetFooterAndChildFootersVisibility method
 
 Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide.

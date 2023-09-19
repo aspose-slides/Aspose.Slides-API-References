@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/iautoshapelock/textlocked/
 ---
+
 ## IAutoShapeLock.TextLocked property
 
 Determines whether an editing of text is forbidden. Read-write Boolean.

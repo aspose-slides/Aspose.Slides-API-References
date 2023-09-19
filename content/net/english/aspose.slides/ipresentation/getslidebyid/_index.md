@@ -6,6 +6,7 @@ type: docs
 weight: 300
 url: /aspose.slides/ipresentation/getslidebyid/
 ---
+
 ## IPresentation.GetSlideById method
 
 Returns a Slide, MasterSlide or LayoutSlide by Id.

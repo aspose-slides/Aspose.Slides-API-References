@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/trendline/format/
 ---
+
 ## Trendline.Format property
 
 Represents the format of the trend line. Read/write [`IFormat`](../../iformat).

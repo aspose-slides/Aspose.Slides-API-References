@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/ioverridethememanager/asithememanager/
 ---
+
 ## IOverrideThemeManager.AsIThemeManager property
 
 Allows to get base IThemeManager interface. Read-only [`IThemeManager`](../../ithememanager).

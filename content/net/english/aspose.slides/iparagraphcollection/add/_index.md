@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/iparagraphcollection/add/
 ---
+
 ## Add(IParagraph) {#add_1}
 
 Adds a Paragraph to the end of collection.

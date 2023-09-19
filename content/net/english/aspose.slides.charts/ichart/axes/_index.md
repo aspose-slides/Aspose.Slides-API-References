@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ichart/axes/
 ---
+
 ## IChart.Axes property
 
 Provide access to chart axes. Read-only [`IAxesManager`](../../iaxesmanager).

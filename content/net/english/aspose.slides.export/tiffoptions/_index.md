@@ -3,9 +3,10 @@ title: TiffOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in TIFF format.
 type: docs
-weight: 4260
+weight: 4270
 url: /aspose.slides.export/tiffoptions/
 ---
+
 ## TiffOptions class
 
 Provides options that control how a presentation is saved in TIFF format.

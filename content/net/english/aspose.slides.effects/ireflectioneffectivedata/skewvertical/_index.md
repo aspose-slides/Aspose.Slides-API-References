@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.effects/ireflectioneffectivedata/skewvertical/
 ---
+
 ## IReflectionEffectiveData.SkewVertical property
 
 Specifies the vertical skew angle. Read-only Double.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/islide/getthumbnail/
 ---
+
 ## GetThumbnail(float, float) {#getthumbnail_8}
 
 Returns a Thumbnail Bitmap object with custom scaling.

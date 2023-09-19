@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.mathtext/imathelementcollection/remove/
 ---
+
 ## IMathElementCollection.Remove method
 
 Removes the first occurrence of a specific object from the collection.

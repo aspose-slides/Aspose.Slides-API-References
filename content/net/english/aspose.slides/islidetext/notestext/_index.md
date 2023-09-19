@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/islidetext/notestext/
 ---
+
 ## ISlideText.NotesText property
 
 The text on the notes page's shapes for this slide

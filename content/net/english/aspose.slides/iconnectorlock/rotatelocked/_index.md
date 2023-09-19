@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/iconnectorlock/rotatelocked/
 ---
+
 ## IConnectorLock.RotateLocked property
 
 Determines whether a changing rotation angle of this shape is forbidden. Read/write Boolean.

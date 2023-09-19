@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.charts/ichartseriesgroup/series/
 ---
+
 ## IChartSeriesGroup.Series property
 
 Returns a readonly collection of chart series. Read-only [`IChartSeriesReadonlyCollection`](../../ichartseriesreadonlycollection).

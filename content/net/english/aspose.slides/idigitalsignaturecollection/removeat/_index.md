@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/idigitalsignaturecollection/removeat/
 ---
+
 ## IDigitalSignatureCollection.RemoveAt method
 
 Removes the signature at the specified index.

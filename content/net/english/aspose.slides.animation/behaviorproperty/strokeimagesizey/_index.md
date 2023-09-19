@@ -6,6 +6,7 @@ type: docs
 weight: 960
 url: /aspose.slides.animation/behaviorproperty/strokeimagesizey/
 ---
+
 ## BehaviorProperty.StrokeImageSizeY property
 
 Represents 'stroke.imagesize.y' property

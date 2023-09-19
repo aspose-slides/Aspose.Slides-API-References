@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/iparagraphformat/tabs/
 ---
+
 ## IParagraphFormat.Tabs property
 
 Returns tabulations of a paragraph. No inheritance applied. Read-only [`ITabCollection`](../../itabcollection).

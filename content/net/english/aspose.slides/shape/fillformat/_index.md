@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/shape/fillformat/
 ---
+
 ## Shape.FillFormat property
 
 Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only [`IFillFormat`](../../ifillformat).

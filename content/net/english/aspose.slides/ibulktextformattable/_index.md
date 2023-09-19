@@ -3,9 +3,10 @@ title: IBulkTextFormattable
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an object with possibility of bulk setting child text elements formats.
 type: docs
-weight: 5030
+weight: 5040
 url: /aspose.slides/ibulktextformattable/
 ---
+
 ## IBulkTextFormattable interface
 
 Represents an object with possibility of bulk setting child text elements' formats.

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/iparagraphcollection/removeat/
 ---
+
 ## IParagraphCollection.RemoveAt method
 
 Removes the element at the specified index of the collection.

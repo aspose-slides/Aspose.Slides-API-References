@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ipictureframelock/positionlocked/
 ---
+
 ## IPictureFrameLock.PositionLocked property
 
 Determines whether a moving this shape is forbidden. Read/write Boolean.

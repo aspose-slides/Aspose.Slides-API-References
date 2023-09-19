@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/isvgshape/seteventhandler/
 ---
+
 ## ISvgShape.SetEventHandler method
 
 Sets event handler for the shape

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/icharttextblockformat/anchoringtype/
 ---
+
 ## IChartTextBlockFormat.AnchoringType property
 
 Returns or sets vertical anchor text in a TextFrame. Read/write [`TextAnchorType`](../../../aspose.slides/textanchortype).

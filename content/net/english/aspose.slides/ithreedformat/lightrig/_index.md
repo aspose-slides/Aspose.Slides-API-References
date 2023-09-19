@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ithreedformat/lightrig/
 ---
+
 ## IThreeDFormat.LightRig property
 
 Returns or sets the type of a light. Read-only [`ILightRig`](../../ilightrig).

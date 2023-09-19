@@ -6,6 +6,7 @@ type: docs
 weight: 860
 url: /aspose.slides.animation/behaviorproperty/skeworiginx/
 ---
+
 ## BehaviorProperty.SkewOriginX property
 
 Represents 'skew.origin.x' property

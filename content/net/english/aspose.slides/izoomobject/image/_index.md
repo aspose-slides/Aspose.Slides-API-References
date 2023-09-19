@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/izoomobject/image/
 ---
+
 ## IZoomObject.Image property
 
 Gets or sets image for zoom object. Read/write [`IPPImage`](../../ippimage).

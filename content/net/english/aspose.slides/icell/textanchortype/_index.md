@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/icell/textanchortype/
 ---
+
 ## ICell.TextAnchorType property
 
 Returns or sets the text anchor type. Read/write [`TextAnchorType`](../../textanchortype).

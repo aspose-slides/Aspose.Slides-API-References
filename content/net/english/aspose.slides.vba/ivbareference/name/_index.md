@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/ivbareference/name/
 ---
+
 ## IVbaReference.Name property
 
 Represents the name of the VBA project reference. Read/write String.

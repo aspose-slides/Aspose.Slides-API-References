@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathparagraph/item/
 ---
+
 ## MathParagraph indexer
 
 Gets the item at the specified index. Read-only [`IMathBlock`](../../imathblock).

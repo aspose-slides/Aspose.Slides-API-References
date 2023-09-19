@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/ibaseportionformateffectivedata/strikethroughtype/
 ---
+
 ## IBasePortionFormatEffectiveData.StrikethroughType property
 
 Returns the strikethrough type of a text. Read-only [`TextStrikethroughType`](../../textstrikethroughtype).

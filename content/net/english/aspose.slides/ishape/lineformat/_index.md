@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/ishape/lineformat/
 ---
+
 ## IShape.LineFormat property
 
 Returns the LineFormat object that contains line formatting properties for a shape. Read-only [`ILineFormat`](../../ilineformat).

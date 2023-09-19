@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/hyperlinkmanager/setinternalhyperlinkclick/
 ---
+
 ## HyperlinkManager.SetInternalHyperlinkClick method
 
 Sets internal hyperlink on click.

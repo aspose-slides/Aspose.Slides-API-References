@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/filloverlay/geteffective/
 ---
+
 ## FillOverlay.GetEffective method
 
 Gets effective Fill Overlay effect data with the inheritance applied.

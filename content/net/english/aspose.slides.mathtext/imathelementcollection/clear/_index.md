@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/imathelementcollection/clear/
 ---
+
 ## IMathElementCollection.Clear method
 
 Removes all elements from the collection.

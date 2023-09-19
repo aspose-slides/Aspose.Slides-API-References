@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/commonslideviewproperties/scale/
 ---
+
 ## CommonSlideViewProperties.Scale property
 
 Specifies the view scaling ratio in percentages. Read/write Int32.

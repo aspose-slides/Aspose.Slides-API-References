@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/islideshowtransition/type/
 ---
+
 ## ISlideShowTransition.Type property
 
 Type of transition. Read-write [`TransitionType`](../../../aspose.slides.slideshow/transitiontype).

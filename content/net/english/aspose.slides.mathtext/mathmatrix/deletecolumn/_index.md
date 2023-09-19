@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.mathtext/mathmatrix/deletecolumn/
 ---
+
 ## MathMatrix.DeleteColumn method
 
 Deletes the specified column

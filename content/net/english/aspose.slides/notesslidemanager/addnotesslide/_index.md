@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/notesslidemanager/addnotesslide/
 ---
+
 ## NotesSlideManager.AddNotesSlide method
 
 Returns the notes slide for the current slide, creating one if there isn't.

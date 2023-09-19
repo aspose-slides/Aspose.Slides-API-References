@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/fieldtype/datetime8/
 ---
+
 ## FieldType.DateTime8 property
 
 Current date and time in a eighth predefined format (MM/DD/YYYY hh:mm AM/PM for english). Read-only [`FieldType`](../../fieldtype).

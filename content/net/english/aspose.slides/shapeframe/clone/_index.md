@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/shapeframe/clone/
 ---
+
 ## ShapeFrame.Clone method
 
 Clones

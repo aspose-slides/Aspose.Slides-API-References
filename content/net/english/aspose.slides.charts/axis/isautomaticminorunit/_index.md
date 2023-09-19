@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.charts/axis/isautomaticminorunit/
 ---
+
 ## Axis.IsAutomaticMinorUnit property
 
 Indicates whether the minor unit of the axis is automatically assigned. Read/write Boolean.

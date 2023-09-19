@@ -6,6 +6,7 @@ type: docs
 weight: 420
 url: /aspose.slides/shapecollection/remove/
 ---
+
 ## ShapeCollection.Remove method
 
 Removes the first occurrence of a specific shape from the collection.

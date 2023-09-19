@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/pviobject/equals/
 ---
+
 ## PVIObject.Equals method
 
 Compares with specified object.

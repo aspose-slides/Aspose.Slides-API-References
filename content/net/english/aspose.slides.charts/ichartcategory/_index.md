@@ -3,9 +3,10 @@ title: IChartCategory
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents chart categories.
 type: docs
-weight: 1640
+weight: 1650
 url: /aspose.slides.charts/ichartcategory/
 ---
+
 ## IChartCategory interface
 
 Represents chart categories.

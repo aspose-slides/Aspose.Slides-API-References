@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/slideshowsettings/usetimings/
 ---
+
 ## SlideShowSettings.UseTimings property
 
 Use Timings in Slide Show

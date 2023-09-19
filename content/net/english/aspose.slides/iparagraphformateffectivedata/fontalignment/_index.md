@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iparagraphformateffectivedata/fontalignment/
 ---
+
 ## IParagraphFormatEffectiveData.FontAlignment property
 
 Returns a font alignment in a paragraph. Read-only [`FontAlignment`](../../fontalignment).

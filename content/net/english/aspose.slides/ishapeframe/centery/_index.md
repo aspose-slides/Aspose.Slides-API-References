@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ishapeframe/centery/
 ---
+
 ## IShapeFrame.CenterY property
 
 Returns the Y coordinate of a frame's center. Read-only Single.

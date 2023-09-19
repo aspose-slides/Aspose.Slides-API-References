@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/paragraph/endparagraphportionformat/
 ---
+
 ## Paragraph.EndParagraphPortionFormat property
 
 Specifies the portion properties that are to be used if another portion is inserted after the last one.

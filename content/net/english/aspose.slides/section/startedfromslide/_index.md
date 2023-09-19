@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/section/startedfromslide/
 ---
+
 ## Section.StartedFromSlide property
 
 Returns first slide of the section.

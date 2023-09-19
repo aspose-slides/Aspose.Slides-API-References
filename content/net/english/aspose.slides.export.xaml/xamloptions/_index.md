@@ -3,9 +3,10 @@ title: XamlOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Options that control how a XAML document is saved.
 type: docs
-weight: 4410
+weight: 4420
 url: /aspose.slides.export.xaml/xamloptions/
 ---
+
 ## XamlOptions class
 
 Options that control how a XAML document is saved.

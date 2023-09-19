@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.slideshow/isplittransition/orientation/
 ---
+
 ## ISplitTransition.Orientation property
 
 Orientation of transition split. Read/write [`Orientation`](../../../aspose.slides/orientation).

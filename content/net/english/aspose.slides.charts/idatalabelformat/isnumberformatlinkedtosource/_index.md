@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/idatalabelformat/isnumberformatlinkedtosource/
 ---
+
 ## IDataLabelFormat.IsNumberFormatLinkedToSource property
 
 Read/write Boolean.

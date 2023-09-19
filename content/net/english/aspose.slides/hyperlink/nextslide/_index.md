@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/hyperlink/nextslide/
 ---
+
 ## Hyperlink.NextSlide property
 
 Returns a hyperlink to the next slide. Read-only [`Hyperlink`](../../hyperlink).

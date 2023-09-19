@@ -3,9 +3,10 @@ title: PresentationAnimationsGenerator
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a generator of the animations in the Presentation../aspose.slides/presentation.
 type: docs
-weight: 4070
+weight: 4080
 url: /aspose.slides.export/presentationanimationsgenerator/
 ---
+
 ## PresentationAnimationsGenerator class
 
 Represents a generator of the animations in the [`Presentation`](../../aspose.slides/presentation).

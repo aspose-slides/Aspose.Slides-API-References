@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/tagcollection/removeat/
 ---
+
 ## TagCollection.RemoveAt method
 
 Removes the tag at the specified index.

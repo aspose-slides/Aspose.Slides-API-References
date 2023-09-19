@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/charttypecharacterizer/ischarttyperadar/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeRadar method
 
 Return true if chartType is one of Radar subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): FilledRadar, Radar, RadarWithMarkers.

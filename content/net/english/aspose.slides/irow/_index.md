@@ -3,9 +3,10 @@ title: IRow
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a row in a table.
 type: docs
-weight: 6420
+weight: 6430
 url: /aspose.slides/irow/
 ---
+
 ## IRow interface
 
 Represents a row in a table.

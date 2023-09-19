@@ -6,6 +6,7 @@ type: docs
 weight: 310
 url: /aspose.slides/shape/zorderposition/
 ---
+
 ## Shape.ZOrderPosition property
 
 Returns the position of a shape in the z-order. Shapes[0] returns the shape at the back of the z-order, and Shapes[Shapes.Count - 1] returns the shape at the front of the z-order. Read-only Int32.

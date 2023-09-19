@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides.effects/imagetransformoperationcollection/contains/
 ---
+
 ## ImageTransformOperationCollection.Contains method
 
 Determines whether the ICollection contains a specific value.

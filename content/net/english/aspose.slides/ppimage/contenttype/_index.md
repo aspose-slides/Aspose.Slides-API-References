@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ppimage/contenttype/
 ---
+
 ## PPImage.ContentType property
 
 Returns a MIME type of an image, encoded in [`BinaryData`](../binarydata). Read-only String.

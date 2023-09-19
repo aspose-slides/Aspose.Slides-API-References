@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/imathborderbox/hidetop/
 ---
+
 ## IMathBorderBox.HideTop property
 
 Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box.

@@ -3,9 +3,10 @@ title: Input
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of input elements templates.
 type: docs
-weight: 4320
+weight: 4330
 url: /aspose.slides.export.web/input/
 ---
+
 ## Input class
 
 Represents a collection of input elements (templates).

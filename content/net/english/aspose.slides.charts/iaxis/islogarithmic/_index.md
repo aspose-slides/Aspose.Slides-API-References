@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides.charts/iaxis/islogarithmic/
 ---
+
 ## IAxis.IsLogarithmic property
 
 Represents if the value axis scale type is logarithmic or not. Read/write Boolean.

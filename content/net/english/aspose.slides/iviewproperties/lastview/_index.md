@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iviewproperties/lastview/
 ---
+
 ## IViewProperties.LastView property
 
 Specifies the view mode that was used when the presentation document was last saved. Read/write [`ViewType`](../../viewtype).

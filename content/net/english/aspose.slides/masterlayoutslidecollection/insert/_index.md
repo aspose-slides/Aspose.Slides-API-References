@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/masterlayoutslidecollection/insert/
 ---
+
 ## MasterLayoutSlideCollection.Insert method
 
 Inserts a new layout slide to specified position of the collection.

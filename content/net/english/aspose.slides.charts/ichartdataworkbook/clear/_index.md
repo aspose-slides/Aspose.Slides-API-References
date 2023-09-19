@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartdataworkbook/clear/
 ---
+
 ## IChartDataWorkbook.Clear method
 
 Clear all cells values on sheet

@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/oleobjectframe/objectprogid/
 ---
+
 ## OleObjectFrame.ObjectProgId property
 
 Returns the ProgID of an object. Read only String.

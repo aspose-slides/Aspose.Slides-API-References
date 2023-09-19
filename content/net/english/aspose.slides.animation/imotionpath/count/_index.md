@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/imotionpath/count/
 ---
+
 ## IMotionPath.Count property
 
 Returns the number of paths in the collection. Read-only Int32.

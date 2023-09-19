@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ibasetableformateffectivedata/borderbottom/
 ---
+
 ## IBaseTableFormatEffectiveData.BorderBottom property
 
 Returns bottom border line format effective value. Read-only [`ILineFormatEffectiveData`](../../ilineformateffectivedata).

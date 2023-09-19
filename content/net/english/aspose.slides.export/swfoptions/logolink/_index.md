@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/swfoptions/logolink/
 ---
+
 ## SwfOptions.LogoLink property
 
 Gets or sets the full hyperlink address for a logo. Has an effect only if a [`LogoImageBytes`](../logoimagebytes) is specified.

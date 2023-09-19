@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ivideoframe/trimfromend/
 ---
+
 ## IVideoFrame.TrimFromEnd property
 
 Trim end [ms]

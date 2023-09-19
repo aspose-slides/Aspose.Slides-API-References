@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/ichartdatapoint/index/
 ---
+
 ## IChartDataPoint.Index property
 
 Determines which of the parent's children collection this data point applies to. Read UInt32.

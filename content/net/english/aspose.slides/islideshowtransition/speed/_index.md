@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/islideshowtransition/speed/
 ---
+
 ## ISlideShowTransition.Speed property
 
 Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read-write [`TransitionSpeed`](../../../aspose.slides.slideshow/transitionspeed).

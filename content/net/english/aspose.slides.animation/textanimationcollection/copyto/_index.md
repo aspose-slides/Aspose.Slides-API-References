@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.animation/textanimationcollection/copyto/
 ---
+
 ## TextAnimationCollection.CopyTo method
 
 Copies all elements from the collection into the specified array.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichart/asiformattedtextcontainer/
 ---
+
 ## IChart.AsIFormattedTextContainer property
 
 Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../../iformattedtextcontainer).

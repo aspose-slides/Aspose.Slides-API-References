@@ -6,6 +6,7 @@ type: docs
 weight: 380
 url: /aspose.slides.charts/chartseries/showinnerpoints/
 ---
+
 ## ChartSeries.ShowInnerPoints property
 
 Represents inner points. True if inner points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write Boolean.

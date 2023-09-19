@@ -6,6 +6,7 @@ type: docs
 weight: 300
 url: /aspose.slides.charts/ichartseries/piesplitby/
 ---
+
 ## IChartSeries.PieSplitBy property
 
 Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.PieSplitBy read/write property for change value. Read-only [`PieSplitType`](../../piesplittype).

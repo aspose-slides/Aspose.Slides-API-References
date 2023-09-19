@@ -6,6 +6,7 @@ type: docs
 weight: 280
 url: /aspose.slides/ishapecollection/insertconnector/
 ---
+
 ## InsertConnector(int, ShapeType, float, float, float, float) {#insertconnector}
 
 Creates a new Connector, tunes it from default template and inserts it to the collection at the specified index.

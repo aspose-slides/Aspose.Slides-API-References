@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.charts/ichartdatapoint/remove/
 ---
+
 ## IChartDataPoint.Remove method
 
 Removes DataPoint from chart series.

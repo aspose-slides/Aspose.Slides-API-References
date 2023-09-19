@@ -3,9 +3,10 @@ title: IEmptyTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Empty slide transition effect.
 type: docs
-weight: 9430
+weight: 9440
 url: /aspose.slides.slideshow/iemptytransition/
 ---
+
 ## IEmptyTransition interface
 
 Empty slide transition effect.

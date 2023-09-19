@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/axesmanager/secondaryverticalaxis/
 ---
+
 ## AxesManager.SecondaryVerticalAxis property
 
 Gets the chart's secondary vertical axis. Read-only [`IAxis`](../../iaxis).

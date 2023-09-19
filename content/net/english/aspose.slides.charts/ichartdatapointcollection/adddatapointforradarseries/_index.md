@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.charts/ichartdatapointcollection/adddatapointforradarseries/
 ---
+
 ## AddDataPointForRadarSeries(IChartDataCell) {#adddatapointforradarseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer.IsChartTypeRadar(ChartType) method).

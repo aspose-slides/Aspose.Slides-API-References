@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/adjustvaluecollection/copyto/
 ---
+
 ## AdjustValueCollection.CopyTo method
 
 Copies all elements from the collection to the specified array.

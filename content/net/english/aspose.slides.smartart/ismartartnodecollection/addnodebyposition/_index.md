@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.smartart/ismartartnodecollection/addnodebyposition/
 ---
+
 ## ISmartArtNodeCollection.AddNodeByPosition method
 
 Add new node in the selected position of nodes collection.

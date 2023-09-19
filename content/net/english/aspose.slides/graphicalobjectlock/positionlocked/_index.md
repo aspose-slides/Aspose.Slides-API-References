@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/graphicalobjectlock/positionlocked/
 ---
+
 ## GraphicalObjectLock.PositionLocked property
 
 Determines whether moving this shape is forbidden. Read/write Boolean.

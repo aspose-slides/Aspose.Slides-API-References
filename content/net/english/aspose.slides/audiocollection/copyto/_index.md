@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/audiocollection/copyto/
 ---
+
 ## AudioCollection.CopyTo method
 
 Copies audios to specified array starting from specified index.

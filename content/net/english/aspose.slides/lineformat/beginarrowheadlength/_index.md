@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/lineformat/beginarrowheadlength/
 ---
+
 ## LineFormat.BeginArrowheadLength property
 
 Returns or sets the arrowhead length at the beginning of a line. Read/write [`LineArrowheadLength`](../../linearrowheadlength).

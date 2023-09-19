@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypebubble/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeBubble method
 
 Return true if chartType is one of Bubble subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): Bubble, BubbleWith3D.

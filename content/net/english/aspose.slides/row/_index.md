@@ -3,9 +3,10 @@ title: Row
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a row in a table.
 type: docs
-weight: 9110
+weight: 9120
 url: /aspose.slides/row/
 ---
+
 ## Row class
 
 Represents a row in a table.

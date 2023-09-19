@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ibulletformat/height/
 ---
+
 ## IBulletFormat.Height property
 
 Returns or sets the bullet height of a paragraph with no inheritance. Value float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write Single.

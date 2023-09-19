@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/softedge/radius/
 ---
+
 ## SoftEdge.Radius property
 
 Specifies the radius of blur to apply to the edges. Read/write Double.

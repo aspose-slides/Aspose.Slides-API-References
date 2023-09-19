@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.effects/iimagetransformoperationfactory/creategrayscale/
 ---
+
 ## IImageTransformOperationFactory.CreateGrayScale method
 
 Creates Gray scale effect.

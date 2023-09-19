@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/layoutslide/headerfootermanager/
 ---
+
 ## LayoutSlide.HeaderFooterManager property
 
 Returns HeaderFooter manager of the layout slide. Read-only [`ILayoutSlideHeaderFooterManager`](../../ilayoutslideheaderfootermanager).

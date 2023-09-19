@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.mathtext/imathelementcollection/removeat/
 ---
+
 ## IMathElementCollection.RemoveAt method
 
 Removes the element at the specified index of the collection.

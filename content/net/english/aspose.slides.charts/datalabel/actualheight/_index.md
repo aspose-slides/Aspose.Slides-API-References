@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/datalabel/actualheight/
 ---
+
 ## DataLabel.ActualHeight property
 
 Specifies actual height of the chart element. Call method IChart.ValidateChartLayout() before to get actual values. Read Single.

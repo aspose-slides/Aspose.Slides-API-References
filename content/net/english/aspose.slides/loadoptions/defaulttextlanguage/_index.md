@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/loadoptions/defaulttextlanguage/
 ---
+
 ## LoadOptions.DefaultTextLanguage property
 
 Returns or sets the default language for presentation text. Read/write String.

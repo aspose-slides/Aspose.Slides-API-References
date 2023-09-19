@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/icell/offsety/
 ---
+
 ## ICell.OffsetY property
 
 Returns a distance from top side of a table to top side of a cell. Read-only Double.

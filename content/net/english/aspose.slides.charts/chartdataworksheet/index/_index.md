@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartdataworksheet/index/
 ---
+
 ## ChartDataWorksheet.Index property
 
 Gets the index of the worksheet. Read-only Int32.

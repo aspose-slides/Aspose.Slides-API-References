@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iparagraphformateffectivedata/defaulttabsize/
 ---
+
 ## IParagraphFormatEffectiveData.DefaultTabSize property
 
 Returns default tabulation size. Read-only Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/hyperlink/lastslide/
 ---
+
 ## Hyperlink.LastSlide property
 
 Returns a hyperlink to the last slide of the presentation. Read-only [`Hyperlink`](../../hyperlink).

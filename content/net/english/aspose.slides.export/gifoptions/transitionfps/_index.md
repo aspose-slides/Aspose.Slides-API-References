@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/gifoptions/transitionfps/
 ---
+
 ## GifOptions.TransitionFps property
 
 Gets or sets transition FPS [frames/sec] The default value is 25.

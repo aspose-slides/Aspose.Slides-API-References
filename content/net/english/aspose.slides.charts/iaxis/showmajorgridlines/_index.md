@@ -6,6 +6,7 @@ type: docs
 weight: 480
 url: /aspose.slides.charts/iaxis/showmajorgridlines/
 ---
+
 ## IAxis.ShowMajorGridLines property
 
 Represents if the major gridlines showed. Read-only Boolean.

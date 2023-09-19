@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/morphtransition/morphtype/
 ---
+
 ## MorphTransition.MorphType property
 
 Type of morph transition. Read/write [`TransitionMorphType`](../../transitionmorphtype).

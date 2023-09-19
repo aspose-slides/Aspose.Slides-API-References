@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/ioutputfile/write/
 ---
+
 ## IOutputFile.Write method
 
 Writes the file content to the stream.

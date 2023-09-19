@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.animation/sequence/geteffectsbyshape/
 ---
+
 ## Sequence.GetEffectsByShape method
 
 Returns array of effects for the specified shape.

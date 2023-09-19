@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icommentauthorcollection/addauthor/
 ---
+
 ## ICommentAuthorCollection.AddAuthor method
 
 Add new author at the end of a collection.

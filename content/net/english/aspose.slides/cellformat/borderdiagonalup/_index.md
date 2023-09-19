@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/cellformat/borderdiagonalup/
 ---
+
 ## CellFormat.BorderDiagonalUp property
 
 Returns a bottom-left to top-right diagonal line properties object. Read-only [`ILineFormat`](../../ilineformat).

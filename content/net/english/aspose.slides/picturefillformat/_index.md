@@ -3,9 +3,10 @@ title: PictureFillFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a picture fill style.
 type: docs
-weight: 8790
+weight: 8800
 url: /aspose.slides/picturefillformat/
 ---
+
 ## PictureFillFormat class
 
 Represents a picture fill style.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/iorientationtransition/direction/
 ---
+
 ## IOrientationTransition.Direction property
 
 Direction of transition. Read/write [`Orientation`](../../../aspose.slides/orientation).

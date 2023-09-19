@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/igeometryshape/adjustments/
 ---
+
 ## IGeometryShape.Adjustments property
 
 Returns a collection of shape's adjustment values. Read-only [`IAdjustValueCollection`](../../iadjustvaluecollection).

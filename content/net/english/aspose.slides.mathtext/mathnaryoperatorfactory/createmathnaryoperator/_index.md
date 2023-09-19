@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathnaryoperatorfactory/createmathnaryoperator/
 ---
+
 ## CreateMathNaryOperator(char, IMathElement, IMathElement, IMathElement) {#createmathnaryoperator_2}
 
 Creates IMathNaryOperator

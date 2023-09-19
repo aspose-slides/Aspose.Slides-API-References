@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/grayscale/geteffective/
 ---
+
 ## GrayScale.GetEffective method
 
 Gets effective Gray Scale effect data with the inheritance applied.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/texthighlightingoptions/casesensitive/
 ---
+
 ## TextHighlightingOptions.CaseSensitive property
 
 Set true to use case-sensitive search, false - otherwise. Read/write Boolean.

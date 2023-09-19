@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/patternformat/backcolor/
 ---
+
 ## PatternFormat.BackColor property
 
 Returns the background pattern color. Read-only [`IColorFormat`](../../icolorformat).

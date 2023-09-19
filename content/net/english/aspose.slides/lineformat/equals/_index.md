@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/lineformat/equals/
 ---
+
 ## Equals(object) {#equals_1}
 
 ```csharp

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ifontsources/fontfolders/
 ---
+
 ## IFontSources.FontFolders property
 
 Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched.

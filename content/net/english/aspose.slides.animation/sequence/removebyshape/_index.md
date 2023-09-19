@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.animation/sequence/removebyshape/
 ---
+
 ## Sequence.RemoveByShape method
 
 Remove effect for the specified shape.

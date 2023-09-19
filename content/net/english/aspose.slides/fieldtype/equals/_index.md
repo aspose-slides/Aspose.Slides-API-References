@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/fieldtype/equals/
 ---
+
 ## FieldType.Equals method
 
 Checks if this field is equal to another.

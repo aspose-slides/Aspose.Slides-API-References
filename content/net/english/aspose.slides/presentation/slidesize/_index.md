@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides/presentation/slidesize/
 ---
+
 ## Presentation.SlideSize property
 
 Returns slide size object. Read-only [`ISlideSize`](../../islidesize).

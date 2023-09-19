@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/cornerdirectiontransition/direction/
 ---
+
 ## CornerDirectionTransition.Direction property
 
 Direction of transition. Read/write [`TransitionCornerDirectionType`](../../transitioncornerdirectiontype).

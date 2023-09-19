@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.smartart/smartartnode/textframe/
 ---
+
 ## SmartArtNode.TextFrame property
 
 Returns or sets text of the node. Read-only [`ITextFrame`](../../../aspose.slides/itextframe).

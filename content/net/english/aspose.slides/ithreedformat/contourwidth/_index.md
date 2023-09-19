@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ithreedformat/contourwidth/
 ---
+
 ## IThreeDFormat.ContourWidth property
 
 Returns or sets the width of a 3D contour. Read/write Double.

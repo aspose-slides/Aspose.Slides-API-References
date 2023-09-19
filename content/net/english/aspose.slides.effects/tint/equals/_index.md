@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/tint/equals/
 ---
+
 ## Tint.Equals method
 
 Determines whether the specified [`Tint`](../../tint) is equal to the current [`Tint`](../../tint).

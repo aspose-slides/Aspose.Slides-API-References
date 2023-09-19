@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/icontrolpropertiescollection/add/
 ---
+
 ## IControlPropertiesCollection.Add method
 
 Adds a property to the collection.

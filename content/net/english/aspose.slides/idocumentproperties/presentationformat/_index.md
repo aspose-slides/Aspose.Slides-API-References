@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/idocumentproperties/presentationformat/
 ---
+
 ## IDocumentProperties.PresentationFormat property
 
 Returns or sets the intended format of a presentation. Read/write String.

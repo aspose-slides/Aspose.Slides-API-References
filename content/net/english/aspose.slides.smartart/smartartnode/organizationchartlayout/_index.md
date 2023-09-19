@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.smartart/smartartnode/organizationchartlayout/
 ---
+
 ## SmartArtNode.OrganizationChartLayout property
 
 Returns or sets organization chart layout type associated with current node. Read/write [`OrganizationChartLayoutType`](../../organizationchartlayouttype).

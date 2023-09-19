@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/iloadoptions/resourceloadingcallback/
 ---
+
 ## ILoadOptions.ResourceLoadingCallback property
 
 Returns or sets callback interface which manages external resources loading. Read/write [`IResourceLoadingCallback`](../../iresourceloadingcallback).

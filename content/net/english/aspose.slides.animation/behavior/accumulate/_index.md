@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/behavior/accumulate/
 ---
+
 ## Behavior.Accumulate property
 
 Represents whether animation behaviors are accumulated. Read/write [`NullableBool`](../../../aspose.slides/nullablebool).

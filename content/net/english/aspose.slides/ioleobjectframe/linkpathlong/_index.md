@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ioleobjectframe/linkpathlong/
 ---
+
 ## IOleObjectFrame.LinkPathLong property
 
 Returns the full path to a linked file. Long file name will be used. Read/write String.

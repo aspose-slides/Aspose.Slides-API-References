@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/viewproperties/notesviewproperties/
 ---
+
 ## ViewProperties.NotesViewProperties property
 
 Specifies common view properties associated with the notes view mode. Read-only [`ICommonSlideViewProperties`](../../icommonslideviewproperties).

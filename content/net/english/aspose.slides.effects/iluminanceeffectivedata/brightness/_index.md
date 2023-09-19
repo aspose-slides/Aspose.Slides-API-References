@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/iluminanceeffectivedata/brightness/
 ---
+
 ## ILuminanceEffectiveData.Brightness property
 
 Brightness. Read-only Single.

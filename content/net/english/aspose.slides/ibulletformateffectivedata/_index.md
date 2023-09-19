@@ -3,9 +3,10 @@ title: IBulletFormatEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object which contains effective paragraph bullet formatting properties.
 type: docs
-weight: 5050
+weight: 5060
 url: /aspose.slides/ibulletformateffectivedata/
 ---
+
 ## IBulletFormatEffectiveData interface
 
 Immutable object which contains effective paragraph bullet formatting properties.

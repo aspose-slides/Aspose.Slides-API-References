@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/chart/plotvisiblecellsonly/
 ---
+
 ## Chart.PlotVisibleCellsOnly property
 
 Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Read/write Boolean.

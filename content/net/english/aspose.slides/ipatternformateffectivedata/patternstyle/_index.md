@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipatternformateffectivedata/patternstyle/
 ---
+
 ## IPatternFormatEffectiveData.PatternStyle property
 
 Returns the pattern style. Read-only [`PatternStyle`](../../patternstyle).

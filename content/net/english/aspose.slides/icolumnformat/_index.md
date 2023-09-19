@@ -3,9 +3,10 @@ title: IColumnFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents format of a table column.
 type: docs
-weight: 5170
+weight: 5180
 url: /aspose.slides/icolumnformat/
 ---
+
 ## IColumnFormat interface
 
 Represents format of a table column.

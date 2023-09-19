@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/idocumentproperties/revisionnumber/
 ---
+
 ## IDocumentProperties.RevisionNumber property
 
 Returns or sets the presentation revision number. Read/write Int32.

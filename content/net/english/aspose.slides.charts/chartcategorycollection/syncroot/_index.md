@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartcategorycollection/syncroot/
 ---
+
 ## ChartCategoryCollection.SyncRoot property
 
 Returns an object that can be used to synchronize access to the collection. Read-only Object.

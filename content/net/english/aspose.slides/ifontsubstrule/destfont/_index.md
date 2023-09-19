@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ifontsubstrule/destfont/
 ---
+
 ## IFontSubstRule.DestFont property
 
 Font to use for substitution Read-only [`IFontData`](../../ifontdata).

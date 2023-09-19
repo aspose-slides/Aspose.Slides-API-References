@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/datalabelformat/showleaderlines/
 ---
+
 ## DataLabelFormat.ShowLeaderLines property
 
 Represents a specified chart's data label leader lines display behavior. True displays the leader lines. False to hide. Read/write Boolean.

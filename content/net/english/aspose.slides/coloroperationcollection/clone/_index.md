@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/coloroperationcollection/clone/
 ---
+
 ## ColorOperationCollection.Clone method
 
 Creates a copy of a ColorOperationCollection collection.

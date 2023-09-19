@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/mathparagraph/contains/
 ---
+
 ## MathParagraph.Contains method
 
 Determines whether the collection contains a specific value.

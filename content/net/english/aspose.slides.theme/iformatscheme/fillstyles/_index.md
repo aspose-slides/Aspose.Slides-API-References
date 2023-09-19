@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/iformatscheme/fillstyles/
 ---
+
 ## IFormatScheme.FillStyles property
 
 Returns a collection of theme defined fill styles. Read-only [`IFillFormatCollection`](../../ifillformatcollection).

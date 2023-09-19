@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/cellformat/fillformat/
 ---
+
 ## CellFormat.FillFormat property
 
 Returns a cell fill properties object. Read-only [`IFillFormat`](../../ifillformat).

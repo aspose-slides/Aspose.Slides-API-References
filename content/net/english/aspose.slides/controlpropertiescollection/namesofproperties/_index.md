@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/controlpropertiescollection/namesofproperties/
 ---
+
 ## ControlPropertiesCollection.NamesOfProperties property
 
 Returns the collection of properties names. Read-only ICollection.

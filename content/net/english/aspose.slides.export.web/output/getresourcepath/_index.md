@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export.web/output/getresourcepath/
 ---
+
 ## Output.GetResourcePath method
 
 Returns the path for a given resource.

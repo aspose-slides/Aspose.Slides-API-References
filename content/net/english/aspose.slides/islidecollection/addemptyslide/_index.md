@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/islidecollection/addemptyslide/
 ---
+
 ## ISlideCollection.AddEmptySlide method
 
 Adds a new empty slide to the end of the collection.

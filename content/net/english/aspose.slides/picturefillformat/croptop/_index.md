@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/picturefillformat/croptop/
 ---
+
 ## PictureFillFormat.CropTop property
 
 Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write Single.

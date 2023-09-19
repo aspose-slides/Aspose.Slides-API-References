@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/igradientstop/position/
 ---
+
 ## IGradientStop.Position property
 
 Returns or sets the position (0..1) of a gradient stop. Read/write Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ibasetableformateffectivedata/borderdiagonalup/
 ---
+
 ## IBaseTableFormatEffectiveData.BorderDiagonalUp property
 
 Returns up diagonal line format effective value. Read-only [`ILineFormatEffectiveData`](../../ilineformateffectivedata).

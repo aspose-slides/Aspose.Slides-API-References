@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/izoomobject/returntoparent/
 ---
+
 ## IZoomObject.ReturnToParent property
 
 Gets or sets the navigation behavior in slideshow. Read/write Boolean. Default value: false

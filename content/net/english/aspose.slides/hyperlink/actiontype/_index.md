@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/hyperlink/actiontype/
 ---
+
 ## Hyperlink.ActionType property
 
 Returns type of Hyperlink's action. Read-only [`HyperlinkActionType`](../../hyperlinkactiontype).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipictureeffectivedata/linkpathlong/
 ---
+
 ## IPictureEffectiveData.LinkPathLong property
 
 Returns linked image's URL. Read-only String.

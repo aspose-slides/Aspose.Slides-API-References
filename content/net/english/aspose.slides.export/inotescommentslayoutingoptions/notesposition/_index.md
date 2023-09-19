@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/inotescommentslayoutingoptions/notesposition/
 ---
+
 ## INotesCommentsLayoutingOptions.NotesPosition property
 
 Gets or sets the position of the notes on the page.

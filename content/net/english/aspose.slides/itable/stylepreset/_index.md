@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/itable/stylepreset/
 ---
+
 ## ITable.StylePreset property
 
 Get's or sets builtin table style. Read/write [`TableStylePreset`](../../tablestylepreset).

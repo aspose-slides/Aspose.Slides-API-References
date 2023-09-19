@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/idocumentproperties/item/
 ---
+
 ## IDocumentProperties indexer
 
 Returns or sets the custom property associated with a specified name. Read/write Object.

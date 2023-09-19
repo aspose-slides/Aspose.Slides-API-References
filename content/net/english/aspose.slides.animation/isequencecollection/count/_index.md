@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/isequencecollection/count/
 ---
+
 ## ISequenceCollection.Count property
 
 Returns the number of elements in a collection Read-only Int32.

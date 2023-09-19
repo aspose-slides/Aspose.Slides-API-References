@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.export/ipdfoptions/imagetransparentcolor/
 ---
+
 ## IPdfOptions.ImageTransparentColor property
 
 Gets or sets the image transparent color.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itableformat/geteffective/
 ---
+
 ## ITableFormat.GetEffective method
 
 Gets effective table formatting properties with inheritance and table styles applied.

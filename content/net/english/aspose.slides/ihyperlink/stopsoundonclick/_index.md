@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ihyperlink/stopsoundonclick/
 ---
+
 ## IHyperlink.StopSoundOnClick property
 
 Determines whether the sound should be stopped on hyperlink click. Read/write Boolean.

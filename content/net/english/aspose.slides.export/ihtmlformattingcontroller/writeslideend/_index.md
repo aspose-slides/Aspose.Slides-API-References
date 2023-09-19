@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/ihtmlformattingcontroller/writeslideend/
 ---
+
 ## IHtmlFormattingController.WriteSlideEnd method
 
 Called to write html slide footer. Called once per each of slides.

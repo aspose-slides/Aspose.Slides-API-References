@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/cellcollection/count/
 ---
+
 ## CellCollection.Count property
 
 Returns the number of cells in a collection. Read-only Int32.

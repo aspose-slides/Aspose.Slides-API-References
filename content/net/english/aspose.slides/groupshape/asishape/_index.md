@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/groupshape/asishape/
 ---
+
 ## GroupShape.AsIShape property
 
 Allows to get base IShape interface. Read-only [`IShape`](../../ishape).

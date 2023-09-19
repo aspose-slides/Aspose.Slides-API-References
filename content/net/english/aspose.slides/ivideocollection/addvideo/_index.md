@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ivideocollection/addvideo/
 ---
+
 ## AddVideo(IVideo) {#addvideo}
 
 Adds a copy of an video file from an another presentation.

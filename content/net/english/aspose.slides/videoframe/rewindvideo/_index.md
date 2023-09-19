@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/videoframe/rewindvideo/
 ---
+
 ## VideoFrame.RewindVideo property
 
 Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write Boolean.

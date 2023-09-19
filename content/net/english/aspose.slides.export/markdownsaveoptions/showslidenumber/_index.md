@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.export/markdownsaveoptions/showslidenumber/
 ---
+
 ## MarkdownSaveOptions.ShowSlideNumber property
 
 Specifies whether the generated document should show number of each slide or not. Default is `false`.

@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides.effects/imagetransformoperationcollection/remove/
 ---
+
 ## ImageTransformOperationCollection.Remove method
 
 Removes the first occurrence of a specific object from the ICollection.

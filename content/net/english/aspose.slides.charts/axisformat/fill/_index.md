@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/axisformat/fill/
 ---
+
 ## AxisFormat.Fill property
 
 Returns fill style properties of an axis. Read-only [`IFillFormat`](../../../aspose.slides/ifillformat).

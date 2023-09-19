@@ -3,9 +3,10 @@ title: ChartThemeManager
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides access to chart theme overriden.
 type: docs
-weight: 10410
+weight: 10420
 url: /aspose.slides.theme/chartthememanager/
 ---
+
 ## ChartThemeManager class
 
 Provides access to chart theme overriden.

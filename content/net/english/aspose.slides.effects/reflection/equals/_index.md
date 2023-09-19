@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.effects/reflection/equals/
 ---
+
 ## Reflection.Equals method
 
 Determines whether the specified [`Reflection`](../../reflection) is equal to the current [`Reflection`](../../reflection).

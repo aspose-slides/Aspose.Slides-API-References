@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/imasterlayoutslidecollection/add/
 ---
+
 ## IMasterLayoutSlideCollection.Add method
 
 Adds a new layout slide to the end of the collection.

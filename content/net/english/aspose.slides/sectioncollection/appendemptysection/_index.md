@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/sectioncollection/appendemptysection/
 ---
+
 ## SectionCollection.AppendEmptySection method
 
 Add empty section to the end of the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ipresentationinfo/readdocumentproperties/
 ---
+
 ## IPresentationInfo.ReadDocumentProperties method
 
 Gets document properties of binded presentation.

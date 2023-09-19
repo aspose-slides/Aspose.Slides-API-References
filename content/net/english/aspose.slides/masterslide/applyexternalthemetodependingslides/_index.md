@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/masterslide/applyexternalthemetodependingslides/
 ---
+
 ## MasterSlide.ApplyExternalThemeToDependingSlides method
 
 Creates a new master slide based on the current one, applying an external theme to it and applies the created master slide to all dependent slides.

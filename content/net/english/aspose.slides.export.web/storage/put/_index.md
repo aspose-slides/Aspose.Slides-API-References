@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export.web/storage/put/
 ---
+
 ## Storage.Put&lt;TValue&gt; method
 
 ```csharp

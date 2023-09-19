@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/geometrypath/quadraticbezierto/
 ---
+
 ## QuadraticBezierTo(PointF, PointF) {#quadraticbezierto_2}
 
 Adds quadratic Bezier curve at the end the path

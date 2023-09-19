@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides/shapecollection/getenumerator/
 ---
+
 ## ShapeCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipresentationinfo/ispasswordprotected/
 ---
+
 ## IPresentationInfo.IsPasswordProtected property
 
 Gets a value that indicates whether a binded presentation is protected by a password to open.

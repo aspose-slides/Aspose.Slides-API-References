@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/customxmlpartcollection/add/
 ---
+
 ## Add(string) {#add_2}
 
 Adds new custom xml part.

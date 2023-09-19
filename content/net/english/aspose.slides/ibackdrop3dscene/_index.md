@@ -3,9 +3,10 @@ title: IBackdrop3DScene
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines a plane in which effects such as glow and shadow are applied in relation to the shape they are being applied to.
 type: docs
-weight: 4910
+weight: 4920
 url: /aspose.slides/ibackdrop3dscene/
 ---
+
 ## IBackdrop3DScene interface
 
 Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to.

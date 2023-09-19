@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.smartart/smartart/colorstyle/
 ---
+
 ## SmartArt.ColorStyle property
 
 Returns or sets color style of SmartArt object. Read/write [`SmartArtColorType`](../../smartartcolortype).

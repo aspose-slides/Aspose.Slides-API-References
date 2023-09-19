@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/itiffoptions/compressiontype/
 ---
+
 ## ITiffOptions.CompressionType property
 
 Specifies the compression type. Read/write [`TiffCompressionTypes`](../../tiffcompressiontypes).

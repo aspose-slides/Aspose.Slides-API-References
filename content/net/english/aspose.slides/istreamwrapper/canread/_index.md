@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/istreamwrapper/canread/
 ---
+
 ## IStreamWrapper.CanRead property
 
 Gets a value indicating whether the current stream supports reading. Read-only Boolean.

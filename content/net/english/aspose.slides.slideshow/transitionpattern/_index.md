@@ -3,9 +3,10 @@ title: TransitionPattern
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies a geometric pattern that tiles together to fill a larger area.
 type: docs
-weight: 9750
+weight: 9760
 url: /aspose.slides.slideshow/transitionpattern/
 ---
+
 ## TransitionPattern enumeration
 
 Specifies a geometric pattern that tiles together to fill a larger area.

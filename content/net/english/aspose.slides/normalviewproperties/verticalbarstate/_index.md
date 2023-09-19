@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/normalviewproperties/verticalbarstate/
 ---
+
 ## NormalViewProperties.VerticalBarState property
 
 Specifies the state that the vertical splitter bar should be shown in. A vertical splitter bar separates the slide from the side content region.

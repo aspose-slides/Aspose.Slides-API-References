@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/istringchartvalue/getcellsaddressinworkbook/
 ---
+
 ## IStringChartValue.GetCellsAddressInWorkbook method
 
 If DataSourceType property is DataSourceType.Worksheet then this method returns address of the cells in workbook which represent the string data. Otherwise return empty string.

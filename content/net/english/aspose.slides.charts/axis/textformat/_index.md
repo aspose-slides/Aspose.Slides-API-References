@@ -6,6 +6,7 @@ type: docs
 weight: 500
 url: /aspose.slides.charts/axis/textformat/
 ---
+
 ## Axis.TextFormat property
 
 Represents format of text. Read-only [`IChartTextFormat`](../../icharttextformat).

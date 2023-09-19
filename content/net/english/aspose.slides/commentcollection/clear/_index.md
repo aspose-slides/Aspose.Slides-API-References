@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/commentcollection/clear/
 ---
+
 ## CommentCollection.Clear method
 
 Removes all comments from a collection.

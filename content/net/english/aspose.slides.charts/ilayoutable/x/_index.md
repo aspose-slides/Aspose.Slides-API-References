@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ilayoutable/x/
 ---
+
 ## ILayoutable.X property
 
 Specifies the x location (left) of the chart element as a fraction of the width of the chart. Read/write Single.

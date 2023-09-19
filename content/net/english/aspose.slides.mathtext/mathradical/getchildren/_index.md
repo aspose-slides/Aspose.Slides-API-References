@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/mathradical/getchildren/
 ---
+
 ## MathRadical.GetChildren method
 
 Get children elements

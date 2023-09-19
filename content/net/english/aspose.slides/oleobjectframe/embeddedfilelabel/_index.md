@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/oleobjectframe/embeddedfilelabel/
 ---
+
 ## OleObjectFrame.EmbeddedFileLabel property
 
 Returns the file name of embedded OLE object

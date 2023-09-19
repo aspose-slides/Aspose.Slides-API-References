@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/imagetransformoperationcollection/count/
 ---
+
 ## ImageTransformOperationCollection.Count property
 
 Returns the number of image effects in a collection. Read-only Int32.

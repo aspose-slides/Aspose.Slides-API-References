@@ -6,6 +6,7 @@ type: docs
 weight: 300
 url: /aspose.slides/shapecollection/insertautoshape/
 ---
+
 ## InsertAutoShape(int, ShapeType, float, float, float, float) {#insertautoshape}
 
 Creates a new AutoShape, tunes it from default template and inserts it to the collection at the specified index. Note: the type of the shape will be determined by the shapeType parameter.

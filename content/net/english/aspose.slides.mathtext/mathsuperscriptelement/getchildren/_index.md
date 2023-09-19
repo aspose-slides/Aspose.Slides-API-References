@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathsuperscriptelement/getchildren/
 ---
+
 ## MathSuperscriptElement.GetChildren method
 
 Get children elements

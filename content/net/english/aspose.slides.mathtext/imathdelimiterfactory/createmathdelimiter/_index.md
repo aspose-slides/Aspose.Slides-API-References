@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathdelimiterfactory/createmathdelimiter/
 ---
+
 ## CreateMathDelimiter(IMathElement) {#createmathdelimiter}
 
 Create a math delimiter by applying to the element

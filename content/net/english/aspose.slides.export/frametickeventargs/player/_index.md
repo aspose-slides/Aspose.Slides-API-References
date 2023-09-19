@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/frametickeventargs/player/
 ---
+
 ## FrameTickEventArgs.Player property
 
 Get the presentation player

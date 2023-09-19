@@ -6,6 +6,7 @@ type: docs
 weight: 1180
 url: /aspose.slides.animation/behaviorproperty/styletexttransform/
 ---
+
 ## BehaviorProperty.StyleTextTransform property
 
 Represents 'style.textTransform' property

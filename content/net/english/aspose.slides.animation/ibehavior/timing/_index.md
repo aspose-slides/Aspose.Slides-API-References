@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/ibehavior/timing/
 ---
+
 ## IBehavior.Timing property
 
 Represents timing properties for the effect behavior. Read/write [`ITiming`](../../itiming).

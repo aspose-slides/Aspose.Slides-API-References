@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathelement/accent/
 ---
+
 ## IMathElement.Accent method
 
 Sets an accent mark (a character on the top of this element)

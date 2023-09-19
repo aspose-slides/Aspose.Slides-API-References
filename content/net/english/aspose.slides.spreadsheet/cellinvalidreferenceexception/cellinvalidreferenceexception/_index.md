@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.spreadsheet/cellinvalidreferenceexception/cellinvalidreferenceexception/
 ---
+
 ## CellInvalidReferenceException() {#constructor}
 
 Initializes a new instance of the [`CellInvalidReferenceException`](../../cellinvalidreferenceexception) class.

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/itable/firstrow/
 ---
+
 ## ITable.FirstRow property
 
 Determines whether the first row of a table has to be drawn with a special formatting. Read/write Boolean.

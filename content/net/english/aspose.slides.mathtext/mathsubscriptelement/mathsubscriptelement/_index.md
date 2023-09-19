@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathsubscriptelement/mathsubscriptelement/
 ---
+
 ## MathSubscriptElement constructor
 
 Initializes a new instance of the MathSubscriptElement class.

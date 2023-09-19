@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ilineformateffectivedata/endarrowheadwidth/
 ---
+
 ## ILineFormatEffectiveData.EndArrowheadWidth property
 
 Returns the arrowhead width at the end of a line. Read-only [`LineArrowheadWidth`](../../linearrowheadwidth).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/igloballayoutslidecollection/add/
 ---
+
 ## IGlobalLayoutSlideCollection.Add method
 
 Adds a new layout slide to the presentation.

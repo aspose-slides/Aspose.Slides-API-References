@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/svgoptions/svgoptions/
 ---
+
 ## SVGOptions() {#constructor}
 
 Initializes a new instance of the SVGOptions class.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/masterslide/hasdependingslides/
 ---
+
 ## MasterSlide.HasDependingSlides property
 
 Returns true if there exists at least one slide that depends on this master slide. Read-only Boolean.

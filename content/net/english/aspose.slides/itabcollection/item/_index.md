@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/itabcollection/item/
 ---
+
 ## ITabCollection indexer
 
 Gets the element at the specified index. Read-only [`ITab`](../../itab).

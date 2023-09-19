@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/icomment/remove/
 ---
+
 ## IComment.Remove method
 
 Removes comment and all its replies from the parent collection.

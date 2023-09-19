@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/loadoptions/loadoptions/
 ---
+
 ## LoadOptions() {#constructor}
 
 Creates new default load options.

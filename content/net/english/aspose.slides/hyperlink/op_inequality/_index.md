@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/hyperlink/op_inequality/
 ---
+
 ## Hyperlink Inequality operator
 
 Tests two hyperlinks for inequality.

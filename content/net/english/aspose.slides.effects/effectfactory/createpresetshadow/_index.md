@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/effectfactory/createpresetshadow/
 ---
+
 ## EffectFactory.CreatePresetShadow method
 
 Creates Preset shadow effect.

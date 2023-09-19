@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/shapestyle/effectstyleindex/
 ---
+
 ## ShapeStyle.EffectStyleIndex property
 
 Returns or sets shape's effect column index in a style matrix. Read/write UInt32.

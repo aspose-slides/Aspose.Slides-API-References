@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ivideoframe/volume/
 ---
+
 ## IVideoFrame.Volume property
 
 Returns or sets the audio volume. Read/write [`AudioVolumeMode`](../../audiovolumemode).

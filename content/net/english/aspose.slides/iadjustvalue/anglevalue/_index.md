@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iadjustvalue/anglevalue/
 ---
+
 ## IAdjustValue.AngleValue property
 
 Returns or sets value, interpreting it as angle in degrees. Read/write Single.

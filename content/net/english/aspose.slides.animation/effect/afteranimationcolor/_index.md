@@ -1,14 +1,15 @@
 ---
 title: AfterAnimationColor
 second_title: Aspose.Sildes for .NET API Reference
-description: Defined an after animation color for effect. Read/write IColorFormataspose.slides/icolorformat.
+description: Defines an after animation color for effect. Read/write IColorFormataspose.slides/icolorformat.
 type: docs
 weight: 10
 url: /aspose.slides.animation/effect/afteranimationcolor/
 ---
+
 ## Effect.AfterAnimationColor property
 
-Defined an after animation color for effect. Read/write [`IColorFormat`](../../../aspose.slides/icolorformat).
+Defines an after animation color for effect. Read/write [`IColorFormat`](../../../aspose.slides/icolorformat).
 
 ```csharp
 public IColorFormat AfterAnimationColor { get; set; }
@@ -27,7 +28,7 @@ using (Presentation presentation = new Presentation("demo.pptx"))
     firstSlideEffect.AfterAnimationType = AfterAnimationType.Color;
     
     // Set the effect After animation color.
-    firstSlideEffect.AfterAnimationColor
+    firstSlideEffect.AfterAnimationColor.Color = Color.Green;
 }
 ```
 

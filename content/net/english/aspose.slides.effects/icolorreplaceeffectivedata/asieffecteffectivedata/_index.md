@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/icolorreplaceeffectivedata/asieffecteffectivedata/
 ---
+
 ## IColorReplaceEffectiveData.AsIEffectEffectiveData property
 
 Allows to get base IEffectEffectiveData interface. Read-only [`IEffectEffectiveData`](../../ieffecteffectivedata).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/imasterslide/layoutslides/
 ---
+
 ## IMasterSlide.LayoutSlides property
 
 Returns the collection of child layout slides for this master slide. Read-only [`IMasterLayoutSlideCollection`](../../imasterlayoutslidecollection).

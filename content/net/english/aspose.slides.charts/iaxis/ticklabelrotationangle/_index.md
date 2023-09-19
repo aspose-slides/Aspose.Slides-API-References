@@ -6,6 +6,7 @@ type: docs
 weight: 510
 url: /aspose.slides.charts/iaxis/ticklabelrotationangle/
 ---
+
 ## IAxis.TickLabelRotationAngle property
 
 Represents the rotation angle of tick labels Read/write Single.

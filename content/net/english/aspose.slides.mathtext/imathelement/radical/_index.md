@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.mathtext/imathelement/radical/
 ---
+
 ## Radical(IMathElement) {#radical}
 
 Specifies the mathematical root of the given degree from the specified argument.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/icoloroperationcollection/insert/
 ---
+
 ## Insert(int, ColorTransformOperation, float) {#insert_1}
 
 Inserts the new operation to a collection.

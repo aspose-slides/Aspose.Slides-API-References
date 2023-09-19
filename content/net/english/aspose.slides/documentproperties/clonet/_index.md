@@ -6,6 +6,7 @@ type: docs
 weight: 290
 url: /aspose.slides/documentproperties/clonet/
 ---
+
 ## DocumentProperties.CloneT method
 
 Clones current object

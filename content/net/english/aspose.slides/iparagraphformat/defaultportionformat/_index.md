@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iparagraphformat/defaultportionformat/
 ---
+
 ## IParagraphFormat.DefaultPortionFormat property
 
 Returns default portion format of a paragraph. No inheritance applied. Read-only [`IPortionFormat`](../../iportionformat).

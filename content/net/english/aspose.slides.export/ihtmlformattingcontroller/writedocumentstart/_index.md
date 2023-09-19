@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/ihtmlformattingcontroller/writedocumentstart/
 ---
+
 ## IHtmlFormattingController.WriteDocumentStart method
 
 Called to write html document header. Called once per presentation conversion.

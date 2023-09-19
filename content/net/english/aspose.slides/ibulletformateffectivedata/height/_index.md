@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ibulletformateffectivedata/height/
 ---
+
 ## IBulletFormatEffectiveData.Height property
 
 Returns the bullet height of a paragraph. Read-only Single.

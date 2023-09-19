@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides.effects/imagetransformoperationcollection/clear/
 ---
+
 ## ImageTransformOperationCollection.Clear method
 
 Removes all image effects from a collection.

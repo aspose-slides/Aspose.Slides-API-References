@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/documentproperties/shareddoc/
 ---
+
 ## DocumentProperties.SharedDoc property
 
 Determines whether the presentation is shared between multiple people. Read/write Boolean.

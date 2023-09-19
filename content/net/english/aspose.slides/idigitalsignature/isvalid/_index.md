@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/idigitalsignature/isvalid/
 ---
+
 ## IDigitalSignature.IsValid property
 
 If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only Boolean.

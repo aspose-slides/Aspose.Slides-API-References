@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ibaseportionformateffectivedata/fillformat/
 ---
+
 ## IBasePortionFormatEffectiveData.FillFormat property
 
 Returns the text FillFormat properties. Read-only [`IFillFormatEffectiveData`](../../ifillformateffectivedata).

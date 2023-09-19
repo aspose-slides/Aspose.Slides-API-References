@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/digitalsignaturecollection/count/
 ---
+
 ## DigitalSignatureCollection.Count property
 
 Returns the number of elements in the collection. Read-only Int32.

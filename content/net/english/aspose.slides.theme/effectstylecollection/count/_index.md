@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/effectstylecollection/count/
 ---
+
 ## EffectStyleCollection.Count property
 
 Returns a number of elements in the collection. Read-only Int32, Read-only Int32.

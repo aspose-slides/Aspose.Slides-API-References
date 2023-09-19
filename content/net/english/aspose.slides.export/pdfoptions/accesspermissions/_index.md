@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/pdfoptions/accesspermissions/
 ---
+
 ## PdfOptions.AccessPermissions property
 
 Contains a set of flags specifying which access permissions should be granted when the document is opened with user access. See [`PdfAccessPermissions`](../../pdfaccesspermissions).

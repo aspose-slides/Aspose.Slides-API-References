@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/paragraphformat/eastasianlinebreak/
 ---
+
 ## ParagraphFormat.EastAsianLineBreak property
 
 Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

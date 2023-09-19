@@ -6,6 +6,7 @@ type: docs
 weight: 420
 url: /aspose.slides.charts/axis/minorunitscale/
 ---
+
 ## Axis.MinorUnitScale property
 
 Represents the major unit scale for the date axis. Read/write [`TimeUnitType`](../../timeunittype).

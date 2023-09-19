@@ -3,9 +3,10 @@ title: IFontSubstRule
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents font subtituition information
 type: docs
-weight: 5480
+weight: 5490
 url: /aspose.slides/ifontsubstrule/
 ---
+
 ## IFontSubstRule interface
 
 Represents font subtituition information

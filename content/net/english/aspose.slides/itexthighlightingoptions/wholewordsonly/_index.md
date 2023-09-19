@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itexthighlightingoptions/wholewordsonly/
 ---
+
 ## ITextHighlightingOptions.WholeWordsOnly property
 
 Set true to match only whole words, false - otherwise. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/hyperlink/tooltip/
 ---
+
 ## Hyperlink.Tooltip property
 
 Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String.

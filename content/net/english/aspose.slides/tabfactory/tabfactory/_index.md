@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/tabfactory/tabfactory/
 ---
+
 ## TabFactory constructor
 
 The default constructor.

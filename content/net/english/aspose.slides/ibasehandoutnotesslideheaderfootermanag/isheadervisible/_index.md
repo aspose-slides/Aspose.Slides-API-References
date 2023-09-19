@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ibasehandoutnotesslideheaderfootermanag/isheadervisible/
 ---
+
 ## IBaseHandoutNotesSlideHeaderFooterManag.IsHeaderVisible property
 
 Gets value indicating that a header placeholder is present. Read Boolean.

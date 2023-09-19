@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/behavior/additive/
 ---
+
 ## Behavior.Additive property
 
 Represents whether the current animation behavior is combined with other running animations. Read/write [`BehaviorAdditiveType`](../../behavioradditivetype).

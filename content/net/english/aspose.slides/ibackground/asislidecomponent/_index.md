@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ibackground/asislidecomponent/
 ---
+
 ## IBackground.AsISlideComponent property
 
 Returns ISlideComponent interface. Read-only [`ISlideComponent`](../../islidecomponent).

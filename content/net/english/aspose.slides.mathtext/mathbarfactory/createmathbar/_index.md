@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathbarfactory/createmathbar/
 ---
+
 ## CreateMathBar(IMathElement) {#createmathbar}
 
 Create a math bar by applying to the element

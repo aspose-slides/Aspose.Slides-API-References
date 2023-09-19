@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.smartart/smartartnode/position/
 ---
+
 ## SmartArtNode.Position property
 
 Returns or sets zero-based position of node among sibling nodes. Read/write Int32.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/iformat/fill/
 ---
+
 ## IFormat.Fill property
 
 Returns fill style properties of a chart. Read-only [`IFillFormat`](../../../aspose.slides/ifillformat).

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/baseslide/shapes/
 ---
+
 ## BaseSlide.Shapes property
 
 Returns the shapes of a slide. Read-only [`IShapeCollection`](../../ishapecollection).

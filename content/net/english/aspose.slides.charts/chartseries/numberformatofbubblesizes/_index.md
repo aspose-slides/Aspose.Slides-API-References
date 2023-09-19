@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides.charts/chartseries/numberformatofbubblesizes/
 ---
+
 ## ChartSeries.NumberFormatOfBubbleSizes property
 
 NumberFormatOfBubbleSizes. Read/write String.

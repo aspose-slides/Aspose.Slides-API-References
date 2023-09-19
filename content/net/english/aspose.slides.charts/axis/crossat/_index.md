@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/axis/crossat/
 ---
+
 ## Axis.CrossAt property
 
 Represents the point on the axis where the perpendicular axis crosses it. Read/write Single.

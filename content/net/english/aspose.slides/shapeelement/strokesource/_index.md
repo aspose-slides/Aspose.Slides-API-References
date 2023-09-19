@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/shapeelement/strokesource/
 ---
+
 ## ShapeElement.StrokeSource property
 
 Returns information about how to stroke an element. Read-only [`ShapeElementStrokeSource`](../../shapeelementstrokesource).

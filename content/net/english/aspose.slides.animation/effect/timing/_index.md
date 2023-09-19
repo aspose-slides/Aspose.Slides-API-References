@@ -3,9 +3,10 @@ title: Timing
 second_title: Aspose.Sildes for .NET API Reference
 description: Defines timing value for effect. Read/write ITimingaspose.slides.animation/itiming.
 type: docs
-weight: 110
+weight: 130
 url: /aspose.slides.animation/effect/timing/
 ---
+
 ## Effect.Timing property
 
 Defines timing value for effect. Read/write [`ITiming`](../../itiming).

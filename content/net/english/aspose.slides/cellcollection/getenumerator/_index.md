@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/cellcollection/getenumerator/
 ---
+
 ## CellCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

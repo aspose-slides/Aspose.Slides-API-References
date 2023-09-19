@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ishapecollection/addmathshape/
 ---
+
 ## IShapeCollection.AddMathShape method
 
 Creates a new AutoShape of the type Rectangle to host mathematical content inside and adds it to the end of the collection.

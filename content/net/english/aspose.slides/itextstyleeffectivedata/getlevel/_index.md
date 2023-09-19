@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itextstyleeffectivedata/getlevel/
 ---
+
 ## ITextStyleEffectiveData.GetLevel method
 
 Returns level of effective style.

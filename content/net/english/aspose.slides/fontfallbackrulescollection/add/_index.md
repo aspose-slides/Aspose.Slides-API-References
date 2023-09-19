@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/fontfallbackrulescollection/add/
 ---
+
 ## FontFallBackRulesCollection.Add method
 
 Add a specified FallBack rule to the end of the collection.

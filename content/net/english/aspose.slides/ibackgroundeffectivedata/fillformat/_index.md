@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ibackgroundeffectivedata/fillformat/
 ---
+
 ## IBackgroundEffectiveData.FillFormat property
 
 Returns effective fill format. Read-only [`IFillFormatEffectiveData`](../../ifillformateffectivedata).

@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/shape/name/
 ---
+
 ## Shape.Name property
 
 Returns or sets the name of a shape. Must be not null. Use empty string value if needed. Read/write String.

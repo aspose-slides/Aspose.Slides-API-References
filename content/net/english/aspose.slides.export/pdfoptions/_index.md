@@ -3,9 +3,10 @@ title: PdfOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides options that control how a presentation is saved in Pdf format.
 type: docs
-weight: 4020
+weight: 4030
 url: /aspose.slides.export/pdfoptions/
 ---
+
 ## PdfOptions class
 
 Provides options that control how a presentation is saved in Pdf format.

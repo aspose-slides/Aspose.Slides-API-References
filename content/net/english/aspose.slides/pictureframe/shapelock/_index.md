@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/pictureframe/shapelock/
 ---
+
 ## PictureFrame.ShapeLock property
 
 Returns shape's locks. Read-only [`IPictureFrameLock`](../../ipictureframelock).

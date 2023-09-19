@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iformatfactory/createportionformat/
 ---
+
 ## IFormatFactory.CreatePortionFormat method
 
 Creates new [`IPortionFormat`](../../iportionformat).

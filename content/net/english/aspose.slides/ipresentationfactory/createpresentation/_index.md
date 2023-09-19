@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ipresentationfactory/createpresentation/
 ---
+
 ## CreatePresentation() {#createpresentation}
 
 Creates new presentation.

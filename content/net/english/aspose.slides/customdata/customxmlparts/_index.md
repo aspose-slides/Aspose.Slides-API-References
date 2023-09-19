@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/customdata/customxmlparts/
 ---
+
 ## CustomData.CustomXmlParts property
 
 Returns the custom xml parts collection. Read-only [`ICustomXmlPartCollection`](../../icustomxmlpartcollection).

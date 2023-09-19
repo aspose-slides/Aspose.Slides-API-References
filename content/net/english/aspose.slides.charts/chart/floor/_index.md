@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/chart/floor/
 ---
+
 ## Chart.Floor property
 
 Returns an object which allows to change format of the floor of a 3D chart. Read-only [`IChartWall`](../../ichartwall).

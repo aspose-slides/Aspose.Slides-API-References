@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/itextframeformat/wraptext/
 ---
+
 ## ITextFrameFormat.WrapText property
 
 **True** if text is wrapped at TextFrame's margins. Read/write [`NullableBool`](../../nullablebool).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iplaceholder/size/
 ---
+
 ## IPlaceholder.Size property
 
 Gets the size of a placeholder. Read-only [`PlaceholderSize`](../../placeholdersize).

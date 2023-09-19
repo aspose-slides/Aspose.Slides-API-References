@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides.charts/iaxis/isautomatictickmarksspacing/
 ---
+
 ## IAxis.IsAutomaticTickMarksSpacing property
 
 Specifies automatic tick marks spacing value. If false: use TickMarksSpacing property. Read/write Boolean.

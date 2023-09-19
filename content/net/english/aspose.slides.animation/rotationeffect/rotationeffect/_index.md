@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/rotationeffect/rotationeffect/
 ---
+
 ## RotationEffect constructor
 
 The default constructor.

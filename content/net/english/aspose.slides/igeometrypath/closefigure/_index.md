@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/igeometrypath/closefigure/
 ---
+
 ## IGeometryPath.CloseFigure method
 
 Closes the current figure of this path

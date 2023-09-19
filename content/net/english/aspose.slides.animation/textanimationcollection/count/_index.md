@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/textanimationcollection/count/
 ---
+
 ## TextAnimationCollection.Count property
 
 Returns a number of elements in the collection. Read-only Int32.

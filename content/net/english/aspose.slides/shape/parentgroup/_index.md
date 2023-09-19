@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/shape/parentgroup/
 ---
+
 ## Shape.ParentGroup property
 
 Returns parent GroupShape object if shape is grouped. Otherwise returns null. Read-only [`IGroupShape`](../../igroupshape).

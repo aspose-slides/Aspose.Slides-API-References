@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/pictureframelock/groupinglocked/
 ---
+
 ## PictureFrameLock.GroupingLocked property
 
 Determines whether an adding this shape to a group is forbidden. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/documentproperties/nameofapplication/
 ---
+
 ## DocumentProperties.NameOfApplication property
 
 Returns or sets the name of the application. Read/write String.

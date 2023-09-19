@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/effectstyle/threedformat/
 ---
+
 ## EffectStyle.ThreeDFormat property
 
 Returns an 3d format. Read-only [`IThreeDFormat`](../../../aspose.slides/ithreedformat).

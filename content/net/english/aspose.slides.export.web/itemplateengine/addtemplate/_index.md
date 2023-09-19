@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/itemplateengine/addtemplate/
 ---
+
 ## ITemplateEngine.AddTemplate method
 
 Adds the template to the template collection.

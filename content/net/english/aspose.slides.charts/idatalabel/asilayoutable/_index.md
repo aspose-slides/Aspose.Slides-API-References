@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/idatalabel/asilayoutable/
 ---
+
 ## IDataLabel.AsILayoutable property
 
 Returns ILayoutable interface. Read-only [`ILayoutable`](../../ilayoutable).

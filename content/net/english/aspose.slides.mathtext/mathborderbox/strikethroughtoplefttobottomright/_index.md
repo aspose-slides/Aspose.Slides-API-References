@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/mathborderbox/strikethroughtoplefttobottomright/
 ---
+
 ## MathBorderBox.StrikethroughTopLeftToBottomRight property
 
 Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box.

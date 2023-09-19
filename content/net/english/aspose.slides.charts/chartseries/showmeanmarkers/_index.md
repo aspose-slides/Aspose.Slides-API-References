@@ -6,6 +6,7 @@ type: docs
 weight: 400
 url: /aspose.slides.charts/chartseries/showmeanmarkers/
 ---
+
 ## ChartSeries.ShowMeanMarkers property
 
 Represents mean markers. True if mean markers are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write Boolean.

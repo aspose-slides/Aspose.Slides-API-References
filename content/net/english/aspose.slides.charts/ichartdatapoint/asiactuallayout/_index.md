@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartdatapoint/asiactuallayout/
 ---
+
 ## IChartDataPoint.AsIActualLayout property
 
 Returns IActualLayout interface.

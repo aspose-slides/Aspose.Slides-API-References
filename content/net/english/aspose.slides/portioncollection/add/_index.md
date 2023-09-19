@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/portioncollection/add/
 ---
+
 ## PortionCollection.Add method
 
 Adds a Portion to the end of collection.

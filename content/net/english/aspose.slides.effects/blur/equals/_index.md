@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/blur/equals/
 ---
+
 ## Blur.Equals method
 
 Determines whether the specified [`Blur`](../../blur) is equal to the current [`Blur`](../../blur).

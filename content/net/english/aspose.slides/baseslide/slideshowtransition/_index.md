@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/baseslide/slideshowtransition/
 ---
+
 ## BaseSlide.SlideShowTransition property
 
 Returns the Transition object which contains information about how the specified slide advances during a slide show. Read-only [`ISlideShowTransition`](../../islideshowtransition).

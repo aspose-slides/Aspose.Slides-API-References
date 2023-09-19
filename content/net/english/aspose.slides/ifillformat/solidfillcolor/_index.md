@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ifillformat/solidfillcolor/
 ---
+
 ## IFillFormat.SolidFillColor property
 
 Returns the fill color. Read-only [`IColorFormat`](../../icolorformat).

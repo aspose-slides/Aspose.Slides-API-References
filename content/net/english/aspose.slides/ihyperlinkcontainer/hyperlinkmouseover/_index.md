@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ihyperlinkcontainer/hyperlinkmouseover/
 ---
+
 ## IHyperlinkContainer.HyperlinkMouseOver property
 
 Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../../ihyperlink).

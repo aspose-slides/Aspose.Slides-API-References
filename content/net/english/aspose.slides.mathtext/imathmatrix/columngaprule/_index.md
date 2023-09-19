@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/imathmatrix/columngaprule/
 ---
+
 ## IMathMatrix.ColumnGapRule property
 
 The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0)

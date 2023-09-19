@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/format/effect3d/
 ---
+
 ## Format.Effect3D property
 
 Returns 3D format of a chart. Read-only [`IThreeDFormat`](../../../aspose.slides/ithreedformat).

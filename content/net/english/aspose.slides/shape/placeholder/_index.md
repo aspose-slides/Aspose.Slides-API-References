@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/shape/placeholder/
 ---
+
 ## Shape.Placeholder property
 
 Returns the placeholder for a shape. Returns null if the shape has no placeholder. Read-only [`IPlaceholder`](../../iplaceholder).

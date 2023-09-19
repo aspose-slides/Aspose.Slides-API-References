@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/itextframeformat/geteffective/
 ---
+
 ## ITextFrameFormat.GetEffective method
 
 Gets effective text frame formatting data with the inheritance applied.

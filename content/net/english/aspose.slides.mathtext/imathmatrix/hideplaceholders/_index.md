@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/imathmatrix/hideplaceholders/
 ---
+
 ## IMathMatrix.HidePlaceholders property
 
 Hide the placeholders for empty matrix elements Default: false

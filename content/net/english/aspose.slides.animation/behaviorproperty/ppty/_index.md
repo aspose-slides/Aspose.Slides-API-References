@@ -6,6 +6,7 @@ type: docs
 weight: 560
 url: /aspose.slides.animation/behaviorproperty/ppty/
 ---
+
 ## BehaviorProperty.PptY property
 
 Represents 'ppt_y' property

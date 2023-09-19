@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.smartart/ismartartnode/isassistant/
 ---
+
 ## ISmartArtNode.IsAssistant property
 
 Returns or sets the node as assistant. Read/write Boolean.

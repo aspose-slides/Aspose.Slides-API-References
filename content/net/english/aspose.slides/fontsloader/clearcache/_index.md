@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontsloader/clearcache/
 ---
+
 ## FontsLoader.ClearCache method
 
 Releases all custom fonts defined by user

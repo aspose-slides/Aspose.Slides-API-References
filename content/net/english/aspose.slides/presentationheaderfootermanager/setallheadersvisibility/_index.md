@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/presentationheaderfootermanager/setallheadersvisibility/
 ---
+
 ## PresentationHeaderFooterManager.SetAllHeadersVisibility method
 
 Changes all header placeholders visibility, including notes master, notes slides and handout master.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/baseportionformat/eastasianfont/
 ---
+
 ## BasePortionFormat.EastAsianFont property
 
 Returns or sets the East Asian font info. Null means font is undefined and should be inherited from the Master. Read/write [`IFontData`](../../ifontdata).

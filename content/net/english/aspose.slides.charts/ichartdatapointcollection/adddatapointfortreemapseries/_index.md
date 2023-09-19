@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides.charts/ichartdatapointcollection/adddatapointfortreemapseries/
 ---
+
 ## IChartDataPointCollection.AddDataPointForTreemapSeries method
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Treemap.

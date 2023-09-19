@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/inotescommentslayoutingoptions/commentsareawidth/
 ---
+
 ## INotesCommentsLayoutingOptions.CommentsAreaWidth property
 
 Gets or sets the width of the comment output area in pixels (Applies only if comments are displayed on the right).

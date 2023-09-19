@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/transitionvaluebase/equals/
 ---
+
 ## TransitionValueBase.Equals method
 
 Determines whether the two TransitionValueBase instances are equal.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/inotesslideheaderfootermanager/asibasehandoutnotesslideheaderfootermanag/
 ---
+
 ## INotesSlideHeaderFooterManager.AsIBaseHandoutNotesSlideHeaderFooterManag property
 
 Returns IBaseHandoutNotesSlideHeaderFooterManag interface.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/cell/ismergedcell/
 ---
+
 ## Cell.IsMergedCell property
 
 Returns true if the cell is merged with any adjusted cell, false otherwise. Read-only Boolean.

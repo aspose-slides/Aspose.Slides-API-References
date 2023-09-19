@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ifontsmanager/getfonts/
 ---
+
 ## IFontsManager.GetFonts method
 
 Returns the fonts used in the presentation

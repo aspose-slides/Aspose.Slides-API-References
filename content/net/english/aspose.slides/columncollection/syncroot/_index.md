@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/columncollection/syncroot/
 ---
+
 ## ColumnCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

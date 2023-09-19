@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.vba/vbareferenceoletypelib/name/
 ---
+
 ## VbaReferenceOleTypeLib.Name property
 
 Represents the name of the VBA project reference. Read/write String.

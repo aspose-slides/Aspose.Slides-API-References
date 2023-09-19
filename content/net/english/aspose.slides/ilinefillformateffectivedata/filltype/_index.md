@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ilinefillformateffectivedata/filltype/
 ---
+
 ## ILineFillFormatEffectiveData.FillType property
 
 Returns the fill type. Read-only [`FillType`](../../filltype).

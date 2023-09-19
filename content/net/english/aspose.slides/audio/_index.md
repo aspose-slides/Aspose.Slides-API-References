@@ -3,9 +3,10 @@ title: Audio
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an embedded audio file.
 type: docs
-weight: 760
+weight: 770
 url: /aspose.slides/audio/
 ---
+
 ## Audio class
 
 Represents an embedded audio file.

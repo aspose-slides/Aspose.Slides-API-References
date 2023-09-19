@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/imagewrapper/save/
 ---
+
 ## Save(string) {#save_1}
 
 Saves Image to the specified file

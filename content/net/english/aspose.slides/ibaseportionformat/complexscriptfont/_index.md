@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ibaseportionformat/complexscriptfont/
 ---
+
 ## IBasePortionFormat.ComplexScriptFont property
 
 Returns or sets the complex script font info. Null means font is undefined and should be inherited from the Master. Read/write [`IFontData`](../../ifontdata).

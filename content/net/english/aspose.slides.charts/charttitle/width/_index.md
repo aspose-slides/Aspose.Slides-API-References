@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/charttitle/width/
 ---
+
 ## ChartTitle.Width property
 
 Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single.

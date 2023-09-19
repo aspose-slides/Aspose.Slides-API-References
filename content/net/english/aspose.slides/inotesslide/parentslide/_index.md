@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/inotesslide/parentslide/
 ---
+
 ## INotesSlide.ParentSlide property
 
 Returns a ParentSlide Read-only [`ISlide`](../../islide).

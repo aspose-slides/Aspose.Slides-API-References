@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/autoshapelock/positionlocked/
 ---
+
 ## AutoShapeLock.PositionLocked property
 
 Determines whether a moving this shape is forbidden. Read/write Boolean.

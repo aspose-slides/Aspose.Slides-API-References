@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/streamwrapperfactory/streamwrapperfactory/
 ---
+
 ## StreamWrapperFactory constructor
 
 The default constructor.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.export/ihtmloptions/svgresponsivelayout/
 ---
+
 ## IHtmlOptions.SvgResponsiveLayout property
 
 True to exclude width and height attributes from SVG container - that will make layout responsive. False - otherwise. Read/write Boolean.

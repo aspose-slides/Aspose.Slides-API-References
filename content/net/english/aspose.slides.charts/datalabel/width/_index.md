@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.charts/datalabel/width/
 ---
+
 ## DataLabel.Width property
 
 Returns or sets the width of a title as a fraction of the width of the chart. Read/write Single.

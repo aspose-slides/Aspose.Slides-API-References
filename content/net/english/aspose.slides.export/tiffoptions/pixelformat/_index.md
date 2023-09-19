@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.export/tiffoptions/pixelformat/
 ---
+
 ## TiffOptions.PixelFormat property
 
 Specifies the pixel format for the generated images. Read/write [`ImagePixelFormat`](../../imagepixelformat).

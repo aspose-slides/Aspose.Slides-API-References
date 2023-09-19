@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.effects/ireflection/startreflectionopacity/
 ---
+
 ## IReflection.StartReflectionOpacity property
 
 Starting reflection opacity. (percents). Read/write Single.

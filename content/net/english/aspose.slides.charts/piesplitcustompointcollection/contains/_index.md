@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/piesplitcustompointcollection/contains/
 ---
+
 ## PieSplitCustomPointCollection.Contains method
 
 Determines whether the ICollection contains a specific value.

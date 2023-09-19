@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ipresentationheaderfootermanager/setallfooterstext/
 ---
+
 ## IPresentationHeaderFooterManager.SetAllFootersText method
 
 Sets text to all footer placeholders, including master slides, layout slides and slides.

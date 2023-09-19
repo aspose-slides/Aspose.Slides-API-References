@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/isectioncollection/clear/
 ---
+
 ## ISectionCollection.Clear method
 
 Removes all sections from the collection.

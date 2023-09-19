@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/slideshowsettings/shownarration/
 ---
+
 ## SlideShowSettings.ShowNarration property
 
 Show Narration in Slide Show

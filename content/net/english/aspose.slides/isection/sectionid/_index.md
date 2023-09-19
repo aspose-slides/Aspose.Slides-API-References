@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/isection/sectionid/
 ---
+
 ## ISection.SectionId property
 
 Section Id.

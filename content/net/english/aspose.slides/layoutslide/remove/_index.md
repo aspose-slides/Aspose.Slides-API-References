@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/layoutslide/remove/
 ---
+
 ## LayoutSlide.Remove method
 
 Removes layout from presentation.

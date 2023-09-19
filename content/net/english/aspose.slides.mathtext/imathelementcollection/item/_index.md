@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathelementcollection/item/
 ---
+
 ## IMathElementCollection indexer
 
 Gets the element at the specified index. Read-only [`IMathElement`](../../imathelement).

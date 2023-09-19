@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/customxmlpartcollection/count/
 ---
+
 ## CustomXmlPartCollection.Count property
 
 Returns count of custom xml parts in the collection. Read-only Int32.

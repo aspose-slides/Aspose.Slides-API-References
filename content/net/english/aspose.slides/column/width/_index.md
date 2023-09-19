@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/column/width/
 ---
+
 ## Column.Width property
 
 Returns or sets the width of a column. Read/write Double.

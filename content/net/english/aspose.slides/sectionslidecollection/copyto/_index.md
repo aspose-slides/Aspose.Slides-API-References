@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/sectionslidecollection/copyto/
 ---
+
 ## SectionSlideCollection.CopyTo method
 
 Copies the entire collection to the specified array.

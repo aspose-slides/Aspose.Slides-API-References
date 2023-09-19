@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/customxmlpartcollection/clear/
 ---
+
 ## CustomXmlPartCollection.Clear method
 
 Removes all items from the collection.

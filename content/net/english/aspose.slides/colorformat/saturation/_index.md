@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/colorformat/saturation/
 ---
+
 ## ColorFormat.Saturation property
 
 Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write Single.

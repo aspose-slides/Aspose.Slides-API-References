@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/datalabelcollection/hide/
 ---
+
 ## DataLabelCollection.Hide method
 
 Make data label hidden by default by setting all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to false state. IsVisible will be false after this.

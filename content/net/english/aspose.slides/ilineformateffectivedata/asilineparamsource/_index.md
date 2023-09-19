@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ilineformateffectivedata/asilineparamsource/
 ---
+
 ## ILineFormatEffectiveData.AsILineParamSource property
 
 Allows to get base ILineParamSource interface. Read-only [`ILineParamSource`](../../ilineparamsource).

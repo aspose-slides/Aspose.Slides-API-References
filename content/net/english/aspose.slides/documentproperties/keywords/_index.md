@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/documentproperties/keywords/
 ---
+
 ## DocumentProperties.Keywords property
 
 Returns or sets the keywords of a presentation. Read/write String.

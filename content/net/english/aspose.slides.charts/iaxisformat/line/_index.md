@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/iaxisformat/line/
 ---
+
 ## IAxisFormat.Line property
 
 Returns line style properties of an axis. Read-only [`ILineFormat`](../../../aspose.slides/ilineformat).

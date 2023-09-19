@@ -3,9 +3,10 @@ title: ILicense
 second_title: Aspose.Sildes for .NET API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 5830
+weight: 5840
 url: /aspose.slides/ilicense/
 ---
+
 ## ILicense interface
 
 Provides methods to license the component.

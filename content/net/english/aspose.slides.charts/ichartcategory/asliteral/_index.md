@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartcategory/asliteral/
 ---
+
 ## IChartCategory.AsLiteral property
 
 Returns or sets AsLiteral if UseCell is false. Read/write Object.

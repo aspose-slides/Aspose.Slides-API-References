@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/presetshadow/geteffective/
 ---
+
 ## PresetShadow.GetEffective method
 
 Gets effective Preset Shadow effect data with the inheritance applied.

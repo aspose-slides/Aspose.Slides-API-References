@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/swfoptions/compressed/
 ---
+
 ## SwfOptions.Compressed property
 
 Specifies whether the generated SWF document should be compressed or not. Default is `true`.

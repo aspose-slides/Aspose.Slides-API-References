@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/ishape/name/
 ---
+
 ## IShape.Name property
 
 Returns or sets the name of a shape. Read/write String.

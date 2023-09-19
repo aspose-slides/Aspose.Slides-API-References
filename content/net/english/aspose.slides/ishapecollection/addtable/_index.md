@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/ishapecollection/addtable/
 ---
+
 ## IShapeCollection.AddTable method
 
 Creates a new Table and adds it to the end of the collection.

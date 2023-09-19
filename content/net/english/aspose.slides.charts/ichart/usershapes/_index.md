@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides.charts/ichart/usershapes/
 ---
+
 ## IChart.UserShapes property
 
 Specify the shapes drawn on top of the chart. Read-only [`IGroupShape`](../../../aspose.slides/igroupshape).

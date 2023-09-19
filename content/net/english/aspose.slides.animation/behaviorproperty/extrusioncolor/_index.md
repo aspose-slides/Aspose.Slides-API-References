@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/behaviorproperty/extrusioncolor/
 ---
+
 ## BehaviorProperty.ExtrusionColor property
 
 Represents 'extrusion.color' property

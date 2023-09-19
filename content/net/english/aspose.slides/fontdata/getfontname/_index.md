@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/fontdata/getfontname/
 ---
+
 ## FontData.GetFontName method
 
 Returns the font name, replacing theme referrence with an actual font used.

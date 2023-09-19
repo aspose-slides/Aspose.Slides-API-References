@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartparagraphformat/defaulttabsize/
 ---
+
 ## IChartParagraphFormat.DefaultTabSize property
 
 Returns or sets default tabulation size. Read/write Single.

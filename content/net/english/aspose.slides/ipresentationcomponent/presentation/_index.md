@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ipresentationcomponent/presentation/
 ---
+
 ## IPresentationComponent.Presentation property
 
 Returns the presentation. Read-only [`IPresentation`](../../ipresentation).

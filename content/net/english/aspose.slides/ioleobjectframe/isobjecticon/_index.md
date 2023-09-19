@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ioleobjectframe/isobjecticon/
 ---
+
 ## IOleObjectFrame.IsObjectIcon property
 
 Determines whether an object is visible as icon. Read/write Boolean.

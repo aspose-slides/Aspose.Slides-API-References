@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/igradientformateffectivedata/gradientdirection/
 ---
+
 ## IGradientFormatEffectiveData.GradientDirection property
 
 Returns the style of a gradient. Read-only [`GradientDirection`](../../gradientdirection).

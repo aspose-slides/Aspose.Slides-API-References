@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ibulletformat/numberedbulletstyle/
 ---
+
 ## IBulletFormat.NumberedBulletStyle property
 
 Returns or sets the style of a numbered bullet with no inheritance. Read/write `NumberedBulletStyle`.

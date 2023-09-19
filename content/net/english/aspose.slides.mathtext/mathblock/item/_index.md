@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/mathblock/item/
 ---
+
 ## MathBlock indexer
 
 Gets or sets IMathElement at the specified index.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/globallayoutslidecollection/addclone/
 ---
+
 ## AddClone(ILayoutSlide) {#addclone}
 
 Adds a copy of a specified layout slide to the presentation.

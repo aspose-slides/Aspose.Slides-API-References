@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathboxfactory/createmathbox/
 ---
+
 ## MathBoxFactory.CreateMathBox method
 
 Create a math box by applying to the element

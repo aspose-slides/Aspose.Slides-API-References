@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/portionfactory/createportion/
 ---
+
 ## CreatePortion() {#createportion}
 
 Creates an empty text portion.

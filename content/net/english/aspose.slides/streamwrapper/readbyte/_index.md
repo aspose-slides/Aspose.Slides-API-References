@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/streamwrapper/readbyte/
 ---
+
 ## StreamWrapper.ReadByte method
 
 Reads a byte from the stream and advances the position within the stream by one byte, or returns -1 if at the end of the stream.

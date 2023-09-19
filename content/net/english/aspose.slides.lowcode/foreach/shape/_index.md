@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.lowcode/foreach/shape/
 ---
+
 ## Shape(Presentation, ForEachShapeCallback) {#shape_2}
 
 Iterate each `Shape` in the [`Presentation`](../../../aspose.slides/presentation). Shapes will be iterated in all type of slides - [`Slide`](../slide), [`MasterSlide`](../masterslide) and [`LayoutSlide`](../layoutslide)

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/itable/lastcol/
 ---
+
 ## ITable.LastCol property
 
 Determines whether the last column of a table has to be drawn with a special formatting. Read/write Boolean.

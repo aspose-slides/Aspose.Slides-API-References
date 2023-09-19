@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/fillformat/geteffective/
 ---
+
 ## FillFormat.GetEffective method
 
 Gets effective fill formatting data with the inheritance applied.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/mathgroupingcharacter/getchildren/
 ---
+
 ## MathGroupingCharacter.GetChildren method
 
 Get children elements

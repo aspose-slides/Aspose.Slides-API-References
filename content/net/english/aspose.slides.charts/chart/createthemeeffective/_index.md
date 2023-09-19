@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides.charts/chart/createthemeeffective/
 ---
+
 ## Chart.CreateThemeEffective method
 
 Returns an effective theme for this chart.

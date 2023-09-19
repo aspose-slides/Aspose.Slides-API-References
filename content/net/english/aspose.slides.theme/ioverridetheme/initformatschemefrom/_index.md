@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.theme/ioverridetheme/initformatschemefrom/
 ---
+
 ## IOverrideTheme.InitFormatSchemeFrom method
 
 Init FormatScheme with new object for overriding FormatScheme of InheritedTheme.

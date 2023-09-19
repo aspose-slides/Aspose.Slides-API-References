@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/itinteffectivedata/amount/
 ---
+
 ## ITintEffectiveData.Amount property
 
 Returns effect amount. Read-only Single.

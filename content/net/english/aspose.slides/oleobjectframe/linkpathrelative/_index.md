@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/oleobjectframe/linkpathrelative/
 ---
+
 ## OleObjectFrame.LinkPathRelative property
 
 Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String.

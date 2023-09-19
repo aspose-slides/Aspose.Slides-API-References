@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathelementcollection/add/
 ---
+
 ## IMathElementCollection.Add method
 
 Adds a math element to the end of the collection.

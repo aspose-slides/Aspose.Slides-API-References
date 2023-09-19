@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/htmlgenerator/slideimagesizeunitcode/
 ---
+
 ## HtmlGenerator.SlideImageSizeUnitCode property
 
 Returns a css code of unit in which slide image size is specified. Read-only String.

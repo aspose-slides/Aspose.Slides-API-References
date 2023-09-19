@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/ichartparagraphformat/tabs/
 ---
+
 ## IChartParagraphFormat.Tabs property
 
 Returns tabulations of a paragraph. Read-only [`ITabCollection`](../../../aspose.slides/itabcollection).

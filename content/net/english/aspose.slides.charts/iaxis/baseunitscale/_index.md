@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/iaxis/baseunitscale/
 ---
+
 ## IAxis.BaseUnitScale property
 
 Specifies the smallest time unit that is represented on the date axis. Read/write [`TimeUnitType`](../../timeunittype).

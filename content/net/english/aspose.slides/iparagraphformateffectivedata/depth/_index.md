@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/iparagraphformateffectivedata/depth/
 ---
+
 ## IParagraphFormatEffectiveData.Depth property
 
 Returns a depth of a paragraph. Read-only Int16.

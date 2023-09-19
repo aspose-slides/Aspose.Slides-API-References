@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypedoughnut/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeDoughnut method
 
 Return true if chartType is one of Doughnut subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): Doughnut, ExplodedDoughnut.

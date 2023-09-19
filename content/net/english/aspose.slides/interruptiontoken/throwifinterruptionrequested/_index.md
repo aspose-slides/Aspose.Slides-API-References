@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/interruptiontoken/throwifinterruptionrequested/
 ---
+
 ## InterruptionToken.ThrowIfInterruptionRequested method
 
 Throws an OperationCanceledException if interruption was requested.

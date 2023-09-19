@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/charttitle/addtextframeforoverriding/
 ---
+
 ## ChartTitle.AddTextFrameForOverriding method
 
 Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text.

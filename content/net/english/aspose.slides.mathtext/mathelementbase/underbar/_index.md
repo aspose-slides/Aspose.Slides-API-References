@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.mathtext/mathelementbase/underbar/
 ---
+
 ## MathElementBase.Underbar method
 
 Sets a bar on the bottom of this element

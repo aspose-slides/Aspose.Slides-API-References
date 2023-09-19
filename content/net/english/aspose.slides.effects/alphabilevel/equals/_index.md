@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/alphabilevel/equals/
 ---
+
 ## AlphaBiLevel.Equals method
 
 Determines whether the specified [`AlphaBiLevel`](../../alphabilevel) is equal to the current [`AlphaBiLevel`](../../alphabilevel).

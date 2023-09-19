@@ -3,9 +3,10 @@ title: NormalViewProperties
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents normal view properties. The normal view consists of three content regions the slide itself a side content region and a bottom content region.
 type: docs
-weight: 8510
+weight: 8520
 url: /aspose.slides/normalviewproperties/
 ---
+
 ## NormalViewProperties class
 
 Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region.

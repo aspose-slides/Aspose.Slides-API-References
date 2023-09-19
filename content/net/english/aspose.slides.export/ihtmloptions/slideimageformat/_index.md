@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/ihtmloptions/slideimageformat/
 ---
+
 ## IHtmlOptions.SlideImageFormat property
 
 Returns or sets slide image format options. Read/write [`ISlideImageFormat`](../../islideimageformat).

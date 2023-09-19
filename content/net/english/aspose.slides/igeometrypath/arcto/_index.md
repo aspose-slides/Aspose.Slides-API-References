@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/igeometrypath/arcto/
 ---
+
 ## IGeometryPath.ArcTo method
 
 Appends the specified arc to the path.

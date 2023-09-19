@@ -6,6 +6,7 @@ type: docs
 weight: 390
 url: /aspose.slides.charts/iaxis/minorgridlinesformat/
 ---
+
 ## IAxis.MinorGridLinesFormat property
 
 Represents minor gridlines format on a chart axis. Read-only [`IChartLinesFormat`](../../ichartlinesformat).

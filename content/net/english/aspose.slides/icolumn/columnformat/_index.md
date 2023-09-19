@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/icolumn/columnformat/
 ---
+
 ## IColumn.ColumnFormat property
 
 Returns the ColumnFormat object that contains formatting properties for this column. Read-only [`IColumnFormat`](../../icolumnformat).

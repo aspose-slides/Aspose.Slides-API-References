@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/cellformat/bordertop/
 ---
+
 ## CellFormat.BorderTop property
 
 Returns a top border line properties object. Read-only [`ILineFormat`](../../ilineformat).

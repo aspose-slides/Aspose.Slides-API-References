@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/igradientstopcollection/insert/
 ---
+
 ## Insert(int, float, Color) {#insert_2}
 
 Creates the new gradient stop and inserts it at the specified index to the collection.

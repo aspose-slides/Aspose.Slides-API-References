@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/ipresentationanimationplayer/getframe/
 ---
+
 ## IPresentationAnimationPlayer.GetFrame method
 
 Get the frame for the current time position previously set with the [`SetTimePosition`](../settimeposition) method.

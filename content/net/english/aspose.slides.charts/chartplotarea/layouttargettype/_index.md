@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/chartplotarea/layouttargettype/
 ---
+
 ## ChartPlotArea.LayoutTargetType property
 
 If layout of the plot area defined manually this property specifies whether to layout the plot area by its inside (not including axis and axis labels) or outside (including axis and axis labels). Read/write `LayoutTargetType`.

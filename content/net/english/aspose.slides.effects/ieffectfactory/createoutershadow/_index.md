@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/ieffectfactory/createoutershadow/
 ---
+
 ## IEffectFactory.CreateOuterShadow method
 
 Creates Outer shadow effect.

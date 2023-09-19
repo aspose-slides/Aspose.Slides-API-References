@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/motioneffect/angle/
 ---
+
 ## MotionEffect.Angle property
 
 Describes the relative angle of the motion path. Read/write Single.

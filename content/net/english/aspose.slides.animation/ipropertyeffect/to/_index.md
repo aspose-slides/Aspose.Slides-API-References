@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/ipropertyeffect/to/
 ---
+
 ## IPropertyEffect.To property
 
 Specifies the ending value for the animation. Read/write String.

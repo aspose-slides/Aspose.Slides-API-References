@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/piesplitcustompointcollection/remove/
 ---
+
 ## Remove(IChartDataPoint) {#remove}
 
 Removes item from collection.

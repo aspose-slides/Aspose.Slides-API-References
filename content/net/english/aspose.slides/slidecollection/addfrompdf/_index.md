@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/slidecollection/addfrompdf/
 ---
+
 ## AddFromPdf(string) {#addfrompdf_1}
 
 Creates slides from the PDF document and adds them to the end of the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathfunction/mathfunction/
 ---
+
 ## MathFunction(IMathElement, IMathElement) {#constructor}
 
 Initializes a new instance of the MathFunction class.

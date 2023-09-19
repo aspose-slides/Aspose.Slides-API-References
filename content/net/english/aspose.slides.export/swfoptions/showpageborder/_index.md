@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.export/swfoptions/showpageborder/
 ---
+
 ## SwfOptions.ShowPageBorder property
 
 Specifies whether border around pages should be shown. Default is true.

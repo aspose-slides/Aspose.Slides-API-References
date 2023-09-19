@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/chartdatapointlevelsmanager/item/
 ---
+
 ## ChartDataPointLevelsManager indexer
 
 Returns IChartDataPointLevel object for defined level.

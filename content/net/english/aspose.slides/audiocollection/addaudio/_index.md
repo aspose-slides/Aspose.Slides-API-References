@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/audiocollection/addaudio/
 ---
+
 ## AddAudio(IAudio) {#addaudio}
 
 Adds a copy of an audio file from an another presentation.

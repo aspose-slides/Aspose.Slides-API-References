@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/portion/removefield/
 ---
+
 ## Portion.RemoveField method
 
 Converts this field portion to the simple portion.

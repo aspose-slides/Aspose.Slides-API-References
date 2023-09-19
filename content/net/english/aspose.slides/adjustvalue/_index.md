@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/adjustvalue/
 ---
+
 ## AdjustValue class
 
 Represents a geometry shape's adjustment value. These values affect shape's form.

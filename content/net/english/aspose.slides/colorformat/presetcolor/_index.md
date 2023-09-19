@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/colorformat/presetcolor/
 ---
+
 ## ColorFormat.PresetColor property
 
 Returns or sets the color preset. Read/write [`PresetColor`](../../presetcolor).

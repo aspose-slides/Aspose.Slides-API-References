@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.export/isvgoptions/vectorizetext/
 ---
+
 ## ISVGOptions.VectorizeText property
 
 Determines whether the text on a slide will be saved as graphics. Read/write Boolean.

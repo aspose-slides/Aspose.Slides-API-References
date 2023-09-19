@@ -6,6 +6,7 @@ type: docs
 weight: 480
 url: /aspose.slides.charts/axis/showmajorgridlines/
 ---
+
 ## Axis.ShowMajorGridLines property
 
 To hide major gridline set MajorGridLinesFormat.Line.FillFormat.FillType to FillType.NoFill. Read-only Boolean.

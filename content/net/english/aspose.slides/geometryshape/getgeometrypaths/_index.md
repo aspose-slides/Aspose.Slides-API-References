@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/geometryshape/getgeometrypaths/
 ---
+
 ## GeometryShape.GetGeometryPaths method
 
 Returns the copy of path of the geometry shape. Coordinates are relative to the left top corner of the shape.

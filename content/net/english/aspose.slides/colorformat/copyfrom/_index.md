@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/colorformat/copyfrom/
 ---
+
 ## ColorFormat.CopyFrom method
 
 Copy color format from "color".

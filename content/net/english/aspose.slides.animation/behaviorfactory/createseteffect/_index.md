@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.animation/behaviorfactory/createseteffect/
 ---
+
 ## BehaviorFactory.CreateSetEffect method
 
 Creates set effect.

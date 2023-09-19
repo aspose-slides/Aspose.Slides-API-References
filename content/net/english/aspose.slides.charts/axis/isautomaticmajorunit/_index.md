@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.charts/axis/isautomaticmajorunit/
 ---
+
 ## Axis.IsAutomaticMajorUnit property
 
 Indicates whether the major unit of the axis is automatically assigned. Read/write Boolean.

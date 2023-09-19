@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/idatalabel/getactuallabeltext/
 ---
+
 ## IDataLabel.GetActualLabelText method
 
 Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value.

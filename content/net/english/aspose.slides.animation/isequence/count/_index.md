@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/isequence/count/
 ---
+
 ## ISequence.Count property
 
 Returns the number of effects in a sequense. Read-only Int32.

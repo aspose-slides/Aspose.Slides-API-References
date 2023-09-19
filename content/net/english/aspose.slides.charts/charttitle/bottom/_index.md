@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/charttitle/bottom/
 ---
+
 ## ChartTitle.Bottom property
 
 Bottom. Read-only Single.

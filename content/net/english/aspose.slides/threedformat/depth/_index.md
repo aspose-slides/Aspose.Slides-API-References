@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/threedformat/depth/
 ---
+
 ## ThreeDFormat.Depth property
 
 Returns or sets the depth of a 3D shape. Read/write Double.

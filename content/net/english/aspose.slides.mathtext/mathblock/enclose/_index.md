@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.mathtext/mathblock/enclose/
 ---
+
 ## Enclose(char, char) {#enclose_1}
 
 Encloses child elements of this block in specified characters such as parenthesis or another characters as framing

@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.mathtext/mathblock/removeat/
 ---
+
 ## MathBlock.RemoveAt method
 
 Removes the element at the specified index of the collection.

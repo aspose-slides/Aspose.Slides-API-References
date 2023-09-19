@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/comment/author/
 ---
+
 ## Comment.Author property
 
 Returns the author of a comment. Read-only [`ICommentAuthor`](../../icommentauthor).

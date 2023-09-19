@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.charts/datalabelformat/showvalue/
 ---
+
 ## DataLabelFormat.ShowValue property
 
 Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Read/write Boolean.

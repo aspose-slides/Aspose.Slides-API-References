@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itextframeformateffectivedata/autofittype/
 ---
+
 ## ITextFrameFormatEffectiveData.AutofitType property
 
 Returns text autofit mode. Read-only [`TextAutofitType`](../../textautofittype).

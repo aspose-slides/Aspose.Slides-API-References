@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.animation/imotioneffect/to/
 ---
+
 ## IMotionEffect.To property
 
 Specifies the target location for an animation motion effect (in percents). Read/write PointF.

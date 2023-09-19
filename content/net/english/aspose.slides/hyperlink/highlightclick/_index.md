@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/hyperlink/highlightclick/
 ---
+
 ## Hyperlink.HighlightClick property
 
 Determines whether the hyperlink should be highlighted on click. Read/write Boolean.

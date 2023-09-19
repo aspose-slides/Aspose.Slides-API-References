@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartseriescollection/item/
 ---
+
 ## ChartSeriesCollection indexer
 
 Gets the element at the specified index.

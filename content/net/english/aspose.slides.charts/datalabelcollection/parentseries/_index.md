@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/datalabelcollection/parentseries/
 ---
+
 ## DataLabelCollection.ParentSeries property
 
 Gets the parent series. Read-only [`IChartSeries`](../../ichartseries).

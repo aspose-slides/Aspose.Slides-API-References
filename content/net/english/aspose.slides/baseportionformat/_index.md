@@ -3,9 +3,10 @@ title: BasePortionFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Common text portion formatting properties.
 type: docs
-weight: 880
+weight: 890
 url: /aspose.slides/baseportionformat/
 ---
+
 ## BasePortionFormat class
 
 Common text portion formatting properties.

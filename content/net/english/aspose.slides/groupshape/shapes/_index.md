@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/groupshape/shapes/
 ---
+
 ## GroupShape.Shapes property
 
 Returns the collection of shapes inside the group. Read-only [`IShapeCollection`](../../ishapecollection).

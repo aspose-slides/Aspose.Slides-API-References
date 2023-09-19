@@ -3,9 +3,10 @@ title: ForEach.ForEachMasterSlideCallback
 second_title: Aspose.Sildes for .NET API Reference
 description: 
 type: docs
-weight: 7350
+weight: 7360
 url: /aspose.slides.lowcode/foreach.foreachmasterslidecallback/
 ---
+
 ## ForEach.ForEachMasterSlideCallback delegate
 
 ```csharp

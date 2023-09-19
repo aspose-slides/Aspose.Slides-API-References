@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/shape/officeinteropshapeid/
 ---
+
 ## Shape.OfficeInteropShapeId property
 
 Gets unique shape identifier in slide scope. Read-only UInt32. See also [`UniqueId`](../uniqueid) for getting unique shape identifier in presentation scope.

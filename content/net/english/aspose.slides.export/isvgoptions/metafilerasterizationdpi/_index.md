@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/isvgoptions/metafilerasterizationdpi/
 ---
+
 ## ISVGOptions.MetafileRasterizationDpi property
 
 Returns or sets the lower resolution limit for metafile rasterization. Read/write Int32.

@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.mathtext/imathmatrix/getcolumnalignment/
 ---
+
 ## IMathMatrix.GetColumnAlignment method
 
 Get the horizontal alignment of the specified column

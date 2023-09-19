@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.vba/vbareferencecollection/syncroot/
 ---
+
 ## VbaReferenceCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

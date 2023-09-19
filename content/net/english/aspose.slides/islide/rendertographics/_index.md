@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/islide/rendertographics/
 ---
+
 ## RenderToGraphics(IRenderingOptions, Graphics) {#rendertographics_3}
 
 Renders certain slide to a Graphics object.

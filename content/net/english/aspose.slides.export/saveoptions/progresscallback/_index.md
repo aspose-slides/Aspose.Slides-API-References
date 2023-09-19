@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/saveoptions/progresscallback/
 ---
+
 ## SaveOptions.ProgressCallback property
 
 Represents a callback object for saving progress updates in percentage. See [`IProgressCallback`](../../../aspose.slides/iprogresscallback).

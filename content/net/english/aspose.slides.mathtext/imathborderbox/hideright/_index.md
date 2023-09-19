@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/imathborderbox/hideright/
 ---
+
 ## IMathBorderBox.HideRight property
 
 Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icolumn/asicellcollection/
 ---
+
 ## IColumn.AsICellCollection property
 
 Allows to get base ICellCollection interface. Read-only [`ICellCollection`](../../icellcollection).

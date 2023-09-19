@@ -3,9 +3,10 @@ title: MathVerticalAlignment
 second_title: Aspose.Sildes for .NET API Reference
 description: Vertical Alignment
 type: docs
-weight: 8450
+weight: 8460
 url: /aspose.slides.mathtext/mathverticalalignment/
 ---
+
 ## MathVerticalAlignment enumeration
 
 Vertical Alignment

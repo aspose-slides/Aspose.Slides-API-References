@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/presentationanimationsgenerator/defaultdelay/
 ---
+
 ## PresentationAnimationsGenerator.DefaultDelay property
 
 Gets or sets default delay time [ms].

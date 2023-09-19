@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/presentation/images/
 ---
+
 ## Presentation.Images property
 
 Returns the collection of all images in the presentation. Read-only [`IImageCollection`](../../iimagecollection).

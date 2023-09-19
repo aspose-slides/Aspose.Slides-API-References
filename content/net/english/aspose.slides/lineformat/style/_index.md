@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/lineformat/style/
 ---
+
 ## LineFormat.Style property
 
 Returns or sets the line style. Read/write [`LineStyle`](../../linestyle).

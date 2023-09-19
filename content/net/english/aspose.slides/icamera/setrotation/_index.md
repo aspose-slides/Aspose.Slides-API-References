@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/icamera/setrotation/
 ---
+
 ## ICamera.SetRotation method
 
 A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is float.NaN, all rotation is undefined.

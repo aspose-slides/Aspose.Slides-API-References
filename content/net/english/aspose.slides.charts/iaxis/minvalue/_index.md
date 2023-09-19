@@ -6,6 +6,7 @@ type: docs
 weight: 430
 url: /aspose.slides.charts/iaxis/minvalue/
 ---
+
 ## IAxis.MinValue property
 
 Represents the minimum value on the value axis. Read/write Double.

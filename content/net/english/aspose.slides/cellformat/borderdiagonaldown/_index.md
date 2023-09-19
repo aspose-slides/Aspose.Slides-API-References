@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/cellformat/borderdiagonaldown/
 ---
+
 ## CellFormat.BorderDiagonalDown property
 
 Returns a top-left to bottom-right diagonal line properties object. Read-only [`ILineFormat`](../../ilineformat).

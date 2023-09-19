@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/baseportionformat/normaliseheight/
 ---
+
 ## BasePortionFormat.NormaliseHeight property
 
 Determines whether the height of a text should be normalized. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

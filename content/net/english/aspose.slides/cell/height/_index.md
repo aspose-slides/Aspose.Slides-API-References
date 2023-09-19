@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/cell/height/
 ---
+
 ## Cell.Height property
 
 Returns the height of the cell. Read-only Double.

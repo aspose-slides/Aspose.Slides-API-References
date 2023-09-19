@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/fontsloader/loadexternalfonts/
 ---
+
 ## FontsLoader.LoadExternalFonts method
 
 Adds additional folders to seek fonts.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ithreedformateffectivedata/depth/
 ---
+
 ## IThreeDFormatEffectiveData.Depth property
 
 Returns the depth of a 3D shape. Read-only Double.

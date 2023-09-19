@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides.charts/chart/type/
 ---
+
 ## Chart.Type property
 
 Returns or sets the chart type. Read/write [`ChartType`](../../charttype).

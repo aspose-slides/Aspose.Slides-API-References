@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fontfallbackrulescollection/issynchronized/
 ---
+
 ## FontFallBackRulesCollection.IsSynchronized property
 
 Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean.

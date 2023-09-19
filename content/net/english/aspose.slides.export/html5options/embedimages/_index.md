@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/html5options/embedimages/
 ---
+
 ## Html5Options.EmbedImages property
 
 Returns or sets images embedding option. Read/write Boolean.

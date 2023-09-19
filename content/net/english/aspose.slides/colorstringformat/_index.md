@@ -3,9 +3,10 @@ title: ColorStringFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a type of hyperlink action.
 type: docs
-weight: 2440
+weight: 2450
 url: /aspose.slides/colorstringformat/
 ---
+
 ## ColorStringFormat enumeration
 
 Represents a type of hyperlink action.

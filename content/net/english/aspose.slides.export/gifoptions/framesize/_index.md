@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/gifoptions/framesize/
 ---
+
 ## GifOptions.FrameSize property
 
 Gets or sets frame size.

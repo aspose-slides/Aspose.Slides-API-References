@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/metered/getconsumptioncredit/
 ---
+
 ## Metered.GetConsumptionCredit method
 
 Gets consumption credit

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/imagetransformoperationfactory/createalphamodulatefixed/
 ---
+
 ## ImageTransformOperationFactory.CreateAlphaModulateFixed method
 
 Creates Alpha modulate fixed effect.

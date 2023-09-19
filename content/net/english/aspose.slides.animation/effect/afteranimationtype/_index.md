@@ -1,14 +1,15 @@
 ---
 title: AfterAnimationType
 second_title: Aspose.Sildes for .NET API Reference
-description: Defined an after animation type for effect. Read/write AfterAnimationTypeaspose.slides.animation/effect/afteranimationtype.
+description: Defines an after animation type for effect. Read/write AfterAnimationTypeaspose.slides.animation/effect/afteranimationtype.
 type: docs
 weight: 20
 url: /aspose.slides.animation/effect/afteranimationtype/
 ---
+
 ## Effect.AfterAnimationType property
 
-Defined an after animation type for effect. Read/write `AfterAnimationType`.
+Defines an after animation type for effect. Read/write `AfterAnimationType`.
 
 ```csharp
 public AfterAnimationType AfterAnimationType { get; set; }

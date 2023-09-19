@@ -3,9 +3,10 @@ title: Chart
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an graphic chart on a slide.
 type: docs
-weight: 1150
+weight: 1160
 url: /aspose.slides.charts/chart/
 ---
+
 ## Chart class
 
 Represents an graphic chart on a slide.

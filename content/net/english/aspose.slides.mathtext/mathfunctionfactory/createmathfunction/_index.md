@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathfunctionfactory/createmathfunction/
 ---
+
 ## CreateMathFunction(IMathElement, IMathElement) {#createmathfunction}
 
 Creates math function

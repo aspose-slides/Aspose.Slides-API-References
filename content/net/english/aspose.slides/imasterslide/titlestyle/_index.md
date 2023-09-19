@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/imasterslide/titlestyle/
 ---
+
 ## IMasterSlide.TitleStyle property
 
 Returns the style of a title text. Read-only [`ITextStyle`](../../itextstyle).

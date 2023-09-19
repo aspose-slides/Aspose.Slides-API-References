@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.smartart/smartart/isreversed/
 ---
+
 ## SmartArt.IsReversed property
 
 Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write Boolean.

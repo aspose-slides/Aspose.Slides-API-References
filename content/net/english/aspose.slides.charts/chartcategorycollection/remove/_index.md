@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/chartcategorycollection/remove/
 ---
+
 ## ChartCategoryCollection.Remove method
 
 Removes the specified value.

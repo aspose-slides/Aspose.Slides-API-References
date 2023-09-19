@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/audioframe/playloopmode/
 ---
+
 ## AudioFrame.PlayLoopMode property
 
 Determines whether an audio is looped. Read/write Boolean.

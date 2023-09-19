@@ -6,6 +6,7 @@ type: docs
 weight: 550
 url: /aspose.slides.animation/behaviorproperty/pptx/
 ---
+
 ## BehaviorProperty.PptX property
 
 Represents 'ppt_x' property

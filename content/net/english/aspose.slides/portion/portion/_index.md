@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/portion/portion/
 ---
+
 ## Portion() {#constructor}
 
 Initializes a new instance of the Portion class.

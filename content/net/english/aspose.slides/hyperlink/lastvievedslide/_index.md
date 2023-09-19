@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/hyperlink/lastvievedslide/
 ---
+
 ## Hyperlink.LastVievedSlide property
 
 Returns a hyperlink to the last viewed slide. Read-only [`Hyperlink`](../../hyperlink).

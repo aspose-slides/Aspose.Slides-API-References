@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ibackground/stylecolor/
 ---
+
 ## IBackground.StyleColor property
 
 Returns a ColorFormat for a BackgroundType.Themed fill. Read-only [`IColorFormat`](../../icolorformat).

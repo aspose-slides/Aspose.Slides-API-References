@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/effectfactory/imagetransformoperationfactory/
 ---
+
 ## EffectFactory.ImageTransformOperationFactory property
 
 Returns ImageTransformOperationFactory. Read-only [`IImageTransformOperationFactory`](../../iimagetransformoperationfactory).

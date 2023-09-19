@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/mathnaryoperator/superscript/
 ---
+
 ## MathNaryOperator.Superscript property
 
 Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit

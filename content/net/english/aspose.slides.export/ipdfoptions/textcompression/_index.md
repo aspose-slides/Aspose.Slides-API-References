@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.export/ipdfoptions/textcompression/
 ---
+
 ## IPdfOptions.TextCompression property
 
 Specifies compression type to be used for all textual content in the document. Read/write [`PdfTextCompression`](../../pdftextcompression).

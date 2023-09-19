@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/imotioneffect/path/
 ---
+
 ## IMotionEffect.Path property
 
 Specifies the path primitive followed by coordinates for the animation motion. Read/write [`IMotionPath`](../../imotionpath).

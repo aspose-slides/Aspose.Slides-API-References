@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/coloreffect/direction/
 ---
+
 ## ColorEffect.Direction property
 
 Specifies which direction to cycle the hue around the color wheel. Read/write [`ColorDirection`](../../colordirection).

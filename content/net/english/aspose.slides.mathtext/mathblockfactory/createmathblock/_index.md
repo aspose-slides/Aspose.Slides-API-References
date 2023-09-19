@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathblockfactory/createmathblock/
 ---
+
 ## CreateMathBlock() {#createmathblock}
 
 Create a math block

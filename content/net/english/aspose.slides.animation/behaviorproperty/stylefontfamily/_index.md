@@ -6,6 +6,7 @@ type: docs
 weight: 1060
 url: /aspose.slides.animation/behaviorproperty/stylefontfamily/
 ---
+
 ## BehaviorProperty.StyleFontFamily property
 
 Represents 'style.fontFamily' property

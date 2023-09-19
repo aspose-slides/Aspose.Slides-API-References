@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/irotationeffect/by/
 ---
+
 ## IRotationEffect.By property
 
 Describes the relative offset value for the animation. Read/write Single.

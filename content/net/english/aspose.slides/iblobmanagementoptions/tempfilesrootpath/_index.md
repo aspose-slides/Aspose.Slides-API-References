@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iblobmanagementoptions/tempfilesrootpath/
 ---
+
 ## IBlobManagementOptions.TempFilesRootPath property
 
 The root path where temporary files will be created. System temorary directory will be used by default. Hosting process should have permissions to create files and folders there.

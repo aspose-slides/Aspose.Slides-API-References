@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/iloadoptions/password/
 ---
+
 ## ILoadOptions.Password property
 
 Gets or sets the password. Read-write String.

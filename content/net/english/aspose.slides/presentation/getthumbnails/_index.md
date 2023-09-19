@@ -6,6 +6,7 @@ type: docs
 weight: 320
 url: /aspose.slides/presentation/getthumbnails/
 ---
+
 ## GetThumbnails(IRenderingOptions) {#getthumbnails_6}
 
 Returns a Thumbnail Bitmap objects for all slides of a presentation.

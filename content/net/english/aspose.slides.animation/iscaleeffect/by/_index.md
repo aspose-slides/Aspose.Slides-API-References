@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/iscaleeffect/by/
 ---
+
 ## IScaleEffect.By property
 
 describes the relative offset value for the animation (in percents). Read/write PointF.

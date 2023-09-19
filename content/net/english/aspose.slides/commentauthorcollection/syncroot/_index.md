@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/commentauthorcollection/syncroot/
 ---
+
 ## CommentAuthorCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

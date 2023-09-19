@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/itextframeformateffectivedata/wraptext/
 ---
+
 ## ITextFrameFormatEffectiveData.WrapText property
 
 Returns if text is wrapped at TextFrame's margins. Read-only Boolean.

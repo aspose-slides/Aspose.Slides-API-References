@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.charts/chartseriesgroup/updownbars/
 ---
+
 ## ChartSeriesGroup.UpDownBars property
 
 Provede access to up/down bars of Line- or Stock-chart. Read-only [`IUpDownBarsManager`](../../iupdownbarsmanager).

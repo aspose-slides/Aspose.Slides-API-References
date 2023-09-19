@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ispreadsheetoptions/recoverworkbookfromchartcache/
 ---
+
 ## ISpreadsheetOptions.RecoverWorkbookFromChartCache property
 
 If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache.

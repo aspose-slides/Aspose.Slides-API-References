@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.effects/outershadow/equals/
 ---
+
 ## OuterShadow.Equals method
 
 Determines whether the specified [`OuterShadow`](../../outershadow) is equal to the current [`OuterShadow`](../../outershadow).

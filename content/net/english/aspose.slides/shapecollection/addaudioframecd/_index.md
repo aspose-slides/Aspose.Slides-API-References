@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/shapecollection/addaudioframecd/
 ---
+
 ## ShapeCollection.AddAudioFrameCD method
 
 Adds an AudioFrame with CD to the end of collection.

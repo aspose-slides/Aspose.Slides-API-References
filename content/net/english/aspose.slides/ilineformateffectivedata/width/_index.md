@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/ilineformateffectivedata/width/
 ---
+
 ## ILineFormatEffectiveData.Width property
 
 Returns the width of a line. Read-only Double.

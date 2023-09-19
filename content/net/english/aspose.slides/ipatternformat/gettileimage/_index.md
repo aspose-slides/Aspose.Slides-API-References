@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ipatternformat/gettileimage/
 ---
+
 ## GetTileImage(Color, Color) {#gettileimage_1}
 
 Creates a tile image for the pattern fill with a specified colors.

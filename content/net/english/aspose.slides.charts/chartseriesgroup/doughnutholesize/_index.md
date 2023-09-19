@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/chartseriesgroup/doughnutholesize/
 ---
+
 ## ChartSeriesGroup.DoughnutHoleSize property
 
 Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write Byte.

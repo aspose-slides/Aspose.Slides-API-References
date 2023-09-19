@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ippimage/systemimage/
 ---
+
 ## IPPImage.SystemImage property
 
 Returns the copy of an image of the System.Drawing.Image type. Read-only Image.

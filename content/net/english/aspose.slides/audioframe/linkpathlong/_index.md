@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/audioframe/linkpathlong/
 ---
+
 ## AudioFrame.LinkPathLong property
 
 Returns or sets the name of an audio file which is linked to an AudioFrame. Read/write String.

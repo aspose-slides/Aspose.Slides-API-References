@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ilinefillformat/asifillparamsource/
 ---
+
 ## ILineFillFormat.AsIFillParamSource property
 
 Allows to get base IFillParamSource interface. Read-only [`IFillParamSource`](../../ifillparamsource).

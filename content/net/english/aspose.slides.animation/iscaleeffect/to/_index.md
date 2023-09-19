@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/iscaleeffect/to/
 ---
+
 ## IScaleEffect.To property
 
 Specifies the target location for an animation scale effect (in percents). Read/write PointF.

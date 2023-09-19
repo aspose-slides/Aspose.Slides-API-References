@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ipictureframelock/shapetypelocked/
 ---
+
 ## IPictureFrameLock.ShapeTypeLocked property
 
 Determines whether a changing of a shape type is forbidden. Read/write Boolean.

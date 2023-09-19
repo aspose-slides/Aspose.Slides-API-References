@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iadjustvaluecollection/asienumerable/
 ---
+
 ## IAdjustValueCollection.AsIEnumerable property
 
 Returns IEnumerable interface. Read-only IEnumerable.

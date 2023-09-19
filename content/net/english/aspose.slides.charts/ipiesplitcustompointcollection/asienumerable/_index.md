@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ipiesplitcustompointcollection/asienumerable/
 ---
+
 ## IPieSplitCustomPointCollection.AsIEnumerable property
 
 Returns IEnumerable interface.

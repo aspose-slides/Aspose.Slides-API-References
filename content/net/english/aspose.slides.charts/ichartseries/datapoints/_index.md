@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichartseries/datapoints/
 ---
+
 ## IChartSeries.DataPoints property
 
 Returns collection of data points of this series. Read-only [`IChartDataPointCollection`](../../ichartdatapointcollection).

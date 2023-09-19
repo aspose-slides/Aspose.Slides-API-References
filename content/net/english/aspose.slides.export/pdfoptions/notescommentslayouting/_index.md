@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.export/pdfoptions/notescommentslayouting/
 ---
+
 ## PdfOptions.NotesCommentsLayouting property
 
 Provides options that control how notes and comments is placed in exported document.

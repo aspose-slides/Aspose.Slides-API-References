@@ -3,9 +3,10 @@ title: IMathParagraph
 second_title: Aspose.Sildes for .NET API Reference
 description: Mathematical paragraph that is a container for mathematical blocks IMathBlock
 type: docs
-weight: 7810
+weight: 7820
 url: /aspose.slides.mathtext/imathparagraph/
 ---
+
 ## IMathParagraph interface
 
 Mathematical paragraph that is a container for mathematical blocks (IMathBlock)

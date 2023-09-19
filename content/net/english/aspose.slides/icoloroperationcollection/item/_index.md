@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icoloroperationcollection/item/
 ---
+
 ## IColorOperationCollection indexer
 
 Returns or sets the operation at the specified index. Read/write [`IColorOperation`](../../icoloroperation).

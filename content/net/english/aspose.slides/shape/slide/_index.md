@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides/shape/slide/
 ---
+
 ## Shape.Slide property
 
 Returns the parent slide of a shape. Read-only [`IBaseSlide`](../../ibaseslide).

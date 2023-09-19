@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/datatable/hasbordervertical/
 ---
+
 ## DataTable.HasBorderVertical property
 
 True if the chart data table has vertical cell borders. Read/write Boolean.

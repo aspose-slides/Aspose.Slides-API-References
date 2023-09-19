@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/fieldtype/footer/
 ---
+
 ## FieldType.Footer property
 
 Slide's footer. Read-only [`FieldType`](../../fieldtype).

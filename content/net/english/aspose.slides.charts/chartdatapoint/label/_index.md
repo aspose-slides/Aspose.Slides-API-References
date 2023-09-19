@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/chartdatapoint/label/
 ---
+
 ## ChartDataPoint.Label property
 
 Label. Read-only [`IDataLabel`](../../idatalabel).

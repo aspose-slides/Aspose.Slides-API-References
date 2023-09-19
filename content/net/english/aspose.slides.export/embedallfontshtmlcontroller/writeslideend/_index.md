@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/embedallfontshtmlcontroller/writeslideend/
 ---
+
 ## EmbedAllFontsHtmlController.WriteSlideEnd method
 
 Called to write html slide footer. Called once per each of slides.

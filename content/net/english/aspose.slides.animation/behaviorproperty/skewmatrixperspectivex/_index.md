@@ -6,6 +6,7 @@ type: docs
 weight: 770
 url: /aspose.slides.animation/behaviorproperty/skewmatrixperspectivex/
 ---
+
 ## BehaviorProperty.SkewMatrixPerspectiveX property
 
 Represents 'skew.matrix.perspectiveX' property

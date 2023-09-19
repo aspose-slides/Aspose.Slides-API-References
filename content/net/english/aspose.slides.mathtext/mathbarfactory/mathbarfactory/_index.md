@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathbarfactory/mathbarfactory/
 ---
+
 ## MathBarFactory constructor
 
 The default constructor.

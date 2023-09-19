@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.mathtext/imathelementcollection/copyto/
 ---
+
 ## IMathElementCollection.CopyTo method
 
 Copy to specified array.

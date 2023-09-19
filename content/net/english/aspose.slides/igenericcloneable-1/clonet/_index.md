@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/igenericcloneable-1/clonet/
 ---
+
 ## IGenericCloneable&lt;T&gt;.CloneT method
 
 Creates a new object that is a copy of the current instance.

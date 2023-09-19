@@ -3,9 +3,10 @@ title: GeometryShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the parent class for all geometric shapes.
 type: docs
-weight: 4640
+weight: 4650
 url: /aspose.slides/geometryshape/
 ---
+
 ## GeometryShape class
 
 Represents the parent class for all geometric shapes.

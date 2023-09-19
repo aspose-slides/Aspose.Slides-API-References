@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/formatfactory/formatfactory/
 ---
+
 ## FormatFactory constructor
 
 The default constructor.

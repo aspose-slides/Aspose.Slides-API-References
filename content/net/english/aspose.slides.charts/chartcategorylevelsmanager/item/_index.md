@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartcategorylevelsmanager/item/
 ---
+
 ## ChartCategoryLevelsManager indexer
 
 Returns IChartDataCell object for defined level.

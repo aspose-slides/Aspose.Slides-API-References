@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/lineformat/beginarrowheadstyle/
 ---
+
 ## LineFormat.BeginArrowheadStyle property
 
 Returns or sets the arrowhead style at the beginning of a line. Read/write [`LineArrowheadStyle`](../../linearrowheadstyle).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ppimage/width/
 ---
+
 ## PPImage.Width property
 
 Returns a width of an image. Read-only Int32.

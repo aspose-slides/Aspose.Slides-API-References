@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/matharray/maximumdistribution/
 ---
+
 ## MathArray.MaximumDistribution property
 
 Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.).

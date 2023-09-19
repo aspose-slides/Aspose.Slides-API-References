@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ishapestyle/fillcolor/
 ---
+
 ## IShapeStyle.FillColor property
 
 Returns a shape's fill color. Read-only [`IColorFormat`](../../icolorformat).

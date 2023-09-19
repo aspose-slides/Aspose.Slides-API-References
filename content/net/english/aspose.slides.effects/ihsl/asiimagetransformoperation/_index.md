@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/ihsl/asiimagetransformoperation/
 ---
+
 ## IHSL.AsIImageTransformOperation property
 
 Returns IImageTransformOperation interface. Read-only [`IImageTransformOperation`](../../iimagetransformoperation).

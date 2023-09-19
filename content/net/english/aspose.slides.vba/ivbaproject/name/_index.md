@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.vba/ivbaproject/name/
 ---
+
 ## IVbaProject.Name property
 
 Returns the name of the VBA project. Read-only String.

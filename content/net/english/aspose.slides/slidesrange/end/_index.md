@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/slidesrange/end/
 ---
+
 ## SlidesRange.End property
 
 End

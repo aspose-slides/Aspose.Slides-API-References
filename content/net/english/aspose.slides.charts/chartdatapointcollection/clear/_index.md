@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides.charts/chartdatapointcollection/clear/
 ---
+
 ## ChartDataPointCollection.Clear method
 
 Removes all elements from the collection.

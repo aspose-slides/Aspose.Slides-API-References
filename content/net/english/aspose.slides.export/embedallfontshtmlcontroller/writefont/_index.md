@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/embedallfontshtmlcontroller/writefont/
 ---
+
 ## EmbedAllFontsHtmlController.WriteFont method
 
 Writes data as base64 into HTML document itself

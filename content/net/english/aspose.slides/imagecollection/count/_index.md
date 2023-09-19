@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/imagecollection/count/
 ---
+
 ## ImageCollection.Count property
 
 Returns a number of images in the collection. Read-only Int32.

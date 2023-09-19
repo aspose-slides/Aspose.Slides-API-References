@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/legend/height/
 ---
+
 ## Legend.Height property
 
 Returns or sets the height of a legend as a fraction of the height of the chart. Read/write Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icustomxmlpart/namespaceschemas/
 ---
+
 ## ICustomXmlPart.NamespaceSchemas property
 
 Returns the collection XML schemas that are associated with the custom XML part. Read-only String[].

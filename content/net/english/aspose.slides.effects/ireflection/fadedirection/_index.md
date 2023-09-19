@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.effects/ireflection/fadedirection/
 ---
+
 ## IReflection.FadeDirection property
 
 Specifies the direction to offset the reflection. (angle). Read/write Single.

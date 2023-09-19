@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/icell/width/
 ---
+
 ## ICell.Width property
 
 Returns the width of the cell. Read-only Double.

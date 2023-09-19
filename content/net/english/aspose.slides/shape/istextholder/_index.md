@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/shape/istextholder/
 ---
+
 ## Shape.IsTextHolder property
 
 Determines whether the shape is TextHolder_PPT. Read-only Boolean.

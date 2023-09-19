@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/icolorchangeeffectivedata/usealpha/
 ---
+
 ## IColorChangeEffectiveData.UseAlpha property
 
 Returns a boolean value which determines if alpha component should be used. Read-only Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/shapecollection/addaudioframelinked/
 ---
+
 ## ShapeCollection.AddAudioFrameLinked method
 
 Adds a new audio frame with linked audio file to the end of a collection.

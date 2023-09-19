@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/optionalblacktransition/fromblack/
 ---
+
 ## OptionalBlackTransition.FromBlack property
 
 This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write Boolean.

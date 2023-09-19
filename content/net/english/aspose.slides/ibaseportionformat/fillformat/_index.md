@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ibaseportionformat/fillformat/
 ---
+
 ## IBasePortionFormat.FillFormat property
 
 Returns the text FillFormat properties. No inheritance applied. Read-only [`IFillFormat`](../../ifillformat).

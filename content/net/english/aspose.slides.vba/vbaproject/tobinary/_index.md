@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.vba/vbaproject/tobinary/
 ---
+
 ## VbaProject.ToBinary method
 
 Returns the binary representation of the VBA project as OLE container

@@ -3,9 +3,10 @@ title: StringOrDoubleChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent string or double value which can be stored in pptx presentation document in two ways 1 in cell/cells of workbook related to chart 2 as literal value.
 type: docs
-weight: 2310
+weight: 2320
 url: /aspose.slides.charts/stringordoublechartvalue/
 ---
+
 ## StringOrDoubleChartValue class
 
 Represent string or double value which can be stored in pptx presentation document in two ways: 1) in cell/cells of workbook related to chart; 2) as literal value.

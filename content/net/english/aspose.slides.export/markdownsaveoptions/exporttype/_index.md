@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/markdownsaveoptions/exporttype/
 ---
+
 ## MarkdownSaveOptions.ExportType property
 
 Specifies markdown specification to convert presentation. Default is `TextOnly`.

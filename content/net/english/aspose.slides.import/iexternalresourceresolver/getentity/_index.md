@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.import/iexternalresourceresolver/getentity/
 ---
+
 ## IExternalResourceResolver.GetEntity method
 
 Maps a URI to an object containing the actual resource.

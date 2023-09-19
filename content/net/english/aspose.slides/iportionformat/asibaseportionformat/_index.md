@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iportionformat/asibaseportionformat/
 ---
+
 ## IPortionFormat.AsIBasePortionFormat property
 
 Returns IBasePortionFormat interface. Read-only [`IBasePortionFormat`](../../ibaseportionformat).

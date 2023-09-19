@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/chartdatapointcollection/adddatapointforbubbleseries/
 ---
+
 ## AddDataPointForBubbleSeries(IChartDataCell, IChartDataCell, IChartDataCell) {#adddatapointforbubbleseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also [`IsChartTypeBubble`](../../charttypecharacterizer/ischarttypebubble) method).

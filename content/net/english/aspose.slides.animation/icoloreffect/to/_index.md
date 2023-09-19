@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.animation/icoloreffect/to/
 ---
+
 ## IColorEffect.To property
 
 Describes resulting color for the animation color change. Read/write [`IColorFormat`](../../../aspose.slides/icolorformat).

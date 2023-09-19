@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/icolorreplaceeffectivedata/color/
 ---
+
 ## IColorReplaceEffectiveData.Color property
 
 Returns color format which will replace color of every pixel. Read-only Color.

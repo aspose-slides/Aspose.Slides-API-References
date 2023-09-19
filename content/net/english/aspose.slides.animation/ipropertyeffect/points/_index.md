@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/ipropertyeffect/points/
 ---
+
 ## IPropertyEffect.Points property
 
 Specifies the points of the animation. Read/write [`IPointCollection`](../../ipointcollection).

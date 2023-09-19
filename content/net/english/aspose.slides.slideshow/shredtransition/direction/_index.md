@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/shredtransition/direction/
 ---
+
 ## ShredTransition.Direction property
 
 Direction of transition. Read/write [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).

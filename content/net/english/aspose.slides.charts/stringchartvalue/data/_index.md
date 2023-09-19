@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/stringchartvalue/data/
 ---
+
 ## StringChartValue.Data property
 
 Returns or sets Data object. Read/write Object.

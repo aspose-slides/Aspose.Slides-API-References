@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/ichartdata/datasourcetype/
 ---
+
 ## IChartData.DataSourceType property
 
 Represents data source of the chart

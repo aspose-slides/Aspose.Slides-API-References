@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/cellcollection/item/
 ---
+
 ## CellCollection indexer
 
 Returns a cell by it's position. Read-only [`Cell`](../../cell).

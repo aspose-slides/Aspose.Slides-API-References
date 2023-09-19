@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/itextframeformateffectivedata/marginright/
 ---
+
 ## ITextFrameFormatEffectiveData.MarginRight property
 
 Returns the right margin (points) in a TextFrame. Read-only Double.

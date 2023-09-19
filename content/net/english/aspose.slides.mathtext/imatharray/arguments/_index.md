@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imatharray/arguments/
 ---
+
 ## IMathArray.Arguments property
 
 The set of items of the array

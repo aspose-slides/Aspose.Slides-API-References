@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/imathmatrix/rowcount/
 ---
+
 ## IMathMatrix.RowCount property
 
 Number of rows in the matrix

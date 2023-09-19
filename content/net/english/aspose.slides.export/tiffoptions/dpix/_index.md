@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/tiffoptions/dpix/
 ---
+
 ## TiffOptions.DpiX property
 
 Specifies the horizontal resolution in dots per inch. Read/write UInt32.

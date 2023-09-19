@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/softedge/geteffective/
 ---
+
 ## SoftEdge.GetEffective method
 
 Gets effective Soft Edge effect data with the inheritance applied.

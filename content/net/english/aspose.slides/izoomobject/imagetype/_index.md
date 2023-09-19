@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/izoomobject/imagetype/
 ---
+
 ## IZoomObject.ImageType property
 
 Gets or sets the image type of a zoom object. Read/write [`ZoomImageType`](../../zoomimagetype). Default value: Preview

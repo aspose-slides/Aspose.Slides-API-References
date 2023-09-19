@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/chartseriesgroup/overlap/
 ---
+
 ## ChartSeriesGroup.Overlap property
 
 Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write SByte.

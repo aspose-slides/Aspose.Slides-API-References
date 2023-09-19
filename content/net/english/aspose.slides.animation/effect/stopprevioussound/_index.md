@@ -3,9 +3,10 @@ title: StopPreviousSound
 second_title: Aspose.Sildes for .NET API Reference
 description: This attribute specifies if the animation effect stops the previous sound. Read/write Boolean.
 type: docs
-weight: 70
+weight: 90
 url: /aspose.slides.animation/effect/stopprevioussound/
 ---
+
 ## Effect.StopPreviousSound property
 
 This attribute specifies if the animation effect stops the previous sound. Read/write Boolean.

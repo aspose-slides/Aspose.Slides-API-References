@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/imathblock/delimit/
 ---
+
 ## IMathBlock.Delimit method
 
 Delimits all child elements with separator character (without the brackets)

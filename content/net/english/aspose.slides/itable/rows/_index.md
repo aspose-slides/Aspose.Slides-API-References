@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/itable/rows/
 ---
+
 ## ITable.Rows property
 
 Returns the collectoin of rows. Read-only [`IRowCollection`](../../irowcollection).

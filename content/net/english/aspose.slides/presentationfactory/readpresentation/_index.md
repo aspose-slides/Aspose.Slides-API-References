@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/presentationfactory/readpresentation/
 ---
+
 ## ReadPresentation(byte[]) {#readpresentation}
 
 Reads an existing presentation from array

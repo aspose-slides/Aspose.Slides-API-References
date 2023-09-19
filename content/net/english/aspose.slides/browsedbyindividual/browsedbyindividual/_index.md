@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/browsedbyindividual/browsedbyindividual/
 ---
+
 ## BrowsedByIndividual constructor
 
 Initializes a new instance of the BrowsedByIndividual class.

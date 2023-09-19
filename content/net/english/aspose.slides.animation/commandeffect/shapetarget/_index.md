@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/commandeffect/shapetarget/
 ---
+
 ## CommandEffect.ShapeTarget property
 
 Defines shape target of command effect. Read/write [`IShape`](../../../aspose.slides/ishape).

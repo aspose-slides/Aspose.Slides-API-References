@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/effectstylecollection/syncroot/
 ---
+
 ## EffectStyleCollection.SyncRoot property
 
 Returns a synchronization root. Read-only Object.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/control/properties/
 ---
+
 ## Control.Properties property
 
 Returns a collection of ActiveX properties. Note: Aspose.Slides supports only XML based ActiveX properties. If properties stored in binary format, this property will return null. Read-only [`IControlPropertiesCollection`](../../icontrolpropertiescollection).

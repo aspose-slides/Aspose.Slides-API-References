@@ -3,9 +3,10 @@ title: CellCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of cells.
 type: docs
-weight: 1030
+weight: 1040
 url: /aspose.slides/cellcollection/
 ---
+
 ## CellCollection class
 
 Represents a collection of cells.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/itrendlinecollection/add/
 ---
+
 ## ITrendlineCollection.Add method
 
 Adds the new Trendline at the end of a collection and return it.

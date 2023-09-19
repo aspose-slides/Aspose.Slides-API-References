@@ -3,9 +3,10 @@ title: BrowsedAtKiosk
 second_title: Aspose.Sildes for .NET API Reference
 description: Browsed at a kiosk full screen
 type: docs
-weight: 950
+weight: 960
 url: /aspose.slides/browsedatkiosk/
 ---
+
 ## BrowsedAtKiosk class
 
 Browsed at a kiosk (full screen)

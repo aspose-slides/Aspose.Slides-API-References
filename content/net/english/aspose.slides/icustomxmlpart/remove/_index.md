@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/icustomxmlpart/remove/
 ---
+
 ## ICustomXmlPart.Remove method
 
 Removes the custom xml part from the presentation.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iparagraphformat/defaulttabsize/
 ---
+
 ## IParagraphFormat.DefaultTabSize property
 
 Returns or sets default tabulation size with no inheritance. Read/write Single.

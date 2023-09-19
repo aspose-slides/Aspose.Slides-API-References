@@ -6,6 +6,7 @@ type: docs
 weight: 1070
 url: /aspose.slides.animation/behaviorproperty/stylefontsize/
 ---
+
 ## BehaviorProperty.StyleFontSize property
 
 Represents 'style.fontSize' property

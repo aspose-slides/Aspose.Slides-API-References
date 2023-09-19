@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.warnings/iwarninginfo/description/
 ---
+
 ## IWarningInfo.Description property
 
 Returns a human readable description of this warning. Read-only String.

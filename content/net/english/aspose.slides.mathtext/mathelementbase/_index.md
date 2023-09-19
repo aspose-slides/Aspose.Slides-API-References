@@ -3,9 +3,10 @@ title: MathElementBase
 second_title: Aspose.Sildes for .NET API Reference
 description: Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be IMathElement.
 type: docs
-weight: 8090
+weight: 8100
 url: /aspose.slides.mathtext/mathelementbase/
 ---
+
 ## MathElementBase class
 
 Base class for IMathElement with the implementation of some methods that are common to all inherited classes For internal use only. Inherited class must be IMathElement.

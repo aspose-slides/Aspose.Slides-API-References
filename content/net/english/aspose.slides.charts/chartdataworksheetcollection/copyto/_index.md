@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chartdataworksheetcollection/copyto/
 ---
+
 ## ChartDataWorksheetCollection.CopyTo method
 
 Copy to specified array.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ilineformateffectivedata/customdashpattern/
 ---
+
 ## ILineFormatEffectiveData.CustomDashPattern property
 
 Returns the custom dash pattern. Read-only Single[].

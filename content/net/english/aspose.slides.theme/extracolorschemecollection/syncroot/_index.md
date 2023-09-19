@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/extracolorschemecollection/syncroot/
 ---
+
 ## ExtraColorSchemeCollection.SyncRoot property
 
 Returns an object that can be used to synchronize access to the collection. Read-only Object.

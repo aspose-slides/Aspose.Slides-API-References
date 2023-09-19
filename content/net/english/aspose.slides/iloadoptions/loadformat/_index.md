@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/iloadoptions/loadformat/
 ---
+
 ## ILoadOptions.LoadFormat property
 
 Returns or sets format of a presentation to load. Read/write [`LoadFormat`](../../loadformat).

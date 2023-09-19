@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/geometrypath/lineto/
 ---
+
 ## LineTo(PointF) {#lineto_2}
 
 Adds line to the end of the path

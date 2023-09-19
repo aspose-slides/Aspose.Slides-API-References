@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/
 ---
+
 Contains classes for work with Microsoft PowerPoint presentations without utilizing Microsoft PowerPoint.
 
 ## Classes

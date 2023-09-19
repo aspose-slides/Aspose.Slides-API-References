@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/layoutslide/getdependingslides/
 ---
+
 ## LayoutSlide.GetDependingSlides method
 
 Returns an array with all slides, which depend on this layout slide.

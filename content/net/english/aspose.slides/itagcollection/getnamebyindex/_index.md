@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/itagcollection/getnamebyindex/
 ---
+
 ## ITagCollection.GetNameByIndex method
 
 Returns key of a tag at the specified index.

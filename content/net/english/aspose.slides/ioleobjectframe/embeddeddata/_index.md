@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ioleobjectframe/embeddeddata/
 ---
+
 ## IOleObjectFrame.EmbeddedData property
 
 Gets information about OLE embedded data. Read only [`IOleEmbeddedDataInfo`](../../ioleembeddeddatainfo).

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/fontfallbackrule/rangestartindex/
 ---
+
 ## FontFallBackRule.RangeStartIndex property
 
 Get first index of continuous unicode range.

@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.effects/iimagetransformoperationcollection/addcolorchangeeffect/
 ---
+
 ## IImageTransformOperationCollection.AddColorChangeEffect method
 
 Adds the new Color Change effect to the end of a collection.

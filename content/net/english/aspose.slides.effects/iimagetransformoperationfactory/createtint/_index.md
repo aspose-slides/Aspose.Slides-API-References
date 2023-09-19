@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.effects/iimagetransformoperationfactory/createtint/
 ---
+
 ## IImageTransformOperationFactory.CreateTint method
 
 Creates Tint effect.

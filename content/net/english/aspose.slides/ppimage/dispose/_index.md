@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ppimage/dispose/
 ---
+
 ## PPImage.Dispose method
 
 Disposes object.

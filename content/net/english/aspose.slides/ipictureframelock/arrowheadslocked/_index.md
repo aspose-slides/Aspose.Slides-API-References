@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipictureframelock/arrowheadslocked/
 ---
+
 ## IPictureFrameLock.ArrowheadsLocked property
 
 Determines whether a changing arrowheads is forbidden. Read/write Boolean.

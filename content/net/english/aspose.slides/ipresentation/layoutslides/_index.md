@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides/ipresentation/layoutslides/
 ---
+
 ## IPresentation.LayoutSlides property
 
 Returns a list of all layout slides that are defined in the presentation. Read-only [`IGlobalLayoutSlideCollection`](../../igloballayoutslidecollection).

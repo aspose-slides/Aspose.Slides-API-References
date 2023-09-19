@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/vbareferenceoletypelib/vbareferenceoletypelib/
 ---
+
 ## VbaReferenceOleTypeLib constructor
 
 This constructor creates new OLE Automation type library reference.

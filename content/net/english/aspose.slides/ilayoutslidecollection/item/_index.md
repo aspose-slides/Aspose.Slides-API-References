@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ilayoutslidecollection/item/
 ---
+
 ## ILayoutSlideCollection indexer
 
 Returns the layout slide by index. Read-only [`ILayoutSlide`](../../ilayoutslide).

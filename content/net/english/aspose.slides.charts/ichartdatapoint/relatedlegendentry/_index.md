@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/ichartdatapoint/relatedlegendentry/
 ---
+
 ## IChartDataPoint.RelatedLegendEntry property
 
 Properties of corresponding legend entry in case of chart type from this list: ChartType.BarOfPie, ChartType.ExplodedPie, ChartType.ExplodedPie3D, ChartType.Pie, ChartType.Pie3D, ChartType.PieOfPie. Read-only [`ILegendEntryProperties`](../../ilegendentryproperties).

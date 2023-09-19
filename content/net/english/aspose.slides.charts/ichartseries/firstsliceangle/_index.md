@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/ichartseries/firstsliceangle/
 ---
+
 ## IChartSeries.FirstSliceAngle property
 
 Specifies the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.FirstSliceAngle read/write property for change value. Read-only UInt16.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/chartseries/errorbarsxformat/
 ---
+
 ## ChartSeries.ErrorBarsXFormat property
 
 Represents ErrorBars of series with derection X.  ErrorBars with X direction are avalible for series of type area, bar, scatter and bubble. For any other types of chart this property returns null (including 3D charts). In case of custom values use DataPoints collection to specify value (with [`ErrorBarsCustomValues`](../../ichartdatapoint/errorbarscustomvalues) property).  Read-only [`IErrorBarsFormat`](../../ierrorbarsformat).

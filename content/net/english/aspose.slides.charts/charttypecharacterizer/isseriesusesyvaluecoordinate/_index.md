@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.charts/charttypecharacterizer/isseriesusesyvaluecoordinate/
 ---
+
 ## ChartTypeCharacterizer.IsSeriesUsesYValueCoordinate method
 
 Returns if specified series type uses Y value coordinates.

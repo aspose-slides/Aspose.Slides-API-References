@@ -3,9 +3,10 @@ title: ColorEffect
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a color effect for an animation behavior.
 type: docs
-weight: 140
+weight: 150
 url: /aspose.slides.animation/coloreffect/
 ---
+
 ## ColorEffect class
 
 Represents a color effect for an animation behavior.

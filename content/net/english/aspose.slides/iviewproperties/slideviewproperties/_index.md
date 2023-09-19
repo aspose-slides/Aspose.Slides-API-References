@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/iviewproperties/slideviewproperties/
 ---
+
 ## IViewProperties.SlideViewProperties property
 
 Specifies common view properties associated with the slide view mode. Read-only [`ICommonSlideViewProperties`](../../icommonslideviewproperties).

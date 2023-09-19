@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icommentauthorcollection/item/
 ---
+
 ## ICommentAuthorCollection indexer
 
 Gets the element at the specified index. Read-only [`ICommentAuthor`](../../icommentauthor).

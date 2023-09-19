@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/islidecollection/addclone/
 ---
+
 ## AddClone(ISlide) {#addclone}
 
 Adds a copy of a specified slide to the end of the collection.

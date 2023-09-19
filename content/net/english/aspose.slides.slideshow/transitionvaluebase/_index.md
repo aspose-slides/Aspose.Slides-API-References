@@ -3,9 +3,10 @@ title: TransitionValueBase
 second_title: Aspose.Sildes for .NET API Reference
 description: Base class for slide transition effects.
 type: docs
-weight: 9810
+weight: 9820
 url: /aspose.slides.slideshow/transitionvaluebase/
 ---
+
 ## TransitionValueBase class
 
 Base class for slide transition effects.

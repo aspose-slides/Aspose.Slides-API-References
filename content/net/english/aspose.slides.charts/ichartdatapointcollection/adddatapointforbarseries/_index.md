@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/ichartdatapointcollection/adddatapointforbarseries/
 ---
+
 ## AddDataPointForBarSeries(IChartDataCell) {#adddatapointforbarseries}
 
 Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer.IsChartTypeColumn(ChartType) and ChartTypeCharacterizer.IsChartTypeBar(ChartType) method).

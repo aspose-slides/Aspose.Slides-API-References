@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.effects/ireflection/startposalpha/
 ---
+
 ## IReflection.StartPosAlpha property
 
 Specifies the start position (along the alpha gradient ramp) of the start alpha value (percents). Read/write Single.

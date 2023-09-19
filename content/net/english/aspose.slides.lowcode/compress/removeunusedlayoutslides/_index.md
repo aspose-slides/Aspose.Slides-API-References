@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.lowcode/compress/removeunusedlayoutslides/
 ---
+
 ## Compress.RemoveUnusedLayoutSlides method
 
 Makes compression of the [`Presentation`](../../../aspose.slides/presentation) by removing unused layout slides.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.effects/imagetransformocollectioneffectivedata/equals/
 ---
+
 ## ImageTransformOCollectionEffectiveData.Equals method
 
 Determines whether the specified object is equal to the current object.

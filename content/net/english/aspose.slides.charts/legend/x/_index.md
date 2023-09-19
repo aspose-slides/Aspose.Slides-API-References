@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.charts/legend/x/
 ---
+
 ## Legend.X property
 
 Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write Single.

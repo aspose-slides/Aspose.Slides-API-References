@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathmatrix/mathmatrix/
 ---
+
 ## MathMatrix constructor
 
 Initializes a new instance of the MathMatrix class.

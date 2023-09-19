@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iloadoptions/defaultregularfont/
 ---
+
 ## ILoadOptions.DefaultRegularFont property
 
 Returns or sets Regular font used in case source font is not found. Read-write String.

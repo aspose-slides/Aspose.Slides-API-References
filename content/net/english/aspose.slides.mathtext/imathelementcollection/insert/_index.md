@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/imathelementcollection/insert/
 ---
+
 ## IMathElementCollection.Insert method
 
 Inserts a math element into the collection at the specified index.

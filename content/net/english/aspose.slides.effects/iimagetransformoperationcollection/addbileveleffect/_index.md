@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.effects/iimagetransformoperationcollection/addbileveleffect/
 ---
+
 ## IImageTransformOperationCollection.AddBiLevelEffect method
 
 Adds the new Bi-Level (black/white) effect to the end of a collection.

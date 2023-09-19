@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/fontsubstrule/replacefontcondition/
 ---
+
 ## FontSubstRule.ReplaceFontCondition property
 
 Rule to apply for substitution. Read-only [`FontSubstCondition`](../../fontsubstcondition).

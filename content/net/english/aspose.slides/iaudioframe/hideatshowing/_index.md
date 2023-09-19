@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/iaudioframe/hideatshowing/
 ---
+
 ## IAudioFrame.HideAtShowing property
 
 Determines whether an AudioFrame is hidden. Read/write Boolean.

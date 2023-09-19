@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ipresentationfactory/getpresentationinfo/
 ---
+
 ## GetPresentationInfo(string) {#getpresentationinfo_1}
 
 Gets info about presentation in specified file.

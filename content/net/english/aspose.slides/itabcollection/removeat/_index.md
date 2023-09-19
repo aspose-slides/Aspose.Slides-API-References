@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/itabcollection/removeat/
 ---
+
 ## ITabCollection.RemoveAt method
 
 Removes the element at the specified index of the collection.

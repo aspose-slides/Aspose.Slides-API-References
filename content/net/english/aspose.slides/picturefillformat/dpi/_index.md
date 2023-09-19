@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/picturefillformat/dpi/
 ---
+
 ## PictureFillFormat.Dpi property
 
 Returns or sets the dpi which is used to fill a picture. Read/write Int32.

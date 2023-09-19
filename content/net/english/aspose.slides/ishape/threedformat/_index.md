@@ -6,6 +6,7 @@ type: docs
 weight: 230
 url: /aspose.slides/ishape/threedformat/
 ---
+
 ## IShape.ThreeDFormat property
 
 Returns the ThreeDFormat object that contains line formatting properties for a shape. Read-only [`IThreeDFormat`](../../ithreedformat).

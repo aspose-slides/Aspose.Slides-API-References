@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ifontsmanager/removeembeddedfont/
 ---
+
 ## IFontsManager.RemoveEmbeddedFont method
 
 Removes the embedded font

@@ -6,6 +6,7 @@ type: docs
 weight: 290
 url: /aspose.slides.charts/chartdatapointcollection/getenumerator/
 ---
+
 ## ChartDataPointCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

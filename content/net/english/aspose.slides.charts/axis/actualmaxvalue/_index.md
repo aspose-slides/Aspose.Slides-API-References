@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/axis/actualmaxvalue/
 ---
+
 ## Axis.ActualMaxValue property
 
 Specifies actual maximum value on the axis. Call method IChart.ValidateChartLayout() previously to get actual value.

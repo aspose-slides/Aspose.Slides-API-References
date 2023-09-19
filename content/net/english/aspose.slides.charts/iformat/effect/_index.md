@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/iformat/effect/
 ---
+
 ## IFormat.Effect property
 
 Returns effects used for a chart. Read-only [`IEffectFormat`](../../../aspose.slides/ieffectformat).

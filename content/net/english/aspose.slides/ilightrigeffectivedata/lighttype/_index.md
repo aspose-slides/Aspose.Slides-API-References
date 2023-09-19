@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ilightrigeffectivedata/lighttype/
 ---
+
 ## ILightRigEffectiveData.LightType property
 
 Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read-only [`LightRigPresetType`](../../lightrigpresettype).

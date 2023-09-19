@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/alphareplace/equals/
 ---
+
 ## AlphaReplace.Equals method
 
 Determines whether the specified [`AlphaReplace`](../../alphareplace) is equal to the current [`AlphaReplace`](../../alphareplace).

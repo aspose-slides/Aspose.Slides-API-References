@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ieffectformat/innershadoweffect/
 ---
+
 ## IEffectFormat.InnerShadowEffect property
 
 Inner shadow. Read/write [`IInnerShadow`](../../../aspose.slides.effects/iinnershadow).

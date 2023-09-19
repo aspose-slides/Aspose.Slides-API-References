@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/colorformat/hue/
 ---
+
 ## ColorFormat.Hue property
 
 Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write Single.

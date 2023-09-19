@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/ichartdatapoint/isbubble3d/
 ---
+
 ## IChartDataPoint.IsBubble3D property
 
 Specifies that the bubbles have a 3-D effect applied to them. Read/write Boolean.

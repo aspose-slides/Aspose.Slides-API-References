@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/imathnaryoperator/superscript/
 ---
+
 ## IMathNaryOperator.Superscript property
 
 Specifies a supersript argument that, for example, in the case of an integral, sets the upper limit

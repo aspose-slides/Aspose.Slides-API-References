@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathfractionfactory/createmathfraction/
 ---
+
 ## CreateMathFraction(IMathElement, IMathElement, MathFractionTypes) {#createmathfraction_1}
 
 Creates a math fraction

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartdatapointlevelsmanager/count/
 ---
+
 ## IChartDataPointLevelsManager.Count property
 
 Returns data point levels count.

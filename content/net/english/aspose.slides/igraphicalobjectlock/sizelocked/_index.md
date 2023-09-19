@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/igraphicalobjectlock/sizelocked/
 ---
+
 ## IGraphicalObjectLock.SizeLocked property
 
 Determines whether resizing this shape is forbidden. Read/write Boolean.

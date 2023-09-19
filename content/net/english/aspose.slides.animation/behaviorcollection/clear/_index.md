@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/behaviorcollection/clear/
 ---
+
 ## BehaviorCollection.Clear method
 
 Removes all behaviors from a collection.

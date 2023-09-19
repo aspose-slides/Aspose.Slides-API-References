@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/masterslidecollection/issynchronized/
 ---
+
 ## MasterSlideCollection.IsSynchronized property
 
 Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean.

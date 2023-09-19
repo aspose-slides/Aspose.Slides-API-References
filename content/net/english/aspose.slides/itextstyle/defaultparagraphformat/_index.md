@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/itextstyle/defaultparagraphformat/
 ---
+
 ## ITextStyle.DefaultParagraphFormat property
 
 Default paragraph propertiies. Read-only [`IParagraphFormat`](../../iparagraphformat).

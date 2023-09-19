@@ -6,6 +6,7 @@ type: docs
 weight: 1050
 url: /aspose.slides.animation/behaviorproperty/stylecolor/
 ---
+
 ## BehaviorProperty.StyleColor property
 
 Represents 'style.color' property

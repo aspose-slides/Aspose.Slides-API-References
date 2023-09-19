@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/ilineformat/equals/
 ---
+
 ## ILineFormat.Equals method
 
 Determines whether the two LineFormat instances are equal.

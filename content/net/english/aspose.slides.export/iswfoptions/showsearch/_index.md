@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.export/iswfoptions/showsearch/
 ---
+
 ## ISwfOptions.ShowSearch property
 
 Show/hide search section. Can be overridden in flashvars. Default is true.

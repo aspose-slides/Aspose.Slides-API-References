@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export/markdownsaveoptions/basepath/
 ---
+
 ## MarkdownSaveOptions.BasePath property
 
 Specifies the base path where document with resources will be saved. Default is the current directory of the application.

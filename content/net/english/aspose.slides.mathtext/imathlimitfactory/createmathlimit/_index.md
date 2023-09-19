@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathlimitfactory/createmathlimit/
 ---
+
 ## CreateMathLimit(IMathElement, IMathElement, bool) {#createmathlimit_1}
 
 Creates IMathLimit

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/background/slide/
 ---
+
 ## Background.Slide property
 
 Returns the parent slide of a shape. Read-only [`IBaseSlide`](../../ibaseslide).

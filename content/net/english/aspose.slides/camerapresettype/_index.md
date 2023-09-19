@@ -3,9 +3,10 @@ title: CameraPresetType
 second_title: Aspose.Sildes for .NET API Reference
 description: Constants which define camera preset type.
 type: docs
-weight: 1010
+weight: 1020
 url: /aspose.slides/camerapresettype/
 ---
+
 ## CameraPresetType enumeration
 
 Constants which define camera preset type.

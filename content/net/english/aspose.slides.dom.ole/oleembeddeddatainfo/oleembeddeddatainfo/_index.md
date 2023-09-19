@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.dom.ole/oleembeddeddatainfo/oleembeddeddatainfo/
 ---
+
 ## OleEmbeddedDataInfo() {#constructor}
 
 Creates new embedded data info for OLE object.

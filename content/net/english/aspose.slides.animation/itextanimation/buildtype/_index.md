@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/itextanimation/buildtype/
 ---
+
 ## ITextAnimation.BuildType property
 
 List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write `BuildType`.

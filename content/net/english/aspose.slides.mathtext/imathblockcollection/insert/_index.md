@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/imathblockcollection/insert/
 ---
+
 ## IMathBlockCollection.Insert method
 
 Inserts IMathBlock into the collection at the specified index.

@@ -6,6 +6,7 @@ type: docs
 weight: 840
 url: /aspose.slides.animation/behaviorproperty/skewoffsety/
 ---
+
 ## BehaviorProperty.SkewOffsetY property
 
 Represents 'skew.offset.y' property

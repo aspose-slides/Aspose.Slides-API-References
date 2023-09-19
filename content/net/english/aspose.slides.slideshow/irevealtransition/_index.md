@@ -3,9 +3,10 @@ title: IRevealTransition
 second_title: Aspose.Sildes for .NET API Reference
 description: Reveal slide transition effect.
 type: docs
-weight: 9510
+weight: 9520
 url: /aspose.slides.slideshow/irevealtransition/
 ---
+
 ## IRevealTransition interface
 
 Reveal slide transition effect.

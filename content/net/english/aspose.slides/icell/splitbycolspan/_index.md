@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/icell/splitbycolspan/
 ---
+
 ## ICell.SplitByColSpan method
 
 Splits the cell to two cells by index of column.

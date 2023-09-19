@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ishapeframe/rectangle/
 ---
+
 ## IShapeFrame.Rectangle property
 
 Returns the coordinates of a frame. Read-only RectangleF.

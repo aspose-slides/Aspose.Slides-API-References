@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/slide/getslidecomments/
 ---
+
 ## Slide.GetSlideComments method
 
 Returns all slide comments added by specific author.

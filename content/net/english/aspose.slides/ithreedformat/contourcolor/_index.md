@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ithreedformat/contourcolor/
 ---
+
 ## IThreeDFormat.ContourColor property
 
 Returns or sets the color of a contour. Read-only [`IColorFormat`](../../icolorformat).

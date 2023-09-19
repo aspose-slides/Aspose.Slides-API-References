@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ierrorbarsformat/format/
 ---
+
 ## IErrorBarsFormat.Format property
 
 Represents the format of the error bars. Read/write [`IFormat`](../../iformat).

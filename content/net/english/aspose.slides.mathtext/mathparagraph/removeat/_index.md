@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.mathtext/mathparagraph/removeat/
 ---
+
 ## MathParagraph.RemoveAt method
 
 Removes an item at the specified index of the collection.

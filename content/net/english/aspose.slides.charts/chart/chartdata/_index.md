@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/chart/chartdata/
 ---
+
 ## Chart.ChartData property
 
 Returns information about the linked or embedded data associated with a chart. Read-only [`IChartData`](../../ichartdata).

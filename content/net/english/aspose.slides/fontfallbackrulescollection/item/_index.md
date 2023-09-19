@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/fontfallbackrulescollection/item/
 ---
+
 ## FontFallBackRulesCollection indexer
 
 Gets the rule at the specified index. Read-only [`IFontFallBackRule`](../../ifontfallbackrule).

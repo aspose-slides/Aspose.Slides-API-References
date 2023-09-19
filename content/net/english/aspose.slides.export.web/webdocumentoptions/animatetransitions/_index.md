@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export.web/webdocumentoptions/animatetransitions/
 ---
+
 ## WebDocumentOptions.AnimateTransitions property
 
 Returns or sets transitions animation option. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/idatatable/hasborderoutline/
 ---
+
 ## IDataTable.HasBorderOutline property
 
 True if the chart data table has outline borders. Read/write Boolean.

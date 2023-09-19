@@ -6,6 +6,7 @@ type: docs
 weight: 640
 url: /aspose.slides.animation/behaviorproperty/shadowmatrixxtox/
 ---
+
 ## BehaviorProperty.ShadowMatrixXtoX property
 
 Represents 'shadow.matrix.xtox' property

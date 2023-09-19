@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ivideoframe/linkpathlong/
 ---
+
 ## IVideoFrame.LinkPathLong property
 
 Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String.

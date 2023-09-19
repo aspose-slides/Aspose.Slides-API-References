@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.effects/innershadow/equals/
 ---
+
 ## InnerShadow.Equals method
 
 Determines whether the specified [`InnerShadow`](../../innershadow) is equal to the current [`InnerShadow`](../../innershadow).

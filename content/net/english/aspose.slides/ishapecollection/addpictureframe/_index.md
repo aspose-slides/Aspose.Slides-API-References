@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/ishapecollection/addpictureframe/
 ---
+
 ## IShapeCollection.AddPictureFrame method
 
 Creates a new PictureFrame and adds it to the end of the collection.

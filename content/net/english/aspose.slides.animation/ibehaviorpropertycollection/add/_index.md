@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/ibehaviorpropertycollection/add/
 ---
+
 ## IBehaviorPropertyCollection.Add method
 
 Adds a new property to the collection.

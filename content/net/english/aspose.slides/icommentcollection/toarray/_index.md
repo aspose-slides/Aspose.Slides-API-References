@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/icommentcollection/toarray/
 ---
+
 ## ToArray() {#toarray}
 
 Creates and returns an array with all comments.

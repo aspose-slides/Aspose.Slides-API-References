@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iconnector/connectorlock/
 ---
+
 ## IConnector.ConnectorLock property
 
 Returns Connector's locks. Read-only [`IConnectorLock`](../../iconnectorlock).

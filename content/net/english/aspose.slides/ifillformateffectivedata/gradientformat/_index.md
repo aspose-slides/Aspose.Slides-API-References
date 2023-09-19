@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ifillformateffectivedata/gradientformat/
 ---
+
 ## IFillFormatEffectiveData.GradientFormat property
 
 Returns the gradient fill format. Read-only [`IGradientFormatEffectiveData`](../../igradientformateffectivedata).

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/iparagraphcollection/insert/
 ---
+
 ## Insert(int, IParagraph) {#insert}
 
 Inserts a Paragraph into the collection at the specified index.

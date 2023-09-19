@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides/ipresentation/vbaproject/
 ---
+
 ## IPresentation.VbaProject property
 
 Gets VBA project with presentation macros. Read/write [`IVbaProject`](../../../aspose.slides.vba/ivbaproject).

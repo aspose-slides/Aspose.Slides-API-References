@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/browsedatkiosk/browsedatkiosk/
 ---
+
 ## BrowsedAtKiosk constructor
 
 Initializes a new instance of the BrowsedAtKiosk class.

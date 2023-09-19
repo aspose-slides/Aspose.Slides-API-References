@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/tagcollection/count/
 ---
+
 ## TagCollection.Count property
 
 Returns a number of tags in the collectoin. Read-only Int32.

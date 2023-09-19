@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.slideshow/rippletransition/direction/
 ---
+
 ## RippleTransition.Direction property
 
 Direction of transition. Read/write [`TransitionCornerAndCenterDirectionType`](../../transitioncornerandcenterdirectiontype).

@@ -6,6 +6,7 @@ type: docs
 weight: 350
 url: /aspose.slides.charts/iaxis/majortickmark/
 ---
+
 ## IAxis.MajorTickMark property
 
 Represents the type of major tick mark for the specified axis. Read/write [`TickMarkType`](../../tickmarktype).

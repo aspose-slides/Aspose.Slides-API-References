@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/ichartparagraphformat/righttoleft/
 ---
+
 ## IChartParagraphFormat.RightToLeft property
 
 Determines whether the Right to Left writing is used in a paragraph. Read/write [`NullableBool`](../../../aspose.slides/nullablebool).

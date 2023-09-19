@@ -3,9 +3,10 @@ title: ColumnCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of columns in a table.
 type: docs
-weight: 2480
+weight: 2490
 url: /aspose.slides/columncollection/
 ---
+
 ## ColumnCollection class
 
 Represents collection of columns in a table.

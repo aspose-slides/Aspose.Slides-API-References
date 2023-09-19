@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides/shapecollection/addvideoframe/
 ---
+
 ## AddVideoFrame(float, float, float, float, string) {#addvideoframe_1}
 
 Adds a new video frame to the end of a collection.

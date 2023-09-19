@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ifontfallbackrule/indexof/
 ---
+
 ## IFontFallBackRule.IndexOf method
 
 Returns an index of the specified rule in the collection.

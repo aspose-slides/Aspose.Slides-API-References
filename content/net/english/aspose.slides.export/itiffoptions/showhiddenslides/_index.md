@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/itiffoptions/showhiddenslides/
 ---
+
 ## ITiffOptions.ShowHiddenSlides property
 
 Specifies whether the generated document should include hidden slides or not. Default is `false`.

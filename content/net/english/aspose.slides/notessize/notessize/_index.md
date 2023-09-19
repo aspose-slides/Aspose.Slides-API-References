@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/notessize/notessize/
 ---
+
 ## NotesSize constructor
 
 The default constructor.

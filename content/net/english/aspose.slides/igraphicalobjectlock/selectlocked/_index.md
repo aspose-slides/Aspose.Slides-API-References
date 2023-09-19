@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/igraphicalobjectlock/selectlocked/
 ---
+
 ## IGraphicalObjectLock.SelectLocked property
 
 Determines whether selecting this shape is forbidden. Read/write Boolean.

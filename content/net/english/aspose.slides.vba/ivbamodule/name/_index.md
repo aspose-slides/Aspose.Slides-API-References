@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/ivbamodule/name/
 ---
+
 ## IVbaModule.Name property
 
 Name of the module. Read-only String.

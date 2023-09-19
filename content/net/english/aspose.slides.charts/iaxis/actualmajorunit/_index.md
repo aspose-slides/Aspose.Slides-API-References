@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/iaxis/actualmajorunit/
 ---
+
 ## IAxis.ActualMajorUnit property
 
 Specifies actual major unit of the axis. Call method IChart.ValidateChartLayout() previously to get actual value.

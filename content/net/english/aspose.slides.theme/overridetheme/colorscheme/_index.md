@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/overridetheme/colorscheme/
 ---
+
 ## OverrideTheme.ColorScheme property
 
 Returns the color scheme. Read-only [`IColorScheme`](../../icolorscheme).

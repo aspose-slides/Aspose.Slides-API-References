@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathbox/alignmentpoint/
 ---
+
 ## IMathBox.AlignmentPoint property
 
 When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false

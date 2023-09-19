@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/iparagraphformateffectivedata/marginright/
 ---
+
 ## IParagraphFormatEffectiveData.MarginRight property
 
 Returns the right margin in a paragraph. Read-only Single.

@@ -3,9 +3,10 @@ title: CommentsPositions
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents the rule to render comments into exported document
 type: docs
-weight: 3500
+weight: 3510
 url: /aspose.slides.export/commentspositions/
 ---
+
 ## CommentsPositions enumeration
 
 Represents the rule to render comments into exported document

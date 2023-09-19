@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/colorchange/geteffective/
 ---
+
 ## ColorChange.GetEffective method
 
 Gets effective Color Change effect data with the inheritance applied.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/notescommentslayoutingoptions/showcommentsbynoauthor/
 ---
+
 ## NotesCommentsLayoutingOptions.ShowCommentsByNoAuthor property
 
 Gets or sets the visibility of comments that do not have an author. If true then comments will be displayed. (Applies only if comments are displayed).

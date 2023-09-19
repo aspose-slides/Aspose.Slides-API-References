@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/commentcollection/addmoderncomment/
 ---
+
 ## CommentCollection.AddModernComment method
 
 Add new modern comment at the end of a collection.

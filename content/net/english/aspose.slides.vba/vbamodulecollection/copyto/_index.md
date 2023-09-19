@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.vba/vbamodulecollection/copyto/
 ---
+
 ## VbaModuleCollection.CopyTo method
 
 Copies all elements from the collection to the specified array.

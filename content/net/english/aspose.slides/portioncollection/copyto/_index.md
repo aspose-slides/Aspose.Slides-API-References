@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/portioncollection/copyto/
 ---
+
 ## PortionCollection.CopyTo method
 
 Copies the elements of the ICollection to an Array, starting at a particular Array index.

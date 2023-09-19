@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/picture/imagetransform/
 ---
+
 ## Picture.ImageTransform property
 
 Returns the collection of image transform effects. Read-only [`IImageTransformOperationCollection`](../../../aspose.slides.effects/iimagetransformoperationcollection).

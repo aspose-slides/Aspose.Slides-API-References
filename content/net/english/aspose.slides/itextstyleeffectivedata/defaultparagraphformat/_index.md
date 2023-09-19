@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/itextstyleeffectivedata/defaultparagraphformat/
 ---
+
 ## ITextStyleEffectiveData.DefaultParagraphFormat property
 
 Returns effective default paragraph properties. Read-only [`IParagraphFormatEffectiveData`](../../iparagraphformateffectivedata).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/islide/asioverridethemeable/
 ---
+
 ## ISlide.AsIOverrideThemeable property
 
 Returns IOverrideThemeable interface. Read-only [`IOverrideThemeable`](../../../aspose.slides.theme/ioverridethemeable).

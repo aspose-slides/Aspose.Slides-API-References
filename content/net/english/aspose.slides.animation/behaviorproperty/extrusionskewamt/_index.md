@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.animation/behaviorproperty/extrusionskewamt/
 ---
+
 ## BehaviorProperty.ExtrusionSkewAmt property
 
 Represents 'extrusion.skewamt' property

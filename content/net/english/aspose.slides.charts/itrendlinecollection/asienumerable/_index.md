@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/itrendlinecollection/asienumerable/
 ---
+
 ## ITrendlineCollection.AsIEnumerable property
 
 Allows to get base IEnumerable interface. Read-only IEnumerable.

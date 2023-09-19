@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/shape/customdata/
 ---
+
 ## Shape.CustomData property
 
 Returns the shape's custom data. Read-only [`ICustomData`](../../icustomdata).

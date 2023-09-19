@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/ichartseriesgroup/hasserieslines/
 ---
+
 ## IChartSeriesGroup.HasSeriesLines property
 
 True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write Boolean.

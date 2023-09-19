@@ -6,6 +6,7 @@ type: docs
 weight: 380
 url: /aspose.slides.charts/iaxis/maxvalue/
 ---
+
 ## IAxis.MaxValue property
 
 Represents the maximum value on the value axis. Read/write Double.

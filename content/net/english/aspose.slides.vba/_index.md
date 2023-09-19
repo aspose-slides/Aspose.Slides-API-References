@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides.vba/
 ---
+
 Contains classes for work with VBA macros
 
 ## Classes

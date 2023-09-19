@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/cell/marginleft/
 ---
+
 ## Cell.MarginLeft property
 
 Returns or sets the left margin in a TextFrame. Read/write Double.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ipiesplitcustompointcollection/remove/
 ---
+
 ## IPieSplitCustomPointCollection.Remove method
 
 Removes item from collection by it index in parent series points collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.mathtext/mathbox/base/
 ---
+
 ## MathBox.Base property
 
 Base argument

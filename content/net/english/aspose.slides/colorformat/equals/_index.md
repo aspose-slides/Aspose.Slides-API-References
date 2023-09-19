@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/colorformat/equals/
 ---
+
 ## ColorFormat.Equals method
 
 Checks for equality with specified object.

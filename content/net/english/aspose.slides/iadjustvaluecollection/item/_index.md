@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iadjustvaluecollection/item/
 ---
+
 ## IAdjustValueCollection indexer
 
 Returns adjustment by index.

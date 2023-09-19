@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathborderboxfactory/mathborderboxfactory/
 ---
+
 ## MathBorderBoxFactory constructor
 
 The default constructor.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.export/iswfoptions/showfullscreen/
 ---
+
 ## ISwfOptions.ShowFullScreen property
 
 Show/hide fullscreen button. Can be overridden in flashvars. Default is true.

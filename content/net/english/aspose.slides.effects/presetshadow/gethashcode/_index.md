@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.effects/presetshadow/gethashcode/
 ---
+
 ## PresetShadow.GetHashCode method
 
 Serves as a hash function for a particular type.

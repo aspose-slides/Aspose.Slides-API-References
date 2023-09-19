@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iloadoptions/defaultsymbolfont/
 ---
+
 ## ILoadOptions.DefaultSymbolFont property
 
 Returns or sets Symbol font used in case source font is not found. Read-write String.

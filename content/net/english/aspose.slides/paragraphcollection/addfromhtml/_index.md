@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/paragraphcollection/addfromhtml/
 ---
+
 ## AddFromHtml(string) {#addfromhtml}
 
 Adds text from specified html string to the collection.

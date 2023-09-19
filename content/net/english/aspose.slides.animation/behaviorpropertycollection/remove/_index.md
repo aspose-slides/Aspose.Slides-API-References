@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.animation/behaviorpropertycollection/remove/
 ---
+
 ## Remove(IBehaviorProperty) {#remove}
 
 Removes specified property from the collection.

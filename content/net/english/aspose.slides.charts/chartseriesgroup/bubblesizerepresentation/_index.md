@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartseriesgroup/bubblesizerepresentation/
 ---
+
 ## ChartSeriesGroup.BubbleSizeRepresentation property
 
 Specifies how the bubble size values are represented on the bubble chart. Read/write [`BubbleSizeRepresentationType`](../../bubblesizerepresentationtype).

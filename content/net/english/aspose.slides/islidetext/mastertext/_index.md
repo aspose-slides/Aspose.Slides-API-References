@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/islidetext/mastertext/
 ---
+
 ## ISlideText.MasterText property
 
 The text on the master page's shapes for this slide

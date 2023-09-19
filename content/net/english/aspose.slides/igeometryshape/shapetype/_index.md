@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/igeometryshape/shapetype/
 ---
+
 ## IGeometryShape.ShapeType property
 
 Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write [`ShapeType`](../../shapetype).

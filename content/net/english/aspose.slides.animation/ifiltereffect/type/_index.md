@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/ifiltereffect/type/
 ---
+
 ## IFilterEffect.Type property
 
 Represents type of filter effect. Read/write [`FilterEffectType`](../../filtereffecttype).

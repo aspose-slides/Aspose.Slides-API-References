@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/audioframe/embedded/
 ---
+
 ## AudioFrame.Embedded property
 
 Determines whether a sound is embedded to a presentation. Read-only Boolean.

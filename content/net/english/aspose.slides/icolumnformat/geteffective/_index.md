@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icolumnformat/geteffective/
 ---
+
 ## IColumnFormat.GetEffective method
 
 Gets effective table column formatting properties with inheritance and table styles applied.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/videoframe/fullscreenmode/
 ---
+
 ## VideoFrame.FullScreenMode property
 
 Determines whether a video is shown in full screen mode. Read/write Boolean.

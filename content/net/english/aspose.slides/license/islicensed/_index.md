@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/license/islicensed/
 ---
+
 ## License.IsLicensed method
 
 Check if licence is applied to component

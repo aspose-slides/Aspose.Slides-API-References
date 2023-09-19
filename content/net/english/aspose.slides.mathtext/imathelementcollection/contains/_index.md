@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.mathtext/imathelementcollection/contains/
 ---
+
 ## IMathElementCollection.Contains method
 
 Determines whether the collection contains a specific value.

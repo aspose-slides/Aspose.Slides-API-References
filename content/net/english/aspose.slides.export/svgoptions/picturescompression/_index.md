@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.export/svgoptions/picturescompression/
 ---
+
 ## SVGOptions.PicturesCompression property
 
 Represents the pictures compression level

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ilineformat/dashstyle/
 ---
+
 ## ILineFormat.DashStyle property
 
 Returns or sets the line dash style. Read/write [`LineDashStyle`](../../linedashstyle).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/chartplotarea/chart/
 ---
+
 ## ChartPlotArea.Chart property
 
 Chart. Read-only [`IChart`](../../ichart).

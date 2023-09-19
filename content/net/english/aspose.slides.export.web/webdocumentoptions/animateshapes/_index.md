@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export.web/webdocumentoptions/animateshapes/
 ---
+
 ## WebDocumentOptions.AnimateShapes property
 
 Returns or sets shapes animation option. Read/write Boolean.

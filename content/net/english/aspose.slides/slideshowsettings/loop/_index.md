@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/slideshowsettings/loop/
 ---
+
 ## SlideShowSettings.Loop property
 
 Loop Slide Show

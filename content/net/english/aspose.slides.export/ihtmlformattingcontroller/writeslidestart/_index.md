@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/ihtmlformattingcontroller/writeslidestart/
 ---
+
 ## IHtmlFormattingController.WriteSlideStart method
 
 Called to write html slide header. Called once per each of slides.

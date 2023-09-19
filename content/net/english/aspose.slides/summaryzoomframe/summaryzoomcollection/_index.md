@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/summaryzoomframe/summaryzoomcollection/
 ---
+
 ## SummaryZoomFrame.SummaryZoomCollection property
 
 Gets [`ISummaryZoomSectionCollection`](../../isummaryzoomsectioncollection) for the Summary Zoom Frame object.

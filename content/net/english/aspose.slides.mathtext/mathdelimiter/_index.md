@@ -3,9 +3,10 @@ title: MathDelimiter
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the delimiter object consisting of opening and closing characters such as parentheses braces brackets and vertical bars and one or more mathematical elements inside separated by a specified character. Examples 2 2x7C2
 type: docs
-weight: 8060
+weight: 8070
 url: /aspose.slides.mathtext/mathdelimiter/
 ---
+
 ## MathDelimiter class
 
 Specifies the delimiter object, consisting of opening and closing characters (such as parentheses, braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character. Examples: (𝑥2); [𝑥2&#x7C;𝑦2]

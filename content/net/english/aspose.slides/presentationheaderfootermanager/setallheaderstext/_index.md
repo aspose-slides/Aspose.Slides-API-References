@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/presentationheaderfootermanager/setallheaderstext/
 ---
+
 ## PresentationHeaderFooterManager.SetAllHeadersText method
 
 Sets text to all header placeholders, including notes master, notes slides and handout master.

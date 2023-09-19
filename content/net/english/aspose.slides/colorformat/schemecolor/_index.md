@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/colorformat/schemecolor/
 ---
+
 ## ColorFormat.SchemeColor property
 
 Returns or sets the color identified by a color scheme. Read/write [`SchemeColor`](../../schemecolor).

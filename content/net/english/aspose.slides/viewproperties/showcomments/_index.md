@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/viewproperties/showcomments/
 ---
+
 ## ViewProperties.ShowComments property
 
 Specifies whether the slide comments should be shown. Read/write [`NullableBool`](../../nullablebool).

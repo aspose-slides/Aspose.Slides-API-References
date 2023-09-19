@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides.charts/ichartdatapointcollection/removeat/
 ---
+
 ## IChartDataPointCollection.RemoveAt method
 
 Removes the element at the given index.

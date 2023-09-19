@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.mathtext/matharray/getchildren/
 ---
+
 ## MathArray.GetChildren method
 
 Get children elements

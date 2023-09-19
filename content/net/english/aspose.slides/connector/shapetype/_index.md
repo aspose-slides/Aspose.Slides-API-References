@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/connector/shapetype/
 ---
+
 ## Connector.ShapeType property
 
 Returns or sets the AutoShape type. Read/write [`ShapeType`](../../shapetype).

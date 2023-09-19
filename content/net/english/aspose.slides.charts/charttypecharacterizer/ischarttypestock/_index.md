@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypestock/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeStock method
 
 Return true if chartType is one of Stock subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): HighLowClose, OpenHighLowClose, VolumeHighLowClose, VolumeOpenHighLowClose.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/layoutslideheaderfootermanager/setdatetimeandchilddatetimesvisibility/
 ---
+
 ## LayoutSlideHeaderFooterManager.SetDateTimeAndChildDateTimesVisibility method
 
 Changes layout slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending slides. Depending slides use and depend on layout slide.

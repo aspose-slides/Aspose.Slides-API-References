@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathnaryoperator/subscript/
 ---
+
 ## IMathNaryOperator.Subscript property
 
 Specifies a subscript argument that, for example, in the case of an integral, sets the lower limit

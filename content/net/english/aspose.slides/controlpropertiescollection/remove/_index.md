@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/controlpropertiescollection/remove/
 ---
+
 ## ControlPropertiesCollection.Remove method
 
 Removes a property with the specified name.

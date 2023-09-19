@@ -3,9 +3,10 @@ title: IShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a shape on a slide.
 type: docs
-weight: 6500
+weight: 6510
 url: /aspose.slides/ishape/
 ---
+
 ## IShape interface
 
 Represents a shape on a slide.

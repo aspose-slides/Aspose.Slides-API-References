@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ilicense/resetlicense/
 ---
+
 ## ILicense.ResetLicense method
 
 Reset the license

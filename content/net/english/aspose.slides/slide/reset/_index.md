@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/slide/reset/
 ---
+
 ## Slide.Reset method
 
 Resets position, size and formatting of every shape that has a prototype on LayoutSlide.

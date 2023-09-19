@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/idatalabel/datalabelformat/
 ---
+
 ## IDataLabel.DataLabelFormat property
 
 Returns format of the data label. Read-only [`IDataLabelFormat`](../../idatalabelformat).

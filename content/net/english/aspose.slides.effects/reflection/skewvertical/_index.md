@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.effects/reflection/skewvertical/
 ---
+
 ## Reflection.SkewVertical property
 
 Specifies the vertical skew angle. Read/write Double.

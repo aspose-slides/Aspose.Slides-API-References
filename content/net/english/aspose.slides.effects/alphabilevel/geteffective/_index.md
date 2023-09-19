@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/alphabilevel/geteffective/
 ---
+
 ## AlphaBiLevel.GetEffective method
 
 Gets effective Alpha Bi-Level effect data with the inheritance applied.

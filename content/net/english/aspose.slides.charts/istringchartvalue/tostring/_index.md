@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/istringchartvalue/tostring/
 ---
+
 ## IStringChartValue.ToString method
 
 Returns string representation.

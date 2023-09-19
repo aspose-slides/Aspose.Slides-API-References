@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.import/iexternalresourceresolver/resolveuri/
 ---
+
 ## IExternalResourceResolver.ResolveUri method
 
 Resolves the absolute URI from the base and relative URIs.

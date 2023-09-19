@@ -6,6 +6,7 @@ type: docs
 weight: 310
 url: /aspose.slides/idocumentproperties/setcustompropertyvalue/
 ---
+
 ## SetCustomPropertyValue(string, bool) {#setcustompropertyvalue}
 
 Sets a named boolean custom property.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/moderncomment/textselectionstart/
 ---
+
 ## ModernComment.TextSelectionStart property
 
 Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write Int32.

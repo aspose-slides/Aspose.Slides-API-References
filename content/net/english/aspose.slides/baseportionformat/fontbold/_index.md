@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/baseportionformat/fontbold/
 ---
+
 ## BasePortionFormat.FontBold property
 
 Determines whether the font is bold. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/isummaryzoomframe/layout/
 ---
+
 ## ISummaryZoomFrame.Layout property
 
 Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout.

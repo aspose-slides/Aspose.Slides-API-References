@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides/ipresentation/notessize/
 ---
+
 ## IPresentation.NotesSize property
 
 Returns notes slide size object. Read-only [`INotesSize`](../../inotessize).

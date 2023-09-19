@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypescatter/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeScatter method
 
 Return true if chartType is one of Scatter subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ScatterWithMarkers, ScatterWithSmoothLines, ScatterWithSmoothLinesAndMarkers, ScatterWithStraightLines, ScatterWithStraightLinesAndMarkers.

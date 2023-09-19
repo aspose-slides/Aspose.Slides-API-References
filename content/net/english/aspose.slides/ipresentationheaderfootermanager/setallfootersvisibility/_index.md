@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ipresentationheaderfootermanager/setallfootersvisibility/
 ---
+
 ## IPresentationHeaderFooterManager.SetAllFootersVisibility method
 
 Changes all footer placeholders visibility, including master slides, layout slides and slides.

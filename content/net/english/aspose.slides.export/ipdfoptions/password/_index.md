@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.export/ipdfoptions/password/
 ---
+
 ## IPdfOptions.Password property
 
 Setting user password to protect the PDF document. Read/write String.

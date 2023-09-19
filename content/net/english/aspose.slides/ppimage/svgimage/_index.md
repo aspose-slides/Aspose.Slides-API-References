@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ppimage/svgimage/
 ---
+
 ## PPImage.SvgImage property
 
 Returns or sets ISvgImage object [`ISvgImage`](../../isvgimage)

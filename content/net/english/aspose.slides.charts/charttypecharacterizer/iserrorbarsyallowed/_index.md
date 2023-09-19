@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.charts/charttypecharacterizer/iserrorbarsyallowed/
 ---
+
 ## ChartTypeCharacterizer.IsErrorBarsYAllowed method
 
 Returns if error bars Y allowed for specified series type.

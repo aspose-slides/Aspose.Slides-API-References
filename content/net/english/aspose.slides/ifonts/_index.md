@@ -3,9 +3,10 @@ title: IFonts
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents fonts collection.
 type: docs
-weight: 5500
+weight: 5510
 url: /aspose.slides/ifonts/
 ---
+
 ## IFonts interface
 
 Represents fonts collection.

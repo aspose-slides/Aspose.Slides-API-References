@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/paragraphcollection/copyto/
 ---
+
 ## ParagraphCollection.CopyTo method
 
 Copies the elements of the ICollection to an Array, starting at a particular Array index.

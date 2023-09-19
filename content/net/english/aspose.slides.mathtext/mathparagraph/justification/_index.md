@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/mathparagraph/justification/
 ---
+
 ## MathParagraph.Justification property
 
 Paragraph Justification Default value: CenteredAsGroup

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.vba/vbamodule/sourcecode/
 ---
+
 ## VbaModule.SourceCode property
 
 Returns or sets the source code of the module. Read/write String.

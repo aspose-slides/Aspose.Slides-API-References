@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/effectformat/disableblureffect/
 ---
+
 ## EffectFormat.DisableBlurEffect method
 
 Disables blur effect.

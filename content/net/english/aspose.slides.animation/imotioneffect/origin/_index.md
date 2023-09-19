@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.animation/imotioneffect/origin/
 ---
+
 ## IMotionEffect.Origin property
 
 Specifies what the origin of the motion path is relative to such as the layout of the slide, or the parent. Read/write [`MotionOriginType`](../../motionorigintype).

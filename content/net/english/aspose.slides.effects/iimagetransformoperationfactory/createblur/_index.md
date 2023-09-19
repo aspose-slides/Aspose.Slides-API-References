@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.effects/iimagetransformoperationfactory/createblur/
 ---
+
 ## IImageTransformOperationFactory.CreateBlur method
 
 Creates Blur effect.

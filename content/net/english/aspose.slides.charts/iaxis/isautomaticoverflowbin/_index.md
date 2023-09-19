@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides.charts/iaxis/isautomaticoverflowbin/
 ---
+
 ## IAxis.IsAutomaticOverflowBin property
 
 Specifies automatic overflow bin value. If false: use OverflowBin property.

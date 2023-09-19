@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ibulletformateffectivedata/numberedbulletstartwith/
 ---
+
 ## IBulletFormatEffectiveData.NumberedBulletStartWith property
 
 Returns the first number which is used for group of numbered bullets. Read-only Int16.

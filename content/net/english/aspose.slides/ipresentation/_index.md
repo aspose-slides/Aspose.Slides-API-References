@@ -3,9 +3,10 @@ title: IPresentation
 second_title: Aspose.Sildes for .NET API Reference
 description: Presentation document
 type: docs
-weight: 6320
+weight: 6330
 url: /aspose.slides/ipresentation/
 ---
+
 ## IPresentation interface
 
 Presentation document

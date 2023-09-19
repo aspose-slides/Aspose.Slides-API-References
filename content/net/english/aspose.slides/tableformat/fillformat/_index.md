@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/tableformat/fillformat/
 ---
+
 ## TableFormat.FillFormat property
 
 Returns a table fill properties object. Read-only [`IFillFormat`](../../ifillformat).

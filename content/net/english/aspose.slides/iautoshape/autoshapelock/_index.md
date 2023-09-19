@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iautoshape/autoshapelock/
 ---
+
 ## IAutoShape.AutoShapeLock property
 
 Returns AutoShape's locks. Read-only [`IAutoShapeLock`](../../iautoshapelock).

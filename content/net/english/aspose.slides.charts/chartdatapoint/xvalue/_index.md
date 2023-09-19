@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.charts/chartdatapoint/xvalue/
 ---
+
 ## ChartDataPoint.XValue property
 
 XValue. Read-only [`IStringOrDoubleChartValue`](../../istringordoublechartvalue).

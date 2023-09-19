@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/ifillformatcollectioneffectivedata/item/
 ---
+
 ## IFillFormatCollectionEffectiveData indexer
 
 Gets the element at the specified index. Read-only [`IFillFormatEffectiveData`](../../../aspose.slides/ifillformateffectivedata).

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/baseoverridethememanager/createthemeeffective/
 ---
+
 ## BaseOverrideThemeManager.CreateThemeEffective method
 
 Returns the theme object.

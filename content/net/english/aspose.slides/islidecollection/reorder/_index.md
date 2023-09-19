@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/islidecollection/reorder/
 ---
+
 ## Reorder(int, ISlide) {#reorder}
 
 Moves slide from the collection to the specified position.

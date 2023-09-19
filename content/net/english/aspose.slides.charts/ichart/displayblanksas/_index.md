@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.charts/ichart/displayblanksas/
 ---
+
 ## IChart.DisplayBlanksAs property
 
 Returns or sets the way to plot blank cells on a chart. Read/write [`DisplayBlanksAsType`](../../displayblanksastype).

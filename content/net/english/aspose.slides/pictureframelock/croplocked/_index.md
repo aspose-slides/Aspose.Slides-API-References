@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/pictureframelock/croplocked/
 ---
+
 ## PictureFrameLock.CropLocked property
 
 Determines whether an image cropping is forbidden. Read/write Boolean.

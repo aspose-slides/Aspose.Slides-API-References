@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/browsedbyindividual/showscrollbar/
 ---
+
 ## BrowsedByIndividual.ShowScrollbar property
 
 Show Scroll Bar in Window

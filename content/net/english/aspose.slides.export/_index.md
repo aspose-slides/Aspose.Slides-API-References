@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.export/
 ---
+
 Contains classes for exporting Microsoft PowerPoint presentations to different formats like Html, Pdf, Svg, Xps and others.
 
 ## Classes

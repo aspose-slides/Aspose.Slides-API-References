@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/propertyeffect/from/
 ---
+
 ## PropertyEffect.From property
 
 Specifies the starting value of the animation. Read/write String.

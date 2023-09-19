@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.theme/colorscheme/dark2/
 ---
+
 ## ColorScheme.Dark2 property
 
 Second dark color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

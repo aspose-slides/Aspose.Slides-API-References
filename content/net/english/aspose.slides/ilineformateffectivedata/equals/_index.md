@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/ilineformateffectivedata/equals/
 ---
+
 ## ILineFormatEffectiveData.Equals method
 
 Determines whether the two ILineFormatEffectiveData instances are equal.

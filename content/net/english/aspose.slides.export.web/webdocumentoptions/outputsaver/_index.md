@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export.web/webdocumentoptions/outputsaver/
 ---
+
 ## WebDocumentOptions.OutputSaver property
 
 Returns or sets output saver. Read/write [`IOutputSaver`](../../ioutputsaver).

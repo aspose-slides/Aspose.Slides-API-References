@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.export/svgoptions/shapeformattingcontroller/
 ---
+
 ## SVGOptions.ShapeFormattingController property
 
 Returns and sets a callback interface which allows user to control shape conversion. Read/write [`ISvgShapeFormattingController`](../../isvgshapeformattingcontroller).

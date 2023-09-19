@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/igroupshapelock/selectlocked/
 ---
+
 ## IGroupShapeLock.SelectLocked property
 
 Determines whether selecting this shape is forbidden. Read/write Boolean.

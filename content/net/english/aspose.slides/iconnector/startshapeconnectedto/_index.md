@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/iconnector/startshapeconnectedto/
 ---
+
 ## IConnector.StartShapeConnectedTo property
 
 Returns or sets the shape to attach the beginning of the connector to. Read/write [`IShape`](../../ishape).

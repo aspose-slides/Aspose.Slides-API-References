@@ -3,9 +3,10 @@ title: SlidesRange
 second_title: Aspose.Sildes for .NET API Reference
 description: Slides range
 type: docs
-weight: 9880
+weight: 9890
 url: /aspose.slides/slidesrange/
 ---
+
 ## SlidesRange class
 
 Slides range

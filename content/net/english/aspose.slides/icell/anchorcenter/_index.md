@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/icell/anchorcenter/
 ---
+
 ## ICell.AnchorCenter property
 
 Determines whether or not text box centered inside a cell. Read/write Boolean.

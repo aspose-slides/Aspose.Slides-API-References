@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartdataworkbook/clear/
 ---
+
 ## ChartDataWorkbook.Clear method
 
 Clear all cells values on sheet

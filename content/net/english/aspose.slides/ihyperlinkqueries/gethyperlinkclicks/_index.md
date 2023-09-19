@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ihyperlinkqueries/gethyperlinkclicks/
 ---
+
 ## IHyperlinkQueries.GetHyperlinkClicks method
 
 Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface.

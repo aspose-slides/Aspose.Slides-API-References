@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ihyperlinkmanager/setexternalhyperlinkclick/
 ---
+
 ## IHyperlinkManager.SetExternalHyperlinkClick method
 
 Set external hyperlink on click.

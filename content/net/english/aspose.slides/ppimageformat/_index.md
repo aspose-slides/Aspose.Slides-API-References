@@ -3,9 +3,10 @@ title: PPImageFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Image formats. This enum is replacement for System.Drawing.Imaging.ImageFormat class. Its needed for COM compatibility.
 type: docs
-weight: 8660
+weight: 8670
 url: /aspose.slides/ppimageformat/
 ---
+
 ## PPImageFormat enumeration
 
 Image formats. This enum is replacement for `System.Drawing.Imaging.ImageFormat` class. It's needed for COM compatibility.

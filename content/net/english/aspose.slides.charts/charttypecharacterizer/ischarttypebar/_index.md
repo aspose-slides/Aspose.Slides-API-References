@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypebar/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeBar method
 
 Return true if chartType is one of Bar subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ClusteredBar, ClusteredBar3D, PercentsStackedBar, PercentsStackedBar3D, StackedBar, StackedBar3D, ClusteredHorizontalCone, ClusteredHorizontalCylinder, ClusteredHorizontalPyramid, StackedHorizontalCone, StackedHorizontalCylinder, StackedHorizontalPyramid, PercentsStackedHorizontalCone, PercentsStackedHorizontalCylinder, PercentsStackedHorizontalPyramid.

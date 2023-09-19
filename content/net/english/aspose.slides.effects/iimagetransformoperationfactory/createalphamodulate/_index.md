@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/iimagetransformoperationfactory/createalphamodulate/
 ---
+
 ## IImageTransformOperationFactory.CreateAlphaModulate method
 
 Creates Alpha modulate effect.

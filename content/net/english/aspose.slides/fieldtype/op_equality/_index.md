@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/fieldtype/op_equality/
 ---
+
 ## FieldType Equality operator
 
 Checks if two FieldType objects is equal.

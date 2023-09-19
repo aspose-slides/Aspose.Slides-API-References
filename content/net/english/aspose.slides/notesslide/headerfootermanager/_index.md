@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/notesslide/headerfootermanager/
 ---
+
 ## NotesSlide.HeaderFooterManager property
 
 Returns HeaderFooter manager of the notes slide. Read-only [`INotesSlideHeaderFooterManager`](../../inotesslideheaderfootermanager).

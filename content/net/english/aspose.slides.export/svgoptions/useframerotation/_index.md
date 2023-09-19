@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.export/svgoptions/useframerotation/
 ---
+
 ## SVGOptions.UseFrameRotation property
 
 Determines whether to perform the specified rotation of the shape when rendering or not. Read/write Boolean. Default value is true.

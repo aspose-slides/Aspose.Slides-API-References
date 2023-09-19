@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/swfoptions/enablecontextmenu/
 ---
+
 ## SwfOptions.EnableContextMenu property
 
 Enable/disable context menu. Default is true.

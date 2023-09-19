@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.charts/ilayoutable/y/
 ---
+
 ## ILayoutable.Y property
 
 Specifies the top of the chart element as a fraction of the height of the chart. Read/write Single.

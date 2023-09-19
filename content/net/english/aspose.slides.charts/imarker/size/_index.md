@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/imarker/size/
 ---
+
 ## IMarker.Size property
 
 Represents the marker size in a line chart, scatter chart, or radar chart. Read/write Int32.

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ifontfallbackrule/remove/
 ---
+
 ## IFontFallBackRule.Remove method
 
 Removes the first occurrence of a specific FallBack font from the list.

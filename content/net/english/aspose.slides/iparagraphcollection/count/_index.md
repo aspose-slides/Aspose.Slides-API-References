@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iparagraphcollection/count/
 ---
+
 ## IParagraphCollection.Count property
 
 Gets the number of elements actually contained in the collection. Read-only Int32.

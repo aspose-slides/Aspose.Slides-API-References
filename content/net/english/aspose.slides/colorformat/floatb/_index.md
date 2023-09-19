@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/colorformat/floatb/
 ---
+
 ## ColorFormat.FloatB property
 
 Returns or sets the blue component of a color. All color transformations are ignored. Read/write Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/shape/rawframe/
 ---
+
 ## Shape.RawFrame property
 
 Returns or sets the raw shape frame's properties. Read/write [`IShapeFrame`](../../ishapeframe).

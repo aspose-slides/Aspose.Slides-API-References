@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.charts/datalabel/hide/
 ---
+
 ## DataLabel.Hide method
 
 Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this.

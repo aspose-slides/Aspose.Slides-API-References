@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.smartart/ismartart/asigraphicalobject/
 ---
+
 ## ISmartArt.AsIGraphicalObject property
 
 Allows to get base IGraphicalObject interface. Read-only [`IGraphicalObject`](../../../aspose.slides/igraphicalobject).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/chartdatapointlevel/label/
 ---
+
 ## ChartDataPointLevel.Label property
 
 Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only [`IDataLabel`](../../idatalabel).

@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/commentcollection/remove/
 ---
+
 ## CommentCollection.Remove method
 
 Removes the first occurrence of the specified comment in a collection.

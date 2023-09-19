@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartcategory/ascell/
 ---
+
 ## IChartCategory.AsCell property
 
 Returns or sets IChartDataCell object. If category is multi-level then used IChartDataCell object for level "0". Read/write [`IChartDataCell`](../../ichartdatacell).

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export/notescommentslayoutingoptions/commentsposition/
 ---
+
 ## NotesCommentsLayoutingOptions.CommentsPosition property
 
 Gets or sets the position of the comments on the page.

@@ -3,9 +3,10 @@ title: ISaveOptions
 second_title: Aspose.Sildes for .NET API Reference
 description: Options that control how a presentation is saved.
 type: docs
-weight: 3800
+weight: 3810
 url: /aspose.slides.export/isaveoptions/
 ---
+
 ## ISaveOptions interface
 
 Options that control how a presentation is saved.

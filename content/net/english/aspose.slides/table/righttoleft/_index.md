@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/table/righttoleft/
 ---
+
 ## Table.RightToLeft property
 
 Determines whether the table has right to left reading order. Read-write Boolean.

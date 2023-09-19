@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/presentationfactory/instance/
 ---
+
 ## PresentationFactory.Instance property
 
 Presentation factory static instance. Read-only [`PresentationFactory`](../../presentationfactory).

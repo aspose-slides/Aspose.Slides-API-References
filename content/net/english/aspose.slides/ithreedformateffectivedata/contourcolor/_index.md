@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ithreedformateffectivedata/contourcolor/
 ---
+
 ## IThreeDFormatEffectiveData.ContourColor property
 
 Returns the color of a contour. Read-only Color.

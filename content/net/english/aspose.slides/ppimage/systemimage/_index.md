@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ppimage/systemimage/
 ---
+
 ## PPImage.SystemImage property
 
 Returns the copy of an image. Read-only Image.

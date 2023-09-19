@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides/shape/presentation/
 ---
+
 ## Shape.Presentation property
 
 Returns the parent presentation of a slide. Read-only [`IPresentation`](../../ipresentation).

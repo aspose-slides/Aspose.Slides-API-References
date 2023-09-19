@@ -3,9 +3,10 @@ title: EffectPresetClassType
 second_title: Aspose.Sildes for .NET API Reference
 description: Represent effect class types.
 type: docs
-weight: 230
+weight: 240
 url: /aspose.slides.animation/effectpresetclasstype/
 ---
+
 ## EffectPresetClassType enumeration
 
 Represent effect class types.

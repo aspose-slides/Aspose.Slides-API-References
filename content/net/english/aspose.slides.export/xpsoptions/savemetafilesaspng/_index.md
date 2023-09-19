@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/xpsoptions/savemetafilesaspng/
 ---
+
 ## XpsOptions.SaveMetafilesAsPng property
 
 True to convert all metafiles used in a presentation to the PNG images. Read/write Boolean.

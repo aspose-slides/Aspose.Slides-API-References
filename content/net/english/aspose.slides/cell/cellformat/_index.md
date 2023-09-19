@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/cell/cellformat/
 ---
+
 ## Cell.CellFormat property
 
 Returns the CellFormat object that contains formatting properties for this cell. Read-only [`ICellFormat`](../../icellformat).

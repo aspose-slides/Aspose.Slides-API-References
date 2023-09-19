@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/itextframeformateffectivedata/columnspacing/
 ---
+
 ## ITextFrameFormatEffectiveData.ColumnSpacing property
 
 Specifies the space between text columns in the text area (in points). Read-only Single.

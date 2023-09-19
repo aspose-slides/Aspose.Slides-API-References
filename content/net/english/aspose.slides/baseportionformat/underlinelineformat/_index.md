@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/baseportionformat/underlinelineformat/
 ---
+
 ## BasePortionFormat.UnderlineLineFormat property
 
 Returns the LineFormat properties used to outline underline line. No inheritance applied. Read-only [`ILineFormat`](../../ilineformat).

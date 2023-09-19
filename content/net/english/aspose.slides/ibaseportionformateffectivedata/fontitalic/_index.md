@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ibaseportionformateffectivedata/fontitalic/
 ---
+
 ## IBasePortionFormatEffectiveData.FontItalic property
 
 Determines whether the font is itallic. Read-only Boolean.

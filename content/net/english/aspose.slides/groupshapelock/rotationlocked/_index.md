@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/groupshapelock/rotationlocked/
 ---
+
 ## GroupShapeLock.RotationLocked property
 
 Determines whether changing rotation angle of this shape is forbidden. Read/write Boolean.

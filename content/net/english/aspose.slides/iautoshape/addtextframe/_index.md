@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iautoshape/addtextframe/
 ---
+
 ## IAutoShape.AddTextFrame method
 
 Adds a new TextFrameEx to a shape. If shape already has TextFrameEx then simply changes its text.

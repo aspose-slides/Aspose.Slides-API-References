@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/chartdatacell/customnumberformat/
 ---
+
 ## ChartDataCell.CustomNumberFormat property
 
 Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String.

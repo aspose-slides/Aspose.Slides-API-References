@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/textframeformat/threedformat/
 ---
+
 ## TextFrameFormat.ThreeDFormat property
 
 Returns the ThreeDFormat object that represents 3d effect properties for a text. Read-only [`IThreeDFormat`](../../ithreedformat).

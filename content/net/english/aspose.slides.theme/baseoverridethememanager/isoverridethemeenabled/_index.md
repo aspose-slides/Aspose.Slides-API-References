@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/baseoverridethememanager/isoverridethemeenabled/
 ---
+
 ## BaseOverrideThemeManager.IsOverrideThemeEnabled property
 
 Determines whether OverrideTheme overrides inherited effective theme or not. To enable OverrideTheme for overriding use OverrideTheme.Init*() methods. To disable OverrideTheme from overriding use OverrideTheme.Clear() method. Read-only Boolean.

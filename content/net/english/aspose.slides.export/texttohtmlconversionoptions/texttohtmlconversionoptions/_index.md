@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/texttohtmlconversionoptions/texttohtmlconversionoptions/
 ---
+
 ## TextToHtmlConversionOptions constructor
 
 The default constructor.

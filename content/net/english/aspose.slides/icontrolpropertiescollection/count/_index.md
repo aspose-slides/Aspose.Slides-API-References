@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/icontrolpropertiescollection/count/
 ---
+
 ## IControlPropertiesCollection.Count property
 
 Returns a number of properties in the collection. Read-only Int32.

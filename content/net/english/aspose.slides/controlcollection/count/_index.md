@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/controlcollection/count/
 ---
+
 ## ControlCollection.Count property
 
 Returns a number of objects in the collection. Read-only Int32.

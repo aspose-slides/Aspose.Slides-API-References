@@ -3,9 +3,10 @@ title: MathLimitLocations
 second_title: Aspose.Sildes for .NET API Reference
 description: Location of limits subscript/superscript in n-ary operators.
 type: docs
-weight: 8250
+weight: 8260
 url: /aspose.slides.mathtext/mathlimitlocations/
 ---
+
 ## MathLimitLocations enumeration
 
 Location of limits (subscript/superscript) in n-ary operators.

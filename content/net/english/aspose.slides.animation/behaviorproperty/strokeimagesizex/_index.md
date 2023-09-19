@@ -6,6 +6,7 @@ type: docs
 weight: 950
 url: /aspose.slides.animation/behaviorproperty/strokeimagesizex/
 ---
+
 ## BehaviorProperty.StrokeImageSizeX property
 
 Represents 'stroke.imagesize.x' property

@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/comment/slide/
 ---
+
 ## Comment.Slide property
 
 Returns or sets the parent slide of a comment. Read-only [`ISlide`](../../islide).

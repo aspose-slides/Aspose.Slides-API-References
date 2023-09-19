@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ippimage/replaceimage/
 ---
+
 ## ReplaceImage(byte[]) {#replaceimage_1}
 
 Replaces image data.

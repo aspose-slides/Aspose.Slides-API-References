@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ifontsmanager/fontsubstrulelist/
 ---
+
 ## IFontsManager.FontSubstRuleList property
 
 Font substitutions to use when rendering Read/write [`IFontSubstRuleCollection`](../../ifontsubstrulecollection).

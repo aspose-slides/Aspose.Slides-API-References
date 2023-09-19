@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iimagewrapper/asidisposable/
 ---
+
 ## IImageWrapper.AsIDisposable property
 
 Returns IDisposable interface. Read-only IDisposable.

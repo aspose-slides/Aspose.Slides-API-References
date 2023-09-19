@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/alphaceiling/geteffective/
 ---
+
 ## AlphaCeiling.GetEffective method
 
 Gets effective Alpha Ceiling effect data with the inheritance applied.

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ipictureframelock/selectlocked/
 ---
+
 ## IPictureFrameLock.SelectLocked property
 
 Determines whether a selecting this shape is forbidden. Read/write Boolean.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.theme/icolorschemeeffectivedata/accent3/
 ---
+
 ## IColorSchemeEffectiveData.Accent3 property
 
 Third accent color in the scheme. Read-only Color.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/picturefillformat/cropright/
 ---
+
 ## PictureFillFormat.CropRight property
 
 Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write Single.

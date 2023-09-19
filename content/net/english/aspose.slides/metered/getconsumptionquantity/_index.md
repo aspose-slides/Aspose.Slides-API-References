@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/metered/getconsumptionquantity/
 ---
+
 ## Metered.GetConsumptionQuantity method
 
 Gets consumption file size

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/customxmlpartcollection/remove/
 ---
+
 ## CustomXmlPartCollection.Remove method
 
 Removes the first occurrence of a specific object from the collection.

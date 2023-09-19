@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.mathtext/mathborderbox/strikethroughvertical/
 ---
+
 ## MathBorderBox.StrikethroughVertical property
 
 Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line.

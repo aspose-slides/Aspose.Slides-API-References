@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/sketchformat/sketchtype/
 ---
+
 ## SketchFormat.SketchType property
 
 Returns or sets the sketch type. Read/write [`LineSketchType`](../../linesketchtype).

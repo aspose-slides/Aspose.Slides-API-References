@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.charts/chartseriesgroup/type/
 ---
+
 ## ChartSeriesGroup.Type property
 
 Returns a type of this series group. Read-only [`CombinableSeriesTypesGroup`](../../combinableseriestypesgroup).

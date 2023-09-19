@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/ibehaviorpropertycollection/asienumerable/
 ---
+
 ## IBehaviorPropertyCollection.AsIEnumerable property
 
 Returns IEnumerable interfaces. Read-only IEnumerable.

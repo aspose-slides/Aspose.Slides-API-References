@@ -3,9 +3,10 @@ title: ISmartArtShapeCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a collection of SmartArt shapes
 type: docs
-weight: 9930
+weight: 9940
 url: /aspose.slides.smartart/ismartartshapecollection/
 ---
+
 ## ISmartArtShapeCollection interface
 
 Represents a collection of SmartArt shapes

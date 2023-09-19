@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.smartart/smartartnode/shapes/
 ---
+
 ## SmartArtNode.Shapes property
 
 Returns collections of all shapes associated with the node. Read-only [`ISmartArtShapeCollection`](../../ismartartshapecollection).

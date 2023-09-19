@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/idocumentproperties/clearcustomproperties/
 ---
+
 ## IDocumentProperties.ClearCustomProperties method
 
 Removes all custom properties.

@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides.charts/ichartseries/numberformatofbubblesizes/
 ---
+
 ## IChartSeries.NumberFormatOfBubbleSizes property
 
 Returns or sets the number format for series bubble sizes. Read/write String.

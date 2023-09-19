@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/hyperlink/hyperlink/
 ---
+
 ## Hyperlink(string) {#constructor_2}
 
 Creates an instance of a hyperlink.

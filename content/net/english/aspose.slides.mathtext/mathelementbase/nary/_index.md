@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/mathelementbase/nary/
 ---
+
 ## Nary(MathNaryOperatorTypes, IMathElement, IMathElement) {#nary}
 
 Creates a N-ary operator

@@ -6,6 +6,7 @@ type: docs
 weight: 1040
 url: /aspose.slides.animation/behaviorproperty/strokeweight/
 ---
+
 ## BehaviorProperty.StrokeWeight property
 
 Represents 'stroke.weight' property

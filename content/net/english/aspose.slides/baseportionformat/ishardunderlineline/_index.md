@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/baseportionformat/ishardunderlineline/
 ---
+
 ## BasePortionFormat.IsHardUnderlineLine property
 
 Determines whether the underline style has own LineFormat properties or inherits it from the LineFormat properties of the text. Read/write [`NullableBool`](../../nullablebool).

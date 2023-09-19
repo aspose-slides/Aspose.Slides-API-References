@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ioverridabletext/asiformattedtextcontainer/
 ---
+
 ## IOverridableText.AsIFormattedTextContainer property
 
 Allows to get base IFormattedTextContainer interface. Read-only [`IFormattedTextContainer`](../../iformattedtextcontainer).

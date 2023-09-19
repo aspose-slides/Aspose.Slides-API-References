@@ -6,6 +6,7 @@ type: docs
 weight: 980
 url: /aspose.slides.animation/behaviorproperty/strokeon/
 ---
+
 ## BehaviorProperty.StrokeOn property
 
 Represents 'stroke.on' property

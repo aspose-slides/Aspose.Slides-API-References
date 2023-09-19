@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.export/isvgoptions/useframesize/
 ---
+
 ## ISVGOptions.UseFrameSize property
 
 Determines whether the text frame will be included in a rendering area or not. Read/write Boolean. Default value is false.

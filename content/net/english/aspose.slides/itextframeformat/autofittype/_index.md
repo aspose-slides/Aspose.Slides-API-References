@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/itextframeformat/autofittype/
 ---
+
 ## ITextFrameFormat.AutofitType property
 
 Returns or sets text's autofit mode. Read/write [`TextAutofitType`](../../textautofittype).

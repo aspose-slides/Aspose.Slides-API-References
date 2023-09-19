@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.charts/ichartseries/name/
 ---
+
 ## IChartSeries.Name property
 
 Return series name. Read-only [`IStringChartValue`](../../istringchartvalue).

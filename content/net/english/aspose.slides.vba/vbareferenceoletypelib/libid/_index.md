@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.vba/vbareferenceoletypelib/libid/
 ---
+
 ## VbaReferenceOleTypeLib.Libid property
 
 Represents the identifier of an Automation type library. Read/write String.

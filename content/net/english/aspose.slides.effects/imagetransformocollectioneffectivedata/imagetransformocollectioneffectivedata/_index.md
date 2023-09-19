@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/imagetransformocollectioneffectivedata/imagetransformocollectioneffectivedata/
 ---
+
 ## ImageTransformOCollectionEffectiveData constructor
 
 The default constructor.

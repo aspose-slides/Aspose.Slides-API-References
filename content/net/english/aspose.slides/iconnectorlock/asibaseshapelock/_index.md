@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iconnectorlock/asibaseshapelock/
 ---
+
 ## IConnectorLock.AsIBaseShapeLock property
 
 Allows to get base IBaseShapeLock interface. Read-only [`IBaseShapeLock`](../../ibaseshapelock).

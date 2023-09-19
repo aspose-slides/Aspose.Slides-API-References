@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/igeometryshape/shapestyle/
 ---
+
 ## IGeometryShape.ShapeStyle property
 
 Returns shape's style object. Read-only [`IShapeStyle`](../../ishapestyle).

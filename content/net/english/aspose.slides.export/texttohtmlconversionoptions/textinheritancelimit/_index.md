@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/texttohtmlconversionoptions/textinheritancelimit/
 ---
+
 ## TextToHtmlConversionOptions.TextInheritanceLimit property
 
 Returns or sets inhering depth for text properties. Read/write [`TextInheritanceLimit`](../../textinheritancelimit).

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/coloroffset/coloroffset/
 ---
+
 ## ColorOffset constructor
 
 The default constructor.

@@ -6,6 +6,7 @@ type: docs
 weight: 220
 url: /aspose.slides/idocumentproperties/subject/
 ---
+
 ## IDocumentProperties.Subject property
 
 Returns or sets the subject of a presentation. Read/write String.

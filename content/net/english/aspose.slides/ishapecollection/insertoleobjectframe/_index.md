@@ -6,6 +6,7 @@ type: docs
 weight: 300
 url: /aspose.slides/ishapecollection/insertoleobjectframe/
 ---
+
 ## InsertOleObjectFrame(int, float, float, float, float, IOleEmbeddedDataInfo) {#insertoleobjectframe}
 
 Creates a new OLE object and inserts it to a collection at the specified index.

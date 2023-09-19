@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartwall/picturetype/
 ---
+
 ## IChartWall.PictureType property
 
 Return or sets the picture type. Read/write `PictureType`.

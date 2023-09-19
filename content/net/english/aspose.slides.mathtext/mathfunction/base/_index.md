@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathfunction/base/
 ---
+
 ## MathFunction.Base property
 
 Function Argument

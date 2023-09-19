@@ -6,6 +6,7 @@ type: docs
 weight: 340
 url: /aspose.slides/ipresentation/save/
 ---
+
 ## Save(string, SaveFormat) {#save_5}
 
 Saves all slides of a presentation to a file with the specified format.

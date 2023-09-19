@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/iparagraphcollection/asienumerable/
 ---
+
 ## IParagraphCollection.AsIEnumerable property
 
 Returns IEnumerable interface. Read-only IEnumerable.

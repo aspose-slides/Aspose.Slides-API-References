@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/imoderncomment/textselectionlength/
 ---
+
 ## IModernComment.TextSelectionLength property
 
 Returns or sets text selection length in text frame if the comment associated with AutoShape. Read/write Int32.

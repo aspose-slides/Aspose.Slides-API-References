@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathmatrix/basejustification/
 ---
+
 ## IMathMatrix.BaseJustification property
 
 Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center

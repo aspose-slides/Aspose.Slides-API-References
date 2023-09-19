@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/imagetransformoperationcollection/addalphaceilingeffect/
 ---
+
 ## ImageTransformOperationCollection.AddAlphaCeilingEffect method
 
 Adds the new Alpha Ceiling effect to the end of a collection.

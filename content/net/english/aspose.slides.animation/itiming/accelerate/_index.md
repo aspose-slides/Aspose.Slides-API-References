@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/itiming/accelerate/
 ---
+
 ## ITiming.Accelerate property
 
 Describes the percentage of duration accelerate behavior effect. Read/write Single.

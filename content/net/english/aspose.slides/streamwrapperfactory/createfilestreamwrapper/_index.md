@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/streamwrapperfactory/createfilestreamwrapper/
 ---
+
 ## CreateFileStreamWrapper(string, FileMode) {#createfilestreamwrapper}
 
 Creates FileStream with the specified path and creation mode.

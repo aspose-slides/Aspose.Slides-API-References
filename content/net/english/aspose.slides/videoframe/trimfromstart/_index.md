@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/videoframe/trimfromstart/
 ---
+
 ## VideoFrame.TrimFromStart property
 
 Trim start [ms]

@@ -3,9 +3,10 @@ title: IEffectStyleCollectionEffectiveData
 second_title: Aspose.Sildes for .NET API Reference
 description: Immutable object that represents a readonly collection of effective effect styles.
 type: docs
-weight: 10540
+weight: 10550
 url: /aspose.slides.theme/ieffectstylecollectioneffectivedata/
 ---
+
 ## IEffectStyleCollectionEffectiveData interface
 
 Immutable object that represents a readonly collection of effective effect styles.

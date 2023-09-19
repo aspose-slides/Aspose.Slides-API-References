@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.charts/datalabel/x/
 ---
+
 ## DataLabel.X property
 
 Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write Single.

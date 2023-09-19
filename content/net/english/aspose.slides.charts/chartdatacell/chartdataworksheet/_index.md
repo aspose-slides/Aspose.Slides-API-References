@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/chartdatacell/chartdataworksheet/
 ---
+
 ## ChartDataCell.ChartDataWorksheet property
 
 Gets the worksheet. Read-only [`IChartDataWorksheet`](../../ichartdataworksheet).

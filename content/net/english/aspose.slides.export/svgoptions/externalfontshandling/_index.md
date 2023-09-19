@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.export/svgoptions/externalfontshandling/
 ---
+
 ## SVGOptions.ExternalFontsHandling property
 
 Determines a way of handling externally loaded fonts. Read/write [`SvgExternalFontsHandling`](../../svgexternalfontshandling).

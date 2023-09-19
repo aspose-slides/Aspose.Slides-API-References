@@ -3,9 +3,10 @@ title: AxisFormat
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents chart format properties.
 type: docs
-weight: 1090
+weight: 1100
 url: /aspose.slides.charts/axisformat/
 ---
+
 ## AxisFormat class
 
 Represents chart format properties.

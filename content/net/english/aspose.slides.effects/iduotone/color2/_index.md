@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/iduotone/color2/
 ---
+
 ## IDuotone.Color2 property
 
 Returns target color format for light pixels. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

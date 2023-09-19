@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.theme/icolorscheme/item/
 ---
+
 ## IColorScheme indexer
 
 Gets the element at the specified index. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

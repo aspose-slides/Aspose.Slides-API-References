@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/idatalabel/asioverridabletext/
 ---
+
 ## IDataLabel.AsIOverridableText property
 
 Returns IOverridableText interface. Read-only [`IOverridableText`](../../ioverridabletext).

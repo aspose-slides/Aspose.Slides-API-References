@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/hyperlink/media/
 ---
+
 ## Hyperlink.Media property
 
 Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame. Read-only [`Hyperlink`](../../hyperlink).

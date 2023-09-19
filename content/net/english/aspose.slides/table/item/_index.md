@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/table/item/
 ---
+
 ## Table indexer
 
 Returns the cell at the specified column and row indexes. Read-only [`Cell`](../../cell).

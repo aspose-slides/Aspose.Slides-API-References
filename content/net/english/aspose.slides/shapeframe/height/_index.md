@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/shapeframe/height/
 ---
+
 ## ShapeFrame.Height property
 
 Returns the height of a frame. Read-only Single.

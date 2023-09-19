@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.theme/icolorschemeeffectivedata/hyperlink/
 ---
+
 ## IColorSchemeEffectiveData.Hyperlink property
 
 Color for the hyperlinks. Read-only Color.

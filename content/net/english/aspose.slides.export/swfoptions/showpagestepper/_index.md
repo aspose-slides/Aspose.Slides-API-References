@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.export/swfoptions/showpagestepper/
 ---
+
 ## SwfOptions.ShowPageStepper property
 
 Show/hide page stepper. Can be overridden in flashvars. Default is true.

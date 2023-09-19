@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/imagetransformoperationcollection/isreadonly/
 ---
+
 ## ImageTransformOperationCollection.IsReadOnly property
 
 Gets a value indicating whether the ICollection is read-only. Read-only Boolean.

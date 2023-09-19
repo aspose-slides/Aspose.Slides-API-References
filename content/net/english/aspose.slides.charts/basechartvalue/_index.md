@@ -3,9 +3,10 @@ title: BaseChartValue
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a value of a chart.
 type: docs
-weight: 1110
+weight: 1120
 url: /aspose.slides.charts/basechartvalue/
 ---
+
 ## BaseChartValue class
 
 Represents a value of a chart.

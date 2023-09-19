@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.effects/effectfactory/createsoftedge/
 ---
+
 ## EffectFactory.CreateSoftEdge method
 
 Creates Soft Edge effect.

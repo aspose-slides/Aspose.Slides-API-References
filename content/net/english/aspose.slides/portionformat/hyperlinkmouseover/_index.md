@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/portionformat/hyperlinkmouseover/
 ---
+
 ## PortionFormat.HyperlinkMouseOver property
 
 Returns or sets the hyperlink defined for mouse over. Read/write [`IHyperlink`](../../ihyperlink).

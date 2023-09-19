@@ -6,6 +6,7 @@ type: docs
 weight: 460
 url: /aspose.slides.charts/iaxis/overflowbin/
 ---
+
 ## IAxis.OverflowBin property
 
 Specifies overflow bin custom value. Applied when IsAutomaticOverflowBin property setted to false and IsOverflowBin property equals true.

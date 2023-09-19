@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iloadoptions/interruptiontoken/
 ---
+
 ## ILoadOptions.InterruptionToken property
 
 The token to monitor for interruption requests.  This token manages the whole [`IPresentation`](../../ipresentation) instance lifetime. Any long-running operation, such as presentaion loading or saving, will be interrupted via calling of the [`Interrupt`](../../iinterruptiontokensource/interrupt) method of the [`IInterruptionTokenSource`](../../iinterruptiontokensource).

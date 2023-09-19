@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.export.web/webdocument/output/
 ---
+
 ## WebDocument.Output property
 
 Returns collection of output elements of the document. Read-only `Output`.

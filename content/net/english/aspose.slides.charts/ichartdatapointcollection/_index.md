@@ -3,9 +3,10 @@ title: IChartDataPointCollection
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents collection of a series data point.
 type: docs
-weight: 1720
+weight: 1730
 url: /aspose.slides.charts/ichartdatapointcollection/
 ---
+
 ## IChartDataPointCollection interface
 
 Represents collection of a series data point.

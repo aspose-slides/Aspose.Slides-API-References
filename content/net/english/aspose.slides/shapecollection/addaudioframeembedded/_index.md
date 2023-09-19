@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/shapecollection/addaudioframeembedded/
 ---
+
 ## AddAudioFrameEmbedded(float, float, float, float, Stream) {#addaudioframeembedded_1}
 
 Adds a new audio frame with embedded audio file to the end of a collection. Embedded audio file can be a WAV only. It adds new audio into Presentation.Audios list.

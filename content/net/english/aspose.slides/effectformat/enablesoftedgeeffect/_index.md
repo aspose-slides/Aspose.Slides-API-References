@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides/effectformat/enablesoftedgeeffect/
 ---
+
 ## EffectFormat.EnableSoftEdgeEffect method
 
 Enables soft edge effect.

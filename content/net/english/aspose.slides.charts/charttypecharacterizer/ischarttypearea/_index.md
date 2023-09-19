@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypearea/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeArea method
 
 Return true if chartType is one of Area subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): Area, PercentsStackedArea, PercentsStackedArea3D, StackedArea, StackedArea3D, Area3D.

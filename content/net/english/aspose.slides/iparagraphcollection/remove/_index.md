@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/iparagraphcollection/remove/
 ---
+
 ## IParagraphCollection.Remove method
 
 Removes the first occurrence of a specific paragraph.

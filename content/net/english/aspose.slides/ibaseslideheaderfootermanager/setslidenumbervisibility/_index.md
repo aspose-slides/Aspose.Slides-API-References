@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/ibaseslideheaderfootermanager/setslidenumbervisibility/
 ---
+
 ## IBaseSlideHeaderFooterManager.SetSlideNumberVisibility method
 
 Changes slide page number placeholder visibility.

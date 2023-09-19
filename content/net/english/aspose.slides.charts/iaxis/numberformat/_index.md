@@ -6,6 +6,7 @@ type: docs
 weight: 440
 url: /aspose.slides.charts/iaxis/numberformat/
 ---
+
 ## IAxis.NumberFormat property
 
 Represents the format string for the Axis Labels. Read/write String.

@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/iparagraphformat/righttoleft/
 ---
+
 ## IParagraphFormat.RightToLeft property
 
 Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

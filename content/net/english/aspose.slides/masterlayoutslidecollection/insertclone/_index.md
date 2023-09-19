@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/masterlayoutslidecollection/insertclone/
 ---
+
 ## MasterLayoutSlideCollection.InsertClone method
 
 Inserts a copy of a specified layout slide to specified position of the collection.

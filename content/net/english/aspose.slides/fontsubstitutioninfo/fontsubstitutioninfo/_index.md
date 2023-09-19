@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fontsubstitutioninfo/fontsubstitutioninfo/
 ---
+
 ## FontSubstitutionInfo constructor
 
 Creates an instance of [`FontSubstitutionInfo`](../../fontsubstitutioninfo) class.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/ieightdirectiontransition/direction/
 ---
+
 ## IEightDirectionTransition.Direction property
 
 Direction of transition. Read/write [`TransitionEightDirectionType`](../../transitioneightdirectiontype).

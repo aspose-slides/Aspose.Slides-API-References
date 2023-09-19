@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imasterslidecollection/insertclone/
 ---
+
 ## IMasterSlideCollection.InsertClone method
 
 Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/ichartdataworkbook/calculateformulas/
 ---
+
 ## IChartDataWorkbook.CalculateFormulas method
 
 Calculates all formulas in the workbook and updates corresponding cells values.

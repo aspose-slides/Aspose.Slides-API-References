@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ifield/type/
 ---
+
 ## IField.Type property
 
 Returns or sets field's type. Read/write [`IFieldType`](../../ifieldtype).

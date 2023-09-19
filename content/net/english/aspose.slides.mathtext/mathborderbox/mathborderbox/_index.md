@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathborderbox/mathborderbox/
 ---
+
 ## MathBorderBox(IMathElement) {#constructor}
 
 Creates MathBorderBox element with rectangular border

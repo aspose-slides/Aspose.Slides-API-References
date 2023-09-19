@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/icolorchangeeffectivedata/tocolor/
 ---
+
 ## IColorChangeEffectiveData.ToColor property
 
 Color which will replace. Read-only Color.

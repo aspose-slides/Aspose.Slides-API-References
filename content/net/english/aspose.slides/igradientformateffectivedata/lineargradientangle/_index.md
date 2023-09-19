@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/igradientformateffectivedata/lineargradientangle/
 ---
+
 ## IGradientFormatEffectiveData.LinearGradientAngle property
 
 Returns the angle of a gradient. Read-only Single.

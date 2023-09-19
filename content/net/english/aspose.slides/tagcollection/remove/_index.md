@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/tagcollection/remove/
 ---
+
 ## TagCollection.Remove method
 
 Removes the tag with a specified name from the collection.

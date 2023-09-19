@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/igradientformat/gradientstops/
 ---
+
 ## IGradientFormat.GradientStops property
 
 Returns the collection of gradient stops. Read-only [`IGradientStopCollection`](../../igradientstopcollection).

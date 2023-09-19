@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/layoutslidecollection/remove/
 ---
+
 ## LayoutSlideCollection.Remove method
 
 Removes a layout from the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/izoomobject/transitionduration/
 ---
+
 ## IZoomObject.TransitionDuration property
 
 Gets or sets the duration of the transition between Zoom and slide. Read/write Single. Default value: 1.0f

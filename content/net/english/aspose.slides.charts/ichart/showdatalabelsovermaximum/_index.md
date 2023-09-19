@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.charts/ichart/showdatalabelsovermaximum/
 ---
+
 ## IChart.ShowDataLabelsOverMaximum property
 
 Specifies data labels over the maximum of the chart shall be shown. Read/write Boolean.

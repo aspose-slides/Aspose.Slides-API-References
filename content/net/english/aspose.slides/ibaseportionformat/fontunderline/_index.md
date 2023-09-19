@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ibaseportionformat/fontunderline/
 ---
+
 ## IBasePortionFormat.FontUnderline property
 
 Returns or sets the text underline type. No inheritance applied. Read/write [`TextUnderlineType`](../../textunderlinetype).

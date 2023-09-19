@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ibasehandoutnotesslideheaderfootermanag/setheadervisibility/
 ---
+
 ## IBaseHandoutNotesSlideHeaderFooterManag.SetHeaderVisibility method
 
 Changes slide header placeholder visibility.

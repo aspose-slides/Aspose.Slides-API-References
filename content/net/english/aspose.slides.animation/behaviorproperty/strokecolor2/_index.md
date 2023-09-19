@@ -6,6 +6,7 @@ type: docs
 weight: 890
 url: /aspose.slides.animation/behaviorproperty/strokecolor2/
 ---
+
 ## BehaviorProperty.StrokeColor2 property
 
 Represents 'stroke.color2' property

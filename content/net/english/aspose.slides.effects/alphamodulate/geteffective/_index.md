@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/alphamodulate/geteffective/
 ---
+
 ## AlphaModulate.GetEffective method
 
 Gets effective Alpha Modulate effect data with the inheritance applied.

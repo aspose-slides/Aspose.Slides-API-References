@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/igeometryshape/createshapeelements/
 ---
+
 ## IGeometryShape.CreateShapeElements method
 
 Creates and returns array of shape's elements.

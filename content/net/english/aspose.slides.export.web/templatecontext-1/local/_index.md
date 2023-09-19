@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export.web/templatecontext-1/local/
 ---
+
 ## TemplateContext&lt;TObject&gt;.Local property
 
 Returns local storage of the current template context. Read-only [`Storage`](../../storage).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/ioutershadoweffectivedata/rotateshadowwithshape/
 ---
+
 ## IOuterShadowEffectiveData.RotateShadowWithShape property
 
 Specifies whether the shadow should rotate with the shape if the shape is rotated. Read-only Boolean.

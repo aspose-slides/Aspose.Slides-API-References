@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/istreamwrapper/canwrite/
 ---
+
 ## IStreamWrapper.CanWrite property
 
 Gets a value indicating whether the current stream supports writing. Read-only Boolean.

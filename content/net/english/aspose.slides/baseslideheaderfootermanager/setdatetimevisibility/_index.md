@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/baseslideheaderfootermanager/setdatetimevisibility/
 ---
+
 ## BaseSlideHeaderFooterManager.SetDateTimeVisibility method
 
 Changes slide date-time placeholder visibility.

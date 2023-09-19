@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/idatatable/showlegendkey/
 ---
+
 ## IDataTable.ShowLegendKey property
 
 True if the data label legend key is visible. Read/write Boolean.

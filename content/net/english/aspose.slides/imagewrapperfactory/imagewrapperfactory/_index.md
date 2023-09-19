@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/imagewrapperfactory/imagewrapperfactory/
 ---
+
 ## ImageWrapperFactory constructor
 
 The default constructor.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.theme/colorscheme/accent4/
 ---
+
 ## ColorScheme.Accent4 property
 
 Fourth accent color in the scheme. Read-only [`IColorFormat`](../../../aspose.slides/icolorformat).

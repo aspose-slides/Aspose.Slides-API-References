@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/baseslide/presentation/
 ---
+
 ## BaseSlide.Presentation property
 
 Returns IPresentation interface. Read-only [`IPresentation`](../../ipresentation).

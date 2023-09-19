@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathsubscriptelement/asimathelement/
 ---
+
 ## IMathSubscriptElement.AsIMathElement property
 
 Allows to get base IMathElement interface [`IMathElement`](../../imathelement)

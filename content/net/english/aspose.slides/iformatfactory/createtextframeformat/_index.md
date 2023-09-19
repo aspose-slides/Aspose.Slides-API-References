@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iformatfactory/createtextframeformat/
 ---
+
 ## IFormatFactory.CreateTextFrameFormat method
 
 Creates new [`ITextFrameFormat`](../../itextframeformat).

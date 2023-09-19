@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides.charts/chart/textformat/
 ---
+
 ## Chart.TextFormat property
 
 Returns chart text format. The property is not applicable for the following types: Treemap, Sunburst, Waterfall, Histogram, Funnel,BoxAndWhisker. Read-only [`IChartTextFormat`](../../icharttextformat).

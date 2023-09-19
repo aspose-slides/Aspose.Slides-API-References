@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/loadoptions/interruptiontoken/
 ---
+
 ## LoadOptions.InterruptionToken property
 
 The token to monitor for interruption requests.  This token manages the whole [`IPresentation`](../../ipresentation) instance lifetime. Any long-running operation, such as loading or saving of presentation, will be interrupted via calling of the [`Interrupt`](../../interruptiontokensource/interrupt) method of the [`InterruptionTokenSource`](../../interruptiontokensource).

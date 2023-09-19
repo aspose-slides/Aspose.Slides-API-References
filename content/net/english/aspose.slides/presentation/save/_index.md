@@ -6,6 +6,7 @@ type: docs
 weight: 350
 url: /aspose.slides/presentation/save/
 ---
+
 ## Save(string, int[], SaveFormat) {#save_9}
 
 Saves specified slides of a presentation to a file with the specified format with page number keeping.

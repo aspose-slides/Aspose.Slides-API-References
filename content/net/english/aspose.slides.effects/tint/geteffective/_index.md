@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/tint/geteffective/
 ---
+
 ## Tint.GetEffective method
 
 Gets effective Tint effect data with the inheritance applied.

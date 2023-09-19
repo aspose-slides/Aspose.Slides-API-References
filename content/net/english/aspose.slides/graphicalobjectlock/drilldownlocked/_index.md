@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/graphicalobjectlock/drilldownlocked/
 ---
+
 ## GraphicalObjectLock.DrilldownLocked property
 
 Determines whether selecting subshapes of this object is forbidden. Read/write Boolean.

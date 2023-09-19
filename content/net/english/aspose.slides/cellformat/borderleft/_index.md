@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/cellformat/borderleft/
 ---
+
 ## CellFormat.BorderLeft property
 
 Returns a left border line properties object. Read-only [`ILineFormat`](../../ilineformat).

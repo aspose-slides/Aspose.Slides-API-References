@@ -3,9 +3,10 @@ title: IShapeFrame
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents shape frames properties.
 type: docs
-weight: 6550
+weight: 6560
 url: /aspose.slides/ishapeframe/
 ---
+
 ## IShapeFrame interface
 
 Represents shape frame's properties.

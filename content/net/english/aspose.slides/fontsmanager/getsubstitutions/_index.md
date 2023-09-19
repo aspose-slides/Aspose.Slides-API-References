@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/fontsmanager/getsubstitutions/
 ---
+
 ## FontsManager.GetSubstitutions method
 
 Gets the information about fonts that will be replaced on the presentation's rendering.

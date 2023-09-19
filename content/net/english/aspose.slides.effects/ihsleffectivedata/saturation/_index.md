@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/ihsleffectivedata/saturation/
 ---
+
 ## IHSLEffectiveData.Saturation property
 
 Returns saturation percentage. Read-only Single.

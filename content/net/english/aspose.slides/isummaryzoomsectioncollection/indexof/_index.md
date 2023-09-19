@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/isummaryzoomsectioncollection/indexof/
 ---
+
 ## ISummaryZoomSectionCollection.IndexOf method
 
 Returns an index of the specified SummaryZoomSection object.

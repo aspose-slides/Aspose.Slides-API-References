@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/fieldtype/datetime13/
 ---
+
 ## FieldType.DateTime13 property
 
 Current date and time in a thirteenth predefined format (hh:mm:ss AM/PM for english). Read-only [`FieldType`](../../fieldtype).

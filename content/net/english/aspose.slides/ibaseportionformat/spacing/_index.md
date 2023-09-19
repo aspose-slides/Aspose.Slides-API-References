@@ -6,6 +6,7 @@ type: docs
 weight: 210
 url: /aspose.slides/ibaseportionformat/spacing/
 ---
+
 ## IBasePortionFormat.Spacing property
 
 Returns or sets the intercharacter spacing increment. **float.NaN** means value is undefined and should be inherited from the Master. Read/write Single.

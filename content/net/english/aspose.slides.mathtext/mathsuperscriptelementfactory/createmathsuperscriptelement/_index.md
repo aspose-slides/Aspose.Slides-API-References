@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/mathsuperscriptelementfactory/createmathsuperscriptelement/
 ---
+
 ## MathSuperscriptElementFactory.CreateMathSuperscriptElement method
 
 Creates IMathSuperscriptElement

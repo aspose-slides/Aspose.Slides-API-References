@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/controlcollection/addcontrol/
 ---
+
 ## ControlCollection.AddControl method
 
 Creates and adds a new control to the collection.

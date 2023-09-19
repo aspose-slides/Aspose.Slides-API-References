@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.charts/basechartvalue/datasourcetype/
 ---
+
 ## BaseChartValue.DataSourceType property
 
 Specifies whether AsCell, AsCells, AsLiteralString or AsLiteralDouble property is actual in descendants. In other words it specifies the type of value of the Data property. Read/write [`DataSourceType`](../../datasourcetype).

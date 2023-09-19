@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/video/getstream/
 ---
+
 ## Video.GetStream method
 
 Returns Stream stream for reading. Use 'using' or close stream after using.

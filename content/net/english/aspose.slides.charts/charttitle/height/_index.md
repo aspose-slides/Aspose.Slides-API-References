@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/charttitle/height/
 ---
+
 ## ChartTitle.Height property
 
 Returns or sets the height of a title as a fraction of the height of the chart. Read/write Single.

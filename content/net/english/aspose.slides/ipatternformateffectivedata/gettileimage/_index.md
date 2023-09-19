@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ipatternformateffectivedata/gettileimage/
 ---
+
 ## IPatternFormatEffectiveData.GetTileImage method
 
 Creates a tile image for the pattern fill with a specified colors.

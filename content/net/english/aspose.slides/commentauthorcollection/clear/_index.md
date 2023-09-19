@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/commentauthorcollection/clear/
 ---
+
 ## CommentAuthorCollection.Clear method
 
 Removes all authors from a collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathnaryoperatorproperties/growtomatchoperandheight/
 ---
+
 ## IMathNaryOperatorProperties.GrowToMatchOperandHeight property
 
 Operator Character grows vertically to match its operand height

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/vbaproject/vbaproject/
 ---
+
 ## VbaProject() {#constructor}
 
 This constructor creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage

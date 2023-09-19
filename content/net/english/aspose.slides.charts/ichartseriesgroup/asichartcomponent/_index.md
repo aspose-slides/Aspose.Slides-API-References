@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/ichartseriesgroup/asichartcomponent/
 ---
+
 ## IChartSeriesGroup.AsIChartComponent property
 
 Allows to get base IChartComponent interface. Read-only [`IChartComponent`](../../ichartcomponent).

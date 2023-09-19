@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/hyperlink/targetslide/
 ---
+
 ## Hyperlink.TargetSlide property
 
 If the Hyperlink targets specific slide returns this slide. Read-only [`ISlide`](../../islide).

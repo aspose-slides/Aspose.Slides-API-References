@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/mathaccent/mathaccent/
 ---
+
 ## MathAccent(IMathElement) {#constructor}
 
 Creates a math accent applying to a specified math element with the default accent character value

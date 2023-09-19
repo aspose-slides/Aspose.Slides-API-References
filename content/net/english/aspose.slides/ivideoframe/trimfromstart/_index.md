@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/ivideoframe/trimfromstart/
 ---
+
 ## IVideoFrame.TrimFromStart property
 
 Trim start [ms]

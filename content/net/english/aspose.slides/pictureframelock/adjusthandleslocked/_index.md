@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/pictureframelock/adjusthandleslocked/
 ---
+
 ## PictureFrameLock.AdjustHandlesLocked property
 
 Determines whether a changing adjust values is forbidden. Read/write Boolean.

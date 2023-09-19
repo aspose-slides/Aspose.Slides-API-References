@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/iconnectorlock/groupinglocked/
 ---
+
 ## IConnectorLock.GroupingLocked property
 
 Determines whether an adding this shape to a group is forbidden. Read/write Boolean.

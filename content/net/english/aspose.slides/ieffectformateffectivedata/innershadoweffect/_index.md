@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/ieffectformateffectivedata/innershadoweffect/
 ---
+
 ## IEffectFormatEffectiveData.InnerShadowEffect property
 
 Inner shadow. Read-only [`IInnerShadowEffectiveData`](../../../aspose.slides.effects/iinnershadoweffectivedata).

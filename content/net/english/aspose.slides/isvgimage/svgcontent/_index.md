@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/isvgimage/svgcontent/
 ---
+
 ## ISvgImage.SvgContent property
 
 Returns SVG content. Read-only String.

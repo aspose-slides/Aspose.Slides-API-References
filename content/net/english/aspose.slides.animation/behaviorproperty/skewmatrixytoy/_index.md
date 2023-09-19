@@ -6,6 +6,7 @@ type: docs
 weight: 820
 url: /aspose.slides.animation/behaviorproperty/skewmatrixytoy/
 ---
+
 ## BehaviorProperty.SkewMatrixYtoY property
 
 Represents 'skew.matrix.ytoy' property

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/paragraphformat/hangingpunctuation/
 ---
+
 ## ParagraphFormat.HangingPunctuation property
 
 Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write [`NullableBool`](../../nullablebool).

@@ -3,9 +3,10 @@ title: MathLeftSubSuperscriptElement
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies the Sub-Superscript object which consists of a base and a subscript and superscript placed to the left of the base.
 type: docs
-weight: 8220
+weight: 8230
 url: /aspose.slides.mathtext/mathleftsubsuperscriptelement/
 ---
+
 ## MathLeftSubSuperscriptElement class
 
 Specifies the Sub-Superscript object, which consists of a base and a subscript and superscript placed to the left of the base.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.theme/iformatschemeeffectivedata/geteffectstyles/
 ---
+
 ## IFormatSchemeEffectiveData.GetEffectStyles method
 
 Returns a collection of theme defined effect styles.

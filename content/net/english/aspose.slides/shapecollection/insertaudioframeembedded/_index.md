@@ -6,6 +6,7 @@ type: docs
 weight: 280
 url: /aspose.slides/shapecollection/insertaudioframeembedded/
 ---
+
 ## InsertAudioFrameEmbedded(int, float, float, float, float, Stream) {#insertaudioframeembedded_1}
 
 Insert an AudioFrame with embedded audio file. Embedded audio file sound can be a WAV only.

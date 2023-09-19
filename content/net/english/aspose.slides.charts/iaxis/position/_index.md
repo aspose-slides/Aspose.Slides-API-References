@@ -6,6 +6,7 @@ type: docs
 weight: 470
 url: /aspose.slides.charts/iaxis/position/
 ---
+
 ## IAxis.Position property
 
 Represents position of axis. Read/write [`AxisPositionType`](../../axispositiontype).

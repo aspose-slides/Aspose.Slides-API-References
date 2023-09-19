@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/columncollection/insertclone/
 ---
+
 ## ColumnCollection.InsertClone method
 
 Creates a copy of the specified template column and insert it at the specified position in a table.

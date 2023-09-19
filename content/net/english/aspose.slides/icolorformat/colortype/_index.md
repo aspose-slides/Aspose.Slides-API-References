@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/icolorformat/colortype/
 ---
+
 ## IColorFormat.ColorType property
 
 Returns or sets the color definition method. Read/write [`ColorType`](../../colortype).

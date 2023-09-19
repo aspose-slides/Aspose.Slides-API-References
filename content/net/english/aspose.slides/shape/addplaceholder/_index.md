@@ -6,6 +6,7 @@ type: docs
 weight: 320
 url: /aspose.slides/shape/addplaceholder/
 ---
+
 ## Shape.AddPlaceholder method
 
 Adds a new placeholder if there is no and sets placeholder properties to a specified one.

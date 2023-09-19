@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ilicense/setlicense/
 ---
+
 ## SetLicense(string) {#setlicense_1}
 
 Licenses the component.

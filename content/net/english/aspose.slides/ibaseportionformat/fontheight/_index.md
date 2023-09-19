@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ibaseportionformat/fontheight/
 ---
+
 ## IBasePortionFormat.FontHeight property
 
 Returns or sets the font height of a portion. **float.NaN** means height is undefined and should be inherited from the Master. Read/write Single.

@@ -6,6 +6,7 @@ type: docs
 weight: 1250
 url: /aspose.slides.animation/behaviorproperty/equals/
 ---
+
 ## BehaviorProperty.Equals method
 
 Checks if this object is equal to another.

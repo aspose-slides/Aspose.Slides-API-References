@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/ibaseportionformateffectivedata/kerningminimalsize/
 ---
+
 ## IBasePortionFormatEffectiveData.KerningMinimalSize property
 
 Returns the minimal font size, for which kerning should be switched on. Read-only Single.

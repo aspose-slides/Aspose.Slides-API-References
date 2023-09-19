@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/charttextformat/textblockformat/
 ---
+
 ## ChartTextFormat.TextBlockFormat property
 
 TextBlockFormat. Read-only [`IChartTextBlockFormat`](../../icharttextblockformat).

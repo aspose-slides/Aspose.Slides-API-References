@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/ipresentationheaderfootermanager/asibaseheaderfootermanager/
 ---
+
 ## IPresentationHeaderFooterManager.AsIBaseHeaderFooterManager property
 
 Returns IBaseHeaderFooterManager interface.

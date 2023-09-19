@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/table/verticalbanding/
 ---
+
 ## Table.VerticalBanding property
 
 Determines whether the even columns has to be drawn with a different formatting. Read/write Boolean.

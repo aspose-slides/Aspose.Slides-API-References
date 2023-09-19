@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.vba/ivbaproject/tobinary/
 ---
+
 ## IVbaProject.ToBinary method
 
 Returns the binary representation of the VBA project as OLE container. Read-only Byte[].

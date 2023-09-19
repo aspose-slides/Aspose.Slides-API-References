@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/presentationfactory/getpresentationinfo/
 ---
+
 ## GetPresentationInfo(string) {#getpresentationinfo_1}
 
 Creates new PresentationInfo object from file and binds presentation to it.

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/innershadow/direction/
 ---
+
 ## InnerShadow.Direction property
 
 Direction of shadow. Read/write Single.

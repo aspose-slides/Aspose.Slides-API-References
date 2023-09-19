@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/shapeelement/parentshape/
 ---
+
 ## ShapeElement.ParentShape property
 
 Returns a Shape_PPT for which element was created. Read-only [`Shape`](../../shape).

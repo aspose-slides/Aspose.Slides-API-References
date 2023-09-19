@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/ieffectformat/enablegloweffect/
 ---
+
 ## IEffectFormat.EnableGlowEffect method
 
 Enables glow effect.

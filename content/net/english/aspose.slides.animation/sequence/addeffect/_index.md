@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/sequence/addeffect/
 ---
+
 ## AddEffect(IShape, EffectType, EffectSubtype, EffectTriggerType) {#addeffect_3}
 
 Add new effect to the end of sequence.

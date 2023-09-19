@@ -3,9 +3,10 @@ title: IMathBlock
 second_title: Aspose.Sildes for .NET API Reference
 description: Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line. All math zones including equations expressions arrays of equations or expressions and formulas are represented by math block.
 type: docs
-weight: 7560
+weight: 7570
 url: /aspose.slides.mathtext/imathblock/
 ---
+
 ## IMathBlock interface
 
 Specifies an instance of mathematical text that contained within a MathParagraph and starts on its own line. All math zones, including equations, expressions, arrays of equations or expressions, and formulas are represented by math block.

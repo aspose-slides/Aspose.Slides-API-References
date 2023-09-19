@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export/pptxoptions/pptxoptions/
 ---
+
 ## PptxOptions constructor
 
 Creates new instance of PptxOptions

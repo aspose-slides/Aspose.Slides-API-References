@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/islideshowtransition/advanceonclick/
 ---
+
 ## ISlideShowTransition.AdvanceOnClick property
 
 Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read-write Boolean.

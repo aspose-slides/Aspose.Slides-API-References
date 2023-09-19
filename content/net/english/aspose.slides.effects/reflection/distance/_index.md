@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/reflection/distance/
 ---
+
 ## Reflection.Distance property
 
 Distance of reflection. Read/write Double.

@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/lineformat/joinstyle/
 ---
+
 ## LineFormat.JoinStyle property
 
 Returns or sets the lines join style. Read/write [`LineJoinStyle`](../../linejoinstyle).

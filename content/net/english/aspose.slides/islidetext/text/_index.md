@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/islidetext/text/
 ---
+
 ## ISlideText.Text property
 
 The text on the slide's shapes

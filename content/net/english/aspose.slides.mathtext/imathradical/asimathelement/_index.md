@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.mathtext/imathradical/asimathelement/
 ---
+
 ## IMathRadical.AsIMathElement property
 
 Allows to get base IMathElement interface [`IMathElement`](../../imathelement)

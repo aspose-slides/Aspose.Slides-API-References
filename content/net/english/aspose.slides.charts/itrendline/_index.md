@@ -3,9 +3,10 @@ title: ITrendline
 second_title: Aspose.Sildes for .NET API Reference
 description: Class represents trend line of chart series
 type: docs
-weight: 2130
+weight: 2140
 url: /aspose.slides.charts/itrendline/
 ---
+
 ## ITrendline interface
 
 Class represents trend line of chart series

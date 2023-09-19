@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/islidecomponent/slide/
 ---
+
 ## ISlideComponent.Slide property
 
 Returns the base slide. Read-only [`IBaseSlide`](../../ibaseslide).

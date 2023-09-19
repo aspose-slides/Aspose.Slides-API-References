@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.animation/behaviorpropertycollection/add/
 ---
+
 ## Add(IBehaviorProperty) {#add}
 
 Adds a new property to the collection.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/iautoshape/istextbox/
 ---
+
 ## IAutoShape.IsTextBox property
 
 Specifies if the shape is a text box.

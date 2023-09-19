@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/lineformat/isformatnotdefined/
 ---
+
 ## LineFormat.IsFormatNotDefined property
 
 Returns true if line format is not defined (as just created, default). Read-only Boolean.

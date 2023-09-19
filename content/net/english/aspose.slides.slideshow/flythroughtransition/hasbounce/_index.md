@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/flythroughtransition/hasbounce/
 ---
+
 ## FlyThroughTransition.HasBounce property
 
 Specifies that the movement of the presentation slides during the transition includes a bounce. Read/write Boolean.

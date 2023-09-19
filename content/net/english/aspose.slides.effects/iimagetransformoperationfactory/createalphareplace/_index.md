@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.effects/iimagetransformoperationfactory/createalphareplace/
 ---
+
 ## IImageTransformOperationFactory.CreateAlphaReplace method
 
 Creates Alpha replace effect.

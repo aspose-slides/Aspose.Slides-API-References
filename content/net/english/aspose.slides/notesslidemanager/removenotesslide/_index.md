@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/notesslidemanager/removenotesslide/
 ---
+
 ## NotesSlideManager.RemoveNotesSlide method
 
 Removes notes slide of the current slide.

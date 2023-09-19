@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides.effects/reflection/rectanglealign/
 ---
+
 ## Reflection.RectangleAlign property
 
 Rectangle alignment. Read/write [`RectangleAlignment`](../../../aspose.slides/rectanglealignment).

@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides/ilayoutslide/remove/
 ---
+
 ## ILayoutSlide.Remove method
 
 Removes layout from presentation.

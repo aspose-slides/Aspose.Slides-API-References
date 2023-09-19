@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/icontrolcollection/clear/
 ---
+
 ## IControlCollection.Clear method
 
 Removes all controls from the collection.

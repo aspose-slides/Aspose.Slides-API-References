@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/rotation3d/rightangleaxes/
 ---
+
 ## Rotation3D.RightAngleAxes property
 
 Determines whether the chart axes are at right angles, rather than drawn in perspective. In other words it determines whether the chart angles of axes are independent from chart rotation or elevation. Read/write Boolean.

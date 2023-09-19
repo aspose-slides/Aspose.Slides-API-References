@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/iimagecollection/addimage/
 ---
+
 ## AddImage(Image) {#addimage_3}
 
 Add an image to a presentation.

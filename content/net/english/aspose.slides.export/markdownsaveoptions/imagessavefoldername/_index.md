@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/markdownsaveoptions/imagessavefoldername/
 ---
+
 ## MarkdownSaveOptions.ImagesSaveFolderName property
 
 Specifies folder name to save images. Default is `Images`.

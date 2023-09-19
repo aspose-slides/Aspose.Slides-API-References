@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides/ieffectformat/setblureffect/
 ---
+
 ## IEffectFormat.SetBlurEffect method
 
 Sets blur effect.

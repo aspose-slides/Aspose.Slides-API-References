@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/table/firstcol/
 ---
+
 ## Table.FirstCol property
 
 Determines whether the first column of a table has to be drawn with a special formatting. Read/write Boolean.

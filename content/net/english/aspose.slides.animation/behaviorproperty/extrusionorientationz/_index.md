@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides.animation/behaviorproperty/extrusionorientationz/
 ---
+
 ## BehaviorProperty.ExtrusionOrientationZ property
 
 Represents 'extrusion.orientation.z' property

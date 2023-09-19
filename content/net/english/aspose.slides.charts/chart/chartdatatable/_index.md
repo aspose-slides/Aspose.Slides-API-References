@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/chart/chartdatatable/
 ---
+
 ## Chart.ChartDataTable property
 
 Returns a data table of a chart. Read-only [`IDataTable`](../../idatatable).

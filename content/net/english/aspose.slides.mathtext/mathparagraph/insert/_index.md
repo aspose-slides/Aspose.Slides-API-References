@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/mathparagraph/insert/
 ---
+
 ## MathParagraph.Insert method
 
 Inserts IMathBlock into the collection at the specified index.

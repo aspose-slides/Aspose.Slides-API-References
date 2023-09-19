@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/ivideoframe/playmode/
 ---
+
 ## IVideoFrame.PlayMode property
 
 Returns or sets the video play mode. Read/write [`VideoPlayModePreset`](../../videoplaymodepreset).

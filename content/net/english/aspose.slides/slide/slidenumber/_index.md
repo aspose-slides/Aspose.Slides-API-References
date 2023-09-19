@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/slide/slidenumber/
 ---
+
 ## Slide.SlideNumber property
 
 Returns a number of slide. Index of slide in [`Slides`](../../presentation/slides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write Int32.

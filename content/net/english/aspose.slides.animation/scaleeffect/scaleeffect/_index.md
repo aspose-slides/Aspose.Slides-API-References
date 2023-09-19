@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.animation/scaleeffect/scaleeffect/
 ---
+
 ## ScaleEffect constructor
 
 The default constructor.

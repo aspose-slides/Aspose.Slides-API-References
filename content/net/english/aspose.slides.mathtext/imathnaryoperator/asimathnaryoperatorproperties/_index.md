@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.mathtext/imathnaryoperator/asimathnaryoperatorproperties/
 ---
+
 ## IMathNaryOperator.AsIMathNaryOperatorProperties property
 
 Allows to get base IMathNaryOperatorProperties interface [`IMathNaryOperatorProperties`](../../imathnaryoperatorproperties)

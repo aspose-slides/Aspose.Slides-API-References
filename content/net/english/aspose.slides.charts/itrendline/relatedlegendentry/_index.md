@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/itrendline/relatedlegendentry/
 ---
+
 ## ITrendline.RelatedLegendEntry property
 
 Represents legend entry related with this trendline Read-only [`ILegendEntryProperties`](../../ilegendentryproperties).

@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/ifiltereffect/reveal/
 ---
+
 ## IFilterEffect.Reveal property
 
 Represents that effect with behavior must reveal (in/out) Read/write [`FilterEffectRevealType`](../../filtereffectrevealtype).

@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides/ibaseportionformateffectivedata/latinfont/
 ---
+
 ## IBasePortionFormatEffectiveData.LatinFont property
 
 Returns the Latin font info. Read-only [`IFontData`](../../ifontdata).

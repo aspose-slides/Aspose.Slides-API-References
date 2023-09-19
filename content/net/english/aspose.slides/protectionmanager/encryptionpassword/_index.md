@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/protectionmanager/encryptionpassword/
 ---
+
 ## ProtectionManager.EncryptionPassword property
 
 Gets the password which is used for presentation encryption. Read-only String.

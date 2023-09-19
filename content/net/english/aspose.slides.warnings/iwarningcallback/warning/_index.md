@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.warnings/iwarningcallback/warning/
 ---
+
 ## IWarningCallback.Warning method
 
 Callback method which receives warning and decides whether operation should be aborted.

@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.export/isvgoptions/picturescompression/
 ---
+
 ## ISVGOptions.PicturesCompression property
 
 Represents the pictures compression level Read/write `PicturesCompression`.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/extracolorschemecollection/count/
 ---
+
 ## ExtraColorSchemeCollection.Count property
 
 Returns a number of elements int the collection. Read-only Int32.

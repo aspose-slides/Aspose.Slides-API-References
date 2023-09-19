@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/bulletformat/font/
 ---
+
 ## BulletFormat.Font property
 
 Returns or sets the bullet font of a paragraph with no inheritance. Read/write [`IFontData`](../../ifontdata).

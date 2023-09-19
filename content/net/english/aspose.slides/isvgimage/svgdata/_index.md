@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/isvgimage/svgdata/
 ---
+
 ## ISvgImage.SvgData property
 
 Returns SVG data. Read-only Byte[].

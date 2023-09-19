@@ -6,6 +6,7 @@ type: docs
 weight: 910
 url: /aspose.slides.animation/behaviorproperty/strokeendarrow/
 ---
+
 ## BehaviorProperty.StrokeEndArrow property
 
 Represents 'stroke.endArrow' property

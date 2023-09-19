@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.charts/charttypecharacterizer/is3dchart/
 ---
+
 ## ChartTypeCharacterizer.Is3DChart method
 
 Return true if *chartType* is one of 3D chart types.

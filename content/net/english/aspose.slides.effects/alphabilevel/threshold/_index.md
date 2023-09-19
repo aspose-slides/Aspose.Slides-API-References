@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.effects/alphabilevel/threshold/
 ---
+
 ## AlphaBiLevel.Threshold property
 
 Returns effect threshold. Read/write Single.

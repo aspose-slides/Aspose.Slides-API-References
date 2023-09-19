@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.export/ihtml5options/outputpath/
 ---
+
 ## IHtml5Options.OutputPath property
 
 Determines where external resources should be stored. Read/write String.

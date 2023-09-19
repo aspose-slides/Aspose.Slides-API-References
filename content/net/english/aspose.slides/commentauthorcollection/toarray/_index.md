@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/commentauthorcollection/toarray/
 ---
+
 ## CommentAuthorCollection.ToArray method
 
 Creates and returns an array with all authors.

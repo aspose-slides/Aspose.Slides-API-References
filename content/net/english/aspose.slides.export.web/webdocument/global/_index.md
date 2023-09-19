@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.export.web/webdocument/global/
 ---
+
 ## WebDocument.Global property
 
 Returns global storage of the document. Read-only [`Storage`](../../storage).

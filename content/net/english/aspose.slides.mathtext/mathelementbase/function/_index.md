@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.mathtext/mathelementbase/function/
 ---
+
 ## Function(IMathElement) {#function}
 
 Takes a function of an argument using this instance as the function name

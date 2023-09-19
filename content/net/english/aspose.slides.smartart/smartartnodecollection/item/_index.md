@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.smartart/smartartnodecollection/item/
 ---
+
 ## SmartArtNodeCollection indexer
 
 Returns node by index

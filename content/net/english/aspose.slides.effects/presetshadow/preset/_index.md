@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/presetshadow/preset/
 ---
+
 ## PresetShadow.Preset property
 
 Preset. Read/write [`PresetShadowType`](../../../aspose.slides/presetshadowtype).

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/coloroffset/value1/
 ---
+
 ## ColorOffset.Value1 property
 
 Defines second value of offset. Read/write Single.

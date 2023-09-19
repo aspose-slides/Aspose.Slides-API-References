@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/iblur/radius/
 ---
+
 ## IBlur.Radius property
 
 Returns or sets blur radius. Read/write Double.

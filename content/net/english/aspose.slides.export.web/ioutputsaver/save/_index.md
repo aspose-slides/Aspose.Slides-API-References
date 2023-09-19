@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.export.web/ioutputsaver/save/
 ---
+
 ## IOutputSaver.Save method
 
 Saves the output file to the given path.

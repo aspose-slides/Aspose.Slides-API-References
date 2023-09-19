@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/iaudioframe/rewindaudio/
 ---
+
 ## IAudioFrame.RewindAudio property
 
 Determines whether an audio is automatically rewinded to start after playing. Read/write Boolean.

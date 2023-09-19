@@ -6,6 +6,7 @@ type: docs
 weight: 400
 url: /aspose.slides/shapecollection/insertvideoframe/
 ---
+
 ## ShapeCollection.InsertVideoFrame method
 
 Creates a new video frame and inserts it to a collection at the specified index.

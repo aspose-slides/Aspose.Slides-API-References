@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ithreedformateffectivedata/bevelbottom/
 ---
+
 ## IThreeDFormatEffectiveData.BevelBottom property
 
 Returns the type of a bottom 3D bevel. Read-only [`IShapeBevelEffectiveData`](../../ishapebeveleffectivedata).

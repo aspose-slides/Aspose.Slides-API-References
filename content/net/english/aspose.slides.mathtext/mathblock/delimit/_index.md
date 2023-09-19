@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides.mathtext/mathblock/delimit/
 ---
+
 ## MathBlock.Delimit method
 
 Delimits child elements with separator character (without the brackets)

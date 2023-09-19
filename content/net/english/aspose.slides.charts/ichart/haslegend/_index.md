@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/ichart/haslegend/
 ---
+
 ## IChart.HasLegend property
 
 Determines whether a chart has a legend. Read/write Boolean.

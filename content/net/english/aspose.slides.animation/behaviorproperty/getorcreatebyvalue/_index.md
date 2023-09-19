@@ -6,6 +6,7 @@ type: docs
 weight: 1220
 url: /aspose.slides.animation/behaviorproperty/getorcreatebyvalue/
 ---
+
 ## BehaviorProperty.GetOrCreateByValue method
 
 Looks for existing behavior property by value or creates new custom one with the specified value

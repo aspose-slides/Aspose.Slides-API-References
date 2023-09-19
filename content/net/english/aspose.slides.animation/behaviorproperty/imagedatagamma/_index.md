@@ -6,6 +6,7 @@ type: docs
 weight: 490
 url: /aspose.slides.animation/behaviorproperty/imagedatagamma/
 ---
+
 ## BehaviorProperty.ImageDataGamma property
 
 Represents 'imageData.gamma' property

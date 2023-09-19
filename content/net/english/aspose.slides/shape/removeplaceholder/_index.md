@@ -6,6 +6,7 @@ type: docs
 weight: 350
 url: /aspose.slides/shape/removeplaceholder/
 ---
+
 ## Shape.RemovePlaceholder method
 
 Defines that this shape isn't a placeholder.

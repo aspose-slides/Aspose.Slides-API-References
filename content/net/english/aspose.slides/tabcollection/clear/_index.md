@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/tabcollection/clear/
 ---
+
 ## TabCollection.Clear method
 
 Removes all elements from the collection.

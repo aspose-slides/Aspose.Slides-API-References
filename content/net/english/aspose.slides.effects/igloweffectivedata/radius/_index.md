@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/igloweffectivedata/radius/
 ---
+
 ## IGlowEffectiveData.Radius property
 
 Radius. Read-only Double.

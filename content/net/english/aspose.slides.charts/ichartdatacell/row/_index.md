@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/ichartdatacell/row/
 ---
+
 ## IChartDataCell.Row property
 
 Returns the index of the row of worksheet in which the cell is located. Read-only Int32.

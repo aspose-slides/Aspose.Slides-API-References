@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/presetshadow/distance/
 ---
+
 ## PresetShadow.Distance property
 
 Distance of shadow. Read/write Double.

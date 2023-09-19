@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.slideshow/iflythroughtransition/direction/
 ---
+
 ## IFlyThroughTransition.Direction property
 
 Direction of transition. Read/write [`TransitionInOutDirectionType`](../../transitioninoutdirectiontype).

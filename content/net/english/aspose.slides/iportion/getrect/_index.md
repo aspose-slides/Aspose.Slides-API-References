@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iportion/getrect/
 ---
+
 ## IPortion.GetRect method
 
 Get coordinates of rect that bounds portion. The rect includes all the lines of text in portion, including empty ones.

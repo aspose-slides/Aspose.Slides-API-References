@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides/slidecollection/remove/
 ---
+
 ## SlideCollection.Remove method
 
 Removes the first occurrence of a specific object from the collection.

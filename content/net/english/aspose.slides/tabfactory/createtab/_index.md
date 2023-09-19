@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/tabfactory/createtab/
 ---
+
 ## TabFactory.CreateTab method
 
 Creates a new ITab instance.

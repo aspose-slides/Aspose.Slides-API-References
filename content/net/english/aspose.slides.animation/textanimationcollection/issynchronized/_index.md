@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.animation/textanimationcollection/issynchronized/
 ---
+
 ## TextAnimationCollection.IsSynchronized property
 
 Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only Boolean.

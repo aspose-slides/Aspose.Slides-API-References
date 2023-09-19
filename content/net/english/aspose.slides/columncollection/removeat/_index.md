@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/columncollection/removeat/
 ---
+
 ## ColumnCollection.RemoveAt method
 
 Removes a column at the specified position from a table.

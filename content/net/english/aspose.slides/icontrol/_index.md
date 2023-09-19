@@ -3,9 +3,10 @@ title: IControl
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an ActiveX control.
 type: docs
-weight: 5260
+weight: 5270
 url: /aspose.slides/icontrol/
 ---
+
 ## IControl interface
 
 Represents an ActiveX control.

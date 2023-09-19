@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/itagcollection/remove/
 ---
+
 ## ITagCollection.Remove method
 
 Removes the tag with a specified name from the collection.

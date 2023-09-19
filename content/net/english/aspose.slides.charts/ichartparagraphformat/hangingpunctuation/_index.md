@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/ichartparagraphformat/hangingpunctuation/
 ---
+
 ## IChartParagraphFormat.HangingPunctuation property
 
 Determines whether the hanging punctuation is used in a paragraph. Read/write [`NullableBool`](../../../aspose.slides/nullablebool).

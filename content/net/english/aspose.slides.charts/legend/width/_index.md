@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/legend/width/
 ---
+
 ## Legend.Width property
 
 Returns or sets the width of a legend as a fraction of the width of the chart. Read/write Single.

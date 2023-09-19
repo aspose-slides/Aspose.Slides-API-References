@@ -6,6 +6,7 @@ type: docs
 weight: 510
 url: /aspose.slides.charts/axis/ticklabelposition/
 ---
+
 ## Axis.TickLabelPosition property
 
 Represents the position of tick-mark labels on the specified axis. Read/write [`TickLabelPositionType`](../../ticklabelpositiontype).

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/ihyperlinkqueries/removeallhyperlinks/
 ---
+
 ## IHyperlinkQueries.RemoveAllHyperlinks method
 
 Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects).

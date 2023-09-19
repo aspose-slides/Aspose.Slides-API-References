@@ -6,6 +6,7 @@ type: docs
 weight: 760
 url: /aspose.slides.animation/behaviorproperty/shadowtype/
 ---
+
 ## BehaviorProperty.ShadowType property
 
 Represents 'shadow.type' property

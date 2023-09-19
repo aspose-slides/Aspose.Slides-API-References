@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/fieldtype/fieldtype/
 ---
+
 ## FieldType constructor
 
 Initializes a new instance of FieldType class.

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides/gradientstopcollection/removeat/
 ---
+
 ## GradientStopCollection.RemoveAt method
 
 Removes a gradient stop at the specified index.

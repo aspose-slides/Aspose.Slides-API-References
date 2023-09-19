@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/itextframe/textframeformat/
 ---
+
 ## ITextFrame.TextFrameFormat property
 
 Returns the formatting object for this TextFrame object. Read-only [`ITextFrameFormat`](../../itextframeformat).

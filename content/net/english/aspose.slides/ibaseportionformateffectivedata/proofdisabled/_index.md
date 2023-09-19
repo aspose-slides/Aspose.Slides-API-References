@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides/ibaseportionformateffectivedata/proofdisabled/
 ---
+
 ## IBasePortionFormatEffectiveData.ProofDisabled property
 
 Determines whether the text shouldn't be proofed. Read-only Boolean.

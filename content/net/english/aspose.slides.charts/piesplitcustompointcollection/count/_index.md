@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/piesplitcustompointcollection/count/
 ---
+
 ## PieSplitCustomPointCollection.Count property
 
 Returns or sets the count of chart data points. Read-only Int32.

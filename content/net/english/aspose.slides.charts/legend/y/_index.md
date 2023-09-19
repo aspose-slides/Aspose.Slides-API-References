@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.charts/legend/y/
 ---
+
 ## Legend.Y property
 
 Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write Single.

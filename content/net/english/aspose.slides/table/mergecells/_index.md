@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides/table/mergecells/
 ---
+
 ## Table.MergeCells method
 
 Merges neighbour cells.

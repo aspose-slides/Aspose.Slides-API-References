@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/portion/text/
 ---
+
 ## Portion.Text property
 
 Gets or sets the plain text of a portion. Read/write String.

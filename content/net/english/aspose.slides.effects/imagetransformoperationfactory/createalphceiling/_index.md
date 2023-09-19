@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.effects/imagetransformoperationfactory/createalphceiling/
 ---
+
 ## ImageTransformOperationFactory.CreateAlphCeiling method
 
 Creates Alpha Ceiling effect.

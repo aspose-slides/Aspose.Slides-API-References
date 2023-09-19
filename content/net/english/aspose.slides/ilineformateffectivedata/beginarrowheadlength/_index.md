@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ilineformateffectivedata/beginarrowheadlength/
 ---
+
 ## ILineFormatEffectiveData.BeginArrowheadLength property
 
 Returns the arrowhead length at the beginning of a line. Read-only [`LineArrowheadLength`](../../linearrowheadlength).

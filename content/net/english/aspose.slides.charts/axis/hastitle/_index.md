@@ -6,6 +6,7 @@ type: docs
 weight: 170
 url: /aspose.slides.charts/axis/hastitle/
 ---
+
 ## Axis.HasTitle property
 
 Determines whether a axis has a visible title. Read/write Boolean.

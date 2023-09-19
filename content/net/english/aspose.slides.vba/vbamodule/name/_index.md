@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/vbamodule/name/
 ---
+
 ## VbaModule.Name property
 
 Gets the name of the module. Read-only String.

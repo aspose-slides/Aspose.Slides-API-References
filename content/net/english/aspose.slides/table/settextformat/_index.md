@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides/table/settextformat/
 ---
+
 ## SetTextFormat(IPortionFormat) {#settextformat_1}
 
 Sets defined portion format properties to all table cells' portions.

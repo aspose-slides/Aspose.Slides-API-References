@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.effects/glow/radius/
 ---
+
 ## Glow.Radius property
 
 Radius. Read/write Double.

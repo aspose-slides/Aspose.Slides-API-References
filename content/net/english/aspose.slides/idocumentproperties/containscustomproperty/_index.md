@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides/idocumentproperties/containscustomproperty/
 ---
+
 ## IDocumentProperties.ContainsCustomProperty method
 
 Check presents of a custom property with a specified name.

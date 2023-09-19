@@ -6,6 +6,7 @@ type: docs
 weight: 240
 url: /aspose.slides.effects/imagetransformoperationcollection/copyto/
 ---
+
 ## ImageTransformOperationCollection.CopyTo method
 
 Copies the elements of the ICollection to an Array, starting at a particular Array index.

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ppimage/height/
 ---
+
 ## PPImage.Height property
 
 Returns a height of an image. Read-only Int32.

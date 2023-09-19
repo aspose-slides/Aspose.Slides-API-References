@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/ichartcategory/remove/
 ---
+
 ## IChartCategory.Remove method
 
 Removes category from chart.

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/chartcategorycollection/usecells/
 ---
+
 ## ChartCategoryCollection.UseCells property
 
 If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write Boolean.

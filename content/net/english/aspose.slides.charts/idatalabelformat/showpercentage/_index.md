@@ -6,6 +6,7 @@ type: docs
 weight: 130
 url: /aspose.slides.charts/idatalabelformat/showpercentage/
 ---
+
 ## IDataLabelFormat.ShowPercentage property
 
 Represents a specified chart's data label percentage value display behavior. True displays the percentage value. False to hide. Read/write Boolean.

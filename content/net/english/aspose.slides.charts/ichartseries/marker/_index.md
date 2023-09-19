@@ -6,6 +6,7 @@ type: docs
 weight: 200
 url: /aspose.slides.charts/ichartseries/marker/
 ---
+
 ## IChartSeries.Marker property
 
 Return series marker. Read-only [`IMarker`](../../imarker).

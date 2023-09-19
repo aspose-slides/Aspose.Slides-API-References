@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.effects/ioutershadoweffectivedata/distance/
 ---
+
 ## IOuterShadowEffectiveData.Distance property
 
 Distance of shadow. Read-only Double.

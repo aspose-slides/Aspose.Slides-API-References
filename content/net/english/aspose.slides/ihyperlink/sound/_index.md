@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/ihyperlink/sound/
 ---
+
 ## IHyperlink.Sound property
 
 Represents the playing sound of the hyperlink. Read/write [`IAudio`](../../iaudio).

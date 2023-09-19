@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides/ishapecollection/insertclone/
 ---
+
 ## InsertClone(int, IShape, float, float, float, float) {#insertclone_2}
 
 Inserts a copy of a specified shape to specified position of the collection.

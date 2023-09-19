@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/rowcollection/getenumerator/
 ---
+
 ## RowCollection.GetEnumerator method
 
 Returns an enumerator that iterates through the collection.

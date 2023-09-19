@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/digitalsignaturecollection/clear/
 ---
+
 ## DigitalSignatureCollection.Clear method
 
 Removes all signatures from collection.

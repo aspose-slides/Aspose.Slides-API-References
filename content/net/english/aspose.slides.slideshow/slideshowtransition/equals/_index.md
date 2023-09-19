@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides.slideshow/slideshowtransition/equals/
 ---
+
 ## SlideShowTransition.Equals method
 
 Determines whether the two SlideShowTransition instances are equal. Read/write Boolean.

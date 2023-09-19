@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.smartart/smartartshape/shapetype/
 ---
+
 ## SmartArtShape.ShapeType property
 
 Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write [`ShapeType`](../../../aspose.slides/shapetype).

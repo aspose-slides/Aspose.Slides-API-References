@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ilightrigeffectivedata/getrotation/
 ---
+
 ## ILightRigEffectiveData.GetRotation method
 
 A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. First element in return array - latitude, second - longitude, third - revolution.

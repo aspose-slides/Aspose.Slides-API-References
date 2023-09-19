@@ -6,6 +6,7 @@ type: docs
 weight: 300
 url: /aspose.slides/shape/y/
 ---
+
 ## Shape.Y property
 
 Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write Single.

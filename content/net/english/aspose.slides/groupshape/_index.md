@@ -3,9 +3,10 @@ title: GroupShape
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents a group of shapes on a slide.
 type: docs
-weight: 4750
+weight: 4760
 url: /aspose.slides/groupshape/
 ---
+
 ## GroupShape class
 
 Represents a group of shapes on a slide.

@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /aspose.slides/ipresentation/fontsmanager/
 ---
+
 ## IPresentation.FontsManager property
 
 Returns fonts manager. Read-only [`IFontsManager`](../../ifontsmanager).

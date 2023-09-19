@@ -3,9 +3,10 @@ title: IFillParamSource
 second_title: Aspose.Sildes for .NET API Reference
 description: Auxiliary fill parameters interface.
 type: docs
-weight: 5420
+weight: 5430
 url: /aspose.slides/ifillparamsource/
 ---
+
 ## IFillParamSource interface
 
 Auxiliary fill parameters interface.

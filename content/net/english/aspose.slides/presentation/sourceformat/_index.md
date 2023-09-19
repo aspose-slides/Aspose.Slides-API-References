@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/presentation/sourceformat/
 ---
+
 ## Presentation.SourceFormat property
 
 Returns information about from which format presentation was loaded. Read-only [`SourceFormat`](../../sourceformat).

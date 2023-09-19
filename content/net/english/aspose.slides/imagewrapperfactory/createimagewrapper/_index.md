@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/imagewrapperfactory/createimagewrapper/
 ---
+
 ## CreateImageWrapper(Image) {#createimagewrapper}
 
 Initializes a new instance of the BitmapWrapper class from the specified existing image.

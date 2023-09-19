@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ishape/asihyperlinkcontainer/
 ---
+
 ## IShape.AsIHyperlinkContainer property
 
 Allows to get base IHyperlinkContainer interface. Read-only [`IHyperlinkContainer`](../../ihyperlinkcontainer).

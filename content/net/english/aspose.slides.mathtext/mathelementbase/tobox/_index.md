@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides.mathtext/mathelementbase/tobox/
 ---
+
 ## MathElementBase.ToBox method
 
 Places this element in a non-visual box (logical grouping) which is used to group components of an equation or other instance of mathematical text. A boxed object can (for example) serve as an operator emulator with or without an alignment point, serve as a line break point, or be grouped such as not to allow line breaks within.

@@ -6,6 +6,7 @@ type: docs
 weight: 1210
 url: /aspose.slides.animation/behaviorproperty/yshear/
 ---
+
 ## BehaviorProperty.YShear property
 
 Represents 'yshear' property

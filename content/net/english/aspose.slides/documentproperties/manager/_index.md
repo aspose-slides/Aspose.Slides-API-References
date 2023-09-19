@@ -6,6 +6,7 @@ type: docs
 weight: 180
 url: /aspose.slides/documentproperties/manager/
 ---
+
 ## DocumentProperties.Manager property
 
 Returns or sets the manager property. Read/write String.

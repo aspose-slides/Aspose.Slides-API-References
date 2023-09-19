@@ -6,6 +6,7 @@ type: docs
 weight: 330
 url: /aspose.slides/documentproperties/removecustomproperty/
 ---
+
 ## DocumentProperties.RemoveCustomProperty method
 
 Remove a custom property associated with a specified name.

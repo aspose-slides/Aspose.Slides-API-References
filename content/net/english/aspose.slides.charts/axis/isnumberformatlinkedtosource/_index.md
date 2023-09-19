@@ -6,6 +6,7 @@ type: docs
 weight: 270
 url: /aspose.slides.charts/axis/isnumberformatlinkedtosource/
 ---
+
 ## Axis.IsNumberFormatLinkedToSource property
 
 Indicates whether the format is linked source data. Read/write Boolean.

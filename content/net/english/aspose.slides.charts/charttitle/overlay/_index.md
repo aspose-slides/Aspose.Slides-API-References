@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/charttitle/overlay/
 ---
+
 ## ChartTitle.Overlay property
 
 Determines whether other chart elements shall be allowed to overlap title. Read/write Boolean.

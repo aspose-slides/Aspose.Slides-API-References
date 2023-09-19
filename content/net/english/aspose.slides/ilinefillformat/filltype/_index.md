@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides/ilinefillformat/filltype/
 ---
+
 ## ILineFillFormat.FillType property
 
 Returns or sets the fill type. Read/write [`FillType`](../../filltype).

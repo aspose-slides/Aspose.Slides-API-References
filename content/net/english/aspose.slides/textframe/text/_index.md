@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides/textframe/text/
 ---
+
 ## TextFrame.Text property
 
 Gets or sets the plain text for a TextFrame. Read/write String.

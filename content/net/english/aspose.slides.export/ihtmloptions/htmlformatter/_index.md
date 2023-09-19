@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.export/ihtmloptions/htmlformatter/
 ---
+
 ## IHtmlOptions.HtmlFormatter property
 
 Returns or sets HTML template. Read/write [`IHtmlFormatter`](../../ihtmlformatter).

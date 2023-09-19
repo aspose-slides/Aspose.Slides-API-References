@@ -3,9 +3,10 @@ title: IAlphaModulateFixed
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an Alpha Modulate Fixed effect. Effect alpha opacity values are multiplied by a fixed percentage.
 type: docs
-weight: 2970
+weight: 2980
 url: /aspose.slides.effects/ialphamodulatefixed/
 ---
+
 ## IAlphaModulateFixed interface
 
 Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage.

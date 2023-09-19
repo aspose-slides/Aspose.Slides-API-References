@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.charts/legend/right/
 ---
+
 ## Legend.Right property
 
 Right. Read-only Single.

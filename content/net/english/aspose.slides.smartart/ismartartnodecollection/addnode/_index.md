@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.smartart/ismartartnodecollection/addnode/
 ---
+
 ## ISmartArtNodeCollection.AddNode method
 
 Add new node or sub node.

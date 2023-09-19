@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/igradientformateffectivedata/gradientshape/
 ---
+
 ## IGradientFormatEffectiveData.GradientShape property
 
 Returns the shape of a gradient. Read-only [`GradientShape`](../../gradientshape).

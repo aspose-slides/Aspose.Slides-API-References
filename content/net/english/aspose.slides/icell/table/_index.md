@@ -6,6 +6,7 @@ type: docs
 weight: 190
 url: /aspose.slides/icell/table/
 ---
+
 ## ICell.Table property
 
 Returns the parent Table object for a cell. Read-only [`ITable`](../../itable).

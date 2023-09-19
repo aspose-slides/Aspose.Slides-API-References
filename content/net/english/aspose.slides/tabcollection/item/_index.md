@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/tabcollection/item/
 ---
+
 ## TabCollection indexer
 
 Gets the element at the specified index. Read-only [`Tab`](../../tab).

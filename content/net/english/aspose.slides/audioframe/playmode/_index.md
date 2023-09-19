@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/audioframe/playmode/
 ---
+
 ## AudioFrame.PlayMode property
 
 Returns or sets the audio play mode. Read/write [`AudioPlayModePreset`](../../audioplaymodepreset).

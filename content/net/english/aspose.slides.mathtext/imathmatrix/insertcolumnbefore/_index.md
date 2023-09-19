@@ -6,6 +6,7 @@ type: docs
 weight: 160
 url: /aspose.slides.mathtext/imathmatrix/insertcolumnbefore/
 ---
+
 ## IMathMatrix.InsertColumnBefore method
 
 Insert a new column before the specified one Initially all elements in the new column are null.

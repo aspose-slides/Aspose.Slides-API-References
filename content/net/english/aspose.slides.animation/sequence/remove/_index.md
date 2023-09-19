@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.animation/sequence/remove/
 ---
+
 ## Sequence.Remove method
 
 Removes specified effect from a collection.

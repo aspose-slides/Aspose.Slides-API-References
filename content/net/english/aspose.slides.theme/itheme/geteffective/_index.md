@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.theme/itheme/geteffective/
 ---
+
 ## ITheme.GetEffective method
 
 Gets effective theme data with the inheritance applied.

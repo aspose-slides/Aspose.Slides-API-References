@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/shapestyle/effectcolor/
 ---
+
 ## ShapeStyle.EffectColor property
 
 Returns a shape's effect color. Read-only [`IColorFormat`](../../icolorformat).

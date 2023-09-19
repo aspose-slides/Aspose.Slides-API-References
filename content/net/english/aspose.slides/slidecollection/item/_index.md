@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/slidecollection/item/
 ---
+
 ## SlideCollection indexer
 
 Gets the element at the specified index. Read-only [`Slide`](../../slide).

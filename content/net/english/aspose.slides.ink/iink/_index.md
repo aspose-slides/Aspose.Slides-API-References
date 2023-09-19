@@ -3,9 +3,10 @@ title: IInk
 second_title: Aspose.Sildes for .NET API Reference
 description: Represents an ink object on a slide.
 type: docs
-weight: 7020
+weight: 7030
 url: /aspose.slides.ink/iink/
 ---
+
 ## IInk interface
 
 Represents an ink object on a slide.

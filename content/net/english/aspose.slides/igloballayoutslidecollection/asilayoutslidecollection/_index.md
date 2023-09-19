@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides/igloballayoutslidecollection/asilayoutslidecollection/
 ---
+
 ## IGlobalLayoutSlideCollection.AsILayoutSlideCollection property
 
 Returns ILayoutSlideCollection interface. Read-only [`ILayoutSlideCollection`](../../ilayoutslidecollection).

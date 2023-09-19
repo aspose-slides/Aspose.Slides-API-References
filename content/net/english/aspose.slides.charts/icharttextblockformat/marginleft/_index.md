@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /aspose.slides.charts/icharttextblockformat/marginleft/
 ---
+
 ## IChartTextBlockFormat.MarginLeft property
 
 Returns or sets the left margin (points) in a TextFrame. Changing of this property can produce a certain influence only for these chart parts: DataLabel and DataLabelFormat (full suport in PowerPoint 2013; in PowerPoint 2007 there is no effect for rendering). Read/write Double.

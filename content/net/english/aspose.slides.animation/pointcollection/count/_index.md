@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.animation/pointcollection/count/
 ---
+
 ## PointCollection.Count property
 
 Returns the number of points in the collection. Read-only Int32.

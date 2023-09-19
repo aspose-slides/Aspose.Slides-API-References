@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/shape/hyperlinkclick/
 ---
+
 ## Shape.HyperlinkClick property
 
 Returns or sets the hyperlink defined for mouse click. Read/write [`IHyperlink`](../../ihyperlink).

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.vba/ivbaproject/modules/
 ---
+
 ## IVbaProject.Modules property
 
 Returns the list of all modules that are contained in the VBA project. Read-only [`IVbaModuleCollection`](../../ivbamodulecollection).

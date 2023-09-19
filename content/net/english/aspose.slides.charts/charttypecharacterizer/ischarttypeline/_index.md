@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.charts/charttypecharacterizer/ischarttypeline/
 ---
+
 ## ChartTypeCharacterizer.IsChartTypeLine method
 
 Return true if chartType is one of Line subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): Line, LineWithMarkers, PercentsStackedLine, PercentsStackedLineWithMarkers, StackedLine, StackedLineWithMarkers, Line3D.

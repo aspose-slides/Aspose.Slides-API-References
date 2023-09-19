@@ -6,6 +6,7 @@ type: docs
 weight: 80
 url: /aspose.slides.export/iswfoptions/showbottompane/
 ---
+
 ## ISwfOptions.ShowBottomPane property
 
 Show/hide bottom pane. Can be overridden in flashvars. Default is true.

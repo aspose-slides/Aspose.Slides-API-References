@@ -6,6 +6,7 @@ type: docs
 weight: 90
 url: /aspose.slides/documentproperties/contenttype/
 ---
+
 ## DocumentProperties.ContentType property
 
 Returns or sets the content type of a presentation. Read/write String.

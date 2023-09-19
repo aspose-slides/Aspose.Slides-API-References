@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/ppimage/replaceimage/
 ---
+
 ## ReplaceImage(byte[]) {#replaceimage_1}
 
 Replaces image data. The new image's data.When newImageData parameter is null.

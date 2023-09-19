@@ -6,6 +6,7 @@ type: docs
 weight: 260
 url: /aspose.slides/documentproperties/clearbuiltinproperties/
 ---
+
 ## DocumentProperties.ClearBuiltInProperties method
 
 Clears and sets default values for all builtIn properties.

@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.theme/icolorschemeeffectivedata/accent1/
 ---
+
 ## IColorSchemeEffectiveData.Accent1 property
 
 First accent color in the scheme. Read-only Color.

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides/iparagraph/portions/
 ---
+
 ## IParagraph.Portions property
 
 Returns the collection of a text portions. Read-only [`IPortionCollection`](../../iportioncollection).

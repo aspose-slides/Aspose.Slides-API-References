@@ -6,6 +6,7 @@ type: docs
 weight: 150
 url: /aspose.slides.theme/colorscheme/slide/
 ---
+
 ## ColorScheme.Slide property
 
 Returns the parent slide. Read-only [`IBaseSlide`](../../../aspose.slides/ibaseslide).

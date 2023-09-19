@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/iluminanceeffectivedata/contrast/
 ---
+
 ## ILuminanceEffectiveData.Contrast property
 
 Contrast. Read-only Single.

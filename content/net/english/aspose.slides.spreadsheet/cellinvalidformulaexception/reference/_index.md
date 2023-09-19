@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.spreadsheet/cellinvalidformulaexception/reference/
 ---
+
 ## CellInvalidFormulaException.Reference property
 
 Gets a cell reference that contains the invalid formula.

@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/iaudioframe/embeddedaudio/
 ---
+
 ## IAudioFrame.EmbeddedAudio property
 
 Returns or sets embedded audio object. Read/write [`IAudio`](../../iaudio).

@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides.charts/legend/overlay/
 ---
+
 ## Legend.Overlay property
 
 Determines whether other chart elements shall be allowed to overlap legend. Read/write Boolean.

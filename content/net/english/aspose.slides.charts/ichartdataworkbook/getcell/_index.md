@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.charts/ichartdataworkbook/getcell/
 ---
+
 ## GetCell(string, int, int) {#getcell_4}
 
 Gets the cell that can be used for chart series or categories

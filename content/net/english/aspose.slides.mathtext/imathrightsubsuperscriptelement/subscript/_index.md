@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /aspose.slides.mathtext/imathrightsubsuperscriptelement/subscript/
 ---
+
 ## IMathRightSubSuperscriptElement.Subscript property
 
 Subscript argument

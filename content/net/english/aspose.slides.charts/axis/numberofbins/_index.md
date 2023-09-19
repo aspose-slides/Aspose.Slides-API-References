@@ -6,6 +6,7 @@ type: docs
 weight: 450
 url: /aspose.slides.charts/axis/numberofbins/
 ---
+
 ## Axis.NumberOfBins property
 
 Specifies number of bins when AggregationType property value setted to AxisAggregationType.ByNumberOfBins. Applied to category axes. Used with Histogram or HistogramPareto series only.

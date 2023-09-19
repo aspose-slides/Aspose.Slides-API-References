@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /aspose.slides/presentation/customdata/
 ---
+
 ## Presentation.CustomData property
 
 Returns the presentation's custom data. Read-only [`ICustomData`](../../icustomdata).

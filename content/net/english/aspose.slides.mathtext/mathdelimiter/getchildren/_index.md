@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /aspose.slides.mathtext/mathdelimiter/getchildren/
 ---
+
 ## MathDelimiter.GetChildren method
 
 Get children elements

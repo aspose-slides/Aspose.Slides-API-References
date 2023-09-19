@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/ipresentation/asipresentationcomponent/
 ---
+
 ## IPresentation.AsIPresentationComponent property
 
 Allows to get base IPresentationComponent interface. Read-only [`IPresentationComponent`](../../ipresentationcomponent).

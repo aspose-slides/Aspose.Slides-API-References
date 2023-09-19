@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/textframe/highlightregex/
 ---
+
 ## TextFrame.HighlightRegex method
 
 Highlight all matches of regular expression in text frame text using specified color.

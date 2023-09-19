@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /aspose.slides/iparagraphformateffectivedata/marginleft/
 ---
+
 ## IParagraphFormatEffectiveData.MarginLeft property
 
 Returns the left margin in a paragraph. Read-only Single.

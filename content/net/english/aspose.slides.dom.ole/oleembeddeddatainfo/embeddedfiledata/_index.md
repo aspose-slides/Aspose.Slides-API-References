@@ -6,6 +6,7 @@ type: docs
 weight: 20
 url: /aspose.slides.dom.ole/oleembeddeddatainfo/embeddedfiledata/
 ---
+
 ## OleEmbeddedDataInfo.EmbeddedFileData property
 
 Returns the file data of an embedded OLE object Read only Byte[].

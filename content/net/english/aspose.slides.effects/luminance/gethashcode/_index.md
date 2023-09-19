@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides.effects/luminance/gethashcode/
 ---
+
 ## Luminance.GetHashCode method
 
 Serves as a hash function for a particular type.

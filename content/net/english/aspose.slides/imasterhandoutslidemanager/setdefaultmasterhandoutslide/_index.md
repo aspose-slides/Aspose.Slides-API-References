@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /aspose.slides/imasterhandoutslidemanager/setdefaultmasterhandoutslide/
 ---
+
 ## IMasterHandoutSlideManager.SetDefaultMasterHandoutSlide method
 
 Sets default master handout slide to related handout slide.

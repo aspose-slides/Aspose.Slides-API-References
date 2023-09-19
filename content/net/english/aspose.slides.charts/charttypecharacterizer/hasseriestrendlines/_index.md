@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /aspose.slides.charts/charttypecharacterizer/hasseriestrendlines/
 ---
+
 ## ChartTypeCharacterizer.HasSeriesTrendLines method
 
 Returns if there are series trend lines for specified series type.

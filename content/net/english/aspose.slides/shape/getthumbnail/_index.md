@@ -6,6 +6,7 @@ type: docs
 weight: 340
 url: /aspose.slides/shape/getthumbnail/
 ---
+
 ## GetThumbnail() {#getthumbnail}
 
 Returns shape thumbnail. ShapeThumbnailBounds.Shape shape thumbnail bounds type is used by default.

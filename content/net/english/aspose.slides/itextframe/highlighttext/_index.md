@@ -6,6 +6,7 @@ type: docs
 weight: 70
 url: /aspose.slides/itextframe/highlighttext/
 ---
+
 ## HighlightText(string, Color) {#highlighttext}
 
 Highlight all matches of sample in text frame text using specified color.

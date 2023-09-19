@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /aspose.slides.charts/datalabelformat/showseriesname/
 ---
+
 ## DataLabelFormat.ShowSeriesName property
 
 Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. True to show the series name. False to hide. Read/write Boolean.

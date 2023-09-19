@@ -6,6 +6,7 @@ type: docs
 weight: 300
 url: /aspose.slides/ishape/getbaseplaceholder/
 ---
+
 ## IShape.GetBasePlaceholder method
 
 Returns a basic placeholder shape (shape from the layout and/or master slide that the current shape is inherited from). A null is returned if the current shape is not inherited.

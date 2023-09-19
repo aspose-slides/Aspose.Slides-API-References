@@ -6,6 +6,7 @@ type: docs
 weight: 250
 url: /aspose.slides.charts/axis/isautomaticunderflowbin/
 ---
+
 ## Axis.IsAutomaticUnderflowBin property
 
 Specifies automatic underflow bin value. If false: use UnderflowBin property.
