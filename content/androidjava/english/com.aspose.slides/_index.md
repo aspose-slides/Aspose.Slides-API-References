@@ -20,6 +20,7 @@ url: /com.aspose.slides/
 | [AlphaModulate](../com.aspose.slides/alphamodulate) | Represents an Alpha Modulate effect. |
 | [AlphaModulateFixed](../com.aspose.slides/alphamodulatefixed) | Represents an Alpha Modulate Fixed effect. |
 | [AlphaReplace](../com.aspose.slides/alphareplace) | Represents and Alpha Replace effect. |
+| [AnimateTextType](../com.aspose.slides/animatetexttype) | Represents the animate text type of an animation effect. |
 | [AnimationTimeLine](../com.aspose.slides/animationtimeline) | Represents timeline of animation. |
 | [AsposeLicenseException](../com.aspose.slides/asposelicenseexception) | This exception is thrown if any errors with license are detected. |
 | [Audio](../com.aspose.slides/audio) | Represents an embedded audio file. |
