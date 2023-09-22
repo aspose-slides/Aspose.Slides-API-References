@@ -142,21 +142,6 @@ url: /aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathBorderBox](../../mathborderbox) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -167,6 +152,21 @@ url: /aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathBorderBox](../../mathborderbox) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | The element to place in the array |
 
 
 ---
@@ -187,21 +187,6 @@ url: /aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -212,6 +197,21 @@ url: /aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The element to place in the array |
 
 
 ---
@@ -232,21 +232,6 @@ url: /aspose.slides/matharray/matharray/
 ---
 
 
-## MathArray([MathFraction](../../mathfraction) element)  constructor
-
- Creates a mathematical array and places the specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The element to place in the array |
-
-
----
-
-
 ## MathArray([MathematicalText](../../mathematicaltext) element)  constructor
 
  Creates a mathematical array and places the specified element in it
@@ -257,6 +242,21 @@ url: /aspose.slides/matharray/matharray/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
+
+
+---
+
+
+## MathArray([MathFraction](../../mathfraction) element)  constructor
+
+ Creates a mathematical array and places the specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | The element to place in the array |
 
 
 ---

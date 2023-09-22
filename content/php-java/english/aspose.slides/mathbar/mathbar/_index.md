@@ -142,21 +142,6 @@ url: /aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathBorderBox](../../mathborderbox) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -167,6 +152,21 @@ url: /aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathBar([MathBorderBox](../../mathborderbox) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | The base element to which the bar is applied |
 
 
 ---
@@ -187,21 +187,6 @@ url: /aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -212,6 +197,21 @@ url: /aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathBar([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the bar is applied |
 
 
 ---
@@ -232,21 +232,6 @@ url: /aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathFraction](../../mathfraction) element)  constructor
-
- Initializes MathBar with overbar (Top position)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathBar([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes MathBar with overbar (Top position)
@@ -257,6 +242,21 @@ url: /aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathBar([MathFraction](../../mathfraction) element)  constructor
+
+ Initializes MathBar with overbar (Top position)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | The base element to which the bar is applied |
 
 
 ---
@@ -436,22 +436,6 @@ url: /aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathBorderBox](../../mathborderbox) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathGroupingCharacter](../../mathgroupingcharacter) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -462,6 +446,22 @@ url: /aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
+## MathBar([MathBorderBox](../../mathborderbox) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 
@@ -484,22 +484,6 @@ url: /aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathSubscriptElement](../../mathsubscriptelement) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathSuperscriptElement](../../mathsuperscriptelement) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -510,6 +494,22 @@ url: /aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
+## MathBar([MathSubscriptElement](../../mathsubscriptelement) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 
@@ -532,22 +532,6 @@ url: /aspose.slides/mathbar/mathbar/
 ---
 
 
-## MathBar([MathFraction](../../mathfraction) element, int position)  constructor
-
- Initializes MathBar with specified position
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
-| position | int | Position of the bar line. |
-
-
----
-
-
 ## MathBar([MathematicalText](../../mathematicaltext) element, int position)  constructor
 
  Initializes MathBar with specified position
@@ -558,6 +542,22 @@ url: /aspose.slides/mathbar/mathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../mathematicaltext) | The base element to which the bar is applied |
+| position | int | Position of the bar line. |
+
+
+---
+
+
+## MathBar([MathFraction](../../mathfraction) element, int position)  constructor
+
+ Initializes MathBar with specified position
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
 | position | int | Position of the bar line. |
 
 

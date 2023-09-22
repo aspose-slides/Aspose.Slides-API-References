@@ -7,24 +7,6 @@ type: docs
 url: /aspose.slides/imagetransformoperationcollection/additem/
 ---
 
-## addItem([SoftEdge](../../softedge) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [SoftEdge](../../softedge) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([HSL](../../hsl) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -35,6 +17,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [HSL](../../hsl) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([SoftEdge](../../softedge) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [SoftEdge](../../softedge) | The image effect to add to the end of a collection. |
 
 ### Returns
 void
@@ -241,24 +241,6 @@ void
 ---
 
 
-## addItem([AlphaInverse](../../alphainverse) operation)  method
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [AlphaInverse](../../alphainverse) | The image effect to add to the end of a collection. |
-
-### Returns
-void
-
-
----
-
-
 ## addItem([AlphaCeiling](../../alphaceiling) operation)  method
 
  Adds the new image effect to the end of a collection.
@@ -269,6 +251,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [AlphaCeiling](../../alphaceiling) | The image effect to add to the end of a collection. |
+
+### Returns
+void
+
+
+---
+
+
+## addItem([AlphaInverse](../../alphainverse) operation)  method
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [AlphaInverse](../../alphainverse) | The image effect to add to the end of a collection. |
 
 ### Returns
 void

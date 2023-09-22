@@ -34,15 +34,15 @@ url: /aspose.slides/textanimationcollection/
 | [get_Item](get_item)([SummaryZoomFrame](../summaryzoomframe)) | Returns all elements |
 | [get_Item](get_item)([SummaryZoomSection](../summaryzoomsection)) | Returns all elements |
 | [get_Item](get_item)([ZoomFrame](../zoomframe)) | Returns all elements |
-| [get_Item](get_item)([OleObjectFrame](../oleobjectframe)) | Returns all elements |
 | [get_Item](get_item)([VideoFrame](../videoframe)) | Returns all elements |
+| [get_Item](get_item)([OleObjectFrame](../oleobjectframe)) | Returns all elements |
 | [get_Item](get_item)([SmartArt](../smartart)) | Returns all elements |
 | [get_Item](get_item)([GroupShape](../groupshape)) | Returns all elements |
 | [get_Item](get_item)([AutoShape](../autoshape)) | Returns all elements |
 | [get_Item](get_item)([SectionZoomFrame](../sectionzoomframe)) | Returns all elements |
 | [get_Item](get_item)([PictureFrame](../pictureframe)) | Returns all elements |
-| [get_Item](get_item)([Chart](../chart)) | Returns all elements |
 | [get_Item](get_item)([AudioFrame](../audioframe)) | Returns all elements |
+| [get_Item](get_item)([Chart](../chart)) | Returns all elements |
 | [get_Item](get_item)([ZoomObject](../zoomobject)) | Returns all elements |
 | [get_Item](get_item)([LegacyDiagram](../legacydiagram)) | Returns all elements |
 | [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |

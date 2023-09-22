@@ -115,7 +115,7 @@ void
 ---
 
 
-## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
+## removeByShape([VideoFrame](../../videoframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -127,7 +127,7 @@ void
 ---
 
 
-## removeByShape([VideoFrame](../../videoframe) shape)  method
+## removeByShape([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -199,7 +199,7 @@ void
 ---
 
 
-## removeByShape([Chart](../../chart) shape)  method
+## removeByShape([AudioFrame](../../audioframe) shape)  method
 
  Remove effect for the specified shape.
  
@@ -211,7 +211,7 @@ void
 ---
 
 
-## removeByShape([AudioFrame](../../audioframe) shape)  method
+## removeByShape([Chart](../../chart) shape)  method
 
  Remove effect for the specified shape.
  

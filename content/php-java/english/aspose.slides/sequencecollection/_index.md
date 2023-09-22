@@ -25,15 +25,15 @@ url: /aspose.slides/sequencecollection/
 | [add](add)([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([VideoFrame](../videoframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([SmartArt](../smartart)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([GroupShape](../groupshape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([AutoShape](../autoshape)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([SectionZoomFrame](../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([PictureFrame](../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
-| [add](add)([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([AudioFrame](../audioframe)) | Add new interactive sequence. Read/write Sequence. |
+| [add](add)([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 | [add](add)([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
 | [clear](clear)() | Removes all sequences from a collection. |

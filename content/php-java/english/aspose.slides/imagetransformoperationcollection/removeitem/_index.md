@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/imagetransformoperationcollection/removeitem/
 ---
 
-## removeItem([SoftEdge](../../softedge) item)  method
+## removeItem([HSL](../../hsl) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -16,7 +16,7 @@ url: /aspose.slides/imagetransformoperationcollection/removeitem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SoftEdge](../../softedge) | The object to remove from the IGenericCollection. |
+| item | [HSL](../../hsl) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -31,7 +31,7 @@ boolean
 ---
 
 
-## removeItem([HSL](../../hsl) item)  method
+## removeItem([SoftEdge](../../softedge) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -40,7 +40,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [HSL](../../hsl) | The object to remove from the IGenericCollection. |
+| item | [SoftEdge](../../softedge) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -319,7 +319,7 @@ boolean
 ---
 
 
-## removeItem([AlphaInverse](../../alphainverse) item)  method
+## removeItem([AlphaCeiling](../../alphaceiling) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -328,7 +328,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaInverse](../../alphainverse) | The object to remove from the IGenericCollection. |
+| item | [AlphaCeiling](../../alphaceiling) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean
@@ -343,7 +343,7 @@ boolean
 ---
 
 
-## removeItem([AlphaCeiling](../../alphaceiling) item)  method
+## removeItem([AlphaInverse](../../alphainverse) item)  method
 
  Removes the first occurrence of a specific object from the  IGenericCollection.
  
@@ -352,7 +352,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [AlphaCeiling](../../alphaceiling) | The object to remove from the IGenericCollection. |
+| item | [AlphaInverse](../../alphainverse) | The object to remove from the IGenericCollection. |
 
 ### Returns
 boolean

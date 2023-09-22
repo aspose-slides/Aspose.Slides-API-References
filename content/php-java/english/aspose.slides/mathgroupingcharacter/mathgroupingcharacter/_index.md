@@ -151,22 +151,6 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 ---
 
 
-## MathGroupingCharacter([MathBorderBox](../../mathborderbox) element)  constructor
-
- Initializes a new instance of the MathGroupingCharacter class 
- with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
 
  Initializes a new instance of the MathGroupingCharacter class 
@@ -178,6 +162,22 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathGroupingCharacter([MathBorderBox](../../mathborderbox) element)  constructor
+
+ Initializes a new instance of the MathGroupingCharacter class 
+ with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | The base element to which the bar is applied |
 
 
 ---
@@ -199,22 +199,6 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 ---
 
 
-## MathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
-
- Initializes a new instance of the MathGroupingCharacter class 
- with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathGroupingCharacter([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Initializes a new instance of the MathGroupingCharacter class 
@@ -226,6 +210,22 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+
+ Initializes a new instance of the MathGroupingCharacter class 
+ with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the bar is applied |
 
 
 ---
@@ -247,22 +247,6 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 ---
 
 
-## MathGroupingCharacter([MathFraction](../../mathfraction) element)  constructor
-
- Initializes a new instance of the MathGroupingCharacter class 
- with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The base element to which the bar is applied |
-
-
----
-
-
 ## MathGroupingCharacter([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes a new instance of the MathGroupingCharacter class 
@@ -274,6 +258,22 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the bar is applied |
+
+
+---
+
+
+## MathGroupingCharacter([MathFraction](../../mathfraction) element)  constructor
+
+ Initializes a new instance of the MathGroupingCharacter class 
+ with the default grouping character U+23DF (BOTTOM CURLY BRACKET)
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | The base element to which the bar is applied |
 
 
 ---
@@ -473,24 +473,6 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 ---
 
 
-## MathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  constructor
-
- Initializes a new instance of the MathGroupingCharacter class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
-
----
-
-
 ## MathGroupingCharacter([MathGroupingCharacter](../../mathgroupingcharacter) element, char character, int position, int verticalJustification)  constructor
 
  Initializes a new instance of the MathGroupingCharacter class.
@@ -501,6 +483,24 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+
+---
+
+
+## MathGroupingCharacter([MathBorderBox](../../mathborderbox) element, char character, int position, int verticalJustification)  constructor
+
+ Initializes a new instance of the MathGroupingCharacter class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |
@@ -527,24 +527,6 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 ---
 
 
-## MathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element, char character, int position, int verticalJustification)  constructor
-
- Initializes a new instance of the MathGroupingCharacter class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
-
----
-
-
 ## MathGroupingCharacter([MathSuperscriptElement](../../mathsuperscriptelement) element, char character, int position, int verticalJustification)  constructor
 
  Initializes a new instance of the MathGroupingCharacter class.
@@ -555,6 +537,24 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+
+---
+
+
+## MathGroupingCharacter([MathSubscriptElement](../../mathsubscriptelement) element, char character, int position, int verticalJustification)  constructor
+
+ Initializes a new instance of the MathGroupingCharacter class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |
@@ -581,24 +581,6 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 ---
 
 
-## MathGroupingCharacter([MathFraction](../../mathfraction) element, char character, int position, int verticalJustification)  constructor
-
- Initializes a new instance of the MathGroupingCharacter class.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
-| character | char | Grouping Character |
-| position | int | Position of grouping character |
-| verticalJustification | int | Vertical justification of group character |
-
-
----
-
-
 ## MathGroupingCharacter([MathematicalText](../../mathematicaltext) element, char character, int position, int verticalJustification)  constructor
 
  Initializes a new instance of the MathGroupingCharacter class.
@@ -609,6 +591,24 @@ url: /aspose.slides/mathgroupingcharacter/mathgroupingcharacter/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../mathematicaltext) | The base element to which the bar is applied |
+| character | char | Grouping Character |
+| position | int | Position of grouping character |
+| verticalJustification | int | Vertical justification of group character |
+
+
+---
+
+
+## MathGroupingCharacter([MathFraction](../../mathfraction) element, char character, int position, int verticalJustification)  constructor
+
+ Initializes a new instance of the MathGroupingCharacter class.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | The base element to which the bar is applied |
 | character | char | Grouping Character |
 | position | int | Position of grouping character |
 | verticalJustification | int | Vertical justification of group character |

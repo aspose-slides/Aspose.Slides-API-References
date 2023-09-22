@@ -196,7 +196,7 @@ url: /aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([OleObjectFrame](../../oleobjectframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([VideoFrame](../../videoframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -205,7 +205,7 @@ url: /aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
+| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -217,7 +217,7 @@ url: /aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([VideoFrame](../../videoframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([OleObjectFrame](../../oleobjectframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -226,7 +226,7 @@ url: /aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [VideoFrame](../videoframe) | Shape object IShape for adding an effect |
+| shape | [OleObjectFrame](../oleobjectframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -343,7 +343,7 @@ url: /aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([Chart](../../chart) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([AudioFrame](../../audioframe) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -352,7 +352,7 @@ url: /aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [Chart](../chart) | Shape object IShape for adding an effect |
+| shape | [AudioFrame](../audioframe) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
@@ -364,7 +364,7 @@ url: /aspose.slides/sequence/addeffect/
 ---
 
 
-## addEffect([AudioFrame](../../audioframe) shape, int effectType, int subtype, int triggerType)  method
+## addEffect([Chart](../../chart) shape, int effectType, int subtype, int triggerType)  method
 
  Add new effect to the end of sequence.
  
@@ -373,7 +373,7 @@ url: /aspose.slides/sequence/addeffect/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| shape | [AudioFrame](../audioframe) | Shape object IShape for adding an effect |
+| shape | [Chart](../chart) | Shape object IShape for adding an effect |
 | effectType | int | Type of an animation effect EffectType |
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |

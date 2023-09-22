@@ -133,7 +133,7 @@ void
 ---
 
 
-## setTriggerShape([OleObjectFrame](../../oleobjectframe) value)  method
+## setTriggerShape([VideoFrame](../../videoframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -147,7 +147,7 @@ void
 ---
 
 
-## setTriggerShape([VideoFrame](../../videoframe) value)  method
+## setTriggerShape([OleObjectFrame](../../oleobjectframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -231,7 +231,7 @@ void
 ---
 
 
-## setTriggerShape([Chart](../../chart) value)  method
+## setTriggerShape([AudioFrame](../../audioframe) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.
@@ -245,7 +245,7 @@ void
 ---
 
 
-## setTriggerShape([AudioFrame](../../audioframe) value)  method
+## setTriggerShape([Chart](../../chart) value)  method
 
  Returns or sets shape target for INTERACTIVE sequence.
  If sequence is not interactive then returns null.

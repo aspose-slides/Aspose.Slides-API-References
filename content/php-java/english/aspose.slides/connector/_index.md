@@ -33,15 +33,15 @@ url: /aspose.slides/connector/
 | [setEndShapeConnectedTo](setendshapeconnectedto)([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-| [setEndShapeConnectedTo](setendshapeconnectedto)([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([VideoFrame](../videoframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| [setEndShapeConnectedTo](setendshapeconnectedto)([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([SmartArt](../smartart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([GroupShape](../groupshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([AutoShape](../autoshape)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
-| [setEndShapeConnectedTo](setendshapeconnectedto)([Chart](../chart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([AudioFrame](../audioframe)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
+| [setEndShapeConnectedTo](setendshapeconnectedto)([Chart](../chart)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectedTo](setendshapeconnectedto)([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 | [setEndShapeConnectionSiteIndex](setendshapeconnectionsiteindex)(long) | Returns or sets the index of connection site for end shape. Read/write long. |
@@ -55,15 +55,15 @@ url: /aspose.slides/connector/
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([SummaryZoomFrame](../summaryzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([SummaryZoomSection](../summaryzoomsection)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([ZoomFrame](../zoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-| [setStartShapeConnectedTo](setstartshapeconnectedto)([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([VideoFrame](../videoframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| [setStartShapeConnectedTo](setstartshapeconnectedto)([OleObjectFrame](../oleobjectframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([SmartArt](../smartart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([GroupShape](../groupshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([AutoShape](../autoshape)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([SectionZoomFrame](../sectionzoomframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([PictureFrame](../pictureframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
-| [setStartShapeConnectedTo](setstartshapeconnectedto)([Chart](../chart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([AudioFrame](../audioframe)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
+| [setStartShapeConnectedTo](setstartshapeconnectedto)([Chart](../chart)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([ZoomObject](../zoomobject)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectedTo](setstartshapeconnectedto)([LegacyDiagram](../legacydiagram)) | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 | [setStartShapeConnectionSiteIndex](setstartshapeconnectionsiteindex)(long) | Returns or sets the index of connection site for start shape. Read/write long. |

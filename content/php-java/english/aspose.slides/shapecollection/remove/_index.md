@@ -169,24 +169,6 @@ void
 ---
 
 
-## remove([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([VideoFrame](../../videoframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -197,6 +179,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [VideoFrame](../../videoframe) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | The shape to remove from the collection. |
 
 ### Returns
 void
@@ -295,24 +295,6 @@ void
 ---
 
 
-## remove([Chart](../../chart) shape)  method
-
- Removes the first occurrence of a specific shape from the collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Chart](../../chart) | The shape to remove from the collection. |
-
-### Returns
-void
-
-
----
-
-
 ## remove([AudioFrame](../../audioframe) shape)  method
 
  Removes the first occurrence of a specific shape from the collection.
@@ -323,6 +305,24 @@ void
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [AudioFrame](../../audioframe) | The shape to remove from the collection. |
+
+### Returns
+void
+
+
+---
+
+
+## remove([Chart](../../chart) shape)  method
+
+ Removes the first occurrence of a specific shape from the collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Chart](../../chart) | The shape to remove from the collection. |
 
 ### Returns
 void

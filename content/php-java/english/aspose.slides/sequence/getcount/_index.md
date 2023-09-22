@@ -128,7 +128,7 @@ int
 ---
 
 
-## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
+## getCount([VideoFrame](../../videoframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -140,7 +140,7 @@ int
 ---
 
 
-## getCount([VideoFrame](../../videoframe) shape)  method
+## getCount([OleObjectFrame](../../oleobjectframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -212,7 +212,7 @@ int
 ---
 
 
-## getCount([Chart](../../chart) shape)  method
+## getCount([AudioFrame](../../audioframe) shape)  method
 
  Returns count of effects for the specified shape.
  
@@ -224,7 +224,7 @@ int
 ---
 
 
-## getCount([AudioFrame](../../audioframe) shape)  method
+## getCount([Chart](../../chart) shape)  method
 
  Returns count of effects for the specified shape.
  

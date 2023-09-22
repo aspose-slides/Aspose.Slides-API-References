@@ -142,21 +142,6 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathBorderBox](../../mathborderbox) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
 ## MathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -167,6 +152,21 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
+## MathBorderBox([MathBorderBox](../../mathborderbox) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -187,21 +187,6 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
 ## MathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -212,6 +197,21 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
+## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -232,21 +232,6 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathFraction](../../mathfraction) element)  constructor
-
- Creates MathBorderBox element with rectangular border
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The base element to which the border box is applied. Can be null. |
-
-
----
-
-
 ## MathBorderBox([MathematicalText](../../mathematicaltext) element)  constructor
 
  Creates MathBorderBox element with rectangular border
@@ -257,6 +242,21 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | The base element to which the border box is applied. Can be null. |
+
+
+---
+
+
+## MathBorderBox([MathFraction](../../mathfraction) element)  constructor
+
+ Creates MathBorderBox element with rectangular border
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | The base element to which the border box is applied. Can be null. |
 
 
 ---
@@ -499,7 +499,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathBorderBox](../../mathborderbox) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -508,7 +508,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | The base element to which the border box is applied |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -522,7 +522,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathBorderBox](../../mathborderbox) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -531,7 +531,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | The base element to which the border box is applied |
+| element | [MathBorderBox](../mathborderbox) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -568,7 +568,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -577,7 +577,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the border box is applied |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -591,7 +591,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -600,7 +600,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | The base element to which the border box is applied |
+| element | [MathSubscriptElement](../mathsubscriptelement) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -637,7 +637,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -646,7 +646,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | The base element to which the border box is applied |
+| element | [MathematicalText](../mathematicaltext) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -660,7 +660,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 ---
 
 
-## MathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
+## MathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  constructor
 
  Creates MathBorderBox element 
  
@@ -669,7 +669,7 @@ url: /aspose.slides/mathborderbox/mathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | The base element to which the border box is applied |
+| element | [MathFraction](../mathfraction) | The base element to which the border box is applied |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |

@@ -169,24 +169,6 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathBorderBox](../../mathborderbox) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
 
  Create a math border box by applying to the element
@@ -197,6 +179,24 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathBorderBox](../../mathborderbox) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -223,24 +223,6 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math border box by applying to the element
@@ -251,6 +233,24 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -277,24 +277,6 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFraction](../../mathfraction) element)  method
-
- Create a math border box by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to apply border box |
-
-### Returns
-[MathBorderBox](../../mathborderbox)
-
-
----
-
-
 ## createMathBorderBox([MathematicalText](../../mathematicaltext) element)  method
 
  Create a math border box by applying to the element
@@ -305,6 +287,24 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to apply border box |
+
+### Returns
+[MathBorderBox](../../mathborderbox)
+
+
+---
+
+
+## createMathBorderBox([MathFraction](../../mathfraction) element)  method
+
+ Create a math border box by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | math element to apply border box |
 
 ### Returns
 [MathBorderBox](../../mathborderbox)
@@ -583,7 +583,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathBorderBox](../../mathborderbox) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -592,7 +592,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | math element to apply border box |
+| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -609,7 +609,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathGroupingCharacter](../../mathgroupingcharacter) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathBorderBox](../../mathborderbox) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -618,7 +618,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../mathgroupingcharacter) | math element to apply border box |
+| element | [MathBorderBox](../mathborderbox) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -661,7 +661,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -670,7 +670,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply border box |
+| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -687,7 +687,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathSuperscriptElement](../../mathsuperscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathSubscriptElement](../../mathsubscriptelement) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -696,7 +696,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../mathsuperscriptelement) | math element to apply border box |
+| element | [MathSubscriptElement](../mathsubscriptelement) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -739,7 +739,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -748,7 +748,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../mathfraction) | math element to apply border box |
+| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |
@@ -765,7 +765,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 ---
 
 
-## createMathBorderBox([MathematicalText](../../mathematicaltext) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
+## createMathBorderBox([MathFraction](../../mathfraction) element, boolean hideTop, boolean hideBottom, boolean hideLeft, boolean hideRight, boolean strikethroughHorizontal, boolean strikethroughVertical, boolean strikethroughBottomLeftToTopRight, boolean strikethroughTopLeftToBottomRight)  method
 
  Create a math border box by applying to the element
  
@@ -774,7 +774,7 @@ url: /aspose.slides/mathborderboxfactory/createmathborderbox/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../mathematicaltext) | math element to apply border box |
+| element | [MathFraction](../mathfraction) | math element to apply border box |
 | hideTop | boolean | Hide Top Edge |
 | hideBottom | boolean | Hide Bottom Edge |
 | hideLeft | boolean | Hide Left Edge |

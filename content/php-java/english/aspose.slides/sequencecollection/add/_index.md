@@ -124,7 +124,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
+## add([VideoFrame](../../videoframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -137,7 +137,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([VideoFrame](../../videoframe) shapeTrigger)  method
+## add([OleObjectFrame](../../oleobjectframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -215,7 +215,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([Chart](../../chart) shapeTrigger)  method
+## add([AudioFrame](../../audioframe) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.
@@ -228,7 +228,7 @@ url: /aspose.slides/sequencecollection/add/
 ---
 
 
-## add([AudioFrame](../../audioframe) shapeTrigger)  method
+## add([Chart](../../chart) shapeTrigger)  method
 
  Add new interactive sequence.
  Read/write  Sequence.

@@ -196,7 +196,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathBorderBox](../../mathborderbox) element)  constructor
+## MathDelimiter([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -205,7 +205,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -217,7 +217,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathGroupingCharacter](../../mathgroupingcharacter) element)  constructor
+## MathDelimiter([MathBorderBox](../../mathborderbox) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -226,7 +226,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathBorderBox](../../mathborderbox) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -259,7 +259,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
+## MathDelimiter([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -268,7 +268,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -280,7 +280,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathSuperscriptElement](../../mathsuperscriptelement) element)  constructor
+## MathDelimiter([MathSubscriptElement](../../mathsubscriptelement) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -289,7 +289,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -322,7 +322,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathFraction](../../mathfraction) element)  constructor
+## MathDelimiter([MathematicalText](../../mathematicaltext) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -331,7 +331,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathematicalText](../../mathematicaltext) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 
@@ -343,7 +343,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 ---
 
 
-## MathDelimiter([MathematicalText](../../mathematicaltext) element)  constructor
+## MathDelimiter([MathFraction](../../mathfraction) element)  constructor
 
  Initializes MathDelimiter with the specified element as single base argument
  
@@ -352,7 +352,7 @@ url: /aspose.slides/mathdelimiter/mathdelimiter/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathFraction](../../mathfraction) | The base element to which the delimiter is applied. Can be null. |
 
 ### Exception
 

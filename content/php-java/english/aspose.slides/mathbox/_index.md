@@ -28,14 +28,14 @@ url: /aspose.slides/mathbox/
 | [MathBox](mathbox)([MathDelimiter](../mathdelimiter)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathNaryOperator](../mathnaryoperator)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathAccent](../mathaccent)) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)([MathBorderBox](../mathborderbox)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathBorderBox](../mathborderbox)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathBar](../mathbar)) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathFunction](../mathfunction)) | Initializes MathBox with the specified element as an argument |
-| [MathBox](mathbox)([MathFraction](../mathfraction)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathematicalText](../mathematicaltext)) | Initializes MathBox with the specified element as an argument |
+| [MathBox](mathbox)([MathFraction](../mathfraction)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathBox](../mathbox)) | Initializes MathBox with the specified element as an argument |
 | [MathBox](mathbox)([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathBox with the specified element as an argument |
 

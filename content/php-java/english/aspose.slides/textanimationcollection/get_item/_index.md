@@ -181,24 +181,6 @@ url: /aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([VideoFrame](../../videoframe) shape)  method
 
  Returns all elements 
@@ -209,6 +191,24 @@ url: /aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [VideoFrame](../../videoframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([OleObjectFrame](../../oleobjectframe) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [OleObjectFrame](../../oleobjectframe) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)
@@ -307,24 +307,6 @@ url: /aspose.slides/textanimationcollection/get_item/
 ---
 
 
-## get_Item([Chart](../../chart) shape)  method
-
- Returns all elements 
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| shape | [Chart](../../chart) | IShape to remove. |
-
-### Returns
-[TextAnimation](../../textanimation)
-
-
----
-
-
 ## get_Item([AudioFrame](../../audioframe) shape)  method
 
  Returns all elements 
@@ -335,6 +317,24 @@ url: /aspose.slides/textanimationcollection/get_item/
 | Name | Type | Description |
 | --- | --- | --- |
 | shape | [AudioFrame](../../audioframe) | IShape to remove. |
+
+### Returns
+[TextAnimation](../../textanimation)
+
+
+---
+
+
+## get_Item([Chart](../../chart) shape)  method
+
+ Returns all elements 
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| shape | [Chart](../../chart) | IShape to remove. |
 
 ### Returns
 [TextAnimation](../../textanimation)

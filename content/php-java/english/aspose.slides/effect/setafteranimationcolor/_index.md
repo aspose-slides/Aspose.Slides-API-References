@@ -9,7 +9,7 @@ url: /aspose.slides/effect/setafteranimationcolor/
 
 ## setAfterAnimationColor([ColorFormat](../../colorformat) value)  method
 
- Defined an after animation color for effect.
+ Defines an after animation color for effect.
  Read/write  IColorFormat.
  
 

@@ -169,24 +169,6 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathBorderBox](../../mathborderbox) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathGroupingCharacter](../../mathgroupingcharacter) element)  method
 
  Create a math bar by applying to the element
@@ -197,6 +179,24 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathBorderBox](../../mathborderbox) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../../mathborderbox) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -223,24 +223,6 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathSubscriptElement](../../mathsubscriptelement) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathSuperscriptElement](../../mathsuperscriptelement) element)  method
 
  Create a math bar by applying to the element
@@ -251,6 +233,24 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathSubscriptElement](../../mathsubscriptelement) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -277,24 +277,6 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFraction](../../mathfraction) element)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to apply bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathematicalText](../../mathematicaltext) element)  method
 
  Create a math bar by applying to the element
@@ -305,6 +287,24 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../../mathematicaltext) | math element to apply bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFraction](../../mathfraction) element)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../../mathfraction) | math element to apply bar |
 
 ### Returns
 [MathBar](../../mathbar)
@@ -520,25 +520,6 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathBorderBox](../../mathborderbox) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathBorderBox](../mathborderbox) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathGroupingCharacter](../../mathgroupingcharacter) element, int position)  method
 
  Create a math bar by applying to the element
@@ -549,6 +530,25 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathGroupingCharacter](../mathgroupingcharacter) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathBorderBox](../../mathborderbox) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathBorderBox](../mathborderbox) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
@@ -577,25 +577,6 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathSubscriptElement](../../mathsubscriptelement) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathSubscriptElement](../mathsubscriptelement) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathSuperscriptElement](../../mathsuperscriptelement) element, int position)  method
 
  Create a math bar by applying to the element
@@ -606,6 +587,25 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathSuperscriptElement](../mathsuperscriptelement) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathSubscriptElement](../../mathsubscriptelement) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathSubscriptElement](../mathsubscriptelement) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
@@ -634,25 +634,6 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 ---
 
 
-## createMathBar([MathFraction](../../mathfraction) element, int position)  method
-
- Create a math bar by applying to the element
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathFraction](../mathfraction) | Math element to apply bar |
-| position | int | Position of the bar |
-
-### Returns
-[MathBar](../../mathbar)
-
-
----
-
-
 ## createMathBar([MathematicalText](../../mathematicaltext) element, int position)  method
 
  Create a math bar by applying to the element
@@ -663,6 +644,25 @@ url: /aspose.slides/mathbarfactory/createmathbar/
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathematicalText](../mathematicaltext) | Math element to apply bar |
+| position | int | Position of the bar |
+
+### Returns
+[MathBar](../../mathbar)
+
+
+---
+
+
+## createMathBar([MathFraction](../../mathfraction) element, int position)  method
+
+ Create a math bar by applying to the element
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathFraction](../mathfraction) | Math element to apply bar |
 | position | int | Position of the bar |
 
 ### Returns
