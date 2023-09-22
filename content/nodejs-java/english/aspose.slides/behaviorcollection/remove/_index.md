@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/behaviorcollection/remove/
 ---
 
-## remove([ColorEffect](../../coloreffect) item)  function
+## remove([ScaleEffect](../../scaleeffect) item)  function
 
  Removes specified behavior from a collection.
  
@@ -16,7 +16,7 @@ url: /aspose.slides/behaviorcollection/remove/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorEffect](../../coloreffect) | Behavior to remove. |
+| item | [ScaleEffect](../../scaleeffect) | Behavior to remove. |
 
 ### Result
 boolean
@@ -43,42 +43,6 @@ boolean
 ---
 
 
-## remove([MotionEffect](../../motioneffect) item)  function
-
- Removes specified behavior from a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MotionEffect](../../motioneffect) | Behavior to remove. |
-
-### Result
-boolean
-
-
----
-
-
-## remove([ScaleEffect](../../scaleeffect) item)  function
-
- Removes specified behavior from a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [ScaleEffect](../../scaleeffect) | Behavior to remove. |
-
-### Result
-boolean
-
-
----
-
-
 ## remove([CommandEffect](../../commandeffect) item)  function
 
  Removes specified behavior from a collection.
@@ -89,6 +53,42 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [CommandEffect](../../commandeffect) | Behavior to remove. |
+
+### Result
+boolean
+
+
+---
+
+
+## remove([SetEffect](../../seteffect) item)  function
+
+ Removes specified behavior from a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [SetEffect](../../seteffect) | Behavior to remove. |
+
+### Result
+boolean
+
+
+---
+
+
+## remove([ColorEffect](../../coloreffect) item)  function
+
+ Removes specified behavior from a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ColorEffect](../../coloreffect) | Behavior to remove. |
 
 ### Result
 boolean
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-## remove([SetEffect](../../seteffect) item)  function
+## remove([MotionEffect](../../motioneffect) item)  function
 
  Removes specified behavior from a collection.
  
@@ -124,7 +124,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SetEffect](../../seteffect) | Behavior to remove. |
+| item | [MotionEffect](../../motioneffect) | Behavior to remove. |
 
 ### Result
 boolean

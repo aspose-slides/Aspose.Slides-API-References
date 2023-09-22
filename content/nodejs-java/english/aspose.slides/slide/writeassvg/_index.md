@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/slide/writeassvg/
 ---
 
-## writeAsSvgToStream (WriteStream stream)  function
+## writeAsSvgToStream (Slide slide, WriteStream stream)  function
 
  Saves content of slide as SVG file.
  
@@ -16,13 +16,14 @@ url: /aspose.slides/slide/writeassvg/
 
 | Name | Type | Description |
 | --- | --- | --- |
+| slide | Slide  | link to self |
 | stream | WriteStream | Target stream |
 
 
 ---
 
 
-## writeAsSvgToStream (WriteStream stream, [SVGOptions](../../svgoptions) svgOptions)  function
+## writeAsSvgToStream (Slide slide, WriteStream stream, [SVGOptions](../../svgoptions) svgOptions)  function
 
  Saves content of slide as SVG file.
  
@@ -31,6 +32,7 @@ url: /aspose.slides/slide/writeassvg/
 
 | Name | Type | Description |
 | --- | --- | --- |
+| slide | Slide  | link to self |
 | stream | WriteStream | Target stream |
 | svgOptions | [SVGOptions](../../svgoptions) | SVG generation options |
 

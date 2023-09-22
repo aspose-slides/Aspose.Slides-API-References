@@ -37,4 +37,4 @@ url: /aspose.slides/mathparagraph/
 | [removeAt](removeat)(int) | Removes an item at the specified index of the collection. |
 | [setJustification](setjustification)(int) | Paragraph Justification Default value: CenteredAsGroup |
 | [set_Item](set_item)(int, [MathBlock](../mathblock)) | Gets the item at the specified index. Read-only IMathBlock. |
-| [writeAsMathMlToStream ](writeasmathml)(WriteStream) | Saves content of this MathParagraph as MathML |
+| [writeAsMathMlToStream ](writeasmathml)(MathParagraph, WriteStream) | Saves content of this MathParagraph as MathML |

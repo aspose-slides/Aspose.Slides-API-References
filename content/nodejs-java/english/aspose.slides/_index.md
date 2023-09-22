@@ -19,6 +19,7 @@ description: Aspose.Slides are Microsoft PowerPoint management APIs that enables
 | [AlphaModulate](alphamodulate) | Represents an Alpha Modulate effect. Effect alpha (opacity) values are multiplied by a fixed percentage. The effect container specifies an effect containing alpha values to modulate. |
 | [AlphaModulateFixed](alphamodulatefixed) | Represents an Alpha Modulate Fixed effect. Effect alpha (opacity) values are multiplied by a fixed percentage. |
 | [AlphaReplace](alphareplace) | Represents and Alpha Replace effect. Effect alpha (opacity) values are replaced by a fixed alpha. |
+| [AnimateTextType](animatetexttype) | Represents the animate text type of an animation effect. |
 | [AnimationTimeLine](animationtimeline) | Represents timeline of animation. |
 | [AsposeLicenseException](asposelicenseexception) | This exception is thrown if any errors with license are detected. |
 | [Audio](audio) | Represents an embedded audio file. |

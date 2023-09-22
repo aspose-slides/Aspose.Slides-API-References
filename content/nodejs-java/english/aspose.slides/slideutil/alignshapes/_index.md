@@ -25,7 +25,7 @@ url: /aspose.slides/slideutil/alignshapes/
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../masternotesslide) slide)  function
+## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../layoutslide) slide)  function
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -37,25 +37,7 @@ url: /aspose.slides/slideutil/alignshapes/
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterNotesSlide](../../masternotesslide) | Parent slide. |
-
-
----
-
-
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../masterhandoutslide) slide)  function
-
- Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
- or align them relative to each other.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| alignmentType | int | Determines which type of alignment will be applied. |
-| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterHandoutSlide](../../masterhandoutslide) | Parent slide. |
+| slide | [LayoutSlide](../../layoutslide) | Parent slide. |
 
 
 ---
@@ -79,7 +61,7 @@ url: /aspose.slides/slideutil/alignshapes/
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../layoutslide) slide)  function
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../masternotesslide) slide)  function
 
  Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
  or align them relative to each other.
@@ -91,25 +73,7 @@ url: /aspose.slides/slideutil/alignshapes/
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [LayoutSlide](../../layoutslide) | Parent slide. |
-
-
----
-
-
-## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../slide) slide)  function
-
- Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
- or align them relative to each other.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| alignmentType | int | Determines which type of alignment will be applied. |
-| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [Slide](../../slide) | Parent slide. |
+| slide | [MasterNotesSlide](../../masternotesslide) | Parent slide. |
 
 
 ---
@@ -133,11 +97,11 @@ url: /aspose.slides/slideutil/alignshapes/
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../masternotesslide) slide, int[] shapeIndexes)  function
+## alignShapes(int alignmentType, boolean alignToSlide, [Slide](../../slide) slide)  function
 
-  Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
-  or align them relative to each other.
-  
+ Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
+ or align them relative to each other.
+ 
 
 ### Parameters
 
@@ -145,14 +109,31 @@ url: /aspose.slides/slideutil/alignshapes/
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterNotesSlide](../masternotesslide) | Parent slide. |
-| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+| slide | [Slide](../../slide) | Parent slide. |
 
 
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../masterhandoutslide) slide, int[] shapeIndexes)  function
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../masterhandoutslide) slide)  function
+
+ Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide
+ or align them relative to each other.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | [MasterHandoutSlide](../../masterhandoutslide) | Parent slide. |
+
+
+---
+
+
+## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../layoutslide) slide, int[] shapeIndexes)  function
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -164,7 +145,7 @@ url: /aspose.slides/slideutil/alignshapes/
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
+| slide | [LayoutSlide](../layoutslide) | Parent slide. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
 
@@ -190,7 +171,7 @@ url: /aspose.slides/slideutil/alignshapes/
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [LayoutSlide](../../layoutslide) slide, int[] shapeIndexes)  function
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterNotesSlide](../../masternotesslide) slide, int[] shapeIndexes)  function
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -202,7 +183,26 @@ url: /aspose.slides/slideutil/alignshapes/
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [LayoutSlide](../layoutslide) | Parent slide. |
+| slide | [MasterNotesSlide](../masternotesslide) | Parent slide. |
+| shapeIndexes | int[] | Indexes of shapes to be aligned. |
+
+
+---
+
+
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../masterslide) slide, int[] shapeIndexes)  function
+
+  Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
+  or align them relative to each other.
+  
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| alignmentType | int | Determines which type of alignment will be applied. |
+| alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
+| slide | [MasterSlide](../masterslide) | Parent slide. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
 
@@ -228,7 +228,7 @@ url: /aspose.slides/slideutil/alignshapes/
 ---
 
 
-## alignShapes(int alignmentType, boolean alignToSlide, [MasterSlide](../../masterslide) slide, int[] shapeIndexes)  function
+## alignShapes(int alignmentType, boolean alignToSlide, [MasterHandoutSlide](../../masterhandoutslide) slide, int[] shapeIndexes)  function
 
   Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide
   or align them relative to each other.
@@ -240,7 +240,7 @@ url: /aspose.slides/slideutil/alignshapes/
 | --- | --- | --- |
 | alignmentType | int | Determines which type of alignment will be applied. |
 | alignToSlide | boolean | If true, shapes will be aligned relative to the slide edges. |
-| slide | [MasterSlide](../masterslide) | Parent slide. |
+| slide | [MasterHandoutSlide](../masterhandoutslide) | Parent slide. |
 | shapeIndexes | int[] | Indexes of shapes to be aligned. |
 
 

@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/slideutil/getalltextboxes/
 ---
 
-## getAllTextBoxes([MasterNotesSlide](../../masternotesslide) slide)  function
+## getAllTextBoxes([LayoutSlide](../../layoutslide) slide)  function
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -16,25 +16,7 @@ url: /aspose.slides/slideutil/getalltextboxes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [MasterNotesSlide](../../masternotesslide) | Scanned slide. |
-
-### Result
-[TextFrame](../../textframe)
-
-
----
-
-
-## getAllTextBoxes([MasterHandoutSlide](../../masterhandoutslide) slide)  function
-
- Returns all text frames on a slide in a PPTX presentation.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| slide | [MasterHandoutSlide](../../masterhandoutslide) | Scanned slide. |
+| slide | [LayoutSlide](../../layoutslide) | Scanned slide. |
 
 ### Result
 [TextFrame](../../textframe)
@@ -61,7 +43,7 @@ url: /aspose.slides/slideutil/getalltextboxes/
 ---
 
 
-## getAllTextBoxes([LayoutSlide](../../layoutslide) slide)  function
+## getAllTextBoxes([MasterNotesSlide](../../masternotesslide) slide)  function
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -70,7 +52,25 @@ url: /aspose.slides/slideutil/getalltextboxes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [LayoutSlide](../../layoutslide) | Scanned slide. |
+| slide | [MasterNotesSlide](../../masternotesslide) | Scanned slide. |
+
+### Result
+[TextFrame](../../textframe)
+
+
+---
+
+
+## getAllTextBoxes([MasterSlide](../../masterslide) slide)  function
+
+ Returns all text frames on a slide in a PPTX presentation.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| slide | [MasterSlide](../../masterslide) | Scanned slide. |
 
 ### Result
 [TextFrame](../../textframe)
@@ -97,7 +97,7 @@ url: /aspose.slides/slideutil/getalltextboxes/
 ---
 
 
-## getAllTextBoxes([MasterSlide](../../masterslide) slide)  function
+## getAllTextBoxes([MasterHandoutSlide](../../masterhandoutslide) slide)  function
 
  Returns all text frames on a slide in a PPTX presentation.
  
@@ -106,7 +106,7 @@ url: /aspose.slides/slideutil/getalltextboxes/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| slide | [MasterSlide](../../masterslide) | Scanned slide. |
+| slide | [MasterHandoutSlide](../../masterhandoutslide) | Scanned slide. |
 
 ### Result
 [TextFrame](../../textframe)

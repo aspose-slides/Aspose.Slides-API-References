@@ -24,7 +24,7 @@ url: /aspose.slides/shapecollection/addpictureframe/
 | image | [PPImage](../../ppimage) | The image of picture frame. |
 
 ### Result
-[AudioFrame](../../audioframe), [VideoFrame](../../videoframe), [PictureFrame](../../pictureframe)
+[VideoFrame](../../videoframe), [AudioFrame](../../audioframe), [PictureFrame](../../pictureframe)
 
 
 ---

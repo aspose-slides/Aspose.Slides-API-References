@@ -7,6 +7,51 @@ type: docs
 url: /aspose.slides/imagetransformoperationcollection/additem/
 ---
 
+## addItem([AlphaInverse](../../alphainverse) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [AlphaInverse](../../alphainverse) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([OuterShadow](../../outershadow) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [OuterShadow](../../outershadow) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([PresetShadow](../../presetshadow) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [PresetShadow](../../presetshadow) | The image effect to add to the end of a collection. |
+
+
+---
+
+
 ## addItem([AlphaFloor](../../alphafloor) operation)  function
 
  Adds the new image effect to the end of a collection.
@@ -37,7 +82,7 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([AlphaModulate](../../alphamodulate) operation)  function
+## addItem([AlphaReplace](../../alphareplace) operation)  function
 
  Adds the new image effect to the end of a collection.
  
@@ -46,97 +91,7 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [AlphaModulate](../../alphamodulate) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([BiLevel](../../bilevel) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [BiLevel](../../bilevel) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([AlphaModulateFixed](../../alphamodulatefixed) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [AlphaModulateFixed](../../alphamodulatefixed) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([Blur](../../blur) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [Blur](../../blur) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([Glow](../../glow) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [Glow](../../glow) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([AlphaCeiling](../../alphaceiling) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [AlphaCeiling](../../alphaceiling) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([ColorReplace](../../colorreplace) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [ColorReplace](../../colorreplace) | The image effect to add to the end of a collection. |
+| operation | [AlphaReplace](../../alphareplace) | The image effect to add to the end of a collection. |
 
 
 ---
@@ -157,7 +112,7 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([OuterShadow](../../outershadow) operation)  function
+## addItem([FillOverlay](../../filloverlay) operation)  function
 
  Adds the new image effect to the end of a collection.
  
@@ -166,7 +121,7 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [OuterShadow](../../outershadow) | The image effect to add to the end of a collection. |
+| operation | [FillOverlay](../../filloverlay) | The image effect to add to the end of a collection. |
 
 
 ---
@@ -187,7 +142,7 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([AlphaBiLevel](../../alphabilevel) operation)  function
+## addItem([BiLevel](../../bilevel) operation)  function
 
  Adds the new image effect to the end of a collection.
  
@@ -196,13 +151,13 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [AlphaBiLevel](../../alphabilevel) | The image effect to add to the end of a collection. |
+| operation | [BiLevel](../../bilevel) | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([Reflection](../../reflection) operation)  function
+## addItem([Glow](../../glow) operation)  function
 
  Adds the new image effect to the end of a collection.
  
@@ -211,67 +166,7 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [Reflection](../../reflection) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([FillOverlay](../../filloverlay) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [FillOverlay](../../filloverlay) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([AlphaReplace](../../alphareplace) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [AlphaReplace](../../alphareplace) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([PresetShadow](../../presetshadow) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [PresetShadow](../../presetshadow) | The image effect to add to the end of a collection. |
-
-
----
-
-
-## addItem([HSL](../../hsl) operation)  function
-
- Adds the new image effect to the end of a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| operation | [HSL](../../hsl) | The image effect to add to the end of a collection. |
+| operation | [Glow](../../glow) | The image effect to add to the end of a collection. |
 
 
 ---
@@ -292,6 +187,21 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 ---
 
 
+## addItem([AlphaBiLevel](../../alphabilevel) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [AlphaBiLevel](../../alphabilevel) | The image effect to add to the end of a collection. |
+
+
+---
+
+
 ## addItem([InnerShadow](../../innershadow) operation)  function
 
  Adds the new image effect to the end of a collection.
@@ -302,6 +212,36 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | [InnerShadow](../../innershadow) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([Reflection](../../reflection) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [Reflection](../../reflection) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([ColorChange](../../colorchange) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [ColorChange](../../colorchange) | The image effect to add to the end of a collection. |
 
 
 ---
@@ -322,7 +262,7 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 ---
 
 
-## addItem([AlphaInverse](../../alphainverse) operation)  function
+## addItem([AlphaCeiling](../../alphaceiling) operation)  function
 
  Adds the new image effect to the end of a collection.
  
@@ -331,13 +271,13 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [AlphaInverse](../../alphainverse) | The image effect to add to the end of a collection. |
+| operation | [AlphaCeiling](../../alphaceiling) | The image effect to add to the end of a collection. |
 
 
 ---
 
 
-## addItem([ColorChange](../../colorchange) operation)  function
+## addItem([AlphaModulateFixed](../../alphamodulatefixed) operation)  function
 
  Adds the new image effect to the end of a collection.
  
@@ -346,7 +286,67 @@ url: /aspose.slides/imagetransformoperationcollection/additem/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| operation | [ColorChange](../../colorchange) | The image effect to add to the end of a collection. |
+| operation | [AlphaModulateFixed](../../alphamodulatefixed) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([AlphaModulate](../../alphamodulate) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [AlphaModulate](../../alphamodulate) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([ColorReplace](../../colorreplace) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [ColorReplace](../../colorreplace) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([Blur](../../blur) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [Blur](../../blur) | The image effect to add to the end of a collection. |
+
+
+---
+
+
+## addItem([HSL](../../hsl) operation)  function
+
+ Adds the new image effect to the end of a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| operation | [HSL](../../hsl) | The image effect to add to the end of a collection. |
 
 
 ---

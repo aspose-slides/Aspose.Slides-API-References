@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/presentationinfo/writebindedpresentation/
 ---
 
-## writeBindedPresentationToStream (WriteStream stream)  function
+## writeBindedPresentationToStream (PresentationInfo presentationinfo, WriteStream stream)  function
 
  Writes binded presentation to stream.
  
@@ -16,6 +16,7 @@ url: /aspose.slides/presentationinfo/writebindedpresentation/
 
 | Name | Type | Description |
 | --- | --- | --- |
+| presentationinfo | PresentationInfo  | link to self |
 | stream | WriteStream | The stream must be seekable and writable. |
 
 

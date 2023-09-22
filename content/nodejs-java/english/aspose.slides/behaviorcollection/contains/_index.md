@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/behaviorcollection/contains/
 ---
 
-## contains([ColorEffect](../../coloreffect) item)  function
+## contains([ScaleEffect](../../scaleeffect) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -16,7 +16,7 @@ url: /aspose.slides/behaviorcollection/contains/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorEffect](../../coloreffect) | The object to locate in the IGenericCollection. |
+| item | [ScaleEffect](../../scaleeffect) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -43,42 +43,6 @@ boolean
 ---
 
 
-## contains([MotionEffect](../../motioneffect) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MotionEffect](../../motioneffect) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
-## contains([ScaleEffect](../../scaleeffect) item)  function
-
- Determines whether the  IGenericCollection contains a specific value.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [ScaleEffect](../../scaleeffect) | The object to locate in the IGenericCollection. |
-
-### Result
-boolean
-
-
----
-
-
 ## contains([CommandEffect](../../commandeffect) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
@@ -89,6 +53,42 @@ boolean
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [CommandEffect](../../commandeffect) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([SetEffect](../../seteffect) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [SetEffect](../../seteffect) | The object to locate in the IGenericCollection. |
+
+### Result
+boolean
+
+
+---
+
+
+## contains([ColorEffect](../../coloreffect) item)  function
+
+ Determines whether the  IGenericCollection contains a specific value.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ColorEffect](../../coloreffect) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -115,7 +115,7 @@ boolean
 ---
 
 
-## contains([SetEffect](../../seteffect) item)  function
+## contains([MotionEffect](../../motioneffect) item)  function
 
  Determines whether the  IGenericCollection contains a specific value.
  
@@ -124,7 +124,7 @@ boolean
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SetEffect](../../seteffect) | The object to locate in the IGenericCollection. |
+| item | [MotionEffect](../../motioneffect) | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean

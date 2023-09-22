@@ -9,7 +9,7 @@ url: /aspose.slides/effect/getafteranimationtype/
 
 ## getAfterAnimationType()  function
 
- Defined an after animation type for effect.
+ Defines an after animation type for effect.
  Read/write  AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)).
  
 

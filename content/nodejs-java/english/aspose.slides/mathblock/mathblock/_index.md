@@ -19,114 +19,6 @@ MathBlock
 ---
 
 
-## MathBlock([MathLimit](../../mathlimit) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathLimit](../../mathlimit) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathBorderBox](../../mathborderbox) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathBorderBox](../../mathborderbox) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathFraction](../../mathfraction) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFraction](../../mathfraction) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathDelimiter](../../mathdelimiter) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathDelimiter](../../mathdelimiter) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathSuperscriptElement](../../mathsuperscriptelement) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSuperscriptElement](../../mathsuperscriptelement) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
 ## MathBlock([MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) mathElement) function
 
  Creates a new mathematical block and puts specified element in it
@@ -145,7 +37,7 @@ MathBlock
 ---
 
 
-## MathBlock([MathBox](../../mathbox) mathElement) function
+## MathBlock([MathRadical](../../mathradical) mathElement) function
 
  Creates a new mathematical block and puts specified element in it
  
@@ -154,43 +46,7 @@ MathBlock
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBox](../../mathbox) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathMatrix](../../mathmatrix) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathMatrix](../../mathmatrix) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
+| mathElement | [MathRadical](../../mathradical) | The mathematical element to put in the block |
 
 ### Result
 MathBlock
@@ -217,7 +73,7 @@ MathBlock
 ---
 
 
-## MathBlock([MathBlock](../../mathblock) mathElement) function
+## MathBlock([MathMatrix](../../mathmatrix) mathElement) function
 
  Creates a new mathematical block and puts specified element in it
  
@@ -226,79 +82,7 @@ MathBlock
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathBlock](../../mathblock) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathSubscriptElement](../../mathsubscriptelement) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathSubscriptElement](../../mathsubscriptelement) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathFunction](../../mathfunction) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathFunction](../../mathfunction) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathNaryOperator](../../mathnaryoperator) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathNaryOperator](../../mathnaryoperator) | The mathematical element to put in the block |
-
-### Result
-MathBlock
-
-
----
-
-
-## MathBlock([MathematicalText](../../mathematicaltext) mathElement) function
-
- Creates a new mathematical block and puts specified element in it
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathematicalText](../../mathematicaltext) | The mathematical element to put in the block |
+| mathElement | [MathMatrix](../../mathmatrix) | The mathematical element to put in the block |
 
 ### Result
 MathBlock
@@ -325,7 +109,7 @@ MathBlock
 ---
 
 
-## MathBlock([MathRadical](../../mathradical) mathElement) function
+## MathBlock([MathSubscriptElement](../../mathsubscriptelement) mathElement) function
 
  Creates a new mathematical block and puts specified element in it
  
@@ -334,7 +118,223 @@ MathBlock
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathElement | [MathRadical](../../mathradical) | The mathematical element to put in the block |
+| mathElement | [MathSubscriptElement](../../mathsubscriptelement) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathNaryOperator](../../mathnaryoperator) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathNaryOperator](../../mathnaryoperator) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathDelimiter](../../mathdelimiter) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathDelimiter](../../mathdelimiter) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathBlock](../../mathblock) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBlock](../../mathblock) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathBox](../../mathbox) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBox](../../mathbox) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathFunction](../../mathfunction) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFunction](../../mathfunction) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathSuperscriptElement](../../mathsuperscriptelement) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathSuperscriptElement](../../mathsuperscriptelement) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathBorderBox](../../mathborderbox) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathBorderBox](../../mathborderbox) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathFraction](../../mathfraction) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathFraction](../../mathfraction) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathematicalText](../../mathematicaltext) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathematicalText](../../mathematicaltext) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathGroupingCharacter](../../mathgroupingcharacter) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter](../../mathgroupingcharacter) | The mathematical element to put in the block |
+
+### Result
+MathBlock
+
+
+---
+
+
+## MathBlock([MathLimit](../../mathlimit) mathElement) function
+
+ Creates a new mathematical block and puts specified element in it
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathLimit](../../mathlimit) | The mathematical element to put in the block |
 
 ### Result
 MathBlock

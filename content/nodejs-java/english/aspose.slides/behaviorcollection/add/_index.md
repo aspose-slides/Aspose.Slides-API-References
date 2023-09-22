@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/behaviorcollection/add/
 ---
 
-## add([ColorEffect](../../coloreffect) item)  function
+## add([ScaleEffect](../../scaleeffect) item)  function
 
  Add new behavior to a collection.
  
@@ -16,7 +16,7 @@ url: /aspose.slides/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [ColorEffect](../../coloreffect) | Behavior to add. |
+| item | [ScaleEffect](../../scaleeffect) | Behavior to add. |
 
 
 ---
@@ -37,36 +37,6 @@ url: /aspose.slides/behaviorcollection/add/
 ---
 
 
-## add([MotionEffect](../../motioneffect) item)  function
-
- Add new behavior to a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MotionEffect](../../motioneffect) | Behavior to add. |
-
-
----
-
-
-## add([ScaleEffect](../../scaleeffect) item)  function
-
- Add new behavior to a collection.
- 
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [ScaleEffect](../../scaleeffect) | Behavior to add. |
-
-
----
-
-
 ## add([CommandEffect](../../commandeffect) item)  function
 
  Add new behavior to a collection.
@@ -77,6 +47,36 @@ url: /aspose.slides/behaviorcollection/add/
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [CommandEffect](../../commandeffect) | Behavior to add. |
+
+
+---
+
+
+## add([SetEffect](../../seteffect) item)  function
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [SetEffect](../../seteffect) | Behavior to add. |
+
+
+---
+
+
+## add([ColorEffect](../../coloreffect) item)  function
+
+ Add new behavior to a collection.
+ 
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [ColorEffect](../../coloreffect) | Behavior to add. |
 
 
 ---
@@ -97,7 +97,7 @@ url: /aspose.slides/behaviorcollection/add/
 ---
 
 
-## add([SetEffect](../../seteffect) item)  function
+## add([MotionEffect](../../motioneffect) item)  function
 
  Add new behavior to a collection.
  
@@ -106,7 +106,7 @@ url: /aspose.slides/behaviorcollection/add/
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [SetEffect](../../seteffect) | Behavior to add. |
+| item | [MotionEffect](../../motioneffect) | Behavior to add. |
 
 
 ---

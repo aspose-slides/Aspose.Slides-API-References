@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/mathparagraph/writeasmathml/
 ---
 
-## writeAsMathMlToStream (WriteStream stream)  function
+## writeAsMathMlToStream (MathParagraph mathparagraph, WriteStream stream)  function
 
  Saves content of this  MathParagraph as MathML
  
@@ -16,6 +16,7 @@ url: /aspose.slides/mathparagraph/writeasmathml/
 
 | Name | Type | Description |
 | --- | --- | --- |
+| mathparagraph | MathParagraph  | link to self |
 | stream | WriteStream | Target stream |
 
 

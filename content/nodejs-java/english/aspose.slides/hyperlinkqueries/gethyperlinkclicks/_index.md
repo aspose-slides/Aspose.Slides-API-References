@@ -14,7 +14,7 @@ url: /aspose.slides/hyperlinkqueries/gethyperlinkclicks/
  
 
 ### Result
-KeyedCollection, List, [BehaviorPropertyCollection](../../behaviorpropertycollection), Collection, ReadOnlyCollection
+[BehaviorPropertyCollection](../../behaviorpropertycollection), List, ReadOnlyCollection, Collection, KeyedCollection
 
 
 ---

@@ -47,5 +47,5 @@ url: /aspose.slides/slide/
 | [setLayoutSlide](setlayoutslide)([LayoutSlide](../layoutslide)) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 | [setShowMasterShapes](setshowmastershapes)(boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 | [setSlideNumber](setslidenumber)(int) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
-| [writeAsSvgToStream ](writeassvg)(WriteStream) | Saves content of slide as SVG file. |
-| [writeAsSvgToStream ](writeassvg)(WriteStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
+| [writeAsSvgToStream ](writeassvg)(Slide, WriteStream) | Saves content of slide as SVG file. |
+| [writeAsSvgToStream ](writeassvg)(Slide, WriteStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |

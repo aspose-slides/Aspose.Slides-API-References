@@ -66,5 +66,5 @@ url: /aspose.slides/shape/
 | [setWidth](setwidth)(float) | Returns or sets the width of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [setX](setx)(float) | Returns or sets the x-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
 | [setY](sety)(float) | Returns or sets the y-coordinate of the upper-left corner of the shape. Read/write float. Returned value is always defined (is not Float.NaN). Assigned value must be defined (not Float.NaN). You can set undefined values for RawFrame instance properties. |
-| [writeAsSvgToStream ](writeassvg)(WriteStream) | Saves content of Shape as SVG file. |
-| [writeAsSvgToStream ](writeassvg)(WriteStream, [SVGOptions](../svgoptions)) | Saves content of Shape as SVG file. |
+| [writeAsSvgToStream ](writeassvg)(Shape, WriteStream) | Saves content of Shape as SVG file. |
+| [writeAsSvgToStream ](writeassvg)(Shape, WriteStream, [SVGOptions](../svgoptions)) | Saves content of Shape as SVG file. |

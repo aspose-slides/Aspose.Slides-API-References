@@ -14,7 +14,7 @@ url: /aspose.slides/portion/getslide/
  
 
 ### Result
-[MasterNotesSlide](../../masternotesslide), [MasterHandoutSlide](../../masterhandoutslide), [BaseSlide](../../baseslide), [NotesSlide](../../notesslide), [LayoutSlide](../../layoutslide), [Slide](../../slide), [MasterSlide](../../masterslide)
+[LayoutSlide](../../layoutslide), [NotesSlide](../../notesslide), [MasterNotesSlide](../../masternotesslide), [BaseSlide](../../baseslide), [MasterSlide](../../masterslide), [Slide](../../slide), [MasterHandoutSlide](../../masterhandoutslide)
 
 
 ---

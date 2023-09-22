@@ -7,7 +7,7 @@ type: docs
 url: /aspose.slides/mathblock/writeasmathml/
 ---
 
-## writeAsMathMlToStream (WriteStream stream)  function
+## writeAsMathMlToStream (MathBlock mathblock, WriteStream stream)  function
 
  Saves content of this  MathBlock as MathML
  
@@ -16,6 +16,7 @@ url: /aspose.slides/mathblock/writeasmathml/
 
 | Name | Type | Description |
 | --- | --- | --- |
+| mathblock | MathBlock  | link to self |
 | stream | WriteStream | Target stream |
 
 

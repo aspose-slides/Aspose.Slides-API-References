@@ -19,7 +19,7 @@ url: /aspose.slides/imagetransformoperationcollection/get_item/
 | index | int | Index of element. |
 
 ### Result
-[ImageTransformOperation](../../imagetransformoperation), [AlphaFloor](../../alphafloor), [Luminance](../../luminance), [AlphaModulate](../../alphamodulate), [BiLevel](../../bilevel), [AlphaModulateFixed](../../alphamodulatefixed), [Blur](../../blur), [Glow](../../glow), [AlphaCeiling](../../alphaceiling), [ColorReplace](../../colorreplace), [GrayScale](../../grayscale), [OuterShadow](../../outershadow), [Tint](../../tint), [AlphaBiLevel](../../alphabilevel), [Reflection](../../reflection), [FillOverlay](../../filloverlay), [AlphaReplace](../../alphareplace), [PresetShadow](../../presetshadow), [HSL](../../hsl), [SoftEdge](../../softedge), [InnerShadow](../../innershadow), [Duotone](../../duotone), [AlphaInverse](../../alphainverse), [ColorChange](../../colorchange)
+[AlphaInverse](../../alphainverse), [OuterShadow](../../outershadow), [PresetShadow](../../presetshadow), [ImageTransformOperation](../../imagetransformoperation), [AlphaFloor](../../alphafloor), [Luminance](../../luminance), [AlphaReplace](../../alphareplace), [GrayScale](../../grayscale), [FillOverlay](../../filloverlay), [Tint](../../tint), [BiLevel](../../bilevel), [Glow](../../glow), [SoftEdge](../../softedge), [AlphaBiLevel](../../alphabilevel), [InnerShadow](../../innershadow), [Reflection](../../reflection), [ColorChange](../../colorchange), [Duotone](../../duotone), [AlphaCeiling](../../alphaceiling), [AlphaModulateFixed](../../alphamodulatefixed), [AlphaModulate](../../alphamodulate), [ColorReplace](../../colorreplace), [Blur](../../blur), [HSL](../../hsl)
 
 
 ---
