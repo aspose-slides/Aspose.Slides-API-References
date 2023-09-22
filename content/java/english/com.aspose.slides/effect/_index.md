@@ -36,10 +36,14 @@ Represents animation effect.
 | [setSound(IAudio value)](#setSound-com.aspose.slides.IAudio-) | Defined embedded sound for effect. |
 | [getStopPreviousSound()](#getStopPreviousSound--) | This attribute specifies if the animation effect stops the previous sound. |
 | [setStopPreviousSound(boolean value)](#setStopPreviousSound-boolean-) | This attribute specifies if the animation effect stops the previous sound. |
-| [getAfterAnimationType()](#getAfterAnimationType--) | Defined an after animation type for effect. |
-| [setAfterAnimationType(int value)](#setAfterAnimationType-int-) | Defined an after animation type for effect. |
-| [getAfterAnimationColor()](#getAfterAnimationColor--) | Defined an after animation color for effect. |
-| [setAfterAnimationColor(IColorFormat value)](#setAfterAnimationColor-com.aspose.slides.IColorFormat-) | Defined an after animation color for effect. |
+| [getAfterAnimationType()](#getAfterAnimationType--) | Defines an after animation type for effect. |
+| [setAfterAnimationType(int value)](#setAfterAnimationType-int-) | Defines an after animation type for effect. |
+| [getAfterAnimationColor()](#getAfterAnimationColor--) | Defines an after animation color for effect. |
+| [setAfterAnimationColor(IColorFormat value)](#setAfterAnimationColor-com.aspose.slides.IColorFormat-) | Defines an after animation color for effect. |
+| [getAnimateTextType()](#getAnimateTextType--) | Defines an animate text type for effect. |
+| [setAnimateTextType(int value)](#setAnimateTextType-int-) | Defines an animate text type for effect. |
+| [getDelayBetweenTextParts()](#getDelayBetweenTextParts--) | Defines a delay between animated text parts (words or letters). |
+| [setDelayBetweenTextParts(float value)](#setDelayBetweenTextParts-float-) | Defines a delay between animated text parts (words or letters). |
 | [getParent_Immediate()](#getParent-Immediate--) |  |
 ### getSequence() {#getSequence--}
 ```
@@ -326,7 +330,7 @@ public final int getAfterAnimationType()
 ```
 
 
-Defined an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)(\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
+Defines an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)(\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
 
 --------------------
 
@@ -351,7 +355,7 @@ public final void setAfterAnimationType(int value)
 ```
 
 
-Defined an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)(\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
+Defines an after animation type for effect. Read/write [AfterAnimationType](../../com.aspose.slides/afteranimationtype)(\#getAfterAnimationType.getAfterAnimationType/\#setAfterAnimationType(int).setAfterAnimationType(int)).
 
 --------------------
 
@@ -379,7 +383,7 @@ public final IColorFormat getAfterAnimationColor()
 ```
 
 
-Defined an after animation color for effect. Read/write [IColorFormat](../../com.aspose.slides/icolorformat).
+Defines an after animation color for effect. Read/write [IColorFormat](../../com.aspose.slides/icolorformat).
 
 --------------------
 
@@ -407,7 +411,7 @@ public final void setAfterAnimationColor(IColorFormat value)
 ```
 
 
-Defined an after animation color for effect. Read/write [IColorFormat](../../com.aspose.slides/icolorformat).
+Defines an after animation color for effect. Read/write [IColorFormat](../../com.aspose.slides/icolorformat).
 
 --------------------
 
@@ -431,6 +435,118 @@ Defined an after animation color for effect. Read/write [IColorFormat](../../com
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | [IColorFormat](../../com.aspose.slides/icolorformat) |  |
+
+### getAnimateTextType() {#getAnimateTextType--}
+```
+public final int getAnimateTextType()
+```
+
+
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By letter"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByLetter);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+int
+### setAnimateTextType(int value) {#setAnimateTextType-int-}
+```
+public final void setAnimateTextType(int value)
+```
+
+
+Defines an animate text type for effect. The shape text can be animated by letter, by word or all at once. Read/write  AnimateTextType (\#getAnimateTextType.getAnimateTextType/\#setAnimateTextType(int).setAnimateTextType(int)).
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>      // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By letter"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByLetter);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int |  |
+
+### getDelayBetweenTextParts() {#getDelayBetweenTextParts--}
+```
+public final float getDelayBetweenTextParts()
+```
+
+
+Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>     // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By word"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByWord);
+> 
+>      // Set the delay between animated text parts to 20% of effect duration.
+>      firstSlideEffect.setDelayBetweenTextParts(20f);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Returns:**
+float
+### setDelayBetweenTextParts(float value) {#setDelayBetweenTextParts-float-}
+```
+public final void setDelayBetweenTextParts(float value)
+```
+
+
+Defines a delay between animated text parts (words or letters). A positive value specifies the percentage of effect duration. A negative value specifies the delay in seconds. Read/write  float .
+
+--------------------
+
+> ```
+> Presentation presentation = new Presentation("demo.pptx");
+>  try {
+>     // Get the first effect of the first slide.
+>      IEffect firstSlideEffect = presentation.getSlides().get_Item(0).getTimeline().getMainSequence().get_Item(0);
+> 
+>      // Change the effect Animate text type to "By word"
+>      firstSlideEffect.setAnimateTextType(AnimateTextType.ByWord);
+> 
+>      // Set the delay between animated text parts to 20% of effect duration.
+>      firstSlideEffect.setDelayBetweenTextParts(20f);
+>  } finally {
+>      if (presentation != null) presentation.dispose();
+>  }
+> ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | float |  |
 
 ### getParent_Immediate() {#getParent-Immediate--}
 ```

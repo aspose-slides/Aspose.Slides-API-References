@@ -251,6 +251,17 @@ public final boolean getShowMediaControls()
 
 Show Media Controls
 
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>     pres.getSlideShowSettings().setShowMediaControls(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
+
 **Returns:**
 boolean
 ### setShowMediaControls(boolean value) {#setShowMediaControls-boolean-}
@@ -260,6 +271,17 @@ public final void setShowMediaControls(boolean value)
 
 
 Show Media Controls
+
+--------------------
+
+> ```
+> Presentation pres = new Presentation();
+>  try {
+>     pres.getSlideShowSettings().setShowMediaControls(true);
+>  } finally {
+>      if (pres != null) pres.dispose();
+>  }
+> ```
 
 **Parameters:**
 | Parameter | Type | Description |
