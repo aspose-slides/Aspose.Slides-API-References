@@ -26,6 +26,8 @@ The IEffect type exposes the following members:
 |stop_previous_sound|This attribute specifies if the animation effect stops the previous sound.<br/>            Read/write bool.|
 |after_animation_type|Defined an after animation type for effect.<br/>            Read/write [after_animation_type](/slides/python-net/aspose.slides.animation/ieffect/).|
 |after_animation_color|Defined an after animation color for effect.<br/>            Read/write [IColorFormat](/slides/python-net/aspose.slides/icolorformat/).|
+|animate_text_type|Defines an animate text type for effect. <br/>            The shape text can be animated by letter, by word or all at once.<br/>            Read/write [animate_text_type](/slides/python-net/aspose.slides.animation/ieffect/).|
+|delay_between_text_parts|Defines a delay between animated text parts (words or letters).<br/>            A positive value specifies the percentage of effect duration.<br/>            A negative value specifies the delay in seconds.<br/>            Read/write|
 
 ### See Also
 
