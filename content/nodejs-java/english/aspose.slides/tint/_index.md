@@ -17,6 +17,36 @@ url: /aspose.slides/tint/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified Tint is equal to the current Tint. |
-| [getEffective](geteffective)() | Gets effective Tint effect data with the inheritance applied. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [equals](Object) | Determines whether the specified Tint is equal to the current Tint. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Tint to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEffective]() | Gets effective Tint effect data with the inheritance applied. |
+
+### Result
+TintEffectiveData
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+

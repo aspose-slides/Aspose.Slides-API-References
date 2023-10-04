@@ -16,12 +16,84 @@ url: /aspose.slides/cellformat/
 
 | Name | Description |
 | --- | --- |
-| [getBorderBottom](getborderbottom)() | Returns a bottom border line properties object. Read-only ILineFormat. |
-| [getBorderDiagonalDown](getborderdiagonaldown)() | Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
-| [getBorderDiagonalUp](getborderdiagonalup)() | Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
-| [getBorderLeft](getborderleft)() | Returns a left border line properties object. Read-only ILineFormat. |
-| [getBorderRight](getborderright)() | Returns a right border line properties object. Read-only ILineFormat. |
-| [getBorderTop](getbordertop)() | Returns a top border line properties object. Read-only ILineFormat. |
-| [getEffective](geteffective)() | Gets effective table cell formatting properties with inheritance and table styles applied. |
-| [getFillFormat](getfillformat)() | Returns a cell fill properties object. Read-only IFillFormat. |
-| [getVersion](getversion)() |  |
+| [getBorderBottom]() | Returns a bottom border line properties object. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+
+| [getBorderDiagonalDown]() | Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+
+| [getBorderDiagonalUp]() | Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+
+| [getBorderLeft]() | Returns a left border line properties object. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+
+| [getBorderRight]() | Returns a right border line properties object. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+
+| [getBorderTop]() | Returns a top border line properties object. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+
+| [getEffective]() | Gets effective table cell formatting properties with inheritance and table styles applied. |
+
+### Result
+CellFormatEffectiveData
+
+
+---
+
+
+| [getFillFormat]() | Returns a cell fill properties object. Read-only IFillFormat. |
+
+### Result
+[FillFormat](../../fillformat)
+
+
+---
+
+
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+

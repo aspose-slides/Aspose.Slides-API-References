@@ -11,20 +11,78 @@ url: /aspose.slides/tab/
 
  Represents a tabulation for a text.
  
+| [Tab](double, int) | Creates new Tab |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| position | double | Tab position. |
+| align | int | Align. |
+
+### Result
+Tab
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [Tab](tab)(double, int) | Creates new Tab |
+| [compareTo](Object) | Compares the current instance with another object of the same type. |
 
-## Functions
+### Parameters
 
-| Name | Description |
-| --- | --- |
-| [compareTo](compareto)(Object) | Compares the current instance with another object of the same type. |
-| [getAlignment](getalignment)() | Returns or sets align style of a tab. Read/write TabAlignment. |
-| [getPosition](getposition)() | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
-| [getVersion](getversion)() |  |
-| [setAlignment](setalignment)(int) | Returns or sets align style of a tab. Read/write TabAlignment. |
-| [setPosition](setposition)(double) | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | An object to compare with this instance. |
+
+### Result
+int
+
+
+---
+
+
+| [getAlignment]() | Returns or sets align style of a tab. Read/write TabAlignment. |
+
+### Result
+int
+
+
+---
+
+
+| [getPosition]() | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
+
+### Result
+double
+
+
+---
+
+
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+
+| [setAlignment](int) | Returns or sets align style of a tab. Read/write TabAlignment. |
+
+
+---
+
+
+| [setPosition](double) | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
+
+
+---
+
+

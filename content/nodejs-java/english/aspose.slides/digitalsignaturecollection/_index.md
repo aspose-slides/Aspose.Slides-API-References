@@ -16,12 +16,87 @@ url: /aspose.slides/digitalsignaturecollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)([DigitalSignature](../digitalsignature)) | Adds the signature at the end of collection. |
-| [clear](clear)() | Removes all signatures from collection. |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns the signature by index. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [removeAt](removeat)(int) | Removes the signature at the specified index. |
-| [size](size)() | Returns the number of elements in the collection. Read-only int. |
+| [add]([DigitalSignature](../digitalsignature)) | Adds the signature at the end of collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| signature | [DigitalSignature](../../digitalsignature) | Signature to add. |
+
+
+---
+
+
+| [clear]() | Removes all signatures from collection. |
+
+
+---
+
+
+| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [get_Item](int) | Returns the signature by index. |
+
+### Result
+[DigitalSignature](../../digitalsignature)
+
+
+---
+
+
+| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [iterator]() | Returns an enumerator that iterates through the collection. |
+
+### Result
+
+
+
+---
+
+
+| [iteratorJava]() | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [removeAt](int) | Removes the signature at the specified index. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the signature that should be deleted. |
+
+
+---
+
+
+| [size]() | Returns the number of elements in the collection. Read-only int. |
+
+### Result
+int
+
+
+---
+
+

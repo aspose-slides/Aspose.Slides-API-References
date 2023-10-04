@@ -17,10 +17,66 @@ url: /aspose.slides/blur/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified Blur is equal to the current Blur. |
-| [getEffective](geteffective)() | Gets effective Blur effect data with the inheritance applied. |
-| [getGrow](getgrow)() | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
-| [getRadius](getradius)() | Returns or sets blur radius. Read/write double. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
-| [setGrow](setgrow)(boolean) | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
-| [setRadius](setradius)(double) | Returns or sets blur radius. Read/write double. |
+| [equals](Object) | Determines whether the specified Blur is equal to the current Blur. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The Blur to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEffective]() | Gets effective Blur effect data with the inheritance applied. |
+
+### Result
+BlurEffectiveData
+
+
+---
+
+
+| [getGrow]() | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getRadius]() | Returns or sets blur radius. Read/write double. |
+
+### Result
+double
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+
+| [setGrow](boolean) | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
+
+
+---
+
+
+| [setRadius](double) | Returns or sets blur radius. Read/write double. |
+
+
+---
+
+

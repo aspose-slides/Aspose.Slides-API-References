@@ -16,5 +16,18 @@ url: /aspose.slides/svgtspan/
 
 | Name | Description |
 | --- | --- |
-| [getId](getid)() | Gets "tspan" element id |
-| [setId](setid)(String) | Gets "tspan" element id |
+| [getId]() | Gets "tspan" element id |
+
+### Result
+String
+
+
+---
+
+
+| [setId](String) | Gets "tspan" element id |
+
+
+---
+
+

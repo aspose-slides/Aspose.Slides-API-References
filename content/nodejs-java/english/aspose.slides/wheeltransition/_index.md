@@ -16,5 +16,18 @@ url: /aspose.slides/wheeltransition/
 
 | Name | Description |
 | --- | --- |
-| [getSpokes](getspokes)() | Number spokes of wheel transition. Read/write long. |
-| [setSpokes](setspokes)(long) | Number spokes of wheel transition. Read/write long. |
+| [getSpokes]() | Number spokes of wheel transition. Read/write long. |
+
+### Result
+long
+
+
+---
+
+
+| [setSpokes](long) | Number spokes of wheel transition. Read/write long. |
+
+
+---
+
+

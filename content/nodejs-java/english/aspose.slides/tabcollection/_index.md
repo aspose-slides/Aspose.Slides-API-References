@@ -16,14 +16,114 @@ url: /aspose.slides/tabcollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)(double, int) | Adds a Tab to the collection. |
-| [add](add)([Tab](../tab)) | Adds a Tab to the collection. |
-| [clear](clear)() | Removes all elements from the collection. |
-| [equals](equals)(Object) | Determines whether two TabsEx instances are equal. |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Gets the element at the specified index. Read-only Tab. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [removeAt](removeat)(int) | Removes the element at the specified index of the collection. |
-| [size](size)() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [add](double, int) | Adds a Tab to the collection. |
+
+### Result
+[Tab](../../tab)
+
+
+---
+
+
+| [add]([Tab](../tab)) | Adds a Tab to the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | [Tab](../../tab) | The Tab object to be added at the end of the collection. |
+
+### Result
+int
+
+
+---
+
+
+| [clear]() | Removes all elements from the collection. |
+
+
+---
+
+
+| [equals](Object) | Determines whether two TabsEx instances are equal. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The TabsEx to compare with the current TabsEx. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [get_Item](int) | Gets the element at the specified index. Read-only Tab. |
+
+### Result
+[Tab](../../tab)
+
+
+---
+
+
+| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [iterator]() | Returns an enumerator that iterates through the collection. |
+
+### Result
+
+
+
+---
+
+
+| [iteratorJava]() | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [removeAt](int) | Removes the element at the specified index of the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | The zero-based index of the element to remove. |
+
+
+---
+
+
+| [size]() | Gets the number of elements actually contained in the collection. Read-only int. |
+
+### Result
+int
+
+
+---
+
+

@@ -16,5 +16,18 @@ url: /aspose.slides/eightdirectiontransition/
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of transition. Read/write TransitionEightDirectionType. |
-| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionEightDirectionType. |
+| [getDirection]() | Direction of transition. Read/write TransitionEightDirectionType. |
+
+### Result
+int
+
+
+---
+
+
+| [setDirection](int) | Direction of transition. Read/write TransitionEightDirectionType. |
+
+
+---
+
+

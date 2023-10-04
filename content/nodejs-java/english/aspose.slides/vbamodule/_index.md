@@ -16,6 +16,27 @@ url: /aspose.slides/vbamodule/
 
 | Name | Description |
 | --- | --- |
-| [getName](getname)() | Gets the name of the module. Read-only String. |
-| [getSourceCode](getsourcecode)() | Returns or sets the source code of the module. Read/write String. |
-| [setSourceCode](setsourcecode)(String) | Returns or sets the source code of the module. Read/write String. |
+| [getName]() | Gets the name of the module. Read-only String. |
+
+### Result
+String
+
+
+---
+
+
+| [getSourceCode]() | Returns or sets the source code of the module. Read/write String. |
+
+### Result
+String
+
+
+---
+
+
+| [setSourceCode](String) | Returns or sets the source code of the module. Read/write String. |
+
+
+---
+
+

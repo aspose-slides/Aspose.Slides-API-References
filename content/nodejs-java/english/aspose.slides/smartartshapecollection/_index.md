@@ -16,9 +16,63 @@ url: /aspose.slides/smartartshapecollection/
 
 | Name | Description |
 | --- | --- |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Gets the element at the specified index. Read-only SmartArtShape. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [size](size)() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [get_Item](int) | Gets the element at the specified index. Read-only SmartArtShape. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of shape |
+
+### Result
+[SmartArtShape](../../smartartshape)
+
+
+---
+
+
+| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [iterator]() | Returns an enumerator that iterates through the collection. |
+
+### Result
+
+
+
+---
+
+
+| [iteratorJava]() | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [size]() | Gets the number of elements actually contained in the collection. Read-only int. |
+
+### Result
+int
+
+
+---
+
+

@@ -11,21 +11,96 @@ url: /aspose.slides/mathematicaltext/
 
  Mathematical text
  
+| [MathematicalText]() | Default function (create String.Empty Value) |
+
+### Result
+MathematicalText
+
+
+---
+
+
+| [MathematicalText](char) | Create MathText with single symbol |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathSymbol | char | single symbol |
+
+### Result
+MathematicalText
+
+
+---
+
+
+| [MathematicalText](String) | Create MathematicalText from text |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+
+### Result
+MathematicalText
+
+
+---
+
+
+| [MathematicalText](String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathText | String | text value |
+| portionFormat | [PortionFormat](../../portionformat) | text format settings |
+
+### Result
+MathematicalText
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [MathematicalText](mathematicaltext)() | Default function (create String.Empty Value) |
-| [MathematicalText](mathematicaltext)(char) | Create MathText with single symbol |
-| [MathematicalText](mathematicaltext)(String) | Create MathematicalText from text |
-| [MathematicalText](mathematicaltext)(String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
+| [getChildren]() | Get children elements |
 
-## Functions
+### Result
+[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
 
-| Name | Description |
-| --- | --- |
-| [getChildren](getchildren)() | Get children elements |
-| [getFormat](getformat)() | Text formatting properties |
-| [getValue](getvalue)() | Text value |
-| [setValue](setvalue)(String) | Text value |
+
+---
+
+
+| [getFormat]() | Text formatting properties |
+
+### Result
+[PortionFormat](../../portionformat)
+
+
+---
+
+
+| [getValue]() | Text value |
+
+### Result
+String
+
+
+---
+
+
+| [setValue](String) | Text value |
+
+
+---
+
+

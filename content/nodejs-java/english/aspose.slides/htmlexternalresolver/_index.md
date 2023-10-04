@@ -11,16 +11,48 @@ url: /aspose.slides/htmlexternalresolver/
 
  Callback object used by HTML import routine to obtain referrenced objects such as images.
  Using this resolver could create a vulnurability when client provided HTML file will make server software to obtain local or network file. Use with caution. It is recommended not to specify HtmlExternalResolver at all (only embedded objects will be read) or create some subclass which checks if specified uri is valid.
+| [HtmlExternalResolver]() |  |
+
+### Result
+HtmlExternalResolver
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [HtmlExternalResolver](htmlexternalresolver)() |  |
+| [getEntity](String) | Maps a URI to an object containing the actual resource. |
 
-## Functions
+### Parameters
 
-| Name | Description |
-| --- | --- |
-| [getEntity](getentity)(String) | Maps a URI to an object containing the actual resource. |
-| [resolveUri](resolveuri)(String, String) | Resolves the absolute URI from the base and relative URIs. |
+| Name | Type | Description |
+| --- | --- | --- |
+| absoluteUri | String | Absolute URI to the object. |
+
+### Result
+InputStream
+
+
+---
+
+
+| [resolveUri](String, String) | Resolves the absolute URI from the base and relative URIs. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseUri | String | Base URI of linking objects |
+| relativeUri | String | Relative URI to the linked object. |
+
+### Result
+String
+
+
+---
+
+

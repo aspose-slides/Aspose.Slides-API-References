@@ -17,6 +17,36 @@ url: /aspose.slides/alphareplace/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified AlphaReplace is equal to the current AlphaReplace. |
-| [getEffective](geteffective)() | Gets effective Alpha Replace effect data with the inheritance applied. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [equals](Object) | Determines whether the specified AlphaReplace is equal to the current AlphaReplace. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaReplace to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEffective]() | Gets effective Alpha Replace effect data with the inheritance applied. |
+
+### Result
+AlphaReplaceEffectiveData
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+

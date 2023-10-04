@@ -11,39 +11,176 @@ url: /aspose.slides/commandeffect/
 
  Represents a command effect for an animation behavior.
  
+| [CommandEffect]() | Creates new instance. |
+
+### Result
+CommandEffect
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [CommandEffect](commandeffect)() | Creates new instance. |
+| [getCommandString]() | Defines command string. Read/write String. |
 
-## Functions
+### Result
+String
 
-| Name | Description |
-| --- | --- |
-| [getCommandString](getcommandstring)() | Defines command string. Read/write String. |
-| [getShapeTarget](getshapetarget)() | Defines shape target of command effect. Read/write IShape. |
-| [getType](gettype)() | Defines command effect type of behavior. Read/write CommandEffectType. |
-| [setCommandString](setcommandstring)(String) | Defines command string. Read/write String. |
-| [setShapeTarget](setshapetarget)([Chart](../chart)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([GraphicalObject](../graphicalobject)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([GroupShape](../groupshape)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([AudioFrame](../audioframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([OleObjectFrame](../oleobjectframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([AutoShape](../autoshape)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([SmartArtShape](../smartartshape)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([SmartArt](../smartart)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([SummaryZoomFrame](../summaryzoomframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([ZoomFrame](../zoomframe)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
-| [setShapeTarget](setshapetarget)([Connector](../connector)) | Defines shape target of command effect. Read/write IShape. |
-| [setType](settype)(byte) | Defines command effect type of behavior. Read/write CommandEffectType. |
+
+---
+
+
+| [getShapeTarget]() | Defines shape target of command effect. Read/write IShape. |
+
+### Result
+[LegacyDiagram](../../legacydiagram), [Connector](../../connector), [GraphicalObject](../../graphicalobject), [Shape](../../shape), [Ink](../../ink), [GroupShape](../../groupshape), [SmartArtShape](../../smartartshape), [SummaryZoomSection](../../summaryzoomsection), [ZoomObject](../../zoomobject), [SmartArt](../../smartart), [VideoFrame](../../videoframe), [PictureFrame](../../pictureframe), [ZoomFrame](../../zoomframe), [AutoShape](../../autoshape), [GeometryShape](../../geometryshape), [OleObjectFrame](../../oleobjectframe), [SectionZoomFrame](../../sectionzoomframe), [AudioFrame](../../audioframe), [Chart](../../chart), [Table](../../table), [SummaryZoomFrame](../../summaryzoomframe)
+
+
+---
+
+
+| [getType]() | Defines command effect type of behavior. Read/write CommandEffectType. |
+
+### Result
+byte
+
+
+---
+
+
+| [setCommandString](String) | Defines command string. Read/write String. |
+
+
+---
+
+
+| [setShapeTarget]([LegacyDiagram](../legacydiagram)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([Connector](../connector)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([GraphicalObject](../graphicalobject)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([Shape](../shape)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([Ink](../ink)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([GroupShape](../groupshape)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([SmartArtShape](../smartartshape)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([SummaryZoomSection](../summaryzoomsection)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([ZoomObject](../zoomobject)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([SmartArt](../smartart)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([VideoFrame](../videoframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([PictureFrame](../pictureframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([ZoomFrame](../zoomframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([AutoShape](../autoshape)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([OleObjectFrame](../oleobjectframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([SectionZoomFrame](../sectionzoomframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([AudioFrame](../audioframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([Chart](../chart)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([Table](../table)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setShapeTarget]([SummaryZoomFrame](../summaryzoomframe)) | Defines shape target of command effect. Read/write IShape. |
+
+
+---
+
+
+| [setType](byte) | Defines command effect type of behavior. Read/write CommandEffectType. |
+
+
+---
+
+

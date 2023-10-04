@@ -16,5 +16,18 @@ url: /aspose.slides/morphtransition/
 
 | Name | Description |
 | --- | --- |
-| [getMorphType](getmorphtype)() | Type of morph transition. Read/write TransitionMorphType. |
-| [setMorphType](setmorphtype)(int) | Type of morph transition. Read/write TransitionMorphType. |
+| [getMorphType]() | Type of morph transition. Read/write TransitionMorphType. |
+
+### Result
+int
+
+
+---
+
+
+| [setMorphType](int) | Type of morph transition. Read/write TransitionMorphType. |
+
+
+---
+
+

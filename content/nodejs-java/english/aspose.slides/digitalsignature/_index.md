@@ -11,20 +11,82 @@ url: /aspose.slides/digitalsignature/
 
  Digital signature in signed file.
  
+| [DigitalSignature](byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| certData | byte[] | a byte array containing the certificate |
+| password | String | Password required to access certificate. |
+
+### Result
+DigitalSignature
+
+
+---
+
+
+| [DigitalSignature](String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| filePath | String | Path to the file with certificate. |
+| password | String | Password required to access certificate. |
+
+### Result
+DigitalSignature
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [DigitalSignature](digitalsignature)(byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
-| [DigitalSignature](digitalsignature)(String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
+| [getCertificate]() | Certificate object that was used to sign the document. Read-only byte[]. |
 
-## Functions
+### Result
+byte
 
-| Name | Description |
-| --- | --- |
-| [getCertificate](getcertificate)() | Certificate object that was used to sign the document. Read-only byte[]. |
-| [getComments](getcomments)() | The purpose of signature. Read/write String. |
-| [getSignTime](getsigntime)() | The time when the document was signed. Read-only java.util.Date. |
-| [isValid](isvalid)() | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
-| [setComments](setcomments)(String) | The purpose of signature. Read/write String. |
+
+---
+
+
+| [getComments]() | The purpose of signature. Read/write String. |
+
+### Result
+String
+
+
+---
+
+
+| [getSignTime]() | The time when the document was signed. Read-only java.util.Date. |
+
+### Result
+Date
+
+
+---
+
+
+| [isValid]() | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [setComments](String) | The purpose of signature. Read/write String. |
+
+
+---
+
+

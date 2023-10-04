@@ -11,9 +11,12 @@ url: /aspose.slides/presentedbyspeaker/
 
  Presented by a speaker (full screen)
  
+| [PresentedBySpeaker]() | Initializes a new instance of the PresentedBySpeaker class. |
 
-## Functions
+### Result
+PresentedBySpeaker
 
-| Name | Description |
-| --- | --- |
-| [PresentedBySpeaker](presentedbyspeaker)() | Initializes a new instance of the PresentedBySpeaker class. |
+
+---
+
+

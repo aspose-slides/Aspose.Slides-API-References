@@ -16,7 +16,39 @@ url: /aspose.slides/shapeelement/
 
 | Name | Description |
 | --- | --- |
-| [getFillSource](getfillsource)() | Returns information about how to fill an element. Read-only ShapeElementFillSource. |
-| [getGraphicsPath](getgraphicspath)() | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
-| [getParentShape](getparentshape)() | Returns a Shape_PPT for which element was created. Read-only Shape. |
-| [getStrokeSource](getstrokesource)() | Returns information about how to stroke an element. Read-only ShapeElementStrokeSource. |
+| [getFillSource]() | Returns information about how to fill an element. Read-only ShapeElementFillSource. |
+
+### Result
+byte
+
+
+---
+
+
+| [getGraphicsPath]() | Returns an element's path. Read-only java.awt.geom.GeneralPath. |
+
+### Result
+Shape
+
+
+---
+
+
+| [getParentShape]() | Returns a Shape_PPT for which element was created. Read-only Shape. |
+
+### Result
+Shape
+
+
+---
+
+
+| [getStrokeSource]() | Returns information about how to stroke an element. Read-only ShapeElementStrokeSource. |
+
+### Result
+byte
+
+
+---
+
+

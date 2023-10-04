@@ -15,19 +15,67 @@ Provides methods to license the component.
  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
  
  
+| [License]() | Initializes a new instance of this class. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+
+### Result
+License
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [License](license)() | Initializes a new instance of this class. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+| [getVersion]() | Returns version of Aspose.Slides for Java. |
 
-## Functions
+### Result
+String
 
-| Name | Description |
-| --- | --- |
-| [getVersion](getversion)() | Returns version of Aspose.Slides for Java. |
-| [isLicensed](islicensed)() |  |
-| [resetLicense](resetlicense)() | Reset the license Use this function to reset license in component License license = new License(); license.resetLicense(); |
-| [setLicenseFromStream ](setlicense)(License, ReadStream, Function) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
-| [setLicense](setlicense)(String) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+
+---
+
+
+| [isLicensed]() |  |
+
+### Result
+boolean
+
+
+---
+
+
+| [resetLicense]() | Reset the license Use this function to reset license in component License license = new License(); license.resetLicense(); |
+
+
+---
+
+
+| [setLicenseFromStream ](License, ReadStream, Function) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| license | License  | link to self |
+| stream | ReadStream | A stream that contains the license. Use null to switch to evaluation mode. |
+| callback | Function | callback(error, result) - Callback to be called when the method has completed |
+
+
+---
+
+
+| [setLicense](String) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| namePath | String | Can be a full or short file name or name of an embedded resource. Use an empty string to switch to evaluation mode. |
+
+
+---
+
+

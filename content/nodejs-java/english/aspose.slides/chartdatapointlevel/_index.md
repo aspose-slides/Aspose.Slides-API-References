@@ -16,5 +16,21 @@ url: /aspose.slides/chartdatapointlevel/
 
 | Name | Description |
 | --- | --- |
-| [getFormat](getformat)() | Represents formatting properties of data point level. Read/write IFormat. |
-| [getLabel](getlabel)() | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only IDataLabel. |
+| [getFormat]() | Represents formatting properties of data point level. Read/write IFormat. |
+
+### Result
+[Format](../../format)
+
+
+---
+
+
+| [getLabel]() | Represents data label of data point level. Applied for Treemap and Sunburst sereis types. Read-only IDataLabel. |
+
+### Result
+[DataLabel](../../datalabel)
+
+
+---
+
+

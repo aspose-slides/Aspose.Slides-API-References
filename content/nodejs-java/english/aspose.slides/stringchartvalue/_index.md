@@ -18,12 +18,78 @@ url: /aspose.slides/stringchartvalue/
 
 | Name | Description |
 | --- | --- |
-| [getAsCells](getascells)() | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
-| [getAsLiteralString](getasliteralstring)() | Returns or sets value as literal string. Read/write String. |
-| [getCellsAddressInWorkbook](getcellsaddressinworkbook)() | If DataSourceType property is DataSourceType.Worksheet then this function returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
-| [getData](getdata)() | Returns or sets Data object. Read/write Object. |
-| [setAsCells](setascells)([ChartCellCollection](../chartcellcollection)) | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
-| [setAsLiteralString](setasliteralstring)(String) | Returns or sets value as literal string. Read/write String. |
-| [setData](setdata)(Object) | Returns or sets Data object. Read/write Object. |
-| [setFromOneCell](setfromonecell)([ChartDataCell](../chartdatacell)) | Sets value from specified cell. |
-| [toString](tostring)() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
+| [getAsCells]() | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+
+### Result
+[ChartCellCollection](../../chartcellcollection)
+
+
+---
+
+
+| [getAsLiteralString]() | Returns or sets value as literal string. Read/write String. |
+
+### Result
+String
+
+
+---
+
+
+| [getCellsAddressInWorkbook]() | If DataSourceType property is DataSourceType.Worksheet then this function returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
+
+### Result
+String
+
+
+---
+
+
+| [getData]() | Returns or sets Data object. Read/write Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [setAsCells]([ChartCellCollection](../chartcellcollection)) | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+
+
+---
+
+
+| [setAsLiteralString](String) | Returns or sets value as literal string. Read/write String. |
+
+
+---
+
+
+| [setData](Object) | Returns or sets Data object. Read/write Object. |
+
+
+---
+
+
+| [setFromOneCell]([ChartDataCell](../chartdatacell)) | Sets value from specified cell. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| cell | [ChartDataCell](../../chartdatacell) | Cell. |
+
+
+---
+
+
+| [toString]() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
+
+### Result
+String
+
+
+---
+
+

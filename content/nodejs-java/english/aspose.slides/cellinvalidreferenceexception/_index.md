@@ -11,18 +11,73 @@ url: /aspose.slides/cellinvalidreferenceexception/
 
  The exception that is thrown when an invalid cell reference is encountered.
  
+| [CellInvalidReferenceException]() | Initializes a new instance of the CellInvalidReferenceException class. |
+
+### Result
+CellInvalidReferenceException
+
+
+---
+
+
+| [CellInvalidReferenceException](String) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+
+### Result
+CellInvalidReferenceException
+
+
+---
+
+
+| [CellInvalidReferenceException](String, RuntimeException) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| innerException | RuntimeException | The exception that is the cause of the current exception. |
+
+### Result
+CellInvalidReferenceException
+
+
+---
+
+
+| [CellInvalidReferenceException](String, String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and an invalid cell reference. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| reference | String | An invalid cell reference. |
+
+### Result
+CellInvalidReferenceException
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)() | Initializes a new instance of the CellInvalidReferenceException class. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)(String) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)(String, RuntimeException) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
-| [CellInvalidReferenceException](cellinvalidreferenceexception)(String, String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and an invalid cell reference. |
+| [getReference]() | Gets an invalid cell reference. |
 
-## Functions
+### Result
+String
 
-| Name | Description |
-| --- | --- |
-| [getReference](getreference)() | Gets an invalid cell reference. |
+
+---
+
+

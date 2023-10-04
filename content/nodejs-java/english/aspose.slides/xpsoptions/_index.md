@@ -11,20 +11,62 @@ url: /aspose.slides/xpsoptions/
 
  Provides options that control how a presentation is saved in XPS format.
  
+| [XpsOptions]() | Default function. |
+
+### Result
+XpsOptions
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [XpsOptions](xpsoptions)() | Default function. |
+| [getDrawSlidesFrame]() | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
-## Functions
+### Result
+boolean
 
-| Name | Description |
-| --- | --- |
-| [getDrawSlidesFrame](getdrawslidesframe)() | True to draw black frame around each slide. Read/write boolean. Default is false. |
-| [getSaveMetafilesAsPng](getsavemetafilesaspng)() | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
-| [getShowHiddenSlides](getshowhiddenslides)() | Specifies whether the generated document should include hidden slides or not. Default is false. |
-| [setDrawSlidesFrame](setdrawslidesframe)(boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
-| [setSaveMetafilesAsPng](setsavemetafilesaspng)(boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
-| [setShowHiddenSlides](setshowhiddenslides)(boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+---
+
+
+| [getSaveMetafilesAsPng]() | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getShowHiddenSlides]() | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+### Result
+boolean
+
+
+---
+
+
+| [setDrawSlidesFrame](boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
+
+
+---
+
+
+| [setSaveMetafilesAsPng](boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+
+
+---
+
+
+| [setShowHiddenSlides](boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+
+---
+
+

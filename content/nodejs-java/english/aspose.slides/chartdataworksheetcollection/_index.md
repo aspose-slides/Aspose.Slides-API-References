@@ -16,9 +16,63 @@ url: /aspose.slides/chartdataworksheetcollection/
 
 | Name | Description |
 | --- | --- |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns the worksheet by index. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [size](size)() | Returns the count. Read-only int. |
+| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [get_Item](int) | Returns the worksheet by index. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of the worksheet in the collection. |
+
+### Result
+[ChartDataWorksheet](../../chartdataworksheet)
+
+
+---
+
+
+| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [iterator]() | Returns an enumerator that iterates through the collection. |
+
+### Result
+
+
+
+---
+
+
+| [iteratorJava]() | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [size]() | Returns the count. Read-only int. |
+
+### Result
+int
+
+
+---
+
+

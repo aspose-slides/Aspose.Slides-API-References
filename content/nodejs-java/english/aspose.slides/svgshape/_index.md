@@ -16,6 +16,31 @@ url: /aspose.slides/svgshape/
 
 | Name | Description |
 | --- | --- |
-| [getId](getid)() | Gets shape id |
-| [setEventHandler](seteventhandler)(int, String) | Sets event handler for the shape |
-| [setId](setid)(String) | Gets shape id |
+| [getId]() | Gets shape id |
+
+### Result
+String
+
+
+---
+
+
+| [setEventHandler](int, String) | Sets event handler for the shape |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| eventType | int | Type of event. |
+| handler | String | Javascript function to handle event. Null value removes handler. |
+
+
+---
+
+
+| [setId](String) | Gets shape id |
+
+
+---
+
+

@@ -1,0 +1,147 @@
+---
+title: MarkdownSaveOptions
+second_title: Aspose.Sildes for Node.js via Java API Reference
+description: 
+type: docs
+
+url: /aspose.slides/markdownsaveoptions/
+---
+
+## MarkdownSaveOptions class
+
+ Represents options that control how presentation should be saved to markdown.
+ 
+| [MarkdownSaveOptions]() | Ctor. |
+
+### Result
+MarkdownSaveOptions
+
+
+---
+
+
+
+## Functions
+
+| Name | Description |
+| --- | --- |
+| [getBasePath]() | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+
+### Result
+String
+
+
+---
+
+
+| [getExportType]() | Specifies markdown specification to convert presentation. Default is TextOnly. |
+
+### Result
+int
+
+
+---
+
+
+| [getFlavor]() | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+
+### Result
+int
+
+
+---
+
+
+| [getImagesSaveFolderName]() | Specifies folder name to save images. Default is Images. |
+
+### Result
+String
+
+
+---
+
+
+| [getNewLineType]() | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+
+### Result
+int
+
+
+---
+
+
+| [getShowComments]() | Specifies whether the generated document should show comments or not. Default is false. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getShowHiddenSlides]() | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getShowSlideNumber]() | Specifies whether the generated document should show number of each slide or not. Default is false. |
+
+### Result
+boolean
+
+
+---
+
+
+| [setBasePath](String) | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+
+
+---
+
+
+| [setExportType](int) | Specifies markdown specification to convert presentation. Default is TextOnly. |
+
+
+---
+
+
+| [setFlavor](int) | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+
+
+---
+
+
+| [setImagesSaveFolderName](String) | Specifies folder name to save images. Default is Images. |
+
+
+---
+
+
+| [setNewLineType](int) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+
+
+---
+
+
+| [setShowComments](boolean) | Specifies whether the generated document should show comments or not. Default is false. |
+
+
+---
+
+
+| [setShowHiddenSlides](boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+
+
+---
+
+
+| [setShowSlideNumber](boolean) | Specifies whether the generated document should show number of each slide or not. Default is false. |
+
+
+---
+
+

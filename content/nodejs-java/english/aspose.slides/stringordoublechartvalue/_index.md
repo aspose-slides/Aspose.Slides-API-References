@@ -18,12 +18,72 @@ url: /aspose.slides/stringordoublechartvalue/
 
 | Name | Description |
 | --- | --- |
-| [getAsCell](getascell)() | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [getAsLiteralDouble](getasliteraldouble)() | Returns or sets value as literal double. Read/write double. |
-| [getAsLiteralString](getasliteralstring)() | Returns or sets value as literal string. Read/write String. |
-| [getData](getdata)() | Returns or sets Data object. Read/write Object. |
-| [setAsCell](setascell)([ChartDataCell](../chartdatacell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
-| [setAsLiteralDouble](setasliteraldouble)(double) | Returns or sets value as literal double. Read/write double. |
-| [setAsLiteralString](setasliteralstring)(String) | Returns or sets value as literal string. Read/write String. |
-| [setData](setdata)(Object) | Returns or sets Data object. Read/write Object. |
-| [toDouble](todouble)() | Converts to double. |
+| [getAsCell]() | Returns or sets chart data cell. Read/write IChartDataCell. |
+
+### Result
+[ChartDataCell](../../chartdatacell)
+
+
+---
+
+
+| [getAsLiteralDouble]() | Returns or sets value as literal double. Read/write double. |
+
+### Result
+double
+
+
+---
+
+
+| [getAsLiteralString]() | Returns or sets value as literal string. Read/write String. |
+
+### Result
+String
+
+
+---
+
+
+| [getData]() | Returns or sets Data object. Read/write Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [setAsCell]([ChartDataCell](../chartdatacell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
+
+
+---
+
+
+| [setAsLiteralDouble](double) | Returns or sets value as literal double. Read/write double. |
+
+
+---
+
+
+| [setAsLiteralString](String) | Returns or sets value as literal string. Read/write String. |
+
+
+---
+
+
+| [setData](Object) | Returns or sets Data object. Read/write Object. |
+
+
+---
+
+
+| [toDouble]() | Converts to double. |
+
+### Result
+double
+
+
+---
+
+

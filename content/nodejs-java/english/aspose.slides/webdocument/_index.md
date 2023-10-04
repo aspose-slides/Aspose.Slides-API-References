@@ -11,18 +11,56 @@ url: /aspose.slides/webdocument/
 
  Represents a transition form of the presentation for saving into a web format.
  
+| [WebDocument]([WebDocumentOptions](../webdocumentoptions)) | WebDocument function. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| options | [WebDocumentOptions](../../webdocumentoptions) | Options set for the document. |
+
+### Result
+WebDocument
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [WebDocument](webdocument)([WebDocumentOptions](../webdocumentoptions)) | WebDocument function. |
+| [getGlobal]() | Returns global storage of the document. Read-only Storage. |
 
-## Functions
+### Result
+Storage
 
-| Name | Description |
-| --- | --- |
-| [getGlobal](getglobal)() | Returns global storage of the document. Read-only Storage. |
-| [getInput](getinput)() | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
-| [getOutput](getoutput)() | Returns collection of output elements of the document. Read-only Output( #getOutput). |
-| [save](save)() | Saves the document output. |
+
+---
+
+
+| [getInput]() | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
+
+### Result
+Input
+
+
+---
+
+
+| [getOutput]() | Returns collection of output elements of the document. Read-only Output( #getOutput). |
+
+### Result
+Output
+
+
+---
+
+
+| [save]() | Saves the document output. |
+
+
+---
+
+

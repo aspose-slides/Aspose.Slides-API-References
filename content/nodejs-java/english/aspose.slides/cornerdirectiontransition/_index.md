@@ -16,5 +16,18 @@ url: /aspose.slides/cornerdirectiontransition/
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of transition. Read/write TransitionCornerDirectionType. |
-| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionCornerDirectionType. |
+| [getDirection]() | Direction of transition. Read/write TransitionCornerDirectionType. |
+
+### Result
+int
+
+
+---
+
+
+| [setDirection](int) | Direction of transition. Read/write TransitionCornerDirectionType. |
+
+
+---
+
+

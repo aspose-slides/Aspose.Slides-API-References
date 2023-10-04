@@ -16,7 +16,36 @@ url: /aspose.slides/field/
 
 | Name | Description |
 | --- | --- |
-| [getPresentation](getpresentation)() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
-| [getSlide](getslide)() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
-| [getType](gettype)() | Returns or sets field's type. Read/write IFieldType. |
-| [setType](settype)([FieldType](../fieldtype)) | Returns or sets field's type. Read/write IFieldType. |
+| [getPresentation]() | Returns the parent presentation of a paragraph. Read-only IPresentation. |
+
+### Result
+[Presentation](../../presentation)
+
+
+---
+
+
+| [getSlide]() | Returns the parent slide of a paragraph. Read-only BaseSlide. |
+
+### Result
+[MasterNotesSlide](../../masternotesslide), [MasterHandoutSlide](../../masterhandoutslide), [BaseSlide](../../baseslide), [NotesSlide](../../notesslide), [LayoutSlide](../../layoutslide), [Slide](../../slide), [MasterSlide](../../masterslide)
+
+
+---
+
+
+| [getType]() | Returns or sets field's type. Read/write IFieldType. |
+
+### Result
+[FieldType](../../fieldtype)
+
+
+---
+
+
+| [setType]([FieldType](../fieldtype)) | Returns or sets field's type. Read/write IFieldType. |
+
+
+---
+
+

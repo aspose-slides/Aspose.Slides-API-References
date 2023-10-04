@@ -16,5 +16,21 @@ url: /aspose.slides/legacydiagram/
 
 | Name | Description |
 | --- | --- |
-| [convertToGroupShape](converttogroupshape)() | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |
-| [convertToSmartArt](converttosmartart)() | Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position. |
+| [convertToGroupShape]() | Converts legacy digram to editable group shape. Created GroupShape object adds to parent group shape at the same position. |
+
+### Result
+[GroupShape](../../groupshape)
+
+
+---
+
+
+| [convertToSmartArt]() | Converts legacy digram to editable SmartArt object. Created SmartArt object adds to parent group shape at the same position. |
+
+### Result
+[SmartArt](../../smartart)
+
+
+---
+
+

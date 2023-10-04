@@ -18,129 +18,1149 @@ url: /aspose.slides/behaviorproperty/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Checks if this object is equal to another. |
-| [getExtrusionAutoRotationCenter](getextrusionautorotationcenter)() | Represents 'extrusion.autorotationcenter' property |
-| [getExtrusionBackDepth](getextrusionbackdepth)() | Represents 'extrusion.backdepth' property |
-| [getExtrusionColor](getextrusioncolor)() | Represents 'extrusion.color' property |
-| [getExtrusionColorMode](getextrusioncolormode)() | Represents 'extrusion.colormode' property |
-| [getExtrusionForeDepth](getextrusionforedepth)() | Represents 'extrusion.foredepth' property |
-| [getExtrusionLockRotationCenter](getextrusionlockrotationcenter)() | Represents 'extrusion.lockrotationcenter' property |
-| [getExtrusionOn](getextrusionon)() | Represents 'extrusion.on' property |
-| [getExtrusionOrientationAngle](getextrusionorientationangle)() | Represents 'extrusion.orientationangle' property |
-| [getExtrusionOrientationX](getextrusionorientationx)() | Represents 'extrusion.orientation.x' property |
-| [getExtrusionOrientationY](getextrusionorientationy)() | Represents 'extrusion.orientation.y' property |
-| [getExtrusionOrientationZ](getextrusionorientationz)() | Represents 'extrusion.orientation.z' property |
-| [getExtrusionPlane](getextrusionplane)() | Represents 'extrusion.plane' property |
-| [getExtrusionRender](getextrusionrender)() | Represents 'extrusion.render' property |
-| [getExtrusionRotationAngleX](getextrusionrotationanglex)() | Represents 'extrusion.rotationangle.x' property |
-| [getExtrusionRotationAngleY](getextrusionrotationangley)() | Represents 'extrusion.rotationangle.y' property |
-| [getExtrusionRotationCenterX](getextrusionrotationcenterx)() | Represents 'extrusion.rotationcenter.x' property |
-| [getExtrusionRotationCenterY](getextrusionrotationcentery)() | Represents 'extrusion.rotationcenter.y' property |
-| [getExtrusionRotationCenterZ](getextrusionrotationcenterz)() | Represents 'extrusion.rotationcenter.z' property |
-| [getExtrusionSkewAmt](getextrusionskewamt)() | Represents 'extrusion.skewamt' property |
-| [getExtrusionSkewAngle](getextrusionskewangle)() | Represents 'extrusion.skewangle' property |
-| [getExtrusionType](getextrusiontype)() | Represents 'extrusion.type' property |
-| [getExtrusionViewPointOriginX](getextrusionviewpointoriginx)() | Represents 'extrusion.viewpointorigin.x' property |
-| [getExtrusionViewPointOriginY](getextrusionviewpointoriginy)() | Represents 'extrusion.viewpointorigin.y' property |
-| [getExtrusionViewPointX](getextrusionviewpointx)() | Represents 'extrusion.viewpoint.x' property |
-| [getExtrusionViewPointY](getextrusionviewpointy)() | Represents 'extrusion.viewpoint.y' property |
-| [getExtrusionViewPointZ](getextrusionviewpointz)() | Represents 'extrusion.viewpoint.z' property |
-| [getFillAngle](getfillangle)() | Represents 'fill.angle' property |
-| [getFillColor](getfillcolor)() | Represents 'fillcolor' property |
-| [getFillColor2](getfillcolor2)() | Represents 'fill.color2' property |
-| [getFillFocus](getfillfocus)() | Represents 'fill.focus' property |
-| [getFillFocusPositionX](getfillfocuspositionx)() | Represents 'fill.focusposition.x' property |
-| [getFillFocusPositionY](getfillfocuspositiony)() | Represents 'fill.focusposition.y' property |
-| [getFillFocusSizeX](getfillfocussizex)() | Represents 'fill.focussize.x' property |
-| [getFillFocusSizeY](getfillfocussizey)() | Represents 'fill.focussize.y' property |
-| [getFillMethod](getfillmethod)() | Represents 'fill.function' property |
-| [getFillOn](getfillon)() | Represents 'fill.on' property |
-| [getFillOpacity](getfillopacity)() | Represents 'fill.opacity' property |
-| [getFillOpacity2](getfillopacity2)() | Represents 'fill.opacity2' property |
-| [getFillType](getfilltype)() | Represents 'fill.type' property |
-| [getFill_Color](getfill_color)() | Represents 'fill.color' property |
-| [getImage](getimage)() | Represents 'image' property |
-| [getImageDataBlacklevel](getimagedatablacklevel)() | Represents 'imageData.blacklevel' property |
-| [getImageDataChromakey](getimagedatachromakey)() | Represents 'imageData.chromakey' property |
-| [getImageDataCropBottom](getimagedatacropbottom)() | Represents 'imageData.cropBottom' property |
-| [getImageDataCropLeft](getimagedatacropleft)() | Represents 'imageData.cropLeft' property |
-| [getImageDataCropRight](getimagedatacropright)() | Represents 'imageData.cropRight' property |
-| [getImageDataCropTop](getimagedatacroptop)() | Represents 'imageData.cropTop' property |
-| [getImageDataGain](getimagedatagain)() | Represents 'imageData.gain' property |
-| [getImageDataGamma](getimagedatagamma)() | Represents 'imageData.gamma' property |
-| [getImageDataGrayscale](getimagedatagrayscale)() | Represents 'imageData.grayscale' property |
-| [getOrCreateByValue](getorcreatebyvalue)(String) | Looks for existing behavior property by value or creates new custom one with the specified value |
-| [getPptC](getpptc)() | Represents 'ppt_c' property |
-| [getPptH](getppth)() | Represents 'ppt_h' property |
-| [getPptR](getpptr)() | Represents 'ppt_r' property |
-| [getPptW](getpptw)() | Represents 'ppt_w' property |
-| [getPptX](getpptx)() | Represents 'ppt_x' property |
-| [getPptY](getppty)() | Represents 'ppt_y' property |
-| [getR](getr)() | Represents 'r' property |
-| [getScaleX](getscalex)() | Represents 'ScaleX' property |
-| [getScaleY](getscaley)() | Represents 'ScaleY' property |
-| [getShadowColor](getshadowcolor)() | Represents 'shadow.color' property |
-| [getShadowColor2](getshadowcolor2)() | Represents 'shadow.color2' property |
-| [getShadowMatrixPerspectiveX](getshadowmatrixperspectivex)() | Represents 'shadow.matrix.perspectiveX' property |
-| [getShadowMatrixPerspectiveY](getshadowmatrixperspectivey)() | Represents 'shadow.matrix.perspectiveY' property |
-| [getShadowMatrixXtoX](getshadowmatrixxtox)() | Represents 'shadow.matrix.xtox' property |
-| [getShadowMatrixXtoY](getshadowmatrixxtoy)() | Represents 'shadow.matrix.xtoy' property |
-| [getShadowMatrixYtoX](getshadowmatrixytox)() | Represents 'shadow.matrix.ytox' property |
-| [getShadowMatrixYtoY](getshadowmatrixytoy)() | Represents 'shadow.matrix.ytoy' property |
-| [getShadowOffset2X](getshadowoffset2x)() | Represents 'shadow.offset2.x' property |
-| [getShadowOffset2Y](getshadowoffset2y)() | Represents 'shadow.offset2.y' property |
-| [getShadowOffsetX](getshadowoffsetx)() | Represents 'shadow.offset.x' property |
-| [getShadowOffsetY](getshadowoffsety)() | Represents 'shadow.offset.y' property |
-| [getShadowOn](getshadowon)() | Represents 'shadow.on' property |
-| [getShadowOpacity](getshadowopacity)() | Represents 'shadow.opacity' property |
-| [getShadowOriginX](getshadoworiginx)() | Represents 'shadow.origin.x' property |
-| [getShadowOriginY](getshadoworiginy)() | Represents 'shadow.origin.y' property |
-| [getShadowType](getshadowtype)() | Represents 'shadow.type' property |
-| [getSkewMatrixPerspectiveX](getskewmatrixperspectivex)() | Represents 'skew.matrix.perspectiveX' property |
-| [getSkewMatrixPerspectiveY](getskewmatrixperspectivey)() | Represents 'skew.matrix.perspectiveY' property |
-| [getSkewMatrixXtoX](getskewmatrixxtox)() | Represents 'skew.matrix.xtox' property |
-| [getSkewMatrixXtoY](getskewmatrixxtoy)() | Represents 'skew.matrix.xtoy' property |
-| [getSkewMatrixYtoX](getskewmatrixytox)() | Represents 'skew.matrix.ytox' property |
-| [getSkewMatrixYtoY](getskewmatrixytoy)() | Represents 'skew.matrix.ytoy' property |
-| [getSkewOffsetX](getskewoffsetx)() | Represents 'skew.offset.x' property |
-| [getSkewOffsetY](getskewoffsety)() | Represents 'skew.offset.y' property |
-| [getSkewOn](getskewon)() | Represents 'skew.on' property |
-| [getSkewOriginX](getskeworiginx)() | Represents 'skew.origin.x' property |
-| [getSkewOriginY](getskeworiginy)() | Represents 'skew.origin.y' property |
-| [getStrokeColor](getstrokecolor)() | Represents 'stroke.color' property |
-| [getStrokeColor2](getstrokecolor2)() | Represents 'stroke.color2' property |
-| [getStrokeDashStyle](getstrokedashstyle)() | Represents 'stroke.dashstyle' property |
-| [getStrokeEndArrow](getstrokeendarrow)() | Represents 'stroke.endArrow' property |
-| [getStrokeEndArrowLength](getstrokeendarrowlength)() | Represents 'stroke.endArrowLength' property |
-| [getStrokeEndArrowWidth](getstrokeendarrowwidth)() | Represents 'stroke.endArrowWidth' property |
-| [getStrokeFillType](getstrokefilltype)() | Represents 'stroke.filltype' property |
-| [getStrokeImageSizeX](getstrokeimagesizex)() | Represents 'stroke.imagesize.x' property |
-| [getStrokeImageSizeY](getstrokeimagesizey)() | Represents 'stroke.imagesize.y' property |
-| [getStrokeLineStyle](getstrokelinestyle)() | Represents 'stroke.linestyle' property |
-| [getStrokeOn](getstrokeon)() | Represents 'stroke.on' property |
-| [getStrokeOpacity](getstrokeopacity)() | Represents 'stroke.opacity' property |
-| [getStrokeSrc](getstrokesrc)() | Represents 'stroke.src' property |
-| [getStrokeStartArrow](getstrokestartarrow)() | Represents 'stroke.startArrow' property |
-| [getStrokeStartArrowLength](getstrokestartarrowlength)() | Represents 'stroke.startArrowLength' property |
-| [getStrokeStartArrowWidth](getstrokestartarrowwidth)() | Represents 'stroke.startArrowWidth' property |
-| [getStrokeWeight](getstrokeweight)() | Represents 'stroke.weight' property |
-| [getStyleColor](getstylecolor)() | Represents 'style.color' property |
-| [getStyleFontFamily](getstylefontfamily)() | Represents 'style.fontFamily' property |
-| [getStyleFontSize](getstylefontsize)() | Represents 'style.fontSize' property |
-| [getStyleFontStyle](getstylefontstyle)() | Represents 'style.fontStyle' property |
-| [getStyleFontWeight](getstylefontweight)() | Represents 'style.fontWeight' property |
-| [getStyleOpacity](getstyleopacity)() | Represents 'style.opacity' property |
-| [getStyleRotation](getstylerotation)() | Represents 'style.rotation' property |
-| [getStyleSRotation](getstylesrotation)() | Represents 'style.sRotation' property |
-| [getStyleTextDecorationLineThrough](getstyletextdecorationlinethrough)() | Represents 'style.textDecorationLineThrough' property |
-| [getStyleTextDecorationUnderline](getstyletextdecorationunderline)() | Represents 'style.textDecorationUnderline' property |
-| [getStyleTextEffectEmboss](getstyletexteffectemboss)() | Represents 'style.textEffectEmboss' property |
-| [getStyleTextEffectOutline](getstyletexteffectoutline)() | Represents 'style.textEffectOutline' property |
-| [getStyleTextShadow](getstyletextshadow)() | Represents 'style.textShadow' property |
-| [getStyleTextTransform](getstyletexttransform)() | Represents 'style.textTransform' property |
-| [getStyleVisibility](getstylevisibility)() | Represents 'style.visibility' property |
-| [getValue](getvalue)() | Value of the property |
-| [getXShear](getxshear)() | Represents 'xshear' property |
-| [getYShear](getyshear)() | Represents 'yshear' property |
-| [hashCode](hashcode)() | Calculates and returns hach code based on the ( #getValue) property |
-| [isCustom](iscustom)() | Shows if this property does not belong to the predefined properties list in the specification: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+| [equals](Object) | Checks if this object is equal to another. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | Object to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getExtrusionAutoRotationCenter]() | Represents 'extrusion.autorotationcenter' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionBackDepth]() | Represents 'extrusion.backdepth' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionColor]() | Represents 'extrusion.color' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionColorMode]() | Represents 'extrusion.colormode' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionForeDepth]() | Represents 'extrusion.foredepth' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionLockRotationCenter]() | Represents 'extrusion.lockrotationcenter' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionOn]() | Represents 'extrusion.on' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionOrientationAngle]() | Represents 'extrusion.orientationangle' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionOrientationX]() | Represents 'extrusion.orientation.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionOrientationY]() | Represents 'extrusion.orientation.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionOrientationZ]() | Represents 'extrusion.orientation.z' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionPlane]() | Represents 'extrusion.plane' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionRender]() | Represents 'extrusion.render' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionRotationAngleX]() | Represents 'extrusion.rotationangle.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionRotationAngleY]() | Represents 'extrusion.rotationangle.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionRotationCenterX]() | Represents 'extrusion.rotationcenter.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionRotationCenterY]() | Represents 'extrusion.rotationcenter.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionRotationCenterZ]() | Represents 'extrusion.rotationcenter.z' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionSkewAmt]() | Represents 'extrusion.skewamt' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionSkewAngle]() | Represents 'extrusion.skewangle' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionType]() | Represents 'extrusion.type' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionViewPointOriginX]() | Represents 'extrusion.viewpointorigin.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionViewPointOriginY]() | Represents 'extrusion.viewpointorigin.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionViewPointX]() | Represents 'extrusion.viewpoint.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionViewPointY]() | Represents 'extrusion.viewpoint.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getExtrusionViewPointZ]() | Represents 'extrusion.viewpoint.z' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillAngle]() | Represents 'fill.angle' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillColor]() | Represents 'fillcolor' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillColor2]() | Represents 'fill.color2' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillFocus]() | Represents 'fill.focus' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillFocusPositionX]() | Represents 'fill.focusposition.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillFocusPositionY]() | Represents 'fill.focusposition.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillFocusSizeX]() | Represents 'fill.focussize.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillFocusSizeY]() | Represents 'fill.focussize.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillMethod]() | Represents 'fill.function' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillOn]() | Represents 'fill.on' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillOpacity]() | Represents 'fill.opacity' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillOpacity2]() | Represents 'fill.opacity2' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFillType]() | Represents 'fill.type' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getFill_Color]() | Represents 'fill.color' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImage]() | Represents 'image' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataBlacklevel]() | Represents 'imageData.blacklevel' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataChromakey]() | Represents 'imageData.chromakey' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataCropBottom]() | Represents 'imageData.cropBottom' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataCropLeft]() | Represents 'imageData.cropLeft' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataCropRight]() | Represents 'imageData.cropRight' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataCropTop]() | Represents 'imageData.cropTop' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataGain]() | Represents 'imageData.gain' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataGamma]() | Represents 'imageData.gamma' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getImageDataGrayscale]() | Represents 'imageData.grayscale' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getOrCreateByValue](String) | Looks for existing behavior property by value or creates new custom one with the specified value |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| propertyValue | String | value of the property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getPptC]() | Represents 'ppt_c' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getPptH]() | Represents 'ppt_h' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getPptR]() | Represents 'ppt_r' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getPptW]() | Represents 'ppt_w' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getPptX]() | Represents 'ppt_x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getPptY]() | Represents 'ppt_y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getR]() | Represents 'r' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getScaleX]() | Represents 'ScaleX' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getScaleY]() | Represents 'ScaleY' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowColor]() | Represents 'shadow.color' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowColor2]() | Represents 'shadow.color2' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowMatrixPerspectiveX]() | Represents 'shadow.matrix.perspectiveX' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowMatrixPerspectiveY]() | Represents 'shadow.matrix.perspectiveY' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowMatrixXtoX]() | Represents 'shadow.matrix.xtox' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowMatrixXtoY]() | Represents 'shadow.matrix.xtoy' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowMatrixYtoX]() | Represents 'shadow.matrix.ytox' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowMatrixYtoY]() | Represents 'shadow.matrix.ytoy' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOffset2X]() | Represents 'shadow.offset2.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOffset2Y]() | Represents 'shadow.offset2.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOffsetX]() | Represents 'shadow.offset.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOffsetY]() | Represents 'shadow.offset.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOn]() | Represents 'shadow.on' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOpacity]() | Represents 'shadow.opacity' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOriginX]() | Represents 'shadow.origin.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowOriginY]() | Represents 'shadow.origin.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getShadowType]() | Represents 'shadow.type' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewMatrixPerspectiveX]() | Represents 'skew.matrix.perspectiveX' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewMatrixPerspectiveY]() | Represents 'skew.matrix.perspectiveY' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewMatrixXtoX]() | Represents 'skew.matrix.xtox' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewMatrixXtoY]() | Represents 'skew.matrix.xtoy' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewMatrixYtoX]() | Represents 'skew.matrix.ytox' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewMatrixYtoY]() | Represents 'skew.matrix.ytoy' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewOffsetX]() | Represents 'skew.offset.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewOffsetY]() | Represents 'skew.offset.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewOn]() | Represents 'skew.on' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewOriginX]() | Represents 'skew.origin.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getSkewOriginY]() | Represents 'skew.origin.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeColor]() | Represents 'stroke.color' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeColor2]() | Represents 'stroke.color2' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeDashStyle]() | Represents 'stroke.dashstyle' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeEndArrow]() | Represents 'stroke.endArrow' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeEndArrowLength]() | Represents 'stroke.endArrowLength' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeEndArrowWidth]() | Represents 'stroke.endArrowWidth' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeFillType]() | Represents 'stroke.filltype' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeImageSizeX]() | Represents 'stroke.imagesize.x' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeImageSizeY]() | Represents 'stroke.imagesize.y' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeLineStyle]() | Represents 'stroke.linestyle' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeOn]() | Represents 'stroke.on' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeOpacity]() | Represents 'stroke.opacity' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeSrc]() | Represents 'stroke.src' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeStartArrow]() | Represents 'stroke.startArrow' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeStartArrowLength]() | Represents 'stroke.startArrowLength' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeStartArrowWidth]() | Represents 'stroke.startArrowWidth' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStrokeWeight]() | Represents 'stroke.weight' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleColor]() | Represents 'style.color' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleFontFamily]() | Represents 'style.fontFamily' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleFontSize]() | Represents 'style.fontSize' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleFontStyle]() | Represents 'style.fontStyle' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleFontWeight]() | Represents 'style.fontWeight' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleOpacity]() | Represents 'style.opacity' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleRotation]() | Represents 'style.rotation' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleSRotation]() | Represents 'style.sRotation' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleTextDecorationLineThrough]() | Represents 'style.textDecorationLineThrough' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleTextDecorationUnderline]() | Represents 'style.textDecorationUnderline' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleTextEffectEmboss]() | Represents 'style.textEffectEmboss' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleTextEffectOutline]() | Represents 'style.textEffectOutline' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleTextShadow]() | Represents 'style.textShadow' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleTextTransform]() | Represents 'style.textTransform' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getStyleVisibility]() | Represents 'style.visibility' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getValue]() | Value of the property |
+
+### Result
+String
+
+
+---
+
+
+| [getXShear]() | Represents 'xshear' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [getYShear]() | Represents 'yshear' property |
+
+### Result
+BehaviorProperty
+
+
+---
+
+
+| [hashCode]() | Calculates and returns hach code based on the ( #getValue) property |
+
+### Result
+int
+
+
+---
+
+
+| [isCustom]() | Shows if this property does not belong to the predefined properties list in the specification: https://msdn.microsoft.com/en-us/library/dd949052(v=office.15).aspx |
+
+### Result
+boolean
+
+
+---
+
+

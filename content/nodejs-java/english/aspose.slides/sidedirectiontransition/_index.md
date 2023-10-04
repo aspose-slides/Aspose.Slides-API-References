@@ -16,5 +16,18 @@ url: /aspose.slides/sidedirectiontransition/
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of transition. Read/write TransitionSideDirectionType. |
-| [setDirection](setdirection)(int) | Direction of transition. Read/write TransitionSideDirectionType. |
+| [getDirection]() | Direction of transition. Read/write TransitionSideDirectionType. |
+
+### Result
+int
+
+
+---
+
+
+| [setDirection](int) | Direction of transition. Read/write TransitionSideDirectionType. |
+
+
+---
+
+

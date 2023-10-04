@@ -16,11 +16,69 @@ url: /aspose.slides/linefillformat/
 
 | Name | Description |
 | --- | --- |
-| [getFillType](getfilltype)() | Returns or sets the fill type. Read/write FillType. |
-| [getGradientFormat](getgradientformat)() | Returns the gradient fill format. Read-only IGradientFormat. |
-| [getPatternFormat](getpatternformat)() | Returns the pattern fill format. Read-only IPatternFormat. |
-| [getRotateWithShape](getrotatewithshape)() | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
-| [getSolidFillColor](getsolidfillcolor)() | Returns the color of a solid fill. Read-only IColorFormat. |
-| [getVersion](getversion)() |  |
-| [setFillType](setfilltype)(byte) | Returns or sets the fill type. Read/write FillType. |
-| [setRotateWithShape](setrotatewithshape)(byte) | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+| [getFillType]() | Returns or sets the fill type. Read/write FillType. |
+
+### Result
+byte
+
+
+---
+
+
+| [getGradientFormat]() | Returns the gradient fill format. Read-only IGradientFormat. |
+
+### Result
+[GradientFormat](../../gradientformat)
+
+
+---
+
+
+| [getPatternFormat]() | Returns the pattern fill format. Read-only IPatternFormat. |
+
+### Result
+[PatternFormat](../../patternformat)
+
+
+---
+
+
+| [getRotateWithShape]() | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+
+### Result
+byte
+
+
+---
+
+
+| [getSolidFillColor]() | Returns the color of a solid fill. Read-only IColorFormat. |
+
+### Result
+[ColorFormat](../../colorformat)
+
+
+---
+
+
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+
+| [setFillType](byte) | Returns or sets the fill type. Read/write FillType. |
+
+
+---
+
+
+| [setRotateWithShape](byte) | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+
+
+---
+
+

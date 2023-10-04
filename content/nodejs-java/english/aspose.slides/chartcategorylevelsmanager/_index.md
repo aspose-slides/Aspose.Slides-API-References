@@ -16,6 +16,24 @@ url: /aspose.slides/chartcategorylevelsmanager/
 
 | Name | Description |
 | --- | --- |
-| [deleteGroupingItem](deletegroupingitem)(int) | Delete grouping item for defined level. |
-| [get_Item](get_item)(int) | Returns IChartDataCell object for defined level. |
-| [setGroupingItem](setgroupingitem)(int, Object) | Sets grouping item for defined level. |
+| [deleteGroupingItem](int) | Delete grouping item for defined level. |
+
+
+---
+
+
+| [get_Item](int) | Returns IChartDataCell object for defined level. |
+
+### Result
+[ChartDataCell](../../chartdatacell)
+
+
+---
+
+
+| [setGroupingItem](int, Object) | Sets grouping item for defined level. |
+
+
+---
+
+

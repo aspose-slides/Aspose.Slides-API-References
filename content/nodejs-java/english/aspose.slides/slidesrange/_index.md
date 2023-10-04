@@ -11,18 +11,47 @@ url: /aspose.slides/slidesrange/
 
  Slides range
  
+| [SlidesRange]() |  |
+
+### Result
+SlidesRange
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [SlidesRange](slidesrange)() |  |
+| [getEnd]() | End |
 
-## Functions
+### Result
+long
 
-| Name | Description |
-| --- | --- |
-| [getEnd](getend)() | End |
-| [getStart](getstart)() | Start |
-| [setEnd](setend)(long) | End |
-| [setStart](setstart)(long) | Start |
+
+---
+
+
+| [getStart]() | Start |
+
+### Result
+long
+
+
+---
+
+
+| [setEnd](long) | End |
+
+
+---
+
+
+| [setStart](long) | Start |
+
+
+---
+
+

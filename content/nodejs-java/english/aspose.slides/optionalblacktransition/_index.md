@@ -16,5 +16,18 @@ url: /aspose.slides/optionalblacktransition/
 
 | Name | Description |
 | --- | --- |
-| [getFromBlack](getfromblack)() | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
-| [setFromBlack](setfromblack)(boolean) | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
+| [getFromBlack]() | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [setFromBlack](boolean) | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
+
+
+---
+
+

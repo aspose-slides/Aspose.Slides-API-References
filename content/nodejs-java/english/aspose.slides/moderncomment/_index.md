@@ -16,10 +16,57 @@ url: /aspose.slides/moderncomment/
 
 | Name | Description |
 | --- | --- |
-| [getShape](getshape)() | Returns a shape associated with the comment. Read-only IShape. |
-| [getStatus](getstatus)() | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [getTextSelectionLength](gettextselectionlength)() | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
-| [getTextSelectionStart](gettextselectionstart)() | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
-| [setStatus](setstatus)(byte) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
-| [setTextSelectionLength](settextselectionlength)(int) | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
-| [setTextSelectionStart](settextselectionstart)(int) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| [getShape]() | Returns a shape associated with the comment. Read-only IShape. |
+
+### Result
+[LegacyDiagram](../../legacydiagram), [Connector](../../connector), [GraphicalObject](../../graphicalobject), [Shape](../../shape), [Ink](../../ink), [GroupShape](../../groupshape), [SmartArtShape](../../smartartshape), [SummaryZoomSection](../../summaryzoomsection), [ZoomObject](../../zoomobject), [SmartArt](../../smartart), [VideoFrame](../../videoframe), [PictureFrame](../../pictureframe), [ZoomFrame](../../zoomframe), [AutoShape](../../autoshape), [GeometryShape](../../geometryshape), [OleObjectFrame](../../oleobjectframe), [SectionZoomFrame](../../sectionzoomframe), [AudioFrame](../../audioframe), [Chart](../../chart), [Table](../../table), [SummaryZoomFrame](../../summaryzoomframe)
+
+
+---
+
+
+| [getStatus]() | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+
+### Result
+byte
+
+
+---
+
+
+| [getTextSelectionLength]() | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+
+### Result
+int
+
+
+---
+
+
+| [getTextSelectionStart]() | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+
+### Result
+int
+
+
+---
+
+
+| [setStatus](byte) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+
+
+---
+
+
+| [setTextSelectionLength](int) | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+
+
+---
+
+
+| [setTextSelectionStart](int) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+
+
+---
+
+

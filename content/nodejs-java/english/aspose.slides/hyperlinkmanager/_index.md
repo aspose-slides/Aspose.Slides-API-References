@@ -16,10 +16,90 @@ url: /aspose.slides/hyperlinkmanager/
 
 | Name | Description |
 | --- | --- |
-| [removeHyperlinkClick](removehyperlinkclick)() | Removes hyperlink on click. |
-| [removeHyperlinkMouseOver](removehyperlinkmouseover)() | Removes hyperlink mouse over. |
-| [setExternalHyperlinkClick](setexternalhyperlinkclick)(String) | Set external hyperlink on click. |
-| [setExternalHyperlinkMouseOver](setexternalhyperlinkmouseover)(String) | Sets external hyperlink mouse over. |
-| [setInternalHyperlinkClick](setinternalhyperlinkclick)([Slide](../slide)) | Sets internal hyperlink on click. |
-| [setInternalHyperlinkMouseOver](setinternalhyperlinkmouseover)([Slide](../slide)) | Sets internal hyperlink mouse over. |
-| [setMacroHyperlinkClick](setmacrohyperlinkclick)(String) | Set Macro hyperlink on a click. |
+| [removeHyperlinkClick]() | Removes hyperlink on click. |
+
+
+---
+
+
+| [removeHyperlinkMouseOver]() | Removes hyperlink mouse over. |
+
+
+---
+
+
+| [setExternalHyperlinkClick](String) | Set external hyperlink on click. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| url | String | Hyperlink URL. |
+
+### Result
+[Hyperlink](../../hyperlink)
+
+
+---
+
+
+| [setExternalHyperlinkMouseOver](String) | Sets external hyperlink mouse over. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| url | String | Hyperlink URL. |
+
+### Result
+[Hyperlink](../../hyperlink)
+
+
+---
+
+
+| [setInternalHyperlinkClick]([Slide](../slide)) | Sets internal hyperlink on click. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| targetSlide | [Slide](../../slide) | Target slide. |
+
+### Result
+[Hyperlink](../../hyperlink)
+
+
+---
+
+
+| [setInternalHyperlinkMouseOver]([Slide](../slide)) | Sets internal hyperlink mouse over. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| targetSlide | [Slide](../../slide) | Target slide. |
+
+### Result
+[Hyperlink](../../hyperlink)
+
+
+---
+
+
+| [setMacroHyperlinkClick](String) | Set Macro hyperlink on a click. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| macroName | String | Name of the macro |
+
+### Result
+[Hyperlink](../../hyperlink)
+
+
+---
+
+

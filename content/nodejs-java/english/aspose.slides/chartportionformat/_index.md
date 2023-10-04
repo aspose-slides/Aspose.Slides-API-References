@@ -24,4 +24,12 @@ url: /aspose.slides/chartportionformat/
 
 | Name | Description |
 | --- | --- |
-| [getVersion](getversion)() |  |
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+

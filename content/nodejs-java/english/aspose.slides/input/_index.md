@@ -16,4 +16,16 @@ url: /aspose.slides/input/
 
 | Name | Description |
 | --- | --- |
-| [addTemplate](addtemplate)(String, String) | Adds a template to the collection. |
+| [addTemplate](String, String) | Adds a template to the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| key | String | Key for the template in the collection. |
+| path | String | Path to the template file. |
+
+
+---
+
+

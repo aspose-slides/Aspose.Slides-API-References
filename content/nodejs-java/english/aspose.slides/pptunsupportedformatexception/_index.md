@@ -11,11 +11,43 @@ url: /aspose.slides/pptunsupportedformatexception/
 
  Exception which thrown when presentation file format is unsupported.
  
+| [PptUnsupportedFormatException]() | Default function. |
 
-## Functions
+### Result
+PptUnsupportedFormatException
 
-| Name | Description |
-| --- | --- |
-| [PptUnsupportedFormatException](pptunsupportedformatexception)() | Default function. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception)(String) | Constructor allowing a message to be added to this exception. |
-| [PptUnsupportedFormatException](pptunsupportedformatexception)(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+
+---
+
+
+| [PptUnsupportedFormatException](String) | Constructor allowing a message to be added to this exception. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+
+### Result
+PptUnsupportedFormatException
+
+
+---
+
+
+| [PptUnsupportedFormatException](String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | message |
+| exception | RuntimeException | original exception |
+
+### Result
+PptUnsupportedFormatException
+
+
+---
+
+

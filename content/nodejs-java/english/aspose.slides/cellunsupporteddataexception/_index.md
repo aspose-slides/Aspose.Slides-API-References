@@ -11,11 +11,43 @@ url: /aspose.slides/cellunsupporteddataexception/
 
  The exception that is thrown when an unsupported data is encountered in a spreadsheet cell.
  
+| [CellUnsupportedDataException]() | Initializes a new instance of the CellUnsupportedDataException class. |
 
-## Functions
+### Result
+CellUnsupportedDataException
 
-| Name | Description |
-| --- | --- |
-| [CellUnsupportedDataException](cellunsupporteddataexception)() | Initializes a new instance of the CellUnsupportedDataException class. |
-| [CellUnsupportedDataException](cellunsupporteddataexception)(String) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
-| [CellUnsupportedDataException](cellunsupporteddataexception)(String, RuntimeException) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+
+---
+
+
+| [CellUnsupportedDataException](String) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+
+### Result
+CellUnsupportedDataException
+
+
+---
+
+
+| [CellUnsupportedDataException](String, RuntimeException) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| message | String | A string that describes the error. |
+| innerException | RuntimeException | The exception that is the cause of the current exception. |
+
+### Result
+CellUnsupportedDataException
+
+
+---
+
+

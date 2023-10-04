@@ -17,6 +17,36 @@ url: /aspose.slides/grayscale/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified GrayScale is equal to the current GrayScale. |
-| [getEffective](geteffective)() | Gets effective Gray Scale effect data with the inheritance applied. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [equals](Object) | Determines whether the specified GrayScale is equal to the current GrayScale. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The GrayScale to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEffective]() | Gets effective Gray Scale effect data with the inheritance applied. |
+
+### Result
+GrayScaleEffectiveData
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+

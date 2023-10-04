@@ -14,60 +14,545 @@ url: /aspose.slides/mathmatrix/
  To place the matrix in the brackets you should use the delimiter object (IMathDelimiter).
  Null arguments can be used to create gaps in matrices.
  
+| [MathMatrix](int, int) | Initializes a new instance of the MathMatrix class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| rowCount | int | row count |
+| columnCount | int | column count |
+
+### Result
+MathMatrix
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [MathMatrix](mathmatrix)(int, int) | Initializes a new instance of the MathMatrix class. |
+| [deleteColumn](int) | Deletes the specified column |
 
-## Functions
+### Parameters
 
-| Name | Description |
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | The zero-based index of the column to delete. |
+
+### Error
+
+| Error | Condition |
 | --- | --- |
-| [deleteColumn](deletecolumn)(int) | Deletes the specified column |
-| [deleteRow](deleterow)(int) | Deletes the specified row |
-| [getBaseJustification](getbasejustification)() | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
-| [getChildren](getchildren)() | Get children elements |
-| [getColumnAlignment](getcolumnalignment)(int) | Get the horizontal alignment of the specified column |
-| [getColumnCount](getcolumncount)() | Number of columns in the matrix |
-| [getColumnGap](getcolumngap)() | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
-| [getColumnGapRule](getcolumngaprule)() | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
-| [getHidePlaceholders](gethideplaceholders)() | Hide the placeholders for empty matrix elements Default: false |
-| [getMinColumnWidth](getmincolumnwidth)() | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
-| [getRowCount](getrowcount)() | Number of rows in the matrix |
-| [getRowGap](getrowgap)() | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
-| [getRowGapRule](getrowgaprule)() | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
-| [get_Item](get_item)(int, int) | Element of matrix |
-| [insertColumnAfter](insertcolumnafter)(int) | Insert a new column after the specified one Initially all elements in the new column are null. |
-| [insertColumnBefore](insertcolumnbefore)(int) | Insert a new column before the specified one Initially all elements in the new column are null. |
-| [insertRowAfter](insertrowafter)(int) | Insert a new row after the specified one Initially all elements in the new row are null. |
-| [insertRowBefore](insertrowbefore)(int) | Insert a new row before the specified one Initially all elements in the new row are null. |
-| [setBaseJustification](setbasejustification)(int) | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
-| [setColumnAlignment](setcolumnalignment)(int, int) | Set the horizontal alignment of the specified column |
-| [setColumnGap](setcolumngap)(long) | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
-| [setColumnGapRule](setcolumngaprule)(int) | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
-| [setColumnsAlignment](setcolumnsalignment)(int, long, int) | Set the horizontal alignment of the specified columns |
-| [setHidePlaceholders](sethideplaceholders)(boolean) | Hide the placeholders for empty matrix elements Default: false |
-| [setMinColumnWidth](setmincolumnwidth)(long) | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
-| [setRowGap](setrowgap)(long) | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
-| [setRowGapRule](setrowgaprule)(int) | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
-| [set_Item](set_item)(int, int, [MathFraction](../mathfraction)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathMatrix](../mathmatrix)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathSuperscriptElement](../mathsuperscriptelement)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathAccent](../mathaccent)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathBar](../mathbar)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathFunction](../mathfunction)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathBox](../mathbox)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathBlock](../mathblock)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathLimit](../mathlimit)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathArray](../matharray)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathRadical](../mathradical)) | Element of matrix |
-| [set_Item](set_item)(int, int, [MathBorderBox](../mathborderbox)) | Element of matrix |
+ | ArgumentOutOfRangeException | If columnIndex less than zero or greater or equal to the ColumnCount |
+
+
+---
+
+
+| [deleteRow](int) | Deletes the specified row |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | The zero-based index of the row to delete. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | ArgumentOutOfRangeException | If rowIndex less than zero or greater or equal to the RowCount |
+
+
+---
+
+
+| [getBaseJustification]() | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
+
+### Result
+int
+
+
+---
+
+
+| [getChildren]() | Get children elements |
+
+### Result
+[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+
+
+---
+
+
+| [getColumnAlignment](int) | Get the horizontal alignment of the specified column |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Zero-based column index |
+
+### Result
+int
+
+
+---
+
+
+| [getColumnCount]() | Number of columns in the matrix |
+
+### Result
+int
+
+
+---
+
+
+| [getColumnGap]() | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
+
+### Result
+long
+
+
+---
+
+
+| [getColumnGapRule]() | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
+
+### Result
+int
+
+
+---
+
+
+| [getHidePlaceholders]() | Hide the placeholders for empty matrix elements Default: false |
+
+### Result
+boolean
+
+
+---
+
+
+| [getMinColumnWidth]() | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
+
+### Result
+long
+
+
+---
+
+
+| [getRowCount]() | Number of rows in the matrix |
+
+### Result
+int
+
+
+---
+
+
+| [getRowGap]() | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
+
+### Result
+long
+
+
+---
+
+
+| [getRowGapRule]() | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
+
+### Result
+int
+
+
+---
+
+
+| [get_Item](int, int) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+### Result
+[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+
+
+---
+
+
+| [insertColumnAfter](int) | Insert a new column after the specified one Initially all elements in the new column are null. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Index of the column after which to insert a new one |
+
+
+---
+
+
+| [insertColumnBefore](int) | Insert a new column before the specified one Initially all elements in the new column are null. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Index of the column before which to insert a new one |
+
+
+---
+
+
+| [insertRowAfter](int) | Insert a new row after the specified one Initially all elements in the new row are null. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | Index of the row after which to insert a new one |
+
+
+---
+
+
+| [insertRowBefore](int) | Insert a new row before the specified one Initially all elements in the new row are null. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| rowIndex | int | Index of the row before which to insert a new one |
+
+
+---
+
+
+| [setBaseJustification](int) | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
+
+
+---
+
+
+| [setColumnAlignment](int, int) | Set the horizontal alignment of the specified column |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Zero-based column index |
+| val | int | New value of horizontal alignment of specified column |
+
+
+---
+
+
+| [setColumnGap](long) | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
+
+
+---
+
+
+| [setColumnGapRule](int) | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
+
+
+---
+
+
+| [setColumnsAlignment](int, long, int) | Set the horizontal alignment of the specified columns |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| columnIndex | int | Zero-based index of the first column to set alignment |
+| columnsCount | long | The number of columns to specify the alignment |
+| val | int | New value of horizontal alignment of specified column |
+
+
+---
+
+
+| [setHidePlaceholders](boolean) | Hide the placeholders for empty matrix elements Default: false |
+
+
+---
+
+
+| [setMinColumnWidth](long) | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
+
+
+---
+
+
+| [setRowGap](long) | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
+
+
+---
+
+
+| [setRowGapRule](int) | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
+
+
+---
+
+
+| [set_Item](int, int, [MathLimit](../mathlimit)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathBorderBox](../mathborderbox)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathFraction](../mathfraction)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathSuperscriptElement](../mathsuperscriptelement)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathBox](../mathbox)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathMatrix](../mathmatrix)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathArray](../matharray)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathBlock](../mathblock)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathFunction](../mathfunction)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathAccent](../mathaccent)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathRadical](../mathradical)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+| [set_Item](int, int, [MathBar](../mathbar)) | Element of matrix |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+

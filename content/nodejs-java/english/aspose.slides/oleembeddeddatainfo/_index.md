@@ -11,17 +11,51 @@ url: /aspose.slides/oleembeddeddatainfo/
 
  Represents embedded data info for OLE object.
  
+| [OleEmbeddedDataInfo]() | Creates new embedded data info for OLE object. |
+
+### Result
+OleEmbeddedDataInfo
+
+
+---
+
+
+| [OleEmbeddedDataInfo](byte[], String) | Creates a new instance of an embedded data info for OLE object. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| embeddedFileData | byte[] | File data of an embedded OLE object byte[]. |
+| embeddedFileExtension | String | File extension for the current embedded OLE object String. |
+
+### Result
+OleEmbeddedDataInfo
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo)() | Creates new embedded data info for OLE object. |
-| [OleEmbeddedDataInfo](oleembeddeddatainfo)(byte[], String) | Creates a new instance of an embedded data info for OLE object. |
+| [getEmbeddedFileData]() | Returns the file data of an embedded OLE object Read only byte[]. |
 
-## Functions
+### Result
+byte
 
-| Name | Description |
-| --- | --- |
-| [getEmbeddedFileData](getembeddedfiledata)() | Returns the file data of an embedded OLE object Read only byte[]. |
-| [getEmbeddedFileExtension](getembeddedfileextension)() | Returns the file extension for the current embedded OLE object Read only String. |
+
+---
+
+
+| [getEmbeddedFileExtension]() | Returns the file extension for the current embedded OLE object Read only String. |
+
+### Result
+String
+
+
+---
+
+

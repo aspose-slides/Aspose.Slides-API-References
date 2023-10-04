@@ -17,7 +17,45 @@ url: /aspose.slides/alphainverse/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
-| [getEffective](geteffective)() | Gets effective Alpha Inverse effect data with the inheritance applied. |
-| [getVersion](getversion)() |  |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [equals](Object) | Determines whether the specified AlphaInverse is equal to the current AlphaInverse. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaInverse to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEffective]() | Gets effective Alpha Inverse effect data with the inheritance applied. |
+
+### Result
+AlphaInverseEffectiveData
+
+
+---
+
+
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+

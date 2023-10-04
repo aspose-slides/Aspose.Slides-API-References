@@ -11,16 +11,35 @@ url: /aspose.slides/vbareferencefactory/
 
  Allows to create VBA project references via COM interface
  
+| [VbaReferenceFactory]() |  |
+
+### Result
+VbaReferenceFactory
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [VbaReferenceFactory](vbareferencefactory)() |  |
+| [createOleTypeLibReference](String, String) | Creates new OLE Automation type library reference. |
 
-## Functions
+### Result
+[VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
 
-| Name | Description |
-| --- | --- |
-| [createOleTypeLibReference](createoletypelibreference)(String, String) | Creates new OLE Automation type library reference. |
-| [getInstance](getinstance)() | VBA project references factory static instance. Read-only VbaReferenceFactory. |
+
+---
+
+
+| [getInstance]() | VBA project references factory static instance. Read-only VbaReferenceFactory. |
+
+### Result
+VbaReferenceFactory
+
+
+---
+
+

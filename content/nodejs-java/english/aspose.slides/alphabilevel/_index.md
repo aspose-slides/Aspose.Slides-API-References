@@ -18,8 +18,51 @@ url: /aspose.slides/alphabilevel/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
-| [getEffective](geteffective)() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
-| [getThreshold](getthreshold)() | Returns effect threshold. Read/write float. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
-| [setThreshold](setthreshold)(float) | Returns effect threshold. Read/write float. |
+| [equals](Object) | Determines whether the specified AlphaBiLevel is equal to the current AlphaBiLevel. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaBiLevel to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEffective]() | Gets effective Alpha Bi-Level effect data with the inheritance applied. |
+
+### Result
+AlphaBiLevelEffectiveData
+
+
+---
+
+
+| [getThreshold]() | Returns effect threshold. Read/write float. |
+
+### Result
+float
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+
+| [setThreshold](float) | Returns effect threshold. Read/write float. |
+
+
+---
+
+

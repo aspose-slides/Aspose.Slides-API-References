@@ -11,18 +11,77 @@ url: /aspose.slides/html5options/
 
  Represents a HTML5 exporting options.
  
+| [Html5Options]() | Default function. |
+
+### Result
+Html5Options
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [Html5Options](html5options)() |  |
+| [getAnimateShapes]() | Returns or sets shapes animation option. Read/write boolean. |
 
-## Functions
+### Result
+boolean
 
-| Name | Description |
-| --- | --- |
-| [getAnimateShapes](getanimateshapes)() | Returns or sets shapes animation option. Read/write boolean. |
-| [getAnimateTransitions](getanimatetransitions)() | Returns or sets transitions animation option. Read/write boolean. |
-| [setAnimateShapes](setanimateshapes)(boolean) | Returns or sets shapes animation option. Read/write boolean. |
-| [setAnimateTransitions](setanimatetransitions)(boolean) | Returns or sets transitions animation option. Read/write boolean. |
+
+---
+
+
+| [getAnimateTransitions]() | Returns or sets transitions animation option. Read/write boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEmbedImages]() | Returns or sets images embedding option. Read/write boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getOutputPath]() | Determines where external resources should be stored. Read/write String. |
+
+### Result
+String
+
+
+---
+
+
+| [setAnimateShapes](boolean) | Returns or sets shapes animation option. Read/write boolean. |
+
+
+---
+
+
+| [setAnimateTransitions](boolean) | Returns or sets transitions animation option. Read/write boolean. |
+
+
+---
+
+
+| [setEmbedImages](boolean) | Returns or sets images embedding option. Read/write boolean. |
+
+
+---
+
+
+| [setOutputPath](String) | Determines where external resources should be stored. Read/write String. |
+
+
+---
+
+

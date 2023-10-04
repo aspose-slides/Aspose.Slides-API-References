@@ -16,5 +16,27 @@ url: /aspose.slides/transitionvaluebase/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the two TransitionValueBase instances are equal. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| [equals](Object) | Determines whether the two TransitionValueBase instances are equal. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The TransitionValueBase to compare with the current TransitionValueBase. |
+
+### Result
+boolean
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+
+### Result
+int
+
+
+---
+
+

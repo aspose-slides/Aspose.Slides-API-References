@@ -16,4 +16,12 @@ url: /aspose.slides/graphicalobject/
 
 | Name | Description |
 | --- | --- |
-| [getGraphicalObjectLock](getgraphicalobjectlock)() | Returns shape's locks. Read-only IGraphicalObjectLock. |
+| [getGraphicalObjectLock]() | Returns shape's locks. Read-only IGraphicalObjectLock. |
+
+### Result
+[GraphicalObjectLock](../../graphicalobjectlock)
+
+
+---
+
+

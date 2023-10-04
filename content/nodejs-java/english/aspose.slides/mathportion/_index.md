@@ -11,15 +11,26 @@ url: /aspose.slides/mathportion/
 
  Represents a portion with mathematical context inside.
  
+| [MathPortion]() | Initializes a new instance of the MathPortion class. |
+
+### Result
+MathPortion
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [MathPortion](mathportion)() | Initializes a new instance of the MathPortion class. |
+| [getMathParagraph]() | Math paragraph |
 
-## Functions
+### Result
+[MathParagraph](../../mathparagraph)
 
-| Name | Description |
-| --- | --- |
-| [getMathParagraph](getmathparagraph)() | Math paragraph |
+
+---
+
+

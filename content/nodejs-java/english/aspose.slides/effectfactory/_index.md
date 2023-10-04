@@ -13,21 +13,80 @@ url: /aspose.slides/effectfactory/
  
  For COM compatibility.
  
+| [EffectFactory]() |  |
+
+### Result
+EffectFactory
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [EffectFactory](effectfactory)() |  |
+| [createGlow]() | Creates Glow effect. |
 
-## Functions
+### Result
+[Glow](../../glow)
 
-| Name | Description |
-| --- | --- |
-| [createGlow](createglow)() | Creates Glow effect. |
-| [createInnerShadow](createinnershadow)() | Creates Inner shafow effect. |
-| [createOuterShadow](createoutershadow)() | Creates Outer shadow effect. |
-| [createPresetShadow](createpresetshadow)() | Creates Preset shadow effect. |
-| [createReflection](createreflection)() | Creates Reflection effect. |
-| [createSoftEdge](createsoftedge)() | Creates Soft Edge effect. |
-| [getImageTransformOperationFactory](getimagetransformoperationfactory)() | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+
+---
+
+
+| [createInnerShadow]() | Creates Inner shafow effect. |
+
+### Result
+[InnerShadow](../../innershadow)
+
+
+---
+
+
+| [createOuterShadow]() | Creates Outer shadow effect. |
+
+### Result
+[OuterShadow](../../outershadow)
+
+
+---
+
+
+| [createPresetShadow]() | Creates Preset shadow effect. |
+
+### Result
+[PresetShadow](../../presetshadow)
+
+
+---
+
+
+| [createReflection]() | Creates Reflection effect. |
+
+### Result
+[Reflection](../../reflection)
+
+
+---
+
+
+| [createSoftEdge]() | Creates Soft Edge effect. |
+
+### Result
+[SoftEdge](../../softedge)
+
+
+---
+
+
+| [getImageTransformOperationFactory]() | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+
+### Result
+[ImageTransformOperationFactory](../../imagetransformoperationfactory)
+
+
+---
+
+

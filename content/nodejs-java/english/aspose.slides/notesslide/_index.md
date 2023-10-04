@@ -16,9 +16,54 @@ url: /aspose.slides/notesslide/
 
 | Name | Description |
 | --- | --- |
-| [getHeaderFooterManager](getheaderfootermanager)() | Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManager. |
-| [getNotesTextFrame](getnotestextframe)() | Returns a TextFrame with notes' text if there is one. Read-only ITextFrame. |
-| [getParentSlide](getparentslide)() | Returns the parent slide. Read-only ISlide. |
-| [getShowMasterShapes](getshowmastershapes)() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
-| [getThemeManager](getthememanager)() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
-| [setShowMasterShapes](setshowmastershapes)(boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| [getHeaderFooterManager]() | Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManager. |
+
+### Result
+[NotesSlideHeaderFooterManager](../../notesslideheaderfootermanager)
+
+
+---
+
+
+| [getNotesTextFrame]() | Returns a TextFrame with notes' text if there is one. Read-only ITextFrame. |
+
+### Result
+[TextFrame](../../textframe)
+
+
+---
+
+
+| [getParentSlide]() | Returns the parent slide. Read-only ISlide. |
+
+### Result
+[Slide](../../slide)
+
+
+---
+
+
+| [getShowMasterShapes]() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getThemeManager]() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
+
+### Result
+[NotesSlideThemeManager](../../notesslidethememanager), [ChartThemeManager](../../chartthememanager), [BaseOverrideThemeManager](../../baseoverridethememanager), [LayoutSlideThemeManager](../../layoutslidethememanager), [SlideThemeManager](../../slidethememanager)
+
+
+---
+
+
+| [setShowMasterShapes](boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+
+
+---
+
+

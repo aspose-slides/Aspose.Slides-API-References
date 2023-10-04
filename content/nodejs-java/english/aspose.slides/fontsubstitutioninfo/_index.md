@@ -11,16 +11,42 @@ url: /aspose.slides/fontsubstitutioninfo/
 
  This structure represents the information about the font replacement when it will be rendered.
  
+| [FontSubstitutionInfo](String, String) | Creates an instance of FontSubstitutionInfo class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| originFontName | String | Source font name in presentation String |
+| substFontName | String | Replacement font name for the original font String |
+
+### Result
+FontSubstitutionInfo
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [FontSubstitutionInfo](fontsubstitutioninfo)(String, String) | Creates an instance of FontSubstitutionInfo class. |
+| [getOriginalFontName]() | Indicates source font name in presentation. Read-only String |
 
-## Functions
+### Result
+String
 
-| Name | Description |
-| --- | --- |
-| [getOriginalFontName](getoriginalfontname)() | Indicates source font name in presentation. Read-only String |
-| [getSubstitutedFontName](getsubstitutedfontname)() | Indicates the replacement font name for the original font. Read-only String |
+
+---
+
+
+| [getSubstitutedFontName]() | Indicates the replacement font name for the original font. Read-only String |
+
+### Result
+String
+
+
+---
+
+

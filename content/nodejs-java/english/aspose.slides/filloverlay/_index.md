@@ -17,10 +17,69 @@ url: /aspose.slides/filloverlay/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
-| [getBlend](getblend)() | FillBlendMode. Read/write FillBlendMode. |
-| [getEffective](geteffective)() | Gets effective Fill Overlay effect data with the inheritance applied. |
-| [getFillFormat](getfillformat)() | Fill format. Read-only IFillFormat. |
-| [getVersion](getversion)() |  |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
-| [setBlend](setblend)(int) | FillBlendMode. Read/write FillBlendMode. |
+| [equals](Object) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The FillOverlay to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getBlend]() | FillBlendMode. Read/write FillBlendMode. |
+
+### Result
+int
+
+
+---
+
+
+| [getEffective]() | Gets effective Fill Overlay effect data with the inheritance applied. |
+
+### Result
+FillOverlayEffectiveData
+
+
+---
+
+
+| [getFillFormat]() | Fill format. Read-only IFillFormat. |
+
+### Result
+[FillFormat](../../fillformat)
+
+
+---
+
+
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+
+| [setBlend](int) | FillBlendMode. Read/write FillBlendMode. |
+
+
+---
+
+

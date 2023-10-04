@@ -11,18 +11,47 @@ url: /aspose.slides/xamloptions/
 
  Options that control how a XAML document is saved.
  
+| [XamlOptions]() | Creates the XamlOptions instance. |
+
+### Result
+XamlOptions
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [XamlOptions](xamloptions)() | Creates the XamlOptions instance. |
+| [getExportHiddenSlides]() | Determines whether hidden slides will be exported. |
 
-## Functions
+### Result
+boolean
 
-| Name | Description |
-| --- | --- |
-| [getExportHiddenSlides](getexporthiddenslides)() | Determines whether hidden slides will be exported. |
-| [getOutputSaver](getoutputsaver)() | Represents an implementation of IOutputSaver interface. |
-| [setExportHiddenSlides](setexporthiddenslides)(boolean) | Determines whether hidden slides will be exported. |
-| [setOutputSaver](setoutputsaver)([IXamlOutputSaver](../ixamloutputsaver)) | Represents an implementation of IOutputSaver interface. |
+
+---
+
+
+| [getOutputSaver]() | Represents an implementation of IOutputSaver interface. |
+
+### Result
+XamlOutputSaver
+
+
+---
+
+
+| [setExportHiddenSlides](boolean) | Determines whether hidden slides will be exported. |
+
+
+---
+
+
+| [setOutputSaver]([IXamlOutputSaver](../ixamloutputsaver)) | Represents an implementation of IOutputSaver interface. |
+
+
+---
+
+

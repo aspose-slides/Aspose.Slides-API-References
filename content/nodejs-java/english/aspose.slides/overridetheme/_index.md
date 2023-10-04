@@ -16,18 +16,180 @@ url: /aspose.slides/overridetheme/
 
 | Name | Description |
 | --- | --- |
-| [clear](clear)() | Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object. |
-| [getColorScheme](getcolorscheme)() | Returns the color scheme. Read-only IColorScheme. |
-| [getFontScheme](getfontscheme)() | Returns the font scheme. Read-only IFontScheme. |
-| [getFormatScheme](getformatscheme)() | Returns the shape format scheme. Read-only IFormatScheme. |
-| [getVersion](getversion)() |  |
-| [initColorScheme](initcolorscheme)() | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
-| [initColorSchemeFrom](initcolorschemefrom)([ColorScheme](../colorscheme)) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
-| [initColorSchemeFromInherited](initcolorschemefrominherited)() | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme. |
-| [initFontScheme](initfontscheme)() | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
-| [initFontSchemeFrom](initfontschemefrom)([FontScheme](../fontscheme)) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
-| [initFontSchemeFromInherited](initfontschemefrominherited)() | Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme. |
-| [initFormatScheme](initformatscheme)() | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
-| [initFormatSchemeFrom](initformatschemefrom)([FormatScheme](../formatscheme)) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
-| [initFormatSchemeFromInherited](initformatschemefrominherited)() | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
-| [isEmpty](isempty)() | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only boolean. |
+| [clear]() | Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object. |
+
+
+---
+
+
+| [getColorScheme]() | Returns the color scheme. Read-only IColorScheme. |
+
+### Result
+[ColorScheme](../../colorscheme)
+
+
+---
+
+
+| [getFontScheme]() | Returns the font scheme. Read-only IFontScheme. |
+
+### Result
+[FontScheme](../../fontscheme)
+
+
+---
+
+
+| [getFormatScheme]() | Returns the shape format scheme. Read-only IFormatScheme. |
+
+### Result
+[FormatScheme](../../formatscheme)
+
+
+---
+
+
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+
+| [initColorScheme]() | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.InvalidOperationException | Thrown if the ColorScheme is already initialized (not null). |
+
+
+---
+
+
+| [initColorSchemeFrom]([ColorScheme](../colorscheme)) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| colorScheme | [ColorScheme](../../colorscheme) | Data to initialize from. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.ArgumentNullException | Thrown if the colorScheme parameter is null. |
+
+
+---
+
+
+| [initColorSchemeFromInherited]() | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.InvalidOperationException | Thrown if the ColorScheme is already initialized (not null). |
+
+
+---
+
+
+| [initFontScheme]() | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.InvalidOperationException | Thrown if the FontScheme is already initialized (not null). |
+
+
+---
+
+
+| [initFontSchemeFrom]([FontScheme](../fontscheme)) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| fontScheme | [FontScheme](../../fontscheme) | Data to initialize from. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.ArgumentNullException | Thrown if the fontScheme parameter is null. |
+
+
+---
+
+
+| [initFontSchemeFromInherited]() | Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.InvalidOperationException | Thrown if the FontScheme is already initialized (not null). |
+
+
+---
+
+
+| [initFormatScheme]() | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.InvalidOperationException | Thrown if the FormatScheme is already initialized (not null). |
+
+
+---
+
+
+| [initFormatSchemeFrom]([FormatScheme](../formatscheme)) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| formatScheme | [FormatScheme](../../formatscheme) | Data to initialize from. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.ArgumentNullException | Thrown if the formatScheme parameter is null. |
+
+
+---
+
+
+| [initFormatSchemeFromInherited]() | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.InvalidOperationException | Thrown if the FormatScheme is already initialized (not null). |
+
+
+---
+
+
+| [isEmpty]() | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+

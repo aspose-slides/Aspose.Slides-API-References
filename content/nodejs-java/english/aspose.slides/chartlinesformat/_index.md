@@ -16,5 +16,21 @@ url: /aspose.slides/chartlinesformat/
 
 | Name | Description |
 | --- | --- |
-| [getEffect](geteffect)() | Returns effects used for a chart line. Read-only IEffectFormat. |
-| [getLine](getline)() | Returns line style properties of a chart line. Read-only ILineFormat. |
+| [getEffect]() | Returns effects used for a chart line. Read-only IEffectFormat. |
+
+### Result
+[EffectFormat](../../effectformat)
+
+
+---
+
+
+| [getLine]() | Returns line style properties of a chart line. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+

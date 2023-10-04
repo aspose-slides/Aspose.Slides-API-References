@@ -16,8 +16,54 @@ url: /aspose.slides/adjustvaluecollection/
 
 | Name | Description |
 | --- | --- |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns adjustment by index. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator for the entire collection. |
-| [size](size)() | Return a number of adjustments. Read-only int. |
+| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [get_Item](int) | Returns adjustment by index. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | adjustment's index. |
+
+### Result
+[AdjustValue](../../adjustvalue)
+
+
+---
+
+
+| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [iterator]() | Returns an enumerator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [size]() | Return a number of adjustments. Read-only int. |
+
+### Result
+int
+
+
+---
+
+

@@ -11,20 +11,62 @@ url: /aspose.slides/rotationeffect/
 
  Represent rotation behavior of effect.
  
+| [RotationEffect]() |  |
+
+### Result
+RotationEffect
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [RotationEffect](rotationeffect)() |  |
+| [getBy]() | Describes the relative offset value for the animation. Read/write float. |
 
-## Functions
+### Result
+float
 
-| Name | Description |
-| --- | --- |
-| [getBy](getby)() | Describes the relative offset value for the animation. Read/write float. |
-| [getFrom](getfrom)() | Describes the starting value for the animation. Read/write float. |
-| [getTo](getto)() | Describes the ending value for the animation. Read/write float. |
-| [setBy](setby)(float) | Describes the relative offset value for the animation. Read/write float. |
-| [setFrom](setfrom)(float) | Describes the starting value for the animation. Read/write float. |
-| [setTo](setto)(float) | Describes the ending value for the animation. Read/write float. |
+
+---
+
+
+| [getFrom]() | Describes the starting value for the animation. Read/write float. |
+
+### Result
+float
+
+
+---
+
+
+| [getTo]() | Describes the ending value for the animation. Read/write float. |
+
+### Result
+float
+
+
+---
+
+
+| [setBy](float) | Describes the relative offset value for the animation. Read/write float. |
+
+
+---
+
+
+| [setFrom](float) | Describes the starting value for the animation. Read/write float. |
+
+
+---
+
+
+| [setTo](float) | Describes the ending value for the animation. Read/write float. |
+
+
+---
+
+

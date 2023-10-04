@@ -11,22 +11,77 @@ url: /aspose.slides/scaleeffect/
 
  Represents animation scale effect.
  
+| [ScaleEffect]() |  |
+
+### Result
+ScaleEffect
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [ScaleEffect](scaleeffect)() |  |
+| [getBy]() | describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
 
-## Functions
+### Result
+Point2D.Float
 
-| Name | Description |
-| --- | --- |
-| [getBy](getby)() | describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
-| [getFrom](getfrom)() | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
-| [getTo](getto)() | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
-| [getZoomContent](getzoomcontent)() | Determines whether a content should be zoomed. Read/write NullableBool. |
-| [setBy](setby)(Point2D.Float) | describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
-| [setFrom](setfrom)(Point2D.Float) | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
-| [setTo](setto)(Point2D.Float) | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
-| [setZoomContent](setzoomcontent)(byte) | Determines whether a content should be zoomed. Read/write NullableBool. |
+
+---
+
+
+| [getFrom]() | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
+
+### Result
+Point2D.Float
+
+
+---
+
+
+| [getTo]() | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
+
+### Result
+Point2D.Float
+
+
+---
+
+
+| [getZoomContent]() | Determines whether a content should be zoomed. Read/write NullableBool. |
+
+### Result
+byte
+
+
+---
+
+
+| [setBy](Point2D.Float) | describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
+
+
+---
+
+
+| [setFrom](Point2D.Float) | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
+
+
+---
+
+
+| [setTo](Point2D.Float) | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
+
+
+---
+
+
+| [setZoomContent](byte) | Determines whether a content should be zoomed. Read/write NullableBool. |
+
+
+---
+
+

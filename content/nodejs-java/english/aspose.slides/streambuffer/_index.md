@@ -9,18 +9,50 @@ url: /aspose.slides/streambuffer/
 
 ## StreamBuffer class
 
+| [StreamBuffer]() |  |
+
+### Result
+StreamBuffer
+
+
+---
+
+
+| [StreamBuffer](int) |  |
+
+### Result
+StreamBuffer
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [StreamBuffer](streambuffer)() |  |
-| [StreamBuffer](streambuffer)(int) |  |
+| [read](int) |  |
 
-## Functions
+### Result
+byte
 
-| Name | Description |
-| --- | --- |
-| [read](read)(int) |  |
-| [reset](reset)() |  |
-| [toInputStream](toinputstream)() |  |
+
+---
+
+
+| [reset]() |  |
+
+
+---
+
+
+| [toInputStream]() |  |
+
+### Result
+InputStream
+
+
+---
+
+

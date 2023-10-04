@@ -13,22 +13,89 @@ url: /aspose.slides/behaviorfactory/
  
  For COM compatibility.
  
+| [BehaviorFactory]() |  |
+
+### Result
+BehaviorFactory
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [BehaviorFactory](behaviorfactory)() |  |
+| [createColorEffect]() | Creates color effect. |
 
-## Functions
+### Result
+[ColorEffect](../../coloreffect)
 
-| Name | Description |
-| --- | --- |
-| [createColorEffect](createcoloreffect)() | Creates color effect. |
-| [createCommandEffect](createcommandeffect)() | Creates command effect. |
-| [createFilterEffect](createfiltereffect)() | Creates filter effect. |
-| [createMotionEffect](createmotioneffect)() | Creates motion effect. |
-| [createPropertyEffect](createpropertyeffect)() | Creates property effect. |
-| [createRotationEffect](createrotationeffect)() | Creates rotation effect. |
-| [createScaleEffect](createscaleeffect)() | Creates scale effect. |
-| [createSetEffect](createseteffect)() | Creates set effect. |
+
+---
+
+
+| [createCommandEffect]() | Creates command effect. |
+
+### Result
+[CommandEffect](../../commandeffect)
+
+
+---
+
+
+| [createFilterEffect]() | Creates filter effect. |
+
+### Result
+[FilterEffect](../../filtereffect)
+
+
+---
+
+
+| [createMotionEffect]() | Creates motion effect. |
+
+### Result
+[MotionEffect](../../motioneffect)
+
+
+---
+
+
+| [createPropertyEffect]() | Creates property effect. |
+
+### Result
+IPropertyEffect
+
+
+---
+
+
+| [createRotationEffect]() | Creates rotation effect. |
+
+### Result
+[RotationEffect](../../rotationeffect)
+
+
+---
+
+
+| [createScaleEffect]() | Creates scale effect. |
+
+### Result
+[ScaleEffect](../../scaleeffect)
+
+
+---
+
+
+| [createSetEffect]() | Creates set effect. |
+
+### Result
+[SetEffect](../../seteffect)
+
+
+---
+
+

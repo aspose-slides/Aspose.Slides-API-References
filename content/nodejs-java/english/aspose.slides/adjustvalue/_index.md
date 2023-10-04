@@ -17,8 +17,42 @@ url: /aspose.slides/adjustvalue/
 
 | Name | Description |
 | --- | --- |
-| [getAngleValue](getanglevalue)() | Returns or sets value, interpreting it as angle in degrees. Read/write float. |
-| [getName](getname)() | Returns a name of this adjustment value. Read-only String. |
-| [getRawValue](getrawvalue)() | Returns or sets ajustment value "as is". Read/write long. |
-| [setAngleValue](setanglevalue)(float) | Returns or sets value, interpreting it as angle in degrees. Read/write float. |
-| [setRawValue](setrawvalue)(long) | Returns or sets ajustment value "as is". Read/write long. |
+| [getAngleValue]() | Returns or sets value, interpreting it as angle in degrees. Read/write float. |
+
+### Result
+float
+
+
+---
+
+
+| [getName]() | Returns a name of this adjustment value. Read-only String. |
+
+### Result
+String
+
+
+---
+
+
+| [getRawValue]() | Returns or sets ajustment value "as is". Read/write long. |
+
+### Result
+long
+
+
+---
+
+
+| [setAngleValue](float) | Returns or sets value, interpreting it as angle in degrees. Read/write float. |
+
+
+---
+
+
+| [setRawValue](long) | Returns or sets ajustment value "as is". Read/write long. |
+
+
+---
+
+

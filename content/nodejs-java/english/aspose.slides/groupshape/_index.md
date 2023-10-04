@@ -16,6 +16,30 @@ url: /aspose.slides/groupshape/
 
 | Name | Description |
 | --- | --- |
-| [getGroupShapeLock](getgroupshapelock)() | Returns shape's locks. Read-only IGroupShapeLock. |
-| [getLineFormat](getlineformat)() | Returns the LineFormat object that contains line formatting properties for a shape. Note: Returns null for GroupShape objects because they don't have line properties. Read-only ILineFormat. |
-| [getShapes](getshapes)() | Returns the collection of shapes inside the group. Read-only IShapeCollection. |
+| [getGroupShapeLock]() | Returns shape's locks. Read-only IGroupShapeLock. |
+
+### Result
+[GroupShapeLock](../../groupshapelock)
+
+
+---
+
+
+| [getLineFormat]() | Returns the LineFormat object that contains line formatting properties for a shape. Note: Returns null for GroupShape objects because they don't have line properties. Read-only ILineFormat. |
+
+### Result
+[LineFormat](../../lineformat)
+
+
+---
+
+
+| [getShapes]() | Returns the collection of shapes inside the group. Read-only IShapeCollection. |
+
+### Result
+[ShapeCollection](../../shapecollection)
+
+
+---
+
+

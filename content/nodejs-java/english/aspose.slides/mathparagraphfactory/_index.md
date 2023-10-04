@@ -13,16 +13,41 @@ url: /aspose.slides/mathparagraphfactory/
  
  For COM comparibility
  
+| [MathParagraphFactory]() |  |
+
+### Result
+MathParagraphFactory
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [MathParagraphFactory](mathparagraphfactory)() |  |
+| [createMathParagraph]() | Create empty math paragraph |
 
-## Functions
+### Result
+[MathParagraph](../../mathparagraph)
 
-| Name | Description |
-| --- | --- |
-| [createMathParagraph](createmathparagraph)() | Create empty math paragraph |
-| [createMathParagraph](createmathparagraph)([MathBlock](../mathblock)) | Creates a math paragraph and places the specified math block in it |
+
+---
+
+
+| [createMathParagraph]([MathBlock](../mathblock)) | Creates a math paragraph and places the specified math block in it |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathBlock | [MathBlock](../../mathblock) | math block to place in the paragraph |
+
+### Result
+[MathParagraph](../../mathparagraph)
+
+
+---
+
+

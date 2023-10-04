@@ -16,6 +16,27 @@ url: /aspose.slides/sketchformat/
 
 | Name | Description |
 | --- | --- |
-| [getSketchType](getsketchtype)() | Returns or sets the sketch type. Read/write LineSketchType. |
-| [getVersion](getversion)() |  |
-| [setSketchType](setsketchtype)(int) | Returns or sets the sketch type. Read/write LineSketchType. |
+| [getSketchType]() | Returns or sets the sketch type. Read/write LineSketchType. |
+
+### Result
+int
+
+
+---
+
+
+| [getVersion]() |  |
+
+### Result
+long
+
+
+---
+
+
+| [setSketchType](int) | Returns or sets the sketch type. Read/write LineSketchType. |
+
+
+---
+
+

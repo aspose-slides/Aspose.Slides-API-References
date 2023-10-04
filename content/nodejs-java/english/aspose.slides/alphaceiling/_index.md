@@ -18,6 +18,36 @@ url: /aspose.slides/alphaceiling/
 
 | Name | Description |
 | --- | --- |
-| [equals](equals)(Object) | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
-| [getEffective](geteffective)() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
-| [hashCode](hashcode)() | Serves as a hash function for a particular type. |
+| [equals](Object) | Determines whether the specified AlphaCeiling is equal to the current AlphaCeiling. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| obj | Object | The AlphaCeiling to compare. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getEffective]() | Gets effective Alpha Ceiling effect data with the inheritance applied. |
+
+### Result
+AlphaCeilingEffectiveData
+
+
+---
+
+
+| [hashCode]() | Serves as a hash function for a particular type. |
+
+### Result
+int
+
+
+---
+
+

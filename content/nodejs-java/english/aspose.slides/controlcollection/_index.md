@@ -16,13 +16,112 @@ url: /aspose.slides/controlcollection/
 
 | Name | Description |
 | --- | --- |
-| [addControl](addcontrol)(int, float, float, float, float) | Creates and adds a new control to the collection. |
-| [clear](clear)() | Removes all controls from the collection. |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Returns a control at the specified position. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([Control](../control)) | Removes an ActiveX control from the collection. |
-| [removeAt](removeat)(int) | Removes an ActiveX control stored at specified position from the collection. |
-| [size](size)() | Returns a number of objects in the collection. Read-only int. |
+| [addControl](int, float, float, float, float) | Creates and adds a new control to the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| controlType | int | Type of a control to add. |
+| x | float | The X-coordinate for a left side of shape's frame. |
+| y | float | The Y-coordinate for a top side of shape's frame. |
+| width | float | The width of shape's frame. |
+| height | float | The height of shape's frame. |
+
+### Result
+[Control](../../control)
+
+
+---
+
+
+| [clear]() | Removes all controls from the collection. |
+
+
+---
+
+
+| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [get_Item](int) | Returns a control at the specified position. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a control. |
+
+### Result
+[Control](../../control)
+
+
+---
+
+
+| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [iterator]() | Returns an enumerator that iterates through the collection. |
+
+### Result
+
+
+
+---
+
+
+| [iteratorJava]() | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [remove]([Control](../control)) | Removes an ActiveX control from the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| item | [Control](../../control) | A control to remove. |
+
+
+---
+
+
+| [removeAt](int) | Removes an ActiveX control stored at specified position from the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | int | Index of a control to remove. |
+
+
+---
+
+
+| [size]() | Returns a number of objects in the collection. Read-only int. |
+
+### Result
+int
+
+
+---
+
+

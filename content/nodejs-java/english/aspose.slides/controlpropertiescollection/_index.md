@@ -16,12 +16,97 @@ url: /aspose.slides/controlpropertiescollection/
 
 | Name | Description |
 | --- | --- |
-| [add](add)(String, String) | Adds a property to the collection. |
-| [clear](clear)() | Removes all properties. |
-| [getCount](getcount)() | Returns a number of properties in the collection. Read-only int. |
-| [getNamesOfProperties](getnamesofproperties)() | Returns the collection of properties names. Read-only IGenericCollection. |
-| [get_Item](get_item)(String) | Returns or sets property. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)(String) | Removes a property with the specified name. |
-| [set_Item](set_item)(String, String) | Returns or sets property. |
+| [add](String, String) | Adds a property to the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | The name of the property. |
+| value | String | The alue of the property. |
+
+
+---
+
+
+| [clear]() | Removes all properties. |
+
+
+---
+
+
+| [getCount]() | Returns a number of properties in the collection. Read-only int. |
+
+### Result
+int
+
+
+---
+
+
+| [getNamesOfProperties]() | Returns the collection of properties names. Read-only IGenericCollection. |
+
+### Result
+[LineFormatCollection](../../lineformatcollection), [ExtraColorSchemeCollection](../../extracolorschemecollection), [SmartArtShapeCollection](../../smartartshapecollection), [RowCollection](../../rowcollection), [VbaModuleCollection](../../vbamodulecollection), [VbaReferenceCollection](../../vbareferencecollection), [FontSubstRuleCollection](../../fontsubstrulecollection), [SectionSlideCollection](../../sectionslidecollection), SortedList, [SectionCollection](../../sectioncollection), ReadOnlyCollection, [ColumnCollection](../../columncollection), [CellCollection](../../cellcollection), [TabCollection](../../tabcollection), KeyedCollection, [ShapeCollection](../../shapecollection), [CommentAuthorCollection](../../commentauthorcollection), [ChartCategoryCollection](../../chartcategorycollection), [CustomXmlPartCollection](../../customxmlpartcollection), Dictionary, [SlideCollection](../../slidecollection), SortedDictionary, LinkedList, [Column](../../column), [ColorOperationCollection](../../coloroperationcollection), [ChartDataPointCollection](../../chartdatapointcollection), Collection, [MasterSlideCollection](../../masterslidecollection), [MasterLayoutSlideCollection](../../masterlayoutslidecollection), [SummaryZoomSectionCollection](../../summaryzoomsectioncollection), [ImageCollection](../../imagecollection), [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata), [SmartArtNodeCollection](../../smartartnodecollection), [BehaviorPropertyCollection](../../behaviorpropertycollection), [VideoCollection](../../videocollection), [TextAnimationCollection](../../textanimationcollection), [EffectStyleCollection](../../effectstylecollection), [ControlCollection](../../controlcollection), [FontFallBackRulesCollection](../../fontfallbackrulescollection), [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata), [DigitalSignatureCollection](../../digitalsignaturecollection), [AudioCollection](../../audiocollection), [ChartSeriesCollection](../../chartseriescollection), [Row](../../row), [CommentCollection](../../commentcollection), [ImageTransformOperationCollection](../../imagetransformoperationcollection), [TagCollection](../../tagcollection), [GradientStopCollection](../../gradientstopcollection), List, [GlobalLayoutSlideCollection](../../globallayoutslidecollection), [PieSplitCustomPointCollection](../../piesplitcustompointcollection), [ChartDataWorksheetCollection](../../chartdataworksheetcollection), [LayoutSlideCollection](../../layoutslidecollection), [FillFormatCollection](../../fillformatcollection)
+
+
+---
+
+
+| [get_Item](String) | Returns or sets property. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of property. |
+
+### Result
+String
+
+
+---
+
+
+| [iterator]() | Returns an enumerator that iterates through the collection. |
+
+### Result
+
+
+
+---
+
+
+| [iteratorJava]() | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [remove](String) | Removes a property with the specified name. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | The name of property to remove. |
+
+
+---
+
+
+| [set_Item](String, String) | Returns or sets property. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| name | String | Name of property. |
+
+
+---
+
+

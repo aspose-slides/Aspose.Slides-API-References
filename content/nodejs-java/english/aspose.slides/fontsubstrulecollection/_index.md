@@ -11,22 +11,89 @@ url: /aspose.slides/fontsubstrulecollection/
 
  Represents collection of fonts substitution.
  
+| [FontSubstRuleCollection]() |  |
+
+### Result
+FontSubstRuleCollection
+
+
+---
+
+
 
 ## Functions
 
 | Name | Description |
 | --- | --- |
-| [FontSubstRuleCollection](fontsubstrulecollection)() |  |
+| [add]([FontSubstRule](../fontsubstrule)) | Adds the new font substitution rule to the collection |
 
-## Functions
 
-| Name | Description |
-| --- | --- |
-| [add](add)([FontSubstRule](../fontsubstrule)) | Adds the new font substitution rule to the collection |
-| [getSyncRoot](getsyncroot)() | Returns a synchronization root. Read-only Object. |
-| [get_Item](get_item)(int) | Gets the element at the specified index. |
-| [isSynchronized](issynchronized)() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
-| [iterator](iterator)() | Returns an enumerator that iterates through the collection. |
-| [iteratorJava](iteratorjava)() | Returns a java iterator for the entire collection. |
-| [remove](remove)([FontSubstRule](../fontsubstrule)) | Removes the first occurrence of a specific object from the collection. |
-| [size](size)() | Gets the number of elements actually contained in the collection. Read-only int. |
+---
+
+
+| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+
+### Result
+Object
+
+
+---
+
+
+| [get_Item](int) | Gets the element at the specified index. |
+
+### Result
+[FontSubstRule](../../fontsubstrule)
+
+
+---
+
+
+| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+
+### Result
+boolean
+
+
+---
+
+
+| [iterator]() | Returns an enumerator that iterates through the collection. |
+
+### Result
+
+
+
+---
+
+
+| [iteratorJava]() | Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [remove]([FontSubstRule](../fontsubstrule)) | Removes the first occurrence of a specific object from the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| value | [FontSubstRule](../../fontsubstrule) | The font substitution rule to remove from the collection. |
+
+
+---
+
+
+| [size]() | Gets the number of elements actually contained in the collection. Read-only int. |
+
+### Result
+int
+
+
+---
+
+

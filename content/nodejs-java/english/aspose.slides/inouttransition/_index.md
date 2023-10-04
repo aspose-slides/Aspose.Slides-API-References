@@ -16,5 +16,18 @@ url: /aspose.slides/inouttransition/
 
 | Name | Description |
 | --- | --- |
-| [getDirection](getdirection)() | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
-| [setDirection](setdirection)(int) | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
+| [getDirection]() | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
+
+### Result
+int
+
+
+---
+
+
+| [setDirection](int) | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
+
+
+---
+
+

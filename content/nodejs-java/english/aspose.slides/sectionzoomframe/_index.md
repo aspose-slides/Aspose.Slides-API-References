@@ -16,5 +16,18 @@ url: /aspose.slides/sectionzoomframe/
 
 | Name | Description |
 | --- | --- |
-| [getTargetSection](gettargetsection)() | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
-| [setTargetSection](settargetsection)([Section](../section)) | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+| [getTargetSection]() | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+
+### Result
+[Section](../../section)
+
+
+---
+
+
+| [setTargetSection]([Section](../section)) | Gets or sets the section object that the Section Zoom object links to. Read/write ISection. |
+
+
+---
+
+
