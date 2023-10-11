@@ -11,39 +11,34 @@ url: /aspose.slides/background/
 
  Represents background of a slide.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getEffectFormat]() | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only IEffectFormat. |
+| [getEffectFormat] () Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only IEffectFormat. |
 
 ### Result
-[EffectFormat](../../effectformat)
+[EffectFormat]
 
 
 ---
 
 
-| [getEffective]() | Gets effective background data with the inheritance applied. |
+| [getEffective] () Gets effective background data with the inheritance applied. |
 
 ### Result
-BackgroundEffectiveData
+[BackgroundEffectiveData]
 
 
 ---
 
 
-| [getFillFormat]() | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only IFillFormat. |
+| [getFillFormat] () Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only IFillFormat. |
 
 ### Result
-[FillFormat](../../fillformat)
+[FillFormat]
 
 
 ---
 
 
-| [getPresentation]() | Returns the parent presentation of a slide. Read-only IPresentation. |
+| [getPresentation] () Returns the parent presentation of a slide. Read-only IPresentation. |
 
 ### Result
 Presentation
@@ -52,7 +47,7 @@ Presentation
 ---
 
 
-| [getSlide]() | Returns the parent slide of a shape. Read-only IBaseSlide. |
+| [getSlide] () Returns the parent slide of a shape. Read-only IBaseSlide. |
 
 ### Result
 BaseSlide
@@ -61,16 +56,16 @@ BaseSlide
 ---
 
 
-| [getStyleColor]() | Return a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormat. |
+| [getStyleColor] () Return a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat](../../colorformat)
+[ColorFormat]
 
 
 ---
 
 
-| [getStyleIndex]() | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
+| [getStyleIndex] () Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 
 ### Result
 int
@@ -79,7 +74,7 @@ int
 ---
 
 
-| [getType]() | Returns a type of background fill. Read/write BackgroundType. |
+| [getType] () Returns a type of background fill. Read/write BackgroundType. |
 
 ### Result
 byte
@@ -88,7 +83,7 @@ byte
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long
@@ -97,13 +92,13 @@ long
 ---
 
 
-| [setStyleIndex](int) | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
+| [setStyleIndex] ([int]) Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 
 
 ---
 
 
-| [setType](byte) | Returns a type of background fill. Read/write BackgroundType. |
+| [setType] ([byte]) Returns a type of background fill. Read/write BackgroundType. |
 
 
 ---

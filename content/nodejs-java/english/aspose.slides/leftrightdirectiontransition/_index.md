@@ -11,12 +11,7 @@ url: /aspose.slides/leftrightdirectiontransition/
 
  Left-right direction slide transition effect.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getDirection]() | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [getDirection] () Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
 ### Result
 int
@@ -25,7 +20,7 @@ int
 ---
 
 
-| [setDirection](int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [setDirection] ([int]) Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
 
 ---

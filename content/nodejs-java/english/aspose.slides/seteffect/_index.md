@@ -20,12 +20,7 @@ SetEffect
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getTo]() | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| [getTo] () Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
 ### Result
 Object
@@ -34,7 +29,7 @@ Object
 ---
 
 
-| [setTo](Object) | Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| [setTo] ([Object]) Specifies the certain attribute of a effect after an animation effect. Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
 
 ---

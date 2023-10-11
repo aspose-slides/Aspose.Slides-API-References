@@ -11,21 +11,16 @@ url: /aspose.slides/customxmlpartcollection/
 
  Represents collection of custom xml parts.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add](String) | Adds new custom xml part. |
+| [add] ([String]) Adds new custom xml part. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xmlString | String | The xml string of new part to be added. |
+| xmlString | [String] | The xml string of new part to be added. |
 
 ### Result
-[CustomXmlPart](../../customxmlpart)
+[CustomXmlPart]
 
 ### Error
 
@@ -37,16 +32,16 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-| [add](byte[]) | Adds new custom xml part. |
+| [add] ([byte[]]) Adds new custom xml part. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xmlData | byte[] | The xml data of new part to be added. |
+| xmlData | [byte[]] | The xml data of new part to be added. |
 
 ### Result
-[CustomXmlPart](../../customxmlpart)
+[CustomXmlPart]
 
 ### Error
 
@@ -58,18 +53,18 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-| [addFromStream ](CustomXmlPartCollection, ReadStream, Function) | Adds new custom xml part. |
+| [addFromStream ] (CustomXmlPartCollection, [ReadStream], Function) Adds new custom xml part. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | customxmlpartcollection | CustomXmlPartCollection  | link to self |
-| inputStream | ReadStream | The inputStream with xml data of new part to be added. |
+| inputStream | [ReadStream] | The inputStream with xml data of new part to be added. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
 ### Result
-[CustomXmlPart](../../customxmlpart)
+[CustomXmlPart]
 
 ### Error
 
@@ -81,13 +76,13 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-| [clear]() | Removes all items from the collection. |
+| [clear] () Removes all items from the collection. |
 
 
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -96,16 +91,16 @@ Object
 ---
 
 
-| [get_Item](int) | Returns the element at the specified index. |
+| [get_Item] ([int]) Returns the element at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to get. |
+| index | [int] | The zero-based index of the element to get. |
 
 ### Result
-[CustomXmlPart](../../customxmlpart)
+[CustomXmlPart]
 
 ### Error
 
@@ -117,7 +112,7 @@ Object
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -126,7 +121,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -135,7 +130,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -144,13 +139,13 @@ boolean
 ---
 
 
-| [remove]([CustomXmlPart](../customxmlpart)) | Removes the first occurrence of a specific object from the collection. |
+| [remove] ([CustomXmlPart]) Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [CustomXmlPart](../../customxmlpart) | The custom xml part to remove. |
+| item | [CustomXmlPart] | The custom xml part to remove. |
 
 ### Result
 boolean
@@ -165,13 +160,13 @@ boolean
 ---
 
 
-| [removeAt](int) | Removes custom xml part at the specified index. |
+| [removeAt] ([int]) Removes custom xml part at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to remove. |
+| index | [int] | The zero-based index of the element to remove. |
 
 ### Error
 
@@ -183,7 +178,7 @@ boolean
 ---
 
 
-| [size]() | Returns count of custom xml parts in the collection. Read-only int. |
+| [size] () Returns count of custom xml parts in the collection. Read-only int. |
 
 ### Result
 int

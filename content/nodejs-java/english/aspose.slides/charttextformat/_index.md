@@ -11,57 +11,52 @@ url: /aspose.slides/charttextformat/
 
  Specifies default text formatting for chart text elements.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [copyFrom]([TextFrame](../textframe)) | Copies text format from specified text frame. |
+| [copyFrom] ([TextFrame]) Copies text format from specified text frame. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceTextFrame | [TextFrame](../../textframe) | Text frame to copy text format. |
+| sourceTextFrame | [TextFrame] | Text frame to copy text format. |
 
 
 ---
 
 
-| [copyTo]([TextFrame](../textframe)) | Copies text format to specified text frame. |
+| [copyTo] ([TextFrame]) Copies text format to specified text frame. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| destTextFrame | [TextFrame](../../textframe) | Text frame to copy text format to. |
+| destTextFrame | [TextFrame] | Text frame to copy text format to. |
 
 
 ---
 
 
-| [getParagraphFormat]() | ParagraphFormat. Read-only IChartParagraphFormat. |
+| [getParagraphFormat] () ParagraphFormat. Read-only IChartParagraphFormat. |
 
 ### Result
-[ParagraphFormat](../../paragraphformat)
+[ParagraphFormat]
 
 
 ---
 
 
-| [getPortionFormat]() | PortionFormat. Read-only IChartPortionFormat. |
+| [getPortionFormat] () PortionFormat. Read-only IChartPortionFormat. |
 
 ### Result
-[ChartPortionFormat](../../chartportionformat)
+[ChartPortionFormat]
 
 
 ---
 
 
-| [getTextBlockFormat]() | TextBlockFormat. Read-only IChartTextBlockFormat. |
+| [getTextBlockFormat] () TextBlockFormat. Read-only IChartTextBlockFormat. |
 
 ### Result
-[TextFrameFormat](../../textframeformat)
+[TextFrameFormat]
 
 
 ---

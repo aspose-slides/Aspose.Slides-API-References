@@ -11,13 +11,13 @@ url: /aspose.slides/fontdata/
 
  Represents a font definition. Immutable.
  
-| [FontData](String) | Creates a new FontData object with the specified font name. |
+| [FontData]([String]) | Creates a new FontData object with the specified font name. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| fontName | String | Font name. |
+| fontName | [String] | Font name. |
 
 ### Result
 FontData
@@ -26,18 +26,13 @@ FontData
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [equals](Object) | Determines whether two FontData instances are equal. |
+| [equals] ([Object]) Determines whether two FontData instances are equal. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | Object | The FontData to compare with the current FontData. |
+| obj | [Object] | The FontData to compare with the current FontData. |
 
 ### Result
 boolean
@@ -46,7 +41,7 @@ boolean
 ---
 
 
-| [getFontName]() | Returns the font name. Read/write String. |
+| [getFontName] () Returns the font name. Read/write String. |
 
 ### Result
 String
@@ -55,13 +50,13 @@ String
 ---
 
 
-| [getFontName]([IThemeEffectiveData](../ithemeeffectivedata)) | Returns the font name, replacing theme referrence with an actual font used. |
+| [getFontName] ([IThemeEffectiveData]) Returns the font name, replacing theme referrence with an actual font used. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| theme | [IThemeEffectiveData](../../ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
+| theme | [IThemeEffectiveData] | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
 
 ### Result
 String
@@ -70,7 +65,7 @@ String
 ---
 
 
-| [hashCode]() | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| [hashCode] () Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### Result
 int
@@ -79,7 +74,7 @@ int
 ---
 
 
-| [toString]() | Returns string representation. |
+| [toString] () Returns string representation. |
 
 ### Result
 String

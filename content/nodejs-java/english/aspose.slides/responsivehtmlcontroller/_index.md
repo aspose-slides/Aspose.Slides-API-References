@@ -20,13 +20,13 @@ ResponsiveHtmlController
 ---
 
 
-| [ResponsiveHtmlController]([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController]([EmbeddedEotFontsHtmlController]) | Creates new instance |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [EmbeddedEotFontsHtmlController](../../embeddedeotfontshtmlcontroller) | HTML formatting controller |
+| controller | [EmbeddedEotFontsHtmlController] | HTML formatting controller |
 
 ### Result
 ResponsiveHtmlController
@@ -35,13 +35,13 @@ ResponsiveHtmlController
 ---
 
 
-| [ResponsiveHtmlController]([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController]([VideoPlayerHtmlController]) | Creates new instance |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [VideoPlayerHtmlController](../../videoplayerhtmlcontroller) | HTML formatting controller |
+| controller | [VideoPlayerHtmlController] | HTML formatting controller |
 
 ### Result
 ResponsiveHtmlController
@@ -50,13 +50,13 @@ ResponsiveHtmlController
 ---
 
 
-| [ResponsiveHtmlController]([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController]([EmbeddedWoffFontsHtmlController]) | Creates new instance |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [EmbeddedWoffFontsHtmlController](../../embeddedwofffontshtmlcontroller) | HTML formatting controller |
+| controller | [EmbeddedWoffFontsHtmlController] | HTML formatting controller |
 
 ### Result
 ResponsiveHtmlController
@@ -65,13 +65,13 @@ ResponsiveHtmlController
 ---
 
 
-| [ResponsiveHtmlController]([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController]([ResponsiveHtmlController]) | Creates new instance |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [ResponsiveHtmlController](../../responsivehtmlcontroller) | HTML formatting controller |
+| controller | [ResponsiveHtmlController] | HTML formatting controller |
 
 ### Result
 ResponsiveHtmlController
@@ -80,13 +80,13 @@ ResponsiveHtmlController
 ---
 
 
-| [ResponsiveHtmlController]([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance |
+| [ResponsiveHtmlController]([EmbedAllFontsHtmlController]) | Creates new instance |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| controller | [EmbedAllFontsHtmlController](../../embedallfontshtmlcontroller) | HTML formatting controller |
+| controller | [EmbedAllFontsHtmlController] | HTML formatting controller |
 
 ### Result
 ResponsiveHtmlController
@@ -95,270 +95,265 @@ ResponsiveHtmlController
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [writeDocumentEnd]([HtmlGenerator](../htmlgenerator), [Presentation](../presentation)) |  |
+| [writeDocumentEnd] ([HtmlGenerator], [Presentation])  |
 
 
 ---
 
 
-| [writeDocumentStart]([HtmlGenerator](../htmlgenerator), [Presentation](../presentation)) |  |
+| [writeDocumentStart] ([HtmlGenerator], [Presentation])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [LegacyDiagram])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [Connector])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [GraphicalObject])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [Shape])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [Ink])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [GroupShape])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [SmartArtShape])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [SummaryZoomSection])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [ZoomObject])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [SmartArt])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [VideoFrame])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [PictureFrame])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [ZoomFrame])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [AutoShape])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [OleObjectFrame])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [SectionZoomFrame])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [AudioFrame])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [Chart])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [Table])  |
 
 
 ---
 
 
-| [writeShapeEnd]([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| [writeShapeEnd] ([HtmlGenerator], [SummaryZoomFrame])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [LegacyDiagram](../legacydiagram)) |  |
+| [writeShapeStart] ([HtmlGenerator], [LegacyDiagram])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [Connector](../connector)) |  |
+| [writeShapeStart] ([HtmlGenerator], [Connector])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [GraphicalObject](../graphicalobject)) |  |
+| [writeShapeStart] ([HtmlGenerator], [GraphicalObject])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [Shape](../shape)) |  |
+| [writeShapeStart] ([HtmlGenerator], [Shape])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [Ink](../ink)) |  |
+| [writeShapeStart] ([HtmlGenerator], [Ink])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [GroupShape](../groupshape)) |  |
+| [writeShapeStart] ([HtmlGenerator], [GroupShape])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [SmartArtShape](../smartartshape)) |  |
+| [writeShapeStart] ([HtmlGenerator], [SmartArtShape])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [SummaryZoomSection](../summaryzoomsection)) |  |
+| [writeShapeStart] ([HtmlGenerator], [SummaryZoomSection])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [ZoomObject](../zoomobject)) |  |
+| [writeShapeStart] ([HtmlGenerator], [ZoomObject])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [SmartArt](../smartart)) |  |
+| [writeShapeStart] ([HtmlGenerator], [SmartArt])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [VideoFrame](../videoframe)) |  |
+| [writeShapeStart] ([HtmlGenerator], [VideoFrame])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [PictureFrame](../pictureframe)) |  |
+| [writeShapeStart] ([HtmlGenerator], [PictureFrame])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [ZoomFrame](../zoomframe)) |  |
+| [writeShapeStart] ([HtmlGenerator], [ZoomFrame])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [AutoShape](../autoshape)) |  |
+| [writeShapeStart] ([HtmlGenerator], [AutoShape])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [OleObjectFrame](../oleobjectframe)) |  |
+| [writeShapeStart] ([HtmlGenerator], [OleObjectFrame])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [SectionZoomFrame](../sectionzoomframe)) |  |
+| [writeShapeStart] ([HtmlGenerator], [SectionZoomFrame])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [AudioFrame](../audioframe)) |  |
+| [writeShapeStart] ([HtmlGenerator], [AudioFrame])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [Chart](../chart)) |  |
+| [writeShapeStart] ([HtmlGenerator], [Chart])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [Table](../table)) |  |
+| [writeShapeStart] ([HtmlGenerator], [Table])  |
 
 
 ---
 
 
-| [writeShapeStart]([HtmlGenerator](../htmlgenerator), [SummaryZoomFrame](../summaryzoomframe)) |  |
+| [writeShapeStart] ([HtmlGenerator], [SummaryZoomFrame])  |
 
 
 ---
 
 
-| [writeSlideEnd]([HtmlGenerator](../htmlgenerator), [Slide](../slide)) |  |
+| [writeSlideEnd] ([HtmlGenerator], [Slide])  |
 
 
 ---
 
 
-| [writeSlideStart]([HtmlGenerator](../htmlgenerator), [Slide](../slide)) |  |
+| [writeSlideStart] ([HtmlGenerator], [Slide])  |
 
 
 ---

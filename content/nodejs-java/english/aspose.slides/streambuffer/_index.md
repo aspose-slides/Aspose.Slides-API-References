@@ -18,7 +18,7 @@ StreamBuffer
 ---
 
 
-| [StreamBuffer](int) |  |
+| [StreamBuffer]([int]) |  |
 
 ### Result
 StreamBuffer
@@ -27,12 +27,7 @@ StreamBuffer
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [read](int) |  |
+| [read] ([int])  |
 
 ### Result
 byte
@@ -41,16 +36,16 @@ byte
 ---
 
 
-| [reset]() |  |
+| [reset] ()  |
 
 
 ---
 
 
-| [toInputStream]() |  |
+| [toInputStream] ()  |
 
 ### Result
-InputStream
+[InputStream]
 
 
 ---

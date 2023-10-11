@@ -11,30 +11,25 @@ url: /aspose.slides/notesslidemanager/
 
  Notes slide manager.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [addNotesSlide]() | Returns the notes slide for the current slide, creating one if there isn't. |
+| [addNotesSlide] () Returns the notes slide for the current slide, creating one if there isn't. |
 
 ### Result
-[NotesSlide](../../notesslide)
+[NotesSlide]
 
 
 ---
 
 
-| [getNotesSlide]() | Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only INotesSlide. |
+| [getNotesSlide] () Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only INotesSlide. |
 
 ### Result
-[NotesSlide](../../notesslide)
+[NotesSlide]
 
 
 ---
 
 
-| [removeNotesSlide]() | Removes notes slide of the current slide. |
+| [removeNotesSlide] () Removes notes slide of the current slide. |
 
 
 ---

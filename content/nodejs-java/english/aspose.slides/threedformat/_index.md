@@ -11,48 +11,43 @@ url: /aspose.slides/threedformat/
 
  Represents 3-D properties.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getBevelBottom]() | Returns or sets the type of a bottom 3D bevel. Read-only IShapeBevel. |
+| [getBevelBottom] () Returns or sets the type of a bottom 3D bevel. Read-only IShapeBevel. |
 
 ### Result
-[ShapeBevel](../../shapebevel)
+[ShapeBevel]
 
 
 ---
 
 
-| [getBevelTop]() | Returns or sets the type of a top 3D bevel. Read-only IShapeBevel. |
+| [getBevelTop] () Returns or sets the type of a top 3D bevel. Read-only IShapeBevel. |
 
 ### Result
-[ShapeBevel](../../shapebevel)
+[ShapeBevel]
 
 
 ---
 
 
-| [getCamera]() | Returns or sets the settings of a camera. Read-only ICamera. |
+| [getCamera] () Returns or sets the settings of a camera. Read-only ICamera. |
 
 ### Result
-[Camera](../../camera)
+[Camera]
 
 
 ---
 
 
-| [getContourColor]() | Returns or sets the color of a contour. Read-only IColorFormat. |
+| [getContourColor] () Returns or sets the color of a contour. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat](../../colorformat)
+[ColorFormat]
 
 
 ---
 
 
-| [getContourWidth]() | Returns or sets the width of a 3D contour. Read/write double. |
+| [getContourWidth] () Returns or sets the width of a 3D contour. Read/write double. |
 
 ### Result
 double
@@ -61,7 +56,7 @@ double
 ---
 
 
-| [getDepth]() | Returns or sets the depth of a 3D shape. Read/write double. |
+| [getDepth] () Returns or sets the depth of a 3D shape. Read/write double. |
 
 ### Result
 double
@@ -70,25 +65,25 @@ double
 ---
 
 
-| [getEffective]() | Gets effective 3-D formatting data with the inheritance applied. |
+| [getEffective] () Gets effective 3-D formatting data with the inheritance applied. |
 
 ### Result
-ThreeDFormatEffectiveData
+[ThreeDFormatEffectiveData]
 
 
 ---
 
 
-| [getExtrusionColor]() | Returns or sets the color of an extrusion. Read-only IColorFormat. |
+| [getExtrusionColor] () Returns or sets the color of an extrusion. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat](../../colorformat)
+[ColorFormat]
 
 
 ---
 
 
-| [getExtrusionHeight]() | Returns or sets the height of an extrusion effect. Read/write double. |
+| [getExtrusionHeight] () Returns or sets the height of an extrusion effect. Read/write double. |
 
 ### Result
 double
@@ -97,16 +92,16 @@ double
 ---
 
 
-| [getLightRig]() | Returns or sets the type of a light. Read-only ILightRig. |
+| [getLightRig] () Returns or sets the type of a light. Read-only ILightRig. |
 
 ### Result
-[LightRig](../../lightrig)
+[LightRig]
 
 
 ---
 
 
-| [getMaterial]() | Returns or sets the type of a material. Read/write MaterialPresetType. |
+| [getMaterial] () Returns or sets the type of a material. Read/write MaterialPresetType. |
 
 ### Result
 int
@@ -115,7 +110,7 @@ int
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long
@@ -124,25 +119,25 @@ long
 ---
 
 
-| [setContourWidth](double) | Returns or sets the width of a 3D contour. Read/write double. |
+| [setContourWidth] ([double]) Returns or sets the width of a 3D contour. Read/write double. |
 
 
 ---
 
 
-| [setDepth](double) | Returns or sets the depth of a 3D shape. Read/write double. |
+| [setDepth] ([double]) Returns or sets the depth of a 3D shape. Read/write double. |
 
 
 ---
 
 
-| [setExtrusionHeight](double) | Returns or sets the height of an extrusion effect. Read/write double. |
+| [setExtrusionHeight] ([double]) Returns or sets the height of an extrusion effect. Read/write double. |
 
 
 ---
 
 
-| [setMaterial](int) | Returns or sets the type of a material. Read/write MaterialPresetType. |
+| [setMaterial] ([int]) Returns or sets the type of a material. Read/write MaterialPresetType. |
 
 
 ---

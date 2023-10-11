@@ -11,12 +11,7 @@ url: /aspose.slides/placeholder/
 
  Represents a placeholder on a slide.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getIndex]() | Gets or sets the index of a placeholder. Read-only long. |
+| [getIndex] () Gets or sets the index of a placeholder. Read-only long. |
 
 ### Result
 long
@@ -25,7 +20,7 @@ long
 ---
 
 
-| [getOrientation]() | Gets or sets the orientation of a placeholder. Read-only Orientation. |
+| [getOrientation] () Gets or sets the orientation of a placeholder. Read-only Orientation. |
 
 ### Result
 byte
@@ -34,7 +29,7 @@ byte
 ---
 
 
-| [getSize]() | Gets or sets the size of a placeholder. Read-only PlaceholderSize. |
+| [getSize] () Gets or sets the size of a placeholder. Read-only PlaceholderSize. |
 
 ### Result
 byte
@@ -43,7 +38,7 @@ byte
 ---
 
 
-| [getType]() | Gets or sets the type of a placeholder. Read-only PlaceholderType. |
+| [getType] () Gets or sets the type of a placeholder. Read-only PlaceholderType. |
 
 ### Result
 byte

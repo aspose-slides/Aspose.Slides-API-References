@@ -11,30 +11,25 @@ url: /aspose.slides/digitalsignaturecollection/
 
  Represents a collection of digital signatures attached to a document.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add]([DigitalSignature](../digitalsignature)) | Adds the signature at the end of collection. |
+| [add] ([DigitalSignature]) Adds the signature at the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| signature | [DigitalSignature](../../digitalsignature) | Signature to add. |
+| signature | [DigitalSignature] | Signature to add. |
 
 
 ---
 
 
-| [clear]() | Removes all signatures from collection. |
+| [clear] () Removes all signatures from collection. |
 
 
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -43,16 +38,16 @@ Object
 ---
 
 
-| [get_Item](int) | Returns the signature by index. |
+| [get_Item] ([int]) Returns the signature by index. |
 
 ### Result
-[DigitalSignature](../../digitalsignature)
+[DigitalSignature]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -61,7 +56,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -70,7 +65,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -79,19 +74,19 @@ boolean
 ---
 
 
-| [removeAt](int) | Removes the signature at the specified index. |
+| [removeAt] ([int]) Removes the signature at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of the signature that should be deleted. |
+| index | [int] | Index of the signature that should be deleted. |
 
 
 ---
 
 
-| [size]() | Returns the number of elements in the collection. Read-only int. |
+| [size] () Returns the number of elements in the collection. Read-only int. |
 
 ### Result
 int

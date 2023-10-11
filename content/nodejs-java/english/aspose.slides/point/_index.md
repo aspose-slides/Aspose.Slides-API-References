@@ -20,15 +20,15 @@ Point
 ---
 
 
-| [Point](float, Object, String) | Create animation point with time, value and formula. |
+| [Point]([float], [Object], [String]) | Create animation point with time, value and formula. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| time | float | Time value. |
-| value | Object | Point value. |
-| formula | String | Formula. |
+| time | [float] | Time value. |
+| value | [Object] | Point value. |
+| formula | [String] | Formula. |
 
 ### Result
 Point
@@ -37,12 +37,7 @@ Point
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getFormula]() | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
+| [getFormula] () Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
 
 ### Result
 String
@@ -51,7 +46,7 @@ String
 ---
 
 
-| [getTime]() | Represents time value. Read/write float. |
+| [getTime] () Represents time value. Read/write float. |
 
 ### Result
 float
@@ -60,7 +55,7 @@ float
 ---
 
 
-| [getValue]() | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| [getValue] () Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
 ### Result
 Object
@@ -69,19 +64,19 @@ Object
 ---
 
 
-| [setFormula](String) | Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
+| [setFormula] ([String]) Formulas within values, from, to, by attributes can be made up of these: Standard arithmetic operators: ‘+’, ‘-‘, ‘*’, ‘/’, ‘^’, ‘%’ (mod) Constants: ‘pi’ ‘e’ Conditional operators: ‘abs’, ‘min’, ‘max’, ‘?’ (if) Comparison operators: '==', '&gt;=', '', '!=', '!' Trigonometric operators: ‘sin()’, ‘cos()’, ‘tan()’, ‘asin()’, ‘acos()’, ‘atan()’ Natural logarithm ‘ln()’ Property references (host supported properties) for example: "#ppt_x+(cos(-2*pi*(1-$))*-#ppt_x-sin(-2*pi*(1-$))*(1-#ppt_y))*(1-$)" Read/write String. |
 
 
 ---
 
 
-| [setTime](float) | Represents time value. Read/write float. |
+| [setTime] ([float]) Represents time value. Read/write float. |
 
 
 ---
 
 
-| [setValue](Object) | Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
+| [setValue] ([Object]) Represents point value. Only: bool, ColorFormat, float, int, string. Read/write Object. |
 
 
 ---

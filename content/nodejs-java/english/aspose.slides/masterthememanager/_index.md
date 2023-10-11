@@ -11,42 +11,37 @@ url: /aspose.slides/masterthememanager/
 
  Provides access to presentation master theme.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [applyColorScheme]([ExtraColorScheme](../extracolorscheme)) | Applies extra color scheme to a slide. |
+| [applyColorScheme] ([ExtraColorScheme]) Applies extra color scheme to a slide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| scheme | [ExtraColorScheme](../../extracolorscheme) | IExtraColorScheme object. |
+| scheme | [ExtraColorScheme] | IExtraColorScheme object. |
 
 
 ---
 
 
-| [createThemeEffective]() | Returns the theme object. |
+| [createThemeEffective] () Returns the theme object. |
 
 ### Result
-ThemeEffectiveData
+[ThemeEffectiveData]
 
 
 ---
 
 
-| [getOverrideTheme]() | Returns the overriding theme object. Read/write IMasterTheme. |
+| [getOverrideTheme] () Returns the overriding theme object. Read/write IMasterTheme. |
 
 ### Result
-[MasterTheme](../../mastertheme)
+[MasterTheme]
 
 
 ---
 
 
-| [isOverrideThemeEnabled]() | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
+| [isOverrideThemeEnabled] () Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
 
 ### Result
 boolean
@@ -55,13 +50,13 @@ boolean
 ---
 
 
-| [setOverrideTheme]([MasterTheme](../mastertheme)) | Returns the overriding theme object. Read/write IMasterTheme. |
+| [setOverrideTheme] ([MasterTheme]) Returns the overriding theme object. Read/write IMasterTheme. |
 
 
 ---
 
 
-| [setOverrideThemeEnabled](boolean) | Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
+| [setOverrideThemeEnabled] ([boolean]) Determines whether OverrideTheme overrides inherited effective theme (Presentation.MasterTheme) or not. Read/write boolean. |
 
 
 ---

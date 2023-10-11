@@ -11,63 +11,49 @@ url: /aspose.slides/autoshape/
 
   Represents an AutoShape.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [addTextFrame](String) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
+| [addTextFrame] ([String]) Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | Default text for a new TextFrame. |
+| text | [String] | Default text for a new TextFrame. |
 
 ### Result
-[TextFrame](../../textframe)
+[TextFrame]
 
 
 ---
 
 
-| [getAutoShapeLock]() | Returns autoshape's locks. Read-only IAutoShapeLock. |
+| [getAutoShapeLock] () Returns autoshape's locks. Read-only IAutoShapeLock. |
 
 ### Result
-[AutoShapeLock](../../autoshapelock)
+[AutoShapeLock]
 
 
 ---
 
 
-| [getShapeLock]() | Returns shape's locks. Read-only IAutoShapeLock. |
+| [getShapeLock] () Returns shape's locks. Read-only IAutoShapeLock. |
 
 ### Result
-[AutoShapeLock](../../autoshapelock)
+[AutoShapeLock]
 
 
 ---
 
 
-| [getTextFrame]() | Returns TextFrame object for the AutoShape. Read-only ITextFrame. |
+| [getTextFrame] () Returns TextFrame object for the AutoShape. Read-only ITextFrame. |
 
 ### Result
-[TextFrame](../../textframe)
+[TextFrame]
 
 
 ---
 
 
-| [getUseBackgroundFill]() | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
-
-### Result
-boolean
-
-
----
-
-
-| [isTextBox]() | Specifies if the shape is a text box. If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties. |
+| [getUseBackgroundFill] () Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
 
 ### Result
 boolean
@@ -76,7 +62,16 @@ boolean
 ---
 
 
-| [setUseBackgroundFill](boolean) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
+| [isTextBox] () Specifies if the shape is a text box. If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties. |
+
+### Result
+boolean
+
+
+---
+
+
+| [setUseBackgroundFill] ([boolean]) Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
 
 
 ---

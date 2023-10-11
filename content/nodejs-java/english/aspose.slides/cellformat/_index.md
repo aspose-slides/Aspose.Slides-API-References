@@ -11,84 +11,79 @@ url: /aspose.slides/cellformat/
 
  Represents format of a table cell.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getBorderBottom]() | Returns a bottom border line properties object. Read-only ILineFormat. |
+| [getBorderBottom] () Returns a bottom border line properties object. Read-only ILineFormat. |
 
 ### Result
-[LineFormat](../../lineformat)
+[LineFormat]
 
 
 ---
 
 
-| [getBorderDiagonalDown]() | Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
+| [getBorderDiagonalDown] () Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
 
 ### Result
-[LineFormat](../../lineformat)
+[LineFormat]
 
 
 ---
 
 
-| [getBorderDiagonalUp]() | Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
+| [getBorderDiagonalUp] () Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
 
 ### Result
-[LineFormat](../../lineformat)
+[LineFormat]
 
 
 ---
 
 
-| [getBorderLeft]() | Returns a left border line properties object. Read-only ILineFormat. |
+| [getBorderLeft] () Returns a left border line properties object. Read-only ILineFormat. |
 
 ### Result
-[LineFormat](../../lineformat)
+[LineFormat]
 
 
 ---
 
 
-| [getBorderRight]() | Returns a right border line properties object. Read-only ILineFormat. |
+| [getBorderRight] () Returns a right border line properties object. Read-only ILineFormat. |
 
 ### Result
-[LineFormat](../../lineformat)
+[LineFormat]
 
 
 ---
 
 
-| [getBorderTop]() | Returns a top border line properties object. Read-only ILineFormat. |
+| [getBorderTop] () Returns a top border line properties object. Read-only ILineFormat. |
 
 ### Result
-[LineFormat](../../lineformat)
+[LineFormat]
 
 
 ---
 
 
-| [getEffective]() | Gets effective table cell formatting properties with inheritance and table styles applied. |
+| [getEffective] () Gets effective table cell formatting properties with inheritance and table styles applied. |
 
 ### Result
-CellFormatEffectiveData
+[CellFormatEffectiveData]
 
 
 ---
 
 
-| [getFillFormat]() | Returns a cell fill properties object. Read-only IFillFormat. |
+| [getFillFormat] () Returns a cell fill properties object. Read-only IFillFormat. |
 
 ### Result
-[FillFormat](../../fillformat)
+[FillFormat]
 
 
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long

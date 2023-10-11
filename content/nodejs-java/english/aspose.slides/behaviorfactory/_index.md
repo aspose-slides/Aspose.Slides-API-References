@@ -22,48 +22,43 @@ BehaviorFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createColorEffect]() | Creates color effect. |
+| [createColorEffect] () Creates color effect. |
 
 ### Result
-[ColorEffect](../../coloreffect)
+[ColorEffect]
 
 
 ---
 
 
-| [createCommandEffect]() | Creates command effect. |
+| [createCommandEffect] () Creates command effect. |
 
 ### Result
-[CommandEffect](../../commandeffect)
+[CommandEffect]
 
 
 ---
 
 
-| [createFilterEffect]() | Creates filter effect. |
+| [createFilterEffect] () Creates filter effect. |
 
 ### Result
-[FilterEffect](../../filtereffect)
+[FilterEffect]
 
 
 ---
 
 
-| [createMotionEffect]() | Creates motion effect. |
+| [createMotionEffect] () Creates motion effect. |
 
 ### Result
-[MotionEffect](../../motioneffect)
+[MotionEffect]
 
 
 ---
 
 
-| [createPropertyEffect]() | Creates property effect. |
+| [createPropertyEffect] () Creates property effect. |
 
 ### Result
 IPropertyEffect
@@ -72,28 +67,28 @@ IPropertyEffect
 ---
 
 
-| [createRotationEffect]() | Creates rotation effect. |
+| [createRotationEffect] () Creates rotation effect. |
 
 ### Result
-[RotationEffect](../../rotationeffect)
+[RotationEffect]
 
 
 ---
 
 
-| [createScaleEffect]() | Creates scale effect. |
+| [createScaleEffect] () Creates scale effect. |
 
 ### Result
-[ScaleEffect](../../scaleeffect)
+[ScaleEffect]
 
 
 ---
 
 
-| [createSetEffect]() | Creates set effect. |
+| [createSetEffect] () Creates set effect. |
 
 ### Result
-[SetEffect](../../seteffect)
+[SetEffect]
 
 
 ---

@@ -22,212 +22,207 @@ ImageTransformOperationFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createAlphCeiling]() | Creates Alpha Ceiling effect. |
+| [createAlphCeiling] () Creates Alpha Ceiling effect. |
 
 ### Result
-[AlphaCeiling](../../alphaceiling)
+[AlphaCeiling]
 
 
 ---
 
 
-| [createAlphaBiLevel](float) | Creates Alpha BiLevel effect. |
+| [createAlphaBiLevel] ([float]) Creates Alpha BiLevel effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| threshold | float | Threshold. |
+| threshold | [float] | Threshold. |
 
 ### Result
-[AlphaBiLevel](../../alphabilevel)
+[AlphaBiLevel]
 
 
 ---
 
 
-| [createAlphaFloor]() | Creates Alpha floor effect. |
+| [createAlphaFloor] () Creates Alpha floor effect. |
 
 ### Result
-[AlphaFloor](../../alphafloor)
+[AlphaFloor]
 
 
 ---
 
 
-| [createAlphaInverse]() | Creates Alpha inverse effect. |
+| [createAlphaInverse] () Creates Alpha inverse effect. |
 
 ### Result
-[AlphaInverse](../../alphainverse)
+[AlphaInverse]
 
 
 ---
 
 
-| [createAlphaModulate]() | Creates Alpha modulate effect. |
+| [createAlphaModulate] () Creates Alpha modulate effect. |
 
 ### Result
-[AlphaModulate](../../alphamodulate)
+[AlphaModulate]
 
 
 ---
 
 
-| [createAlphaModulateFixed](float) | Creates Alpha modulate fixed effect. |
+| [createAlphaModulateFixed] ([float]) Creates Alpha modulate fixed effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| amount | float | Amount. |
+| amount | [float] | Amount. |
 
 ### Result
-[AlphaModulateFixed](../../alphamodulatefixed)
+[AlphaModulateFixed]
 
 
 ---
 
 
-| [createAlphaReplace](float) | Creates Alpha replace effect. |
+| [createAlphaReplace] ([float]) Creates Alpha replace effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| alpha | float | Alpha |
+| alpha | [float] | Alpha |
 
 ### Result
-[AlphaReplace](../../alphareplace)
+[AlphaReplace]
 
 
 ---
 
 
-| [createBiLevel](float) | Creates BiLevel effect. |
+| [createBiLevel] ([float]) Creates BiLevel effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| threshold | float | Threshold. |
+| threshold | [float] | Threshold. |
 
 ### Result
-[BiLevel](../../bilevel)
+[BiLevel]
 
 
 ---
 
 
-| [createBlur](double, boolean) | Creates Blur effect. |
+| [createBlur] ([double], [boolean]) Creates Blur effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| radius | double | Radius. |
-| grow | boolean | Grow. |
+| radius | [double] | Radius. |
+| grow | [boolean] | Grow. |
 
 ### Result
-[Blur](../../blur)
+[Blur]
 
 
 ---
 
 
-| [createColorChange]() | Creates Color change effect. |
+| [createColorChange] () Creates Color change effect. |
 
 ### Result
-[ColorChange](../../colorchange)
+[ColorChange]
 
 
 ---
 
 
-| [createColorReplace]() | Creates Color replace effect. |
+| [createColorReplace] () Creates Color replace effect. |
 
 ### Result
-[ColorReplace](../../colorreplace)
+[ColorReplace]
 
 
 ---
 
 
-| [createDuotone]() | Creates Duotone effect. |
+| [createDuotone] () Creates Duotone effect. |
 
 ### Result
-[Duotone](../../duotone)
+[Duotone]
 
 
 ---
 
 
-| [createFillOverlay]() | Creates Fill overlay effect. |
+| [createFillOverlay] () Creates Fill overlay effect. |
 
 ### Result
-[FillOverlay](../../filloverlay)
+[FillOverlay]
 
 
 ---
 
 
-| [createGrayScale]() | Creates Gray scale effect. |
+| [createGrayScale] () Creates Gray scale effect. |
 
 ### Result
-[GrayScale](../../grayscale)
+[GrayScale]
 
 
 ---
 
 
-| [createHSL](float, float, float) | Creates Hue Saturation Luminance effect. |
+| [createHSL] ([float], [float], [float]) Creates Hue Saturation Luminance effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| hue | float | Hue. |
-| saturation | float | Saturation. |
-| luminance | float | Luminance. |
+| hue | [float] | Hue. |
+| saturation | [float] | Saturation. |
+| luminance | [float] | Luminance. |
 
 ### Result
-[HSL](../../hsl)
+[HSL]
 
 
 ---
 
 
-| [createLuminance](float, float) | Createtes Luminance effect. |
+| [createLuminance] ([float], [float]) Createtes Luminance effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| brightness | float | Brightness. |
-| contrast | float | Contrast. |
+| brightness | [float] | Brightness. |
+| contrast | [float] | Contrast. |
 
 ### Result
-[Luminance](../../luminance)
+[Luminance]
 
 
 ---
 
 
-| [createTint](float, float) | Creates Tint effect. |
+| [createTint] ([float], [float]) Creates Tint effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| hue | float | Hue. |
-| amount | float | Amount. |
+| hue | [float] | Hue. |
+| amount | [float] | Amount. |
 
 ### Result
-[Tint](../../tint)
+[Tint]
 
 
 ---

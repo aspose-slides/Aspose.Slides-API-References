@@ -20,21 +20,16 @@ VbaReferenceFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createOleTypeLibReference](String, String) | Creates new OLE Automation type library reference. |
+| [createOleTypeLibReference] ([String], [String]) Creates new OLE Automation type library reference. |
 
 ### Result
-[VbaReferenceOleTypeLib](../../vbareferenceoletypelib)
+[VbaReferenceOleTypeLib]
 
 
 ---
 
 
-| [getInstance]() | VBA project references factory static instance. Read-only VbaReferenceFactory. |
+| [getInstance] () VBA project references factory static instance. Read-only VbaReferenceFactory. |
 
 ### Result
 VbaReferenceFactory

@@ -22,306 +22,301 @@ MathArrayFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createMathArray]([MathLimit](../mathlimit)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathLimit]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | math element to place in array |
+| element | [MathLimit] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathBorderBox](../mathborderbox)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBorderBox]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | math element to place in array |
+| element | [MathBorderBox] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathFraction](../mathfraction)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathFraction]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | math element to place in array |
+| element | [MathFraction] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathDelimiter](../mathdelimiter)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathDelimiter]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter](../../mathdelimiter) | math element to place in array |
+| element | [MathDelimiter] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathSuperscriptElement]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../../mathsuperscriptelement) | math element to place in array |
+| element | [MathSuperscriptElement] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathLeftSubSuperscriptElement]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | math element to place in array |
+| element | [MathLeftSubSuperscriptElement] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathRightSubSuperscriptElement]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | math element to place in array |
+| element | [MathRightSubSuperscriptElement] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathBox](../mathbox)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBox]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../../mathbox) | math element to place in array |
+| element | [MathBox] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathMatrix](../mathmatrix)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathMatrix]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | math element to place in array |
+| element | [MathMatrix] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathGroupingCharacter]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | math element to place in array |
+| element | [MathGroupingCharacter] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathArray](../matharray)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathArray]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../../matharray) | math element to place in array |
+| element | [MathArray] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathBlock](../mathblock)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBlock]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock](../../mathblock) | math element to place in array |
+| element | [MathBlock] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathSubscriptElement](../mathsubscriptelement)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathSubscriptElement]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | math element to place in array |
+| element | [MathSubscriptElement] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathFunction](../mathfunction)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathFunction]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | math element to place in array |
+| element | [MathFunction] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathNaryOperator](../mathnaryoperator)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathNaryOperator]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | math element to place in array |
+| element | [MathNaryOperator] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathematicalText](../mathematicaltext)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathematicalText]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | math element to place in array |
+| element | [MathematicalText] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathAccent](../mathaccent)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathAccent]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | math element to place in array |
+| element | [MathAccent] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathRadical](../mathradical)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathRadical]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical](../../mathradical) | math element to place in array |
+| element | [MathRadical] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathBar](../mathbar)) | Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBar]) Creates a math array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar](../../mathbar) | math element to place in array |
+| element | [MathBar] | math element to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---
 
 
-| [createMathArray]([MathBlock](../mathblock)) | Creates a math array and places specified elements in it |
+| [createMathArray] ([MathBlock]) Creates a math array and places specified elements in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| elements | [MathBlock](../../mathblock) | math elements to place in array |
+| elements | [MathBlock] | math elements to place in array |
 
 ### Result
-[MathArray](../../matharray)
+[MathArray]
 
 
 ---

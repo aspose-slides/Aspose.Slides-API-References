@@ -11,14 +11,14 @@ url: /aspose.slides/digitalsignature/
 
  Digital signature in signed file.
  
-| [DigitalSignature](byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
+| [DigitalSignature]([byte[]], [String]) | Creates a new DigitalSignature object with the specified certificate. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| certData | byte[] | a byte array containing the certificate |
-| password | String | Password required to access certificate. |
+| certData | [byte[]] | a byte array containing the certificate |
+| password | [String] | Password required to access certificate. |
 
 ### Result
 DigitalSignature
@@ -27,14 +27,14 @@ DigitalSignature
 ---
 
 
-| [DigitalSignature](String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
+| [DigitalSignature]([String], [String]) | Creates a new DigitalSignature object with the specified certificate file path and password. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| filePath | String | Path to the file with certificate. |
-| password | String | Password required to access certificate. |
+| filePath | [String] | Path to the file with certificate. |
+| password | [String] | Password required to access certificate. |
 
 ### Result
 DigitalSignature
@@ -43,12 +43,7 @@ DigitalSignature
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getCertificate]() | Certificate object that was used to sign the document. Read-only byte[]. |
+| [getCertificate] () Certificate object that was used to sign the document. Read-only byte[]. |
 
 ### Result
 byte
@@ -57,7 +52,7 @@ byte
 ---
 
 
-| [getComments]() | The purpose of signature. Read/write String. |
+| [getComments] () The purpose of signature. Read/write String. |
 
 ### Result
 String
@@ -66,7 +61,7 @@ String
 ---
 
 
-| [getSignTime]() | The time when the document was signed. Read-only java.util.Date. |
+| [getSignTime] () The time when the document was signed. Read-only java.util.Date. |
 
 ### Result
 Date
@@ -75,7 +70,7 @@ Date
 ---
 
 
-| [isValid]() | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
+| [isValid] () If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
 
 ### Result
 boolean
@@ -84,7 +79,7 @@ boolean
 ---
 
 
-| [setComments](String) | The purpose of signature. Read/write String. |
+| [setComments] ([String]) The purpose of signature. Read/write String. |
 
 
 ---

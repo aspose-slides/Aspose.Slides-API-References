@@ -13,13 +13,13 @@ url: /aspose.slides/mathdelimiter/
  braces, brackets, and vertical bars), and one or more mathematical elements inside, separated by a specified character.
  Examples: (?2); [?2|?2]
  
-| [MathDelimiter]([MathLimit](../mathlimit)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathLimit]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathLimit] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -34,13 +34,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathBorderBox](../mathborderbox)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathBorderBox]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathBorderBox] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -55,13 +55,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathFraction](../mathfraction)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathFraction]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathFraction] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -76,13 +76,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathDelimiter](../mathdelimiter)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathDelimiter]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter](../../mathdelimiter) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathDelimiter] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -97,13 +97,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathSuperscriptElement](../mathsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathSuperscriptElement]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../../mathsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSuperscriptElement] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -118,13 +118,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathLeftSubSuperscriptElement]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathLeftSubSuperscriptElement] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -139,13 +139,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathRightSubSuperscriptElement]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathRightSubSuperscriptElement] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -160,13 +160,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathBox](../mathbox)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathBox]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../../mathbox) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathBox] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -181,13 +181,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathMatrix](../mathmatrix)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathMatrix]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathMatrix] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -202,13 +202,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathGroupingCharacter](../mathgroupingcharacter)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathGroupingCharacter]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathGroupingCharacter] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -223,13 +223,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathArray](../matharray)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathArray]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../../matharray) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathArray] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -244,13 +244,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathBlock](../mathblock)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathBlock]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock](../../mathblock) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathBlock] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -265,13 +265,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathSubscriptElement](../mathsubscriptelement)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathSubscriptElement]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathSubscriptElement] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -286,13 +286,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathFunction](../mathfunction)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathFunction]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathFunction] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -307,13 +307,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathNaryOperator](../mathnaryoperator)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathNaryOperator]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathNaryOperator] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -328,13 +328,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathematicalText](../mathematicaltext)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathematicalText]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathematicalText] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -349,13 +349,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathAccent](../mathaccent)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathAccent]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathAccent] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -370,13 +370,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathRadical](../mathradical)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathRadical]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical](../../mathradical) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathRadical] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -391,13 +391,13 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathBar](../mathbar)) | Initializes MathDelimiter with the specified element as single base argument |
+| [MathDelimiter]([MathBar]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar](../../mathbar) | The base element to which the delimiter is applied. Can be null. |
+| element | [MathBar] | The base element to which the delimiter is applied. Can be null. |
 
 ### Result
 MathDelimiter
@@ -412,52 +412,47 @@ MathDelimiter
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [delimit](char) | Delimits arguments using the specified delimiter character |
+| [delimit] ([char]) Delimits arguments using the specified delimiter character |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| separatorCharacter | char | delimiter character |
+| separatorCharacter | [char] | delimiter character |
 
 ### Result
-[MathDelimiter](../../mathdelimiter)
+[MathDelimiter]
 
 
 ---
 
 
-| [enclose](char, char) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| [enclose] ([char], [char]) Encloses a math element in specified characters such as parenthesis or another characters as framing |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| beginningCharacter | char | Beginning character (usually left bracket) |
-| endingCharacter | char | Ending character (usually right bracket) |
+| beginningCharacter | [char] | Beginning character (usually left bracket) |
+| endingCharacter | [char] | Ending character (usually right bracket) |
 
 ### Result
-[MathDelimiter](../../mathdelimiter)
+[MathDelimiter]
 
 
 ---
 
 
-| [getArguments]() | One or more mathematical elements separated by delimiter characters |
+| [getArguments] () One or more mathematical elements separated by delimiter characters |
 
 ### Result
-[MathBlock](../../mathblock)
+[MathBlock]
 
 
 ---
 
 
-| [getBeginningCharacter]() | Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
+| [getBeginningCharacter] () Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
 
 ### Result
 char
@@ -466,16 +461,16 @@ char
 ---
 
 
-| [getChildren]() | Get children elements |
+| [getChildren] () Get children elements |
 
 ### Result
-[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getDelimiterShape]() | Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
+| [getDelimiterShape] () Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
 
 ### Result
 int
@@ -484,7 +479,7 @@ int
 ---
 
 
-| [getEndingCharacter]() | Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
+| [getEndingCharacter] () Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
 
 ### Result
 char
@@ -493,7 +488,7 @@ char
 ---
 
 
-| [getGrowToMatchOperandHeight]() | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
+| [getGrowToMatchOperandHeight] () Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
 
 ### Result
 boolean
@@ -502,7 +497,7 @@ boolean
 ---
 
 
-| [getSeparatorCharacter]() | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
+| [getSeparatorCharacter] () Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
 
 ### Result
 char
@@ -511,31 +506,31 @@ char
 ---
 
 
-| [setBeginningCharacter](char) | Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
+| [setBeginningCharacter] ([char]) Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
 
 
 ---
 
 
-| [setDelimiterShape](int) | Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
+| [setDelimiterShape] ([int]) Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
 
 
 ---
 
 
-| [setEndingCharacter](char) | Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
+| [setEndingCharacter] ([char]) Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
 
 
 ---
 
 
-| [setGrowToMatchOperandHeight](boolean) | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
+| [setGrowToMatchOperandHeight] ([boolean]) Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
 
 
 ---
 
 
-| [setSeparatorCharacter](char) | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
+| [setSeparatorCharacter] ([char]) Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
 
 
 ---

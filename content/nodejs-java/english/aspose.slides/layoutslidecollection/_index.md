@@ -11,27 +11,22 @@ url: /aspose.slides/layoutslidecollection/
 
  Represents a base class for collection of a layout slides.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getByType](byte) | Returns the first layout slide of specified type. |
+| [getByType] ([byte]) Returns the first layout slide of specified type. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| type | byte | A type of layout slide to find. |
+| type | [byte] | A type of layout slide to find. |
 
 ### Result
-[LayoutSlide](../../layoutslide)
+[LayoutSlide]
 
 
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -40,16 +35,16 @@ Object
 ---
 
 
-| [get_Item](int) | Returns the layout slide by index. Read-only LayoutSlide. |
+| [get_Item] ([int]) Returns the layout slide by index. Read-only LayoutSlide. |
 
 ### Result
-[LayoutSlide](../../layoutslide)
+[LayoutSlide]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -58,7 +53,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -67,7 +62,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -76,13 +71,13 @@ boolean
 ---
 
 
-| [remove]([LayoutSlide](../layoutslide)) | Removes a layout from the collection. |
+| [remove] ([LayoutSlide]) Removes a layout from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [LayoutSlide](../../layoutslide) | The layout slide to remove from the collection. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove function to simplify code. |
+| value | [LayoutSlide] | The layout slide to remove from the collection. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove function to simplify code. |
 
 ### Error
 
@@ -94,13 +89,13 @@ boolean
 ---
 
 
-| [removeUnused]() | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [removeUnused] () Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
 
 ---
 
 
-| [size]() | Returns the number of layout slides in a collection. Read-only int. |
+| [size] () Returns the number of layout slides in a collection. Read-only int. |
 
 ### Result
 int

@@ -11,12 +11,7 @@ url: /aspose.slides/fontsmanager/
 
  Manages fonts across the presentation.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [addEmbeddedFont]([FontData](../fontdata), int) | Adds the embedded font |
+| [addEmbeddedFont] ([FontData], [int]) Adds the embedded font |
 
 ### Error
 
@@ -28,7 +23,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [addEmbeddedFont](byte[], int) | Adds the embedded font |
+| [addEmbeddedFont] ([byte[]], [int]) Adds the embedded font |
 
 ### Error
 
@@ -40,101 +35,101 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [getEmbeddedFonts]() | Returns the fonts embedded in the presentation |
+| [getEmbeddedFonts] () Returns the fonts embedded in the presentation |
 
 ### Result
-[FontData](../../fontdata)
+[FontData]
 
 
 ---
 
 
-| [getFontFallBackRulesCollection]() | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| [getFontFallBackRulesCollection] () Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
 
 ### Result
-[FontFallBackRulesCollection](../../fontfallbackrulescollection)
+[FontFallBackRulesCollection]
 
 
 ---
 
 
-| [getFontSubstRuleList]() | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| [getFontSubstRuleList] () Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
 
 ### Result
-[FontSubstRuleCollection](../../fontsubstrulecollection)
+[FontSubstRuleCollection]
 
 
 ---
 
 
-| [getFonts]() | Returns the fonts used in the presentation |
+| [getFonts] () Returns the fonts used in the presentation |
 
 ### Result
-[FontData](../../fontdata)
+[FontData]
 
 
 ---
 
 
-| [getSubstitutions]() | Gets the information about fonts that will be replaced on the presentation's rendering. |
+| [getSubstitutions] () Gets the information about fonts that will be replaced on the presentation's rendering. |
 
 ### Result
-[LineFormatCollection](../../lineformatcollection), [MathParagraph](../../mathparagraph), [ExtraColorSchemeCollection](../../extracolorschemecollection), [SmartArtShapeCollection](../../smartartshapecollection), [RowCollection](../../rowcollection), [PortionCollection](../../portioncollection), [VbaModuleCollection](../../vbamodulecollection), [VbaReferenceCollection](../../vbareferencecollection), [FontSubstRuleCollection](../../fontsubstrulecollection), [SectionSlideCollection](../../sectionslidecollection), SortedList, [SectionCollection](../../sectioncollection), [DataLabelCollection](../../datalabelcollection), [MotionPath](../../motionpath), ReadOnlyCollection, [ColumnCollection](../../columncollection), [CellCollection](../../cellcollection), [TabCollection](../../tabcollection), KeyedCollection, [ShapeCollection](../../shapecollection), [CommentAuthorCollection](../../commentauthorcollection), [ChartCategoryCollection](../../chartcategorycollection), [CustomXmlPartCollection](../../customxmlpartcollection), Dictionary, [SlideCollection](../../slidecollection), SortedDictionary, [Sequence](../../sequence), Stack, LinkedList, [Column](../../column), [ColorOperationCollection](../../coloroperationcollection), [ChartDataPointCollection](../../chartdatapointcollection), Collection, [MasterSlideCollection](../../masterslidecollection), [MasterLayoutSlideCollection](../../masterlayoutslidecollection), [SummaryZoomSectionCollection](../../summaryzoomsectioncollection), [BehaviorCollection](../../behaviorcollection), [ImageCollection](../../imagecollection), [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata), [SmartArtNodeCollection](../../smartartnodecollection), [SequenceCollection](../../sequencecollection), [BehaviorPropertyCollection](../../behaviorpropertycollection), [VideoCollection](../../videocollection), [TextAnimationCollection](../../textanimationcollection), [ChartCellCollection](../../chartcellcollection), [EffectStyleCollection](../../effectstylecollection), [ControlCollection](../../controlcollection), [FontFallBackRulesCollection](../../fontfallbackrulescollection), [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata), [TrendlineCollection](../../trendlinecollection), [DigitalSignatureCollection](../../digitalsignaturecollection), [AudioCollection](../../audiocollection), [ChartSeriesCollection](../../chartseriescollection), [ControlPropertiesCollection](../../controlpropertiescollection), [MathBlock](../../mathblock), [ParagraphCollection](../../paragraphcollection), [Row](../../row), [CommentCollection](../../commentcollection), [ImageTransformOperationCollection](../../imagetransformoperationcollection), [TagCollection](../../tagcollection), [GradientStopCollection](../../gradientstopcollection), List, [GlobalLayoutSlideCollection](../../globallayoutslidecollection), [PieSplitCustomPointCollection](../../piesplitcustompointcollection), [ChartDataWorksheetCollection](../../chartdataworksheetcollection), [LayoutSlideCollection](../../layoutslidecollection), Queue, [FillFormatCollection](../../fillformatcollection), [PointCollection](../../pointcollection)
+[LineFormatCollection], [MathParagraph], [ExtraColorSchemeCollection], [SmartArtShapeCollection], [RowCollection], [PortionCollection], [VbaModuleCollection], [VbaReferenceCollection], [FontSubstRuleCollection], [SectionSlideCollection], [CellCollection], [SortedList], [SectionCollection], [DataLabelCollection], [MotionPath], [ReadOnlyCollection], [ColumnCollection], [TabCollection], [KeyedCollection], [ShapeCollection], [CommentAuthorCollection], [ChartCategoryCollection], [CustomXmlPartCollection], [Dictionary], [SlideCollection], [SortedDictionary], [Sequence], [Stack], [LinkedList], [Column], [ColorOperationCollection], [ChartDataPointCollection], [Collection], [MasterSlideCollection], [MasterLayoutSlideCollection], [SummaryZoomSectionCollection], [BehaviorCollection], [ImageCollection], [GradientStopCollectionEffectiveData], [SmartArtNodeCollection], [SequenceCollection], [BehaviorPropertyCollection], [VideoCollection], [TextAnimationCollection], [ChartCellCollection], [EffectStyleCollection], [ControlCollection], [PieSplitCustomPointCollection], [FontFallBackRulesCollection], [ImageTransformOCollectionEffectiveData], [TrendlineCollection], [DigitalSignatureCollection], [AudioCollection], [ChartSeriesCollection], [ControlPropertiesCollection], [MathBlock], [ParagraphCollection], [Row], [CommentCollection], [ImageTransformOperationCollection], [TagCollection], [GradientStopCollection], [List], [GlobalLayoutSlideCollection], [ChartDataWorksheetCollection], [LayoutSlideCollection], [Queue], [FillFormatCollection], [PointCollection]
 
 
 ---
 
 
-| [removeEmbeddedFont]([FontData](../fontdata)) | Removes the embedded font |
+| [removeEmbeddedFont] ([FontData]) Removes the embedded font |
 
 
 ---
 
 
-| [replaceFont]([FontData](../fontdata), [FontData](../fontdata)) | Replace font in presentation |
+| [replaceFont] ([FontData], [FontData]) Replace font in presentation |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceFont | [FontData](../fontdata) | Source font |
-| destFont | [FontData](../../fontdata) | Destination font |
+| sourceFont | [FontData] | Source font |
+| destFont | [FontData] | Destination font |
 
 
 ---
 
 
-| [replaceFont]([FontSubstRule](../fontsubstrule)) | Replace font in presentation using information provided in FontSubstRule |
+| [replaceFont] ([FontSubstRule]) Replace font in presentation using information provided in FontSubstRule |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| substRule | [FontSubstRule](../../fontsubstrule) | Font substitution info |
+| substRule | [FontSubstRule] | Font substitution info |
 
 
 ---
 
 
-| [replaceFont]([FontSubstRuleCollection](../fontsubstrulecollection)) | Replace font in presentation using information provided in collection of FontSubstRule |
+| [replaceFont] ([FontSubstRuleCollection]) Replace font in presentation using information provided in collection of FontSubstRule |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| substRules | [FontSubstRuleCollection](../../fontsubstrulecollection) | Font substitution rules collection |
+| substRules | [FontSubstRuleCollection] | Font substitution rules collection |
 
 
 ---
 
 
-| [setFontFallBackRulesCollection]([FontFallBackRulesCollection](../fontfallbackrulescollection)) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| [setFontFallBackRulesCollection] ([FontFallBackRulesCollection]) Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
 
 
 ---
 
 
-| [setFontSubstRuleList]([FontSubstRuleCollection](../fontsubstrulecollection)) | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| [setFontSubstRuleList] ([FontSubstRuleCollection]) Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
 
 
 ---

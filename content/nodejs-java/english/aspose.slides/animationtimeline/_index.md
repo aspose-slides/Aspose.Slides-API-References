@@ -11,33 +11,28 @@ url: /aspose.slides/animationtimeline/
 
  Represents timeline of animation.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getInteractiveSequences]() | Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only ISequenceCollection. |
+| [getInteractiveSequences] () Returns collection of interactive sequences. This sequences may contain only effects by "click on shape" with specifies target shape. Read-only ISequenceCollection. |
 
 ### Result
-[SequenceCollection](../../sequencecollection)
+[SequenceCollection]
 
 
 ---
 
 
-| [getMainSequence]() | Returns main sequence which may contain only main effects collection. Read-only ISequence. |
+| [getMainSequence] () Returns main sequence which may contain only main effects collection. Read-only ISequence. |
 
 ### Result
-[Sequence](../../sequence)
+[Sequence]
 
 
 ---
 
 
-| [getTextAnimationCollection]() | Returns collection of text animations. Read-only ITextAnimationCollection. |
+| [getTextAnimationCollection] () Returns collection of text animations. Read-only ITextAnimationCollection. |
 
 ### Result
-[TextAnimationCollection](../../textanimationcollection)
+[TextAnimationCollection]
 
 
 ---

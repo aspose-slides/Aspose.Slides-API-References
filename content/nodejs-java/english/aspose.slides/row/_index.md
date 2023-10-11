@@ -11,12 +11,7 @@ url: /aspose.slides/row/
 
  Represents a row in a table.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getHeight]() | Returns the height of a row. Read-only double. |
+| [getHeight] () Returns the height of a row. Read-only double. |
 
 ### Result
 double
@@ -25,7 +20,7 @@ double
 ---
 
 
-| [getMinimalHeight]() | Returns or sets the minimal possible height of a row. Read/write double. |
+| [getMinimalHeight] () Returns or sets the minimal possible height of a row. Read/write double. |
 
 ### Result
 double
@@ -34,52 +29,52 @@ double
 ---
 
 
-| [getRowFormat]() | Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
+| [getRowFormat] () Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
 
 ### Result
-[RowFormat](../../rowformat)
+[RowFormat]
 
 
 ---
 
 
-| [setMinimalHeight](double) | Returns or sets the minimal possible height of a row. Read/write double. |
+| [setMinimalHeight] ([double]) Returns or sets the minimal possible height of a row. Read/write double. |
 
 
 ---
 
 
-| [setTextFormat]([PortionFormat](../portionformat)) | Sets defined portion format properties to all row cells' portions. |
+| [setTextFormat] ([PortionFormat]) Sets defined portion format properties to all row cells' portions. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | [PortionFormat](../../portionformat) | IPortionFormat object with necessary properties set. |
+| source | [PortionFormat] | IPortionFormat object with necessary properties set. |
 
 
 ---
 
 
-| [setTextFormat]([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all row cells' paragraphs. |
+| [setTextFormat] ([ParagraphFormat]) Sets defined paragraph format properties to all row cells' paragraphs. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | [ParagraphFormat](../../paragraphformat) | IParagraphFormat object with necessary properties set. |
+| source | [ParagraphFormat] | IParagraphFormat object with necessary properties set. |
 
 
 ---
 
 
-| [setTextFormat]([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all row cells' text frames. |
+| [setTextFormat] ([TextFrameFormat]) Sets defined text frame format properties to all row cells' text frames. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | [TextFrameFormat](../../textframeformat) | ITextFrameFormat object with necessary properties set. |
+| source | [TextFrameFormat] | ITextFrameFormat object with necessary properties set. |
 
 
 ---

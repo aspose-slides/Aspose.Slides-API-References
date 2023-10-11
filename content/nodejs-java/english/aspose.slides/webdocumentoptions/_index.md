@@ -20,12 +20,7 @@ WebDocumentOptions
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getAnimateShapes]() | Returns or sets shapes animation option. Read/write boolean. |
+| [getAnimateShapes] () Returns or sets shapes animation option. Read/write boolean. |
 
 ### Result
 boolean
@@ -34,7 +29,7 @@ boolean
 ---
 
 
-| [getAnimateTransitions]() | Returns or sets transitions animation option. Read/write boolean. |
+| [getAnimateTransitions] () Returns or sets transitions animation option. Read/write boolean. |
 
 ### Result
 boolean
@@ -43,7 +38,7 @@ boolean
 ---
 
 
-| [getEmbedImages]() | Returns or sets images embedding option. Read/write boolean. |
+| [getEmbedImages] () Returns or sets images embedding option. Read/write boolean. |
 
 ### Result
 boolean
@@ -52,49 +47,49 @@ boolean
 ---
 
 
-| [getOutputSaver]() | Returns or sets output saver. Read/write IOutputSaver. |
+| [getOutputSaver] () Returns or sets output saver. Read/write IOutputSaver. |
 
 ### Result
-OutputSaverStub
+[OutputSaverStub]
 
 
 ---
 
 
-| [getTemplateEngine]() | Returns or sets templates engine. Read/write ITemplateEngine. |
+| [getTemplateEngine] () Returns or sets templates engine. Read/write ITemplateEngine. |
 
 ### Result
-TemplateEngineStub
+[TemplateEngineStub]
 
 
 ---
 
 
-| [setAnimateShapes](boolean) | Returns or sets shapes animation option. Read/write boolean. |
+| [setAnimateShapes] ([boolean]) Returns or sets shapes animation option. Read/write boolean. |
 
 
 ---
 
 
-| [setAnimateTransitions](boolean) | Returns or sets transitions animation option. Read/write boolean. |
+| [setAnimateTransitions] ([boolean]) Returns or sets transitions animation option. Read/write boolean. |
 
 
 ---
 
 
-| [setEmbedImages](boolean) | Returns or sets images embedding option. Read/write boolean. |
+| [setEmbedImages] ([boolean]) Returns or sets images embedding option. Read/write boolean. |
 
 
 ---
 
 
-| [setOutputSaver]([IOutputSaver](../ioutputsaver)) | Returns or sets output saver. Read/write IOutputSaver. |
+| [setOutputSaver] ([IOutputSaver]) Returns or sets output saver. Read/write IOutputSaver. |
 
 
 ---
 
 
-| [setTemplateEngine]([ITemplateEngine](../itemplateengine)) | Returns or sets templates engine. Read/write ITemplateEngine. |
+| [setTemplateEngine] ([ITemplateEngine]) Returns or sets templates engine. Read/write ITemplateEngine. |
 
 
 ---

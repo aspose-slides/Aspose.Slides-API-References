@@ -20,22 +20,17 @@ TabFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createTab](double, int) | Creates a new ITab instance. |
+| [createTab] ([double], [int]) Creates a new ITab instance. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| position | double | Tab position. |
-| align | int | Align. |
+| position | [double] | Tab position. |
+| align | [int] | Align. |
 
 ### Result
-[Tab](../../tab)
+[Tab]
 
 
 ---

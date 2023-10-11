@@ -20,13 +20,13 @@ CellInvalidFormulaException
 ---
 
 
-| [CellInvalidFormulaException](String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message. |
+| [CellInvalidFormulaException]([String]) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
+| message | [String] | A string that describes the error. |
 
 ### Result
 CellInvalidFormulaException
@@ -35,14 +35,14 @@ CellInvalidFormulaException
 ---
 
 
-| [CellInvalidFormulaException](String, RuntimeException) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellInvalidFormulaException]([String], [RuntimeException]) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
-| innerException | RuntimeException | The exception that is the cause of the current exception. |
+| message | [String] | A string that describes the error. |
+| innerException | [RuntimeException] | The exception that is the cause of the current exception. |
 
 ### Result
 CellInvalidFormulaException
@@ -51,14 +51,14 @@ CellInvalidFormulaException
 ---
 
 
-| [CellInvalidFormulaException](String, String) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a cell reference that contains the invalid formula. |
+| [CellInvalidFormulaException]([String], [String]) | Initializes a new instance of the CellInvalidFormulaException class with a specified error message and a cell reference that contains the invalid formula. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
-| reference | String | A string that describes a reference to the inner exception |
+| message | [String] | A string that describes the error. |
+| reference | [String] | A string that describes a reference to the inner exception |
 
 ### Result
 CellInvalidFormulaException
@@ -67,12 +67,7 @@ CellInvalidFormulaException
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getReference]() | Gets a cell reference that contains the invalid formula. |
+| [getReference] () Gets a cell reference that contains the invalid formula. |
 
 ### Result
 String

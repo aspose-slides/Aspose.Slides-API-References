@@ -22,15 +22,10 @@ SaveOptionsFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createPptxOptions]() | Creates PPTX save options. |
+| [createPptxOptions] () Creates PPTX save options. |
 
 ### Result
-[PptxOptions](../../pptxoptions)
+[PptxOptions]
 
 
 ---

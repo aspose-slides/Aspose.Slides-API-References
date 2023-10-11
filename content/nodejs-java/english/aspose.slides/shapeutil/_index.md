@@ -20,18 +20,13 @@ ShapeUtil
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [geometryPathToGraphicsPath]([GeometryPath](../geometrypath)) | Converts IGeometryPath to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient functions and then transformed back into the IGeometryPath to use in GeometryShape via #graphicsPathToGeometryPath(java.awt.Shape graphicsPath) function. |
+| [geometryPathToGraphicsPath] ([GeometryPath]) Converts IGeometryPath to java.awt.Shape. GraphicsPath can be transformed in a different ways using its convenient functions and then transformed back into the IGeometryPath to use in GeometryShape via #graphicsPathToGeometryPath(java.awt.Shape graphicsPath) function. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| geometryPath | [GeometryPath](../../geometrypath) | IGeometryPath element. |
+| geometryPath | [GeometryPath] | IGeometryPath element. |
 
 ### Result
 Shape
@@ -40,16 +35,16 @@ Shape
 ---
 
 
-| [graphicsPathToGeometryPath]([Shape](../shape)) | Converts a java.awt.Shape graphicsPath to the IGeometryPath |
+| [graphicsPathToGeometryPath] ([Shape]) Converts a java.awt.Shape graphicsPath to the IGeometryPath |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| graphicsPath | [Shape](../../shape) | java.awt.Shape element. Return value of the function call can be used to change the geometry of a IGeometryShape object with IGeometryShape.setGeometryPaths() function. |
+| graphicsPath | [Shape] | java.awt.Shape element. Return value of the function call can be used to change the geometry of a IGeometryShape object with IGeometryShape.setGeometryPaths() function. |
 
 ### Result
-[GeometryPath](../../geometrypath)
+[GeometryPath]
 
 
 ---

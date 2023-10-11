@@ -11,12 +11,7 @@ url: /aspose.slides/morphtransition/
 
  Ripple slide transition effect.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getMorphType]() | Type of morph transition. Read/write TransitionMorphType. |
+| [getMorphType] () Type of morph transition. Read/write TransitionMorphType. |
 
 ### Result
 int
@@ -25,7 +20,7 @@ int
 ---
 
 
-| [setMorphType](int) | Type of morph transition. Read/write TransitionMorphType. |
+| [setMorphType] ([int]) Type of morph transition. Read/write TransitionMorphType. |
 
 
 ---

@@ -11,183 +11,178 @@ url: /aspose.slides/effectformat/
 
  Represents effect properties of shape.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [disableBlurEffect]() | Disables blur effect. |
+| [disableBlurEffect] () Disables blur effect. |
 
 
 ---
 
 
-| [disableFillOverlayEffect]() | Disables fill overlay effect. |
+| [disableFillOverlayEffect] () Disables fill overlay effect. |
 
 
 ---
 
 
-| [disableGlowEffect]() | Disable glow effect. |
+| [disableGlowEffect] () Disable glow effect. |
 
 
 ---
 
 
-| [disableInnerShadowEffect]() | Disables inner shadow effect. |
+| [disableInnerShadowEffect] () Disables inner shadow effect. |
 
 
 ---
 
 
-| [disableOuterShadowEffect]() | Disables outer shadow effect. |
+| [disableOuterShadowEffect] () Disables outer shadow effect. |
 
 
 ---
 
 
-| [disablePresetShadowEffect]() | Disables preset shadow effect. |
+| [disablePresetShadowEffect] () Disables preset shadow effect. |
 
 
 ---
 
 
-| [disableReflectionEffect]() | Disables reflection effect. |
+| [disableReflectionEffect] () Disables reflection effect. |
 
 
 ---
 
 
-| [disableSoftEdgeEffect]() | Disables soft edge effect. |
+| [disableSoftEdgeEffect] () Disables soft edge effect. |
 
 
 ---
 
 
-| [enableFillOverlayEffect]() | Enables fill overlay effect. |
+| [enableFillOverlayEffect] () Enables fill overlay effect. |
 
 
 ---
 
 
-| [enableGlowEffect]() | Enables glow effect. |
+| [enableGlowEffect] () Enables glow effect. |
 
 
 ---
 
 
-| [enableInnerShadowEffect]() | Enables inner shadow effect. |
+| [enableInnerShadowEffect] () Enables inner shadow effect. |
 
 
 ---
 
 
-| [enableOuterShadowEffect]() | Enables outer shadow effect. |
+| [enableOuterShadowEffect] () Enables outer shadow effect. |
 
 
 ---
 
 
-| [enablePresetShadowEffect]() | Enables preset shadows effect. |
+| [enablePresetShadowEffect] () Enables preset shadows effect. |
 
 
 ---
 
 
-| [enableReflectionEffect]() | Enables reflection effect. |
+| [enableReflectionEffect] () Enables reflection effect. |
 
 
 ---
 
 
-| [enableSoftEdgeEffect]() | Enables soft edge effect. |
+| [enableSoftEdgeEffect] () Enables soft edge effect. |
 
 
 ---
 
 
-| [getBlurEffect]() | Blur effect. Read/write IBlur. |
+| [getBlurEffect] () Blur effect. Read/write IBlur. |
 
 ### Result
-[Blur](../../blur)
+[Blur]
 
 
 ---
 
 
-| [getEffective]() | Gets effective effect formatting data with the inheritance applied. |
+| [getEffective] () Gets effective effect formatting data with the inheritance applied. |
 
 ### Result
-EffectFormatEffectiveData
+[EffectFormatEffectiveData]
 
 
 ---
 
 
-| [getFillOverlayEffect]() | Fill overlay effect. Read/write IFillOverlay. |
+| [getFillOverlayEffect] () Fill overlay effect. Read/write IFillOverlay. |
 
 ### Result
-[FillOverlay](../../filloverlay)
+[FillOverlay]
 
 
 ---
 
 
-| [getGlowEffect]() | Glow effect. Read/write IGlow. |
+| [getGlowEffect] () Glow effect. Read/write IGlow. |
 
 ### Result
-[Glow](../../glow)
+[Glow]
 
 
 ---
 
 
-| [getInnerShadowEffect]() | Inner shadow. Read/write IInnerShadow. |
+| [getInnerShadowEffect] () Inner shadow. Read/write IInnerShadow. |
 
 ### Result
-[InnerShadow](../../innershadow)
+[InnerShadow]
 
 
 ---
 
 
-| [getOuterShadowEffect]() | Outer shadow. Read/write IOuterShadow. |
+| [getOuterShadowEffect] () Outer shadow. Read/write IOuterShadow. |
 
 ### Result
-[OuterShadow](../../outershadow)
+[OuterShadow]
 
 
 ---
 
 
-| [getPresetShadowEffect]() | Preset shadow. Read/write IPresetShadow. |
+| [getPresetShadowEffect] () Preset shadow. Read/write IPresetShadow. |
 
 ### Result
-[PresetShadow](../../presetshadow)
+[PresetShadow]
 
 
 ---
 
 
-| [getReflectionEffect]() | Reflection. Read/write IReflection. |
+| [getReflectionEffect] () Reflection. Read/write IReflection. |
 
 ### Result
-[Reflection](../../reflection)
+[Reflection]
 
 
 ---
 
 
-| [getSoftEdgeEffect]() | Soft edge. Read/write ISoftEdge. |
+| [getSoftEdgeEffect] () Soft edge. Read/write ISoftEdge. |
 
 ### Result
-[SoftEdge](../../softedge)
+[SoftEdge]
 
 
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long
@@ -196,7 +191,7 @@ long
 ---
 
 
-| [isNoEffects]() | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
+| [isNoEffects] () Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
 
 ### Result
 boolean
@@ -205,62 +200,62 @@ boolean
 ---
 
 
-| [setBlurEffect]([Blur](../blur)) | Blur effect. Read/write IBlur. |
+| [setBlurEffect] ([Blur]) Blur effect. Read/write IBlur. |
 
 
 ---
 
 
-| [setBlurEffect](double, boolean) | Sets blur effect. |
+| [setBlurEffect] ([double], [boolean]) Sets blur effect. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| radius | double | Radius. |
-| grow | boolean | Grow. |
+| radius | [double] | Radius. |
+| grow | [boolean] | Grow. |
 
 
 ---
 
 
-| [setFillOverlayEffect]([FillOverlay](../filloverlay)) | Fill overlay effect. Read/write IFillOverlay. |
+| [setFillOverlayEffect] ([FillOverlay]) Fill overlay effect. Read/write IFillOverlay. |
 
 
 ---
 
 
-| [setGlowEffect]([Glow](../glow)) | Glow effect. Read/write IGlow. |
+| [setGlowEffect] ([Glow]) Glow effect. Read/write IGlow. |
 
 
 ---
 
 
-| [setInnerShadowEffect]([InnerShadow](../innershadow)) | Inner shadow. Read/write IInnerShadow. |
+| [setInnerShadowEffect] ([InnerShadow]) Inner shadow. Read/write IInnerShadow. |
 
 
 ---
 
 
-| [setOuterShadowEffect]([OuterShadow](../outershadow)) | Outer shadow. Read/write IOuterShadow. |
+| [setOuterShadowEffect] ([OuterShadow]) Outer shadow. Read/write IOuterShadow. |
 
 
 ---
 
 
-| [setPresetShadowEffect]([PresetShadow](../presetshadow)) | Preset shadow. Read/write IPresetShadow. |
+| [setPresetShadowEffect] ([PresetShadow]) Preset shadow. Read/write IPresetShadow. |
 
 
 ---
 
 
-| [setReflectionEffect]([Reflection](../reflection)) | Reflection. Read/write IReflection. |
+| [setReflectionEffect] ([Reflection]) Reflection. Read/write IReflection. |
 
 
 ---
 
 
-| [setSoftEdgeEffect]([SoftEdge](../softedge)) | Soft edge. Read/write ISoftEdge. |
+| [setSoftEdgeEffect] ([SoftEdge]) Soft edge. Read/write ISoftEdge. |
 
 
 ---

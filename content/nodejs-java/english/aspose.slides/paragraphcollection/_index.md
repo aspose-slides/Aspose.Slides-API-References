@@ -11,30 +11,25 @@ url: /aspose.slides/paragraphcollection/
 
  Represents a collection of a paragraphs.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add]([Paragraph](../paragraph)) | Adds a Paragraph to the end of collection. |
+| [add] ([Paragraph]) Adds a Paragraph to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [Paragraph](../../paragraph) | The Paragraph to be added to the end of the collection. |
+| value | [Paragraph] | The Paragraph to be added to the end of the collection. |
 
 
 ---
 
 
-| [add]([ParagraphCollection](../paragraphcollection)) | Adds a content of ParagraphCollection to the end of collection. |
+| [add] ([ParagraphCollection]) Adds a content of ParagraphCollection to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ParagraphCollection](../../paragraphcollection) | The ParagraphCollection to be added to the end of the collection. |
+| value | [ParagraphCollection] | The ParagraphCollection to be added to the end of the collection. |
 
 ### Result
 int
@@ -43,59 +38,59 @@ int
 ---
 
 
-| [addFromHtml](String) | Adds text from specified html string to the collection. |
+| [addFromHtml] ([String]) Adds text from specified html string to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | HTML text. |
+| text | [String] | HTML text. |
 
 
 ---
 
 
-| [addFromHtml](String, [ExternalResourceResolver](../externalresourceresolver), String) | Adds text from specified html string to the collection. |
+| [addFromHtml] ([String], [ExternalResourceResolver], [String]) Adds text from specified html string to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | HTML text. |
-| resolver | [ExternalResourceResolver](../externalresourceresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | String | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+| text | [String] | HTML text. |
+| resolver | [ExternalResourceResolver] | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | [String] | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
 
 
 ---
 
 
-| [addFromHtml](String, [HtmlExternalResolver](../htmlexternalresolver), String) | Adds text from specified html string to the collection. |
+| [addFromHtml] ([String], [HtmlExternalResolver], [String]) Adds text from specified html string to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| text | String | HTML text. |
-| resolver | [HtmlExternalResolver](../htmlexternalresolver) | Resolver callback object which resolves URIs and fetches referrenced objects. |
-| uri | String | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
+| text | [String] | HTML text. |
+| resolver | [HtmlExternalResolver] | Resolver callback object which resolves URIs and fetches referrenced objects. |
+| uri | [String] | URI for adding HTML document. Used for resolving relative links. Specifying resolver can potentially introduce a vulnurability. Use with caution. |
 
 
 ---
 
 
-| [clear]() | Removes all elements from the collection. |
+| [clear] () Removes all elements from the collection. |
 
 
 ---
 
 
-| [contains]([Paragraph](../paragraph)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([Paragraph]) Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Paragraph](../../paragraph) | The object to locate in the IGenericCollection. |
+| item | [Paragraph] | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -104,14 +99,14 @@ boolean
 ---
 
 
-| [copyTo](com.aspose.slides.IParagraph[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| [copyTo] ([com.aspose.slides.IParagraph[]], [int]) Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IParagraph[] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
-| arrayIndex | int | The zero-based index in array at which copying begins. |
+| array | [com.aspose.slides.IParagraph[]] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
+| arrayIndex | [int] | The zero-based index in array at which copying begins. |
 
 ### Error
 
@@ -123,15 +118,15 @@ boolean
 ---
 
 
-| [exportToHtml](int, int, [TextToHtmlConversionOptions](../texttohtmlconversionoptions)) | Converts specifying paragraphs to the HTML and returns it as String object. |
+| [exportToHtml] ([int], [int], [TextToHtmlConversionOptions]) Converts specifying paragraphs to the HTML and returns it as String object. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| firstParagraphIndex | int | First paragraph index int |
-| paragraphsCount | int | Paragraph count int |
-| options | [TextToHtmlConversionOptions](../../texttohtmlconversionoptions) | Convert options ITextToHtmlConversionOptions |
+| firstParagraphIndex | [int] | First paragraph index int |
+| paragraphsCount | [int] | Paragraph count int |
+| options | [TextToHtmlConversionOptions] | Convert options ITextToHtmlConversionOptions |
 
 ### Result
 String
@@ -140,7 +135,7 @@ String
 ---
 
 
-| [getCount]() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [getCount] () Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int
@@ -149,40 +144,40 @@ int
 ---
 
 
-| [getPresentation]() | Returns the parent presentation of a paragraphs collection. Read-only IPresentation. |
+| [getPresentation] () Returns the parent presentation of a paragraphs collection. Read-only IPresentation. |
 
 ### Result
-[Presentation](../../presentation)
+[Presentation]
 
 
 ---
 
 
-| [getSlide]() | Returns the parent slide of a paragraphs collection. Read-only BaseSlide. |
+| [getSlide] () Returns the parent slide of a paragraphs collection. Read-only BaseSlide. |
 
 ### Result
-[MasterNotesSlide](../../masternotesslide), [MasterHandoutSlide](../../masterhandoutslide), [BaseSlide](../../baseslide), [NotesSlide](../../notesslide), [LayoutSlide](../../layoutslide), [Slide](../../slide), [MasterSlide](../../masterslide)
+[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
 
 
 ---
 
 
-| [get_Item](int) | Gets the element at the specified index. |
+| [get_Item] ([int]) Gets the element at the specified index. |
 
 ### Result
-[Paragraph](../../paragraph)
+[Paragraph]
 
 
 ---
 
 
-| [indexOf]([Paragraph](../paragraph)) | Determines the index of a specific item in the List. |
+| [indexOf] ([Paragraph]) Determines the index of a specific item in the List. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Paragraph](../../paragraph) | The object to locate in the List. |
+| item | [Paragraph] | The object to locate in the List. |
 
 ### Result
 int
@@ -191,33 +186,33 @@ int
 ---
 
 
-| [insert](int, [Paragraph](../paragraph)) | Inserts a Paragraph into the collection at the specified index. |
+| [insert] ([int], [Paragraph]) Inserts a Paragraph into the collection at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which Paragraph should be inserted. |
-| value | [Paragraph](../../paragraph) | The Paragraph to insert. |
+| index | [int] | The zero-based index at which Paragraph should be inserted. |
+| value | [Paragraph] | The Paragraph to insert. |
 
 
 ---
 
 
-| [insert](int, [ParagraphCollection](../paragraphcollection)) | Inserts a content of ParagraphCollection into the collection at the specified index. |
+| [insert] ([int], [ParagraphCollection]) Inserts a content of ParagraphCollection into the collection at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which paragraphs should be inserted. |
-| value | [ParagraphCollection](../../paragraphcollection) | The paragraphs to insert. |
+| index | [int] | The zero-based index at which paragraphs should be inserted. |
+| value | [ParagraphCollection] | The paragraphs to insert. |
 
 
 ---
 
 
-| [isReadOnly]() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| [isReadOnly] () Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
 ### Result
 boolean
@@ -226,7 +221,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -235,7 +230,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -244,13 +239,13 @@ boolean
 ---
 
 
-| [remove]([Paragraph](../paragraph)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [remove] ([Paragraph]) Removes the first occurrence of a specific object from the IGenericCollection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Paragraph](../../paragraph) | The object to remove from the IGenericCollection. |
+| item | [Paragraph] | The object to remove from the IGenericCollection. |
 
 ### Result
 boolean
@@ -265,13 +260,13 @@ boolean
 ---
 
 
-| [removeAt](int) | Removes the element at the specified index of the collection. |
+| [removeAt] ([int]) Removes the element at the specified index of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to remove. |
+| index | [int] | The zero-based index of the element to remove. |
 
 
 ---

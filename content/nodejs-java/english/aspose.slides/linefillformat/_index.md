@@ -11,12 +11,7 @@ url: /aspose.slides/linefillformat/
 
  Represents properties for lines filling.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getFillType]() | Returns or sets the fill type. Read/write FillType. |
+| [getFillType] () Returns or sets the fill type. Read/write FillType. |
 
 ### Result
 byte
@@ -25,25 +20,25 @@ byte
 ---
 
 
-| [getGradientFormat]() | Returns the gradient fill format. Read-only IGradientFormat. |
+| [getGradientFormat] () Returns the gradient fill format. Read-only IGradientFormat. |
 
 ### Result
-[GradientFormat](../../gradientformat)
+[GradientFormat]
 
 
 ---
 
 
-| [getPatternFormat]() | Returns the pattern fill format. Read-only IPatternFormat. |
+| [getPatternFormat] () Returns the pattern fill format. Read-only IPatternFormat. |
 
 ### Result
-[PatternFormat](../../patternformat)
+[PatternFormat]
 
 
 ---
 
 
-| [getRotateWithShape]() | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+| [getRotateWithShape] () Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
 
 ### Result
 byte
@@ -52,16 +47,16 @@ byte
 ---
 
 
-| [getSolidFillColor]() | Returns the color of a solid fill. Read-only IColorFormat. |
+| [getSolidFillColor] () Returns the color of a solid fill. Read-only IColorFormat. |
 
 ### Result
-[ColorFormat](../../colorformat)
+[ColorFormat]
 
 
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long
@@ -70,13 +65,13 @@ long
 ---
 
 
-| [setFillType](byte) | Returns or sets the fill type. Read/write FillType. |
+| [setFillType] ([byte]) Returns or sets the fill type. Read/write FillType. |
 
 
 ---
 
 
-| [setRotateWithShape](byte) | Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
+| [setRotateWithShape] ([byte]) Determines whether the fill should be rotated with a shape. Read/write NullableBool. |
 
 
 ---

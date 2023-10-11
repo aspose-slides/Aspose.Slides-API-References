@@ -13,22 +13,17 @@ url: /aspose.slides/masterlayoutslidecollection/
  Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering 
  layout slides in context of the individual collections of master's layout slides.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add](byte, String) | Adds a new layout slide to the end of the collection. |
+| [add] ([byte], [String]) Adds a new layout slide to the end of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| layoutType | byte | Layout type for a new layout. Supported layout types: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Other layout types are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layoutName | String | Name for a new layout. If passed name is already in use the ArgumentException will be thrown. If null parameter is passed then name genarated atomatically in regards to passed layout type (for example "Title Slide" or "1_Title Slide", "2_..", etc.). 1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this function is function IGlobalLayoutSlideCollection#add(IMasterSlide,byte,String) accessed with ( IPresentation#getLayoutSlides) property. |
+| layoutType | [byte] | Layout type for a new layout. Supported layout types: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Other layout types are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | [String] | Name for a new layout. If passed name is already in use the ArgumentException will be thrown. If null parameter is passed then name genarated atomatically in regards to passed layout type (for example "Title Slide" or "1_Title Slide", "2_..", etc.). 1) Added layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. 2) Analogue of this function is function IGlobalLayoutSlideCollection#add(IMasterSlide,byte,String) accessed with ( IPresentation#getLayoutSlides) property. |
 
 ### Result
-[LayoutSlide](../../layoutslide)
+[LayoutSlide]
 
 ### Error
 
@@ -40,33 +35,33 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [addClone]([LayoutSlide](../layoutslide)) | Adds a copy of a specified layout slide to the end of the collection. |
+| [addClone] ([LayoutSlide]) Adds a copy of a specified layout slide to the end of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceLayout | [LayoutSlide](../../layoutslide) | Slide to clone. 1) New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this function is function IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) accessed with ( IPresentation#getLayoutSlides) property. |
+| sourceLayout | [LayoutSlide] | Slide to clone. 1) New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. 2) Analogue of this function is function IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) accessed with ( IPresentation#getLayoutSlides) property. |
 
 ### Result
-[LayoutSlide](../../layoutslide)
+[LayoutSlide]
 
 
 ---
 
 
-| [insert](int, byte, String) | Inserts a new layout slide to specified position of the collection. |
+| [insert] ([int], [byte], [String]) Inserts a new layout slide to specified position of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of new slide. |
-| layoutType | byte | Layout type for a new layout. Supported layout types: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Other layout types are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
-| layoutName | String | Name for a new layout. If passed name is already in use the ArgumentException will be thrown. If null parameter is passed then name genarated atomatically in regards to passed layout type (for example "Title Slide" or "1_Title Slide", "2_..", etc.). Inserted layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. |
+| index | [int] | Index of new slide. |
+| layoutType | [byte] | Layout type for a new layout. Supported layout types: Title, TitleOnly, Blank, TitleAndObject, VerticalText, VerticalTitleAndText, TwoObjects, SectionHeader, TwoTextAndTwoObjects, TitleObjectAndCaption, PictureAndCaption, Custom. Other layout types are not supported now: Text, TwoColumnText, Table, TextAndChart, ChartAndText, Diagram, Chart, TextAndClipArt, ClipArtAndText, TextAndObject, ObjectAndText, Object, TextAndMedia, MediaAndText, ObjectOverText, TextOverObject, TextAndTwoObjects, TwoObjectsAndText, TwoObjectsOverText, FourObjects, ClipArtAndVerticalText, VerticalTitleAndTextOverChart, ObjectAndTwoObject, TwoObjectsAndObject. |
+| layoutName | [String] | Name for a new layout. If passed name is already in use the ArgumentException will be thrown. If null parameter is passed then name genarated atomatically in regards to passed layout type (for example "Title Slide" or "1_Title Slide", "2_..", etc.). Inserted layout for value SlideLayoutType.Custom of layoutType contains no placeholders and no shapes. |
 
 ### Result
-[LayoutSlide](../../layoutslide)
+[LayoutSlide]
 
 ### Error
 
@@ -78,29 +73,29 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [insertClone](int, [LayoutSlide](../layoutslide)) | Inserts a copy of a specified layout slide to specified position of the collection. |
+| [insertClone] ([int], [LayoutSlide]) Inserts a copy of a specified layout slide to specified position of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of new slide. |
-| sourceLayout | [LayoutSlide](../../layoutslide) | Slide to clone. New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. |
+| index | [int] | Index of new slide. |
+| sourceLayout | [LayoutSlide] | Slide to clone. New layout will be linked with parent master slide for this layout slides collection. So this is analogue of copy/paste with "Use Destination Theme" option in PowerPoint. |
 
 ### Result
-[LayoutSlide](../../layoutslide)
+[LayoutSlide]
 
 
 ---
 
 
-| [removeAt](int) | Removes the element at the specified index of the collection. |
+| [removeAt] ([int]) Removes the element at the specified index of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to remove. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove function to simplify code. |
+| index | [int] | The zero-based index of the element to remove. 1) To avoid throwing of the PptxEditException check layout's HasDependingSlides property before. 2) You can use also ILayoutSlide#remove function to simplify code. |
 
 ### Error
 
@@ -112,14 +107,14 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [reorder](int, [LayoutSlide](../layoutslide)) | Moves layout slide from the collection to the specified position. |
+| [reorder] ([int], [LayoutSlide]) Moves layout slide from the collection to the specified position. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Target index. |
-| layoutSlide | [LayoutSlide](../../layoutslide) | Slide to move. |
+| index | [int] | Target index. |
+| layoutSlide | [LayoutSlide] | Slide to move. |
 
 
 ---

@@ -20,13 +20,13 @@ CannotCombine2DAnd3DChartsException
 ---
 
 
-| [CannotCombine2DAnd3DChartsException](String) | Constructor allowing a message to be added to this exception. |
+| [CannotCombine2DAnd3DChartsException]([String]) | Constructor allowing a message to be added to this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | message |
+| message | [String] | message |
 
 ### Result
 CannotCombine2DAnd3DChartsException
@@ -35,14 +35,14 @@ CannotCombine2DAnd3DChartsException
 ---
 
 
-| [CannotCombine2DAnd3DChartsException](String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [CannotCombine2DAnd3DChartsException]([String], [RuntimeException]) | Constructor for an exception containing a message and an embedded exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | message |
-| exception | RuntimeException | original exception |
+| message | [String] | message |
+| exception | [RuntimeException] | original exception |
 
 ### Result
 CannotCombine2DAnd3DChartsException

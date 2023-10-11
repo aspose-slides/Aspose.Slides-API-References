@@ -20,13 +20,13 @@ CellUnsupportedDataException
 ---
 
 
-| [CellUnsupportedDataException](String) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
+| [CellUnsupportedDataException]([String]) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
+| message | [String] | A string that describes the error. |
 
 ### Result
 CellUnsupportedDataException
@@ -35,14 +35,14 @@ CellUnsupportedDataException
 ---
 
 
-| [CellUnsupportedDataException](String, RuntimeException) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellUnsupportedDataException]([String], [RuntimeException]) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
-| innerException | RuntimeException | The exception that is the cause of the current exception. |
+| message | [String] | A string that describes the error. |
+| innerException | [RuntimeException] | The exception that is the cause of the current exception. |
 
 ### Result
 CellUnsupportedDataException

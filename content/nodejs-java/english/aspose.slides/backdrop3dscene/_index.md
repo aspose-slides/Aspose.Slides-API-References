@@ -11,12 +11,7 @@ url: /aspose.slides/backdrop3dscene/
 
  Defines a plane in which effects, such as glow and shadow, are applied in relation to the shape they are being applied to.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getAnchorPoint]() | Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+| [getAnchorPoint] () Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
 
 ### Result
 float
@@ -25,7 +20,7 @@ float
 ---
 
 
-| [getNormalVector]() | Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+| [getNormalVector] () Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
 
 ### Result
 float
@@ -34,7 +29,7 @@ float
 ---
 
 
-| [getUpVector]() | Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+| [getUpVector] () Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
 
 ### Result
 float
@@ -43,7 +38,7 @@ float
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long
@@ -52,19 +47,19 @@ long
 ---
 
 
-| [setAnchorPoint](float[]) | Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+| [setAnchorPoint] ([float[]]) Returns or sets a point in 3D space. This point is the point in space that anchors the backdrop plane. 3D point represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
 
 
 ---
 
 
-| [setNormalVector](float[]) | Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+| [setNormalVector] ([float[]]) Returns or sets a normal vector. To be more precise, this attribute defines a vector normal to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
 
 
 ---
 
 
-| [setUpVector](float[]) | Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
+| [setUpVector] ([float[]]) Returns or sets a vector representing up. To be more precise, this attribute defines a vector representing up in relation to the face of the backdrop plane. Vector represented by array of 3 float values which define X, Y and Z coordinates. Read/write float[]. |
 
 
 ---

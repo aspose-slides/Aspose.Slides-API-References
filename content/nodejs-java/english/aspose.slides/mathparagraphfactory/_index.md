@@ -22,30 +22,25 @@ MathParagraphFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createMathParagraph]() | Create empty math paragraph |
+| [createMathParagraph] () Create empty math paragraph |
 
 ### Result
-[MathParagraph](../../mathparagraph)
+[MathParagraph]
 
 
 ---
 
 
-| [createMathParagraph]([MathBlock](../mathblock)) | Creates a math paragraph and places the specified math block in it |
+| [createMathParagraph] ([MathBlock]) Creates a math paragraph and places the specified math block in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | [MathBlock](../../mathblock) | math block to place in the paragraph |
+| mathBlock | [MathBlock] | math block to place in the paragraph |
 
 ### Result
-[MathParagraph](../../mathparagraph)
+[MathParagraph]
 
 
 ---

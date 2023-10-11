@@ -20,21 +20,16 @@ FontDataFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createFontData](String) | Creates FontData with specified font name. |
+| [createFontData] ([String]) Creates FontData with specified font name. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| fontName | String | Font name |
+| fontName | [String] | Font name |
 
 ### Result
-[FontData](../../fontdata)
+[FontData]
 
 
 ---

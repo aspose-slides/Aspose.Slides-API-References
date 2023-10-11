@@ -11,7 +11,7 @@ url: /aspose.slides/mathlimit/
 
  Specifies the Limit object, consisting of text on the baseline and reduced-size text immediately above or below it.
  
-| [MathLimit]([MathLimit](../mathlimit), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -20,7 +20,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -29,7 +29,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -38,7 +38,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -47,7 +47,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -56,7 +56,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -65,7 +65,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -74,7 +74,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -83,7 +83,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -92,7 +92,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -101,7 +101,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -110,7 +110,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -119,7 +119,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -128,7 +128,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -137,7 +137,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -146,7 +146,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -155,7 +155,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -164,7 +164,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -173,7 +173,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLimit], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -182,7 +182,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -191,7 +191,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -200,7 +200,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -209,7 +209,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -218,7 +218,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -227,7 +227,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -236,7 +236,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -245,7 +245,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -254,7 +254,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -263,7 +263,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -272,7 +272,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -281,7 +281,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -290,7 +290,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -299,7 +299,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -308,7 +308,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -317,7 +317,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -326,7 +326,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -335,7 +335,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -344,7 +344,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBorderBox], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -353,7 +353,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -362,7 +362,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -371,7 +371,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -380,7 +380,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -389,7 +389,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -398,7 +398,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -407,7 +407,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -416,7 +416,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -425,7 +425,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -434,7 +434,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -443,7 +443,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -452,7 +452,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -461,7 +461,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -470,7 +470,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -479,7 +479,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -488,7 +488,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -497,7 +497,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -506,7 +506,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -515,7 +515,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFraction], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -524,7 +524,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -533,7 +533,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -542,7 +542,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -551,7 +551,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -560,7 +560,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -569,7 +569,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -578,7 +578,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -587,7 +587,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -596,7 +596,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -605,7 +605,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -614,7 +614,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -623,7 +623,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -632,7 +632,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -641,7 +641,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -650,7 +650,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -659,7 +659,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -668,7 +668,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -677,7 +677,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -686,7 +686,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathDelimiter], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -695,7 +695,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -704,7 +704,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -713,7 +713,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -722,7 +722,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -731,7 +731,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -740,7 +740,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -749,7 +749,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -758,7 +758,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -767,7 +767,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -776,7 +776,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -785,7 +785,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -794,7 +794,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -803,7 +803,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -812,7 +812,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -821,7 +821,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -830,7 +830,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -839,7 +839,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -848,7 +848,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -857,7 +857,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSuperscriptElement], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -866,7 +866,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -875,7 +875,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -884,7 +884,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -893,7 +893,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -902,7 +902,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -911,7 +911,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -920,7 +920,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -929,7 +929,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -938,7 +938,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -947,7 +947,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -956,7 +956,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -965,7 +965,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -974,7 +974,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -983,7 +983,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -992,7 +992,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1001,7 +1001,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1010,7 +1010,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1019,7 +1019,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1028,7 +1028,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1037,7 +1037,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1046,7 +1046,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1055,7 +1055,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1064,7 +1064,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1073,7 +1073,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1082,7 +1082,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1091,7 +1091,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1100,7 +1100,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1109,7 +1109,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1118,7 +1118,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1127,7 +1127,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1136,7 +1136,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1145,7 +1145,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1154,7 +1154,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1163,7 +1163,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1172,7 +1172,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1181,7 +1181,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1190,7 +1190,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1199,7 +1199,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1208,7 +1208,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1217,7 +1217,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1226,7 +1226,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1235,7 +1235,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1244,7 +1244,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1253,7 +1253,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1262,7 +1262,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1271,7 +1271,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1280,7 +1280,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1289,7 +1289,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1298,7 +1298,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1307,7 +1307,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1316,7 +1316,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1325,7 +1325,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1334,7 +1334,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1343,7 +1343,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1352,7 +1352,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1361,7 +1361,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1370,7 +1370,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBox], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1379,7 +1379,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1388,7 +1388,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1397,7 +1397,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1406,7 +1406,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1415,7 +1415,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1424,7 +1424,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1433,7 +1433,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1442,7 +1442,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1451,7 +1451,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1460,7 +1460,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1469,7 +1469,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1478,7 +1478,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1487,7 +1487,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1496,7 +1496,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1505,7 +1505,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1514,7 +1514,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1523,7 +1523,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1532,7 +1532,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1541,7 +1541,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathMatrix], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1550,7 +1550,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1559,7 +1559,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1568,7 +1568,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1577,7 +1577,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1586,7 +1586,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1595,7 +1595,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1604,7 +1604,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1613,7 +1613,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1622,7 +1622,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1631,7 +1631,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1640,7 +1640,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1649,7 +1649,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1658,7 +1658,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1667,7 +1667,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1676,7 +1676,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1685,7 +1685,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1694,7 +1694,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1703,7 +1703,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1712,7 +1712,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathGroupingCharacter], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1721,7 +1721,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1730,7 +1730,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1739,7 +1739,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1748,7 +1748,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1757,7 +1757,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1766,7 +1766,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1775,7 +1775,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1784,7 +1784,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1793,7 +1793,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1802,7 +1802,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1811,7 +1811,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1820,7 +1820,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1829,7 +1829,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1838,7 +1838,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1847,7 +1847,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1856,7 +1856,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1865,7 +1865,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1874,7 +1874,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1883,7 +1883,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathArray], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1892,7 +1892,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1901,7 +1901,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1910,7 +1910,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1919,7 +1919,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1928,7 +1928,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1937,7 +1937,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1946,7 +1946,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1955,7 +1955,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1964,7 +1964,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1973,7 +1973,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1982,7 +1982,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -1991,7 +1991,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2000,7 +2000,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2009,7 +2009,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2018,7 +2018,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2027,7 +2027,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2036,7 +2036,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2045,7 +2045,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2054,7 +2054,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBlock], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2063,7 +2063,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2072,7 +2072,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2081,7 +2081,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2090,7 +2090,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2099,7 +2099,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2108,7 +2108,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2117,7 +2117,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2126,7 +2126,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2135,7 +2135,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2144,7 +2144,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2153,7 +2153,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2162,7 +2162,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2171,7 +2171,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2180,7 +2180,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2189,7 +2189,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2198,7 +2198,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2207,7 +2207,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2216,7 +2216,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2225,7 +2225,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathSubscriptElement], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2234,7 +2234,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2243,7 +2243,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2252,7 +2252,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2261,7 +2261,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2270,7 +2270,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2279,7 +2279,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2288,7 +2288,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2297,7 +2297,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2306,7 +2306,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2315,7 +2315,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2324,7 +2324,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2333,7 +2333,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2342,7 +2342,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2351,7 +2351,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2360,7 +2360,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2369,7 +2369,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2378,7 +2378,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2387,7 +2387,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2396,7 +2396,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathFunction], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2405,7 +2405,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2414,7 +2414,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2423,7 +2423,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2432,7 +2432,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2441,7 +2441,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2450,7 +2450,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2459,7 +2459,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2468,7 +2468,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2477,7 +2477,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2486,7 +2486,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2495,7 +2495,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2504,7 +2504,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2513,7 +2513,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2522,7 +2522,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2531,7 +2531,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2540,7 +2540,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2549,7 +2549,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2558,7 +2558,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2567,7 +2567,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathNaryOperator], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2576,7 +2576,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2585,7 +2585,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2594,7 +2594,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2603,7 +2603,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2612,7 +2612,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2621,7 +2621,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2630,7 +2630,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2639,7 +2639,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2648,7 +2648,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2657,7 +2657,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2666,7 +2666,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2675,7 +2675,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2684,7 +2684,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2693,7 +2693,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2702,7 +2702,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2711,7 +2711,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2720,7 +2720,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2729,7 +2729,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2738,7 +2738,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathematicalText], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2747,7 +2747,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2756,7 +2756,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2765,7 +2765,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2774,7 +2774,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2783,7 +2783,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2792,7 +2792,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2801,7 +2801,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2810,7 +2810,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2819,7 +2819,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2828,7 +2828,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2837,7 +2837,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2846,7 +2846,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2855,7 +2855,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2864,7 +2864,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2873,7 +2873,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2882,7 +2882,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2891,7 +2891,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2900,7 +2900,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2909,7 +2909,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathAccent], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2918,7 +2918,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2927,7 +2927,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2936,7 +2936,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2945,7 +2945,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2954,7 +2954,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2963,7 +2963,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2972,7 +2972,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2981,7 +2981,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2990,7 +2990,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -2999,7 +2999,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3008,7 +3008,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3017,7 +3017,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3026,7 +3026,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3035,7 +3035,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3044,7 +3044,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3053,7 +3053,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3062,7 +3062,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3071,7 +3071,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3080,7 +3080,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathRadical], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3089,7 +3089,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathLimit](../mathlimit), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathLimit], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3098,7 +3098,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBorderBox](../mathborderbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathBorderBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3107,7 +3107,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathFraction](../mathfraction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathFraction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3116,7 +3116,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathDelimiter](../mathdelimiter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathDelimiter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3125,7 +3125,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3134,7 +3134,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathLeftSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3143,7 +3143,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathRightSubSuperscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3152,7 +3152,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBox](../mathbox), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathBox], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3161,7 +3161,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathMatrix](../mathmatrix), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathMatrix], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3170,7 +3170,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathGroupingCharacter], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3179,7 +3179,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathArray](../matharray), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathArray], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3188,7 +3188,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBlock](../mathblock), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathBlock], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3197,7 +3197,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathSubscriptElement], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3206,7 +3206,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathFunction](../mathfunction), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathFunction], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3215,7 +3215,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathNaryOperator], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3224,7 +3224,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathematicalText](../mathematicaltext), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathematicalText], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3233,7 +3233,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathAccent](../mathaccent), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathAccent], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3242,7 +3242,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathRadical](../mathradical), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathRadical], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3251,7 +3251,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBar](../mathbar), boolean) | Initializes a new instance of the MathLimit class. |
+| [MathLimit]([MathBar], [MathBar], [boolean]) | Initializes a new instance of the MathLimit class. |
 
 ### Result
 MathLimit
@@ -3260,7 +3260,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3269,7 +3269,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3278,7 +3278,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3287,7 +3287,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3296,7 +3296,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3305,7 +3305,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3314,7 +3314,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3323,7 +3323,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3332,7 +3332,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3341,7 +3341,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3350,7 +3350,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3359,7 +3359,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3368,7 +3368,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3377,7 +3377,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3386,7 +3386,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3395,7 +3395,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3404,7 +3404,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3413,7 +3413,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3422,7 +3422,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLimit](../mathlimit), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLimit], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3431,7 +3431,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3440,7 +3440,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3449,7 +3449,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3458,7 +3458,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3467,7 +3467,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3476,7 +3476,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3485,7 +3485,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3494,7 +3494,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3503,7 +3503,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3512,7 +3512,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3521,7 +3521,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3530,7 +3530,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3539,7 +3539,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3548,7 +3548,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3557,7 +3557,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3566,7 +3566,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3575,7 +3575,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3584,7 +3584,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3593,7 +3593,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBorderBox], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3602,7 +3602,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3611,7 +3611,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3620,7 +3620,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3629,7 +3629,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3638,7 +3638,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3647,7 +3647,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3656,7 +3656,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3665,7 +3665,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3674,7 +3674,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3683,7 +3683,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3692,7 +3692,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3701,7 +3701,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3710,7 +3710,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3719,7 +3719,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3728,7 +3728,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3737,7 +3737,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3746,7 +3746,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3755,7 +3755,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3764,7 +3764,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFraction](../mathfraction), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFraction], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3773,7 +3773,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3782,7 +3782,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3791,7 +3791,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3800,7 +3800,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3809,7 +3809,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3818,7 +3818,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3827,7 +3827,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3836,7 +3836,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3845,7 +3845,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3854,7 +3854,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3863,7 +3863,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3872,7 +3872,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3881,7 +3881,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3890,7 +3890,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3899,7 +3899,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3908,7 +3908,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3917,7 +3917,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3926,7 +3926,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3935,7 +3935,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathDelimiter], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3944,7 +3944,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3953,7 +3953,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3962,7 +3962,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3971,7 +3971,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3980,7 +3980,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3989,7 +3989,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -3998,7 +3998,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4007,7 +4007,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4016,7 +4016,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4025,7 +4025,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4034,7 +4034,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4043,7 +4043,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4052,7 +4052,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4061,7 +4061,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4070,7 +4070,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4079,7 +4079,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4088,7 +4088,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4097,7 +4097,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4106,7 +4106,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSuperscriptElement], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4115,7 +4115,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4124,7 +4124,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4133,7 +4133,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4142,7 +4142,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4151,7 +4151,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4160,7 +4160,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4169,7 +4169,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4178,7 +4178,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4187,7 +4187,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4196,7 +4196,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4205,7 +4205,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4214,7 +4214,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4223,7 +4223,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4232,7 +4232,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4241,7 +4241,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4250,7 +4250,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4259,7 +4259,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4268,7 +4268,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4277,7 +4277,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathLeftSubSuperscriptElement], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4286,7 +4286,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4295,7 +4295,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4304,7 +4304,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4313,7 +4313,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4322,7 +4322,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4331,7 +4331,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4340,7 +4340,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4349,7 +4349,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4358,7 +4358,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4367,7 +4367,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4376,7 +4376,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4385,7 +4385,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4394,7 +4394,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4403,7 +4403,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4412,7 +4412,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4421,7 +4421,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4430,7 +4430,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4439,7 +4439,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4448,7 +4448,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRightSubSuperscriptElement], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4457,7 +4457,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4466,7 +4466,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4475,7 +4475,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4484,7 +4484,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4493,7 +4493,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4502,7 +4502,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4511,7 +4511,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4520,7 +4520,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4529,7 +4529,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4538,7 +4538,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4547,7 +4547,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4556,7 +4556,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4565,7 +4565,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4574,7 +4574,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4583,7 +4583,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4592,7 +4592,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4601,7 +4601,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4610,7 +4610,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4619,7 +4619,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBox](../mathbox), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBox], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4628,7 +4628,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4637,7 +4637,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4646,7 +4646,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4655,7 +4655,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4664,7 +4664,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4673,7 +4673,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4682,7 +4682,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4691,7 +4691,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4700,7 +4700,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4709,7 +4709,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4718,7 +4718,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4727,7 +4727,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4736,7 +4736,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4745,7 +4745,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4754,7 +4754,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4763,7 +4763,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4772,7 +4772,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4781,7 +4781,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4790,7 +4790,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathMatrix], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4799,7 +4799,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4808,7 +4808,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4817,7 +4817,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4826,7 +4826,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4835,7 +4835,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4844,7 +4844,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4853,7 +4853,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4862,7 +4862,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4871,7 +4871,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4880,7 +4880,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4889,7 +4889,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4898,7 +4898,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4907,7 +4907,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4916,7 +4916,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4925,7 +4925,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4934,7 +4934,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4943,7 +4943,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4952,7 +4952,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4961,7 +4961,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathGroupingCharacter], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4970,7 +4970,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4979,7 +4979,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4988,7 +4988,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -4997,7 +4997,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5006,7 +5006,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5015,7 +5015,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5024,7 +5024,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5033,7 +5033,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5042,7 +5042,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5051,7 +5051,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5060,7 +5060,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5069,7 +5069,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5078,7 +5078,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5087,7 +5087,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5096,7 +5096,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5105,7 +5105,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5114,7 +5114,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5123,7 +5123,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5132,7 +5132,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathArray](../matharray), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathArray], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5141,7 +5141,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5150,7 +5150,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5159,7 +5159,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5168,7 +5168,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5177,7 +5177,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5186,7 +5186,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5195,7 +5195,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5204,7 +5204,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5213,7 +5213,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5222,7 +5222,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5231,7 +5231,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5240,7 +5240,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5249,7 +5249,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5258,7 +5258,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5267,7 +5267,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5276,7 +5276,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5285,7 +5285,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5294,7 +5294,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5303,7 +5303,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBlock](../mathblock), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBlock], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5312,7 +5312,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5321,7 +5321,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5330,7 +5330,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5339,7 +5339,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5348,7 +5348,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5357,7 +5357,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5366,7 +5366,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5375,7 +5375,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5384,7 +5384,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5393,7 +5393,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5402,7 +5402,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5411,7 +5411,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5420,7 +5420,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5429,7 +5429,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5438,7 +5438,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5447,7 +5447,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5456,7 +5456,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5465,7 +5465,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5474,7 +5474,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathSubscriptElement], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5483,7 +5483,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5492,7 +5492,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5501,7 +5501,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5510,7 +5510,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5519,7 +5519,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5528,7 +5528,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5537,7 +5537,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5546,7 +5546,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5555,7 +5555,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5564,7 +5564,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5573,7 +5573,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5582,7 +5582,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5591,7 +5591,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5600,7 +5600,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5609,7 +5609,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5618,7 +5618,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5627,7 +5627,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5636,7 +5636,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5645,7 +5645,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathFunction](../mathfunction), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathFunction], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5654,7 +5654,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5663,7 +5663,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5672,7 +5672,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5681,7 +5681,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5690,7 +5690,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5699,7 +5699,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5708,7 +5708,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5717,7 +5717,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5726,7 +5726,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5735,7 +5735,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5744,7 +5744,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5753,7 +5753,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5762,7 +5762,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5771,7 +5771,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5780,7 +5780,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5789,7 +5789,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5798,7 +5798,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5807,7 +5807,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5816,7 +5816,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathNaryOperator], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5825,7 +5825,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5834,7 +5834,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5843,7 +5843,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5852,7 +5852,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5861,7 +5861,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5870,7 +5870,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5879,7 +5879,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5888,7 +5888,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5897,7 +5897,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5906,7 +5906,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5915,7 +5915,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5924,7 +5924,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5933,7 +5933,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5942,7 +5942,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5951,7 +5951,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5960,7 +5960,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5969,7 +5969,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5978,7 +5978,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5987,7 +5987,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathematicalText], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -5996,7 +5996,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6005,7 +6005,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6014,7 +6014,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6023,7 +6023,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6032,7 +6032,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6041,7 +6041,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6050,7 +6050,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6059,7 +6059,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6068,7 +6068,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6077,7 +6077,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6086,7 +6086,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6095,7 +6095,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6104,7 +6104,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6113,7 +6113,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6122,7 +6122,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6131,7 +6131,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6140,7 +6140,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6149,7 +6149,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6158,7 +6158,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathAccent](../mathaccent), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathAccent], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6167,7 +6167,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6176,7 +6176,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6185,7 +6185,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6194,7 +6194,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6203,7 +6203,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6212,7 +6212,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6221,7 +6221,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6230,7 +6230,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6239,7 +6239,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6248,7 +6248,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6257,7 +6257,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6266,7 +6266,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6275,7 +6275,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6284,7 +6284,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6293,7 +6293,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6302,7 +6302,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6311,7 +6311,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6320,7 +6320,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6329,7 +6329,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathRadical](../mathradical), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathRadical], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6338,7 +6338,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathLimit](../mathlimit)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathLimit]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6347,7 +6347,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathBorderBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6356,7 +6356,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathFraction](../mathfraction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathFraction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6365,7 +6365,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathDelimiter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6374,7 +6374,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6383,7 +6383,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6392,7 +6392,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6401,7 +6401,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBox](../mathbox)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathBox]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6410,7 +6410,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathMatrix]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6419,7 +6419,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathGroupingCharacter]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6428,7 +6428,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathArray](../matharray)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathArray]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6437,7 +6437,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBlock](../mathblock)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathBlock]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6446,7 +6446,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathSubscriptElement]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6455,7 +6455,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathFunction](../mathfunction)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathFunction]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6464,7 +6464,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathNaryOperator]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6473,7 +6473,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathematicalText]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6482,7 +6482,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathAccent](../mathaccent)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathAccent]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6491,7 +6491,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathRadical](../mathradical)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathRadical]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6500,7 +6500,7 @@ MathLimit
 ---
 
 
-| [MathLimit]([MathBar](../mathbar), [MathBar](../mathbar)) | Initializes a new instance of the MathLimit class with lower limit |
+| [MathLimit]([MathBar], [MathBar]) | Initializes a new instance of the MathLimit class with lower limit |
 
 ### Result
 MathLimit
@@ -6509,39 +6509,34 @@ MathLimit
 ---
 
 
+| [getBase] () Base argument |
 
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getBase]() | Base argument |
-
 ### Result
-[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getChildren]() | Get children elements |
+| [getChildren] () Get children elements |
 
 ### Result
-[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getLimit]() | Limit argument |
+| [getLimit] () Limit argument |
 
 ### Result
-[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getUpperLimit]() | Specifies upper or lower limit |
+| [getUpperLimit] () Specifies upper or lower limit |
 
 ### Result
 boolean
@@ -6550,7 +6545,7 @@ boolean
 ---
 
 
-| [setUpperLimit](boolean) | Specifies upper or lower limit |
+| [setUpperLimit] ([boolean]) Specifies upper or lower limit |
 
 
 ---

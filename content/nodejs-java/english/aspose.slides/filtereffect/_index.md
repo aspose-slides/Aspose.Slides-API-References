@@ -20,12 +20,7 @@ FilterEffect
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getReveal]() | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
+| [getReveal] () Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
 
 ### Result
 int
@@ -34,7 +29,7 @@ int
 ---
 
 
-| [getSubtype]() | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
+| [getSubtype] () Represents subtype of filter effect. Read/write FilterEffectSubtype. |
 
 ### Result
 int
@@ -43,7 +38,7 @@ int
 ---
 
 
-| [getType]() | Represents type of filter effect. Read/write FilterEffectType. |
+| [getType] () Represents type of filter effect. Read/write FilterEffectType. |
 
 ### Result
 int
@@ -52,19 +47,19 @@ int
 ---
 
 
-| [setReveal](int) | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
+| [setReveal] ([int]) Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
 
 
 ---
 
 
-| [setSubtype](int) | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
+| [setSubtype] ([int]) Represents subtype of filter effect. Read/write FilterEffectSubtype. |
 
 
 ---
 
 
-| [setType](int) | Represents type of filter effect. Read/write FilterEffectType. |
+| [setType] ([int]) Represents type of filter effect. Read/write FilterEffectType. |
 
 
 ---

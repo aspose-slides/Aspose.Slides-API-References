@@ -11,21 +11,16 @@ url: /aspose.slides/zoomframe/
 
  Represents a Slide Zoom object in a slide.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getTargetSlide]() | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
+| [getTargetSlide] () Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
 
 ### Result
-[Slide](../../slide)
+[Slide]
 
 
 ---
 
 
-| [setTargetSlide]([Slide](../slide)) | Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
+| [setTargetSlide] ([Slide]) Gets or sets the slide object that the Slide Zoom object links to. Read/write ISlide. |
 
 
 ---

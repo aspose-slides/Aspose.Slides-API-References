@@ -21,13 +21,13 @@ CellCircularReferenceException
 ---
 
 
-| [CellCircularReferenceException](String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message. |
+| [CellCircularReferenceException]([String]) | Initializes a new instance of the CellCircularReferenceException class with a specified error message. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
+| message | [String] | A string that describes the error. |
 
 ### Result
 CellCircularReferenceException
@@ -36,14 +36,14 @@ CellCircularReferenceException
 ---
 
 
-| [CellCircularReferenceException](String, RuntimeException) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
+| [CellCircularReferenceException]([String], [RuntimeException]) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
-| innerException | RuntimeException | The exception that is the cause of the current exception. |
+| message | [String] | A string that describes the error. |
+| innerException | [RuntimeException] | The exception that is the cause of the current exception. |
 
 ### Result
 CellCircularReferenceException
@@ -52,14 +52,14 @@ CellCircularReferenceException
 ---
 
 
-| [CellCircularReferenceException](String, String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and circular cell reference. |
+| [CellCircularReferenceException]([String], [String]) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and circular cell reference. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | A string that describes the error. |
-| reference | String | A circular cell reference. |
+| message | [String] | A string that describes the error. |
+| reference | [String] | A circular cell reference. |
 
 ### Result
 CellCircularReferenceException
@@ -68,12 +68,7 @@ CellCircularReferenceException
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getReference]() | Gets a circular cell reference. |
+| [getReference] () Gets a circular cell reference. |
 
 ### Result
 String

@@ -22,11919 +22,11914 @@ MathFractionFactory
 ---
 
 
+| [createMathFraction] ([MathLimit], [MathLimit], [int]) Creates a math fraction |
 
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createMathFraction]([MathLimit](../mathlimit), [MathLimit](../mathlimit), int) | Creates a math fraction |
-
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement],  [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement],  [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathLimit](../mathlimit), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathLimit], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathLimit](../mathlimit) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathLimit] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBorderBox](../mathborderbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBorderBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBorderBox](../mathborderbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathFraction](../mathfraction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathFraction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFraction](../mathfraction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathFraction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathDelimiter](../mathdelimiter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathDelimiter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathDelimiter](../mathdelimiter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathSuperscriptElement](../mathsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathLeftSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathRightSubSuperscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBox](../mathbox), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBox], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBox](../mathbox) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBox] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathMatrix](../mathmatrix), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathMatrix], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathMatrix](../mathmatrix) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathMatrix] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathGroupingCharacter], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathGroupingCharacter](../mathgroupingcharacter) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathArray](../matharray), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathArray], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathArray](../matharray) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathArray] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBlock](../mathblock), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBlock], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBlock](../mathblock) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBlock] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathSubscriptElement], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathSubscriptElement](../mathsubscriptelement) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathFunction](../mathfunction), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathFunction], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFunction](../mathfunction) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathFunction] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathNaryOperator], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathNaryOperator](../mathnaryoperator) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathematicalText](../mathematicaltext), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathematicalText], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathematicalText](../mathematicaltext) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathematicalText] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathAccent](../mathaccent), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathAccent], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathAccent](../mathaccent) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathAccent] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathRadical](../mathradical), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathRadical], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathRadical](../mathradical) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathRadical] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBar](../mathbar), int) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBar], [int]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBar](../mathbar) | Denominator |
-| fractionType | int | Fraction type |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBar] | Denominator |
+| fractionType | [int] | Fraction type |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathLimit], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLimit](../mathlimit) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathLimit] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathBorderBox], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBorderBox](../mathborderbox) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathBorderBox] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathFraction], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFraction](../mathfraction) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathFraction] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathDelimiter], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathDelimiter](../mathdelimiter) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathDelimiter] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathSuperscriptElement], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSuperscriptElement](../mathsuperscriptelement) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathSuperscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathLeftSubSuperscriptElement], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathLeftSubSuperscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathRightSubSuperscriptElement], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathRightSubSuperscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBox](../mathbox), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathBox], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBox](../mathbox) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathBox] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathMatrix], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathMatrix](../mathmatrix) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathMatrix] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathGroupingCharacter], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathGroupingCharacter](../mathgroupingcharacter) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathGroupingCharacter] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathArray](../matharray), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathArray], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathArray](../matharray) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathArray] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathBlock], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBlock](../mathblock) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathBlock] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathSubscriptElement], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathSubscriptElement](../mathsubscriptelement) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathSubscriptElement] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathFunction], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathFunction](../mathfunction) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathFunction] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathNaryOperator], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathNaryOperator](../mathnaryoperator) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathNaryOperator] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathematicalText], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathematicalText](../mathematicaltext) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathematicalText] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathAccent], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathAccent](../mathaccent) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathAccent] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathRadical], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathRadical](../mathradical) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathRadical] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathLimit]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathLimit](../../mathlimit) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathLimit] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBorderBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBorderBox](../../mathborderbox) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBorderBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathFraction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFraction](../../mathfraction) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathFraction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathDelimiter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathDelimiter](../../mathdelimiter) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathDelimiter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathSuperscriptElement](../../mathsuperscriptelement) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathLeftSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathLeftSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathRightSubSuperscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathRightSubSuperscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBox](../mathbox)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBox]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBox](../../mathbox) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBox] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathMatrix]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathMatrix](../../mathmatrix) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathMatrix] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathGroupingCharacter]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathGroupingCharacter](../../mathgroupingcharacter) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathGroupingCharacter] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathArray](../matharray)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathArray]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathArray](../../matharray) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathArray] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBlock]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBlock](../../mathblock) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBlock] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathSubscriptElement]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathSubscriptElement](../../mathsubscriptelement) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathSubscriptElement] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathFunction]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathFunction](../../mathfunction) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathFunction] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathNaryOperator]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathNaryOperator](../../mathnaryoperator) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathNaryOperator] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathematicalText]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathematicalText](../../mathematicaltext) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathematicalText] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathAccent]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathAccent](../../mathaccent) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathAccent] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathRadical]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathRadical](../../mathradical) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathRadical] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---
 
 
-| [createMathFraction]([MathBar](../mathbar), [MathBar](../mathbar)) | Creates a math fraction |
+| [createMathFraction] ([MathBar], [MathBar]) Creates a math fraction |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| numerator | [MathBar](../mathbar) | Numerator |
-| denominator | [MathBar](../../mathbar) | Denominator |
+| numerator | [MathBar] | Numerator |
+| denominator | [MathBar] | Denominator |
 
 ### Result
-[MathFraction](../../mathfraction)
+[MathFraction]
 
 
 ---

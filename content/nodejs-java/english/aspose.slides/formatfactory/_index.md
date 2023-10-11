@@ -20,39 +20,34 @@ FormatFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createParagraphFormat]() | Creates new IParagraphFormat. |
+| [createParagraphFormat] () Creates new IParagraphFormat. |
 
 ### Result
-[ParagraphFormat](../../paragraphformat)
+[ParagraphFormat]
 
 
 ---
 
 
-| [createPortionFormat]() | Creates new IPortionFormat. |
+| [createPortionFormat] () Creates new IPortionFormat. |
 
 ### Result
-[PortionFormat](../../portionformat)
+[PortionFormat]
 
 
 ---
 
 
-| [createTextFrameFormat]() | Creates new ITextFrameFormat. |
+| [createTextFrameFormat] () Creates new ITextFrameFormat. |
 
 ### Result
-[TextFrameFormat](../../textframeformat)
+[TextFrameFormat]
 
 
 ---
 
 
-| [getInstance]() | Format factory static instance. Read-only FormatFactory. |
+| [getInstance] () Format factory static instance. Read-only FormatFactory. |
 
 ### Result
 FormatFactory

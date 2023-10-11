@@ -20,7 +20,7 @@ MathParagraph
 ---
 
 
-| [MathParagraph]([MathBlock](../mathblock)) | Initializes a new instance of the MathParagraph class. |
+| [MathParagraph]([MathBlock]) | Initializes a new instance of the MathParagraph class. |
 
 ### Result
 MathParagraph
@@ -29,36 +29,31 @@ MathParagraph
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add]([MathBlock](../mathblock)) | Adds IMathBlock to the end of collection. |
+| [add] ([MathBlock]) Adds IMathBlock to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | [MathBlock](../../mathblock) | A mathematical block that will be added to the end of the collection |
+| mathBlock | [MathBlock] | A mathematical block that will be added to the end of the collection |
 
 
 ---
 
 
-| [clear]() | Removes all elements from the collection. |
+| [clear] () Removes all elements from the collection. |
 
 
 ---
 
 
-| [contains]([MathBlock](../mathblock)) | Determines whether the collection contains a specific value. |
+| [contains] ([MathBlock]) Determines whether the collection contains a specific value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | [MathBlock](../../mathblock) | The object to locate in the collection. |
+| mathBlock | [MathBlock] | The object to locate in the collection. |
 
 ### Result
 boolean
@@ -67,7 +62,7 @@ boolean
 ---
 
 
-| [getCount]() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [getCount] () Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int
@@ -76,7 +71,7 @@ int
 ---
 
 
-| [getJustification]() | Paragraph Justification Default value: CenteredAsGroup |
+| [getJustification] () Paragraph Justification Default value: CenteredAsGroup |
 
 ### Result
 int
@@ -85,28 +80,28 @@ int
 ---
 
 
-| [get_Item](int) | Gets the item at the specified index. Read-only IMathBlock. |
+| [get_Item] ([int]) Gets the item at the specified index. Read-only IMathBlock. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the item to get |
+| index | [int] | The zero-based index of the item to get |
 
 ### Result
-[MathBlock](../../mathblock)
+[MathBlock]
 
 
 ---
 
 
-| [indexOf]([MathBlock](../mathblock)) | Determines the index of a specific IMathBlock in collection. |
+| [indexOf] ([MathBlock]) Determines the index of a specific IMathBlock in collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | [MathBlock](../../mathblock) | The item to locate in the collection. |
+| mathBlock | [MathBlock] | The item to locate in the collection. |
 
 ### Result
 int
@@ -115,20 +110,20 @@ int
 ---
 
 
-| [insert](int, [MathBlock](../mathblock)) | Inserts IMathBlock into the collection at the specified index. |
+| [insert] ([int], [MathBlock]) Inserts IMathBlock into the collection at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which an item should be inserted. |
-| mathBlock | [MathBlock](../../mathblock) | The IMathBlock to insert. |
+| index | [int] | The zero-based index at which an item should be inserted. |
+| mathBlock | [MathBlock] | The IMathBlock to insert. |
 
 
 ---
 
 
-| [iterator]() |  |
+| [iterator] ()  |
 
 ### Result
 
@@ -137,7 +132,7 @@ int
 ---
 
 
-| [iteratorJava]() |  |
+| [iteratorJava] ()  |
 
 ### Result
 
@@ -146,13 +141,13 @@ int
 ---
 
 
-| [remove]([MathBlock](../mathblock)) | Removes the first occurrence of a specific object from the collection. |
+| [remove] ([MathBlock]) Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | [MathBlock](../../mathblock) | The object to remove from the collection. |
+| mathBlock | [MathBlock] | The object to remove from the collection. |
 
 ### Result
 boolean
@@ -161,45 +156,45 @@ boolean
 ---
 
 
-| [removeAt](int) | Removes an item at the specified index of the collection. |
+| [removeAt] ([int]) Removes an item at the specified index of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the item to remove. |
+| index | [int] | The zero-based index of the item to remove. |
 
 
 ---
 
 
-| [setJustification](int) | Paragraph Justification Default value: CenteredAsGroup |
+| [setJustification] ([int]) Paragraph Justification Default value: CenteredAsGroup |
 
 
 ---
 
 
-| [set_Item](int, [MathBlock](../mathblock)) | Gets the item at the specified index. Read-only IMathBlock. |
+| [set_Item] ([int], [MathBlock]) Gets the item at the specified index. Read-only IMathBlock. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | int | The block of a mathematical text. |
-| index | [MathBlock](../../mathblock) | The zero-based index of the item to get |
+| value | [int] | The block of a mathematical text. |
+| index | [MathBlock] | The zero-based index of the item to get |
 
 
 ---
 
 
-| [writeAsMathMlToStream ](MathParagraph, WriteStream) | Saves content of this MathParagraph as MathML |
+| [writeAsMathMlToStream ] (MathParagraph, [WriteStream]) Saves content of this MathParagraph as MathML |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathparagraph | MathParagraph  | link to self |
-| stream | WriteStream | Target stream |
+| stream | [WriteStream] | Target stream |
 
 
 ---

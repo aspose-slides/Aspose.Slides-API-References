@@ -11,12 +11,7 @@ url: /aspose.slides/glittertransition/
 
  Glitter slide transition effect.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getDirection]() | Direction of transition. Read/write TransitionSideDirectionType. |
+| [getDirection] () Direction of transition. Read/write TransitionSideDirectionType. |
 
 ### Result
 int
@@ -25,7 +20,7 @@ int
 ---
 
 
-| [getPattern]() | Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
+| [getPattern] () Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
 
 ### Result
 int
@@ -34,13 +29,13 @@ int
 ---
 
 
-| [setDirection](int) | Direction of transition. Read/write TransitionSideDirectionType. |
+| [setDirection] ([int]) Direction of transition. Read/write TransitionSideDirectionType. |
 
 
 ---
 
 
-| [setPattern](int) | Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
+| [setPattern] ([int]) Specifies the shape of the visuals used during the transition. Read/write TransitionPattern. |
 
 
 ---

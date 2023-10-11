@@ -11,39 +11,34 @@ url: /aspose.slides/notesslide/
 
  Represents a notes slide in a presentation.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getHeaderFooterManager]() | Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManager. |
+| [getHeaderFooterManager] () Returns HeaderFooter manager of the notes slide. Read-only INotesSlideHeaderFooterManager. |
 
 ### Result
-[NotesSlideHeaderFooterManager](../../notesslideheaderfootermanager)
+[NotesSlideHeaderFooterManager]
 
 
 ---
 
 
-| [getNotesTextFrame]() | Returns a TextFrame with notes' text if there is one. Read-only ITextFrame. |
+| [getNotesTextFrame] () Returns a TextFrame with notes' text if there is one. Read-only ITextFrame. |
 
 ### Result
-[TextFrame](../../textframe)
+[TextFrame]
 
 
 ---
 
 
-| [getParentSlide]() | Returns the parent slide. Read-only ISlide. |
+| [getParentSlide] () Returns the parent slide. Read-only ISlide. |
 
 ### Result
-[Slide](../../slide)
+[Slide]
 
 
 ---
 
 
-| [getShowMasterShapes]() | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| [getShowMasterShapes] () Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
 ### Result
 boolean
@@ -52,16 +47,16 @@ boolean
 ---
 
 
-| [getThemeManager]() | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
+| [getThemeManager] () Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
 ### Result
-[NotesSlideThemeManager](../../notesslidethememanager), [ChartThemeManager](../../chartthememanager), [BaseOverrideThemeManager](../../baseoverridethememanager), [LayoutSlideThemeManager](../../layoutslidethememanager), [SlideThemeManager](../../slidethememanager)
+[NotesSlideThemeManager], [ChartThemeManager], [BaseOverrideThemeManager], [LayoutSlideThemeManager], [SlideThemeManager]
 
 
 ---
 
 
-| [setShowMasterShapes](boolean) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| [setShowMasterShapes] ([boolean]) Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
 
 ---

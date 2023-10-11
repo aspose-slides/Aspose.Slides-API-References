@@ -11,48 +11,43 @@ url: /aspose.slides/portioncollection/
 
  Represents a collection of portions.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add]([Portion](../portion)) | Adds a Portion to the end of collection. |
+| [add] ([Portion]) Adds a Portion to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [Portion](../../portion) | The Portion to be added to the end of the collection. |
+| value | [Portion] | The Portion to be added to the end of the collection. |
 
 
 ---
 
 
-| [add]([MathPortion](../mathportion)) | Adds a Portion to the end of collection. |
+| [add] ([MathPortion]) Adds a Portion to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [MathPortion](../../mathportion) | The Portion to be added to the end of the collection. |
+| value | [MathPortion] | The Portion to be added to the end of the collection. |
 
 
 ---
 
 
-| [clear]() | Removes all elements from the collection. |
+| [clear] () Removes all elements from the collection. |
 
 
 ---
 
 
-| [contains]([Portion](../portion)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([Portion]) Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Portion](../../portion) | The object to locate in the IGenericCollection. |
+| item | [Portion] | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -61,13 +56,13 @@ boolean
 ---
 
 
-| [contains]([MathPortion](../mathportion)) | Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([MathPortion]) Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [MathPortion](../../mathportion) | The object to locate in the IGenericCollection. |
+| item | [MathPortion] | The object to locate in the IGenericCollection. |
 
 ### Result
 boolean
@@ -76,14 +71,14 @@ boolean
 ---
 
 
-| [copyTo](com.aspose.slides.IPortion[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| [copyTo] ([com.aspose.slides.IPortion[]], [int]) Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| array | com.aspose.slides.IPortion[] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
-| arrayIndex | int | The zero-based index in array at which copying begins. |
+| array | [com.aspose.slides.IPortion[]] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
+| arrayIndex | [int] | The zero-based index in array at which copying begins. |
 
 ### Error
 
@@ -95,7 +90,7 @@ boolean
 ---
 
 
-| [getCount]() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [getCount] () Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int
@@ -104,37 +99,22 @@ int
 ---
 
 
-| [get_Item](int) | Gets the element at the specified index. |
+| [get_Item] ([int]) Gets the element at the specified index. |
 
 ### Result
-[Portion](../../portion), [MathPortion](../../mathportion)
+[Portion], [MathPortion]
 
 
 ---
 
 
-| [indexOf]([Portion](../portion)) | Determines the index of a specific item in the List. |
+| [indexOf] ([Portion]) Determines the index of a specific item in the List. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Portion](../../portion) | The object to locate in the List. |
-
-### Result
-int
-
-
----
-
-
-| [indexOf]([MathPortion](../mathportion)) | Determines the index of a specific item in the List. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathPortion](../../mathportion) | The object to locate in the List. |
+| item | [Portion] | The object to locate in the List. |
 
 ### Result
 int
@@ -143,33 +123,48 @@ int
 ---
 
 
-| [insert](int, [Portion](../portion)) | Inserts a Portion into the collection at the specified index. |
+| [indexOf] ([MathPortion]) Determines the index of a specific item in the List. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which Portion should be inserted. |
-| value | [Portion](../../portion) | The Portion to insert. |
+| item | [MathPortion] | The object to locate in the List. |
+
+### Result
+int
 
 
 ---
 
 
-| [insert](int, [MathPortion](../mathportion)) | Inserts a Portion into the collection at the specified index. |
+| [insert] ([int], [Portion]) Inserts a Portion into the collection at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which Portion should be inserted. |
-| value | [MathPortion](../../mathportion) | The Portion to insert. |
+| index | [int] | The zero-based index at which Portion should be inserted. |
+| value | [Portion] | The Portion to insert. |
 
 
 ---
 
 
-| [isReadOnly]() | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| [insert] ([int], [MathPortion]) Inserts a Portion into the collection at the specified index. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | [int] | The zero-based index at which Portion should be inserted. |
+| value | [MathPortion] | The Portion to insert. |
+
+
+---
+
+
+| [isReadOnly] () Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
 ### Result
 boolean
@@ -178,7 +173,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -187,7 +182,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -196,34 +191,13 @@ boolean
 ---
 
 
-| [remove]([Portion](../portion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
+| [remove] ([Portion]) Removes the first occurrence of a specific object from the IGenericCollection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | [Portion](../../portion) | The object to remove from the IGenericCollection. |
-
-### Result
-boolean
-
-### Error
-
-| Error | Condition |
-| --- | --- |
- | com.aspose.ms.System.NotSupportedException | The IGenericCollection is read-only. |
-
-
----
-
-
-| [remove]([MathPortion](../mathportion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| item | [MathPortion](../../mathportion) | The object to remove from the IGenericCollection. |
+| item | [Portion] | The object to remove from the IGenericCollection. |
 
 ### Result
 boolean
@@ -238,25 +212,46 @@ boolean
 ---
 
 
-| [removeAt](int) | Removes the element at the specified index of the collection. |
+| [remove] ([MathPortion]) Removes the first occurrence of a specific object from the IGenericCollection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to remove. |
+| item | [MathPortion] | The object to remove from the IGenericCollection. |
+
+### Result
+boolean
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | com.aspose.ms.System.NotSupportedException | The IGenericCollection is read-only. |
 
 
 ---
 
 
-| [set_Item](int, [Portion](../portion)) | Gets the element at the specified index. |
+| [removeAt] ([int]) Removes the element at the specified index of the collection. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| index | [int] | The zero-based index of the element to remove. |
 
 
 ---
 
 
-| [set_Item](int, [MathPortion](../mathportion)) | Gets the element at the specified index. |
+| [set_Item] ([int], [Portion]) Gets the element at the specified index. |
+
+
+---
+
+
+| [set_Item] ([int], [MathPortion]) Gets the element at the specified index. |
 
 
 ---

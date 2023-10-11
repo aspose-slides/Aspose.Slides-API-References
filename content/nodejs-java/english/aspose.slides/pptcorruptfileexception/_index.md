@@ -20,13 +20,13 @@ PptCorruptFileException
 ---
 
 
-| [PptCorruptFileException](String) | Constructor allowing a message to be added to this exception. |
+| [PptCorruptFileException]([String]) | Constructor allowing a message to be added to this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | message |
+| message | [String] | message |
 
 ### Result
 PptCorruptFileException
@@ -35,14 +35,14 @@ PptCorruptFileException
 ---
 
 
-| [PptCorruptFileException](String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptCorruptFileException]([String], [RuntimeException]) | Constructor for an exception containing a message and an embedded exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | message |
-| exception | RuntimeException | original exception |
+| message | [String] | message |
+| exception | [RuntimeException] | original exception |
 
 ### Result
 PptCorruptFileException

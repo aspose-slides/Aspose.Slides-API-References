@@ -20,24 +20,19 @@ FontFallBackRulesCollection
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add]([FontFallBackRule](../fontfallbackrule)) | Add a specified FallBack rule to the end of the collection. |
+| [add] ([FontFallBackRule]) Add a specified FallBack rule to the end of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sourceRule | [FontFallBackRule](../../fontfallbackrule) | Specified rule for adding |
+| sourceRule | [FontFallBackRule] | Specified rule for adding |
 
 
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -46,16 +41,16 @@ Object
 ---
 
 
-| [get_Item](int) | Gets the rule at the specified index. Read-only IFontFallBackRule. |
+| [get_Item] ([int]) Gets the rule at the specified index. Read-only IFontFallBackRule. |
 
 ### Result
-[FontFallBackRule](../../fontfallbackrule)
+[FontFallBackRule]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -64,7 +59,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -73,7 +68,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -82,19 +77,19 @@ boolean
 ---
 
 
-| [remove]([FontFallBackRule](../fontfallbackrule)) | Removes the first occurrence of a specific FallBack rule from the collection. |
+| [remove] ([FontFallBackRule]) Removes the first occurrence of a specific FallBack rule from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| targetRule | [FontFallBackRule](../../fontfallbackrule) | The rule to remove from the collection. |
+| targetRule | [FontFallBackRule] | The rule to remove from the collection. |
 
 
 ---
 
 
-| [size]() | Gets the number of rules actually contained in the collection. Read-only int. |
+| [size] () Gets the number of rules actually contained in the collection. Read-only int. |
 
 ### Result
 int

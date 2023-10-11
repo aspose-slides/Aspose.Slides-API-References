@@ -11,12 +11,7 @@ url: /aspose.slides/gradientstopcollectioneffectivedata/
 
  Represents a collection of GradientStopData objects.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -25,16 +20,16 @@ Object
 ---
 
 
-| [get_Item](int) | Returns the gradient stop by index. |
+| [get_Item] ([int]) Returns the gradient stop by index. |
 
 ### Result
-[GradientStopEffectiveData](../../gradientstopeffectivedata)
+[GradientStopEffectiveData]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -43,7 +38,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -52,7 +47,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -61,7 +56,7 @@ boolean
 ---
 
 
-| [size]() | Returns the number of gradient stops in a collection. Read-only int. |
+| [size] () Returns the number of gradient stops in a collection. Read-only int. |
 
 ### Result
 int

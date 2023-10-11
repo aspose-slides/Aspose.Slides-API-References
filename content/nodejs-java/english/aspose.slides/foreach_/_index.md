@@ -22,139 +22,134 @@ ForEach_
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [layoutSlide]([Presentation](../presentation), [ForEach_.ForEachLayoutSlideCallback](../foreach_.foreachlayoutslidecallback)) | Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
+| [layoutSlide] ([Presentation], [ForEach_.ForEachLayoutSlideCallback]) Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate layout slides |
-| forEachLayoutSlide | [ForEach_.ForEachLayoutSlideCallback](../../foreach_.foreachlayoutslidecallback) | Callback that will be invoked for each layout slide |
+| pres | [Presentation] | Presentation to iterate layout slides |
+| forEachLayoutSlide | [ForEach_.ForEachLayoutSlideCallback] | Callback that will be invoked for each layout slide |
 
 
 ---
 
 
-| [masterSlide]([Presentation](../presentation), [ForEach_.ForEachMasterSlideCallback](../foreach_.foreachmasterslidecallback)) | Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
+| [masterSlide] ([Presentation], [ForEach_.ForEachMasterSlideCallback]) Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate master slides |
-| forEachMasterSlide | [ForEach_.ForEachMasterSlideCallback](../../foreach_.foreachmasterslidecallback) | Callback that will be invoked for each master slide |
+| pres | [Presentation] | Presentation to iterate master slides |
+| forEachMasterSlide | [ForEach_.ForEachMasterSlideCallback] | Callback that will be invoked for each master slide |
 
 
 ---
 
 
-| [paragraph]([Presentation](../presentation), [ForEach_.ForEachParagraphCallback](../foreach_.foreachparagraphcallback)) | Iterate each Paragraph in the Presentation. |
+| [paragraph] ([Presentation], [ForEach_.ForEachParagraphCallback]) Iterate each Paragraph in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate paragraphs |
-| forEachParagraph | [ForEach_.ForEachParagraphCallback](../../foreach_.foreachparagraphcallback) | Callback that will be invoked for each paragraph Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+| pres | [Presentation] | Presentation to iterate paragraphs |
+| forEachParagraph | [ForEach_.ForEachParagraphCallback] | Callback that will be invoked for each paragraph Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 
 ---
 
 
-| [paragraph]([Presentation](../presentation), boolean, [ForEach_.ForEachParagraphCallback](../foreach_.foreachparagraphcallback)) | Iterate each Paragraph in the Presentation. |
+| [paragraph] ([Presentation], [boolean], [ForEach_.ForEachParagraphCallback]) Iterate each Paragraph in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate paragraphs |
-| includeNotes | boolean | Flag that indicates whether NotesSlides should be included in processing. |
-| forEachParagraph | [ForEach_.ForEachParagraphCallback](../../foreach_.foreachparagraphcallback) | Callback that will be invoked for each paragraph Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback), #layoutSlide(Presentation,ForEachLayoutSlideCallback) and NotesSlide |
+| pres | [Presentation] | Presentation to iterate paragraphs |
+| includeNotes | [boolean] | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachParagraph | [ForEach_.ForEachParagraphCallback] | Callback that will be invoked for each paragraph Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback), #layoutSlide(Presentation,ForEachLayoutSlideCallback) and NotesSlide |
 
 
 ---
 
 
-| [portion]([Presentation](../presentation), [ForEach_.ForEachPortionCallback](../foreach_.foreachportioncallback)) | Iterate each Portion in the Presentation. |
+| [portion] ([Presentation], [ForEach_.ForEachPortionCallback]) Iterate each Portion in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate portions |
-| forEachPortion | [ForEach_.ForEachPortionCallback](../../foreach_.foreachportioncallback) | Callback that will be invoked for each portion Portions will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+| pres | [Presentation] | Presentation to iterate portions |
+| forEachPortion | [ForEach_.ForEachPortionCallback] | Callback that will be invoked for each portion Portions will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 
 ---
 
 
-| [portion]([Presentation](../presentation), boolean, [ForEach_.ForEachPortionCallback](../foreach_.foreachportioncallback)) | Iterate each Portion in the Presentation. |
+| [portion] ([Presentation], [boolean], [ForEach_.ForEachPortionCallback]) Iterate each Portion in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate portions |
-| includeNotes | boolean | Flag that indicates whether NotesSlides should be included in processing. |
-| forEachPortion | [ForEach_.ForEachPortionCallback](../../foreach_.foreachportioncallback) | Callback that will be invoked for each portion Portions will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback), #layoutSlide(Presentation,ForEachLayoutSlideCallback) and NotesSlide |
+| pres | [Presentation] | Presentation to iterate portions |
+| includeNotes | [boolean] | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachPortion | [ForEach_.ForEachPortionCallback] | Callback that will be invoked for each portion Portions will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback), #layoutSlide(Presentation,ForEachLayoutSlideCallback) and NotesSlide |
 
 
 ---
 
 
-| [shape]([Presentation](../presentation), [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the Presentation. |
+| [shape] ([Presentation], [ForEach_.ForEachShapeCallback]) Iterate each Shape in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate layout shapes |
-| forEachShape | [ForEach_.ForEachShapeCallback](../../foreach_.foreachshapecallback) | Callback that will be invoked for each shape Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+| pres | [Presentation] | Presentation to iterate layout shapes |
+| forEachShape | [ForEach_.ForEachShapeCallback] | Callback that will be invoked for each shape Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 
 ---
 
 
-| [shape]([Presentation](../presentation), boolean, [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the Presentation. |
+| [shape] ([Presentation], [boolean], [ForEach_.ForEachShapeCallback]) Iterate each Shape in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate layout shapes |
-| includeNotes | boolean | Flag that indicates whether NotesSlides should be included in processing. |
-| forEachShape | [ForEach_.ForEachShapeCallback](../../foreach_.foreachshapecallback) | Callback that will be invoked for each shape Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback), #layoutSlide(Presentation,ForEachLayoutSlideCallback) and NotesSlide if needed. |
+| pres | [Presentation] | Presentation to iterate layout shapes |
+| includeNotes | [boolean] | Flag that indicates whether NotesSlides should be included in processing. |
+| forEachShape | [ForEach_.ForEachShapeCallback] | Callback that will be invoked for each shape Shapes will be iterated in all type of slides - #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback), #layoutSlide(Presentation,ForEachLayoutSlideCallback) and NotesSlide if needed. |
 
 
 ---
 
 
-| [shape]([BaseSlide](../baseslide), [ForEach_.ForEachShapeCallback](../foreach_.foreachshapecallback)) | Iterate each Shape in the BaseSlide. |
+| [shape] ([BaseSlide], [ForEach_.ForEachShapeCallback]) Iterate each Shape in the BaseSlide. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseSlide | [BaseSlide](../baseslide) | Slide to iterate layout shapes |
-| forEachShape | [ForEach_.ForEachShapeCallback](../../foreach_.foreachshapecallback) | Callback that will be invoked for each shape BaseSlide is the base type for #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
+| baseSlide | [BaseSlide] | Slide to iterate layout shapes |
+| forEachShape | [ForEach_.ForEachShapeCallback] | Callback that will be invoked for each shape BaseSlide is the base type for #slide(Presentation,ForEachSlideCallback), #masterSlide(Presentation,ForEachMasterSlideCallback) and #layoutSlide(Presentation,ForEachLayoutSlideCallback) |
 
 
 ---
 
 
-| [slide]([Presentation](../presentation), [ForEach_.ForEachSlideCallback](../foreach_.foreachslidecallback)) | Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |
+| [slide] ([Presentation], [ForEach_.ForEachSlideCallback]) Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | [Presentation](../presentation) | Presentation to iterate slides |
-| forEachSlide | [ForEach_.ForEachSlideCallback](../../foreach_.foreachslidecallback) | Callback that will be invoked for each slide |
+| pres | [Presentation] | Presentation to iterate slides |
+| forEachSlide | [ForEach_.ForEachSlideCallback] | Callback that will be invoked for each slide |
 
 
 ---

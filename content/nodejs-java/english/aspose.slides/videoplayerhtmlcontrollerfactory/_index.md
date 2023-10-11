@@ -22,23 +22,18 @@ VideoPlayerHtmlControllerFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createVideoPlayerHtmlController](String, String, String) | Creates new VideoPlayerHtmlController. |
+| [createVideoPlayerHtmlController] ([String], [String], [String]) Creates new VideoPlayerHtmlController. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| path | String | Path. |
-| fileName | String | File name. |
-| baseUri | String | Base URI. |
+| path | [String] | Path. |
+| fileName | [String] | File name. |
+| baseUri | [String] | Base URI. |
 
 ### Result
-[VideoPlayerHtmlController](../../videoplayerhtmlcontroller)
+[VideoPlayerHtmlController]
 
 
 ---

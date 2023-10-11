@@ -20,12 +20,7 @@ NotesSize
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getSize]() | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+| [getSize] () Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
 
 ### Result
 Dimension2D
@@ -34,7 +29,7 @@ Dimension2D
 ---
 
 
-| [setSize](Dimension2D) | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
+| [setSize] ([Dimension2D]) Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
 
 
 ---

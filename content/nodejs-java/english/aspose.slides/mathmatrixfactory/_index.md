@@ -22,22 +22,17 @@ MathMatrixFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createMathMatrix](int, int) | Creates a math matrix |
+| [createMathMatrix] ([int], [int]) Creates a math matrix |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| rowCount | int | row count |
-| columnCount | int | column count |
+| rowCount | [int] | row count |
+| columnCount | [int] | column count |
 
 ### Result
-[MathMatrix](../../mathmatrix)
+[MathMatrix]
 
 
 ---

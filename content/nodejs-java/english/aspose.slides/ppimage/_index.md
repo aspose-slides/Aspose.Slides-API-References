@@ -11,18 +11,13 @@ url: /aspose.slides/ppimage/
 
  Represents an image in a presentation.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [dispose]() | Disposes object. |
+| [dispose] () Disposes object. |
 
 
 ---
 
 
-| [getBinaryData]() | Returns the copy of an image's data. Read-only byte[]. |
+| [getBinaryData] () Returns the copy of an image's data. Read-only byte[]. |
 
 ### Result
 byte
@@ -31,7 +26,7 @@ byte
 ---
 
 
-| [getContentType]() | Returns a MIME type of an image, encoded in BinaryData( #getBinaryData). Read-only String. |
+| [getContentType] () Returns a MIME type of an image, encoded in BinaryData( #getBinaryData). Read-only String. |
 
 ### Result
 String
@@ -40,7 +35,7 @@ String
 ---
 
 
-| [getHeight]() | Returns a height of an image. Read-only int. |
+| [getHeight] () Returns a height of an image. Read-only int. |
 
 ### Result
 int
@@ -49,16 +44,16 @@ int
 ---
 
 
-| [getSvgImage]() | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
+| [getSvgImage] () Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
 
 ### Result
-[SvgImage](../../svgimage)
+[SvgImage]
 
 
 ---
 
 
-| [getSystemImage]() | Returns the copy of an image. Read-only java.awt.image.BufferedImage. |
+| [getSystemImage] () Returns the copy of an image. Read-only java.awt.image.BufferedImage. |
 
 ### Result
 BufferedImage
@@ -67,7 +62,7 @@ BufferedImage
 ---
 
 
-| [getWidth]() | Returns a width of an image. Read-only int. |
+| [getWidth] () Returns a width of an image. Read-only int. |
 
 ### Result
 int
@@ -76,7 +71,7 @@ int
 ---
 
 
-| [getX]() | Returns a X-offset of an image. Read-only int. |
+| [getX] () Returns a X-offset of an image. Read-only int. |
 
 ### Result
 int
@@ -85,7 +80,7 @@ int
 ---
 
 
-| [getY]() | Returns a Y-offset of an image. Read-only int. |
+| [getY] () Returns a Y-offset of an image. Read-only int. |
 
 ### Result
 int
@@ -94,7 +89,7 @@ int
 ---
 
 
-| [hashCode]() | Returns the hash code of an image. |
+| [hashCode] () Returns the hash code of an image. |
 
 ### Result
 int
@@ -103,13 +98,13 @@ int
 ---
 
 
-| [replaceImage](byte[]) | Replaces image data. |
+| [replaceImage] ([byte[]]) Replaces image data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| newImageData | byte[] | The new image's data. |
+| newImageData | [byte[]] | The new image's data. |
 
 ### Error
 
@@ -121,13 +116,13 @@ int
 ---
 
 
-| [replaceImage]([PPImage](../ppimage)) | Replaces image data. |
+| [replaceImage] ([PPImage]) Replaces image data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| newImage | [PPImage](../../ppimage) | The new IPPImage. |
+| newImage | [PPImage] | The new IPPImage. |
 
 ### Error
 
@@ -139,7 +134,7 @@ int
 ---
 
 
-| [setSvgImage]([SvgImage](../svgimage)) | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
+| [setSvgImage] ([SvgImage]) Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
 
 
 ---

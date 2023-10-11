@@ -11,27 +11,22 @@ url: /aspose.slides/tabcollection/
 
  Represents a collection of tabs.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add](double, int) | Adds a Tab to the collection. |
+| [add] ([double], [int]) Adds a Tab to the collection. |
 
 ### Result
-[Tab](../../tab)
+[Tab]
 
 
 ---
 
 
-| [add]([Tab](../tab)) | Adds a Tab to the collection. |
+| [add] ([Tab]) Adds a Tab to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [Tab](../../tab) | The Tab object to be added at the end of the collection. |
+| value | [Tab] | The Tab object to be added at the end of the collection. |
 
 ### Result
 int
@@ -40,19 +35,19 @@ int
 ---
 
 
-| [clear]() | Removes all elements from the collection. |
+| [clear] () Removes all elements from the collection. |
 
 
 ---
 
 
-| [equals](Object) | Determines whether two TabsEx instances are equal. |
+| [equals] ([Object]) Determines whether two TabsEx instances are equal. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| obj | Object | The TabsEx to compare with the current TabsEx. |
+| obj | [Object] | The TabsEx to compare with the current TabsEx. |
 
 ### Result
 boolean
@@ -61,7 +56,7 @@ boolean
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -70,16 +65,16 @@ Object
 ---
 
 
-| [get_Item](int) | Gets the element at the specified index. Read-only Tab. |
+| [get_Item] ([int]) Gets the element at the specified index. Read-only Tab. |
 
 ### Result
-[Tab](../../tab)
+[Tab]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -88,7 +83,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -97,7 +92,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -106,19 +101,19 @@ boolean
 ---
 
 
-| [removeAt](int) | Removes the element at the specified index of the collection. |
+| [removeAt] ([int]) Removes the element at the specified index of the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index of the element to remove. |
+| index | [int] | The zero-based index of the element to remove. |
 
 
 ---
 
 
-| [size]() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

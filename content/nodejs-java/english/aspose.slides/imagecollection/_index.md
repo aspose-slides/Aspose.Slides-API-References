@@ -11,101 +11,96 @@ url: /aspose.slides/imagecollection/
 
  Represents collection of PPImage.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [addImage]([PPImage](../ppimage)) | Adds a copy of an image from an another presentation. |
+| [addImage] ([PPImage]) Adds a copy of an image from an another presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| imageSource | [PPImage](../../ppimage) | Source image. |
+| imageSource | [PPImage] | Source image. |
 
 ### Result
-[PPImage](../../ppimage)
+[PPImage]
 
 
 ---
 
 
-| [addImage](BufferedImage) | Add an image to a presentation. |
+| [addImage] ([BufferedImage]) Add an image to a presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| image | BufferedImage | Image to add. This function converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
+| image | [BufferedImage] | Image to add. This function converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
 ### Result
-[PPImage](../../ppimage)
+[PPImage]
 
 
 ---
 
 
-| [addImageFromStream ](ImageCollection, ReadStream, Function) | Add an image to a presentation from stream. |
+| [addImageFromStream ] (ImageCollection, [ReadStream], Function) Add an image to a presentation from stream. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | imagecollection | ImageCollection  | link to self |
-| stream | ReadStream | Stream to add image from. This function can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
+| stream | [ReadStream] | Stream to add image from. This function can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
 ### Result
-[PPImage](../../ppimage)
+[PPImage]
 
 
 ---
 
 
-| [addImageFromStream ](ImageCollection, ReadStream, int, Function) | Creates and adds an image to a presentation from stream. |
+| [addImageFromStream ] (ImageCollection, [ReadStream], [int], Function) Creates and adds an image to a presentation from stream. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | imagecollection | ImageCollection  | link to self |
-| stream | ReadStream | Stream to add image file from. |
-| loadingStreamBehavior | int | The behavior which will be applied to the stream. |
+| stream | [ReadStream] | Stream to add image file from. |
+| loadingStreamBehavior | [int] | The behavior which will be applied to the stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
 ### Result
-[PPImage](../../ppimage)
+[PPImage]
 
 
 ---
 
 
-| [addImage](byte[]) | Adds an image to a presentation from specified buffer. |
+| [addImage] ([byte[]]) Adds an image to a presentation from specified buffer. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| buffer | byte[] | Buffer. |
+| buffer | [byte[]] | Buffer. |
 
 ### Result
-[PPImage](../../ppimage)
+[PPImage]
 
 
 ---
 
 
-| [addImage]([SvgImage](../svgimage)) | Add an image to a presentation from Svg object. |
+| [addImage] ([SvgImage]) Add an image to a presentation from Svg object. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| svgImage | [SvgImage](../../svgimage) | Svg image object ISvgImage |
+| svgImage | [SvgImage] | Svg image object ISvgImage |
 
 ### Result
-[PPImage](../../ppimage)
+[PPImage]
 
 ### Error
 
@@ -117,7 +112,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -126,16 +121,16 @@ Object
 ---
 
 
-| [get_Item](int) | Gets the element at the specified index. Read-only IPPImage. |
+| [get_Item] ([int]) Gets the element at the specified index. Read-only IPPImage. |
 
 ### Result
-[PPImage](../../ppimage)
+[PPImage]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -144,7 +139,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -153,7 +148,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -162,7 +157,7 @@ boolean
 ---
 
 
-| [size]() | Returns a number of images in the collection. Read-only int. |
+| [size] () Returns a number of images in the collection. Read-only int. |
 
 ### Result
 int

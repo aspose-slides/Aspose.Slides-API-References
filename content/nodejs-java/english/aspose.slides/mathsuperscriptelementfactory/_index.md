@@ -22,5782 +22,5777 @@ MathSuperscriptElementFactory
 ---
 
 
+| [createMathSuperscriptElement] ([MathLimit], [MathLimit]) Creates IMathSuperscriptElement |
 
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
-
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLimit], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathLimit] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBorderBox], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathBorderBox] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFraction], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathFraction] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathDelimiter], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathDelimiter] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement],  [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement],  [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSuperscriptElement], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement],  [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement],  [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement],  [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathLeftSubSuperscriptElement], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement],  [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement],  [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement],  [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement],  [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRightSubSuperscriptElement], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBox](../mathbox), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBox], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathBox] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathMatrix], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathMatrix] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter],  [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathGroupingCharacter], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathGroupingCharacter] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathArray](../matharray), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathArray], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathArray] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBlock], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathBlock] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement),  [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement),  [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathSubscriptElement], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathSubscriptElement] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathFunction], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathFunction] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathNaryOperator], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathNaryOperator] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathematicalText], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathematicalText] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathAccent], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathAccent] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathRadical], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathRadical] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathLimit]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathLimit](../../mathlimit) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathLimit] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathBorderBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathBorderBox](../../mathborderbox) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathBorderBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathFraction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathFraction](../../mathfraction) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathFraction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathDelimiter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathDelimiter](../../mathdelimiter) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathDelimiter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathSuperscriptElement](../../mathsuperscriptelement) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathLeftSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathLeftSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathRightSubSuperscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathRightSubSuperscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathBox](../mathbox)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathBox]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathBox](../../mathbox) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathBox] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathMatrix]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathMatrix](../../mathmatrix) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathMatrix] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathGroupingCharacter]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathGroupingCharacter](../../mathgroupingcharacter) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathGroupingCharacter] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathArray](../matharray)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathArray]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathArray](../../matharray) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathArray] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathBlock]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathBlock](../../mathblock) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathBlock] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathSubscriptElement]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathSubscriptElement](../../mathsubscriptelement) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathSubscriptElement] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathFunction]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathFunction](../../mathfunction) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathFunction] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathNaryOperator]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathNaryOperator](../../mathnaryoperator) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathNaryOperator] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathematicalText]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathematicalText](../../mathematicaltext) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathematicalText] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathAccent]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathAccent](../../mathaccent) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathAccent] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathRadical]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathRadical](../../mathradical) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathRadical] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---
 
 
-| [createMathSuperscriptElement]([MathBar](../mathbar), [MathBar](../mathbar)) | Creates IMathSuperscriptElement |
+| [createMathSuperscriptElement] ([MathBar], [MathBar]) Creates IMathSuperscriptElement |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply superscript |
-| superScript | [MathBar](../../mathbar) | upper right index |
+| baseArg | [MathBar] | Base argument to apply superscript |
+| superScript | [MathBar] | upper right index |
 
 ### Result
-[MathSuperscriptElement](../../mathsuperscriptelement)
+[MathSuperscriptElement]
 
 
 ---

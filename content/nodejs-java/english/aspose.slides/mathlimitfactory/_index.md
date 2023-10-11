@@ -22,11919 +22,11914 @@ MathLimitFactory
 ---
 
 
+| [createMathLimit] ([MathLimit], [MathLimit], [boolean]) Creates IMathLimit |
 
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createMathLimit]([MathLimit](../mathlimit), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
-
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement],  [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement),  boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement),  boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement],  [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathLimit](../mathlimit), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathLimit], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathLimit](../mathlimit) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBorderBox](../mathborderbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBorderBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBorderBox](../mathborderbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathFraction](../mathfraction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathFraction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathFraction](../mathfraction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathDelimiter](../mathdelimiter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathDelimiter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathDelimiter](../mathdelimiter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../mathsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBox](../mathbox), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBox], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBox](../mathbox) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathMatrix](../mathmatrix), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathMatrix], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathMatrix](../mathmatrix) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../mathgroupingcharacter) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathArray](../matharray), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathArray], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathArray](../matharray) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBlock](../mathblock), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBlock], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBlock](../mathblock) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathSubscriptElement], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../mathsubscriptelement) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathFunction](../mathfunction), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathFunction], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathFunction](../mathfunction) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathNaryOperator], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../mathnaryoperator) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathematicalText](../mathematicaltext), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathematicalText], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathematicalText](../mathematicaltext) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathAccent](../mathaccent), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathAccent], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathAccent](../mathaccent) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathRadical](../mathradical), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathRadical], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathRadical](../mathradical) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBar](../mathbar), boolean) | Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBar], [boolean]) Creates IMathLimit |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBar](../mathbar) | Limit element |
-| upperLimit | boolean | Sets the placement of the limit on top |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLimit](../mathlimit), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLimit](../mathlimit) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBorderBox](../mathborderbox), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBorderBox](../mathborderbox) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFraction](../mathfraction), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFraction](../mathfraction) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathDelimiter](../mathdelimiter), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathDelimiter](../mathdelimiter) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSuperscriptElement](../mathsuperscriptelement), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSuperscriptElement](../mathsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBox](../mathbox), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBox](../mathbox) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathMatrix](../mathmatrix), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathMatrix](../mathmatrix) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathGroupingCharacter](../mathgroupingcharacter), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathGroupingCharacter](../mathgroupingcharacter) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathArray](../matharray), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathArray](../matharray) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBlock](../mathblock), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBlock](../mathblock) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathSubscriptElement](../mathsubscriptelement), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathSubscriptElement](../mathsubscriptelement) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathFunction](../mathfunction), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathFunction](../mathfunction) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathNaryOperator](../mathnaryoperator), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathNaryOperator](../mathnaryoperator) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathematicalText](../mathematicaltext), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathematicalText](../mathematicaltext) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathAccent](../mathaccent), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathAccent](../mathaccent) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathRadical](../mathradical), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathRadical](../mathradical) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathLimit](../mathlimit)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathLimit]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathLimit](../../mathlimit) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBorderBox](../mathborderbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBorderBox](../../mathborderbox) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathFraction](../mathfraction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathFraction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathFraction](../../mathfraction) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathDelimiter](../mathdelimiter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathDelimiter](../../mathdelimiter) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathSuperscriptElement](../mathsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathSuperscriptElement](../../mathsuperscriptelement) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBox](../mathbox)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBox]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBox](../../mathbox) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathMatrix](../mathmatrix)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathMatrix]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathMatrix](../../mathmatrix) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathGroupingCharacter](../mathgroupingcharacter)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathGroupingCharacter](../../mathgroupingcharacter) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathArray](../matharray)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathArray]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathArray](../../matharray) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBlock](../mathblock)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBlock]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBlock](../../mathblock) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathSubscriptElement](../mathsubscriptelement)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathSubscriptElement](../../mathsubscriptelement) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathFunction](../mathfunction)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathFunction]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathFunction](../../mathfunction) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathNaryOperator](../mathnaryoperator)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathNaryOperator](../../mathnaryoperator) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathematicalText](../mathematicaltext)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathematicalText]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathematicalText](../../mathematicaltext) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathAccent](../mathaccent)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathAccent]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathAccent](../../mathaccent) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathRadical](../mathradical)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathRadical]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathRadical](../../mathradical) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---
 
 
-| [createMathLimit]([MathBar](../mathbar), [MathBar](../mathbar)) | Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBar]) Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseArg | [MathBar](../mathbar) | Base argument to apply the limit |
-| limit | [MathBar](../../mathbar) | Limit element |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
 
 ### Result
-[MathLimit](../../mathlimit)
+[MathLimit]
 
 
 ---

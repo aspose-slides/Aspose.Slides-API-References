@@ -11,27 +11,22 @@ url: /aspose.slides/vbamodulecollection/
 
  Represents a collection of a VBA Project modules.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [addEmptyModule](String) | Adds a new empty module to the VBA Project. |
+| [addEmptyModule] ([String]) Adds a new empty module to the VBA Project. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | String | Name of the module |
+| name | [String] | Name of the module |
 
 ### Result
-[VbaModule](../../vbamodule)
+[VbaModule]
 
 
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -40,16 +35,16 @@ Object
 ---
 
 
-| [get_Item](int) | Gets the element at the specified index. |
+| [get_Item] ([int]) Gets the element at the specified index. |
 
 ### Result
-[VbaModule](../../vbamodule)
+[VbaModule]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -58,7 +53,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -67,7 +62,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -76,19 +71,19 @@ boolean
 ---
 
 
-| [remove]([VbaModule](../vbamodule)) | Removes the first occurrence of a specific object from the collection. |
+| [remove] ([VbaModule]) Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [VbaModule](../../vbamodule) | The module to remove from the collection. |
+| value | [VbaModule] | The module to remove from the collection. |
 
 
 ---
 
 
-| [size]() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

@@ -20,12 +20,7 @@ XpsOptions
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getDrawSlidesFrame]() | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| [getDrawSlidesFrame] () True to draw black frame around each slide. Read/write boolean. Default is false. |
 
 ### Result
 boolean
@@ -34,7 +29,7 @@ boolean
 ---
 
 
-| [getSaveMetafilesAsPng]() | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| [getSaveMetafilesAsPng] () True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
 ### Result
 boolean
@@ -43,7 +38,7 @@ boolean
 ---
 
 
-| [getShowHiddenSlides]() | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| [getShowHiddenSlides] () Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 ### Result
 boolean
@@ -52,19 +47,19 @@ boolean
 ---
 
 
-| [setDrawSlidesFrame](boolean) | True to draw black frame around each slide. Read/write boolean. Default is false. |
+| [setDrawSlidesFrame] ([boolean]) True to draw black frame around each slide. Read/write boolean. Default is false. |
 
 
 ---
 
 
-| [setSaveMetafilesAsPng](boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
+| [setSaveMetafilesAsPng] ([boolean]) True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
 
 ---
 
 
-| [setShowHiddenSlides](boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
+| [setShowHiddenSlides] ([boolean]) Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---

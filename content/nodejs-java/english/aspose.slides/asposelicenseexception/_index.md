@@ -18,13 +18,13 @@ AsposeLicenseException
 ---
 
 
-| [AsposeLicenseException](String) | Creates a new AsposeLicenseException with a message string. |
+| [AsposeLicenseException]([String]) | Creates a new AsposeLicenseException with a message string. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | The message string. |
+| message | [String] | The message string. |
 
 ### Result
 AsposeLicenseException
@@ -33,14 +33,14 @@ AsposeLicenseException
 ---
 
 
-| [AsposeLicenseException](String, Throwable) | Creates a new AsposeLicenseException with a message string and a reason. |
+| [AsposeLicenseException]([String], [Throwable]) | Creates a new AsposeLicenseException with a message string and a reason. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | The message string. |
-| cause | Throwable | The reason that indirectly caused this exception. |
+| message | [String] | The message string. |
+| cause | [Throwable] | The reason that indirectly caused this exception. |
 
 ### Result
 AsposeLicenseException

@@ -13,21 +13,16 @@ url: /aspose.slides/stringchartvalue/
  1) in cell/cells of workbook related to chart;
  2) as literal value.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getAsCells]() | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+| [getAsCells] () Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
 
 ### Result
-[ChartCellCollection](../../chartcellcollection)
+[ChartCellCollection]
 
 
 ---
 
 
-| [getAsLiteralString]() | Returns or sets value as literal string. Read/write String. |
+| [getAsLiteralString] () Returns or sets value as literal string. Read/write String. |
 
 ### Result
 String
@@ -36,7 +31,7 @@ String
 ---
 
 
-| [getCellsAddressInWorkbook]() | If DataSourceType property is DataSourceType.Worksheet then this function returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
+| [getCellsAddressInWorkbook] () If DataSourceType property is DataSourceType.Worksheet then this function returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
 
 ### Result
 String
@@ -45,7 +40,7 @@ String
 ---
 
 
-| [getData]() | Returns or sets Data object. Read/write Object. |
+| [getData] () Returns or sets Data object. Read/write Object. |
 
 ### Result
 Object
@@ -54,37 +49,37 @@ Object
 ---
 
 
-| [setAsCells]([ChartCellCollection](../chartcellcollection)) | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+| [setAsCells] ([ChartCellCollection]) Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
 
 
 ---
 
 
-| [setAsLiteralString](String) | Returns or sets value as literal string. Read/write String. |
+| [setAsLiteralString] ([String]) Returns or sets value as literal string. Read/write String. |
 
 
 ---
 
 
-| [setData](Object) | Returns or sets Data object. Read/write Object. |
+| [setData] ([Object]) Returns or sets Data object. Read/write Object. |
 
 
 ---
 
 
-| [setFromOneCell]([ChartDataCell](../chartdatacell)) | Sets value from specified cell. |
+| [setFromOneCell] ([ChartDataCell]) Sets value from specified cell. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell | [ChartDataCell](../../chartdatacell) | Cell. |
+| cell | [ChartDataCell] | Cell. |
 
 
 ---
 
 
-| [toString]() | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
+| [toString] () Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
 
 ### Result
 String

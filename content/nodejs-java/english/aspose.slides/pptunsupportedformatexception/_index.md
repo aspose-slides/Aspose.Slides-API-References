@@ -20,13 +20,13 @@ PptUnsupportedFormatException
 ---
 
 
-| [PptUnsupportedFormatException](String) | Constructor allowing a message to be added to this exception. |
+| [PptUnsupportedFormatException]([String]) | Constructor allowing a message to be added to this exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | message |
+| message | [String] | message |
 
 ### Result
 PptUnsupportedFormatException
@@ -35,14 +35,14 @@ PptUnsupportedFormatException
 ---
 
 
-| [PptUnsupportedFormatException](String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
+| [PptUnsupportedFormatException]([String], [RuntimeException]) | Constructor for an exception containing a message and an embedded exception. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| message | String | message |
-| exception | RuntimeException | original exception |
+| message | [String] | message |
+| exception | [RuntimeException] | original exception |
 
 ### Result
 PptUnsupportedFormatException

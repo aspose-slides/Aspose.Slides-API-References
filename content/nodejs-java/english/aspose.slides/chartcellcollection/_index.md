@@ -11,30 +11,25 @@ url: /aspose.slides/chartcellcollection/
 
  Represents collection of a cells with data.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add]([ChartDataCell](../chartdatacell)) | Add new cell to the collection. |
+| [add] ([ChartDataCell]) Add new cell to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell | [ChartDataCell](../../chartdatacell) | New cell to add. |
+| cell | [ChartDataCell] | New cell to add. |
 
 
 ---
 
 
-| [add](Object) | Creates ChartDataCell from specified value and adds it to the collection. |
+| [add] ([Object]) Creates ChartDataCell from specified value and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | Object | The value. This function adds worksheet with name AUTO_DATA and adds all values there. If you use ChartDataWorkbook to add or edit Cell values, be sure that you do not use this worksheet Maximum number of values added using this function must not exceed 16711680 |
+| value | [Object] | The value. This function adds worksheet with name AUTO_DATA and adds all values there. If you use ChartDataWorkbook to add or edit Cell values, be sure that you do not use this worksheet Maximum number of values added using this function must not exceed 16711680 |
 
 ### Error
 
@@ -46,7 +41,7 @@ url: /aspose.slides/chartcellcollection/
 ---
 
 
-| [getCellsAddress]() | Returns address of the set of cells in workbook. |
+| [getCellsAddress] () Returns address of the set of cells in workbook. |
 
 ### Result
 String
@@ -55,7 +50,7 @@ String
 ---
 
 
-| [getConcatenatedValuesFromCells]() | Concatenation string from all cells string values. |
+| [getConcatenatedValuesFromCells] () Concatenation string from all cells string values. |
 
 ### Result
 String
@@ -64,7 +59,7 @@ String
 ---
 
 
-| [getCount]() | Gets the count of cells in collection. Read-only int. |
+| [getCount] () Gets the count of cells in collection. Read-only int. |
 
 ### Result
 int
@@ -73,31 +68,22 @@ int
 ---
 
 
-| [get_Item](int) | Returns a cell (IChartDataCell) by index. |
+| [get_Item] ([int]) Returns a cell (IChartDataCell) by index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of a cell. |
+| index | [int] | Index of a cell. |
 
 ### Result
-[ChartDataCell](../../chartdatacell)
+[ChartDataCell]
 
 
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
-
-### Result
-
-
-
----
-
-
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -106,13 +92,22 @@ int
 ---
 
 
-| [removeAt](int) | Removes a cell from the collection by index. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [removeAt] ([int]) Removes a cell from the collection by index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of a cell to remove. |
+| index | [int] | Index of a cell to remove. |
 
 
 ---

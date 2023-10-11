@@ -20,34 +20,29 @@ HtmlExternalResolver
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getEntity](String) | Maps a URI to an object containing the actual resource. |
+| [getEntity] ([String]) Maps a URI to an object containing the actual resource. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| absoluteUri | String | Absolute URI to the object. |
+| absoluteUri | [String] | Absolute URI to the object. |
 
 ### Result
-InputStream
+[InputStream]
 
 
 ---
 
 
-| [resolveUri](String, String) | Resolves the absolute URI from the base and relative URIs. |
+| [resolveUri] ([String], [String]) Resolves the absolute URI from the base and relative URIs. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| baseUri | String | Base URI of linking objects |
-| relativeUri | String | Relative URI to the linked object. |
+| baseUri | [String] | Base URI of linking objects |
+| relativeUri | [String] | Relative URI to the linked object. |
 
 ### Result
 String

@@ -11,12 +11,7 @@ url: /aspose.slides/commonslideviewproperties/
 
  Represents common slide view properties.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getScale]() | Specifies the view scaling ratio in percentages. Read/write int. |
+| [getScale] () Specifies the view scaling ratio in percentages. Read/write int. |
 
 ### Result
 int
@@ -31,7 +26,7 @@ int
 ---
 
 
-| [getVariableScale]() | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
+| [getVariableScale] () Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
 
 ### Result
 boolean
@@ -40,7 +35,7 @@ boolean
 ---
 
 
-| [setScale](int) | Specifies the view scaling ratio in percentages. Read/write int. |
+| [setScale] ([int]) Specifies the view scaling ratio in percentages. Read/write int. |
 
 ### Error
 
@@ -52,7 +47,7 @@ boolean
 ---
 
 
-| [setVariableScale](boolean) | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
+| [setVariableScale] ([boolean]) Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
 
 
 ---

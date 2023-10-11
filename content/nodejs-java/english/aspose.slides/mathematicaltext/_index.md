@@ -20,13 +20,13 @@ MathematicalText
 ---
 
 
-| [MathematicalText](char) | Create MathText with single symbol |
+| [MathematicalText]([char]) | Create MathText with single symbol |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathSymbol | char | single symbol |
+| mathSymbol | [char] | single symbol |
 
 ### Result
 MathematicalText
@@ -35,13 +35,13 @@ MathematicalText
 ---
 
 
-| [MathematicalText](String) | Create MathematicalText from text |
+| [MathematicalText]([String]) | Create MathematicalText from text |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathText | String | text value |
+| mathText | [String] | text value |
 
 ### Result
 MathematicalText
@@ -50,14 +50,14 @@ MathematicalText
 ---
 
 
-| [MathematicalText](String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
+| [MathematicalText]([String], [PortionFormat]) | Create MathematicalText from text and format settings |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathText | String | text value |
-| portionFormat | [PortionFormat](../../portionformat) | text format settings |
+| mathText | [String] | text value |
+| portionFormat | [PortionFormat] | text format settings |
 
 ### Result
 MathematicalText
@@ -66,30 +66,25 @@ MathematicalText
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getChildren]() | Get children elements |
+| [getChildren] () Get children elements |
 
 ### Result
-[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getFormat]() | Text formatting properties |
+| [getFormat] () Text formatting properties |
 
 ### Result
-[PortionFormat](../../portionformat)
+[PortionFormat]
 
 
 ---
 
 
-| [getValue]() | Text value |
+| [getValue] () Text value |
 
 ### Result
 String
@@ -98,7 +93,7 @@ String
 ---
 
 
-| [setValue](String) | Text value |
+| [setValue] ([String]) Text value |
 
 
 ---

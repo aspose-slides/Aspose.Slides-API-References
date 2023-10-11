@@ -11,81 +11,76 @@ url: /aspose.slides/chartseriescollection/
 
  Represents collection of   ChartSeries
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add](int) | Creates new chart series and adds it to the collection. |
+| [add] ([int]) Creates new chart series and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| type | int | Type of series |
+| type | [int] | Type of series |
 
 ### Result
-[ChartSeries](../../chartseries)
+[ChartSeries]
 
 
 ---
 
 
-| [add]([ChartDataCell](../chartdatacell), int) | Creates new chart series from ChartDataCell and adds it to the collection. |
+| [add] ([ChartDataCell], [int]) Creates new chart series from ChartDataCell and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellWithSeriesName | [ChartDataCell](../chartdatacell) | Cell which contain series name. |
-| type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
+| cellWithSeriesName | [ChartDataCell] | Cell which contain series name. |
+| type | [int] | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
 ### Result
-[ChartSeries](../../chartseries)
+[ChartSeries]
 
 
 ---
 
 
-| [add]([ChartCellCollection](../chartcellcollection), int) | Creates new chart series from ChartCellCollection and adds it to the collection. |
+| [add] ([ChartCellCollection], [int]) Creates new chart series from ChartCellCollection and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellsWithSeriesName | [ChartCellCollection](../chartcellcollection) | Cells which contain series name. |
-| type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
+| cellsWithSeriesName | [ChartCellCollection] | Cells which contain series name. |
+| type | [int] | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
 ### Result
-[ChartSeries](../../chartseries)
+[ChartSeries]
 
 
 ---
 
 
-| [add](String, int) | Creates new chart series from value and adds it to the collection. |
+| [add] ([String], [int]) Creates new chart series from value and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | String | Series name. |
-| type | int | Type set type of series |
+| name | [String] | Series name. |
+| type | [int] | Type set type of series |
 
 ### Result
-[ChartSeries](../../chartseries)
+[ChartSeries]
 
 
 ---
 
 
-| [clear]() | Removes all controls from the collection. |
+| [clear] () Removes all controls from the collection. |
 
 
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -94,10 +89,10 @@ Object
 ---
 
 
-| [get_Item](int) | Gets the element at the specified index. |
+| [get_Item] ([int]) Gets the element at the specified index. |
 
 ### Result
-[ChartSeries](../../chartseries)
+[ChartSeries]
 
 ### Error
 
@@ -109,13 +104,13 @@ Object
 ---
 
 
-| [indexOf]([ChartSeries](../chartseries)) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
+| [indexOf] ([ChartSeries]) Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartSeries](../../chartseries) | Chart series value. |
+| value | [ChartSeries] | Chart series value. |
 
 ### Result
 int
@@ -124,16 +119,16 @@ int
 ---
 
 
-| [insert](int, int) | Creates new chart series and inserts it into the collection. |
+| [insert] ([int], [int]) Creates new chart series and inserts it into the collection. |
 
 ### Result
-[ChartSeries](../../chartseries)
+[ChartSeries]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -142,7 +137,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -151,7 +146,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -160,13 +155,13 @@ boolean
 ---
 
 
-| [remove]([ChartSeries](../chartseries)) | Removes the specified value. |
+| [remove] ([ChartSeries]) Removes the specified value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartSeries](../../chartseries) | The value. |
+| value | [ChartSeries] | The value. |
 
 ### Error
 
@@ -178,19 +173,19 @@ boolean
 ---
 
 
-| [removeAt](int) | Removes an ActiveX control stored at specified position from the collection. |
+| [removeAt] ([int]) Removes an ActiveX control stored at specified position from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of a control to remove. |
+| index | [int] | Index of a control to remove. |
 
 
 ---
 
 
-| [size]() | Returns a number of objects in the collection. Read-only int. |
+| [size] () Returns a number of objects in the collection. Read-only int. |
 
 ### Result
 int

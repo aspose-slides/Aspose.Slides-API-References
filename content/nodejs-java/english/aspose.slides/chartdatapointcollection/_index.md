@@ -11,663 +11,658 @@ url: /aspose.slides/chartdatapointcollection/
 
  Represents collection of a series data point.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [addDataPointForAreaSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
+| [addDataPointForAreaSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForAreaSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
+| [addDataPointForAreaSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value |
+| value | [double] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBarSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
+| [addDataPointForBarSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBarSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
+| [addDataPointForBarSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value |
+| value | [double] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBoxAndWhiskerSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is BoxAndWhisker. |
+| [addDataPointForBoxAndWhiskerSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is BoxAndWhisker. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries]([ChartDataCell](../chartdatacell), [ChartDataCell](../chartdatacell), [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
-| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
-| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
+| xValue | [ChartDataCell] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
+| bubbleSize | [ChartDataCell] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](double, [ChartDataCell](../chartdatacell), [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | double | Data point XValue |
-| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
-| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
+| xValue | [double] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
+| bubbleSize | [ChartDataCell] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](String, [ChartDataCell](../chartdatacell), [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | String | Data point XValue |
-| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
-| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
+| xValue | [String] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
+| bubbleSize | [ChartDataCell] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries]([ChartDataCell](../chartdatacell), double, [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
-| yValue | double | Data point YValue |
-| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
+| xValue | [ChartDataCell] | Data point XValue |
+| yValue | [double] | Data point YValue |
+| bubbleSize | [ChartDataCell] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](double, double, [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | double | Data point XValue |
-| yValue | double | Data point YValue |
-| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
+| xValue | [double] | Data point XValue |
+| yValue | [double] | Data point YValue |
+| bubbleSize | [ChartDataCell] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](String, double, [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | String | Data point XValue |
-| yValue | double | Data point YValue |
-| bubbleSize | [ChartDataCell](../../chartdatacell) | Data point BubbleSize |
+| xValue | [String] | Data point XValue |
+| yValue | [double] | Data point YValue |
+| bubbleSize | [ChartDataCell] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries]([ChartDataCell](../chartdatacell), [ChartDataCell](../chartdatacell), double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
-| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
-| bubbleSize | double | Data point BubbleSize |
+| xValue | [ChartDataCell] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
+| bubbleSize | [double] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](double, [ChartDataCell](../chartdatacell), double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | double | Data point XValue |
-| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
-| bubbleSize | double | Data point BubbleSize |
+| xValue | [double] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
+| bubbleSize | [double] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](String, [ChartDataCell](../chartdatacell), double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | String | Data point XValue |
-| yValue | [ChartDataCell](../chartdatacell) | Data point YValue |
-| bubbleSize | double | Data point BubbleSize |
+| xValue | [String] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
+| bubbleSize | [double] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries]([ChartDataCell](../chartdatacell), double, double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
-| yValue | double | Data point YValue |
-| bubbleSize | double | Data point BubbleSize |
+| xValue | [ChartDataCell] | Data point XValue |
+| yValue | [double] | Data point YValue |
+| bubbleSize | [double] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](double, double, double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | double | Data point XValue |
-| yValue | double | Data point YValue |
-| bubbleSize | double | Data point BubbleSize |
+| xValue | [double] | Data point XValue |
+| yValue | [double] | Data point YValue |
+| bubbleSize | [double] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForBubbleSeries](String, double, double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | String | Data point XValue |
-| yValue | double | Data point YValue |
-| bubbleSize | double | Data point BubbleSize |
+| xValue | [String] | Data point XValue |
+| yValue | [double] | Data point YValue |
+| bubbleSize | [double] | Data point BubbleSize |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForDoughnutSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
+| [addDataPointForDoughnutSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForDoughnutSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
+| [addDataPointForDoughnutSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value |
+| value | [double] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForFunnelSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Funnel. |
+| [addDataPointForFunnelSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Funnel. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForHistogramSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Histogram. |
+| [addDataPointForHistogramSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Histogram. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForLineSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
+| [addDataPointForLineSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value. |
+| value | [ChartDataCell] | Data point Value. |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForLineSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
+| [addDataPointForLineSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value. |
+| value | [double] | Data point Value. |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForMapSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Map. |
+| [addDataPointForMapSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Map. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point ColorValue |
+| value | [ChartDataCell] | Data point ColorValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForPieSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
+| [addDataPointForPieSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForPieSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
+| [addDataPointForPieSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value |
+| value | [double] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForRadarSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
+| [addDataPointForRadarSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForRadarSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
+| [addDataPointForRadarSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value |
+| value | [double] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForScatterSeries]([ChartDataCell](../chartdatacell), [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
-| yValue | [ChartDataCell](../../chartdatacell) | Data point YValue |
+| xValue | [ChartDataCell] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForScatterSeries](double, [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | double | Data point XValue |
-| yValue | [ChartDataCell](../../chartdatacell) | Data point YValue |
+| xValue | [double] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForScatterSeries](String, [ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([String], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | String | Data point XValue |
-| yValue | [ChartDataCell](../../chartdatacell) | Data point YValue |
+| xValue | [String] | Data point XValue |
+| yValue | [ChartDataCell] | Data point YValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForScatterSeries]([ChartDataCell](../chartdatacell), double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | [ChartDataCell](../chartdatacell) | Data point XValue |
-| yValue | double | Data point YValue |
+| xValue | [ChartDataCell] | Data point XValue |
+| yValue | [double] | Data point YValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForScatterSeries](double, double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | double | Data point XValue |
-| yValue | double | Data point YValue |
+| xValue | [double] | Data point XValue |
+| yValue | [double] | Data point YValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForScatterSeries](String, double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([String], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| xValue | String | Data point XValue |
-| yValue | double | Data point YValue |
+| xValue | [String] | Data point XValue |
+| yValue | [double] | Data point YValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForStockSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
+| [addDataPointForStockSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value. |
+| value | [ChartDataCell] | Data point Value. |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForStockSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
+| [addDataPointForStockSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value. |
+| value | [double] | Data point Value. |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForSunburstSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Sunburst. |
+| [addDataPointForSunburstSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Sunburst. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sizeValue | [ChartDataCell](../../chartdatacell) | Data point SizeValue |
+| sizeValue | [ChartDataCell] | Data point SizeValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForSurfaceSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
+| [addDataPointForSurfaceSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForSurfaceSeries](double) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
+| [addDataPointForSurfaceSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | double | Data point Value |
+| value | [double] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForTreemapSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Treemap. |
+| [addDataPointForTreemapSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Treemap. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| sizeValue | [ChartDataCell](../../chartdatacell) | Data point SizeValue |
+| sizeValue | [ChartDataCell] | Data point SizeValue |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [addDataPointForWaterfallSeries]([ChartDataCell](../chartdatacell)) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Waterfall. |
+| [addDataPointForWaterfallSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Waterfall. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataCell](../../chartdatacell) | Data point Value |
+| value | [ChartDataCell] | Data point Value |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [clear]() | Removes all elements from the collection. |
+| [clear] () Removes all elements from the collection. |
 
 
 ---
 
 
-| [getDataSourceTypeForBubbleSizes]() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
+| [getDataSourceTypeForBubbleSizes] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -676,25 +671,16 @@ int
 ---
 
 
-| [getDataSourceTypeForErrorBarsCustomValues]() | Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list. Read-only IDataSourceTypeForErrorBarsCustomValues. |
+| [getDataSourceTypeForErrorBarsCustomValues] () Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list. Read-only IDataSourceTypeForErrorBarsCustomValues. |
 
 ### Result
-[DataSourceTypeForErrorBarsCustomValues](../../datasourcetypeforerrorbarscustomvalues)
+[DataSourceTypeForErrorBarsCustomValues]
 
 
 ---
 
 
-| [getDataSourceTypeForValues]() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
-
-### Result
-int
-
-
----
-
-
-| [getDataSourceTypeForXValues]() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
+| [getDataSourceTypeForValues] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -703,7 +689,7 @@ int
 ---
 
 
-| [getDataSourceTypeForYValues]() | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
+| [getDataSourceTypeForXValues] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -712,22 +698,31 @@ int
 ---
 
 
-| [getOrCreateDataPointByIdx](long) | If collection already contains data point with index index then returns this data point. If collection doesn't contains data point with index index==N (when number of data points in this collection is less or equal then N) then adds deficient data points and returns last (which has requested index). For example, collection indexes are {0, 1, 2}, and requested index is 5. Then function adds deficient data points: {0, 1, 2, 3, 4, 5}. And returns data point with index 5. |
+| [getDataSourceTypeForYValues] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
+
+### Result
+int
+
+
+---
+
+
+| [getOrCreateDataPointByIdx] ([long]) If collection already contains data point with index index then returns this data point. If collection doesn't contains data point with index index==N (when number of data points in this collection is less or equal then N) then adds deficient data points and returns last (which has requested index). For example, collection indexes are {0, 1, 2}, and requested index is 5. Then function adds deficient data points: {0, 1, 2, 3, 4, 5}. And returns data point with index 5. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | long | Index. |
+| index | [long] | Index. |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -736,16 +731,16 @@ Object
 ---
 
 
-| [get_Item](int) | Returns the series data point by index (its serial number in this collection). |
+| [get_Item] ([int]) Returns the series data point by index (its serial number in this collection). |
 
 ### Result
-[ChartDataPoint](../../chartdatapoint)
+[ChartDataPoint]
 
 
 ---
 
 
-| [get_Item]([ChartDataPoint](../chartdatapoint)) | Return index (serial number) of data point in this collection. |
+| [get_Item] ([ChartDataPoint]) Return index (serial number) of data point in this collection. |
 
 ### Result
 int
@@ -754,7 +749,7 @@ int
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -763,7 +758,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -772,7 +767,7 @@ boolean
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -781,55 +776,55 @@ boolean
 ---
 
 
-| [remove]([ChartDataPoint](../chartdatapoint)) | Removes the specified value. |
+| [remove] ([ChartDataPoint]) Removes the specified value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | [ChartDataPoint](../../chartdatapoint) | The value. |
+| value | [ChartDataPoint] | The value. |
 
 
 ---
 
 
-| [removeAt](int) | Removes the element at the given index. |
+| [removeAt] ([int]) Removes the element at the given index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of a data point to remove. |
+| index | [int] | Index of a data point to remove. |
 
 
 ---
 
 
-| [setDataSourceTypeForBubbleSizes](int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForBubbleSizes] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForValues](int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForValues] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForXValues](int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForXValues] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForYValues](int) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForYValues] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [size]() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

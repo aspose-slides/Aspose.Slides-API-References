@@ -20,18 +20,13 @@ Storage
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [containsKey](String) | Determines whether the storage contains an element with the specified key. |
+| [containsKey] ([String]) Determines whether the storage contains an element with the specified key. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| key | String | Key of the value. |
+| key | [String] | Key of the value. |
 
 ### Result
 boolean
@@ -40,13 +35,13 @@ boolean
 ---
 
 
-| [get](String) | Gets the data from the storage. |
+| [get] ([String]) Gets the data from the storage. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| key | String | Key of the value. |
+| key | [String] | Key of the value. |
 
 ### Result
 TValue
@@ -55,14 +50,14 @@ TValue
 ---
 
 
-| [put](String, TValue) | Puts the value into the storage. |
+| [put] ([String], [TValue]) Puts the value into the storage. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| key | String | Key for the value. |
-| value | TValue | Value. |
+| key | [String] | Key for the value. |
+| value | [TValue] | Value. |
 
 
 ---

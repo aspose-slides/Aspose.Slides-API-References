@@ -22,61 +22,56 @@ MathematicalTextFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createMathematicalText]() | Create empty mathematical text element |
+| [createMathematicalText] () Create empty mathematical text element |
 
 ### Result
-[MathematicalText](../../mathematicaltext)
+[MathematicalText]
 
 
 ---
 
 
-| [createMathematicalText](char) | Create mathematical text element with the specified value |
+| [createMathematicalText] ([char]) Create mathematical text element with the specified value |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathSymbol | char | single symbol to use as text value |
+| mathSymbol | [char] | single symbol to use as text value |
 
 ### Result
-[MathematicalText](../../mathematicaltext)
+[MathematicalText]
 
 
 ---
 
 
-| [createMathematicalText](String) | Create empty mathematical text element with the specified value |
+| [createMathematicalText] ([String]) Create empty mathematical text element with the specified value |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathText | String | text value |
+| mathText | [String] | text value |
 
 ### Result
-[MathematicalText](../../mathematicaltext)
+[MathematicalText]
 
 
 ---
 
 
-| [createMathematicalText](String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
+| [createMathematicalText] ([String], [PortionFormat]) Create empty mathematical text element with the specified value and formatting properties |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathText | String | text value |
-| portionFormat | [PortionFormat](../../portionformat) | text format settings |
+| mathText | [String] | text value |
+| portionFormat | [PortionFormat] | text format settings |
 
 ### Result
-[MathematicalText](../../mathematicaltext)
+[MathematicalText]
 
 
 ---

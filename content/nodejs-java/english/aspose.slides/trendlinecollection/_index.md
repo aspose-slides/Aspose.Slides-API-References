@@ -11,21 +11,16 @@ url: /aspose.slides/trendlinecollection/
 
  Represents a collection of Trendline
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add](int) | Adds the new Trendline at the end of a collection and return it. |
+| [add] ([int]) Adds the new Trendline at the end of a collection and return it. |
 
 ### Result
-[Trendline](../../trendline)
+[Trendline]
 
 
 ---
 
 
-| [getCount]() | Gets the number of elements actually contained in the collection. Read-only int. |
+| [getCount] () Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int
@@ -34,25 +29,16 @@ int
 ---
 
 
-| [get_Item](int) | Gets the element at the specified index. Read-only Trendline. |
+| [get_Item] ([int]) Gets the element at the specified index. Read-only Trendline. |
 
 ### Result
-[Trendline](../../trendline)
+[Trendline]
 
 
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
-
-### Result
-
-
-
----
-
-
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -61,7 +47,16 @@ int
 ---
 
 
-| [remove]([Trendline](../trendline)) | Removes the specified value. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
+
+### Result
+
+
+
+---
+
+
+| [remove] ([Trendline]) Removes the specified value. |
 
 
 ---

@@ -11,12 +11,7 @@ url: /aspose.slides/camera/
 
  Represents Camera.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getCameraType]() | Camera type. Read/write CameraPresetType. |
+| [getCameraType] () Camera type. Read/write CameraPresetType. |
 
 ### Result
 int
@@ -25,7 +20,7 @@ int
 ---
 
 
-| [getFieldOfViewAngle]() | Camera FOV (0-180 deg, field of View). Read/write float. |
+| [getFieldOfViewAngle] () Camera FOV (0-180 deg, field of View). Read/write float. |
 
 ### Result
 float
@@ -34,7 +29,7 @@ float
 ---
 
 
-| [getRotation]() | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
+| [getRotation] () A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
 
 ### Result
 float
@@ -43,7 +38,7 @@ float
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long
@@ -52,7 +47,7 @@ long
 ---
 
 
-| [getZoom]() | Camera zoom (positive value in percentage). Read/write float. |
+| [getZoom] () Camera zoom (positive value in percentage). Read/write float. |
 
 ### Result
 float
@@ -61,25 +56,25 @@ float
 ---
 
 
-| [setCameraType](int) | Camera type. Read/write CameraPresetType. |
+| [setCameraType] ([int]) Camera type. Read/write CameraPresetType. |
 
 
 ---
 
 
-| [setFieldOfViewAngle](float) | Camera FOV (0-180 deg, field of View). Read/write float. |
+| [setFieldOfViewAngle] ([float]) Camera FOV (0-180 deg, field of View). Read/write float. |
 
 
 ---
 
 
-| [setRotation](float, float, float) | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is Float.NaN, all rotation is undefined. |
+| [setRotation] ([float], [float], [float]) A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. If any of coordinate value is Float.NaN, all rotation is undefined. |
 
 
 ---
 
 
-| [setZoom](float) | Camera zoom (positive value in percentage). Read/write float. |
+| [setZoom] ([float]) Camera zoom (positive value in percentage). Read/write float. |
 
 
 ---

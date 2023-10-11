@@ -20,15 +20,10 @@ MathPortion
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getMathParagraph]() | Math paragraph |
+| [getMathParagraph] () Math paragraph |
 
 ### Result
-[MathParagraph](../../mathparagraph)
+[MathParagraph]
 
 
 ---

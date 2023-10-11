@@ -22,60 +22,55 @@ PortionFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createPortion]() | Creates an empty text portion. |
+| [createPortion] () Creates an empty text portion. |
 
 ### Result
-[Portion](../../portion), [MathPortion](../../mathportion)
+[Portion], [MathPortion]
 
 
 ---
 
 
-| [createPortion](String) | Creates a text portion from specified string. |
+| [createPortion] ([String]) Creates a text portion from specified string. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| str | String | String. |
+| str | [String] | String. |
 
 ### Result
-[Portion](../../portion), [MathPortion](../../mathportion)
+[Portion], [MathPortion]
 
 
 ---
 
 
-| [createPortion]([Portion](../portion)) | Creates a portion with the using of a specified portion data. |
+| [createPortion] ([Portion]) Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| portion | [Portion](../../portion) | A portion to use. |
+| portion | [Portion] | A portion to use. |
 
 ### Result
-[Portion](../../portion), [MathPortion](../../mathportion)
+[Portion], [MathPortion]
 
 
 ---
 
 
-| [createPortion]([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
+| [createPortion] ([MathPortion]) Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| portion | [MathPortion](../../mathportion) | A portion to use. |
+| portion | [MathPortion] | A portion to use. |
 
 ### Result
-[Portion](../../portion), [MathPortion](../../mathportion)
+[Portion], [MathPortion]
 
 
 ---

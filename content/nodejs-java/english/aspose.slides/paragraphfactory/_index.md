@@ -22,30 +22,25 @@ ParagraphFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createParagraph]() | Creates a new empty paragraph. |
+| [createParagraph] () Creates a new empty paragraph. |
 
 ### Result
-[Paragraph](../../paragraph)
+[Paragraph]
 
 
 ---
 
 
-| [createParagraph]([Paragraph](../paragraph)) | Creates a new paragraph with specified paragraph data using. |
+| [createParagraph] ([Paragraph]) Creates a new paragraph with specified paragraph data using. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| paragraph | [Paragraph](../../paragraph) | A paragraph to use data. |
+| paragraph | [Paragraph] | A paragraph to use data. |
 
 ### Result
-[Paragraph](../../paragraph)
+[Paragraph]
 
 
 ---

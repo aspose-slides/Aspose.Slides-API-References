@@ -18,12 +18,7 @@ CurrentThreadSettings
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getLocale]() | Returns default Locale for current thread. |
+| [getLocale] () Returns default Locale for current thread. |
 
 ### Result
 Locale
@@ -32,13 +27,13 @@ Locale
 ---
 
 
-| [setLocale](Locale) | Sets default Locale for current thread. |
+| [setLocale] ([Locale]) Sets default Locale for current thread. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| locale | Locale | The default Locale for current thread. |
+| locale | [Locale] | The default Locale for current thread. |
 
 ### Error
 
@@ -50,13 +45,13 @@ Locale
 ---
 
 
-| [setLocale](String) | Sets default Locale for current thread. |
+| [setLocale] ([String]) Sets default Locale for current thread. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| localeName | String | The default Locale for current thread. |
+| localeName | [String] | The default Locale for current thread. |
 
 ### Error
 

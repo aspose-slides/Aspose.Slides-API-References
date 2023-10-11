@@ -22,69 +22,64 @@ EffectFactory
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [createGlow]() | Creates Glow effect. |
+| [createGlow] () Creates Glow effect. |
 
 ### Result
-[Glow](../../glow)
+[Glow]
 
 
 ---
 
 
-| [createInnerShadow]() | Creates Inner shafow effect. |
+| [createInnerShadow] () Creates Inner shafow effect. |
 
 ### Result
-[InnerShadow](../../innershadow)
+[InnerShadow]
 
 
 ---
 
 
-| [createOuterShadow]() | Creates Outer shadow effect. |
+| [createOuterShadow] () Creates Outer shadow effect. |
 
 ### Result
-[OuterShadow](../../outershadow)
+[OuterShadow]
 
 
 ---
 
 
-| [createPresetShadow]() | Creates Preset shadow effect. |
+| [createPresetShadow] () Creates Preset shadow effect. |
 
 ### Result
-[PresetShadow](../../presetshadow)
+[PresetShadow]
 
 
 ---
 
 
-| [createReflection]() | Creates Reflection effect. |
+| [createReflection] () Creates Reflection effect. |
 
 ### Result
-[Reflection](../../reflection)
+[Reflection]
 
 
 ---
 
 
-| [createSoftEdge]() | Creates Soft Edge effect. |
+| [createSoftEdge] () Creates Soft Edge effect. |
 
 ### Result
-[SoftEdge](../../softedge)
+[SoftEdge]
 
 
 ---
 
 
-| [getImageTransformOperationFactory]() | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+| [getImageTransformOperationFactory] () Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
 
 ### Result
-[ImageTransformOperationFactory](../../imagetransformoperationfactory)
+[ImageTransformOperationFactory]
 
 
 ---

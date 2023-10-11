@@ -11,12 +11,7 @@ url: /aspose.slides/adjustvaluecollection/
 
  Reprasents a collection of shape's adjustments.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getSyncRoot]() | Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -25,22 +20,22 @@ Object
 ---
 
 
-| [get_Item](int) | Returns adjustment by index. |
+| [get_Item] ([int]) Returns adjustment by index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | adjustment's index. |
+| index | [int] | adjustment's index. |
 
 ### Result
-[AdjustValue](../../adjustvalue)
+[AdjustValue]
 
 
 ---
 
 
-| [isSynchronized]() | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -49,7 +44,7 @@ boolean
 ---
 
 
-| [iterator]() | Returns an enumerator for the entire collection. |
+| [iterator] () Returns an enumerator for the entire collection. |
 
 ### Result
 
@@ -58,7 +53,7 @@ boolean
 ---
 
 
-| [size]() | Return a number of adjustments. Read-only int. |
+| [size] () Return a number of adjustments. Read-only int. |
 
 ### Result
 int

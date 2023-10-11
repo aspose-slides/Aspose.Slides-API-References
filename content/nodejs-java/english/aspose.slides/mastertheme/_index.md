@@ -11,48 +11,43 @@ url: /aspose.slides/mastertheme/
 
  Represents a master theme.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getColorScheme]() | Returns the color scheme. Read-only IColorScheme. |
+| [getColorScheme] () Returns the color scheme. Read-only IColorScheme. |
 
 ### Result
-[ColorScheme](../../colorscheme)
+[ColorScheme]
 
 
 ---
 
 
-| [getExtraColorSchemes]() | Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only IExtraColorSchemeCollection. |
+| [getExtraColorSchemes] () Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only IExtraColorSchemeCollection. |
 
 ### Result
-[ExtraColorSchemeCollection](../../extracolorschemecollection)
+[ExtraColorSchemeCollection]
 
 
 ---
 
 
-| [getFontScheme]() | Returns the font scheme. Read-only IFontScheme. |
+| [getFontScheme] () Returns the font scheme. Read-only IFontScheme. |
 
 ### Result
-[FontScheme](../../fontscheme)
+[FontScheme]
 
 
 ---
 
 
-| [getFormatScheme]() | Returns the shape format scheme. Read-only IFormatScheme. |
+| [getFormatScheme] () Returns the shape format scheme. Read-only IFormatScheme. |
 
 ### Result
-[FormatScheme](../../formatscheme)
+[FormatScheme]
 
 
 ---
 
 
-| [getName]() | Returns the name of a theme. Read/write String. |
+| [getName] () Returns the name of a theme. Read/write String. |
 
 ### Result
 String
@@ -61,7 +56,7 @@ String
 ---
 
 
-| [getVersion]() |  |
+| [getVersion] ()  |
 
 ### Result
 long
@@ -70,7 +65,7 @@ long
 ---
 
 
-| [setName](String) | Returns the name of a theme. Read/write String. |
+| [setName] ([String]) Returns the name of a theme. Read/write String. |
 
 
 ---

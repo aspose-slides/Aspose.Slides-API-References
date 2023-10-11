@@ -12,12 +12,7 @@ url: /aspose.slides/normalviewrestoredproperties/
  Specifies the sizing of the slide region ((width when a child of restoredTop, height when a
  child of restoredLeft) of the normal view, when the region is of a variable restored size(neither minimized nor maximized).
   
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getAutoAdjust]() | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
+| [getAutoAdjust] () Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
 
 ### Result
 boolean
@@ -26,7 +21,7 @@ boolean
 ---
 
 
-| [getDimensionSize]() | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
+| [getDimensionSize] () Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
 
 ### Result
 float
@@ -41,13 +36,13 @@ float
 ---
 
 
-| [setAutoAdjust](boolean) | Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
+| [setAutoAdjust] ([boolean]) Specifies whether the size of the side content region should compensate for the new size when resizing the window containing the view within the application Read/write boolean. |
 
 
 ---
 
 
-| [setDimensionSize](float) | Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
+| [setDimensionSize] ([float]) Specifies the size of the slide region (width when a child of RestoredTop, height when a child of RestoredLeft). Read/write float. |
 
 ### Error
 

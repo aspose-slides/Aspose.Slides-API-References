@@ -11,12 +11,7 @@ url: /aspose.slides/splittransition/
 
  Split slide transition effect.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getDirection]() | Direction of transition split. Read/write TransitionInOutDirectionType. |
+| [getDirection] () Direction of transition split. Read/write TransitionInOutDirectionType. |
 
 ### Result
 int
@@ -25,7 +20,7 @@ int
 ---
 
 
-| [getOrientation]() | Orientation of transition split. Read/write Orientation. |
+| [getOrientation] () Orientation of transition split. Read/write Orientation. |
 
 ### Result
 byte
@@ -34,13 +29,13 @@ byte
 ---
 
 
-| [setDirection](int) | Direction of transition split. Read/write TransitionInOutDirectionType. |
+| [setDirection] ([int]) Direction of transition split. Read/write TransitionInOutDirectionType. |
 
 
 ---
 
 
-| [setOrientation](byte) | Orientation of transition split. Read/write Orientation. |
+| [setOrientation] ([byte]) Orientation of transition split. Read/write Orientation. |
 
 
 ---

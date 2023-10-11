@@ -20,12 +20,7 @@ PointCollection
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getCount]() | Returns the number of points in the collection. Read-only int. |
+| [getCount] () Returns the number of points in the collection. Read-only int. |
 
 ### Result
 int
@@ -34,22 +29,22 @@ int
 ---
 
 
-| [get_Item](int) | Returns a point at the specified index. |
+| [get_Item] ([int]) Returns a point at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| index | int | Index of element. |
+| index | [int] | Index of element. |
 
 ### Result
-[Point](../../point)
+[Point]
 
 
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -58,7 +53,7 @@ int
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 

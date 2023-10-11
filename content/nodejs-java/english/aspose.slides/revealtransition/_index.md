@@ -11,12 +11,7 @@ url: /aspose.slides/revealtransition/
 
  Reveal slide transition effect.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getDirection]() | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [getDirection] () Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
 ### Result
 int
@@ -25,7 +20,7 @@ int
 ---
 
 
-| [getThroughBlack]() | Specifies whether the transition fades through black. Read/write boolean. |
+| [getThroughBlack] () Specifies whether the transition fades through black. Read/write boolean. |
 
 ### Result
 boolean
@@ -34,13 +29,13 @@ boolean
 ---
 
 
-| [setDirection](int) | Direction of transition. Read/write TransitionLeftRightDirectionType. |
+| [setDirection] ([int]) Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
 
 ---
 
 
-| [setThroughBlack](boolean) | Specifies whether the transition fades through black. Read/write boolean. |
+| [setThroughBlack] ([boolean]) Specifies whether the transition fades through black. Read/write boolean. |
 
 
 ---

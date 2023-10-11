@@ -12,48 +12,43 @@ url: /aspose.slides/errorbarsformat/
  Represents error bars of chart series. ErrorBars custom values are in IChartDataPointCollection
  (in ( IChartDataPoint#getErrorBarsCustomValues) property).
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getChart]() | Returns the parent chart. Read-only IChart. |
+| [getChart] () Returns the parent chart. Read-only IChart. |
 
 ### Result
-[Chart](../../chart)
+[Chart]
 
 
 ---
 
 
-| [getFormat]() | Represents the format of the error bars. Read/write IFormat. |
+| [getFormat] () Represents the format of the error bars. Read/write IFormat. |
 
 ### Result
-[Format](../../format)
+[Format]
 
 
 ---
 
 
-| [getPresentation]() | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| [getPresentation] () Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
 ### Result
-[Presentation](../../presentation)
+[Presentation]
 
 
 ---
 
 
-| [getSlide]() | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| [getSlide] () Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
 ### Result
-[MasterNotesSlide](../../masternotesslide), [MasterHandoutSlide](../../masterhandoutslide), [BaseSlide](../../baseslide), [NotesSlide](../../notesslide), [LayoutSlide](../../layoutslide), [Slide](../../slide), [MasterSlide](../../masterslide)
+[MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
 
 
 ---
 
 
-| [getType]() | Gets or sets type of error bars. Read/write ErrorBarType. |
+| [getType] () Gets or sets type of error bars. Read/write ErrorBarType. |
 
 ### Result
 int
@@ -62,7 +57,7 @@ int
 ---
 
 
-| [getValue]() | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. In any other case will return NaN. Read/write float. |
+| [getValue] () Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. In any other case will return NaN. Read/write float. |
 
 ### Result
 float
@@ -71,7 +66,7 @@ float
 ---
 
 
-| [getValueType]() | Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ( IChartDataPoint#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write ErrorBarValueType. |
+| [getValueType] () Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ( IChartDataPoint#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write ErrorBarValueType. |
 
 ### Result
 int
@@ -80,7 +75,7 @@ int
 ---
 
 
-| [hasEndCap]() | Specifies an end cap is not drawn on the error bars. Read/write boolean. |
+| [hasEndCap] () Specifies an end cap is not drawn on the error bars. Read/write boolean. |
 
 ### Result
 boolean
@@ -89,7 +84,7 @@ boolean
 ---
 
 
-| [isVisible]() | Gets or sets Error Bars visibility . Read/write boolean. |
+| [isVisible] () Gets or sets Error Bars visibility . Read/write boolean. |
 
 ### Result
 boolean
@@ -98,37 +93,37 @@ boolean
 ---
 
 
-| [setEndCap](boolean) | Specifies an end cap is not drawn on the error bars. Read/write boolean. |
+| [setEndCap] ([boolean]) Specifies an end cap is not drawn on the error bars. Read/write boolean. |
 
 
 ---
 
 
-| [setFormat]([Format](../format)) | Represents the format of the error bars. Read/write IFormat. |
+| [setFormat] ([Format]) Represents the format of the error bars. Read/write IFormat. |
 
 
 ---
 
 
-| [setType](int) | Gets or sets type of error bars. Read/write ErrorBarType. |
+| [setType] ([int]) Gets or sets type of error bars. Read/write ErrorBarType. |
 
 
 ---
 
 
-| [setValue](float) | Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. In any other case will return NaN. Read/write float. |
+| [setValue] ([float]) Gets or sets value which is used with Fixed, Percentage and StandardDeviation value types to determine the length of the error bars. In any other case will return NaN. Read/write float. |
 
 
 ---
 
 
-| [setValueType](int) | Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ( IChartDataPoint#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write ErrorBarValueType. |
+| [setValueType] ([int]) Represents possible ways to determine the length of the error bars. In case of custom value type to specify value use ( IChartDataPoint#getErrorBarsCustomValues) property of specific data point in DataPoints collection of series. In case of Fixed, Percentage or StandardDeviation value type use Value property to specify value. Read/write ErrorBarValueType. |
 
 
 ---
 
 
-| [setVisible](boolean) | Gets or sets Error Bars visibility . Read/write boolean. |
+| [setVisible] ([boolean]) Gets or sets Error Bars visibility . Read/write boolean. |
 
 
 ---

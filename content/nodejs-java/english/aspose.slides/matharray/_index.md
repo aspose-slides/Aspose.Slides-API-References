@@ -11,13 +11,13 @@ url: /aspose.slides/matharray/
 
  Specifies a vertical array of equations or any mathematical objects 
  
-| [MathArray]([MathLimit](../mathlimit)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathLimit]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLimit](../../mathlimit) | The element to place in the array |
+| element | [MathLimit] | The element to place in the array |
 
 ### Result
 MathArray
@@ -26,13 +26,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathBorderBox](../mathborderbox)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathBorderBox]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBorderBox](../../mathborderbox) | The element to place in the array |
+| element | [MathBorderBox] | The element to place in the array |
 
 ### Result
 MathArray
@@ -41,13 +41,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathFraction](../mathfraction)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathFraction]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFraction](../../mathfraction) | The element to place in the array |
+| element | [MathFraction] | The element to place in the array |
 
 ### Result
 MathArray
@@ -56,13 +56,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathDelimiter](../mathdelimiter)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathDelimiter]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathDelimiter](../../mathdelimiter) | The element to place in the array |
+| element | [MathDelimiter] | The element to place in the array |
 
 ### Result
 MathArray
@@ -71,13 +71,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathSuperscriptElement](../mathsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathSuperscriptElement]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSuperscriptElement](../../mathsuperscriptelement) | The element to place in the array |
+| element | [MathSuperscriptElement] | The element to place in the array |
 
 ### Result
 MathArray
@@ -86,13 +86,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathLeftSubSuperscriptElement]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement) | The element to place in the array |
+| element | [MathLeftSubSuperscriptElement] | The element to place in the array |
 
 ### Result
 MathArray
@@ -101,13 +101,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathRightSubSuperscriptElement]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement) | The element to place in the array |
+| element | [MathRightSubSuperscriptElement] | The element to place in the array |
 
 ### Result
 MathArray
@@ -116,13 +116,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathBox](../mathbox)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathBox]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBox](../../mathbox) | The element to place in the array |
+| element | [MathBox] | The element to place in the array |
 
 ### Result
 MathArray
@@ -131,13 +131,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathMatrix](../mathmatrix)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathMatrix]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathMatrix](../../mathmatrix) | The element to place in the array |
+| element | [MathMatrix] | The element to place in the array |
 
 ### Result
 MathArray
@@ -146,13 +146,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathGroupingCharacter](../mathgroupingcharacter)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathGroupingCharacter]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathGroupingCharacter](../../mathgroupingcharacter) | The element to place in the array |
+| element | [MathGroupingCharacter] | The element to place in the array |
 
 ### Result
 MathArray
@@ -161,13 +161,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathArray](../matharray)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathArray]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathArray](../../matharray) | The element to place in the array |
+| element | [MathArray] | The element to place in the array |
 
 ### Result
 MathArray
@@ -176,13 +176,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathBlock](../mathblock)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathBlock]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBlock](../../mathblock) | The element to place in the array |
+| element | [MathBlock] | The element to place in the array |
 
 ### Result
 MathArray
@@ -191,13 +191,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathSubscriptElement](../mathsubscriptelement)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathSubscriptElement]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathSubscriptElement](../../mathsubscriptelement) | The element to place in the array |
+| element | [MathSubscriptElement] | The element to place in the array |
 
 ### Result
 MathArray
@@ -206,13 +206,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathFunction](../mathfunction)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathFunction]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathFunction](../../mathfunction) | The element to place in the array |
+| element | [MathFunction] | The element to place in the array |
 
 ### Result
 MathArray
@@ -221,13 +221,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathNaryOperator](../mathnaryoperator)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathNaryOperator]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathNaryOperator](../../mathnaryoperator) | The element to place in the array |
+| element | [MathNaryOperator] | The element to place in the array |
 
 ### Result
 MathArray
@@ -236,13 +236,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathematicalText](../mathematicaltext)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathematicalText]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathematicalText](../../mathematicaltext) | The element to place in the array |
+| element | [MathematicalText] | The element to place in the array |
 
 ### Result
 MathArray
@@ -251,13 +251,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathAccent](../mathaccent)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathAccent]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathAccent](../../mathaccent) | The element to place in the array |
+| element | [MathAccent] | The element to place in the array |
 
 ### Result
 MathArray
@@ -266,13 +266,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathRadical](../mathradical)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathRadical]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathRadical](../../mathradical) | The element to place in the array |
+| element | [MathRadical] | The element to place in the array |
 
 ### Result
 MathArray
@@ -281,13 +281,13 @@ MathArray
 ---
 
 
-| [MathArray]([MathBar](../mathbar)) | Creates a mathematical array and places the specified element in it |
+| [MathArray]([MathBar]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| element | [MathBar](../../mathbar) | The element to place in the array |
+| element | [MathBar] | The element to place in the array |
 
 ### Result
 MathArray
@@ -296,13 +296,13 @@ MathArray
 ---
 
 
-| [MathArray](com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>) | Creates a mathematical array and places specified elements in it |
+| [MathArray]([com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>]) | Creates a mathematical array and places specified elements in it |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| elements | com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement> | Elements to place in the array |
+| elements | [com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides.IMathElement>] | Elements to place in the array |
 
 ### Result
 MathArray
@@ -311,21 +311,16 @@ MathArray
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getArguments]() | The set of items of the array |
+| [getArguments] () The set of items of the array |
 
 ### Result
-[MathBlock](../../mathblock)
+[MathBlock]
 
 
 ---
 
 
-| [getBaseJustification]() | Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
+| [getBaseJustification] () Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
 
 ### Result
 int
@@ -334,25 +329,16 @@ int
 ---
 
 
-| [getChildren]() | Get children elements |
+| [getChildren] () Get children elements |
 
 ### Result
-[MathLimit](../../mathlimit), [MathBorderBox](../../mathborderbox), [MathFraction](../../mathfraction), [MathDelimiter](../../mathdelimiter), [MathSuperscriptElement](../../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../../mathrightsubsuperscriptelement), [MathBox](../../mathbox), [MathMatrix](../../mathmatrix), [MathGroupingCharacter](../../mathgroupingcharacter), [MathArray](../../matharray), [MathBlock](../../mathblock), [MathSubscriptElement](../../mathsubscriptelement), [MathFunction](../../mathfunction), [MathNaryOperator](../../mathnaryoperator), [MathematicalText](../../mathematicaltext), [BaseScript](../../basescript), [MathAccent](../../mathaccent), [MathRadical](../../mathradical), [MathBar](../../mathbar), [MathElementBase](../../mathelementbase)
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getMaximumDistribution]() | Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
-
-### Result
-boolean
-
-
----
-
-
-| [getObjectDistribution]() | Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
+| [getMaximumDistribution] () Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
 
 ### Result
 boolean
@@ -361,7 +347,16 @@ boolean
 ---
 
 
-| [getRowSpacing]() | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
+| [getObjectDistribution] () Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getRowSpacing] () Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
 
 ### Result
 long
@@ -370,7 +365,7 @@ long
 ---
 
 
-| [getRowSpacingRule]() | The type of vertical spacing between array elements Default: SingleLineGap |
+| [getRowSpacingRule] () The type of vertical spacing between array elements Default: SingleLineGap |
 
 ### Result
 int
@@ -379,31 +374,31 @@ int
 ---
 
 
-| [setBaseJustification](int) | Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
+| [setBaseJustification] ([int]) Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
 
 
 ---
 
 
-| [setMaximumDistribution](boolean) | Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
+| [setMaximumDistribution] ([boolean]) Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
 
 
 ---
 
 
-| [setObjectDistribution](boolean) | Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
+| [setObjectDistribution] ([boolean]) Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
 
 
 ---
 
 
-| [setRowSpacing](long) | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
+| [setRowSpacing] ([long]) Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
 
 
 ---
 
 
-| [setRowSpacingRule](int) | The type of vertical spacing between array elements Default: SingleLineGap |
+| [setRowSpacingRule] ([int]) The type of vertical spacing between array elements Default: SingleLineGap |
 
 
 ---

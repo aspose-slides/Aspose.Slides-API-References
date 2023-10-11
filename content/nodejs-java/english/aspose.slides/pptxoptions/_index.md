@@ -20,12 +20,7 @@ PptxOptions
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getConformance]() | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| [getConformance] () Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
 
 ### Result
 int
@@ -34,7 +29,7 @@ int
 ---
 
 
-| [setConformance](int) | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
+| [setConformance] ([int]) Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
 
 
 ---

@@ -20,12 +20,7 @@ TextHighlightingOptions
 ---
 
 
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [getCaseSensitive]() | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+| [getCaseSensitive] () Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
 
 ### Result
 boolean
@@ -34,7 +29,7 @@ boolean
 ---
 
 
-| [getWholeWordsOnly]() | Set true to match only whole words, false - otherwise. Read/write boolean. |
+| [getWholeWordsOnly] () Set true to match only whole words, false - otherwise. Read/write boolean. |
 
 ### Result
 boolean
@@ -43,13 +38,13 @@ boolean
 ---
 
 
-| [setCaseSensitive](boolean) | Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
+| [setCaseSensitive] ([boolean]) Set true to use case-sensitive search, false - otherwise. Read/write boolean. |
 
 
 ---
 
 
-| [setWholeWordsOnly](boolean) | Set true to match only whole words, false - otherwise. Read/write boolean. |
+| [setWholeWordsOnly] ([boolean]) Set true to match only whole words, false - otherwise. Read/write boolean. |
 
 
 ---

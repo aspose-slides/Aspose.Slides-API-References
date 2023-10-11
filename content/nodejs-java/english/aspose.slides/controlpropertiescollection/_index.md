@@ -11,31 +11,26 @@ url: /aspose.slides/controlpropertiescollection/
 
  A collection of AcitveX properties.
  
-
-## Functions
-
-| Name | Description |
-| --- | --- |
-| [add](String, String) | Adds a property to the collection. |
+| [add] ([String], [String]) Adds a property to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | String | The name of the property. |
-| value | String | The alue of the property. |
+| name | [String] | The name of the property. |
+| value | [String] | The alue of the property. |
 
 
 ---
 
 
-| [clear]() | Removes all properties. |
+| [clear] () Removes all properties. |
 
 
 ---
 
 
-| [getCount]() | Returns a number of properties in the collection. Read-only int. |
+| [getCount] () Returns a number of properties in the collection. Read-only int. |
 
 ### Result
 int
@@ -44,22 +39,22 @@ int
 ---
 
 
-| [getNamesOfProperties]() | Returns the collection of properties names. Read-only IGenericCollection. |
+| [getNamesOfProperties] () Returns the collection of properties names. Read-only IGenericCollection. |
 
 ### Result
-[LineFormatCollection](../../lineformatcollection), [ExtraColorSchemeCollection](../../extracolorschemecollection), [SmartArtShapeCollection](../../smartartshapecollection), [RowCollection](../../rowcollection), [VbaModuleCollection](../../vbamodulecollection), [VbaReferenceCollection](../../vbareferencecollection), [FontSubstRuleCollection](../../fontsubstrulecollection), [SectionSlideCollection](../../sectionslidecollection), SortedList, [SectionCollection](../../sectioncollection), ReadOnlyCollection, [ColumnCollection](../../columncollection), [CellCollection](../../cellcollection), [TabCollection](../../tabcollection), KeyedCollection, [ShapeCollection](../../shapecollection), [CommentAuthorCollection](../../commentauthorcollection), [ChartCategoryCollection](../../chartcategorycollection), [CustomXmlPartCollection](../../customxmlpartcollection), Dictionary, [SlideCollection](../../slidecollection), SortedDictionary, LinkedList, [Column](../../column), [ColorOperationCollection](../../coloroperationcollection), [ChartDataPointCollection](../../chartdatapointcollection), Collection, [MasterSlideCollection](../../masterslidecollection), [MasterLayoutSlideCollection](../../masterlayoutslidecollection), [SummaryZoomSectionCollection](../../summaryzoomsectioncollection), [ImageCollection](../../imagecollection), [GradientStopCollectionEffectiveData](../../gradientstopcollectioneffectivedata), [SmartArtNodeCollection](../../smartartnodecollection), [BehaviorPropertyCollection](../../behaviorpropertycollection), [VideoCollection](../../videocollection), [TextAnimationCollection](../../textanimationcollection), [EffectStyleCollection](../../effectstylecollection), [ControlCollection](../../controlcollection), [FontFallBackRulesCollection](../../fontfallbackrulescollection), [ImageTransformOCollectionEffectiveData](../../imagetransformocollectioneffectivedata), [DigitalSignatureCollection](../../digitalsignaturecollection), [AudioCollection](../../audiocollection), [ChartSeriesCollection](../../chartseriescollection), [Row](../../row), [CommentCollection](../../commentcollection), [ImageTransformOperationCollection](../../imagetransformoperationcollection), [TagCollection](../../tagcollection), [GradientStopCollection](../../gradientstopcollection), List, [GlobalLayoutSlideCollection](../../globallayoutslidecollection), [PieSplitCustomPointCollection](../../piesplitcustompointcollection), [ChartDataWorksheetCollection](../../chartdataworksheetcollection), [LayoutSlideCollection](../../layoutslidecollection), [FillFormatCollection](../../fillformatcollection)
+[LineFormatCollection], [ExtraColorSchemeCollection], [SmartArtShapeCollection], [RowCollection], [VbaModuleCollection], [VbaReferenceCollection], [FontSubstRuleCollection], [SectionSlideCollection], [CellCollection], [SortedList], [SectionCollection], [ReadOnlyCollection], [ColumnCollection], [TabCollection], [KeyedCollection], [ShapeCollection], [CommentAuthorCollection], [ChartCategoryCollection], [CustomXmlPartCollection], [Dictionary], [SlideCollection], [SortedDictionary], [LinkedList], [Column], [ColorOperationCollection], [ChartDataPointCollection], [Collection], [MasterSlideCollection], [MasterLayoutSlideCollection], [SummaryZoomSectionCollection], [ImageCollection], [GradientStopCollectionEffectiveData], [SmartArtNodeCollection], [BehaviorPropertyCollection], [VideoCollection], [TextAnimationCollection], [EffectStyleCollection], [ControlCollection], [PieSplitCustomPointCollection], [FontFallBackRulesCollection], [ImageTransformOCollectionEffectiveData], [DigitalSignatureCollection], [AudioCollection], [ChartSeriesCollection], [Row], [CommentCollection], [ImageTransformOperationCollection], [TagCollection], [GradientStopCollection], [List], [GlobalLayoutSlideCollection], [ChartDataWorksheetCollection], [LayoutSlideCollection], [FillFormatCollection]
 
 
 ---
 
 
-| [get_Item](String) | Returns or sets property. |
+| [get_Item] ([String]) Returns or sets property. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | String | Name of property. |
+| name | [String] | Name of property. |
 
 ### Result
 String
@@ -68,7 +63,7 @@ String
 ---
 
 
-| [iterator]() | Returns an enumerator that iterates through the collection. |
+| [iterator] () Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -77,7 +72,7 @@ String
 ---
 
 
-| [iteratorJava]() | Returns a java iterator for the entire collection. |
+| [iteratorJava] () Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -86,25 +81,25 @@ String
 ---
 
 
-| [remove](String) | Removes a property with the specified name. |
+| [remove] ([String]) Removes a property with the specified name. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | String | The name of property to remove. |
+| name | [String] | The name of property to remove. |
 
 
 ---
 
 
-| [set_Item](String, String) | Returns or sets property. |
+| [set_Item] ([String], [String]) Returns or sets property. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| name | String | Name of property. |
+| name | [String] | Name of property. |
 
 
 ---
