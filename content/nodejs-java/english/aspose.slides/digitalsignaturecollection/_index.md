@@ -11,19 +11,23 @@ url: /aspose.slides/digitalsignaturecollection/
 
  Represents a collection of digital signatures attached to a document.
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (DigitalSignature(../digitalsignature)) | Adds the signature at the end of collection. |
+| add ([DigitalSignature](../digitalsignature)) | Adds the signature at the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| signature | DigitalSignature(../../digitalsignature) | Signature to add. |
+| signature | [DigitalSignature](../digitalsignature) | Signature to add. |
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -33,60 +37,72 @@ url: /aspose.slides/digitalsignaturecollection/
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns the signature by index. |
 
-### Result
-DigitalSignature(../../digitalsignature)
+ **Result**
+[DigitalSignature](../digitalsignature)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -102,11 +118,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns the number of elements in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

@@ -11,11 +11,13 @@ url: /aspose.slides/chartdataworkbook/
 
  Provides access to embedded Excel workbook
  
+###calculateFormulas{#calculateFormulas}
+
 | Name | Description |
 | --- | --- |
 | calculateFormulas () | Calculates all formulas in the workbook and updates corresponding cells values. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -24,6 +26,8 @@ url: /aspose.slides/chartdataworkbook/
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -39,6 +43,8 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
+###getCell{#getCell}
+
 | Name | Description |
 | --- | --- |
 | getCell (String, int, int) | Gets the cell that can be used for chart series or categories |
@@ -51,12 +57,14 @@ url: /aspose.slides/chartdataworkbook/
 | row | int | The row. |
 | column | int | The column. |
 
-### Result
-ChartDataCell(../../chartdatacell)
+ **Result**
+[ChartDataCell](../chartdatacell)
 
 
 ---
 
+
+###getCell{#getCell}
 
 | Name | Description |
 | --- | --- |
@@ -70,12 +78,14 @@ ChartDataCell(../../chartdatacell)
 | row | int | The row. |
 | column | int | The column. |
 
-### Result
-ChartDataCell(../../chartdatacell)
+ **Result**
+[ChartDataCell](../chartdatacell)
 
 
 ---
 
+
+###getCell{#getCell}
 
 | Name | Description |
 | --- | --- |
@@ -88,12 +98,14 @@ ChartDataCell(../../chartdatacell)
 | worksheetIndex | int | Index of the worksheet. |
 | cellName | String | Name of the cell. |
 
-### Result
-ChartDataCell(../../chartdatacell)
+ **Result**
+[ChartDataCell](../chartdatacell)
 
 
 ---
 
+
+###getCell{#getCell}
 
 | Name | Description |
 | --- | --- |
@@ -107,12 +119,14 @@ ChartDataCell(../../chartdatacell)
 | cellName | String | Name of the cell. |
 | value | Object | The value. |
 
-### Result
-ChartDataCell(../../chartdatacell)
+ **Result**
+[ChartDataCell](../chartdatacell)
 
 
 ---
 
+
+###getCell{#getCell}
 
 | Name | Description |
 | --- | --- |
@@ -127,12 +141,14 @@ ChartDataCell(../../chartdatacell)
 | column | int | The column. |
 | value | Object | The value. |
 
-### Result
-ChartDataCell(../../chartdatacell)
+ **Result**
+[ChartDataCell](../chartdatacell)
 
 
 ---
 
+
+###getCellCollection{#getCellCollection}
 
 | Name | Description |
 | --- | --- |
@@ -145,19 +161,21 @@ ChartDataCell(../../chartdatacell)
 | formula | String | Excel formula like "Sheet1!$A$2:$A$5". |
 | skipHiddenCells | boolean | If true then function returns collection without hidden cells. |
 
-### Result
-ChartCellCollection(../../chartcellcollection)
+ **Result**
+[ChartCellCollection](../chartcellcollection)
 
 
 ---
 
 
+###getWorksheets{#getWorksheets}
+
 | Name | Description |
 | --- | --- |
 | getWorksheets () | Gets a collection of worksheets. |
 
-### Result
-ChartDataWorksheetCollection(../../chartdataworksheetcollection)
+ **Result**
+[ChartDataWorksheetCollection](../chartdataworksheetcollection)
 
 
 ---

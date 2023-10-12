@@ -13,16 +13,20 @@ url: /aspose.slides/videoplayerhtmlcontrollerfactory/
  
  For COM compatibility.
  
+###VideoPlayerHtmlControllerFactory{#VideoPlayerHtmlControllerFactory}
+
 | Name | Description |
 | --- | --- |
 | VideoPlayerHtmlControllerFactory() |  |
 
-### Result
+ **Result**
 VideoPlayerHtmlControllerFactory
 
 
 ---
 
+
+###createVideoPlayerHtmlController{#createVideoPlayerHtmlController}
 
 | Name | Description |
 | --- | --- |
@@ -36,8 +40,8 @@ VideoPlayerHtmlControllerFactory
 | fileName | String | File name. |
 | baseUri | String | Base URI. |
 
-### Result
-VideoPlayerHtmlController(../../videoplayerhtmlcontroller)
+ **Result**
+[VideoPlayerHtmlController](../videoplayerhtmlcontroller)
 
 
 ---

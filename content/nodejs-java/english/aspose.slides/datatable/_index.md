@@ -11,104 +11,124 @@ url: /aspose.slides/datatable/
 
  Represents data table properties.
  
+###getChart{#getChart}
+
 | Name | Description |
 | --- | --- |
 | getChart () | Returns chart. Read-only IChart. |
 
-### Result
-Chart(../../chart)
+ **Result**
+[Chart](../chart)
 
 
 ---
 
+
+###getFormat{#getFormat}
 
 | Name | Description |
 | --- | --- |
 | getFormat () | Returns the line, fill, and effect styles of an object. Read-only IFormat. |
 
-### Result
-Format(../../format)
+ **Result**
+[Format](../format)
 
 
 ---
 
+
+###getPresentation{#getPresentation}
 
 | Name | Description |
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
+
+###getShowLegendKey{#getShowLegendKey}
 
 | Name | Description |
 | --- | --- |
 | getShowLegendKey () | True if the data label legend key is visible. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSlide{#getSlide}
 
 | Name | Description |
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
-### Result
-MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
+ **Result**
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
 ---
 
+
+###getTextFormat{#getTextFormat}
 
 | Name | Description |
 | --- | --- |
 | getTextFormat () | Returns text format. Read-only IChartTextFormat. |
 
-### Result
-ChartTextFormat(../../charttextformat)
+ **Result**
+[ChartTextFormat](../charttextformat)
 
 
 ---
 
+
+###hasBorderHorizontal{#hasBorderHorizontal}
 
 | Name | Description |
 | --- | --- |
 | hasBorderHorizontal () | True if the chart data table has horizontal cell borders. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###hasBorderOutline{#hasBorderOutline}
 
 | Name | Description |
 | --- | --- |
 | hasBorderOutline () | True if the chart data table has outline borders. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###hasBorderVertical{#hasBorderVertical}
 
 | Name | Description |
 | --- | --- |
 | hasBorderVertical () | True if the chart data table has vertical cell borders. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setBorderHorizontal{#setBorderHorizontal}
 
 | Name | Description |
 | --- | --- |
@@ -118,6 +138,8 @@ boolean
 ---
 
 
+###setBorderOutline{#setBorderOutline}
+
 | Name | Description |
 | --- | --- |
 | setBorderOutline (boolean) | True if the chart data table has outline borders. Read/write boolean. |
@@ -126,6 +148,8 @@ boolean
 ---
 
 
+###setBorderVertical{#setBorderVertical}
+
 | Name | Description |
 | --- | --- |
 | setBorderVertical (boolean) | True if the chart data table has vertical cell borders. Read/write boolean. |
@@ -133,6 +157,8 @@ boolean
 
 ---
 
+
+###setShowLegendKey{#setShowLegendKey}
 
 | Name | Description |
 | --- | --- |

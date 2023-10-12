@@ -11,16 +11,20 @@ url: /aspose.slides/tabfactory/
 
  Allows to create ITab instances
  For COM compatibility.
+###TabFactory{#TabFactory}
+
 | Name | Description |
 | --- | --- |
 | TabFactory() |  |
 
-### Result
+ **Result**
 TabFactory
 
 
 ---
 
+
+###createTab{#createTab}
 
 | Name | Description |
 | --- | --- |
@@ -33,8 +37,8 @@ TabFactory
 | position | double | Tab position. |
 | align | int | Align. |
 
-### Result
-Tab(../../tab)
+ **Result**
+[Tab](../tab)
 
 
 ---

@@ -11,22 +11,26 @@ url: /aspose.slides/chartcategorycollection/
 
  Represents collection of  ChartCategory
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (ChartDataCell(../chartdatacell)) | If category exists in collection, return it. Else creates new chart category from IChartDataCell and adds it to the collection. |
+| add ([ChartDataCell](../chartdatacell)) | If category exists in collection, return it. Else creates new chart category from IChartDataCell and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| chartDataCell | ChartDataCell(../../chartdatacell) | Cell used to create chart category. |
+| chartDataCell | [ChartDataCell](../chartdatacell) | Cell used to create chart category. |
 
-### Result
-ChartCategory(../../chartcategory)
+ **Result**
+[ChartCategory](../chartcategory)
 
 
 ---
 
+
+###add{#add}
 
 | Name | Description |
 | --- | --- |
@@ -38,10 +42,10 @@ ChartCategory(../../chartcategory)
 | --- | --- | --- |
 | value | Object | The value. This function adds worksheet with name AUTO_DATA and adds all values there. If you use ChartDataWorkbook to add or edit cell values, be sure that you do not use this worksheet Maximum number of values added using this function must not exceed 16711680 |
 
-### Result
-ChartCategory(../../chartcategory)
+ **Result**
+[ChartCategory](../chartcategory)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -51,6 +55,8 @@ ChartCategory(../../chartcategory)
 ---
 
 
+###clear{#clear}
+
 | Name | Description |
 | --- | --- |
 | clear () | Removes all elements from the collection. |
@@ -59,47 +65,55 @@ ChartCategory(../../chartcategory)
 ---
 
 
+###getGroupingLevelCount{#getGroupingLevelCount}
+
 | Name | Description |
 | --- | --- |
 | getGroupingLevelCount () | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns an object that can be used to synchronize access to the collection. Read-only Object. Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###getUseCells{#getUseCells}
+
 | Name | Description |
 | --- | --- |
 | getUseCells () | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
-### Result
-ChartCategory(../../chartcategory)
+ **Result**
+[ChartCategory](../chartcategory)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -109,67 +123,77 @@ ChartCategory(../../chartcategory)
 ---
 
 
+###indexOf{#indexOf}
+
 | Name | Description |
 | --- | --- |
-| indexOf (ChartCategory(../chartcategory)) | Searches for the specified ChartCategory and returns the zero-based index of the first occurrence within the entire Collection. |
+| indexOf ([ChartCategory](../chartcategory)) | Searches for the specified ChartCategory and returns the zero-based index of the first occurrence within the entire Collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartCategory(../../chartcategory) | Chart category. |
+| value | [ChartCategory](../chartcategory) | Chart category. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the List is synchronized (thread safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (ChartCategory(../chartcategory)) | Removes the specified value. |
+| remove ([ChartCategory](../chartcategory)) | Removes the specified value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartCategory(../../chartcategory) | The value. |
+| value | [ChartCategory](../chartcategory) | The value. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -178,6 +202,8 @@ boolean
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -193,6 +219,8 @@ boolean
 ---
 
 
+###setUseCells{#setUseCells}
+
 | Name | Description |
 | --- | --- |
 | setUseCells (boolean) | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write boolean. |
@@ -201,11 +229,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns a number of elements int the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

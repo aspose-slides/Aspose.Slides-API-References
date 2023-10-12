@@ -11,97 +11,113 @@ url: /aspose.slides/columncollection/
 
  Represents collection of columns in a table.
  
+###addClone{#addClone}
+
 | Name | Description |
 | --- | --- |
-| addClone (Column(../column), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| addClone ([Column](../column), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| templ | Column(../column) | Column which is used as a template. |
+| templ | [Column](../column) | Column which is used as a template. |
 | withAttachedColumns | boolean | True to copy also all columns attached to the template row. |
 
-### Result
-Column(../../column)
+ **Result**
+[Column](../column)
 
 
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns the column at the specified index. Read-only Column. |
 
-### Result
-Column(../../column)
+ **Result**
+[Column](../column)
 
 
 ---
 
 
+###insertClone{#insertClone}
+
 | Name | Description |
 | --- | --- |
-| insertClone (int, Column(../column), boolean) | Creates a copy of the specified template column and insert it at the specified position in a table. |
+| insertClone (int, [Column](../column), boolean) | Creates a copy of the specified template column and insert it at the specified position in a table. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a new column. |
-| templ | Column(../column) | Column which is used as a template. |
+| templ | [Column](../column) | Column which is used as a template. |
 | withAttachedColumns | boolean | True to copy also all columns attached to the template column. |
 
-### Result
-Column(../../column)
+ **Result**
+[Column](../column)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -118,11 +134,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns the number of columns in a collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

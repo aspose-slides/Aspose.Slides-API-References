@@ -11,16 +11,20 @@ url: /aspose.slides/odpexception/
 
  Represents a standard internal exception type.
  
+###OdpException{#OdpException}
+
 | Name | Description |
 | --- | --- |
 | OdpException() | Default function |
 
-### Result
+ **Result**
 OdpException
 
 
 ---
 
+
+###OdpException{#OdpException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ OdpException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 OdpException
 
 
 ---
 
+
+###OdpException{#OdpException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ OdpException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 OdpException
 
 

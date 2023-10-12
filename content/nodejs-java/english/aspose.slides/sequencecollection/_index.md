@@ -11,225 +11,267 @@ url: /aspose.slides/sequencecollection/
 
  Represents collection of interactive sequences.
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (LegacyDiagram(../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
+| add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (Connector(../connector)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (GraphicalObject(../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
+| add ([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (Shape(../shape)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (Ink(../ink)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (GroupShape(../groupshape)) | Add new interactive sequence. Read/write Sequence. |
+| add ([GroupShape](../groupshape)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (SmartArtShape(../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (SummaryZoomSection(../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (ZoomObject(../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
+| add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (SmartArt(../smartart)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SmartArt](../smartart)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (VideoFrame(../videoframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([VideoFrame](../videoframe)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (PictureFrame(../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([PictureFrame](../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (ZoomFrame(../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (AutoShape(../autoshape)) | Add new interactive sequence. Read/write Sequence. |
+| add ([AutoShape](../autoshape)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (OleObjectFrame(../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (SectionZoomFrame(../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SectionZoomFrame](../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (AudioFrame(../audioframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([AudioFrame](../audioframe)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (Chart(../chart)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (Table(../table)) | Add new interactive sequence. Read/write Sequence. |
+| add ([Table](../table)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (SummaryZoomFrame(../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
+| add ([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -239,16 +281,20 @@ Sequence(../../sequence)
 ---
 
 
+###getCount{#getCount}
+
 | Name | Description |
 | --- | --- |
 | getCount () | Returns the number of elements in a collection Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -260,48 +306,56 @@ int
 | --- | --- | --- |
 | index | int | Index of element. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
+
+###iterator{#iterator}
 
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (Sequence(../sequence)) | Removes specified sequence from a collection. |
+| remove ([Sequence](../sequence)) | Removes specified sequence from a collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Sequence(../../sequence) | Sequence to remove. |
+| item | [Sequence](../sequence) | Sequence to remove. |
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |

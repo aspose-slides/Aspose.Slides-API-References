@@ -11,38 +11,46 @@ url: /aspose.slides/slidesize/
 
  Represents a size of slide.
  
+###getOrientation{#getOrientation}
+
 | Name | Description |
 | --- | --- |
 | getOrientation () | Returns or sets the slide orientation. Read/write SlideOrientation. Changing this value will swap slide's dimensions. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getSize{#getSize}
+
 | Name | Description |
 | --- | --- |
 | getSize () | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. Assigning any value will reset ( #getType) property to SlideSizeType#Custom and set ( #getOrientation/ #setOrientation(int)). |
 
-### Result
+ **Result**
 Dimension2D
 
 
 ---
 
 
+###getType{#getType}
+
 | Name | Description |
 | --- | --- |
 | getType () | Returns or sets the type of slide size. Read/write SlideSizeType. Assigning any value except SlideSizeType#Custom will change ( #getSize) accordingly, but will keep ( #getOrientation/ #setOrientation(int)) intact. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setOrientation{#setOrientation}
 
 | Name | Description |
 | --- | --- |
@@ -51,6 +59,8 @@ int
 
 ---
 
+
+###setSize{#setSize}
 
 | Name | Description |
 | --- | --- |
@@ -66,6 +76,8 @@ int
 
 ---
 
+
+###setSize{#setSize}
 
 | Name | Description |
 | --- | --- |

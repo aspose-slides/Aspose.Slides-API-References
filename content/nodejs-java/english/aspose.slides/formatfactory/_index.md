@@ -11,55 +11,65 @@ url: /aspose.slides/formatfactory/
 
  Allows to create formats via COM interface.
  
+###FormatFactory{#FormatFactory}
+
 | Name | Description |
 | --- | --- |
 | FormatFactory() |  |
 
-### Result
+ **Result**
 FormatFactory
 
 
 ---
 
 
+###createParagraphFormat{#createParagraphFormat}
+
 | Name | Description |
 | --- | --- |
 | createParagraphFormat () | Creates new IParagraphFormat. |
 
-### Result
-ParagraphFormat(../../paragraphformat)
+ **Result**
+[ParagraphFormat](../paragraphformat)
 
 
 ---
 
+
+###createPortionFormat{#createPortionFormat}
 
 | Name | Description |
 | --- | --- |
 | createPortionFormat () | Creates new IPortionFormat. |
 
-### Result
-PortionFormat(../../portionformat)
+ **Result**
+[PortionFormat](../portionformat)
 
 
 ---
 
+
+###createTextFrameFormat{#createTextFrameFormat}
 
 | Name | Description |
 | --- | --- |
 | createTextFrameFormat () | Creates new ITextFrameFormat. |
 
-### Result
-TextFrameFormat(../../textframeformat)
+ **Result**
+[TextFrameFormat](../textframeformat)
 
 
 ---
 
 
+###getInstance{#getInstance}
+
 | Name | Description |
 | --- | --- |
 | getInstance () | Format factory static instance. Read-only FormatFactory. |
 
-### Result
+ **Result**
 FormatFactory
 
 

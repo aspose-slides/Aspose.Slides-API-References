@@ -11,6 +11,8 @@ url: /aspose.slides/htmlgenerator/
 
  Html generator.
  
+###addAttributeValue{#addAttributeValue}
+
 | Name | Description |
 | --- | --- |
 | addAttributeValue (String) | Quotes attribute value and adds it to the html file. |
@@ -25,6 +27,8 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
+###addAttributeValue{#addAttributeValue}
+
 | Name | Description |
 | --- | --- |
 | addAttributeValue (char[]) | Quotes attribute value and adds it to the html file. |
@@ -38,6 +42,8 @@ url: /aspose.slides/htmlgenerator/
 
 ---
 
+
+###addAttributeValue{#addAttributeValue}
 
 | Name | Description |
 | --- | --- |
@@ -55,6 +61,8 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
+###addHtml{#addHtml}
+
 | Name | Description |
 | --- | --- |
 | addHtml (String) | Adds formatted HTML text. |
@@ -69,6 +77,8 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
+###addHtml{#addHtml}
+
 | Name | Description |
 | --- | --- |
 | addHtml (char[]) | Adds formatted HTML text. |
@@ -82,6 +92,8 @@ url: /aspose.slides/htmlgenerator/
 
 ---
 
+
+###addHtml{#addHtml}
 
 | Name | Description |
 | --- | --- |
@@ -99,6 +111,8 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
+###addText{#addText}
+
 | Name | Description |
 | --- | --- |
 | addText (String) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
@@ -113,6 +127,8 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
+###addText{#addText}
+
 | Name | Description |
 | --- | --- |
 | addText (char[]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
@@ -126,6 +142,8 @@ url: /aspose.slides/htmlgenerator/
 
 ---
 
+
+###addText{#addText}
 
 | Name | Description |
 | --- | --- |
@@ -143,66 +161,78 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
+###getNextSlideIndex{#getNextSlideIndex}
+
 | Name | Description |
 | --- | --- |
 | getNextSlideIndex () | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getPreviousSlideIndex{#getPreviousSlideIndex}
 
 | Name | Description |
 | --- | --- |
 | getPreviousSlideIndex () | Returns index of previously rendered slide or -1 if first slide is rendering. Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getSlideImageSize{#getSlideImageSize}
+
 | Name | Description |
 | --- | --- |
 | getSlideImageSize () | Returns slide image size. Read-only java.awt.geom.Dimension2D. |
 
-### Result
+ **Result**
 Dimension2D
 
 
 ---
 
 
+###getSlideImageSizeUnit{#getSlideImageSizeUnit}
+
 | Name | Description |
 | --- | --- |
 | getSlideImageSizeUnit () | Returns a unit in which slide image size is specified. Read-only SvgCoordinateUnit. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getSlideImageSizeUnitCode{#getSlideImageSizeUnitCode}
+
 | Name | Description |
 | --- | --- |
 | getSlideImageSizeUnitCode () | Returns a css code of unit in which slide image size is specified. Read-only String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getSlideIndex{#getSlideIndex}
+
 | Name | Description |
 | --- | --- |
 | getSlideIndex () | Returns index of currently rendering slide. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

@@ -11,38 +11,46 @@ url: /aspose.slides/patternformat/
 
  Represents a pattern to fill a shape.
  
+###getBackColor{#getBackColor}
+
 | Name | Description |
 | --- | --- |
 | getBackColor () | Returns the background pattern color. Read-only IColorFormat. |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
+
+###getForeColor{#getForeColor}
 
 | Name | Description |
 | --- | --- |
 | getForeColor () | Returns the foreground pattern color. Read-only IColorFormat. |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
+
+###getPatternStyle{#getPatternStyle}
 
 | Name | Description |
 | --- | --- |
 | getPatternStyle () | Returns or sets the pattern style. Read/write PatternStyle. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###getTileImage{#getTileImage}
 
 | Name | Description |
 | --- | --- |
@@ -55,12 +63,14 @@ byte
 | background | Color | The background java.awt.Color for the pattern. |
 | foreground | Color | The foreground java.awt.Color for the pattern. |
 
-### Result
+ **Result**
 BufferedImage
 
 
 ---
 
+
+###getTileImage{#getTileImage}
 
 | Name | Description |
 | --- | --- |
@@ -72,23 +82,27 @@ BufferedImage
 | --- | --- | --- |
 | styleColor | Color | The default java.awt.Color, defined in ShapeEx's StyleEx object. Fill's colors can depend on this. |
 
-### Result
+ **Result**
 BufferedImage
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###setPatternStyle{#setPatternStyle}
 
 | Name | Description |
 | --- | --- |

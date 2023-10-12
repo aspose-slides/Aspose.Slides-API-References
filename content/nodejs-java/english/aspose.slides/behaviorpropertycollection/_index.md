@@ -11,19 +11,23 @@ url: /aspose.slides/behaviorpropertycollection/
 
  Represents timing properties for the effect behavior.
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (BehaviorProperty(../behaviorproperty)) | Adds a new property to the collection. |
+| add ([BehaviorProperty](../behaviorproperty)) | Adds a new property to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty(../../behaviorproperty) | Property to add. |
+| item | [BehaviorProperty](../behaviorproperty) | Property to add. |
 
 
 ---
 
+
+###add{#add}
 
 | Name | Description |
 | --- | --- |
@@ -39,13 +43,17 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
+###addItem{#addItem}
+
 | Name | Description |
 | --- | --- |
-| addItem (BehaviorProperty(../behaviorproperty)) |  |
+| addItem ([BehaviorProperty](../behaviorproperty)) |  |
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -55,22 +63,26 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
+###contains{#contains}
+
 | Name | Description |
 | --- | --- |
-| contains (BehaviorProperty(../behaviorproperty)) | Determines whether the IGenericCollection contains a specific value. |
+| contains ([BehaviorProperty](../behaviorproperty)) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty(../../behaviorproperty) | The property to locate in the IGenericCollection. |
+| item | [BehaviorProperty](../behaviorproperty) | The property to locate in the IGenericCollection. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###contains{#contains}
 
 | Name | Description |
 | --- | --- |
@@ -82,23 +94,27 @@ boolean
 | --- | --- | --- |
 | propertyValue | String | Value of the property to locate in the IGenericCollection. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###containsItem{#containsItem}
 
 | Name | Description |
 | --- | --- |
-| containsItem (BehaviorProperty(../behaviorproperty)) |  |
+| containsItem ([BehaviorProperty](../behaviorproperty)) |  |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###copyTo{#copyTo}
 
 | Name | Description |
 | --- | --- |
@@ -111,7 +127,7 @@ boolean
 | array | com.aspose.slides.IBehaviorProperty[] | The one-dimensional Array that is the destination of the elements copied from IGenericCollection. The Array must have zero-based indexing. |
 | arrayIndex | int | The zero-based index in array at which copying begins. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -121,6 +137,8 @@ boolean
 ---
 
 
+###copyToTArray{#copyToTArray}
+
 | Name | Description |
 | --- | --- |
 | copyToTArray (com.aspose.slides.IBehaviorProperty[], int) |  |
@@ -128,6 +146,8 @@ boolean
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -139,29 +159,33 @@ boolean
 | --- | --- | --- |
 | index | int | Index of a property to return. |
 
-### Result
-BehaviorProperty(../../behaviorproperty)
+ **Result**
+[BehaviorProperty](../behaviorproperty)
 
 
 ---
 
 
+###indexOf{#indexOf}
+
 | Name | Description |
 | --- | --- |
-| indexOf (BehaviorProperty(../behaviorproperty)) | Determines the index of a specific item in the List. |
+| indexOf ([BehaviorProperty](../behaviorproperty)) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty(../../behaviorproperty) | The object to locate in the List. |
+| item | [BehaviorProperty](../behaviorproperty) | The object to locate in the List. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###indexOf{#indexOf}
 
 | Name | Description |
 | --- | --- |
@@ -173,38 +197,44 @@ int
 | --- | --- | --- |
 | propertyValue | String | value of the property |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###indexOfItem{#indexOfItem}
+
 | Name | Description |
 | --- | --- |
-| indexOfItem (BehaviorProperty(../behaviorproperty)) |  |
+| indexOfItem ([BehaviorProperty](../behaviorproperty)) |  |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###insert{#insert}
+
 | Name | Description |
 | --- | --- |
-| insert (int, BehaviorProperty(../behaviorproperty)) | Inserts a new property to the collection at the specified index. |
+| insert (int, [BehaviorProperty](../behaviorproperty)) | Inserts a new property to the collection at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index where a new property should be inserted. |
-| item | BehaviorProperty(../../behaviorproperty) | Property to add. |
+| item | [BehaviorProperty](../behaviorproperty) | Property to add. |
 
 
 ---
 
+
+###insert{#insert}
 
 | Name | Description |
 | --- | --- |
@@ -221,63 +251,75 @@ int
 ---
 
 
+###insertItem{#insertItem}
+
 | Name | Description |
 | --- | --- |
-| insertItem (int, BehaviorProperty(../behaviorproperty)) |  |
+| insertItem (int, [BehaviorProperty](../behaviorproperty)) |  |
 
 
 ---
 
+
+###isReadOnly{#isReadOnly}
 
 | Name | Description |
 | --- | --- |
 | isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###iterator{#iterator}
 
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (BehaviorProperty(../behaviorproperty)) | Removes specified property from the collection. |
+| remove ([BehaviorProperty](../behaviorproperty)) | Removes specified property from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | BehaviorProperty(../../behaviorproperty) | Property to remove. |
+| item | [BehaviorProperty](../behaviorproperty) | Property to remove. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###remove{#remove}
 
 | Name | Description |
 | --- | --- |
@@ -289,12 +331,14 @@ boolean
 | --- | --- | --- |
 | propertyValue | String | Value of the property to remove. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -310,20 +354,24 @@ boolean
 ---
 
 
+###removeItem{#removeItem}
+
 | Name | Description |
 | --- | --- |
-| removeItem (BehaviorProperty(../behaviorproperty)) |  |
+| removeItem ([BehaviorProperty](../behaviorproperty)) |  |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, BehaviorProperty(../behaviorproperty)) | Sets a property at the specified index. |
+| set_Item (int, [BehaviorProperty](../behaviorproperty)) | Sets a property at the specified index. |
 
 ### Parameters
 
@@ -335,11 +383,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns the number of properties stored in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

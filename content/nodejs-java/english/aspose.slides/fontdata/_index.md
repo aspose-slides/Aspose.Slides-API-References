@@ -11,6 +11,8 @@ url: /aspose.slides/fontdata/
 
  Represents a font definition. Immutable.
  
+###FontData{#FontData}
+
 | Name | Description |
 | --- | --- |
 | FontData(String) | Creates a new FontData object with the specified font name. |
@@ -21,12 +23,14 @@ url: /aspose.slides/fontdata/
 | --- | --- | --- |
 | fontName | String | Font name. |
 
-### Result
+ **Result**
 FontData
 
 
 ---
 
+
+###equals{#equals}
 
 | Name | Description |
 | --- | --- |
@@ -38,57 +42,65 @@ FontData
 | --- | --- | --- |
 | obj | Object | The FontData to compare with the current FontData. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getFontName{#getFontName}
+
 | Name | Description |
 | --- | --- |
 | getFontName () | Returns the font name. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getFontName{#getFontName}
+
 | Name | Description |
 | --- | --- |
-| getFontName (IThemeEffectiveData(../ithemeeffectivedata)) | Returns the font name, replacing theme referrence with an actual font used. |
+| getFontName ([IThemeEffectiveData](../ithemeeffectivedata)) | Returns the font name, replacing theme referrence with an actual font used. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| theme | IThemeEffectiveData(../../ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
+| theme | [IThemeEffectiveData](../ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###toString{#toString}
+
 | Name | Description |
 | --- | --- |
 | toString () | Returns string representation. |
 
-### Result
+ **Result**
 String
 
 

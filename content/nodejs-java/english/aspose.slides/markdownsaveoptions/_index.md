@@ -11,104 +11,124 @@ url: /aspose.slides/markdownsaveoptions/
 
  Represents options that control how presentation should be saved to markdown.
  
+###MarkdownSaveOptions{#MarkdownSaveOptions}
+
 | Name | Description |
 | --- | --- |
 | MarkdownSaveOptions() | Ctor. |
 
-### Result
+ **Result**
 MarkdownSaveOptions
 
 
 ---
 
 
+###getBasePath{#getBasePath}
+
 | Name | Description |
 | --- | --- |
 | getBasePath () | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getExportType{#getExportType}
 
 | Name | Description |
 | --- | --- |
 | getExportType () | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getFlavor{#getFlavor}
 
 | Name | Description |
 | --- | --- |
 | getFlavor () | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getImagesSaveFolderName{#getImagesSaveFolderName}
+
 | Name | Description |
 | --- | --- |
 | getImagesSaveFolderName () | Specifies folder name to save images. Default is Images. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getNewLineType{#getNewLineType}
+
 | Name | Description |
 | --- | --- |
 | getNewLineType () | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getShowComments{#getShowComments}
+
 | Name | Description |
 | --- | --- |
 | getShowComments () | Specifies whether the generated document should show comments or not. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowHiddenSlides{#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowSlideNumber{#getShowSlideNumber}
 
 | Name | Description |
 | --- | --- |
 | getShowSlideNumber () | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setBasePath{#setBasePath}
 
 | Name | Description |
 | --- | --- |
@@ -118,6 +138,8 @@ boolean
 ---
 
 
+###setExportType{#setExportType}
+
 | Name | Description |
 | --- | --- |
 | setExportType (int) | Specifies markdown specification to convert presentation. Default is TextOnly. |
@@ -125,6 +147,8 @@ boolean
 
 ---
 
+
+###setFlavor{#setFlavor}
 
 | Name | Description |
 | --- | --- |
@@ -134,6 +158,8 @@ boolean
 ---
 
 
+###setImagesSaveFolderName{#setImagesSaveFolderName}
+
 | Name | Description |
 | --- | --- |
 | setImagesSaveFolderName (String) | Specifies folder name to save images. Default is Images. |
@@ -141,6 +167,8 @@ boolean
 
 ---
 
+
+###setNewLineType{#setNewLineType}
 
 | Name | Description |
 | --- | --- |
@@ -150,6 +178,8 @@ boolean
 ---
 
 
+###setShowComments{#setShowComments}
+
 | Name | Description |
 | --- | --- |
 | setShowComments (boolean) | Specifies whether the generated document should show comments or not. Default is false. |
@@ -158,6 +188,8 @@ boolean
 ---
 
 
+###setShowHiddenSlides{#setShowHiddenSlides}
+
 | Name | Description |
 | --- | --- |
 | setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
@@ -165,6 +197,8 @@ boolean
 
 ---
 
+
+###setShowSlideNumber{#setShowSlideNumber}
 
 | Name | Description |
 | --- | --- |

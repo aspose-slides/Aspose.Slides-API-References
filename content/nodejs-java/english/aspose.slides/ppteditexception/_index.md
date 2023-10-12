@@ -11,16 +11,20 @@ url: /aspose.slides/ppteditexception/
 
  Represents an exception thrown when edit presentation error is detected.
  
+###PptEditException{#PptEditException}
+
 | Name | Description |
 | --- | --- |
 | PptEditException() | Default function. |
 
-### Result
+ **Result**
 PptEditException
 
 
 ---
 
+
+###PptEditException{#PptEditException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ PptEditException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 PptEditException
 
 
 ---
 
+
+###PptEditException{#PptEditException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ PptEditException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 PptEditException
 
 

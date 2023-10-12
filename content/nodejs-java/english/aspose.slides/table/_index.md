@@ -11,167 +11,197 @@ url: /aspose.slides/table/
 
  Represents a table on a slide.
  
+###getColumns{#getColumns}
+
 | Name | Description |
 | --- | --- |
 | getColumns () | Returns the collectoin of columns. Read-only IColumnCollection. |
 
-### Result
-ColumnCollection(../../columncollection)
+ **Result**
+[ColumnCollection](../columncollection)
 
 
 ---
 
+
+###getFillFormat{#getFillFormat}
 
 | Name | Description |
 | --- | --- |
 | getFillFormat () | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
 
-### Result
-FillFormat(../../fillformat)
+ **Result**
+[FillFormat](../fillformat)
 
 
 ---
 
+
+###getFirstCol{#getFirstCol}
 
 | Name | Description |
 | --- | --- |
 | getFirstCol () | Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getFirstRow{#getFirstRow}
 
 | Name | Description |
 | --- | --- |
 | getFirstRow () | Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getHorizontalBanding{#getHorizontalBanding}
 
 | Name | Description |
 | --- | --- |
 | getHorizontalBanding () | Determines whether the even rows has to be drawn with a different formatting. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getLastCol{#getLastCol}
 
 | Name | Description |
 | --- | --- |
 | getLastCol () | Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getLastRow{#getLastRow}
 
 | Name | Description |
 | --- | --- |
 | getLastRow () | Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getRightToLeft{#getRightToLeft}
 
 | Name | Description |
 | --- | --- |
 | getRightToLeft () | Determines whether the table has right to left reading order. Read-write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getRows{#getRows}
+
 | Name | Description |
 | --- | --- |
 | getRows () | Returns the collectoin of rows. Read-only IRowCollection. |
 
-### Result
-RowCollection(../../rowcollection)
+ **Result**
+[RowCollection](../rowcollection)
 
 
 ---
 
 
+###getStylePreset{#getStylePreset}
+
 | Name | Description |
 | --- | --- |
 | getStylePreset () | Gets or sets builtin table style. Read/write TableStylePreset. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getTableFormat{#getTableFormat}
+
 | Name | Description |
 | --- | --- |
 | getTableFormat () | Returns the TableFormat object that contains formatting properties for this table. Read-only ITableFormat. |
 
-### Result
-TableFormat(../../tableformat)
+ **Result**
+[TableFormat](../tableformat)
 
 
 ---
 
 
+###getVerticalBanding{#getVerticalBanding}
+
 | Name | Description |
 | --- | --- |
 | getVerticalBanding () | Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int, int) | Returns the cell at the specified column and row indexes. Read-only Cell. |
 
-### Result
-Cell(../../cell)
+ **Result**
+[Cell](../cell)
 
 
 ---
 
 
+###mergeCells{#mergeCells}
+
 | Name | Description |
 | --- | --- |
-| mergeCells (Cell(../cell), Cell(../cell), boolean) | Merges neighbour cells. |
+| mergeCells ([Cell](../cell), [Cell](../cell), boolean) | Merges neighbour cells. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell1 | Cell(../cell) | Cell to merge. |
-| cell2 | Cell(../cell) | Cell to merge. |
+| cell1 | [Cell](../cell) | Cell to merge. |
+| cell2 | [Cell](../cell) | Cell to merge. |
 | allowSplitting | boolean | True to allow cells splitting. |
 
-### Result
-Cell(../../cell)
+ **Result**
+[Cell](../cell)
 
 
 ---
 
+
+###setFirstCol{#setFirstCol}
 
 | Name | Description |
 | --- | --- |
@@ -181,6 +211,8 @@ Cell(../../cell)
 ---
 
 
+###setFirstRow{#setFirstRow}
+
 | Name | Description |
 | --- | --- |
 | setFirstRow (boolean) | Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
@@ -188,6 +220,8 @@ Cell(../../cell)
 
 ---
 
+
+###setHorizontalBanding{#setHorizontalBanding}
 
 | Name | Description |
 | --- | --- |
@@ -197,6 +231,8 @@ Cell(../../cell)
 ---
 
 
+###setLastCol{#setLastCol}
+
 | Name | Description |
 | --- | --- |
 | setLastCol (boolean) | Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean. |
@@ -204,6 +240,8 @@ Cell(../../cell)
 
 ---
 
+
+###setLastRow{#setLastRow}
 
 | Name | Description |
 | --- | --- |
@@ -213,6 +251,8 @@ Cell(../../cell)
 ---
 
 
+###setRightToLeft{#setRightToLeft}
+
 | Name | Description |
 | --- | --- |
 | setRightToLeft (boolean) | Determines whether the table has right to left reading order. Read-write boolean. |
@@ -220,6 +260,8 @@ Cell(../../cell)
 
 ---
 
+
+###setStylePreset{#setStylePreset}
 
 | Name | Description |
 | --- | --- |
@@ -229,47 +271,55 @@ Cell(../../cell)
 ---
 
 
+###setTextFormat{#setTextFormat}
+
 | Name | Description |
 | --- | --- |
-| setTextFormat (PortionFormat(../portionformat)) | Sets defined portion format properties to all table cells' portions. |
+| setTextFormat ([PortionFormat](../portionformat)) | Sets defined portion format properties to all table cells' portions. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | PortionFormat(../../portionformat) | IPortionFormat object with necessary properties set. |
+| source | [PortionFormat](../portionformat) | IPortionFormat object with necessary properties set. |
 
 
 ---
 
 
+###setTextFormat{#setTextFormat}
+
 | Name | Description |
 | --- | --- |
-| setTextFormat (ParagraphFormat(../paragraphformat)) | Sets defined paragraph format properties to all table cells' paragraphs. |
+| setTextFormat ([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all table cells' paragraphs. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | ParagraphFormat(../../paragraphformat) | IParagraphFormat object with necessary properties set. |
+| source | [ParagraphFormat](../paragraphformat) | IParagraphFormat object with necessary properties set. |
 
 
 ---
 
 
+###setTextFormat{#setTextFormat}
+
 | Name | Description |
 | --- | --- |
-| setTextFormat (TextFrameFormat(../textframeformat)) | Sets defined text frame format properties to all table cells' text frames. |
+| setTextFormat ([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all table cells' text frames. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| source | TextFrameFormat(../../textframeformat) | ITextFrameFormat object with necessary properties set. |
+| source | [TextFrameFormat](../textframeformat) | ITextFrameFormat object with necessary properties set. |
 
 
 ---
 
+
+###setVerticalBanding{#setVerticalBanding}
 
 | Name | Description |
 | --- | --- |

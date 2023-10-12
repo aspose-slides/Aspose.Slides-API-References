@@ -11,82 +11,98 @@ url: /aspose.slides/groupshapelock/
 
  Determines which operations are disabled on the parent GroupShape.
  
+###getAspectRatioLocked{#getAspectRatioLocked}
+
 | Name | Description |
 | --- | --- |
 | getAspectRatioLocked () | Determines whether shape have to preserve aspect ratio on resizing. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getGroupingLocked{#getGroupingLocked}
 
 | Name | Description |
 | --- | --- |
 | getGroupingLocked () | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getPositionLocked{#getPositionLocked}
 
 | Name | Description |
 | --- | --- |
 | getPositionLocked () | Determines whether moving this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getRotationLocked{#getRotationLocked}
 
 | Name | Description |
 | --- | --- |
 | getRotationLocked () | Determines whether changing rotation angle of this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSelectLocked{#getSelectLocked}
 
 | Name | Description |
 | --- | --- |
 | getSelectLocked () | Determines whether selecting this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSizeLocked{#getSizeLocked}
 
 | Name | Description |
 | --- | --- |
 | getSizeLocked () | Determines whether resizing this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getUngroupingLocked{#getUngroupingLocked}
 
 | Name | Description |
 | --- | --- |
 | getUngroupingLocked () | Determines whether splitting this groupshape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setAspectRatioLocked{#setAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -96,6 +112,8 @@ boolean
 ---
 
 
+###setGroupingLocked{#setGroupingLocked}
+
 | Name | Description |
 | --- | --- |
 | setGroupingLocked (boolean) | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
@@ -103,6 +121,8 @@ boolean
 
 ---
 
+
+###setPositionLocked{#setPositionLocked}
 
 | Name | Description |
 | --- | --- |
@@ -112,6 +132,8 @@ boolean
 ---
 
 
+###setRotationLocked{#setRotationLocked}
+
 | Name | Description |
 | --- | --- |
 | setRotationLocked (boolean) | Determines whether changing rotation angle of this shape is forbidden. Read/write boolean. |
@@ -119,6 +141,8 @@ boolean
 
 ---
 
+
+###setSelectLocked{#setSelectLocked}
 
 | Name | Description |
 | --- | --- |
@@ -128,6 +152,8 @@ boolean
 ---
 
 
+###setSizeLocked{#setSizeLocked}
+
 | Name | Description |
 | --- | --- |
 | setSizeLocked (boolean) | Determines whether resizing this shape is forbidden. Read/write boolean. |
@@ -135,6 +161,8 @@ boolean
 
 ---
 
+
+###setUngroupingLocked{#setUngroupingLocked}
 
 | Name | Description |
 | --- | --- |

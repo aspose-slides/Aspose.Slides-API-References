@@ -11,14 +11,16 @@ url: /aspose.slides/smartartshape/
 
  Represents SmartArt shape
  
+###getShapeType{#getShapeType}
+
 | Name | Description |
 | --- | --- |
 | getShapeType () | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
 
-### Result
+ **Result**
 int
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -28,22 +30,26 @@ int
 ---
 
 
+###getTextFrame{#getTextFrame}
+
 | Name | Description |
 | --- | --- |
 | getTextFrame () | Returns text of the SmartArt shape. Read-only ITextFrame. |
 
-### Result
-TextFrame(../../textframe)
+ **Result**
+[TextFrame](../textframe)
 
 
 ---
 
 
+###setShapeType{#setShapeType}
+
 | Name | Description |
 | --- | --- |
 | setShapeType (int) | Returns or sets the geometry preset type. Note: on value changing all adjustment values will reset to their default values. Read/write ShapeType. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |

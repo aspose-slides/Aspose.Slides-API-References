@@ -9,38 +9,46 @@ url: /aspose.slides/streambuffer/
 
 ## StreamBuffer class
 
+###StreamBuffer{#StreamBuffer}
+
 | Name | Description |
 | --- | --- |
 | StreamBuffer() |  |
 
-### Result
+ **Result**
 StreamBuffer
 
 
 ---
 
+
+###StreamBuffer{#StreamBuffer}
 
 | Name | Description |
 | --- | --- |
 | StreamBuffer(int) |  |
 
-### Result
+ **Result**
 StreamBuffer
 
 
 ---
 
 
+###read{#read}
+
 | Name | Description |
 | --- | --- |
 | read (int) |  |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###reset{#reset}
 
 | Name | Description |
 | --- | --- |
@@ -50,11 +58,13 @@ byte
 ---
 
 
+###toInputStream{#toInputStream}
+
 | Name | Description |
 | --- | --- |
 | toInputStream () |  |
 
-### Result
+ **Result**
 InputStream
 
 

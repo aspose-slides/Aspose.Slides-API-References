@@ -13,57 +13,69 @@ url: /aspose.slides/stringchartvalue/
  1) in cell/cells of workbook related to chart;
  2) as literal value.
  
+###getAsCells{#getAsCells}
+
 | Name | Description |
 | --- | --- |
 | getAsCells () | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
 
-### Result
-ChartCellCollection(../../chartcellcollection)
+ **Result**
+[ChartCellCollection](../chartcellcollection)
 
 
 ---
 
+
+###getAsLiteralString{#getAsLiteralString}
 
 | Name | Description |
 | --- | --- |
 | getAsLiteralString () | Returns or sets value as literal string. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getCellsAddressInWorkbook{#getCellsAddressInWorkbook}
 
 | Name | Description |
 | --- | --- |
 | getCellsAddressInWorkbook () | If DataSourceType property is DataSourceType.Worksheet then this function returns address of the cells in workbook which represent the string data. Otherwise return empty string. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getData{#getData}
+
 | Name | Description |
 | --- | --- |
 | getData () | Returns or sets Data object. Read/write Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###setAsCells{#setAsCells}
+
 | Name | Description |
 | --- | --- |
-| setAsCells (ChartCellCollection(../chartcellcollection)) | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
+| setAsCells ([ChartCellCollection](../chartcellcollection)) | Null value assigning is not allowed. Returning value always is not null. Read/write IChartCellCollection. |
 
 
 ---
 
+
+###setAsLiteralString{#setAsLiteralString}
 
 | Name | Description |
 | --- | --- |
@@ -73,6 +85,8 @@ Object
 ---
 
 
+###setData{#setData}
+
 | Name | Description |
 | --- | --- |
 | setData (Object) | Returns or sets Data object. Read/write Object. |
@@ -81,25 +95,29 @@ Object
 ---
 
 
+###setFromOneCell{#setFromOneCell}
+
 | Name | Description |
 | --- | --- |
-| setFromOneCell (ChartDataCell(../chartdatacell)) | Sets value from specified cell. |
+| setFromOneCell ([ChartDataCell](../chartdatacell)) | Sets value from specified cell. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell | ChartDataCell(../../chartdatacell) | Cell. |
+| cell | [ChartDataCell](../chartdatacell) | Cell. |
 
 
 ---
 
 
+###toString{#toString}
+
 | Name | Description |
 | --- | --- |
 | toString () | Returns string value data. Return null if DataSourceType is false and no string value was assigned. |
 
-### Result
+ **Result**
 String
 
 

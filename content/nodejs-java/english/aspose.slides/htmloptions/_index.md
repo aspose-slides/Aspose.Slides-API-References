@@ -11,121 +11,143 @@ url: /aspose.slides/htmloptions/
 
  Represents a HTML exporting options.
  
+###HtmlOptions{#HtmlOptions}
+
 | Name | Description |
 | --- | --- |
-| HtmlOptions(VideoPlayerHtmlController(../videoplayerhtmlcontroller)) | Creates a new HtmlOptions object specifiing callback. |
+| HtmlOptions([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates a new HtmlOptions object specifiing callback. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| linkEmbedController | VideoPlayerHtmlController(../../videoplayerhtmlcontroller) | Callback object which controls saving project. |
+| linkEmbedController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback object which controls saving project. |
 
-### Result
+ **Result**
 HtmlOptions
 
 
 ---
 
+
+###HtmlOptions{#HtmlOptions}
 
 | Name | Description |
 | --- | --- |
 | HtmlOptions() | Creates a new HtmlOptions object for saving into single HTML file. |
 
-### Result
+ **Result**
 HtmlOptions
 
 
 ---
 
 
+###getDeletePicturesCroppedAreas{#getDeletePicturesCroppedAreas}
+
 | Name | Description |
 | --- | --- |
 | getDeletePicturesCroppedAreas () | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getHtmlFormatter{#getHtmlFormatter}
+
 | Name | Description |
 | --- | --- |
 | getHtmlFormatter () | Returns or sets HTML template. Read/write IHtmlFormatter. |
 
-### Result
-HtmlFormatter(../../htmlformatter)
+ **Result**
+[HtmlFormatter](../htmlformatter)
 
 
 ---
 
 
+###getJpegQuality{#getJpegQuality}
+
 | Name | Description |
 | --- | --- |
 | getJpegQuality () | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write byte. Has effect only when a document contains JPEG images. Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. The default value is 95. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+
 | Name | Description |
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
-### Result
-NotesCommentsLayoutingOptions(../../notescommentslayoutingoptions)
+ **Result**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
 
 
+###getPicturesCompression{#getPicturesCompression}
+
 | Name | Description |
 | --- | --- |
 | getPicturesCompression () | Represents the pictures compression level |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getShowHiddenSlides{#getShowHiddenSlides}
+
 | Name | Description |
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSlideImageFormat{#getSlideImageFormat}
 
 | Name | Description |
 | --- | --- |
 | getSlideImageFormat () | Returns or sets slide image format options. Read/write ISlideImageFormat. |
 
-### Result
-SlideImageFormat(../../slideimageformat)
+ **Result**
+[SlideImageFormat](../slideimageformat)
 
 
 ---
 
+
+###getSvgResponsiveLayout{#getSvgResponsiveLayout}
 
 | Name | Description |
 | --- | --- |
 | getSvgResponsiveLayout () | True to exclude width and height attributes from svg container - that will make layout responsive. False - otherwise. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setDeletePicturesCroppedAreas{#setDeletePicturesCroppedAreas}
 
 | Name | Description |
 | --- | --- |
@@ -135,13 +157,17 @@ boolean
 ---
 
 
+###setHtmlFormatter{#setHtmlFormatter}
+
 | Name | Description |
 | --- | --- |
-| setHtmlFormatter (HtmlFormatter(../htmlformatter)) | Returns or sets HTML template. Read/write IHtmlFormatter. |
+| setHtmlFormatter ([HtmlFormatter](../htmlformatter)) | Returns or sets HTML template. Read/write IHtmlFormatter. |
 
 
 ---
 
+
+###setJpegQuality{#setJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -151,6 +177,8 @@ boolean
 ---
 
 
+###setPicturesCompression{#setPicturesCompression}
+
 | Name | Description |
 | --- | --- |
 | setPicturesCompression (int) | Represents the pictures compression level |
@@ -158,6 +186,8 @@ boolean
 
 ---
 
+
+###setShowHiddenSlides{#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
@@ -167,13 +197,17 @@ boolean
 ---
 
 
+###setSlideImageFormat{#setSlideImageFormat}
+
 | Name | Description |
 | --- | --- |
-| setSlideImageFormat (SlideImageFormat(../slideimageformat)) | Returns or sets slide image format options. Read/write ISlideImageFormat. |
+| setSlideImageFormat ([SlideImageFormat](../slideimageformat)) | Returns or sets slide image format options. Read/write ISlideImageFormat. |
 
 
 ---
 
+
+###setSvgResponsiveLayout{#setSvgResponsiveLayout}
 
 | Name | Description |
 | --- | --- |

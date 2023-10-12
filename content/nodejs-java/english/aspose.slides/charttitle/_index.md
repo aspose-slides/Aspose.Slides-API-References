@@ -11,6 +11,8 @@ url: /aspose.slides/charttitle/
 
  Represents chart title properties.
  
+###addTextFrameForOverriding{#addTextFrameForOverriding}
+
 | Name | Description |
 | --- | --- |
 | addTextFrameForOverriding (String) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
@@ -21,155 +23,183 @@ url: /aspose.slides/charttitle/
 | --- | --- | --- |
 | text | String | Text for a new TextFrameForOverriding. |
 
-### Result
-TextFrame(../../textframe)
+ **Result**
+[TextFrame](../textframe)
 
 
 ---
 
+
+###getBottom{#getBottom}
 
 | Name | Description |
 | --- | --- |
 | getBottom () | Bottom. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getChart{#getChart}
 
 | Name | Description |
 | --- | --- |
 | getChart () | Returns the parent chart. Read-only IChart. |
 
-### Result
-Chart(../../chart)
+ **Result**
+[Chart](../chart)
 
 
 ---
 
+
+###getFormat{#getFormat}
 
 | Name | Description |
 | --- | --- |
 | getFormat () | Returns the fill, line, effect styles of a title. Read-only IFormat. |
 
-### Result
-Format(../../format)
+ **Result**
+[Format](../format)
 
 
 ---
 
 
+###getHeight{#getHeight}
+
 | Name | Description |
 | --- | --- |
 | getHeight () | Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getOverlay{#getOverlay}
+
 | Name | Description |
 | --- | --- |
 | getOverlay () | Determines whether other chart elements shall be allowed to overlap title. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getPresentation{#getPresentation}
+
 | Name | Description |
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
+
+###getRight{#getRight}
 
 | Name | Description |
 | --- | --- |
 | getRight () | Right. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getSlide{#getSlide}
 
 | Name | Description |
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
-### Result
-MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
+ **Result**
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
 ---
 
+
+###getTextFormat{#getTextFormat}
 
 | Name | Description |
 | --- | --- |
 | getTextFormat () | Returns text format. Read-only IChartTextFormat. |
 
-### Result
-ChartTextFormat(../../charttextformat)
+ **Result**
+[ChartTextFormat](../charttextformat)
 
 
 ---
 
+
+###getTextFrameForOverriding{#getTextFrameForOverriding}
 
 | Name | Description |
 | --- | --- |
 | getTextFrameForOverriding () | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text. Auto-generated text is an implicit property of the data label, the display unit label of the value axis, the axis title, the chart title, the label of the trendline. Auto-generated text is formatted with the IFormattedTextContainer.TextFormat property. Read-only ITextFrame. |
 
-### Result
-TextFrame(../../textframe)
+ **Result**
+[TextFrame](../textframe)
 
 
 ---
 
+
+###getWidth{#getWidth}
 
 | Name | Description |
 | --- | --- |
 | getWidth () | Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getX{#getX}
 
 | Name | Description |
 | --- | --- |
 | getX () | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getY{#getY}
 
 | Name | Description |
 | --- | --- |
 | getY () | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###setHeight{#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -179,6 +209,8 @@ float
 ---
 
 
+###setOverlay{#setOverlay}
+
 | Name | Description |
 | --- | --- |
 | setOverlay (boolean) | Determines whether other chart elements shall be allowed to overlap title. Read/write boolean. |
@@ -186,6 +218,8 @@ float
 
 ---
 
+
+###setWidth{#setWidth}
 
 | Name | Description |
 | --- | --- |
@@ -195,6 +229,8 @@ float
 ---
 
 
+###setX{#setX}
+
 | Name | Description |
 | --- | --- |
 | setX (float) | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
@@ -202,6 +238,8 @@ float
 
 ---
 
+
+###setY{#setY}
 
 | Name | Description |
 | --- | --- |

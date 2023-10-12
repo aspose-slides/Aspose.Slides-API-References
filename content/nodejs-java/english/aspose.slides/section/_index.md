@@ -11,49 +11,59 @@ url: /aspose.slides/section/
 
  Represents section of slides.
  
+###getName{#getName}
+
 | Name | Description |
 | --- | --- |
 | getName () | Name of the section. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getSectionId{#getSectionId}
+
 | Name | Description |
 | --- | --- |
 | getSectionId () | Section Id. |
 
-### Result
+ **Result**
 UUID
 
 
 ---
 
 
+###getSlidesListOfSection{#getSlidesListOfSection}
+
 | Name | Description |
 | --- | --- |
 | getSlidesListOfSection () | Returns list of slides in the section. |
 
-### Result
-SectionSlideCollection(../../sectionslidecollection)
+ **Result**
+[SectionSlideCollection](../sectionslidecollection)
 
 
 ---
 
+
+###getStartedFromSlide{#getStartedFromSlide}
 
 | Name | Description |
 | --- | --- |
 | getStartedFromSlide () | Returns first slide of the section. |
 
-### Result
-Slide(../../slide)
+ **Result**
+[Slide](../slide)
 
 
 ---
 
+
+###setName{#setName}
 
 | Name | Description |
 | --- | --- |

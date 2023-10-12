@@ -11,192 +11,228 @@ url: /aspose.slides/swfoptions/
 
  Provides options that control how a presentation is saved in Swf format.
  
+###SwfOptions{#SwfOptions}
+
 | Name | Description |
 | --- | --- |
 | SwfOptions() | Default function. |
 
-### Result
+ **Result**
 SwfOptions
 
 
 ---
 
 
+###getCompressed{#getCompressed}
+
 | Name | Description |
 | --- | --- |
 | getCompressed () | Specifies whether the generated SWF document should be compressed or not. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getEnableContextMenu{#getEnableContextMenu}
 
 | Name | Description |
 | --- | --- |
 | getEnableContextMenu () | Enable/disable context menu. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getJpegQuality{#getJpegQuality}
+
 | Name | Description |
 | --- | --- |
 | getJpegQuality () | Specifies the quality of JPEG images. Default is 95. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getLogoImageBytes{#getLogoImageBytes}
+
 | Name | Description |
 | --- | --- |
 | getLogoImageBytes () | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getLogoLink{#getLogoLink}
+
 | Name | Description |
 | --- | --- |
 | getLogoLink () | Gets or sets the full hyperlink address for a logo. Has an effect only if a ( #getLogoImageBytes/ #setLogoImageBytes(byte[])) is specified. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+
 | Name | Description |
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
-### Result
-NotesCommentsLayoutingOptions(../../notescommentslayoutingoptions)
+ **Result**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
 
+
+###getShowBottomPane{#getShowBottomPane}
 
 | Name | Description |
 | --- | --- |
 | getShowBottomPane () | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowFullScreen{#getShowFullScreen}
 
 | Name | Description |
 | --- | --- |
 | getShowFullScreen () | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowHiddenSlides{#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowLeftPane{#getShowLeftPane}
 
 | Name | Description |
 | --- | --- |
 | getShowLeftPane () | Show/hide left pane. Can be overridden in flashvars. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowPageBorder{#getShowPageBorder}
 
 | Name | Description |
 | --- | --- |
 | getShowPageBorder () | Specifies whether border around pages should be shown. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowPageStepper{#getShowPageStepper}
 
 | Name | Description |
 | --- | --- |
 | getShowPageStepper () | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowSearch{#getShowSearch}
 
 | Name | Description |
 | --- | --- |
 | getShowSearch () | Show/hide search section. Can be overridden in flashvars. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowTopPane{#getShowTopPane}
 
 | Name | Description |
 | --- | --- |
 | getShowTopPane () | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getStartOpenLeftPane{#getStartOpenLeftPane}
 
 | Name | Description |
 | --- | --- |
 | getStartOpenLeftPane () | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getViewerIncluded{#getViewerIncluded}
 
 | Name | Description |
 | --- | --- |
 | getViewerIncluded () | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setCompressed{#setCompressed}
 
 | Name | Description |
 | --- | --- |
@@ -206,6 +242,8 @@ boolean
 ---
 
 
+###setEnableContextMenu{#setEnableContextMenu}
+
 | Name | Description |
 | --- | --- |
 | setEnableContextMenu (boolean) | Enable/disable context menu. Default is true. |
@@ -213,6 +251,8 @@ boolean
 
 ---
 
+
+###setJpegQuality{#setJpegQuality}
 
 | Name | Description |
 | --- | --- |
@@ -222,6 +262,8 @@ boolean
 ---
 
 
+###setLogoImageBytes{#setLogoImageBytes}
+
 | Name | Description |
 | --- | --- |
 | setLogoImageBytes (byte[]) | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
@@ -229,6 +271,8 @@ boolean
 
 ---
 
+
+###setLogoLink{#setLogoLink}
 
 | Name | Description |
 | --- | --- |
@@ -238,6 +282,8 @@ boolean
 ---
 
 
+###setShowBottomPane{#setShowBottomPane}
+
 | Name | Description |
 | --- | --- |
 | setShowBottomPane (boolean) | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
@@ -245,6 +291,8 @@ boolean
 
 ---
 
+
+###setShowFullScreen{#setShowFullScreen}
 
 | Name | Description |
 | --- | --- |
@@ -254,6 +302,8 @@ boolean
 ---
 
 
+###setShowHiddenSlides{#setShowHiddenSlides}
+
 | Name | Description |
 | --- | --- |
 | setShowHiddenSlides (boolean) | Specifies whether the generated document should include hidden slides or not. Default is false. |
@@ -261,6 +311,8 @@ boolean
 
 ---
 
+
+###setShowLeftPane{#setShowLeftPane}
 
 | Name | Description |
 | --- | --- |
@@ -270,6 +322,8 @@ boolean
 ---
 
 
+###setShowPageBorder{#setShowPageBorder}
+
 | Name | Description |
 | --- | --- |
 | setShowPageBorder (boolean) | Specifies whether border around pages should be shown. Default is true. |
@@ -277,6 +331,8 @@ boolean
 
 ---
 
+
+###setShowPageStepper{#setShowPageStepper}
 
 | Name | Description |
 | --- | --- |
@@ -286,6 +342,8 @@ boolean
 ---
 
 
+###setShowSearch{#setShowSearch}
+
 | Name | Description |
 | --- | --- |
 | setShowSearch (boolean) | Show/hide search section. Can be overridden in flashvars. Default is true. |
@@ -293,6 +351,8 @@ boolean
 
 ---
 
+
+###setShowTopPane{#setShowTopPane}
 
 | Name | Description |
 | --- | --- |
@@ -302,6 +362,8 @@ boolean
 ---
 
 
+###setStartOpenLeftPane{#setStartOpenLeftPane}
+
 | Name | Description |
 | --- | --- |
 | setStartOpenLeftPane (boolean) | Start with opened left pane. Can be overridden in flashvars. Default is false. |
@@ -309,6 +371,8 @@ boolean
 
 ---
 
+
+###setViewerIncluded{#setViewerIncluded}
 
 | Name | Description |
 | --- | --- |

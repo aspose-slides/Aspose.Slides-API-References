@@ -12,6 +12,8 @@ url: /aspose.slides/coloroperation/
  Represents different color operations used for color transformations.
  Immutable object.
  
+###ColorOperation{#ColorOperation}
+
 | Name | Description |
 | --- | --- |
 | ColorOperation(int) | Creates new color transform operation. |
@@ -22,12 +24,14 @@ url: /aspose.slides/coloroperation/
 | --- | --- | --- |
 | op | int | Operation type. |
 
-### Result
+ **Result**
 ColorOperation
 
 
 ---
 
+
+###ColorOperation{#ColorOperation}
 
 | Name | Description |
 | --- | --- |
@@ -40,12 +44,14 @@ ColorOperation
 | op | int | Operation type. |
 | parameter | float | Operation parameter. |
 
-### Result
+ **Result**
 ColorOperation
 
 
 ---
 
+
+###equals{#equals}
 
 | Name | Description |
 | --- | --- |
@@ -57,40 +63,46 @@ ColorOperation
 | --- | --- | --- |
 | obj | Object | The ColorOperation to compare with the current ColorOperation. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getOperationType{#getOperationType}
+
 | Name | Description |
 | --- | --- |
 | getOperationType () | Returns or sets the type of an operation. Read-only ColorTransformOperation. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getParameter{#getParameter}
+
 | Name | Description |
 | --- | --- |
 | getParameter () | Returns a parameter of an operation. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
-### Result
+ **Result**
 int
 
 

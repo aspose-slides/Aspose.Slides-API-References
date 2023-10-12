@@ -11,16 +11,20 @@ url: /aspose.slides/geometrypath/
 
  Represents geometry path of GeometryShape
  
+###GeometryPath{#GeometryPath}
+
 | Name | Description |
 | --- | --- |
 | GeometryPath() | Creates instance of GeometryPath |
 
-### Result
+ **Result**
 GeometryPath
 
 
 ---
 
+
+###arcTo{#arcTo}
 
 | Name | Description |
 | --- | --- |
@@ -39,6 +43,8 @@ GeometryPath
 ---
 
 
+###closeFigure{#closeFigure}
+
 | Name | Description |
 | --- | --- |
 | closeFigure () | Closes the current figure of this path |
@@ -46,6 +52,8 @@ GeometryPath
 
 ---
 
+
+###cubicBezierTo{#cubicBezierTo}
 
 | Name | Description |
 | --- | --- |
@@ -62,6 +70,8 @@ GeometryPath
 
 ---
 
+
+###cubicBezierTo{#cubicBezierTo}
 
 | Name | Description |
 | --- | --- |
@@ -82,6 +92,8 @@ GeometryPath
 ---
 
 
+###cubicBezierTo{#cubicBezierTo}
+
 | Name | Description |
 | --- | --- |
 | cubicBezierTo (Point2D.Float, Point2D.Float, Point2D.Float, long) | Adds cubic Bezier curve to the specified place of the path |
@@ -95,7 +107,7 @@ GeometryPath
 | point3 | Point2D.Float | End point |
 | index | long | Index of segment in PathData |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -104,6 +116,8 @@ GeometryPath
 
 ---
 
+
+###cubicBezierTo{#cubicBezierTo}
 
 | Name | Description |
 | --- | --- |
@@ -121,7 +135,7 @@ GeometryPath
 | y3 | float | Y coordinate of end point |
 | index | long | Index of segment in PathData |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -131,38 +145,46 @@ GeometryPath
 ---
 
 
+###getFillMode{#getFillMode}
+
 | Name | Description |
 | --- | --- |
 | getFillMode () | Sets fill mode |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getPathData{#getPathData}
+
 | Name | Description |
 | --- | --- |
 | getPathData () | Returns geometry path of GeometryShape as an array of path segments. |
 
-### Result
-PathSegment(../../pathsegment)
+ **Result**
+[PathSegment](../pathsegment)
 
 
 ---
 
+
+###getStroke{#getStroke}
 
 | Name | Description |
 | --- | --- |
 | getStroke () | Sets stroke appearance |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###lineTo{#lineTo}
 
 | Name | Description |
 | --- | --- |
@@ -177,6 +199,8 @@ boolean
 
 ---
 
+
+###lineTo{#lineTo}
 
 | Name | Description |
 | --- | --- |
@@ -193,6 +217,8 @@ boolean
 ---
 
 
+###lineTo{#lineTo}
+
 | Name | Description |
 | --- | --- |
 | lineTo (Point2D.Float, long) | Adds line to the specified place of the path |
@@ -204,7 +230,7 @@ boolean
 | point | Point2D.Float | End point |
 | index | long | Index of segment in PathData |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -213,6 +239,8 @@ boolean
 
 ---
 
+
+###lineTo{#lineTo}
 
 | Name | Description |
 | --- | --- |
@@ -226,7 +254,7 @@ boolean
 | y | float | Y coordinate of the point |
 | index | long | Index of segment in PathData |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -235,6 +263,8 @@ boolean
 
 ---
 
+
+###moveTo{#moveTo}
 
 | Name | Description |
 | --- | --- |
@@ -249,6 +279,8 @@ boolean
 
 ---
 
+
+###moveTo{#moveTo}
 
 | Name | Description |
 | --- | --- |
@@ -265,6 +297,8 @@ boolean
 ---
 
 
+###quadraticBezierTo{#quadraticBezierTo}
+
 | Name | Description |
 | --- | --- |
 | quadraticBezierTo (Point2D.Float, Point2D.Float) | Adds quadratic Bezier curve at the end the path |
@@ -279,6 +313,8 @@ boolean
 
 ---
 
+
+###quadraticBezierTo{#quadraticBezierTo}
 
 | Name | Description |
 | --- | --- |
@@ -297,6 +333,8 @@ boolean
 ---
 
 
+###quadraticBezierTo{#quadraticBezierTo}
+
 | Name | Description |
 | --- | --- |
 | quadraticBezierTo (Point2D.Float, Point2D.Float, long) | Adds quadratic Bezier curve to the specified place of the path |
@@ -309,7 +347,7 @@ boolean
 | point2 | Point2D.Float | End point |
 | index | long | Index of segment in PathData |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -318,6 +356,8 @@ boolean
 
 ---
 
+
+###quadraticBezierTo{#quadraticBezierTo}
 
 | Name | Description |
 | --- | --- |
@@ -333,7 +373,7 @@ boolean
 | y2 | float | Y coordinate of end point |
 | index | long | Index of segment in PathData |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -342,6 +382,8 @@ boolean
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -357,6 +399,8 @@ boolean
 ---
 
 
+###setFillMode{#setFillMode}
+
 | Name | Description |
 | --- | --- |
 | setFillMode (byte) | Sets fill mode |
@@ -364,6 +408,8 @@ boolean
 
 ---
 
+
+###setStroke{#setStroke}
 
 | Name | Description |
 | --- | --- |

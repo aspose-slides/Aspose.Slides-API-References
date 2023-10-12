@@ -11,126 +11,150 @@ url: /aspose.slides/autoshapelock/
 
  Determines which operations are disabled on the parent AutoshapeEx.
  
+###getAdjustHandlesLocked{#getAdjustHandlesLocked}
+
 | Name | Description |
 | --- | --- |
 | getAdjustHandlesLocked () | Determines whether a changing adjust values is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getArrowheadsLocked{#getArrowheadsLocked}
 
 | Name | Description |
 | --- | --- |
 | getArrowheadsLocked () | Determines whether a changing arrowheads is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getAspectRatioLocked{#getAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
 | getAspectRatioLocked () | Determines whether a shape have to preserve aspect ratio on resizing. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getEditPointsLocked{#getEditPointsLocked}
 
 | Name | Description |
 | --- | --- |
 | getEditPointsLocked () | Determines whether a direct changing of contour of this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getGroupingLocked{#getGroupingLocked}
 
 | Name | Description |
 | --- | --- |
 | getGroupingLocked () | Determines whether an adding this shape to a group is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getPositionLocked{#getPositionLocked}
 
 | Name | Description |
 | --- | --- |
 | getPositionLocked () | Determines whether a moving this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getRotateLocked{#getRotateLocked}
 
 | Name | Description |
 | --- | --- |
 | getRotateLocked () | Determines whether a changing rotation angle of this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSelectLocked{#getSelectLocked}
 
 | Name | Description |
 | --- | --- |
 | getSelectLocked () | Determines whether a selecting this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShapeTypeLocked{#getShapeTypeLocked}
 
 | Name | Description |
 | --- | --- |
 | getShapeTypeLocked () | Determines whether a changing of a shape type is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSizeLocked{#getSizeLocked}
 
 | Name | Description |
 | --- | --- |
 | getSizeLocked () | Determines whether a resizing this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getTextLocked{#getTextLocked}
 
 | Name | Description |
 | --- | --- |
 | getTextLocked () | Determines whether an editing of text is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setAdjustHandlesLocked{#setAdjustHandlesLocked}
 
 | Name | Description |
 | --- | --- |
@@ -140,6 +164,8 @@ boolean
 ---
 
 
+###setArrowheadsLocked{#setArrowheadsLocked}
+
 | Name | Description |
 | --- | --- |
 | setArrowheadsLocked (boolean) | Determines whether a changing arrowheads is forbidden. Read/write boolean. |
@@ -147,6 +173,8 @@ boolean
 
 ---
 
+
+###setAspectRatioLocked{#setAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -156,6 +184,8 @@ boolean
 ---
 
 
+###setEditPointsLocked{#setEditPointsLocked}
+
 | Name | Description |
 | --- | --- |
 | setEditPointsLocked (boolean) | Determines whether a direct changing of contour of this shape is forbidden. Read/write boolean. |
@@ -163,6 +193,8 @@ boolean
 
 ---
 
+
+###setGroupingLocked{#setGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -172,6 +204,8 @@ boolean
 ---
 
 
+###setPositionLocked{#setPositionLocked}
+
 | Name | Description |
 | --- | --- |
 | setPositionLocked (boolean) | Determines whether a moving this shape is forbidden. Read/write boolean. |
@@ -179,6 +213,8 @@ boolean
 
 ---
 
+
+###setRotateLocked{#setRotateLocked}
 
 | Name | Description |
 | --- | --- |
@@ -188,6 +224,8 @@ boolean
 ---
 
 
+###setSelectLocked{#setSelectLocked}
+
 | Name | Description |
 | --- | --- |
 | setSelectLocked (boolean) | Determines whether a selecting this shape is forbidden. Read/write boolean. |
@@ -195,6 +233,8 @@ boolean
 
 ---
 
+
+###setShapeTypeLocked{#setShapeTypeLocked}
 
 | Name | Description |
 | --- | --- |
@@ -204,6 +244,8 @@ boolean
 ---
 
 
+###setSizeLocked{#setSizeLocked}
+
 | Name | Description |
 | --- | --- |
 | setSizeLocked (boolean) | Determines whether a resizing this shape is forbidden. Read/write boolean. |
@@ -211,6 +253,8 @@ boolean
 
 ---
 
+
+###setTextLocked{#setTextLocked}
 
 | Name | Description |
 | --- | --- |

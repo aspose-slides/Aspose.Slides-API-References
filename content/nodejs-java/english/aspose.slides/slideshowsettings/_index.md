@@ -11,93 +11,111 @@ url: /aspose.slides/slideshowsettings/
 
  Represents the slide show settings for the presentation.
  
+###getLoop{#getLoop}
+
 | Name | Description |
 | --- | --- |
 | getLoop () | Loop Slide Show |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getPenColor{#getPenColor}
 
 | Name | Description |
 | --- | --- |
 | getPenColor () | Pen Color for Slide Show |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
+
+###getShowAnimation{#getShowAnimation}
 
 | Name | Description |
 | --- | --- |
 | getShowAnimation () | Show Animation in Slide Show |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowMediaControls{#getShowMediaControls}
 
 | Name | Description |
 | --- | --- |
 | getShowMediaControls () | Show Media Controls |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowNarration{#getShowNarration}
 
 | Name | Description |
 | --- | --- |
 | getShowNarration () | Show Narration in Slide Show |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getSlideShowType{#getSlideShowType}
+
 | Name | Description |
 | --- | --- |
 | getSlideShowType () | Gets or sets the slide show type. Represented by the following SlideShowType( #getSlideShowType/ #setSlideShowType(SlideShowType)) ancestors: BrowsedAtKiosk, PresentedBySpeaker and BrowsedByIndividual |
 
-### Result
+ **Result**
 SlideShowType
 
 
 ---
 
 
+###getSlides{#getSlides}
+
 | Name | Description |
 | --- | --- |
 | getSlides () | Slides range |
 
-### Result
+ **Result**
 SlidesRange
 
 
 ---
 
 
+###getUseTimings{#getUseTimings}
+
 | Name | Description |
 | --- | --- |
 | getUseTimings () | Use Timings in Slide Show |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setLoop{#setLoop}
 
 | Name | Description |
 | --- | --- |
@@ -107,6 +125,8 @@ boolean
 ---
 
 
+###setShowAnimation{#setShowAnimation}
+
 | Name | Description |
 | --- | --- |
 | setShowAnimation (boolean) | Show Animation in Slide Show |
@@ -114,6 +134,8 @@ boolean
 
 ---
 
+
+###setShowMediaControls{#setShowMediaControls}
 
 | Name | Description |
 | --- | --- |
@@ -123,6 +145,8 @@ boolean
 ---
 
 
+###setShowNarration{#setShowNarration}
+
 | Name | Description |
 | --- | --- |
 | setShowNarration (boolean) | Show Narration in Slide Show |
@@ -131,21 +155,27 @@ boolean
 ---
 
 
+###setSlideShowType{#setSlideShowType}
+
 | Name | Description |
 | --- | --- |
-| setSlideShowType (SlideShowType(../slideshowtype)) | Gets or sets the slide show type. Represented by the following SlideShowType( #getSlideShowType/ #setSlideShowType(SlideShowType)) ancestors: BrowsedAtKiosk, PresentedBySpeaker and BrowsedByIndividual |
+| setSlideShowType ([SlideShowType](../slideshowtype)) | Gets or sets the slide show type. Represented by the following SlideShowType( #getSlideShowType/ #setSlideShowType(SlideShowType)) ancestors: BrowsedAtKiosk, PresentedBySpeaker and BrowsedByIndividual |
 
 
 ---
 
 
+###setSlides{#setSlides}
+
 | Name | Description |
 | --- | --- |
-| setSlides (SlidesRange(../slidesrange)) | Slides range |
+| setSlides ([SlidesRange](../slidesrange)) | Slides range |
 
 
 ---
 
+
+###setUseTimings{#setUseTimings}
 
 | Name | Description |
 | --- | --- |

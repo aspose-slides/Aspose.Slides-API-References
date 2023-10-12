@@ -11,16 +11,20 @@ url: /aspose.slides/pptxexception/
 
  Represents a standard internal exception type.
  
+###PptxException{#PptxException}
+
 | Name | Description |
 | --- | --- |
 | PptxException() | Default function. |
 
-### Result
+ **Result**
 PptxException
 
 
 ---
 
+
+###PptxException{#PptxException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ PptxException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 PptxException
 
 
 ---
 
+
+###PptxException{#PptxException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ PptxException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 PptxException
 
 

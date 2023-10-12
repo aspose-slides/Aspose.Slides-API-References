@@ -11,71 +11,85 @@ url: /aspose.slides/graphicalobjectlock/
 
  Determines which operations are disabled on the parent GraphicalObject.
  
+###getAspectRatioLocked{#getAspectRatioLocked}
+
 | Name | Description |
 | --- | --- |
 | getAspectRatioLocked () | Determines whether shape have to preserve aspect ratio on resizing. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getDrilldownLocked{#getDrilldownLocked}
 
 | Name | Description |
 | --- | --- |
 | getDrilldownLocked () | Determines whether selecting subshapes of this object is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getGroupingLocked{#getGroupingLocked}
 
 | Name | Description |
 | --- | --- |
 | getGroupingLocked () | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getPositionLocked{#getPositionLocked}
 
 | Name | Description |
 | --- | --- |
 | getPositionLocked () | Determines whether moving this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSelectLocked{#getSelectLocked}
 
 | Name | Description |
 | --- | --- |
 | getSelectLocked () | Determines whether selecting this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSizeLocked{#getSizeLocked}
 
 | Name | Description |
 | --- | --- |
 | getSizeLocked () | Determines whether resizing this shape is forbidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setAspectRatioLocked{#setAspectRatioLocked}
 
 | Name | Description |
 | --- | --- |
@@ -85,6 +99,8 @@ boolean
 ---
 
 
+###setDrilldownLocked{#setDrilldownLocked}
+
 | Name | Description |
 | --- | --- |
 | setDrilldownLocked (boolean) | Determines whether selecting subshapes of this object is forbidden. Read/write boolean. |
@@ -92,6 +108,8 @@ boolean
 
 ---
 
+
+###setGroupingLocked{#setGroupingLocked}
 
 | Name | Description |
 | --- | --- |
@@ -101,6 +119,8 @@ boolean
 ---
 
 
+###setPositionLocked{#setPositionLocked}
+
 | Name | Description |
 | --- | --- |
 | setPositionLocked (boolean) | Determines whether moving this shape is forbidden. Read/write boolean. |
@@ -109,6 +129,8 @@ boolean
 ---
 
 
+###setSelectLocked{#setSelectLocked}
+
 | Name | Description |
 | --- | --- |
 | setSelectLocked (boolean) | Determines whether selecting this shape is forbidden. Read/write boolean. |
@@ -116,6 +138,8 @@ boolean
 
 ---
 
+
+###setSizeLocked{#setSizeLocked}
 
 | Name | Description |
 | --- | --- |

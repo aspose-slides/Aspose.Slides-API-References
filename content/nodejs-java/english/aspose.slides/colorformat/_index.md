@@ -11,13 +11,17 @@ url: /aspose.slides/colorformat/
 
  Represents a color used in a presentation.
  
+###copyFrom{#copyFrom}
+
 | Name | Description |
 | --- | --- |
-| copyFrom (ColorFormat(../colorformat)) | Copy color format from "color". |
+| copyFrom ([ColorFormat](../colorformat)) | Copy color format from "color". |
 
 
 ---
 
+
+###equals{#equals}
 
 | Name | Description |
 | --- | --- |
@@ -29,221 +33,261 @@ url: /aspose.slides/colorformat/
 | --- | --- | --- |
 | obj | Object | Object. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getB{#getB}
+
 | Name | Description |
 | --- | --- |
 | getB () | Returns or sets the blue component of a color. All color transformations are ignored. Read/write byte. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getColor{#getColor}
+
 | Name | Description |
 | --- | --- |
 | getColor () | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write java.awt.Color. |
 
-### Result
+ **Result**
 Color
 
 
 ---
 
 
+###getColorTransform{#getColorTransform}
+
 | Name | Description |
 | --- | --- |
 | getColorTransform () | Returns the collection of color transformations applied to a color. Read-only IColorOperationCollection. |
 
-### Result
-ColorOperationCollection(../../coloroperationcollection)
+ **Result**
+[ColorOperationCollection](../coloroperationcollection)
 
 
 ---
 
+
+###getColorType{#getColorType}
 
 | Name | Description |
 | --- | --- |
 | getColorType () | Returns or sets the color definition function. Read/write ColorType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getFloatB{#getFloatB}
 
 | Name | Description |
 | --- | --- |
 | getFloatB () | Returns or sets the blue component of a color. All color transformations are ignored. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getFloatG{#getFloatG}
 
 | Name | Description |
 | --- | --- |
 | getFloatG () | Returns or sets the green component of a color. All color transformations are ignored. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getFloatR{#getFloatR}
 
 | Name | Description |
 | --- | --- |
 | getFloatR () | Returns or sets the red component of a color. All color transformations are ignored. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getG{#getG}
 
 | Name | Description |
 | --- | --- |
 | getG () | Returns or sets the green component of a color. All color transformations are ignored. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###getHue{#getHue}
 
 | Name | Description |
 | --- | --- |
 | getHue () | Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getLuminance{#getLuminance}
 
 | Name | Description |
 | --- | --- |
 | getLuminance () | Returns or sets the luminance component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getParent_IPresentationComponent{#getParent_IPresentationComponent}
+
 | Name | Description |
 | --- | --- |
 | getParent_IPresentationComponent () |  |
 
-### Result
-MasterTheme(../../mastertheme), PVIObject(../../pviobject), PictureFrame(../../pictureframe), AlphaCeiling(../../alphaceiling), ColorReplace(../../colorreplace), FillFormat(../../fillformat), GrayScale(../../grayscale), AutoShape(../../autoshape), SectionZoomFrame(../../sectionzoomframe), FillOverlay(../../filloverlay), HSL(../../hsl), PatternFormat(../../patternformat), DataLabelCollection(../../datalabelcollection), Duotone(../../duotone), DataLabel(../../datalabel), Tab(../../tab), SummaryZoomFrame(../../summaryzoomframe), ShapeBevel(../../shapebevel), LineFormat(../../lineformat), ColorScheme(../../colorscheme), ChartSeries(../../chartseries), BasePortionFormat(../../baseportionformat), SummaryZoomSection(../../summaryzoomsection), Presentation(../../presentation), OleObjectFrame(../../oleobjectframe), Theme(../../theme), Hyperlink(../../hyperlink), SketchFormat(../../sketchformat), CellFormat(../../cellformat), DataTable(../../datatable), AlphaFloor(../../alphafloor), ParagraphFormat(../../paragraphformat), GroupShape(../../groupshape), NotesSlide(../../notesslide), SmartArtShape(../../smartartshape), GradientFormat(../../gradientformat), MasterHandoutSlide(../../masterhandoutslide), AlphaBiLevel(../../alphabilevel), Trendline(../../trendline), Slide(../../slide), Axis(../../axis), ColorChange(../../colorchange), MasterNotesSlide(../../masternotesslide), Connector(../../connector), LegendEntryProperties(../../legendentryproperties), LightRig(../../lightrig), Ink(../../ink), BaseSlide(../../baseslide), Background(../../background), BiLevel(../../bilevel), Blur(../../blur), VideoFrame(../../videoframe), Row(../../row), DataLabelFormat(../../datalabelformat), Field(../../field), ChartPortionFormat(../../chartportionformat), LayoutSlide(../../layoutslide), LegacyDiagram(../../legacydiagram), ColorFormat(../../colorformat), ThreeDFormat(../../threedformat), GraphicalObject(../../graphicalobject), Shape(../../shape), GradientStop(../../gradientstop), ZoomFrame(../../zoomframe), ChartTitle(../../charttitle), MasterSlide(../../masterslide), CellCollection(../../cellcollection), EffectFormat(../../effectformat), Control(../../control), ChartSeriesGroup(../../chartseriesgroup), ErrorBarsFormat(../../errorbarsformat), Column(../../column), PictureFillFormat(../../picturefillformat), Chart(../../chart), Backdrop3DScene(../../backdrop3dscene), Format(../../format), Portion(../../portion), ImageTransformOperation(../../imagetransformoperation), Luminance(../../luminance), AlphaModulate(../../alphamodulate), LineFillFormat(../../linefillformat), ZoomObject(../../zoomobject), BulletFormat(../../bulletformat), Cell(../../cell), Picture(../../picture), FormatScheme(../../formatscheme), AlphaInverse(../../alphainverse), TextFrameFormat(../../textframeformat), TextFrame(../../textframe), Paragraph(../../paragraph), MathPortion(../../mathportion), TextStyle(../../textstyle), OverrideTheme(../../overridetheme), SmartArt(../../smartart), AlphaModulateFixed(../../alphamodulatefixed), ParagraphCollection(../../paragraphcollection), ChartPlotArea(../../chartplotarea), ImageTransformOperationCollection(../../imagetransformoperationcollection), GeometryShape(../../geometryshape), AudioFrame(../../audioframe), GradientStopCollection(../../gradientstopcollection), Tint(../../tint), PortionFormat(../../portionformat), Legend(../../legend), AlphaReplace(../../alphareplace), Table(../../table), Camera(../../camera)
+ **Result**
+[MasterTheme](../mastertheme), [PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [Presentation](../presentation), [OleObjectFrame](../oleobjectframe), [Theme](../theme), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [CellCollection](../cellcollection), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [Cell](../cell), [Picture](../picture), [FormatScheme](../formatscheme), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [TextFrame](../textframe), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [OverrideTheme](../overridetheme), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
 
 
 ---
 
+
+###getParent_ISlideComponent{#getParent_ISlideComponent}
 
 | Name | Description |
 | --- | --- |
 | getParent_ISlideComponent () |  |
 
-### Result
-PVIObject(../../pviobject), PictureFrame(../../pictureframe), AlphaCeiling(../../alphaceiling), ColorReplace(../../colorreplace), FillFormat(../../fillformat), GrayScale(../../grayscale), AutoShape(../../autoshape), SectionZoomFrame(../../sectionzoomframe), FillOverlay(../../filloverlay), HSL(../../hsl), PatternFormat(../../patternformat), DataLabelCollection(../../datalabelcollection), Duotone(../../duotone), DataLabel(../../datalabel), Tab(../../tab), SummaryZoomFrame(../../summaryzoomframe), ShapeBevel(../../shapebevel), LineFormat(../../lineformat), ColorScheme(../../colorscheme), ChartSeries(../../chartseries), BasePortionFormat(../../baseportionformat), SummaryZoomSection(../../summaryzoomsection), OleObjectFrame(../../oleobjectframe), Hyperlink(../../hyperlink), SketchFormat(../../sketchformat), CellFormat(../../cellformat), DataTable(../../datatable), AlphaFloor(../../alphafloor), ParagraphFormat(../../paragraphformat), GroupShape(../../groupshape), NotesSlide(../../notesslide), SmartArtShape(../../smartartshape), GradientFormat(../../gradientformat), MasterHandoutSlide(../../masterhandoutslide), AlphaBiLevel(../../alphabilevel), Trendline(../../trendline), Slide(../../slide), Axis(../../axis), ColorChange(../../colorchange), MasterNotesSlide(../../masternotesslide), Connector(../../connector), LegendEntryProperties(../../legendentryproperties), LightRig(../../lightrig), Ink(../../ink), BaseSlide(../../baseslide), Background(../../background), BiLevel(../../bilevel), Blur(../../blur), VideoFrame(../../videoframe), Row(../../row), DataLabelFormat(../../datalabelformat), Field(../../field), ChartPortionFormat(../../chartportionformat), LayoutSlide(../../layoutslide), LegacyDiagram(../../legacydiagram), ColorFormat(../../colorformat), ThreeDFormat(../../threedformat), GraphicalObject(../../graphicalobject), Shape(../../shape), GradientStop(../../gradientstop), ZoomFrame(../../zoomframe), ChartTitle(../../charttitle), MasterSlide(../../masterslide), CellCollection(../../cellcollection), EffectFormat(../../effectformat), Control(../../control), ChartSeriesGroup(../../chartseriesgroup), ErrorBarsFormat(../../errorbarsformat), Column(../../column), PictureFillFormat(../../picturefillformat), Chart(../../chart), Backdrop3DScene(../../backdrop3dscene), Format(../../format), Portion(../../portion), ImageTransformOperation(../../imagetransformoperation), Luminance(../../luminance), AlphaModulate(../../alphamodulate), LineFillFormat(../../linefillformat), ZoomObject(../../zoomobject), BulletFormat(../../bulletformat), Cell(../../cell), Picture(../../picture), FormatScheme(../../formatscheme), AlphaInverse(../../alphainverse), TextFrameFormat(../../textframeformat), TextFrame(../../textframe), Paragraph(../../paragraph), MathPortion(../../mathportion), TextStyle(../../textstyle), SmartArt(../../smartart), AlphaModulateFixed(../../alphamodulatefixed), ParagraphCollection(../../paragraphcollection), ChartPlotArea(../../chartplotarea), ImageTransformOperationCollection(../../imagetransformoperationcollection), GeometryShape(../../geometryshape), AudioFrame(../../audioframe), GradientStopCollection(../../gradientstopcollection), Tint(../../tint), PortionFormat(../../portionformat), Legend(../../legend), AlphaReplace(../../alphareplace), Table(../../table), Camera(../../camera)
+ **Result**
+[PVIObject](../pviobject), [PictureFrame](../pictureframe), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [FillFormat](../fillformat), [GrayScale](../grayscale), [AutoShape](../autoshape), [SectionZoomFrame](../sectionzoomframe), [FillOverlay](../filloverlay), [HSL](../hsl), [PatternFormat](../patternformat), [DataLabelCollection](../datalabelcollection), [Duotone](../duotone), [DataLabel](../datalabel), [Tab](../tab), [SummaryZoomFrame](../summaryzoomframe), [ShapeBevel](../shapebevel), [LineFormat](../lineformat), [ColorScheme](../colorscheme), [ChartSeries](../chartseries), [BasePortionFormat](../baseportionformat), [SummaryZoomSection](../summaryzoomsection), [OleObjectFrame](../oleobjectframe), [Hyperlink](../hyperlink), [SketchFormat](../sketchformat), [CellFormat](../cellformat), [DataTable](../datatable), [AlphaFloor](../alphafloor), [ParagraphFormat](../paragraphformat), [GroupShape](../groupshape), [NotesSlide](../notesslide), [SmartArtShape](../smartartshape), [GradientFormat](../gradientformat), [MasterHandoutSlide](../masterhandoutslide), [AlphaBiLevel](../alphabilevel), [Trendline](../trendline), [Slide](../slide), [Axis](../axis), [ColorChange](../colorchange), [MasterNotesSlide](../masternotesslide), [Connector](../connector), [LegendEntryProperties](../legendentryproperties), [LightRig](../lightrig), [Ink](../ink), [BaseSlide](../baseslide), [Background](../background), [BiLevel](../bilevel), [Blur](../blur), [VideoFrame](../videoframe), [Row](../row), [DataLabelFormat](../datalabelformat), [Field](../field), [ChartPortionFormat](../chartportionformat), [LayoutSlide](../layoutslide), [LegacyDiagram](../legacydiagram), [ColorFormat](../colorformat), [ThreeDFormat](../threedformat), [GraphicalObject](../graphicalobject), [Shape](../shape), [GradientStop](../gradientstop), [ZoomFrame](../zoomframe), [ChartTitle](../charttitle), [MasterSlide](../masterslide), [CellCollection](../cellcollection), [EffectFormat](../effectformat), [Control](../control), [ChartSeriesGroup](../chartseriesgroup), [ErrorBarsFormat](../errorbarsformat), [Column](../column), [PictureFillFormat](../picturefillformat), [Chart](../chart), [Backdrop3DScene](../backdrop3dscene), [Format](../format), [Portion](../portion), [ImageTransformOperation](../imagetransformoperation), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [LineFillFormat](../linefillformat), [ZoomObject](../zoomobject), [BulletFormat](../bulletformat), [Cell](../cell), [Picture](../picture), [FormatScheme](../formatscheme), [AlphaInverse](../alphainverse), [TextFrameFormat](../textframeformat), [TextFrame](../textframe), [Paragraph](../paragraph), [MathPortion](../mathportion), [TextStyle](../textstyle), [SmartArt](../smartart), [AlphaModulateFixed](../alphamodulatefixed), [ParagraphCollection](../paragraphcollection), [ChartPlotArea](../chartplotarea), [ImageTransformOperationCollection](../imagetransformoperationcollection), [GeometryShape](../geometryshape), [AudioFrame](../audioframe), [GradientStopCollection](../gradientstopcollection), [Tint](../tint), [PortionFormat](../portionformat), [Legend](../legend), [AlphaReplace](../alphareplace), [Table](../table), [Camera](../camera)
 
 
 ---
 
 
+###getPresetColor{#getPresetColor}
+
 | Name | Description |
 | --- | --- |
 | getPresetColor () | Returns or sets the color preset. Read/write PresetColor. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getR{#getR}
+
 | Name | Description |
 | --- | --- |
 | getR () | Returns or sets the red component of a color. All color transformations are ignored. Read/write byte. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getSaturation{#getSaturation}
+
 | Name | Description |
 | --- | --- |
 | getSaturation () | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getSchemeColor{#getSchemeColor}
+
 | Name | Description |
 | --- | --- |
 | getSchemeColor () | Returns or sets the color identified by a color scheme. Read/write SchemeColor. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getSystemColor{#getSystemColor}
 
 | Name | Description |
 | --- | --- |
 | getSystemColor () | Returns or sets the color identified by the system color table. Read/write SystemColor. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Returns hash code. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setB{#setB}
 
 | Name | Description |
 | --- | --- |
@@ -253,6 +297,8 @@ int
 ---
 
 
+###setColor{#setColor}
+
 | Name | Description |
 | --- | --- |
 | setColor (Color) | Returns resulting color (with all color transformations applied). Sets RGB colors and clears all color transformations. Read/write java.awt.Color. |
@@ -260,6 +306,8 @@ int
 
 ---
 
+
+###setColorType{#setColorType}
 
 | Name | Description |
 | --- | --- |
@@ -269,6 +317,8 @@ int
 ---
 
 
+###setFloatB{#setFloatB}
+
 | Name | Description |
 | --- | --- |
 | setFloatB (float) | Returns or sets the blue component of a color. All color transformations are ignored. Read/write float. |
@@ -276,6 +326,8 @@ int
 
 ---
 
+
+###setFloatG{#setFloatG}
 
 | Name | Description |
 | --- | --- |
@@ -285,6 +337,8 @@ int
 ---
 
 
+###setFloatR{#setFloatR}
+
 | Name | Description |
 | --- | --- |
 | setFloatR (float) | Returns or sets the red component of a color. All color transformations are ignored. Read/write float. |
@@ -292,6 +346,8 @@ int
 
 ---
 
+
+###setG{#setG}
 
 | Name | Description |
 | --- | --- |
@@ -301,6 +357,8 @@ int
 ---
 
 
+###setHue{#setHue}
+
 | Name | Description |
 | --- | --- |
 | setHue (float) | Returns or sets the hue component of a color in HSL representation. All color transformations are ignored. Read/write float. |
@@ -308,6 +366,8 @@ int
 
 ---
 
+
+###setLuminance{#setLuminance}
 
 | Name | Description |
 | --- | --- |
@@ -317,6 +377,8 @@ int
 ---
 
 
+###setPresetColor{#setPresetColor}
+
 | Name | Description |
 | --- | --- |
 | setPresetColor (int) | Returns or sets the color preset. Read/write PresetColor. |
@@ -324,6 +386,8 @@ int
 
 ---
 
+
+###setR{#setR}
 
 | Name | Description |
 | --- | --- |
@@ -333,6 +397,8 @@ int
 ---
 
 
+###setSaturation{#setSaturation}
+
 | Name | Description |
 | --- | --- |
 | setSaturation (float) | Returns or sets the saturation component of a color in HSL representation. All color transformations are ignored. Read/write float. |
@@ -340,6 +406,8 @@ int
 
 ---
 
+
+###setSchemeColor{#setSchemeColor}
 
 | Name | Description |
 | --- | --- |
@@ -349,6 +417,8 @@ int
 ---
 
 
+###setSystemColor{#setSystemColor}
+
 | Name | Description |
 | --- | --- |
 | setSystemColor (int) | Returns or sets the color identified by the system color table. Read/write SystemColor. |
@@ -356,6 +426,8 @@ int
 
 ---
 
+
+###toString{#toString}
 
 | Name | Description |
 | --- | --- |
@@ -367,7 +439,7 @@ int
 | --- | --- | --- |
 | format | int | A type of color string format. |
 
-### Result
+ **Result**
 String
 
 

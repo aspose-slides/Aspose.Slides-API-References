@@ -11,60 +11,72 @@ url: /aspose.slides/scaleeffect/
 
  Represents animation scale effect.
  
+###ScaleEffect{#ScaleEffect}
+
 | Name | Description |
 | --- | --- |
 | ScaleEffect() |  |
 
-### Result
+ **Result**
 ScaleEffect
 
 
 ---
 
 
+###getBy{#getBy}
+
 | Name | Description |
 | --- | --- |
 | getBy () | describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
+
+###getFrom{#getFrom}
 
 | Name | Description |
 | --- | --- |
 | getFrom () | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
+
+###getTo{#getTo}
 
 | Name | Description |
 | --- | --- |
 | getTo () | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
 
+###getZoomContent{#getZoomContent}
+
 | Name | Description |
 | --- | --- |
 | getZoomContent () | Determines whether a content should be zoomed. Read/write NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###setBy{#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -74,6 +86,8 @@ byte
 ---
 
 
+###setFrom{#setFrom}
+
 | Name | Description |
 | --- | --- |
 | setFrom (Point2D.Float) | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
@@ -82,6 +96,8 @@ byte
 ---
 
 
+###setTo{#setTo}
+
 | Name | Description |
 | --- | --- |
 | setTo (Point2D.Float) | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
@@ -89,6 +105,8 @@ byte
 
 ---
 
+
+###setZoomContent{#setZoomContent}
 
 | Name | Description |
 | --- | --- |

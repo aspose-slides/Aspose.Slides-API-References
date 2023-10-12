@@ -11,22 +11,26 @@ url: /aspose.slides/audiocollection/
 
  Represents a collection of embedded audio files.
  
+###addAudio{#addAudio}
+
 | Name | Description |
 | --- | --- |
-| addAudio (Audio(../audio)) | Adds a copy of an audio file from an another presentation. |
+| addAudio ([Audio](../audio)) | Adds a copy of an audio file from an another presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| audio | Audio(../../audio) | Source audio. |
+| audio | [Audio](../audio) | Source audio. |
 
-### Result
-Audio(../../audio)
+ **Result**
+[Audio](../audio)
 
 
 ---
 
+
+###addAudioFromStream {#addAudioFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -40,12 +44,14 @@ Audio(../../audio)
 | stream | ReadStream | Stream to add audio from. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-Audio(../../audio)
+ **Result**
+[Audio](../audio)
 
 
 ---
 
+
+###addAudioFromStream {#addAudioFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -60,12 +66,14 @@ Audio(../../audio)
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-Audio(../../audio)
+ **Result**
+[Audio](../audio)
 
 
 ---
 
+
+###addAudio{#addAudio}
 
 | Name | Description |
 | --- | --- |
@@ -77,73 +85,85 @@ Audio(../../audio)
 | --- | --- | --- |
 | audioData | byte[] | Audio bytes. |
 
-### Result
-Audio(../../audio)
+ **Result**
+[Audio](../audio)
 
 
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only IAudio. |
 
-### Result
-Audio(../../audio)
+ **Result**
+[Audio](../audio)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns a number of audio files in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

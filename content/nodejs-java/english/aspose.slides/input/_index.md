@@ -11,6 +11,8 @@ url: /aspose.slides/input/
 
  Represents a collection of input elements (templates).
  
+###addTemplate{#addTemplate}
+
 | Name | Description |
 | --- | --- |
 | addTemplate (String, String) | Adds a template to the collection. |

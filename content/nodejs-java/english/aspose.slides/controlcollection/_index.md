@@ -11,6 +11,8 @@ url: /aspose.slides/controlcollection/
 
  A collection of ActiveX controls.
  
+###addControl{#addControl}
+
 | Name | Description |
 | --- | --- |
 | addControl (int, float, float, float, float) | Creates and adds a new control to the collection. |
@@ -25,12 +27,14 @@ url: /aspose.slides/controlcollection/
 | width | float | The width of shape's frame. |
 | height | float | The height of shape's frame. |
 
-### Result
-Control(../../control)
+ **Result**
+[Control](../control)
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -40,16 +44,20 @@ Control(../../control)
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -61,59 +69,69 @@ Object
 | --- | --- | --- |
 | index | int | Index of a control. |
 
-### Result
-Control(../../control)
+ **Result**
+[Control](../control)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (Control(../control)) | Removes an ActiveX control from the collection. |
+| remove ([Control](../control)) | Removes an ActiveX control from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | Control(../../control) | A control to remove. |
+| item | [Control](../control) | A control to remove. |
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -129,11 +147,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns a number of objects in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

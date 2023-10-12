@@ -11,11 +11,13 @@ url: /aspose.slides/bulletformat/
 
  Represents paragraph bullet formatting properties.
  
+###applyDefaultParagraphIndentsShifts{#applyDefaultParagraphIndentsShifts}
+
 | Name | Description |
 | --- | --- |
 | applyDefaultParagraphIndentsShifts () | Sets default non-zero shifts for effective paragraph Indent and MarginLeft when bullets is enabled (like PowerPoint do if enable paragraph bullets/numbering in it). If bullets is disabled then just reset paragraph Indent and MarginLeft (like PowerPoint do if disable paragraph bullets/numbering in it). Indents shifts are applied in regard to current bullet context - IBulletFormat.Type, .NumberedBulletStyle and FontHeight of first portion. Non-zero indents shifts are applied to effective Indent and MarginLeft of current paragraph (make result values to be local values). |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -25,137 +27,163 @@ url: /aspose.slides/bulletformat/
 ---
 
 
+###getChar{#getChar}
+
 | Name | Description |
 | --- | --- |
 | getChar () | Returns or sets the bullet char of a paragraph with no inheritance. Read/write char. |
 
-### Result
+ **Result**
 char
 
 
 ---
 
 
+###getColor{#getColor}
+
 | Name | Description |
 | --- | --- |
 | getColor () | Returns the color format of a bullet of a paragraph with no inheritance. Read-only IColorFormat. |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective bullet formatting data with the inheritance applied. |
 
-### Result
+ **Result**
 BulletFormatEffectiveData
 
 
 ---
 
 
+###getFont{#getFont}
+
 | Name | Description |
 | --- | --- |
 | getFont () | Returns or sets the bullet font of a paragraph with no inheritance. Read/write IFontData. |
 
-### Result
-FontData(../../fontdata)
+ **Result**
+[FontData](../fontdata)
 
 
 ---
 
 
+###getHeight{#getHeight}
+
 | Name | Description |
 | --- | --- |
 | getHeight () | Returns or sets the bullet height of a paragraph with no inheritance. Value Float.NaN determines that bullet inherits height from the first portion in the paragraph. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getNumberedBulletStartWith{#getNumberedBulletStartWith}
+
 | Name | Description |
 | --- | --- |
 | getNumberedBulletStartWith () | Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write short. |
 
-### Result
+ **Result**
 short
 
 
 ---
 
 
+###getNumberedBulletStyle{#getNumberedBulletStyle}
+
 | Name | Description |
 | --- | --- |
 | getNumberedBulletStyle () | Returns or sets the style of a numbered bullet with no inheritance. Read/write NumberedBulletStyle. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###getPicture{#getPicture}
 
 | Name | Description |
 | --- | --- |
 | getPicture () | Returns the picture used as a bullet in a paragraph with no inheritance. Read-only ISlidesPicture. |
 
-### Result
-Picture(../../picture)
+ **Result**
+[Picture](../picture)
 
 
 ---
 
 
+###getType{#getType}
+
 | Name | Description |
 | --- | --- |
 | getType () | Returns or sets the bullet type of a paragraph with no inheritance. Read/write BulletType. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###isBulletHardColor{#isBulletHardColor}
+
 | Name | Description |
 | --- | --- |
 | isBulletHardColor () | Determines whether the bullet has own color or inherits it from the first portion in the paragraph. NullableBool.True if bullet has own color and NullableBool.False if bullet inherits color from the first portion in the paragraph. Read/write NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###isBulletHardFont{#isBulletHardFont}
 
 | Name | Description |
 | --- | --- |
 | isBulletHardFont () | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. NullableBool.True if bullet has own font and NullableBool.False if bullet inherits font from the first portion in the paragraph. Read/write NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###setBulletHardColor{#setBulletHardColor}
 
 | Name | Description |
 | --- | --- |
@@ -165,6 +193,8 @@ byte
 ---
 
 
+###setBulletHardFont{#setBulletHardFont}
+
 | Name | Description |
 | --- | --- |
 | setBulletHardFont (byte) | Determines whether the bullet has own font or inherits it from the first portion in the paragraph. NullableBool.True if bullet has own font and NullableBool.False if bullet inherits font from the first portion in the paragraph. Read/write NullableBool. |
@@ -172,6 +202,8 @@ byte
 
 ---
 
+
+###setChar{#setChar}
 
 | Name | Description |
 | --- | --- |
@@ -181,13 +213,17 @@ byte
 ---
 
 
+###setFont{#setFont}
+
 | Name | Description |
 | --- | --- |
-| setFont (FontData(../fontdata)) | Returns or sets the bullet font of a paragraph with no inheritance. Read/write IFontData. |
+| setFont ([FontData](../fontdata)) | Returns or sets the bullet font of a paragraph with no inheritance. Read/write IFontData. |
 
 
 ---
 
+
+###setHeight{#setHeight}
 
 | Name | Description |
 | --- | --- |
@@ -197,6 +233,8 @@ byte
 ---
 
 
+###setNumberedBulletStartWith{#setNumberedBulletStartWith}
+
 | Name | Description |
 | --- | --- |
 | setNumberedBulletStartWith (short) | Returns or sets the first number which is used for group of numbered bullets with no inheritance. Read/write short. |
@@ -205,6 +243,8 @@ byte
 ---
 
 
+###setNumberedBulletStyle{#setNumberedBulletStyle}
+
 | Name | Description |
 | --- | --- |
 | setNumberedBulletStyle (byte) | Returns or sets the style of a numbered bullet with no inheritance. Read/write NumberedBulletStyle. |
@@ -212,6 +252,8 @@ byte
 
 ---
 
+
+###setType{#setType}
 
 | Name | Description |
 | --- | --- |

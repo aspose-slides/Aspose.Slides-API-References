@@ -11,6 +11,8 @@ url: /aspose.slides/shapeframe/
 
  Represents shape frame's properties.
  
+###ShapeFrame{#ShapeFrame}
+
 | Name | Description |
 | --- | --- |
 | ShapeFrame(float, float, float, float, byte, byte, float) | Creates new shape frame's properties. |
@@ -27,34 +29,40 @@ url: /aspose.slides/shapeframe/
 | flipV | byte | True if a frame flipped vertivally. |
 | rotationAngle | float | Number of degrees a frame is rotated. |
 
-### Result
+ **Result**
 ShapeFrame
 
 
 ---
 
 
+###cloneT{#cloneT}
+
 | Name | Description |
 | --- | --- |
 | cloneT () | Clones. |
 
-### Result
-ShapeFrame(../../shapeframe)
+ **Result**
+[ShapeFrame](../shapeframe)
 
 
 ---
 
+
+###deepClone{#deepClone}
 
 | Name | Description |
 | --- | --- |
 | deepClone () | Clones |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
+
+###equals{#equals}
 
 | Name | Description |
 | --- | --- |
@@ -66,145 +74,169 @@ Object
 | --- | --- | --- |
 | obj | Object | The object to compare with this instance. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###equals{#equals}
+
 | Name | Description |
 | --- | --- |
-| equals (ShapeFrame(../shapeframe)) | Returns a value indicating whether this instance is equal to a specified object. |
+| equals ([ShapeFrame](../shapeframe)) | Returns a value indicating whether this instance is equal to a specified object. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ShapeFrame(../../shapeframe) | The ShapeFRameEx to compare with this instance. |
+| value | [ShapeFrame](../shapeframe) | The ShapeFRameEx to compare with this instance. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getCenterX{#getCenterX}
+
 | Name | Description |
 | --- | --- |
 | getCenterX () | Returns the X coordinate of a frame's center. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getCenterY{#getCenterY}
 
 | Name | Description |
 | --- | --- |
 | getCenterY () | Returns the Y coordinate of a frame's center. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getFlipH{#getFlipH}
 
 | Name | Description |
 | --- | --- |
 | getFlipH () | Determines whether a frame is flipped horizontally. Read-only NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###getFlipV{#getFlipV}
 
 | Name | Description |
 | --- | --- |
 | getFlipV () | Determines whether a frame is flipped vertically. Read-only NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getHeight{#getHeight}
+
 | Name | Description |
 | --- | --- |
 | getHeight () | Returns the height of a frame. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getRectangle{#getRectangle}
+
 | Name | Description |
 | --- | --- |
 | getRectangle () | Returns the coordinates of a frame. Read-only java.awt.geom.Rectangle2D.Float. |
 
-### Result
+ **Result**
 Rectangle2D.Float
 
 
 ---
 
 
+###getRotation{#getRotation}
+
 | Name | Description |
 | --- | --- |
 | getRotation () | Returns the number of degrees a frame is rotated around the z-axis. A positive value indicates clockwise rotation; a negative value indicates counterclockwise rotation. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getWidth{#getWidth}
 
 | Name | Description |
 | --- | --- |
 | getWidth () | Returns the width of a frame. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getX{#getX}
 
 | Name | Description |
 | --- | --- |
 | getX () | Returns the X coordinate of the upper-left corner of a frame. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getY{#getY}
 
 | Name | Description |
 | --- | --- |
 | getY () | Returns the Y coordinate of the upper-left corner of a frame. Read-only float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () |  |
 
-### Result
+ **Result**
 int
 
 

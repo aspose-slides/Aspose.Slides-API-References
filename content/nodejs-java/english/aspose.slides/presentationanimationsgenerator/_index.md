@@ -11,22 +11,26 @@ url: /aspose.slides/presentationanimationsgenerator/
 
  Represents a generator of the animations in the  Presentation.
  
+###PresentationAnimationsGenerator{#PresentationAnimationsGenerator}
+
 | Name | Description |
 | --- | --- |
-| PresentationAnimationsGenerator(Presentation(../presentation)) | Creates a new instance of the PresentationAnimationsGenerator. |
+| PresentationAnimationsGenerator([Presentation](../presentation)) | Creates a new instance of the PresentationAnimationsGenerator. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| presentation | Presentation(../../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
+| presentation | [Presentation](../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
 
-### Result
+ **Result**
 PresentationAnimationsGenerator
 
 
 ---
 
+
+###PresentationAnimationsGenerator{#PresentationAnimationsGenerator}
 
 | Name | Description |
 | --- | --- |
@@ -38,12 +42,14 @@ PresentationAnimationsGenerator
 | --- | --- | --- |
 | frameSize | Dimension | The frame size. |
 
-### Result
+ **Result**
 PresentationAnimationsGenerator
 
 
 ---
 
+
+###PresentationAnimationsGenerator{#PresentationAnimationsGenerator}
 
 | Name | Description |
 | --- | --- |
@@ -55,12 +61,14 @@ PresentationAnimationsGenerator
 | --- | --- | --- |
 | frameSize | Dimension2D | The frame size. |
 
-### Result
+ **Result**
 PresentationAnimationsGenerator
 
 
 ---
 
+
+###dispose{#dispose}
 
 | Name | Description |
 | --- | --- |
@@ -70,49 +78,59 @@ PresentationAnimationsGenerator
 ---
 
 
+###getDefaultDelay{#getDefaultDelay}
+
 | Name | Description |
 | --- | --- |
 | getDefaultDelay () | Gets or sets default delay time [ms]. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getExportedSlides{#getExportedSlides}
 
 | Name | Description |
 | --- | --- |
 | getExportedSlides () | Get the number of the exported slides count. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getFrameSize{#getFrameSize}
+
 | Name | Description |
 | --- | --- |
 | getFrameSize () | Gets the frame size. |
 
-### Result
+ **Result**
 Dimension
 
 
 ---
 
 
+###getIncludeHiddenSlides{#getIncludeHiddenSlides}
+
 | Name | Description |
 | --- | --- |
 | getIncludeHiddenSlides () | Get or sets if hidden slides should be included. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###run{#run}
 
 | Name | Description |
 | --- | --- |
@@ -122,13 +140,17 @@ boolean
 ---
 
 
+###run{#run}
+
 | Name | Description |
 | --- | --- |
-| run (com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>, int, PresentationPlayer.FrameTick(../presentationplayer.frametick)) | Run the animation events generation for each slide. |
+| run (com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>, int, [PresentationPlayer.FrameTick](../presentationplayer.frametick)) | Run the animation events generation for each slide. |
 
 
 ---
 
+
+###setDefaultDelay{#setDefaultDelay}
 
 | Name | Description |
 | --- | --- |
@@ -138,6 +160,8 @@ boolean
 ---
 
 
+###setIncludeHiddenSlides{#setIncludeHiddenSlides}
+
 | Name | Description |
 | --- | --- |
 | setIncludeHiddenSlides (boolean) | Get or sets if hidden slides should be included. |
@@ -146,15 +170,17 @@ boolean
 ---
 
 
+###setNewAnimation{#setNewAnimation}
+
 | Name | Description |
 | --- | --- |
-| setNewAnimation (PresentationAnimationsGenerator.NewAnimation(../presentationanimationsgenerator.newanimation)) | Set a new animation event. |
+| setNewAnimation ([PresentationAnimationsGenerator.NewAnimation](../presentationanimationsgenerator.newanimation)) | Set a new animation event. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| anim | PresentationAnimationsGenerator.NewAnimation(../../presentationanimationsgenerator.newanimation) | Animation event. |
+| anim | [PresentationAnimationsGenerator.NewAnimation](../presentationanimationsgenerator.newanimation) | Animation event. |
 
 
 ---

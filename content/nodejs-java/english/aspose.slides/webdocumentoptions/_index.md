@@ -11,71 +11,85 @@ url: /aspose.slides/webdocumentoptions/
 
  Represents an options set for  WebDocument saving.
  
+###WebDocumentOptions{#WebDocumentOptions}
+
 | Name | Description |
 | --- | --- |
 | WebDocumentOptions() |  |
 
-### Result
+ **Result**
 WebDocumentOptions
 
 
 ---
 
 
+###getAnimateShapes{#getAnimateShapes}
+
 | Name | Description |
 | --- | --- |
 | getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getAnimateTransitions{#getAnimateTransitions}
 
 | Name | Description |
 | --- | --- |
 | getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getEmbedImages{#getEmbedImages}
 
 | Name | Description |
 | --- | --- |
 | getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getOutputSaver{#getOutputSaver}
+
 | Name | Description |
 | --- | --- |
 | getOutputSaver () | Returns or sets output saver. Read/write IOutputSaver. |
 
-### Result
+ **Result**
 OutputSaverStub
 
 
 ---
 
 
+###getTemplateEngine{#getTemplateEngine}
+
 | Name | Description |
 | --- | --- |
 | getTemplateEngine () | Returns or sets templates engine. Read/write ITemplateEngine. |
 
-### Result
+ **Result**
 TemplateEngineStub
 
 
 ---
 
+
+###setAnimateShapes{#setAnimateShapes}
 
 | Name | Description |
 | --- | --- |
@@ -85,6 +99,8 @@ TemplateEngineStub
 ---
 
 
+###setAnimateTransitions{#setAnimateTransitions}
+
 | Name | Description |
 | --- | --- |
 | setAnimateTransitions (boolean) | Returns or sets transitions animation option. Read/write boolean. |
@@ -92,6 +108,8 @@ TemplateEngineStub
 
 ---
 
+
+###setEmbedImages{#setEmbedImages}
 
 | Name | Description |
 | --- | --- |
@@ -101,17 +119,21 @@ TemplateEngineStub
 ---
 
 
+###setOutputSaver{#setOutputSaver}
+
 | Name | Description |
 | --- | --- |
-| setOutputSaver (IOutputSaver(../ioutputsaver)) | Returns or sets output saver. Read/write IOutputSaver. |
+| setOutputSaver ([IOutputSaver](../ioutputsaver)) | Returns or sets output saver. Read/write IOutputSaver. |
 
 
 ---
 
 
+###setTemplateEngine{#setTemplateEngine}
+
 | Name | Description |
 | --- | --- |
-| setTemplateEngine (ITemplateEngine(../itemplateengine)) | Returns or sets templates engine. Read/write ITemplateEngine. |
+| setTemplateEngine ([ITemplateEngine](../itemplateengine)) | Returns or sets templates engine. Read/write ITemplateEngine. |
 
 
 ---

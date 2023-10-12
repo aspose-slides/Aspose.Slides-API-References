@@ -11,71 +11,85 @@ url: /aspose.slides/smartart/
 
  Represents a SmartArt diagram
  
+###getAllNodes{#getAllNodes}
+
 | Name | Description |
 | --- | --- |
 | getAllNodes () | Returns collections of all nodes in the SmartArt object. Read-only ISmartArtNodeCollection. |
 
-### Result
-SmartArtNodeCollection(../../smartartnodecollection)
+ **Result**
+[SmartArtNodeCollection](../smartartnodecollection)
 
 
 ---
 
+
+###getColorStyle{#getColorStyle}
 
 | Name | Description |
 | --- | --- |
 | getColorStyle () | Returns or sets color style of SmartArt object. Read/write SmartArtColorType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getLayout{#getLayout}
 
 | Name | Description |
 | --- | --- |
 | getLayout () | Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getNodes{#getNodes}
 
 | Name | Description |
 | --- | --- |
 | getNodes () | Returns collections of root nodes in SmartArt object. Read-only ISmartArtNodeCollection. |
 
-### Result
-SmartArtNodeCollection(../../smartartnodecollection)
+ **Result**
+[SmartArtNodeCollection](../smartartnodecollection)
 
 
 ---
 
 
+###getQuickStyle{#getQuickStyle}
+
 | Name | Description |
 | --- | --- |
 | getQuickStyle () | Returns or sets quick style of SmartArt object. Read/write SmartArtQuickStyleType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###isReversed{#isReversed}
+
 | Name | Description |
 | --- | --- |
 | isReversed () | Return or set the state of the SmartArt diagram with regard to (left-to-right) LTR or (right-to-left) RTL, if the diagram supports reversal. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setColorStyle{#setColorStyle}
 
 | Name | Description |
 | --- | --- |
@@ -85,6 +99,8 @@ boolean
 ---
 
 
+###setLayout{#setLayout}
+
 | Name | Description |
 | --- | --- |
 | setLayout (int) | Returns or sets layout of the SmartArt object. Read/write SmartArtLayoutType. |
@@ -93,6 +109,8 @@ boolean
 ---
 
 
+###setQuickStyle{#setQuickStyle}
+
 | Name | Description |
 | --- | --- |
 | setQuickStyle (int) | Returns or sets quick style of SmartArt object. Read/write SmartArtQuickStyleType. |
@@ -100,6 +118,8 @@ boolean
 
 ---
 
+
+###setReversed{#setReversed}
 
 | Name | Description |
 | --- | --- |

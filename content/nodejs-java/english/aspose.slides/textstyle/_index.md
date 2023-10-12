@@ -11,27 +11,33 @@ url: /aspose.slides/textstyle/
 
  This class contains the text style formatting properties.
  
+###getDefaultParagraphFormat{#getDefaultParagraphFormat}
+
 | Name | Description |
 | --- | --- |
 | getDefaultParagraphFormat () | Default paragraph propertiies. Read-only IParagraphFormat. |
 
-### Result
-ParagraphFormat(../../paragraphformat)
+ **Result**
+[ParagraphFormat](../paragraphformat)
 
 
 ---
 
+
+###getEffective{#getEffective}
 
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective text style formatting data with the inheritance applied. |
 
-### Result
+ **Result**
 TextStyleEffectiveData
 
 
 ---
 
+
+###getLevel{#getLevel}
 
 | Name | Description |
 | --- | --- |
@@ -43,18 +49,20 @@ TextStyleEffectiveData
 | --- | --- | --- |
 | index | int | Zero-based index of level. Must lay in 0..8 interval. |
 
-### Result
-ParagraphFormat(../../paragraphformat)
+ **Result**
+[ParagraphFormat](../paragraphformat)
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 

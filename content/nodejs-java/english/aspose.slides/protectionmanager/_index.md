@@ -11,6 +11,8 @@ url: /aspose.slides/protectionmanager/
 
  Presentation password protection management.
  
+###checkWriteProtection{#checkWriteProtection}
+
 | Name | Description |
 | --- | --- |
 | checkWriteProtection (String) | Determines whether a presentation is a password protected to modify. |
@@ -21,12 +23,14 @@ url: /aspose.slides/protectionmanager/
 | --- | --- | --- |
 | password | String | The password for checking. 1. You should check the ( #isWriteProtected) property before calling this function. 2. When the password is null or empty, this function returns false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###encrypt{#encrypt}
 
 | Name | Description |
 | --- | --- |
@@ -42,71 +46,85 @@ boolean
 ---
 
 
+###getEncryptDocumentProperties{#getEncryptDocumentProperties}
+
 | Name | Description |
 | --- | --- |
 | getEncryptDocumentProperties () | This property makes sense, if presentation is password protected. If true then document properties is encrypted in presentation file. If false then document properties is public while presentation is encrypted. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getEncryptionPassword{#getEncryptionPassword}
+
 | Name | Description |
 | --- | --- |
 | getEncryptionPassword () | Gets the password which is used for presentation encryption. Read-only String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getReadOnlyRecommended{#getReadOnlyRecommended}
+
 | Name | Description |
 | --- | --- |
 | getReadOnlyRecommended () | Gets or sets read-only recommendation. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###isEncrypted{#isEncrypted}
 
 | Name | Description |
 | --- | --- |
 | isEncrypted () | Gets a value indicating whether this instance is encrypted. Read-only boolean. Value: true if presentation was loaded from encrypted file or #encrypt(String) function was called ; otherwise, false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###isOnlyDocumentPropertiesLoaded{#isOnlyDocumentPropertiesLoaded}
 
 | Name | Description |
 | --- | --- |
 | isOnlyDocumentPropertiesLoaded () | This property makes sense, if presentation file is password protected and document properties of this file are public. Value of true means that only document properties are loaded from an encrypted presentation file without use of password. Value of false means that entire encrypted presentation is loaded with use of right password, not only document properties are loaded. If presentation isn't encrypted then property value is always false. If document properties of an encrypted file aren't public then property value is always false. If Presentation.EncryptDocumentProperties is true than IsOnlyDocumentPropertiesLoaded property value is always false. Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###isWriteProtected{#isWriteProtected}
 
 | Name | Description |
 | --- | --- |
 | isWriteProtected () | Gets a value indicating whether this presentation is write protected. Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###removeEncryption{#removeEncryption}
 
 | Name | Description |
 | --- | --- |
@@ -116,6 +134,8 @@ boolean
 ---
 
 
+###removeWriteProtection{#removeWriteProtection}
+
 | Name | Description |
 | --- | --- |
 | removeWriteProtection () | Removes write protection for this presentation. |
@@ -123,6 +143,8 @@ boolean
 
 ---
 
+
+###setEncryptDocumentProperties{#setEncryptDocumentProperties}
 
 | Name | Description |
 | --- | --- |
@@ -132,6 +154,8 @@ boolean
 ---
 
 
+###setReadOnlyRecommended{#setReadOnlyRecommended}
+
 | Name | Description |
 | --- | --- |
 | setReadOnlyRecommended (boolean) | Gets or sets read-only recommendation. Read/write boolean. |
@@ -139,6 +163,8 @@ boolean
 
 ---
 
+
+###setWriteProtection{#setWriteProtection}
 
 | Name | Description |
 | --- | --- |

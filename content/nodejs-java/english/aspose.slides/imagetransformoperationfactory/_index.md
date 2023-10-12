@@ -13,27 +13,33 @@ url: /aspose.slides/imagetransformoperationfactory/
  
  For COM compatibility.
  
+###ImageTransformOperationFactory{#ImageTransformOperationFactory}
+
 | Name | Description |
 | --- | --- |
 | ImageTransformOperationFactory() |  |
 
-### Result
+ **Result**
 ImageTransformOperationFactory
 
 
 ---
 
 
+###createAlphCeiling{#createAlphCeiling}
+
 | Name | Description |
 | --- | --- |
 | createAlphCeiling () | Creates Alpha Ceiling effect. |
 
-### Result
-AlphaCeiling(../../alphaceiling)
+ **Result**
+[AlphaCeiling](../alphaceiling)
 
 
 ---
 
+
+###createAlphaBiLevel{#createAlphaBiLevel}
 
 | Name | Description |
 | --- | --- |
@@ -45,45 +51,53 @@ AlphaCeiling(../../alphaceiling)
 | --- | --- | --- |
 | threshold | float | Threshold. |
 
-### Result
-AlphaBiLevel(../../alphabilevel)
+ **Result**
+[AlphaBiLevel](../alphabilevel)
 
 
 ---
 
+
+###createAlphaFloor{#createAlphaFloor}
 
 | Name | Description |
 | --- | --- |
 | createAlphaFloor () | Creates Alpha floor effect. |
 
-### Result
-AlphaFloor(../../alphafloor)
+ **Result**
+[AlphaFloor](../alphafloor)
 
 
 ---
 
+
+###createAlphaInverse{#createAlphaInverse}
 
 | Name | Description |
 | --- | --- |
 | createAlphaInverse () | Creates Alpha inverse effect. |
 
-### Result
-AlphaInverse(../../alphainverse)
+ **Result**
+[AlphaInverse](../alphainverse)
 
 
 ---
 
+
+###createAlphaModulate{#createAlphaModulate}
 
 | Name | Description |
 | --- | --- |
 | createAlphaModulate () | Creates Alpha modulate effect. |
 
-### Result
-AlphaModulate(../../alphamodulate)
+ **Result**
+[AlphaModulate](../alphamodulate)
 
 
 ---
 
+
+###createAlphaModulateFixed{#createAlphaModulateFixed}
 
 | Name | Description |
 | --- | --- |
@@ -95,12 +109,14 @@ AlphaModulate(../../alphamodulate)
 | --- | --- | --- |
 | amount | float | Amount. |
 
-### Result
-AlphaModulateFixed(../../alphamodulatefixed)
+ **Result**
+[AlphaModulateFixed](../alphamodulatefixed)
 
 
 ---
 
+
+###createAlphaReplace{#createAlphaReplace}
 
 | Name | Description |
 | --- | --- |
@@ -112,12 +128,14 @@ AlphaModulateFixed(../../alphamodulatefixed)
 | --- | --- | --- |
 | alpha | float | Alpha |
 
-### Result
-AlphaReplace(../../alphareplace)
+ **Result**
+[AlphaReplace](../alphareplace)
 
 
 ---
 
+
+###createBiLevel{#createBiLevel}
 
 | Name | Description |
 | --- | --- |
@@ -129,12 +147,14 @@ AlphaReplace(../../alphareplace)
 | --- | --- | --- |
 | threshold | float | Threshold. |
 
-### Result
-BiLevel(../../bilevel)
+ **Result**
+[BiLevel](../bilevel)
 
 
 ---
 
+
+###createBlur{#createBlur}
 
 | Name | Description |
 | --- | --- |
@@ -147,67 +167,79 @@ BiLevel(../../bilevel)
 | radius | double | Radius. |
 | grow | boolean | Grow. |
 
-### Result
-Blur(../../blur)
+ **Result**
+[Blur](../blur)
 
 
 ---
 
+
+###createColorChange{#createColorChange}
 
 | Name | Description |
 | --- | --- |
 | createColorChange () | Creates Color change effect. |
 
-### Result
-ColorChange(../../colorchange)
+ **Result**
+[ColorChange](../colorchange)
 
 
 ---
 
+
+###createColorReplace{#createColorReplace}
 
 | Name | Description |
 | --- | --- |
 | createColorReplace () | Creates Color replace effect. |
 
-### Result
-ColorReplace(../../colorreplace)
+ **Result**
+[ColorReplace](../colorreplace)
 
 
 ---
 
+
+###createDuotone{#createDuotone}
 
 | Name | Description |
 | --- | --- |
 | createDuotone () | Creates Duotone effect. |
 
-### Result
-Duotone(../../duotone)
+ **Result**
+[Duotone](../duotone)
 
 
 ---
 
+
+###createFillOverlay{#createFillOverlay}
 
 | Name | Description |
 | --- | --- |
 | createFillOverlay () | Creates Fill overlay effect. |
 
-### Result
-FillOverlay(../../filloverlay)
+ **Result**
+[FillOverlay](../filloverlay)
 
 
 ---
 
+
+###createGrayScale{#createGrayScale}
 
 | Name | Description |
 | --- | --- |
 | createGrayScale () | Creates Gray scale effect. |
 
-### Result
-GrayScale(../../grayscale)
+ **Result**
+[GrayScale](../grayscale)
 
 
 ---
 
+
+###createHSL{#createHSL}
 
 | Name | Description |
 | --- | --- |
@@ -221,12 +253,14 @@ GrayScale(../../grayscale)
 | saturation | float | Saturation. |
 | luminance | float | Luminance. |
 
-### Result
-HSL(../../hsl)
+ **Result**
+[HSL](../hsl)
 
 
 ---
 
+
+###createLuminance{#createLuminance}
 
 | Name | Description |
 | --- | --- |
@@ -239,12 +273,14 @@ HSL(../../hsl)
 | brightness | float | Brightness. |
 | contrast | float | Contrast. |
 
-### Result
-Luminance(../../luminance)
+ **Result**
+[Luminance](../luminance)
 
 
 ---
 
+
+###createTint{#createTint}
 
 | Name | Description |
 | --- | --- |
@@ -257,8 +293,8 @@ Luminance(../../luminance)
 | hue | float | Hue. |
 | amount | float | Amount. |
 
-### Result
-Tint(../../tint)
+ **Result**
+[Tint](../tint)
 
 
 ---

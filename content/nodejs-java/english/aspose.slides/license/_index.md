@@ -15,38 +15,46 @@ Provides methods to license the component.
  in the folder of the entry assembly and then in the embedded resources of the calling assembly.
  
  
+###License{#License}
+
 | Name | Description |
 | --- | --- |
 | License() | Initializes a new instance of this class. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
-### Result
+ **Result**
 License
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () | Returns version of Aspose.Slides for Java. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###isLicensed{#isLicensed}
+
 | Name | Description |
 | --- | --- |
 | isLicensed () |  |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###resetLicense{#resetLicense}
 
 | Name | Description |
 | --- | --- |
@@ -55,6 +63,8 @@ boolean
 
 ---
 
+
+###setLicenseFromStream {#setLicenseFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -71,6 +81,8 @@ boolean
 
 ---
 
+
+###setLicense{#setLicense}
 
 | Name | Description |
 | --- | --- |

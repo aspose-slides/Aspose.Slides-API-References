@@ -13,27 +13,33 @@ url: /aspose.slides/portionfactory/
  
  For COM comparibility
  
+###PortionFactory{#PortionFactory}
+
 | Name | Description |
 | --- | --- |
 | PortionFactory() |  |
 
-### Result
+ **Result**
 PortionFactory
 
 
 ---
 
 
+###createPortion{#createPortion}
+
 | Name | Description |
 | --- | --- |
 | createPortion () | Creates an empty text portion. |
 
-### Result
-Portion(../../portion), MathPortion(../../mathportion)
+ **Result**
+[Portion](../portion), [MathPortion](../mathportion)
 
 
 ---
 
+
+###createPortion{#createPortion}
 
 | Name | Description |
 | --- | --- |
@@ -45,42 +51,46 @@ Portion(../../portion), MathPortion(../../mathportion)
 | --- | --- | --- |
 | str | String | String. |
 
-### Result
-Portion(../../portion), MathPortion(../../mathportion)
+ **Result**
+[Portion](../portion), [MathPortion](../mathportion)
 
 
 ---
 
 
+###createPortion{#createPortion}
+
 | Name | Description |
 | --- | --- |
-| createPortion (Portion(../portion)) | Creates a portion with the using of a specified portion data. |
+| createPortion ([Portion](../portion)) | Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| portion | Portion(../../portion) | A portion to use. |
+| portion | [Portion](../portion) | A portion to use. |
 
-### Result
-Portion(../../portion), MathPortion(../../mathportion)
+ **Result**
+[Portion](../portion), [MathPortion](../mathportion)
 
 
 ---
 
 
+###createPortion{#createPortion}
+
 | Name | Description |
 | --- | --- |
-| createPortion (MathPortion(../mathportion)) | Creates a portion with the using of a specified portion data. |
+| createPortion ([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| portion | MathPortion(../../mathportion) | A portion to use. |
+| portion | [MathPortion](../mathportion) | A portion to use. |
 
-### Result
-Portion(../../portion), MathPortion(../../mathportion)
+ **Result**
+[Portion](../portion), [MathPortion](../mathportion)
 
 
 ---

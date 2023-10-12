@@ -11,123 +11,147 @@ url: /aspose.slides/videoframe/
 
   Represents a video clip on a slide.
  
+###getEmbeddedVideo{#getEmbeddedVideo}
+
 | Name | Description |
 | --- | --- |
 | getEmbeddedVideo () | Returns or sets embedded video object. Read/write IVideo. |
 
-### Result
-Video(../../video)
+ **Result**
+[Video](../video)
 
 
 ---
 
+
+###getFullScreenMode{#getFullScreenMode}
 
 | Name | Description |
 | --- | --- |
 | getFullScreenMode () | Determines whether a video is shown in full screen mode. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getHideAtShowing{#getHideAtShowing}
 
 | Name | Description |
 | --- | --- |
 | getHideAtShowing () | Determines whether a VideoFrame is hidden. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getLinkPathLong{#getLinkPathLong}
+
 | Name | Description |
 | --- | --- |
 | getLinkPathLong () | Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getPlayLoopMode{#getPlayLoopMode}
+
 | Name | Description |
 | --- | --- |
 | getPlayLoopMode () | Determines whether a video is looped. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getPlayMode{#getPlayMode}
 
 | Name | Description |
 | --- | --- |
 | getPlayMode () | Returns or sets the video play mode. Read/write VideoPlayModePreset. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getRewindVideo{#getRewindVideo}
+
 | Name | Description |
 | --- | --- |
 | getRewindVideo () | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getTrimFromEnd{#getTrimFromEnd}
+
 | Name | Description |
 | --- | --- |
 | getTrimFromEnd () | Trim end [ms] |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getTrimFromStart{#getTrimFromStart}
 
 | Name | Description |
 | --- | --- |
 | getTrimFromStart () | Trim start [ms] |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getVolume{#getVolume}
+
 | Name | Description |
 | --- | --- |
 | getVolume () | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###setEmbeddedVideo{#setEmbeddedVideo}
+
 | Name | Description |
 | --- | --- |
-| setEmbeddedVideo (Video(../video)) | Returns or sets embedded video object. Read/write IVideo. |
+| setEmbeddedVideo ([Video](../video)) | Returns or sets embedded video object. Read/write IVideo. |
 
 
 ---
 
+
+###setFullScreenMode{#setFullScreenMode}
 
 | Name | Description |
 | --- | --- |
@@ -137,6 +161,8 @@ int
 ---
 
 
+###setHideAtShowing{#setHideAtShowing}
+
 | Name | Description |
 | --- | --- |
 | setHideAtShowing (boolean) | Determines whether a VideoFrame is hidden. Read/write boolean. |
@@ -144,6 +170,8 @@ int
 
 ---
 
+
+###setLinkPathLong{#setLinkPathLong}
 
 | Name | Description |
 | --- | --- |
@@ -153,6 +181,8 @@ int
 ---
 
 
+###setPlayLoopMode{#setPlayLoopMode}
+
 | Name | Description |
 | --- | --- |
 | setPlayLoopMode (boolean) | Determines whether a video is looped. Read/write boolean. |
@@ -160,6 +190,8 @@ int
 
 ---
 
+
+###setPlayMode{#setPlayMode}
 
 | Name | Description |
 | --- | --- |
@@ -169,6 +201,8 @@ int
 ---
 
 
+###setRewindVideo{#setRewindVideo}
+
 | Name | Description |
 | --- | --- |
 | setRewindVideo (boolean) | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
@@ -176,6 +210,8 @@ int
 
 ---
 
+
+###setTrimFromEnd{#setTrimFromEnd}
 
 | Name | Description |
 | --- | --- |
@@ -185,6 +221,8 @@ int
 ---
 
 
+###setTrimFromStart{#setTrimFromStart}
+
 | Name | Description |
 | --- | --- |
 | setTrimFromStart (float) | Trim start [ms] |
@@ -192,6 +230,8 @@ int
 
 ---
 
+
+###setVolume{#setVolume}
 
 | Name | Description |
 | --- | --- |

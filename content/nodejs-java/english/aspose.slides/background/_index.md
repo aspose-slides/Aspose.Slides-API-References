@@ -11,104 +11,124 @@ url: /aspose.slides/background/
 
  Represents background of a slide.
  
+###getEffectFormat{#getEffectFormat}
+
 | Name | Description |
 | --- | --- |
 | getEffectFormat () | Returns a EffectFormat for BackgroundType.OwnBackground fill. Read-only IEffectFormat. |
 
-### Result
-EffectFormat(../../effectformat)
+ **Result**
+[EffectFormat](../effectformat)
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective background data with the inheritance applied. |
 
-### Result
+ **Result**
 BackgroundEffectiveData
 
 
 ---
 
 
+###getFillFormat{#getFillFormat}
+
 | Name | Description |
 | --- | --- |
 | getFillFormat () | Returns a FillFormat for BackgroundType.OwnBackground fill. Read-only IFillFormat. |
 
-### Result
-FillFormat(../../fillformat)
+ **Result**
+[FillFormat](../fillformat)
 
 
 ---
 
 
+###getPresentation{#getPresentation}
+
 | Name | Description |
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a slide. Read-only IPresentation. |
 
-### Result
+ **Result**
 Presentation
 
 
 ---
 
 
+###getSlide{#getSlide}
+
 | Name | Description |
 | --- | --- |
 | getSlide () | Returns the parent slide of a shape. Read-only IBaseSlide. |
 
-### Result
+ **Result**
 BaseSlide
 
 
 ---
 
 
+###getStyleColor{#getStyleColor}
+
 | Name | Description |
 | --- | --- |
 | getStyleColor () | Return a ColorFormat for a BackgroundType.Themed fill. Read-only IColorFormat. |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
 
+###getStyleIndex{#getStyleIndex}
+
 | Name | Description |
 | --- | --- |
 | getStyleIndex () | Returns an index of BackgroundType.Themed fill in background theme collection. 0 means no fill. 1..999 - index. Read/write int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getType{#getType}
+
 | Name | Description |
 | --- | --- |
 | getType () | Returns a type of background fill. Read/write BackgroundType. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###setStyleIndex{#setStyleIndex}
 
 | Name | Description |
 | --- | --- |
@@ -117,6 +137,8 @@ long
 
 ---
 
+
+###setType{#setType}
 
 | Name | Description |
 | --- | --- |

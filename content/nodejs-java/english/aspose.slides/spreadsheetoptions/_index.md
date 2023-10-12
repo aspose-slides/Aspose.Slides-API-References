@@ -11,36 +11,42 @@ url: /aspose.slides/spreadsheetoptions/
 
  Represents options which can be used to specify additional spreadsheets behavior.
  
+###SpreadsheetOptions{#SpreadsheetOptions}
+
 | Name | Description |
 | --- | --- |
 | SpreadsheetOptions() | Initializes a new instance of the SpreadsheetOptions class. |
 
-### Result
+ **Result**
 SpreadsheetOptions
 
 
 ---
 
 
+###getPreferredCulture{#getPreferredCulture}
+
 | Name | Description |
 | --- | --- |
 | getPreferredCulture () | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
 
-### Result
+ **Result**
 Locale
 
 
 ---
 
 
+###getRecoverWorkbookFromChartCache{#getRecoverWorkbookFromChartCache}
+
 | Name | Description |
 | --- | --- |
 | getRecoverWorkbookFromChartCache () | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
 
-### Result
+ **Result**
 boolean
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -50,6 +56,8 @@ boolean
 ---
 
 
+###setPreferredCulture{#setPreferredCulture}
+
 | Name | Description |
 | --- | --- |
 | setPreferredCulture (Locale) | Gets or sets preferred culture information for calculating some functions intended for use with languages that use the double-byte character set (DBCS). |
@@ -58,11 +66,13 @@ boolean
 ---
 
 
+###setRecoverWorkbookFromChartCache{#setRecoverWorkbookFromChartCache}
+
 | Name | Description |
 | --- | --- |
 | setRecoverWorkbookFromChartCache (boolean) | If data source for the chart is an external workbook and it's not available, it will be recovered from the chart cache. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |

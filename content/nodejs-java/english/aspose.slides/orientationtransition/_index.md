@@ -11,16 +11,20 @@ url: /aspose.slides/orientationtransition/
 
  Orientation slide transition effect.
  
+###getDirection{#getDirection}
+
 | Name | Description |
 | --- | --- |
 | getDirection () | Direction of transition. Read/write Orientation. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###setDirection{#setDirection}
 
 | Name | Description |
 | --- | --- |

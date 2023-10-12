@@ -13,6 +13,8 @@ url: /aspose.slides/luminance/
  Brightness linearly shifts all colors closer to white or black.
  Contrast scales all colors to be either closer or further apart.
  
+###equals{#equals}
+
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified Luminance is equal to the current Luminance. |
@@ -23,29 +25,33 @@ url: /aspose.slides/luminance/
 | --- | --- | --- |
 | obj | Object | The Luminance to compare. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective Luminance effect data with the inheritance applied. |
 
-### Result
+ **Result**
 LuminanceEffectiveData
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
-### Result
+ **Result**
 int
 
 

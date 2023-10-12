@@ -11,16 +11,20 @@ url: /aspose.slides/wheeltransition/
 
  Wheel slide transition effect.
  
+###getSpokes{#getSpokes}
+
 | Name | Description |
 | --- | --- |
 | getSpokes () | Number spokes of wheel transition. Read/write long. |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###setSpokes{#setSpokes}
 
 | Name | Description |
 | --- | --- |

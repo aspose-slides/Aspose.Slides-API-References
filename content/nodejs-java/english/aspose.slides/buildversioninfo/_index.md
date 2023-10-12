@@ -22,11 +22,13 @@ url: /aspose.slides/buildversioninfo/
 | FileVersion | 23.8 | Version of assembly file. |
 | Product | Aspose.Slides for Node.js via Java | Product name of Aspose.Slides |
 
+###BuildVersionInfo{#BuildVersionInfo}
+
 | Name | Description |
 | --- | --- |
 | BuildVersionInfo() |  |
 
-### Result
+ **Result**
 BuildVersionInfo
 
 

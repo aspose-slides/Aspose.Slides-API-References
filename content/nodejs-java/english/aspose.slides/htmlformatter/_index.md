@@ -11,90 +11,102 @@ url: /aspose.slides/htmlformatter/
 
  Represents HTML file template.
  
+###createCustomFormatter{#createCustomFormatter}
+
 | Name | Description |
 | --- | --- |
-| createCustomFormatter (EmbeddedEotFontsHtmlController(../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbeddedEotFontsHtmlController(../../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
 
-### Result
+ **Result**
 HtmlFormatter
 
 
 ---
 
 
+###createCustomFormatter{#createCustomFormatter}
+
 | Name | Description |
 | --- | --- |
-| createCustomFormatter (VideoPlayerHtmlController(../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | VideoPlayerHtmlController(../../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
 
-### Result
+ **Result**
 HtmlFormatter
 
 
 ---
 
 
+###createCustomFormatter{#createCustomFormatter}
+
 | Name | Description |
 | --- | --- |
-| createCustomFormatter (EmbeddedWoffFontsHtmlController(../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbeddedWoffFontsHtmlController(../../embeddedwofffontshtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | Callback interface which controls html file generation. |
 
-### Result
+ **Result**
 HtmlFormatter
 
 
 ---
 
 
+###createCustomFormatter{#createCustomFormatter}
+
 | Name | Description |
 | --- | --- |
-| createCustomFormatter (ResponsiveHtmlController(../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | ResponsiveHtmlController(../../responsivehtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [ResponsiveHtmlController](../responsivehtmlcontroller) | Callback interface which controls html file generation. |
 
-### Result
+ **Result**
 HtmlFormatter
 
 
 ---
 
 
+###createCustomFormatter{#createCustomFormatter}
+
 | Name | Description |
 | --- | --- |
-| createCustomFormatter (EmbedAllFontsHtmlController(../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
+| createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| formattingController | EmbedAllFontsHtmlController(../../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
+| formattingController | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
 
-### Result
+ **Result**
 HtmlFormatter
 
 
 ---
 
+
+###createDocumentFormatter{#createDocumentFormatter}
 
 | Name | Description |
 | --- | --- |
@@ -107,12 +119,14 @@ HtmlFormatter
 | css | String | Specifies CSS for this file. |
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
-### Result
+ **Result**
 HtmlFormatter
 
 
 ---
 
+
+###createSlideShowFormatter{#createSlideShowFormatter}
 
 | Name | Description |
 | --- | --- |
@@ -125,7 +139,7 @@ HtmlFormatter
 | css | String | Specifies URL of CCS file used. |
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
-### Result
+ **Result**
 HtmlFormatter
 
 

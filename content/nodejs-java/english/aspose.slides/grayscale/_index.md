@@ -12,6 +12,8 @@ url: /aspose.slides/grayscale/
  Represents a Gray Scale effect. Converts all effect color values to a shade of gray,
  corresponding to their luminance. Effect alpha (opacity) values are unaffected.
  
+###equals{#equals}
+
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified GrayScale is equal to the current GrayScale. |
@@ -22,29 +24,33 @@ url: /aspose.slides/grayscale/
 | --- | --- | --- |
 | obj | Object | The GrayScale to compare. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective Gray Scale effect data with the inheritance applied. |
 
-### Result
+ **Result**
 GrayScaleEffectiveData
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
-### Result
+ **Result**
 int
 
 

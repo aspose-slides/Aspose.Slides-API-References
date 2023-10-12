@@ -11,60 +11,72 @@ url: /aspose.slides/texttohtmlconversionoptions/
 
  Options for extracting HTML from the Pptx text.
  
+###TextToHtmlConversionOptions{#TextToHtmlConversionOptions}
+
 | Name | Description |
 | --- | --- |
 | TextToHtmlConversionOptions() |  |
 
-### Result
+ **Result**
 TextToHtmlConversionOptions
 
 
 ---
 
 
+###getAddClipboardFragmentHeader{#getAddClipboardFragmentHeader}
+
 | Name | Description |
 | --- | --- |
 | getAddClipboardFragmentHeader () | Returns or sets value, indicating if Clipboard headers should be added. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getEncodingName{#getEncodingName}
+
 | Name | Description |
 | --- | --- |
 | getEncodingName () | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getLinkEmbedController{#getLinkEmbedController}
+
 | Name | Description |
 | --- | --- |
 | getLinkEmbedController () | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
 
-### Result
-VideoPlayerHtmlController(../../videoplayerhtmlcontroller)
+ **Result**
+[VideoPlayerHtmlController](../videoplayerhtmlcontroller)
 
 
 ---
 
+
+###getTextInheritanceLimit{#getTextInheritanceLimit}
 
 | Name | Description |
 | --- | --- |
 | getTextInheritanceLimit () | Returns or sets inhering depth for text properties. Read/write TextInheritanceLimit. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setAddClipboardFragmentHeader{#setAddClipboardFragmentHeader}
 
 | Name | Description |
 | --- | --- |
@@ -74,6 +86,8 @@ int
 ---
 
 
+###setEncodingName{#setEncodingName}
+
 | Name | Description |
 | --- | --- |
 | setEncodingName (String) | Returns or sets html encoding name. This value will be saved to the generated HTML file, but its up to caller to ensure that file will be saved in this encoding. Read/write String. |
@@ -82,13 +96,17 @@ int
 ---
 
 
+###setLinkEmbedController{#setLinkEmbedController}
+
 | Name | Description |
 | --- | --- |
-| setLinkEmbedController (VideoPlayerHtmlController(../videoplayerhtmlcontroller)) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
+| setLinkEmbedController ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Returns or sets a callback object which controlls how external object will be stored. Read/write ILinkEmbedController. |
 
 
 ---
 
+
+###setTextInheritanceLimit{#setTextInheritanceLimit}
 
 | Name | Description |
 | --- | --- |

@@ -11,49 +11,59 @@ url: /aspose.slides/lightrig/
 
  Represents LightRig.
  
+###getDirection{#getDirection}
+
 | Name | Description |
 | --- | --- |
 | getDirection () | Light direction. Read/write LightingDirection. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getLightType{#getLightType}
 
 | Name | Description |
 | --- | --- |
 | getLightType () | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write LightRigPresetType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getRotation{#getRotation}
+
 | Name | Description |
 | --- | --- |
 | getRotation () | A rotation is defined through the use of a latitude coordinate, a longitude coordinate, and a revolution about the axis as the latitude and longitude coordinates. first element in return array - latitude, second - longitude, third - revolution. Returns null if no rotation defined. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###setDirection{#setDirection}
 
 | Name | Description |
 | --- | --- |
@@ -63,6 +73,8 @@ long
 ---
 
 
+###setLightType{#setLightType}
+
 | Name | Description |
 | --- | --- |
 | setLightType (int) | Represents a preset light right that can be applied to a shape. The light rig represents a group of lights oriented in a specific way relative to a 3D scene. Read/write LightRigPresetType. |
@@ -70,6 +82,8 @@ long
 
 ---
 
+
+###setRotation{#setRotation}
 
 | Name | Description |
 | --- | --- |

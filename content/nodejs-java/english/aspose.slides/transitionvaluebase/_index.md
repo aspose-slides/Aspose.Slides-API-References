@@ -11,6 +11,8 @@ url: /aspose.slides/transitionvaluebase/
 
  Base class for slide transition effects.
  
+###equals{#equals}
+
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the two TransitionValueBase instances are equal. |
@@ -21,18 +23,20 @@ url: /aspose.slides/transitionvaluebase/
 | --- | --- | --- |
 | obj | Object | The TransitionValueBase to compare with the current TransitionValueBase. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
-### Result
+ **Result**
 int
 
 

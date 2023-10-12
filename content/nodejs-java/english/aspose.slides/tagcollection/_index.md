@@ -11,6 +11,8 @@ url: /aspose.slides/tagcollection/
 
  Represents the collection of tags (user defined pairs of strings)
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
 | add (String, String) | Adds a new tag to collection. |
@@ -22,12 +24,14 @@ url: /aspose.slides/tagcollection/
 | name | String | The name of the tag. |
 | value | String | The value of the tag. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -36,6 +40,8 @@ int
 
 ---
 
+
+###contains{#contains}
 
 | Name | Description |
 | --- | --- |
@@ -47,12 +53,14 @@ int
 | --- | --- | --- |
 | name | String | The key to locate. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getNameByIndex{#getNameByIndex}
 
 | Name | Description |
 | --- | --- |
@@ -64,34 +72,40 @@ boolean
 | --- | --- | --- |
 | index | int | Index of a tag to return. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getNamesOfTags{#getNamesOfTags}
 
 | Name | Description |
 | --- | --- |
 | getNamesOfTags () | Returns names of tags. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
+
+###getValueByIndex{#getValueByIndex}
 
 | Name | Description |
 | --- | --- |
@@ -103,12 +117,14 @@ Object
 | --- | --- | --- |
 | index | int | Index of a tag to return. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -120,12 +136,14 @@ String
 | --- | --- | --- |
 | name | String | Key of a tag. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###indexOfName{#indexOfName}
 
 | Name | Description |
 | --- | --- |
@@ -137,45 +155,53 @@ String
 | --- | --- | --- |
 | name | String | The name to locate in the collection. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###remove{#remove}
 
 | Name | Description |
 | --- | --- |
@@ -191,6 +217,8 @@ boolean
 ---
 
 
+###removeAt{#removeAt}
+
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the tag at the specified index. |
@@ -204,6 +232,8 @@ boolean
 
 ---
 
+
+###set_Item{#set_Item}
 
 | Name | Description |
 | --- | --- |
@@ -219,11 +249,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns a number of tags in the collectoin. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

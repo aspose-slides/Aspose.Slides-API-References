@@ -11,16 +11,20 @@ url: /aspose.slides/motionpath/
 
  Represent motion path.
  
+###MotionPath{#MotionPath}
+
 | Name | Description |
 | --- | --- |
 | MotionPath() |  |
 
-### Result
+ **Result**
 MotionPath
 
 
 ---
 
+
+###add{#add}
 
 | Name | Description |
 | --- | --- |
@@ -35,12 +39,14 @@ MotionPath
 | ptsType | int | MotionPathPointsType |
 | bRelativeCoord | boolean | Relative coordinates boolean |
 
-### Result
-MotionCmdPath(../../motioncmdpath)
+ **Result**
+[MotionCmdPath](../motioncmdpath)
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -50,16 +56,20 @@ MotionCmdPath(../../motioncmdpath)
 ---
 
 
+###getCount{#getCount}
+
 | Name | Description |
 | --- | --- |
 | getCount () | Returns the number of paths in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -71,12 +81,14 @@ int
 | --- | --- | --- |
 | index | int | Index of element. |
 
-### Result
-MotionCmdPath(../../motioncmdpath)
+ **Result**
+[MotionCmdPath](../motioncmdpath)
 
 
 ---
 
+
+###insert{#insert}
 
 | Name | Description |
 | --- | --- |
@@ -96,41 +108,49 @@ MotionCmdPath(../../motioncmdpath)
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (MotionCmdPath(../motioncmdpath)) | Removes specified commans from the collection. |
+| remove ([MotionCmdPath](../motioncmdpath)) | Removes specified commans from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | MotionCmdPath(../../motioncmdpath) | Motion path to remove. |
+| item | [MotionCmdPath](../motioncmdpath) | Motion path to remove. |
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |

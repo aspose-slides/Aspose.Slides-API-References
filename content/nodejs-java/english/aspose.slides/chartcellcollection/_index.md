@@ -11,19 +11,23 @@ url: /aspose.slides/chartcellcollection/
 
  Represents collection of a cells with data.
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (ChartDataCell(../chartdatacell)) | Add new cell to the collection. |
+| add ([ChartDataCell](../chartdatacell)) | Add new cell to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cell | ChartDataCell(../../chartdatacell) | New cell to add. |
+| cell | [ChartDataCell](../chartdatacell) | New cell to add. |
 
 
 ---
 
+
+###add{#add}
 
 | Name | Description |
 | --- | --- |
@@ -35,7 +39,7 @@ url: /aspose.slides/chartcellcollection/
 | --- | --- | --- |
 | value | Object | The value. This function adds worksheet with name AUTO_DATA and adds all values there. If you use ChartDataWorkbook to add or edit Cell values, be sure that you do not use this worksheet Maximum number of values added using this function must not exceed 16711680 |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -45,38 +49,46 @@ url: /aspose.slides/chartcellcollection/
 ---
 
 
+###getCellsAddress{#getCellsAddress}
+
 | Name | Description |
 | --- | --- |
 | getCellsAddress () | Returns address of the set of cells in workbook. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getConcatenatedValuesFromCells{#getConcatenatedValuesFromCells}
 
 | Name | Description |
 | --- | --- |
 | getConcatenatedValuesFromCells () | Concatenation string from all cells string values. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getCount{#getCount}
+
 | Name | Description |
 | --- | --- |
 | getCount () | Gets the count of cells in collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -88,34 +100,40 @@ int
 | --- | --- | --- |
 | index | int | Index of a cell. |
 
-### Result
-ChartDataCell(../../chartdatacell)
+ **Result**
+[ChartDataCell](../chartdatacell)
 
 
 ---
 
+
+###iterator{#iterator}
 
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |

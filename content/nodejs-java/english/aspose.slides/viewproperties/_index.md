@@ -11,60 +11,72 @@ url: /aspose.slides/viewproperties/
 
  Presentation wide view properties.
  
+###getLastView{#getLastView}
+
 | Name | Description |
 | --- | --- |
 | getLastView () | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getNormalViewProperties{#getNormalViewProperties}
+
 | Name | Description |
 | --- | --- |
 | getNormalViewProperties () | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only INormalViewProperties. |
 
-### Result
-NormalViewProperties(../../normalviewproperties)
+ **Result**
+[NormalViewProperties](../normalviewproperties)
 
 
 ---
 
+
+###getNotesViewProperties{#getNotesViewProperties}
 
 | Name | Description |
 | --- | --- |
 | getNotesViewProperties () | Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewProperties. |
 
-### Result
-CommonSlideViewProperties(../../commonslideviewproperties)
+ **Result**
+[CommonSlideViewProperties](../commonslideviewproperties)
 
 
 ---
 
 
+###getShowComments{#getShowComments}
+
 | Name | Description |
 | --- | --- |
 | getShowComments () | Specifies whether the slide comments should be shown. Read/write NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getSlideViewProperties{#getSlideViewProperties}
+
 | Name | Description |
 | --- | --- |
 | getSlideViewProperties () | Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
 
-### Result
-CommonSlideViewProperties(../../commonslideviewproperties)
+ **Result**
+[CommonSlideViewProperties](../commonslideviewproperties)
 
 
 ---
 
+
+###setLastView{#setLastView}
 
 | Name | Description |
 | --- | --- |
@@ -73,6 +85,8 @@ CommonSlideViewProperties(../../commonslideviewproperties)
 
 ---
 
+
+###setShowComments{#setShowComments}
 
 | Name | Description |
 | --- | --- |

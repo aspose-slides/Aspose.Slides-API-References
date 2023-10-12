@@ -11,23 +11,27 @@ url: /aspose.slides/summaryzoomframe/
 
  Represents a Summary Zoom object in a slide.
  
+###getLayout{#getLayout}
+
 | Name | Description |
 | --- | --- |
 | getLayout () | Gets layout of Summary Zoom Sections in the frame. Default value is GridLayout. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getSummaryZoomCollection{#getSummaryZoomCollection}
+
 | Name | Description |
 | --- | --- |
 | getSummaryZoomCollection () | Gets ISummaryZoomSectionCollection for the Summary Zoom Frame object. |
 
-### Result
-SummaryZoomSectionCollection(../../summaryzoomsectioncollection)
+ **Result**
+[SummaryZoomSectionCollection](../summaryzoomsectioncollection)
 
 
 ---

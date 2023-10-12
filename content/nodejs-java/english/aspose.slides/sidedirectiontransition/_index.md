@@ -11,16 +11,20 @@ url: /aspose.slides/sidedirectiontransition/
 
  Side direction slide transition effect.
  
+###getDirection{#getDirection}
+
 | Name | Description |
 | --- | --- |
 | getDirection () | Direction of transition. Read/write TransitionSideDirectionType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setDirection{#setDirection}
 
 | Name | Description |
 | --- | --- |

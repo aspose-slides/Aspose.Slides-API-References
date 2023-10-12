@@ -11,145 +11,173 @@ url: /aspose.slides/effect/
 
  Represents animation effect.
  
+###getAfterAnimationColor{#getAfterAnimationColor}
+
 | Name | Description |
 | --- | --- |
 | getAfterAnimationColor () | Defined an after animation color for effect. Read/write IColorFormat. |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
+
+###getAfterAnimationType{#getAfterAnimationType}
 
 | Name | Description |
 | --- | --- |
 | getAfterAnimationType () | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getBehaviors{#getBehaviors}
 
 | Name | Description |
 | --- | --- |
 | getBehaviors () | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
-### Result
-BehaviorCollection(../../behaviorcollection)
+ **Result**
+[BehaviorCollection](../behaviorcollection)
 
 
 ---
 
 
+###getPresetClassType{#getPresetClassType}
+
 | Name | Description |
 | --- | --- |
 | getPresetClassType () | Defines class of effect. Read/write EffectPresetClassType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getSequence{#getSequence}
+
 | Name | Description |
 | --- | --- |
 | getSequence () | Returns a sequence for an effect. Read-only ISequence. |
 
-### Result
-Sequence(../../sequence)
+ **Result**
+[Sequence](../sequence)
 
 
 ---
 
+
+###getSound{#getSound}
 
 | Name | Description |
 | --- | --- |
 | getSound () | Defined embedded sound for effect. Read/write IAudio. |
 
-### Result
-Audio(../../audio)
+ **Result**
+[Audio](../audio)
 
 
 ---
 
 
+###getStopPreviousSound{#getStopPreviousSound}
+
 | Name | Description |
 | --- | --- |
 | getStopPreviousSound () | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getSubtype{#getSubtype}
+
 | Name | Description |
 | --- | --- |
 | getSubtype () | Defines subtype of effect. Read/write EffectSubtype. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getTargetShape{#getTargetShape}
 
 | Name | Description |
 | --- | --- |
 | getTargetShape () | Returns target shape for effect. Read-only IShape. |
 
-### Result
-LegacyDiagram(../../legacydiagram), Connector(../../connector), GraphicalObject(../../graphicalobject), Shape(../../shape), Ink(../../ink), GroupShape(../../groupshape), SmartArtShape(../../smartartshape), SummaryZoomSection(../../summaryzoomsection), ZoomObject(../../zoomobject), SmartArt(../../smartart), VideoFrame(../../videoframe), PictureFrame(../../pictureframe), ZoomFrame(../../zoomframe), AutoShape(../../autoshape), GeometryShape(../../geometryshape), OleObjectFrame(../../oleobjectframe), SectionZoomFrame(../../sectionzoomframe), AudioFrame(../../audioframe), Chart(../../chart), Table(../../table), SummaryZoomFrame(../../summaryzoomframe)
+ **Result**
+[LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
 
 
 ---
 
+
+###getTextAnimation{#getTextAnimation}
 
 | Name | Description |
 | --- | --- |
 | getTextAnimation () | TextAnimation Read-only ITextAnimation. |
 
-### Result
-TextAnimation(../../textanimation)
+ **Result**
+[TextAnimation](../textanimation)
 
 
 ---
 
+
+###getTiming{#getTiming}
 
 | Name | Description |
 | --- | --- |
 | getTiming () | Defines timing value for effect. Read/write ITiming. |
 
-### Result
-Timing(../../timing)
+ **Result**
+[Timing](../timing)
 
 
 ---
 
 
+###getType{#getType}
+
 | Name | Description |
 | --- | --- |
 | getType () | Defines type of effect. Read/write EffectType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###setAfterAnimationColor{#setAfterAnimationColor}
+
 | Name | Description |
 | --- | --- |
-| setAfterAnimationColor (ColorFormat(../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
+| setAfterAnimationColor ([ColorFormat](../colorformat)) | Defined an after animation color for effect. Read/write IColorFormat. |
 
 
 ---
 
+
+###setAfterAnimationType{#setAfterAnimationType}
 
 | Name | Description |
 | --- | --- |
@@ -159,13 +187,17 @@ int
 ---
 
 
+###setBehaviors{#setBehaviors}
+
 | Name | Description |
 | --- | --- |
-| setBehaviors (BehaviorCollection(../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
+| setBehaviors ([BehaviorCollection](../behaviorcollection)) | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
 
 ---
 
+
+###setPresetClassType{#setPresetClassType}
 
 | Name | Description |
 | --- | --- |
@@ -175,13 +207,17 @@ int
 ---
 
 
+###setSound{#setSound}
+
 | Name | Description |
 | --- | --- |
-| setSound (Audio(../audio)) | Defined embedded sound for effect. Read/write IAudio. |
+| setSound ([Audio](../audio)) | Defined embedded sound for effect. Read/write IAudio. |
 
 
 ---
 
+
+###setStopPreviousSound{#setStopPreviousSound}
 
 | Name | Description |
 | --- | --- |
@@ -191,6 +227,8 @@ int
 ---
 
 
+###setSubtype{#setSubtype}
+
 | Name | Description |
 | --- | --- |
 | setSubtype (int) | Defines subtype of effect. Read/write EffectSubtype. |
@@ -199,13 +237,17 @@ int
 ---
 
 
+###setTiming{#setTiming}
+
 | Name | Description |
 | --- | --- |
-| setTiming (Timing(../timing)) | Defines timing value for effect. Read/write ITiming. |
+| setTiming ([Timing](../timing)) | Defines timing value for effect. Read/write ITiming. |
 
 
 ---
 
+
+###setType{#setType}
 
 | Name | Description |
 | --- | --- |

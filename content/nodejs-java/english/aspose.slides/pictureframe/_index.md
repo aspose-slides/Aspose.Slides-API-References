@@ -11,60 +11,72 @@ url: /aspose.slides/pictureframe/
 
  Represents a frame with a picture inside.
  
+###getPictureFormat{#getPictureFormat}
+
 | Name | Description |
 | --- | --- |
 | getPictureFormat () | Returns the PictureFillFormat object for a picture frame. Read-only IPictureFillFormat. |
 
-### Result
-PictureFillFormat(../../picturefillformat)
+ **Result**
+[PictureFillFormat](../picturefillformat)
 
 
 ---
 
+
+###getPictureFrameLock{#getPictureFrameLock}
 
 | Name | Description |
 | --- | --- |
 | getPictureFrameLock () | Returns shape's locks. Read-only IPictureFrameLock. |
 
-### Result
-PictureFrameLock(../../pictureframelock)
+ **Result**
+[PictureFrameLock](../pictureframelock)
 
 
 ---
 
+
+###getRelativeScaleHeight{#getRelativeScaleHeight}
 
 | Name | Description |
 | --- | --- |
 | getRelativeScaleHeight () | Returns or sets the scale of height(relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getRelativeScaleWidth{#getRelativeScaleWidth}
 
 | Name | Description |
 | --- | --- |
 | getRelativeScaleWidth () | Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getShapeType{#getShapeType}
+
 | Name | Description |
 | --- | --- |
 | getShapeType () | Returns or sets the AutoShape type for a PictureFrame. There are allowable all items of the set ShapeType, except all sorts of lines: ShapeType.Line, ShapeType.StraightConnector1, ShapeType.BentConnector2, ShapeType.BentConnector3, ShapeType.BentConnector4, ShapeType.BentConnector5, ShapeType.CurvedConnector2, ShapeType.CurvedConnector3, ShapeType.CurvedConnector4, ShapeType.CurvedConnector5. Read/write ShapeType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setRelativeScaleHeight{#setRelativeScaleHeight}
 
 | Name | Description |
 | --- | --- |
@@ -74,6 +86,8 @@ int
 ---
 
 
+###setRelativeScaleWidth{#setRelativeScaleWidth}
+
 | Name | Description |
 | --- | --- |
 | setRelativeScaleWidth (float) | Returns or sets the scale of width (relative to original picture size) of the picture frame. Value 1.0 corresponds to 100%. Read/write float. |
@@ -81,6 +95,8 @@ int
 
 ---
 
+
+###setShapeType{#setShapeType}
 
 | Name | Description |
 | --- | --- |

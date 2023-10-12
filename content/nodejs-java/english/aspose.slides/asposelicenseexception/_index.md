@@ -9,16 +9,20 @@ url: /aspose.slides/asposelicenseexception/
 
 ## AsposeLicenseException class
 This exception is thrown if any errors with license are detected.
+###AsposeLicenseException{#AsposeLicenseException}
+
 | Name | Description |
 | --- | --- |
 | AsposeLicenseException() | Creates a new AsposeLicenseException. |
 
-### Result
+ **Result**
 AsposeLicenseException
 
 
 ---
 
+
+###AsposeLicenseException{#AsposeLicenseException}
 
 | Name | Description |
 | --- | --- |
@@ -30,12 +34,14 @@ AsposeLicenseException
 | --- | --- | --- |
 | message | String | The message string. |
 
-### Result
+ **Result**
 AsposeLicenseException
 
 
 ---
 
+
+###AsposeLicenseException{#AsposeLicenseException}
 
 | Name | Description |
 | --- | --- |
@@ -48,7 +54,7 @@ AsposeLicenseException
 | message | String | The message string. |
 | cause | Throwable | The reason that indirectly caused this exception. |
 
-### Result
+ **Result**
 AsposeLicenseException
 
 

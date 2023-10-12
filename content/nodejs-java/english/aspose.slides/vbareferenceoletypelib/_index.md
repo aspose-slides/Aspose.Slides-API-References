@@ -11,38 +11,46 @@ url: /aspose.slides/vbareferenceoletypelib/
 
  Represents OLE Automation type library reference.
  
+###VbaReferenceOleTypeLib{#VbaReferenceOleTypeLib}
+
 | Name | Description |
 | --- | --- |
 | VbaReferenceOleTypeLib(String, String) | This function creates new OLE Automation type library reference. |
 
-### Result
+ **Result**
 VbaReferenceOleTypeLib
 
 
 ---
 
 
+###getLibid{#getLibid}
+
 | Name | Description |
 | --- | --- |
 | getLibid () | Represents the identifier of an Automation type library. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getName{#getName}
 
 | Name | Description |
 | --- | --- |
 | getName () | Represents the name of the VBA project reference. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###setLibid{#setLibid}
 
 | Name | Description |
 | --- | --- |
@@ -51,6 +59,8 @@ String
 
 ---
 
+
+###setName{#setName}
 
 | Name | Description |
 | --- | --- |

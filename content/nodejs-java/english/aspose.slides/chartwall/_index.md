@@ -11,38 +11,46 @@ url: /aspose.slides/chartwall/
 
  Represents walls on 3d charts.
  
+###getFormat{#getFormat}
+
 | Name | Description |
 | --- | --- |
 | getFormat () | Returns the wall fill, line, effect, 3d styles. Read-only IFormat. |
 
-### Result
-Format(../../format)
+ **Result**
+[Format](../format)
 
 
 ---
 
+
+###getPictureType{#getPictureType}
 
 | Name | Description |
 | --- | --- |
 | getPictureType () | Return or sets the picture type. Read/write PictureType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getThickness{#getThickness}
 
 | Name | Description |
 | --- | --- |
 | getThickness () | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setPictureType{#setPictureType}
 
 | Name | Description |
 | --- | --- |
@@ -51,6 +59,8 @@ int
 
 ---
 
+
+###setThickness{#setThickness}
 
 | Name | Description |
 | --- | --- |

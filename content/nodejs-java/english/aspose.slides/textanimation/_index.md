@@ -11,16 +11,20 @@ url: /aspose.slides/textanimation/
 
  Represent text animation.
  
+###TextAnimation{#TextAnimation}
+
 | Name | Description |
 | --- | --- |
 | TextAnimation() |  |
 
-### Result
+ **Result**
 TextAnimation
 
 
 ---
 
+
+###addEffect{#addEffect}
 
 | Name | Description |
 | --- | --- |
@@ -34,34 +38,40 @@ TextAnimation
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
-### Result
-Effect(../../effect)
+ **Result**
+[Effect](../effect)
 
 
 ---
 
 
+###getBuildType{#getBuildType}
+
 | Name | Description |
 | --- | --- |
 | getBuildType () | List of build type (for exp. Paragraph 1,2,3, All at Once) of text animation. Read/write BuildType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getEffectAnimateBackgroundShape{#getEffectAnimateBackgroundShape}
+
 | Name | Description |
 | --- | --- |
 | getEffectAnimateBackgroundShape () | Linked shape effect with group or not (null). Read/write IEffect. |
 
-### Result
-Effect(../../effect)
+ **Result**
+[Effect](../effect)
 
 
 ---
 
+
+###setBuildType{#setBuildType}
 
 | Name | Description |
 | --- | --- |
@@ -71,9 +81,11 @@ Effect(../../effect)
 ---
 
 
+###setEffectAnimateBackgroundShape{#setEffectAnimateBackgroundShape}
+
 | Name | Description |
 | --- | --- |
-| setEffectAnimateBackgroundShape (Effect(../effect)) | Linked shape effect with group or not (null). Read/write IEffect. |
+| setEffectAnimateBackgroundShape ([Effect](../effect)) | Linked shape effect with group or not (null). Read/write IEffect. |
 
 
 ---

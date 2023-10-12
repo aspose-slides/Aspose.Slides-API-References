@@ -11,38 +11,46 @@ url: /aspose.slides/fontscheme/
 
  Stores theme-defined fonts.
  
+###getMajor{#getMajor}
+
 | Name | Description |
 | --- | --- |
 | getMajor () | Returns the fonts collection for a "heading" part of the slide. Read-only IFonts. |
 
-### Result
-Fonts(../../fonts)
+ **Result**
+[Fonts](../fonts)
 
 
 ---
 
+
+###getMinor{#getMinor}
 
 | Name | Description |
 | --- | --- |
 | getMinor () | Returns the fonts collection for a "body" part of the slide. Read-only IFonts. |
 
-### Result
-Fonts(../../fonts)
+ **Result**
+[Fonts](../fonts)
 
 
 ---
 
+
+###getName{#getName}
 
 | Name | Description |
 | --- | --- |
 | getName () | Returns the font scheme name. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###setName{#setName}
 
 | Name | Description |
 | --- | --- |

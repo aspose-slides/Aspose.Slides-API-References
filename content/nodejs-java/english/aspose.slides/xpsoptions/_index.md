@@ -11,49 +11,59 @@ url: /aspose.slides/xpsoptions/
 
  Provides options that control how a presentation is saved in XPS format.
  
+###XpsOptions{#XpsOptions}
+
 | Name | Description |
 | --- | --- |
 | XpsOptions() | Default function. |
 
-### Result
+ **Result**
 XpsOptions
 
 
 ---
 
 
+###getDrawSlidesFrame{#getDrawSlidesFrame}
+
 | Name | Description |
 | --- | --- |
 | getDrawSlidesFrame () | True to draw black frame around each slide. Read/write boolean. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSaveMetafilesAsPng{#getSaveMetafilesAsPng}
 
 | Name | Description |
 | --- | --- |
 | getSaveMetafilesAsPng () | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowHiddenSlides{#getShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setDrawSlidesFrame{#setDrawSlidesFrame}
 
 | Name | Description |
 | --- | --- |
@@ -63,6 +73,8 @@ boolean
 ---
 
 
+###setSaveMetafilesAsPng{#setSaveMetafilesAsPng}
+
 | Name | Description |
 | --- | --- |
 | setSaveMetafilesAsPng (boolean) | True to convert all metafiles used in a presentation to the PNG images. Read/write boolean. Default is true. |
@@ -70,6 +82,8 @@ boolean
 
 ---
 
+
+###setShowHiddenSlides{#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |

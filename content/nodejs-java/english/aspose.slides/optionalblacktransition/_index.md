@@ -11,16 +11,20 @@ url: /aspose.slides/optionalblacktransition/
 
  Optional black slide transition effect.
  
+###getFromBlack{#getFromBlack}
+
 | Name | Description |
 | --- | --- |
 | getFromBlack () | This attribute specifies if the transition will start from a black screen (and then transition the new slide over black). Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setFromBlack{#setFromBlack}
 
 | Name | Description |
 | --- | --- |

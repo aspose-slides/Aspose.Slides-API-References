@@ -13,6 +13,8 @@ url: /aspose.slides/alphafloor/
  Alpha (opacity) values less than 100% are changed to zero.
  In other words, anything partially transparent becomes fully transparent.
  
+###equals{#equals}
+
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
@@ -23,29 +25,33 @@ url: /aspose.slides/alphafloor/
 | --- | --- | --- |
 | obj | Object | The AlphaFloor to compare. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective Alpha Floor effect data with the inheritance applied. |
 
-### Result
+ **Result**
 AlphaFloorEffectiveData
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
-### Result
+ **Result**
 int
 
 

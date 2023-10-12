@@ -11,6 +11,8 @@ url: /aspose.slides/effectformat/
 
  Represents effect properties of shape.
  
+###disableBlurEffect{#disableBlurEffect}
+
 | Name | Description |
 | --- | --- |
 | disableBlurEffect () | Disables blur effect. |
@@ -18,6 +20,8 @@ url: /aspose.slides/effectformat/
 
 ---
 
+
+###disableFillOverlayEffect{#disableFillOverlayEffect}
 
 | Name | Description |
 | --- | --- |
@@ -27,6 +31,8 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###disableGlowEffect{#disableGlowEffect}
+
 | Name | Description |
 | --- | --- |
 | disableGlowEffect () | Disable glow effect. |
@@ -34,6 +40,8 @@ url: /aspose.slides/effectformat/
 
 ---
 
+
+###disableInnerShadowEffect{#disableInnerShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -43,6 +51,8 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###disableOuterShadowEffect{#disableOuterShadowEffect}
+
 | Name | Description |
 | --- | --- |
 | disableOuterShadowEffect () | Disables outer shadow effect. |
@@ -50,6 +60,8 @@ url: /aspose.slides/effectformat/
 
 ---
 
+
+###disablePresetShadowEffect{#disablePresetShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -59,6 +71,8 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###disableReflectionEffect{#disableReflectionEffect}
+
 | Name | Description |
 | --- | --- |
 | disableReflectionEffect () | Disables reflection effect. |
@@ -66,6 +80,8 @@ url: /aspose.slides/effectformat/
 
 ---
 
+
+###disableSoftEdgeEffect{#disableSoftEdgeEffect}
 
 | Name | Description |
 | --- | --- |
@@ -75,6 +91,8 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###enableFillOverlayEffect{#enableFillOverlayEffect}
+
 | Name | Description |
 | --- | --- |
 | enableFillOverlayEffect () | Enables fill overlay effect. |
@@ -82,6 +100,8 @@ url: /aspose.slides/effectformat/
 
 ---
 
+
+###enableGlowEffect{#enableGlowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -91,6 +111,8 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###enableInnerShadowEffect{#enableInnerShadowEffect}
+
 | Name | Description |
 | --- | --- |
 | enableInnerShadowEffect () | Enables inner shadow effect. |
@@ -98,6 +120,8 @@ url: /aspose.slides/effectformat/
 
 ---
 
+
+###enableOuterShadowEffect{#enableOuterShadowEffect}
 
 | Name | Description |
 | --- | --- |
@@ -107,6 +131,8 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###enablePresetShadowEffect{#enablePresetShadowEffect}
+
 | Name | Description |
 | --- | --- |
 | enablePresetShadowEffect () | Enables preset shadows effect. |
@@ -114,6 +140,8 @@ url: /aspose.slides/effectformat/
 
 ---
 
+
+###enableReflectionEffect{#enableReflectionEffect}
 
 | Name | Description |
 | --- | --- |
@@ -123,6 +151,8 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###enableSoftEdgeEffect{#enableSoftEdgeEffect}
+
 | Name | Description |
 | --- | --- |
 | enableSoftEdgeEffect () | Enables soft edge effect. |
@@ -131,134 +161,160 @@ url: /aspose.slides/effectformat/
 ---
 
 
+###getBlurEffect{#getBlurEffect}
+
 | Name | Description |
 | --- | --- |
 | getBlurEffect () | Blur effect. Read/write IBlur. |
 
-### Result
-Blur(../../blur)
+ **Result**
+[Blur](../blur)
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective effect formatting data with the inheritance applied. |
 
-### Result
+ **Result**
 EffectFormatEffectiveData
 
 
 ---
 
 
+###getFillOverlayEffect{#getFillOverlayEffect}
+
 | Name | Description |
 | --- | --- |
 | getFillOverlayEffect () | Fill overlay effect. Read/write IFillOverlay. |
 
-### Result
-FillOverlay(../../filloverlay)
+ **Result**
+[FillOverlay](../filloverlay)
 
 
 ---
 
+
+###getGlowEffect{#getGlowEffect}
 
 | Name | Description |
 | --- | --- |
 | getGlowEffect () | Glow effect. Read/write IGlow. |
 
-### Result
-Glow(../../glow)
+ **Result**
+[Glow](../glow)
 
 
 ---
 
+
+###getInnerShadowEffect{#getInnerShadowEffect}
 
 | Name | Description |
 | --- | --- |
 | getInnerShadowEffect () | Inner shadow. Read/write IInnerShadow. |
 
-### Result
-InnerShadow(../../innershadow)
+ **Result**
+[InnerShadow](../innershadow)
 
 
 ---
 
+
+###getOuterShadowEffect{#getOuterShadowEffect}
 
 | Name | Description |
 | --- | --- |
 | getOuterShadowEffect () | Outer shadow. Read/write IOuterShadow. |
 
-### Result
-OuterShadow(../../outershadow)
+ **Result**
+[OuterShadow](../outershadow)
 
 
 ---
 
+
+###getPresetShadowEffect{#getPresetShadowEffect}
 
 | Name | Description |
 | --- | --- |
 | getPresetShadowEffect () | Preset shadow. Read/write IPresetShadow. |
 
-### Result
-PresetShadow(../../presetshadow)
+ **Result**
+[PresetShadow](../presetshadow)
 
 
 ---
 
+
+###getReflectionEffect{#getReflectionEffect}
 
 | Name | Description |
 | --- | --- |
 | getReflectionEffect () | Reflection. Read/write IReflection. |
 
-### Result
-Reflection(../../reflection)
+ **Result**
+[Reflection](../reflection)
 
 
 ---
 
+
+###getSoftEdgeEffect{#getSoftEdgeEffect}
 
 | Name | Description |
 | --- | --- |
 | getSoftEdgeEffect () | Soft edge. Read/write ISoftEdge. |
 
-### Result
-SoftEdge(../../softedge)
+ **Result**
+[SoftEdge](../softedge)
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###isNoEffects{#isNoEffects}
+
 | Name | Description |
 | --- | --- |
 | isNoEffects () | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###setBlurEffect{#setBlurEffect}
+
 | Name | Description |
 | --- | --- |
-| setBlurEffect (Blur(../blur)) | Blur effect. Read/write IBlur. |
+| setBlurEffect ([Blur](../blur)) | Blur effect. Read/write IBlur. |
 
 
 ---
 
+
+###setBlurEffect{#setBlurEffect}
 
 | Name | Description |
 | --- | --- |
@@ -275,57 +331,71 @@ boolean
 ---
 
 
+###setFillOverlayEffect{#setFillOverlayEffect}
+
 | Name | Description |
 | --- | --- |
-| setFillOverlayEffect (FillOverlay(../filloverlay)) | Fill overlay effect. Read/write IFillOverlay. |
+| setFillOverlayEffect ([FillOverlay](../filloverlay)) | Fill overlay effect. Read/write IFillOverlay. |
 
 
 ---
 
 
+###setGlowEffect{#setGlowEffect}
+
 | Name | Description |
 | --- | --- |
-| setGlowEffect (Glow(../glow)) | Glow effect. Read/write IGlow. |
+| setGlowEffect ([Glow](../glow)) | Glow effect. Read/write IGlow. |
 
 
 ---
 
 
+###setInnerShadowEffect{#setInnerShadowEffect}
+
 | Name | Description |
 | --- | --- |
-| setInnerShadowEffect (InnerShadow(../innershadow)) | Inner shadow. Read/write IInnerShadow. |
+| setInnerShadowEffect ([InnerShadow](../innershadow)) | Inner shadow. Read/write IInnerShadow. |
 
 
 ---
 
 
+###setOuterShadowEffect{#setOuterShadowEffect}
+
 | Name | Description |
 | --- | --- |
-| setOuterShadowEffect (OuterShadow(../outershadow)) | Outer shadow. Read/write IOuterShadow. |
+| setOuterShadowEffect ([OuterShadow](../outershadow)) | Outer shadow. Read/write IOuterShadow. |
 
 
 ---
 
 
+###setPresetShadowEffect{#setPresetShadowEffect}
+
 | Name | Description |
 | --- | --- |
-| setPresetShadowEffect (PresetShadow(../presetshadow)) | Preset shadow. Read/write IPresetShadow. |
+| setPresetShadowEffect ([PresetShadow](../presetshadow)) | Preset shadow. Read/write IPresetShadow. |
 
 
 ---
 
 
+###setReflectionEffect{#setReflectionEffect}
+
 | Name | Description |
 | --- | --- |
-| setReflectionEffect (Reflection(../reflection)) | Reflection. Read/write IReflection. |
+| setReflectionEffect ([Reflection](../reflection)) | Reflection. Read/write IReflection. |
 
 
 ---
 
 
+###setSoftEdgeEffect{#setSoftEdgeEffect}
+
 | Name | Description |
 | --- | --- |
-| setSoftEdgeEffect (SoftEdge(../softedge)) | Soft edge. Read/write ISoftEdge. |
+| setSoftEdgeEffect ([SoftEdge](../softedge)) | Soft edge. Read/write ISoftEdge. |
 
 
 ---

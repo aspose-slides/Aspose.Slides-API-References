@@ -11,16 +11,20 @@ url: /aspose.slides/pptxcorruptfileexception/
 
  Exception which thrown when presentation file is probably corrupt.
  
+###PptxCorruptFileException{#PptxCorruptFileException}
+
 | Name | Description |
 | --- | --- |
 | PptxCorruptFileException() | Default function. |
 
-### Result
+ **Result**
 PptxCorruptFileException
 
 
 ---
 
+
+###PptxCorruptFileException{#PptxCorruptFileException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ PptxCorruptFileException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 PptxCorruptFileException
 
 
 ---
 
+
+###PptxCorruptFileException{#PptxCorruptFileException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ PptxCorruptFileException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 PptxCorruptFileException
 
 

@@ -11,6 +11,8 @@ url: /aspose.slides/chartseriescollection/
 
  Represents collection of   ChartSeries
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
 | add (int) | Creates new chart series and adds it to the collection. |
@@ -21,48 +23,54 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- | --- |
 | type | int | Type of series |
 
-### Result
-ChartSeries(../../chartseries)
+ **Result**
+[ChartSeries](../chartseries)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (ChartDataCell(../chartdatacell), int) | Creates new chart series from ChartDataCell and adds it to the collection. |
+| add ([ChartDataCell](../chartdatacell), int) | Creates new chart series from ChartDataCell and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellWithSeriesName | ChartDataCell(../chartdatacell) | Cell which contain series name. |
+| cellWithSeriesName | [ChartDataCell](../chartdatacell) | Cell which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
-### Result
-ChartSeries(../../chartseries)
+ **Result**
+[ChartSeries](../chartseries)
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (ChartCellCollection(../chartcellcollection), int) | Creates new chart series from ChartCellCollection and adds it to the collection. |
+| add ([ChartCellCollection](../chartcellcollection), int) | Creates new chart series from ChartCellCollection and adds it to the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| cellsWithSeriesName | ChartCellCollection(../chartcellcollection) | Cells which contain series name. |
+| cellsWithSeriesName | [ChartCellCollection](../chartcellcollection) | Cells which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
-### Result
-ChartSeries(../../chartseries)
+ **Result**
+[ChartSeries](../chartseries)
 
 
 ---
 
+
+###add{#add}
 
 | Name | Description |
 | --- | --- |
@@ -75,12 +83,14 @@ ChartSeries(../../chartseries)
 | name | String | Series name. |
 | type | int | Type set type of series |
 
-### Result
-ChartSeries(../../chartseries)
+ **Result**
+[ChartSeries](../chartseries)
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -90,25 +100,29 @@ ChartSeries(../../chartseries)
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
-### Result
-ChartSeries(../../chartseries)
+ **Result**
+[ChartSeries](../chartseries)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -118,78 +132,90 @@ ChartSeries(../../chartseries)
 ---
 
 
+###indexOf{#indexOf}
+
 | Name | Description |
 | --- | --- |
-| indexOf (ChartSeries(../chartseries)) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
+| indexOf ([ChartSeries](../chartseries)) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartSeries(../../chartseries) | Chart series value. |
+| value | [ChartSeries](../chartseries) | Chart series value. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###insert{#insert}
+
 | Name | Description |
 | --- | --- |
 | insert (int, int) | Creates new chart series and inserts it into the collection. |
 
-### Result
-ChartSeries(../../chartseries)
+ **Result**
+[ChartSeries](../chartseries)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (ChartSeries(../chartseries)) | Removes the specified value. |
+| remove ([ChartSeries](../chartseries)) | Removes the specified value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| value | ChartSeries(../../chartseries) | The value. |
+| value | [ChartSeries](../chartseries) | The value. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -198,6 +224,8 @@ boolean
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -213,11 +241,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns a number of objects in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

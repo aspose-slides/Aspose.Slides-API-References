@@ -11,104 +11,124 @@ url: /aspose.slides/motioneffect/
 
  Represent motion effect behavior of effect.
  
+###MotionEffect{#MotionEffect}
+
 | Name | Description |
 | --- | --- |
 | MotionEffect() |  |
 
-### Result
+ **Result**
 MotionEffect
 
 
 ---
 
 
+###getAngle{#getAngle}
+
 | Name | Description |
 | --- | --- |
 | getAngle () | Describes the relative angle of the motion path. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getBy{#getBy}
+
 | Name | Description |
 | --- | --- |
 | getBy () | Describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
+
+###getFrom{#getFrom}
 
 | Name | Description |
 | --- | --- |
 | getFrom () | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
+
+###getOrigin{#getOrigin}
 
 | Name | Description |
 | --- | --- |
 | getOrigin () | Specifies what the origin of the motion path is relative to such as the layout of the slide, or the parent. Read/write MotionOriginType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getPath{#getPath}
 
 | Name | Description |
 | --- | --- |
 | getPath () | Specifies the path primitive followed by coordinates for the animation motion. Read/write IMotionPath. |
 
-### Result
-MotionPath(../../motionpath)
+ **Result**
+[MotionPath](../motionpath)
 
 
 ---
 
 
+###getPathEditMode{#getPathEditMode}
+
 | Name | Description |
 | --- | --- |
 | getPathEditMode () | Specifies how the motion path moves when shape is moved. Read/write MotionPathEditMode. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getRotationCenter{#getRotationCenter}
+
 | Name | Description |
 | --- | --- |
 | getRotationCenter () | Describes the center of the rotation used to rotate a motion path by X angle. Read/write java.awt.geom.Point2D.Float. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
+
+###getTo{#getTo}
 
 | Name | Description |
 | --- | --- |
 | getTo () | Specifies the target location for an animation motion effect (in percents). Read/write java.awt.geom.Point2D.Float. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
+
+###setAngle{#setAngle}
 
 | Name | Description |
 | --- | --- |
@@ -118,6 +138,8 @@ Point2D.Float
 ---
 
 
+###setBy{#setBy}
+
 | Name | Description |
 | --- | --- |
 | setBy (Point2D.Float) | Describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
@@ -125,6 +147,8 @@ Point2D.Float
 
 ---
 
+
+###setFrom{#setFrom}
 
 | Name | Description |
 | --- | --- |
@@ -134,6 +158,8 @@ Point2D.Float
 ---
 
 
+###setOrigin{#setOrigin}
+
 | Name | Description |
 | --- | --- |
 | setOrigin (int) | Specifies what the origin of the motion path is relative to such as the layout of the slide, or the parent. Read/write MotionOriginType. |
@@ -142,13 +168,17 @@ Point2D.Float
 ---
 
 
+###setPath{#setPath}
+
 | Name | Description |
 | --- | --- |
-| setPath (MotionPath(../motionpath)) | Specifies the path primitive followed by coordinates for the animation motion. Read/write IMotionPath. |
+| setPath ([MotionPath](../motionpath)) | Specifies the path primitive followed by coordinates for the animation motion. Read/write IMotionPath. |
 
 
 ---
 
+
+###setPathEditMode{#setPathEditMode}
 
 | Name | Description |
 | --- | --- |
@@ -158,6 +188,8 @@ Point2D.Float
 ---
 
 
+###setRotationCenter{#setRotationCenter}
+
 | Name | Description |
 | --- | --- |
 | setRotationCenter (Point2D.Float) | Describes the center of the rotation used to rotate a motion path by X angle. Read/write java.awt.geom.Point2D.Float. |
@@ -165,6 +197,8 @@ Point2D.Float
 
 ---
 
+
+###setTo{#setTo}
 
 | Name | Description |
 | --- | --- |

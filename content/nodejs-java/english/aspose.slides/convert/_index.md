@@ -11,16 +11,20 @@ url: /aspose.slides/convert/
 
  Represents a group of methods intended to convert  Presentation.
  
+###Convert{#Convert}
+
 | Name | Description |
 | --- | --- |
 | Convert() |  |
 
-### Result
+ **Result**
 Convert
 
 
 ---
 
+
+###autoByExtension{#autoByExtension}
 
 | Name | Description |
 | --- | --- |
@@ -33,7 +37,7 @@ Convert
 | presPath | String | Path of the input presentation |
 | outPath | String | Output path |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -42,6 +46,8 @@ Convert
 
 ---
 
+
+###toPdf{#toPdf}
 
 | Name | Description |
 | --- | --- |
@@ -58,9 +64,11 @@ Convert
 ---
 
 
+###toPdf{#toPdf}
+
 | Name | Description |
 | --- | --- |
-| toPdf (String, String, PdfOptions(../pdfoptions)) | Converts Presentation to PDF. |
+| toPdf (String, String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
 
 ### Parameters
 
@@ -68,42 +76,48 @@ Convert
 | --- | --- | --- |
 | presPath | String | Path of the input presentation |
 | outPath | String | Output path |
-| options | PdfOptions(../../pdfoptions) | Output PDF options |
+| options | [PdfOptions](../pdfoptions) | Output PDF options |
 
 
 ---
 
 
+###toPdf{#toPdf}
+
 | Name | Description |
 | --- | --- |
-| toPdf (Presentation(../presentation), String) | Converts Presentation to PDF. |
+| toPdf ([Presentation](../presentation), String) | Converts Presentation to PDF. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation(../presentation) | Input presentation |
+| pres | [Presentation](../presentation) | Input presentation |
 | outPath | String | Output path |
 
 
 ---
 
 
+###toPdf{#toPdf}
+
 | Name | Description |
 | --- | --- |
-| toPdf (Presentation(../presentation), String, PdfOptions(../pdfoptions)) | Converts Presentation to PDF. |
+| toPdf ([Presentation](../presentation), String, [PdfOptions](../pdfoptions)) | Converts Presentation to PDF. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation(../presentation) | Input presentation |
+| pres | [Presentation](../presentation) | Input presentation |
 | outPath | String | Output path |
-| options | PdfOptions(../../pdfoptions) | Output PDF options |
+| options | [PdfOptions](../pdfoptions) | Output PDF options |
 
 
 ---
 
+
+###toSvg{#toSvg}
 
 | Name | Description |
 | --- | --- |
@@ -119,62 +133,70 @@ Convert
 ---
 
 
+###toSvg{#toSvg}
+
 | Name | Description |
 | --- | --- |
-| toSvg (String, Convert.GetOutPathCallback(../convert.getoutpathcallback)) | Converts Presentation to SVG. |
+| toSvg (String, [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | presPath | String | Path of the input presentation |
-| getOutPath | Convert.GetOutPathCallback(../../convert.getoutpathcallback) | Callback that returns the SVG output path for each slide in the presentation |
+| getOutPath | [Convert.GetOutPathCallback](../convert.getoutpathcallback) | Callback that returns the SVG output path for each slide in the presentation |
 
 
 ---
 
 
+###toSvg{#toSvg}
+
 | Name | Description |
 | --- | --- |
-| toSvg (Presentation(../presentation), Convert.GetOutPathCallback(../convert.getoutpathcallback)) | Converts Presentation to SVG. |
+| toSvg ([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback)) | Converts Presentation to SVG. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation(../presentation) | Input presentation |
-| getOutPath | Convert.GetOutPathCallback(../../convert.getoutpathcallback) | Callback that returns the SVG output path for each slide in the presentation |
+| pres | [Presentation](../presentation) | Input presentation |
+| getOutPath | [Convert.GetOutPathCallback](../convert.getoutpathcallback) | Callback that returns the SVG output path for each slide in the presentation |
 
 
 ---
 
 
+###toSvg{#toSvg}
+
 | Name | Description |
 | --- | --- |
-| toSvg (Presentation(../presentation), SVGOptions(../svgoptions)) | Converts Presentation to SVG. |
+| toSvg ([Presentation](../presentation), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation(../presentation) | Input presentation |
-| options | SVGOptions(../../svgoptions) | SVG export options |
+| pres | [Presentation](../presentation) | Input presentation |
+| options | [SVGOptions](../svgoptions) | SVG export options |
 
 
 ---
 
 
+###toSvg{#toSvg}
+
 | Name | Description |
 | --- | --- |
-| toSvg (Presentation(../presentation), Convert.GetOutPathCallback(../convert.getoutpathcallback), SVGOptions(../svgoptions)) | Converts Presentation to SVG. |
+| toSvg ([Presentation](../presentation), [Convert.GetOutPathCallback](../convert.getoutpathcallback), [SVGOptions](../svgoptions)) | Converts Presentation to SVG. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| pres | Presentation(../presentation) | Input presentation |
-| getOutPath | Convert.GetOutPathCallback(../convert.getoutpathcallback) | Callback that returns the SVG output path for each slide in the presentation |
-| options | SVGOptions(../../svgoptions) | SVG export options |
+| pres | [Presentation](../presentation) | Input presentation |
+| getOutPath | [Convert.GetOutPathCallback](../convert.getoutpathcallback) | Callback that returns the SVG output path for each slide in the presentation |
+| options | [SVGOptions](../svgoptions) | SVG export options |
 
 
 ---

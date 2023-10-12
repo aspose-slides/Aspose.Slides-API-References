@@ -14,6 +14,8 @@ url: /aspose.slides/mathmatrix/
  To place the matrix in the brackets you should use the delimiter object (IMathDelimiter).
  Null arguments can be used to create gaps in matrices.
  
+###MathMatrix{#MathMatrix}
+
 | Name | Description |
 | --- | --- |
 | MathMatrix(int, int) | Initializes a new instance of the MathMatrix class. |
@@ -25,12 +27,14 @@ url: /aspose.slides/mathmatrix/
 | rowCount | int | row count |
 | columnCount | int | column count |
 
-### Result
+ **Result**
 MathMatrix
 
 
 ---
 
+
+###deleteColumn{#deleteColumn}
 
 | Name | Description |
 | --- | --- |
@@ -42,7 +46,7 @@ MathMatrix
 | --- | --- | --- |
 | columnIndex | int | The zero-based index of the column to delete. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -51,6 +55,8 @@ MathMatrix
 
 ---
 
+
+###deleteRow{#deleteRow}
 
 | Name | Description |
 | --- | --- |
@@ -62,7 +68,7 @@ MathMatrix
 | --- | --- | --- |
 | rowIndex | int | The zero-based index of the row to delete. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -72,27 +78,33 @@ MathMatrix
 ---
 
 
+###getBaseJustification{#getBaseJustification}
+
 | Name | Description |
 | --- | --- |
 | getBaseJustification () | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getChildren{#getChildren}
+
 | Name | Description |
 | --- | --- |
 | getChildren () | Get children elements |
 
-### Result
-MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
+ **Result**
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
+
+###getColumnAlignment{#getColumnAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -104,100 +116,118 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 | --- | --- | --- |
 | columnIndex | int | Zero-based column index |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getColumnCount{#getColumnCount}
 
 | Name | Description |
 | --- | --- |
 | getColumnCount () | Number of columns in the matrix |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getColumnGap{#getColumnGap}
+
 | Name | Description |
 | --- | --- |
 | getColumnGap () | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###getColumnGapRule{#getColumnGapRule}
+
 | Name | Description |
 | --- | --- |
 | getColumnGapRule () | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getHidePlaceholders{#getHidePlaceholders}
+
 | Name | Description |
 | --- | --- |
 | getHidePlaceholders () | Hide the placeholders for empty matrix elements Default: false |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getMinColumnWidth{#getMinColumnWidth}
+
 | Name | Description |
 | --- | --- |
 | getMinColumnWidth () | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###getRowCount{#getRowCount}
 
 | Name | Description |
 | --- | --- |
 | getRowCount () | Number of rows in the matrix |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getRowGap{#getRowGap}
+
 | Name | Description |
 | --- | --- |
 | getRowGap () | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###getRowGapRule{#getRowGapRule}
+
 | Name | Description |
 | --- | --- |
 | getRowGapRule () | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -210,12 +240,14 @@ int
 | row | int | The zero-based index of the row to get item |
 | column | int | The zero-based index of the column to get item |
 
-### Result
-MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
+ **Result**
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
+
+###insertColumnAfter{#insertColumnAfter}
 
 | Name | Description |
 | --- | --- |
@@ -231,6 +263,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###insertColumnBefore{#insertColumnBefore}
+
 | Name | Description |
 | --- | --- |
 | insertColumnBefore (int) | Insert a new column before the specified one Initially all elements in the new column are null. |
@@ -244,6 +278,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 
 ---
 
+
+###insertRowAfter{#insertRowAfter}
 
 | Name | Description |
 | --- | --- |
@@ -259,6 +295,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###insertRowBefore{#insertRowBefore}
+
 | Name | Description |
 | --- | --- |
 | insertRowBefore (int) | Insert a new row before the specified one Initially all elements in the new row are null. |
@@ -273,6 +311,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###setBaseJustification{#setBaseJustification}
+
 | Name | Description |
 | --- | --- |
 | setBaseJustification (int) | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
@@ -280,6 +320,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 
 ---
 
+
+###setColumnAlignment{#setColumnAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -296,6 +338,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###setColumnGap{#setColumnGap}
+
 | Name | Description |
 | --- | --- |
 | setColumnGap (long) | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
@@ -304,6 +348,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###setColumnGapRule{#setColumnGapRule}
+
 | Name | Description |
 | --- | --- |
 | setColumnGapRule (int) | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
@@ -311,6 +357,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 
 ---
 
+
+###setColumnsAlignment{#setColumnsAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -328,6 +376,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###setHidePlaceholders{#setHidePlaceholders}
+
 | Name | Description |
 | --- | --- |
 | setHidePlaceholders (boolean) | Hide the placeholders for empty matrix elements Default: false |
@@ -335,6 +385,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 
 ---
 
+
+###setMinColumnWidth{#setMinColumnWidth}
 
 | Name | Description |
 | --- | --- |
@@ -344,6 +396,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###setRowGap{#setRowGap}
+
 | Name | Description |
 | --- | --- |
 | setRowGap (long) | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
@@ -351,6 +405,8 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 
 ---
 
+
+###setRowGapRule{#setRowGapRule}
 
 | Name | Description |
 | --- | --- |
@@ -360,9 +416,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathLimit(../mathlimit)) | Element of matrix |
+| set_Item (int, int, [MathLimit](../mathlimit)) | Element of matrix |
 
 ### Parameters
 
@@ -375,9 +433,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathBorderBox(../mathborderbox)) | Element of matrix |
+| set_Item (int, int, [MathBorderBox](../mathborderbox)) | Element of matrix |
 
 ### Parameters
 
@@ -390,9 +450,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathFraction(../mathfraction)) | Element of matrix |
+| set_Item (int, int, [MathFraction](../mathfraction)) | Element of matrix |
 
 ### Parameters
 
@@ -405,9 +467,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathDelimiter(../mathdelimiter)) | Element of matrix |
+| set_Item (int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
 
 ### Parameters
 
@@ -420,9 +484,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathSuperscriptElement(../mathsuperscriptelement)) | Element of matrix |
+| set_Item (int, int, [MathSuperscriptElement](../mathsuperscriptelement)) | Element of matrix |
 
 ### Parameters
 
@@ -435,9 +501,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathLeftSubSuperscriptElement(../mathleftsubsuperscriptelement)) | Element of matrix |
+| set_Item (int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
 
 ### Parameters
 
@@ -450,9 +518,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathRightSubSuperscriptElement(../mathrightsubsuperscriptelement)) | Element of matrix |
+| set_Item (int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |
 
 ### Parameters
 
@@ -465,9 +535,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathBox(../mathbox)) | Element of matrix |
+| set_Item (int, int, [MathBox](../mathbox)) | Element of matrix |
 
 ### Parameters
 
@@ -480,9 +552,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathMatrix(../mathmatrix)) | Element of matrix |
+| set_Item (int, int, [MathMatrix](../mathmatrix)) | Element of matrix |
 
 ### Parameters
 
@@ -495,9 +569,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathGroupingCharacter(../mathgroupingcharacter)) | Element of matrix |
+| set_Item (int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
 
 ### Parameters
 
@@ -510,9 +586,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathArray(../matharray)) | Element of matrix |
+| set_Item (int, int, [MathArray](../matharray)) | Element of matrix |
 
 ### Parameters
 
@@ -525,9 +603,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathBlock(../mathblock)) | Element of matrix |
+| set_Item (int, int, [MathBlock](../mathblock)) | Element of matrix |
 
 ### Parameters
 
@@ -540,9 +620,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathSubscriptElement(../mathsubscriptelement)) | Element of matrix |
+| set_Item (int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
 
 ### Parameters
 
@@ -555,9 +637,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathFunction(../mathfunction)) | Element of matrix |
+| set_Item (int, int, [MathFunction](../mathfunction)) | Element of matrix |
 
 ### Parameters
 
@@ -570,9 +654,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathNaryOperator(../mathnaryoperator)) | Element of matrix |
+| set_Item (int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
 
 ### Parameters
 
@@ -585,9 +671,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathematicalText(../mathematicaltext)) | Element of matrix |
+| set_Item (int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
 
 ### Parameters
 
@@ -600,9 +688,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathAccent(../mathaccent)) | Element of matrix |
+| set_Item (int, int, [MathAccent](../mathaccent)) | Element of matrix |
 
 ### Parameters
 
@@ -615,9 +705,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathRadical(../mathradical)) | Element of matrix |
+| set_Item (int, int, [MathRadical](../mathradical)) | Element of matrix |
 
 ### Parameters
 
@@ -630,9 +722,11 @@ MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, MathBar(../mathbar)) | Element of matrix |
+| set_Item (int, int, [MathBar](../mathbar)) | Element of matrix |
 
 ### Parameters
 

@@ -11,6 +11,8 @@ url: /aspose.slides/tab/
 
  Represents a tabulation for a text.
  
+###Tab{#Tab}
+
 | Name | Description |
 | --- | --- |
 | Tab(double, int) | Creates new Tab |
@@ -22,12 +24,14 @@ url: /aspose.slides/tab/
 | position | double | Tab position. |
 | align | int | Align. |
 
-### Result
+ **Result**
 Tab
 
 
 ---
 
+
+###compareTo{#compareTo}
 
 | Name | Description |
 | --- | --- |
@@ -39,45 +43,53 @@ Tab
 | --- | --- | --- |
 | obj | Object | An object to compare with this instance. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getAlignment{#getAlignment}
 
 | Name | Description |
 | --- | --- |
 | getAlignment () | Returns or sets align style of a tab. Read/write TabAlignment. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getPosition{#getPosition}
+
 | Name | Description |
 | --- | --- |
 | getPosition () | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
 
-### Result
+ **Result**
 double
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###setAlignment{#setAlignment}
 
 | Name | Description |
 | --- | --- |
@@ -86,6 +98,8 @@ long
 
 ---
 
+
+###setPosition{#setPosition}
 
 | Name | Description |
 | --- | --- |

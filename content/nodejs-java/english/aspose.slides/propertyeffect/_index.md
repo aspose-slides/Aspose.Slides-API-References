@@ -11,82 +11,98 @@ url: /aspose.slides/propertyeffect/
 
  Represent property effect behavior.
  
+###PropertyEffect{#PropertyEffect}
+
 | Name | Description |
 | --- | --- |
 | PropertyEffect() |  |
 
-### Result
+ **Result**
 PropertyEffect
 
 
 ---
 
 
+###getBy{#getBy}
+
 | Name | Description |
 | --- | --- |
 | getBy () | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getCalcMode{#getCalcMode}
 
 | Name | Description |
 | --- | --- |
 | getCalcMode () | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getFrom{#getFrom}
 
 | Name | Description |
 | --- | --- |
 | getFrom () | Specifies the starting value of the animation. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getPoints{#getPoints}
 
 | Name | Description |
 | --- | --- |
 | getPoints () | Specifies the points of the animation. Read/write IPointCollection. |
 
-### Result
-PointCollection(../../pointcollection)
+ **Result**
+[PointCollection](../pointcollection)
 
 
 ---
 
 
+###getTo{#getTo}
+
 | Name | Description |
 | --- | --- |
 | getTo () | Specifies the ending value for the animation. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getValueType{#getValueType}
+
 | Name | Description |
 | --- | --- |
 | getValueType () | Specifies the type of a property value. Read/write PropertyValueType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setBy{#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -96,6 +112,8 @@ int
 ---
 
 
+###setCalcMode{#setCalcMode}
+
 | Name | Description |
 | --- | --- |
 | setCalcMode (int) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
@@ -103,6 +121,8 @@ int
 
 ---
 
+
+###setFrom{#setFrom}
 
 | Name | Description |
 | --- | --- |
@@ -112,13 +132,17 @@ int
 ---
 
 
+###setPoints{#setPoints}
+
 | Name | Description |
 | --- | --- |
-| setPoints (PointCollection(../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
+| setPoints ([PointCollection](../pointcollection)) | Specifies the points of the animation. Read/write IPointCollection. |
 
 
 ---
 
+
+###setTo{#setTo}
 
 | Name | Description |
 | --- | --- |
@@ -127,6 +151,8 @@ int
 
 ---
 
+
+###setValueType{#setValueType}
 
 | Name | Description |
 | --- | --- |

@@ -11,55 +11,65 @@ url: /aspose.slides/presentationfactory/
 
  Allows to create presentation via COM interface
  
+###PresentationFactory{#PresentationFactory}
+
 | Name | Description |
 | --- | --- |
 | PresentationFactory() |  |
 
-### Result
+ **Result**
 PresentationFactory
 
 
 ---
 
+
+###createPresentation{#createPresentation}
 
 | Name | Description |
 | --- | --- |
 | createPresentation () | Creates new presentation. |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
 
+###createPresentation{#createPresentation}
+
 | Name | Description |
 | --- | --- |
-| createPresentation (LoadOptions(../loadoptions)) | Creates new presentation with additional load options |
+| createPresentation ([LoadOptions](../loadoptions)) | Creates new presentation with additional load options |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| options | LoadOptions(../../loadoptions) | Load options |
+| options | [LoadOptions](../loadoptions) | Load options |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
+
+###getInstance{#getInstance}
 
 | Name | Description |
 | --- | --- |
 | getInstance () | Presentation factory static instance. Read-only PresentationFactory. |
 
-### Result
+ **Result**
 PresentationFactory
 
 
 ---
 
+
+###getPresentationInfo{#getPresentationInfo}
 
 | Name | Description |
 | --- | --- |
@@ -71,12 +81,14 @@ PresentationFactory
 | --- | --- | --- |
 | file | String | Presentation file. |
 
-### Result
-PresentationInfo(../../presentationinfo)
+ **Result**
+[PresentationInfo](../presentationinfo)
 
 
 ---
 
+
+###getPresentationInfoFromStream {#getPresentationInfoFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -90,12 +102,14 @@ PresentationInfo(../../presentationinfo)
 | stream | ReadStream | Presentation stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-PresentationInfo(../../presentationinfo)
+ **Result**
+[PresentationInfo](../presentationinfo)
 
 
 ---
 
+
+###getPresentationText{#getPresentationText}
 
 | Name | Description |
 | --- | --- |
@@ -108,12 +122,14 @@ PresentationInfo(../../presentationinfo)
 | file | String | Input file |
 | mode | int | Extraction mode |
 
-### Result
-PresentationText(../../presentationtext)
+ **Result**
+[PresentationText](../presentationtext)
 
 
 ---
 
+
+###getPresentationTextFromStream {#getPresentationTextFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -128,16 +144,18 @@ PresentationText(../../presentationtext)
 | mode | int | Extraction mode |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-PresentationText(../../presentationtext)
+ **Result**
+[PresentationText](../presentationtext)
 
 
 ---
 
 
+###getPresentationTextFromStream {#getPresentationTextFromStream }
+
 | Name | Description |
 | --- | --- |
-| getPresentationTextFromStream  (PresentationFactory, ReadStream, int, LoadOptions(../loadoptions),  Function) | Retrieves the raw text from the slides |
+| getPresentationTextFromStream  (PresentationFactory, ReadStream, int, [LoadOptions](../loadoptions),  Function) | Retrieves the raw text from the slides |
 
 ### Parameters
 
@@ -146,15 +164,17 @@ PresentationText(../../presentationtext)
 | presentationfactory | PresentationFactory  | link to self |
 | stream | ReadStream | Input stream |
 | mode | int | Extraction mode |
-| options | LoadOptions(../../loadoptions) | Load options |
+| options | [LoadOptions](../loadoptions) | Load options |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-PresentationText(../../presentationtext)
+ **Result**
+[PresentationText](../presentationtext)
 
 
 ---
 
+
+###readPresentation{#readPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -166,30 +186,34 @@ PresentationText(../../presentationtext)
 | --- | --- | --- |
 | data | byte[] | Array to read |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
 
+###readPresentation{#readPresentation}
+
 | Name | Description |
 | --- | --- |
-| readPresentation (byte[], LoadOptions(../loadoptions)) | Reads an existing presentation from array with additional load options |
+| readPresentation (byte[], [LoadOptions](../loadoptions)) | Reads an existing presentation from array with additional load options |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | data | byte[] | Array to read |
-| options | LoadOptions(../../loadoptions) | Load options |
+| options | [LoadOptions](../loadoptions) | Load options |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
+
+###readPresentationFromStream {#readPresentationFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -203,16 +227,18 @@ Presentation(../../presentation)
 | stream | ReadStream | Input stream to read |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
 
+###readPresentationFromStream {#readPresentationFromStream }
+
 | Name | Description |
 | --- | --- |
-| readPresentationFromStream  (PresentationFactory, ReadStream, LoadOptions(../loadoptions),  Function) | Reads an existing presentation from stream with additional load options |
+| readPresentationFromStream  (PresentationFactory, ReadStream, [LoadOptions](../loadoptions),  Function) | Reads an existing presentation from stream with additional load options |
 
 ### Parameters
 
@@ -220,15 +246,17 @@ Presentation(../../presentation)
 | --- | --- | --- |
 | presentationfactory | PresentationFactory  | link to self |
 | stream | ReadStream | Input stream to read |
-| options | LoadOptions(../../loadoptions) | Load options |
+| options | [LoadOptions](../loadoptions) | Load options |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
+
+###readPresentation{#readPresentation}
 
 | Name | Description |
 | --- | --- |
@@ -240,26 +268,28 @@ Presentation(../../presentation)
 | --- | --- | --- |
 | file | String | File name |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
 
+###readPresentation{#readPresentation}
+
 | Name | Description |
 | --- | --- |
-| readPresentation (String, LoadOptions(../loadoptions)) | Reads an existing presentation from stream with additional load options |
+| readPresentation (String, [LoadOptions](../loadoptions)) | Reads an existing presentation from stream with additional load options |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | file | String | File name |
-| options | LoadOptions(../../loadoptions) | Load options |
+| options | [LoadOptions](../loadoptions) | Load options |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---

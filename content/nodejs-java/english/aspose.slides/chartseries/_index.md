@@ -11,522 +11,618 @@ url: /aspose.slides/chartseries/
 
  Represents a chart series.
  
+###getAutomaticSeriesColor{#getAutomaticSeriesColor}
+
 | Name | Description |
 | --- | --- |
 | getAutomaticSeriesColor () | Returns an automatic color of series based on series index and chart style. This color is used by default if FillType equals NotDefined. |
 
-### Result
+ **Result**
 Color
 
 
 ---
 
 
+###getBar3DShape{#getBar3DShape}
+
 | Name | Description |
 | --- | --- |
 | getBar3DShape () | Specifies the shape of a series of a 3-D bar chart. Changing of value of this property can cause to automatically changing Type of series. Read/write ChartShapeType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getBubbleSizeRepresentation{#getBubbleSizeRepresentation}
 
 | Name | Description |
 | --- | --- |
 | getBubbleSizeRepresentation () | Specifies how the bubble size values are represented on the bubble chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.BubbleSizeRepresentation read/write property for change value. This is the projection of the property ParentSeriesGroup.BubbleSizeRepresentation. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getBubbleSizeScale{#getBubbleSizeScale}
 
 | Name | Description |
 | --- | --- |
 | getBubbleSizeScale () | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.BubbleSizeScale read/write property for change value. This is the projection of the property ParentSeriesGroup.BubbleSizeScale. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getChart{#getChart}
+
 | Name | Description |
 | --- | --- |
 | getChart () | Returns the parent chart. Read-only IChart. |
 
-### Result
-Chart(../../chart)
+ **Result**
+[Chart](../chart)
 
 
 ---
 
+
+###getDataPoints{#getDataPoints}
 
 | Name | Description |
 | --- | --- |
 | getDataPoints () | Returns collection of data points of this series. Read-only IChartDataPointCollection. |
 
-### Result
-ChartDataPointCollection(../../chartdatapointcollection)
+ **Result**
+[ChartDataPointCollection](../chartdatapointcollection)
 
 
 ---
 
 
+###getDoughnutHoleSize{#getDoughnutHoleSize}
+
 | Name | Description |
 | --- | --- |
 | getDoughnutHoleSize () | Specifies the size of the hole in a doughnut chart (can be between 10 and 90 percents of the size of the plot area.). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.DoughnutHoleSize read/write property for change value. Read-only byte. This is the projection of the property ParentSeriesGroup.DoughnutHoleSize. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getErrorBarsXFormat{#getErrorBarsXFormat}
+
 | Name | Description |
 | --- | --- |
 | getErrorBarsXFormat () | Represents ErrorBars of series with derection X. Read-only IErrorBarsFormat. ErrorBars with X direction are avalible for series of type area, bar, scatter and bubble. For any other types of chart this property returns null (including 3D charts). In case of custom values use DataPoints collection to specify value (with ( IChartDataPoint#getErrorBarsCustomValues) property). |
 
-### Result
-ErrorBarsFormat(../../errorbarsformat)
+ **Result**
+[ErrorBarsFormat](../errorbarsformat)
 
 
 ---
 
+
+###getErrorBarsYFormat{#getErrorBarsYFormat}
 
 | Name | Description |
 | --- | --- |
 | getErrorBarsYFormat () | Represents ErrorBars of series with derection Y. Read-only IErrorBarsFormat. ErrorBars with Y direction are avalible for series of type area, bar, line, scatter and bubble. For any other types of chart this property returns null (including 3D charts). In case of custom values use DataPoints collection to specify value (with ( IChartDataPoint#getErrorBarsCustomValues) property). |
 
-### Result
-ErrorBarsFormat(../../errorbarsformat)
+ **Result**
+[ErrorBarsFormat](../errorbarsformat)
 
 
 ---
 
+
+###getExplosion{#getExplosion}
 
 | Name | Description |
 | --- | --- |
 | getExplosion () | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. Read/write int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getFirstSliceAngle{#getFirstSliceAngle}
 
 | Name | Description |
 | --- | --- |
 | getFirstSliceAngle () | Specifies the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.FirstSliceAngle read/write property for change value. Read-only int. This is the projection of the property ParentSeriesGroup.FirstSliceAngle. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getFormat{#getFormat}
 
 | Name | Description |
 | --- | --- |
 | getFormat () | Returns the format of a series. Read-only IFormat. |
 
-### Result
-Format(../../format)
+ **Result**
+[Format](../format)
 
 
 ---
 
+
+###getGapDepth{#getGapDepth}
 
 | Name | Description |
 | --- | --- |
 | getGapDepth () | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.GapDepth read/write property for change value. Read-only int. This is the projection of the property ParentSeriesGroup.GapDepth. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getGapWidth{#getGapWidth}
 
 | Name | Description |
 | --- | --- |
 | getGapWidth () | Specifies the space between bar or column clusters, as a percentage of the bar or column width. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.GapWidth read/write property for change value. Read-only int. This is the projection of the property ParentSeriesGroup.GapWidth. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getInvertIfNegative{#getInvertIfNegative}
+
 | Name | Description |
 | --- | --- |
 | getInvertIfNegative () | Specifies the bar, column or bubble series shall invert its colors if the value is negative. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getInvertedSolidFillColor{#getInvertedSolidFillColor}
+
 | Name | Description |
 | --- | --- |
 | getInvertedSolidFillColor () | Specifies invert solid color for series. To apply color setting set series format FillType to FillType.Solid. Read/write ColorFormat. |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
+
+###getLabels{#getLabels}
 
 | Name | Description |
 | --- | --- |
 | getLabels () | Returns the Labels of a series. Read-only IDataLabelCollection. |
 
-### Result
-DataLabelCollection(../../datalabelcollection)
+ **Result**
+[DataLabelCollection](../datalabelcollection)
 
 
 ---
 
+
+###getMarker{#getMarker}
 
 | Name | Description |
 | --- | --- |
 | getMarker () | Marker. Read-only IMarker. |
 
-### Result
-Marker(../../marker)
+ **Result**
+[Marker](../marker)
 
 
 ---
 
+
+###getName{#getName}
 
 | Name | Description |
 | --- | --- |
 | getName () | Return series name. Read-only IStringChartValue. |
 
-### Result
-StringChartValue(../../stringchartvalue)
+ **Result**
+[StringChartValue](../stringchartvalue)
 
 
 ---
 
+
+###getNumberFormatOfBubbleSizes{#getNumberFormatOfBubbleSizes}
 
 | Name | Description |
 | --- | --- |
 | getNumberFormatOfBubbleSizes () | NumberFormatOfBubbleSizes. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getNumberFormatOfValues{#getNumberFormatOfValues}
 
 | Name | Description |
 | --- | --- |
 | getNumberFormatOfValues () | NumberFormatOfValues. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getNumberFormatOfXValues{#getNumberFormatOfXValues}
 
 | Name | Description |
 | --- | --- |
 | getNumberFormatOfXValues () | NumberFormatOfXValues. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###getNumberFormatOfYValues{#getNumberFormatOfYValues}
 
 | Name | Description |
 | --- | --- |
 | getNumberFormatOfYValues () | NumberFormatOfYValues. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getOrder{#getOrder}
+
 | Name | Description |
 | --- | --- |
 | getOrder () | Returns the order of a series. Read/write int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getOverlap{#getOverlap}
+
 | Name | Description |
 | --- | --- |
 | getOverlap () | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.Overlap read/write property for change value. Read-only byte. This is the projection of the property ParentSeriesGroup.Overlap. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getParentLabelLayout{#getParentLabelLayout}
+
 | Name | Description |
 | --- | --- |
 | getParentLabelLayout () | Represents layout of parent category labels. Applies only to Treemap charts. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getParentSeriesGroup{#getParentSeriesGroup}
 
 | Name | Description |
 | --- | --- |
 | getParentSeriesGroup () | ParentSeriesGroup. Read-only IChartSeriesGroup. |
 
-### Result
-ChartSeriesGroup(../../chartseriesgroup)
+ **Result**
+[ChartSeriesGroup](../chartseriesgroup)
 
 
 ---
 
 
+###getPieSplitBy{#getPieSplitBy}
+
 | Name | Description |
 | --- | --- |
 | getPieSplitBy () | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.PieSplitBy read/write property for change value. Read-only PieSplitType. 1) This is the projection of the property ParentSeriesGroup.PieSplitBy. 2) If property value is PieSplitType.Custom then you can define custom split information with ParentSeriesGroup.PieSplitCustomPoints property. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getPieSplitCustomPoints{#getPieSplitCustomPoints}
+
 | Name | Description |
 | --- | --- |
 | getPieSplitCustomPoints () | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property Read-only PieSplitCustomPointCollection. This is the projection of the property ParentSeriesGroup.PieSplitCustomPoints. |
 
-### Result
-PieSplitCustomPointCollection(../../piesplitcustompointcollection)
+ **Result**
+[PieSplitCustomPointCollection](../piesplitcustompointcollection)
 
 
 ---
 
 
+###getPieSplitPosition{#getPieSplitPosition}
+
 | Name | Description |
 | --- | --- |
 | getPieSplitPosition () | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.PieSplitPosition read/write property for change value. Read-only double. This is the projection of the property ParentSeriesGroup.PieSplitPosition. |
 
-### Result
+ **Result**
 double
 
 
 ---
 
 
+###getPlotOnSecondAxis{#getPlotOnSecondAxis}
+
 | Name | Description |
 | --- | --- |
 | getPlotOnSecondAxis () | Indicates if this series is plotted on secondary axis. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getPresentation{#getPresentation}
 
 | Name | Description |
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
-### Result
-Presentation(../../presentation)
+ **Result**
+[Presentation](../presentation)
 
 
 ---
 
+
+###getQuartileMethod{#getQuartileMethod}
 
 | Name | Description |
 | --- | --- |
 | getQuartileMethod () | Represents quartile function. Applies only to BoxAndWhisker charts. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getRelatedLegendEntry{#getRelatedLegendEntry}
 
 | Name | Description |
 | --- | --- |
 | getRelatedLegendEntry () | Represents legend entry related with this series Read-only ILegendEntryProperties. |
 
-### Result
-LegendEntryProperties(../../legendentryproperties)
+ **Result**
+[LegendEntryProperties](../legendentryproperties)
 
 
 ---
 
+
+###getSecondPieSize{#getSecondPieSize}
 
 | Name | Description |
 | --- | --- |
 | getSecondPieSize () | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.SecondPieSize read/write property for change value. Read-only int. This is the projection of the property ParentSeriesGroup.SecondPieSize. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getShowConnectorLines{#getShowConnectorLines}
 
 | Name | Description |
 | --- | --- |
 | getShowConnectorLines () | Represents connector lines. Applies only to Waterfall charts. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowInnerPoints{#getShowInnerPoints}
 
 | Name | Description |
 | --- | --- |
 | getShowInnerPoints () | Represents inner points. True if inner points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowMeanLine{#getShowMeanLine}
 
 | Name | Description |
 | --- | --- |
 | getShowMeanLine () | Represents mean line. True if mean line are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowMeanMarkers{#getShowMeanMarkers}
 
 | Name | Description |
 | --- | --- |
 | getShowMeanMarkers () | Represents mean markers. True if mean markers are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getShowOutlierPoints{#getShowOutlierPoints}
 
 | Name | Description |
 | --- | --- |
 | getShowOutlierPoints () | Represents outlier points. True if outlier points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###getSlide{#getSlide}
 
 | Name | Description |
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
-### Result
-MasterNotesSlide(../../masternotesslide), MasterHandoutSlide(../../masterhandoutslide), BaseSlide(../../baseslide), NotesSlide(../../notesslide), LayoutSlide(../../layoutslide), Slide(../../slide), MasterSlide(../../masterslide)
+ **Result**
+[MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
 ---
 
 
+###getSmooth{#getSmooth}
+
 | Name | Description |
 | --- | --- |
 | getSmooth () | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getTrendLines{#getTrendLines}
+
 | Name | Description |
 | --- | --- |
 | getTrendLines () | Collection of series trend lines. Read-only ITrendlineCollection. TrendLines are available (not null) for data series in unstacked 2-D area, bar, column, line, stock, xy (scatter), and bubble charts. A trendline are not available for data series in any chart type that is stacked or 3-D. Trendlines are also not available for radar, pie, surface, or doughnut charts. |
 
-### Result
-TrendlineCollection(../../trendlinecollection)
+ **Result**
+[TrendlineCollection](../trendlinecollection)
 
 
 ---
 
 
+###getType{#getType}
+
 | Name | Description |
 | --- | --- |
 | getType () | Returns a type of this series. Read/write ChartType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###hasSeriesLines{#hasSeriesLines}
+
 | Name | Description |
 | --- | --- |
 | hasSeriesLines () | Determines whether there are series lines for this series and kindred series. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.HasSeriesLines read/write property for change value. Use ParentSeriesGroup.SeriesLinesFormat property for format series lines. Read-only boolean. This is the projection of the property ParentSeriesGroup.HasSeriesLines. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###hasUpDownBars{#hasUpDownBars}
 
 | Name | Description |
 | --- | --- |
 | hasUpDownBars () | Determines whether Line- or Stock-chart has a up/down bars. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.UpDownBars.HasUpDownBars read/write property for change value. Use ParentSeriesGroup.UpDownBars property for format up/down bars. Read-only boolean. This is the projection of the property ParentSeriesGroup.UpDownBars.HasUpDownBars. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###isColorVaried{#isColorVaried}
 
 | Name | Description |
 | --- | --- |
 | isColorVaried () | Specifies that each data marker in the series has a different color. This is the property not only of this series but of all series of parent series group - this is projection of appropriate group property. And so this property is read-only. Use ParentSeriesGroup property for access to parent series group. Use ParentSeriesGroup.IsColorVaried read/write property for change value. Read-only boolean. This is the projection of the property ParentSeriesGroup.IsColorVaried. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setBar3DShape{#setBar3DShape}
 
 | Name | Description |
 | --- | --- |
@@ -536,6 +632,8 @@ boolean
 ---
 
 
+###setExplosion{#setExplosion}
+
 | Name | Description |
 | --- | --- |
 | setExplosion (int) | The distance of an open pie slice from the center of the pie chart is expressed as a percentage of the pie diameter. Read/write int. |
@@ -543,6 +641,8 @@ boolean
 
 ---
 
+
+###setInvertIfNegative{#setInvertIfNegative}
 
 | Name | Description |
 | --- | --- |
@@ -552,6 +652,8 @@ boolean
 ---
 
 
+###setNumberFormatOfBubbleSizes{#setNumberFormatOfBubbleSizes}
+
 | Name | Description |
 | --- | --- |
 | setNumberFormatOfBubbleSizes (String) | NumberFormatOfBubbleSizes. Read/write String. |
@@ -559,6 +661,8 @@ boolean
 
 ---
 
+
+###setNumberFormatOfValues{#setNumberFormatOfValues}
 
 | Name | Description |
 | --- | --- |
@@ -568,6 +672,8 @@ boolean
 ---
 
 
+###setNumberFormatOfXValues{#setNumberFormatOfXValues}
+
 | Name | Description |
 | --- | --- |
 | setNumberFormatOfXValues (String) | NumberFormatOfXValues. Read/write String. |
@@ -575,6 +681,8 @@ boolean
 
 ---
 
+
+###setNumberFormatOfYValues{#setNumberFormatOfYValues}
 
 | Name | Description |
 | --- | --- |
@@ -584,6 +692,8 @@ boolean
 ---
 
 
+###setOrder{#setOrder}
+
 | Name | Description |
 | --- | --- |
 | setOrder (int) | Returns the order of a series. Read/write int. |
@@ -591,6 +701,8 @@ boolean
 
 ---
 
+
+###setParentLabelLayout{#setParentLabelLayout}
 
 | Name | Description |
 | --- | --- |
@@ -600,6 +712,8 @@ boolean
 ---
 
 
+###setPlotOnSecondAxis{#setPlotOnSecondAxis}
+
 | Name | Description |
 | --- | --- |
 | setPlotOnSecondAxis (boolean) | Indicates if this series is plotted on secondary axis. Read/write boolean. |
@@ -607,6 +721,8 @@ boolean
 
 ---
 
+
+###setQuartileMethod{#setQuartileMethod}
 
 | Name | Description |
 | --- | --- |
@@ -616,6 +732,8 @@ boolean
 ---
 
 
+###setShowConnectorLines{#setShowConnectorLines}
+
 | Name | Description |
 | --- | --- |
 | setShowConnectorLines (boolean) | Represents connector lines. Applies only to Waterfall charts. |
@@ -623,6 +741,8 @@ boolean
 
 ---
 
+
+###setShowInnerPoints{#setShowInnerPoints}
 
 | Name | Description |
 | --- | --- |
@@ -632,6 +752,8 @@ boolean
 ---
 
 
+###setShowMeanLine{#setShowMeanLine}
+
 | Name | Description |
 | --- | --- |
 | setShowMeanLine (boolean) | Represents mean line. True if mean line are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write boolean. |
@@ -639,6 +761,8 @@ boolean
 
 ---
 
+
+###setShowMeanMarkers{#setShowMeanMarkers}
 
 | Name | Description |
 | --- | --- |
@@ -648,6 +772,8 @@ boolean
 ---
 
 
+###setShowOutlierPoints{#setShowOutlierPoints}
+
 | Name | Description |
 | --- | --- |
 | setShowOutlierPoints (boolean) | Represents outlier points. True if outlier points are shown on the BoxAndWhisker chart. Applies only to BoxAndWhisker charts. Read/write boolean. |
@@ -656,6 +782,8 @@ boolean
 ---
 
 
+###setSmooth{#setSmooth}
+
 | Name | Description |
 | --- | --- |
 | setSmooth (boolean) | Represents curve smoothing. True if curve smoothing is turned on for the line chart or scatter chart. Applies only to line and scatter connected by lines charts. Read/write boolean. |
@@ -663,6 +791,8 @@ boolean
 
 ---
 
+
+###setType{#setType}
 
 | Name | Description |
 | --- | --- |

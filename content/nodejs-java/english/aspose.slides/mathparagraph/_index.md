@@ -11,41 +11,49 @@ url: /aspose.slides/mathparagraph/
 
  Mathematical paragraph that is a container for mathematical blocks (IMathBlock)
  
+###MathParagraph{#MathParagraph}
+
 | Name | Description |
 | --- | --- |
 | MathParagraph() | Initializes a new instance of the MathParagraph class. |
 
-### Result
+ **Result**
 MathParagraph
 
 
 ---
 
 
+###MathParagraph{#MathParagraph}
+
 | Name | Description |
 | --- | --- |
-| MathParagraph(MathBlock(../mathblock)) | Initializes a new instance of the MathParagraph class. |
+| MathParagraph([MathBlock](../mathblock)) | Initializes a new instance of the MathParagraph class. |
 
-### Result
+ **Result**
 MathParagraph
 
 
 ---
 
 
+###add{#add}
+
 | Name | Description |
 | --- | --- |
-| add (MathBlock(../mathblock)) | Adds IMathBlock to the end of collection. |
+| add ([MathBlock](../mathblock)) | Adds IMathBlock to the end of collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock(../../mathblock) | A mathematical block that will be added to the end of the collection |
+| mathBlock | [MathBlock](../mathblock) | A mathematical block that will be added to the end of the collection |
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -55,44 +63,52 @@ MathParagraph
 ---
 
 
+###contains{#contains}
+
 | Name | Description |
 | --- | --- |
-| contains (MathBlock(../mathblock)) | Determines whether the collection contains a specific value. |
+| contains ([MathBlock](../mathblock)) | Determines whether the collection contains a specific value. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock(../../mathblock) | The object to locate in the collection. |
+| mathBlock | [MathBlock](../mathblock) | The object to locate in the collection. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getCount{#getCount}
+
 | Name | Description |
 | --- | --- |
 | getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getJustification{#getJustification}
 
 | Name | Description |
 | --- | --- |
 | getJustification () | Paragraph Justification Default value: CenteredAsGroup |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -104,83 +120,95 @@ int
 | --- | --- | --- |
 | index | int | The zero-based index of the item to get |
 
-### Result
-MathBlock(../../mathblock)
+ **Result**
+[MathBlock](../mathblock)
 
 
 ---
 
 
+###indexOf{#indexOf}
+
 | Name | Description |
 | --- | --- |
-| indexOf (MathBlock(../mathblock)) | Determines the index of a specific IMathBlock in collection. |
+| indexOf ([MathBlock](../mathblock)) | Determines the index of a specific IMathBlock in collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock(../../mathblock) | The item to locate in the collection. |
+| mathBlock | [MathBlock](../mathblock) | The item to locate in the collection. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###insert{#insert}
+
 | Name | Description |
 | --- | --- |
-| insert (int, MathBlock(../mathblock)) | Inserts IMathBlock into the collection at the specified index. |
+| insert (int, [MathBlock](../mathblock)) | Inserts IMathBlock into the collection at the specified index. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index at which an item should be inserted. |
-| mathBlock | MathBlock(../../mathblock) | The IMathBlock to insert. |
+| mathBlock | [MathBlock](../mathblock) | The IMathBlock to insert. |
 
 
 ---
 
+
+###iterator{#iterator}
 
 | Name | Description |
 | --- | --- |
 | iterator () |  |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () |  |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (MathBlock(../mathblock)) | Removes the first occurrence of a specific object from the collection. |
+| remove ([MathBlock](../mathblock)) | Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| mathBlock | MathBlock(../../mathblock) | The object to remove from the collection. |
+| mathBlock | [MathBlock](../mathblock) | The object to remove from the collection. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -196,6 +224,8 @@ boolean
 ---
 
 
+###setJustification{#setJustification}
+
 | Name | Description |
 | --- | --- |
 | setJustification (int) | Paragraph Justification Default value: CenteredAsGroup |
@@ -204,20 +234,24 @@ boolean
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, MathBlock(../mathblock)) | Gets the item at the specified index. Read-only IMathBlock. |
+| set_Item (int, [MathBlock](../mathblock)) | Gets the item at the specified index. Read-only IMathBlock. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | value | int | The block of a mathematical text. |
-| index | MathBlock(../../mathblock) | The zero-based index of the item to get |
+| index | [MathBlock](../mathblock) | The zero-based index of the item to get |
 
 
 ---
 
+
+###writeAsMathMlToStream {#writeAsMathMlToStream }
 
 | Name | Description |
 | --- | --- |

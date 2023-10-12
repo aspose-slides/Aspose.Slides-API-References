@@ -11,93 +11,111 @@ url: /aspose.slides/fillformat/
 
  Represents a fill formatting options.
  
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective fill formatting data with the inheritance applied. |
 
-### Result
+ **Result**
 FillFormatEffectiveData
 
 
 ---
 
 
+###getFillType{#getFillType}
+
 | Name | Description |
 | --- | --- |
 | getFillType () | Returns or sets the type of filling. Read/write FillType. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###getGradientFormat{#getGradientFormat}
 
 | Name | Description |
 | --- | --- |
 | getGradientFormat () | Returns the gradient fill format. Read-only IGradientFormat. |
 
-### Result
-GradientFormat(../../gradientformat)
+ **Result**
+[GradientFormat](../gradientformat)
 
 
 ---
 
+
+###getPatternFormat{#getPatternFormat}
 
 | Name | Description |
 | --- | --- |
 | getPatternFormat () | Returns the pattern fill format. Read-only IPatternFormat. |
 
-### Result
-PatternFormat(../../patternformat)
+ **Result**
+[PatternFormat](../patternformat)
 
 
 ---
 
+
+###getPictureFillFormat{#getPictureFillFormat}
 
 | Name | Description |
 | --- | --- |
 | getPictureFillFormat () | Returns the picture fill format. Read-only IPictureFillFormat. |
 
-### Result
-PictureFillFormat(../../picturefillformat)
+ **Result**
+[PictureFillFormat](../picturefillformat)
 
 
 ---
 
 
+###getRotateWithShape{#getRotateWithShape}
+
 | Name | Description |
 | --- | --- |
 | getRotateWithShape () | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getSolidFillColor{#getSolidFillColor}
+
 | Name | Description |
 | --- | --- |
 | getSolidFillColor () | Returns the fill color. Read-only IColorFormat. |
 
-### Result
-ColorFormat(../../colorformat)
+ **Result**
+[ColorFormat](../colorformat)
 
 
 ---
 
+
+###getVersion{#getVersion}
 
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###setFillType{#setFillType}
 
 | Name | Description |
 | --- | --- |
@@ -106,6 +124,8 @@ long
 
 ---
 
+
+###setRotateWithShape{#setRotateWithShape}
 
 | Name | Description |
 | --- | --- |

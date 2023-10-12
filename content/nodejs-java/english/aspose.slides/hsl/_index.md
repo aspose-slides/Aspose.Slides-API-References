@@ -12,6 +12,8 @@ url: /aspose.slides/hsl/
  Represents a Hue/Saturation/Luminance effect.
  The hue, saturation, and luminance may each be adjusted relative to its current value.
  
+###equals{#equals}
+
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified HSL is equal to the current HSL. |
@@ -22,29 +24,33 @@ url: /aspose.slides/hsl/
 | --- | --- | --- |
 | obj | Object | The HSL to compare. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
 
-### Result
+ **Result**
 HSLEffectiveData
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
-### Result
+ **Result**
 int
 
 

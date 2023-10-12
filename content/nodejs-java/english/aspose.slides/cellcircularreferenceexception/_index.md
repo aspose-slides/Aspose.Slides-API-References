@@ -12,16 +12,20 @@ url: /aspose.slides/cellcircularreferenceexception/
  The exception that is thrown when one or more circular references are detected where a formula refers to its
  own cell either directly or indirectly.
  
+###CellCircularReferenceException{#CellCircularReferenceException}
+
 | Name | Description |
 | --- | --- |
 | CellCircularReferenceException() | Initializes a new instance of the CellCircularReferenceException class. |
 
-### Result
+ **Result**
 CellCircularReferenceException
 
 
 ---
 
+
+###CellCircularReferenceException{#CellCircularReferenceException}
 
 | Name | Description |
 | --- | --- |
@@ -33,12 +37,14 @@ CellCircularReferenceException
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 
-### Result
+ **Result**
 CellCircularReferenceException
 
 
 ---
 
+
+###CellCircularReferenceException{#CellCircularReferenceException}
 
 | Name | Description |
 | --- | --- |
@@ -51,12 +57,14 @@ CellCircularReferenceException
 | message | String | A string that describes the error. |
 | innerException | RuntimeException | The exception that is the cause of the current exception. |
 
-### Result
+ **Result**
 CellCircularReferenceException
 
 
 ---
 
+
+###CellCircularReferenceException{#CellCircularReferenceException}
 
 | Name | Description |
 | --- | --- |
@@ -69,18 +77,20 @@ CellCircularReferenceException
 | message | String | A string that describes the error. |
 | reference | String | A circular cell reference. |
 
-### Result
+ **Result**
 CellCircularReferenceException
 
 
 ---
 
 
+###getReference{#getReference}
+
 | Name | Description |
 | --- | --- |
 | getReference () | Gets a circular cell reference. |
 
-### Result
+ **Result**
 String
 
 

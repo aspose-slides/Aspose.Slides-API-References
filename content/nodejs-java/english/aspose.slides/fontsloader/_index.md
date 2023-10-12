@@ -12,6 +12,8 @@ url: /aspose.slides/fontsloader/
  Class for loading custom fonts defined by user.
  Should be used before creating any presentation objects.
  
+###clearCache{#clearCache}
+
 | Name | Description |
 | --- | --- |
 | clearCache () | Releases all custom fonts defined by user This function needs to clear cache with custom fonts defined by user. |
@@ -20,16 +22,20 @@ url: /aspose.slides/fontsloader/
 ---
 
 
+###getFontFolders{#getFontFolders}
+
 | Name | Description |
 | --- | --- |
 | getFontFolders () | Gets font folders. Returns folders that have been added with LoadExternalFonts function as well as system font folders |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###loadExternalFont{#loadExternalFont}
 
 | Name | Description |
 | --- | --- |
@@ -44,6 +50,8 @@ String
 
 ---
 
+
+###loadExternalFonts{#loadExternalFonts}
 
 | Name | Description |
 | --- | --- |

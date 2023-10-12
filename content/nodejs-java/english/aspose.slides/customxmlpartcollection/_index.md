@@ -11,6 +11,8 @@ url: /aspose.slides/customxmlpartcollection/
 
  Represents collection of custom xml parts.
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
 | add (String) | Adds new custom xml part. |
@@ -21,10 +23,10 @@ url: /aspose.slides/customxmlpartcollection/
 | --- | --- | --- |
 | xmlString | String | The xml string of new part to be added. |
 
-### Result
-CustomXmlPart(../../customxmlpart)
+ **Result**
+[CustomXmlPart](../customxmlpart)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -33,6 +35,8 @@ CustomXmlPart(../../customxmlpart)
 
 ---
 
+
+###add{#add}
 
 | Name | Description |
 | --- | --- |
@@ -44,10 +48,10 @@ CustomXmlPart(../../customxmlpart)
 | --- | --- | --- |
 | xmlData | byte[] | The xml data of new part to be added. |
 
-### Result
-CustomXmlPart(../../customxmlpart)
+ **Result**
+[CustomXmlPart](../customxmlpart)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -56,6 +60,8 @@ CustomXmlPart(../../customxmlpart)
 
 ---
 
+
+###addFromStream {#addFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -69,10 +75,10 @@ CustomXmlPart(../../customxmlpart)
 | inputStream | ReadStream | The inputStream with xml data of new part to be added. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-CustomXmlPart(../../customxmlpart)
+ **Result**
+[CustomXmlPart](../customxmlpart)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -82,6 +88,8 @@ CustomXmlPart(../../customxmlpart)
 ---
 
 
+###clear{#clear}
+
 | Name | Description |
 | --- | --- |
 | clear () | Removes all items from the collection. |
@@ -90,16 +98,20 @@ CustomXmlPart(../../customxmlpart)
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -111,10 +123,10 @@ Object
 | --- | --- | --- |
 | index | int | The zero-based index of the element to get. |
 
-### Result
-CustomXmlPart(../../customxmlpart)
+ **Result**
+[CustomXmlPart](../customxmlpart)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -124,53 +136,61 @@ CustomXmlPart(../../customxmlpart)
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###iterator{#iterator}
 
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###remove{#remove}
+
 | Name | Description |
 | --- | --- |
-| remove (CustomXmlPart(../customxmlpart)) | Removes the first occurrence of a specific object from the collection. |
+| remove ([CustomXmlPart](../customxmlpart)) | Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| item | CustomXmlPart(../../customxmlpart) | The custom xml part to remove. |
+| item | [CustomXmlPart](../customxmlpart) | The custom xml part to remove. |
 
-### Result
+ **Result**
 boolean
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -179,6 +199,8 @@ boolean
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -190,7 +212,7 @@ boolean
 | --- | --- | --- |
 | index | int | The zero-based index of the element to remove. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -200,11 +222,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns count of custom xml parts in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

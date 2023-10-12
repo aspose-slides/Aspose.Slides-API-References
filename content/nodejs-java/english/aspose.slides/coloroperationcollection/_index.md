@@ -11,6 +11,8 @@ url: /aspose.slides/coloroperationcollection/
 
  Represents a collection of color transform operations.
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
 | add (int, float) | Adds a new operation to the end of collection. |
@@ -22,12 +24,14 @@ url: /aspose.slides/coloroperationcollection/
 | operation | int | Operation type. |
 | parameter | float | Operation's parameter. |
 
-### Result
-ColorOperation(../../coloroperation)
+ **Result**
+[ColorOperation](../coloroperation)
 
 
 ---
 
+
+###add{#add}
 
 | Name | Description |
 | --- | --- |
@@ -39,12 +43,14 @@ ColorOperation(../../coloroperation)
 | --- | --- | --- |
 | operation | int | Operation type. |
 
-### Result
-ColorOperation(../../coloroperation)
+ **Result**
+[ColorOperation](../coloroperation)
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -54,49 +60,59 @@ ColorOperation(../../coloroperation)
 ---
 
 
+###cloneT{#cloneT}
+
 | Name | Description |
 | --- | --- |
 | cloneT () | Clones current object |
 
-### Result
-ColorOperationCollection(../../coloroperationcollection)
+ **Result**
+[ColorOperationCollection](../coloroperationcollection)
 
 
 ---
 
+
+###deepClone{#deepClone}
 
 | Name | Description |
 | --- | --- |
 | deepClone () | Creates a copy of a ColorOperationCollection collection. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
+
+###getSyncRoot{#getSyncRoot}
 
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
-### Result
-ColorOperation(../../coloroperation)
+ **Result**
+[ColorOperation](../coloroperation)
 
 
 ---
 
+
+###insert{#insert}
 
 | Name | Description |
 | --- | --- |
@@ -110,12 +126,14 @@ ColorOperation(../../coloroperation)
 | operation | int | Operation type. |
 | parameter | float | Operation's parameter. |
 
-### Result
-ColorOperation(../../coloroperation)
+ **Result**
+[ColorOperation](../coloroperation)
 
 
 ---
 
+
+###insert{#insert}
 
 | Name | Description |
 | --- | --- |
@@ -128,45 +146,53 @@ ColorOperation(../../coloroperation)
 | position | int | The index at which the operation will be inserted. |
 | operation | int | Operation type. |
 
-### Result
-ColorOperation(../../coloroperation)
+ **Result**
+[ColorOperation](../coloroperation)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -182,19 +208,23 @@ boolean
 ---
 
 
+###set_Item{#set_Item}
+
 | Name | Description |
 | --- | --- |
-| set_Item (int, ColorOperation(../coloroperation)) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
+| set_Item (int, [ColorOperation](../coloroperation)) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
 
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns the number of operations in a collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

@@ -11,16 +11,20 @@ url: /aspose.slides/storage/
 
  Represents a temporary data storage for  WebDocument.
  
+###Storage{#Storage}
+
 | Name | Description |
 | --- | --- |
 | Storage() |  |
 
-### Result
+ **Result**
 Storage
 
 
 ---
 
+
+###containsKey{#containsKey}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ Storage
 | --- | --- | --- |
 | key | String | Key of the value. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###get{#get}
 
 | Name | Description |
 | --- | --- |
@@ -49,12 +55,14 @@ boolean
 | --- | --- | --- |
 | key | String | Key of the value. |
 
-### Result
+ **Result**
 TValue
 
 
 ---
 
+
+###put{#put}
 
 | Name | Description |
 | --- | --- |

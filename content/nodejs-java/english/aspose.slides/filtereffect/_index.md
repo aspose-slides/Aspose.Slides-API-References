@@ -11,49 +11,59 @@ url: /aspose.slides/filtereffect/
 
  Represent filter effect of behavior.
  
+###FilterEffect{#FilterEffect}
+
 | Name | Description |
 | --- | --- |
 | FilterEffect() | Default function. |
 
-### Result
+ **Result**
 FilterEffect
 
 
 ---
 
 
+###getReveal{#getReveal}
+
 | Name | Description |
 | --- | --- |
 | getReveal () | Represents that effect with behavior must reveal (in/out) Read/write FilterEffectRevealType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getSubtype{#getSubtype}
 
 | Name | Description |
 | --- | --- |
 | getSubtype () | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getType{#getType}
 
 | Name | Description |
 | --- | --- |
 | getType () | Represents type of filter effect. Read/write FilterEffectType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setReveal{#setReveal}
 
 | Name | Description |
 | --- | --- |
@@ -63,6 +73,8 @@ int
 ---
 
 
+###setSubtype{#setSubtype}
+
 | Name | Description |
 | --- | --- |
 | setSubtype (int) | Represents subtype of filter effect. Read/write FilterEffectSubtype. |
@@ -70,6 +82,8 @@ int
 
 ---
 
+
+###setType{#setType}
 
 | Name | Description |
 | --- | --- |

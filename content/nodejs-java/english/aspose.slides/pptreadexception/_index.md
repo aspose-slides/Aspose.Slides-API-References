@@ -11,16 +11,20 @@ url: /aspose.slides/pptreadexception/
 
  Represents an exception which thrown on presentation reading errors.
  
+###PptReadException{#PptReadException}
+
 | Name | Description |
 | --- | --- |
 | PptReadException() | Default function. |
 
-### Result
+ **Result**
 PptReadException
 
 
 ---
 
+
+###PptReadException{#PptReadException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ PptReadException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 PptReadException
 
 
 ---
 
+
+###PptReadException{#PptReadException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ PptReadException
 | message | String | message |
 | exception | Exception | original exception |
 
-### Result
+ **Result**
 PptReadException
 
 

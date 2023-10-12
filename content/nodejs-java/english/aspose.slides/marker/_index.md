@@ -11,38 +11,46 @@ url: /aspose.slides/marker/
 
  Represents marker of a chert.
  
+###getFormat{#getFormat}
+
 | Name | Description |
 | --- | --- |
 | getFormat () | Gets or sets the marker fill. Read-only IFormat. |
 
-### Result
-Format(../../format)
+ **Result**
+[Format](../format)
 
 
 ---
 
+
+###getSize{#getSize}
 
 | Name | Description |
 | --- | --- |
 | getSize () | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###getSymbol{#getSymbol}
 
 | Name | Description |
 | --- | --- |
 | getSymbol () | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setSize{#setSize}
 
 | Name | Description |
 | --- | --- |
@@ -51,6 +59,8 @@ int
 
 ---
 
+
+###setSymbol{#setSymbol}
 
 | Name | Description |
 | --- | --- |

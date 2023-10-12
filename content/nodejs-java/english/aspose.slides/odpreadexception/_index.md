@@ -11,16 +11,20 @@ url: /aspose.slides/odpreadexception/
 
  Represents an exception which thrown on presentation reading errors.
  
+###OdpReadException{#OdpReadException}
+
 | Name | Description |
 | --- | --- |
 | OdpReadException() | Default function |
 
-### Result
+ **Result**
 OdpReadException
 
 
 ---
 
+
+###OdpReadException{#OdpReadException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ OdpReadException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 OdpReadException
 
 
 ---
 
+
+###OdpReadException{#OdpReadException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ OdpReadException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 OdpReadException
 
 

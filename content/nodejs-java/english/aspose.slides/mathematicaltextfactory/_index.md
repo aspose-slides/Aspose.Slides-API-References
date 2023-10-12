@@ -13,27 +13,33 @@ url: /aspose.slides/mathematicaltextfactory/
  
  For COM comparibility
  
+###MathematicalTextFactory{#MathematicalTextFactory}
+
 | Name | Description |
 | --- | --- |
 | MathematicalTextFactory() |  |
 
-### Result
+ **Result**
 MathematicalTextFactory
 
 
 ---
 
 
+###createMathematicalText{#createMathematicalText}
+
 | Name | Description |
 | --- | --- |
 | createMathematicalText () | Create empty mathematical text element |
 
-### Result
-MathematicalText(../../mathematicaltext)
+ **Result**
+[MathematicalText](../mathematicaltext)
 
 
 ---
 
+
+###createMathematicalText{#createMathematicalText}
 
 | Name | Description |
 | --- | --- |
@@ -45,12 +51,14 @@ MathematicalText(../../mathematicaltext)
 | --- | --- | --- |
 | mathSymbol | char | single symbol to use as text value |
 
-### Result
-MathematicalText(../../mathematicaltext)
+ **Result**
+[MathematicalText](../mathematicaltext)
 
 
 ---
 
+
+###createMathematicalText{#createMathematicalText}
 
 | Name | Description |
 | --- | --- |
@@ -62,26 +70,28 @@ MathematicalText(../../mathematicaltext)
 | --- | --- | --- |
 | mathText | String | text value |
 
-### Result
-MathematicalText(../../mathematicaltext)
+ **Result**
+[MathematicalText](../mathematicaltext)
 
 
 ---
 
 
+###createMathematicalText{#createMathematicalText}
+
 | Name | Description |
 | --- | --- |
-| createMathematicalText (String, PortionFormat(../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
+| createMathematicalText (String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathText | String | text value |
-| portionFormat | PortionFormat(../../portionformat) | text format settings |
+| portionFormat | [PortionFormat](../portionformat) | text format settings |
 
-### Result
-MathematicalText(../../mathematicaltext)
+ **Result**
+[MathematicalText](../mathematicaltext)
 
 
 ---

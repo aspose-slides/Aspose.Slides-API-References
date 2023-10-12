@@ -11,16 +11,20 @@ url: /aspose.slides/cornerdirectiontransition/
 
  Corner direction slide transition effect.
  
+###getDirection{#getDirection}
+
 | Name | Description |
 | --- | --- |
 | getDirection () | Direction of transition. Read/write TransitionCornerDirectionType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setDirection{#setDirection}
 
 | Name | Description |
 | --- | --- |

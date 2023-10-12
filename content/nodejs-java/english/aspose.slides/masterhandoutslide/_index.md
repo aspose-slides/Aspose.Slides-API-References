@@ -11,25 +11,29 @@ url: /aspose.slides/masterhandoutslide/
 
  Represents master slide for handouts.
  
+###getHeaderFooterManager{#getHeaderFooterManager}
+
 | Name | Description |
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the master handout slide. Read-only IMasterHandoutSlideHeaderFooterManager. |
 
-### Result
-MasterHandoutSlideHeaderFooterManager(../../masterhandoutslideheaderfootermanager)
+ **Result**
+[MasterHandoutSlideHeaderFooterManager](../masterhandoutslideheaderfootermanager)
 
 
 ---
 
 
+###getShowMasterShapes{#getShowMasterShapes}
+
 | Name | Description |
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -39,22 +43,26 @@ boolean
 ---
 
 
+###getThemeManager{#getThemeManager}
+
 | Name | Description |
 | --- | --- |
 | getThemeManager () | Returns the theme manager. Read-only IMasterThemeManager. |
 
-### Result
-MasterThemeManager(../../masterthememanager)
+ **Result**
+[MasterThemeManager](../masterthememanager)
 
 
 ---
 
 
+###setShowMasterShapes{#setShowMasterShapes}
+
 | Name | Description |
 | --- | --- |
 | setShowMasterShapes (boolean) | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |

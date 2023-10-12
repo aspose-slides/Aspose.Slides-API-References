@@ -11,16 +11,20 @@ url: /aspose.slides/mathematicaltext/
 
  Mathematical text
  
+###MathematicalText{#MathematicalText}
+
 | Name | Description |
 | --- | --- |
 | MathematicalText() | Default function (create String.Empty Value) |
 
-### Result
+ **Result**
 MathematicalText
 
 
 ---
 
+
+###MathematicalText{#MathematicalText}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ MathematicalText
 | --- | --- | --- |
 | mathSymbol | char | single symbol |
 
-### Result
+ **Result**
 MathematicalText
 
 
 ---
 
+
+###MathematicalText{#MathematicalText}
 
 | Name | Description |
 | --- | --- |
@@ -49,63 +55,73 @@ MathematicalText
 | --- | --- | --- |
 | mathText | String | text value |
 
-### Result
+ **Result**
 MathematicalText
 
 
 ---
 
 
+###MathematicalText{#MathematicalText}
+
 | Name | Description |
 | --- | --- |
-| MathematicalText(String, PortionFormat(../portionformat)) | Create MathematicalText from text and format settings |
+| MathematicalText(String, [PortionFormat](../portionformat)) | Create MathematicalText from text and format settings |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathText | String | text value |
-| portionFormat | PortionFormat(../../portionformat) | text format settings |
+| portionFormat | [PortionFormat](../portionformat) | text format settings |
 
-### Result
+ **Result**
 MathematicalText
 
 
 ---
 
 
+###getChildren{#getChildren}
+
 | Name | Description |
 | --- | --- |
 | getChildren () | Get children elements |
 
-### Result
-MathLimit(../../mathlimit), MathBorderBox(../../mathborderbox), MathFraction(../../mathfraction), MathDelimiter(../../mathdelimiter), MathSuperscriptElement(../../mathsuperscriptelement), MathLeftSubSuperscriptElement(../../mathleftsubsuperscriptelement), MathRightSubSuperscriptElement(../../mathrightsubsuperscriptelement), MathBox(../../mathbox), MathMatrix(../../mathmatrix), MathGroupingCharacter(../../mathgroupingcharacter), MathArray(../../matharray), MathBlock(../../mathblock), MathSubscriptElement(../../mathsubscriptelement), MathFunction(../../mathfunction), MathNaryOperator(../../mathnaryoperator), MathematicalText(../../mathematicaltext), BaseScript(../../basescript), MathAccent(../../mathaccent), MathRadical(../../mathradical), MathBar(../../mathbar), MathElementBase(../../mathelementbase)
+ **Result**
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
 
+
+###getFormat{#getFormat}
 
 | Name | Description |
 | --- | --- |
 | getFormat () | Text formatting properties |
 
-### Result
-PortionFormat(../../portionformat)
+ **Result**
+[PortionFormat](../portionformat)
 
 
 ---
 
+
+###getValue{#getValue}
 
 | Name | Description |
 | --- | --- |
 | getValue () | Text value |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###setValue{#setValue}
 
 | Name | Description |
 | --- | --- |

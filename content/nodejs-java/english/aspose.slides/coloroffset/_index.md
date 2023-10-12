@@ -11,49 +11,59 @@ url: /aspose.slides/coloroffset/
 
  Represent color offset.
  
+###ColorOffset{#ColorOffset}
+
 | Name | Description |
 | --- | --- |
 | ColorOffset() |  |
 
-### Result
+ **Result**
 ColorOffset
 
 
 ---
 
 
+###getValue0{#getValue0}
+
 | Name | Description |
 | --- | --- |
 | getValue0 () | Defines first value of offset. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getValue1{#getValue1}
 
 | Name | Description |
 | --- | --- |
 | getValue1 () | Defines second value of offset. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getValue2{#getValue2}
 
 | Name | Description |
 | --- | --- |
 | getValue2 () | Defines third value of offset. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###setValue0{#setValue0}
 
 | Name | Description |
 | --- | --- |
@@ -63,6 +73,8 @@ float
 ---
 
 
+###setValue1{#setValue1}
+
 | Name | Description |
 | --- | --- |
 | setValue1 (float) | Defines second value of offset. Read/write float. |
@@ -70,6 +82,8 @@ float
 
 ---
 
+
+###setValue2{#setValue2}
 
 | Name | Description |
 | --- | --- |

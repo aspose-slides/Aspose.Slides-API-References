@@ -13,6 +13,8 @@ url: /aspose.slides/masterslideheaderfootermanager/
  Child placeholders mean placeholders are contained on depending layout slides and depending slides.
  Depending layout slides and slides use and depend on master slide.
  
+###setDateTimeAndChildDateTimesText{#setDateTimeAndChildDateTimesText}
+
 | Name | Description |
 | --- | --- |
 | setDateTimeAndChildDateTimesText (String) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
@@ -26,6 +28,8 @@ url: /aspose.slides/masterslideheaderfootermanager/
 
 ---
 
+
+###setDateTimeAndChildDateTimesVisibility{#setDateTimeAndChildDateTimesVisibility}
 
 | Name | Description |
 | --- | --- |
@@ -41,6 +45,8 @@ url: /aspose.slides/masterslideheaderfootermanager/
 ---
 
 
+###setFooterAndChildFootersText{#setFooterAndChildFootersText}
+
 | Name | Description |
 | --- | --- |
 | setFooterAndChildFootersText (String) | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
@@ -55,6 +61,8 @@ url: /aspose.slides/masterslideheaderfootermanager/
 ---
 
 
+###setFooterAndChildFootersVisibility{#setFooterAndChildFootersVisibility}
+
 | Name | Description |
 | --- | --- |
 | setFooterAndChildFootersVisibility (boolean) | Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
@@ -68,6 +76,8 @@ url: /aspose.slides/masterslideheaderfootermanager/
 
 ---
 
+
+###setSlideNumberAndChildSlideNumbersVisibility{#setSlideNumberAndChildSlideNumbersVisibility}
 
 | Name | Description |
 | --- | --- |

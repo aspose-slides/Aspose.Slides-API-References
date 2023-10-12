@@ -11,11 +11,13 @@ url: /aspose.slides/presentedbyspeaker/
 
  Presented by a speaker (full screen)
  
+###PresentedBySpeaker{#PresentedBySpeaker}
+
 | Name | Description |
 | --- | --- |
 | PresentedBySpeaker() | Initializes a new instance of the PresentedBySpeaker class. |
 
-### Result
+ **Result**
 PresentedBySpeaker
 
 

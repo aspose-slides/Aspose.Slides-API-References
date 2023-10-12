@@ -13,57 +13,69 @@ url: /aspose.slides/stringordoublechartvalue/
  1) in cell/cells of workbook related to chart;
  2) as literal value.
  
+###getAsCell{#getAsCell}
+
 | Name | Description |
 | --- | --- |
 | getAsCell () | Returns or sets chart data cell. Read/write IChartDataCell. |
 
-### Result
-ChartDataCell(../../chartdatacell)
+ **Result**
+[ChartDataCell](../chartdatacell)
 
 
 ---
 
 
+###getAsLiteralDouble{#getAsLiteralDouble}
+
 | Name | Description |
 | --- | --- |
 | getAsLiteralDouble () | Returns or sets value as literal double. Read/write double. |
 
-### Result
+ **Result**
 double
 
 
 ---
 
 
+###getAsLiteralString{#getAsLiteralString}
+
 | Name | Description |
 | --- | --- |
 | getAsLiteralString () | Returns or sets value as literal string. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getData{#getData}
+
 | Name | Description |
 | --- | --- |
 | getData () | Returns or sets Data object. Read/write Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###setAsCell{#setAsCell}
+
 | Name | Description |
 | --- | --- |
-| setAsCell (ChartDataCell(../chartdatacell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
+| setAsCell ([ChartDataCell](../chartdatacell)) | Returns or sets chart data cell. Read/write IChartDataCell. |
 
 
 ---
 
+
+###setAsLiteralDouble{#setAsLiteralDouble}
 
 | Name | Description |
 | --- | --- |
@@ -73,6 +85,8 @@ Object
 ---
 
 
+###setAsLiteralString{#setAsLiteralString}
+
 | Name | Description |
 | --- | --- |
 | setAsLiteralString (String) | Returns or sets value as literal string. Read/write String. |
@@ -80,6 +94,8 @@ Object
 
 ---
 
+
+###setData{#setData}
 
 | Name | Description |
 | --- | --- |
@@ -89,11 +105,13 @@ Object
 ---
 
 
+###toDouble{#toDouble}
+
 | Name | Description |
 | --- | --- |
 | toDouble () | Converts to double. |
 
-### Result
+ **Result**
 double
 
 

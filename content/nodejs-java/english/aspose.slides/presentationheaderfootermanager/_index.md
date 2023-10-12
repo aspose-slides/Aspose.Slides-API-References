@@ -11,6 +11,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 
  Represents manager which holds behavior of all footer, date-time and page number placeholders of presentation.
  
+###setAllDateTimesText{#setAllDateTimesText}
+
 | Name | Description |
 | --- | --- |
 | setAllDateTimesText (String) | Sets text to all date-time placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
@@ -24,6 +26,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 
 ---
 
+
+###setAllDateTimesVisibility{#setAllDateTimesVisibility}
 
 | Name | Description |
 | --- | --- |
@@ -39,6 +43,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 ---
 
 
+###setAllFootersText{#setAllFootersText}
+
 | Name | Description |
 | --- | --- |
 | setAllFootersText (String) | Sets text to all footer placeholders, including master slides, layout slides, slides, notes master, notes slides and handout master. |
@@ -52,6 +58,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 
 ---
 
+
+###setAllFootersVisibility{#setAllFootersVisibility}
 
 | Name | Description |
 | --- | --- |
@@ -67,6 +75,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 ---
 
 
+###setAllHeadersText{#setAllHeadersText}
+
 | Name | Description |
 | --- | --- |
 | setAllHeadersText (String) | Sets text to all header placeholders, including notes master, notes slides and handout master. |
@@ -80,6 +90,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 
 ---
 
+
+###setAllHeadersVisibility{#setAllHeadersVisibility}
 
 | Name | Description |
 | --- | --- |
@@ -95,6 +107,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 ---
 
 
+###setAllSlideNumbersVisibility{#setAllSlideNumbersVisibility}
+
 | Name | Description |
 | --- | --- |
 | setAllSlideNumbersVisibility (boolean) | Changes all page number placeholders visibility, including master slides, layout slides, slides, notes master, notes slides and handout master. |
@@ -108,6 +122,8 @@ url: /aspose.slides/presentationheaderfootermanager/
 
 ---
 
+
+###setVisibilityOnAllTitleSlides{#setVisibilityOnAllTitleSlides}
 
 | Name | Description |
 | --- | --- |

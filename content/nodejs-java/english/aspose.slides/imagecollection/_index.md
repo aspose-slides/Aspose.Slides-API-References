@@ -11,22 +11,26 @@ url: /aspose.slides/imagecollection/
 
  Represents collection of PPImage.
  
+###addImage{#addImage}
+
 | Name | Description |
 | --- | --- |
-| addImage (PPImage(../ppimage)) | Adds a copy of an image from an another presentation. |
+| addImage ([PPImage](../ppimage)) | Adds a copy of an image from an another presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| imageSource | PPImage(../../ppimage) | Source image. |
+| imageSource | [PPImage](../ppimage) | Source image. |
 
-### Result
-PPImage(../../ppimage)
+ **Result**
+[PPImage](../ppimage)
 
 
 ---
 
+
+###addImage{#addImage}
 
 | Name | Description |
 | --- | --- |
@@ -38,12 +42,14 @@ PPImage(../../ppimage)
 | --- | --- | --- |
 | image | BufferedImage | Image to add. This function converts WMF/EMF metafiles to raster PNG image before inserting to a presentation. |
 
-### Result
-PPImage(../../ppimage)
+ **Result**
+[PPImage](../ppimage)
 
 
 ---
 
+
+###addImageFromStream {#addImageFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -57,12 +63,14 @@ PPImage(../../ppimage)
 | stream | ReadStream | Stream to add image from. This function can add WMF/EMF metafiles to a presentation without converting them to raster PNG image. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-PPImage(../../ppimage)
+ **Result**
+[PPImage](../ppimage)
 
 
 ---
 
+
+###addImageFromStream {#addImageFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -77,12 +85,14 @@ PPImage(../../ppimage)
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-PPImage(../../ppimage)
+ **Result**
+[PPImage](../ppimage)
 
 
 ---
 
+
+###addImage{#addImage}
 
 | Name | Description |
 | --- | --- |
@@ -94,27 +104,29 @@ PPImage(../../ppimage)
 | --- | --- | --- |
 | buffer | byte[] | Buffer. |
 
-### Result
-PPImage(../../ppimage)
+ **Result**
+[PPImage](../ppimage)
 
 
 ---
 
 
+###addImage{#addImage}
+
 | Name | Description |
 | --- | --- |
-| addImage (SvgImage(../svgimage)) | Add an image to a presentation from Svg object. |
+| addImage ([SvgImage](../svgimage)) | Add an image to a presentation from Svg object. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| svgImage | SvgImage(../../svgimage) | Svg image object ISvgImage |
+| svgImage | [SvgImage](../svgimage) | Svg image object ISvgImage |
 
-### Result
-PPImage(../../ppimage)
+ **Result**
+[PPImage](../ppimage)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -124,66 +136,78 @@ PPImage(../../ppimage)
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only IPPImage. |
 
-### Result
-PPImage(../../ppimage)
+ **Result**
+[PPImage](../ppimage)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns a number of images in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

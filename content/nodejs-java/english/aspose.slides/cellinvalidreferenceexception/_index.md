@@ -11,16 +11,20 @@ url: /aspose.slides/cellinvalidreferenceexception/
 
  The exception that is thrown when an invalid cell reference is encountered.
  
+###CellInvalidReferenceException{#CellInvalidReferenceException}
+
 | Name | Description |
 | --- | --- |
 | CellInvalidReferenceException() | Initializes a new instance of the CellInvalidReferenceException class. |
 
-### Result
+ **Result**
 CellInvalidReferenceException
 
 
 ---
 
+
+###CellInvalidReferenceException{#CellInvalidReferenceException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ CellInvalidReferenceException
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 
-### Result
+ **Result**
 CellInvalidReferenceException
 
 
 ---
 
+
+###CellInvalidReferenceException{#CellInvalidReferenceException}
 
 | Name | Description |
 | --- | --- |
@@ -50,12 +56,14 @@ CellInvalidReferenceException
 | message | String | A string that describes the error. |
 | innerException | RuntimeException | The exception that is the cause of the current exception. |
 
-### Result
+ **Result**
 CellInvalidReferenceException
 
 
 ---
 
+
+###CellInvalidReferenceException{#CellInvalidReferenceException}
 
 | Name | Description |
 | --- | --- |
@@ -68,18 +76,20 @@ CellInvalidReferenceException
 | message | String | A string that describes the error. |
 | reference | String | An invalid cell reference. |
 
-### Result
+ **Result**
 CellInvalidReferenceException
 
 
 ---
 
 
+###getReference{#getReference}
+
 | Name | Description |
 | --- | --- |
 | getReference () | Gets an invalid cell reference. |
 
-### Result
+ **Result**
 String
 
 

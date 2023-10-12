@@ -11,93 +11,111 @@ url: /aspose.slides/tiffoptions/
 
  Provides options that control how a presentation is saved in TIFF format.
  
+###TiffOptions{#TiffOptions}
+
 | Name | Description |
 | --- | --- |
 | TiffOptions() | Default function. |
 
-### Result
+ **Result**
 TiffOptions
 
 
 ---
 
 
+###getCompressionType{#getCompressionType}
+
 | Name | Description |
 | --- | --- |
 | getCompressionType () | Specifies the compression type. Read/write TiffCompressionTypes. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getDpiX{#getDpiX}
+
 | Name | Description |
 | --- | --- |
 | getDpiX () | Specifies the horizontal resolution in dots per inch. Read/write long. |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###getDpiY{#getDpiY}
 
 | Name | Description |
 | --- | --- |
 | getDpiY () | Specifies the vertical resolution in dots per inch. Read/write long. |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###getImageSize{#getImageSize}
+
 | Name | Description |
 | --- | --- |
 | getImageSize () | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
 
-### Result
+ **Result**
 Dimension
 
 
 ---
 
 
+###getNotesCommentsLayouting{#getNotesCommentsLayouting}
+
 | Name | Description |
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
-### Result
-NotesCommentsLayoutingOptions(../../notescommentslayoutingoptions)
+ **Result**
+[NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
 ---
 
 
+###getPixelFormat{#getPixelFormat}
+
 | Name | Description |
 | --- | --- |
 | getPixelFormat () | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getShowHiddenSlides{#getShowHiddenSlides}
+
 | Name | Description |
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setCompressionType{#setCompressionType}
 
 | Name | Description |
 | --- | --- |
@@ -107,6 +125,8 @@ boolean
 ---
 
 
+###setDpiX{#setDpiX}
+
 | Name | Description |
 | --- | --- |
 | setDpiX (long) | Specifies the horizontal resolution in dots per inch. Read/write long. |
@@ -114,6 +134,8 @@ boolean
 
 ---
 
+
+###setDpiY{#setDpiY}
 
 | Name | Description |
 | --- | --- |
@@ -123,6 +145,8 @@ boolean
 ---
 
 
+###setImageSize{#setImageSize}
+
 | Name | Description |
 | --- | --- |
 | setImageSize (Dimension) | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
@@ -131,6 +155,8 @@ boolean
 ---
 
 
+###setPixelFormat{#setPixelFormat}
+
 | Name | Description |
 | --- | --- |
 | setPixelFormat (int) | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
@@ -138,6 +164,8 @@ boolean
 
 ---
 
+
+###setShowHiddenSlides{#setShowHiddenSlides}
 
 | Name | Description |
 | --- | --- |

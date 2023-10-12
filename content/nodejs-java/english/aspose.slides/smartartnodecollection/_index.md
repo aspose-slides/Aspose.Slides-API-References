@@ -11,16 +11,20 @@ url: /aspose.slides/smartartnodecollection/
 
  Represents a collection of SmartArt nodes.
  
+###addNode{#addNode}
+
 | Name | Description |
 | --- | --- |
 | addNode () | Add new smart art node or sub node. |
 
-### Result
-SmartArtNode(../../smartartnode)
+ **Result**
+[SmartArtNode](../smartartnode)
 
 
 ---
 
+
+###addNodeByPosition{#addNodeByPosition}
 
 | Name | Description |
 | --- | --- |
@@ -32,10 +36,10 @@ SmartArtNode(../../smartartnode)
 | --- | --- | --- |
 | position | int | Zero-base node position |
 
-### Result
-SmartArtNode(../../smartartnode)
+ **Result**
+[SmartArtNode](../smartartnode)
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -45,16 +49,20 @@ SmartArtNode(../../smartartnode)
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
+
+###get_Item{#get_Item}
 
 | Name | Description |
 | --- | --- |
@@ -66,45 +74,53 @@ Object
 | --- | --- | --- |
 | index | int | The zero-based index of the element |
 
-### Result
-SmartArtNode(../../smartartnode)
+ **Result**
+[SmartArtNode](../smartartnode)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###removeNode{#removeNode}
 
 | Name | Description |
 | --- | --- |
@@ -116,7 +132,7 @@ boolean
 | --- | --- | --- |
 | index | int | Zero-based index of node |
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -126,25 +142,29 @@ boolean
 ---
 
 
+###removeNode{#removeNode}
+
 | Name | Description |
 | --- | --- |
-| removeNode (SmartArtNode(../smartartnode)) | Remove node or sub node |
+| removeNode ([SmartArtNode](../smartartnode)) | Remove node or sub node |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| node | SmartArtNode(../../smartartnode) | Node to remove |
+| node | [SmartArtNode](../smartartnode) | Node to remove |
 
 
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns count of nodes in collection Read-only int Read-only int. |
 
-### Result
+ **Result**
 int
 
 

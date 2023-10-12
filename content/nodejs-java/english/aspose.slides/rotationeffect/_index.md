@@ -11,49 +11,59 @@ url: /aspose.slides/rotationeffect/
 
  Represent rotation behavior of effect.
  
+###RotationEffect{#RotationEffect}
+
 | Name | Description |
 | --- | --- |
 | RotationEffect() |  |
 
-### Result
+ **Result**
 RotationEffect
 
 
 ---
 
 
+###getBy{#getBy}
+
 | Name | Description |
 | --- | --- |
 | getBy () | Describes the relative offset value for the animation. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getFrom{#getFrom}
 
 | Name | Description |
 | --- | --- |
 | getFrom () | Describes the starting value for the animation. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###getTo{#getTo}
 
 | Name | Description |
 | --- | --- |
 | getTo () | Describes the ending value for the animation. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
+
+###setBy{#setBy}
 
 | Name | Description |
 | --- | --- |
@@ -63,6 +73,8 @@ float
 ---
 
 
+###setFrom{#setFrom}
+
 | Name | Description |
 | --- | --- |
 | setFrom (float) | Describes the starting value for the animation. Read/write float. |
@@ -70,6 +82,8 @@ float
 
 ---
 
+
+###setTo{#setTo}
 
 | Name | Description |
 | --- | --- |

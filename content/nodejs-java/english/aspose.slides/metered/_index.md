@@ -9,38 +9,46 @@ url: /aspose.slides/metered/
 
 ## Metered class
 Provides methods to set metered key.
+###Metered{#Metered}
+
 | Name | Description |
 | --- | --- |
 | Metered() | Initializes a new instance of this class. |
 
-### Result
+ **Result**
 Metered
 
 
 ---
 
 
+###getConsumptionCredit{#getConsumptionCredit}
+
 | Name | Description |
 | --- | --- |
 | getConsumptionCredit () | Gets consumption credit |
 
-### Result
+ **Result**
 double
 
 
 ---
 
+
+###getConsumptionQuantity{#getConsumptionQuantity}
 
 | Name | Description |
 | --- | --- |
 | getConsumptionQuantity () | Gets consumption file size |
 
-### Result
+ **Result**
 double
 
 
 ---
 
+
+###setMeteredKey{#setMeteredKey}
 
 | Name | Description |
 | --- | --- |

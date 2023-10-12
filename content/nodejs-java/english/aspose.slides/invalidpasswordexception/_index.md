@@ -11,16 +11,20 @@ url: /aspose.slides/invalidpasswordexception/
 
  Exception which thrown when presentation file format is unsupported.
  
+###InvalidPasswordException{#InvalidPasswordException}
+
 | Name | Description |
 | --- | --- |
 | InvalidPasswordException() | Default function. |
 
-### Result
+ **Result**
 InvalidPasswordException
 
 
 ---
 
+
+###InvalidPasswordException{#InvalidPasswordException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ InvalidPasswordException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 InvalidPasswordException
 
 
 ---
 
+
+###InvalidPasswordException{#InvalidPasswordException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ InvalidPasswordException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 InvalidPasswordException
 
 

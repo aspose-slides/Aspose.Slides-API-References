@@ -11,6 +11,8 @@ url: /aspose.slides/gradientstopcollection/
 
  Represnts a collection of gradient stops.
  
+###add{#add}
+
 | Name | Description |
 | --- | --- |
 | add (float, Color) | Creates the new gradient stop and adds it to the end of collection. |
@@ -22,12 +24,14 @@ url: /aspose.slides/gradientstopcollection/
 | position | float | Position of the new gradient stop. |
 | color | Color | Color of the new radient stop. |
 
-### Result
-GradientStop(../../gradientstop)
+ **Result**
+[GradientStop](../gradientstop)
 
 
 ---
 
+
+###addPresetColor{#addPresetColor}
 
 | Name | Description |
 | --- | --- |
@@ -40,12 +44,14 @@ GradientStop(../../gradientstop)
 | position | float | Position of the new gradient stop. |
 | presetColor | int | Color of the new radient stop. |
 
-### Result
-GradientStop(../../gradientstop)
+ **Result**
+[GradientStop](../gradientstop)
 
 
 ---
 
+
+###addSchemeColor{#addSchemeColor}
 
 | Name | Description |
 | --- | --- |
@@ -58,12 +64,14 @@ GradientStop(../../gradientstop)
 | position | float | Position of the new gradient stop. |
 | schemeColor | int | Color of the new radient stop. |
 
-### Result
-GradientStop(../../gradientstop)
+ **Result**
+[GradientStop](../gradientstop)
 
 
 ---
 
+
+###clear{#clear}
 
 | Name | Description |
 | --- | --- |
@@ -73,38 +81,46 @@ GradientStop(../../gradientstop)
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns the gradient stop by index. |
 
-### Result
-GradientStop(../../gradientstop)
+ **Result**
+[GradientStop](../gradientstop)
 
 
 ---
 
+
+###insert{#insert}
 
 | Name | Description |
 | --- | --- |
@@ -122,6 +138,8 @@ GradientStop(../../gradientstop)
 ---
 
 
+###insertPresetColor{#insertPresetColor}
+
 | Name | Description |
 | --- | --- |
 | insertPresetColor (int, float, int) | Creates the new gradient stop and inserts it at the specified index to the collection. |
@@ -137,6 +155,8 @@ GradientStop(../../gradientstop)
 
 ---
 
+
+###insertSchemeColor{#insertSchemeColor}
 
 | Name | Description |
 | --- | --- |
@@ -154,38 +174,46 @@ GradientStop(../../gradientstop)
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -201,11 +229,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns the number of gradient stops in a collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

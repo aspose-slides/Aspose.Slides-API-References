@@ -13,6 +13,8 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
  Child placeholders mean placeholders are contained on depending notes slides.
  Depending notes slides use and depend on master notes slide.
  
+###setDateTimeAndChildDateTimesText{#setDateTimeAndChildDateTimesText}
+
 | Name | Description |
 | --- | --- |
 | setDateTimeAndChildDateTimesText (String) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
@@ -26,6 +28,8 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 
 ---
 
+
+###setDateTimeAndChildDateTimesVisibility{#setDateTimeAndChildDateTimesVisibility}
 
 | Name | Description |
 | --- | --- |
@@ -41,6 +45,8 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 ---
 
 
+###setFooterAndChildFootersText{#setFooterAndChildFootersText}
+
 | Name | Description |
 | --- | --- |
 | setFooterAndChildFootersText (String) | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
@@ -54,6 +60,8 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 
 ---
 
+
+###setFooterAndChildFootersVisibility{#setFooterAndChildFootersVisibility}
 
 | Name | Description |
 | --- | --- |
@@ -69,6 +77,8 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 ---
 
 
+###setHeaderAndChildHeadersText{#setHeaderAndChildHeadersText}
+
 | Name | Description |
 | --- | --- |
 | setHeaderAndChildHeadersText (String) | Sets text to master notes slide header placeholder and all child header placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
@@ -83,6 +93,8 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 ---
 
 
+###setHeaderAndChildHeadersVisibility{#setHeaderAndChildHeadersVisibility}
+
 | Name | Description |
 | --- | --- |
 | setHeaderAndChildHeadersVisibility (boolean) | Changes master notes slide header placeholder and all child header placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
@@ -96,6 +108,8 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 
 ---
 
+
+###setSlideNumberAndChildSlideNumbersVisibility{#setSlideNumberAndChildSlideNumbersVisibility}
 
 | Name | Description |
 | --- | --- |

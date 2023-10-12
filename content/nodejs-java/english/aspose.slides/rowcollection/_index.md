@@ -11,97 +11,113 @@ url: /aspose.slides/rowcollection/
 
  Represents table row collection.
  
+###addClone{#addClone}
+
 | Name | Description |
 | --- | --- |
-| addClone (Row(../row), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| addClone ([Row](../row), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| templ | Row(../row) | Row which is used as a template. |
+| templ | [Row](../row) | Row which is used as a template. |
 | withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
-### Result
-Row(../../row)
+ **Result**
+[Row](../row)
 
 
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Returns the row at the specified index. Read-only Row. |
 
-### Result
-Row(../../row)
+ **Result**
+[Row](../row)
 
 
 ---
 
 
+###insertClone{#insertClone}
+
 | Name | Description |
 | --- | --- |
-| insertClone (int, Row(../row), boolean) | Creates a copy of the specified template row and insert it at the specified position in a table. |
+| insertClone (int, [Row](../row), boolean) | Creates a copy of the specified template row and insert it at the specified position in a table. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a new row. |
-| templ | Row(../row) | Row which is used as a template. |
+| templ | [Row](../row) | Row which is used as a template. |
 | withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
-### Result
-Row(../../row)
+ **Result**
+[Row](../row)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###removeAt{#removeAt}
 
 | Name | Description |
 | --- | --- |
@@ -118,11 +134,13 @@ boolean
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Gets the number of rows actually contained in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

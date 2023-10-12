@@ -11,49 +11,59 @@ url: /aspose.slides/motioncmdpath/
 
  Represent one command of a path.
  
+###getCommandType{#getCommandType}
+
 | Name | Description |
 | --- | --- |
 | getCommandType () | Specifies command type. Read/write MotionCommandPathType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getPoints{#getPoints}
+
 | Name | Description |
 | --- | --- |
 | getPoints () | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
 
-### Result
+ **Result**
 Point2D.Float
 
 
 ---
 
 
+###getPointsType{#getPointsType}
+
 | Name | Description |
 | --- | --- |
 | getPointsType () | Specifies command points type Read/write MotionPathPointsType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###isRelative{#isRelative}
+
 | Name | Description |
 | --- | --- |
 | isRelative () | Determine command coordinates relative or not. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setCommandType{#setCommandType}
 
 | Name | Description |
 | --- | --- |
@@ -63,6 +73,8 @@ boolean
 ---
 
 
+###setPoints{#setPoints}
+
 | Name | Description |
 | --- | --- |
 | setPoints (java.awt.geom.Point2D.Float[]) | Specifies points of command. Read/write java.awt.geom.Point2D.Float[]. |
@@ -71,6 +83,8 @@ boolean
 ---
 
 
+###setPointsType{#setPointsType}
+
 | Name | Description |
 | --- | --- |
 | setPointsType (int) | Specifies command points type Read/write MotionPathPointsType. |
@@ -78,6 +92,8 @@ boolean
 
 ---
 
+
+###setRelative{#setRelative}
 
 | Name | Description |
 | --- | --- |

@@ -12,6 +12,8 @@ url: /aspose.slides/alphamodulatefixed/
  Represents an Alpha Modulate Fixed effect.
  Effect alpha (opacity) values are multiplied by a fixed percentage.
  
+###equals{#equals}
+
 | Name | Description |
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaModulateFixed is equal to the current AlphaModulateFixed. |
@@ -22,45 +24,53 @@ url: /aspose.slides/alphamodulatefixed/
 | --- | --- | --- |
 | obj | Object | The AlphaModulateFixed to compare. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###getAmount{#getAmount}
+
 | Name | Description |
 | --- | --- |
 | getAmount () | Returns an amount of effect in percents. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
 
-### Result
+ **Result**
 AlphaModulateFixedEffectiveData
 
 
 ---
 
 
+###hashCode{#hashCode}
+
 | Name | Description |
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setAmount{#setAmount}
 
 | Name | Description |
 | --- | --- |

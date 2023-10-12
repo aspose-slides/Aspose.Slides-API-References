@@ -11,16 +11,20 @@ url: /aspose.slides/ooxmlexception/
 
  Represents a standard internal exception type related to Office Open XML file format.
  
+###OOXMLException{#OOXMLException}
+
 | Name | Description |
 | --- | --- |
 | OOXMLException() | Default function. |
 
-### Result
+ **Result**
 OOXMLException
 
 
 ---
 
+
+###OOXMLException{#OOXMLException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ OOXMLException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 OOXMLException
 
 
 ---
 
+
+###OOXMLException{#OOXMLException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ OOXMLException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 OOXMLException
 
 

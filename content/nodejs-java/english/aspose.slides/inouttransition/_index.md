@@ -11,16 +11,20 @@ url: /aspose.slides/inouttransition/
 
  In-Out slide transition effect.
  
+###getDirection{#getDirection}
+
 | Name | Description |
 | --- | --- |
 | getDirection () | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###setDirection{#setDirection}
 
 | Name | Description |
 | --- | --- |

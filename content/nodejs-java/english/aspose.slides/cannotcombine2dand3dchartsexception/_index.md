@@ -11,16 +11,20 @@ url: /aspose.slides/cannotcombine2dand3dchartsexception/
 
  Exception which thrown when trying to combine 2D and 3D chart types.
  
+###CannotCombine2DAnd3DChartsException{#CannotCombine2DAnd3DChartsException}
+
 | Name | Description |
 | --- | --- |
 | CannotCombine2DAnd3DChartsException() | Default function. |
 
-### Result
+ **Result**
 CannotCombine2DAnd3DChartsException
 
 
 ---
 
+
+###CannotCombine2DAnd3DChartsException{#CannotCombine2DAnd3DChartsException}
 
 | Name | Description |
 | --- | --- |
@@ -32,12 +36,14 @@ CannotCombine2DAnd3DChartsException
 | --- | --- | --- |
 | message | String | message |
 
-### Result
+ **Result**
 CannotCombine2DAnd3DChartsException
 
 
 ---
 
+
+###CannotCombine2DAnd3DChartsException{#CannotCombine2DAnd3DChartsException}
 
 | Name | Description |
 | --- | --- |
@@ -50,7 +56,7 @@ CannotCombine2DAnd3DChartsException
 | message | String | message |
 | exception | RuntimeException | original exception |
 
-### Result
+ **Result**
 CannotCombine2DAnd3DChartsException
 
 

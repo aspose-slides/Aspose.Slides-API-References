@@ -11,6 +11,8 @@ url: /aspose.slides/presentationinfo/
 
  Information about presentation file
  
+###checkPassword{#checkPassword}
+
 | Name | Description |
 | --- | --- |
 | checkPassword (String) | Checks whether a password is correct for a presentation protected with open password. |
@@ -21,10 +23,10 @@ url: /aspose.slides/presentationinfo/
 | --- | --- | --- |
 | password | String | The password to check. When the password is null or empty, this function returns false. |
 
-### Result
+ **Result**
 boolean
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -33,6 +35,8 @@ boolean
 
 ---
 
+
+###checkWriteProtection{#checkWriteProtection}
 
 | Name | Description |
 | --- | --- |
@@ -44,10 +48,10 @@ boolean
 | --- | --- | --- |
 | password | String | The password to check. 1. You should check the ( #isWriteProtected) property before calling this function. 2. When password is null or empty, this function returns false. |
 
-### Result
+ **Result**
 boolean
 
-### Error
+ **Error**
 
 | Error | Condition |
 | --- | --- |
@@ -57,68 +61,82 @@ boolean
 ---
 
 
+###getLoadFormat{#getLoadFormat}
+
 | Name | Description |
 | --- | --- |
 | getLoadFormat () | Gets format of the binded presentation. Read-only LoadFormat. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###isEncrypted{#isEncrypted}
+
 | Name | Description |
 | --- | --- |
 | isEncrypted () | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###isPasswordProtected{#isPasswordProtected}
 
 | Name | Description |
 | --- | --- |
 | isPasswordProtected () | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###isWriteProtected{#isWriteProtected}
+
 | Name | Description |
 | --- | --- |
 | isWriteProtected () | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###readDocumentProperties{#readDocumentProperties}
+
 | Name | Description |
 | --- | --- |
 | readDocumentProperties () | Gets document properties of binded presentation. |
 
-### Result
-DocumentProperties(../../documentproperties)
+ **Result**
+[DocumentProperties](../documentproperties)
 
 
 ---
 
+
+###updateDocumentProperties{#updateDocumentProperties}
 
 | Name | Description |
 | --- | --- |
-| updateDocumentProperties (DocumentProperties(../documentproperties)) | Updates properties of binded presentation. |
+| updateDocumentProperties ([DocumentProperties](../documentproperties)) | Updates properties of binded presentation. |
 
 
 ---
 
+
+###writeBindedPresentationToStream {#writeBindedPresentationToStream }
 
 | Name | Description |
 | --- | --- |
@@ -134,6 +152,8 @@ DocumentProperties(../../documentproperties)
 
 ---
 
+
+###writeBindedPresentation{#writeBindedPresentation}
 
 | Name | Description |
 | --- | --- |

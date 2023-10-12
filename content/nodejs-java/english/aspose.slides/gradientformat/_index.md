@@ -11,82 +11,98 @@ url: /aspose.slides/gradientformat/
 
  Represent a gradient format.
  
+###getGradientDirection{#getGradientDirection}
+
 | Name | Description |
 | --- | --- |
 | getGradientDirection () | Returns or sets the style of a gradient. Read/write GradientDirection. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getGradientShape{#getGradientShape}
+
 | Name | Description |
 | --- | --- |
 | getGradientShape () | Returns or sets the shape of a gradient. Read/write GradientShape. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getGradientStops{#getGradientStops}
+
 | Name | Description |
 | --- | --- |
 | getGradientStops () | Returns the collection of gradient stops. Read-only IGradientStopCollection. |
 
-### Result
-GradientStopCollection(../../gradientstopcollection)
+ **Result**
+[GradientStopCollection](../gradientstopcollection)
 
 
 ---
 
 
+###getLinearGradientAngle{#getLinearGradientAngle}
+
 | Name | Description |
 | --- | --- |
 | getLinearGradientAngle () | Returns or sets the angle of a gradient. Read/write float. |
 
-### Result
+ **Result**
 float
 
 
 ---
 
 
+###getLinearGradientScaled{#getLinearGradientScaled}
+
 | Name | Description |
 | --- | --- |
 | getLinearGradientScaled () | Determines whether a gradient is scaled. Read/write NullableBool. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
 
+###getTileFlip{#getTileFlip}
+
 | Name | Description |
 | --- | --- |
 | getTileFlip () | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getVersion{#getVersion}
+
 | Name | Description |
 | --- | --- |
 | getVersion () |  |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###setGradientDirection{#setGradientDirection}
 
 | Name | Description |
 | --- | --- |
@@ -96,6 +112,8 @@ long
 ---
 
 
+###setGradientShape{#setGradientShape}
+
 | Name | Description |
 | --- | --- |
 | setGradientShape (byte) | Returns or sets the shape of a gradient. Read/write GradientShape. |
@@ -103,6 +121,8 @@ long
 
 ---
 
+
+###setLinearGradientAngle{#setLinearGradientAngle}
 
 | Name | Description |
 | --- | --- |
@@ -112,6 +132,8 @@ long
 ---
 
 
+###setLinearGradientScaled{#setLinearGradientScaled}
+
 | Name | Description |
 | --- | --- |
 | setLinearGradientScaled (byte) | Determines whether a gradient is scaled. Read/write NullableBool. |
@@ -119,6 +141,8 @@ long
 
 ---
 
+
+###setTileFlip{#setTileFlip}
 
 | Name | Description |
 | --- | --- |

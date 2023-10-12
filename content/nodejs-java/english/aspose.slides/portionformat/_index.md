@@ -14,82 +14,98 @@ url: /aspose.slides/portionformat/
  no inheritance is applied when getting values so for the majority of cases you will get values meaning "undefined".
  In order to get the effective formatting parameter values including inherited you need to use  PortionFormat#getEffective method 
  which returns a  IPortionFormatEffectiveData instance.
+###PortionFormat{#PortionFormat}
+
 | Name | Description |
 | --- | --- |
 | PortionFormat() | Initializes a new instance of PortionFormat class. |
 
-### Result
+ **Result**
 PortionFormat
 
 
 ---
 
 
+###getBookmarkId{#getBookmarkId}
+
 | Name | Description |
 | --- | --- |
 | getBookmarkId () | Returns or sets bookmark identifier. Read/write String. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getEffective{#getEffective}
+
 | Name | Description |
 | --- | --- |
 | getEffective () | Gets effective portion formatting data with the inheritance applied. |
 
-### Result
+ **Result**
 PortionFormatEffectiveData
 
 
 ---
 
 
+###getHyperlinkClick{#getHyperlinkClick}
+
 | Name | Description |
 | --- | --- |
 | getHyperlinkClick () | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
-### Result
-Hyperlink(../../hyperlink)
+ **Result**
+[Hyperlink](../hyperlink)
 
 
 ---
 
+
+###getHyperlinkManager{#getHyperlinkManager}
 
 | Name | Description |
 | --- | --- |
 | getHyperlinkManager () | Hyperlinks manager. Read-only IHyperlinkManager. |
 
-### Result
-HyperlinkManager(../../hyperlinkmanager)
+ **Result**
+[HyperlinkManager](../hyperlinkmanager)
 
 
 ---
 
+
+###getHyperlinkMouseOver{#getHyperlinkMouseOver}
 
 | Name | Description |
 | --- | --- |
 | getHyperlinkMouseOver () | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
-### Result
-Hyperlink(../../hyperlink)
+ **Result**
+[Hyperlink](../hyperlink)
 
 
 ---
 
+
+###getSmartTagClean{#getSmartTagClean}
 
 | Name | Description |
 | --- | --- |
 | getSmartTagClean () | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
+
+###setBookmarkId{#setBookmarkId}
 
 | Name | Description |
 | --- | --- |
@@ -99,21 +115,27 @@ boolean
 ---
 
 
+###setHyperlinkClick{#setHyperlinkClick}
+
 | Name | Description |
 | --- | --- |
-| setHyperlinkClick (Hyperlink(../hyperlink)) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| setHyperlinkClick ([Hyperlink](../hyperlink)) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
 
 ---
 
 
+###setHyperlinkMouseOver{#setHyperlinkMouseOver}
+
 | Name | Description |
 | --- | --- |
-| setHyperlinkMouseOver (Hyperlink(../hyperlink)) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| setHyperlinkMouseOver ([Hyperlink](../hyperlink)) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
 
 ---
 
+
+###setSmartTagClean{#setSmartTagClean}
 
 | Name | Description |
 | --- | --- |

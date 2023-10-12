@@ -11,34 +11,40 @@ url: /aspose.slides/groupshape/
 
   Represents a group of shapes on a slide.
  
+###getGroupShapeLock{#getGroupShapeLock}
+
 | Name | Description |
 | --- | --- |
 | getGroupShapeLock () | Returns shape's locks. Read-only IGroupShapeLock. |
 
-### Result
-GroupShapeLock(../../groupshapelock)
+ **Result**
+[GroupShapeLock](../groupshapelock)
 
 
 ---
 
+
+###getLineFormat{#getLineFormat}
 
 | Name | Description |
 | --- | --- |
 | getLineFormat () | Returns the LineFormat object that contains line formatting properties for a shape. Note: Returns null for GroupShape objects because they don't have line properties. Read-only ILineFormat. |
 
-### Result
-LineFormat(../../lineformat)
+ **Result**
+[LineFormat](../lineformat)
 
 
 ---
 
 
+###getShapes{#getShapes}
+
 | Name | Description |
 | --- | --- |
 | getShapes () | Returns the collection of shapes inside the group. Read-only IShapeCollection. |
 
-### Result
-ShapeCollection(../../shapecollection)
+ **Result**
+[ShapeCollection](../shapecollection)
 
 
 ---

@@ -11,38 +11,46 @@ url: /aspose.slides/fontsources/
 
  Provides file and memory sources for external fonts.
  
+###FontSources{#FontSources}
+
 | Name | Description |
 | --- | --- |
 | FontSources() | Creates new default font options. |
 
-### Result
+ **Result**
 FontSources
 
 
 ---
 
 
+###getFontFolders{#getFontFolders}
+
 | Name | Description |
 | --- | --- |
 | getFontFolders () | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
 
+###getMemoryFonts{#getMemoryFonts}
+
 | Name | Description |
 | --- | --- |
 | getMemoryFonts () | A collection of fonts represented as byte arrays. |
 
-### Result
+ **Result**
 byte
 
 
 ---
 
+
+###setFontFolders{#setFontFolders}
 
 | Name | Description |
 | --- | --- |
@@ -51,6 +59,8 @@ byte
 
 ---
 
+
+###setMemoryFonts{#setMemoryFonts}
 
 | Name | Description |
 | --- | --- |

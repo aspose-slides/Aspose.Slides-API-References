@@ -11,22 +11,26 @@ url: /aspose.slides/videocollection/
 
  Represents a collection of Video objects.
  
+###addVideo{#addVideo}
+
 | Name | Description |
 | --- | --- |
-| addVideo (Video(../video)) | Adds a copy of an video file from an another presentation. |
+| addVideo ([Video](../video)) | Adds a copy of an video file from an another presentation. |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| video | Video(../../video) | Source video. |
+| video | [Video](../video) | Source video. |
 
-### Result
-Video(../../video)
+ **Result**
+[Video](../video)
 
 
 ---
 
+
+###addVideoFromStream {#addVideoFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -40,12 +44,14 @@ Video(../../video)
 | stream | ReadStream | Stream to add video file from. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-Video(../../video)
+ **Result**
+[Video](../video)
 
 
 ---
 
+
+###addVideoFromStream {#addVideoFromStream }
 
 | Name | Description |
 | --- | --- |
@@ -60,12 +66,14 @@ Video(../../video)
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
-### Result
-Video(../../video)
+ **Result**
+[Video](../video)
 
 
 ---
 
+
+###addVideo{#addVideo}
 
 | Name | Description |
 | --- | --- |
@@ -77,73 +85,85 @@ Video(../../video)
 | --- | --- | --- |
 | videoData | byte[] | Video bytes. |
 
-### Result
-Video(../../video)
+ **Result**
+[Video](../video)
 
 
 ---
 
 
+###getSyncRoot{#getSyncRoot}
+
 | Name | Description |
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
-### Result
+ **Result**
 Object
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only IVideo. |
 
-### Result
-Video(../../video)
+ **Result**
+[Video](../video)
 
 
 ---
 
 
+###isSynchronized{#isSynchronized}
+
 | Name | Description |
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
-### Result
+ **Result**
 boolean
 
 
 ---
 
 
+###iterator{#iterator}
+
 | Name | Description |
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
+
+###iteratorJava{#iteratorJava}
 
 | Name | Description |
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
-### Result
+ **Result**
 
 
 
 ---
 
 
+###size{#size}
+
 | Name | Description |
 | --- | --- |
 | size () | Returns a number of video files in the collection. Read-only int. |
 
-### Result
+ **Result**
 int
 
 

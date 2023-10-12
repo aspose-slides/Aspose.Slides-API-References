@@ -11,6 +11,8 @@ url: /aspose.slides/fontfallbackrule/
 
  Represents font fallback rule
  
+###FontFallBackRule{#FontFallBackRule}
+
 | Name | Description |
 | --- | --- |
 | FontFallBackRule(long, long, String) | Creates new instance. |
@@ -23,12 +25,14 @@ url: /aspose.slides/fontfallbackrule/
 | endIndex | long | End index of unicode range |
 | fontNames | String | Font's name or names (delimited by comma) for FallBack |
 
-### Result
+ **Result**
 FontFallBackRule
 
 
 ---
 
+
+###FontFallBackRule{#FontFallBackRule}
 
 | Name | Description |
 | --- | --- |
@@ -42,12 +46,14 @@ FontFallBackRule
 | endIndex | long | End index of unicode range |
 | fontNames | java.lang.String[] | Font's name or names (delimited by comma) for FallBack |
 
-### Result
+ **Result**
 FontFallBackRule
 
 
 ---
 
+
+###addFallBackFonts{#addFallBackFonts}
 
 | Name | Description |
 | --- | --- |
@@ -63,6 +69,8 @@ FontFallBackRule
 ---
 
 
+###addFallBackFonts{#addFallBackFonts}
+
 | Name | Description |
 | --- | --- |
 | addFallBackFonts (java.lang.String[]) | Adds a new fonts to the list of FallBack fonts. |
@@ -77,6 +85,8 @@ FontFallBackRule
 ---
 
 
+###clear{#clear}
+
 | Name | Description |
 | --- | --- |
 | clear () | Removes all fonts from the list. |
@@ -85,49 +95,59 @@ FontFallBackRule
 ---
 
 
+###getCount{#getCount}
+
 | Name | Description |
 | --- | --- |
 | getCount () | Gets the number of fonts actually defined for range. Read-only int. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
 
+###getRangeEndIndex{#getRangeEndIndex}
+
 | Name | Description |
 | --- | --- |
 | getRangeEndIndex () | Get last index of continuous unicode range. |
 
-### Result
+ **Result**
 long
 
 
 ---
 
+
+###getRangeStartIndex{#getRangeStartIndex}
 
 | Name | Description |
 | --- | --- |
 | getRangeStartIndex () | Get first index of continuous unicode range. |
 
-### Result
+ **Result**
 long
 
 
 ---
 
 
+###get_Item{#get_Item}
+
 | Name | Description |
 | --- | --- |
 | get_Item (int) | Gets the font name at the specified index. Read-only IFontFallBackRule. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###indexOf{#indexOf}
 
 | Name | Description |
 | --- | --- |
@@ -139,12 +159,14 @@ String
 | --- | --- | --- |
 | fontName | String | Font's name to find. |
 
-### Result
+ **Result**
 int
 
 
 ---
 
+
+###remove{#remove}
 
 | Name | Description |
 | --- | --- |
@@ -160,6 +182,8 @@ int
 ---
 
 
+###removeAt{#removeAt}
+
 | Name | Description |
 | --- | --- |
 | removeAt (int) | Removes the FallBack font at the specified index of the list. |
@@ -174,6 +198,8 @@ int
 ---
 
 
+###setRangeEndIndex{#setRangeEndIndex}
+
 | Name | Description |
 | --- | --- |
 | setRangeEndIndex (long) | Get last index of continuous unicode range. |
@@ -181,6 +207,8 @@ int
 
 ---
 
+
+###setRangeStartIndex{#setRangeStartIndex}
 
 | Name | Description |
 | --- | --- |
@@ -190,16 +218,20 @@ int
 ---
 
 
+###toArray{#toArray}
+
 | Name | Description |
 | --- | --- |
 | toArray () | Creates and returns an array with all FallBack fonts for this rule. |
 
-### Result
+ **Result**
 String
 
 
 ---
 
+
+###toArray{#toArray}
 
 | Name | Description |
 | --- | --- |
@@ -212,7 +244,7 @@ String
 | startIndex | int | An index of a first font to add. |
 | count | int | A number of fonts to add. |
 
-### Result
+ **Result**
 String
 
 
