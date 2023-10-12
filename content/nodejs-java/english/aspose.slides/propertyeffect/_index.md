@@ -20,7 +20,7 @@ PropertyEffect
 ---
 
 
-| [getBy] () Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| [getBy] () | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
 ### Result
 String
@@ -29,7 +29,7 @@ String
 ---
 
 
-| [getCalcMode] () Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+| [getCalcMode] () | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
 ### Result
 int
@@ -38,7 +38,7 @@ int
 ---
 
 
-| [getFrom] () Specifies the starting value of the animation. Read/write String. |
+| [getFrom] () | Specifies the starting value of the animation. Read/write String. |
 
 ### Result
 String
@@ -47,7 +47,7 @@ String
 ---
 
 
-| [getPoints] () Specifies the points of the animation. Read/write IPointCollection. |
+| [getPoints] () | Specifies the points of the animation. Read/write IPointCollection. |
 
 ### Result
 [PointCollection]
@@ -56,7 +56,7 @@ String
 ---
 
 
-| [getTo] () Specifies the ending value for the animation. Read/write String. |
+| [getTo] () | Specifies the ending value for the animation. Read/write String. |
 
 ### Result
 String
@@ -65,7 +65,7 @@ String
 ---
 
 
-| [getValueType] () Specifies the type of a property value. Read/write PropertyValueType. |
+| [getValueType] () | Specifies the type of a property value. Read/write PropertyValueType. |
 
 ### Result
 int
@@ -74,37 +74,37 @@ int
 ---
 
 
-| [setBy] ([String]) Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
+| [setBy] ([String]) | Specifies a relative offset value for the animation with respect to its position before the start of the animation. Read/write String. |
 
 
 ---
 
 
-| [setCalcMode] ([int]) Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
+| [setCalcMode] ([int]) | Specifies the interpolation mode for the animation Read/write PropertyCalcModeType. |
 
 
 ---
 
 
-| [setFrom] ([String]) Specifies the starting value of the animation. Read/write String. |
+| [setFrom] ([String]) | Specifies the starting value of the animation. Read/write String. |
 
 
 ---
 
 
-| [setPoints] ([PointCollection]) Specifies the points of the animation. Read/write IPointCollection. |
+| [setPoints] ([PointCollection]) | Specifies the points of the animation. Read/write IPointCollection. |
 
 
 ---
 
 
-| [setTo] ([String]) Specifies the ending value for the animation. Read/write String. |
+| [setTo] ([String]) | Specifies the ending value for the animation. Read/write String. |
 
 
 ---
 
 
-| [setValueType] ([int]) Specifies the type of a property value. Read/write PropertyValueType. |
+| [setValueType] ([int]) | Specifies the type of a property value. Read/write PropertyValueType. |
 
 
 ---

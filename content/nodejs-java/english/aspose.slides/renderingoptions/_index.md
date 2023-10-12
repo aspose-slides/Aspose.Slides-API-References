@@ -20,7 +20,7 @@ RenderingOptions
 ---
 
 
-| [getNotesCommentsLayouting] () Provides options that control how notes and comments is placed in exported document. |
+| [getNotesCommentsLayouting] () | Provides options that control how notes and comments is placed in exported document. |
 
 ### Result
 [NotesCommentsLayoutingOptions]

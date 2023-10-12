@@ -24,7 +24,7 @@ License
 ---
 
 
-| [getVersion] () Returns version of Aspose.Slides for Java. |
+| [getVersion] () | Returns version of Aspose.Slides for Java. |
 
 ### Result
 String
@@ -33,7 +33,7 @@ String
 ---
 
 
-| [isLicensed] ()  |
+| [isLicensed] () |  |
 
 ### Result
 boolean
@@ -42,13 +42,13 @@ boolean
 ---
 
 
-| [resetLicense] () Reset the license Use this function to reset license in component License license = new License(); license.resetLicense(); |
+| [resetLicense] () | Reset the license Use this function to reset license in component License license = new License(); license.resetLicense(); |
 
 
 ---
 
 
-| [setLicenseFromStream ] (License, [ReadStream], Function) Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+| [setLicenseFromStream ] (License, [ReadStream], Function) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
 ### Parameters
 
@@ -62,7 +62,7 @@ boolean
 ---
 
 
-| [setLicense] ([String]) Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
+| [setLicense] ([String]) | Licenses the component. In this example, an attempt will be made to find a license file named MyLicense.lic in the folder that contains the component, in the folder that contains the calling assembly, in the folder of the entry assembly and then in the embedded resources of the calling assembly. |
 
 ### Parameters
 

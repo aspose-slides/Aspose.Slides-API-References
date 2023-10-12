@@ -61,7 +61,7 @@ Hyperlink
 ---
 
 
-| [equals] ([Object]) Determines whether the two Hyperlink instances are equal. |
+| [equals] ([Object]) | Determines whether the two Hyperlink instances are equal. |
 
 ### Parameters
 
@@ -76,7 +76,7 @@ boolean
 ---
 
 
-| [equals] ([Hyperlink]) Determines whether the two Hyperlink instances are equal. |
+| [equals] ([Hyperlink]) | Determines whether the two Hyperlink instances are equal. |
 
 ### Parameters
 
@@ -91,7 +91,7 @@ boolean
 ---
 
 
-| [getActionType] () Returns type of Hyperlink's action. Read-only HyperlinkActionType. |
+| [getActionType] () | Returns type of Hyperlink's action. Read-only HyperlinkActionType. |
 
 ### Result
 int
@@ -100,7 +100,7 @@ int
 ---
 
 
-| [getColorSource] () Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
+| [getColorSource] () | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 
 ### Result
 int
@@ -109,7 +109,7 @@ int
 ---
 
 
-| [getEndShow] () Returns a hyperlink which ends the show. Read-only Hyperlink. |
+| [getEndShow] () | Returns a hyperlink which ends the show. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -118,7 +118,7 @@ Hyperlink
 ---
 
 
-| [getExternalUrl] () Specifies the external URL. Read-only String. |
+| [getExternalUrl] () | Specifies the external URL. Read-only String. |
 
 ### Result
 String
@@ -127,7 +127,7 @@ String
 ---
 
 
-| [getFirstSlide] () Returns a hyperlink to the first slide of the presentation. Read-only Hyperlink. |
+| [getFirstSlide] () | Returns a hyperlink to the first slide of the presentation. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -136,7 +136,7 @@ Hyperlink
 ---
 
 
-| [getHighlightClick] () Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
+| [getHighlightClick] () | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
 
 ### Result
 boolean
@@ -145,7 +145,7 @@ boolean
 ---
 
 
-| [getHistory] () Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
+| [getHistory] () | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
 
 ### Result
 boolean
@@ -154,7 +154,7 @@ boolean
 ---
 
 
-| [getLastSlide] () Returns a hyperlink to the last slide of the presentation. Read-only Hyperlink. |
+| [getLastSlide] () | Returns a hyperlink to the last slide of the presentation. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -163,7 +163,7 @@ Hyperlink
 ---
 
 
-| [getLastVievedSlide] () Returns a hyperlink to the last viewed slide. Read-only Hyperlink. |
+| [getLastVievedSlide] () | Returns a hyperlink to the last viewed slide. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -172,7 +172,7 @@ Hyperlink
 ---
 
 
-| [getMedia] () Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame. Read-only Hyperlink. |
+| [getMedia] () | Returns a special "play mediafile" hyperlink. Used in AudioFrame and VideoFrame. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -181,7 +181,7 @@ Hyperlink
 ---
 
 
-| [getNextSlide] () Returns a hyperlink to the next slide. Read-only Hyperlink. |
+| [getNextSlide] () | Returns a hyperlink to the next slide. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -190,7 +190,7 @@ Hyperlink
 ---
 
 
-| [getNoAction] () Returns a special "do nothing" hyperlink. Read-only Hyperlink. |
+| [getNoAction] () | Returns a special "do nothing" hyperlink. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -199,7 +199,7 @@ Hyperlink
 ---
 
 
-| [getPreviousSlide] () Returns a hyperlink to the previous slide. Read-only Hyperlink. |
+| [getPreviousSlide] () | Returns a hyperlink to the previous slide. Read-only Hyperlink. |
 
 ### Result
 Hyperlink
@@ -208,7 +208,7 @@ Hyperlink
 ---
 
 
-| [getSound] () Represents the playing sound of the hyperlink. Read/write IAudio. |
+| [getSound] () | Represents the playing sound of the hyperlink. Read/write IAudio. |
 
 ### Result
 [Audio]
@@ -217,7 +217,7 @@ Hyperlink
 ---
 
 
-| [getStopSoundOnClick] () Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
+| [getStopSoundOnClick] () | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
 
 ### Result
 boolean
@@ -226,7 +226,7 @@ boolean
 ---
 
 
-| [getTargetFrame] () Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
+| [getTargetFrame] () | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 
 ### Result
 String
@@ -235,7 +235,7 @@ String
 ---
 
 
-| [getTargetSlide] () If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
+| [getTargetSlide] () | If the Hyperlink targets specific slide returns this slide. Read-only ISlide. |
 
 ### Result
 [Slide]
@@ -244,7 +244,7 @@ String
 ---
 
 
-| [getTooltip] () Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
+| [getTooltip] () | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
 
 ### Result
 String
@@ -253,7 +253,7 @@ String
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -262,7 +262,7 @@ long
 ---
 
 
-| [hashCode] () Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| [hashCode] () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### Result
 int
@@ -271,7 +271,7 @@ int
 ---
 
 
-| [op_Equality] ([Hyperlink], [Hyperlink]) Tests two hyperlinks for equality. |
+| [op_Equality] ([Hyperlink], [Hyperlink]) | Tests two hyperlinks for equality. |
 
 ### Parameters
 
@@ -287,7 +287,7 @@ boolean
 ---
 
 
-| [op_Inequality] ([Hyperlink], [Hyperlink]) Tests two hyperlinks for inequality. |
+| [op_Inequality] ([Hyperlink], [Hyperlink]) | Tests two hyperlinks for inequality. |
 
 ### Parameters
 
@@ -303,43 +303,43 @@ boolean
 ---
 
 
-| [setColorSource] ([int]) Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
+| [setColorSource] ([int]) | Represents the source of hyperlink color - either styles or portion format. Read/write HyperlinkColorSource. |
 
 
 ---
 
 
-| [setHighlightClick] ([boolean]) Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
+| [setHighlightClick] ([boolean]) | Determines whether the hyperlink should be highlighted on click. Read/write boolean. |
 
 
 ---
 
 
-| [setHistory] ([boolean]) Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
+| [setHistory] ([boolean]) | Determines whether the target of the parent hyperlink shall be added to a list of viewed hyperlinks when it is invoked. Read/write boolean. |
 
 
 ---
 
 
-| [setSound] ([Audio]) Represents the playing sound of the hyperlink. Read/write IAudio. |
+| [setSound] ([Audio]) | Represents the playing sound of the hyperlink. Read/write IAudio. |
 
 
 ---
 
 
-| [setStopSoundOnClick] ([boolean]) Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
+| [setStopSoundOnClick] ([boolean]) | Determines whether the sound should be stopped on hyperlink click. Read/write boolean. |
 
 
 ---
 
 
-| [setTargetFrame] ([String]) Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
+| [setTargetFrame] ([String]) | Returns the frame within the parent HTML frameset for the target of the parent hyperlink when one exists. Read/wite String. |
 
 
 ---
 
 
-| [setTooltip] ([String]) Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
+| [setTooltip] ([String]) | Returns the string which may be surfaced in a user interface as associated with the parent hyperlink. Read/write String. |
 
 
 ---

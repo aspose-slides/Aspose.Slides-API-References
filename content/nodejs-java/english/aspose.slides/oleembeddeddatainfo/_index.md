@@ -36,7 +36,7 @@ OleEmbeddedDataInfo
 ---
 
 
-| [getEmbeddedFileData] () Returns the file data of an embedded OLE object Read only byte[]. |
+| [getEmbeddedFileData] () | Returns the file data of an embedded OLE object Read only byte[]. |
 
 ### Result
 byte
@@ -45,7 +45,7 @@ byte
 ---
 
 
-| [getEmbeddedFileExtension] () Returns the file extension for the current embedded OLE object Read only String. |
+| [getEmbeddedFileExtension] () | Returns the file extension for the current embedded OLE object Read only String. |
 
 ### Result
 String

@@ -12,7 +12,7 @@ url: /aspose.slides/filloverlay/
  Represents a Fill Overlay effect. A fill overlay may be used to specify
  an additional fill for an object and blend the two fills together.
  
-| [equals] ([Object]) Determines whether the specified FillOverlay is equal to the current FillOverlay. |
+| [equals] ([Object]) | Determines whether the specified FillOverlay is equal to the current FillOverlay. |
 
 ### Parameters
 
@@ -27,7 +27,7 @@ boolean
 ---
 
 
-| [getBlend] () FillBlendMode. Read/write FillBlendMode. |
+| [getBlend] () | FillBlendMode. Read/write FillBlendMode. |
 
 ### Result
 int
@@ -36,7 +36,7 @@ int
 ---
 
 
-| [getEffective] () Gets effective Fill Overlay effect data with the inheritance applied. |
+| [getEffective] () | Gets effective Fill Overlay effect data with the inheritance applied. |
 
 ### Result
 [FillOverlayEffectiveData]
@@ -45,7 +45,7 @@ int
 ---
 
 
-| [getFillFormat] () Fill format. Read-only IFillFormat. |
+| [getFillFormat] () | Fill format. Read-only IFillFormat. |
 
 ### Result
 [FillFormat]
@@ -54,7 +54,7 @@ int
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -63,7 +63,7 @@ long
 ---
 
 
-| [hashCode] () Serves as a hash function for a particular type. |
+| [hashCode] () | Serves as a hash function for a particular type. |
 
 ### Result
 int
@@ -72,7 +72,7 @@ int
 ---
 
 
-| [setBlend] ([int]) FillBlendMode. Read/write FillBlendMode. |
+| [setBlend] ([int]) | FillBlendMode. Read/write FillBlendMode. |
 
 
 ---

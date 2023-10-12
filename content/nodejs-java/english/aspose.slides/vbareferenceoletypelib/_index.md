@@ -20,7 +20,7 @@ VbaReferenceOleTypeLib
 ---
 
 
-| [getLibid] () Represents the identifier of an Automation type library. Read/write String. |
+| [getLibid] () | Represents the identifier of an Automation type library. Read/write String. |
 
 ### Result
 String
@@ -29,7 +29,7 @@ String
 ---
 
 
-| [getName] () Represents the name of the VBA project reference. Read/write String. |
+| [getName] () | Represents the name of the VBA project reference. Read/write String. |
 
 ### Result
 String
@@ -38,13 +38,13 @@ String
 ---
 
 
-| [setLibid] ([String]) Represents the identifier of an Automation type library. Read/write String. |
+| [setLibid] ([String]) | Represents the identifier of an Automation type library. Read/write String. |
 
 
 ---
 
 
-| [setName] ([String]) Represents the name of the VBA project reference. Read/write String. |
+| [setName] ([String]) | Represents the name of the VBA project reference. Read/write String. |
 
 
 ---

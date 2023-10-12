@@ -27,7 +27,7 @@ StreamBuffer
 ---
 
 
-| [read] ([int])  |
+| [read] ([int]) |  |
 
 ### Result
 byte
@@ -36,13 +36,13 @@ byte
 ---
 
 
-| [reset] ()  |
+| [reset] () |  |
 
 
 ---
 
 
-| [toInputStream] ()  |
+| [toInputStream] () |  |
 
 ### Result
 [InputStream]

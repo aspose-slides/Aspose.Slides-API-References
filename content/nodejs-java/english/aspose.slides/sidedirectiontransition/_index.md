@@ -11,7 +11,7 @@ url: /aspose.slides/sidedirectiontransition/
 
  Side direction slide transition effect.
  
-| [getDirection] () Direction of transition. Read/write TransitionSideDirectionType. |
+| [getDirection] () | Direction of transition. Read/write TransitionSideDirectionType. |
 
 ### Result
 int
@@ -20,7 +20,7 @@ int
 ---
 
 
-| [setDirection] ([int]) Direction of transition. Read/write TransitionSideDirectionType. |
+| [setDirection] ([int]) | Direction of transition. Read/write TransitionSideDirectionType. |
 
 
 ---

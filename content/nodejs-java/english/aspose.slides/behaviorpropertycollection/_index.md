@@ -11,7 +11,7 @@ url: /aspose.slides/behaviorpropertycollection/
 
  Represents timing properties for the effect behavior.
  
-| [add] ([BehaviorProperty]) Adds a new property to the collection. |
+| [add] ([BehaviorProperty]) | Adds a new property to the collection. |
 
 ### Parameters
 
@@ -23,7 +23,7 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
-| [add] ([String]) Adds a new property to the collection. |
+| [add] ([String]) | Adds a new property to the collection. |
 
 ### Parameters
 
@@ -35,19 +35,19 @@ url: /aspose.slides/behaviorpropertycollection/
 ---
 
 
-| [addItem] ([BehaviorProperty])  |
+| [addItem] ([BehaviorProperty]) |  |
 
 
 ---
 
 
-| [clear] () Removes all properties from the collection. |
+| [clear] () | Removes all properties from the collection. |
 
 
 ---
 
 
-| [contains] ([BehaviorProperty]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([BehaviorProperty]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -62,7 +62,7 @@ boolean
 ---
 
 
-| [contains] ([String]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([String]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -77,7 +77,7 @@ boolean
 ---
 
 
-| [containsItem] ([BehaviorProperty])  |
+| [containsItem] ([BehaviorProperty]) |  |
 
 ### Result
 boolean
@@ -86,7 +86,7 @@ boolean
 ---
 
 
-| [copyTo] ([com.aspose.slides.IBehaviorProperty[]], [int]) Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| [copyTo] ([com.aspose.slides.IBehaviorProperty[]], [int]) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
 ### Parameters
 
@@ -105,13 +105,13 @@ boolean
 ---
 
 
-| [copyToTArray] ([com.aspose.slides.IBehaviorProperty[]], [int])  |
+| [copyToTArray] ([com.aspose.slides.IBehaviorProperty[]], [int]) |  |
 
 
 ---
 
 
-| [get_Item] ([int]) Returns a property at the specified index. |
+| [get_Item] ([int]) | Returns a property at the specified index. |
 
 ### Parameters
 
@@ -126,7 +126,7 @@ boolean
 ---
 
 
-| [indexOf] ([BehaviorProperty]) Determines the index of a specific item in the List. |
+| [indexOf] ([BehaviorProperty]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -141,7 +141,7 @@ int
 ---
 
 
-| [indexOf] ([String]) Determines the index of a specific item by property value in the List. |
+| [indexOf] ([String]) | Determines the index of a specific item by property value in the List. |
 
 ### Parameters
 
@@ -156,7 +156,7 @@ int
 ---
 
 
-| [indexOfItem] ([BehaviorProperty])  |
+| [indexOfItem] ([BehaviorProperty]) |  |
 
 ### Result
 int
@@ -165,7 +165,7 @@ int
 ---
 
 
-| [insert] ([int], [BehaviorProperty]) Inserts a new property to the collection at the specified index. |
+| [insert] ([int], [BehaviorProperty]) | Inserts a new property to the collection at the specified index. |
 
 ### Parameters
 
@@ -178,7 +178,7 @@ int
 ---
 
 
-| [insert] ([int], [String]) Inserts a new property (with the specified property value) to the collection at the specified index. |
+| [insert] ([int], [String]) | Inserts a new property (with the specified property value) to the collection at the specified index. |
 
 ### Parameters
 
@@ -191,13 +191,13 @@ int
 ---
 
 
-| [insertItem] ([int], [BehaviorProperty])  |
+| [insertItem] ([int], [BehaviorProperty]) |  |
 
 
 ---
 
 
-| [isReadOnly] () Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| [isReadOnly] () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
 ### Result
 boolean
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -215,7 +215,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -224,7 +224,7 @@ boolean
 ---
 
 
-| [remove] ([BehaviorProperty]) Removes specified property from the collection. |
+| [remove] ([BehaviorProperty]) | Removes specified property from the collection. |
 
 ### Parameters
 
@@ -239,7 +239,7 @@ boolean
 ---
 
 
-| [remove] ([String]) Removes specified property from the collection. |
+| [remove] ([String]) | Removes specified property from the collection. |
 
 ### Parameters
 
@@ -254,7 +254,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes property at the specified index. |
+| [removeAt] ([int]) | Removes property at the specified index. |
 
 ### Parameters
 
@@ -266,7 +266,7 @@ boolean
 ---
 
 
-| [removeItem] ([BehaviorProperty])  |
+| [removeItem] ([BehaviorProperty]) |  |
 
 ### Result
 boolean
@@ -275,7 +275,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [BehaviorProperty]) Sets a property at the specified index. |
+| [set_Item] ([int], [BehaviorProperty]) | Sets a property at the specified index. |
 
 ### Parameters
 
@@ -287,7 +287,7 @@ boolean
 ---
 
 
-| [size] () Returns the number of properties stored in the collection. Read-only int. |
+| [size] () | Returns the number of properties stored in the collection. Read-only int. |
 
 ### Result
 int

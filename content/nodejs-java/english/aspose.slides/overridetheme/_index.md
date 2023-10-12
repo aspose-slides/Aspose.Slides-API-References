@@ -11,13 +11,13 @@ url: /aspose.slides/overridetheme/
 
  Represents a overriding theme.
  
-| [clear] () Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object. |
+| [clear] () | Set ColorScheme, FontScheme, FormatScheme to null to disable any overriding with this theme object. |
 
 
 ---
 
 
-| [getColorScheme] () Returns the color scheme. Read-only IColorScheme. |
+| [getColorScheme] () | Returns the color scheme. Read-only IColorScheme. |
 
 ### Result
 [ColorScheme]
@@ -26,7 +26,7 @@ url: /aspose.slides/overridetheme/
 ---
 
 
-| [getFontScheme] () Returns the font scheme. Read-only IFontScheme. |
+| [getFontScheme] () | Returns the font scheme. Read-only IFontScheme. |
 
 ### Result
 [FontScheme]
@@ -35,7 +35,7 @@ url: /aspose.slides/overridetheme/
 ---
 
 
-| [getFormatScheme] () Returns the shape format scheme. Read-only IFormatScheme. |
+| [getFormatScheme] () | Returns the shape format scheme. Read-only IFormatScheme. |
 
 ### Result
 [FormatScheme]
@@ -44,7 +44,7 @@ url: /aspose.slides/overridetheme/
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -53,7 +53,7 @@ long
 ---
 
 
-| [initColorScheme] () Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
+| [initColorScheme] () | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
 
 ### Error
 
@@ -65,7 +65,7 @@ long
 ---
 
 
-| [initColorSchemeFrom] ([ColorScheme]) Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
+| [initColorSchemeFrom] ([ColorScheme]) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
 
 ### Parameters
 
@@ -83,7 +83,7 @@ long
 ---
 
 
-| [initColorSchemeFromInherited] () Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme. |
+| [initColorSchemeFromInherited] () | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. And initialize data of this new object with data of the ColorScheme of InheritedTheme. |
 
 ### Error
 
@@ -95,7 +95,7 @@ long
 ---
 
 
-| [initFontScheme] () Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
+| [initFontScheme] () | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
 
 ### Error
 
@@ -107,7 +107,7 @@ long
 ---
 
 
-| [initFontSchemeFrom] ([FontScheme]) Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
+| [initFontSchemeFrom] ([FontScheme]) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
 
 ### Parameters
 
@@ -125,7 +125,7 @@ long
 ---
 
 
-| [initFontSchemeFromInherited] () Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme. |
+| [initFontSchemeFromInherited] () | Init FontScheme with new object for overriding FontScheme of InheritedTheme. And initialize data of this new object with data of the FontScheme of InheritedTheme. |
 
 ### Error
 
@@ -137,7 +137,7 @@ long
 ---
 
 
-| [initFormatScheme] () Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
+| [initFormatScheme] () | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
 
 ### Error
 
@@ -149,7 +149,7 @@ long
 ---
 
 
-| [initFormatSchemeFrom] ([FormatScheme]) Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
+| [initFormatSchemeFrom] ([FormatScheme]) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
 
 ### Parameters
 
@@ -167,7 +167,7 @@ long
 ---
 
 
-| [initFormatSchemeFromInherited] () Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
+| [initFormatSchemeFromInherited] () | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. And initialize data of this new object with data of the FormatScheme of InheritedTheme. |
 
 ### Error
 
@@ -179,7 +179,7 @@ long
 ---
 
 
-| [isEmpty] () True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only boolean. |
+| [isEmpty] () | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only boolean. |
 
 ### Result
 boolean

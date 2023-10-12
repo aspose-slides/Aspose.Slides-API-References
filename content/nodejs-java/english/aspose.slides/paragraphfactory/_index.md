@@ -22,7 +22,7 @@ ParagraphFactory
 ---
 
 
-| [createParagraph] () Creates a new empty paragraph. |
+| [createParagraph] () | Creates a new empty paragraph. |
 
 ### Result
 [Paragraph]
@@ -31,7 +31,7 @@ ParagraphFactory
 ---
 
 
-| [createParagraph] ([Paragraph]) Creates a new paragraph with specified paragraph data using. |
+| [createParagraph] ([Paragraph]) | Creates a new paragraph with specified paragraph data using. |
 
 ### Parameters
 

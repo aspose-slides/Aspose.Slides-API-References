@@ -11,7 +11,7 @@ url: /aspose.slides/table/
 
  Represents a table on a slide.
  
-| [getColumns] () Returns the collectoin of columns. Read-only IColumnCollection. |
+| [getColumns] () | Returns the collectoin of columns. Read-only IColumnCollection. |
 
 ### Result
 [ColumnCollection]
@@ -20,7 +20,7 @@ url: /aspose.slides/table/
 ---
 
 
-| [getFillFormat] () Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
+| [getFillFormat] () | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
 
 ### Result
 [FillFormat]
@@ -29,7 +29,7 @@ url: /aspose.slides/table/
 ---
 
 
-| [getFirstCol] () Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean. |
+| [getFirstCol] () | Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean. |
 
 ### Result
 boolean
@@ -38,7 +38,7 @@ boolean
 ---
 
 
-| [getFirstRow] () Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
+| [getFirstRow] () | Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
 
 ### Result
 boolean
@@ -47,7 +47,7 @@ boolean
 ---
 
 
-| [getHorizontalBanding] () Determines whether the even rows has to be drawn with a different formatting. Read/write boolean. |
+| [getHorizontalBanding] () | Determines whether the even rows has to be drawn with a different formatting. Read/write boolean. |
 
 ### Result
 boolean
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-| [getLastCol] () Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean. |
+| [getLastCol] () | Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean. |
 
 ### Result
 boolean
@@ -65,7 +65,7 @@ boolean
 ---
 
 
-| [getLastRow] () Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean. |
+| [getLastRow] () | Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean. |
 
 ### Result
 boolean
@@ -74,7 +74,7 @@ boolean
 ---
 
 
-| [getRightToLeft] () Determines whether the table has right to left reading order. Read-write boolean. |
+| [getRightToLeft] () | Determines whether the table has right to left reading order. Read-write boolean. |
 
 ### Result
 boolean
@@ -83,7 +83,7 @@ boolean
 ---
 
 
-| [getRows] () Returns the collectoin of rows. Read-only IRowCollection. |
+| [getRows] () | Returns the collectoin of rows. Read-only IRowCollection. |
 
 ### Result
 [RowCollection]
@@ -92,7 +92,7 @@ boolean
 ---
 
 
-| [getStylePreset] () Gets or sets builtin table style. Read/write TableStylePreset. |
+| [getStylePreset] () | Gets or sets builtin table style. Read/write TableStylePreset. |
 
 ### Result
 int
@@ -101,7 +101,7 @@ int
 ---
 
 
-| [getTableFormat] () Returns the TableFormat object that contains formatting properties for this table. Read-only ITableFormat. |
+| [getTableFormat] () | Returns the TableFormat object that contains formatting properties for this table. Read-only ITableFormat. |
 
 ### Result
 [TableFormat]
@@ -110,7 +110,7 @@ int
 ---
 
 
-| [getVerticalBanding] () Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |
+| [getVerticalBanding] () | Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |
 
 ### Result
 boolean
@@ -119,7 +119,7 @@ boolean
 ---
 
 
-| [get_Item] ([int], [int]) Returns the cell at the specified column and row indexes. Read-only Cell. |
+| [get_Item] ([int], [int]) | Returns the cell at the specified column and row indexes. Read-only Cell. |
 
 ### Result
 [Cell]
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-| [mergeCells] ([Cell], [Cell], [boolean]) Merges neighbour cells. |
+| [mergeCells] ([Cell], [Cell], [boolean]) | Merges neighbour cells. |
 
 ### Parameters
 
@@ -145,49 +145,49 @@ boolean
 ---
 
 
-| [setFirstCol] ([boolean]) Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean. |
+| [setFirstCol] ([boolean]) | Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean. |
 
 
 ---
 
 
-| [setFirstRow] ([boolean]) Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
+| [setFirstRow] ([boolean]) | Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
 
 
 ---
 
 
-| [setHorizontalBanding] ([boolean]) Determines whether the even rows has to be drawn with a different formatting. Read/write boolean. |
+| [setHorizontalBanding] ([boolean]) | Determines whether the even rows has to be drawn with a different formatting. Read/write boolean. |
 
 
 ---
 
 
-| [setLastCol] ([boolean]) Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean. |
+| [setLastCol] ([boolean]) | Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean. |
 
 
 ---
 
 
-| [setLastRow] ([boolean]) Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean. |
+| [setLastRow] ([boolean]) | Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean. |
 
 
 ---
 
 
-| [setRightToLeft] ([boolean]) Determines whether the table has right to left reading order. Read-write boolean. |
+| [setRightToLeft] ([boolean]) | Determines whether the table has right to left reading order. Read-write boolean. |
 
 
 ---
 
 
-| [setStylePreset] ([int]) Gets or sets builtin table style. Read/write TableStylePreset. |
+| [setStylePreset] ([int]) | Gets or sets builtin table style. Read/write TableStylePreset. |
 
 
 ---
 
 
-| [setTextFormat] ([PortionFormat]) Sets defined portion format properties to all table cells' portions. |
+| [setTextFormat] ([PortionFormat]) | Sets defined portion format properties to all table cells' portions. |
 
 ### Parameters
 
@@ -199,7 +199,7 @@ boolean
 ---
 
 
-| [setTextFormat] ([ParagraphFormat]) Sets defined paragraph format properties to all table cells' paragraphs. |
+| [setTextFormat] ([ParagraphFormat]) | Sets defined paragraph format properties to all table cells' paragraphs. |
 
 ### Parameters
 
@@ -211,7 +211,7 @@ boolean
 ---
 
 
-| [setTextFormat] ([TextFrameFormat]) Sets defined text frame format properties to all table cells' text frames. |
+| [setTextFormat] ([TextFrameFormat]) | Sets defined text frame format properties to all table cells' text frames. |
 
 ### Parameters
 
@@ -223,7 +223,7 @@ boolean
 ---
 
 
-| [setVerticalBanding] ([boolean]) Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |
+| [setVerticalBanding] ([boolean]) | Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |
 
 
 ---

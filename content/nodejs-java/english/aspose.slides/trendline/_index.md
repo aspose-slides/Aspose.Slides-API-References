@@ -11,7 +11,7 @@ url: /aspose.slides/trendline/
 
  Class represents trend line of chart series
  
-| [addTextFrameForOverriding] ([String]) Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
+| [addTextFrameForOverriding] ([String]) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/trendline/
 ---
 
 
-| [getBackward] () Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write double. |
+| [getBackward] () | Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write double. |
 
 ### Result
 double
@@ -35,7 +35,7 @@ double
 ---
 
 
-| [getChart] () Returns the parent chart. Read-only IChart. |
+| [getChart] () | Returns the parent chart. Read-only IChart. |
 
 ### Result
 [Chart]
@@ -44,7 +44,7 @@ double
 ---
 
 
-| [getDisplayEquation] () Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue). Read/write boolean. |
+| [getDisplayEquation] () | Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue). Read/write boolean. |
 
 ### Result
 boolean
@@ -53,7 +53,7 @@ boolean
 ---
 
 
-| [getDisplayRSquaredValue] () Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation). Read/write boolean. |
+| [getDisplayRSquaredValue] () | Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation). Read/write boolean. |
 
 ### Result
 boolean
@@ -62,7 +62,7 @@ boolean
 ---
 
 
-| [getFormat] () Represents the format of the trend line. Read/write IFormat. |
+| [getFormat] () | Represents the format of the trend line. Read/write IFormat. |
 
 ### Result
 [Format]
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [getForward] () Specifies the number of categories (or units on a scatter chart) that the trendline extends after the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative value. Read/write double. |
+| [getForward] () | Specifies the number of categories (or units on a scatter chart) that the trendline extends after the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative value. Read/write double. |
 
 ### Result
 double
@@ -80,7 +80,7 @@ double
 ---
 
 
-| [getIntercept] () Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write double. |
+| [getIntercept] () | Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write double. |
 
 ### Result
 double
@@ -89,7 +89,7 @@ double
 ---
 
 
-| [getOrder] () Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
+| [getOrder] () | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
 
 ### Result
 byte
@@ -98,7 +98,7 @@ byte
 ---
 
 
-| [getPeriod] () Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
+| [getPeriod] () | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
 
 ### Result
 byte
@@ -107,7 +107,7 @@ byte
 ---
 
 
-| [getPresentation] () Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -116,7 +116,7 @@ byte
 ---
 
 
-| [getRelatedLegendEntry] () Represents legend entry related with this trendline Read-only ILegendEntryProperties. |
+| [getRelatedLegendEntry] () | Represents legend entry related with this trendline Read-only ILegendEntryProperties. |
 
 ### Result
 [LegendEntryProperties]
@@ -125,7 +125,7 @@ byte
 ---
 
 
-| [getSlide] () Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| [getSlide] () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
 ### Result
 [MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
@@ -134,7 +134,7 @@ byte
 ---
 
 
-| [getTextFormat] () Returns text format. Read-only IChartTextFormat. |
+| [getTextFormat] () | Returns text format. Read-only IChartTextFormat. |
 
 ### Result
 [ChartTextFormat]
@@ -143,7 +143,7 @@ byte
 ---
 
 
-| [getTextFrameForOverriding] () Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only ITextFrame. |
+| [getTextFrameForOverriding] () | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only ITextFrame. |
 
 ### Result
 [TextFrame]
@@ -152,7 +152,7 @@ byte
 ---
 
 
-| [getTrendlineName] () Gets or sets name of the trendline. Read/write String. |
+| [getTrendlineName] () | Gets or sets name of the trendline. Read/write String. |
 
 ### Result
 String
@@ -161,7 +161,7 @@ String
 ---
 
 
-| [getTrendlineType] () Gets or sets type of trend line. Read/write TrendlineType. |
+| [getTrendlineType] () | Gets or sets type of trend line. Read/write TrendlineType. |
 
 ### Result
 int
@@ -170,61 +170,61 @@ int
 ---
 
 
-| [setBackward] ([double]) Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write double. |
+| [setBackward] ([double]) | Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write double. |
 
 
 ---
 
 
-| [setDisplayEquation] ([boolean]) Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue). Read/write boolean. |
+| [setDisplayEquation] ([boolean]) | Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue). Read/write boolean. |
 
 
 ---
 
 
-| [setDisplayRSquaredValue] ([boolean]) Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation). Read/write boolean. |
+| [setDisplayRSquaredValue] ([boolean]) | Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation). Read/write boolean. |
 
 
 ---
 
 
-| [setFormat] ([Format]) Represents the format of the trend line. Read/write IFormat. |
+| [setFormat] ([Format]) | Represents the format of the trend line. Read/write IFormat. |
 
 
 ---
 
 
-| [setForward] ([double]) Specifies the number of categories (or units on a scatter chart) that the trendline extends after the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative value. Read/write double. |
+| [setForward] ([double]) | Specifies the number of categories (or units on a scatter chart) that the trendline extends after the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative value. Read/write double. |
 
 
 ---
 
 
-| [setIntercept] ([double]) Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write double. |
+| [setIntercept] ([double]) | Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write double. |
 
 
 ---
 
 
-| [setOrder] ([byte]) Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
+| [setOrder] ([byte]) | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
 
 
 ---
 
 
-| [setPeriod] ([byte]) Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
+| [setPeriod] ([byte]) | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
 
 
 ---
 
 
-| [setTrendlineName] ([String]) Gets or sets name of the trendline. Read/write String. |
+| [setTrendlineName] ([String]) | Gets or sets name of the trendline. Read/write String. |
 
 
 ---
 
 
-| [setTrendlineType] ([int]) Gets or sets type of trend line. Read/write TrendlineType. |
+| [setTrendlineType] ([int]) | Gets or sets type of trend line. Read/write TrendlineType. |
 
 
 ---

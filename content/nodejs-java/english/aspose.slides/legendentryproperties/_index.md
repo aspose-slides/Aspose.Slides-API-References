@@ -11,7 +11,7 @@ url: /aspose.slides/legendentryproperties/
 
  Represents legend properties of a chart.
  
-| [getChart] () Returns the parent chart. Read-only IChart. |
+| [getChart] () | Returns the parent chart. Read-only IChart. |
 
 ### Result
 [Chart]
@@ -20,7 +20,7 @@ url: /aspose.slides/legendentryproperties/
 ---
 
 
-| [getHide] () Determines whether the legend entry is hide. Read/write boolean. |
+| [getHide] () | Determines whether the legend entry is hide. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +29,7 @@ boolean
 ---
 
 
-| [getPresentation] () Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -38,7 +38,7 @@ boolean
 ---
 
 
-| [getSlide] () Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| [getSlide] () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
 ### Result
 [MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
@@ -47,7 +47,7 @@ boolean
 ---
 
 
-| [getTextFormat] () Returns text format. Read-only IChartTextFormat. |
+| [getTextFormat] () | Returns text format. Read-only IChartTextFormat. |
 
 ### Result
 [ChartTextFormat]
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-| [setHide] ([boolean]) Determines whether the legend entry is hide. Read/write boolean. |
+| [setHide] ([boolean]) | Determines whether the legend entry is hide. Read/write boolean. |
 
 
 ---

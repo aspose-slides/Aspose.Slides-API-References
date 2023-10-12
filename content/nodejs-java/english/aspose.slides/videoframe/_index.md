@@ -11,7 +11,7 @@ url: /aspose.slides/videoframe/
 
   Represents a video clip on a slide.
  
-| [getEmbeddedVideo] () Returns or sets embedded video object. Read/write IVideo. |
+| [getEmbeddedVideo] () | Returns or sets embedded video object. Read/write IVideo. |
 
 ### Result
 [Video]
@@ -20,7 +20,7 @@ url: /aspose.slides/videoframe/
 ---
 
 
-| [getFullScreenMode] () Determines whether a video is shown in full screen mode. Read/write boolean. |
+| [getFullScreenMode] () | Determines whether a video is shown in full screen mode. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +29,7 @@ boolean
 ---
 
 
-| [getHideAtShowing] () Determines whether a VideoFrame is hidden. Read/write boolean. |
+| [getHideAtShowing] () | Determines whether a VideoFrame is hidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -38,7 +38,7 @@ boolean
 ---
 
 
-| [getLinkPathLong] () Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
+| [getLinkPathLong] () | Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
 
 ### Result
 String
@@ -47,7 +47,7 @@ String
 ---
 
 
-| [getPlayLoopMode] () Determines whether a video is looped. Read/write boolean. |
+| [getPlayLoopMode] () | Determines whether a video is looped. Read/write boolean. |
 
 ### Result
 boolean
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-| [getPlayMode] () Returns or sets the video play mode. Read/write VideoPlayModePreset. |
+| [getPlayMode] () | Returns or sets the video play mode. Read/write VideoPlayModePreset. |
 
 ### Result
 int
@@ -65,7 +65,7 @@ int
 ---
 
 
-| [getRewindVideo] () Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
+| [getRewindVideo] () | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
 
 ### Result
 boolean
@@ -74,7 +74,7 @@ boolean
 ---
 
 
-| [getTrimFromEnd] () Trim end [ms] |
+| [getTrimFromEnd] () | Trim end [ms] |
 
 ### Result
 float
@@ -83,7 +83,7 @@ float
 ---
 
 
-| [getTrimFromStart] () Trim start [ms] |
+| [getTrimFromStart] () | Trim start [ms] |
 
 ### Result
 float
@@ -92,7 +92,7 @@ float
 ---
 
 
-| [getVolume] () Returns or sets the audio volume. Read/write AudioVolumeMode. |
+| [getVolume] () | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
 ### Result
 int
@@ -101,61 +101,61 @@ int
 ---
 
 
-| [setEmbeddedVideo] ([Video]) Returns or sets embedded video object. Read/write IVideo. |
+| [setEmbeddedVideo] ([Video]) | Returns or sets embedded video object. Read/write IVideo. |
 
 
 ---
 
 
-| [setFullScreenMode] ([boolean]) Determines whether a video is shown in full screen mode. Read/write boolean. |
+| [setFullScreenMode] ([boolean]) | Determines whether a video is shown in full screen mode. Read/write boolean. |
 
 
 ---
 
 
-| [setHideAtShowing] ([boolean]) Determines whether a VideoFrame is hidden. Read/write boolean. |
+| [setHideAtShowing] ([boolean]) | Determines whether a VideoFrame is hidden. Read/write boolean. |
 
 
 ---
 
 
-| [setLinkPathLong] ([String]) Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
+| [setLinkPathLong] ([String]) | Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
 
 
 ---
 
 
-| [setPlayLoopMode] ([boolean]) Determines whether a video is looped. Read/write boolean. |
+| [setPlayLoopMode] ([boolean]) | Determines whether a video is looped. Read/write boolean. |
 
 
 ---
 
 
-| [setPlayMode] ([int]) Returns or sets the video play mode. Read/write VideoPlayModePreset. |
+| [setPlayMode] ([int]) | Returns or sets the video play mode. Read/write VideoPlayModePreset. |
 
 
 ---
 
 
-| [setRewindVideo] ([boolean]) Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
+| [setRewindVideo] ([boolean]) | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
 
 
 ---
 
 
-| [setTrimFromEnd] ([float]) Trim end [ms] |
+| [setTrimFromEnd] ([float]) | Trim end [ms] |
 
 
 ---
 
 
-| [setTrimFromStart] ([float]) Trim start [ms] |
+| [setTrimFromStart] ([float]) | Trim start [ms] |
 
 
 ---
 
 
-| [setVolume] ([int]) Returns or sets the audio volume. Read/write AudioVolumeMode. |
+| [setVolume] ([int]) | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
 
 ---

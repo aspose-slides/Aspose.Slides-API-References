@@ -56,13 +56,13 @@ PresentationAnimationsGenerator
 ---
 
 
-| [dispose] () Disposes the instance of the PresentationAnimationsGenerator. |
+| [dispose] () | Disposes the instance of the PresentationAnimationsGenerator. |
 
 
 ---
 
 
-| [getDefaultDelay] () Gets or sets default delay time [ms]. |
+| [getDefaultDelay] () | Gets or sets default delay time [ms]. |
 
 ### Result
 int
@@ -71,7 +71,7 @@ int
 ---
 
 
-| [getExportedSlides] () Get the number of the exported slides count. |
+| [getExportedSlides] () | Get the number of the exported slides count. |
 
 ### Result
 int
@@ -80,7 +80,7 @@ int
 ---
 
 
-| [getFrameSize] () Gets the frame size. |
+| [getFrameSize] () | Gets the frame size. |
 
 ### Result
 Dimension
@@ -89,7 +89,7 @@ Dimension
 ---
 
 
-| [getIncludeHiddenSlides] () Get or sets if hidden slides should be included. |
+| [getIncludeHiddenSlides] () | Get or sets if hidden slides should be included. |
 
 ### Result
 boolean
@@ -98,31 +98,31 @@ boolean
 ---
 
 
-| [run] ([com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>]) Run the animation events generation for each slide. |
+| [run] ([com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>]) | Run the animation events generation for each slide. |
 
 
 ---
 
 
-| [run] ([com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>], [int], [PresentationPlayer.FrameTick]) Run the animation events generation for each slide. |
+| [run] ([com.aspose.ms.System.Collections.Generic.IGenericEnumerable<com.aspose.slides. ISlide>], [int], [PresentationPlayer.FrameTick]) | Run the animation events generation for each slide. |
 
 
 ---
 
 
-| [setDefaultDelay] ([int]) Gets or sets default delay time [ms]. |
+| [setDefaultDelay] ([int]) | Gets or sets default delay time [ms]. |
 
 
 ---
 
 
-| [setIncludeHiddenSlides] ([boolean]) Get or sets if hidden slides should be included. |
+| [setIncludeHiddenSlides] ([boolean]) | Get or sets if hidden slides should be included. |
 
 
 ---
 
 
-| [setNewAnimation] ([PresentationAnimationsGenerator.NewAnimation]) Set a new animation event. |
+| [setNewAnimation] ([PresentationAnimationsGenerator.NewAnimation]) | Set a new animation event. |
 
 ### Parameters
 

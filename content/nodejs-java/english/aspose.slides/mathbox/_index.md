@@ -149,21 +149,6 @@ MathBox
 ---
 
 
-| [MathBox]([MathGroupingCharacter]) | Initializes MathBox with the specified element as an argument |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the box is applied. Can be null. |
-
-### Result
-MathBox
-
-
----
-
-
 | [MathBox]([MathArray]) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
@@ -239,6 +224,21 @@ MathBox
 ---
 
 
+| [MathBox]([MathGroupingCharacter]) | Initializes MathBox with the specified element as an argument |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the box is applied. Can be null. |
+
+### Result
+MathBox
+
+
+---
+
+
 | [MathBox]([MathematicalText]) | Initializes MathBox with the specified element as an argument |
 
 ### Parameters
@@ -299,7 +299,7 @@ MathBox
 ---
 
 
-| [getAlignmentPoint] () When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
+| [getAlignmentPoint] () | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
 
 ### Result
 boolean
@@ -308,25 +308,25 @@ boolean
 ---
 
 
-| [getBase] () Base argument |
+| [getBase] () | Base argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getDifferential] () Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
+| [getDifferential] () | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
 
 ### Result
 boolean
@@ -335,7 +335,7 @@ boolean
 ---
 
 
-| [getExplicitBreak] () Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| [getExplicitBreak] () | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
 
 ### Result
 byte
@@ -344,7 +344,7 @@ byte
 ---
 
 
-| [getNoBreak] () No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
+| [getNoBreak] () | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
 
 ### Result
 boolean
@@ -353,7 +353,7 @@ boolean
 ---
 
 
-| [getOperatorEmulator] () Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
+| [getOperatorEmulator] () | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
 
 ### Result
 boolean
@@ -362,31 +362,31 @@ boolean
 ---
 
 
-| [setAlignmentPoint] ([boolean]) When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
+| [setAlignmentPoint] ([boolean]) | When true, this operator emulator serves as an alignment point; that is, designated alignment points in other equations can be aligned with it. Default: false |
 
 
 ---
 
 
-| [setDifferential] ([boolean]) Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
+| [setDifferential] ([boolean]) | Differential When true, the box acts as a differential (e.g., ?? in an integrand), and receives the appropriate horizontal spacing for the mathematical differential. Default: false |
 
 
 ---
 
 
-| [setExplicitBreak] ([byte]) Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
+| [setExplicitBreak] ([byte]) | Explicit break specifies whether there is a line break at the start of the Box object, such that the line wraps at the start of the box object. Specifies the number of the operator on the previous line of mathematical text which shall be used as the alignment point for the current line of mathematical text possible values: 1..255 Default: 0 (no explicit break) |
 
 
 ---
 
 
-| [setNoBreak] ([boolean]) No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
+| [setNoBreak] ([boolean]) | No break This property specifies the "unbreakable" property on the object box. When true, no line breaks can occur within the box. This can be important for operator emulators that consist of more than one binary operator. When this element is not specified, breaks can occur inside box. Default: true |
 
 
 ---
 
 
-| [setOperatorEmulator] ([boolean]) Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
+| [setOperatorEmulator] ([boolean]) | Operator Emulator. When true, the box and its contents behave as a single operator and inherit the properties of an operator. This means, for example, that the character can serve as a point for a line break and can be aligned to other operators. Operator Emulators are often used when one or more glyphs combine to form an operator, such as '=='. Default value: false |
 
 
 ---

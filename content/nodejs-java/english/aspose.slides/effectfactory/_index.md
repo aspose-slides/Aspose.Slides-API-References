@@ -22,7 +22,7 @@ EffectFactory
 ---
 
 
-| [createGlow] () Creates Glow effect. |
+| [createGlow] () | Creates Glow effect. |
 
 ### Result
 [Glow]
@@ -31,7 +31,7 @@ EffectFactory
 ---
 
 
-| [createInnerShadow] () Creates Inner shafow effect. |
+| [createInnerShadow] () | Creates Inner shafow effect. |
 
 ### Result
 [InnerShadow]
@@ -40,7 +40,7 @@ EffectFactory
 ---
 
 
-| [createOuterShadow] () Creates Outer shadow effect. |
+| [createOuterShadow] () | Creates Outer shadow effect. |
 
 ### Result
 [OuterShadow]
@@ -49,7 +49,7 @@ EffectFactory
 ---
 
 
-| [createPresetShadow] () Creates Preset shadow effect. |
+| [createPresetShadow] () | Creates Preset shadow effect. |
 
 ### Result
 [PresetShadow]
@@ -58,7 +58,7 @@ EffectFactory
 ---
 
 
-| [createReflection] () Creates Reflection effect. |
+| [createReflection] () | Creates Reflection effect. |
 
 ### Result
 [Reflection]
@@ -67,7 +67,7 @@ EffectFactory
 ---
 
 
-| [createSoftEdge] () Creates Soft Edge effect. |
+| [createSoftEdge] () | Creates Soft Edge effect. |
 
 ### Result
 [SoftEdge]
@@ -76,7 +76,7 @@ EffectFactory
 ---
 
 
-| [getImageTransformOperationFactory] () Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
+| [getImageTransformOperationFactory] () | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
 
 ### Result
 [ImageTransformOperationFactory]

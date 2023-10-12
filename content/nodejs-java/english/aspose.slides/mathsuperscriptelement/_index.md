@@ -93,15 +93,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathLimit], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathLimit], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -139,6 +130,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathLimit], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathLimit], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -264,15 +264,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathBorderBox], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathBorderBox], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -310,6 +301,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathBorderBox], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathBorderBox], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -435,15 +435,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathFraction], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathFraction], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -481,6 +472,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathFraction], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathFraction], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -606,15 +606,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathDelimiter], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathDelimiter], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -652,6 +643,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathDelimiter], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathDelimiter], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -777,15 +777,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathSuperscriptElement], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -823,6 +814,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -948,15 +948,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathLeftSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -994,6 +985,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathLeftSubSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -1119,15 +1119,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathRightSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -1165,6 +1156,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathRightSubSuperscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -1290,15 +1290,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathBox], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathBox], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -1336,6 +1327,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathBox], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathBox], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -1461,15 +1461,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathMatrix], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathMatrix], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -1515,6 +1506,15 @@ MathSuperscriptElement
 ---
 
 
+| [MathSuperscriptElement]([MathMatrix], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
 | [MathSuperscriptElement]([MathMatrix], [MathematicalText]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -1543,177 +1543,6 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathMatrix], [MathBar]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathLimit]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathBorderBox]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathFraction]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathDelimiter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathSuperscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathBox]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathMatrix]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathBlock]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathSubscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathFunction]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathematicalText]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathAccent]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathRadical]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
-| [MathSuperscriptElement]([MathGroupingCharacter], [MathBar]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -1803,15 +1632,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathArray], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathArray], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -1849,6 +1669,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathArray], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathArray], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -1974,15 +1803,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathBlock], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathBlock], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -2020,6 +1840,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathBlock], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathBlock], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -2145,15 +1974,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathSubscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathSubscriptElement], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -2191,6 +2011,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathSubscriptElement], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathSubscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -2316,15 +2145,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathFunction], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathFunction], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -2362,6 +2182,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathFunction], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathFunction], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -2487,15 +2316,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathNaryOperator], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathNaryOperator], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -2541,6 +2361,15 @@ MathSuperscriptElement
 ---
 
 
+| [MathSuperscriptElement]([MathNaryOperator], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
 | [MathSuperscriptElement]([MathNaryOperator], [MathematicalText]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -2569,6 +2398,177 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathNaryOperator], [MathBar]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathLimit]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathBorderBox]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathFraction]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathDelimiter]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathSuperscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathBox]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathMatrix]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathBlock]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathSubscriptElement]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathFunction]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathematicalText]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathAccent]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathRadical]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathGroupingCharacter], [MathBar]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -2658,15 +2658,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathematicalText], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathematicalText], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -2704,6 +2695,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathematicalText], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathematicalText], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -2829,15 +2829,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathAccent], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathAccent], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -2875,6 +2866,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathAccent], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathAccent], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -3000,15 +3000,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathRadical], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathRadical], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -3046,6 +3037,15 @@ MathSuperscriptElement
 
 
 | [MathSuperscriptElement]([MathRadical], [MathNaryOperator]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
+| [MathSuperscriptElement]([MathRadical], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
 MathSuperscriptElement
@@ -3171,15 +3171,6 @@ MathSuperscriptElement
 ---
 
 
-| [MathSuperscriptElement]([MathBar], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
-
-### Result
-MathSuperscriptElement
-
-
----
-
-
 | [MathSuperscriptElement]([MathBar], [MathArray]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -3225,6 +3216,15 @@ MathSuperscriptElement
 ---
 
 
+| [MathSuperscriptElement]([MathBar], [MathGroupingCharacter]) | Initializes a new instance of the MathSuperscriptElement class. |
+
+### Result
+MathSuperscriptElement
+
+
+---
+
+
 | [MathSuperscriptElement]([MathBar], [MathematicalText]) | Initializes a new instance of the MathSuperscriptElement class. |
 
 ### Result
@@ -3261,19 +3261,19 @@ MathSuperscriptElement
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getSuperscript] () Superscript |
+| [getSuperscript] () | Superscript |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---

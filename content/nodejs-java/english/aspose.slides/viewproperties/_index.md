@@ -11,7 +11,7 @@ url: /aspose.slides/viewproperties/
 
  Presentation wide view properties.
  
-| [getLastView] () Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
+| [getLastView] () | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
 
 ### Result
 int
@@ -20,7 +20,7 @@ int
 ---
 
 
-| [getNormalViewProperties] () Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only INormalViewProperties. |
+| [getNormalViewProperties] () | Represents normal view properties. The normal view consists of three content regions: the slide itself, a side content region, and a bottom content region. Read-only INormalViewProperties. |
 
 ### Result
 [NormalViewProperties]
@@ -29,7 +29,7 @@ int
 ---
 
 
-| [getNotesViewProperties] () Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewProperties. |
+| [getNotesViewProperties] () | Specifies common view properties associated with the notes view mode. Read-only ICommonSlideViewProperties. |
 
 ### Result
 [CommonSlideViewProperties]
@@ -38,7 +38,7 @@ int
 ---
 
 
-| [getShowComments] () Specifies whether the slide comments should be shown. Read/write NullableBool. |
+| [getShowComments] () | Specifies whether the slide comments should be shown. Read/write NullableBool. |
 
 ### Result
 byte
@@ -47,7 +47,7 @@ byte
 ---
 
 
-| [getSlideViewProperties] () Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
+| [getSlideViewProperties] () | Specifies common view properties associated with the slide view mode. Read-only ICommonSlideViewProperties. |
 
 ### Result
 [CommonSlideViewProperties]
@@ -56,13 +56,13 @@ byte
 ---
 
 
-| [setLastView] ([int]) Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
+| [setLastView] ([int]) | Specifies the view mode that was used when the presentation document was last saved. Read/write ViewType. |
 
 
 ---
 
 
-| [setShowComments] ([byte]) Specifies whether the slide comments should be shown. Read/write NullableBool. |
+| [setShowComments] ([byte]) | Specifies whether the slide comments should be shown. Read/write NullableBool. |
 
 
 ---

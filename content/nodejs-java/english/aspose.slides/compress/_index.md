@@ -20,7 +20,7 @@ Compress
 ---
 
 
-| [compressEmbeddedFonts] ([Presentation]) Makes compression of the Presentation by removing unused characters from embedded fonts. |
+| [compressEmbeddedFonts] ([Presentation]) | Makes compression of the Presentation by removing unused characters from embedded fonts. |
 
 ### Parameters
 
@@ -32,7 +32,7 @@ Compress
 ---
 
 
-| [removeUnusedLayoutSlides] ([Presentation]) Makes compression of the Presentation by removing unused layout slides. |
+| [removeUnusedLayoutSlides] ([Presentation]) | Makes compression of the Presentation by removing unused layout slides. |
 
 ### Parameters
 
@@ -44,7 +44,7 @@ Compress
 ---
 
 
-| [removeUnusedMasterSlides] ([Presentation]) Makes compression of the Presentation by removing unused master slides. |
+| [removeUnusedMasterSlides] ([Presentation]) | Makes compression of the Presentation by removing unused master slides. |
 
 ### Parameters
 

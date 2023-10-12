@@ -11,7 +11,7 @@ url: /aspose.slides/fillformat/
 
  Represents a fill formatting options.
  
-| [getEffective] () Gets effective fill formatting data with the inheritance applied. |
+| [getEffective] () | Gets effective fill formatting data with the inheritance applied. |
 
 ### Result
 [FillFormatEffectiveData]
@@ -20,7 +20,7 @@ url: /aspose.slides/fillformat/
 ---
 
 
-| [getFillType] () Returns or sets the type of filling. Read/write FillType. |
+| [getFillType] () | Returns or sets the type of filling. Read/write FillType. |
 
 ### Result
 byte
@@ -29,7 +29,7 @@ byte
 ---
 
 
-| [getGradientFormat] () Returns the gradient fill format. Read-only IGradientFormat. |
+| [getGradientFormat] () | Returns the gradient fill format. Read-only IGradientFormat. |
 
 ### Result
 [GradientFormat]
@@ -38,7 +38,7 @@ byte
 ---
 
 
-| [getPatternFormat] () Returns the pattern fill format. Read-only IPatternFormat. |
+| [getPatternFormat] () | Returns the pattern fill format. Read-only IPatternFormat. |
 
 ### Result
 [PatternFormat]
@@ -47,7 +47,7 @@ byte
 ---
 
 
-| [getPictureFillFormat] () Returns the picture fill format. Read-only IPictureFillFormat. |
+| [getPictureFillFormat] () | Returns the picture fill format. Read-only IPictureFillFormat. |
 
 ### Result
 [PictureFillFormat]
@@ -56,7 +56,7 @@ byte
 ---
 
 
-| [getRotateWithShape] () Determines whether the fill should be rotated with shape. Read/write NullableBool. |
+| [getRotateWithShape] () | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
 
 ### Result
 byte
@@ -65,7 +65,7 @@ byte
 ---
 
 
-| [getSolidFillColor] () Returns the fill color. Read-only IColorFormat. |
+| [getSolidFillColor] () | Returns the fill color. Read-only IColorFormat. |
 
 ### Result
 [ColorFormat]
@@ -74,7 +74,7 @@ byte
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -83,13 +83,13 @@ long
 ---
 
 
-| [setFillType] ([byte]) Returns or sets the type of filling. Read/write FillType. |
+| [setFillType] ([byte]) | Returns or sets the type of filling. Read/write FillType. |
 
 
 ---
 
 
-| [setRotateWithShape] ([byte]) Determines whether the fill should be rotated with shape. Read/write NullableBool. |
+| [setRotateWithShape] ([byte]) | Determines whether the fill should be rotated with shape. Read/write NullableBool. |
 
 
 ---

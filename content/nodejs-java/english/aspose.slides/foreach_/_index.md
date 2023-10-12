@@ -22,7 +22,7 @@ ForEach_
 ---
 
 
-| [layoutSlide] ([Presentation], [ForEach_.ForEachLayoutSlideCallback]) Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
+| [layoutSlide] ([Presentation], [ForEach_.ForEachLayoutSlideCallback]) | Iterate each #layoutSlide(Presentation,ForEachLayoutSlideCallback) in the Presentation. |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ ForEach_
 ---
 
 
-| [masterSlide] ([Presentation], [ForEach_.ForEachMasterSlideCallback]) Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
+| [masterSlide] ([Presentation], [ForEach_.ForEachMasterSlideCallback]) | Iterate each #masterSlide(Presentation,ForEachMasterSlideCallback) in the Presentation. |
 
 ### Parameters
 
@@ -48,7 +48,7 @@ ForEach_
 ---
 
 
-| [paragraph] ([Presentation], [ForEach_.ForEachParagraphCallback]) Iterate each Paragraph in the Presentation. |
+| [paragraph] ([Presentation], [ForEach_.ForEachParagraphCallback]) | Iterate each Paragraph in the Presentation. |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ ForEach_
 ---
 
 
-| [paragraph] ([Presentation], [boolean], [ForEach_.ForEachParagraphCallback]) Iterate each Paragraph in the Presentation. |
+| [paragraph] ([Presentation], [boolean], [ForEach_.ForEachParagraphCallback]) | Iterate each Paragraph in the Presentation. |
 
 ### Parameters
 
@@ -75,7 +75,7 @@ ForEach_
 ---
 
 
-| [portion] ([Presentation], [ForEach_.ForEachPortionCallback]) Iterate each Portion in the Presentation. |
+| [portion] ([Presentation], [ForEach_.ForEachPortionCallback]) | Iterate each Portion in the Presentation. |
 
 ### Parameters
 
@@ -88,7 +88,7 @@ ForEach_
 ---
 
 
-| [portion] ([Presentation], [boolean], [ForEach_.ForEachPortionCallback]) Iterate each Portion in the Presentation. |
+| [portion] ([Presentation], [boolean], [ForEach_.ForEachPortionCallback]) | Iterate each Portion in the Presentation. |
 
 ### Parameters
 
@@ -102,7 +102,7 @@ ForEach_
 ---
 
 
-| [shape] ([Presentation], [ForEach_.ForEachShapeCallback]) Iterate each Shape in the Presentation. |
+| [shape] ([Presentation], [ForEach_.ForEachShapeCallback]) | Iterate each Shape in the Presentation. |
 
 ### Parameters
 
@@ -115,7 +115,7 @@ ForEach_
 ---
 
 
-| [shape] ([Presentation], [boolean], [ForEach_.ForEachShapeCallback]) Iterate each Shape in the Presentation. |
+| [shape] ([Presentation], [boolean], [ForEach_.ForEachShapeCallback]) | Iterate each Shape in the Presentation. |
 
 ### Parameters
 
@@ -129,7 +129,7 @@ ForEach_
 ---
 
 
-| [shape] ([BaseSlide], [ForEach_.ForEachShapeCallback]) Iterate each Shape in the BaseSlide. |
+| [shape] ([BaseSlide], [ForEach_.ForEachShapeCallback]) | Iterate each Shape in the BaseSlide. |
 
 ### Parameters
 
@@ -142,7 +142,7 @@ ForEach_
 ---
 
 
-| [slide] ([Presentation], [ForEach_.ForEachSlideCallback]) Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |
+| [slide] ([Presentation], [ForEach_.ForEachSlideCallback]) | Iterate each #slide(Presentation,ForEachSlideCallback) in the Presentation. |
 
 ### Parameters
 

@@ -11,7 +11,7 @@ url: /aspose.slides/row/
 
  Represents a row in a table.
  
-| [getHeight] () Returns the height of a row. Read-only double. |
+| [getHeight] () | Returns the height of a row. Read-only double. |
 
 ### Result
 double
@@ -20,7 +20,7 @@ double
 ---
 
 
-| [getMinimalHeight] () Returns or sets the minimal possible height of a row. Read/write double. |
+| [getMinimalHeight] () | Returns or sets the minimal possible height of a row. Read/write double. |
 
 ### Result
 double
@@ -29,7 +29,7 @@ double
 ---
 
 
-| [getRowFormat] () Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
+| [getRowFormat] () | Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
 
 ### Result
 [RowFormat]
@@ -38,13 +38,13 @@ double
 ---
 
 
-| [setMinimalHeight] ([double]) Returns or sets the minimal possible height of a row. Read/write double. |
+| [setMinimalHeight] ([double]) | Returns or sets the minimal possible height of a row. Read/write double. |
 
 
 ---
 
 
-| [setTextFormat] ([PortionFormat]) Sets defined portion format properties to all row cells' portions. |
+| [setTextFormat] ([PortionFormat]) | Sets defined portion format properties to all row cells' portions. |
 
 ### Parameters
 
@@ -56,7 +56,7 @@ double
 ---
 
 
-| [setTextFormat] ([ParagraphFormat]) Sets defined paragraph format properties to all row cells' paragraphs. |
+| [setTextFormat] ([ParagraphFormat]) | Sets defined paragraph format properties to all row cells' paragraphs. |
 
 ### Parameters
 
@@ -68,7 +68,7 @@ double
 ---
 
 
-| [setTextFormat] ([TextFrameFormat]) Sets defined text frame format properties to all row cells' text frames. |
+| [setTextFormat] ([TextFrameFormat]) | Sets defined text frame format properties to all row cells' text frames. |
 
 ### Parameters
 

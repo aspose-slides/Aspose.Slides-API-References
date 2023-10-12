@@ -11,7 +11,7 @@ url: /aspose.slides/slidecollection/
 
  Represents a collection of a slides.
  
-| [addClone] ([Slide]) Adds a copy of a specified slide to the end of the collection. |
+| [addClone] ([Slide]) | Adds a copy of a specified slide to the end of the collection. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addClone] ([Slide], [Section]) Adds a copy of a specified slide to the end of the specified section. |
+| [addClone] ([Slide], [Section]) | Adds a copy of a specified slide to the end of the specified section. |
 
 ### Parameters
 
@@ -48,7 +48,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addClone] ([Slide], [LayoutSlide]) Adds a copy of a specified slide to the end of the collection. |
+| [addClone] ([Slide], [LayoutSlide]) | Adds a copy of a specified slide to the end of the collection. |
 
 ### Parameters
 
@@ -64,7 +64,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addClone] ([Slide], [MasterSlide], [boolean]) Adds a copy of a specified source slide to the end of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
+| [addClone] ([Slide], [MasterSlide], [boolean]) | Adds a copy of a specified source slide to the end of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
 ### Parameters
 
@@ -87,7 +87,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addEmptySlide] ([LayoutSlide]) Adds a new empty slide to the end of the collection. |
+| [addEmptySlide] ([LayoutSlide]) | Adds a new empty slide to the end of the collection. |
 
 ### Parameters
 
@@ -102,7 +102,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromHtml] ([String], [ExternalResourceResolver], [String]) Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtml] ([String], [ExternalResourceResolver], [String]) | Creates slides from HTML text and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -119,7 +119,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromHtml] ([String], [HtmlExternalResolver], [String]) Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtml] ([String], [HtmlExternalResolver], [String]) | Creates slides from HTML text and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -136,7 +136,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromHtml] ([String]) Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtml] ([String]) | Creates slides from HTML text and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -151,7 +151,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromHtmlFromStream ] (SlideCollection, [ReadStream], [ExternalResourceResolver],  [String], Function) Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtmlFromStream ] (SlideCollection, [ReadStream], [ExternalResourceResolver],  [String], Function) | Creates slides from HTML text and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -170,7 +170,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromHtmlFromStream ] (SlideCollection, [ReadStream], [HtmlExternalResolver], [String],  Function) Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtmlFromStream ] (SlideCollection, [ReadStream], [HtmlExternalResolver], [String],  Function) | Creates slides from HTML text and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -189,7 +189,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromHtmlFromStream ] (SlideCollection, [ReadStream], Function) Creates slides from HTML text and adds them to the end of the collection. |
+| [addFromHtmlFromStream ] (SlideCollection, [ReadStream], Function) | Creates slides from HTML text and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -206,7 +206,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromPdf] ([String]) Creates slides from the PDF document and adds them to the end of the collection. |
+| [addFromPdf] ([String]) | Creates slides from the PDF document and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -221,7 +221,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [addFromPdfFromStream ] (SlideCollection, [ReadStream], Function) Creates slides from the PDF document and adds them to the end of the collection. |
+| [addFromPdfFromStream ] (SlideCollection, [ReadStream], Function) | Creates slides from the PDF document and adds them to the end of the collection. |
 
 ### Parameters
 
@@ -238,7 +238,7 @@ url: /aspose.slides/slidecollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -247,7 +247,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. Read-only Slide. |
+| [get_Item] ([int]) | Gets the element at the specified index. Read-only Slide. |
 
 ### Result
 [Slide]
@@ -256,7 +256,7 @@ Object
 ---
 
 
-| [indexOf] ([Slide]) Returns an index of the specified slide in the collection. |
+| [indexOf] ([Slide]) | Returns an index of the specified slide in the collection. |
 
 ### Parameters
 
@@ -271,7 +271,7 @@ int
 ---
 
 
-| [insertClone] ([int], [Slide]) Inserts a copy of a specified slide to specified position of the collection. |
+| [insertClone] ([int], [Slide]) | Inserts a copy of a specified slide to specified position of the collection. |
 
 ### Parameters
 
@@ -287,7 +287,7 @@ int
 ---
 
 
-| [insertClone] ([int], [Slide], [LayoutSlide]) Inserts a copy of a specified slide to specified position of the collection. |
+| [insertClone] ([int], [Slide], [LayoutSlide]) | Inserts a copy of a specified slide to specified position of the collection. |
 
 ### Parameters
 
@@ -304,7 +304,7 @@ int
 ---
 
 
-| [insertClone] ([int], [Slide], [MasterSlide], [boolean]) Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
+| [insertClone] ([int], [Slide], [MasterSlide], [boolean]) | Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
 ### Parameters
 
@@ -328,7 +328,7 @@ int
 ---
 
 
-| [insertEmptySlide] ([int], [LayoutSlide]) Inserts a copy of a specified slide to specified position of the collection. |
+| [insertEmptySlide] ([int], [LayoutSlide]) | Inserts a copy of a specified slide to specified position of the collection. |
 
 ### Parameters
 
@@ -344,7 +344,7 @@ int
 ---
 
 
-| [insertFromHtml] ([int], [String], [ExternalResourceResolver], [String]) Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml] ([int], [String], [ExternalResourceResolver], [String]) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
 ### Parameters
 
@@ -362,7 +362,7 @@ int
 ---
 
 
-| [insertFromHtml] ([int], [String], [HtmlExternalResolver], [String]) Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml] ([int], [String], [HtmlExternalResolver], [String]) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
 ### Parameters
 
@@ -380,7 +380,7 @@ int
 ---
 
 
-| [insertFromHtml] ([int], [String]) Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtml] ([int], [String]) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
 ### Parameters
 
@@ -396,7 +396,7 @@ int
 ---
 
 
-| [insertFromHtmlFromStream ] (SlideCollection, [int], [ReadStream],  [ExternalResourceResolver], [String], Function) Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtmlFromStream ] (SlideCollection, [int], [ReadStream],  [ExternalResourceResolver], [String], Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
 ### Parameters
 
@@ -416,7 +416,7 @@ int
 ---
 
 
-| [insertFromHtmlFromStream ] (SlideCollection, [int], [ReadStream], [HtmlExternalResolver],  [String], Function) Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtmlFromStream ] (SlideCollection, [int], [ReadStream], [HtmlExternalResolver],  [String], Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
 ### Parameters
 
@@ -436,7 +436,7 @@ int
 ---
 
 
-| [insertFromHtmlFromStream ] (SlideCollection, [int], [ReadStream], Function) Creates slides from HTML text and inserts them to the collection at the specified position. |
+| [insertFromHtmlFromStream ] (SlideCollection, [int], [ReadStream], Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
 ### Parameters
 
@@ -454,7 +454,7 @@ int
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -463,7 +463,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -472,7 +472,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -481,7 +481,7 @@ boolean
 ---
 
 
-| [remove] ([Slide]) Removes the first occurrence of a specific object from the collection. |
+| [remove] ([Slide]) | Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
@@ -493,7 +493,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes the element at the specified index of the collection. |
+| [removeAt] ([int]) | Removes the element at the specified index of the collection. |
 
 ### Parameters
 
@@ -511,7 +511,7 @@ boolean
 ---
 
 
-| [reorder] ([int], [Slide]) Moves slide from the collection to the specified position. |
+| [reorder] ([int], [Slide]) | Moves slide from the collection to the specified position. |
 
 ### Parameters
 
@@ -524,7 +524,7 @@ boolean
 ---
 
 
-| [reorder] ([int], [com.aspose.slides.ISlide[]]) Moves slides from the collection to the specified position. Slides will be placed starting from index in order they appear in list. |
+| [reorder] ([int], [com.aspose.slides.ISlide[]]) | Moves slides from the collection to the specified position. Slides will be placed starting from index in order they appear in list. |
 
 ### Parameters
 
@@ -537,7 +537,7 @@ boolean
 ---
 
 
-| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int
@@ -546,7 +546,7 @@ int
 ---
 
 
-| [toArray] () Creates and returns an array with all slides in it. |
+| [toArray] () | Creates and returns an array with all slides in it. |
 
 ### Result
 [Slide]
@@ -555,7 +555,7 @@ int
 ---
 
 
-| [toArray] ([int], [int]) Creates and returns an array with all slides from the specified range in it. |
+| [toArray] ([int], [int]) | Creates and returns an array with all slides from the specified range in it. |
 
 ### Parameters
 

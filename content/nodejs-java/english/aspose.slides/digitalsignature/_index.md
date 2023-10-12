@@ -43,7 +43,7 @@ DigitalSignature
 ---
 
 
-| [getCertificate] () Certificate object that was used to sign the document. Read-only byte[]. |
+| [getCertificate] () | Certificate object that was used to sign the document. Read-only byte[]. |
 
 ### Result
 byte
@@ -52,7 +52,7 @@ byte
 ---
 
 
-| [getComments] () The purpose of signature. Read/write String. |
+| [getComments] () | The purpose of signature. Read/write String. |
 
 ### Result
 String
@@ -61,7 +61,7 @@ String
 ---
 
 
-| [getSignTime] () The time when the document was signed. Read-only java.util.Date. |
+| [getSignTime] () | The time when the document was signed. Read-only java.util.Date. |
 
 ### Result
 Date
@@ -70,7 +70,7 @@ Date
 ---
 
 
-| [isValid] () If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
+| [isValid] () | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
 
 ### Result
 boolean
@@ -79,7 +79,7 @@ boolean
 ---
 
 
-| [setComments] ([String]) The purpose of signature. Read/write String. |
+| [setComments] ([String]) | The purpose of signature. Read/write String. |
 
 
 ---

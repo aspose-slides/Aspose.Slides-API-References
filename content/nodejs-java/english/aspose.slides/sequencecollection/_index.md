@@ -11,7 +11,7 @@ url: /aspose.slides/sequencecollection/
 
  Represents collection of interactive sequences.
  
-| [add] ([LegacyDiagram]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([LegacyDiagram]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -20,7 +20,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([Connector]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([Connector]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -29,7 +29,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([GraphicalObject]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([GraphicalObject]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -38,7 +38,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([Shape]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([Shape]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -47,7 +47,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([Ink]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([Ink]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -56,7 +56,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([GroupShape]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([GroupShape]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -65,7 +65,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([SmartArtShape]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([SmartArtShape]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -74,7 +74,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([SummaryZoomSection]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([SummaryZoomSection]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -83,7 +83,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([ZoomObject]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([ZoomObject]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -92,7 +92,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([SmartArt]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([SmartArt]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -101,7 +101,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([VideoFrame]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([VideoFrame]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -110,7 +110,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([PictureFrame]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([PictureFrame]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -119,7 +119,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([ZoomFrame]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([ZoomFrame]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -128,7 +128,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([AutoShape]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([AutoShape]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -137,7 +137,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([OleObjectFrame]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([OleObjectFrame]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -146,7 +146,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([SectionZoomFrame]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([SectionZoomFrame]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -155,7 +155,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([AudioFrame]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([AudioFrame]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -164,7 +164,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([Chart]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([Chart]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -173,7 +173,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([Table]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([Table]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -182,7 +182,7 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [add] ([SummaryZoomFrame]) Add new interactive sequence. Read/write Sequence. |
+| [add] ([SummaryZoomFrame]) | Add new interactive sequence. Read/write Sequence. |
 
 ### Result
 [Sequence]
@@ -191,13 +191,13 @@ url: /aspose.slides/sequencecollection/
 ---
 
 
-| [clear] () Removes all sequences from a collection. |
+| [clear] () | Removes all sequences from a collection. |
 
 
 ---
 
 
-| [getCount] () Returns the number of elements in a collection Read-only int. |
+| [getCount] () | Returns the number of elements in a collection Read-only int. |
 
 ### Result
 int
@@ -206,7 +206,7 @@ int
 ---
 
 
-| [get_Item] ([int]) Returns a sequense at the specified index. |
+| [get_Item] ([int]) | Returns a sequense at the specified index. |
 
 ### Parameters
 
@@ -221,7 +221,7 @@ int
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -230,7 +230,7 @@ int
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -239,7 +239,7 @@ int
 ---
 
 
-| [remove] ([Sequence]) Removes specified sequence from a collection. |
+| [remove] ([Sequence]) | Removes specified sequence from a collection. |
 
 ### Parameters
 
@@ -251,7 +251,7 @@ int
 ---
 
 
-| [removeAt] ([int]) Removes sequence at the specified index. |
+| [removeAt] ([int]) | Removes sequence at the specified index. |
 
 ### Parameters
 

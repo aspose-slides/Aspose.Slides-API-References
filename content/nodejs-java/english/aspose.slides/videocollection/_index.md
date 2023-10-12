@@ -11,7 +11,7 @@ url: /aspose.slides/videocollection/
 
  Represents a collection of Video objects.
  
-| [addVideo] ([Video]) Adds a copy of an video file from an another presentation. |
+| [addVideo] ([Video]) | Adds a copy of an video file from an another presentation. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/videocollection/
 ---
 
 
-| [addVideoFromStream ] (VideoCollection, [ReadStream], Function) Creates and adds a video to a presentation from stream. |
+| [addVideoFromStream ] (VideoCollection, [ReadStream], Function) | Creates and adds a video to a presentation from stream. |
 
 ### Parameters
 
@@ -43,7 +43,7 @@ url: /aspose.slides/videocollection/
 ---
 
 
-| [addVideoFromStream ] (VideoCollection, [ReadStream], [int], Function) Creates and adds a video to a presentation from stream. |
+| [addVideoFromStream ] (VideoCollection, [ReadStream], [int], Function) | Creates and adds a video to a presentation from stream. |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ url: /aspose.slides/videocollection/
 ---
 
 
-| [addVideo] ([byte[]]) Creates and adds a video to a presentation from byte array. |
+| [addVideo] ([byte[]]) | Creates and adds a video to a presentation from byte array. |
 
 ### Parameters
 
@@ -76,7 +76,7 @@ url: /aspose.slides/videocollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -85,7 +85,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. Read-only IVideo. |
+| [get_Item] ([int]) | Gets the element at the specified index. Read-only IVideo. |
 
 ### Result
 [Video]
@@ -94,7 +94,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -103,7 +103,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -112,7 +112,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -121,7 +121,7 @@ boolean
 ---
 
 
-| [size] () Returns a number of video files in the collection. Read-only int. |
+| [size] () | Returns a number of video files in the collection. Read-only int. |
 
 ### Result
 int

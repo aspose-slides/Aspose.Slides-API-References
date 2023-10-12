@@ -146,21 +146,6 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathGroupingCharacter]) | Creates MathBorderBox element with rectangular border |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the border box is applied. Can be null. |
-
-### Result
-MathBorderBox
-
-
----
-
-
 | [MathBorderBox]([MathArray]) | Creates MathBorderBox element with rectangular border |
 
 ### Parameters
@@ -228,6 +213,21 @@ MathBorderBox
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator] | The base element to which the border box is applied. Can be null. |
+
+### Result
+MathBorderBox
+
+
+---
+
+
+| [MathBorderBox]([MathGroupingCharacter]) | Creates MathBorderBox element with rectangular border |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the border box is applied. Can be null. |
 
 ### Result
 MathBorderBox
@@ -503,29 +503,6 @@ MathBorderBox
 ---
 
 
-| [MathBorderBox]([MathGroupingCharacter], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the border box is applied |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
-
-### Result
-MathBorderBox
-
-
----
-
-
 | [MathBorderBox]([MathArray], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
 
 ### Parameters
@@ -641,6 +618,29 @@ MathBorderBox
 ---
 
 
+| [MathBorderBox]([MathGroupingCharacter], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the border box is applied |
+| hideTop | [boolean] | Hide Top Edge |
+| hideBottom | [boolean] | Hide Bottom Edge |
+| hideLeft | [boolean] | Hide Left Edge |
+| hideRight | [boolean] | Hide Right Edge |
+| strikethroughHorizontal | [boolean] | Strikethrough Horizontal |
+| strikethroughVertical | [boolean] | Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | [boolean] | Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | [boolean] | Strikethrough Top-Left to Bottom-Right |
+
+### Result
+MathBorderBox
+
+
+---
+
+
 | [MathBorderBox]([MathematicalText], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean]) | Creates MathBorderBox element |
 
 ### Parameters
@@ -733,34 +733,25 @@ MathBorderBox
 ---
 
 
-| [getBase] () Base argument |
+| [getBase] () | Base argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getHideBottom] () Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
-
-### Result
-boolean
-
-
----
-
-
-| [getHideLeft] () Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
+| [getHideBottom] () | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
 
 ### Result
 boolean
@@ -769,7 +760,7 @@ boolean
 ---
 
 
-| [getHideRight] () Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
+| [getHideLeft] () | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
 
 ### Result
 boolean
@@ -778,7 +769,7 @@ boolean
 ---
 
 
-| [getHideTop] () Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
+| [getHideRight] () | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
 
 ### Result
 boolean
@@ -787,7 +778,7 @@ boolean
 ---
 
 
-| [getStrikethroughBottomLeftToTopRight] () Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
+| [getHideTop] () | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
 
 ### Result
 boolean
@@ -796,7 +787,7 @@ boolean
 ---
 
 
-| [getStrikethroughHorizontal] () Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
+| [getStrikethroughBottomLeftToTopRight] () | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
 
 ### Result
 boolean
@@ -805,7 +796,7 @@ boolean
 ---
 
 
-| [getStrikethroughTopLeftToBottomRight] () Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
+| [getStrikethroughHorizontal] () | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
 
 ### Result
 boolean
@@ -814,7 +805,7 @@ boolean
 ---
 
 
-| [getStrikethroughVertical] () Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
+| [getStrikethroughTopLeftToBottomRight] () | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
 
 ### Result
 boolean
@@ -823,49 +814,58 @@ boolean
 ---
 
 
-| [setHideBottom] ([boolean]) Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
+| [getStrikethroughVertical] () | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
+
+### Result
+boolean
 
 
 ---
 
 
-| [setHideLeft] ([boolean]) Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
+| [setHideBottom] ([boolean]) | Hide Bottom Edge (default is false) - specifies the hidden or shown state of the bottom edge of border box. |
 
 
 ---
 
 
-| [setHideRight] ([boolean]) Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
+| [setHideLeft] ([boolean]) | Hide Left Edge (default is false) - specifies the hidden or shown state of the left edge of border box. |
 
 
 ---
 
 
-| [setHideTop] ([boolean]) Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
+| [setHideRight] ([boolean]) | Hide Right Edge (default is false) - specifies the hidden or shown state of the right edge of border box. |
 
 
 ---
 
 
-| [setStrikethroughBottomLeftToTopRight] ([boolean]) Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
+| [setHideTop] ([boolean]) | Hide Top Edge (default is false) - specifies the hidden or shown state of the top edge of border box. |
 
 
 ---
 
 
-| [setStrikethroughHorizontal] ([boolean]) Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
+| [setStrikethroughBottomLeftToTopRight] ([boolean]) | Strikethrough Bottom-Left to Top-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the bottom-left corner to the top-right corner of border box. |
 
 
 ---
 
 
-| [setStrikethroughTopLeftToBottomRight] ([boolean]) Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
+| [setStrikethroughHorizontal] ([boolean]) | Strikethrough Horizontal (default is false) - specifies the hidden or shown state of a strikethrough horizontal line. |
 
 
 ---
 
 
-| [setStrikethroughVertical] ([boolean]) Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
+| [setStrikethroughTopLeftToBottomRight] ([boolean]) | Strikethrough Top-Left to Bottom-Right (default is false). Specifies the hidden or shown state of a strikethrough diagonal line from the top-left corner to the bottom-right corner of border box. |
+
+
+---
+
+
+| [setStrikethroughVertical] ([boolean]) | Strikethrough Vertical (default is false) - specifies the hidden or shown state of a strikethrough vertical line. |
 
 
 ---

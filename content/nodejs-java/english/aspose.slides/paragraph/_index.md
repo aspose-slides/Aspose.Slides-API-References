@@ -29,7 +29,7 @@ Paragraph
 ---
 
 
-| [getEndParagraphPortionFormat] () Specifies the portion properties that are to be used if another portion is inserted after the last one. |
+| [getEndParagraphPortionFormat] () | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 
 ### Result
 [PortionFormat]
@@ -38,7 +38,7 @@ Paragraph
 ---
 
 
-| [getParagraphFormat] () Returns the formatting object for this paragraph. Read-only IParagraphFormat. The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied. In order to get the effective values including inherited ones use the ParagraphFormat#getEffective function. |
+| [getParagraphFormat] () | Returns the formatting object for this paragraph. Read-only IParagraphFormat. The formatting object contains the formatting parameters defined for the current paragraph only, inherited data is not applied. In order to get the effective values including inherited ones use the ParagraphFormat#getEffective function. |
 
 ### Result
 [ParagraphFormat]
@@ -47,7 +47,7 @@ Paragraph
 ---
 
 
-| [getPortions] () Returns the collection of a text portions. Read-only IPortionCollection. |
+| [getPortions] () | Returns the collection of a text portions. Read-only IPortionCollection. |
 
 ### Result
 [PortionCollection]
@@ -56,7 +56,7 @@ Paragraph
 ---
 
 
-| [getPresentation] () Returns the parent presentation of a paragraph. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation of a paragraph. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -65,7 +65,7 @@ Paragraph
 ---
 
 
-| [getRect] () Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
+| [getRect] () | Get coordinates of rect that bounds paragraph. The rect includes all the lines of text in paragraph, including empty ones. |
 
 ### Result
 Rectangle2D.Float
@@ -74,7 +74,7 @@ Rectangle2D.Float
 ---
 
 
-| [getSlide] () Returns the parent slide of a paragraph. Read-only BaseSlide. |
+| [getSlide] () | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 
 ### Result
 [MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
@@ -83,7 +83,7 @@ Rectangle2D.Float
 ---
 
 
-| [getText] () Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
+| [getText] () | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
 
 ### Result
 String
@@ -92,19 +92,19 @@ String
 ---
 
 
-| [joinPortionsWithSameFormatting] () Joins runs with same formatting. |
+| [joinPortionsWithSameFormatting] () | Joins runs with same formatting. |
 
 
 ---
 
 
-| [setEndParagraphPortionFormat] ([PortionFormat]) Specifies the portion properties that are to be used if another portion is inserted after the last one. |
+| [setEndParagraphPortionFormat] ([PortionFormat]) | Specifies the portion properties that are to be used if another portion is inserted after the last one. |
 
 
 ---
 
 
-| [setText] ([String]) Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
+| [setText] ([String]) | Gets or sets the the plain text of a paragraph. Read/write String. Value: The text. |
 
 
 ---

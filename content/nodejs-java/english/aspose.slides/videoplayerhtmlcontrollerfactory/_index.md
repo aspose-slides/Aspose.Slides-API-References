@@ -22,7 +22,7 @@ VideoPlayerHtmlControllerFactory
 ---
 
 
-| [createVideoPlayerHtmlController] ([String], [String], [String]) Creates new VideoPlayerHtmlController. |
+| [createVideoPlayerHtmlController] ([String], [String], [String]) | Creates new VideoPlayerHtmlController. |
 
 ### Parameters
 

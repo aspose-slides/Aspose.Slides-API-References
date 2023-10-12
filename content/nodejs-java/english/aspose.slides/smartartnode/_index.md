@@ -11,7 +11,7 @@ url: /aspose.slides/smartartnode/
 
  Represents node of a SmartArt object
  
-| [getBulletFillFormat] () Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only IFillFormat. |
+| [getBulletFillFormat] () | Returns the FillFormat object that contains fill formatting properties for a node bullet. Note: can return null for certain types of SmartArt layout which does not provide bullets for nodes. Read-only IFillFormat. |
 
 ### Result
 [FillFormat]
@@ -20,7 +20,7 @@ url: /aspose.slides/smartartnode/
 ---
 
 
-| [getChildNodes] () Returns collections of all child nodes of the current node. Read-only ISmartArtNodeCollection. |
+| [getChildNodes] () | Returns collections of all child nodes of the current node. Read-only ISmartArtNodeCollection. |
 
 ### Result
 [SmartArtNodeCollection]
@@ -29,7 +29,7 @@ url: /aspose.slides/smartartnode/
 ---
 
 
-| [getLevel] () Returns nesting level of the node. Read-only int. |
+| [getLevel] () | Returns nesting level of the node. Read-only int. |
 
 ### Result
 int
@@ -38,7 +38,7 @@ int
 ---
 
 
-| [getOrganizationChartLayout] () Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
+| [getOrganizationChartLayout] () | Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
 
 ### Result
 int
@@ -47,7 +47,7 @@ int
 ---
 
 
-| [getPosition] () Returns or sets zero-based position of node among sibling nodes. Read/write int. |
+| [getPosition] () | Returns or sets zero-based position of node among sibling nodes. Read/write int. |
 
 ### Result
 int
@@ -62,7 +62,7 @@ int
 ---
 
 
-| [getShapes] () Returns collections of all shapes associated with the node. Read-only ISmartArtShapeCollection. |
+| [getShapes] () | Returns collections of all shapes associated with the node. Read-only ISmartArtShapeCollection. |
 
 ### Result
 [SmartArtShapeCollection]
@@ -71,7 +71,7 @@ int
 ---
 
 
-| [getTextFrame] () Returns or sets text of the node. Read-only ITextFrame. |
+| [getTextFrame] () | Returns or sets text of the node. Read-only ITextFrame. |
 
 ### Result
 [TextFrame]
@@ -80,7 +80,7 @@ int
 ---
 
 
-| [isAssistant] () Returns or sets the node as assistant. Read/write boolean. |
+| [isAssistant] () | Returns or sets the node as assistant. Read/write boolean. |
 
 ### Result
 boolean
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-| [isHidden] () Returns true if this node is a hidden node in the data model. Read-only boolean. |
+| [isHidden] () | Returns true if this node is a hidden node in the data model. Read-only boolean. |
 
 ### Result
 boolean
@@ -98,7 +98,7 @@ boolean
 ---
 
 
-| [remove] () Remove current node. |
+| [remove] () | Remove current node. |
 
 ### Result
 boolean
@@ -107,19 +107,19 @@ boolean
 ---
 
 
-| [setAssistant] ([boolean]) Returns or sets the node as assistant. Read/write boolean. |
+| [setAssistant] ([boolean]) | Returns or sets the node as assistant. Read/write boolean. |
 
 
 ---
 
 
-| [setOrganizationChartLayout] ([int]) Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
+| [setOrganizationChartLayout] ([int]) | Returns or sets organization chart layout type associated with current node. Read/write OrganizationChartLayoutType. |
 
 
 ---
 
 
-| [setPosition] ([int]) Returns or sets zero-based position of node among sibling nodes. Read/write int. |
+| [setPosition] ([int]) | Returns or sets zero-based position of node among sibling nodes. Read/write int. |
 
 ### Error
 

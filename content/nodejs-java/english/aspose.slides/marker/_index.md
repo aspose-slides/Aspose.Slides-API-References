@@ -11,7 +11,7 @@ url: /aspose.slides/marker/
 
  Represents marker of a chert.
  
-| [getFormat] () Gets or sets the marker fill. Read-only IFormat. |
+| [getFormat] () | Gets or sets the marker fill. Read-only IFormat. |
 
 ### Result
 [Format]
@@ -20,7 +20,7 @@ url: /aspose.slides/marker/
 ---
 
 
-| [getSize] () Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
+| [getSize] () | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
 
 ### Result
 int
@@ -29,7 +29,7 @@ int
 ---
 
 
-| [getSymbol] () Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
+| [getSymbol] () | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
 
 ### Result
 int
@@ -38,13 +38,13 @@ int
 ---
 
 
-| [setSize] ([int]) Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
+| [setSize] ([int]) | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
 
 
 ---
 
 
-| [setSymbol] ([int]) Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
+| [setSymbol] ([int]) | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
 
 
 ---

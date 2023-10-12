@@ -11,7 +11,7 @@ url: /aspose.slides/audio/
 
  Represents an embedded audio file.
  
-| [getBinaryData] () Returns the copy of an audio's data. In case of large amount of data consider using of #getStream function to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only byte[]. |
+| [getBinaryData] () | Returns the copy of an audio's data. In case of large amount of data consider using of #getStream function to prevent unnecessary loading of audio's data into memory or even OutOfMemoryException. Read-only byte[]. |
 
 ### Result
 byte
@@ -20,7 +20,7 @@ byte
 ---
 
 
-| [getContentType] () Returns a MIME type of an audio, encoded in ( #getBinaryData). Read-only String. |
+| [getContentType] () | Returns a MIME type of an audio, encoded in ( #getBinaryData). Read-only String. |
 
 ### Result
 String
@@ -29,7 +29,7 @@ String
 ---
 
 
-| [getStream] () Returns Stream stream for reading. Use 'using' or close stream after using. |
+| [getStream] () | Returns Stream stream for reading. Use 'using' or close stream after using. |
 
 ### Result
 [InputStream]
@@ -38,7 +38,7 @@ String
 ---
 
 
-| [setContentType] ([String]) Returns a MIME type of an audio, encoded in ( #getBinaryData). Read-only String. |
+| [setContentType] ([String]) | Returns a MIME type of an audio, encoded in ( #getBinaryData). Read-only String. |
 
 
 ---

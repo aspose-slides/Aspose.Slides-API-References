@@ -20,7 +20,7 @@ ColorOffset
 ---
 
 
-| [getValue0] () Defines first value of offset. Read/write float. |
+| [getValue0] () | Defines first value of offset. Read/write float. |
 
 ### Result
 float
@@ -29,7 +29,7 @@ float
 ---
 
 
-| [getValue1] () Defines second value of offset. Read/write float. |
+| [getValue1] () | Defines second value of offset. Read/write float. |
 
 ### Result
 float
@@ -38,7 +38,7 @@ float
 ---
 
 
-| [getValue2] () Defines third value of offset. Read/write float. |
+| [getValue2] () | Defines third value of offset. Read/write float. |
 
 ### Result
 float
@@ -47,19 +47,19 @@ float
 ---
 
 
-| [setValue0] ([float]) Defines first value of offset. Read/write float. |
+| [setValue0] ([float]) | Defines first value of offset. Read/write float. |
 
 
 ---
 
 
-| [setValue1] ([float]) Defines second value of offset. Read/write float. |
+| [setValue1] ([float]) | Defines second value of offset. Read/write float. |
 
 
 ---
 
 
-| [setValue2] ([float]) Defines third value of offset. Read/write float. |
+| [setValue2] ([float]) | Defines third value of offset. Read/write float. |
 
 
 ---

@@ -13,7 +13,7 @@ url: /aspose.slides/masterlayoutslidecollection/
  Extends LayoutSlideCollection class with methods for adding/inserting/removing/cloning/reordering 
  layout slides in context of the individual collections of master's layout slides.
  
-| [add] ([byte], [String]) Adds a new layout slide to the end of the collection. |
+| [add] ([byte], [String]) | Adds a new layout slide to the end of the collection. |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [addClone] ([LayoutSlide]) Adds a copy of a specified layout slide to the end of the collection. |
+| [addClone] ([LayoutSlide]) | Adds a copy of a specified layout slide to the end of the collection. |
 
 ### Parameters
 
@@ -50,7 +50,7 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [insert] ([int], [byte], [String]) Inserts a new layout slide to specified position of the collection. |
+| [insert] ([int], [byte], [String]) | Inserts a new layout slide to specified position of the collection. |
 
 ### Parameters
 
@@ -73,7 +73,7 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [insertClone] ([int], [LayoutSlide]) Inserts a copy of a specified layout slide to specified position of the collection. |
+| [insertClone] ([int], [LayoutSlide]) | Inserts a copy of a specified layout slide to specified position of the collection. |
 
 ### Parameters
 
@@ -89,7 +89,7 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [removeAt] ([int]) Removes the element at the specified index of the collection. |
+| [removeAt] ([int]) | Removes the element at the specified index of the collection. |
 
 ### Parameters
 
@@ -107,7 +107,7 @@ url: /aspose.slides/masterlayoutslidecollection/
 ---
 
 
-| [reorder] ([int], [LayoutSlide]) Moves layout slide from the collection to the specified position. |
+| [reorder] ([int], [LayoutSlide]) | Moves layout slide from the collection to the specified position. |
 
 ### Parameters
 

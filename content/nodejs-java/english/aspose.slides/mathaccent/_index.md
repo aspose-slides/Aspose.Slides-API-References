@@ -147,21 +147,6 @@ MathAccent
 ---
 
 
-| [MathAccent]([MathGroupingCharacter]) | Creates a math accent applying to a specified math element with the default accent character value |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | a math element to apply accent |
-
-### Result
-MathAccent
-
-
----
-
-
 | [MathAccent]([MathArray]) | Creates a math accent applying to a specified math element with the default accent character value |
 
 ### Parameters
@@ -229,6 +214,21 @@ MathAccent
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator] | a math element to apply accent |
+
+### Result
+MathAccent
+
+
+---
+
+
+| [MathAccent]([MathGroupingCharacter]) | Creates a math accent applying to a specified math element with the default accent character value |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | a math element to apply accent |
 
 ### Result
 MathAccent
@@ -441,22 +441,6 @@ MathAccent
 ---
 
 
-| [MathAccent]([MathGroupingCharacter], [char]) | Creates a math accent applying to a specified math element |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply accent |
-| accentCharacter | [char] | accent character |
-
-### Result
-MathAccent
-
-
----
-
-
 | [MathAccent]([MathArray], [char]) | Creates a math accent applying to a specified math element |
 
 ### Parameters
@@ -537,6 +521,22 @@ MathAccent
 ---
 
 
+| [MathAccent]([MathGroupingCharacter], [char]) | Creates a math accent applying to a specified math element |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | math element to apply accent |
+| accentCharacter | [char] | accent character |
+
+### Result
+MathAccent
+
+
+---
+
+
 | [MathAccent]([MathematicalText], [char]) | Creates a math accent applying to a specified math element |
 
 ### Parameters
@@ -601,16 +601,16 @@ MathAccent
 ---
 
 
-| [getBase] () The argument to which the accent was applied |
+| [getBase] () | The argument to which the accent was applied |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getCharacter] () Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
+| [getCharacter] () | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
 
 ### Result
 char
@@ -619,16 +619,16 @@ char
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [setCharacter] ([char]) Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
+| [setCharacter] ([char]) | Accent Character The value should be within the range of (U+0300–U+036F) or(U+20D0–U+20EF) Default value: Combining Circumflex Accent (U+0302) |
 
 
 ---

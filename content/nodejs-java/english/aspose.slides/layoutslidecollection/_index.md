@@ -11,7 +11,7 @@ url: /aspose.slides/layoutslidecollection/
 
  Represents a base class for collection of a layout slides.
  
-| [getByType] ([byte]) Returns the first layout slide of specified type. |
+| [getByType] ([byte]) | Returns the first layout slide of specified type. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/layoutslidecollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -35,7 +35,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns the layout slide by index. Read-only LayoutSlide. |
+| [get_Item] ([int]) | Returns the layout slide by index. Read-only LayoutSlide. |
 
 ### Result
 [LayoutSlide]
@@ -44,7 +44,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -53,7 +53,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -62,7 +62,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [remove] ([LayoutSlide]) Removes a layout from the collection. |
+| [remove] ([LayoutSlide]) | Removes a layout from the collection. |
 
 ### Parameters
 
@@ -89,13 +89,13 @@ boolean
 ---
 
 
-| [removeUnused] () Removes unused layout slides (layout slides whose HasDependingSlides is false). |
+| [removeUnused] () | Removes unused layout slides (layout slides whose HasDependingSlides is false). |
 
 
 ---
 
 
-| [size] () Returns the number of layout slides in a collection. Read-only int. |
+| [size] () | Returns the number of layout slides in a collection. Read-only int. |
 
 ### Result
 int

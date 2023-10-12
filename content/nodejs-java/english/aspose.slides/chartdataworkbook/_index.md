@@ -11,7 +11,7 @@ url: /aspose.slides/chartdataworkbook/
 
  Provides access to embedded Excel workbook
  
-| [calculateFormulas] () Calculates all formulas in the workbook and updates corresponding cells values. |
+| [calculateFormulas] () | Calculates all formulas in the workbook and updates corresponding cells values. |
 
 ### Error
 
@@ -23,7 +23,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [clear] ([int]) Clear all cells values on sheet |
+| [clear] ([int]) | Clear all cells values on sheet |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [getCell] ([String], [int], [int]) Gets the cell that can be used for chart series or categories |
+| [getCell] ([String], [int], [int]) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
@@ -52,7 +52,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [getCell] ([int], [int], [int]) Gets the cell that can be used for chart series or categories |
+| [getCell] ([int], [int], [int]) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
@@ -69,7 +69,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [getCell] ([int], [String]) Gets the cell that can be used for chart series or categories |
+| [getCell] ([int], [String]) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
@@ -85,7 +85,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [getCell] ([int], [String], [Object]) Gets the cell that can be used for chart series or categories |
+| [getCell] ([int], [String], [Object]) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
@@ -102,7 +102,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [getCell] ([int], [int], [int], [Object]) Gets the cell that can be used for chart series or categories |
+| [getCell] ([int], [int], [int], [Object]) | Gets the cell that can be used for chart series or categories |
 
 ### Parameters
 
@@ -120,7 +120,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [getCellCollection] ([String], [boolean]) Gets the set of cells. |
+| [getCellCollection] ([String], [boolean]) | Gets the set of cells. |
 
 ### Parameters
 
@@ -136,7 +136,7 @@ url: /aspose.slides/chartdataworkbook/
 ---
 
 
-| [getWorksheets] () Gets a collection of worksheets. |
+| [getWorksheets] () | Gets a collection of worksheets. |
 
 ### Result
 [ChartDataWorksheetCollection]

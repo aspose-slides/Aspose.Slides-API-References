@@ -20,7 +20,7 @@ MotionPath
 ---
 
 
-| [add] ([int], [java.awt.geom.Point2D.Float[]], [int], [boolean]) Add new command to path |
+| [add] ([int], [java.awt.geom.Point2D.Float[]], [int], [boolean]) | Add new command to path |
 
 ### Parameters
 
@@ -38,13 +38,13 @@ MotionPath
 ---
 
 
-| [clear] () Removes all commands from the collection. |
+| [clear] () | Removes all commands from the collection. |
 
 
 ---
 
 
-| [getCount] () Returns the number of paths in the collection. Read-only int. |
+| [getCount] () | Returns the number of paths in the collection. Read-only int. |
 
 ### Result
 int
@@ -53,7 +53,7 @@ int
 ---
 
 
-| [get_Item] ([int]) Returns a command at the specified index. |
+| [get_Item] ([int]) | Returns a command at the specified index. |
 
 ### Parameters
 
@@ -68,7 +68,7 @@ int
 ---
 
 
-| [insert] ([int], [int], [java.awt.geom.Point2D.Float[]], [int], [boolean]) Insert new command to path |
+| [insert] ([int], [int], [java.awt.geom.Point2D.Float[]], [int], [boolean]) | Insert new command to path |
 
 ### Parameters
 
@@ -84,7 +84,7 @@ int
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -93,7 +93,7 @@ int
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -102,7 +102,7 @@ int
 ---
 
 
-| [remove] ([MotionCmdPath]) Removes specified commans from the collection. |
+| [remove] ([MotionCmdPath]) | Removes specified commans from the collection. |
 
 ### Parameters
 
@@ -114,7 +114,7 @@ int
 ---
 
 
-| [removeAt] ([int]) Removes a command at the specified index. |
+| [removeAt] ([int]) | Removes a command at the specified index. |
 
 ### Parameters
 

@@ -11,7 +11,7 @@ url: /aspose.slides/chartseriescollection/
 
  Represents collection of   ChartSeries
  
-| [add] ([int]) Creates new chart series and adds it to the collection. |
+| [add] ([int]) | Creates new chart series and adds it to the collection. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-| [add] ([ChartDataCell], [int]) Creates new chart series from ChartDataCell and adds it to the collection. |
+| [add] ([ChartDataCell], [int]) | Creates new chart series from ChartDataCell and adds it to the collection. |
 
 ### Parameters
 
@@ -42,7 +42,7 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-| [add] ([ChartCellCollection], [int]) Creates new chart series from ChartCellCollection and adds it to the collection. |
+| [add] ([ChartCellCollection], [int]) | Creates new chart series from ChartCellCollection and adds it to the collection. |
 
 ### Parameters
 
@@ -58,7 +58,7 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-| [add] ([String], [int]) Creates new chart series from value and adds it to the collection. |
+| [add] ([String], [int]) | Creates new chart series from value and adds it to the collection. |
 
 ### Parameters
 
@@ -74,13 +74,13 @@ url: /aspose.slides/chartseriescollection/
 ---
 
 
-| [clear] () Removes all controls from the collection. |
+| [clear] () | Removes all controls from the collection. |
 
 
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -89,7 +89,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. |
+| [get_Item] ([int]) | Gets the element at the specified index. |
 
 ### Result
 [ChartSeries]
@@ -104,7 +104,7 @@ Object
 ---
 
 
-| [indexOf] ([ChartSeries]) Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
+| [indexOf] ([ChartSeries]) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
 
 ### Parameters
 
@@ -119,7 +119,7 @@ int
 ---
 
 
-| [insert] ([int], [int]) Creates new chart series and inserts it into the collection. |
+| [insert] ([int], [int]) | Creates new chart series and inserts it into the collection. |
 
 ### Result
 [ChartSeries]
@@ -128,7 +128,7 @@ int
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -137,7 +137,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -146,7 +146,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -155,7 +155,7 @@ boolean
 ---
 
 
-| [remove] ([ChartSeries]) Removes the specified value. |
+| [remove] ([ChartSeries]) | Removes the specified value. |
 
 ### Parameters
 
@@ -173,7 +173,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes an ActiveX control stored at specified position from the collection. |
+| [removeAt] ([int]) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### Parameters
 
@@ -185,7 +185,7 @@ boolean
 ---
 
 
-| [size] () Returns a number of objects in the collection. Read-only int. |
+| [size] () | Returns a number of objects in the collection. Read-only int. |
 
 ### Result
 int

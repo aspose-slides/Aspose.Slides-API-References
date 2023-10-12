@@ -11,7 +11,7 @@ url: /aspose.slides/controlpropertiescollection/
 
  A collection of AcitveX properties.
  
-| [add] ([String], [String]) Adds a property to the collection. |
+| [add] ([String], [String]) | Adds a property to the collection. |
 
 ### Parameters
 
@@ -24,13 +24,13 @@ url: /aspose.slides/controlpropertiescollection/
 ---
 
 
-| [clear] () Removes all properties. |
+| [clear] () | Removes all properties. |
 
 
 ---
 
 
-| [getCount] () Returns a number of properties in the collection. Read-only int. |
+| [getCount] () | Returns a number of properties in the collection. Read-only int. |
 
 ### Result
 int
@@ -39,7 +39,7 @@ int
 ---
 
 
-| [getNamesOfProperties] () Returns the collection of properties names. Read-only IGenericCollection. |
+| [getNamesOfProperties] () | Returns the collection of properties names. Read-only IGenericCollection. |
 
 ### Result
 [LineFormatCollection], [ExtraColorSchemeCollection], [SmartArtShapeCollection], [RowCollection], [VbaModuleCollection], [VbaReferenceCollection], [FontSubstRuleCollection], [SectionSlideCollection], [CellCollection], [SortedList], [SectionCollection], [ReadOnlyCollection], [ColumnCollection], [TabCollection], [KeyedCollection], [ShapeCollection], [CommentAuthorCollection], [ChartCategoryCollection], [CustomXmlPartCollection], [Dictionary], [SlideCollection], [SortedDictionary], [LinkedList], [Column], [ColorOperationCollection], [ChartDataPointCollection], [Collection], [MasterSlideCollection], [MasterLayoutSlideCollection], [SummaryZoomSectionCollection], [ImageCollection], [GradientStopCollectionEffectiveData], [SmartArtNodeCollection], [BehaviorPropertyCollection], [VideoCollection], [TextAnimationCollection], [EffectStyleCollection], [ControlCollection], [PieSplitCustomPointCollection], [FontFallBackRulesCollection], [ImageTransformOCollectionEffectiveData], [DigitalSignatureCollection], [AudioCollection], [ChartSeriesCollection], [Row], [CommentCollection], [ImageTransformOperationCollection], [TagCollection], [GradientStopCollection], [List], [GlobalLayoutSlideCollection], [ChartDataWorksheetCollection], [LayoutSlideCollection], [FillFormatCollection]
@@ -48,7 +48,7 @@ int
 ---
 
 
-| [get_Item] ([String]) Returns or sets property. |
+| [get_Item] ([String]) | Returns or sets property. |
 
 ### Parameters
 
@@ -63,7 +63,7 @@ String
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -72,7 +72,7 @@ String
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -81,7 +81,7 @@ String
 ---
 
 
-| [remove] ([String]) Removes a property with the specified name. |
+| [remove] ([String]) | Removes a property with the specified name. |
 
 ### Parameters
 
@@ -93,7 +93,7 @@ String
 ---
 
 
-| [set_Item] ([String], [String]) Returns or sets property. |
+| [set_Item] ([String], [String]) | Returns or sets property. |
 
 ### Parameters
 

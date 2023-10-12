@@ -11,7 +11,7 @@ url: /aspose.slides/controlcollection/
 
  A collection of ActiveX controls.
  
-| [addControl] ([int], [float], [float], [float], [float]) Creates and adds a new control to the collection. |
+| [addControl] ([int], [float], [float], [float], [float]) | Creates and adds a new control to the collection. |
 
 ### Parameters
 
@@ -30,13 +30,13 @@ url: /aspose.slides/controlcollection/
 ---
 
 
-| [clear] () Removes all controls from the collection. |
+| [clear] () | Removes all controls from the collection. |
 
 
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -45,7 +45,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns a control at the specified position. |
+| [get_Item] ([int]) | Returns a control at the specified position. |
 
 ### Parameters
 
@@ -60,7 +60,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -78,7 +78,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -87,7 +87,7 @@ boolean
 ---
 
 
-| [remove] ([Control]) Removes an ActiveX control from the collection. |
+| [remove] ([Control]) | Removes an ActiveX control from the collection. |
 
 ### Parameters
 
@@ -99,7 +99,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes an ActiveX control stored at specified position from the collection. |
+| [removeAt] ([int]) | Removes an ActiveX control stored at specified position from the collection. |
 
 ### Parameters
 
@@ -111,7 +111,7 @@ boolean
 ---
 
 
-| [size] () Returns a number of objects in the collection. Read-only int. |
+| [size] () | Returns a number of objects in the collection. Read-only int. |
 
 ### Result
 int

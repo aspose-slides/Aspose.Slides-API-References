@@ -22,7 +22,7 @@ SaveOptionsFactory
 ---
 
 
-| [createPptxOptions] () Creates PPTX save options. |
+| [createPptxOptions] () | Creates PPTX save options. |
 
 ### Result
 [PptxOptions]

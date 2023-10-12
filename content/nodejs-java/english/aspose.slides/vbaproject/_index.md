@@ -29,7 +29,7 @@ VbaProject
 ---
 
 
-| [getModules] () Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
+| [getModules] () | Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
 
 ### Result
 [VbaModuleCollection]
@@ -38,7 +38,7 @@ VbaProject
 ---
 
 
-| [getName] () Returns the name of the VBA project. Read-only String. |
+| [getName] () | Returns the name of the VBA project. Read-only String. |
 
 ### Result
 String
@@ -47,7 +47,7 @@ String
 ---
 
 
-| [getReferences] () Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
+| [getReferences] () | Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
 
 ### Result
 [VbaReferenceCollection]
@@ -56,7 +56,7 @@ String
 ---
 
 
-| [toBinary] () Returns the binary representation of the VBA project as OLE container |
+| [toBinary] () | Returns the binary representation of the VBA project as OLE container |
 
 ### Result
 byte

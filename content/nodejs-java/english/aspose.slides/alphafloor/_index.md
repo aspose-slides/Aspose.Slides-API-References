@@ -13,7 +13,7 @@ url: /aspose.slides/alphafloor/
  Alpha (opacity) values less than 100% are changed to zero.
  In other words, anything partially transparent becomes fully transparent.
  
-| [equals] ([Object]) Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
+| [equals] ([Object]) | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
 
 ### Parameters
 
@@ -28,7 +28,7 @@ boolean
 ---
 
 
-| [getEffective] () Gets effective Alpha Floor effect data with the inheritance applied. |
+| [getEffective] () | Gets effective Alpha Floor effect data with the inheritance applied. |
 
 ### Result
 [AlphaFloorEffectiveData]
@@ -37,7 +37,7 @@ boolean
 ---
 
 
-| [hashCode] () Serves as a hash function for a particular type. |
+| [hashCode] () | Serves as a hash function for a particular type. |
 
 ### Result
 int

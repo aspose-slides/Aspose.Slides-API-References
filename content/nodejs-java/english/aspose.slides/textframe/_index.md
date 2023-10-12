@@ -11,7 +11,7 @@ url: /aspose.slides/textframe/
 
   Represents a TextFrame.
  
-| [getHyperlinkQueries] () Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
+| [getHyperlinkQueries] () | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
 
 ### Result
 [HyperlinkQueries]
@@ -20,7 +20,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-| [getParagraphs] () Returns the list of all paragraphs in a frame. Read-only IParagraphCollection. |
+| [getParagraphs] () | Returns the list of all paragraphs in a frame. Read-only IParagraphCollection. |
 
 ### Result
 [ParagraphCollection]
@@ -29,7 +29,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-| [getPresentation] () Returns the parent presentation of a TextFrame. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation of a TextFrame. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -38,7 +38,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-| [getSlide] () Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
+| [getSlide] () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
 ### Result
 [MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
@@ -47,7 +47,7 @@ url: /aspose.slides/textframe/
 ---
 
 
-| [getText] () Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
+| [getText] () | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 
 ### Result
 String
@@ -56,7 +56,7 @@ String
 ---
 
 
-| [getTextFrameFormat] () Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
+| [getTextFrameFormat] () | Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
 
 ### Result
 [TextFrameFormat]
@@ -65,7 +65,7 @@ String
 ---
 
 
-| [highlightRegex] ([String], [Color], [TextHighlightingOptions]) Highlight all matches of regular expression in text frame text using specified color. |
+| [highlightRegex] ([String], [Color], [TextHighlightingOptions]) | Highlight all matches of regular expression in text frame text using specified color. |
 
 ### Parameters
 
@@ -79,7 +79,7 @@ String
 ---
 
 
-| [highlightText] ([String], [Color]) Highlight all matches of sample in text frame text using specified color. |
+| [highlightText] ([String], [Color]) | Highlight all matches of sample in text frame text using specified color. |
 
 ### Parameters
 
@@ -92,7 +92,7 @@ String
 ---
 
 
-| [highlightText] ([String], [Color], [TextHighlightingOptions]) Highlight all matches of sample in text frame text using specified color. |
+| [highlightText] ([String], [Color], [TextHighlightingOptions]) | Highlight all matches of sample in text frame text using specified color. |
 
 ### Parameters
 
@@ -106,13 +106,13 @@ String
 ---
 
 
-| [joinPortionsWithSameFormatting] () Joins runs with same formatting in all paragraphs. |
+| [joinPortionsWithSameFormatting] () | Joins runs with same formatting in all paragraphs. |
 
 
 ---
 
 
-| [setText] ([String]) Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
+| [setText] ([String]) | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 
 
 ---

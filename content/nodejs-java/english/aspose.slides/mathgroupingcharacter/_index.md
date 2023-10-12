@@ -146,21 +146,6 @@ MathGroupingCharacter
 ---
 
 
-| [MathGroupingCharacter]([MathGroupingCharacter]) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the bar is applied |
-
-### Result
-MathGroupingCharacter
-
-
----
-
-
 | [MathGroupingCharacter]([MathArray]) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
 
 ### Parameters
@@ -228,6 +213,21 @@ MathGroupingCharacter
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator] | The base element to which the bar is applied |
+
+### Result
+MathGroupingCharacter
+
+
+---
+
+
+| [MathGroupingCharacter]([MathGroupingCharacter]) | Initializes a new instance of the MathGroupingCharacter class with the default grouping character U+23DF (BOTTOM CURLY BRACKET) |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the bar is applied |
 
 ### Result
 MathGroupingCharacter
@@ -458,24 +458,6 @@ MathGroupingCharacter
 ---
 
 
-| [MathGroupingCharacter]([MathGroupingCharacter], [char], [int], [int]) | Initializes a new instance of the MathGroupingCharacter class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the bar is applied |
-| character | [char] | Grouping Character |
-| position | [int] | Position of grouping character |
-| verticalJustification | [int] | Vertical justification of group character |
-
-### Result
-MathGroupingCharacter
-
-
----
-
-
 | [MathGroupingCharacter]([MathArray], [char], [int], [int]) | Initializes a new instance of the MathGroupingCharacter class. |
 
 ### Parameters
@@ -566,6 +548,24 @@ MathGroupingCharacter
 ---
 
 
+| [MathGroupingCharacter]([MathGroupingCharacter], [char], [int], [int]) | Initializes a new instance of the MathGroupingCharacter class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the bar is applied |
+| character | [char] | Grouping Character |
+| position | [int] | Position of grouping character |
+| verticalJustification | [int] | Vertical justification of group character |
+
+### Result
+MathGroupingCharacter
+
+
+---
+
+
 | [MathGroupingCharacter]([MathematicalText], [char], [int], [int]) | Initializes a new instance of the MathGroupingCharacter class. |
 
 ### Parameters
@@ -638,16 +638,16 @@ MathGroupingCharacter
 ---
 
 
-| [getBase] () Base argument |
+| [getBase] () | Base argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getCharacter] () Grouping Character Default value: U+23DF (BOTTOM CURLY BRACKET) |
+| [getCharacter] () | Grouping Character Default value: U+23DF (BOTTOM CURLY BRACKET) |
 
 ### Result
 char
@@ -656,25 +656,16 @@ char
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getPosition] () Position of grouping character. Default: Bottom |
-
-### Result
-int
-
-
----
-
-
-| [getVerticalJustification] () Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline Default: Bottom for Position=Top, and Top for Position=Bottom |
+| [getPosition] () | Position of grouping character. Default: Bottom |
 
 ### Result
 int
@@ -683,19 +674,28 @@ int
 ---
 
 
-| [setCharacter] ([char]) Grouping Character Default value: U+23DF (BOTTOM CURLY BRACKET) |
+| [getVerticalJustification] () | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline Default: Bottom for Position=Top, and Top for Position=Bottom |
+
+### Result
+int
 
 
 ---
 
 
-| [setPosition] ([int]) Position of grouping character. Default: Bottom |
+| [setCharacter] ([char]) | Grouping Character Default value: U+23DF (BOTTOM CURLY BRACKET) |
 
 
 ---
 
 
-| [setVerticalJustification] ([int]) Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline Default: Bottom for Position=Top, and Top for Position=Bottom |
+| [setPosition] ([int]) | Position of grouping character. Default: Bottom |
+
+
+---
+
+
+| [setVerticalJustification] ([int]) | Vertical justification of group character. Specifies the alignment of the object with respect to the baseline. For example, when the group character is above the object, VerticalJustification of Top signifies that the top of the object falls on the baseline; when VerticalJustification is set to Bottom, the bottom of the object is on the baseline Default: Bottom for Position=Top, and Top for Position=Bottom |
 
 
 ---

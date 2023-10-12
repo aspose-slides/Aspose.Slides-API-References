@@ -11,7 +11,7 @@ url: /aspose.slides/svgshape/
 
  Represents options for SVG shape.
  
-| [getId] () Gets shape id |
+| [getId] () | Gets shape id |
 
 ### Result
 String
@@ -20,7 +20,7 @@ String
 ---
 
 
-| [setEventHandler] ([int], [String]) Sets event handler for the shape |
+| [setEventHandler] ([int], [String]) | Sets event handler for the shape |
 
 ### Parameters
 
@@ -33,7 +33,7 @@ String
 ---
 
 
-| [setId] ([String]) Gets shape id |
+| [setId] ([String]) | Gets shape id |
 
 
 ---

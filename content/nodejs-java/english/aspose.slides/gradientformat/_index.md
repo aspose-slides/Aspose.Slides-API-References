@@ -11,7 +11,7 @@ url: /aspose.slides/gradientformat/
 
  Represent a gradient format.
  
-| [getGradientDirection] () Returns or sets the style of a gradient. Read/write GradientDirection. |
+| [getGradientDirection] () | Returns or sets the style of a gradient. Read/write GradientDirection. |
 
 ### Result
 int
@@ -20,7 +20,7 @@ int
 ---
 
 
-| [getGradientShape] () Returns or sets the shape of a gradient. Read/write GradientShape. |
+| [getGradientShape] () | Returns or sets the shape of a gradient. Read/write GradientShape. |
 
 ### Result
 byte
@@ -29,7 +29,7 @@ byte
 ---
 
 
-| [getGradientStops] () Returns the collection of gradient stops. Read-only IGradientStopCollection. |
+| [getGradientStops] () | Returns the collection of gradient stops. Read-only IGradientStopCollection. |
 
 ### Result
 [GradientStopCollection]
@@ -38,7 +38,7 @@ byte
 ---
 
 
-| [getLinearGradientAngle] () Returns or sets the angle of a gradient. Read/write float. |
+| [getLinearGradientAngle] () | Returns or sets the angle of a gradient. Read/write float. |
 
 ### Result
 float
@@ -47,7 +47,7 @@ float
 ---
 
 
-| [getLinearGradientScaled] () Determines whether a gradient is scaled. Read/write NullableBool. |
+| [getLinearGradientScaled] () | Determines whether a gradient is scaled. Read/write NullableBool. |
 
 ### Result
 byte
@@ -56,7 +56,7 @@ byte
 ---
 
 
-| [getTileFlip] () Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
+| [getTileFlip] () | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
 
 ### Result
 int
@@ -65,7 +65,7 @@ int
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -74,31 +74,31 @@ long
 ---
 
 
-| [setGradientDirection] ([int]) Returns or sets the style of a gradient. Read/write GradientDirection. |
+| [setGradientDirection] ([int]) | Returns or sets the style of a gradient. Read/write GradientDirection. |
 
 
 ---
 
 
-| [setGradientShape] ([byte]) Returns or sets the shape of a gradient. Read/write GradientShape. |
+| [setGradientShape] ([byte]) | Returns or sets the shape of a gradient. Read/write GradientShape. |
 
 
 ---
 
 
-| [setLinearGradientAngle] ([float]) Returns or sets the angle of a gradient. Read/write float. |
+| [setLinearGradientAngle] ([float]) | Returns or sets the angle of a gradient. Read/write float. |
 
 
 ---
 
 
-| [setLinearGradientScaled] ([byte]) Determines whether a gradient is scaled. Read/write NullableBool. |
+| [setLinearGradientScaled] ([byte]) | Determines whether a gradient is scaled. Read/write NullableBool. |
 
 
 ---
 
 
-| [setTileFlip] ([int]) Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
+| [setTileFlip] ([int]) | Returns or sets the flipping mode for a gradient. Read/write TileFlip. |
 
 
 ---

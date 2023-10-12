@@ -11,7 +11,7 @@ url: /aspose.slides/moderncomment/
 
  Represents a comment on a slide.
  
-| [getShape] () Returns a shape associated with the comment. Read-only IShape. |
+| [getShape] () | Returns a shape associated with the comment. Read-only IShape. |
 
 ### Result
 [LegacyDiagram], [Connector], [GraphicalObject], [Shape], [Ink], [GroupShape], [SmartArtShape], [SummaryZoomSection], [ZoomObject], [SmartArt], [VideoFrame], [PictureFrame], [ZoomFrame], [AutoShape], [GeometryShape], [OleObjectFrame], [SectionZoomFrame], [AudioFrame], [Chart], [Table], [SummaryZoomFrame]
@@ -20,7 +20,7 @@ url: /aspose.slides/moderncomment/
 ---
 
 
-| [getStatus] () Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| [getStatus] () | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 
 ### Result
 byte
@@ -29,7 +29,7 @@ byte
 ---
 
 
-| [getTextSelectionLength] () Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| [getTextSelectionLength] () | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 
 ### Result
 int
@@ -38,7 +38,7 @@ int
 ---
 
 
-| [getTextSelectionStart] () Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| [getTextSelectionStart] () | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
 
 ### Result
 int
@@ -47,19 +47,19 @@ int
 ---
 
 
-| [setStatus] ([byte]) Gets or sets the status of the comment. Read/write ModernCommentStatus. |
+| [setStatus] ([byte]) | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 
 
 ---
 
 
-| [setTextSelectionLength] ([int]) Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
+| [setTextSelectionLength] ([int]) | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 
 
 ---
 
 
-| [setTextSelectionStart] ([int]) Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
+| [setTextSelectionStart] ([int]) | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
 
 
 ---

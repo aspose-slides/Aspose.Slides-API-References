@@ -22,7 +22,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] () Create a math block |
+| [createMathBlock] () | Create a math block |
 
 ### Result
 [MathBlock]
@@ -31,7 +31,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathLimit]) Create a math block and place the element in it |
+| [createMathBlock] ([MathLimit]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -46,7 +46,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathBorderBox]) Create a math block and place the element in it |
+| [createMathBlock] ([MathBorderBox]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathFraction]) Create a math block and place the element in it |
+| [createMathBlock] ([MathFraction]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -76,7 +76,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathDelimiter]) Create a math block and place the element in it |
+| [createMathBlock] ([MathDelimiter]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -91,7 +91,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathSuperscriptElement]) Create a math block and place the element in it |
+| [createMathBlock] ([MathSuperscriptElement]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -106,7 +106,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathLeftSubSuperscriptElement]) Create a math block and place the element in it |
+| [createMathBlock] ([MathLeftSubSuperscriptElement]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -121,7 +121,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathRightSubSuperscriptElement]) Create a math block and place the element in it |
+| [createMathBlock] ([MathRightSubSuperscriptElement]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -136,7 +136,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathBox]) Create a math block and place the element in it |
+| [createMathBlock] ([MathBox]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -151,7 +151,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathMatrix]) Create a math block and place the element in it |
+| [createMathBlock] ([MathMatrix]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -166,22 +166,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathGroupingCharacter]) Create a math block and place the element in it |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| mathElement | [MathGroupingCharacter] | A math element |
-
-### Result
-[MathBlock]
-
-
----
-
-
-| [createMathBlock] ([MathArray]) Create a math block and place the element in it |
+| [createMathBlock] ([MathArray]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -196,7 +181,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathBlock]) Create a math block and place the element in it |
+| [createMathBlock] ([MathBlock]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -211,7 +196,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathSubscriptElement]) Create a math block and place the element in it |
+| [createMathBlock] ([MathSubscriptElement]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -226,7 +211,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathFunction]) Create a math block and place the element in it |
+| [createMathBlock] ([MathFunction]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -241,7 +226,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathNaryOperator]) Create a math block and place the element in it |
+| [createMathBlock] ([MathNaryOperator]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -256,7 +241,22 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathematicalText]) Create a math block and place the element in it |
+| [createMathBlock] ([MathGroupingCharacter]) | Create a math block and place the element in it |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| mathElement | [MathGroupingCharacter] | A math element |
+
+### Result
+[MathBlock]
+
+
+---
+
+
+| [createMathBlock] ([MathematicalText]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -271,7 +271,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathAccent]) Create a math block and place the element in it |
+| [createMathBlock] ([MathAccent]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -286,7 +286,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathRadical]) Create a math block and place the element in it |
+| [createMathBlock] ([MathRadical]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -301,7 +301,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathBar]) Create a math block and place the element in it |
+| [createMathBlock] ([MathBar]) | Create a math block and place the element in it |
 
 ### Parameters
 
@@ -316,7 +316,7 @@ MathBlockFactory
 ---
 
 
-| [createMathBlock] ([MathBlock]) Create a math block and place elements in it |
+| [createMathBlock] ([MathBlock]) | Create a math block and place elements in it |
 
 ### Parameters
 

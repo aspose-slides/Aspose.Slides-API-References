@@ -26,7 +26,7 @@ ShapeBevel
 ---
 
 
-| [equals] ([Object])  |
+| [equals] ([Object]) |  |
 
 ### Result
 boolean
@@ -35,7 +35,7 @@ boolean
 ---
 
 
-| [getBevelType] () Bevel type. Read/write BevelPresetType. |
+| [getBevelType] () | Bevel type. Read/write BevelPresetType. |
 
 ### Result
 int
@@ -44,7 +44,7 @@ int
 ---
 
 
-| [getHeight] () Bevel height. Read/write double. |
+| [getHeight] () | Bevel height. Read/write double. |
 
 ### Result
 double
@@ -53,7 +53,7 @@ double
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -62,7 +62,7 @@ long
 ---
 
 
-| [getWidth] () Bevel width. Read/write double. |
+| [getWidth] () | Bevel width. Read/write double. |
 
 ### Result
 double
@@ -71,19 +71,19 @@ double
 ---
 
 
-| [setBevelType] ([int]) Bevel type. Read/write BevelPresetType. |
+| [setBevelType] ([int]) | Bevel type. Read/write BevelPresetType. |
 
 
 ---
 
 
-| [setHeight] ([double]) Bevel height. Read/write double. |
+| [setHeight] ([double]) | Bevel height. Read/write double. |
 
 
 ---
 
 
-| [setWidth] ([double]) Bevel width. Read/write double. |
+| [setWidth] ([double]) | Bevel width. Read/write double. |
 
 
 ---

@@ -22,7 +22,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphCeiling] () Creates Alpha Ceiling effect. |
+| [createAlphCeiling] () | Creates Alpha Ceiling effect. |
 
 ### Result
 [AlphaCeiling]
@@ -31,7 +31,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphaBiLevel] ([float]) Creates Alpha BiLevel effect. |
+| [createAlphaBiLevel] ([float]) | Creates Alpha BiLevel effect. |
 
 ### Parameters
 
@@ -46,7 +46,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphaFloor] () Creates Alpha floor effect. |
+| [createAlphaFloor] () | Creates Alpha floor effect. |
 
 ### Result
 [AlphaFloor]
@@ -55,7 +55,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphaInverse] () Creates Alpha inverse effect. |
+| [createAlphaInverse] () | Creates Alpha inverse effect. |
 
 ### Result
 [AlphaInverse]
@@ -64,7 +64,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphaModulate] () Creates Alpha modulate effect. |
+| [createAlphaModulate] () | Creates Alpha modulate effect. |
 
 ### Result
 [AlphaModulate]
@@ -73,7 +73,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphaModulateFixed] ([float]) Creates Alpha modulate fixed effect. |
+| [createAlphaModulateFixed] ([float]) | Creates Alpha modulate fixed effect. |
 
 ### Parameters
 
@@ -88,7 +88,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createAlphaReplace] ([float]) Creates Alpha replace effect. |
+| [createAlphaReplace] ([float]) | Creates Alpha replace effect. |
 
 ### Parameters
 
@@ -103,7 +103,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createBiLevel] ([float]) Creates BiLevel effect. |
+| [createBiLevel] ([float]) | Creates BiLevel effect. |
 
 ### Parameters
 
@@ -118,7 +118,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createBlur] ([double], [boolean]) Creates Blur effect. |
+| [createBlur] ([double], [boolean]) | Creates Blur effect. |
 
 ### Parameters
 
@@ -134,7 +134,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createColorChange] () Creates Color change effect. |
+| [createColorChange] () | Creates Color change effect. |
 
 ### Result
 [ColorChange]
@@ -143,7 +143,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createColorReplace] () Creates Color replace effect. |
+| [createColorReplace] () | Creates Color replace effect. |
 
 ### Result
 [ColorReplace]
@@ -152,7 +152,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createDuotone] () Creates Duotone effect. |
+| [createDuotone] () | Creates Duotone effect. |
 
 ### Result
 [Duotone]
@@ -161,7 +161,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createFillOverlay] () Creates Fill overlay effect. |
+| [createFillOverlay] () | Creates Fill overlay effect. |
 
 ### Result
 [FillOverlay]
@@ -170,7 +170,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createGrayScale] () Creates Gray scale effect. |
+| [createGrayScale] () | Creates Gray scale effect. |
 
 ### Result
 [GrayScale]
@@ -179,7 +179,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createHSL] ([float], [float], [float]) Creates Hue Saturation Luminance effect. |
+| [createHSL] ([float], [float], [float]) | Creates Hue Saturation Luminance effect. |
 
 ### Parameters
 
@@ -196,7 +196,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createLuminance] ([float], [float]) Createtes Luminance effect. |
+| [createLuminance] ([float], [float]) | Createtes Luminance effect. |
 
 ### Parameters
 
@@ -212,7 +212,7 @@ ImageTransformOperationFactory
 ---
 
 
-| [createTint] ([float], [float]) Creates Tint effect. |
+| [createTint] ([float], [float]) | Creates Tint effect. |
 
 ### Parameters
 

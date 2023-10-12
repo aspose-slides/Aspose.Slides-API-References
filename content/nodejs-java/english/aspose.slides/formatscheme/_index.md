@@ -11,7 +11,7 @@ url: /aspose.slides/formatscheme/
 
  Stores theme-defined formats for the shapes.
  
-| [getBackgroundFillStyles] () Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
+| [getBackgroundFillStyles] () | Returns a collection of theme defined background fill styles. Read-only IFillFormatCollection. |
 
 ### Result
 [FillFormatCollection]
@@ -20,7 +20,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-| [getEffectStyles] () Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
+| [getEffectStyles] () | Returns a collection of theme defined effect styles. Read-only IEffectStyleCollection. |
 
 ### Result
 [EffectStyleCollection]
@@ -29,7 +29,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-| [getFillStyles] () Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
+| [getFillStyles] () | Returns a collection of theme defined fill styles. Read-only IFillFormatCollection. |
 
 ### Result
 [FillFormatCollection]
@@ -38,7 +38,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-| [getLineStyles] () Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
+| [getLineStyles] () | Returns a collection of theme defined line styles. Read-only ILineFormatCollection. |
 
 ### Result
 [LineFormatCollection]
@@ -47,7 +47,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-| [getPresentation] () Returns the parent presentation. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -56,7 +56,7 @@ url: /aspose.slides/formatscheme/
 ---
 
 
-| [getSlide] () Returns the parent slide. Read-only IBaseSlide. |
+| [getSlide] () | Returns the parent slide. Read-only IBaseSlide. |
 
 ### Result
 [MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]

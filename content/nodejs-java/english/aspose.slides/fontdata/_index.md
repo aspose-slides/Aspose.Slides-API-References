@@ -26,7 +26,7 @@ FontData
 ---
 
 
-| [equals] ([Object]) Determines whether two FontData instances are equal. |
+| [equals] ([Object]) | Determines whether two FontData instances are equal. |
 
 ### Parameters
 
@@ -41,7 +41,7 @@ boolean
 ---
 
 
-| [getFontName] () Returns the font name. Read/write String. |
+| [getFontName] () | Returns the font name. Read/write String. |
 
 ### Result
 String
@@ -50,7 +50,7 @@ String
 ---
 
 
-| [getFontName] ([IThemeEffectiveData]) Returns the font name, replacing theme referrence with an actual font used. |
+| [getFontName] ([IThemeEffectiveData]) | Returns the font name, replacing theme referrence with an actual font used. |
 
 ### Parameters
 
@@ -65,7 +65,7 @@ String
 ---
 
 
-| [hashCode] () Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| [hashCode] () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### Result
 int
@@ -74,7 +74,7 @@ int
 ---
 
 
-| [toString] () Returns string representation. |
+| [toString] () | Returns string representation. |
 
 ### Result
 String

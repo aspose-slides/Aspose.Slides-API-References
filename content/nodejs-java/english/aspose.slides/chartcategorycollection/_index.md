@@ -11,7 +11,7 @@ url: /aspose.slides/chartcategorycollection/
 
  Represents collection of  ChartCategory
  
-| [add] ([ChartDataCell]) If category exists in collection, return it. Else creates new chart category from IChartDataCell and adds it to the collection. |
+| [add] ([ChartDataCell]) | If category exists in collection, return it. Else creates new chart category from IChartDataCell and adds it to the collection. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/chartcategorycollection/
 ---
 
 
-| [add] ([Object]) Creates new ChartCategory from value and adds it to the collection. |
+| [add] ([Object]) | Creates new ChartCategory from value and adds it to the collection. |
 
 ### Parameters
 
@@ -47,13 +47,13 @@ url: /aspose.slides/chartcategorycollection/
 ---
 
 
-| [clear] () Removes all elements from the collection. |
+| [clear] () | Removes all elements from the collection. |
 
 
 ---
 
 
-| [getGroupingLevelCount] () Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only int. |
+| [getGroupingLevelCount] () | Returns count of category grouping levels used. Is more then one for multilevel categories. Read-only int. |
 
 ### Result
 int
@@ -62,7 +62,7 @@ int
 ---
 
 
-| [getSyncRoot] () Returns an object that can be used to synchronize access to the collection. Read-only Object. Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns an object that can be used to synchronize access to the collection. Read-only Object. Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -71,7 +71,7 @@ Object
 ---
 
 
-| [getUseCells] () If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write boolean. |
+| [getUseCells] () | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write boolean. |
 
 ### Result
 boolean
@@ -80,7 +80,7 @@ boolean
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. |
+| [get_Item] ([int]) | Gets the element at the specified index. |
 
 ### Result
 [ChartCategory]
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-| [indexOf] ([ChartCategory]) Searches for the specified ChartCategory and returns the zero-based index of the first occurrence within the entire Collection. |
+| [indexOf] ([ChartCategory]) | Searches for the specified ChartCategory and returns the zero-based index of the first occurrence within the entire Collection. |
 
 ### Parameters
 
@@ -110,7 +110,7 @@ int
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the List is synchronized (thread safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the List is synchronized (thread safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -119,7 +119,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -137,7 +137,7 @@ boolean
 ---
 
 
-| [remove] ([ChartCategory]) Removes the specified value. |
+| [remove] ([ChartCategory]) | Removes the specified value. |
 
 ### Parameters
 
@@ -155,7 +155,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes the element at the given index. |
+| [removeAt] ([int]) | Removes the element at the given index. |
 
 ### Parameters
 
@@ -167,13 +167,13 @@ boolean
 ---
 
 
-| [setUseCells] ([boolean]) If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write boolean. |
+| [setUseCells] ([boolean]) | If true then worksheet is used for storing categories (this case supports a multi-level categories). If false then worksheet is NOT used for storing values (and this case doesn't support a multi-level categories). Read/write boolean. |
 
 
 ---
 
 
-| [size] () Returns a number of elements int the collection. Read-only int. |
+| [size] () | Returns a number of elements int the collection. Read-only int. |
 
 ### Result
 int

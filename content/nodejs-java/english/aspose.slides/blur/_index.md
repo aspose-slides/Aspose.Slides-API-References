@@ -12,7 +12,7 @@ url: /aspose.slides/blur/
  Represents a Blur effect that is applied to the entire shape, including its fill.
  All color channels, including alpha, are affected.
  
-| [equals] ([Object]) Determines whether the specified Blur is equal to the current Blur. |
+| [equals] ([Object]) | Determines whether the specified Blur is equal to the current Blur. |
 
 ### Parameters
 
@@ -27,7 +27,7 @@ boolean
 ---
 
 
-| [getEffective] () Gets effective Blur effect data with the inheritance applied. |
+| [getEffective] () | Gets effective Blur effect data with the inheritance applied. |
 
 ### Result
 [BlurEffectiveData]
@@ -36,7 +36,7 @@ boolean
 ---
 
 
-| [getGrow] () Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
+| [getGrow] () | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
 
 ### Result
 boolean
@@ -45,7 +45,7 @@ boolean
 ---
 
 
-| [getRadius] () Returns or sets blur radius. Read/write double. |
+| [getRadius] () | Returns or sets blur radius. Read/write double. |
 
 ### Result
 double
@@ -54,7 +54,7 @@ double
 ---
 
 
-| [hashCode] () Serves as a hash function for a particular type. |
+| [hashCode] () | Serves as a hash function for a particular type. |
 
 ### Result
 int
@@ -63,13 +63,13 @@ int
 ---
 
 
-| [setGrow] ([boolean]) Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
+| [setGrow] ([boolean]) | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
 
 
 ---
 
 
-| [setRadius] ([double]) Returns or sets blur radius. Read/write double. |
+| [setRadius] ([double]) | Returns or sets blur radius. Read/write double. |
 
 
 ---

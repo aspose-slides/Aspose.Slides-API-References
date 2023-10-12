@@ -20,7 +20,7 @@ FormatFactory
 ---
 
 
-| [createParagraphFormat] () Creates new IParagraphFormat. |
+| [createParagraphFormat] () | Creates new IParagraphFormat. |
 
 ### Result
 [ParagraphFormat]
@@ -29,7 +29,7 @@ FormatFactory
 ---
 
 
-| [createPortionFormat] () Creates new IPortionFormat. |
+| [createPortionFormat] () | Creates new IPortionFormat. |
 
 ### Result
 [PortionFormat]
@@ -38,7 +38,7 @@ FormatFactory
 ---
 
 
-| [createTextFrameFormat] () Creates new ITextFrameFormat. |
+| [createTextFrameFormat] () | Creates new ITextFrameFormat. |
 
 ### Result
 [TextFrameFormat]
@@ -47,7 +47,7 @@ FormatFactory
 ---
 
 
-| [getInstance] () Format factory static instance. Read-only FormatFactory. |
+| [getInstance] () | Format factory static instance. Read-only FormatFactory. |
 
 ### Result
 FormatFactory

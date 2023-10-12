@@ -146,21 +146,6 @@ MathArray
 ---
 
 
-| [MathArray]([MathGroupingCharacter]) | Creates a mathematical array and places the specified element in it |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The element to place in the array |
-
-### Result
-MathArray
-
-
----
-
-
 | [MathArray]([MathArray]) | Creates a mathematical array and places the specified element in it |
 
 ### Parameters
@@ -228,6 +213,21 @@ MathArray
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator] | The element to place in the array |
+
+### Result
+MathArray
+
+
+---
+
+
+| [MathArray]([MathGroupingCharacter]) | Creates a mathematical array and places the specified element in it |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The element to place in the array |
 
 ### Result
 MathArray
@@ -311,7 +311,7 @@ MathArray
 ---
 
 
-| [getArguments] () The set of items of the array |
+| [getArguments] () | The set of items of the array |
 
 ### Result
 [MathBlock]
@@ -320,7 +320,7 @@ MathArray
 ---
 
 
-| [getBaseJustification] () Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
+| [getBaseJustification] () | Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
 
 ### Result
 int
@@ -329,25 +329,16 @@ int
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getMaximumDistribution] () Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
-
-### Result
-boolean
-
-
----
-
-
-| [getObjectDistribution] () Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
+| [getMaximumDistribution] () | Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
 
 ### Result
 boolean
@@ -356,7 +347,16 @@ boolean
 ---
 
 
-| [getRowSpacing] () Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
+| [getObjectDistribution] () | Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
+
+### Result
+boolean
+
+
+---
+
+
+| [getRowSpacing] () | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
 
 ### Result
 long
@@ -365,7 +365,7 @@ long
 ---
 
 
-| [getRowSpacingRule] () The type of vertical spacing between array elements Default: SingleLineGap |
+| [getRowSpacingRule] () | The type of vertical spacing between array elements Default: SingleLineGap |
 
 ### Result
 int
@@ -374,31 +374,31 @@ int
 ---
 
 
-| [setBaseJustification] ([int]) Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
+| [setBaseJustification] ([int]) | Specifies alignment of the array relative to surrounding text Text outside of the array can be aligned with the bottom, top, or center of a array object. Default value: Center |
 
 
 ---
 
 
-| [setMaximumDistribution] ([boolean]) Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
+| [setMaximumDistribution] ([boolean]) | Maximum Distribution When true, the array is spaced to the maximum width of the containing element(page, column, cell, etc.). |
 
 
 ---
 
 
-| [setObjectDistribution] ([boolean]) Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
+| [setObjectDistribution] ([boolean]) | Object Distribution When true, the contents of the array are spaced to the maximum width of the array object. |
 
 
 ---
 
 
-| [setRowSpacing] ([long]) Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
+| [setRowSpacing] ([long]) | Spacing between rows of an array It is used only when RowSpacingRule is set to 3 Exactly in which case the unit of measure is points or Multiple in which case the unit of measure is half-lines. Default: 0 |
 
 
 ---
 
 
-| [setRowSpacingRule] ([int]) The type of vertical spacing between array elements Default: SingleLineGap |
+| [setRowSpacingRule] ([int]) | The type of vertical spacing between array elements Default: SingleLineGap |
 
 
 ---

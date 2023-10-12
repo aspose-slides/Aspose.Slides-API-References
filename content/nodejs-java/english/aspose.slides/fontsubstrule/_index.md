@@ -44,7 +44,7 @@ FontSubstRule
 ---
 
 
-| [getDestFont] () Font to use for substitution. Read-only IFontData. |
+| [getDestFont] () | Font to use for substitution. Read-only IFontData. |
 
 ### Result
 [FontData]
@@ -53,7 +53,7 @@ FontSubstRule
 ---
 
 
-| [getReplaceFontCondition] () Rule to apply for substitution. Read-only FontSubstCondition. |
+| [getReplaceFontCondition] () | Rule to apply for substitution. Read-only FontSubstCondition. |
 
 ### Result
 int
@@ -62,7 +62,7 @@ int
 ---
 
 
-| [getSourceFont] () Font to substitute. Read-only IFontData. |
+| [getSourceFont] () | Font to substitute. Read-only IFontData. |
 
 ### Result
 [FontData]

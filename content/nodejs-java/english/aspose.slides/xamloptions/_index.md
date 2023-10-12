@@ -20,7 +20,7 @@ XamlOptions
 ---
 
 
-| [getExportHiddenSlides] () Determines whether hidden slides will be exported. |
+| [getExportHiddenSlides] () | Determines whether hidden slides will be exported. |
 
 ### Result
 boolean
@@ -29,7 +29,7 @@ boolean
 ---
 
 
-| [getOutputSaver] () Represents an implementation of IOutputSaver interface. |
+| [getOutputSaver] () | Represents an implementation of IOutputSaver interface. |
 
 ### Result
 [XamlOutputSaver]
@@ -38,13 +38,13 @@ boolean
 ---
 
 
-| [setExportHiddenSlides] ([boolean]) Determines whether hidden slides will be exported. |
+| [setExportHiddenSlides] ([boolean]) | Determines whether hidden slides will be exported. |
 
 
 ---
 
 
-| [setOutputSaver] ([IXamlOutputSaver]) Represents an implementation of IOutputSaver interface. |
+| [setOutputSaver] ([IXamlOutputSaver]) | Represents an implementation of IOutputSaver interface. |
 
 
 ---

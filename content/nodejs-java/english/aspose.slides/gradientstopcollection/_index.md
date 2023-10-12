@@ -11,7 +11,7 @@ url: /aspose.slides/gradientstopcollection/
 
  Represnts a collection of gradient stops.
  
-| [add] ([float], [Color]) Creates the new gradient stop and adds it to the end of collection. |
+| [add] ([float], [Color]) | Creates the new gradient stop and adds it to the end of collection. |
 
 ### Parameters
 
@@ -27,7 +27,7 @@ url: /aspose.slides/gradientstopcollection/
 ---
 
 
-| [addPresetColor] ([float], [int]) Creates the new gradient stop and adds it to the end of collection. |
+| [addPresetColor] ([float], [int]) | Creates the new gradient stop and adds it to the end of collection. |
 
 ### Parameters
 
@@ -43,7 +43,7 @@ url: /aspose.slides/gradientstopcollection/
 ---
 
 
-| [addSchemeColor] ([float], [int]) Creates the new gradient stop and adds it to the end of collection. |
+| [addSchemeColor] ([float], [int]) | Creates the new gradient stop and adds it to the end of collection. |
 
 ### Parameters
 
@@ -59,13 +59,13 @@ url: /aspose.slides/gradientstopcollection/
 ---
 
 
-| [clear] () Removes all gradient stops from a collection. |
+| [clear] () | Removes all gradient stops from a collection. |
 
 
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -74,7 +74,7 @@ Object
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -83,7 +83,7 @@ long
 ---
 
 
-| [get_Item] ([int]) Returns the gradient stop by index. |
+| [get_Item] ([int]) | Returns the gradient stop by index. |
 
 ### Result
 [GradientStop]
@@ -92,7 +92,7 @@ long
 ---
 
 
-| [insert] ([int], [float], [Color]) Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [insert] ([int], [float], [Color]) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
 ### Parameters
 
@@ -106,7 +106,7 @@ long
 ---
 
 
-| [insertPresetColor] ([int], [float], [int]) Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [insertPresetColor] ([int], [float], [int]) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
 ### Parameters
 
@@ -120,7 +120,7 @@ long
 ---
 
 
-| [insertSchemeColor] ([int], [float], [int]) Creates the new gradient stop and inserts it at the specified index to the collection. |
+| [insertSchemeColor] ([int], [float], [int]) | Creates the new gradient stop and inserts it at the specified index to the collection. |
 
 ### Parameters
 
@@ -134,7 +134,7 @@ long
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -143,7 +143,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -152,7 +152,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -161,7 +161,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes a gradient stop at the specified index. |
+| [removeAt] ([int]) | Removes a gradient stop at the specified index. |
 
 ### Parameters
 
@@ -173,7 +173,7 @@ boolean
 ---
 
 
-| [size] () Returns the number of gradient stops in a collection. Read-only int. |
+| [size] () | Returns the number of gradient stops in a collection. Read-only int. |
 
 ### Result
 int

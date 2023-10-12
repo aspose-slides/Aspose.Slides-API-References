@@ -161,7 +161,7 @@ SvgImage
 ---
 
 
-| [getBaseUri] () Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
+| [getBaseUri] () | Returns base URI of the specified Svg. Used to resolve relative links. Read-only String. |
 
 ### Result
 String
@@ -170,7 +170,7 @@ String
 ---
 
 
-| [getExternalResourceResolver] () Return callback interface used to resolve external resources during Svg documents import. Read-only IExternalResourceResolver. |
+| [getExternalResourceResolver] () | Return callback interface used to resolve external resources during Svg documents import. Read-only IExternalResourceResolver. |
 
 ### Result
 [ExternalResourceResolver], [HtmlExternalResolver]
@@ -179,7 +179,7 @@ String
 ---
 
 
-| [getSvgContent] () Returns SVG content. Read-only String. |
+| [getSvgContent] () | Returns SVG content. Read-only String. |
 
 ### Result
 String
@@ -188,7 +188,7 @@ String
 ---
 
 
-| [getSvgData] () Returns SVG data. Read-only byte[]. |
+| [getSvgData] () | Returns SVG data. Read-only byte[]. |
 
 ### Result
 byte

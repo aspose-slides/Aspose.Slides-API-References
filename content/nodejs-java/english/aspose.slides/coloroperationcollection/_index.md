@@ -11,7 +11,7 @@ url: /aspose.slides/coloroperationcollection/
 
  Represents a collection of color transform operations.
  
-| [add] ([int], [float]) Adds a new operation to the end of collection. |
+| [add] ([int], [float]) | Adds a new operation to the end of collection. |
 
 ### Parameters
 
@@ -27,7 +27,7 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-| [add] ([int]) Adds a new operation to the end of collection. |
+| [add] ([int]) | Adds a new operation to the end of collection. |
 
 ### Parameters
 
@@ -42,13 +42,13 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-| [clear] () Removes all color operations. |
+| [clear] () | Removes all color operations. |
 
 
 ---
 
 
-| [cloneT] () Clones current object |
+| [cloneT] () | Clones current object |
 
 ### Result
 [ColorOperationCollection]
@@ -57,7 +57,7 @@ url: /aspose.slides/coloroperationcollection/
 ---
 
 
-| [deepClone] () Creates a copy of a ColorOperationCollection collection. |
+| [deepClone] () | Creates a copy of a ColorOperationCollection collection. |
 
 ### Result
 Object
@@ -66,7 +66,7 @@ Object
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -75,7 +75,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns or sets the operation at the specified index. Read/write ColorOperation. |
+| [get_Item] ([int]) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
 ### Result
 [ColorOperation]
@@ -84,7 +84,7 @@ Object
 ---
 
 
-| [insert] ([int], [int], [float]) Inserts the new operation to a collection. |
+| [insert] ([int], [int], [float]) | Inserts the new operation to a collection. |
 
 ### Parameters
 
@@ -101,7 +101,7 @@ Object
 ---
 
 
-| [insert] ([int], [int]) Inserts the new operation to a collection. |
+| [insert] ([int], [int]) | Inserts the new operation to a collection. |
 
 ### Parameters
 
@@ -117,7 +117,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -126,7 +126,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -135,7 +135,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -144,7 +144,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes the color operation from a collection. |
+| [removeAt] ([int]) | Removes the color operation from a collection. |
 
 ### Parameters
 
@@ -156,13 +156,13 @@ boolean
 ---
 
 
-| [set_Item] ([int], [ColorOperation]) Returns or sets the operation at the specified index. Read/write ColorOperation. |
+| [set_Item] ([int], [ColorOperation]) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
 
 ---
 
 
-| [size] () Returns the number of operations in a collection. Read-only int. |
+| [size] () | Returns the number of operations in a collection. Read-only int. |
 
 ### Result
 int

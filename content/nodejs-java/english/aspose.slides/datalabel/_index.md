@@ -26,7 +26,7 @@ DataLabel
 ---
 
 
-| [addTextFrameForOverriding] ([String]) Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
+| [addTextFrameForOverriding] ([String]) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
 ### Parameters
 
@@ -41,7 +41,7 @@ DataLabel
 ---
 
 
-| [getActualHeight] () Specifies actual height of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| [getActualHeight] () | Specifies actual height of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
 ### Result
 float
@@ -50,7 +50,7 @@ float
 ---
 
 
-| [getActualLabelText] () Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
+| [getActualLabelText] () | Returns actual label text based on DataLabelFormat settings or TextFrameForOverriding.Text value. |
 
 ### Result
 String
@@ -59,7 +59,7 @@ String
 ---
 
 
-| [getActualWidth] () Specifies actual width of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| [getActualWidth] () | Specifies actual width of the chart element. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
 ### Result
 float
@@ -68,7 +68,7 @@ float
 ---
 
 
-| [getActualX] () Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| [getActualX] () | Specifies actual x location (left) of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
 ### Result
 float
@@ -77,7 +77,7 @@ float
 ---
 
 
-| [getActualY] () Specifies actual top of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
+| [getActualY] () | Specifies actual top of the chart element relative to the left top corner of the chart. Call function IChart.ValidateChartLayout() before to get actual values. Read float. |
 
 ### Result
 float
@@ -86,7 +86,7 @@ float
 ---
 
 
-| [getBottom] () Bottom. Read-only float. |
+| [getBottom] () | Bottom. Read-only float. |
 
 ### Result
 float
@@ -95,7 +95,7 @@ float
 ---
 
 
-| [getChart] () Returns the parent chart. Read-only IChart. |
+| [getChart] () | Returns the parent chart. Read-only IChart. |
 
 ### Result
 [Chart]
@@ -104,7 +104,7 @@ float
 ---
 
 
-| [getDataLabelFormat] () Returns data label format. Read-only IDataLabelFormat. |
+| [getDataLabelFormat] () | Returns data label format. Read-only IDataLabelFormat. |
 
 ### Result
 [DataLabelFormat]
@@ -113,7 +113,7 @@ float
 ---
 
 
-| [getHeight] () Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
+| [getHeight] () | Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
 
 ### Result
 float
@@ -122,7 +122,7 @@ float
 ---
 
 
-| [getPresentation] () Returns the parent presentation of a FillFormat. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -131,7 +131,7 @@ float
 ---
 
 
-| [getRight] () Right. Read-only float. |
+| [getRight] () | Right. Read-only float. |
 
 ### Result
 float
@@ -140,7 +140,7 @@ float
 ---
 
 
-| [getSlide] () Returns the parent slide of a FillFormat. Read-only BaseSlide. |
+| [getSlide] () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
 ### Result
 [MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
@@ -149,7 +149,7 @@ float
 ---
 
 
-| [getTextFormat] () Returns text format. Read-only IChartTextFormat. |
+| [getTextFormat] () | Returns text format. Read-only IChartTextFormat. |
 
 ### Result
 [ChartTextFormat]
@@ -158,7 +158,7 @@ float
 ---
 
 
-| [getTextFrameForOverriding] () Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only ITextFrame. |
+| [getTextFrameForOverriding] () | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only ITextFrame. |
 
 ### Result
 [TextFrame]
@@ -167,7 +167,7 @@ float
 ---
 
 
-| [getValueFromCell] () Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [getValueFromCell] () | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
 
 ### Result
 [ChartDataCell]
@@ -176,7 +176,7 @@ float
 ---
 
 
-| [getWidth] () Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
+| [getWidth] () | Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
 
 ### Result
 float
@@ -185,7 +185,7 @@ float
 ---
 
 
-| [getX] () Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
+| [getX] () | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
 
 ### Result
 float
@@ -194,7 +194,7 @@ float
 ---
 
 
-| [getY] () Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |
+| [getY] () | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |
 
 ### Result
 float
@@ -203,13 +203,13 @@ float
 ---
 
 
-| [hide] () Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. If data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state. |
+| [hide] () | Make data label hidden by setting all Show*-flags (ShowValue, ...) to false state. IsVisible will be false after this. If data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state. |
 
 
 ---
 
 
-| [isVisible] () False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only boolean. If data label is visible you can make it hidden with Hide() function. But if data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state. |
+| [isVisible] () | False means that data label is not visible (and so all Show*-flags (ShowValue, ...) are false). Read-only boolean. If data label is visible you can make it hidden with Hide() function. But if data label is not visible (IsVisible is false) you can make data label visible with setting Show*-flags (ShowValue, ...) to true state. |
 
 ### Result
 boolean
@@ -218,31 +218,31 @@ boolean
 ---
 
 
-| [setHeight] ([float]) Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
+| [setHeight] ([float]) | Returns or sets the height of a title as a fraction of the height of the chart. Read/write float. |
 
 
 ---
 
 
-| [setValueFromCell] ([ChartDataCell]) Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
+| [setValueFromCell] ([ChartDataCell]) | Gets or sets workbook data cell. Applied if IDataLabelFormat.ShowLabelValueFromCell property equals true. |
 
 
 ---
 
 
-| [setWidth] ([float]) Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
+| [setWidth] ([float]) | Returns or sets the width of a title as a fraction of the width of the chart. Read/write float. |
 
 
 ---
 
 
-| [setX] ([float]) Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
+| [setX] ([float]) | Returns or sets the x coordinate of a title as a fraction of the width of the chart. Read/write float. |
 
 
 ---
 
 
-| [setY] ([float]) Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |
+| [setY] ([float]) | Returns or sets the y coordinate of a title as a fraction of the height of the chart. Read/write float. |
 
 
 ---

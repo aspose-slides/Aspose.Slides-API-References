@@ -11,7 +11,7 @@ url: /aspose.slides/fontsmanager/
 
  Manages fonts across the presentation.
  
-| [addEmbeddedFont] ([FontData], [int]) Adds the embedded font |
+| [addEmbeddedFont] ([FontData], [int]) | Adds the embedded font |
 
 ### Error
 
@@ -23,7 +23,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [addEmbeddedFont] ([byte[]], [int]) Adds the embedded font |
+| [addEmbeddedFont] ([byte[]], [int]) | Adds the embedded font |
 
 ### Error
 
@@ -35,7 +35,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [getEmbeddedFonts] () Returns the fonts embedded in the presentation |
+| [getEmbeddedFonts] () | Returns the fonts embedded in the presentation |
 
 ### Result
 [FontData]
@@ -44,7 +44,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [getFontFallBackRulesCollection] () Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| [getFontFallBackRulesCollection] () | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
 
 ### Result
 [FontFallBackRulesCollection]
@@ -53,7 +53,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [getFontSubstRuleList] () Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| [getFontSubstRuleList] () | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
 
 ### Result
 [FontSubstRuleCollection]
@@ -62,7 +62,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [getFonts] () Returns the fonts used in the presentation |
+| [getFonts] () | Returns the fonts used in the presentation |
 
 ### Result
 [FontData]
@@ -71,22 +71,22 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [getSubstitutions] () Gets the information about fonts that will be replaced on the presentation's rendering. |
+| [getSubstitutions] () | Gets the information about fonts that will be replaced on the presentation's rendering. |
 
 ### Result
-[LineFormatCollection], [MathParagraph], [ExtraColorSchemeCollection], [SmartArtShapeCollection], [RowCollection], [PortionCollection], [VbaModuleCollection], [VbaReferenceCollection], [FontSubstRuleCollection], [SectionSlideCollection], [CellCollection], [SortedList], [SectionCollection], [DataLabelCollection], [MotionPath], [ReadOnlyCollection], [ColumnCollection], [TabCollection], [KeyedCollection], [ShapeCollection], [CommentAuthorCollection], [ChartCategoryCollection], [CustomXmlPartCollection], [Dictionary], [SlideCollection], [SortedDictionary], [Sequence], [Stack], [LinkedList], [Column], [ColorOperationCollection], [ChartDataPointCollection], [Collection], [MasterSlideCollection], [MasterLayoutSlideCollection], [SummaryZoomSectionCollection], [BehaviorCollection], [ImageCollection], [GradientStopCollectionEffectiveData], [SmartArtNodeCollection], [SequenceCollection], [BehaviorPropertyCollection], [VideoCollection], [TextAnimationCollection], [ChartCellCollection], [EffectStyleCollection], [ControlCollection], [PieSplitCustomPointCollection], [FontFallBackRulesCollection], [ImageTransformOCollectionEffectiveData], [TrendlineCollection], [DigitalSignatureCollection], [AudioCollection], [ChartSeriesCollection], [ControlPropertiesCollection], [MathBlock], [ParagraphCollection], [Row], [CommentCollection], [ImageTransformOperationCollection], [TagCollection], [GradientStopCollection], [List], [GlobalLayoutSlideCollection], [ChartDataWorksheetCollection], [LayoutSlideCollection], [Queue], [FillFormatCollection], [PointCollection]
+[LineFormatCollection], [MathParagraph], [ExtraColorSchemeCollection], [SmartArtShapeCollection], [RowCollection], [PortionCollection], [VbaModuleCollection], [VbaReferenceCollection], [FontSubstRuleCollection], [SectionSlideCollection], [CellCollection], [SortedList], [SectionCollection], [DataLabelCollection], [MotionPath], [ReadOnlyCollection], [ColumnCollection], [TabCollection], [KeyedCollection], [ShapeCollection], [CommentAuthorCollection], [ChartCategoryCollection], [Sequence], [CustomXmlPartCollection], [Dictionary], [SlideCollection], [SortedDictionary], [Stack], [LinkedList], [Column], [ColorOperationCollection], [ChartDataPointCollection], [Collection], [MasterSlideCollection], [MasterLayoutSlideCollection], [SummaryZoomSectionCollection], [BehaviorCollection], [ImageCollection], [GradientStopCollectionEffectiveData], [SmartArtNodeCollection], [SequenceCollection], [BehaviorPropertyCollection], [VideoCollection], [TextAnimationCollection], [ChartCellCollection], [EffectStyleCollection], [ControlCollection], [PieSplitCustomPointCollection], [FontFallBackRulesCollection], [ImageTransformOCollectionEffectiveData], [TrendlineCollection], [DigitalSignatureCollection], [AudioCollection], [ChartSeriesCollection], [ControlPropertiesCollection], [MathBlock], [ParagraphCollection], [Row], [CommentCollection], [ImageTransformOperationCollection], [TagCollection], [GradientStopCollection], [List], [GlobalLayoutSlideCollection], [ChartDataWorksheetCollection], [LayoutSlideCollection], [Queue], [FillFormatCollection], [PointCollection]
 
 
 ---
 
 
-| [removeEmbeddedFont] ([FontData]) Removes the embedded font |
+| [removeEmbeddedFont] ([FontData]) | Removes the embedded font |
 
 
 ---
 
 
-| [replaceFont] ([FontData], [FontData]) Replace font in presentation |
+| [replaceFont] ([FontData], [FontData]) | Replace font in presentation |
 
 ### Parameters
 
@@ -99,7 +99,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [replaceFont] ([FontSubstRule]) Replace font in presentation using information provided in FontSubstRule |
+| [replaceFont] ([FontSubstRule]) | Replace font in presentation using information provided in FontSubstRule |
 
 ### Parameters
 
@@ -111,7 +111,7 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [replaceFont] ([FontSubstRuleCollection]) Replace font in presentation using information provided in collection of FontSubstRule |
+| [replaceFont] ([FontSubstRuleCollection]) | Replace font in presentation using information provided in collection of FontSubstRule |
 
 ### Parameters
 
@@ -123,13 +123,13 @@ url: /aspose.slides/fontsmanager/
 ---
 
 
-| [setFontFallBackRulesCollection] ([FontFallBackRulesCollection]) Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
+| [setFontFallBackRulesCollection] ([FontFallBackRulesCollection]) | Represents a user's collection of FontFallBack rules for managing of collections of fonts for proper substitutions by fallback functionality Read/write IFontFallBackRulesCollection. |
 
 
 ---
 
 
-| [setFontSubstRuleList] ([FontSubstRuleCollection]) Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
+| [setFontSubstRuleList] ([FontSubstRuleCollection]) | Font substitutions to use when rendering. Read/write IFontSubstRuleCollection. |
 
 
 ---

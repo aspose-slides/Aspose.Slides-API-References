@@ -67,7 +67,7 @@ CellInvalidFormulaException
 ---
 
 
-| [getReference] () Gets a cell reference that contains the invalid formula. |
+| [getReference] () | Gets a cell reference that contains the invalid formula. |
 
 ### Result
 String

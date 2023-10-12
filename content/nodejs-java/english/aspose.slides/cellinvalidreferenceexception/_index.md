@@ -67,7 +67,7 @@ CellInvalidReferenceException
 ---
 
 
-| [getReference] () Gets an invalid cell reference. |
+| [getReference] () | Gets an invalid cell reference. |
 
 ### Result
 String

@@ -202,27 +202,6 @@ MathDelimiter
 ---
 
 
-| [MathDelimiter]([MathGroupingCharacter]) | Initializes MathDelimiter with the specified element as single base argument |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the delimiter is applied. Can be null. |
-
-### Result
-MathDelimiter
-
-### Error
-
-| Error | Condition |
-| --- | --- |
- | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
-
-
----
-
-
 | [MathDelimiter]([MathArray]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
@@ -328,6 +307,27 @@ MathDelimiter
 ---
 
 
+| [MathDelimiter]([MathGroupingCharacter]) | Initializes MathDelimiter with the specified element as single base argument |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the delimiter is applied. Can be null. |
+
+### Result
+MathDelimiter
+
+### Error
+
+| Error | Condition |
+| --- | --- |
+ | InvalidOperationException | Throws then element is a container for another elements, such as MathBlock. In this case, you need to call a different function with IEnumerable argument. |
+
+
+---
+
+
 | [MathDelimiter]([MathematicalText]) | Initializes MathDelimiter with the specified element as single base argument |
 
 ### Parameters
@@ -412,7 +412,7 @@ MathDelimiter
 ---
 
 
-| [delimit] ([char]) Delimits arguments using the specified delimiter character |
+| [delimit] ([char]) | Delimits arguments using the specified delimiter character |
 
 ### Parameters
 
@@ -427,7 +427,7 @@ MathDelimiter
 ---
 
 
-| [enclose] ([char], [char]) Encloses a math element in specified characters such as parenthesis or another characters as framing |
+| [enclose] ([char], [char]) | Encloses a math element in specified characters such as parenthesis or another characters as framing |
 
 ### Parameters
 
@@ -443,7 +443,7 @@ MathDelimiter
 ---
 
 
-| [getArguments] () One or more mathematical elements separated by delimiter characters |
+| [getArguments] () | One or more mathematical elements separated by delimiter characters |
 
 ### Result
 [MathBlock]
@@ -452,7 +452,7 @@ MathDelimiter
 ---
 
 
-| [getBeginningCharacter] () Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
+| [getBeginningCharacter] () | Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
 
 ### Result
 char
@@ -461,16 +461,16 @@ char
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getDelimiterShape] () Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
+| [getDelimiterShape] () | Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
 
 ### Result
 int
@@ -479,7 +479,7 @@ int
 ---
 
 
-| [getEndingCharacter] () Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
+| [getEndingCharacter] () | Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
 
 ### Result
 char
@@ -488,7 +488,7 @@ char
 ---
 
 
-| [getGrowToMatchOperandHeight] () Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
+| [getGrowToMatchOperandHeight] () | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
 
 ### Result
 boolean
@@ -497,7 +497,7 @@ boolean
 ---
 
 
-| [getSeparatorCharacter] () Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
+| [getSeparatorCharacter] () | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
 
 ### Result
 char
@@ -506,31 +506,31 @@ char
 ---
 
 
-| [setBeginningCharacter] ([char]) Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
+| [setBeginningCharacter] ([char]) | Delimiter Beginning Character specifies the beginning, or opening, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: '('. |
 
 
 ---
 
 
-| [setDelimiterShape] ([int]) Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
+| [setDelimiterShape] ([int]) | Specifies the shape of delimiters in the delimiter object. When is MathDelimiterShape.Centered, delimiters are centered around the math axis of the mathematical text and still be made to fit the entire height of their contents. When is MathDelimiterShape.Match, their height and shape are altered to exactly match their contents. |
 
 
 ---
 
 
-| [setEndingCharacter] ([char]) Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
+| [setEndingCharacter] ([char]) | Delimiter Ending Character specifies the ending, or closing, delimiter character. Mathematical delimiters are enclosing characters such as parentheses, brackets, and braces. The default: ')'. |
 
 
 ---
 
 
-| [setGrowToMatchOperandHeight] ([boolean]) Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
+| [setGrowToMatchOperandHeight] ([boolean]) | Specifies the growth of BeginningCharacter, SeparatorCharacter, EndingCharacter When true, the delimiters grows vertically to match its operand height. The default value is true |
 
 
 ---
 
 
-| [setSeparatorCharacter] ([char]) Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
+| [setSeparatorCharacter] ([char]) | Delimiter Separator Character specifies the character that separates arguments in the delimiter object. The default: '|'. |
 
 
 ---

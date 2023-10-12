@@ -146,21 +146,6 @@ MathBar
 ---
 
 
-| [MathBar]([MathGroupingCharacter]) | Initializes MathBar with overbar (Top position) |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the bar is applied |
-
-### Result
-MathBar
-
-
----
-
-
 | [MathBar]([MathArray]) | Initializes MathBar with overbar (Top position) |
 
 ### Parameters
@@ -228,6 +213,21 @@ MathBar
 | Name | Type | Description |
 | --- | --- | --- |
 | element | [MathNaryOperator] | The base element to which the bar is applied |
+
+### Result
+MathBar
+
+
+---
+
+
+| [MathBar]([MathGroupingCharacter]) | Initializes MathBar with overbar (Top position) |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the bar is applied |
 
 ### Result
 MathBar
@@ -440,22 +440,6 @@ MathBar
 ---
 
 
-| [MathBar]([MathGroupingCharacter], [int]) | Initializes MathBar with specified position |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | The base element to which the bar is applied |
-| position | [int] | Position of the bar line. |
-
-### Result
-MathBar
-
-
----
-
-
 | [MathBar]([MathArray], [int]) | Initializes MathBar with specified position |
 
 ### Parameters
@@ -536,6 +520,22 @@ MathBar
 ---
 
 
+| [MathBar]([MathGroupingCharacter], [int]) | Initializes MathBar with specified position |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | The base element to which the bar is applied |
+| position | [int] | Position of the bar line. |
+
+### Result
+MathBar
+
+
+---
+
+
 | [MathBar]([MathematicalText], [int]) | Initializes MathBar with specified position |
 
 ### Parameters
@@ -600,25 +600,25 @@ MathBar
 ---
 
 
-| [getBase] () Base argument |
+| [getBase] () | Base argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getPosition] () Position of the bar line. Default: Top |
+| [getPosition] () | Position of the bar line. Default: Top |
 
 ### Result
 int
@@ -627,7 +627,7 @@ int
 ---
 
 
-| [setPosition] ([int]) Position of the bar line. Default: Top |
+| [setPosition] ([int]) | Position of the bar line. Default: Top |
 
 
 ---

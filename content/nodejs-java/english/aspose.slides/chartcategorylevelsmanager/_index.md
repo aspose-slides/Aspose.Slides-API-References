@@ -11,13 +11,13 @@ url: /aspose.slides/chartcategorylevelsmanager/
 
  Managed container of the values of the chart category levels.
  
-| [deleteGroupingItem] ([int]) Delete grouping item for defined level. |
+| [deleteGroupingItem] ([int]) | Delete grouping item for defined level. |
 
 
 ---
 
 
-| [get_Item] ([int]) Returns IChartDataCell object for defined level. |
+| [get_Item] ([int]) | Returns IChartDataCell object for defined level. |
 
 ### Result
 [ChartDataCell]
@@ -26,7 +26,7 @@ url: /aspose.slides/chartcategorylevelsmanager/
 ---
 
 
-| [setGroupingItem] ([int], [Object]) Sets grouping item for defined level. |
+| [setGroupingItem] ([int], [Object]) | Sets grouping item for defined level. |
 
 
 ---

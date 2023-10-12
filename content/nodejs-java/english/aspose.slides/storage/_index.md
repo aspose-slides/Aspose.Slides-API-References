@@ -20,7 +20,7 @@ Storage
 ---
 
 
-| [containsKey] ([String]) Determines whether the storage contains an element with the specified key. |
+| [containsKey] ([String]) | Determines whether the storage contains an element with the specified key. |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ boolean
 ---
 
 
-| [get] ([String]) Gets the data from the storage. |
+| [get] ([String]) | Gets the data from the storage. |
 
 ### Parameters
 
@@ -50,7 +50,7 @@ TValue
 ---
 
 
-| [put] ([String], [TValue]) Puts the value into the storage. |
+| [put] ([String], [TValue]) | Puts the value into the storage. |
 
 ### Parameters
 

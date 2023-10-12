@@ -11,7 +11,7 @@ url: /aspose.slides/graphicalobject/
 
  Represents abstract graphical object.
  
-| [getGraphicalObjectLock] () Returns shape's locks. Read-only IGraphicalObjectLock. |
+| [getGraphicalObjectLock] () | Returns shape's locks. Read-only IGraphicalObjectLock. |
 
 ### Result
 [GraphicalObjectLock]

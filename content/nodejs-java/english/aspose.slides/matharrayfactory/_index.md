@@ -22,7 +22,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathLimit]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathLimit]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -37,7 +37,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathBorderBox]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBorderBox]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -52,7 +52,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathFraction]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathFraction]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -67,7 +67,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathDelimiter]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathDelimiter]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -82,7 +82,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathSuperscriptElement]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathSuperscriptElement]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -97,7 +97,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathLeftSubSuperscriptElement]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathLeftSubSuperscriptElement]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -112,7 +112,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathRightSubSuperscriptElement]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathRightSubSuperscriptElement]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -127,7 +127,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathBox]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBox]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -142,7 +142,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathMatrix]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathMatrix]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -157,22 +157,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathGroupingCharacter]) Creates a math array and places the specified element in it |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to place in array |
-
-### Result
-[MathArray]
-
-
----
-
-
-| [createMathArray] ([MathArray]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathArray]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -187,7 +172,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathBlock]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBlock]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -202,7 +187,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathSubscriptElement]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathSubscriptElement]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -217,7 +202,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathFunction]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathFunction]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -232,7 +217,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathNaryOperator]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathNaryOperator]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -247,7 +232,22 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathematicalText]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathGroupingCharacter]) | Creates a math array and places the specified element in it |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | math element to place in array |
+
+### Result
+[MathArray]
+
+
+---
+
+
+| [createMathArray] ([MathematicalText]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -262,7 +262,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathAccent]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathAccent]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -277,7 +277,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathRadical]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathRadical]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -292,7 +292,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathBar]) Creates a math array and places the specified element in it |
+| [createMathArray] ([MathBar]) | Creates a math array and places the specified element in it |
 
 ### Parameters
 
@@ -307,7 +307,7 @@ MathArrayFactory
 ---
 
 
-| [createMathArray] ([MathBlock]) Creates a math array and places specified elements in it |
+| [createMathArray] ([MathBlock]) | Creates a math array and places specified elements in it |
 
 ### Parameters
 

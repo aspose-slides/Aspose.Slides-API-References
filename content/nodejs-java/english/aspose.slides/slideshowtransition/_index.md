@@ -11,7 +11,7 @@ url: /aspose.slides/slideshowtransition/
 
  Represents slide show transition.
  
-| [equals] ([Object]) Determines whether the two SlideShowTransition instances are equal. Read/write boolean. |
+| [equals] ([Object]) | Determines whether the two SlideShowTransition instances are equal. Read/write boolean. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ boolean
 ---
 
 
-| [getAdvanceAfter] () This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean. |
+| [getAdvanceAfter] () | This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean. |
 
 ### Result
 boolean
@@ -35,7 +35,7 @@ boolean
 ---
 
 
-| [getAdvanceAfterTime] () Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long. |
+| [getAdvanceAfterTime] () | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long. |
 
 ### Result
 long
@@ -44,7 +44,7 @@ long
 ---
 
 
-| [getAdvanceOnClick] () Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean. |
+| [getAdvanceOnClick] () | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean. |
 
 ### Result
 boolean
@@ -53,7 +53,7 @@ boolean
 ---
 
 
-| [getSound] () Returns or sets the embedded audio data. Read/write IAudio. |
+| [getSound] () | Returns or sets the embedded audio data. Read/write IAudio. |
 
 ### Result
 [Audio]
@@ -62,7 +62,7 @@ boolean
 ---
 
 
-| [getSoundIsBuiltIn] () Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean. |
+| [getSoundIsBuiltIn] () | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean. |
 
 ### Result
 boolean
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [getSoundLoop] () This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean. |
+| [getSoundLoop] () | This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean. |
 
 ### Result
 boolean
@@ -80,7 +80,7 @@ boolean
 ---
 
 
-| [getSoundMode] () Set or returns sound mode for slide transition. Read/write TransitionSoundMode. |
+| [getSoundMode] () | Set or returns sound mode for slide transition. Read/write TransitionSoundMode. |
 
 ### Result
 int
@@ -89,7 +89,7 @@ int
 ---
 
 
-| [getSoundName] () Specifies a human readable name for the sound of the transition. The Sound( #getSound/ #setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String. |
+| [getSoundName] () | Specifies a human readable name for the sound of the transition. The Sound( #getSound/ #setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String. |
 
 ### Result
 String
@@ -104,7 +104,7 @@ String
 ---
 
 
-| [getSpeed] () Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write TransitionSpeed. |
+| [getSpeed] () | Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write TransitionSpeed. |
 
 ### Result
 int
@@ -113,7 +113,7 @@ int
 ---
 
 
-| [getType] () Type of transition. Read/write TransitionType. |
+| [getType] () | Type of transition. Read/write TransitionType. |
 
 ### Result
 int
@@ -122,7 +122,7 @@ int
 ---
 
 
-| [getValue] () Slide show transition value. Read-only ITransitionValueBase. |
+| [getValue] () | Slide show transition value. Read-only ITransitionValueBase. |
 
 ### Result
 [EmptyTransition], [GlitterTransition], [OrientationTransition], [EightDirectionTransition], [RevealTransition], [WheelTransition], [OptionalBlackTransition], [RippleTransition], [LeftRightDirectionTransition], [ShredTransition], [SideDirectionTransition], [InOutTransition], [CornerDirectionTransition], [MorphTransition], [FlyThroughTransition], [TransitionValueBase], [SplitTransition]
@@ -131,7 +131,7 @@ int
 ---
 
 
-| [hashCode] () Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
+| [hashCode] () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
 ### Result
 int
@@ -140,49 +140,49 @@ int
 ---
 
 
-| [setAdvanceAfter] ([boolean]) This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean. |
+| [setAdvanceAfter] ([boolean]) | This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean. |
 
 
 ---
 
 
-| [setAdvanceAfterTime] ([long]) Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long. |
+| [setAdvanceAfterTime] ([long]) | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long. |
 
 
 ---
 
 
-| [setAdvanceOnClick] ([boolean]) Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean. |
+| [setAdvanceOnClick] ([boolean]) | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean. |
 
 
 ---
 
 
-| [setSound] ([Audio]) Returns or sets the embedded audio data. Read/write IAudio. |
+| [setSound] ([Audio]) | Returns or sets the embedded audio data. Read/write IAudio. |
 
 
 ---
 
 
-| [setSoundIsBuiltIn] ([boolean]) Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean. |
+| [setSoundIsBuiltIn] ([boolean]) | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean. |
 
 
 ---
 
 
-| [setSoundLoop] ([boolean]) This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean. |
+| [setSoundLoop] ([boolean]) | This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean. |
 
 
 ---
 
 
-| [setSoundMode] ([int]) Set or returns sound mode for slide transition. Read/write TransitionSoundMode. |
+| [setSoundMode] ([int]) | Set or returns sound mode for slide transition. Read/write TransitionSoundMode. |
 
 
 ---
 
 
-| [setSoundName] ([String]) Specifies a human readable name for the sound of the transition. The Sound( #getSound/ #setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String. |
+| [setSoundName] ([String]) | Specifies a human readable name for the sound of the transition. The Sound( #getSound/ #setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String. |
 
 ### Error
 
@@ -194,13 +194,13 @@ int
 ---
 
 
-| [setSpeed] ([int]) Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write TransitionSpeed. |
+| [setSpeed] ([int]) | Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write TransitionSpeed. |
 
 
 ---
 
 
-| [setType] ([int]) Type of transition. Read/write TransitionType. |
+| [setType] ([int]) | Type of transition. Read/write TransitionType. |
 
 
 ---

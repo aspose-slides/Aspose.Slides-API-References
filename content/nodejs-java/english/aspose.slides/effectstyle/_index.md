@@ -11,7 +11,7 @@ url: /aspose.slides/effectstyle/
 
  Represents an effect style.
  
-| [getEffectFormat] () Returns an effect format. Read-only IEffectFormat. |
+| [getEffectFormat] () | Returns an effect format. Read-only IEffectFormat. |
 
 ### Result
 [EffectFormat]
@@ -20,7 +20,7 @@ url: /aspose.slides/effectstyle/
 ---
 
 
-| [getThreeDFormat] () Returns an 3d format. Read-only IThreeDFormat. |
+| [getThreeDFormat] () | Returns an 3d format. Read-only IThreeDFormat. |
 
 ### Result
 [ThreeDFormat]

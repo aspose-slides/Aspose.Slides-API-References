@@ -20,7 +20,7 @@ FontSources
 ---
 
 
-| [getFontFolders] () Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| [getFontFolders] () | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
 ### Result
 String
@@ -29,7 +29,7 @@ String
 ---
 
 
-| [getMemoryFonts] () A collection of fonts represented as byte arrays. |
+| [getMemoryFonts] () | A collection of fonts represented as byte arrays. |
 
 ### Result
 byte
@@ -38,13 +38,13 @@ byte
 ---
 
 
-| [setFontFolders] ([java.lang.String[]]) Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
+| [setFontFolders] ([java.lang.String[]]) | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
 
 ---
 
 
-| [setMemoryFonts] ([byte[][]]) A collection of fonts represented as byte arrays. |
+| [setMemoryFonts] ([byte[][]]) | A collection of fonts represented as byte arrays. |
 
 
 ---

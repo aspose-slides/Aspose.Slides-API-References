@@ -20,7 +20,7 @@ MathPortion
 ---
 
 
-| [getMathParagraph] () Math paragraph |
+| [getMathParagraph] () | Math paragraph |
 
 ### Result
 [MathParagraph]

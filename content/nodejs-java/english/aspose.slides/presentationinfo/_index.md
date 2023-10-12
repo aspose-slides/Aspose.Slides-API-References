@@ -11,7 +11,7 @@ url: /aspose.slides/presentationinfo/
 
  Information about presentation file
  
-| [checkPassword] ([String]) Checks whether a password is correct for a presentation protected with open password. |
+| [checkPassword] ([String]) | Checks whether a password is correct for a presentation protected with open password. |
 
 ### Parameters
 
@@ -32,7 +32,7 @@ boolean
 ---
 
 
-| [checkWriteProtection] ([String]) Checks whether a password to modify is correct for a write protected presentation. |
+| [checkWriteProtection] ([String]) | Checks whether a password to modify is correct for a write protected presentation. |
 
 ### Parameters
 
@@ -53,7 +53,7 @@ boolean
 ---
 
 
-| [getLoadFormat] () Gets format of the binded presentation. Read-only LoadFormat. |
+| [getLoadFormat] () | Gets format of the binded presentation. Read-only LoadFormat. |
 
 ### Result
 int
@@ -62,7 +62,7 @@ int
 ---
 
 
-| [isEncrypted] () Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
+| [isEncrypted] () | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
 
 ### Result
 boolean
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [isPasswordProtected] () Gets a value that indicates whether a binded presentation is protected by a password to open. |
+| [isPasswordProtected] () | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 
 ### Result
 boolean
@@ -80,7 +80,7 @@ boolean
 ---
 
 
-| [isWriteProtected] () Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
+| [isWriteProtected] () | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
 
 ### Result
 byte
@@ -89,7 +89,7 @@ byte
 ---
 
 
-| [readDocumentProperties] () Gets document properties of binded presentation. |
+| [readDocumentProperties] () | Gets document properties of binded presentation. |
 
 ### Result
 [DocumentProperties]
@@ -98,13 +98,13 @@ byte
 ---
 
 
-| [updateDocumentProperties] ([DocumentProperties]) Updates properties of binded presentation. |
+| [updateDocumentProperties] ([DocumentProperties]) | Updates properties of binded presentation. |
 
 
 ---
 
 
-| [writeBindedPresentationToStream ] (PresentationInfo, [WriteStream]) Writes binded presentation to stream. |
+| [writeBindedPresentationToStream ] (PresentationInfo, [WriteStream]) | Writes binded presentation to stream. |
 
 ### Parameters
 
@@ -117,7 +117,7 @@ byte
 ---
 
 
-| [writeBindedPresentation] ([String]) Writes binded presentation to file. |
+| [writeBindedPresentation] ([String]) | Writes binded presentation to file. |
 
 ### Parameters
 

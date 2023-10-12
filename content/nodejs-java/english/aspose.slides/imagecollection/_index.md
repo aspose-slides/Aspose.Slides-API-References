@@ -11,7 +11,7 @@ url: /aspose.slides/imagecollection/
 
  Represents collection of PPImage.
  
-| [addImage] ([PPImage]) Adds a copy of an image from an another presentation. |
+| [addImage] ([PPImage]) | Adds a copy of an image from an another presentation. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [addImage] ([BufferedImage]) Add an image to a presentation. |
+| [addImage] ([BufferedImage]) | Add an image to a presentation. |
 
 ### Parameters
 
@@ -41,7 +41,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [addImageFromStream ] (ImageCollection, [ReadStream], Function) Add an image to a presentation from stream. |
+| [addImageFromStream ] (ImageCollection, [ReadStream], Function) | Add an image to a presentation from stream. |
 
 ### Parameters
 
@@ -58,7 +58,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [addImageFromStream ] (ImageCollection, [ReadStream], [int], Function) Creates and adds an image to a presentation from stream. |
+| [addImageFromStream ] (ImageCollection, [ReadStream], [int], Function) | Creates and adds an image to a presentation from stream. |
 
 ### Parameters
 
@@ -76,7 +76,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [addImage] ([byte[]]) Adds an image to a presentation from specified buffer. |
+| [addImage] ([byte[]]) | Adds an image to a presentation from specified buffer. |
 
 ### Parameters
 
@@ -91,7 +91,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [addImage] ([SvgImage]) Add an image to a presentation from Svg object. |
+| [addImage] ([SvgImage]) | Add an image to a presentation from Svg object. |
 
 ### Parameters
 
@@ -112,7 +112,7 @@ url: /aspose.slides/imagecollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -121,7 +121,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. Read-only IPPImage. |
+| [get_Item] ([int]) | Gets the element at the specified index. Read-only IPPImage. |
 
 ### Result
 [PPImage]
@@ -130,7 +130,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -139,7 +139,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -148,7 +148,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -157,7 +157,7 @@ boolean
 ---
 
 
-| [size] () Returns a number of images in the collection. Read-only int. |
+| [size] () | Returns a number of images in the collection. Read-only int. |
 
 ### Result
 int

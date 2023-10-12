@@ -11,7 +11,7 @@ url: /aspose.slides/hyperlinkqueries/
 
  Provide easy access to contained hyperlinks.
  
-| [getAnyHyperlinks] () Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| [getAnyHyperlinks] () | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
 ### Result
 [KeyedCollection], [List], [BehaviorPropertyCollection], [Collection], [ReadOnlyCollection]
@@ -20,7 +20,7 @@ url: /aspose.slides/hyperlinkqueries/
 ---
 
 
-| [getHyperlinkClicks] () Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| [getHyperlinkClicks] () | Get all IHyperlinkContainer subobjects that contain not null HyperlinkClick. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
 ### Result
 [KeyedCollection], [List], [BehaviorPropertyCollection], [Collection], [ReadOnlyCollection]
@@ -29,7 +29,7 @@ url: /aspose.slides/hyperlinkqueries/
 ---
 
 
-| [getHyperlinkMouseOvers] () Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
+| [getHyperlinkMouseOvers] () | Get all IHyperlinkContainer subobjects that contain not null HyperlinkMouseOver. With given IHyperlinkContainer object you can manage its hyperlink (read, update or remove). See IHyperlinkContainer interface. |
 
 ### Result
 [KeyedCollection], [List], [BehaviorPropertyCollection], [Collection], [ReadOnlyCollection]
@@ -38,7 +38,7 @@ url: /aspose.slides/hyperlinkqueries/
 ---
 
 
-| [removeAllHyperlinks] () Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects). |
+| [removeAllHyperlinks] () | Removes all contained HyperlinkClick and HyperlinkMouseOver hyperlinks (in all IHyperlinkContainer subobjects). |
 
 
 ---

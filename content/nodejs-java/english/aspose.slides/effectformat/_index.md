@@ -11,97 +11,97 @@ url: /aspose.slides/effectformat/
 
  Represents effect properties of shape.
  
-| [disableBlurEffect] () Disables blur effect. |
+| [disableBlurEffect] () | Disables blur effect. |
 
 
 ---
 
 
-| [disableFillOverlayEffect] () Disables fill overlay effect. |
+| [disableFillOverlayEffect] () | Disables fill overlay effect. |
 
 
 ---
 
 
-| [disableGlowEffect] () Disable glow effect. |
+| [disableGlowEffect] () | Disable glow effect. |
 
 
 ---
 
 
-| [disableInnerShadowEffect] () Disables inner shadow effect. |
+| [disableInnerShadowEffect] () | Disables inner shadow effect. |
 
 
 ---
 
 
-| [disableOuterShadowEffect] () Disables outer shadow effect. |
+| [disableOuterShadowEffect] () | Disables outer shadow effect. |
 
 
 ---
 
 
-| [disablePresetShadowEffect] () Disables preset shadow effect. |
+| [disablePresetShadowEffect] () | Disables preset shadow effect. |
 
 
 ---
 
 
-| [disableReflectionEffect] () Disables reflection effect. |
+| [disableReflectionEffect] () | Disables reflection effect. |
 
 
 ---
 
 
-| [disableSoftEdgeEffect] () Disables soft edge effect. |
+| [disableSoftEdgeEffect] () | Disables soft edge effect. |
 
 
 ---
 
 
-| [enableFillOverlayEffect] () Enables fill overlay effect. |
+| [enableFillOverlayEffect] () | Enables fill overlay effect. |
 
 
 ---
 
 
-| [enableGlowEffect] () Enables glow effect. |
+| [enableGlowEffect] () | Enables glow effect. |
 
 
 ---
 
 
-| [enableInnerShadowEffect] () Enables inner shadow effect. |
+| [enableInnerShadowEffect] () | Enables inner shadow effect. |
 
 
 ---
 
 
-| [enableOuterShadowEffect] () Enables outer shadow effect. |
+| [enableOuterShadowEffect] () | Enables outer shadow effect. |
 
 
 ---
 
 
-| [enablePresetShadowEffect] () Enables preset shadows effect. |
+| [enablePresetShadowEffect] () | Enables preset shadows effect. |
 
 
 ---
 
 
-| [enableReflectionEffect] () Enables reflection effect. |
+| [enableReflectionEffect] () | Enables reflection effect. |
 
 
 ---
 
 
-| [enableSoftEdgeEffect] () Enables soft edge effect. |
+| [enableSoftEdgeEffect] () | Enables soft edge effect. |
 
 
 ---
 
 
-| [getBlurEffect] () Blur effect. Read/write IBlur. |
+| [getBlurEffect] () | Blur effect. Read/write IBlur. |
 
 ### Result
 [Blur]
@@ -110,7 +110,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getEffective] () Gets effective effect formatting data with the inheritance applied. |
+| [getEffective] () | Gets effective effect formatting data with the inheritance applied. |
 
 ### Result
 [EffectFormatEffectiveData]
@@ -119,7 +119,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getFillOverlayEffect] () Fill overlay effect. Read/write IFillOverlay. |
+| [getFillOverlayEffect] () | Fill overlay effect. Read/write IFillOverlay. |
 
 ### Result
 [FillOverlay]
@@ -128,7 +128,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getGlowEffect] () Glow effect. Read/write IGlow. |
+| [getGlowEffect] () | Glow effect. Read/write IGlow. |
 
 ### Result
 [Glow]
@@ -137,7 +137,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getInnerShadowEffect] () Inner shadow. Read/write IInnerShadow. |
+| [getInnerShadowEffect] () | Inner shadow. Read/write IInnerShadow. |
 
 ### Result
 [InnerShadow]
@@ -146,7 +146,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getOuterShadowEffect] () Outer shadow. Read/write IOuterShadow. |
+| [getOuterShadowEffect] () | Outer shadow. Read/write IOuterShadow. |
 
 ### Result
 [OuterShadow]
@@ -155,7 +155,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getPresetShadowEffect] () Preset shadow. Read/write IPresetShadow. |
+| [getPresetShadowEffect] () | Preset shadow. Read/write IPresetShadow. |
 
 ### Result
 [PresetShadow]
@@ -164,7 +164,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getReflectionEffect] () Reflection. Read/write IReflection. |
+| [getReflectionEffect] () | Reflection. Read/write IReflection. |
 
 ### Result
 [Reflection]
@@ -173,7 +173,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getSoftEdgeEffect] () Soft edge. Read/write ISoftEdge. |
+| [getSoftEdgeEffect] () | Soft edge. Read/write ISoftEdge. |
 
 ### Result
 [SoftEdge]
@@ -182,7 +182,7 @@ url: /aspose.slides/effectformat/
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -191,7 +191,7 @@ long
 ---
 
 
-| [isNoEffects] () Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
+| [isNoEffects] () | Returns true if all effects are disabled (as just created, default EffectFormat object). Read-only boolean. |
 
 ### Result
 boolean
@@ -200,13 +200,13 @@ boolean
 ---
 
 
-| [setBlurEffect] ([Blur]) Blur effect. Read/write IBlur. |
+| [setBlurEffect] ([Blur]) | Blur effect. Read/write IBlur. |
 
 
 ---
 
 
-| [setBlurEffect] ([double], [boolean]) Sets blur effect. |
+| [setBlurEffect] ([double], [boolean]) | Sets blur effect. |
 
 ### Parameters
 
@@ -219,43 +219,43 @@ boolean
 ---
 
 
-| [setFillOverlayEffect] ([FillOverlay]) Fill overlay effect. Read/write IFillOverlay. |
+| [setFillOverlayEffect] ([FillOverlay]) | Fill overlay effect. Read/write IFillOverlay. |
 
 
 ---
 
 
-| [setGlowEffect] ([Glow]) Glow effect. Read/write IGlow. |
+| [setGlowEffect] ([Glow]) | Glow effect. Read/write IGlow. |
 
 
 ---
 
 
-| [setInnerShadowEffect] ([InnerShadow]) Inner shadow. Read/write IInnerShadow. |
+| [setInnerShadowEffect] ([InnerShadow]) | Inner shadow. Read/write IInnerShadow. |
 
 
 ---
 
 
-| [setOuterShadowEffect] ([OuterShadow]) Outer shadow. Read/write IOuterShadow. |
+| [setOuterShadowEffect] ([OuterShadow]) | Outer shadow. Read/write IOuterShadow. |
 
 
 ---
 
 
-| [setPresetShadowEffect] ([PresetShadow]) Preset shadow. Read/write IPresetShadow. |
+| [setPresetShadowEffect] ([PresetShadow]) | Preset shadow. Read/write IPresetShadow. |
 
 
 ---
 
 
-| [setReflectionEffect] ([Reflection]) Reflection. Read/write IReflection. |
+| [setReflectionEffect] ([Reflection]) | Reflection. Read/write IReflection. |
 
 
 ---
 
 
-| [setSoftEdgeEffect] ([SoftEdge]) Soft edge. Read/write ISoftEdge. |
+| [setSoftEdgeEffect] ([SoftEdge]) | Soft edge. Read/write ISoftEdge. |
 
 
 ---

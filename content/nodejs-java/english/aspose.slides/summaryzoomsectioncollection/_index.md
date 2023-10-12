@@ -11,7 +11,7 @@ url: /aspose.slides/summaryzoomsectioncollection/
 
  Represents a collection of Summary Zoom Section objects.
  
-| [addSummaryZoomSection] ([Section]) Creates new Summary Zoom Section object and add it to the collection |
+| [addSummaryZoomSection] ([Section]) | Creates new Summary Zoom Section object and add it to the collection |
 
 ### Parameters
 
@@ -32,13 +32,13 @@ url: /aspose.slides/summaryzoomsectioncollection/
 ---
 
 
-| [clear] () Removes all SummaryZoomSection objects from the collection. |
+| [clear] () | Removes all SummaryZoomSection objects from the collection. |
 
 
 ---
 
 
-| [getSummarySection] ([Section]) Returns Summary Zoom Section element for the given section. |
+| [getSummarySection] ([Section]) | Returns Summary Zoom Section element for the given section. |
 
 ### Parameters
 
@@ -53,7 +53,7 @@ url: /aspose.slides/summaryzoomsectioncollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -62,7 +62,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. Read-only ISummaryZoomSection. |
+| [get_Item] ([int]) | Gets the element at the specified index. Read-only ISummaryZoomSection. |
 
 ### Result
 [SummaryZoomSection]
@@ -71,7 +71,7 @@ Object
 ---
 
 
-| [indexOf] ([SummaryZoomSection]) Returns an index of the specified SummaryZoomSection object. |
+| [indexOf] ([SummaryZoomSection]) | Returns an index of the specified SummaryZoomSection object. |
 
 ### Parameters
 
@@ -86,7 +86,7 @@ int
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -95,7 +95,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -104,7 +104,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -113,7 +113,7 @@ boolean
 ---
 
 
-| [removeSummaryZoomSection] ([Section]) Remove Summary Zoom Section object from the collection. |
+| [removeSummaryZoomSection] ([Section]) | Remove Summary Zoom Section object from the collection. |
 
 ### Parameters
 
@@ -125,7 +125,7 @@ boolean
 ---
 
 
-| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

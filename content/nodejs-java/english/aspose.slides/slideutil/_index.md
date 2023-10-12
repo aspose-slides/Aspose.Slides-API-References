@@ -20,7 +20,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [ShapeCollection]) Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [ShapeCollection]) | Changes the placement of all shapes in the collection. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -34,7 +34,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [MasterNotesSlide]) Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [MasterNotesSlide]) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -48,7 +48,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [MasterHandoutSlide]) Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [MasterHandoutSlide]) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -62,7 +62,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [NotesSlide]) Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [NotesSlide]) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -76,7 +76,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [LayoutSlide]) Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [LayoutSlide]) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -90,7 +90,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [Slide]) Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [Slide]) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -104,7 +104,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [MasterSlide]) Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [MasterSlide]) | Changes the placement of all shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -118,7 +118,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [MasterNotesSlide], [int[]]) Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [MasterNotesSlide], [int[]]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -133,7 +133,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [MasterHandoutSlide], [int[]]) Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [MasterHandoutSlide], [int[]]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -148,7 +148,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [NotesSlide], [int[]]) Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [NotesSlide], [int[]]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -163,7 +163,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [LayoutSlide], [int[]]) Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [LayoutSlide], [int[]]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -178,7 +178,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [Slide], [int[]]) Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [Slide], [int[]]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -193,7 +193,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [MasterSlide], [int[]]) Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [MasterSlide], [int[]]) | Changes the placement of selected shapes on the slide. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -208,7 +208,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [GroupShape]) Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [GroupShape]) | Changes the placement of all shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -222,7 +222,7 @@ SlideUtil
 ---
 
 
-| [alignShapes] ([int], [boolean], [GroupShape], [int[]]) Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
+| [alignShapes] ([int], [boolean], [GroupShape], [int[]]) | Changes the placement of selected shapes within group shape. Aligns shapes to the margins or the edge of the slide or align them relative to each other. |
 
 ### Parameters
 
@@ -237,7 +237,7 @@ SlideUtil
 ---
 
 
-| [findAndReplaceText] ([Presentation], [boolean], [String], [String]) Finds and replaces text in presentation with given format |
+| [findAndReplaceText] ([Presentation], [boolean], [String], [String]) | Finds and replaces text in presentation with given format |
 
 ### Parameters
 
@@ -252,7 +252,7 @@ SlideUtil
 ---
 
 
-| [findAndReplaceText] ([Presentation], [boolean], [String], [String], [PortionFormat]) Finds and replaces text in presentation with given format |
+| [findAndReplaceText] ([Presentation], [boolean], [String], [String], [PortionFormat]) | Finds and replaces text in presentation with given format |
 
 ### Parameters
 
@@ -268,7 +268,7 @@ SlideUtil
 ---
 
 
-| [findShape] ([Presentation], [String]) Find shape by alternative text in a PPTX presentation. |
+| [findShape] ([Presentation], [String]) | Find shape by alternative text in a PPTX presentation. |
 
 ### Parameters
 
@@ -284,7 +284,7 @@ SlideUtil
 ---
 
 
-| [findShape] ([MasterNotesSlide], [String]) Find shape by alternative text on a slide in a PPTX presentation. |
+| [findShape] ([MasterNotesSlide], [String]) | Find shape by alternative text on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -300,7 +300,7 @@ SlideUtil
 ---
 
 
-| [findShape] ([MasterHandoutSlide], [String]) Find shape by alternative text on a slide in a PPTX presentation. |
+| [findShape] ([MasterHandoutSlide], [String]) | Find shape by alternative text on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -316,7 +316,7 @@ SlideUtil
 ---
 
 
-| [findShape] ([NotesSlide], [String]) Find shape by alternative text on a slide in a PPTX presentation. |
+| [findShape] ([NotesSlide], [String]) | Find shape by alternative text on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -332,7 +332,7 @@ SlideUtil
 ---
 
 
-| [findShape] ([LayoutSlide], [String]) Find shape by alternative text on a slide in a PPTX presentation. |
+| [findShape] ([LayoutSlide], [String]) | Find shape by alternative text on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -348,7 +348,7 @@ SlideUtil
 ---
 
 
-| [findShape] ([Slide], [String]) Find shape by alternative text on a slide in a PPTX presentation. |
+| [findShape] ([Slide], [String]) | Find shape by alternative text on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -364,7 +364,7 @@ SlideUtil
 ---
 
 
-| [findShape] ([MasterSlide], [String]) Find shape by alternative text on a slide in a PPTX presentation. |
+| [findShape] ([MasterSlide], [String]) | Find shape by alternative text on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -380,7 +380,7 @@ SlideUtil
 ---
 
 
-| [getAllTextBoxes] ([MasterNotesSlide]) Returns all text frames on a slide in a PPTX presentation. |
+| [getAllTextBoxes] ([MasterNotesSlide]) | Returns all text frames on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -395,7 +395,7 @@ SlideUtil
 ---
 
 
-| [getAllTextBoxes] ([MasterHandoutSlide]) Returns all text frames on a slide in a PPTX presentation. |
+| [getAllTextBoxes] ([MasterHandoutSlide]) | Returns all text frames on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -410,7 +410,7 @@ SlideUtil
 ---
 
 
-| [getAllTextBoxes] ([NotesSlide]) Returns all text frames on a slide in a PPTX presentation. |
+| [getAllTextBoxes] ([NotesSlide]) | Returns all text frames on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -425,7 +425,7 @@ SlideUtil
 ---
 
 
-| [getAllTextBoxes] ([LayoutSlide]) Returns all text frames on a slide in a PPTX presentation. |
+| [getAllTextBoxes] ([LayoutSlide]) | Returns all text frames on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -440,7 +440,7 @@ SlideUtil
 ---
 
 
-| [getAllTextBoxes] ([Slide]) Returns all text frames on a slide in a PPTX presentation. |
+| [getAllTextBoxes] ([Slide]) | Returns all text frames on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -455,7 +455,7 @@ SlideUtil
 ---
 
 
-| [getAllTextBoxes] ([MasterSlide]) Returns all text frames on a slide in a PPTX presentation. |
+| [getAllTextBoxes] ([MasterSlide]) | Returns all text frames on a slide in a PPTX presentation. |
 
 ### Parameters
 
@@ -470,7 +470,7 @@ SlideUtil
 ---
 
 
-| [getAllTextFrames] ([Presentation], [boolean]) Returns all text frames in a PPTX presentation. |
+| [getAllTextFrames] ([Presentation], [boolean]) | Returns all text frames in a PPTX presentation. |
 
 ### Parameters
 

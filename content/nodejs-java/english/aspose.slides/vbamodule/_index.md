@@ -11,7 +11,7 @@ url: /aspose.slides/vbamodule/
 
  Represents module that is contained in VBA project.
  
-| [getName] () Gets the name of the module. Read-only String. |
+| [getName] () | Gets the name of the module. Read-only String. |
 
 ### Result
 String
@@ -20,7 +20,7 @@ String
 ---
 
 
-| [getSourceCode] () Returns or sets the source code of the module. Read/write String. |
+| [getSourceCode] () | Returns or sets the source code of the module. Read/write String. |
 
 ### Result
 String
@@ -29,7 +29,7 @@ String
 ---
 
 
-| [setSourceCode] ([String]) Returns or sets the source code of the module. Read/write String. |
+| [setSourceCode] ([String]) | Returns or sets the source code of the module. Read/write String. |
 
 
 ---

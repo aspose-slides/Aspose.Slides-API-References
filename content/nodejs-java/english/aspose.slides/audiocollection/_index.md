@@ -11,7 +11,7 @@ url: /aspose.slides/audiocollection/
 
  Represents a collection of embedded audio files.
  
-| [addAudio] ([Audio]) Adds a copy of an audio file from an another presentation. |
+| [addAudio] ([Audio]) | Adds a copy of an audio file from an another presentation. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/audiocollection/
 ---
 
 
-| [addAudioFromStream ] (AudioCollection, [ReadStream], Function) Creates and adds a audio to a presentation from stream. |
+| [addAudioFromStream ] (AudioCollection, [ReadStream], Function) | Creates and adds a audio to a presentation from stream. |
 
 ### Parameters
 
@@ -43,7 +43,7 @@ url: /aspose.slides/audiocollection/
 ---
 
 
-| [addAudioFromStream ] (AudioCollection, [ReadStream], [int], Function) Creates and adds a audio to a presentation from stream. |
+| [addAudioFromStream ] (AudioCollection, [ReadStream], [int], Function) | Creates and adds a audio to a presentation from stream. |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ url: /aspose.slides/audiocollection/
 ---
 
 
-| [addAudio] ([byte[]]) Creates and adds a audio to a presentation from byte array. |
+| [addAudio] ([byte[]]) | Creates and adds a audio to a presentation from byte array. |
 
 ### Parameters
 
@@ -76,7 +76,7 @@ url: /aspose.slides/audiocollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -85,7 +85,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. Read-only IAudio. |
+| [get_Item] ([int]) | Gets the element at the specified index. Read-only IAudio. |
 
 ### Result
 [Audio]
@@ -94,7 +94,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -103,7 +103,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -112,7 +112,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -121,7 +121,7 @@ boolean
 ---
 
 
-| [size] () Returns a number of audio files in the collection. Read-only int. |
+| [size] () | Returns a number of audio files in the collection. Read-only int. |
 
 ### Result
 int

@@ -20,7 +20,7 @@ MarkdownSaveOptions
 ---
 
 
-| [getBasePath] () Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+| [getBasePath] () | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
 ### Result
 String
@@ -29,7 +29,7 @@ String
 ---
 
 
-| [getExportType] () Specifies markdown specification to convert presentation. Default is TextOnly. |
+| [getExportType] () | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
 ### Result
 int
@@ -38,7 +38,7 @@ int
 ---
 
 
-| [getFlavor] () Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+| [getFlavor] () | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
 ### Result
 int
@@ -47,7 +47,7 @@ int
 ---
 
 
-| [getImagesSaveFolderName] () Specifies folder name to save images. Default is Images. |
+| [getImagesSaveFolderName] () | Specifies folder name to save images. Default is Images. |
 
 ### Result
 String
@@ -56,7 +56,7 @@ String
 ---
 
 
-| [getNewLineType] () Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| [getNewLineType] () | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
 
 ### Result
 int
@@ -65,7 +65,7 @@ int
 ---
 
 
-| [getShowComments] () Specifies whether the generated document should show comments or not. Default is false. |
+| [getShowComments] () | Specifies whether the generated document should show comments or not. Default is false. |
 
 ### Result
 boolean
@@ -74,7 +74,7 @@ boolean
 ---
 
 
-| [getShowHiddenSlides] () Specifies whether the generated document should include hidden slides or not. Default is false. |
+| [getShowHiddenSlides] () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 ### Result
 boolean
@@ -83,7 +83,7 @@ boolean
 ---
 
 
-| [getShowSlideNumber] () Specifies whether the generated document should show number of each slide or not. Default is false. |
+| [getShowSlideNumber] () | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
 ### Result
 boolean
@@ -92,49 +92,49 @@ boolean
 ---
 
 
-| [setBasePath] ([String]) Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
+| [setBasePath] ([String]) | Specifies the base path where document with resources will be saved. Default is the current directory of the application. |
 
 
 ---
 
 
-| [setExportType] ([int]) Specifies markdown specification to convert presentation. Default is TextOnly. |
+| [setExportType] ([int]) | Specifies markdown specification to convert presentation. Default is TextOnly. |
 
 
 ---
 
 
-| [setFlavor] ([int]) Specifies markdown specification to convert presentation. Default is Multi-markdown. |
+| [setFlavor] ([int]) | Specifies markdown specification to convert presentation. Default is Multi-markdown. |
 
 
 ---
 
 
-| [setImagesSaveFolderName] ([String]) Specifies folder name to save images. Default is Images. |
+| [setImagesSaveFolderName] ([String]) | Specifies folder name to save images. Default is Images. |
 
 
 ---
 
 
-| [setNewLineType] ([int]) Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
+| [setNewLineType] ([int]) | Specifies whether the generated document should have new lines \r(Macintosh) of \n(Unix) or \r\n(Windows). Default is Unix. |
 
 
 ---
 
 
-| [setShowComments] ([boolean]) Specifies whether the generated document should show comments or not. Default is false. |
+| [setShowComments] ([boolean]) | Specifies whether the generated document should show comments or not. Default is false. |
 
 
 ---
 
 
-| [setShowHiddenSlides] ([boolean]) Specifies whether the generated document should include hidden slides or not. Default is false. |
+| [setShowHiddenSlides] ([boolean]) | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
 
 ---
 
 
-| [setShowSlideNumber] ([boolean]) Specifies whether the generated document should show number of each slide or not. Default is false. |
+| [setShowSlideNumber] ([boolean]) | Specifies whether the generated document should show number of each slide or not. Default is false. |
 
 
 ---

@@ -23,7 +23,7 @@ ParagraphFormat
 ---
 
 
-| [getAlignment] () Returns or sets the text alignment in a paragraph with no inheritance. Read/write TextAlignment. |
+| [getAlignment] () | Returns or sets the text alignment in a paragraph with no inheritance. Read/write TextAlignment. |
 
 ### Result
 int
@@ -32,7 +32,7 @@ int
 ---
 
 
-| [getBullet] () Returns bullet format of the paragraph. Read-only IBulletFormat. |
+| [getBullet] () | Returns bullet format of the paragraph. Read-only IBulletFormat. |
 
 ### Result
 [BulletFormat]
@@ -41,7 +41,7 @@ int
 ---
 
 
-| [getDefaultPortionFormat] () Returns default portion format of a paragraph. No inheritance applied. Read-only IPortionFormat. |
+| [getDefaultPortionFormat] () | Returns default portion format of a paragraph. No inheritance applied. Read-only IPortionFormat. |
 
 ### Result
 [PortionFormat]
@@ -50,7 +50,7 @@ int
 ---
 
 
-| [getDefaultTabSize] () Returns or sets default tabulation size with no inheritance. Read/write float. |
+| [getDefaultTabSize] () | Returns or sets default tabulation size with no inheritance. Read/write float. |
 
 ### Result
 float
@@ -59,7 +59,7 @@ float
 ---
 
 
-| [getDepth] () Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write short. |
+| [getDepth] () | Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write short. |
 
 ### Result
 short
@@ -68,7 +68,7 @@ short
 ---
 
 
-| [getEastAsianLineBreak] () Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [getEastAsianLineBreak] () | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 ### Result
 byte
@@ -77,7 +77,7 @@ byte
 ---
 
 
-| [getEffective] () Gets effective paragraph formatting data with the inheritance applied. |
+| [getEffective] () | Gets effective paragraph formatting data with the inheritance applied. |
 
 ### Result
 [ParagraphFormatEffectiveData]
@@ -86,7 +86,7 @@ byte
 ---
 
 
-| [getFontAlignment] () Returns or sets a font alignment in a paragraph with no inheritance. Read/write FontAlignment. |
+| [getFontAlignment] () | Returns or sets a font alignment in a paragraph with no inheritance. Read/write FontAlignment. |
 
 ### Result
 int
@@ -95,7 +95,7 @@ int
 ---
 
 
-| [getHangingPunctuation] () Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [getHangingPunctuation] () | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 ### Result
 byte
@@ -104,7 +104,7 @@ byte
 ---
 
 
-| [getIndent] () Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write float. |
+| [getIndent] () | Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write float. |
 
 ### Result
 float
@@ -113,7 +113,7 @@ float
 ---
 
 
-| [getLatinLineBreak] () Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [getLatinLineBreak] () | Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 ### Result
 byte
@@ -122,7 +122,7 @@ byte
 ---
 
 
-| [getMarginLeft] () Returns or sets the left margin in a paragraph with no inheritance. Read/write float. |
+| [getMarginLeft] () | Returns or sets the left margin in a paragraph with no inheritance. Read/write float. |
 
 ### Result
 float
@@ -131,7 +131,7 @@ float
 ---
 
 
-| [getMarginRight] () Returns or sets the right margin in a paragraph with no inheritance. Read/write float. |
+| [getMarginRight] () | Returns or sets the right margin in a paragraph with no inheritance. Read/write float. |
 
 ### Result
 float
@@ -140,7 +140,7 @@ float
 ---
 
 
-| [getRightToLeft] () Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [getRightToLeft] () | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 ### Result
 byte
@@ -149,7 +149,7 @@ byte
 ---
 
 
-| [getSpaceAfter] () Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
+| [getSpaceAfter] () | Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 
 ### Result
 float
@@ -158,7 +158,7 @@ float
 ---
 
 
-| [getSpaceBefore] () Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
+| [getSpaceBefore] () | Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 
 ### Result
 float
@@ -167,7 +167,7 @@ float
 ---
 
 
-| [getSpaceWithin] () Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write float. |
+| [getSpaceWithin] () | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write float. |
 
 ### Result
 float
@@ -176,7 +176,7 @@ float
 ---
 
 
-| [getTabs] () Returns tabulations of a paragraph. No inheritance applied. Read-only ITabCollection. |
+| [getTabs] () | Returns tabulations of a paragraph. No inheritance applied. Read-only ITabCollection. |
 
 ### Result
 [TabCollection]
@@ -185,7 +185,7 @@ float
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -194,85 +194,85 @@ long
 ---
 
 
-| [setAlignment] ([int]) Returns or sets the text alignment in a paragraph with no inheritance. Read/write TextAlignment. |
+| [setAlignment] ([int]) | Returns or sets the text alignment in a paragraph with no inheritance. Read/write TextAlignment. |
 
 
 ---
 
 
-| [setDefaultTabSize] ([float]) Returns or sets default tabulation size with no inheritance. Read/write float. |
+| [setDefaultTabSize] ([float]) | Returns or sets default tabulation size with no inheritance. Read/write float. |
 
 
 ---
 
 
-| [setDepth] ([short]) Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write short. |
+| [setDepth] ([short]) | Returns or sets depth of the paragraph. Value 0 means undefined value. Read/write short. |
 
 
 ---
 
 
-| [setEastAsianLineBreak] ([byte]) Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setEastAsianLineBreak] ([byte]) | Determines whether the East Asian line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 
 ---
 
 
-| [setFontAlignment] ([int]) Returns or sets a font alignment in a paragraph with no inheritance. Read/write FontAlignment. |
+| [setFontAlignment] ([int]) | Returns or sets a font alignment in a paragraph with no inheritance. Read/write FontAlignment. |
 
 
 ---
 
 
-| [setHangingPunctuation] ([byte]) Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setHangingPunctuation] ([byte]) | Determines whether the hanging punctuation is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 
 ---
 
 
-| [setIndent] ([float]) Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write float. |
+| [setIndent] ([float]) | Returns or sets paragraph First Line Indent/Hanging Indent with no inheritance. Hanging Indent can be defined with negative values. Read/write float. |
 
 
 ---
 
 
-| [setLatinLineBreak] ([byte]) Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setLatinLineBreak] ([byte]) | Determines whether the Latin line break is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 
 ---
 
 
-| [setMarginLeft] ([float]) Returns or sets the left margin in a paragraph with no inheritance. Read/write float. |
+| [setMarginLeft] ([float]) | Returns or sets the left margin in a paragraph with no inheritance. Read/write float. |
 
 
 ---
 
 
-| [setMarginRight] ([float]) Returns or sets the right margin in a paragraph with no inheritance. Read/write float. |
+| [setMarginRight] ([float]) | Returns or sets the right margin in a paragraph with no inheritance. Read/write float. |
 
 
 ---
 
 
-| [setRightToLeft] ([byte]) Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
+| [setRightToLeft] ([byte]) | Determines whether the Right to Left writing is used in a paragraph. No inheritance applied. Read/write NullableBool. |
 
 
 ---
 
 
-| [setSpaceAfter] ([float]) Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
+| [setSpaceAfter] ([float]) | Returns or sets the amount of space after the last line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 
 
 ---
 
 
-| [setSpaceBefore] ([float]) Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
+| [setSpaceBefore] ([float]) | Returns or sets the amount of space before the first line in a paragraph with no inheritance. A positive value specifies the percentage of the font size that the white space should be. A negative value specifies the size of the white space in point size. Read/write float. |
 
 
 ---
 
 
-| [setSpaceWithin] ([float]) Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write float. |
+| [setSpaceWithin] ([float]) | Returns or sets the amount of space between base lines in a paragraph. Positive value means percentage, negative - size in points. No inheritance applied. Read/write float. |
 
 
 ---

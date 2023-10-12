@@ -11,7 +11,7 @@ url: /aspose.slides/chartdatapointcollection/
 
  Represents collection of a series data point.
  
-| [addDataPointForAreaSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
+| [addDataPointForAreaSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForAreaSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
+| [addDataPointForAreaSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Area subtypes (see also ChartTypeCharacterizer#isChartTypeArea(int) function). |
 
 ### Parameters
 
@@ -41,7 +41,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBarSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
+| [addDataPointForBarSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
 
 ### Parameters
 
@@ -56,7 +56,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBarSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
+| [addDataPointForBarSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Column or Bar subtypes (see also ChartTypeCharacterizer#isChartTypeColumn(int) and ChartTypeCharacterizer#isChartTypeBar(int) function). |
 
 ### Parameters
 
@@ -71,7 +71,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBoxAndWhiskerSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is BoxAndWhisker. |
+| [addDataPointForBoxAndWhiskerSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is BoxAndWhisker. |
 
 ### Parameters
 
@@ -86,7 +86,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([ChartDataCell], [ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [ChartDataCell], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -103,7 +103,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([double], [ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [ChartDataCell], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -120,7 +120,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([String], [ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [ChartDataCell], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -137,7 +137,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([ChartDataCell], [double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [double], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -154,7 +154,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([double], [double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [double], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -171,7 +171,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([String], [double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [double], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -188,7 +188,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([ChartDataCell], [ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [ChartDataCell], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -205,7 +205,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([double], [ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [ChartDataCell], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -222,7 +222,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([String], [ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [ChartDataCell], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -239,7 +239,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([ChartDataCell], [double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([ChartDataCell], [double], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -256,7 +256,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([double], [double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([double], [double], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -273,7 +273,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForBubbleSeries] ([String], [double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
+| [addDataPointForBubbleSeries] ([String], [double], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Bubble subtypes (see also ChartTypeCharacterizer#isChartTypeBubble(int) function). |
 
 ### Parameters
 
@@ -290,7 +290,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForDoughnutSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
+| [addDataPointForDoughnutSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
 
 ### Parameters
 
@@ -305,7 +305,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForDoughnutSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
+| [addDataPointForDoughnutSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Doughnut subtypes (see also ChartTypeCharacterizer#isChartTypeDoughnut(int) function). |
 
 ### Parameters
 
@@ -320,7 +320,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForFunnelSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Funnel. |
+| [addDataPointForFunnelSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Funnel. |
 
 ### Parameters
 
@@ -335,7 +335,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForHistogramSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Histogram. |
+| [addDataPointForHistogramSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Histogram. |
 
 ### Parameters
 
@@ -350,7 +350,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForLineSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
+| [addDataPointForLineSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
 
 ### Parameters
 
@@ -365,7 +365,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForLineSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
+| [addDataPointForLineSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Line subtypes (see also ChartTypeCharacterizer#isChartTypeLine(int) function). |
 
 ### Parameters
 
@@ -380,7 +380,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForMapSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Map. |
+| [addDataPointForMapSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Map. |
 
 ### Parameters
 
@@ -395,7 +395,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForPieSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
+| [addDataPointForPieSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
 
 ### Parameters
 
@@ -410,7 +410,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForPieSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
+| [addDataPointForPieSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Pie subtypes (see also ChartTypeCharacterizer#isChartTypePie(int) function). |
 
 ### Parameters
 
@@ -425,7 +425,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForRadarSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
+| [addDataPointForRadarSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
 
 ### Parameters
 
@@ -440,7 +440,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForRadarSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
+| [addDataPointForRadarSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Radar subtypes (see also ChartTypeCharacterizer#isChartTypeRadar(int) function). |
 
 ### Parameters
 
@@ -455,7 +455,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForScatterSeries] ([ChartDataCell], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([ChartDataCell], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
@@ -471,7 +471,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForScatterSeries] ([double], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([double], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
@@ -487,7 +487,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForScatterSeries] ([String], [ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([String], [ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
@@ -503,7 +503,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForScatterSeries] ([ChartDataCell], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([ChartDataCell], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
@@ -519,7 +519,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForScatterSeries] ([double], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([double], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
@@ -535,7 +535,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForScatterSeries] ([String], [double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
+| [addDataPointForScatterSeries] ([String], [double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Scatter subtypes (see also ChartTypeCharacterizer#isChartTypeScatter(int) function). |
 
 ### Parameters
 
@@ -551,7 +551,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForStockSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
+| [addDataPointForStockSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
 
 ### Parameters
 
@@ -566,7 +566,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForStockSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
+| [addDataPointForStockSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Stock subtypes (see also ChartTypeCharacterizer#isChartTypeStock(int) function). |
 
 ### Parameters
 
@@ -581,7 +581,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForSunburstSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Sunburst. |
+| [addDataPointForSunburstSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Sunburst. |
 
 ### Parameters
 
@@ -596,7 +596,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForSurfaceSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
+| [addDataPointForSurfaceSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
 
 ### Parameters
 
@@ -611,7 +611,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForSurfaceSeries] ([double]) Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
+| [addDataPointForSurfaceSeries] ([double]) | Creates the new data point and adds it to the end of collection. Applicable for series which chartType is one of Surface subtypes (see also ChartTypeCharacterizer#isChartTypeSurface(int) function). |
 
 ### Parameters
 
@@ -626,7 +626,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForTreemapSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Treemap. |
+| [addDataPointForTreemapSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Treemap. |
 
 ### Parameters
 
@@ -641,7 +641,7 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [addDataPointForWaterfallSeries] ([ChartDataCell]) Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Waterfall. |
+| [addDataPointForWaterfallSeries] ([ChartDataCell]) | Creates the new data point and adds it to the end of collection. Applicable for series which chart type is Waterfall. |
 
 ### Parameters
 
@@ -656,13 +656,13 @@ url: /aspose.slides/chartdatapointcollection/
 ---
 
 
-| [clear] () Removes all elements from the collection. |
+| [clear] () | Removes all elements from the collection. |
 
 
 ---
 
 
-| [getDataSourceTypeForBubbleSizes] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
+| [getDataSourceTypeForBubbleSizes] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -671,7 +671,7 @@ int
 ---
 
 
-| [getDataSourceTypeForErrorBarsCustomValues] () Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list. Read-only IDataSourceTypeForErrorBarsCustomValues. |
+| [getDataSourceTypeForErrorBarsCustomValues] () | Specifies types of values in ChartDataPoint.ErrorBarsCustomValues properties list. Read-only IDataSourceTypeForErrorBarsCustomValues. |
 
 ### Result
 [DataSourceTypeForErrorBarsCustomValues]
@@ -680,7 +680,7 @@ int
 ---
 
 
-| [getDataSourceTypeForValues] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
+| [getDataSourceTypeForValues] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -689,7 +689,7 @@ int
 ---
 
 
-| [getDataSourceTypeForXValues] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
+| [getDataSourceTypeForXValues] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -698,7 +698,7 @@ int
 ---
 
 
-| [getDataSourceTypeForYValues] () Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
+| [getDataSourceTypeForYValues] () | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
 
 ### Result
 int
@@ -707,7 +707,7 @@ int
 ---
 
 
-| [getOrCreateDataPointByIdx] ([long]) If collection already contains data point with index index then returns this data point. If collection doesn't contains data point with index index==N (when number of data points in this collection is less or equal then N) then adds deficient data points and returns last (which has requested index). For example, collection indexes are {0, 1, 2}, and requested index is 5. Then function adds deficient data points: {0, 1, 2, 3, 4, 5}. And returns data point with index 5. |
+| [getOrCreateDataPointByIdx] ([long]) | If collection already contains data point with index index then returns this data point. If collection doesn't contains data point with index index==N (when number of data points in this collection is less or equal then N) then adds deficient data points and returns last (which has requested index). For example, collection indexes are {0, 1, 2}, and requested index is 5. Then function adds deficient data points: {0, 1, 2, 3, 4, 5}. And returns data point with index 5. |
 
 ### Parameters
 
@@ -722,7 +722,7 @@ int
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -731,7 +731,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns the series data point by index (its serial number in this collection). |
+| [get_Item] ([int]) | Returns the series data point by index (its serial number in this collection). |
 
 ### Result
 [ChartDataPoint]
@@ -740,7 +740,7 @@ Object
 ---
 
 
-| [get_Item] ([ChartDataPoint]) Return index (serial number) of data point in this collection. |
+| [get_Item] ([ChartDataPoint]) | Return index (serial number) of data point in this collection. |
 
 ### Result
 int
@@ -749,7 +749,7 @@ int
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -758,7 +758,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -767,7 +767,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -776,7 +776,7 @@ boolean
 ---
 
 
-| [remove] ([ChartDataPoint]) Removes the specified value. |
+| [remove] ([ChartDataPoint]) | Removes the specified value. |
 
 ### Parameters
 
@@ -788,7 +788,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes the element at the given index. |
+| [removeAt] ([int]) | Removes the element at the given index. |
 
 ### Parameters
 
@@ -800,31 +800,31 @@ boolean
 ---
 
 
-| [setDataSourceTypeForBubbleSizes] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForBubbleSizes] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points BubbleSize property object. In other words it specifies the type of value of ChartDataPoint.BubbleSize.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForValues] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForValues] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points Value property object. In other words it specifies the type of value of ChartDataPoint.Value.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForXValues] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForXValues] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points XValue property object. In other words it specifies the type of value of ChartDataPoint.XValue.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [setDataSourceTypeForYValues] ([int]) Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
+| [setDataSourceTypeForYValues] ([int]) | Specifies whether AsCell or AsLiteralString or AsLiteralDouble property is actual in data points YValue property object. In other words it specifies the type of value of ChartDataPoint.YValue.Data property. Read/write DataSourceType. |
 
 
 ---
 
 
-| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

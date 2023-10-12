@@ -20,7 +20,7 @@ HtmlExternalResolver
 ---
 
 
-| [getEntity] ([String]) Maps a URI to an object containing the actual resource. |
+| [getEntity] ([String]) | Maps a URI to an object containing the actual resource. |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ HtmlExternalResolver
 ---
 
 
-| [resolveUri] ([String], [String]) Resolves the absolute URI from the base and relative URIs. |
+| [resolveUri] ([String], [String]) | Resolves the absolute URI from the base and relative URIs. |
 
 ### Parameters
 

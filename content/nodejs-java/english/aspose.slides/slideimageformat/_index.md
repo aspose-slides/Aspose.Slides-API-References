@@ -20,7 +20,7 @@ SlideImageFormat
 ---
 
 
-| [bitmap] ([float], [String]) Slides should be converted to a raster image. |
+| [bitmap] ([float], [String]) | Slides should be converted to a raster image. |
 
 ### Parameters
 
@@ -36,7 +36,7 @@ SlideImageFormat
 ---
 
 
-| [svg] ([SVGOptions]) Slides should converted to a SVG format. |
+| [svg] ([SVGOptions]) | Slides should converted to a SVG format. |
 
 ### Parameters
 

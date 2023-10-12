@@ -20,7 +20,7 @@ InterruptionTokenSource
 ---
 
 
-| [getToken] () Returns new token binded to this InterruptionTokenSource. |
+| [getToken] () | Returns new token binded to this InterruptionTokenSource. |
 
 ### Result
 InterruptionToken
@@ -29,13 +29,13 @@ InterruptionToken
 ---
 
 
-| [interrupt] () Initialize request for interruption. |
+| [interrupt] () | Initialize request for interruption. |
 
 
 ---
 
 
-| [isInterruptionRequested] () Returns true if interruption requested, false otherwise. |
+| [isInterruptionRequested] () | Returns true if interruption requested, false otherwise. |
 
 ### Result
 boolean

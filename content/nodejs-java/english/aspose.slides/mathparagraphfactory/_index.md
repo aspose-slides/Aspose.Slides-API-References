@@ -22,7 +22,7 @@ MathParagraphFactory
 ---
 
 
-| [createMathParagraph] () Create empty math paragraph |
+| [createMathParagraph] () | Create empty math paragraph |
 
 ### Result
 [MathParagraph]
@@ -31,7 +31,7 @@ MathParagraphFactory
 ---
 
 
-| [createMathParagraph] ([MathBlock]) Creates a math paragraph and places the specified math block in it |
+| [createMathParagraph] ([MathBlock]) | Creates a math paragraph and places the specified math block in it |
 
 ### Parameters
 

@@ -11,7 +11,7 @@ url: /aspose.slides/portioncollection/
 
  Represents a collection of portions.
  
-| [add] ([Portion]) Adds a Portion to the end of collection. |
+| [add] ([Portion]) | Adds a Portion to the end of collection. |
 
 ### Parameters
 
@@ -23,7 +23,7 @@ url: /aspose.slides/portioncollection/
 ---
 
 
-| [add] ([MathPortion]) Adds a Portion to the end of collection. |
+| [add] ([MathPortion]) | Adds a Portion to the end of collection. |
 
 ### Parameters
 
@@ -35,13 +35,13 @@ url: /aspose.slides/portioncollection/
 ---
 
 
-| [clear] () Removes all elements from the collection. |
+| [clear] () | Removes all elements from the collection. |
 
 
 ---
 
 
-| [contains] ([Portion]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([Portion]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-| [contains] ([MathPortion]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([MathPortion]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [copyTo] ([com.aspose.slides.IPortion[]], [int]) Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| [copyTo] ([com.aspose.slides.IPortion[]], [int]) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
 ### Parameters
 
@@ -90,7 +90,7 @@ boolean
 ---
 
 
-| [getCount] () Gets the number of elements actually contained in the collection. Read-only int. |
+| [getCount] () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int
@@ -99,7 +99,7 @@ int
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. |
+| [get_Item] ([int]) | Gets the element at the specified index. |
 
 ### Result
 [Portion], [MathPortion]
@@ -108,7 +108,7 @@ int
 ---
 
 
-| [indexOf] ([Portion]) Determines the index of a specific item in the List. |
+| [indexOf] ([Portion]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -123,7 +123,7 @@ int
 ---
 
 
-| [indexOf] ([MathPortion]) Determines the index of a specific item in the List. |
+| [indexOf] ([MathPortion]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -138,7 +138,7 @@ int
 ---
 
 
-| [insert] ([int], [Portion]) Inserts a Portion into the collection at the specified index. |
+| [insert] ([int], [Portion]) | Inserts a Portion into the collection at the specified index. |
 
 ### Parameters
 
@@ -151,7 +151,7 @@ int
 ---
 
 
-| [insert] ([int], [MathPortion]) Inserts a Portion into the collection at the specified index. |
+| [insert] ([int], [MathPortion]) | Inserts a Portion into the collection at the specified index. |
 
 ### Parameters
 
@@ -164,7 +164,7 @@ int
 ---
 
 
-| [isReadOnly] () Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| [isReadOnly] () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
 ### Result
 boolean
@@ -173,7 +173,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -182,7 +182,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -191,7 +191,7 @@ boolean
 ---
 
 
-| [remove] ([Portion]) Removes the first occurrence of a specific object from the IGenericCollection. |
+| [remove] ([Portion]) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
 ### Parameters
 
@@ -212,7 +212,7 @@ boolean
 ---
 
 
-| [remove] ([MathPortion]) Removes the first occurrence of a specific object from the IGenericCollection. |
+| [remove] ([MathPortion]) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
 ### Parameters
 
@@ -233,7 +233,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes the element at the specified index of the collection. |
+| [removeAt] ([int]) | Removes the element at the specified index of the collection. |
 
 ### Parameters
 
@@ -245,13 +245,13 @@ boolean
 ---
 
 
-| [set_Item] ([int], [Portion]) Gets the element at the specified index. |
+| [set_Item] ([int], [Portion]) | Gets the element at the specified index. |
 
 
 ---
 
 
-| [set_Item] ([int], [MathPortion]) Gets the element at the specified index. |
+| [set_Item] ([int], [MathPortion]) | Gets the element at the specified index. |
 
 
 ---

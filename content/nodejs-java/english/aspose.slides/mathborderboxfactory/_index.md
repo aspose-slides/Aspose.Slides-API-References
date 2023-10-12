@@ -22,7 +22,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathLimit]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathLimit]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -37,7 +37,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBorderBox]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBorderBox]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -52,7 +52,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathFraction]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathFraction]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -67,7 +67,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathDelimiter]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathDelimiter]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -82,7 +82,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathSuperscriptElement]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathSuperscriptElement]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -97,7 +97,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathLeftSubSuperscriptElement]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathLeftSubSuperscriptElement]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -112,7 +112,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathRightSubSuperscriptElement]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathRightSubSuperscriptElement]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -127,7 +127,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBox]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBox]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -142,7 +142,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathMatrix]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathMatrix]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -157,22 +157,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathGroupingCharacter]) Create a math border box by applying to the element |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply border box |
-
-### Result
-[MathBorderBox]
-
-
----
-
-
-| [createMathBorderBox] ([MathArray]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathArray]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -187,7 +172,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBlock]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBlock]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -202,7 +187,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathSubscriptElement]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathSubscriptElement]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -217,7 +202,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathFunction]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathFunction]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -232,7 +217,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathNaryOperator]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathNaryOperator]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -247,7 +232,22 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathematicalText]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathGroupingCharacter]) | Create a math border box by applying to the element |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | math element to apply border box |
+
+### Result
+[MathBorderBox]
+
+
+---
+
+
+| [createMathBorderBox] ([MathematicalText]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -262,7 +262,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathAccent]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathAccent]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -277,7 +277,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathRadical]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathRadical]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -292,7 +292,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBar]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBar]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -307,7 +307,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathLimit], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathLimit], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -330,7 +330,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBorderBox], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBorderBox], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -353,7 +353,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathFraction], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathFraction], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -376,7 +376,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathDelimiter], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathDelimiter], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -399,7 +399,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathSuperscriptElement], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathSuperscriptElement], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -422,7 +422,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathLeftSubSuperscriptElement], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathLeftSubSuperscriptElement], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -445,7 +445,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathRightSubSuperscriptElement], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathRightSubSuperscriptElement], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -468,7 +468,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBox], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBox], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -491,7 +491,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathMatrix], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathMatrix], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -514,30 +514,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathGroupingCharacter], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply border box |
-| hideTop | [boolean] | Hide Top Edge |
-| hideBottom | [boolean] | Hide Bottom Edge |
-| hideLeft | [boolean] | Hide Left Edge |
-| hideRight | [boolean] | Hide Right Edge |
-| strikethroughHorizontal | [boolean] | Border Box Strikethrough Horizontal |
-| strikethroughVertical | [boolean] | Border Box Strikethrough Vertical |
-| strikethroughBottomLeftToTopRight | [boolean] | Border Box Strikethrough Bottom-Left to Top-Right |
-| strikethroughTopLeftToBottomRight | [boolean] | Border Box Strikethrough Top-Left to Bottom-Right |
-
-### Result
-[MathBorderBox]
-
-
----
-
-
-| [createMathBorderBox] ([MathArray], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathArray], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -560,7 +537,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBlock], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBlock], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -583,7 +560,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathSubscriptElement], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathSubscriptElement], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -606,7 +583,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathFunction], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathFunction], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -629,7 +606,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathNaryOperator], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathNaryOperator], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -652,7 +629,30 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathematicalText], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathGroupingCharacter], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | math element to apply border box |
+| hideTop | [boolean] | Hide Top Edge |
+| hideBottom | [boolean] | Hide Bottom Edge |
+| hideLeft | [boolean] | Hide Left Edge |
+| hideRight | [boolean] | Hide Right Edge |
+| strikethroughHorizontal | [boolean] | Border Box Strikethrough Horizontal |
+| strikethroughVertical | [boolean] | Border Box Strikethrough Vertical |
+| strikethroughBottomLeftToTopRight | [boolean] | Border Box Strikethrough Bottom-Left to Top-Right |
+| strikethroughTopLeftToBottomRight | [boolean] | Border Box Strikethrough Top-Left to Bottom-Right |
+
+### Result
+[MathBorderBox]
+
+
+---
+
+
+| [createMathBorderBox] ([MathematicalText], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -675,7 +675,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathAccent], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathAccent], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -698,7 +698,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathRadical], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathRadical], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 
@@ -721,7 +721,7 @@ MathBorderBoxFactory
 ---
 
 
-| [createMathBorderBox] ([MathBar], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean]) Create a math border box by applying to the element |
+| [createMathBorderBox] ([MathBar], [boolean], [boolean], [boolean], [boolean], [boolean], [boolean],  [boolean], [boolean]) | Create a math border box by applying to the element |
 
 ### Parameters
 

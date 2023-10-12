@@ -111,13 +111,13 @@ Presentation
 ---
 
 
-| [dispose] () Releases all resources used by this Presentation object. |
+| [dispose] () | Releases all resources used by this Presentation object. |
 
 
 ---
 
 
-| [getAllCustomXmlParts] () Returns all custom data parts in the presentaion. Read-only ICustomXmlPart[]. |
+| [getAllCustomXmlParts] () | Returns all custom data parts in the presentaion. Read-only ICustomXmlPart[]. |
 
 ### Result
 [CustomXmlPart]
@@ -126,7 +126,7 @@ Presentation
 ---
 
 
-| [getAudios] () Returns the collection of all embedded audio files in the presentation. Read-only IAudioCollection. |
+| [getAudios] () | Returns the collection of all embedded audio files in the presentation. Read-only IAudioCollection. |
 
 ### Result
 [AudioCollection]
@@ -135,7 +135,7 @@ Presentation
 ---
 
 
-| [getCommentAuthors] () Returns the collection of comments autors. Read-only ICommentAuthorCollection. |
+| [getCommentAuthors] () | Returns the collection of comments autors. Read-only ICommentAuthorCollection. |
 
 ### Result
 [CommentAuthorCollection]
@@ -144,7 +144,7 @@ Presentation
 ---
 
 
-| [getCurrentDateTime] () Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date. |
+| [getCurrentDateTime] () | Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date. |
 
 ### Result
 Date
@@ -153,7 +153,7 @@ Date
 ---
 
 
-| [getCustomData] () Returns the presentation's custom data. Read-only ICustomData. |
+| [getCustomData] () | Returns the presentation's custom data. Read-only ICustomData. |
 
 ### Result
 [CustomData]
@@ -162,7 +162,7 @@ Date
 ---
 
 
-| [getDefaultTextStyle] () Returns default text style for shapes. Read-only ITextStyle. |
+| [getDefaultTextStyle] () | Returns default text style for shapes. Read-only ITextStyle. |
 
 ### Result
 [TextStyle]
@@ -171,7 +171,7 @@ Date
 ---
 
 
-| [getDigitalSignatures] () Returns the collection of signatures used to sign the presentation. Read-only IDigitalSignatureCollection. |
+| [getDigitalSignatures] () | Returns the collection of signatures used to sign the presentation. Read-only IDigitalSignatureCollection. |
 
 ### Result
 [DigitalSignatureCollection]
@@ -180,7 +180,7 @@ Date
 ---
 
 
-| [getDocumentProperties] () Returns DocumentProperties object which contains standard and custom document properties. Read-only IDocumentProperties. |
+| [getDocumentProperties] () | Returns DocumentProperties object which contains standard and custom document properties. Read-only IDocumentProperties. |
 
 ### Result
 [DocumentProperties]
@@ -189,7 +189,7 @@ Date
 ---
 
 
-| [getFirstSlideNumber] () Represents the first slide number in the presentation |
+| [getFirstSlideNumber] () | Represents the first slide number in the presentation |
 
 ### Result
 int
@@ -198,7 +198,7 @@ int
 ---
 
 
-| [getFontsManager] () Returns fonts manager. Read-only IFontsManager. |
+| [getFontsManager] () | Returns fonts manager. Read-only IFontsManager. |
 
 ### Result
 [FontsManager]
@@ -207,7 +207,7 @@ int
 ---
 
 
-| [getHeaderFooterManager] () Returns actual HeaderFooter manager. Read-only IPresentationHeaderFooterManager. |
+| [getHeaderFooterManager] () | Returns actual HeaderFooter manager. Read-only IPresentationHeaderFooterManager. |
 
 ### Result
 [PresentationHeaderFooterManager]
@@ -216,7 +216,7 @@ int
 ---
 
 
-| [getHyperlinkQueries] () Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides). Read-only IHyperlinkQueries. |
+| [getHyperlinkQueries] () | Provides easy access to all hyperlinks contained in all presentation slides (not in master, layout, notes slides). Read-only IHyperlinkQueries. |
 
 ### Result
 [HyperlinkQueries]
@@ -225,7 +225,7 @@ int
 ---
 
 
-| [getImages] () Returns the collection of all images in the presentation. Read-only IImageCollection. |
+| [getImages] () | Returns the collection of all images in the presentation. Read-only IImageCollection. |
 
 ### Result
 [ImageCollection]
@@ -234,7 +234,7 @@ int
 ---
 
 
-| [getLayoutSlides] () Returns a list of all layout slides that are defined in the presentation. Read-only IGlobalLayoutSlideCollection. You can access to alternative API for adding/inserting/removing/cloning layout slides by using IMasterSlide.LayoutSlides property. |
+| [getLayoutSlides] () | Returns a list of all layout slides that are defined in the presentation. Read-only IGlobalLayoutSlideCollection. You can access to alternative API for adding/inserting/removing/cloning layout slides by using IMasterSlide.LayoutSlides property. |
 
 ### Result
 [GlobalLayoutSlideCollection]
@@ -243,7 +243,7 @@ int
 ---
 
 
-| [getMasterHandoutSlideManager] () Returns handout master manager. Read-only IMasterHandoutSlideManager. |
+| [getMasterHandoutSlideManager] () | Returns handout master manager. Read-only IMasterHandoutSlideManager. |
 
 ### Result
 [MasterHandoutSlideManager]
@@ -252,7 +252,7 @@ int
 ---
 
 
-| [getMasterNotesSlideManager] () Returns notes master manager. Read-only IMasterNotesSlideManager. |
+| [getMasterNotesSlideManager] () | Returns notes master manager. Read-only IMasterNotesSlideManager. |
 
 ### Result
 [MasterNotesSlideManager]
@@ -261,7 +261,7 @@ int
 ---
 
 
-| [getMasterTheme] () Returns master theme. Read-only IMasterTheme. |
+| [getMasterTheme] () | Returns master theme. Read-only IMasterTheme. |
 
 ### Result
 [MasterTheme]
@@ -270,7 +270,7 @@ int
 ---
 
 
-| [getMasters] () Returns a list of all master slides that are defined in the presentation. Read-only IMasterSlideCollection. |
+| [getMasters] () | Returns a list of all master slides that are defined in the presentation. Read-only IMasterSlideCollection. |
 
 ### Result
 [MasterSlideCollection]
@@ -279,7 +279,7 @@ int
 ---
 
 
-| [getNotesSize] () Returns notes slide size object. Read-only INotesSize. |
+| [getNotesSize] () | Returns notes slide size object. Read-only INotesSize. |
 
 ### Result
 [NotesSize]
@@ -288,7 +288,7 @@ int
 ---
 
 
-| [getPresentation] () Returns the parent presentation of a text. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation of a text. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -297,7 +297,7 @@ int
 ---
 
 
-| [getProtectionManager] () Gets manager of the permissions for this presentation. Read-only IProtectionManager. |
+| [getProtectionManager] () | Gets manager of the permissions for this presentation. Read-only IProtectionManager. |
 
 ### Result
 [ProtectionManager]
@@ -306,7 +306,7 @@ int
 ---
 
 
-| [getSections] () Returns a list of all slides sections that are defined in the presentation. Read-only ISectionCollection. |
+| [getSections] () | Returns a list of all slides sections that are defined in the presentation. Read-only ISectionCollection. |
 
 ### Result
 [SectionCollection]
@@ -315,7 +315,7 @@ int
 ---
 
 
-| [getSlideById] ([long]) Returns a Slide, MasterSlide or LayoutSlide by Id. |
+| [getSlideById] ([long]) | Returns a Slide, MasterSlide or LayoutSlide by Id. |
 
 ### Parameters
 
@@ -330,7 +330,7 @@ int
 ---
 
 
-| [getSlideShowSettings] () Returns the slide show settings for the presentation. |
+| [getSlideShowSettings] () | Returns the slide show settings for the presentation. |
 
 ### Result
 SlideShowSettings
@@ -339,7 +339,7 @@ SlideShowSettings
 ---
 
 
-| [getSlideSize] () Returns slide size object. Read-only ISlideSize. |
+| [getSlideSize] () | Returns slide size object. Read-only ISlideSize. |
 
 ### Result
 [SlideSize]
@@ -348,7 +348,7 @@ SlideShowSettings
 ---
 
 
-| [getSlides] () Returns a list of all slides that are defined in the presentation. Read-only ISlideCollection. |
+| [getSlides] () | Returns a list of all slides that are defined in the presentation. Read-only ISlideCollection. |
 
 ### Result
 [SlideCollection]
@@ -357,7 +357,7 @@ SlideShowSettings
 ---
 
 
-| [getSourceFormat] () Returns information about from which format presentation was loaded. Read-only SourceFormat. |
+| [getSourceFormat] () | Returns information about from which format presentation was loaded. Read-only SourceFormat. |
 
 ### Result
 int
@@ -366,7 +366,7 @@ int
 ---
 
 
-| [getThumbnails] ([NotesCommentsLayoutingOptions]) Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
+| [getThumbnails] ([NotesCommentsLayoutingOptions]) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
 
 ### Parameters
 
@@ -381,7 +381,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([NotesCommentsLayoutingOptions], [int[]]) Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
+| [getThumbnails] ([NotesCommentsLayoutingOptions], [int[]]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
 
 ### Parameters
 
@@ -397,7 +397,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([NotesCommentsLayoutingOptions], [float], [float]) Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
+| [getThumbnails] ([NotesCommentsLayoutingOptions], [float], [float]) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
 
 ### Parameters
 
@@ -414,7 +414,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([NotesCommentsLayoutingOptions], [int[]], [float], [float]) Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
+| [getThumbnails] ([NotesCommentsLayoutingOptions], [int[]], [float], [float]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
 
 ### Parameters
 
@@ -432,7 +432,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([NotesCommentsLayoutingOptions], [Dimension]) Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
+| [getThumbnails] ([NotesCommentsLayoutingOptions], [Dimension]) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
 
 ### Parameters
 
@@ -448,7 +448,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([NotesCommentsLayoutingOptions], [int[]], [Dimension]) Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
+| [getThumbnails] ([NotesCommentsLayoutingOptions], [int[]], [Dimension]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
 
 ### Parameters
 
@@ -465,7 +465,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([RenderingOptions]) Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
+| [getThumbnails] ([RenderingOptions]) | Returns a Thumbnail BufferedImage objects for all slides of a presentation. |
 
 ### Parameters
 
@@ -480,7 +480,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([RenderingOptions], [int[]]) Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
+| [getThumbnails] ([RenderingOptions], [int[]]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation. |
 
 ### Parameters
 
@@ -496,7 +496,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([RenderingOptions], [float], [float]) Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
+| [getThumbnails] ([RenderingOptions], [float], [float]) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with custom scaling. |
 
 ### Parameters
 
@@ -513,7 +513,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([RenderingOptions], [int[]], [float], [float]) Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
+| [getThumbnails] ([RenderingOptions], [int[]], [float], [float]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with custom scaling. |
 
 ### Parameters
 
@@ -531,7 +531,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([RenderingOptions], [Dimension]) Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
+| [getThumbnails] ([RenderingOptions], [Dimension]) | Returns a Thumbnail BufferedImage objects for all slides of a presentation with specified size. |
 
 ### Parameters
 
@@ -547,7 +547,7 @@ BufferedImage
 ---
 
 
-| [getThumbnails] ([RenderingOptions], [int[]], [Dimension]) Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
+| [getThumbnails] ([RenderingOptions], [int[]], [Dimension]) | Returns a Thumbnail BufferedImage objects for specified slides of a presentation with specified size. |
 
 ### Parameters
 
@@ -564,7 +564,7 @@ BufferedImage
 ---
 
 
-| [getVbaProject] () Gets or sets VBA project with presentation macros. Read/write IVbaProject. |
+| [getVbaProject] () | Gets or sets VBA project with presentation macros. Read/write IVbaProject. |
 
 ### Result
 [VbaProject]
@@ -573,7 +573,7 @@ BufferedImage
 ---
 
 
-| [getVideos] () Returns the collection of all embedded video files in the presentation. Read-only IVideoCollection. |
+| [getVideos] () | Returns the collection of all embedded video files in the presentation. Read-only IVideoCollection. |
 
 ### Result
 [VideoCollection]
@@ -582,7 +582,7 @@ BufferedImage
 ---
 
 
-| [getViewProperties] () Gets presentation wide view properties. Read-only IViewProperties. |
+| [getViewProperties] () | Gets presentation wide view properties. Read-only IViewProperties. |
 
 ### Result
 [ViewProperties]
@@ -591,13 +591,13 @@ BufferedImage
 ---
 
 
-| [joinPortionsWithSameFormatting] () Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
+| [joinPortionsWithSameFormatting] () | Joins runs with same formatting in all paragraphs in all acceptable shapes in all slides. |
 
 
 ---
 
 
-| [save] ([String], [int]) Saves all slides of a presentation to a file with the specified format. |
+| [save] ([String], [int]) | Saves all slides of a presentation to a file with the specified format. |
 
 ### Parameters
 
@@ -610,7 +610,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int]) Saves all slides of a presentation to a stream in the specified format. |
+| [saveToStream ] (Presentation, [WriteStream], [int]) | Saves all slides of a presentation to a stream in the specified format. |
 
 ### Parameters
 
@@ -624,7 +624,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [MarkdownSaveOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [MarkdownSaveOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -638,7 +638,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [XamlOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [XamlOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -652,7 +652,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [RenderingOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [RenderingOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -666,7 +666,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [HtmlOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [HtmlOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -680,7 +680,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [XpsOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [XpsOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -694,7 +694,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [TiffOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [TiffOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -708,7 +708,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [PptxOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [PptxOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -722,7 +722,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [PptOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [PptOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -736,7 +736,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [PdfOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [PdfOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -750,7 +750,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [SwfOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [SwfOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -764,7 +764,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [SVGOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [SVGOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -778,7 +778,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [GifOptions]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [GifOptions]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -792,7 +792,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int], [Html5Options]) Saves all slides of a presentation to a file with the specified format and with additional options. |
+| [save] ([String], [int], [Html5Options]) | Saves all slides of a presentation to a file with the specified format and with additional options. |
 
 ### Parameters
 
@@ -806,7 +806,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [MarkdownSaveOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [MarkdownSaveOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -827,7 +827,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [XamlOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [XamlOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -848,7 +848,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [RenderingOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [RenderingOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -869,7 +869,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [HtmlOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [HtmlOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -890,7 +890,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [XpsOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [XpsOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -911,7 +911,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [TiffOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [TiffOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -932,7 +932,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [PptxOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [PptxOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -953,7 +953,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [PptOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [PptOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -974,7 +974,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [PdfOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [PdfOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -995,7 +995,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [SwfOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [SwfOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -1016,7 +1016,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [SVGOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [SVGOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -1037,7 +1037,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [GifOptions]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [GifOptions]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -1058,7 +1058,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int], [Html5Options]) Saves all slides of a presentation to a stream in the specified format and with additional options. |
+| [saveToStream ] (Presentation, [WriteStream], [int], [Html5Options]) | Saves all slides of a presentation to a stream in the specified format and with additional options. |
 
 ### Parameters
 
@@ -1079,7 +1079,7 @@ BufferedImage
 ---
 
 
-| [save] ([XamlOptions]) Saves all slides of a presentation to a set of files representing XAML markup. |
+| [save] ([XamlOptions]) | Saves all slides of a presentation to a set of files representing XAML markup. |
 
 ### Parameters
 
@@ -1091,7 +1091,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1111,7 +1111,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [MarkdownSaveOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [MarkdownSaveOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1126,7 +1126,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [XamlOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [XamlOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1141,7 +1141,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [RenderingOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [RenderingOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1156,7 +1156,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [HtmlOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [HtmlOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1171,7 +1171,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [XpsOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [XpsOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1186,7 +1186,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [TiffOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [TiffOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1201,7 +1201,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [PptxOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [PptxOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1216,7 +1216,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [PptOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [PptOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1231,7 +1231,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [PdfOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [PdfOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1246,7 +1246,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [SwfOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [SwfOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1261,7 +1261,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [SVGOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [SVGOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1276,7 +1276,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [GifOptions]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [GifOptions]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1291,7 +1291,7 @@ BufferedImage
 ---
 
 
-| [save] ([String], [int[]], [int], [Html5Options]) Saves specified slides of a presentation to a file with the specified format with page number keeping. |
+| [save] ([String], [int[]], [int], [Html5Options]) | Saves specified slides of a presentation to a file with the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1306,7 +1306,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1321,7 +1321,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [MarkdownSaveOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [MarkdownSaveOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1343,7 +1343,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [XamlOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [XamlOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1365,7 +1365,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [RenderingOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [RenderingOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1387,7 +1387,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [HtmlOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [HtmlOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1409,7 +1409,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [XpsOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [XpsOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1431,7 +1431,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [TiffOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [TiffOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1453,7 +1453,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [PptxOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [PptxOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1475,7 +1475,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [PptOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [PptOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1497,7 +1497,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [PdfOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [PdfOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1519,7 +1519,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [SwfOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [SwfOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1541,7 +1541,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [SVGOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [SVGOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1563,7 +1563,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [GifOptions]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [GifOptions]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1585,7 +1585,7 @@ BufferedImage
 ---
 
 
-| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [Html5Options]) Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
+| [saveToStream ] (Presentation, [WriteStream], [int[]], [int], [Html5Options]) | Saves specified slides of a presentation to a stream in the specified format with page number keeping. |
 
 ### Parameters
 
@@ -1607,19 +1607,19 @@ BufferedImage
 ---
 
 
-| [setCurrentDateTime] ([Date]) Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date. |
+| [setCurrentDateTime] ([Date]) | Returns or sets date and time which will substitute content of datetime fields. Time of this Presentation object creation by default. Read/write java.util.Date. |
 
 
 ---
 
 
-| [setFirstSlideNumber] ([int]) Represents the first slide number in the presentation |
+| [setFirstSlideNumber] ([int]) | Represents the first slide number in the presentation |
 
 
 ---
 
 
-| [setVbaProject] ([VbaProject]) Gets or sets VBA project with presentation macros. Read/write IVbaProject. |
+| [setVbaProject] ([VbaProject]) | Gets or sets VBA project with presentation macros. Read/write IVbaProject. |
 
 
 ---

@@ -12,7 +12,7 @@ url: /aspose.slides/alphareplace/
  Represents and Alpha Replace effect.
  Effect alpha (opacity) values are replaced by a fixed alpha.
  
-| [equals] ([Object]) Determines whether the specified AlphaReplace is equal to the current AlphaReplace. |
+| [equals] ([Object]) | Determines whether the specified AlphaReplace is equal to the current AlphaReplace. |
 
 ### Parameters
 
@@ -27,7 +27,7 @@ boolean
 ---
 
 
-| [getEffective] () Gets effective Alpha Replace effect data with the inheritance applied. |
+| [getEffective] () | Gets effective Alpha Replace effect data with the inheritance applied. |
 
 ### Result
 [AlphaReplaceEffectiveData]
@@ -36,7 +36,7 @@ boolean
 ---
 
 
-| [hashCode] () Serves as a hash function for a particular type. |
+| [hashCode] () | Serves as a hash function for a particular type. |
 
 ### Result
 int

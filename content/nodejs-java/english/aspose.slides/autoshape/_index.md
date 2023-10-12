@@ -11,7 +11,7 @@ url: /aspose.slides/autoshape/
 
   Represents an AutoShape.
  
-| [addTextFrame] ([String]) Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
+| [addTextFrame] ([String]) | Adds a new TextFrame to a shape. If shape already has TextFrame then simply changes its text. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-| [getAutoShapeLock] () Returns autoshape's locks. Read-only IAutoShapeLock. |
+| [getAutoShapeLock] () | Returns autoshape's locks. Read-only IAutoShapeLock. |
 
 ### Result
 [AutoShapeLock]
@@ -35,7 +35,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-| [getShapeLock] () Returns shape's locks. Read-only IAutoShapeLock. |
+| [getShapeLock] () | Returns shape's locks. Read-only IAutoShapeLock. |
 
 ### Result
 [AutoShapeLock]
@@ -44,7 +44,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-| [getTextFrame] () Returns TextFrame object for the AutoShape. Read-only ITextFrame. |
+| [getTextFrame] () | Returns TextFrame object for the AutoShape. Read-only ITextFrame. |
 
 ### Result
 [TextFrame]
@@ -53,7 +53,7 @@ url: /aspose.slides/autoshape/
 ---
 
 
-| [getUseBackgroundFill] () Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
+| [getUseBackgroundFill] () | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
 
 ### Result
 boolean
@@ -62,7 +62,7 @@ boolean
 ---
 
 
-| [isTextBox] () Specifies if the shape is a text box. If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties. |
+| [isTextBox] () | Specifies if the shape is a text box. If shape is not specified to be a text box does not mean that it cannot have text attached to it. A text box is merely a specialized shape with specific properties. |
 
 ### Result
 boolean
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [setUseBackgroundFill] ([boolean]) Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
+| [setUseBackgroundFill] ([boolean]) | Determines whether this autoshape should be filled with slide's background fill instead of specified by style or fill format. Read/write boolean. |
 
 
 ---

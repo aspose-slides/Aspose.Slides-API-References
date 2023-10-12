@@ -11,7 +11,7 @@ url: /aspose.slides/columncollection/
 
  Represents collection of columns in a table.
  
-| [addClone] ([Column], [boolean]) Creates a copy of the specified template row and inserts it at the bottom of a table. |
+| [addClone] ([Column], [boolean]) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 
 ### Parameters
 
@@ -27,7 +27,7 @@ url: /aspose.slides/columncollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -36,7 +36,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns the column at the specified index. Read-only Column. |
+| [get_Item] ([int]) | Returns the column at the specified index. Read-only Column. |
 
 ### Result
 [Column]
@@ -45,7 +45,7 @@ Object
 ---
 
 
-| [insertClone] ([int], [Column], [boolean]) Creates a copy of the specified template column and insert it at the specified position in a table. |
+| [insertClone] ([int], [Column], [boolean]) | Creates a copy of the specified template column and insert it at the specified position in a table. |
 
 ### Parameters
 
@@ -62,7 +62,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -80,7 +80,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -89,7 +89,7 @@ boolean
 ---
 
 
-| [removeAt] ([int], [boolean]) Removes a column at the specified position from a table. |
+| [removeAt] ([int], [boolean]) | Removes a column at the specified position from a table. |
 
 ### Parameters
 
@@ -102,7 +102,7 @@ boolean
 ---
 
 
-| [size] () Returns the number of columns in a collection. Read-only int. |
+| [size] () | Returns the number of columns in a collection. Read-only int. |
 
 ### Result
 int

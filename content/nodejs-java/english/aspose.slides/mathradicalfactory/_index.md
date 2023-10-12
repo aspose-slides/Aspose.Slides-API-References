@@ -22,7 +22,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -38,7 +38,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -54,7 +54,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -70,7 +70,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -86,7 +86,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -102,7 +102,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -118,7 +118,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -134,7 +134,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -150,7 +150,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -166,23 +166,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLimit] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathLimit], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -198,7 +182,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -214,7 +198,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -230,7 +214,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -246,7 +230,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -262,7 +246,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLimit] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathLimit], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -278,7 +278,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -294,7 +294,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -310,7 +310,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLimit], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathLimit], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -326,7 +326,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -342,7 +342,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -358,7 +358,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -374,7 +374,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -390,7 +390,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -406,7 +406,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -422,7 +422,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -438,7 +438,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -454,7 +454,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -470,23 +470,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBorderBox] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathBorderBox], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -502,7 +486,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -518,7 +502,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -534,7 +518,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -550,7 +534,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -566,7 +550,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBorderBox] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathBorderBox], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -582,7 +582,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -598,7 +598,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -614,7 +614,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBorderBox], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathBorderBox], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -630,7 +630,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -646,7 +646,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -662,7 +662,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -678,7 +678,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -694,7 +694,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -710,7 +710,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -726,7 +726,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -742,7 +742,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -758,7 +758,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -774,23 +774,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathFraction], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -806,7 +790,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -822,7 +806,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -838,7 +822,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -854,7 +838,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -870,7 +854,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathFraction], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -886,7 +886,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -902,7 +902,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -918,7 +918,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFraction], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathFraction], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -934,7 +934,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -950,7 +950,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -966,7 +966,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -982,7 +982,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -998,7 +998,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1014,7 +1014,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1030,7 +1030,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1046,7 +1046,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -1062,7 +1062,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -1078,23 +1078,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathDelimiter] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathDelimiter], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -1110,7 +1094,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -1126,7 +1110,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1142,7 +1126,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -1158,7 +1142,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -1174,7 +1158,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathDelimiter] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathDelimiter], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -1190,7 +1190,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -1206,7 +1206,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -1222,7 +1222,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathDelimiter], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathDelimiter], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -1238,7 +1238,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -1254,7 +1254,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -1270,7 +1270,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -1286,7 +1286,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -1302,7 +1302,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1318,7 +1318,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1334,7 +1334,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1350,7 +1350,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -1366,7 +1366,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -1382,23 +1382,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSuperscriptElement] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathSuperscriptElement], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -1414,7 +1398,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -1430,7 +1414,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1446,7 +1430,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -1462,7 +1446,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -1478,7 +1462,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSuperscriptElement] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathSuperscriptElement], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -1494,7 +1494,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -1510,7 +1510,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -1526,7 +1526,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSuperscriptElement], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathSuperscriptElement], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -1542,7 +1542,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -1558,7 +1558,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -1574,7 +1574,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -1590,7 +1590,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -1606,7 +1606,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1622,7 +1622,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1638,7 +1638,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1654,7 +1654,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -1670,7 +1670,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -1686,23 +1686,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLeftSubSuperscriptElement] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -1718,7 +1702,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -1734,7 +1718,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1750,7 +1734,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -1766,7 +1750,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -1782,7 +1766,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLeftSubSuperscriptElement] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -1798,7 +1798,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -1814,7 +1814,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -1830,7 +1830,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathLeftSubSuperscriptElement], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -1846,7 +1846,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -1862,7 +1862,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -1878,7 +1878,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -1894,7 +1894,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -1910,7 +1910,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1926,7 +1926,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1942,7 +1942,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -1958,7 +1958,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -1974,7 +1974,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -1990,23 +1990,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRightSubSuperscriptElement] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -2022,7 +2006,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -2038,7 +2022,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2054,7 +2038,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -2070,7 +2054,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -2086,7 +2070,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRightSubSuperscriptElement] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -2102,7 +2102,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -2118,7 +2118,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -2134,7 +2134,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathRightSubSuperscriptElement], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -2150,7 +2150,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -2166,7 +2166,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -2182,7 +2182,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -2198,7 +2198,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -2214,7 +2214,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2230,7 +2230,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2246,7 +2246,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2262,7 +2262,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -2278,7 +2278,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -2294,23 +2294,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathBox], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -2326,7 +2310,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -2342,7 +2326,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2358,7 +2342,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -2374,7 +2358,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -2390,7 +2374,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathBox], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -2406,7 +2406,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -2422,7 +2422,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -2438,7 +2438,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBox], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathBox], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -2454,7 +2454,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -2470,7 +2470,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -2486,7 +2486,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -2502,7 +2502,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -2518,7 +2518,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2534,7 +2534,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2550,7 +2550,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2566,7 +2566,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -2582,7 +2582,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -2598,23 +2598,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathMatrix], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -2630,7 +2614,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -2646,7 +2630,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -2662,7 +2646,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -2678,7 +2662,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -2694,7 +2678,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathMatrix], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -2710,7 +2710,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -2726,7 +2726,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -2742,7 +2742,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathMatrix], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathMatrix], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -2758,311 +2758,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathGroupingCharacter], [MathLimit]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathLimit] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathBorderBox]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathBorderBox] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathFraction]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathFraction] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathDelimiter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathDelimiter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathSuperscriptElement]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathSuperscriptElement] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathLeftSubSuperscriptElement] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathRightSubSuperscriptElement] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathBox]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathBox] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathMatrix]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathMatrix] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathArray]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathArray] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathBlock]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathBlock] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathSubscriptElement]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathSubscriptElement] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathFunction]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathFunction] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathNaryOperator]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathNaryOperator] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathematicalText]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathematicalText] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathAccent]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathAccent] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathRadical]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathRadical] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathGroupingCharacter], [MathBar]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
-| degreeArgument | [MathBar] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathArray], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -3078,7 +2774,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -3094,7 +2790,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -3110,7 +2806,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -3126,7 +2822,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3142,7 +2838,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3158,7 +2854,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3174,7 +2870,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -3190,7 +2886,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -3206,23 +2902,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathArray] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathArray], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -3238,7 +2918,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -3254,7 +2934,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3270,7 +2950,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -3286,7 +2966,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -3302,7 +2982,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathArray] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathArray], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -3318,7 +3014,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -3334,7 +3030,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -3350,7 +3046,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathArray], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathArray], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -3366,7 +3062,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -3382,7 +3078,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -3398,7 +3094,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -3414,7 +3110,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -3430,7 +3126,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3446,7 +3142,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3462,7 +3158,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3478,7 +3174,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -3494,7 +3190,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -3510,23 +3206,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBlock] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathBlock], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -3542,7 +3222,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -3558,7 +3238,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3574,7 +3254,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -3590,7 +3270,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -3606,7 +3286,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBlock] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathBlock], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -3622,7 +3318,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -3638,7 +3334,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -3654,7 +3350,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBlock], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathBlock], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -3670,7 +3366,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -3686,7 +3382,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -3702,7 +3398,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -3718,7 +3414,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -3734,7 +3430,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3750,7 +3446,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3766,7 +3462,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3782,7 +3478,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -3798,7 +3494,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -3814,23 +3510,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSubscriptElement] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathSubscriptElement], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -3846,7 +3526,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -3862,7 +3542,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -3878,7 +3558,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -3894,7 +3574,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -3910,7 +3590,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSubscriptElement] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathSubscriptElement], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -3926,7 +3622,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -3942,7 +3638,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -3958,7 +3654,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathSubscriptElement], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathSubscriptElement], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -3974,7 +3670,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -3990,7 +3686,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -4006,7 +3702,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -4022,7 +3718,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -4038,7 +3734,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4054,7 +3750,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4070,7 +3766,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4086,7 +3782,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -4102,7 +3798,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -4118,23 +3814,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathFunction], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -4150,7 +3830,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -4166,7 +3846,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4182,7 +3862,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -4198,7 +3878,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -4214,7 +3894,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathFunction], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -4230,7 +3926,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -4246,7 +3942,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -4262,7 +3958,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathFunction], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathFunction], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -4278,7 +3974,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -4294,7 +3990,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -4310,7 +4006,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -4326,7 +4022,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -4342,7 +4038,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4358,7 +4054,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4374,7 +4070,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4390,7 +4086,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -4406,7 +4102,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -4422,23 +4118,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathNaryOperator] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathNaryOperator], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -4454,7 +4134,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -4470,7 +4150,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4486,7 +4166,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -4502,7 +4182,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -4518,7 +4198,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathNaryOperator] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathNaryOperator], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -4534,7 +4230,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -4550,7 +4246,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -4566,7 +4262,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathNaryOperator], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathNaryOperator], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -4582,7 +4278,311 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathGroupingCharacter], [MathLimit]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathLimit] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathBorderBox]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathBorderBox] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathFraction]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathFraction] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathDelimiter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathDelimiter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathSuperscriptElement]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathSuperscriptElement] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathLeftSubSuperscriptElement] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathRightSubSuperscriptElement] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathBox]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathBox] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathMatrix]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathMatrix] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathArray]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathArray] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathBlock]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathBlock] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathSubscriptElement]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathSubscriptElement] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathFunction]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathFunction] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathNaryOperator]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathNaryOperator] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathematicalText]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathematicalText] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathAccent]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathAccent] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathRadical]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathRadical] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathGroupingCharacter], [MathBar]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base argument to apply radical |
+| degreeArgument | [MathBar] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathematicalText], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -4598,7 +4598,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -4614,7 +4614,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -4630,7 +4630,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -4646,7 +4646,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4662,7 +4662,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4678,7 +4678,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4694,7 +4694,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -4710,7 +4710,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -4726,23 +4726,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathematicalText], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -4758,7 +4742,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -4774,7 +4758,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4790,7 +4774,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -4806,7 +4790,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -4822,7 +4806,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathematicalText], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -4838,7 +4838,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -4854,7 +4854,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -4870,7 +4870,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathematicalText], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathematicalText], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -4886,7 +4886,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -4902,7 +4902,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -4918,7 +4918,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -4934,7 +4934,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -4950,7 +4950,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4966,7 +4966,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4982,7 +4982,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -4998,7 +4998,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -5014,7 +5014,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -5030,23 +5030,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathAccent], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -5062,7 +5046,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -5078,7 +5062,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5094,7 +5078,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -5110,7 +5094,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -5126,7 +5110,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathAccent], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -5142,7 +5142,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -5158,7 +5158,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -5174,7 +5174,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathAccent], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathAccent], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -5190,7 +5190,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -5206,7 +5206,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -5222,7 +5222,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -5238,7 +5238,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -5254,7 +5254,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5270,7 +5270,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5286,7 +5286,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5302,7 +5302,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -5318,7 +5318,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -5334,23 +5334,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRadical] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathRadical], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -5366,7 +5350,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -5382,7 +5366,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5398,7 +5382,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -5414,7 +5398,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -5430,7 +5414,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRadical] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathRadical], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -5446,7 +5446,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -5462,7 +5462,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -5478,7 +5478,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathRadical], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathRadical], [MathBar]) | Creates a math radical |
 
 ### Parameters
 
@@ -5494,7 +5494,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathLimit]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathLimit]) | Creates a math radical |
 
 ### Parameters
 
@@ -5510,7 +5510,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathBorderBox]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathBorderBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -5526,7 +5526,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathFraction]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathFraction]) | Creates a math radical |
 
 ### Parameters
 
@@ -5542,7 +5542,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathDelimiter]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathDelimiter]) | Creates a math radical |
 
 ### Parameters
 
@@ -5558,7 +5558,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5574,7 +5574,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathLeftSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathLeftSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5590,7 +5590,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathRightSubSuperscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathRightSubSuperscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5606,7 +5606,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathBox]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathBox]) | Creates a math radical |
 
 ### Parameters
 
@@ -5622,7 +5622,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathMatrix]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathMatrix]) | Creates a math radical |
 
 ### Parameters
 
@@ -5638,23 +5638,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathGroupingCharacter]) Creates a math radical |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBar] | Base argument to apply radical |
-| degreeArgument | [MathGroupingCharacter] | Degree value |
-
-### Result
-[MathRadical]
-
-
----
-
-
-| [createMathRadical] ([MathBar], [MathArray]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathArray]) | Creates a math radical |
 
 ### Parameters
 
@@ -5670,7 +5654,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathBlock]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathBlock]) | Creates a math radical |
 
 ### Parameters
 
@@ -5686,7 +5670,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathSubscriptElement]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathSubscriptElement]) | Creates a math radical |
 
 ### Parameters
 
@@ -5702,7 +5686,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathFunction]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathFunction]) | Creates a math radical |
 
 ### Parameters
 
@@ -5718,7 +5702,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathNaryOperator]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathNaryOperator]) | Creates a math radical |
 
 ### Parameters
 
@@ -5734,7 +5718,23 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathematicalText]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathGroupingCharacter]) | Creates a math radical |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBar] | Base argument to apply radical |
+| degreeArgument | [MathGroupingCharacter] | Degree value |
+
+### Result
+[MathRadical]
+
+
+---
+
+
+| [createMathRadical] ([MathBar], [MathematicalText]) | Creates a math radical |
 
 ### Parameters
 
@@ -5750,7 +5750,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathAccent]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathAccent]) | Creates a math radical |
 
 ### Parameters
 
@@ -5766,7 +5766,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathRadical]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathRadical]) | Creates a math radical |
 
 ### Parameters
 
@@ -5782,7 +5782,7 @@ MathRadicalFactory
 ---
 
 
-| [createMathRadical] ([MathBar], [MathBar]) Creates a math radical |
+| [createMathRadical] ([MathBar], [MathBar]) | Creates a math radical |
 
 ### Parameters
 

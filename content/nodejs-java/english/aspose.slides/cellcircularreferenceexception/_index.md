@@ -68,7 +68,7 @@ CellCircularReferenceException
 ---
 
 
-| [getReference] () Gets a circular cell reference. |
+| [getReference] () | Gets a circular cell reference. |
 
 ### Result
 String

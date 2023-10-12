@@ -11,7 +11,7 @@ url: /aspose.slides/oleobjectframe/
 
  Represents an OLE object on a slide.
  
-| [getEmbeddedData] () Gets or sets information about OLE embedded data. Read/write IOleEmbeddedDataInfo. |
+| [getEmbeddedData] () | Gets or sets information about OLE embedded data. Read/write IOleEmbeddedDataInfo. |
 
 ### Result
 [OleEmbeddedDataInfo]
@@ -20,7 +20,7 @@ url: /aspose.slides/oleobjectframe/
 ---
 
 
-| [getEmbeddedFileLabel] () Returns the file name of embedded OLE object |
+| [getEmbeddedFileLabel] () | Returns the file name of embedded OLE object |
 
 ### Result
 String
@@ -29,7 +29,7 @@ String
 ---
 
 
-| [getEmbeddedFileName] () Returns the path of embedded OLE object |
+| [getEmbeddedFileName] () | Returns the path of embedded OLE object |
 
 ### Result
 String
@@ -38,7 +38,7 @@ String
 ---
 
 
-| [getLinkFileName] () Returns the full path to a linked file. Short file name will be used. Read-only String. |
+| [getLinkFileName] () | Returns the full path to a linked file. Short file name will be used. Read-only String. |
 
 ### Result
 String
@@ -47,7 +47,7 @@ String
 ---
 
 
-| [getLinkPathLong] () Returns the full path to a linked file. Long file name will be used. Read/write String. |
+| [getLinkPathLong] () | Returns the full path to a linked file. Long file name will be used. Read/write String. |
 
 ### Result
 String
@@ -56,7 +56,7 @@ String
 ---
 
 
-| [getLinkPathRelative] () Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String. In the Ppt presentations, some Ole object links may have a relative representation. |
+| [getLinkPathRelative] () | Returns the relative path to a linked file if present, otherwise returns an empty string. Readonly String. In the Ppt presentations, some Ole object links may have a relative representation. |
 
 ### Result
 String
@@ -65,7 +65,7 @@ String
 ---
 
 
-| [getObjectName] () Returns or sets the name of an object. Read/write String. |
+| [getObjectName] () | Returns or sets the name of an object. Read/write String. |
 
 ### Result
 String
@@ -74,7 +74,7 @@ String
 ---
 
 
-| [getObjectProgId] () Returns the ProgID of an object. Read only String. |
+| [getObjectProgId] () | Returns the ProgID of an object. Read only String. |
 
 ### Result
 String
@@ -83,7 +83,7 @@ String
 ---
 
 
-| [getSubstitutePictureFormat] () Returns OleObject image fill properties object. Read-only IPictureFillFormat. |
+| [getSubstitutePictureFormat] () | Returns OleObject image fill properties object. Read-only IPictureFillFormat. |
 
 ### Result
 [PictureFillFormat]
@@ -92,7 +92,7 @@ String
 ---
 
 
-| [getSubstitutePictureTitle] () Returns or sets the title for OleObject icon. Read/write String. When IsObjectIcon == false this value is ignored. The string can be truncated according to the size of the Ole icon. |
+| [getSubstitutePictureTitle] () | Returns or sets the title for OleObject icon. Read/write String. When IsObjectIcon == false this value is ignored. The string can be truncated according to the size of the Ole icon. |
 
 ### Result
 String
@@ -101,7 +101,7 @@ String
 ---
 
 
-| [getUpdateAutomatic] () Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write boolean. |
+| [getUpdateAutomatic] () | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write boolean. |
 
 ### Result
 boolean
@@ -110,7 +110,7 @@ boolean
 ---
 
 
-| [isObjectIcon] () Determines whether an object is visible as icon. Read/write boolean. |
+| [isObjectIcon] () | Determines whether an object is visible as icon. Read/write boolean. |
 
 ### Result
 boolean
@@ -119,7 +119,7 @@ boolean
 ---
 
 
-| [isObjectLink] () Determines whether an object is linked to external file. Read-only boolean. |
+| [isObjectLink] () | Determines whether an object is linked to external file. Read-only boolean. |
 
 ### Result
 boolean
@@ -128,7 +128,7 @@ boolean
 ---
 
 
-| [setEmbeddedData] ([OleEmbeddedDataInfo]) Sets information about OLE embedded data. |
+| [setEmbeddedData] ([OleEmbeddedDataInfo]) | Sets information about OLE embedded data. |
 
 ### Parameters
 
@@ -146,37 +146,37 @@ boolean
 ---
 
 
-| [setLinkPathLong] ([String]) Returns the full path to a linked file. Long file name will be used. Read/write String. |
+| [setLinkPathLong] ([String]) | Returns the full path to a linked file. Long file name will be used. Read/write String. |
 
 
 ---
 
 
-| [setObjectIcon] ([boolean]) Determines whether an object is visible as icon. Read/write boolean. |
+| [setObjectIcon] ([boolean]) | Determines whether an object is visible as icon. Read/write boolean. |
 
 
 ---
 
 
-| [setObjectName] ([String]) Returns or sets the name of an object. Read/write String. |
+| [setObjectName] ([String]) | Returns or sets the name of an object. Read/write String. |
 
 
 ---
 
 
-| [setObjectProgId] ([String]) Returns the ProgID of an object. Read only String. |
+| [setObjectProgId] ([String]) | Returns the ProgID of an object. Read only String. |
 
 
 ---
 
 
-| [setSubstitutePictureTitle] ([String]) Returns or sets the title for OleObject icon. Read/write String. When IsObjectIcon == false this value is ignored. The string can be truncated according to the size of the Ole icon. |
+| [setSubstitutePictureTitle] ([String]) | Returns or sets the title for OleObject icon. Read/write String. When IsObjectIcon == false this value is ignored. The string can be truncated according to the size of the Ole icon. |
 
 
 ---
 
 
-| [setUpdateAutomatic] ([boolean]) Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write boolean. |
+| [setUpdateAutomatic] ([boolean]) | Determines if the linked embedded object is automatically updated when the presentation is opened or printed. Read/write boolean. |
 
 
 ---

@@ -11,7 +11,7 @@ url: /aspose.slides/customxmlpartcollection/
 
  Represents collection of custom xml parts.
  
-| [add] ([String]) Adds new custom xml part. |
+| [add] ([String]) | Adds new custom xml part. |
 
 ### Parameters
 
@@ -32,7 +32,7 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-| [add] ([byte[]]) Adds new custom xml part. |
+| [add] ([byte[]]) | Adds new custom xml part. |
 
 ### Parameters
 
@@ -53,7 +53,7 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-| [addFromStream ] (CustomXmlPartCollection, [ReadStream], Function) Adds new custom xml part. |
+| [addFromStream ] (CustomXmlPartCollection, [ReadStream], Function) | Adds new custom xml part. |
 
 ### Parameters
 
@@ -76,13 +76,13 @@ url: /aspose.slides/customxmlpartcollection/
 ---
 
 
-| [clear] () Removes all items from the collection. |
+| [clear] () | Removes all items from the collection. |
 
 
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -91,7 +91,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns the element at the specified index. |
+| [get_Item] ([int]) | Returns the element at the specified index. |
 
 ### Parameters
 
@@ -112,7 +112,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -121,7 +121,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -130,7 +130,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -139,7 +139,7 @@ boolean
 ---
 
 
-| [remove] ([CustomXmlPart]) Removes the first occurrence of a specific object from the collection. |
+| [remove] ([CustomXmlPart]) | Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
@@ -160,7 +160,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes custom xml part at the specified index. |
+| [removeAt] ([int]) | Removes custom xml part at the specified index. |
 
 ### Parameters
 
@@ -178,7 +178,7 @@ boolean
 ---
 
 
-| [size] () Returns count of custom xml parts in the collection. Read-only int. |
+| [size] () | Returns count of custom xml parts in the collection. Read-only int. |
 
 ### Result
 int

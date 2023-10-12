@@ -11,7 +11,7 @@ url: /aspose.slides/axesmanager/
 
  Provides access to chart axes.
  
-| [getHorizontalAxis] () Gets the chart's horizontal axis. Read-only IAxis. |
+| [getHorizontalAxis] () | Gets the chart's horizontal axis. Read-only IAxis. |
 
 ### Result
 [Axis]
@@ -20,7 +20,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-| [getSecondaryHorizontalAxis] () Gets the chart's secondary horizontal axis. Read-only IAxis. |
+| [getSecondaryHorizontalAxis] () | Gets the chart's secondary horizontal axis. Read-only IAxis. |
 
 ### Result
 [Axis]
@@ -29,7 +29,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-| [getSecondaryVerticalAxis] () Gets the chart's secondary vertical axis. Read-only IAxis. |
+| [getSecondaryVerticalAxis] () | Gets the chart's secondary vertical axis. Read-only IAxis. |
 
 ### Result
 [Axis]
@@ -38,7 +38,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-| [getSeriesAxis] () Gets the chart's series axis. Read-only IAxis. |
+| [getSeriesAxis] () | Gets the chart's series axis. Read-only IAxis. |
 
 ### Result
 [Axis]
@@ -47,7 +47,7 @@ url: /aspose.slides/axesmanager/
 ---
 
 
-| [getVerticalAxis] () Gets the chart's vertical axis. Read-only IAxis. |
+| [getVerticalAxis] () | Gets the chart's vertical axis. Read-only IAxis. |
 
 ### Result
 [Axis]

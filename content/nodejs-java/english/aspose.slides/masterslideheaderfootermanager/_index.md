@@ -13,7 +13,7 @@ url: /aspose.slides/masterslideheaderfootermanager/
  Child placeholders mean placeholders are contained on depending layout slides and depending slides.
  Depending layout slides and slides use and depend on master slide.
  
-| [setDateTimeAndChildDateTimesText] ([String]) Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setDateTimeAndChildDateTimesText] ([String]) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
 
 ### Parameters
 
@@ -25,7 +25,7 @@ url: /aspose.slides/masterslideheaderfootermanager/
 ---
 
 
-| [setDateTimeAndChildDateTimesVisibility] ([boolean]) Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setDateTimeAndChildDateTimesVisibility] ([boolean]) | Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
 
 ### Parameters
 
@@ -37,7 +37,7 @@ url: /aspose.slides/masterslideheaderfootermanager/
 ---
 
 
-| [setFooterAndChildFootersText] ([String]) Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setFooterAndChildFootersText] ([String]) | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
 
 ### Parameters
 
@@ -49,7 +49,7 @@ url: /aspose.slides/masterslideheaderfootermanager/
 ---
 
 
-| [setFooterAndChildFootersVisibility] ([boolean]) Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setFooterAndChildFootersVisibility] ([boolean]) | Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ url: /aspose.slides/masterslideheaderfootermanager/
 ---
 
 
-| [setSlideNumberAndChildSlideNumbersVisibility] ([boolean]) Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
+| [setSlideNumberAndChildSlideNumbersVisibility] ([boolean]) | Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending layout slides and depending slides. Depending layout slides and slides use and depend on master slide. |
 
 ### Parameters
 

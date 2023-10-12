@@ -20,7 +20,7 @@ VbaProjectFactory
 ---
 
 
-| [createVbaProject] () Creates new VBA project. |
+| [createVbaProject] () | Creates new VBA project. |
 
 ### Result
 [VbaProject]
@@ -29,7 +29,7 @@ VbaProjectFactory
 ---
 
 
-| [getInstance] () VBA project factory static instance. Read-only VbaProjectFactory. |
+| [getInstance] () | VBA project factory static instance. Read-only VbaProjectFactory. |
 
 ### Result
 VbaProjectFactory
@@ -38,7 +38,7 @@ VbaProjectFactory
 ---
 
 
-| [readVbaProject] ([byte[]]) Reads VBA project from OLE container. |
+| [readVbaProject] ([byte[]]) | Reads VBA project from OLE container. |
 
 ### Result
 [VbaProject]

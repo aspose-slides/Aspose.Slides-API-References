@@ -22,7 +22,7 @@ MathematicalTextFactory
 ---
 
 
-| [createMathematicalText] () Create empty mathematical text element |
+| [createMathematicalText] () | Create empty mathematical text element |
 
 ### Result
 [MathematicalText]
@@ -31,7 +31,7 @@ MathematicalTextFactory
 ---
 
 
-| [createMathematicalText] ([char]) Create mathematical text element with the specified value |
+| [createMathematicalText] ([char]) | Create mathematical text element with the specified value |
 
 ### Parameters
 
@@ -46,7 +46,7 @@ MathematicalTextFactory
 ---
 
 
-| [createMathematicalText] ([String]) Create empty mathematical text element with the specified value |
+| [createMathematicalText] ([String]) | Create empty mathematical text element with the specified value |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ MathematicalTextFactory
 ---
 
 
-| [createMathematicalText] ([String], [PortionFormat]) Create empty mathematical text element with the specified value and formatting properties |
+| [createMathematicalText] ([String], [PortionFormat]) | Create empty mathematical text element with the specified value and formatting properties |
 
 ### Parameters
 

@@ -66,16 +66,16 @@ MathematicalText
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getFormat] () Text formatting properties |
+| [getFormat] () | Text formatting properties |
 
 ### Result
 [PortionFormat]
@@ -84,7 +84,7 @@ MathematicalText
 ---
 
 
-| [getValue] () Text value |
+| [getValue] () | Text value |
 
 ### Result
 String
@@ -93,7 +93,7 @@ String
 ---
 
 
-| [setValue] ([String]) Text value |
+| [setValue] ([String]) | Text value |
 
 
 ---

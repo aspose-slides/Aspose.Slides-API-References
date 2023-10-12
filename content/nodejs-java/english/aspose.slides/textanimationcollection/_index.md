@@ -20,7 +20,7 @@ TextAnimationCollection
 ---
 
 
-| [add] () Adds new text animation to the collection. |
+| [add] () | Adds new text animation to the collection. |
 
 ### Result
 TextAnimation
@@ -29,7 +29,7 @@ TextAnimation
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -38,7 +38,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns element by index. |
+| [get_Item] ([int]) | Returns element by index. |
 
 ### Result
 [TextAnimation]
@@ -47,7 +47,7 @@ Object
 ---
 
 
-| [get_Item] ([LegacyDiagram]) Returns all elements |
+| [get_Item] ([LegacyDiagram]) | Returns all elements |
 
 ### Parameters
 
@@ -62,7 +62,7 @@ Object
 ---
 
 
-| [get_Item] ([Connector]) Returns all elements |
+| [get_Item] ([Connector]) | Returns all elements |
 
 ### Parameters
 
@@ -77,7 +77,7 @@ Object
 ---
 
 
-| [get_Item] ([GraphicalObject]) Returns all elements |
+| [get_Item] ([GraphicalObject]) | Returns all elements |
 
 ### Parameters
 
@@ -92,7 +92,7 @@ Object
 ---
 
 
-| [get_Item] ([Shape]) Returns all elements |
+| [get_Item] ([Shape]) | Returns all elements |
 
 ### Parameters
 
@@ -107,7 +107,7 @@ Object
 ---
 
 
-| [get_Item] ([Ink]) Returns all elements |
+| [get_Item] ([Ink]) | Returns all elements |
 
 ### Parameters
 
@@ -122,7 +122,7 @@ Object
 ---
 
 
-| [get_Item] ([GroupShape]) Returns all elements |
+| [get_Item] ([GroupShape]) | Returns all elements |
 
 ### Parameters
 
@@ -137,7 +137,7 @@ Object
 ---
 
 
-| [get_Item] ([SmartArtShape]) Returns all elements |
+| [get_Item] ([SmartArtShape]) | Returns all elements |
 
 ### Parameters
 
@@ -152,7 +152,7 @@ Object
 ---
 
 
-| [get_Item] ([SummaryZoomSection]) Returns all elements |
+| [get_Item] ([SummaryZoomSection]) | Returns all elements |
 
 ### Parameters
 
@@ -167,7 +167,7 @@ Object
 ---
 
 
-| [get_Item] ([ZoomObject]) Returns all elements |
+| [get_Item] ([ZoomObject]) | Returns all elements |
 
 ### Parameters
 
@@ -182,7 +182,7 @@ Object
 ---
 
 
-| [get_Item] ([SmartArt]) Returns all elements |
+| [get_Item] ([SmartArt]) | Returns all elements |
 
 ### Parameters
 
@@ -197,7 +197,7 @@ Object
 ---
 
 
-| [get_Item] ([VideoFrame]) Returns all elements |
+| [get_Item] ([VideoFrame]) | Returns all elements |
 
 ### Parameters
 
@@ -212,7 +212,7 @@ Object
 ---
 
 
-| [get_Item] ([PictureFrame]) Returns all elements |
+| [get_Item] ([PictureFrame]) | Returns all elements |
 
 ### Parameters
 
@@ -227,7 +227,7 @@ Object
 ---
 
 
-| [get_Item] ([ZoomFrame]) Returns all elements |
+| [get_Item] ([ZoomFrame]) | Returns all elements |
 
 ### Parameters
 
@@ -242,7 +242,7 @@ Object
 ---
 
 
-| [get_Item] ([AutoShape]) Returns all elements |
+| [get_Item] ([AutoShape]) | Returns all elements |
 
 ### Parameters
 
@@ -257,7 +257,7 @@ Object
 ---
 
 
-| [get_Item] ([OleObjectFrame]) Returns all elements |
+| [get_Item] ([OleObjectFrame]) | Returns all elements |
 
 ### Parameters
 
@@ -272,7 +272,7 @@ Object
 ---
 
 
-| [get_Item] ([SectionZoomFrame]) Returns all elements |
+| [get_Item] ([SectionZoomFrame]) | Returns all elements |
 
 ### Parameters
 
@@ -287,7 +287,7 @@ Object
 ---
 
 
-| [get_Item] ([AudioFrame]) Returns all elements |
+| [get_Item] ([AudioFrame]) | Returns all elements |
 
 ### Parameters
 
@@ -302,7 +302,7 @@ Object
 ---
 
 
-| [get_Item] ([Chart]) Returns all elements |
+| [get_Item] ([Chart]) | Returns all elements |
 
 ### Parameters
 
@@ -317,7 +317,7 @@ Object
 ---
 
 
-| [get_Item] ([Table]) Returns all elements |
+| [get_Item] ([Table]) | Returns all elements |
 
 ### Parameters
 
@@ -332,7 +332,7 @@ Object
 ---
 
 
-| [get_Item] ([SummaryZoomFrame]) Returns all elements |
+| [get_Item] ([SummaryZoomFrame]) | Returns all elements |
 
 ### Parameters
 
@@ -347,7 +347,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -356,7 +356,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -365,7 +365,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -374,7 +374,7 @@ boolean
 ---
 
 
-| [size] () Returns a number of elements in the collection. Read-only int. |
+| [size] () | Returns a number of elements in the collection. Read-only int. |
 
 ### Result
 int

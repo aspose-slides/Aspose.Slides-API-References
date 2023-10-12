@@ -20,7 +20,7 @@ ColorEffect
 ---
 
 
-| [getBy] () Describes the relative offset value for the color animation. Read/write IColorOffset. |
+| [getBy] () | Describes the relative offset value for the color animation. Read/write IColorOffset. |
 
 ### Result
 [ColorOffset]
@@ -29,7 +29,7 @@ ColorEffect
 ---
 
 
-| [getColorSpace] () Represent color space of behavior. Read/write ColorSpace. |
+| [getColorSpace] () | Represent color space of behavior. Read/write ColorSpace. |
 
 ### Result
 int
@@ -38,7 +38,7 @@ int
 ---
 
 
-| [getDirection] () Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
+| [getDirection] () | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
 
 ### Result
 int
@@ -47,7 +47,7 @@ int
 ---
 
 
-| [getFrom] () This value is used to specify the starting color of behavior. Read/write IColorFormat. |
+| [getFrom] () | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
 
 ### Result
 [ColorFormat]
@@ -56,7 +56,7 @@ int
 ---
 
 
-| [getTo] () Describes resulting color for the animation color change. Read/write IColorFormat. |
+| [getTo] () | Describes resulting color for the animation color change. Read/write IColorFormat. |
 
 ### Result
 [ColorFormat]
@@ -65,31 +65,31 @@ int
 ---
 
 
-| [setBy] ([ColorOffset]) Describes the relative offset value for the color animation. Read/write IColorOffset. |
+| [setBy] ([ColorOffset]) | Describes the relative offset value for the color animation. Read/write IColorOffset. |
 
 
 ---
 
 
-| [setColorSpace] ([int]) Represent color space of behavior. Read/write ColorSpace. |
+| [setColorSpace] ([int]) | Represent color space of behavior. Read/write ColorSpace. |
 
 
 ---
 
 
-| [setDirection] ([int]) Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
+| [setDirection] ([int]) | Specifies which direction to cycle the hue around the color wheel. Read/write ColorDirection. |
 
 
 ---
 
 
-| [setFrom] ([ColorFormat]) This value is used to specify the starting color of behavior. Read/write IColorFormat. |
+| [setFrom] ([ColorFormat]) | This value is used to specify the starting color of behavior. Read/write IColorFormat. |
 
 
 ---
 
 
-| [setTo] ([ColorFormat]) Describes resulting color for the animation color change. Read/write IColorFormat. |
+| [setTo] ([ColorFormat]) | Describes resulting color for the animation color change. Read/write IColorFormat. |
 
 
 ---

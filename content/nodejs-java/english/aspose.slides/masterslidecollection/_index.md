@@ -11,7 +11,7 @@ url: /aspose.slides/masterslidecollection/
 
  Represents a collection of master slides.
  
-| [addClone] ([MasterSlide]) Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
+| [addClone] ([MasterSlide]) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ url: /aspose.slides/masterslidecollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -35,7 +35,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. Read-only MasterSlide. |
+| [get_Item] ([int]) | Gets the element at the specified index. Read-only MasterSlide. |
 
 ### Result
 [MasterSlide]
@@ -44,7 +44,7 @@ Object
 ---
 
 
-| [insertClone] ([int], [MasterSlide]) Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
+| [insertClone] ([int], [MasterSlide]) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
 
 ### Parameters
 
@@ -60,7 +60,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -69,7 +69,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -78,7 +78,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -87,7 +87,7 @@ boolean
 ---
 
 
-| [remove] ([MasterSlide]) Removes the first occurrence of a specific object from the collection. |
+| [remove] ([MasterSlide]) | Removes the first occurrence of a specific object from the collection. |
 
 ### Parameters
 
@@ -99,7 +99,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes the element at the specified index of the collection. |
+| [removeAt] ([int]) | Removes the element at the specified index of the collection. |
 
 ### Parameters
 
@@ -117,7 +117,7 @@ boolean
 ---
 
 
-| [removeUnused] ([boolean]) Removes unused master slides. |
+| [removeUnused] ([boolean]) | Removes unused master slides. |
 
 ### Parameters
 
@@ -129,7 +129,7 @@ boolean
 ---
 
 
-| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int

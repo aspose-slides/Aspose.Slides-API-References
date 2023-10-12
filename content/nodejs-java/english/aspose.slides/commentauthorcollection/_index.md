@@ -11,7 +11,7 @@ url: /aspose.slides/commentauthorcollection/
 
  Represents a collection of comment authors.
  
-| [addAuthor] ([String], [String]) Add new author at the end of a collection. |
+| [addAuthor] ([String], [String]) | Add new author at the end of a collection. |
 
 ### Parameters
 
@@ -27,13 +27,13 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-| [clear] () Removes all authors from a collection. |
+| [clear] () | Removes all authors from a collection. |
 
 
 ---
 
 
-| [findByName] ([String]) Find author in a collection by name. |
+| [findByName] ([String]) | Find author in a collection by name. |
 
 ### Parameters
 
@@ -48,7 +48,7 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-| [findByNameAndInitials] ([String], [String]) Find author in a collection by name and initials. |
+| [findByNameAndInitials] ([String], [String]) | Find author in a collection by name and initials. |
 
 ### Parameters
 
@@ -64,7 +64,7 @@ url: /aspose.slides/commentauthorcollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -73,7 +73,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Gets the element at the specified index. Read-only ICommentAuthor. |
+| [get_Item] ([int]) | Gets the element at the specified index. Read-only ICommentAuthor. |
 
 ### Result
 [CommentAuthor]
@@ -82,7 +82,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -91,7 +91,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -100,7 +100,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -109,7 +109,7 @@ boolean
 ---
 
 
-| [remove] ([CommentAuthor]) Removes the first occurrence of the specified author in a collection. |
+| [remove] ([CommentAuthor]) | Removes the first occurrence of the specified author in a collection. |
 
 ### Parameters
 
@@ -127,7 +127,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes the author at the specified index of the collection. |
+| [removeAt] ([int]) | Removes the author at the specified index of the collection. |
 
 ### Parameters
 
@@ -145,7 +145,7 @@ boolean
 ---
 
 
-| [size] () Gets the number of elements actually contained in the collection. Read-only int. |
+| [size] () | Gets the number of elements actually contained in the collection. Read-only int. |
 
 ### Result
 int
@@ -154,7 +154,7 @@ int
 ---
 
 
-| [toArray] () Creates and returns an array with all authors. |
+| [toArray] () | Creates and returns an array with all authors. |
 
 ### Result
 [CommentAuthor]

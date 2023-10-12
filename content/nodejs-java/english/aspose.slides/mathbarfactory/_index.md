@@ -22,7 +22,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathLimit]) Create a math bar by applying to the element |
+| [createMathBar] ([MathLimit]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -37,7 +37,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBorderBox]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBorderBox]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -52,7 +52,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathFraction]) Create a math bar by applying to the element |
+| [createMathBar] ([MathFraction]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -67,7 +67,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathDelimiter]) Create a math bar by applying to the element |
+| [createMathBar] ([MathDelimiter]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -82,7 +82,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathSuperscriptElement]) Create a math bar by applying to the element |
+| [createMathBar] ([MathSuperscriptElement]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -97,7 +97,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathLeftSubSuperscriptElement]) Create a math bar by applying to the element |
+| [createMathBar] ([MathLeftSubSuperscriptElement]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -112,7 +112,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathRightSubSuperscriptElement]) Create a math bar by applying to the element |
+| [createMathBar] ([MathRightSubSuperscriptElement]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -127,7 +127,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBox]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBox]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -142,7 +142,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathMatrix]) Create a math bar by applying to the element |
+| [createMathBar] ([MathMatrix]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -157,22 +157,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathGroupingCharacter]) Create a math bar by applying to the element |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply bar |
-
-### Result
-[MathBar]
-
-
----
-
-
-| [createMathBar] ([MathArray]) Create a math bar by applying to the element |
+| [createMathBar] ([MathArray]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -187,7 +172,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBlock]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBlock]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -202,7 +187,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathSubscriptElement]) Create a math bar by applying to the element |
+| [createMathBar] ([MathSubscriptElement]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -217,7 +202,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathFunction]) Create a math bar by applying to the element |
+| [createMathBar] ([MathFunction]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -232,7 +217,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathNaryOperator]) Create a math bar by applying to the element |
+| [createMathBar] ([MathNaryOperator]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -247,7 +232,22 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathematicalText]) Create a math bar by applying to the element |
+| [createMathBar] ([MathGroupingCharacter]) | Create a math bar by applying to the element |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | math element to apply bar |
+
+### Result
+[MathBar]
+
+
+---
+
+
+| [createMathBar] ([MathematicalText]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -262,7 +262,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathAccent]) Create a math bar by applying to the element |
+| [createMathBar] ([MathAccent]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -277,7 +277,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathRadical]) Create a math bar by applying to the element |
+| [createMathBar] ([MathRadical]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -292,7 +292,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBar]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBar]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -307,7 +307,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathLimit], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathLimit], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -323,7 +323,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBorderBox], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBorderBox], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -339,7 +339,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathFraction], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathFraction], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -355,7 +355,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathDelimiter], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathDelimiter], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -371,7 +371,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathSuperscriptElement], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathSuperscriptElement], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -387,7 +387,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathLeftSubSuperscriptElement], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathLeftSubSuperscriptElement], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -403,7 +403,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathRightSubSuperscriptElement], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathRightSubSuperscriptElement], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -419,7 +419,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBox], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBox], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -435,7 +435,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathMatrix], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathMatrix], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -451,23 +451,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathGroupingCharacter], [int]) Create a math bar by applying to the element |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | Math element to apply bar |
-| position | [int] | Position of the bar |
-
-### Result
-[MathBar]
-
-
----
-
-
-| [createMathBar] ([MathArray], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathArray], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -483,7 +467,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBlock], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBlock], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -499,7 +483,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathSubscriptElement], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathSubscriptElement], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -515,7 +499,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathFunction], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathFunction], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -531,7 +515,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathNaryOperator], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathNaryOperator], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -547,7 +531,23 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathematicalText], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathGroupingCharacter], [int]) | Create a math bar by applying to the element |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | Math element to apply bar |
+| position | [int] | Position of the bar |
+
+### Result
+[MathBar]
+
+
+---
+
+
+| [createMathBar] ([MathematicalText], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -563,7 +563,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathAccent], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathAccent], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -579,7 +579,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathRadical], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathRadical], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 
@@ -595,7 +595,7 @@ MathBarFactory
 ---
 
 
-| [createMathBar] ([MathBar], [int]) Create a math bar by applying to the element |
+| [createMathBar] ([MathBar], [int]) | Create a math bar by applying to the element |
 
 ### Parameters
 

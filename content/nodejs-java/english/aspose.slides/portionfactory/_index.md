@@ -22,7 +22,7 @@ PortionFactory
 ---
 
 
-| [createPortion] () Creates an empty text portion. |
+| [createPortion] () | Creates an empty text portion. |
 
 ### Result
 [Portion], [MathPortion]
@@ -31,7 +31,7 @@ PortionFactory
 ---
 
 
-| [createPortion] ([String]) Creates a text portion from specified string. |
+| [createPortion] ([String]) | Creates a text portion from specified string. |
 
 ### Parameters
 
@@ -46,7 +46,7 @@ PortionFactory
 ---
 
 
-| [createPortion] ([Portion]) Creates a portion with the using of a specified portion data. |
+| [createPortion] ([Portion]) | Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ PortionFactory
 ---
 
 
-| [createPortion] ([MathPortion]) Creates a portion with the using of a specified portion data. |
+| [createPortion] ([MathPortion]) | Creates a portion with the using of a specified portion data. |
 
 ### Parameters
 

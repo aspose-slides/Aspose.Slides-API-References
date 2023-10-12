@@ -23,7 +23,7 @@ PortionFormat
 ---
 
 
-| [getBookmarkId] () Returns or sets bookmark identifier. Read/write String. |
+| [getBookmarkId] () | Returns or sets bookmark identifier. Read/write String. |
 
 ### Result
 String
@@ -32,7 +32,7 @@ String
 ---
 
 
-| [getEffective] () Gets effective portion formatting data with the inheritance applied. |
+| [getEffective] () | Gets effective portion formatting data with the inheritance applied. |
 
 ### Result
 [PortionFormatEffectiveData]
@@ -41,7 +41,7 @@ String
 ---
 
 
-| [getHyperlinkClick] () Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| [getHyperlinkClick] () | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
 ### Result
 [Hyperlink]
@@ -50,7 +50,7 @@ String
 ---
 
 
-| [getHyperlinkManager] () Hyperlinks manager. Read-only IHyperlinkManager. |
+| [getHyperlinkManager] () | Hyperlinks manager. Read-only IHyperlinkManager. |
 
 ### Result
 [HyperlinkManager]
@@ -59,7 +59,7 @@ String
 ---
 
 
-| [getHyperlinkMouseOver] () Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| [getHyperlinkMouseOver] () | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
 ### Result
 [Hyperlink]
@@ -68,7 +68,7 @@ String
 ---
 
 
-| [getSmartTagClean] () Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
+| [getSmartTagClean] () | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
 
 ### Result
 boolean
@@ -77,25 +77,25 @@ boolean
 ---
 
 
-| [setBookmarkId] ([String]) Returns or sets bookmark identifier. Read/write String. |
+| [setBookmarkId] ([String]) | Returns or sets bookmark identifier. Read/write String. |
 
 
 ---
 
 
-| [setHyperlinkClick] ([Hyperlink]) Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
+| [setHyperlinkClick] ([Hyperlink]) | Returns or sets the hyperlink defined for mouse click. Read/write IHyperlink. |
 
 
 ---
 
 
-| [setHyperlinkMouseOver] ([Hyperlink]) Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
+| [setHyperlinkMouseOver] ([Hyperlink]) | Returns or sets the hyperlink defined for mouse over. Read/write IHyperlink. |
 
 
 ---
 
 
-| [setSmartTagClean] ([boolean]) Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
+| [setSmartTagClean] ([boolean]) | Determines whether the smart tag should be cleaned. No inheritance applied. Read/write boolean. |
 
 
 ---

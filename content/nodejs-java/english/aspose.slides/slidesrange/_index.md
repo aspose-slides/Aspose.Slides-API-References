@@ -20,7 +20,7 @@ SlidesRange
 ---
 
 
-| [getEnd] () End |
+| [getEnd] () | End |
 
 ### Result
 long
@@ -29,7 +29,7 @@ long
 ---
 
 
-| [getStart] () Start |
+| [getStart] () | Start |
 
 ### Result
 long
@@ -38,13 +38,13 @@ long
 ---
 
 
-| [setEnd] ([long]) End |
+| [setEnd] ([long]) | End |
 
 
 ---
 
 
-| [setStart] ([long]) Start |
+| [setStart] ([long]) | Start |
 
 
 ---

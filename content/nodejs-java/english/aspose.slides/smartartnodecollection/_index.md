@@ -11,7 +11,7 @@ url: /aspose.slides/smartartnodecollection/
 
  Represents a collection of SmartArt nodes.
  
-| [addNode] () Add new smart art node or sub node. |
+| [addNode] () | Add new smart art node or sub node. |
 
 ### Result
 [SmartArtNode]
@@ -20,7 +20,7 @@ url: /aspose.slides/smartartnodecollection/
 ---
 
 
-| [addNodeByPosition] ([int]) Add new node in the selected position of nodes collection |
+| [addNodeByPosition] ([int]) | Add new node in the selected position of nodes collection |
 
 ### Parameters
 
@@ -41,7 +41,7 @@ url: /aspose.slides/smartartnodecollection/
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -50,7 +50,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns node by index |
+| [get_Item] ([int]) | Returns node by index |
 
 ### Parameters
 
@@ -65,7 +65,7 @@ Object
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -74,7 +74,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -83,7 +83,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -92,7 +92,7 @@ boolean
 ---
 
 
-| [removeNode] ([int]) Remove node or sub node by index |
+| [removeNode] ([int]) | Remove node or sub node by index |
 
 ### Parameters
 
@@ -110,7 +110,7 @@ boolean
 ---
 
 
-| [removeNode] ([SmartArtNode]) Remove node or sub node |
+| [removeNode] ([SmartArtNode]) | Remove node or sub node |
 
 ### Parameters
 
@@ -122,7 +122,7 @@ boolean
 ---
 
 
-| [size] () Returns count of nodes in collection Read-only int Read-only int. |
+| [size] () | Returns count of nodes in collection Read-only int Read-only int. |
 
 ### Result
 int

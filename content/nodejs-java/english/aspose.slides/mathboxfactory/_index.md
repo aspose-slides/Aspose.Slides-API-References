@@ -22,7 +22,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathLimit]) Create a math box by applying to the element |
+| [createMathBox] ([MathLimit]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -37,7 +37,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathBorderBox]) Create a math box by applying to the element |
+| [createMathBox] ([MathBorderBox]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -52,7 +52,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathFraction]) Create a math box by applying to the element |
+| [createMathBox] ([MathFraction]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -67,7 +67,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathDelimiter]) Create a math box by applying to the element |
+| [createMathBox] ([MathDelimiter]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -82,7 +82,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathSuperscriptElement]) Create a math box by applying to the element |
+| [createMathBox] ([MathSuperscriptElement]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -97,7 +97,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathLeftSubSuperscriptElement]) Create a math box by applying to the element |
+| [createMathBox] ([MathLeftSubSuperscriptElement]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -112,7 +112,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathRightSubSuperscriptElement]) Create a math box by applying to the element |
+| [createMathBox] ([MathRightSubSuperscriptElement]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -127,7 +127,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathBox]) Create a math box by applying to the element |
+| [createMathBox] ([MathBox]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -142,7 +142,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathMatrix]) Create a math box by applying to the element |
+| [createMathBox] ([MathMatrix]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -157,22 +157,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathGroupingCharacter]) Create a math box by applying to the element |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| element | [MathGroupingCharacter] | math element to apply box |
-
-### Result
-[MathBox]
-
-
----
-
-
-| [createMathBox] ([MathArray]) Create a math box by applying to the element |
+| [createMathBox] ([MathArray]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -187,7 +172,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathBlock]) Create a math box by applying to the element |
+| [createMathBox] ([MathBlock]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -202,7 +187,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathSubscriptElement]) Create a math box by applying to the element |
+| [createMathBox] ([MathSubscriptElement]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -217,7 +202,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathFunction]) Create a math box by applying to the element |
+| [createMathBox] ([MathFunction]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -232,7 +217,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathNaryOperator]) Create a math box by applying to the element |
+| [createMathBox] ([MathNaryOperator]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -247,7 +232,22 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathematicalText]) Create a math box by applying to the element |
+| [createMathBox] ([MathGroupingCharacter]) | Create a math box by applying to the element |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| element | [MathGroupingCharacter] | math element to apply box |
+
+### Result
+[MathBox]
+
+
+---
+
+
+| [createMathBox] ([MathematicalText]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -262,7 +262,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathAccent]) Create a math box by applying to the element |
+| [createMathBox] ([MathAccent]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -277,7 +277,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathRadical]) Create a math box by applying to the element |
+| [createMathBox] ([MathRadical]) | Create a math box by applying to the element |
 
 ### Parameters
 
@@ -292,7 +292,7 @@ MathBoxFactory
 ---
 
 
-| [createMathBox] ([MathBar]) Create a math box by applying to the element |
+| [createMathBox] ([MathBar]) | Create a math box by applying to the element |
 
 ### Parameters
 

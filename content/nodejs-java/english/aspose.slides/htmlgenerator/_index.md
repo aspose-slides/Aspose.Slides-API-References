@@ -11,7 +11,7 @@ url: /aspose.slides/htmlgenerator/
 
  Html generator.
  
-| [addAttributeValue] ([String]) Quotes attribute value and adds it to the html file. |
+| [addAttributeValue] ([String]) | Quotes attribute value and adds it to the html file. |
 
 ### Parameters
 
@@ -23,7 +23,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addAttributeValue] ([char[]]) Quotes attribute value and adds it to the html file. |
+| [addAttributeValue] ([char[]]) | Quotes attribute value and adds it to the html file. |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addAttributeValue] ([char[]], [int], [int]) Quotes attribute value and adds it to the html file. |
+| [addAttributeValue] ([char[]], [int], [int]) | Quotes attribute value and adds it to the html file. |
 
 ### Parameters
 
@@ -49,7 +49,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addHtml] ([String]) Adds formatted HTML text. |
+| [addHtml] ([String]) | Adds formatted HTML text. |
 
 ### Parameters
 
@@ -61,7 +61,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addHtml] ([char[]]) Adds formatted HTML text. |
+| [addHtml] ([char[]]) | Adds formatted HTML text. |
 
 ### Parameters
 
@@ -73,7 +73,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addHtml] ([char[]], [int], [int]) Adds formatted HTML text. |
+| [addHtml] ([char[]], [int], [int]) | Adds formatted HTML text. |
 
 ### Parameters
 
@@ -87,7 +87,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addText] ([String]) Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [addText] ([String]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
 ### Parameters
 
@@ -99,7 +99,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addText] ([char[]]) Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [addText] ([char[]]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
 ### Parameters
 
@@ -111,7 +111,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [addText] ([char[]], [int], [int]) Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
+| [addText] ([char[]], [int], [int]) | Adds plain text to the html files, replacing special characters with html entities. Linebreaks and whitespaces aren't replaced. |
 
 ### Parameters
 
@@ -125,7 +125,7 @@ url: /aspose.slides/htmlgenerator/
 ---
 
 
-| [getNextSlideIndex] () Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only int. |
+| [getNextSlideIndex] () | Returns index of a slide, which will be rendered after the current slide or -1 if currently rendering last slide. Read-only int. |
 
 ### Result
 int
@@ -134,7 +134,7 @@ int
 ---
 
 
-| [getPreviousSlideIndex] () Returns index of previously rendered slide or -1 if first slide is rendering. Read-only int. |
+| [getPreviousSlideIndex] () | Returns index of previously rendered slide or -1 if first slide is rendering. Read-only int. |
 
 ### Result
 int
@@ -143,7 +143,7 @@ int
 ---
 
 
-| [getSlideImageSize] () Returns slide image size. Read-only java.awt.geom.Dimension2D. |
+| [getSlideImageSize] () | Returns slide image size. Read-only java.awt.geom.Dimension2D. |
 
 ### Result
 Dimension2D
@@ -152,7 +152,7 @@ Dimension2D
 ---
 
 
-| [getSlideImageSizeUnit] () Returns a unit in which slide image size is specified. Read-only SvgCoordinateUnit. |
+| [getSlideImageSizeUnit] () | Returns a unit in which slide image size is specified. Read-only SvgCoordinateUnit. |
 
 ### Result
 int
@@ -161,7 +161,7 @@ int
 ---
 
 
-| [getSlideImageSizeUnitCode] () Returns a css code of unit in which slide image size is specified. Read-only String. |
+| [getSlideImageSizeUnitCode] () | Returns a css code of unit in which slide image size is specified. Read-only String. |
 
 ### Result
 String
@@ -170,7 +170,7 @@ String
 ---
 
 
-| [getSlideIndex] () Returns index of currently rendering slide. Read-only int. |
+| [getSlideIndex] () | Returns index of currently rendering slide. Read-only int. |
 
 ### Result
 int

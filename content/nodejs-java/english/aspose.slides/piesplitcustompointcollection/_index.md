@@ -11,7 +11,7 @@ url: /aspose.slides/piesplitcustompointcollection/
 
  Represents a collection of points for splitting point in a bar-of-pie or pie-of-pie chart with a custom split.
  
-| [add] ([int]) Adds data point by its index in parent series points collection. |
+| [add] ([int]) | Adds data point by its index in parent series points collection. |
 
 ### Parameters
 
@@ -29,7 +29,7 @@ url: /aspose.slides/piesplitcustompointcollection/
 ---
 
 
-| [addItem] ([ChartDataPoint]) Adds data point to collection. |
+| [addItem] ([ChartDataPoint]) | Adds data point to collection. |
 
 ### Parameters
 
@@ -41,13 +41,13 @@ url: /aspose.slides/piesplitcustompointcollection/
 ---
 
 
-| [clear] () Removes all items from the IGenericCollection. |
+| [clear] () | Removes all items from the IGenericCollection. |
 
 
 ---
 
 
-| [containsItem] ([ChartDataPoint]) Determines whether the IGenericCollection contains a specific value. |
+| [containsItem] ([ChartDataPoint]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -62,7 +62,7 @@ boolean
 ---
 
 
-| [copyToTArray] ([com.aspose.slides.IChartDataPoint[]], [int]) Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| [copyToTArray] ([com.aspose.slides.IChartDataPoint[]], [int]) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
 ### Parameters
 
@@ -81,7 +81,7 @@ boolean
 ---
 
 
-| [getSyncRoot] () Returns a synchronization root. Read-only Object. |
+| [getSyncRoot] () | Returns a synchronization root. Read-only Object. |
 
 ### Result
 Object
@@ -90,7 +90,7 @@ Object
 ---
 
 
-| [get_Item] ([int]) Returns chart data point for specified index. |
+| [get_Item] ([int]) | Returns chart data point for specified index. |
 
 ### Parameters
 
@@ -105,7 +105,7 @@ Object
 ---
 
 
-| [isReadOnly] () Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| [isReadOnly] () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
 ### Result
 boolean
@@ -114,7 +114,7 @@ boolean
 ---
 
 
-| [isSynchronized] () Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
+| [isSynchronized] () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
 ### Result
 boolean
@@ -123,7 +123,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -132,7 +132,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -141,7 +141,7 @@ boolean
 ---
 
 
-| [remove] ([int]) Removes item from collection by it index in parent series points collection. |
+| [remove] ([int]) | Removes item from collection by it index in parent series points collection. |
 
 ### Parameters
 
@@ -159,7 +159,7 @@ boolean
 ---
 
 
-| [removeItem] ([ChartDataPoint]) Removes item from collection. |
+| [removeItem] ([ChartDataPoint]) | Removes item from collection. |
 
 ### Parameters
 
@@ -174,7 +174,7 @@ boolean
 ---
 
 
-| [size] () Returns or sets the count of chart data points. Read-only int. |
+| [size] () | Returns or sets the count of chart data points. Read-only int. |
 
 ### Result
 int

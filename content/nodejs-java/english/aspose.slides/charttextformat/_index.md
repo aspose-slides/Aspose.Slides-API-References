@@ -11,7 +11,7 @@ url: /aspose.slides/charttextformat/
 
  Specifies default text formatting for chart text elements.
  
-| [copyFrom] ([TextFrame]) Copies text format from specified text frame. |
+| [copyFrom] ([TextFrame]) | Copies text format from specified text frame. |
 
 ### Parameters
 
@@ -23,7 +23,7 @@ url: /aspose.slides/charttextformat/
 ---
 
 
-| [copyTo] ([TextFrame]) Copies text format to specified text frame. |
+| [copyTo] ([TextFrame]) | Copies text format to specified text frame. |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ url: /aspose.slides/charttextformat/
 ---
 
 
-| [getParagraphFormat] () ParagraphFormat. Read-only IChartParagraphFormat. |
+| [getParagraphFormat] () | ParagraphFormat. Read-only IChartParagraphFormat. |
 
 ### Result
 [ParagraphFormat]
@@ -44,7 +44,7 @@ url: /aspose.slides/charttextformat/
 ---
 
 
-| [getPortionFormat] () PortionFormat. Read-only IChartPortionFormat. |
+| [getPortionFormat] () | PortionFormat. Read-only IChartPortionFormat. |
 
 ### Result
 [ChartPortionFormat]
@@ -53,7 +53,7 @@ url: /aspose.slides/charttextformat/
 ---
 
 
-| [getTextBlockFormat] () TextBlockFormat. Read-only IChartTextBlockFormat. |
+| [getTextBlockFormat] () | TextBlockFormat. Read-only IChartTextBlockFormat. |
 
 ### Result
 [TextFrameFormat]

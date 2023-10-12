@@ -11,7 +11,7 @@ url: /aspose.slides/behaviorcollection/
 
  Represents collection of behavior effects.
  
-| [add] ([ColorEffect]) Add new behavior to a collection. |
+| [add] ([ColorEffect]) | Add new behavior to a collection. |
 
 ### Parameters
 
@@ -23,7 +23,7 @@ url: /aspose.slides/behaviorcollection/
 ---
 
 
-| [add] ([FilterEffect]) Add new behavior to a collection. |
+| [add] ([FilterEffect]) | Add new behavior to a collection. |
 
 ### Parameters
 
@@ -35,7 +35,7 @@ url: /aspose.slides/behaviorcollection/
 ---
 
 
-| [add] ([MotionEffect]) Add new behavior to a collection. |
+| [add] ([MotionEffect]) | Add new behavior to a collection. |
 
 ### Parameters
 
@@ -47,7 +47,7 @@ url: /aspose.slides/behaviorcollection/
 ---
 
 
-| [add] ([ScaleEffect]) Add new behavior to a collection. |
+| [add] ([ScaleEffect]) | Add new behavior to a collection. |
 
 ### Parameters
 
@@ -59,7 +59,7 @@ url: /aspose.slides/behaviorcollection/
 ---
 
 
-| [add] ([CommandEffect]) Add new behavior to a collection. |
+| [add] ([CommandEffect]) | Add new behavior to a collection. |
 
 ### Parameters
 
@@ -71,7 +71,7 @@ url: /aspose.slides/behaviorcollection/
 ---
 
 
-| [add] ([RotationEffect]) Add new behavior to a collection. |
+| [add] ([RotationEffect]) | Add new behavior to a collection. |
 
 ### Parameters
 
@@ -83,7 +83,7 @@ url: /aspose.slides/behaviorcollection/
 ---
 
 
-| [add] ([SetEffect]) Add new behavior to a collection. |
+| [add] ([SetEffect]) | Add new behavior to a collection. |
 
 ### Parameters
 
@@ -95,13 +95,13 @@ url: /aspose.slides/behaviorcollection/
 ---
 
 
-| [clear] () Removes all behaviors from a collection. |
+| [clear] () | Removes all behaviors from a collection. |
 
 
 ---
 
 
-| [contains] ([ColorEffect]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([ColorEffect]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -116,7 +116,7 @@ boolean
 ---
 
 
-| [contains] ([FilterEffect]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([FilterEffect]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -131,7 +131,7 @@ boolean
 ---
 
 
-| [contains] ([MotionEffect]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([MotionEffect]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -146,7 +146,7 @@ boolean
 ---
 
 
-| [contains] ([ScaleEffect]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([ScaleEffect]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -161,7 +161,7 @@ boolean
 ---
 
 
-| [contains] ([CommandEffect]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([CommandEffect]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -176,7 +176,7 @@ boolean
 ---
 
 
-| [contains] ([RotationEffect]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([RotationEffect]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -191,7 +191,7 @@ boolean
 ---
 
 
-| [contains] ([SetEffect]) Determines whether the IGenericCollection contains a specific value. |
+| [contains] ([SetEffect]) | Determines whether the IGenericCollection contains a specific value. |
 
 ### Parameters
 
@@ -206,7 +206,7 @@ boolean
 ---
 
 
-| [copyTo] ([com.aspose.slides.IBehavior[]], [int]) Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
+| [copyTo] ([com.aspose.slides.IBehavior[]], [int]) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
 ### Parameters
 
@@ -225,7 +225,7 @@ boolean
 ---
 
 
-| [getCount] () Returns the number of behaviors in a collection. Read-only int. |
+| [getCount] () | Returns the number of behaviors in a collection. Read-only int. |
 
 ### Result
 int
@@ -234,7 +234,7 @@ int
 ---
 
 
-| [get_Item] ([int]) Returns a behavior at the specified index. |
+| [get_Item] ([int]) | Returns a behavior at the specified index. |
 
 ### Parameters
 
@@ -249,7 +249,7 @@ int
 ---
 
 
-| [indexOf] ([ColorEffect]) Determines the index of a specific item in the List. |
+| [indexOf] ([ColorEffect]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -264,7 +264,7 @@ int
 ---
 
 
-| [indexOf] ([FilterEffect]) Determines the index of a specific item in the List. |
+| [indexOf] ([FilterEffect]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -279,7 +279,7 @@ int
 ---
 
 
-| [indexOf] ([MotionEffect]) Determines the index of a specific item in the List. |
+| [indexOf] ([MotionEffect]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -294,7 +294,7 @@ int
 ---
 
 
-| [indexOf] ([ScaleEffect]) Determines the index of a specific item in the List. |
+| [indexOf] ([ScaleEffect]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -309,7 +309,7 @@ int
 ---
 
 
-| [indexOf] ([CommandEffect]) Determines the index of a specific item in the List. |
+| [indexOf] ([CommandEffect]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -324,7 +324,7 @@ int
 ---
 
 
-| [indexOf] ([RotationEffect]) Determines the index of a specific item in the List. |
+| [indexOf] ([RotationEffect]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -339,7 +339,7 @@ int
 ---
 
 
-| [indexOf] ([SetEffect]) Determines the index of a specific item in the List. |
+| [indexOf] ([SetEffect]) | Determines the index of a specific item in the List. |
 
 ### Parameters
 
@@ -354,7 +354,7 @@ int
 ---
 
 
-| [insert] ([int], [ColorEffect]) Inserts new behavior to a collection at the specified index. |
+| [insert] ([int], [ColorEffect]) | Inserts new behavior to a collection at the specified index. |
 
 ### Parameters
 
@@ -367,7 +367,7 @@ int
 ---
 
 
-| [insert] ([int], [FilterEffect]) Inserts new behavior to a collection at the specified index. |
+| [insert] ([int], [FilterEffect]) | Inserts new behavior to a collection at the specified index. |
 
 ### Parameters
 
@@ -380,7 +380,7 @@ int
 ---
 
 
-| [insert] ([int], [MotionEffect]) Inserts new behavior to a collection at the specified index. |
+| [insert] ([int], [MotionEffect]) | Inserts new behavior to a collection at the specified index. |
 
 ### Parameters
 
@@ -393,7 +393,7 @@ int
 ---
 
 
-| [insert] ([int], [ScaleEffect]) Inserts new behavior to a collection at the specified index. |
+| [insert] ([int], [ScaleEffect]) | Inserts new behavior to a collection at the specified index. |
 
 ### Parameters
 
@@ -406,7 +406,7 @@ int
 ---
 
 
-| [insert] ([int], [CommandEffect]) Inserts new behavior to a collection at the specified index. |
+| [insert] ([int], [CommandEffect]) | Inserts new behavior to a collection at the specified index. |
 
 ### Parameters
 
@@ -419,7 +419,7 @@ int
 ---
 
 
-| [insert] ([int], [RotationEffect]) Inserts new behavior to a collection at the specified index. |
+| [insert] ([int], [RotationEffect]) | Inserts new behavior to a collection at the specified index. |
 
 ### Parameters
 
@@ -432,7 +432,7 @@ int
 ---
 
 
-| [insert] ([int], [SetEffect]) Inserts new behavior to a collection at the specified index. |
+| [insert] ([int], [SetEffect]) | Inserts new behavior to a collection at the specified index. |
 
 ### Parameters
 
@@ -445,7 +445,7 @@ int
 ---
 
 
-| [isReadOnly] () Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
+| [isReadOnly] () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
 ### Result
 boolean
@@ -454,7 +454,7 @@ boolean
 ---
 
 
-| [iterator] () Returns an enumerator that iterates through the collection. |
+| [iterator] () | Returns an enumerator that iterates through the collection. |
 
 ### Result
 
@@ -463,7 +463,7 @@ boolean
 ---
 
 
-| [iteratorJava] () Returns a java iterator for the entire collection. |
+| [iteratorJava] () | Returns a java iterator for the entire collection. |
 
 ### Result
 
@@ -472,7 +472,7 @@ boolean
 ---
 
 
-| [remove] ([ColorEffect]) Removes specified behavior from a collection. |
+| [remove] ([ColorEffect]) | Removes specified behavior from a collection. |
 
 ### Parameters
 
@@ -487,7 +487,7 @@ boolean
 ---
 
 
-| [remove] ([FilterEffect]) Removes specified behavior from a collection. |
+| [remove] ([FilterEffect]) | Removes specified behavior from a collection. |
 
 ### Parameters
 
@@ -502,7 +502,7 @@ boolean
 ---
 
 
-| [remove] ([MotionEffect]) Removes specified behavior from a collection. |
+| [remove] ([MotionEffect]) | Removes specified behavior from a collection. |
 
 ### Parameters
 
@@ -517,7 +517,7 @@ boolean
 ---
 
 
-| [remove] ([ScaleEffect]) Removes specified behavior from a collection. |
+| [remove] ([ScaleEffect]) | Removes specified behavior from a collection. |
 
 ### Parameters
 
@@ -532,7 +532,7 @@ boolean
 ---
 
 
-| [remove] ([CommandEffect]) Removes specified behavior from a collection. |
+| [remove] ([CommandEffect]) | Removes specified behavior from a collection. |
 
 ### Parameters
 
@@ -547,7 +547,7 @@ boolean
 ---
 
 
-| [remove] ([RotationEffect]) Removes specified behavior from a collection. |
+| [remove] ([RotationEffect]) | Removes specified behavior from a collection. |
 
 ### Parameters
 
@@ -562,7 +562,7 @@ boolean
 ---
 
 
-| [remove] ([SetEffect]) Removes specified behavior from a collection. |
+| [remove] ([SetEffect]) | Removes specified behavior from a collection. |
 
 ### Parameters
 
@@ -577,7 +577,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes behavior from a collection at the specified index. |
+| [removeAt] ([int]) | Removes behavior from a collection at the specified index. |
 
 ### Parameters
 
@@ -589,7 +589,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [ColorEffect]) Sets a behavior at the specified index. |
+| [set_Item] ([int], [ColorEffect]) | Sets a behavior at the specified index. |
 
 ### Parameters
 
@@ -601,7 +601,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [FilterEffect]) Sets a behavior at the specified index. |
+| [set_Item] ([int], [FilterEffect]) | Sets a behavior at the specified index. |
 
 ### Parameters
 
@@ -613,7 +613,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [MotionEffect]) Sets a behavior at the specified index. |
+| [set_Item] ([int], [MotionEffect]) | Sets a behavior at the specified index. |
 
 ### Parameters
 
@@ -625,7 +625,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [ScaleEffect]) Sets a behavior at the specified index. |
+| [set_Item] ([int], [ScaleEffect]) | Sets a behavior at the specified index. |
 
 ### Parameters
 
@@ -637,7 +637,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [CommandEffect]) Sets a behavior at the specified index. |
+| [set_Item] ([int], [CommandEffect]) | Sets a behavior at the specified index. |
 
 ### Parameters
 
@@ -649,7 +649,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [RotationEffect]) Sets a behavior at the specified index. |
+| [set_Item] ([int], [RotationEffect]) | Sets a behavior at the specified index. |
 
 ### Parameters
 
@@ -661,7 +661,7 @@ boolean
 ---
 
 
-| [set_Item] ([int], [SetEffect]) Sets a behavior at the specified index. |
+| [set_Item] ([int], [SetEffect]) | Sets a behavior at the specified index. |
 
 ### Parameters
 

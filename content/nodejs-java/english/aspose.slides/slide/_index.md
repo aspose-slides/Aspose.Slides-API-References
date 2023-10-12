@@ -11,7 +11,7 @@ url: /aspose.slides/slide/
 
   Represents a slide in a presentation.
  
-| [getHeaderFooterManager] () Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
+| [getHeaderFooterManager] () | Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
 
 ### Result
 [SlideHeaderFooterManager]
@@ -20,7 +20,7 @@ url: /aspose.slides/slide/
 ---
 
 
-| [getHidden] () Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
+| [getHidden] () | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +29,7 @@ boolean
 ---
 
 
-| [getLayoutSlide] () Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
+| [getLayoutSlide] () | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 
 ### Result
 [LayoutSlide]
@@ -38,7 +38,7 @@ boolean
 ---
 
 
-| [getNotesSlideManager] () Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
+| [getNotesSlideManager] () | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
 
 ### Result
 [NotesSlideManager]
@@ -47,7 +47,7 @@ boolean
 ---
 
 
-| [getShowMasterShapes] () Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| [getShowMasterShapes] () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
 ### Result
 boolean
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-| [getSlideComments] ([CommentAuthor]) Returns all slide comments added by specific author. |
+| [getSlideComments] ([CommentAuthor]) | Returns all slide comments added by specific author. |
 
 ### Parameters
 
@@ -71,7 +71,7 @@ boolean
 ---
 
 
-| [getSlideNumber] () Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| [getSlideNumber] () | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
 ### Result
 int
@@ -80,7 +80,7 @@ int
 ---
 
 
-| [getThemeManager] () Returns the overriding theme manager. Read-only IOverrideThemeManager. |
+| [getThemeManager] () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
 ### Result
 [NotesSlideThemeManager], [ChartThemeManager], [BaseOverrideThemeManager], [LayoutSlideThemeManager], [SlideThemeManager]
@@ -89,7 +89,7 @@ int
 ---
 
 
-| [getThumbnail] ([float], [float]) Returns a Thumbnail Bitmap object with custom scaling. |
+| [getThumbnail] ([float], [float]) | Returns a Thumbnail Bitmap object with custom scaling. |
 
 ### Parameters
 
@@ -105,7 +105,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] () Returns a Thumbnail Image object (20% of real size). |
+| [getThumbnail] () | Returns a Thumbnail Image object (20% of real size). |
 
 ### Result
 BufferedImage
@@ -114,7 +114,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([Dimension]) Returns a Thumbnail Bitmap object with specified size. |
+| [getThumbnail] ([Dimension]) | Returns a Thumbnail Bitmap object with specified size. |
 
 ### Parameters
 
@@ -129,7 +129,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([TiffOptions]) Returns a Thumbnail tiff BufferedImage object with specified parameters. |
+| [getThumbnail] ([TiffOptions]) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
 
 ### Parameters
 
@@ -150,7 +150,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([NotesCommentsLayoutingOptions]) Returns a Thumbnail BufferedImage object. |
+| [getThumbnail] ([NotesCommentsLayoutingOptions]) | Returns a Thumbnail BufferedImage object. |
 
 ### Parameters
 
@@ -171,7 +171,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([NotesCommentsLayoutingOptions], [float], [float]) Returns a Thumbnail BufferedImage object with custom scaling. |
+| [getThumbnail] ([NotesCommentsLayoutingOptions], [float], [float]) | Returns a Thumbnail BufferedImage object with custom scaling. |
 
 ### Parameters
 
@@ -194,7 +194,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([NotesCommentsLayoutingOptions], [Dimension]) Returns a Thumbnail BufferedImage object with specified size. |
+| [getThumbnail] ([NotesCommentsLayoutingOptions], [Dimension]) | Returns a Thumbnail BufferedImage object with specified size. |
 
 ### Parameters
 
@@ -216,7 +216,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([RenderingOptions]) Returns a Thumbnail BufferedImage object. |
+| [getThumbnail] ([RenderingOptions]) | Returns a Thumbnail BufferedImage object. |
 
 ### Parameters
 
@@ -237,7 +237,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([RenderingOptions], [float], [float]) Returns a Thumbnail BufferedImage object with custom scaling. |
+| [getThumbnail] ([RenderingOptions], [float], [float]) | Returns a Thumbnail BufferedImage object with custom scaling. |
 
 ### Parameters
 
@@ -260,7 +260,7 @@ BufferedImage
 ---
 
 
-| [getThumbnail] ([RenderingOptions], [Dimension]) Returns a Thumbnail BufferedImage object with specified size. |
+| [getThumbnail] ([RenderingOptions], [Dimension]) | Returns a Thumbnail BufferedImage object with specified size. |
 
 ### Parameters
 
@@ -282,13 +282,13 @@ BufferedImage
 ---
 
 
-| [joinPortionsWithSameFormatting] () Joins runs with same formatting in all paragraphs in all acceptable shapes. |
+| [joinPortionsWithSameFormatting] () | Joins runs with same formatting in all paragraphs in all acceptable shapes. |
 
 
 ---
 
 
-| [remove] () Removes slide from presentation. |
+| [remove] () | Removes slide from presentation. |
 
 ### Error
 
@@ -300,7 +300,7 @@ BufferedImage
 ---
 
 
-| [renderToGraphics] ([NotesCommentsLayoutingOptions], [Graphics2D], [int], [int]) Renders certain slide to a Graphics object using specified size. |
+| [renderToGraphics] ([NotesCommentsLayoutingOptions], [Graphics2D], [int], [int]) | Renders certain slide to a Graphics object using specified size. |
 
 ### Parameters
 
@@ -321,7 +321,7 @@ BufferedImage
 ---
 
 
-| [renderToGraphics] ([NotesCommentsLayoutingOptions], [Graphics2D], [float]) Renders certain slide to a Graphics object using specified scale. |
+| [renderToGraphics] ([NotesCommentsLayoutingOptions], [Graphics2D], [float]) | Renders certain slide to a Graphics object using specified scale. |
 
 ### Parameters
 
@@ -341,7 +341,7 @@ BufferedImage
 ---
 
 
-| [renderToGraphics] ([NotesCommentsLayoutingOptions], [Graphics2D]) Renders certain slide to a Graphics object. |
+| [renderToGraphics] ([NotesCommentsLayoutingOptions], [Graphics2D]) | Renders certain slide to a Graphics object. |
 
 ### Parameters
 
@@ -360,7 +360,7 @@ BufferedImage
 ---
 
 
-| [renderToGraphics] ([RenderingOptions], [Graphics2D]) Renders certain slide to a Graphics object. |
+| [renderToGraphics] ([RenderingOptions], [Graphics2D]) | Renders certain slide to a Graphics object. |
 
 ### Parameters
 
@@ -379,7 +379,7 @@ BufferedImage
 ---
 
 
-| [renderToGraphics] ([RenderingOptions], [Graphics2D], [float], [float]) Renders certain slide to a Graphics object with custom scaling. |
+| [renderToGraphics] ([RenderingOptions], [Graphics2D], [float], [float]) | Renders certain slide to a Graphics object with custom scaling. |
 
 ### Parameters
 
@@ -400,7 +400,7 @@ BufferedImage
 ---
 
 
-| [renderToGraphics] ([RenderingOptions], [Graphics2D], [Dimension]) Renders certain slide to a Graphics object using specified size. |
+| [renderToGraphics] ([RenderingOptions], [Graphics2D], [Dimension]) | Renders certain slide to a Graphics object using specified size. |
 
 ### Parameters
 
@@ -420,37 +420,37 @@ BufferedImage
 ---
 
 
-| [reset] () Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
+| [reset] () | Resets position, size and formatting of every shape that has a prototype on LayoutSlide. |
 
 
 ---
 
 
-| [setHidden] ([boolean]) Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
+| [setHidden] ([boolean]) | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
 
 
 ---
 
 
-| [setLayoutSlide] ([LayoutSlide]) Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
+| [setLayoutSlide] ([LayoutSlide]) | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 
 
 ---
 
 
-| [setShowMasterShapes] ([boolean]) Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
+| [setShowMasterShapes] ([boolean]) | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
 
 ---
 
 
-| [setSlideNumber] ([int]) Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
+| [setSlideNumber] ([int]) | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
 
 ---
 
 
-| [writeAsSvgToStream ] (Slide, [WriteStream]) Saves content of slide as SVG file. |
+| [writeAsSvgToStream ] (Slide, [WriteStream]) | Saves content of slide as SVG file. |
 
 ### Parameters
 
@@ -463,7 +463,7 @@ BufferedImage
 ---
 
 
-| [writeAsSvgToStream ] (Slide, [WriteStream], [SVGOptions]) Saves content of slide as SVG file. |
+| [writeAsSvgToStream ] (Slide, [WriteStream], [SVGOptions]) | Saves content of slide as SVG file. |
 
 ### Parameters
 

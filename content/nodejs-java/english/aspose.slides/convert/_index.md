@@ -20,7 +20,7 @@ Convert
 ---
 
 
-| [autoByExtension] ([String], [String]) Converts Presentation using the passed output path extension to determine the required export format. |
+| [autoByExtension] ([String], [String]) | Converts Presentation using the passed output path extension to determine the required export format. |
 
 ### Parameters
 
@@ -39,7 +39,7 @@ Convert
 ---
 
 
-| [toPdf] ([String], [String]) Converts Presentation to PDF. |
+| [toPdf] ([String], [String]) | Converts Presentation to PDF. |
 
 ### Parameters
 
@@ -52,7 +52,7 @@ Convert
 ---
 
 
-| [toPdf] ([String], [String], [PdfOptions]) Converts Presentation to PDF. |
+| [toPdf] ([String], [String], [PdfOptions]) | Converts Presentation to PDF. |
 
 ### Parameters
 
@@ -66,7 +66,7 @@ Convert
 ---
 
 
-| [toPdf] ([Presentation], [String]) Converts Presentation to PDF. |
+| [toPdf] ([Presentation], [String]) | Converts Presentation to PDF. |
 
 ### Parameters
 
@@ -79,7 +79,7 @@ Convert
 ---
 
 
-| [toPdf] ([Presentation], [String], [PdfOptions]) Converts Presentation to PDF. |
+| [toPdf] ([Presentation], [String], [PdfOptions]) | Converts Presentation to PDF. |
 
 ### Parameters
 
@@ -93,7 +93,7 @@ Convert
 ---
 
 
-| [toSvg] ([String]) Converts Presentation to SVG. |
+| [toSvg] ([String]) | Converts Presentation to SVG. |
 
 ### Parameters
 
@@ -105,7 +105,7 @@ Convert
 ---
 
 
-| [toSvg] ([String], [Convert.GetOutPathCallback]) Converts Presentation to SVG. |
+| [toSvg] ([String], [Convert.GetOutPathCallback]) | Converts Presentation to SVG. |
 
 ### Parameters
 
@@ -118,7 +118,7 @@ Convert
 ---
 
 
-| [toSvg] ([Presentation], [Convert.GetOutPathCallback]) Converts Presentation to SVG. |
+| [toSvg] ([Presentation], [Convert.GetOutPathCallback]) | Converts Presentation to SVG. |
 
 ### Parameters
 
@@ -131,7 +131,7 @@ Convert
 ---
 
 
-| [toSvg] ([Presentation], [SVGOptions]) Converts Presentation to SVG. |
+| [toSvg] ([Presentation], [SVGOptions]) | Converts Presentation to SVG. |
 
 ### Parameters
 
@@ -144,7 +144,7 @@ Convert
 ---
 
 
-| [toSvg] ([Presentation], [Convert.GetOutPathCallback], [SVGOptions]) Converts Presentation to SVG. |
+| [toSvg] ([Presentation], [Convert.GetOutPathCallback], [SVGOptions]) | Converts Presentation to SVG. |
 
 ### Parameters
 

@@ -22,7 +22,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -38,7 +38,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -54,7 +54,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -70,7 +70,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -86,7 +86,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -102,7 +102,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -118,7 +118,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -134,7 +134,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathBox]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -150,7 +150,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -166,23 +166,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLimit] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathLimit], [MathArray]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -198,7 +182,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -214,7 +198,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -230,7 +214,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -246,7 +230,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -262,7 +246,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLimit] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathLimit], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -278,7 +278,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -294,7 +294,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -310,7 +310,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLimit], [MathBar]) Creates math function |
+| [createMathFunction] ([MathLimit], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -326,7 +326,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -342,7 +342,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -358,7 +358,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -374,7 +374,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -390,7 +390,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -406,7 +406,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -422,7 +422,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -438,7 +438,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathBox]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -454,7 +454,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -470,23 +470,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBorderBox] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathBorderBox], [MathArray]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -502,7 +486,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -518,7 +502,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -534,7 +518,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -550,7 +534,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -566,7 +550,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBorderBox] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathBorderBox], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -582,7 +582,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -598,7 +598,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -614,7 +614,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBorderBox], [MathBar]) Creates math function |
+| [createMathFunction] ([MathBorderBox], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -630,7 +630,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -646,7 +646,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -662,7 +662,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -678,7 +678,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -694,7 +694,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -710,7 +710,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -726,7 +726,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -742,7 +742,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathBox]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -758,7 +758,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -774,23 +774,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFraction] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathFraction], [MathArray]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -806,7 +790,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -822,7 +806,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -838,7 +822,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -854,7 +838,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -870,7 +854,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFraction] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathFraction], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -886,7 +886,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -902,7 +902,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -918,7 +918,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFraction], [MathBar]) Creates math function |
+| [createMathFunction] ([MathFraction], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -934,7 +934,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -950,7 +950,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -966,7 +966,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -982,7 +982,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -998,7 +998,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1014,7 +1014,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1030,7 +1030,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1046,7 +1046,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathBox]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -1062,7 +1062,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -1078,23 +1078,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathDelimiter] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathDelimiter], [MathArray]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -1110,7 +1094,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -1126,7 +1110,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1142,7 +1126,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -1158,7 +1142,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -1174,7 +1158,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathDelimiter] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathDelimiter], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -1190,7 +1190,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -1206,7 +1206,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -1222,7 +1222,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathDelimiter], [MathBar]) Creates math function |
+| [createMathFunction] ([MathDelimiter], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -1238,7 +1238,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -1254,7 +1254,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -1270,7 +1270,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -1286,7 +1286,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -1302,7 +1302,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1318,7 +1318,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1334,7 +1334,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1350,7 +1350,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathBox]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -1366,7 +1366,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -1382,23 +1382,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSuperscriptElement] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathSuperscriptElement], [MathArray]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -1414,7 +1398,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -1430,7 +1414,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1446,7 +1430,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -1462,7 +1446,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -1478,7 +1462,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSuperscriptElement] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathSuperscriptElement], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -1494,7 +1494,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -1510,7 +1510,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -1526,7 +1526,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSuperscriptElement], [MathBar]) Creates math function |
+| [createMathFunction] ([MathSuperscriptElement], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -1542,7 +1542,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -1558,7 +1558,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -1574,7 +1574,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -1590,7 +1590,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -1606,7 +1606,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1622,7 +1622,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1638,7 +1638,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1654,7 +1654,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBox]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -1670,7 +1670,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -1686,23 +1686,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathLeftSubSuperscriptElement] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathArray]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -1718,7 +1702,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -1734,7 +1718,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1750,7 +1734,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -1766,7 +1750,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -1782,7 +1766,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathLeftSubSuperscriptElement] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -1798,7 +1798,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -1814,7 +1814,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -1830,7 +1830,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBar]) Creates math function |
+| [createMathFunction] ([MathLeftSubSuperscriptElement], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -1846,7 +1846,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -1862,7 +1862,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -1878,7 +1878,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -1894,7 +1894,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -1910,7 +1910,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1926,7 +1926,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1942,7 +1942,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -1958,7 +1958,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBox]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -1974,7 +1974,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -1990,23 +1990,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRightSubSuperscriptElement] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathArray]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -2022,7 +2006,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -2038,7 +2022,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2054,7 +2038,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -2070,7 +2054,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -2086,7 +2070,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRightSubSuperscriptElement] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -2102,7 +2102,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -2118,7 +2118,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -2134,7 +2134,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBar]) Creates math function |
+| [createMathFunction] ([MathRightSubSuperscriptElement], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -2150,7 +2150,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathBox], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -2166,7 +2166,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathBox], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -2182,7 +2182,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathBox], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -2198,7 +2198,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathBox], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -2214,7 +2214,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBox], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2230,7 +2230,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBox], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2246,7 +2246,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBox], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2262,7 +2262,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathBox]) Creates math function |
+| [createMathFunction] ([MathBox], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -2278,7 +2278,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathBox], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -2294,23 +2294,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBox] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathBox], [MathArray]) Creates math function |
+| [createMathFunction] ([MathBox], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -2326,7 +2310,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathBox], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -2342,7 +2326,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathBox], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2358,7 +2342,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathBox], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -2374,7 +2358,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathBox], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -2390,7 +2374,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathBox], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBox] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathBox], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -2406,7 +2406,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathBox], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -2422,7 +2422,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathBox], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -2438,7 +2438,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBox], [MathBar]) Creates math function |
+| [createMathFunction] ([MathBox], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -2454,7 +2454,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -2470,7 +2470,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -2486,7 +2486,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -2502,7 +2502,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -2518,7 +2518,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2534,7 +2534,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2550,7 +2550,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2566,7 +2566,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathBox]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -2582,7 +2582,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -2598,23 +2598,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathMatrix] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathMatrix], [MathArray]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -2630,7 +2614,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -2646,7 +2630,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -2662,7 +2646,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -2678,7 +2662,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -2694,221 +2678,13 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathMatrix], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathGroupingCharacter]) | Creates math function |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
 | funcName | [MathMatrix] | Element used as a function name |
-| baseArgument | [MathematicalText] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathMatrix], [MathAccent]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathMatrix] | Element used as a function name |
-| baseArgument | [MathAccent] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathMatrix], [MathRadical]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathMatrix] | Element used as a function name |
-| baseArgument | [MathRadical] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathMatrix], [MathBar]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathMatrix] | Element used as a function name |
-| baseArgument | [MathBar] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathLimit]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathLimit] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathBorderBox]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathBorderBox] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathFraction]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathFraction] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathDelimiter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathDelimiter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathSuperscriptElement]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathSuperscriptElement] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathLeftSubSuperscriptElement] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathRightSubSuperscriptElement] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathBox]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathBox] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathMatrix]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathMatrix] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
 | baseArgument | [MathGroupingCharacter] | Element used as a function argument |
 
 ### Result
@@ -2918,93 +2694,13 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathGroupingCharacter], [MathArray]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathArray] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathBlock]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathBlock] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathSubscriptElement]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathSubscriptElement] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathFunction]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathFunction] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathNaryOperator]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
-| baseArgument | [MathNaryOperator] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathGroupingCharacter], [MathematicalText]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
+| funcName | [MathMatrix] | Element used as a function name |
 | baseArgument | [MathematicalText] | Element used as a function argument |
 
 ### Result
@@ -3014,13 +2710,13 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathGroupingCharacter], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathAccent]) | Creates math function |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
+| funcName | [MathMatrix] | Element used as a function name |
 | baseArgument | [MathAccent] | Element used as a function argument |
 
 ### Result
@@ -3030,13 +2726,13 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathGroupingCharacter], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathRadical]) | Creates math function |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
+| funcName | [MathMatrix] | Element used as a function name |
 | baseArgument | [MathRadical] | Element used as a function argument |
 
 ### Result
@@ -3046,13 +2742,13 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathGroupingCharacter], [MathBar]) Creates math function |
+| [createMathFunction] ([MathMatrix], [MathBar]) | Creates math function |
 
 ### Parameters
 
 | Name | Type | Description |
 | --- | --- | --- |
-| funcName | [MathGroupingCharacter] | Element used as a function name |
+| funcName | [MathMatrix] | Element used as a function name |
 | baseArgument | [MathBar] | Element used as a function argument |
 
 ### Result
@@ -3062,7 +2758,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathArray], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -3078,7 +2774,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathArray], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -3094,7 +2790,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathArray], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -3110,7 +2806,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathArray], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -3126,7 +2822,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathArray], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3142,7 +2838,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathArray], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3158,7 +2854,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathArray], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3174,7 +2870,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathBox]) Creates math function |
+| [createMathFunction] ([MathArray], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -3190,7 +2886,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathArray], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -3206,23 +2902,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathArray] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathArray], [MathArray]) Creates math function |
+| [createMathFunction] ([MathArray], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -3238,7 +2918,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathArray], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -3254,7 +2934,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathArray], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3270,7 +2950,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathArray], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -3286,7 +2966,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathArray], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -3302,7 +2982,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathArray], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathArray] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathArray], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -3318,7 +3014,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathArray], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -3334,7 +3030,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathArray], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -3350,7 +3046,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathArray], [MathBar]) Creates math function |
+| [createMathFunction] ([MathArray], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -3366,7 +3062,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -3382,7 +3078,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -3398,7 +3094,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -3414,7 +3110,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -3430,7 +3126,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3446,7 +3142,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3462,7 +3158,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3478,7 +3174,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathBox]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -3494,7 +3190,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -3510,23 +3206,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBlock] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathBlock], [MathArray]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -3542,7 +3222,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -3558,7 +3238,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3574,7 +3254,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -3590,7 +3270,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -3606,7 +3286,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBlock] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathBlock], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -3622,7 +3318,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -3638,7 +3334,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -3654,7 +3350,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBlock], [MathBar]) Creates math function |
+| [createMathFunction] ([MathBlock], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -3670,7 +3366,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -3686,7 +3382,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -3702,7 +3398,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -3718,7 +3414,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -3734,7 +3430,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3750,7 +3446,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3766,7 +3462,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3782,7 +3478,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathBox]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -3798,7 +3494,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -3814,23 +3510,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathSubscriptElement] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathSubscriptElement], [MathArray]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -3846,7 +3526,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -3862,7 +3542,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -3878,7 +3558,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -3894,7 +3574,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -3910,7 +3590,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathSubscriptElement] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathSubscriptElement], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -3926,7 +3622,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -3942,7 +3638,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -3958,7 +3654,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathSubscriptElement], [MathBar]) Creates math function |
+| [createMathFunction] ([MathSubscriptElement], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -3974,7 +3670,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -3990,7 +3686,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -4006,7 +3702,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -4022,7 +3718,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -4038,7 +3734,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4054,7 +3750,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4070,7 +3766,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4086,7 +3782,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathBox]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -4102,7 +3798,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -4118,23 +3814,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathFunction] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathFunction], [MathArray]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -4150,7 +3830,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -4166,7 +3846,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4182,7 +3862,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -4198,7 +3878,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -4214,7 +3894,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathFunction] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathFunction], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -4230,7 +3926,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -4246,7 +3942,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -4262,7 +3958,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathFunction], [MathBar]) Creates math function |
+| [createMathFunction] ([MathFunction], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -4278,7 +3974,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -4294,7 +3990,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -4310,7 +4006,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -4326,7 +4022,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -4342,7 +4038,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4358,7 +4054,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4374,7 +4070,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4390,7 +4086,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathBox]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -4406,7 +4102,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -4422,23 +4118,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathNaryOperator] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathNaryOperator], [MathArray]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -4454,7 +4134,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -4470,7 +4150,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4486,7 +4166,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -4502,7 +4182,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -4518,7 +4198,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathNaryOperator] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathNaryOperator], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -4534,7 +4230,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -4550,7 +4246,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -4566,7 +4262,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathNaryOperator], [MathBar]) Creates math function |
+| [createMathFunction] ([MathNaryOperator], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -4582,7 +4278,311 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathGroupingCharacter], [MathLimit]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathLimit] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathBorderBox]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathBorderBox] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathFraction]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathFraction] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathDelimiter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathDelimiter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathSuperscriptElement]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathSuperscriptElement] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathLeftSubSuperscriptElement] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathRightSubSuperscriptElement] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathBox]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathBox] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathMatrix]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathMatrix] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathArray]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathArray] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathBlock]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathBlock] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathSubscriptElement]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathSubscriptElement] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathFunction]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathFunction] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathNaryOperator]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathNaryOperator] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathematicalText]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathematicalText] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathAccent]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathAccent] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathRadical]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathRadical] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathGroupingCharacter], [MathBar]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathGroupingCharacter] | Element used as a function name |
+| baseArgument | [MathBar] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathematicalText], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -4598,7 +4598,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -4614,7 +4614,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -4630,7 +4630,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -4646,7 +4646,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4662,7 +4662,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4678,7 +4678,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4694,7 +4694,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathBox]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -4710,7 +4710,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -4726,23 +4726,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathematicalText] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathematicalText], [MathArray]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -4758,7 +4742,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -4774,7 +4758,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4790,7 +4774,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -4806,7 +4790,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -4822,7 +4806,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathematicalText] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathematicalText], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -4838,7 +4838,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -4854,7 +4854,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -4870,7 +4870,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathematicalText], [MathBar]) Creates math function |
+| [createMathFunction] ([MathematicalText], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -4886,7 +4886,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -4902,7 +4902,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -4918,7 +4918,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -4934,7 +4934,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -4950,7 +4950,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4966,7 +4966,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4982,7 +4982,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -4998,7 +4998,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathBox]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -5014,7 +5014,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -5030,23 +5030,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathAccent] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathAccent], [MathArray]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -5062,7 +5046,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -5078,7 +5062,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5094,7 +5078,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -5110,7 +5094,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -5126,7 +5110,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathAccent] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathAccent], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -5142,7 +5142,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -5158,7 +5158,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -5174,7 +5174,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathAccent], [MathBar]) Creates math function |
+| [createMathFunction] ([MathAccent], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -5190,7 +5190,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -5206,7 +5206,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -5222,7 +5222,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -5238,7 +5238,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -5254,7 +5254,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5270,7 +5270,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5286,7 +5286,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5302,7 +5302,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathBox]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -5318,7 +5318,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -5334,23 +5334,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathRadical] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathRadical], [MathArray]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -5366,7 +5350,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -5382,7 +5366,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5398,7 +5382,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -5414,7 +5398,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -5430,7 +5414,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathRadical] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathRadical], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -5446,7 +5446,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -5462,7 +5462,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -5478,7 +5478,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathRadical], [MathBar]) Creates math function |
+| [createMathFunction] ([MathRadical], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -5494,7 +5494,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathLimit]) Creates math function |
+| [createMathFunction] ([MathBar], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -5510,7 +5510,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([MathBar], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -5526,7 +5526,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathFraction]) Creates math function |
+| [createMathFunction] ([MathBar], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -5542,7 +5542,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([MathBar], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -5558,7 +5558,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBar], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5574,7 +5574,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBar], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5590,7 +5590,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([MathBar], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5606,7 +5606,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathBox]) Creates math function |
+| [createMathFunction] ([MathBar], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -5622,7 +5622,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathMatrix]) Creates math function |
+| [createMathFunction] ([MathBar], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -5638,23 +5638,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [MathBar] | Element used as a function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([MathBar], [MathArray]) Creates math function |
+| [createMathFunction] ([MathBar], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -5670,7 +5654,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathBlock]) Creates math function |
+| [createMathFunction] ([MathBar], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -5686,7 +5670,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([MathBar], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5702,7 +5686,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathFunction]) Creates math function |
+| [createMathFunction] ([MathBar], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -5718,7 +5702,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([MathBar], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -5734,7 +5718,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathematicalText]) Creates math function |
+| [createMathFunction] ([MathBar], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [MathBar] | Element used as a function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([MathBar], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -5750,7 +5750,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathAccent]) Creates math function |
+| [createMathFunction] ([MathBar], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -5766,7 +5766,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathRadical]) Creates math function |
+| [createMathFunction] ([MathBar], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -5782,7 +5782,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([MathBar], [MathBar]) Creates math function |
+| [createMathFunction] ([MathBar], [MathBar]) | Creates math function |
 
 ### Parameters
 
@@ -5798,7 +5798,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathLimit]) Creates math function |
+| [createMathFunction] ([String], [MathLimit]) | Creates math function |
 
 ### Parameters
 
@@ -5814,7 +5814,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathBorderBox]) Creates math function |
+| [createMathFunction] ([String], [MathBorderBox]) | Creates math function |
 
 ### Parameters
 
@@ -5830,7 +5830,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathFraction]) Creates math function |
+| [createMathFunction] ([String], [MathFraction]) | Creates math function |
 
 ### Parameters
 
@@ -5846,7 +5846,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathDelimiter]) Creates math function |
+| [createMathFunction] ([String], [MathDelimiter]) | Creates math function |
 
 ### Parameters
 
@@ -5862,7 +5862,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathSuperscriptElement]) Creates math function |
+| [createMathFunction] ([String], [MathSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5878,7 +5878,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathLeftSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([String], [MathLeftSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5894,7 +5894,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathRightSubSuperscriptElement]) Creates math function |
+| [createMathFunction] ([String], [MathRightSubSuperscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -5910,7 +5910,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathBox]) Creates math function |
+| [createMathFunction] ([String], [MathBox]) | Creates math function |
 
 ### Parameters
 
@@ -5926,7 +5926,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathMatrix]) Creates math function |
+| [createMathFunction] ([String], [MathMatrix]) | Creates math function |
 
 ### Parameters
 
@@ -5942,23 +5942,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathGroupingCharacter]) Creates math function |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| funcName | [String] | Function name |
-| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
-
-### Result
-[MathFunction]
-
-
----
-
-
-| [createMathFunction] ([String], [MathArray]) Creates math function |
+| [createMathFunction] ([String], [MathArray]) | Creates math function |
 
 ### Parameters
 
@@ -5974,7 +5958,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathBlock]) Creates math function |
+| [createMathFunction] ([String], [MathBlock]) | Creates math function |
 
 ### Parameters
 
@@ -5990,7 +5974,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathSubscriptElement]) Creates math function |
+| [createMathFunction] ([String], [MathSubscriptElement]) | Creates math function |
 
 ### Parameters
 
@@ -6006,7 +5990,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathFunction]) Creates math function |
+| [createMathFunction] ([String], [MathFunction]) | Creates math function |
 
 ### Parameters
 
@@ -6022,7 +6006,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathNaryOperator]) Creates math function |
+| [createMathFunction] ([String], [MathNaryOperator]) | Creates math function |
 
 ### Parameters
 
@@ -6038,7 +6022,23 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathematicalText]) Creates math function |
+| [createMathFunction] ([String], [MathGroupingCharacter]) | Creates math function |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| funcName | [String] | Function name |
+| baseArgument | [MathGroupingCharacter] | Element used as a function argument |
+
+### Result
+[MathFunction]
+
+
+---
+
+
+| [createMathFunction] ([String], [MathematicalText]) | Creates math function |
 
 ### Parameters
 
@@ -6054,7 +6054,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathAccent]) Creates math function |
+| [createMathFunction] ([String], [MathAccent]) | Creates math function |
 
 ### Parameters
 
@@ -6070,7 +6070,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathRadical]) Creates math function |
+| [createMathFunction] ([String], [MathRadical]) | Creates math function |
 
 ### Parameters
 
@@ -6086,7 +6086,7 @@ MathFunctionFactory
 ---
 
 
-| [createMathFunction] ([String], [MathBar]) Creates math function |
+| [createMathFunction] ([String], [MathBar]) | Creates math function |
 
 ### Parameters
 

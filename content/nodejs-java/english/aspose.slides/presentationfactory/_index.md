@@ -20,7 +20,7 @@ PresentationFactory
 ---
 
 
-| [createPresentation] () Creates new presentation. |
+| [createPresentation] () | Creates new presentation. |
 
 ### Result
 [Presentation]
@@ -29,7 +29,7 @@ PresentationFactory
 ---
 
 
-| [createPresentation] ([LoadOptions]) Creates new presentation with additional load options |
+| [createPresentation] ([LoadOptions]) | Creates new presentation with additional load options |
 
 ### Parameters
 
@@ -44,7 +44,7 @@ PresentationFactory
 ---
 
 
-| [getInstance] () Presentation factory static instance. Read-only PresentationFactory. |
+| [getInstance] () | Presentation factory static instance. Read-only PresentationFactory. |
 
 ### Result
 PresentationFactory
@@ -53,7 +53,7 @@ PresentationFactory
 ---
 
 
-| [getPresentationInfo] ([String]) Creates new PresentationInfo object from file and binds presentation to it. |
+| [getPresentationInfo] ([String]) | Creates new PresentationInfo object from file and binds presentation to it. |
 
 ### Parameters
 
@@ -68,7 +68,7 @@ PresentationFactory
 ---
 
 
-| [getPresentationInfoFromStream ] (PresentationFactory, [ReadStream], Function) Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
+| [getPresentationInfoFromStream ] (PresentationFactory, [ReadStream], Function) | Creates new PresentationInfo object from stream and binds presentation to it. Gets info about presentation in specified stream. |
 
 ### Parameters
 
@@ -85,7 +85,7 @@ PresentationFactory
 ---
 
 
-| [getPresentationText] ([String], [int]) Retrieves the raw text from the slides |
+| [getPresentationText] ([String], [int]) | Retrieves the raw text from the slides |
 
 ### Parameters
 
@@ -101,7 +101,7 @@ PresentationFactory
 ---
 
 
-| [getPresentationTextFromStream ] (PresentationFactory, [ReadStream], [int], Function) Retrieves the raw text from the slides |
+| [getPresentationTextFromStream ] (PresentationFactory, [ReadStream], [int], Function) | Retrieves the raw text from the slides |
 
 ### Parameters
 
@@ -119,7 +119,7 @@ PresentationFactory
 ---
 
 
-| [getPresentationTextFromStream ] (PresentationFactory, [ReadStream], [int], [LoadOptions],  Function) Retrieves the raw text from the slides |
+| [getPresentationTextFromStream ] (PresentationFactory, [ReadStream], [int], [LoadOptions],  Function) | Retrieves the raw text from the slides |
 
 ### Parameters
 
@@ -138,7 +138,7 @@ PresentationFactory
 ---
 
 
-| [readPresentation] ([byte[]]) Reads an existing presentation from array |
+| [readPresentation] ([byte[]]) | Reads an existing presentation from array |
 
 ### Parameters
 
@@ -153,7 +153,7 @@ PresentationFactory
 ---
 
 
-| [readPresentation] ([byte[]], [LoadOptions]) Reads an existing presentation from array with additional load options |
+| [readPresentation] ([byte[]], [LoadOptions]) | Reads an existing presentation from array with additional load options |
 
 ### Parameters
 
@@ -169,7 +169,7 @@ PresentationFactory
 ---
 
 
-| [readPresentationFromStream ] (PresentationFactory, [ReadStream], Function) Reads an existing presentation from stream |
+| [readPresentationFromStream ] (PresentationFactory, [ReadStream], Function) | Reads an existing presentation from stream |
 
 ### Parameters
 
@@ -186,7 +186,7 @@ PresentationFactory
 ---
 
 
-| [readPresentationFromStream ] (PresentationFactory, [ReadStream], [LoadOptions],  Function) Reads an existing presentation from stream with additional load options |
+| [readPresentationFromStream ] (PresentationFactory, [ReadStream], [LoadOptions],  Function) | Reads an existing presentation from stream with additional load options |
 
 ### Parameters
 
@@ -204,7 +204,7 @@ PresentationFactory
 ---
 
 
-| [readPresentation] ([String]) Reads an existing presentation from file |
+| [readPresentation] ([String]) | Reads an existing presentation from file |
 
 ### Parameters
 
@@ -219,7 +219,7 @@ PresentationFactory
 ---
 
 
-| [readPresentation] ([String], [LoadOptions]) Reads an existing presentation from stream with additional load options |
+| [readPresentation] ([String], [LoadOptions]) | Reads an existing presentation from stream with additional load options |
 
 ### Parameters
 

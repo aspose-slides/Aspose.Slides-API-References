@@ -11,7 +11,7 @@ url: /aspose.slides/patternformat/
 
  Represents a pattern to fill a shape.
  
-| [getBackColor] () Returns the background pattern color. Read-only IColorFormat. |
+| [getBackColor] () | Returns the background pattern color. Read-only IColorFormat. |
 
 ### Result
 [ColorFormat]
@@ -20,7 +20,7 @@ url: /aspose.slides/patternformat/
 ---
 
 
-| [getForeColor] () Returns the foreground pattern color. Read-only IColorFormat. |
+| [getForeColor] () | Returns the foreground pattern color. Read-only IColorFormat. |
 
 ### Result
 [ColorFormat]
@@ -29,7 +29,7 @@ url: /aspose.slides/patternformat/
 ---
 
 
-| [getPatternStyle] () Returns or sets the pattern style. Read/write PatternStyle. |
+| [getPatternStyle] () | Returns or sets the pattern style. Read/write PatternStyle. |
 
 ### Result
 byte
@@ -38,7 +38,7 @@ byte
 ---
 
 
-| [getTileImage] ([Color], [Color]) Creates a tile image for the pattern fill with a specified colors. |
+| [getTileImage] ([Color], [Color]) | Creates a tile image for the pattern fill with a specified colors. |
 
 ### Parameters
 
@@ -54,7 +54,7 @@ BufferedImage
 ---
 
 
-| [getTileImage] ([Color]) Creates a tile image for the pattern fill. |
+| [getTileImage] ([Color]) | Creates a tile image for the pattern fill. |
 
 ### Parameters
 
@@ -69,7 +69,7 @@ BufferedImage
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long
@@ -78,7 +78,7 @@ long
 ---
 
 
-| [setPatternStyle] ([byte]) Returns or sets the pattern style. Read/write PatternStyle. |
+| [setPatternStyle] ([byte]) | Returns or sets the pattern style. Read/write PatternStyle. |
 
 
 ---

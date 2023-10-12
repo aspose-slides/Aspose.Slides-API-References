@@ -156,22 +156,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathLimit], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLimit] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathLimit], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -244,6 +228,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathLimit] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathLimit], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLimit] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -460,22 +460,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathBorderBox], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBorderBox] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathBorderBox], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -548,6 +532,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathBorderBox] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathBorderBox], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBorderBox] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -764,22 +764,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathFraction], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFraction] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathFraction], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -852,6 +836,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathFraction] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathFraction], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFraction] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -1068,22 +1068,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathDelimiter], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathDelimiter] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathDelimiter], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -1156,6 +1140,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathDelimiter] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathDelimiter], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathDelimiter] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -1372,22 +1372,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSuperscriptElement] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathSuperscriptElement], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -1460,6 +1444,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathSuperscriptElement] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSuperscriptElement] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -1676,22 +1676,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathLeftSubSuperscriptElement] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathLeftSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -1764,6 +1748,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathLeftSubSuperscriptElement] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathLeftSubSuperscriptElement] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -1980,22 +1980,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRightSubSuperscriptElement] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathRightSubSuperscriptElement], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -2068,6 +2052,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathRightSubSuperscriptElement] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRightSubSuperscriptElement] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -2284,22 +2284,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathBox], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBox] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathBox], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -2372,6 +2356,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathBox] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathBox], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBox] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -2588,22 +2588,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathMatrix], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathMatrix] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathMatrix], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -2684,6 +2668,22 @@ MathRadical
 ---
 
 
+| [MathRadical]([MathMatrix], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathMatrix] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
 | [MathRadical]([MathMatrix], [MathematicalText]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -2739,310 +2739,6 @@ MathRadical
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathMatrix] | Base |
-| degreeArgument | [MathBar] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathLimit]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathLimit] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathBorderBox]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathBorderBox] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathFraction]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathFraction] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathDelimiter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathDelimiter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathSuperscriptElement]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathSuperscriptElement] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathLeftSubSuperscriptElement] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathRightSubSuperscriptElement] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathBox]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathBox] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathMatrix]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathMatrix] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathArray]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathArray] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathBlock]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathBlock] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathSubscriptElement]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathSubscriptElement] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathFunction]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathFunction] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathNaryOperator]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathNaryOperator] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathematicalText]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathematicalText] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathAccent]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathAccent] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathRadical]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
-| degreeArgument | [MathRadical] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
-| [MathRadical]([MathGroupingCharacter], [MathBar]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathGroupingCharacter] | Base |
 | degreeArgument | [MathBar] | Degree |
 
 ### Result
@@ -3196,22 +2892,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathArray], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathArray] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathArray], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -3284,6 +2964,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathArray] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathArray], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathArray] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -3500,22 +3196,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathBlock], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBlock] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathBlock], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -3588,6 +3268,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathBlock] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathBlock], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBlock] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -3804,22 +3500,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathSubscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathSubscriptElement] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathSubscriptElement], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -3892,6 +3572,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathSubscriptElement] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathSubscriptElement], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathSubscriptElement] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -4108,22 +3804,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathFunction], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathFunction] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathFunction], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -4196,6 +3876,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathFunction] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathFunction], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathFunction] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -4412,22 +4108,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathNaryOperator], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathNaryOperator] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathNaryOperator], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -4508,6 +4188,22 @@ MathRadical
 ---
 
 
+| [MathRadical]([MathNaryOperator], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathNaryOperator] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
 | [MathRadical]([MathNaryOperator], [MathematicalText]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -4563,6 +4259,310 @@ MathRadical
 | Name | Type | Description |
 | --- | --- | --- |
 | baseArgument | [MathNaryOperator] | Base |
+| degreeArgument | [MathBar] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathLimit]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathLimit] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathBorderBox]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathBorderBox] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathFraction]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathFraction] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathDelimiter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathDelimiter] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathSuperscriptElement]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathSuperscriptElement] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathLeftSubSuperscriptElement] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathRightSubSuperscriptElement] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathBox]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathBox] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathMatrix]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathMatrix] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathArray]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathArray] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathBlock]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathBlock] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathSubscriptElement]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathSubscriptElement] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathFunction]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathFunction] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathNaryOperator]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathematicalText]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathematicalText] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathAccent]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathAccent] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathRadical]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
+| degreeArgument | [MathRadical] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathGroupingCharacter], [MathBar]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathGroupingCharacter] | Base |
 | degreeArgument | [MathBar] | Degree |
 
 ### Result
@@ -4716,22 +4716,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathematicalText], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathematicalText] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathematicalText], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -4804,6 +4788,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathematicalText] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathematicalText], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathematicalText] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -5020,22 +5020,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathAccent], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathAccent] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathAccent], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -5108,6 +5092,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathAccent] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathAccent], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathAccent] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -5324,22 +5324,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathRadical], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathRadical] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathRadical], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -5412,6 +5396,22 @@ MathRadical
 | --- | --- | --- |
 | baseArgument | [MathRadical] | Base |
 | degreeArgument | [MathNaryOperator] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
+| [MathRadical]([MathRadical], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathRadical] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
 
 ### Result
 MathRadical
@@ -5628,22 +5628,6 @@ MathRadical
 ---
 
 
-| [MathRadical]([MathBar], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArgument | [MathBar] | Base |
-| degreeArgument | [MathGroupingCharacter] | Degree |
-
-### Result
-MathRadical
-
-
----
-
-
 | [MathRadical]([MathBar], [MathArray]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -5724,6 +5708,22 @@ MathRadical
 ---
 
 
+| [MathRadical]([MathBar], [MathGroupingCharacter]) | Initializes a new instance of the MathRadical class. |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArgument | [MathBar] | Base |
+| degreeArgument | [MathGroupingCharacter] | Degree |
+
+### Result
+MathRadical
+
+
+---
+
+
 | [MathRadical]([MathBar], [MathematicalText]) | Initializes a new instance of the MathRadical class. |
 
 ### Parameters
@@ -5788,34 +5788,34 @@ MathRadical
 ---
 
 
-| [getBase] () Base argument |
+| [getBase] () | Base argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getChildren] () Get children elements |
+| [getChildren] () | Get children elements |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getDegree] () Degree argument |
+| [getDegree] () | Degree argument |
 
 ### Result
-[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathGroupingCharacter], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
+[MathLimit], [MathBorderBox], [MathFraction], [MathDelimiter], [MathSuperscriptElement], [MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement], [MathBox], [MathMatrix], [MathArray], [MathBlock], [MathSubscriptElement], [MathFunction], [MathNaryOperator], [MathGroupingCharacter], [MathematicalText], [BaseScript], [MathAccent], [MathRadical], [MathBar], [MathElementBase]
 
 
 ---
 
 
-| [getHideDegree] () Hide degree When is true, the degree is not shown, as in ?? |
+| [getHideDegree] () | Hide degree When is true, the degree is not shown, as in ?? |
 
 ### Result
 boolean
@@ -5824,7 +5824,7 @@ boolean
 ---
 
 
-| [setHideDegree] ([boolean]) Hide degree When is true, the degree is not shown, as in ?? |
+| [setHideDegree] ([boolean]) | Hide degree When is true, the degree is not shown, as in ?? |
 
 
 ---

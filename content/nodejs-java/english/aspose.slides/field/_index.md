@@ -11,7 +11,7 @@ url: /aspose.slides/field/
 
  Represents a field.
  
-| [getPresentation] () Returns the parent presentation of a paragraph. Read-only IPresentation. |
+| [getPresentation] () | Returns the parent presentation of a paragraph. Read-only IPresentation. |
 
 ### Result
 [Presentation]
@@ -20,7 +20,7 @@ url: /aspose.slides/field/
 ---
 
 
-| [getSlide] () Returns the parent slide of a paragraph. Read-only BaseSlide. |
+| [getSlide] () | Returns the parent slide of a paragraph. Read-only BaseSlide. |
 
 ### Result
 [MasterNotesSlide], [MasterHandoutSlide], [BaseSlide], [NotesSlide], [LayoutSlide], [Slide], [MasterSlide]
@@ -29,7 +29,7 @@ url: /aspose.slides/field/
 ---
 
 
-| [getType] () Returns or sets field's type. Read/write IFieldType. |
+| [getType] () | Returns or sets field's type. Read/write IFieldType. |
 
 ### Result
 [FieldType]
@@ -38,7 +38,7 @@ url: /aspose.slides/field/
 ---
 
 
-| [setType] ([FieldType]) Returns or sets field's type. Read/write IFieldType. |
+| [setType] ([FieldType]) | Returns or sets field's type. Read/write IFieldType. |
 
 
 ---

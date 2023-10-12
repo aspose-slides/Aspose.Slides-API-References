@@ -20,7 +20,7 @@ GeometryPath
 ---
 
 
-| [arcTo] ([float], [float], [float], [float]) Appends the specified arc to the path. |
+| [arcTo] ([float], [float], [float], [float]) | Appends the specified arc to the path. |
 
 ### Parameters
 
@@ -35,13 +35,13 @@ GeometryPath
 ---
 
 
-| [closeFigure] () Closes the current figure of this path |
+| [closeFigure] () | Closes the current figure of this path |
 
 
 ---
 
 
-| [cubicBezierTo] ([Point2D.Float], [Point2D.Float], [Point2D.Float]) Adds cubic Bezier curve at the end the path |
+| [cubicBezierTo] ([Point2D.Float], [Point2D.Float], [Point2D.Float]) | Adds cubic Bezier curve at the end the path |
 
 ### Parameters
 
@@ -55,7 +55,7 @@ GeometryPath
 ---
 
 
-| [cubicBezierTo] ([float], [float], [float], [float], [float], [float]) Adds cubic Bezier curve at the end the path |
+| [cubicBezierTo] ([float], [float], [float], [float], [float], [float]) | Adds cubic Bezier curve at the end the path |
 
 ### Parameters
 
@@ -72,7 +72,7 @@ GeometryPath
 ---
 
 
-| [cubicBezierTo] ([Point2D.Float], [Point2D.Float], [Point2D.Float], [long]) Adds cubic Bezier curve to the specified place of the path |
+| [cubicBezierTo] ([Point2D.Float], [Point2D.Float], [Point2D.Float], [long]) | Adds cubic Bezier curve to the specified place of the path |
 
 ### Parameters
 
@@ -93,7 +93,7 @@ GeometryPath
 ---
 
 
-| [cubicBezierTo] ([float], [float], [float], [float], [float], [float], [long]) Adds cubic Bezier curve to the specified place of the path |
+| [cubicBezierTo] ([float], [float], [float], [float], [float], [float], [long]) | Adds cubic Bezier curve to the specified place of the path |
 
 ### Parameters
 
@@ -117,7 +117,7 @@ GeometryPath
 ---
 
 
-| [getFillMode] () Sets fill mode |
+| [getFillMode] () | Sets fill mode |
 
 ### Result
 byte
@@ -126,7 +126,7 @@ byte
 ---
 
 
-| [getPathData] () Returns geometry path of GeometryShape as an array of path segments. |
+| [getPathData] () | Returns geometry path of GeometryShape as an array of path segments. |
 
 ### Result
 [PathSegment]
@@ -135,7 +135,7 @@ byte
 ---
 
 
-| [getStroke] () Sets stroke appearance |
+| [getStroke] () | Sets stroke appearance |
 
 ### Result
 boolean
@@ -144,7 +144,7 @@ boolean
 ---
 
 
-| [lineTo] ([Point2D.Float]) Adds line to the end of the path |
+| [lineTo] ([Point2D.Float]) | Adds line to the end of the path |
 
 ### Parameters
 
@@ -156,7 +156,7 @@ boolean
 ---
 
 
-| [lineTo] ([float], [float]) Adds line to the end of the path |
+| [lineTo] ([float], [float]) | Adds line to the end of the path |
 
 ### Parameters
 
@@ -169,7 +169,7 @@ boolean
 ---
 
 
-| [lineTo] ([Point2D.Float], [long]) Adds line to the specified place of the path |
+| [lineTo] ([Point2D.Float], [long]) | Adds line to the specified place of the path |
 
 ### Parameters
 
@@ -188,7 +188,7 @@ boolean
 ---
 
 
-| [lineTo] ([float], [float], [long]) Adds line to the specified place of the path |
+| [lineTo] ([float], [float], [long]) | Adds line to the specified place of the path |
 
 ### Parameters
 
@@ -208,7 +208,7 @@ boolean
 ---
 
 
-| [moveTo] ([Point2D.Float]) Sets next point position. |
+| [moveTo] ([Point2D.Float]) | Sets next point position. |
 
 ### Parameters
 
@@ -220,7 +220,7 @@ boolean
 ---
 
 
-| [moveTo] ([float], [float]) Sets next point position. |
+| [moveTo] ([float], [float]) | Sets next point position. |
 
 ### Parameters
 
@@ -233,7 +233,7 @@ boolean
 ---
 
 
-| [quadraticBezierTo] ([Point2D.Float], [Point2D.Float]) Adds quadratic Bezier curve at the end the path |
+| [quadraticBezierTo] ([Point2D.Float], [Point2D.Float]) | Adds quadratic Bezier curve at the end the path |
 
 ### Parameters
 
@@ -246,7 +246,7 @@ boolean
 ---
 
 
-| [quadraticBezierTo] ([float], [float], [float], [float]) Adds quadratic Bezier curve at the end the path |
+| [quadraticBezierTo] ([float], [float], [float], [float]) | Adds quadratic Bezier curve at the end the path |
 
 ### Parameters
 
@@ -261,7 +261,7 @@ boolean
 ---
 
 
-| [quadraticBezierTo] ([Point2D.Float], [Point2D.Float], [long]) Adds quadratic Bezier curve to the specified place of the path |
+| [quadraticBezierTo] ([Point2D.Float], [Point2D.Float], [long]) | Adds quadratic Bezier curve to the specified place of the path |
 
 ### Parameters
 
@@ -281,7 +281,7 @@ boolean
 ---
 
 
-| [quadraticBezierTo] ([float], [float], [float], [float], [long]) Adds quadratic Bezier curve to the specified place of the path |
+| [quadraticBezierTo] ([float], [float], [float], [float], [long]) | Adds quadratic Bezier curve to the specified place of the path |
 
 ### Parameters
 
@@ -303,7 +303,7 @@ boolean
 ---
 
 
-| [removeAt] ([int]) Removes segment at the specified index of the geometry path. |
+| [removeAt] ([int]) | Removes segment at the specified index of the geometry path. |
 
 ### Parameters
 
@@ -315,13 +315,13 @@ boolean
 ---
 
 
-| [setFillMode] ([byte]) Sets fill mode |
+| [setFillMode] ([byte]) | Sets fill mode |
 
 
 ---
 
 
-| [setStroke] ([boolean]) Sets stroke appearance |
+| [setStroke] ([boolean]) | Sets stroke appearance |
 
 
 ---

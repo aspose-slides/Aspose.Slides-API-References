@@ -11,7 +11,7 @@ url: /aspose.slides/pictureframelock/
 
  Determines which operations are disabled on the parent PictureFrame.
  
-| [getAdjustHandlesLocked] () Determines whether a changing adjust values is forbidden. Read/write boolean. |
+| [getAdjustHandlesLocked] () | Determines whether a changing adjust values is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -20,7 +20,7 @@ boolean
 ---
 
 
-| [getArrowheadsLocked] () Determines whether a changing arrowheads is forbidden. Read/write boolean. |
+| [getArrowheadsLocked] () | Determines whether a changing arrowheads is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -29,7 +29,7 @@ boolean
 ---
 
 
-| [getAspectRatioLocked] () Determines whether a shape have to preserve aspect ratio on resizing. Read/write boolean. |
+| [getAspectRatioLocked] () | Determines whether a shape have to preserve aspect ratio on resizing. Read/write boolean. |
 
 ### Result
 boolean
@@ -38,7 +38,7 @@ boolean
 ---
 
 
-| [getCropLocked] () Determines whether an image cropping is forbidden. Read/write boolean. |
+| [getCropLocked] () | Determines whether an image cropping is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -47,7 +47,7 @@ boolean
 ---
 
 
-| [getEditPointsLocked] () Determines whether a direct changing of contour of this shape is forbidden. Read/write boolean. |
+| [getEditPointsLocked] () | Determines whether a direct changing of contour of this shape is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -56,7 +56,7 @@ boolean
 ---
 
 
-| [getGroupingLocked] () Determines whether an adding this shape to a group is forbidden. Read/write boolean. |
+| [getGroupingLocked] () | Determines whether an adding this shape to a group is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -65,7 +65,7 @@ boolean
 ---
 
 
-| [getPositionLocked] () Determines whether a moving this shape is forbidden. Read/write boolean. |
+| [getPositionLocked] () | Determines whether a moving this shape is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -74,7 +74,7 @@ boolean
 ---
 
 
-| [getRotationLocked] () Determines whether a changing rotation angle of this shape is forbidden. Read/write boolean. |
+| [getRotationLocked] () | Determines whether a changing rotation angle of this shape is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -83,7 +83,7 @@ boolean
 ---
 
 
-| [getSelectLocked] () Determines whether a selecting this shape is forbidden. Read/write boolean. |
+| [getSelectLocked] () | Determines whether a selecting this shape is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -92,7 +92,7 @@ boolean
 ---
 
 
-| [getShapeTypeLocked] () Determines whether a changing of a shape type is forbidden. Read/write boolean. |
+| [getShapeTypeLocked] () | Determines whether a changing of a shape type is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -101,7 +101,7 @@ boolean
 ---
 
 
-| [getSizeLocked] () Determines whether a resizing this shape is forbidden. Read/write boolean. |
+| [getSizeLocked] () | Determines whether a resizing this shape is forbidden. Read/write boolean. |
 
 ### Result
 boolean
@@ -110,67 +110,67 @@ boolean
 ---
 
 
-| [setAdjustHandlesLocked] ([boolean]) Determines whether a changing adjust values is forbidden. Read/write boolean. |
+| [setAdjustHandlesLocked] ([boolean]) | Determines whether a changing adjust values is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setArrowheadsLocked] ([boolean]) Determines whether a changing arrowheads is forbidden. Read/write boolean. |
+| [setArrowheadsLocked] ([boolean]) | Determines whether a changing arrowheads is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setAspectRatioLocked] ([boolean]) Determines whether a shape have to preserve aspect ratio on resizing. Read/write boolean. |
+| [setAspectRatioLocked] ([boolean]) | Determines whether a shape have to preserve aspect ratio on resizing. Read/write boolean. |
 
 
 ---
 
 
-| [setCropLocked] ([boolean]) Determines whether an image cropping is forbidden. Read/write boolean. |
+| [setCropLocked] ([boolean]) | Determines whether an image cropping is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setEditPointsLocked] ([boolean]) Determines whether a direct changing of contour of this shape is forbidden. Read/write boolean. |
+| [setEditPointsLocked] ([boolean]) | Determines whether a direct changing of contour of this shape is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setGroupingLocked] ([boolean]) Determines whether an adding this shape to a group is forbidden. Read/write boolean. |
+| [setGroupingLocked] ([boolean]) | Determines whether an adding this shape to a group is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setPositionLocked] ([boolean]) Determines whether a moving this shape is forbidden. Read/write boolean. |
+| [setPositionLocked] ([boolean]) | Determines whether a moving this shape is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setRotationLocked] ([boolean]) Determines whether a changing rotation angle of this shape is forbidden. Read/write boolean. |
+| [setRotationLocked] ([boolean]) | Determines whether a changing rotation angle of this shape is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setSelectLocked] ([boolean]) Determines whether a selecting this shape is forbidden. Read/write boolean. |
+| [setSelectLocked] ([boolean]) | Determines whether a selecting this shape is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setShapeTypeLocked] ([boolean]) Determines whether a changing of a shape type is forbidden. Read/write boolean. |
+| [setShapeTypeLocked] ([boolean]) | Determines whether a changing of a shape type is forbidden. Read/write boolean. |
 
 
 ---
 
 
-| [setSizeLocked] ([boolean]) Determines whether a resizing this shape is forbidden. Read/write boolean. |
+| [setSizeLocked] ([boolean]) | Determines whether a resizing this shape is forbidden. Read/write boolean. |
 
 
 ---

@@ -11,7 +11,7 @@ url: /aspose.slides/chartdatacell/
 
  Represents cell for chart data.
  
-| [calculate] ([boolean]) If the cell contains a formula, the value will be updated base on that formula. |
+| [calculate] ([boolean]) | If the cell contains a formula, the value will be updated base on that formula. |
 
 ### Parameters
 
@@ -23,7 +23,7 @@ url: /aspose.slides/chartdatacell/
 ---
 
 
-| [getChartDataWorksheet] () Gets the worksheet. Read-only IChartDataWorksheet. |
+| [getChartDataWorksheet] () | Gets the worksheet. Read-only IChartDataWorksheet. |
 
 ### Result
 [ChartDataWorksheet]
@@ -32,7 +32,7 @@ url: /aspose.slides/chartdatacell/
 ---
 
 
-| [getColumn] () Returns the index of the column of worksheet in which the cell is located. Read-only int. |
+| [getColumn] () | Returns the index of the column of worksheet in which the cell is located. Read-only int. |
 
 ### Result
 int
@@ -41,7 +41,7 @@ int
 ---
 
 
-| [getCustomNumberFormat] () Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
+| [getCustomNumberFormat] () | Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
 
 ### Result
 String
@@ -56,7 +56,7 @@ String
 ---
 
 
-| [getFormula] () Gets or sets the formula in A1-style. |
+| [getFormula] () | Gets or sets the formula in A1-style. |
 
 ### Result
 String
@@ -65,7 +65,7 @@ String
 ---
 
 
-| [getPresetNumberFormat] () Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write byte. |
+| [getPresetNumberFormat] () | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write byte. |
 
 ### Result
 byte
@@ -74,7 +74,7 @@ byte
 ---
 
 
-| [getR1C1Formula] () Gets or sets the formula in R1C1-style. |
+| [getR1C1Formula] () | Gets or sets the formula in R1C1-style. |
 
 ### Result
 String
@@ -83,7 +83,7 @@ String
 ---
 
 
-| [getRow] () Returns the index of the row of worksheet in which the cell is located. Read-only int. |
+| [getRow] () | Returns the index of the row of worksheet in which the cell is located. Read-only int. |
 
 ### Result
 int
@@ -92,7 +92,7 @@ int
 ---
 
 
-| [getValue] () Gets or sets the value of a cell. Read/write Object. |
+| [getValue] () | Gets or sets the value of a cell. Read/write Object. |
 
 ### Result
 Object
@@ -101,7 +101,7 @@ Object
 ---
 
 
-| [isHidden] () Determines whether the cell is hidden. Read-only boolean. |
+| [isHidden] () | Determines whether the cell is hidden. Read-only boolean. |
 
 ### Result
 boolean
@@ -110,7 +110,7 @@ boolean
 ---
 
 
-| [setCustomNumberFormat] ([String]) Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
+| [setCustomNumberFormat] ([String]) | Gets or sets the custom display format of numbers and dates. If value is empty will be used PresetNumberFormat value. Read/write String. |
 
 ### Error
 
@@ -122,25 +122,25 @@ boolean
 ---
 
 
-| [setFormula] ([String]) Gets or sets the formula in A1-style. |
+| [setFormula] ([String]) | Gets or sets the formula in A1-style. |
 
 
 ---
 
 
-| [setPresetNumberFormat] ([byte]) Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write byte. |
+| [setPresetNumberFormat] ([byte]) | Gets or sets the built-in display format of numbers and dates. Preset number must be in [0..22] or [37..49]. Read/write byte. |
 
 
 ---
 
 
-| [setR1C1Formula] ([String]) Gets or sets the formula in R1C1-style. |
+| [setR1C1Formula] ([String]) | Gets or sets the formula in R1C1-style. |
 
 
 ---
 
 
-| [setValue] ([Object]) Gets or sets the value of a cell. Read/write Object. |
+| [setValue] ([Object]) | Gets or sets the value of a cell. Read/write Object. |
 
 
 ---

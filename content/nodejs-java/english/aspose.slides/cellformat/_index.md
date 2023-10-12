@@ -11,7 +11,7 @@ url: /aspose.slides/cellformat/
 
  Represents format of a table cell.
  
-| [getBorderBottom] () Returns a bottom border line properties object. Read-only ILineFormat. |
+| [getBorderBottom] () | Returns a bottom border line properties object. Read-only ILineFormat. |
 
 ### Result
 [LineFormat]
@@ -20,7 +20,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getBorderDiagonalDown] () Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
+| [getBorderDiagonalDown] () | Returns a top-left to bottom-right diagonal line properties object. Read-only ILineFormat. |
 
 ### Result
 [LineFormat]
@@ -29,7 +29,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getBorderDiagonalUp] () Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
+| [getBorderDiagonalUp] () | Returns a bottom-left to top-right diagonal line properties object. Read-only ILineFormat. |
 
 ### Result
 [LineFormat]
@@ -38,7 +38,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getBorderLeft] () Returns a left border line properties object. Read-only ILineFormat. |
+| [getBorderLeft] () | Returns a left border line properties object. Read-only ILineFormat. |
 
 ### Result
 [LineFormat]
@@ -47,7 +47,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getBorderRight] () Returns a right border line properties object. Read-only ILineFormat. |
+| [getBorderRight] () | Returns a right border line properties object. Read-only ILineFormat. |
 
 ### Result
 [LineFormat]
@@ -56,7 +56,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getBorderTop] () Returns a top border line properties object. Read-only ILineFormat. |
+| [getBorderTop] () | Returns a top border line properties object. Read-only ILineFormat. |
 
 ### Result
 [LineFormat]
@@ -65,7 +65,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getEffective] () Gets effective table cell formatting properties with inheritance and table styles applied. |
+| [getEffective] () | Gets effective table cell formatting properties with inheritance and table styles applied. |
 
 ### Result
 [CellFormatEffectiveData]
@@ -74,7 +74,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getFillFormat] () Returns a cell fill properties object. Read-only IFillFormat. |
+| [getFillFormat] () | Returns a cell fill properties object. Read-only IFillFormat. |
 
 ### Result
 [FillFormat]
@@ -83,7 +83,7 @@ url: /aspose.slides/cellformat/
 ---
 
 
-| [getVersion] ()  |
+| [getVersion] () |  |
 
 ### Result
 long

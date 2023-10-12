@@ -11,7 +11,7 @@ url: /aspose.slides/htmlformatter/
 
  Represents HTML file template.
  
-| [createCustomFormatter] ([EmbeddedEotFontsHtmlController]) Creates and returns HTML formatter for custom callback-driven html generation. |
+| [createCustomFormatter] ([EmbeddedEotFontsHtmlController]) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
@@ -26,7 +26,7 @@ HtmlFormatter
 ---
 
 
-| [createCustomFormatter] ([VideoPlayerHtmlController]) Creates and returns HTML formatter for custom callback-driven html generation. |
+| [createCustomFormatter] ([VideoPlayerHtmlController]) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
@@ -41,7 +41,7 @@ HtmlFormatter
 ---
 
 
-| [createCustomFormatter] ([EmbeddedWoffFontsHtmlController]) Creates and returns HTML formatter for custom callback-driven html generation. |
+| [createCustomFormatter] ([EmbeddedWoffFontsHtmlController]) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
@@ -56,7 +56,7 @@ HtmlFormatter
 ---
 
 
-| [createCustomFormatter] ([ResponsiveHtmlController]) Creates and returns HTML formatter for custom callback-driven html generation. |
+| [createCustomFormatter] ([ResponsiveHtmlController]) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
@@ -71,7 +71,7 @@ HtmlFormatter
 ---
 
 
-| [createCustomFormatter] ([EmbedAllFontsHtmlController]) Creates and returns HTML formatter for custom callback-driven html generation. |
+| [createCustomFormatter] ([EmbedAllFontsHtmlController]) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
 ### Parameters
 
@@ -86,7 +86,7 @@ HtmlFormatter
 ---
 
 
-| [createDocumentFormatter] ([String], [boolean]) Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
+| [createDocumentFormatter] ([String], [boolean]) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
 
 ### Parameters
 
@@ -102,7 +102,7 @@ HtmlFormatter
 ---
 
 
-| [createSlideShowFormatter] ([String], [boolean]) Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
+| [createSlideShowFormatter] ([String], [boolean]) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
 
 ### Parameters
 

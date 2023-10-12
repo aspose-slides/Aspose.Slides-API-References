@@ -22,7 +22,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -39,7 +39,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -56,7 +56,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -73,7 +73,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -90,7 +90,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -107,7 +107,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -124,7 +124,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -141,7 +141,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -158,7 +158,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -175,24 +175,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathLimit], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -209,7 +192,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -226,7 +209,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -243,7 +226,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -260,7 +243,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -277,7 +260,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathLimit], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -294,7 +294,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -311,7 +311,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -328,7 +328,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLimit], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -345,7 +345,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -362,7 +362,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -379,7 +379,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -396,7 +396,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -413,7 +413,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -430,7 +430,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -447,7 +447,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -464,7 +464,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -481,7 +481,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -498,24 +498,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBorderBox], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -532,7 +515,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -549,7 +532,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -566,7 +549,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -583,7 +566,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -600,7 +583,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBorderBox], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -617,7 +617,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -634,7 +634,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -651,7 +651,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBorderBox], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -668,7 +668,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -685,7 +685,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -702,7 +702,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -719,7 +719,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -736,7 +736,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -753,7 +753,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -770,7 +770,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -787,7 +787,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -804,7 +804,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -821,24 +821,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathFraction], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -855,7 +838,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -872,7 +855,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -889,7 +872,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -906,7 +889,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -923,7 +906,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathFraction], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -940,7 +940,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -957,7 +957,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -974,7 +974,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFraction], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -991,7 +991,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1008,7 +1008,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1025,7 +1025,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1042,7 +1042,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1059,7 +1059,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1076,7 +1076,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1093,7 +1093,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1110,7 +1110,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1127,7 +1127,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1144,24 +1144,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathDelimiter], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1178,7 +1161,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1195,7 +1178,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1212,7 +1195,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1229,7 +1212,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1246,7 +1229,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathDelimiter], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1263,7 +1263,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1280,7 +1280,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1297,7 +1297,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathDelimiter], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1314,7 +1314,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1331,7 +1331,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1348,7 +1348,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1365,7 +1365,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1382,7 +1382,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1399,7 +1399,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1416,7 +1416,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1433,7 +1433,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1450,7 +1450,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1467,24 +1467,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathSuperscriptElement], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1501,7 +1484,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1518,7 +1501,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1535,7 +1518,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1552,7 +1535,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1569,7 +1552,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathSuperscriptElement], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1586,7 +1586,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1603,7 +1603,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1620,7 +1620,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSuperscriptElement], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1637,7 +1637,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1654,7 +1654,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1671,7 +1671,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1688,7 +1688,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1705,7 +1705,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1722,7 +1722,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1739,7 +1739,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement],  [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement],  [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1756,7 +1756,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1773,7 +1773,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1790,24 +1790,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1824,7 +1807,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1841,7 +1824,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1858,7 +1841,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1875,7 +1858,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1892,7 +1875,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1909,7 +1909,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1926,7 +1926,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1943,7 +1943,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1960,7 +1960,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1977,7 +1977,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -1994,7 +1994,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2011,7 +2011,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2028,7 +2028,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2045,7 +2045,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement],  [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2062,7 +2062,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement],  [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement],  [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2079,7 +2079,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2096,7 +2096,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2113,24 +2113,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2147,7 +2130,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2164,7 +2147,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2181,7 +2164,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2198,7 +2181,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2215,7 +2198,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2232,7 +2232,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2249,7 +2249,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2266,7 +2266,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2283,7 +2283,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2300,7 +2300,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2317,7 +2317,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2334,7 +2334,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2351,7 +2351,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2368,7 +2368,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2385,7 +2385,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2402,7 +2402,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2419,7 +2419,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2436,24 +2436,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBox], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2470,7 +2453,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2487,7 +2470,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2504,7 +2487,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2521,7 +2504,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2538,7 +2521,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBox], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2555,7 +2555,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2572,7 +2572,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2589,7 +2589,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBox], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2606,7 +2606,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2623,7 +2623,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2640,7 +2640,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2657,7 +2657,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2674,7 +2674,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2691,7 +2691,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2708,7 +2708,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2725,7 +2725,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2742,7 +2742,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2759,24 +2759,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathMatrix], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2793,7 +2776,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2810,7 +2793,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2827,7 +2810,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2844,7 +2827,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2861,7 +2844,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathMatrix], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2878,7 +2878,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2895,7 +2895,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2912,7 +2912,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathMatrix], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -2929,330 +2929,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathGroupingCharacter], [MathLimit], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathLimit] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBorderBox], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBorderBox] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathFraction], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathFraction] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathDelimiter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathDelimiter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathSuperscriptElement] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBox], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBox] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathMatrix], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathMatrix] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathArray], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathArray] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBlock], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBlock] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathSubscriptElement], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathSubscriptElement] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathFunction], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathFunction] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathNaryOperator], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathNaryOperator] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathematicalText], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathematicalText] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathAccent], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathAccent] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathRadical], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathRadical] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBar], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBar] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathArray], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3269,7 +2946,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3286,7 +2963,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3303,7 +2980,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3320,7 +2997,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3337,7 +3014,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3354,7 +3031,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3371,7 +3048,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3388,7 +3065,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3405,24 +3082,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathArray], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3439,7 +3099,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3456,7 +3116,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3473,7 +3133,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3490,7 +3150,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3507,7 +3167,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathArray], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3524,7 +3201,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3541,7 +3218,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3558,7 +3235,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathArray], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3575,7 +3252,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3592,7 +3269,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3609,7 +3286,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3626,7 +3303,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3643,7 +3320,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3660,7 +3337,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3677,7 +3354,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3694,7 +3371,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3711,7 +3388,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3728,24 +3405,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBlock], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3762,7 +3422,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3779,7 +3439,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3796,7 +3456,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3813,7 +3473,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3830,7 +3490,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBlock], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3847,7 +3524,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3864,7 +3541,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3881,7 +3558,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBlock], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3898,7 +3575,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3915,7 +3592,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3932,7 +3609,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3949,7 +3626,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3966,7 +3643,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -3983,7 +3660,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4000,7 +3677,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4017,7 +3694,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4034,7 +3711,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4051,24 +3728,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathSubscriptElement], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4085,7 +3745,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4102,7 +3762,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4119,7 +3779,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4136,7 +3796,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4153,7 +3813,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathSubscriptElement], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4170,7 +3847,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4187,7 +3864,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4204,7 +3881,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathSubscriptElement], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4221,7 +3898,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4238,7 +3915,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4255,7 +3932,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4272,7 +3949,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4289,7 +3966,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4306,7 +3983,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4323,7 +4000,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4340,7 +4017,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4357,7 +4034,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4374,24 +4051,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathFunction], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4408,7 +4068,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4425,7 +4085,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4442,7 +4102,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4459,7 +4119,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4476,7 +4136,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathFunction], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4493,7 +4170,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4510,7 +4187,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4527,7 +4204,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathFunction], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4544,7 +4221,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4561,7 +4238,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4578,7 +4255,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4595,7 +4272,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4612,7 +4289,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4629,7 +4306,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4646,7 +4323,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4663,7 +4340,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4680,7 +4357,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4697,24 +4374,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathNaryOperator], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4731,7 +4391,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4748,7 +4408,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4765,7 +4425,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4782,7 +4442,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4799,7 +4459,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathNaryOperator], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4816,7 +4493,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4833,7 +4510,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4850,7 +4527,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathNaryOperator], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4867,7 +4544,330 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathGroupingCharacter], [MathLimit], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBorderBox], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathFraction], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathDelimiter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBox], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathMatrix], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathArray], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBlock], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathFunction], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathNaryOperator], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathematicalText], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathAccent], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathRadical], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBar], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathematicalText], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4884,7 +4884,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4901,7 +4901,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4918,7 +4918,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4935,7 +4935,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4952,7 +4952,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4969,7 +4969,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -4986,7 +4986,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5003,7 +5003,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5020,24 +5020,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathematicalText], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5054,7 +5037,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5071,7 +5054,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5088,7 +5071,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5105,7 +5088,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5122,7 +5105,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathematicalText], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5139,7 +5139,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5156,7 +5156,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5173,7 +5173,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathematicalText], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5190,7 +5190,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5207,7 +5207,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5224,7 +5224,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5241,7 +5241,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5258,7 +5258,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5275,7 +5275,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5292,7 +5292,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5309,7 +5309,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5326,7 +5326,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5343,24 +5343,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathAccent], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5377,7 +5360,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5394,7 +5377,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5411,7 +5394,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5428,7 +5411,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5445,7 +5428,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathAccent], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5462,7 +5462,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5479,7 +5479,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5496,7 +5496,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathAccent], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5513,7 +5513,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5530,7 +5530,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5547,7 +5547,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5564,7 +5564,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5581,7 +5581,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5598,7 +5598,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5615,7 +5615,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5632,7 +5632,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5649,7 +5649,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5666,24 +5666,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathRadical], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5700,7 +5683,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5717,7 +5700,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5734,7 +5717,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5751,7 +5734,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5768,7 +5751,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathRadical], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5785,7 +5785,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5802,7 +5802,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5819,7 +5819,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathRadical], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5836,7 +5836,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathLimit], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathLimit], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5853,7 +5853,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBorderBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBorderBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5870,7 +5870,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathFraction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathFraction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5887,7 +5887,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathDelimiter], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathDelimiter], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5904,7 +5904,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5921,7 +5921,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathLeftSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathLeftSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5938,7 +5938,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathRightSubSuperscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathRightSubSuperscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5955,7 +5955,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBox], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBox], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5972,7 +5972,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathMatrix], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathMatrix], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -5989,24 +5989,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathGroupingCharacter], [boolean]) Creates IMathLimit |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-| upperLimit | [boolean] | Sets the placement of the limit on top |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBar], [MathArray], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathArray], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6023,7 +6006,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBlock], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBlock], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6040,7 +6023,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathSubscriptElement], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathSubscriptElement], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6057,7 +6040,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathFunction], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathFunction], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6074,7 +6057,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathNaryOperator], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathNaryOperator], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6091,7 +6074,24 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathematicalText], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathGroupingCharacter], [boolean]) | Creates IMathLimit |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+| upperLimit | [boolean] | Sets the placement of the limit on top |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBar], [MathematicalText], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6108,7 +6108,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathAccent], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathAccent], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6125,7 +6125,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathRadical], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathRadical], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6142,7 +6142,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBar], [boolean]) Creates IMathLimit |
+| [createMathLimit] ([MathBar], [MathBar], [boolean]) | Creates IMathLimit |
 
 ### Parameters
 
@@ -6159,7 +6159,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6175,7 +6175,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6191,7 +6191,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6207,7 +6207,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6223,7 +6223,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6239,7 +6239,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6255,7 +6255,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6271,7 +6271,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6287,7 +6287,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6303,23 +6303,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLimit] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathLimit], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6335,7 +6319,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6351,7 +6335,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6367,7 +6351,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6383,7 +6367,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6399,7 +6383,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLimit] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathLimit], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6415,7 +6415,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6431,7 +6431,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6447,7 +6447,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLimit], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLimit], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6463,7 +6463,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6479,7 +6479,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6495,7 +6495,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6511,7 +6511,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6527,7 +6527,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6543,7 +6543,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6559,7 +6559,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6575,7 +6575,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6591,7 +6591,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6607,23 +6607,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBorderBox] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBorderBox], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6639,7 +6623,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6655,7 +6639,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6671,7 +6655,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6687,7 +6671,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6703,7 +6687,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBorderBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBorderBox], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6719,7 +6719,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6735,7 +6735,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6751,7 +6751,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBorderBox], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBorderBox], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6767,7 +6767,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6783,7 +6783,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6799,7 +6799,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6815,7 +6815,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6831,7 +6831,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6847,7 +6847,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6863,7 +6863,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6879,7 +6879,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6895,7 +6895,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6911,23 +6911,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFraction] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathFraction], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6943,7 +6927,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6959,7 +6943,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6975,7 +6959,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -6991,7 +6975,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7007,7 +6991,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFraction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathFraction], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7023,7 +7023,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7039,7 +7039,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7055,7 +7055,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFraction], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFraction], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7071,7 +7071,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7087,7 +7087,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7103,7 +7103,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7119,7 +7119,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7135,7 +7135,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7151,7 +7151,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7167,7 +7167,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7183,7 +7183,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7199,7 +7199,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7215,23 +7215,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathDelimiter] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathDelimiter], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7247,7 +7231,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7263,7 +7247,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7279,7 +7263,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7295,7 +7279,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7311,7 +7295,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathDelimiter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathDelimiter], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7327,7 +7327,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7343,7 +7343,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7359,7 +7359,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathDelimiter], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathDelimiter], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7375,7 +7375,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7391,7 +7391,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7407,7 +7407,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7423,7 +7423,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7439,7 +7439,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7455,7 +7455,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7471,7 +7471,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7487,7 +7487,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7503,7 +7503,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7519,23 +7519,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathSuperscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7551,7 +7535,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7567,7 +7551,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7583,7 +7567,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7599,7 +7583,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7615,7 +7599,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathSuperscriptElement], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7631,7 +7631,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7647,7 +7647,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7663,7 +7663,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSuperscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSuperscriptElement], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7679,7 +7679,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7695,7 +7695,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7711,7 +7711,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7727,7 +7727,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7743,7 +7743,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7759,7 +7759,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7775,7 +7775,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7791,7 +7791,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7807,7 +7807,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7823,23 +7823,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7855,7 +7839,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7871,7 +7855,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7887,7 +7871,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7903,7 +7887,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7919,7 +7903,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathLeftSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7935,7 +7935,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7951,7 +7951,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7967,7 +7967,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathLeftSubSuperscriptElement], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7983,7 +7983,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -7999,7 +7999,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8015,7 +8015,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8031,7 +8031,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8047,7 +8047,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8063,7 +8063,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8079,7 +8079,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8095,7 +8095,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8111,7 +8111,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8127,23 +8127,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8159,7 +8143,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8175,7 +8159,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8191,7 +8175,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8207,7 +8191,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8223,7 +8207,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRightSubSuperscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8239,7 +8239,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8255,7 +8255,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8271,7 +8271,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRightSubSuperscriptElement], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8287,7 +8287,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8303,7 +8303,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8319,7 +8319,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8335,7 +8335,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8351,7 +8351,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8367,7 +8367,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8383,7 +8383,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8399,7 +8399,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8415,7 +8415,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8431,23 +8431,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBox] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBox], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8463,7 +8447,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8479,7 +8463,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8495,7 +8479,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8511,7 +8495,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8527,7 +8511,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBox] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBox], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8543,7 +8543,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8559,7 +8559,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8575,7 +8575,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBox], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBox], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8591,7 +8591,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8607,7 +8607,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8623,7 +8623,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8639,7 +8639,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8655,7 +8655,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8671,7 +8671,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8687,7 +8687,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8703,7 +8703,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8719,7 +8719,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8735,23 +8735,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathMatrix] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathMatrix], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8767,7 +8751,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8783,7 +8767,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8799,7 +8783,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8815,7 +8799,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8831,7 +8815,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathMatrix] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathMatrix], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8847,7 +8847,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8863,7 +8863,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8879,7 +8879,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathMatrix], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathMatrix], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -8895,311 +8895,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathGroupingCharacter], [MathLimit]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathLimit] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBorderBox] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathFraction]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathFraction] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathDelimiter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathSuperscriptElement] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathLeftSubSuperscriptElement] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathRightSubSuperscriptElement] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBox]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBox] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathMatrix]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathMatrix] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathArray]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathArray] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBlock]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBlock] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathSubscriptElement] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathFunction]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathFunction] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathNaryOperator] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathematicalText]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathematicalText] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathAccent]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathAccent] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathRadical]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathRadical] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathGroupingCharacter], [MathBar]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
-| limit | [MathBar] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathArray], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9215,7 +8911,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9231,7 +8927,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9247,7 +8943,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9263,7 +8959,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9279,7 +8975,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9295,7 +8991,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9311,7 +9007,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9327,7 +9023,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9343,23 +9039,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathArray] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathArray], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9375,7 +9055,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9391,7 +9071,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9407,7 +9087,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9423,7 +9103,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9439,7 +9119,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathArray] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathArray], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9455,7 +9151,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9471,7 +9167,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9487,7 +9183,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathArray], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathArray], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9503,7 +9199,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9519,7 +9215,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9535,7 +9231,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9551,7 +9247,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9567,7 +9263,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9583,7 +9279,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9599,7 +9295,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9615,7 +9311,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9631,7 +9327,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9647,23 +9343,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBlock] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBlock], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9679,7 +9359,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9695,7 +9375,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9711,7 +9391,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9727,7 +9407,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9743,7 +9423,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBlock] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBlock], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9759,7 +9455,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9775,7 +9471,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9791,7 +9487,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBlock], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBlock], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9807,7 +9503,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9823,7 +9519,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9839,7 +9535,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9855,7 +9551,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9871,7 +9567,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9887,7 +9583,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9903,7 +9599,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9919,7 +9615,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9935,7 +9631,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9951,23 +9647,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathSubscriptElement], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9983,7 +9663,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -9999,7 +9679,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10015,7 +9695,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10031,7 +9711,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10047,7 +9727,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathSubscriptElement] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathSubscriptElement], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10063,7 +9759,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10079,7 +9775,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10095,7 +9791,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathSubscriptElement], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathSubscriptElement], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10111,7 +9807,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10127,7 +9823,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10143,7 +9839,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10159,7 +9855,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10175,7 +9871,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10191,7 +9887,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10207,7 +9903,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10223,7 +9919,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10239,7 +9935,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10255,23 +9951,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathFunction] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathFunction], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10287,7 +9967,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10303,7 +9983,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10319,7 +9999,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10335,7 +10015,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10351,7 +10031,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathFunction] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathFunction], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10367,7 +10063,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10383,7 +10079,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10399,7 +10095,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathFunction], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathFunction], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10415,7 +10111,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10431,7 +10127,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10447,7 +10143,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10463,7 +10159,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10479,7 +10175,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10495,7 +10191,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10511,7 +10207,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10527,7 +10223,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10543,7 +10239,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10559,23 +10255,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathNaryOperator] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathNaryOperator], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10591,7 +10271,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10607,7 +10287,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10623,7 +10303,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10639,7 +10319,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10655,7 +10335,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathNaryOperator] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathNaryOperator], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10671,7 +10367,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10687,7 +10383,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10703,7 +10399,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathNaryOperator], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathNaryOperator], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10719,7 +10415,311 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathGroupingCharacter], [MathLimit]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLimit] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBorderBox] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathFraction]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFraction] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathDelimiter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSuperscriptElement] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathLeftSubSuperscriptElement] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRightSubSuperscriptElement] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBox]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBox] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathMatrix] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathArray]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathArray] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBlock]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBlock] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathSubscriptElement] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathFunction]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathFunction] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathNaryOperator] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathematicalText] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathAccent]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathAccent] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathRadical]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathRadical] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathGroupingCharacter], [MathBar]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathGroupingCharacter] | Base argument to apply the limit |
+| limit | [MathBar] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathematicalText], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10735,7 +10735,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10751,7 +10751,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10767,7 +10767,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10783,7 +10783,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10799,7 +10799,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10815,7 +10815,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10831,7 +10831,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10847,7 +10847,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10863,23 +10863,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathematicalText] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathematicalText], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10895,7 +10879,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10911,7 +10895,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10927,7 +10911,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10943,7 +10927,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10959,7 +10943,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathematicalText] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathematicalText], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10975,7 +10975,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -10991,7 +10991,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11007,7 +11007,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathematicalText], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathematicalText], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11023,7 +11023,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11039,7 +11039,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11055,7 +11055,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11071,7 +11071,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11087,7 +11087,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11103,7 +11103,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11119,7 +11119,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11135,7 +11135,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11151,7 +11151,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11167,23 +11167,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathAccent] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathAccent], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11199,7 +11183,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11215,7 +11199,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11231,7 +11215,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11247,7 +11231,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11263,7 +11247,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathAccent] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathAccent], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11279,7 +11279,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11295,7 +11295,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11311,7 +11311,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathAccent], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathAccent], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11327,7 +11327,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11343,7 +11343,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11359,7 +11359,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11375,7 +11375,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11391,7 +11391,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11407,7 +11407,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11423,7 +11423,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11439,7 +11439,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11455,7 +11455,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11471,23 +11471,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathRadical] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathRadical], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11503,7 +11487,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11519,7 +11503,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11535,7 +11519,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11551,7 +11535,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11567,7 +11551,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathRadical] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathRadical], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11583,7 +11583,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11599,7 +11599,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11615,7 +11615,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathRadical], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathRadical], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11631,7 +11631,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathLimit]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathLimit]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11647,7 +11647,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBorderBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBorderBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11663,7 +11663,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathFraction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathFraction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11679,7 +11679,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathDelimiter]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathDelimiter]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11695,7 +11695,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11711,7 +11711,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathLeftSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathLeftSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11727,7 +11727,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathRightSubSuperscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathRightSubSuperscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11743,7 +11743,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBox]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBox]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11759,7 +11759,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathMatrix]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathMatrix]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11775,23 +11775,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathGroupingCharacter]) Creates IMathLimit with limit at the bottom |
-
-### Parameters
-
-| Name | Type | Description |
-| --- | --- | --- |
-| baseArg | [MathBar] | Base argument to apply the limit |
-| limit | [MathGroupingCharacter] | Limit element |
-
-### Result
-[MathLimit]
-
-
----
-
-
-| [createMathLimit] ([MathBar], [MathArray]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathArray]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11807,7 +11791,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBlock]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBlock]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11823,7 +11807,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathSubscriptElement]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathSubscriptElement]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11839,7 +11823,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathFunction]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathFunction]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11855,7 +11839,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathNaryOperator]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathNaryOperator]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11871,7 +11855,23 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathematicalText]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathGroupingCharacter]) | Creates IMathLimit with limit at the bottom |
+
+### Parameters
+
+| Name | Type | Description |
+| --- | --- | --- |
+| baseArg | [MathBar] | Base argument to apply the limit |
+| limit | [MathGroupingCharacter] | Limit element |
+
+### Result
+[MathLimit]
+
+
+---
+
+
+| [createMathLimit] ([MathBar], [MathematicalText]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11887,7 +11887,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathAccent]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathAccent]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11903,7 +11903,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathRadical]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathRadical]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
@@ -11919,7 +11919,7 @@ MathLimitFactory
 ---
 
 
-| [createMathLimit] ([MathBar], [MathBar]) Creates IMathLimit with limit at the bottom |
+| [createMathLimit] ([MathBar], [MathBar]) | Creates IMathLimit with limit at the bottom |
 
 ### Parameters
 
