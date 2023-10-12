@@ -16,7 +16,30 @@ url: /aspose.slides/transitionmorphtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| ByObject | 0 | Morph transition will be performed considering shapes as indivisible objects. |
-| ByWord | 1 | Morph transition will be performed with transferring text by words where possible. |
-| ByChar | 2 | Morph transition will be performed with transferring text by characters where possible. |
+| [ByObject](#ByObject) | 0 | Morph transition will be performed considering shapes as indivisible objects. |
+| [ByWord](#ByWord) | 1 | Morph transition will be performed with transferring text by words where possible. |
+| [ByChar](#ByChar) | 2 | Morph transition will be performed with transferring text by characters where possible. |
+
+
+---
+
+
+### ByObject {#ByObject}
+| ByObject| 0 | Morph transition will be performed considering shapes as indivisible objects. |
+
+
+---
+
+### ByWord {#ByWord}
+| ByWord| 1 | Morph transition will be performed with transferring text by words where possible. |
+
+
+---
+
+### ByChar {#ByChar}
+| ByChar| 2 | Morph transition will be performed with transferring text by characters where possible. |
+
+
+---
+
 

@@ -17,14 +17,14 @@ url: /aspose.slides/coloroperationcollection/
 | --- | --- |
 | add (int, float) | Adds a new operation to the end of collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | int | Operation type. |
 | parameter | float | Operation's parameter. |
 
- **Result**
+ **Result:**
 [ColorOperation](../coloroperation)
 
 
@@ -37,13 +37,13 @@ url: /aspose.slides/coloroperationcollection/
 | --- | --- |
 | add (int) | Adds a new operation to the end of collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | operation | int | Operation type. |
 
- **Result**
+ **Result:**
 [ColorOperation](../coloroperation)
 
 
@@ -66,7 +66,7 @@ url: /aspose.slides/coloroperationcollection/
 | --- | --- |
 | cloneT () | Clones current object |
 
- **Result**
+ **Result:**
 [ColorOperationCollection](../coloroperationcollection)
 
 
@@ -79,7 +79,7 @@ url: /aspose.slides/coloroperationcollection/
 | --- | --- |
 | deepClone () | Creates a copy of a ColorOperationCollection collection. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -92,7 +92,7 @@ Object
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -105,7 +105,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns or sets the operation at the specified index. Read/write ColorOperation. |
 
- **Result**
+ **Result:**
 [ColorOperation](../coloroperation)
 
 
@@ -118,7 +118,7 @@ Object
 | --- | --- |
 | insert (int, int, float) | Inserts the new operation to a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -126,7 +126,7 @@ Object
 | operation | int | Operation type. |
 | parameter | float | Operation's parameter. |
 
- **Result**
+ **Result:**
 [ColorOperation](../coloroperation)
 
 
@@ -139,14 +139,14 @@ Object
 | --- | --- |
 | insert (int, int) | Inserts the new operation to a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | position | int | The index at which the operation will be inserted. |
 | operation | int | Operation type. |
 
- **Result**
+ **Result:**
 [ColorOperation](../coloroperation)
 
 
@@ -159,7 +159,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -172,7 +172,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -185,7 +185,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -198,7 +198,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes the color operation from a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -224,7 +224,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of operations in a collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

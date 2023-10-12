@@ -19,7 +19,7 @@ url: /aspose.slides/paragraphfactory/
 | --- | --- |
 | ParagraphFactory() |  |
 
- **Result**
+ **Result:**
 ParagraphFactory
 
 
@@ -32,7 +32,7 @@ ParagraphFactory
 | --- | --- |
 | createParagraph () | Creates a new empty paragraph. |
 
- **Result**
+ **Result:**
 [Paragraph](../paragraph)
 
 
@@ -45,13 +45,13 @@ ParagraphFactory
 | --- | --- |
 | createParagraph ([Paragraph](../paragraph)) | Creates a new paragraph with specified paragraph data using. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | paragraph | [Paragraph](../paragraph) | A paragraph to use data. |
 
- **Result**
+ **Result:**
 [Paragraph](../paragraph)
 
 

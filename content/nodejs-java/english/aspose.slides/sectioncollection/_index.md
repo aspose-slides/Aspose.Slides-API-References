@@ -17,14 +17,14 @@ url: /aspose.slides/sectioncollection/
 | --- | --- |
 | addEmptySection (String, int) | Add empty section to specified position of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Name of the section |
 | index | int | Index of new section. |
 
- **Result**
+ **Result:**
 [Section](../section)
 
 
@@ -37,14 +37,14 @@ url: /aspose.slides/sectioncollection/
 | --- | --- |
 | addSection (String, [Slide](../slide)) | Add slides section started form specific slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Name of the section |
 | startedFromSlide | [Slide](../slide) | First slide of section |
 
- **Result**
+ **Result:**
 [Section](../section)
 
 
@@ -57,13 +57,13 @@ url: /aspose.slides/sectioncollection/
 | --- | --- |
 | appendEmptySection (String) | Add empty section to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Name of the section |
 
- **Result**
+ **Result:**
 [Section](../section)
 
 
@@ -86,7 +86,7 @@ url: /aspose.slides/sectioncollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -99,7 +99,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only ISection. |
 
- **Result**
+ **Result:**
 [Section](../section)
 
 
@@ -112,13 +112,13 @@ Object
 | --- | --- |
 | indexOf ([Section](../section)) | Returns an index of the specified section in the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | section | [Section](../section) | Section to find. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -131,7 +131,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -144,7 +144,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -157,7 +157,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -170,7 +170,7 @@ boolean
 | --- | --- |
 | removeSection ([Section](../section)) | Remove section. Slides contained in the section will be merged into previous section. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -186,7 +186,7 @@ boolean
 | --- | --- |
 | removeSectionWithSlides ([Section](../section)) | Remove section and slides contained in the section. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -202,7 +202,7 @@ boolean
 | --- | --- |
 | reorderSectionWithSlides ([Section](../section), int) | Moves section and its slides from the collection to the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -219,7 +219,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

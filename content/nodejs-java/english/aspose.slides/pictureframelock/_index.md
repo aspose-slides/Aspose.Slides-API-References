@@ -17,7 +17,7 @@ url: /aspose.slides/pictureframelock/
 | --- | --- |
 | getAdjustHandlesLocked () | Determines whether a changing adjust values is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -30,7 +30,7 @@ boolean
 | --- | --- |
 | getArrowheadsLocked () | Determines whether a changing arrowheads is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getAspectRatioLocked () | Determines whether a shape have to preserve aspect ratio on resizing. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getCropLocked () | Determines whether an image cropping is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getEditPointsLocked () | Determines whether a direct changing of contour of this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getGroupingLocked () | Determines whether an adding this shape to a group is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | getPositionLocked () | Determines whether a moving this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | getRotationLocked () | Determines whether a changing rotation angle of this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | getSelectLocked () | Determines whether a selecting this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -134,7 +134,7 @@ boolean
 | --- | --- |
 | getShapeTypeLocked () | Determines whether a changing of a shape type is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -147,7 +147,7 @@ boolean
 | --- | --- |
 | getSizeLocked () | Determines whether a resizing this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

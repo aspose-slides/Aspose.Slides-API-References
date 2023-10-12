@@ -17,7 +17,7 @@ url: /aspose.slides/fontdatafactory/
 | --- | --- |
 | FontDataFactory() |  |
 
- **Result**
+ **Result:**
 FontDataFactory
 
 
@@ -30,13 +30,13 @@ FontDataFactory
 | --- | --- |
 | createFontData (String) | Creates FontData with specified font name. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | fontName | String | Font name |
 
- **Result**
+ **Result:**
 [FontData](../fontdata)
 
 

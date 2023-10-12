@@ -17,7 +17,7 @@ url: /aspose.slides/cellunsupporteddataexception/
 | --- | --- |
 | CellUnsupportedDataException() | Initializes a new instance of the CellUnsupportedDataException class. |
 
- **Result**
+ **Result:**
 CellUnsupportedDataException
 
 
@@ -30,13 +30,13 @@ CellUnsupportedDataException
 | --- | --- |
 | CellUnsupportedDataException(String) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 
- **Result**
+ **Result:**
 CellUnsupportedDataException
 
 
@@ -49,14 +49,14 @@ CellUnsupportedDataException
 | --- | --- |
 | CellUnsupportedDataException(String, RuntimeException) | Initializes a new instance of the CellUnsupportedDataException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 | innerException | RuntimeException | The exception that is the cause of the current exception. |
 
- **Result**
+ **Result:**
 CellUnsupportedDataException
 
 

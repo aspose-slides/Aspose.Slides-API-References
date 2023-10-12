@@ -19,13 +19,13 @@ url: /aspose.slides/alphafloor/
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaFloor is equal to the current AlphaFloor. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The AlphaFloor to compare. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Alpha Floor effect data with the inheritance applied. |
 
- **Result**
+ **Result:**
 AlphaFloorEffectiveData
 
 
@@ -51,7 +51,7 @@ AlphaFloorEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result**
+ **Result:**
 int
 
 

@@ -17,13 +17,13 @@ url: /aspose.slides/presentationinfo/
 | --- | --- |
 | checkPassword (String) | Checks whether a password is correct for a presentation protected with open password. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | password | String | The password to check. When the password is null or empty, this function returns false. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -42,13 +42,13 @@ boolean
 | --- | --- |
 | checkWriteProtection (String) | Checks whether a password to modify is correct for a write protected presentation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | password | String | The password to check. 1. You should check the ( #isWriteProtected) property before calling this function. 2. When password is null or empty, this function returns false. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -67,7 +67,7 @@ boolean
 | --- | --- |
 | getLoadFormat () | Gets format of the binded presentation. Read-only LoadFormat. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -80,7 +80,7 @@ int
 | --- | --- |
 | isEncrypted () | Gets True if binded presentation is encrypted, otherwise False. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -93,7 +93,7 @@ boolean
 | --- | --- |
 | isPasswordProtected () | Gets a value that indicates whether a binded presentation is protected by a password to open. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -106,7 +106,7 @@ boolean
 | --- | --- |
 | isWriteProtected () | Gets a value that indicates whether a binded presentation is write protected. If the presentation is protected by a password to open, the property value equals NotDefined. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -119,7 +119,7 @@ byte
 | --- | --- |
 | readDocumentProperties () | Gets document properties of binded presentation. |
 
- **Result**
+ **Result:**
 [DocumentProperties](../documentproperties)
 
 
@@ -142,7 +142,7 @@ byte
 | --- | --- |
 | writeBindedPresentationToStream  (PresentationInfo, WriteStream) | Writes binded presentation to stream. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -159,7 +159,7 @@ byte
 | --- | --- |
 | writeBindedPresentation (String) | Writes binded presentation to file. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

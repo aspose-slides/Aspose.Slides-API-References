@@ -17,7 +17,7 @@ url: /aspose.slides/coloroffset/
 | --- | --- |
 | ColorOffset() |  |
 
- **Result**
+ **Result:**
 ColorOffset
 
 
@@ -30,7 +30,7 @@ ColorOffset
 | --- | --- |
 | getValue0 () | Defines first value of offset. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getValue1 () | Defines second value of offset. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getValue2 () | Defines third value of offset. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 

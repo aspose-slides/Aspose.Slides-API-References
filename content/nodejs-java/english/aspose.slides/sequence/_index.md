@@ -17,7 +17,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([LegacyDiagram](../legacydiagram), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -39,7 +39,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Connector](../connector), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -48,7 +48,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -61,7 +61,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([GraphicalObject](../graphicalobject), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -83,7 +83,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Shape](../shape), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -92,7 +92,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -105,7 +105,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Ink](../ink), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -114,7 +114,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -127,7 +127,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([GroupShape](../groupshape), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -136,7 +136,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -149,7 +149,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([SmartArtShape](../smartartshape), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -158,7 +158,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -171,7 +171,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([SummaryZoomSection](../summaryzoomsection), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -180,7 +180,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -193,7 +193,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([ZoomObject](../zoomobject), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -202,7 +202,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -215,7 +215,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([SmartArt](../smartart), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -224,7 +224,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -237,7 +237,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([VideoFrame](../videoframe), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -246,7 +246,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -259,7 +259,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([PictureFrame](../pictureframe), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -268,7 +268,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -281,7 +281,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([ZoomFrame](../zoomframe), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -290,7 +290,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -303,7 +303,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([AutoShape](../autoshape), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -312,7 +312,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -325,7 +325,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([OleObjectFrame](../oleobjectframe), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -334,7 +334,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -347,7 +347,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([SectionZoomFrame](../sectionzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -356,7 +356,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -369,7 +369,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([AudioFrame](../audioframe), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -378,7 +378,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -391,7 +391,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Chart](../chart), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -400,7 +400,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -413,7 +413,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Table](../table), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -422,7 +422,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -435,7 +435,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([SummaryZoomFrame](../summaryzoomframe), int, int, int) | Add new effect to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -444,7 +444,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -457,7 +457,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Paragraph](../paragraph), int, int, int) | Add new animation effect for paragraph to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -466,7 +466,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -479,7 +479,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Chart](../chart), int, int, int, int, int) | Adds the new chart animation effect for category or series to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -490,7 +490,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -503,7 +503,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | addEffect ([Chart](../chart), int, int, int, int, int, int) | Adds the new chart animation effect for elements in category or series to the end of sequence. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -515,7 +515,7 @@ url: /aspose.slides/sequence/
 | subtype | int | Subtypes of animation effect EffectSubtype |
 | triggerType | int | Trigger type of effect EffectTriggerType |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -538,7 +538,7 @@ url: /aspose.slides/sequence/
 | --- | --- |
 | getCount () | Returns the number of effects in a sequense. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -551,7 +551,7 @@ int
 | --- | --- |
 | getCount ([LegacyDiagram](../legacydiagram)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -564,7 +564,7 @@ int
 | --- | --- |
 | getCount ([Connector](../connector)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -577,7 +577,7 @@ int
 | --- | --- |
 | getCount ([GraphicalObject](../graphicalobject)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -590,7 +590,7 @@ int
 | --- | --- |
 | getCount ([Shape](../shape)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -603,7 +603,7 @@ int
 | --- | --- |
 | getCount ([Ink](../ink)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -616,7 +616,7 @@ int
 | --- | --- |
 | getCount ([GroupShape](../groupshape)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -629,7 +629,7 @@ int
 | --- | --- |
 | getCount ([SmartArtShape](../smartartshape)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -642,7 +642,7 @@ int
 | --- | --- |
 | getCount ([SummaryZoomSection](../summaryzoomsection)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -655,7 +655,7 @@ int
 | --- | --- |
 | getCount ([ZoomObject](../zoomobject)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -668,7 +668,7 @@ int
 | --- | --- |
 | getCount ([SmartArt](../smartart)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -681,7 +681,7 @@ int
 | --- | --- |
 | getCount ([VideoFrame](../videoframe)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -694,7 +694,7 @@ int
 | --- | --- |
 | getCount ([PictureFrame](../pictureframe)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -707,7 +707,7 @@ int
 | --- | --- |
 | getCount ([ZoomFrame](../zoomframe)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -720,7 +720,7 @@ int
 | --- | --- |
 | getCount ([AutoShape](../autoshape)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -733,7 +733,7 @@ int
 | --- | --- |
 | getCount ([OleObjectFrame](../oleobjectframe)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -746,7 +746,7 @@ int
 | --- | --- |
 | getCount ([SectionZoomFrame](../sectionzoomframe)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -759,7 +759,7 @@ int
 | --- | --- |
 | getCount ([AudioFrame](../audioframe)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -772,7 +772,7 @@ int
 | --- | --- |
 | getCount ([Chart](../chart)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -785,7 +785,7 @@ int
 | --- | --- |
 | getCount ([Table](../table)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -798,7 +798,7 @@ int
 | --- | --- |
 | getCount ([SummaryZoomFrame](../summaryzoomframe)) | Returns count of effects for the specified shape. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -811,7 +811,7 @@ int
 | --- | --- |
 | getEffectsByParagraph ([Paragraph](../paragraph)) | Returns array of effects for the specified paragraph. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -824,7 +824,7 @@ int
 | --- | --- |
 | getEffectsByShape ([LegacyDiagram](../legacydiagram)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -837,7 +837,7 @@ int
 | --- | --- |
 | getEffectsByShape ([Connector](../connector)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -850,7 +850,7 @@ int
 | --- | --- |
 | getEffectsByShape ([GraphicalObject](../graphicalobject)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -863,7 +863,7 @@ int
 | --- | --- |
 | getEffectsByShape ([Shape](../shape)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -876,7 +876,7 @@ int
 | --- | --- |
 | getEffectsByShape ([Ink](../ink)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -889,7 +889,7 @@ int
 | --- | --- |
 | getEffectsByShape ([GroupShape](../groupshape)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -902,7 +902,7 @@ int
 | --- | --- |
 | getEffectsByShape ([SmartArtShape](../smartartshape)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -915,7 +915,7 @@ int
 | --- | --- |
 | getEffectsByShape ([SummaryZoomSection](../summaryzoomsection)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -928,7 +928,7 @@ int
 | --- | --- |
 | getEffectsByShape ([ZoomObject](../zoomobject)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -941,7 +941,7 @@ int
 | --- | --- |
 | getEffectsByShape ([SmartArt](../smartart)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -954,7 +954,7 @@ int
 | --- | --- |
 | getEffectsByShape ([VideoFrame](../videoframe)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -967,7 +967,7 @@ int
 | --- | --- |
 | getEffectsByShape ([PictureFrame](../pictureframe)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -980,7 +980,7 @@ int
 | --- | --- |
 | getEffectsByShape ([ZoomFrame](../zoomframe)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -993,7 +993,7 @@ int
 | --- | --- |
 | getEffectsByShape ([AutoShape](../autoshape)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1006,7 +1006,7 @@ int
 | --- | --- |
 | getEffectsByShape ([OleObjectFrame](../oleobjectframe)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1019,7 +1019,7 @@ int
 | --- | --- |
 | getEffectsByShape ([SectionZoomFrame](../sectionzoomframe)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1032,7 +1032,7 @@ int
 | --- | --- |
 | getEffectsByShape ([AudioFrame](../audioframe)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1045,7 +1045,7 @@ int
 | --- | --- |
 | getEffectsByShape ([Chart](../chart)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1058,7 +1058,7 @@ int
 | --- | --- |
 | getEffectsByShape ([Table](../table)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1071,7 +1071,7 @@ int
 | --- | --- |
 | getEffectsByShape ([SummaryZoomFrame](../summaryzoomframe)) | Returns array of effects for the specified shape. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1084,7 +1084,7 @@ int
 | --- | --- |
 | getTriggerShape () | Returns or sets shape target for INTERACTIVE sequence. If sequence is not interactive then returns null. Read/write IShape. |
 
- **Result**
+ **Result:**
 [LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
 
 
@@ -1097,13 +1097,13 @@ int
 | --- | --- |
 | get_Item (int) | Returns an effect at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of element. |
 
- **Result**
+ **Result:**
 [Effect](../effect)
 
 
@@ -1116,7 +1116,7 @@ int
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -1129,7 +1129,7 @@ int
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -1142,7 +1142,7 @@ int
 | --- | --- |
 | remove ([Effect](../effect)) | Removes specified effect from a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1158,7 +1158,7 @@ int
 | --- | --- |
 | removeAt (int) | Removes an effect from a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

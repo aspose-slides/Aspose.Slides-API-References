@@ -17,7 +17,7 @@ url: /aspose.slides/mathportion/
 | --- | --- |
 | MathPortion() | Initializes a new instance of the MathPortion class. |
 
- **Result**
+ **Result:**
 MathPortion
 
 
@@ -30,7 +30,7 @@ MathPortion
 | --- | --- |
 | getMathParagraph () | Math paragraph |
 
- **Result**
+ **Result:**
 [MathParagraph](../mathparagraph)
 
 

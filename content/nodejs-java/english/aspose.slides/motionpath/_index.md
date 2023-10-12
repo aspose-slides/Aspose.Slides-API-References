@@ -17,7 +17,7 @@ url: /aspose.slides/motionpath/
 | --- | --- |
 | MotionPath() |  |
 
- **Result**
+ **Result:**
 MotionPath
 
 
@@ -30,7 +30,7 @@ MotionPath
 | --- | --- |
 | add (int, java.awt.geom.Point2D.Float[], int, boolean) | Add new command to path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -39,7 +39,7 @@ MotionPath
 | ptsType | int | MotionPathPointsType |
 | bRelativeCoord | boolean | Relative coordinates boolean |
 
- **Result**
+ **Result:**
 [MotionCmdPath](../motioncmdpath)
 
 
@@ -62,7 +62,7 @@ MotionPath
 | --- | --- |
 | getCount () | Returns the number of paths in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -75,13 +75,13 @@ int
 | --- | --- |
 | get_Item (int) | Returns a command at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of element. |
 
- **Result**
+ **Result:**
 [MotionCmdPath](../motioncmdpath)
 
 
@@ -94,7 +94,7 @@ int
 | --- | --- |
 | insert (int, int, java.awt.geom.Point2D.Float[], int, boolean) | Insert new command to path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -127,7 +127,7 @@ int
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -140,7 +140,7 @@ int
 | --- | --- |
 | remove ([MotionCmdPath](../motioncmdpath)) | Removes specified commans from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -156,7 +156,7 @@ int
 | --- | --- |
 | removeAt (int) | Removes a command at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

@@ -16,6 +16,23 @@ url: /aspose.slides/picturefillmode/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Tile | 0 |  |
-| Stretch | 1 |  |
+| [Tile](#Tile) | 0 |  |
+| [Stretch](#Stretch) | 1 |  |
+
+
+---
+
+
+### Tile {#Tile}
+| Tile| 0 |  |
+
+
+---
+
+### Stretch {#Stretch}
+| Stretch| 1 |  |
+
+
+---
+
 

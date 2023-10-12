@@ -16,7 +16,30 @@ url: /aspose.slides/shapeelementstrokesource/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NoStroke | 0 | Don't stroke primitive. |
-| Shape | 1 | Use shape's LineFormat. |
-| OwnStroke | 2 | Use own stroke. |
+| [NoStroke](#NoStroke) | 0 | Don't stroke primitive. |
+| [Shape](#Shape) | 1 | Use shape's LineFormat. |
+| [OwnStroke](#OwnStroke) | 2 | Use own stroke. |
+
+
+---
+
+
+### NoStroke {#NoStroke}
+| NoStroke| 0 | Don't stroke primitive. |
+
+
+---
+
+### Shape {#Shape}
+| Shape| 1 | Use shape's LineFormat. |
+
+
+---
+
+### OwnStroke {#OwnStroke}
+| OwnStroke| 2 | Use own stroke. |
+
+
+---
+
 

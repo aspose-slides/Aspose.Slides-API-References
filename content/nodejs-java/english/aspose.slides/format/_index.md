@@ -17,7 +17,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getEffect () | Returns effects used for a chart. Read-only IEffectFormat. |
 
- **Result**
+ **Result:**
 [EffectFormat](../effectformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getEffect3D () | Returns 3D format of a chart. Read-only IThreeDFormat. |
 
- **Result**
+ **Result:**
 [ThreeDFormat](../threedformat)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getFill () | Returns fill style properties of a chart. Read-only IFillFormat. |
 
- **Result**
+ **Result:**
 [FillFormat](../fillformat)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getLine () | Returns line style properties of a chart. Read-only ILineFormat. |
 
- **Result**
+ **Result:**
 [LineFormat](../lineformat)
 
 
@@ -69,7 +69,7 @@ url: /aspose.slides/format/
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 

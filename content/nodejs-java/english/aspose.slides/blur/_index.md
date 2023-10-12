@@ -18,13 +18,13 @@ url: /aspose.slides/blur/
 | --- | --- |
 | equals (Object) | Determines whether the specified Blur is equal to the current Blur. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The Blur to compare. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Blur effect data with the inheritance applied. |
 
- **Result**
+ **Result:**
 BlurEffectiveData
 
 
@@ -50,7 +50,7 @@ BlurEffectiveData
 | --- | --- |
 | getGrow () | Determines whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -63,7 +63,7 @@ boolean
 | --- | --- |
 | getRadius () | Returns or sets blur radius. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -76,7 +76,7 @@ double
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result**
+ **Result:**
 int
 
 

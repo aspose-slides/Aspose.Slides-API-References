@@ -17,7 +17,7 @@ url: /aspose.slides/eightdirectiontransition/
 | --- | --- |
 | getDirection () | Direction of transition. Read/write TransitionEightDirectionType. |
 
- **Result**
+ **Result:**
 int
 
 

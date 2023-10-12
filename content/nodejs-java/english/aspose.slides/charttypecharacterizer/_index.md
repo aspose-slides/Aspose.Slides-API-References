@@ -17,7 +17,7 @@ url: /aspose.slides/charttypecharacterizer/
 | --- | --- |
 | ChartTypeCharacterizer() |  |
 
- **Result**
+ **Result:**
 ChartTypeCharacterizer
 
 
@@ -30,13 +30,13 @@ ChartTypeCharacterizer
 | --- | --- |
 | hasSeriesTrendLines (int) | Returns if there are series trend lines for specified series type. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | seriesType | int | Series type. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | is2DChart (int) | Return true if chartType is one of 2D chart types. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -62,7 +62,7 @@ boolean
 | --- | --- |
 | is3DChart (int) | Return true if chartType is one of 3D chart types. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | isBar3DChart (int) | Return true if chartType is one of bar3DChart subtypes (3D columns or bars). |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | isChartTypeArea (int) | Return true if chartType is one of Area subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#Area, ChartType#PercentsStackedArea, ChartType#PercentsStackedArea3D, ChartType#StackedArea, ChartType#StackedArea3D, ChartType#Area3D. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -101,7 +101,7 @@ boolean
 | --- | --- |
 | isChartTypeBar (int) | Return true if chartType is one of Bar subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#ClusteredBar, ChartType#ClusteredBar3D, ChartType#PercentsStackedBar, ChartType#PercentsStackedBar3D, ChartType#StackedBar, ChartType#StackedBar3D, ChartType#ClusteredHorizontalCone, ChartType#ClusteredHorizontalCylinder, ChartType#ClusteredHorizontalPyramid, ChartType#StackedHorizontalCone, ChartType#StackedHorizontalCylinder, ChartType#StackedHorizontalPyramid, ChartType#PercentsStackedHorizontalCone, ChartType#PercentsStackedHorizontalCylinder, ChartType#PercentsStackedHorizontalPyramid. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -114,7 +114,7 @@ boolean
 | --- | --- |
 | isChartTypeBubble (int) | Return true if chartType is one of Bubble subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#Bubble, ChartType#BubbleWith3D. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -127,7 +127,7 @@ boolean
 | --- | --- |
 | isChartTypeColumn (int) | Return true if chartType is one of Column subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#ClusteredColumn, ChartType#ClusteredColumn3D, ChartType#ClusteredCone, ChartType#ClusteredCylinder, ChartType#ClusteredPyramid, ChartType#PercentsStackedColumn, ChartType#PercentsStackedColumn3D, ChartType#PercentsStackedCone, ChartType#PercentsStackedCylinder, ChartType#PercentsStackedPyramid, ChartType#StackedColumn, ChartType#StackedColumn3D, ChartType#StackedCone, ChartType#StackedCylinder, ChartType#StackedPyramid, ChartType#Column3D, ChartType#Cylinder3D, ChartType#Cone3D, ChartType#Pyramid3D. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -140,7 +140,7 @@ boolean
 | --- | --- |
 | isChartTypeDoughnut (int) | Return true if chartType is one of Doughnut subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#Doughnut, ChartType#ExplodedDoughnut. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -153,7 +153,7 @@ boolean
 | --- | --- |
 | isChartTypeLine (int) | Return true if chartType is one of Line subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#Line, ChartType#LineWithMarkers, ChartType#PercentsStackedLine, ChartType#PercentsStackedLineWithMarkers, ChartType#StackedLine, ChartType#StackedLineWithMarkers, ChartType#Line3D. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -166,7 +166,7 @@ boolean
 | --- | --- |
 | isChartTypePie (int) | Return true if chartType is one of Pie subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#BarOfPie, ChartType#ExplodedPie, ChartType#ExplodedPie3D, ChartType#Pie, ChartType#Pie3D, ChartType#PieOfPie. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -179,7 +179,7 @@ boolean
 | --- | --- |
 | isChartTypeRadar (int) | Return true if chartType is one of Radar subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#FilledRadar, ChartType#Radar, ChartType#RadarWithMarkers. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -192,7 +192,7 @@ boolean
 | --- | --- |
 | isChartTypeScatter (int) | Return true if chartType is one of Scatter subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#ScatterWithMarkers, ChartType#ScatterWithSmoothLines, ChartType#ScatterWithSmoothLinesAndMarkers, ChartType#ScatterWithStraightLines, ChartType#ScatterWithStraightLinesAndMarkers. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -205,7 +205,7 @@ boolean
 | --- | --- |
 | isChartTypeStock (int) | Return true if chartType is one of Stock subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#HighLowClose, ChartType#OpenHighLowClose, ChartType#VolumeHighLowClose, ChartType#VolumeOpenHighLowClose. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -218,7 +218,7 @@ boolean
 | --- | --- |
 | isChartTypeSurface (int) | Return true if chartType is one of Surface subtypes. Subtypes set corresponds to the appropriate set in PowerPoint (see "Change Chart Type" dialog in PowerPoint): ChartType#Surface3D, ChartType#WireframeSurface3D, ChartType#Contour, ChartType#WireframeContour. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -231,13 +231,13 @@ boolean
 | --- | --- |
 | isErrorBarsXAllowed (int) | Returns if error bars X allowed for specified series type. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | seriesType | int | Series type. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -250,13 +250,13 @@ boolean
 | --- | --- |
 | isErrorBarsYAllowed (int) | Returns if error bars Y allowed for specified series type. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | seriesType | int | Series type. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -269,13 +269,13 @@ boolean
 | --- | --- |
 | isSeriesUsesBubbleSizeCoordinate (int) | Returns if bubble size coordinates can be used for specified series type. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | seriesType | int | Series type. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -288,13 +288,13 @@ boolean
 | --- | --- |
 | isSeriesUsesValueCoordinate (int) | Returns if specified series type uses value coordinates. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | seriesType | int | Series type. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -307,13 +307,13 @@ boolean
 | --- | --- |
 | isSeriesUsesXValueCoordinate (int) | Returns if specified series type uses X value coordinates. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | seriesType | int | Series type. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -326,13 +326,13 @@ boolean
 | --- | --- |
 | isSeriesUsesYValueCoordinate (int) | Returns if specified series type uses Y value coordinates. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | seriesType | int | Series type. |
 
- **Result**
+ **Result:**
 boolean
 
 

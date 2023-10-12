@@ -17,7 +17,7 @@ url: /aspose.slides/browsedatkiosk/
 | --- | --- |
 | BrowsedAtKiosk() | Initializes a new instance of the BrowsedAtKiosk class. |
 
- **Result**
+ **Result:**
 BrowsedAtKiosk
 
 

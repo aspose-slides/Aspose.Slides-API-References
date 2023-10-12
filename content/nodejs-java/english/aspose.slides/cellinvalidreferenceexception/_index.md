@@ -17,7 +17,7 @@ url: /aspose.slides/cellinvalidreferenceexception/
 | --- | --- |
 | CellInvalidReferenceException() | Initializes a new instance of the CellInvalidReferenceException class. |
 
- **Result**
+ **Result:**
 CellInvalidReferenceException
 
 
@@ -30,13 +30,13 @@ CellInvalidReferenceException
 | --- | --- |
 | CellInvalidReferenceException(String) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 
- **Result**
+ **Result:**
 CellInvalidReferenceException
 
 
@@ -49,14 +49,14 @@ CellInvalidReferenceException
 | --- | --- |
 | CellInvalidReferenceException(String, RuntimeException) | Initializes a new instance of the CellInvalidReferenceException class with a specified error message and a reference to the inner exception that is the cause of this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 | innerException | RuntimeException | The exception that is the cause of the current exception. |
 
- **Result**
+ **Result:**
 CellInvalidReferenceException
 
 
@@ -69,14 +69,14 @@ CellInvalidReferenceException
 | --- | --- |
 | CellInvalidReferenceException(String, String) | Initializes a new instance of the CellCircularReferenceException class with a specified error message and an invalid cell reference. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | A string that describes the error. |
 | reference | String | An invalid cell reference. |
 
- **Result**
+ **Result:**
 CellInvalidReferenceException
 
 
@@ -89,7 +89,7 @@ CellInvalidReferenceException
 | --- | --- |
 | getReference () | Gets an invalid cell reference. |
 
- **Result**
+ **Result:**
 String
 
 

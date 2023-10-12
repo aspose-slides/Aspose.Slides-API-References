@@ -16,8 +16,37 @@ url: /aspose.slides/mathjustification/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| LeftJustified | 1 | Align mathematical text to the left |
-| RightJustified | 2 | Align mathematical text to the right |
-| Centered | 3 | Align mathematical text to the center |
-| CenteredAsGroup | 4 | Center on the page the entire group of math blocks as a single unit. This means that the instances of mathematical text can be aligned with respect to each other, but the entire group of mathematical text is centered as a whole. |
+| [LeftJustified](#LeftJustified) | 1 | Align mathematical text to the left |
+| [RightJustified](#RightJustified) | 2 | Align mathematical text to the right |
+| [Centered](#Centered) | 3 | Align mathematical text to the center |
+| [CenteredAsGroup](#CenteredAsGroup) | 4 | Center on the page the entire group of math blocks as a single unit. This means that the instances of mathematical text can be aligned with respect to each other, but the entire group of mathematical text is centered as a whole. |
+
+
+---
+
+
+### LeftJustified {#LeftJustified}
+| LeftJustified| 1 | Align mathematical text to the left |
+
+
+---
+
+### RightJustified {#RightJustified}
+| RightJustified| 2 | Align mathematical text to the right |
+
+
+---
+
+### Centered {#Centered}
+| Centered| 3 | Align mathematical text to the center |
+
+
+---
+
+### CenteredAsGroup {#CenteredAsGroup}
+| CenteredAsGroup| 4 | Center on the page the entire group of math blocks as a single unit. This means that the instances of mathematical text can be aligned with respect to each other, but the entire group of mathematical text is centered as a whole. |
+
+
+---
+
 

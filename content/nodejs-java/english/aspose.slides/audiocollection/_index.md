@@ -17,13 +17,13 @@ url: /aspose.slides/audiocollection/
 | --- | --- |
 | addAudio ([Audio](../audio)) | Adds a copy of an audio file from an another presentation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | audio | [Audio](../audio) | Source audio. |
 
- **Result**
+ **Result:**
 [Audio](../audio)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/audiocollection/
 | --- | --- |
 | addAudioFromStream  (AudioCollection, ReadStream, Function) | Creates and adds a audio to a presentation from stream. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,7 +44,7 @@ url: /aspose.slides/audiocollection/
 | stream | ReadStream | Stream to add audio from. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Audio](../audio)
 
 
@@ -57,7 +57,7 @@ url: /aspose.slides/audiocollection/
 | --- | --- |
 | addAudioFromStream  (AudioCollection, ReadStream, int, Function) | Creates and adds a audio to a presentation from stream. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ url: /aspose.slides/audiocollection/
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Audio](../audio)
 
 
@@ -79,13 +79,13 @@ url: /aspose.slides/audiocollection/
 | --- | --- |
 | addAudio (byte[]) | Creates and adds a audio to a presentation from byte array. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | audioData | byte[] | Audio bytes. |
 
- **Result**
+ **Result:**
 [Audio](../audio)
 
 
@@ -98,7 +98,7 @@ url: /aspose.slides/audiocollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -111,7 +111,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only IAudio. |
 
- **Result**
+ **Result:**
 [Audio](../audio)
 
 
@@ -124,7 +124,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -137,7 +137,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -150,7 +150,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -163,7 +163,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of audio files in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

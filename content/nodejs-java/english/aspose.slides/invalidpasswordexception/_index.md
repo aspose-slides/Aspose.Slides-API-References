@@ -17,7 +17,7 @@ url: /aspose.slides/invalidpasswordexception/
 | --- | --- |
 | InvalidPasswordException() | Default function. |
 
- **Result**
+ **Result:**
 InvalidPasswordException
 
 
@@ -30,13 +30,13 @@ InvalidPasswordException
 | --- | --- |
 | InvalidPasswordException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 InvalidPasswordException
 
 
@@ -49,14 +49,14 @@ InvalidPasswordException
 | --- | --- |
 | InvalidPasswordException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 InvalidPasswordException
 
 

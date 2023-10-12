@@ -17,13 +17,13 @@ url: /aspose.slides/fontdata/
 | --- | --- |
 | FontData(String) | Creates a new FontData object with the specified font name. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | fontName | String | Font name. |
 
- **Result**
+ **Result:**
 FontData
 
 
@@ -36,13 +36,13 @@ FontData
 | --- | --- |
 | equals (Object) | Determines whether two FontData instances are equal. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The FontData to compare with the current FontData. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -55,7 +55,7 @@ boolean
 | --- | --- |
 | getFontName () | Returns the font name. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -68,13 +68,13 @@ String
 | --- | --- |
 | getFontName ([IThemeEffectiveData](../ithemeeffectivedata)) | Returns the font name, replacing theme referrence with an actual font used. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | theme | [IThemeEffectiveData](../ithemeeffectivedata) | Theme from which themed font name should be taken. Its up to caller to provide a correct value. See IThemeable#createThemeEffective |
 
- **Result**
+ **Result:**
 String
 
 
@@ -87,7 +87,7 @@ String
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -100,7 +100,7 @@ int
 | --- | --- |
 | toString () | Returns string representation. |
 
- **Result**
+ **Result:**
 String
 
 

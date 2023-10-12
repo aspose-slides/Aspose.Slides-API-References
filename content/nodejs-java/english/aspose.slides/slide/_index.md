@@ -17,7 +17,7 @@ url: /aspose.slides/slide/
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the slide. Read-only ISlideHeaderFooterManager. |
 
- **Result**
+ **Result:**
 [SlideHeaderFooterManager](../slideheaderfootermanager)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/slide/
 | --- | --- |
 | getHidden () | Determines whether the specified slide is hidden during a slide show. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getLayoutSlide () | Returns or sets the layout slide for the current slide. Read/write ILayoutSlide. |
 
- **Result**
+ **Result:**
 [LayoutSlide](../layoutslide)
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getNotesSlideManager () | Allow to access notes slide, add and remove it. Read-only INotesSlideManager. |
 
- **Result**
+ **Result:**
 [NotesSlideManager](../notesslidemanager)
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,13 +82,13 @@ boolean
 | --- | --- |
 | getSlideComments ([CommentAuthor](../commentauthor)) | Returns all slide comments added by specific author. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | author | [CommentAuthor](../commentauthor) | Author of comments to find or null to return all comments. |
 
- **Result**
+ **Result:**
 [Comment](../comment), [ModernComment](../moderncomment)
 
 
@@ -101,7 +101,7 @@ boolean
 | --- | --- |
 | getSlideNumber () | Returns a number of slide. Index of slide in ( Presentation#getSlides) collection is always equal to SlideNumber - Presentation.FirstSlideNumber. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
- **Result**
+ **Result:**
 [NotesSlideThemeManager](../notesslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [SlideThemeManager](../slidethememanager)
 
 
@@ -127,14 +127,14 @@ int
 | --- | --- |
 | getThumbnail (float, float) | Returns a Thumbnail Bitmap object with custom scaling. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
- **Result**
+ **Result:**
 BufferedImage
 
 
@@ -147,7 +147,7 @@ BufferedImage
 | --- | --- |
 | getThumbnail () | Returns a Thumbnail Image object (20% of real size). |
 
- **Result**
+ **Result:**
 BufferedImage
 
 
@@ -160,13 +160,13 @@ BufferedImage
 | --- | --- |
 | getThumbnail (Dimension) | Returns a Thumbnail Bitmap object with specified size. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | imageSize | Dimension | Size of the image to create. |
 
- **Result**
+ **Result:**
 BufferedImage
 
 
@@ -179,13 +179,13 @@ BufferedImage
 | --- | --- |
 | getThumbnail ([TiffOptions](../tiffoptions)) | Returns a Thumbnail tiff BufferedImage object with specified parameters. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | options | [TiffOptions](../tiffoptions) | Tiff options. |
 
- **Result**
+ **Result:**
 BufferedImage
 
  **Error**
@@ -204,13 +204,13 @@ BufferedImage
 | --- | --- |
 | getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)) | Returns a Thumbnail BufferedImage object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 
- **Result**
+ **Result:**
 BufferedImage
 
  **Error**
@@ -229,7 +229,7 @@ BufferedImage
 | --- | --- |
 | getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -237,7 +237,7 @@ BufferedImage
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
- **Result**
+ **Result:**
 BufferedImage
 
  **Error**
@@ -256,14 +256,14 @@ BufferedImage
 | --- | --- |
 | getThumbnail ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | notesCommentsLayouting | [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions) | Options for notes and comments layouting. |
 | imageSize | Dimension | Size of the image to create. |
 
- **Result**
+ **Result:**
 BufferedImage
 
  **Error**
@@ -282,13 +282,13 @@ BufferedImage
 | --- | --- |
 | getThumbnail ([RenderingOptions](../renderingoptions)) | Returns a Thumbnail BufferedImage object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | options | [RenderingOptions](../renderingoptions) | Rendering options. |
 
- **Result**
+ **Result:**
 BufferedImage
 
  **Error**
@@ -307,7 +307,7 @@ BufferedImage
 | --- | --- |
 | getThumbnail ([RenderingOptions](../renderingoptions), float, float) | Returns a Thumbnail BufferedImage object with custom scaling. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -315,7 +315,7 @@ BufferedImage
 | scaleX | float | The value by which to scale this Thumbnail in the x-axis direction. |
 | scaleY | float | The value by which to scale this Thumbnail in the y-axis direction. |
 
- **Result**
+ **Result:**
 BufferedImage
 
  **Error**
@@ -334,14 +334,14 @@ BufferedImage
 | --- | --- |
 | getThumbnail ([RenderingOptions](../renderingoptions), Dimension) | Returns a Thumbnail BufferedImage object with specified size. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | options | [RenderingOptions](../renderingoptions) | Rendering options. |
 | imageSize | Dimension | Size of the image to create. |
 
- **Result**
+ **Result:**
 BufferedImage
 
  **Error**
@@ -386,7 +386,7 @@ BufferedImage
 | --- | --- |
 | renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, int, int) | Renders certain slide to a Graphics object using specified size. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -411,7 +411,7 @@ BufferedImage
 | --- | --- |
 | renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D, float) | Renders certain slide to a Graphics object using specified scale. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -435,7 +435,7 @@ BufferedImage
 | --- | --- |
 | renderToGraphics ([NotesCommentsLayoutingOptions](../notescommentslayoutingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -458,7 +458,7 @@ BufferedImage
 | --- | --- |
 | renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D) | Renders certain slide to a Graphics object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -481,7 +481,7 @@ BufferedImage
 | --- | --- |
 | renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, float, float) | Renders certain slide to a Graphics object with custom scaling. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -506,7 +506,7 @@ BufferedImage
 | --- | --- |
 | renderToGraphics ([RenderingOptions](../renderingoptions), Graphics2D, Dimension) | Renders certain slide to a Graphics object using specified size. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -580,7 +580,7 @@ BufferedImage
 | --- | --- |
 | writeAsSvgToStream  (Slide, WriteStream) | Saves content of slide as SVG file. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -597,7 +597,7 @@ BufferedImage
 | --- | --- |
 | writeAsSvgToStream  (Slide, WriteStream, [SVGOptions](../svgoptions)) | Saves content of slide as SVG file. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

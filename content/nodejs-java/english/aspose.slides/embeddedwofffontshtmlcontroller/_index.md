@@ -17,7 +17,7 @@ url: /aspose.slides/embeddedwofffontshtmlcontroller/
 | --- | --- |
 | EmbeddedWoffFontsHtmlController() | Creates new instance. |
 
- **Result**
+ **Result:**
 EmbeddedWoffFontsHtmlController
 
 
@@ -30,13 +30,13 @@ EmbeddedWoffFontsHtmlController
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedWoffFontsHtmlController
 
 
@@ -49,13 +49,13 @@ EmbeddedWoffFontsHtmlController
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedWoffFontsHtmlController
 
 
@@ -68,13 +68,13 @@ EmbeddedWoffFontsHtmlController
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedWoffFontsHtmlController
 
 
@@ -87,13 +87,13 @@ EmbeddedWoffFontsHtmlController
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedWoffFontsHtmlController
 
 
@@ -106,13 +106,13 @@ EmbeddedWoffFontsHtmlController
 | --- | --- |
 | EmbeddedWoffFontsHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedWoffFontsHtmlController
 
 

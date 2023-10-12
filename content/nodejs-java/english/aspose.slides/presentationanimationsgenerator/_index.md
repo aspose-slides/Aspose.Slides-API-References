@@ -17,13 +17,13 @@ url: /aspose.slides/presentationanimationsgenerator/
 | --- | --- |
 | PresentationAnimationsGenerator([Presentation](../presentation)) | Creates a new instance of the PresentationAnimationsGenerator. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | presentation | [Presentation](../presentation) | The frame size will be set with accordance to the ( Presentation#getSlideSize) |
 
- **Result**
+ **Result:**
 PresentationAnimationsGenerator
 
 
@@ -36,13 +36,13 @@ PresentationAnimationsGenerator
 | --- | --- |
 | PresentationAnimationsGenerator(Dimension) | Creates a new instance of the PresentationAnimationsGenerator. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | frameSize | Dimension | The frame size. |
 
- **Result**
+ **Result:**
 PresentationAnimationsGenerator
 
 
@@ -55,13 +55,13 @@ PresentationAnimationsGenerator
 | --- | --- |
 | PresentationAnimationsGenerator(Dimension2D) | Creates a new instance of the PresentationAnimationsGenerator. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | frameSize | Dimension2D | The frame size. |
 
- **Result**
+ **Result:**
 PresentationAnimationsGenerator
 
 
@@ -84,7 +84,7 @@ PresentationAnimationsGenerator
 | --- | --- |
 | getDefaultDelay () | Gets or sets default delay time [ms]. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -97,7 +97,7 @@ int
 | --- | --- |
 | getExportedSlides () | Get the number of the exported slides count. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -110,7 +110,7 @@ int
 | --- | --- |
 | getFrameSize () | Gets the frame size. |
 
- **Result**
+ **Result:**
 Dimension
 
 
@@ -123,7 +123,7 @@ Dimension
 | --- | --- |
 | getIncludeHiddenSlides () | Get or sets if hidden slides should be included. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -176,7 +176,7 @@ boolean
 | --- | --- |
 | setNewAnimation ([PresentationAnimationsGenerator.NewAnimation](../presentationanimationsgenerator.newanimation)) | Set a new animation event. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

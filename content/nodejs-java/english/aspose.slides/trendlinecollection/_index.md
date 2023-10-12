@@ -17,7 +17,7 @@ url: /aspose.slides/trendlinecollection/
 | --- | --- |
 | add (int) | Adds the new Trendline at the end of a collection and return it. |
 
- **Result**
+ **Result:**
 [Trendline](../trendline)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/trendlinecollection/
 | --- | --- |
 | getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only Trendline. |
 
- **Result**
+ **Result:**
 [Trendline](../trendline)
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 

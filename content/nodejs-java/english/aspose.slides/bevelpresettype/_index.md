@@ -16,17 +16,100 @@ url: /aspose.slides/bevelpresettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Angle | 0 |  |
-| ArtDeco | 1 |  |
-| Circle | 2 |  |
-| Convex | 3 |  |
-| CoolSlant | 4 |  |
-| Cross | 5 |  |
-| Divot | 6 |  |
-| HardEdge | 7 |  |
-| RelaxedInset | 8 |  |
-| Riblet | 9 |  |
-| Slope | 10 |  |
-| SoftRound | 11 |  |
+| [NotDefined](#NotDefined) | -1 |  |
+| [Angle](#Angle) | 0 |  |
+| [ArtDeco](#ArtDeco) | 1 |  |
+| [Circle](#Circle) | 2 |  |
+| [Convex](#Convex) | 3 |  |
+| [CoolSlant](#CoolSlant) | 4 |  |
+| [Cross](#Cross) | 5 |  |
+| [Divot](#Divot) | 6 |  |
+| [HardEdge](#HardEdge) | 7 |  |
+| [RelaxedInset](#RelaxedInset) | 8 |  |
+| [Riblet](#Riblet) | 9 |  |
+| [Slope](#Slope) | 10 |  |
+| [SoftRound](#SoftRound) | 11 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 |  |
+
+
+---
+
+### Angle {#Angle}
+| Angle| 0 |  |
+
+
+---
+
+### ArtDeco {#ArtDeco}
+| ArtDeco| 1 |  |
+
+
+---
+
+### Circle {#Circle}
+| Circle| 2 |  |
+
+
+---
+
+### Convex {#Convex}
+| Convex| 3 |  |
+
+
+---
+
+### CoolSlant {#CoolSlant}
+| CoolSlant| 4 |  |
+
+
+---
+
+### Cross {#Cross}
+| Cross| 5 |  |
+
+
+---
+
+### Divot {#Divot}
+| Divot| 6 |  |
+
+
+---
+
+### HardEdge {#HardEdge}
+| HardEdge| 7 |  |
+
+
+---
+
+### RelaxedInset {#RelaxedInset}
+| RelaxedInset| 8 |  |
+
+
+---
+
+### Riblet {#Riblet}
+| Riblet| 9 |  |
+
+
+---
+
+### Slope {#Slope}
+| Slope| 10 |  |
+
+
+---
+
+### SoftRound {#SoftRound}
+| SoftRound| 11 |  |
+
+
+---
+
 

@@ -17,7 +17,7 @@ url: /aspose.slides/summaryzoomsection/
 | --- | --- |
 | getDescription () | Returns the text description of the Summary Zoom Section object. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -30,7 +30,7 @@ String
 | --- | --- |
 | getTitle () | Returns the text title of the Summary Zoom Section object. |
 
- **Result**
+ **Result:**
 String
 
 

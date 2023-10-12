@@ -19,7 +19,7 @@ url: /aspose.slides/effectfactory/
 | --- | --- |
 | EffectFactory() |  |
 
- **Result**
+ **Result:**
 EffectFactory
 
 
@@ -32,7 +32,7 @@ EffectFactory
 | --- | --- |
 | createGlow () | Creates Glow effect. |
 
- **Result**
+ **Result:**
 [Glow](../glow)
 
 
@@ -45,7 +45,7 @@ EffectFactory
 | --- | --- |
 | createInnerShadow () | Creates Inner shafow effect. |
 
- **Result**
+ **Result:**
 [InnerShadow](../innershadow)
 
 
@@ -58,7 +58,7 @@ EffectFactory
 | --- | --- |
 | createOuterShadow () | Creates Outer shadow effect. |
 
- **Result**
+ **Result:**
 [OuterShadow](../outershadow)
 
 
@@ -71,7 +71,7 @@ EffectFactory
 | --- | --- |
 | createPresetShadow () | Creates Preset shadow effect. |
 
- **Result**
+ **Result:**
 [PresetShadow](../presetshadow)
 
 
@@ -84,7 +84,7 @@ EffectFactory
 | --- | --- |
 | createReflection () | Creates Reflection effect. |
 
- **Result**
+ **Result:**
 [Reflection](../reflection)
 
 
@@ -97,7 +97,7 @@ EffectFactory
 | --- | --- |
 | createSoftEdge () | Creates Soft Edge effect. |
 
- **Result**
+ **Result:**
 [SoftEdge](../softedge)
 
 
@@ -110,7 +110,7 @@ EffectFactory
 | --- | --- |
 | getImageTransformOperationFactory () | Returns ImageTransformOperationFactory. Read-only IImageTransformOperationFactory. |
 
- **Result**
+ **Result:**
 [ImageTransformOperationFactory](../imagetransformoperationfactory)
 
 

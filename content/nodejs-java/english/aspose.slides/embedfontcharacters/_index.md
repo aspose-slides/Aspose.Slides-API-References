@@ -16,6 +16,23 @@ url: /aspose.slides/embedfontcharacters/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| OnlyUsed | 0 | Embed only the characters used in the presentation (best for reducing file size). |
-| All | 1 | Embed all characters (best for editing by other people). |
+| [OnlyUsed](#OnlyUsed) | 0 | Embed only the characters used in the presentation (best for reducing file size). |
+| [All](#All) | 1 | Embed all characters (best for editing by other people). |
+
+
+---
+
+
+### OnlyUsed {#OnlyUsed}
+| OnlyUsed| 0 | Embed only the characters used in the presentation (best for reducing file size). |
+
+
+---
+
+### All {#All}
+| All| 1 | Embed all characters (best for editing by other people). |
+
+
+---
+
 

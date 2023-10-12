@@ -17,7 +17,7 @@ url: /aspose.slides/connector/
 | --- | --- |
 | getConnectorLock () | Returns connector's locks. Read-only IConnectorLock. |
 
- **Result**
+ **Result:**
 [ConnectorLock](../connectorlock)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/connector/
 | --- | --- |
 | getEndShapeConnectedTo () | Returns or sets the shape to attach the end of the connector to. Read/write IShape. |
 
- **Result**
+ **Result:**
 [LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
 
  **Error**
@@ -49,7 +49,7 @@ url: /aspose.slides/connector/
 | --- | --- |
 | getEndShapeConnectionSiteIndex () | Returns or sets the index of connection site for end shape. Read/write long. |
 
- **Result**
+ **Result:**
 long
 
  **Error**
@@ -68,7 +68,7 @@ long
 | --- | --- |
 | getShapeLock () | Returns shape's locks. Read-only IConnectorLock. |
 
- **Result**
+ **Result:**
 [ConnectorLock](../connectorlock)
 
 
@@ -81,7 +81,7 @@ long
 | --- | --- |
 | getShapeType () | Returns or sets the AutoShape type. Read/write ShapeType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -94,7 +94,7 @@ int
 | --- | --- |
 | getStartShapeConnectedTo () | Returns or sets the shape to attach the beginning of the connector to. Read/write IShape. |
 
- **Result**
+ **Result:**
 [LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
 
  **Error**
@@ -113,7 +113,7 @@ int
 | --- | --- |
 | getStartShapeConnectionSiteIndex () | Returns or sets the index of connection site for start shape. Read/write long. |
 
- **Result**
+ **Result:**
 long
 
  **Error**

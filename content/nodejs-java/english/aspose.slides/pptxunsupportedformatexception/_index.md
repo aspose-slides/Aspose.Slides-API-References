@@ -17,7 +17,7 @@ url: /aspose.slides/pptxunsupportedformatexception/
 | --- | --- |
 | PptxUnsupportedFormatException() | Default function. |
 
- **Result**
+ **Result:**
 PptxUnsupportedFormatException
 
 
@@ -30,13 +30,13 @@ PptxUnsupportedFormatException
 | --- | --- |
 | PptxUnsupportedFormatException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 PptxUnsupportedFormatException
 
 
@@ -49,14 +49,14 @@ PptxUnsupportedFormatException
 | --- | --- |
 | PptxUnsupportedFormatException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 PptxUnsupportedFormatException
 
 

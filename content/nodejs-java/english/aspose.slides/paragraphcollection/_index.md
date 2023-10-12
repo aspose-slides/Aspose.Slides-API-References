@@ -17,7 +17,7 @@ url: /aspose.slides/paragraphcollection/
 | --- | --- |
 | add ([Paragraph](../paragraph)) | Adds a Paragraph to the end of collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,13 +33,13 @@ url: /aspose.slides/paragraphcollection/
 | --- | --- |
 | add ([ParagraphCollection](../paragraphcollection)) | Adds a content of ParagraphCollection to the end of collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | value | [ParagraphCollection](../paragraphcollection) | The ParagraphCollection to be added to the end of the collection. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -52,7 +52,7 @@ int
 | --- | --- |
 | addFromHtml (String) | Adds text from specified html string to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -68,7 +68,7 @@ int
 | --- | --- |
 | addFromHtml (String, [ExternalResourceResolver](../externalresourceresolver), String) | Adds text from specified html string to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -86,7 +86,7 @@ int
 | --- | --- |
 | addFromHtml (String, [HtmlExternalResolver](../htmlexternalresolver), String) | Adds text from specified html string to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -114,13 +114,13 @@ int
 | --- | --- |
 | contains ([Paragraph](../paragraph)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Paragraph](../paragraph) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -133,7 +133,7 @@ boolean
 | --- | --- |
 | copyTo (com.aspose.slides.IParagraph[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -156,7 +156,7 @@ boolean
 | --- | --- |
 | exportToHtml (int, int, [TextToHtmlConversionOptions](../texttohtmlconversionoptions)) | Converts specifying paragraphs to the HTML and returns it as String object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -164,7 +164,7 @@ boolean
 | paragraphsCount | int | Paragraph count int |
 | options | [TextToHtmlConversionOptions](../texttohtmlconversionoptions) | Convert options ITextToHtmlConversionOptions |
 
- **Result**
+ **Result:**
 String
 
 
@@ -177,7 +177,7 @@ String
 | --- | --- |
 | getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -190,7 +190,7 @@ int
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a paragraphs collection. Read-only IPresentation. |
 
- **Result**
+ **Result:**
 [Presentation](../presentation)
 
 
@@ -203,7 +203,7 @@ int
 | --- | --- |
 | getSlide () | Returns the parent slide of a paragraphs collection. Read-only BaseSlide. |
 
- **Result**
+ **Result:**
 [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
@@ -216,7 +216,7 @@ int
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
- **Result**
+ **Result:**
 [Paragraph](../paragraph)
 
 
@@ -229,13 +229,13 @@ int
 | --- | --- |
 | indexOf ([Paragraph](../paragraph)) | Determines the index of a specific item in the List. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Paragraph](../paragraph) | The object to locate in the List. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -248,7 +248,7 @@ int
 | --- | --- |
 | insert (int, [Paragraph](../paragraph)) | Inserts a Paragraph into the collection at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -265,7 +265,7 @@ int
 | --- | --- |
 | insert (int, [ParagraphCollection](../paragraphcollection)) | Inserts a content of ParagraphCollection into the collection at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -282,7 +282,7 @@ int
 | --- | --- |
 | isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -295,7 +295,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -308,7 +308,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -321,13 +321,13 @@ boolean
 | --- | --- |
 | remove ([Paragraph](../paragraph)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Paragraph](../paragraph) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -346,7 +346,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

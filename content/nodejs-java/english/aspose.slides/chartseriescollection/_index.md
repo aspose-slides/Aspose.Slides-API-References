@@ -17,13 +17,13 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- |
 | add (int) | Creates new chart series and adds it to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | type | int | Type of series |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
 
@@ -36,14 +36,14 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- |
 | add ([ChartDataCell](../chartdatacell), int) | Creates new chart series from ChartDataCell and adds it to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | cellWithSeriesName | [ChartDataCell](../chartdatacell) | Cell which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
 
@@ -56,14 +56,14 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- |
 | add ([ChartCellCollection](../chartcellcollection), int) | Creates new chart series from ChartCellCollection and adds it to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | cellsWithSeriesName | [ChartCellCollection](../chartcellcollection) | Cells which contain series name. |
 | type | int | Type set type of series If chart series careted from same cell already in collection then function adds nothing and returns it's index. |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
 
@@ -76,14 +76,14 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- |
 | add (String, int) | Creates new chart series from value and adds it to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Series name. |
 | type | int | Type set type of series |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
 
@@ -106,7 +106,7 @@ url: /aspose.slides/chartseriescollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -119,7 +119,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
  **Error**
@@ -138,13 +138,13 @@ Object
 | --- | --- |
 | indexOf ([ChartSeries](../chartseries)) | Searches for the specified ChartSeries and returns the zero-based index of the first occurrence within the entire Collection |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | value | [ChartSeries](../chartseries) | Chart series value. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -157,7 +157,7 @@ int
 | --- | --- |
 | insert (int, int) | Creates new chart series and inserts it into the collection. |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
 
@@ -170,7 +170,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -183,7 +183,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -196,7 +196,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -209,7 +209,7 @@ boolean
 | --- | --- |
 | remove ([ChartSeries](../chartseries)) | Removes the specified value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -231,7 +231,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes an ActiveX control stored at specified position from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -247,7 +247,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of objects in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

@@ -27,7 +27,7 @@ url: /aspose.slides/ppimage/
 | --- | --- |
 | getBinaryData () | Returns the copy of an image's data. Read-only byte[]. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -40,7 +40,7 @@ byte
 | --- | --- |
 | getContentType () | Returns a MIME type of an image, encoded in BinaryData( #getBinaryData). Read-only String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -53,7 +53,7 @@ String
 | --- | --- |
 | getHeight () | Returns a height of an image. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -66,7 +66,7 @@ int
 | --- | --- |
 | getSvgImage () | Returns or sets ISvgImage object ISvgImage This value indicates that this image has been created from SVG. |
 
- **Result**
+ **Result:**
 [SvgImage](../svgimage)
 
 
@@ -79,7 +79,7 @@ int
 | --- | --- |
 | getSystemImage () | Returns the copy of an image. Read-only java.awt.image.BufferedImage. |
 
- **Result**
+ **Result:**
 BufferedImage
 
 
@@ -92,7 +92,7 @@ BufferedImage
 | --- | --- |
 | getWidth () | Returns a width of an image. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -105,7 +105,7 @@ int
 | --- | --- |
 | getX () | Returns a X-offset of an image. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -118,7 +118,7 @@ int
 | --- | --- |
 | getY () | Returns a Y-offset of an image. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -131,7 +131,7 @@ int
 | --- | --- |
 | hashCode () | Returns the hash code of an image. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -144,7 +144,7 @@ int
 | --- | --- |
 | replaceImage (byte[]) | Replaces image data. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -166,7 +166,7 @@ int
 | --- | --- |
 | replaceImage ([PPImage](../ppimage)) | Replaces image data. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

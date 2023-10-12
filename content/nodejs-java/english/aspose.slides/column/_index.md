@@ -17,7 +17,7 @@ url: /aspose.slides/column/
 | --- | --- |
 | getColumnFormat () | Returns the ColumnFormat object that contains formatting properties for this column. Read-only IColumnFormat. |
 
- **Result**
+ **Result:**
 [ColumnFormat](../columnformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/column/
 | --- | --- |
 | getWidth () | Returns or sets the width of a column. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -43,7 +43,7 @@ double
 | --- | --- |
 | setTextFormat ([PortionFormat](../portionformat)) | Sets defined portion format properties to all column cells' portions. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ double
 | --- | --- |
 | setTextFormat ([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all column cells' paragraphs. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ double
 | --- | --- |
 | setTextFormat ([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all column cells' text frames. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

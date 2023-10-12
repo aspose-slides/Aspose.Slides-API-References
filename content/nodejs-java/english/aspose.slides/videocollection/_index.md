@@ -17,13 +17,13 @@ url: /aspose.slides/videocollection/
 | --- | --- |
 | addVideo ([Video](../video)) | Adds a copy of an video file from an another presentation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | video | [Video](../video) | Source video. |
 
- **Result**
+ **Result:**
 [Video](../video)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/videocollection/
 | --- | --- |
 | addVideoFromStream  (VideoCollection, ReadStream, Function) | Creates and adds a video to a presentation from stream. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,7 +44,7 @@ url: /aspose.slides/videocollection/
 | stream | ReadStream | Stream to add video file from. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Video](../video)
 
 
@@ -57,7 +57,7 @@ url: /aspose.slides/videocollection/
 | --- | --- |
 | addVideoFromStream  (VideoCollection, ReadStream, int, Function) | Creates and adds a video to a presentation from stream. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -66,7 +66,7 @@ url: /aspose.slides/videocollection/
 | loadingStreamBehavior | int | The behavior which will be applied to the stream. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Video](../video)
 
 
@@ -79,13 +79,13 @@ url: /aspose.slides/videocollection/
 | --- | --- |
 | addVideo (byte[]) | Creates and adds a video to a presentation from byte array. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | videoData | byte[] | Video bytes. |
 
- **Result**
+ **Result:**
 [Video](../video)
 
 
@@ -98,7 +98,7 @@ url: /aspose.slides/videocollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -111,7 +111,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only IVideo. |
 
- **Result**
+ **Result:**
 [Video](../video)
 
 
@@ -124,7 +124,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -137,7 +137,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -150,7 +150,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -163,7 +163,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of video files in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

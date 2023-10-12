@@ -17,7 +17,7 @@ url: /aspose.slides/timing/
 | --- | --- |
 | getAccelerate () | Describes the percentage of duration accelerate behavior effect. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -30,7 +30,7 @@ float
 | --- | --- |
 | getAutoReverse () | Describes whether to automatically play the animation in reverse after playing it in the forward direction. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getDecelerate () | Describes the percentage of duration decelerate behavior effect. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getDuration () | Describes the duration of animation effect. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -69,7 +69,7 @@ float
 | --- | --- |
 | getRepeatCount () | Describes the number of times the effect should repeat. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -82,7 +82,7 @@ float
 | --- | --- |
 | getRepeatDuration () | Describes the number of times the effect should repeat. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -95,7 +95,7 @@ float
 | --- | --- |
 | getRepeatUntilEndSlide () | This attribute specifies if the effect will repeat until the end of the slide. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | getRepeatUntilNextClick () | This attribute specifies if the effect will repeat until the next click. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | getRestart () | Specifies if a effect is to restart after complete. Read/write EffectRestartType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -134,7 +134,7 @@ int
 | --- | --- |
 | getRewind () | This attribute specifies if the effect will rewind when done playing. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -147,7 +147,7 @@ boolean
 | --- | --- |
 | getSpeed () | Specifies the percentage by which to speed up (or slow down) the timing. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -160,7 +160,7 @@ float
 | --- | --- |
 | getTriggerDelayTime () | Describes delay time after trigger. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -173,7 +173,7 @@ float
 | --- | --- |
 | getTriggerType () | Describes trigger type. Read/write EffectTriggerType. |
 
- **Result**
+ **Result:**
 int
 
 

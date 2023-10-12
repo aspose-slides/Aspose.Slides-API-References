@@ -17,7 +17,7 @@ url: /aspose.slides/slidesrange/
 | --- | --- |
 | SlidesRange() |  |
 
- **Result**
+ **Result:**
 SlidesRange
 
 
@@ -30,7 +30,7 @@ SlidesRange
 | --- | --- |
 | getEnd () | End |
 
- **Result**
+ **Result:**
 long
 
 
@@ -43,7 +43,7 @@ long
 | --- | --- |
 | getStart () | Start |
 
- **Result**
+ **Result:**
 long
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getChart () | Returns chart. Read-only IChart. |
 
- **Result**
+ **Result:**
 [Chart](../chart)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getFormat () | Returns the line, fill, and effect styles of an object. Read-only IFormat. |
 
- **Result**
+ **Result:**
 [Format](../format)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result**
+ **Result:**
 [Presentation](../presentation)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/datatable/
 | --- | --- |
 | getShowLegendKey () | True if the data label legend key is visible. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result**
+ **Result:**
 [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getTextFormat () | Returns text format. Read-only IChartTextFormat. |
 
- **Result**
+ **Result:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | hasBorderHorizontal () | True if the chart data table has horizontal cell borders. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | hasBorderOutline () | True if the chart data table has outline borders. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | hasBorderVertical () | True if the chart data table has vertical cell borders. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

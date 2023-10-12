@@ -16,9 +16,44 @@ url: /aspose.slides/motioncommandpathtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| MoveTo | 0 |  |
-| LineTo | 1 |  |
-| CurveTo | 2 |  |
-| CloseLoop | 3 |  |
-| End | 4 |  |
+| [MoveTo](#MoveTo) | 0 |  |
+| [LineTo](#LineTo) | 1 |  |
+| [CurveTo](#CurveTo) | 2 |  |
+| [CloseLoop](#CloseLoop) | 3 |  |
+| [End](#End) | 4 |  |
+
+
+---
+
+
+### MoveTo {#MoveTo}
+| MoveTo| 0 |  |
+
+
+---
+
+### LineTo {#LineTo}
+| LineTo| 1 |  |
+
+
+---
+
+### CurveTo {#CurveTo}
+| CurveTo| 2 |  |
+
+
+---
+
+### CloseLoop {#CloseLoop}
+| CloseLoop| 3 |  |
+
+
+---
+
+### End {#End}
+| End| 4 |  |
+
+
+---
+
 

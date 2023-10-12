@@ -17,7 +17,7 @@ url: /aspose.slides/ppteditexception/
 | --- | --- |
 | PptEditException() | Default function. |
 
- **Result**
+ **Result:**
 PptEditException
 
 
@@ -30,13 +30,13 @@ PptEditException
 | --- | --- |
 | PptEditException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 PptEditException
 
 
@@ -49,14 +49,14 @@ PptEditException
 | --- | --- |
 | PptEditException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 PptEditException
 
 

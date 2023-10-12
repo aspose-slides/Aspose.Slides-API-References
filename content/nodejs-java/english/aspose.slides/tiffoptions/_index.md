@@ -17,7 +17,7 @@ url: /aspose.slides/tiffoptions/
 | --- | --- |
 | TiffOptions() | Default function. |
 
- **Result**
+ **Result:**
 TiffOptions
 
 
@@ -30,7 +30,7 @@ TiffOptions
 | --- | --- |
 | getCompressionType () | Specifies the compression type. Read/write TiffCompressionTypes. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getDpiX () | Specifies the horizontal resolution in dots per inch. Read/write long. |
 
- **Result**
+ **Result:**
 long
 
 
@@ -56,7 +56,7 @@ long
 | --- | --- |
 | getDpiY () | Specifies the vertical resolution in dots per inch. Read/write long. |
 
- **Result**
+ **Result:**
 long
 
 
@@ -69,7 +69,7 @@ long
 | --- | --- |
 | getImageSize () | Specifies size of a generated TIFF image. Default value is 0x0, what means that generated image sizes will be calculated based on presentation slide size value. Read/write java.awt.Dimension. |
 
- **Result**
+ **Result:**
 Dimension
 
 
@@ -82,7 +82,7 @@ Dimension
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
- **Result**
+ **Result:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
@@ -95,7 +95,7 @@ Dimension
 | --- | --- |
 | getPixelFormat () | Specifies the pixel format for the generated images. Read/write ImagePixelFormat. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -108,7 +108,7 @@ int
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result**
+ **Result:**
 boolean
 
 

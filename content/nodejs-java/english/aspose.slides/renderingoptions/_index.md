@@ -17,7 +17,7 @@ url: /aspose.slides/renderingoptions/
 | --- | --- |
 | RenderingOptions() | Default function. |
 
- **Result**
+ **Result:**
 RenderingOptions
 
 
@@ -30,7 +30,7 @@ RenderingOptions
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
- **Result**
+ **Result:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 

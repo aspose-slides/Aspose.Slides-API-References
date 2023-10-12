@@ -17,7 +17,7 @@ url: /aspose.slides/embeddedeotfontshtmlcontroller/
 | --- | --- |
 | EmbeddedEotFontsHtmlController() | Creates new instance. |
 
- **Result**
+ **Result:**
 EmbeddedEotFontsHtmlController
 
 
@@ -30,13 +30,13 @@ EmbeddedEotFontsHtmlController
 | --- | --- |
 | EmbeddedEotFontsHtmlController([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedEotFontsHtmlController
 
 
@@ -49,13 +49,13 @@ EmbeddedEotFontsHtmlController
 | --- | --- |
 | EmbeddedEotFontsHtmlController([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedEotFontsHtmlController
 
 
@@ -68,13 +68,13 @@ EmbeddedEotFontsHtmlController
 | --- | --- |
 | EmbeddedEotFontsHtmlController([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedEotFontsHtmlController
 
 
@@ -87,13 +87,13 @@ EmbeddedEotFontsHtmlController
 | --- | --- |
 | EmbeddedEotFontsHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedEotFontsHtmlController
 
 
@@ -106,13 +106,13 @@ EmbeddedEotFontsHtmlController
 | --- | --- |
 | EmbeddedEotFontsHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller. |
 
- **Result**
+ **Result:**
 EmbeddedEotFontsHtmlController
 
 

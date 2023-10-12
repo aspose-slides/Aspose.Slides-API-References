@@ -19,7 +19,7 @@ url: /aspose.slides/mathematicaltextfactory/
 | --- | --- |
 | MathematicalTextFactory() |  |
 
- **Result**
+ **Result:**
 MathematicalTextFactory
 
 
@@ -32,7 +32,7 @@ MathematicalTextFactory
 | --- | --- |
 | createMathematicalText () | Create empty mathematical text element |
 
- **Result**
+ **Result:**
 [MathematicalText](../mathematicaltext)
 
 
@@ -45,13 +45,13 @@ MathematicalTextFactory
 | --- | --- |
 | createMathematicalText (char) | Create mathematical text element with the specified value |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathSymbol | char | single symbol to use as text value |
 
- **Result**
+ **Result:**
 [MathematicalText](../mathematicaltext)
 
 
@@ -64,13 +64,13 @@ MathematicalTextFactory
 | --- | --- |
 | createMathematicalText (String) | Create empty mathematical text element with the specified value |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathText | String | text value |
 
- **Result**
+ **Result:**
 [MathematicalText](../mathematicaltext)
 
 
@@ -83,14 +83,14 @@ MathematicalTextFactory
 | --- | --- |
 | createMathematicalText (String, [PortionFormat](../portionformat)) | Create empty mathematical text element with the specified value and formatting properties |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathText | String | text value |
 | portionFormat | [PortionFormat](../portionformat) | text format settings |
 
- **Result**
+ **Result:**
 [MathematicalText](../mathematicaltext)
 
 

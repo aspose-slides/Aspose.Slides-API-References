@@ -17,14 +17,14 @@ url: /aspose.slides/rowcollection/
 | --- | --- |
 | addClone ([Row](../row), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | templ | [Row](../row) | Row which is used as a template. |
 | withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
- **Result**
+ **Result:**
 [Row](../row)
 
 
@@ -37,7 +37,7 @@ url: /aspose.slides/rowcollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -50,7 +50,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns the row at the specified index. Read-only Row. |
 
- **Result**
+ **Result:**
 [Row](../row)
 
 
@@ -63,7 +63,7 @@ Object
 | --- | --- |
 | insertClone (int, [Row](../row), boolean) | Creates a copy of the specified template row and insert it at the specified position in a table. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ Object
 | templ | [Row](../row) | Row which is used as a template. |
 | withAttachedRows | boolean | True to copy also all rows attached to the template row. |
 
- **Result**
+ **Result:**
 [Row](../row)
 
 
@@ -84,7 +84,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -97,7 +97,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -110,7 +110,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -123,7 +123,7 @@ boolean
 | --- | --- |
 | removeAt (int, boolean) | Removes a row at the specified position from a table. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -140,7 +140,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of rows actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

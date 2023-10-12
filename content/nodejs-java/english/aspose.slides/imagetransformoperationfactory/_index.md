@@ -19,7 +19,7 @@ url: /aspose.slides/imagetransformoperationfactory/
 | --- | --- |
 | ImageTransformOperationFactory() |  |
 
- **Result**
+ **Result:**
 ImageTransformOperationFactory
 
 
@@ -32,7 +32,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphCeiling () | Creates Alpha Ceiling effect. |
 
- **Result**
+ **Result:**
 [AlphaCeiling](../alphaceiling)
 
 
@@ -45,13 +45,13 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaBiLevel (float) | Creates Alpha BiLevel effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | threshold | float | Threshold. |
 
- **Result**
+ **Result:**
 [AlphaBiLevel](../alphabilevel)
 
 
@@ -64,7 +64,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaFloor () | Creates Alpha floor effect. |
 
- **Result**
+ **Result:**
 [AlphaFloor](../alphafloor)
 
 
@@ -77,7 +77,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaInverse () | Creates Alpha inverse effect. |
 
- **Result**
+ **Result:**
 [AlphaInverse](../alphainverse)
 
 
@@ -90,7 +90,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaModulate () | Creates Alpha modulate effect. |
 
- **Result**
+ **Result:**
 [AlphaModulate](../alphamodulate)
 
 
@@ -103,13 +103,13 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaModulateFixed (float) | Creates Alpha modulate fixed effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | amount | float | Amount. |
 
- **Result**
+ **Result:**
 [AlphaModulateFixed](../alphamodulatefixed)
 
 
@@ -122,13 +122,13 @@ ImageTransformOperationFactory
 | --- | --- |
 | createAlphaReplace (float) | Creates Alpha replace effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | alpha | float | Alpha |
 
- **Result**
+ **Result:**
 [AlphaReplace](../alphareplace)
 
 
@@ -141,13 +141,13 @@ ImageTransformOperationFactory
 | --- | --- |
 | createBiLevel (float) | Creates BiLevel effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | threshold | float | Threshold. |
 
- **Result**
+ **Result:**
 [BiLevel](../bilevel)
 
 
@@ -160,14 +160,14 @@ ImageTransformOperationFactory
 | --- | --- |
 | createBlur (double, boolean) | Creates Blur effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | radius | double | Radius. |
 | grow | boolean | Grow. |
 
- **Result**
+ **Result:**
 [Blur](../blur)
 
 
@@ -180,7 +180,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createColorChange () | Creates Color change effect. |
 
- **Result**
+ **Result:**
 [ColorChange](../colorchange)
 
 
@@ -193,7 +193,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createColorReplace () | Creates Color replace effect. |
 
- **Result**
+ **Result:**
 [ColorReplace](../colorreplace)
 
 
@@ -206,7 +206,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createDuotone () | Creates Duotone effect. |
 
- **Result**
+ **Result:**
 [Duotone](../duotone)
 
 
@@ -219,7 +219,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createFillOverlay () | Creates Fill overlay effect. |
 
- **Result**
+ **Result:**
 [FillOverlay](../filloverlay)
 
 
@@ -232,7 +232,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createGrayScale () | Creates Gray scale effect. |
 
- **Result**
+ **Result:**
 [GrayScale](../grayscale)
 
 
@@ -245,7 +245,7 @@ ImageTransformOperationFactory
 | --- | --- |
 | createHSL (float, float, float) | Creates Hue Saturation Luminance effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -253,7 +253,7 @@ ImageTransformOperationFactory
 | saturation | float | Saturation. |
 | luminance | float | Luminance. |
 
- **Result**
+ **Result:**
 [HSL](../hsl)
 
 
@@ -266,14 +266,14 @@ ImageTransformOperationFactory
 | --- | --- |
 | createLuminance (float, float) | Createtes Luminance effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | brightness | float | Brightness. |
 | contrast | float | Contrast. |
 
- **Result**
+ **Result:**
 [Luminance](../luminance)
 
 
@@ -286,14 +286,14 @@ ImageTransformOperationFactory
 | --- | --- |
 | createTint (float, float) | Creates Tint effect. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | hue | float | Hue. |
 | amount | float | Amount. |
 
- **Result**
+ **Result:**
 [Tint](../tint)
 
 

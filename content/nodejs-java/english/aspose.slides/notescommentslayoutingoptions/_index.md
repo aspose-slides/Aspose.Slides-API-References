@@ -17,7 +17,7 @@ url: /aspose.slides/notescommentslayoutingoptions/
 | --- | --- |
 | NotesCommentsLayoutingOptions() | Default function. |
 
- **Result**
+ **Result:**
 NotesCommentsLayoutingOptions
 
 
@@ -30,7 +30,7 @@ NotesCommentsLayoutingOptions
 | --- | --- |
 | getCommentsAreaColor () | Gets or sets the color of comments area (Applies only if comments are displayed on the right). Default is java.awt.Color#BLUE. |
 
- **Result**
+ **Result:**
 Color
 
 
@@ -43,7 +43,7 @@ Color
 | --- | --- |
 | getCommentsAreaWidth () | Gets or sets the width of the comment output area in pixels (Applies only if comments are displayed on the right). Minimal and default value is 150. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getCommentsPosition () | Gets or sets the position of the comments on the page. Default is CommentsPositions#None. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getNotesPosition () | Gets or sets the position of the notes on the page. Default is NotesPositions#None. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getShowCommentsByNoAuthor () | Gets or sets the visibility of comments that do not have an author. If true then comments will be displayed. (Applies only if comments are displayed). Default value is false. |
 
- **Result**
+ **Result:**
 boolean
 
 

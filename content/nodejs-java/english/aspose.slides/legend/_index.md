@@ -17,7 +17,7 @@ url: /aspose.slides/legend/
 | --- | --- |
 | getBottom () | Bottom. Read-only float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -30,7 +30,7 @@ float
 | --- | --- |
 | getChart () | Returns the chart. Read-only IChart. |
 
- **Result**
+ **Result:**
 [Chart](../chart)
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getEntries () | Gets legend entries. Read-only ILegendEntryCollection. |
 
- **Result**
+ **Result:**
 [LegendEntryCollection](../legendentrycollection)
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getFormat () | Returns the format of a legend. Read-only IFormat. |
 
- **Result**
+ **Result:**
 [Format](../format)
 
 
@@ -69,7 +69,7 @@ float
 | --- | --- |
 | getHeight () | Returns or sets the height of a legend as a fraction of the height of the chart. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -82,7 +82,7 @@ float
 | --- | --- |
 | getOverlay () | Determines whether other chart elements shall be allowed to overlap legend. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | getPosition () | Specifies the position of the legend on a chart. Non-NaN values of X, Y, Width, Heigt properties override effect of this property. Read/write LegendPositionType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -108,7 +108,7 @@ int
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result**
+ **Result:**
 [Presentation](../presentation)
 
 
@@ -121,7 +121,7 @@ int
 | --- | --- |
 | getRight () | Right. Read-only float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -134,7 +134,7 @@ float
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result**
+ **Result:**
 [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
@@ -147,7 +147,7 @@ float
 | --- | --- |
 | getTextFormat () | Text format. Read-only IChartTextFormat. |
 
- **Result**
+ **Result:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -160,7 +160,7 @@ float
 | --- | --- |
 | getWidth () | Returns or sets the width of a legend as a fraction of the width of the chart. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -173,7 +173,7 @@ float
 | --- | --- |
 | getX () | Returns or sets the x coordinate of a legend as a fraction of the width of the chart. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -186,7 +186,7 @@ float
 | --- | --- |
 | getY () | Returns or sets the y coordinate of a legend as a fraction of the height of the chart. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 

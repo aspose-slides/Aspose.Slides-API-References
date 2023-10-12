@@ -17,13 +17,13 @@ url: /aspose.slides/layoutslidecollection/
 | --- | --- |
 | getByType (byte) | Returns the first layout slide of specified type. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | type | byte | A type of layout slide to find. |
 
- **Result**
+ **Result:**
 [LayoutSlide](../layoutslide)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/layoutslidecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -49,7 +49,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns the layout slide by index. Read-only LayoutSlide. |
 
- **Result**
+ **Result:**
 [LayoutSlide](../layoutslide)
 
 
@@ -62,7 +62,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -101,7 +101,7 @@ boolean
 | --- | --- |
 | remove ([LayoutSlide](../layoutslide)) | Removes a layout from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -133,7 +133,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of layout slides in a collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/browsedbyindividual/
 | --- | --- |
 | BrowsedByIndividual() | Initializes a new instance of the BrowsedByIndividual class. |
 
- **Result**
+ **Result:**
 BrowsedByIndividual
 
 
@@ -30,7 +30,7 @@ BrowsedByIndividual
 | --- | --- |
 | getShowScrollbar () | Show Scroll Bar in Window |
 
- **Result**
+ **Result:**
 boolean
 
 

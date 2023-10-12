@@ -17,7 +17,7 @@ url: /aspose.slides/odpreadexception/
 | --- | --- |
 | OdpReadException() | Default function |
 
- **Result**
+ **Result:**
 OdpReadException
 
 
@@ -30,13 +30,13 @@ OdpReadException
 | --- | --- |
 | OdpReadException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 OdpReadException
 
 
@@ -49,14 +49,14 @@ OdpReadException
 | --- | --- |
 | OdpReadException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 OdpReadException
 
 

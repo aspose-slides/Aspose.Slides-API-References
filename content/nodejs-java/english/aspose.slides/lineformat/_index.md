@@ -17,7 +17,7 @@ url: /aspose.slides/lineformat/
 | --- | --- |
 | equals (Object) |  |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -30,13 +30,13 @@ boolean
 | --- | --- |
 | equals ([LineFormat](../lineformat)) | Determines whether the two LineFormat instances are equal. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | lineFormat | [LineFormat](../lineformat) | The LineFormat to compare with the current LineFormat. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | getAlignment () | Returns or sets the line alignment. Read/write LineAlignment. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -62,7 +62,7 @@ byte
 | --- | --- |
 | getBeginArrowheadLength () | Returns or sets the arrowhead length at the beginning of a line. Read/write LineArrowheadLength. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -75,7 +75,7 @@ byte
 | --- | --- |
 | getBeginArrowheadStyle () | Returns or sets the arrowhead style at the beginning of a line. Read/write LineArrowheadStyle. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -88,7 +88,7 @@ byte
 | --- | --- |
 | getBeginArrowheadWidth () | Returns or sets the arrowhead width at the beginning of a line. Read/write LineArrowheadWidth. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -101,7 +101,7 @@ byte
 | --- | --- |
 | getCapStyle () | Returns or sets the line cap style. Read/write LineCapStyle. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -114,7 +114,7 @@ byte
 | --- | --- |
 | getCustomDashPattern () | Returns or sets the custom dash pattern. Read/write float[]. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -127,7 +127,7 @@ float
 | --- | --- |
 | getDashStyle () | Returns or sets the line dash style. Read/write LineDashStyle. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -140,7 +140,7 @@ byte
 | --- | --- |
 | getEffective () | Gets effective line formatting data with the inheritance applied. |
 
- **Result**
+ **Result:**
 LineFormatEffectiveData
 
 
@@ -153,7 +153,7 @@ LineFormatEffectiveData
 | --- | --- |
 | getEndArrowheadLength () | Returns or sets the arrowhead length at the end of a line. Read/write LineArrowheadLength. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -166,7 +166,7 @@ byte
 | --- | --- |
 | getEndArrowheadStyle () | Returns or sets the arrowhead style at the end of a line. Read/write LineArrowheadStyle. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -179,7 +179,7 @@ byte
 | --- | --- |
 | getEndArrowheadWidth () | Returns or sets the arrowhead width at the end of a line. Read/write LineArrowheadWidth. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -192,7 +192,7 @@ byte
 | --- | --- |
 | getFillFormat () | Returns the fill format of a line. Read-only ILineFillFormat. |
 
- **Result**
+ **Result:**
 [LineFillFormat](../linefillformat)
 
 
@@ -205,7 +205,7 @@ byte
 | --- | --- |
 | getJoinStyle () | Returns or sets the lines join style. Read/write LineJoinStyle. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -218,7 +218,7 @@ byte
 | --- | --- |
 | getMiterLimit () | Returns or sets the miter limit of a line. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -231,7 +231,7 @@ float
 | --- | --- |
 | getSketchFormat () | Returns the sketch format of a line. Read-only ILineFillFormat. |
 
- **Result**
+ **Result:**
 [SketchFormat](../sketchformat)
 
 
@@ -244,7 +244,7 @@ float
 | --- | --- |
 | getStyle () | Returns or sets the line style. Read/write LineStyle. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -257,7 +257,7 @@ byte
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 
@@ -270,7 +270,7 @@ long
 | --- | --- |
 | getWidth () | Returns or sets the width of a line. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -283,7 +283,7 @@ double
 | --- | --- |
 | isFormatNotDefined () | Returns true if line format is not defined (as just created, default). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

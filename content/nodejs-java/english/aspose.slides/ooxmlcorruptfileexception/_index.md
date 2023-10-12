@@ -17,7 +17,7 @@ url: /aspose.slides/ooxmlcorruptfileexception/
 | --- | --- |
 | OOXMLCorruptFileException() | Default function. |
 
- **Result**
+ **Result:**
 OOXMLCorruptFileException
 
 
@@ -30,13 +30,13 @@ OOXMLCorruptFileException
 | --- | --- |
 | OOXMLCorruptFileException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 OOXMLCorruptFileException
 
 
@@ -49,14 +49,14 @@ OOXMLCorruptFileException
 | --- | --- |
 | OOXMLCorruptFileException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 OOXMLCorruptFileException
 
 

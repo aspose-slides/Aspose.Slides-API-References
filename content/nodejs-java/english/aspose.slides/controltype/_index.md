@@ -16,5 +16,16 @@ url: /aspose.slides/controltype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| WindowsMediaPlayer | 0 | Windows Media Player control. |
+| [WindowsMediaPlayer](#WindowsMediaPlayer) | 0 | Windows Media Player control. |
+
+
+---
+
+
+### WindowsMediaPlayer {#WindowsMediaPlayer}
+| WindowsMediaPlayer| 0 | Windows Media Player control. |
+
+
+---
+
 

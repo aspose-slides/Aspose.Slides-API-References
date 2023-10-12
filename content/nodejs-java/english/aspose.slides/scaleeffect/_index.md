@@ -17,7 +17,7 @@ url: /aspose.slides/scaleeffect/
 | --- | --- |
 | ScaleEffect() |  |
 
- **Result**
+ **Result:**
 ScaleEffect
 
 
@@ -30,7 +30,7 @@ ScaleEffect
 | --- | --- |
 | getBy () | describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result**
+ **Result:**
 Point2D.Float
 
 
@@ -43,7 +43,7 @@ Point2D.Float
 | --- | --- |
 | getFrom () | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result**
+ **Result:**
 Point2D.Float
 
 
@@ -56,7 +56,7 @@ Point2D.Float
 | --- | --- |
 | getTo () | Specifies the target location for an animation scale effect (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result**
+ **Result:**
 Point2D.Float
 
 
@@ -69,7 +69,7 @@ Point2D.Float
 | --- | --- |
 | getZoomContent () | Determines whether a content should be zoomed. Read/write NullableBool. |
 
- **Result**
+ **Result:**
 byte
 
 

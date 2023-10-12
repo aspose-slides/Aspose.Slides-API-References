@@ -16,11 +16,58 @@ url: /aspose.slides/chartshapetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 | Chart shape is not defined. |
-| Box | 0 | Specifies the chart shall be drawn with a box shape. |
-| Cone | 1 | Specifies the chart shall be drawn as a cone, with the base of the cone on the floor and the point of the cone at the top of the data marker. |
-| ConeToMax | 2 | Specifies the chart shall be drawn with truncated cones such that the point of the cone would be the maximum data value. |
-| Cylinder | 3 | Specifies the chart shall be drawn as a cylinder. |
-| Pyramid | 4 | Specifies the chart shall be drawn as a rectangular pyramid, with the base of the pyramid on the floor and the point of the pyramid at the top of the data marker. |
-| PyramidToMaximum | 5 | Specifies the chart shall be drawn with truncated cones such that the point of the cone would be the maximum data value. |
+| [NotDefined](#NotDefined) | -1 | Chart shape is not defined. |
+| [Box](#Box) | 0 | Specifies the chart shall be drawn with a box shape. |
+| [Cone](#Cone) | 1 | Specifies the chart shall be drawn as a cone, with the base of the cone on the floor and the point of the cone at the top of the data marker. |
+| [ConeToMax](#ConeToMax) | 2 | Specifies the chart shall be drawn with truncated cones such that the point of the cone would be the maximum data value. |
+| [Cylinder](#Cylinder) | 3 | Specifies the chart shall be drawn as a cylinder. |
+| [Pyramid](#Pyramid) | 4 | Specifies the chart shall be drawn as a rectangular pyramid, with the base of the pyramid on the floor and the point of the pyramid at the top of the data marker. |
+| [PyramidToMaximum](#PyramidToMaximum) | 5 | Specifies the chart shall be drawn with truncated cones such that the point of the cone would be the maximum data value. |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 | Chart shape is not defined. |
+
+
+---
+
+### Box {#Box}
+| Box| 0 | Specifies the chart shall be drawn with a box shape. |
+
+
+---
+
+### Cone {#Cone}
+| Cone| 1 | Specifies the chart shall be drawn as a cone, with the base of the cone on the floor and the point of the cone at the top of the data marker. |
+
+
+---
+
+### ConeToMax {#ConeToMax}
+| ConeToMax| 2 | Specifies the chart shall be drawn with truncated cones such that the point of the cone would be the maximum data value. |
+
+
+---
+
+### Cylinder {#Cylinder}
+| Cylinder| 3 | Specifies the chart shall be drawn as a cylinder. |
+
+
+---
+
+### Pyramid {#Pyramid}
+| Pyramid| 4 | Specifies the chart shall be drawn as a rectangular pyramid, with the base of the pyramid on the floor and the point of the pyramid at the top of the data marker. |
+
+
+---
+
+### PyramidToMaximum {#PyramidToMaximum}
+| PyramidToMaximum| 5 | Specifies the chart shall be drawn with truncated cones such that the point of the cone would be the maximum data value. |
+
+
+---
+
 

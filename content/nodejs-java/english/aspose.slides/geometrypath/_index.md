@@ -17,7 +17,7 @@ url: /aspose.slides/geometrypath/
 | --- | --- |
 | GeometryPath() | Creates instance of GeometryPath |
 
- **Result**
+ **Result:**
 GeometryPath
 
 
@@ -30,7 +30,7 @@ GeometryPath
 | --- | --- |
 | arcTo (float, float, float, float) | Appends the specified arc to the path. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ GeometryPath
 | --- | --- |
 | cubicBezierTo (Point2D.Float, Point2D.Float, Point2D.Float) | Adds cubic Bezier curve at the end the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -77,7 +77,7 @@ GeometryPath
 | --- | --- |
 | cubicBezierTo (float, float, float, float, float, float) | Adds cubic Bezier curve at the end the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -98,7 +98,7 @@ GeometryPath
 | --- | --- |
 | cubicBezierTo (Point2D.Float, Point2D.Float, Point2D.Float, long) | Adds cubic Bezier curve to the specified place of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -123,7 +123,7 @@ GeometryPath
 | --- | --- |
 | cubicBezierTo (float, float, float, float, float, float, long) | Adds cubic Bezier curve to the specified place of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -151,7 +151,7 @@ GeometryPath
 | --- | --- |
 | getFillMode () | Sets fill mode |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -164,7 +164,7 @@ byte
 | --- | --- |
 | getPathData () | Returns geometry path of GeometryShape as an array of path segments. |
 
- **Result**
+ **Result:**
 [PathSegment](../pathsegment)
 
 
@@ -177,7 +177,7 @@ byte
 | --- | --- |
 | getStroke () | Sets stroke appearance |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -190,7 +190,7 @@ boolean
 | --- | --- |
 | lineTo (Point2D.Float) | Adds line to the end of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -206,7 +206,7 @@ boolean
 | --- | --- |
 | lineTo (float, float) | Adds line to the end of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -223,7 +223,7 @@ boolean
 | --- | --- |
 | lineTo (Point2D.Float, long) | Adds line to the specified place of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -246,7 +246,7 @@ boolean
 | --- | --- |
 | lineTo (float, float, long) | Adds line to the specified place of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -270,7 +270,7 @@ boolean
 | --- | --- |
 | moveTo (Point2D.Float) | Sets next point position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -286,7 +286,7 @@ boolean
 | --- | --- |
 | moveTo (float, float) | Sets next point position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -303,7 +303,7 @@ boolean
 | --- | --- |
 | quadraticBezierTo (Point2D.Float, Point2D.Float) | Adds quadratic Bezier curve at the end the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -320,7 +320,7 @@ boolean
 | --- | --- |
 | quadraticBezierTo (float, float, float, float) | Adds quadratic Bezier curve at the end the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -339,7 +339,7 @@ boolean
 | --- | --- |
 | quadraticBezierTo (Point2D.Float, Point2D.Float, long) | Adds quadratic Bezier curve to the specified place of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -363,7 +363,7 @@ boolean
 | --- | --- |
 | quadraticBezierTo (float, float, float, float, long) | Adds quadratic Bezier curve to the specified place of the path |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -389,7 +389,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes segment at the specified index of the geometry path. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

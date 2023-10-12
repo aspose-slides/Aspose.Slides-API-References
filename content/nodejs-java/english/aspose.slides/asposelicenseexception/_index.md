@@ -15,7 +15,7 @@ This exception is thrown if any errors with license are detected.
 | --- | --- |
 | AsposeLicenseException() | Creates a new AsposeLicenseException. |
 
- **Result**
+ **Result:**
 AsposeLicenseException
 
 
@@ -28,13 +28,13 @@ AsposeLicenseException
 | --- | --- |
 | AsposeLicenseException(String) | Creates a new AsposeLicenseException with a message string. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | The message string. |
 
- **Result**
+ **Result:**
 AsposeLicenseException
 
 
@@ -47,14 +47,14 @@ AsposeLicenseException
 | --- | --- |
 | AsposeLicenseException(String, Throwable) | Creates a new AsposeLicenseException with a message string and a reason. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | The message string. |
 | cause | Throwable | The reason that indirectly caused this exception. |
 
- **Result**
+ **Result:**
 AsposeLicenseException
 
 

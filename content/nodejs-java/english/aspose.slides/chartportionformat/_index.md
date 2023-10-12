@@ -25,7 +25,7 @@ url: /aspose.slides/chartportionformat/
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 

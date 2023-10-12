@@ -17,7 +17,7 @@ url: /aspose.slides/pptcorruptfileexception/
 | --- | --- |
 | PptCorruptFileException() | Default function. |
 
- **Result**
+ **Result:**
 PptCorruptFileException
 
 
@@ -30,13 +30,13 @@ PptCorruptFileException
 | --- | --- |
 | PptCorruptFileException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 PptCorruptFileException
 
 
@@ -49,14 +49,14 @@ PptCorruptFileException
 | --- | --- |
 | PptCorruptFileException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 PptCorruptFileException
 
 

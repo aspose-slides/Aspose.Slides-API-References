@@ -17,13 +17,13 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addAlphaBiLevelEffect (float) | Adds the new Alpha Bi-Level effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | threshold | float | The threshold value for the alpha bi-level effect. |
 
- **Result**
+ **Result:**
 [AlphaBiLevel](../alphabilevel)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addAlphaCeilingEffect () | Adds the new Alpha Ceiling effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [AlphaCeiling](../alphaceiling)
 
 
@@ -49,7 +49,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addAlphaFloorEffect () | Adds the new Alpha Floor effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [AlphaFloor](../alphafloor)
 
 
@@ -62,7 +62,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addAlphaInverseEffect () | Adds the new Alpha Inverse effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [AlphaInverse](../alphainverse)
 
 
@@ -75,7 +75,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addAlphaModulateEffect () | Adds the new Alpha Modulate effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [AlphaModulate](../alphamodulate)
 
 
@@ -88,13 +88,13 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addAlphaModulateFixedEffect (float) | Adds the new Alpha Modulate Fixed effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | amount | float | The percentage amount to scale the alpha. |
 
- **Result**
+ **Result:**
 [AlphaModulateFixed](../alphamodulatefixed)
 
 
@@ -107,13 +107,13 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addAlphaReplaceEffect (float) | Adds the new Alpha Replace effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | alpha | float | The new opacity value. |
 
- **Result**
+ **Result:**
 [AlphaReplace](../alphareplace)
 
 
@@ -126,13 +126,13 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addBiLevelEffect (float) | Adds the new Bi-Level (black/white) effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | threshold | float | the luminance threshold for the Bi-Level effect. Values greater than or equal to the threshold are set to white. Values lesser than the threshold are set to black. |
 
- **Result**
+ **Result:**
 [BiLevel](../bilevel)
 
 
@@ -145,14 +145,14 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addBlurEffect (double, boolean) | Adds the new Blur effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | radius | double | The radius of blur. |
 | grow | boolean | Specifies whether the bounds of the object should be grown as a result of the blurring. True indicates the bounds are grown while false indicates that they are not. |
 
- **Result**
+ **Result:**
 [Blur](../blur)
 
 
@@ -165,7 +165,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addColorChangeEffect () | Adds the new Color Change effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [ColorChange](../colorchange)
 
 
@@ -178,7 +178,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addColorReplaceEffect () | Adds the new Color Replacement effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [ColorReplace](../colorreplace)
 
 
@@ -191,7 +191,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addDuotoneEffect () | Adds the new Duotone effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [Duotone](../duotone)
 
 
@@ -204,7 +204,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addFillOverlayEffect () | Adds the new Fill Overlay effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [FillOverlay](../filloverlay)
 
 
@@ -217,7 +217,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addGrayScaleEffect () | Adds the new Gray Scale effect to the end of a collection. |
 
- **Result**
+ **Result:**
 [GrayScale](../grayscale)
 
 
@@ -230,7 +230,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addHSLEffect (float, float, float) | Adds the new Hue/Saturation/Luminance effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -238,7 +238,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | saturation | float | The percentage by which the saturation is adjusted. |
 | luminance | float | The percentage by which the luminance is adjusted. |
 
- **Result**
+ **Result:**
 [HSL](../hsl)
 
 
@@ -251,7 +251,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([AlphaFloor](../alphafloor)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -267,7 +267,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([Luminance](../luminance)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -283,7 +283,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([AlphaModulate](../alphamodulate)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -299,7 +299,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([BiLevel](../bilevel)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -315,7 +315,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([AlphaModulateFixed](../alphamodulatefixed)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -331,7 +331,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([Blur](../blur)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -347,7 +347,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([Glow](../glow)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -363,7 +363,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([AlphaCeiling](../alphaceiling)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -379,7 +379,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([ColorReplace](../colorreplace)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -395,7 +395,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([GrayScale](../grayscale)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -411,7 +411,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([OuterShadow](../outershadow)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -427,7 +427,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([Tint](../tint)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -443,7 +443,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([AlphaBiLevel](../alphabilevel)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -459,7 +459,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([Reflection](../reflection)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -475,7 +475,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([FillOverlay](../filloverlay)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -491,7 +491,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([AlphaReplace](../alphareplace)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -507,7 +507,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([PresetShadow](../presetshadow)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -523,7 +523,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([HSL](../hsl)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -539,7 +539,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([SoftEdge](../softedge)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -555,7 +555,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([InnerShadow](../innershadow)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -571,7 +571,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([Duotone](../duotone)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -587,7 +587,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([AlphaInverse](../alphainverse)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -603,7 +603,7 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addItem ([ColorChange](../colorchange)) | Adds the new image effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -619,14 +619,14 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addLuminanceEffect (float, float) | Adds the new Luminance effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | brightness | float | The percent to change the brightness. |
 | contrast | float | The percent to change the contrast. |
 
- **Result**
+ **Result:**
 [Luminance](../luminance)
 
 
@@ -639,14 +639,14 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | addTintEffect (float, float) | Adds the new Tint effect to the end of a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | hue | float | The hue towards which to tint. |
 | amount | float | Specifies by how much the color value is shifted. |
 
- **Result**
+ **Result:**
 [Tint](../tint)
 
 
@@ -669,13 +669,13 @@ url: /aspose.slides/imagetransformoperationcollection/
 | --- | --- |
 | containsItem ([AlphaFloor](../alphafloor)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaFloor](../alphafloor) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -688,13 +688,13 @@ boolean
 | --- | --- |
 | containsItem ([Luminance](../luminance)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Luminance](../luminance) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -707,13 +707,13 @@ boolean
 | --- | --- |
 | containsItem ([AlphaModulate](../alphamodulate)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaModulate](../alphamodulate) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -726,13 +726,13 @@ boolean
 | --- | --- |
 | containsItem ([BiLevel](../bilevel)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [BiLevel](../bilevel) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -745,13 +745,13 @@ boolean
 | --- | --- |
 | containsItem ([AlphaModulateFixed](../alphamodulatefixed)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaModulateFixed](../alphamodulatefixed) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -764,13 +764,13 @@ boolean
 | --- | --- |
 | containsItem ([Blur](../blur)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Blur](../blur) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -783,13 +783,13 @@ boolean
 | --- | --- |
 | containsItem ([Glow](../glow)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Glow](../glow) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -802,13 +802,13 @@ boolean
 | --- | --- |
 | containsItem ([AlphaCeiling](../alphaceiling)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaCeiling](../alphaceiling) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -821,13 +821,13 @@ boolean
 | --- | --- |
 | containsItem ([ColorReplace](../colorreplace)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [ColorReplace](../colorreplace) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -840,13 +840,13 @@ boolean
 | --- | --- |
 | containsItem ([GrayScale](../grayscale)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [GrayScale](../grayscale) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -859,13 +859,13 @@ boolean
 | --- | --- |
 | containsItem ([OuterShadow](../outershadow)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [OuterShadow](../outershadow) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -878,13 +878,13 @@ boolean
 | --- | --- |
 | containsItem ([Tint](../tint)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Tint](../tint) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -897,13 +897,13 @@ boolean
 | --- | --- |
 | containsItem ([AlphaBiLevel](../alphabilevel)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaBiLevel](../alphabilevel) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -916,13 +916,13 @@ boolean
 | --- | --- |
 | containsItem ([Reflection](../reflection)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Reflection](../reflection) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -935,13 +935,13 @@ boolean
 | --- | --- |
 | containsItem ([FillOverlay](../filloverlay)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [FillOverlay](../filloverlay) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -954,13 +954,13 @@ boolean
 | --- | --- |
 | containsItem ([AlphaReplace](../alphareplace)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaReplace](../alphareplace) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -973,13 +973,13 @@ boolean
 | --- | --- |
 | containsItem ([PresetShadow](../presetshadow)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [PresetShadow](../presetshadow) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -992,13 +992,13 @@ boolean
 | --- | --- |
 | containsItem ([HSL](../hsl)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [HSL](../hsl) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -1011,13 +1011,13 @@ boolean
 | --- | --- |
 | containsItem ([SoftEdge](../softedge)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [SoftEdge](../softedge) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -1030,13 +1030,13 @@ boolean
 | --- | --- |
 | containsItem ([InnerShadow](../innershadow)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [InnerShadow](../innershadow) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -1049,13 +1049,13 @@ boolean
 | --- | --- |
 | containsItem ([Duotone](../duotone)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Duotone](../duotone) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -1068,13 +1068,13 @@ boolean
 | --- | --- |
 | containsItem ([AlphaInverse](../alphainverse)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaInverse](../alphainverse) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -1087,13 +1087,13 @@ boolean
 | --- | --- |
 | containsItem ([ColorChange](../colorchange)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [ColorChange](../colorchange) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -1106,7 +1106,7 @@ boolean
 | --- | --- |
 | copyToTArray (com.aspose.slides.IImageTransformOperation[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1129,7 +1129,7 @@ boolean
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 
@@ -1142,13 +1142,13 @@ long
 | --- | --- |
 | get_Item (int) | Returns an ImageTransformOperation from the collection by it's index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of element. |
 
- **Result**
+ **Result:**
 [ImageTransformOperation](../imagetransformoperation), [AlphaFloor](../alphafloor), [Luminance](../luminance), [AlphaModulate](../alphamodulate), [BiLevel](../bilevel), [AlphaModulateFixed](../alphamodulatefixed), [Blur](../blur), [Glow](../glow), [AlphaCeiling](../alphaceiling), [ColorReplace](../colorreplace), [GrayScale](../grayscale), [OuterShadow](../outershadow), [Tint](../tint), [AlphaBiLevel](../alphabilevel), [Reflection](../reflection), [FillOverlay](../filloverlay), [AlphaReplace](../alphareplace), [PresetShadow](../presetshadow), [HSL](../hsl), [SoftEdge](../softedge), [InnerShadow](../innershadow), [Duotone](../duotone), [AlphaInverse](../alphainverse), [ColorChange](../colorchange)
 
 
@@ -1161,7 +1161,7 @@ long
 | --- | --- |
 | isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -1174,7 +1174,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -1187,7 +1187,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -1200,7 +1200,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes an image effect from a collection at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -1216,13 +1216,13 @@ boolean
 | --- | --- |
 | removeItem ([AlphaFloor](../alphafloor)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaFloor](../alphafloor) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1241,13 +1241,13 @@ boolean
 | --- | --- |
 | removeItem ([Luminance](../luminance)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Luminance](../luminance) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1266,13 +1266,13 @@ boolean
 | --- | --- |
 | removeItem ([AlphaModulate](../alphamodulate)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaModulate](../alphamodulate) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1291,13 +1291,13 @@ boolean
 | --- | --- |
 | removeItem ([BiLevel](../bilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [BiLevel](../bilevel) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1316,13 +1316,13 @@ boolean
 | --- | --- |
 | removeItem ([AlphaModulateFixed](../alphamodulatefixed)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaModulateFixed](../alphamodulatefixed) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1341,13 +1341,13 @@ boolean
 | --- | --- |
 | removeItem ([Blur](../blur)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Blur](../blur) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1366,13 +1366,13 @@ boolean
 | --- | --- |
 | removeItem ([Glow](../glow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Glow](../glow) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1391,13 +1391,13 @@ boolean
 | --- | --- |
 | removeItem ([AlphaCeiling](../alphaceiling)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaCeiling](../alphaceiling) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1416,13 +1416,13 @@ boolean
 | --- | --- |
 | removeItem ([ColorReplace](../colorreplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [ColorReplace](../colorreplace) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1441,13 +1441,13 @@ boolean
 | --- | --- |
 | removeItem ([GrayScale](../grayscale)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [GrayScale](../grayscale) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1466,13 +1466,13 @@ boolean
 | --- | --- |
 | removeItem ([OuterShadow](../outershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [OuterShadow](../outershadow) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1491,13 +1491,13 @@ boolean
 | --- | --- |
 | removeItem ([Tint](../tint)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Tint](../tint) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1516,13 +1516,13 @@ boolean
 | --- | --- |
 | removeItem ([AlphaBiLevel](../alphabilevel)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaBiLevel](../alphabilevel) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1541,13 +1541,13 @@ boolean
 | --- | --- |
 | removeItem ([Reflection](../reflection)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Reflection](../reflection) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1566,13 +1566,13 @@ boolean
 | --- | --- |
 | removeItem ([FillOverlay](../filloverlay)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [FillOverlay](../filloverlay) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1591,13 +1591,13 @@ boolean
 | --- | --- |
 | removeItem ([AlphaReplace](../alphareplace)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaReplace](../alphareplace) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1616,13 +1616,13 @@ boolean
 | --- | --- |
 | removeItem ([PresetShadow](../presetshadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [PresetShadow](../presetshadow) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1641,13 +1641,13 @@ boolean
 | --- | --- |
 | removeItem ([HSL](../hsl)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [HSL](../hsl) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1666,13 +1666,13 @@ boolean
 | --- | --- |
 | removeItem ([SoftEdge](../softedge)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [SoftEdge](../softedge) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1691,13 +1691,13 @@ boolean
 | --- | --- |
 | removeItem ([InnerShadow](../innershadow)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [InnerShadow](../innershadow) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1716,13 +1716,13 @@ boolean
 | --- | --- |
 | removeItem ([Duotone](../duotone)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Duotone](../duotone) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1741,13 +1741,13 @@ boolean
 | --- | --- |
 | removeItem ([AlphaInverse](../alphainverse)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [AlphaInverse](../alphainverse) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1766,13 +1766,13 @@ boolean
 | --- | --- |
 | removeItem ([ColorChange](../colorchange)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [ColorChange](../colorchange) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -1791,7 +1791,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of image effects in a collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

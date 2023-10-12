@@ -17,7 +17,7 @@ url: /aspose.slides/smartartnodecollection/
 | --- | --- |
 | addNode () | Add new smart art node or sub node. |
 
- **Result**
+ **Result:**
 [SmartArtNode](../smartartnode)
 
 
@@ -30,13 +30,13 @@ url: /aspose.slides/smartartnodecollection/
 | --- | --- |
 | addNodeByPosition (int) | Add new node in the selected position of nodes collection |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | position | int | Zero-base node position |
 
- **Result**
+ **Result:**
 [SmartArtNode](../smartartnode)
 
  **Error**
@@ -55,7 +55,7 @@ url: /aspose.slides/smartartnodecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -68,13 +68,13 @@ Object
 | --- | --- |
 | get_Item (int) | Returns node by index |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the element |
 
- **Result**
+ **Result:**
 [SmartArtNode](../smartartnode)
 
 
@@ -87,7 +87,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -100,7 +100,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -113,7 +113,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -126,7 +126,7 @@ boolean
 | --- | --- |
 | removeNode (int) | Remove node or sub node by index |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -148,7 +148,7 @@ boolean
 | --- | --- |
 | removeNode ([SmartArtNode](../smartartnode)) | Remove node or sub node |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -164,7 +164,7 @@ boolean
 | --- | --- |
 | size () | Returns count of nodes in collection Read-only int Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/oleembeddeddatainfo/
 | --- | --- |
 | OleEmbeddedDataInfo() | Creates new embedded data info for OLE object. |
 
- **Result**
+ **Result:**
 OleEmbeddedDataInfo
 
 
@@ -30,14 +30,14 @@ OleEmbeddedDataInfo
 | --- | --- |
 | OleEmbeddedDataInfo(byte[], String) | Creates a new instance of an embedded data info for OLE object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | embeddedFileData | byte[] | File data of an embedded OLE object byte[]. |
 | embeddedFileExtension | String | File extension for the current embedded OLE object String. |
 
- **Result**
+ **Result:**
 OleEmbeddedDataInfo
 
 
@@ -50,7 +50,7 @@ OleEmbeddedDataInfo
 | --- | --- |
 | getEmbeddedFileData () | Returns the file data of an embedded OLE object Read only byte[]. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -63,7 +63,7 @@ byte
 | --- | --- |
 | getEmbeddedFileExtension () | Returns the file extension for the current embedded OLE object Read only String. |
 
- **Result**
+ **Result:**
 String
 
 

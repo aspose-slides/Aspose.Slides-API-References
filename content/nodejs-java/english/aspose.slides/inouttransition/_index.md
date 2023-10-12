@@ -17,7 +17,7 @@ url: /aspose.slides/inouttransition/
 | --- | --- |
 | getDirection () | Direction of a transition effect. Read/write TransitionInOutDirectionType. |
 
- **Result**
+ **Result:**
 int
 
 

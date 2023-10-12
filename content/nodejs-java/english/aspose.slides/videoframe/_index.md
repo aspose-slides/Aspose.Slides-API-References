@@ -17,7 +17,7 @@ url: /aspose.slides/videoframe/
 | --- | --- |
 | getEmbeddedVideo () | Returns or sets embedded video object. Read/write IVideo. |
 
- **Result**
+ **Result:**
 [Video](../video)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/videoframe/
 | --- | --- |
 | getFullScreenMode () | Determines whether a video is shown in full screen mode. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getHideAtShowing () | Determines whether a VideoFrame is hidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getLinkPathLong () | Returns or sets the name of an video file which is linked to a VideoFrame. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | getPlayLoopMode () | Determines whether a video is looped. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getPlayMode () | Returns or sets the video play mode. Read/write VideoPlayModePreset. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -95,7 +95,7 @@ int
 | --- | --- |
 | getRewindVideo () | Determines whether a video is automatically rewinded to start as soon as the movie has finished playing. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | getTrimFromEnd () | Trim end [ms] |
 
- **Result**
+ **Result:**
 float
 
 
@@ -121,7 +121,7 @@ float
 | --- | --- |
 | getTrimFromStart () | Trim start [ms] |
 
- **Result**
+ **Result:**
 float
 
 
@@ -134,7 +134,7 @@ float
 | --- | --- |
 | getVolume () | Returns or sets the audio volume. Read/write AudioVolumeMode. |
 
- **Result**
+ **Result:**
 int
 
 

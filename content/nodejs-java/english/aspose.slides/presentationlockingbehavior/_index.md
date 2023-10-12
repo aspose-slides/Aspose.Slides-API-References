@@ -21,6 +21,23 @@ url: /aspose.slides/presentationlockingbehavior/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| LoadAndRelease | 0 | The source will be locked only for a time of IPresentation constructor execution. If ( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.This behavior is slower than PresentationLockingBehavior#KeepLocked, and if it is possible to pass the ownership of the source to IPresentation, it is recommended to use PresentationLockingBehavior#KeepLocked. |
-| KeepLocked | 1 | The source will be locked for a whole lifetime of IPresentation instance, until it will be disposed. IBlobManagementOptions#isTemporaryFilesAllowed( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is must be set to true for using this behavior, otherwise exception will be thrown.This behavior is recommended, it is faster and consumes less memory than PresentationLockingBehavior#LoadAndRelease. |
+| [LoadAndRelease](#LoadAndRelease) | 0 | The source will be locked only for a time of IPresentation constructor execution. If ( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.This behavior is slower than PresentationLockingBehavior#KeepLocked, and if it is possible to pass the ownership of the source to IPresentation, it is recommended to use PresentationLockingBehavior#KeepLocked. |
+| [KeepLocked](#KeepLocked) | 1 | The source will be locked for a whole lifetime of IPresentation instance, until it will be disposed. IBlobManagementOptions#isTemporaryFilesAllowed( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is must be set to true for using this behavior, otherwise exception will be thrown.This behavior is recommended, it is faster and consumes less memory than PresentationLockingBehavior#LoadAndRelease. |
+
+
+---
+
+
+### LoadAndRelease {#LoadAndRelease}
+| LoadAndRelease| 0 | The source will be locked only for a time of IPresentation constructor execution. If ( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is set to false, all BLOBs will be loaded into memory. Otherwise, other means such a temporary files might be used.This behavior is slower than PresentationLockingBehavior#KeepLocked, and if it is possible to pass the ownership of the source to IPresentation, it is recommended to use PresentationLockingBehavior#KeepLocked. |
+
+
+---
+
+### KeepLocked {#KeepLocked}
+| KeepLocked| 1 | The source will be locked for a whole lifetime of IPresentation instance, until it will be disposed. IBlobManagementOptions#isTemporaryFilesAllowed( IBlobManagementOptions#isTemporaryFilesAllowed/ IBlobManagementOptions#setTemporaryFilesAllowed(boolean)) is must be set to true for using this behavior, otherwise exception will be thrown.This behavior is recommended, it is faster and consumes less memory than PresentationLockingBehavior#LoadAndRelease. |
+
+
+---
+
 

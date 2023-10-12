@@ -17,7 +17,7 @@ url: /aspose.slides/swfoptions/
 | --- | --- |
 | SwfOptions() | Default function. |
 
- **Result**
+ **Result:**
 SwfOptions
 
 
@@ -30,7 +30,7 @@ SwfOptions
 | --- | --- |
 | getCompressed () | Specifies whether the generated SWF document should be compressed or not. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getEnableContextMenu () | Enable/disable context menu. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getJpegQuality () | Specifies the quality of JPEG images. Default is 95. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getLogoImageBytes () | Image that will be displayed as logo in the top right corner of the viewer. Image should be 32x64 pixels PNG image, otherwise logo can be displayed improperly. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -82,7 +82,7 @@ byte
 | --- | --- |
 | getLogoLink () | Gets or sets the full hyperlink address for a logo. Has an effect only if a ( #getLogoImageBytes/ #setLogoImageBytes(byte[])) is specified. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -95,7 +95,7 @@ String
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
- **Result**
+ **Result:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
@@ -108,7 +108,7 @@ String
 | --- | --- |
 | getShowBottomPane () | Show/hide bottom pane. Can be overridden in flashvars. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | getShowFullScreen () | Show/hide fullscreen button. Can be overridden in flashvars. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -134,7 +134,7 @@ boolean
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -147,7 +147,7 @@ boolean
 | --- | --- |
 | getShowLeftPane () | Show/hide left pane. Can be overridden in flashvars. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -160,7 +160,7 @@ boolean
 | --- | --- |
 | getShowPageBorder () | Specifies whether border around pages should be shown. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -173,7 +173,7 @@ boolean
 | --- | --- |
 | getShowPageStepper () | Show/hide page stepper. Can be overridden in flashvars. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -186,7 +186,7 @@ boolean
 | --- | --- |
 | getShowSearch () | Show/hide search section. Can be overridden in flashvars. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -199,7 +199,7 @@ boolean
 | --- | --- |
 | getShowTopPane () | Show/hide whole top pane. Can be overridden in flashvars. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -212,7 +212,7 @@ boolean
 | --- | --- |
 | getStartOpenLeftPane () | Start with opened left pane. Can be overridden in flashvars. Default is false. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -225,7 +225,7 @@ boolean
 | --- | --- |
 | getViewerIncluded () | Specifies whether the generated SWF document should include the integrated document viewer or not. Default is true. |
 
- **Result**
+ **Result:**
 boolean
 
 

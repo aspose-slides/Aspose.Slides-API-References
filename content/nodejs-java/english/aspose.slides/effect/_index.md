@@ -17,7 +17,7 @@ url: /aspose.slides/effect/
 | --- | --- |
 | getAfterAnimationColor () | Defined an after animation color for effect. Read/write IColorFormat. |
 
- **Result**
+ **Result:**
 [ColorFormat](../colorformat)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/effect/
 | --- | --- |
 | getAfterAnimationType () | Defined an after animation type for effect. Read/write AfterAnimationType( #getAfterAnimationType/ #setAfterAnimationType(int)). |
 
- **Result**
+ **Result:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getBehaviors () | Returns collection of behavior for effect. Read/write IBehaviorCollection. |
 
- **Result**
+ **Result:**
 [BehaviorCollection](../behaviorcollection)
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getPresetClassType () | Defines class of effect. Read/write EffectPresetClassType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getSequence () | Returns a sequence for an effect. Read-only ISequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getSound () | Defined embedded sound for effect. Read/write IAudio. |
 
- **Result**
+ **Result:**
 [Audio](../audio)
 
 
@@ -95,7 +95,7 @@ int
 | --- | --- |
 | getStopPreviousSound () | This attribute specifies if the animation effect stops the previous sound. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | getSubtype () | Defines subtype of effect. Read/write EffectSubtype. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -121,7 +121,7 @@ int
 | --- | --- |
 | getTargetShape () | Returns target shape for effect. Read-only IShape. |
 
- **Result**
+ **Result:**
 [LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
 
 
@@ -134,7 +134,7 @@ int
 | --- | --- |
 | getTextAnimation () | TextAnimation Read-only ITextAnimation. |
 
- **Result**
+ **Result:**
 [TextAnimation](../textanimation)
 
 
@@ -147,7 +147,7 @@ int
 | --- | --- |
 | getTiming () | Defines timing value for effect. Read/write ITiming. |
 
- **Result**
+ **Result:**
 [Timing](../timing)
 
 
@@ -160,7 +160,7 @@ int
 | --- | --- |
 | getType () | Defines type of effect. Read/write EffectType. |
 
- **Result**
+ **Result:**
 int
 
 

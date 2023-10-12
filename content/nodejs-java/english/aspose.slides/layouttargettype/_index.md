@@ -18,6 +18,23 @@ url: /aspose.slides/layouttargettype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Inner | 0 | Specifies that the plot area size shall determine the size of the plot area, not including the tick marks and axis labels. |
-| Outer | 1 | Specifies that the plot area size shall determine the size of the plot area, the tick marks, and the axis labels. |
+| [Inner](#Inner) | 0 | Specifies that the plot area size shall determine the size of the plot area, not including the tick marks and axis labels. |
+| [Outer](#Outer) | 1 | Specifies that the plot area size shall determine the size of the plot area, the tick marks, and the axis labels. |
+
+
+---
+
+
+### Inner {#Inner}
+| Inner| 0 | Specifies that the plot area size shall determine the size of the plot area, not including the tick marks and axis labels. |
+
+
+---
+
+### Outer {#Outer}
+| Outer| 1 | Specifies that the plot area size shall determine the size of the plot area, the tick marks, and the axis labels. |
+
+
+---
+
 

@@ -17,7 +17,7 @@ url: /aspose.slides/extracolorscheme/
 | --- | --- |
 | getColorScheme () | Returns a color scheme. Read-only IColorScheme. |
 
- **Result**
+ **Result:**
 [ColorScheme](../colorscheme)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/extracolorscheme/
 | --- | --- |
 | getName () | Returns a name of this scheme. Read-only String. |
 
- **Result**
+ **Result:**
 String
 
 

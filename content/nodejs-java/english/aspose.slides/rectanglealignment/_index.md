@@ -16,14 +16,79 @@ url: /aspose.slides/rectanglealignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| TopLeft | 0 |  |
-| Top | 1 |  |
-| TopRight | 2 |  |
-| Left | 3 |  |
-| Center | 4 |  |
-| Right | 5 |  |
-| BottomLeft | 6 |  |
-| Bottom | 7 |  |
-| BottomRight | 8 |  |
+| [NotDefined](#NotDefined) | -1 |  |
+| [TopLeft](#TopLeft) | 0 |  |
+| [Top](#Top) | 1 |  |
+| [TopRight](#TopRight) | 2 |  |
+| [Left](#Left) | 3 |  |
+| [Center](#Center) | 4 |  |
+| [Right](#Right) | 5 |  |
+| [BottomLeft](#BottomLeft) | 6 |  |
+| [Bottom](#Bottom) | 7 |  |
+| [BottomRight](#BottomRight) | 8 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 |  |
+
+
+---
+
+### TopLeft {#TopLeft}
+| TopLeft| 0 |  |
+
+
+---
+
+### Top {#Top}
+| Top| 1 |  |
+
+
+---
+
+### TopRight {#TopRight}
+| TopRight| 2 |  |
+
+
+---
+
+### Left {#Left}
+| Left| 3 |  |
+
+
+---
+
+### Center {#Center}
+| Center| 4 |  |
+
+
+---
+
+### Right {#Right}
+| Right| 5 |  |
+
+
+---
+
+### BottomLeft {#BottomLeft}
+| BottomLeft| 6 |  |
+
+
+---
+
+### Bottom {#Bottom}
+| Bottom| 7 |  |
+
+
+---
+
+### BottomRight {#BottomRight}
+| BottomRight| 8 |  |
+
+
+---
+
 

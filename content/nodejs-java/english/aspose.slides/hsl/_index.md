@@ -18,13 +18,13 @@ url: /aspose.slides/hsl/
 | --- | --- |
 | equals (Object) | Determines whether the specified HSL is equal to the current HSL. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The HSL to compare. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Hue/Saturation/Luminance effect data with the inheritance applied. |
 
- **Result**
+ **Result:**
 HSLEffectiveData
 
 
@@ -50,7 +50,7 @@ HSLEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result**
+ **Result:**
 int
 
 

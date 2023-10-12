@@ -17,14 +17,14 @@ url: /aspose.slides/columncollection/
 | --- | --- |
 | addClone ([Column](../column), boolean) | Creates a copy of the specified template row and inserts it at the bottom of a table. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | templ | [Column](../column) | Column which is used as a template. |
 | withAttachedColumns | boolean | True to copy also all columns attached to the template row. |
 
- **Result**
+ **Result:**
 [Column](../column)
 
 
@@ -37,7 +37,7 @@ url: /aspose.slides/columncollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -50,7 +50,7 @@ Object
 | --- | --- |
 | get_Item (int) | Returns the column at the specified index. Read-only Column. |
 
- **Result**
+ **Result:**
 [Column](../column)
 
 
@@ -63,7 +63,7 @@ Object
 | --- | --- |
 | insertClone (int, [Column](../column), boolean) | Creates a copy of the specified template column and insert it at the specified position in a table. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -71,7 +71,7 @@ Object
 | templ | [Column](../column) | Column which is used as a template. |
 | withAttachedColumns | boolean | True to copy also all columns attached to the template column. |
 
- **Result**
+ **Result:**
 [Column](../column)
 
 
@@ -84,7 +84,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -97,7 +97,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -110,7 +110,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -123,7 +123,7 @@ boolean
 | --- | --- |
 | removeAt (int, boolean) | Removes a column at the specified position from a table. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -140,7 +140,7 @@ boolean
 | --- | --- |
 | size () | Returns the number of columns in a collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

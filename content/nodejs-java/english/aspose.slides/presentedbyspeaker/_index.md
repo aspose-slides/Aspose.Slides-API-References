@@ -17,7 +17,7 @@ url: /aspose.slides/presentedbyspeaker/
 | --- | --- |
 | PresentedBySpeaker() | Initializes a new instance of the PresentedBySpeaker class. |
 
- **Result**
+ **Result:**
 PresentedBySpeaker
 
 

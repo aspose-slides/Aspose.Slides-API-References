@@ -17,7 +17,7 @@ url: /aspose.slides/pptxoptions/
 | --- | --- |
 | PptxOptions() | Creates new instance of PptxOptions |
 
- **Result**
+ **Result:**
 PptxOptions
 
 
@@ -30,7 +30,7 @@ PptxOptions
 | --- | --- |
 | getConformance () | Specifies the conformance class to which the Presentation document conforms. Default value is Conformance#Ecma376_2006 |
 
- **Result**
+ **Result:**
 int
 
 

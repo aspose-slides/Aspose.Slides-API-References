@@ -17,14 +17,14 @@ url: /aspose.slides/digitalsignature/
 | --- | --- |
 | DigitalSignature(byte[], String) | Creates a new DigitalSignature object with the specified certificate. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | certData | byte[] | a byte array containing the certificate |
 | password | String | Password required to access certificate. |
 
- **Result**
+ **Result:**
 DigitalSignature
 
 
@@ -37,14 +37,14 @@ DigitalSignature
 | --- | --- |
 | DigitalSignature(String, String) | Creates a new DigitalSignature object with the specified certificate file path and password. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | filePath | String | Path to the file with certificate. |
 | password | String | Password required to access certificate. |
 
- **Result**
+ **Result:**
 DigitalSignature
 
 
@@ -57,7 +57,7 @@ DigitalSignature
 | --- | --- |
 | getCertificate () | Certificate object that was used to sign the document. Read-only byte[]. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -70,7 +70,7 @@ byte
 | --- | --- |
 | getComments () | The purpose of signature. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -83,7 +83,7 @@ String
 | --- | --- |
 | getSignTime () | The time when the document was signed. Read-only java.util.Date. |
 
- **Result**
+ **Result:**
 Date
 
 
@@ -96,7 +96,7 @@ Date
 | --- | --- |
 | isValid () | If this digital signature is valid and the document has not been tampered with, this value will be true. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

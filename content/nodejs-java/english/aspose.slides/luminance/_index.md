@@ -19,13 +19,13 @@ url: /aspose.slides/luminance/
 | --- | --- |
 | equals (Object) | Determines whether the specified Luminance is equal to the current Luminance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The Luminance to compare. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -38,7 +38,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Luminance effect data with the inheritance applied. |
 
- **Result**
+ **Result:**
 LuminanceEffectiveData
 
 
@@ -51,7 +51,7 @@ LuminanceEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result**
+ **Result:**
 int
 
 

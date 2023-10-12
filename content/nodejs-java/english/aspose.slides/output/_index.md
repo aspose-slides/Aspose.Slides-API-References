@@ -17,7 +17,7 @@ url: /aspose.slides/output/
 | --- | --- |
 | add (String, String, TContextObject) | Adds an output element for the context object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ url: /aspose.slides/output/
 | templateKey | String | The key of the template used for context object transformation before output. |
 | contextObject | TContextObject | Context object. |
 
- **Result**
+ **Result:**
 [OutputFile](../outputfile)
 
 
@@ -38,14 +38,14 @@ url: /aspose.slides/output/
 | --- | --- |
 | add (String, [PPImage](../ppimage)) | Adds an output element for the image. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
 | image | [PPImage](../ppimage) | Image to output. |
 
- **Result**
+ **Result:**
 [OutputFile](../outputfile)
 
 
@@ -58,14 +58,14 @@ url: /aspose.slides/output/
 | --- | --- |
 | add (String, BufferedImage) | Adds an output element for the image. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
 | image | BufferedImage | Image to output. |
 
- **Result**
+ **Result:**
 [OutputFile](../outputfile)
 
 
@@ -78,14 +78,14 @@ url: /aspose.slides/output/
 | --- | --- |
 | add (String, [Video](../video)) | Adds an output element for the video. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
 | video | [Video](../video) | Video to output. |
 
- **Result**
+ **Result:**
 [OutputFile](../outputfile)
 
 
@@ -98,7 +98,7 @@ url: /aspose.slides/output/
 | --- | --- |
 | add (String, [FontData](../fontdata), int) | Adds an output element for the font. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -106,7 +106,7 @@ url: /aspose.slides/output/
 | fontData | [FontData](../fontdata) | Font to output. |
 | fontStyle | int | Font style. |
 
- **Result**
+ **Result:**
 [OutputFile](../outputfile)
 
 
@@ -119,14 +119,14 @@ url: /aspose.slides/output/
 | --- | --- |
 | add (String, String) | Adds an output element for the text content. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | Output path. |
 | textContent | String | Content to output. |
 
- **Result**
+ **Result:**
 [OutputFile](../outputfile)
 
 
@@ -139,13 +139,13 @@ url: /aspose.slides/output/
 | --- | --- |
 | getResourcePath (Object) | Returns the path for a given resource. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | Resource object. |
 
- **Result**
+ **Result:**
 String
 
 

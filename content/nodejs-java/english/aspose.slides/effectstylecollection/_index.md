@@ -17,7 +17,7 @@ url: /aspose.slides/effectstylecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -30,13 +30,13 @@ Object
 | --- | --- |
 | get_Item (int) | Returns an element at specified position. Read-only EffectStyle. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Position of element. |
 
- **Result**
+ **Result:**
 [EffectStyle](../effectstyle)
 
 
@@ -49,7 +49,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -62,7 +62,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of elements in the collection. Read-only int, Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

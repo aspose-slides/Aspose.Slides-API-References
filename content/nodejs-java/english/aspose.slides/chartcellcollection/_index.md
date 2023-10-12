@@ -17,7 +17,7 @@ url: /aspose.slides/chartcellcollection/
 | --- | --- |
 | add ([ChartDataCell](../chartdatacell)) | Add new cell to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ url: /aspose.slides/chartcellcollection/
 | --- | --- |
 | add (Object) | Creates ChartDataCell from specified value and adds it to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -55,7 +55,7 @@ url: /aspose.slides/chartcellcollection/
 | --- | --- |
 | getCellsAddress () | Returns address of the set of cells in workbook. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -68,7 +68,7 @@ String
 | --- | --- |
 | getConcatenatedValuesFromCells () | Concatenation string from all cells string values. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -81,7 +81,7 @@ String
 | --- | --- |
 | getCount () | Gets the count of cells in collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -94,13 +94,13 @@ int
 | --- | --- |
 | get_Item (int) | Returns a cell (IChartDataCell) by index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a cell. |
 
- **Result**
+ **Result:**
 [ChartDataCell](../chartdatacell)
 
 
@@ -113,7 +113,7 @@ int
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -126,7 +126,7 @@ int
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -139,7 +139,7 @@ int
 | --- | --- |
 | removeAt (int) | Removes a cell from the collection by index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

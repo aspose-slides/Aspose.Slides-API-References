@@ -17,7 +17,7 @@ url: /aspose.slides/marker/
 | --- | --- |
 | getFormat () | Gets or sets the marker fill. Read-only IFormat. |
 
- **Result**
+ **Result:**
 [Format](../format)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/marker/
 | --- | --- |
 | getSize () | Represents the marker size in a line chart, scatter chart, or radar chart. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getSymbol () | Represents the marker style in a line chart, scatter chart, or radar chart. Read/write MarkerStyleType. |
 
- **Result**
+ **Result:**
 int
 
 

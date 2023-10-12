@@ -17,7 +17,7 @@ url: /aspose.slides/chartwall/
 | --- | --- |
 | getFormat () | Returns the wall fill, line, effect, 3d styles. Read-only IFormat. |
 
- **Result**
+ **Result:**
 [Format](../format)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/chartwall/
 | --- | --- |
 | getPictureType () | Return or sets the picture type. Read/write PictureType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getThickness () | Returns or sets the walls thickness as a percentage of the largest dimension of the plot volume. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 

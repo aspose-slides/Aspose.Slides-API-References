@@ -17,7 +17,7 @@ url: /aspose.slides/responsivehtmlcontroller/
 | --- | --- |
 | ResponsiveHtmlController() | Creates new instance |
 
- **Result**
+ **Result:**
 ResponsiveHtmlController
 
 
@@ -30,13 +30,13 @@ ResponsiveHtmlController
 | --- | --- |
 | ResponsiveHtmlController([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates new instance |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | HTML formatting controller |
 
- **Result**
+ **Result:**
 ResponsiveHtmlController
 
 
@@ -49,13 +49,13 @@ ResponsiveHtmlController
 | --- | --- |
 | ResponsiveHtmlController([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates new instance |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | HTML formatting controller |
 
- **Result**
+ **Result:**
 ResponsiveHtmlController
 
 
@@ -68,13 +68,13 @@ ResponsiveHtmlController
 | --- | --- |
 | ResponsiveHtmlController([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates new instance |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | HTML formatting controller |
 
- **Result**
+ **Result:**
 ResponsiveHtmlController
 
 
@@ -87,13 +87,13 @@ ResponsiveHtmlController
 | --- | --- |
 | ResponsiveHtmlController([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates new instance |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [ResponsiveHtmlController](../responsivehtmlcontroller) | HTML formatting controller |
 
- **Result**
+ **Result:**
 ResponsiveHtmlController
 
 
@@ -106,13 +106,13 @@ ResponsiveHtmlController
 | --- | --- |
 | ResponsiveHtmlController([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates new instance |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | controller | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | HTML formatting controller |
 
- **Result**
+ **Result:**
 ResponsiveHtmlController
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/cannotcombine2dand3dchartsexception/
 | --- | --- |
 | CannotCombine2DAnd3DChartsException() | Default function. |
 
- **Result**
+ **Result:**
 CannotCombine2DAnd3DChartsException
 
 
@@ -30,13 +30,13 @@ CannotCombine2DAnd3DChartsException
 | --- | --- |
 | CannotCombine2DAnd3DChartsException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 CannotCombine2DAnd3DChartsException
 
 
@@ -49,14 +49,14 @@ CannotCombine2DAnd3DChartsException
 | --- | --- |
 | CannotCombine2DAnd3DChartsException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 CannotCombine2DAnd3DChartsException
 
 

@@ -16,8 +16,37 @@ url: /aspose.slides/linearrowheadlength/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Short | 0 |  |
-| Medium | 1 |  |
-| Long | 2 |  |
+| [NotDefined](#NotDefined) | -1 |  |
+| [Short](#Short) | 0 |  |
+| [Medium](#Medium) | 1 |  |
+| [Long](#Long) | 2 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 |  |
+
+
+---
+
+### Short {#Short}
+| Short| 0 |  |
+
+
+---
+
+### Medium {#Medium}
+| Medium| 1 |  |
+
+
+---
+
+### Long {#Long}
+| Long| 2 |  |
+
+
+---
+
 

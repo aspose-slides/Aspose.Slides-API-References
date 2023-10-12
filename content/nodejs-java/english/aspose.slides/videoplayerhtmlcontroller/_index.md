@@ -17,7 +17,7 @@ url: /aspose.slides/videoplayerhtmlcontroller/
 | --- | --- |
 | VideoPlayerHtmlController(String, String, String) | Creates a new instance of controller |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ url: /aspose.slides/videoplayerhtmlcontroller/
 | fileName | String | The name of the HTML file |
 | baseUri | String | The base URI which will be used for links generating |
 
- **Result**
+ **Result:**
 VideoPlayerHtmlController
 
 
@@ -238,7 +238,7 @@ VideoPlayerHtmlController
 | --- | --- |
 | getObjectStoringLocation (int, byte[], String, String, String) |  |
 
- **Result**
+ **Result:**
 int
 
 
@@ -251,7 +251,7 @@ int
 | --- | --- |
 | getUrl (int, int) |  |
 
- **Result**
+ **Result:**
 String
 
 

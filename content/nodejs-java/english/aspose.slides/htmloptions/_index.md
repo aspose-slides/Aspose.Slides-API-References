@@ -17,13 +17,13 @@ url: /aspose.slides/htmloptions/
 | --- | --- |
 | HtmlOptions([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates a new HtmlOptions object specifiing callback. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | linkEmbedController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback object which controls saving project. |
 
- **Result**
+ **Result:**
 HtmlOptions
 
 
@@ -36,7 +36,7 @@ HtmlOptions
 | --- | --- |
 | HtmlOptions() | Creates a new HtmlOptions object for saving into single HTML file. |
 
- **Result**
+ **Result:**
 HtmlOptions
 
 
@@ -49,7 +49,7 @@ HtmlOptions
 | --- | --- |
 | getDeletePicturesCroppedAreas () | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -62,7 +62,7 @@ boolean
 | --- | --- |
 | getHtmlFormatter () | Returns or sets HTML template. Read/write IHtmlFormatter. |
 
- **Result**
+ **Result:**
 [HtmlFormatter](../htmlformatter)
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | getJpegQuality () | Returns or sets a value determining the quality of the JPEG images inside PDF document. Read/write byte. Has effect only when a document contains JPEG images. Use this property to get or set the quality of the images inside a document when saving in PDF format. The value may vary from 0 to 100 where 0 means worst quality but maximum compression and 100 means best quality but minimum compression. The default value is 95. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -88,7 +88,7 @@ byte
 | --- | --- |
 | getNotesCommentsLayouting () | Provides options that control how notes and comments is placed in exported document. |
 
- **Result**
+ **Result:**
 [NotesCommentsLayoutingOptions](../notescommentslayoutingoptions)
 
 
@@ -101,7 +101,7 @@ byte
 | --- | --- |
 | getPicturesCompression () | Represents the pictures compression level |
 
- **Result**
+ **Result:**
 int
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | getShowHiddenSlides () | Specifies whether the generated document should include hidden slides or not. Default is false. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -127,7 +127,7 @@ boolean
 | --- | --- |
 | getSlideImageFormat () | Returns or sets slide image format options. Read/write ISlideImageFormat. |
 
- **Result**
+ **Result:**
 [SlideImageFormat](../slideimageformat)
 
 
@@ -140,7 +140,7 @@ boolean
 | --- | --- |
 | getSvgResponsiveLayout () | True to exclude width and height attributes from svg container - that will make layout responsive. False - otherwise. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

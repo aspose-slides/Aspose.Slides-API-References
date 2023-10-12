@@ -16,8 +16,37 @@ url: /aspose.slides/mathverticalalignment/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | 0 | Value is not defined |
-| Top | 1 | Top |
-| Center | 2 | Center |
-| Bottom | 3 | Bottom |
+| [NotDefined](#NotDefined) | 0 | Value is not defined |
+| [Top](#Top) | 1 | Top |
+| [Center](#Center) | 2 | Center |
+| [Bottom](#Bottom) | 3 | Bottom |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| 0 | Value is not defined |
+
+
+---
+
+### Top {#Top}
+| Top| 1 | Top |
+
+
+---
+
+### Center {#Center}
+| Center| 2 | Center |
+
+
+---
+
+### Bottom {#Bottom}
+| Bottom| 3 | Bottom |
+
+
+---
+
 

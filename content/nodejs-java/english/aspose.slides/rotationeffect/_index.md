@@ -17,7 +17,7 @@ url: /aspose.slides/rotationeffect/
 | --- | --- |
 | RotationEffect() |  |
 
- **Result**
+ **Result:**
 RotationEffect
 
 
@@ -30,7 +30,7 @@ RotationEffect
 | --- | --- |
 | getBy () | Describes the relative offset value for the animation. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getFrom () | Describes the starting value for the animation. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getTo () | Describes the ending value for the animation. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 

@@ -20,13 +20,13 @@ url: /aspose.slides/bilevel/
 | --- | --- |
 | equals (Object) | Determines whether the specified BiLevel is equal to the current BiLevel. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The BiLevel to compare. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -39,7 +39,7 @@ boolean
 | --- | --- |
 | getEffective () | Gets effective Bi-Level effect data with the inheritance applied. |
 
- **Result**
+ **Result:**
 BiLevelEffectiveData
 
 
@@ -52,7 +52,7 @@ BiLevelEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result**
+ **Result:**
 int
 
 

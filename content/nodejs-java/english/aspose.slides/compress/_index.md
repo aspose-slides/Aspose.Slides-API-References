@@ -17,7 +17,7 @@ url: /aspose.slides/compress/
 | --- | --- |
 | Compress() |  |
 
- **Result**
+ **Result:**
 Compress
 
 
@@ -30,7 +30,7 @@ Compress
 | --- | --- |
 | compressEmbeddedFonts ([Presentation](../presentation)) | Makes compression of the Presentation by removing unused characters from embedded fonts. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ Compress
 | --- | --- |
 | removeUnusedLayoutSlides ([Presentation](../presentation)) | Makes compression of the Presentation by removing unused layout slides. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ Compress
 | --- | --- |
 | removeUnusedMasterSlides ([Presentation](../presentation)) | Makes compression of the Presentation by removing unused master slides. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

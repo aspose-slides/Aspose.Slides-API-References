@@ -16,8 +16,37 @@ url: /aspose.slides/textcaptype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| None | 0 |  |
-| Small | 1 |  |
-| All | 2 |  |
+| [NotDefined](#NotDefined) | -1 |  |
+| [None](#None) | 0 |  |
+| [Small](#Small) | 1 |  |
+| [All](#All) | 2 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 |  |
+
+
+---
+
+### None {#None}
+| None| 0 |  |
+
+
+---
+
+### Small {#Small}
+| Small| 1 |  |
+
+
+---
+
+### All {#All}
+| All| 2 |  |
+
+
+---
+
 

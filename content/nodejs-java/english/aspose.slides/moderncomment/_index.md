@@ -17,7 +17,7 @@ url: /aspose.slides/moderncomment/
 | --- | --- |
 | getShape () | Returns a shape associated with the comment. Read-only IShape. |
 
- **Result**
+ **Result:**
 [LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/moderncomment/
 | --- | --- |
 | getStatus () | Gets or sets the status of the comment. Read/write ModernCommentStatus. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -43,7 +43,7 @@ byte
 | --- | --- |
 | getTextSelectionLength () | Gets or sets text selection length in text frame if the comment associated with AutoShape. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getTextSelectionStart () | Gets or sets starting position of text selection in text frame if the comment associated with AutoShape. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 

@@ -19,7 +19,7 @@ url: /aspose.slides/portionfactory/
 | --- | --- |
 | PortionFactory() |  |
 
- **Result**
+ **Result:**
 PortionFactory
 
 
@@ -32,7 +32,7 @@ PortionFactory
 | --- | --- |
 | createPortion () | Creates an empty text portion. |
 
- **Result**
+ **Result:**
 [Portion](../portion), [MathPortion](../mathportion)
 
 
@@ -45,13 +45,13 @@ PortionFactory
 | --- | --- |
 | createPortion (String) | Creates a text portion from specified string. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | str | String | String. |
 
- **Result**
+ **Result:**
 [Portion](../portion), [MathPortion](../mathportion)
 
 
@@ -64,13 +64,13 @@ PortionFactory
 | --- | --- |
 | createPortion ([Portion](../portion)) | Creates a portion with the using of a specified portion data. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | portion | [Portion](../portion) | A portion to use. |
 
- **Result**
+ **Result:**
 [Portion](../portion), [MathPortion](../mathportion)
 
 
@@ -83,13 +83,13 @@ PortionFactory
 | --- | --- |
 | createPortion ([MathPortion](../mathportion)) | Creates a portion with the using of a specified portion data. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | portion | [MathPortion](../mathportion) | A portion to use. |
 
- **Result**
+ **Result:**
 [Portion](../portion), [MathPortion](../mathportion)
 
 

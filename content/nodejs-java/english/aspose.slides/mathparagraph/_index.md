@@ -17,7 +17,7 @@ url: /aspose.slides/mathparagraph/
 | --- | --- |
 | MathParagraph() | Initializes a new instance of the MathParagraph class. |
 
- **Result**
+ **Result:**
 MathParagraph
 
 
@@ -30,7 +30,7 @@ MathParagraph
 | --- | --- |
 | MathParagraph([MathBlock](../mathblock)) | Initializes a new instance of the MathParagraph class. |
 
- **Result**
+ **Result:**
 MathParagraph
 
 
@@ -43,7 +43,7 @@ MathParagraph
 | --- | --- |
 | add ([MathBlock](../mathblock)) | Adds IMathBlock to the end of collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -69,13 +69,13 @@ MathParagraph
 | --- | --- |
 | contains ([MathBlock](../mathblock)) | Determines whether the collection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathBlock | [MathBlock](../mathblock) | The object to locate in the collection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -101,7 +101,7 @@ int
 | --- | --- |
 | getJustification () | Paragraph Justification Default value: CenteredAsGroup |
 
- **Result**
+ **Result:**
 int
 
 
@@ -114,13 +114,13 @@ int
 | --- | --- |
 | get_Item (int) | Gets the item at the specified index. Read-only IMathBlock. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of the item to get |
 
- **Result**
+ **Result:**
 [MathBlock](../mathblock)
 
 
@@ -133,13 +133,13 @@ int
 | --- | --- |
 | indexOf ([MathBlock](../mathblock)) | Determines the index of a specific IMathBlock in collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathBlock | [MathBlock](../mathblock) | The item to locate in the collection. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -152,7 +152,7 @@ int
 | --- | --- |
 | insert (int, [MathBlock](../mathblock)) | Inserts IMathBlock into the collection at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -169,7 +169,7 @@ int
 | --- | --- |
 | iterator () |  |
 
- **Result**
+ **Result:**
 
 
 
@@ -182,7 +182,7 @@ int
 | --- | --- |
 | iteratorJava () |  |
 
- **Result**
+ **Result:**
 
 
 
@@ -195,13 +195,13 @@ int
 | --- | --- |
 | remove ([MathBlock](../mathblock)) | Removes the first occurrence of a specific object from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | mathBlock | [MathBlock](../mathblock) | The object to remove from the collection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -214,7 +214,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes an item at the specified index of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -240,7 +240,7 @@ boolean
 | --- | --- |
 | set_Item (int, [MathBlock](../mathblock)) | Gets the item at the specified index. Read-only IMathBlock. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -257,7 +257,7 @@ boolean
 | --- | --- |
 | writeAsMathMlToStream  (MathParagraph, WriteStream) | Saves content of this MathParagraph as MathML |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

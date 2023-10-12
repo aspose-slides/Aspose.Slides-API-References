@@ -28,7 +28,7 @@ url: /aspose.slides/fontsloader/
 | --- | --- |
 | getFontFolders () | Gets font folders. Returns folders that have been added with LoadExternalFonts function as well as system font folders |
 
- **Result**
+ **Result:**
 String
 
 
@@ -41,7 +41,7 @@ String
 | --- | --- |
 | loadExternalFont (byte[]) | Adds font from the binary data |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -57,7 +57,7 @@ String
 | --- | --- |
 | loadExternalFonts (java.lang.String[]) | Adds additional folders to seek fonts. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

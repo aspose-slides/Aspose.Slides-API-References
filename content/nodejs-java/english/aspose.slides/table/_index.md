@@ -17,7 +17,7 @@ url: /aspose.slides/table/
 | --- | --- |
 | getColumns () | Returns the collectoin of columns. Read-only IColumnCollection. |
 
- **Result**
+ **Result:**
 [ColumnCollection](../columncollection)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/table/
 | --- | --- |
 | getFillFormat () | Returns the FillFormat object that contains fill formatting properties for a shape. Note: can return null for certain types of shapes which don't have fill properties. Read-only IFillFormat. |
 
- **Result**
+ **Result:**
 [FillFormat](../fillformat)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/table/
 | --- | --- |
 | getFirstCol () | Determines whether the first column of a table has to be drawn with a special formatting. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getFirstRow () | Determines whether the first row of a table has to be drawn with a special formatting. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getHorizontalBanding () | Determines whether the even rows has to be drawn with a different formatting. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getLastCol () | Determines whether the last column of a table has to be drawn with a special formatting. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | getLastRow () | Determines whether the last row of a table has to be drawn with a special formatting. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | getRightToLeft () | Determines whether the table has right to left reading order. Read-write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | getRows () | Returns the collectoin of rows. Read-only IRowCollection. |
 
- **Result**
+ **Result:**
 [RowCollection](../rowcollection)
 
 
@@ -134,7 +134,7 @@ boolean
 | --- | --- |
 | getStylePreset () | Gets or sets builtin table style. Read/write TableStylePreset. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -147,7 +147,7 @@ int
 | --- | --- |
 | getTableFormat () | Returns the TableFormat object that contains formatting properties for this table. Read-only ITableFormat. |
 
- **Result**
+ **Result:**
 [TableFormat](../tableformat)
 
 
@@ -160,7 +160,7 @@ int
 | --- | --- |
 | getVerticalBanding () | Determines whether the even columns has to be drawn with a different formatting. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -173,7 +173,7 @@ boolean
 | --- | --- |
 | get_Item (int, int) | Returns the cell at the specified column and row indexes. Read-only Cell. |
 
- **Result**
+ **Result:**
 [Cell](../cell)
 
 
@@ -186,7 +186,7 @@ boolean
 | --- | --- |
 | mergeCells ([Cell](../cell), [Cell](../cell), boolean) | Merges neighbour cells. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -194,7 +194,7 @@ boolean
 | cell2 | [Cell](../cell) | Cell to merge. |
 | allowSplitting | boolean | True to allow cells splitting. |
 
- **Result**
+ **Result:**
 [Cell](../cell)
 
 
@@ -277,7 +277,7 @@ boolean
 | --- | --- |
 | setTextFormat ([PortionFormat](../portionformat)) | Sets defined portion format properties to all table cells' portions. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -293,7 +293,7 @@ boolean
 | --- | --- |
 | setTextFormat ([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all table cells' paragraphs. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -309,7 +309,7 @@ boolean
 | --- | --- |
 | setTextFormat ([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all table cells' text frames. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

@@ -16,9 +16,44 @@ url: /aspose.slides/organizationchartlayouttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Initial | 0 | Initial layout type |
-| Standart | 1 | Places child nodes horizontally below the parent node. |
-| BothHanging | 2 | Places child nodes vertically below the parent node on both the left and the right side. |
-| LeftHanging | 3 | Places child nodes vertically below the parent node on the left side. |
-| RightHanging | 4 | Places child nodes vertically below the parent node on the right side. |
+| [Initial](#Initial) | 0 | Initial layout type |
+| [Standart](#Standart) | 1 | Places child nodes horizontally below the parent node. |
+| [BothHanging](#BothHanging) | 2 | Places child nodes vertically below the parent node on both the left and the right side. |
+| [LeftHanging](#LeftHanging) | 3 | Places child nodes vertically below the parent node on the left side. |
+| [RightHanging](#RightHanging) | 4 | Places child nodes vertically below the parent node on the right side. |
+
+
+---
+
+
+### Initial {#Initial}
+| Initial| 0 | Initial layout type |
+
+
+---
+
+### Standart {#Standart}
+| Standart| 1 | Places child nodes horizontally below the parent node. |
+
+
+---
+
+### BothHanging {#BothHanging}
+| BothHanging| 2 | Places child nodes vertically below the parent node on both the left and the right side. |
+
+
+---
+
+### LeftHanging {#LeftHanging}
+| LeftHanging| 3 | Places child nodes vertically below the parent node on the left side. |
+
+
+---
+
+### RightHanging {#RightHanging}
+| RightHanging| 4 | Places child nodes vertically below the parent node on the right side. |
+
+
+---
+
 

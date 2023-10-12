@@ -17,7 +17,7 @@ url: /aspose.slides/picturefillformat/
 | --- | --- |
 | getCropBottom () | Returns or sets the number of percents of real image height that are cropped off the bottom of the picture. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -30,7 +30,7 @@ float
 | --- | --- |
 | getCropLeft () | Returns or sets the number of percents of real image width that are cropped off the left of the picture. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getCropRight () | Returns or sets the number of percents of real image width that are cropped off the right of the picture. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -56,7 +56,7 @@ float
 | --- | --- |
 | getCropTop () | Returns or sets the number of percents of real image height that are cropped off the top of the picture. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -69,7 +69,7 @@ float
 | --- | --- |
 | getDpi () | Returns or sets the dpi which is used to fill a picture. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getPicture () | Returns the picture. Read-only ISlidesPicture. |
 
- **Result**
+ **Result:**
 [Picture](../picture)
 
 
@@ -95,7 +95,7 @@ int
 | --- | --- |
 | getPictureFillMode () | Returns or sets the picture fill mode. Read/write PictureFillMode. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -108,7 +108,7 @@ int
 | --- | --- |
 | getStretchOffsetBottom () | Returns or sets bottom edge of the fill rectangle that is defined by a percentage offset from the bottom edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -121,7 +121,7 @@ float
 | --- | --- |
 | getStretchOffsetLeft () | Returns or sets left edge of the fill rectangle that is defined by a percentage offset from the left edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -134,7 +134,7 @@ float
 | --- | --- |
 | getStretchOffsetRight () | Returns or sets right edge of the fill rectangle that is defined by a percentage offset from the right edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -147,7 +147,7 @@ float
 | --- | --- |
 | getStretchOffsetTop () | Returns or sets top edge of the fill rectangle that is defined by a percentage offset from the top edge of the shape's bounding box. A positive percentage specifies an inset, while a negative percentage specifies an outset. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -160,7 +160,7 @@ float
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/motioneffect/
 | --- | --- |
 | MotionEffect() |  |
 
- **Result**
+ **Result:**
 MotionEffect
 
 
@@ -30,7 +30,7 @@ MotionEffect
 | --- | --- |
 | getAngle () | Describes the relative angle of the motion path. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -43,7 +43,7 @@ float
 | --- | --- |
 | getBy () | Describes the relative offset value for the animation (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result**
+ **Result:**
 Point2D.Float
 
 
@@ -56,7 +56,7 @@ Point2D.Float
 | --- | --- |
 | getFrom () | Specifies an x/y co-ordinate to start the animation from (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result**
+ **Result:**
 Point2D.Float
 
 
@@ -69,7 +69,7 @@ Point2D.Float
 | --- | --- |
 | getOrigin () | Specifies what the origin of the motion path is relative to such as the layout of the slide, or the parent. Read/write MotionOriginType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -82,7 +82,7 @@ int
 | --- | --- |
 | getPath () | Specifies the path primitive followed by coordinates for the animation motion. Read/write IMotionPath. |
 
- **Result**
+ **Result:**
 [MotionPath](../motionpath)
 
 
@@ -95,7 +95,7 @@ int
 | --- | --- |
 | getPathEditMode () | Specifies how the motion path moves when shape is moved. Read/write MotionPathEditMode. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -108,7 +108,7 @@ int
 | --- | --- |
 | getRotationCenter () | Describes the center of the rotation used to rotate a motion path by X angle. Read/write java.awt.geom.Point2D.Float. |
 
- **Result**
+ **Result:**
 Point2D.Float
 
 
@@ -121,7 +121,7 @@ Point2D.Float
 | --- | --- |
 | getTo () | Specifies the target location for an animation motion effect (in percents). Read/write java.awt.geom.Point2D.Float. |
 
- **Result**
+ **Result:**
 Point2D.Float
 
 

@@ -16,6 +16,23 @@ url: /aspose.slides/zoomimagetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Preview | 1 | Use the image of the slide or section. |
-| Cover | 2 | Use a custom image. |
+| [Preview](#Preview) | 1 | Use the image of the slide or section. |
+| [Cover](#Cover) | 2 | Use a custom image. |
+
+
+---
+
+
+### Preview {#Preview}
+| Preview| 1 | Use the image of the slide or section. |
+
+
+---
+
+### Cover {#Cover}
+| Cover| 2 | Use a custom image. |
+
+
+---
+
 

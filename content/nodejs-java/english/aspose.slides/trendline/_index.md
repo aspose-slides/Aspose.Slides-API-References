@@ -17,13 +17,13 @@ url: /aspose.slides/trendline/
 | --- | --- |
 | addTextFrameForOverriding (String) | Initialize TextFrameForOverriding with the text in paramener "text". If TextFrameForOverriding is already initialized then simply changes its text. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | text | String | Text for a new TextFrameForOverriding. |
 
- **Result**
+ **Result:**
 [TextFrame](../textframe)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/trendline/
 | --- | --- |
 | getBackward () | Specifies the number of categories (or units on a scatter chart) that the trend line extends before the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any nonnegative value. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -49,7 +49,7 @@ double
 | --- | --- |
 | getChart () | Returns the parent chart. Read-only IChart. |
 
- **Result**
+ **Result:**
 [Chart](../chart)
 
 
@@ -62,7 +62,7 @@ double
 | --- | --- |
 | getDisplayEquation () | Specifies that the equation for the trendline is displayed on the chart (in the same label as the Rsquaredvalue). Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | getDisplayRSquaredValue () | Specifies that the R-squared value of the trendline is displayed on the chart (in the same label as the equation). Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | getFormat () | Represents the format of the trend line. Read/write IFormat. |
 
- **Result**
+ **Result:**
 [Format](../format)
 
 
@@ -101,7 +101,7 @@ boolean
 | --- | --- |
 | getForward () | Specifies the number of categories (or units on a scatter chart) that the trendline extends after the data for the series that is being trended. On scatter and non-scatter charts, the value shall be any non-negative value. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -114,7 +114,7 @@ double
 | --- | --- |
 | getIntercept () | Specifies the value where the trendline shall cross the y axis. This property shall be supported only when the trendline type is exp, linear, or poly. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -127,7 +127,7 @@ double
 | --- | --- |
 | getOrder () | Specifies the order of the polynomial trend line. It is ignored for other trend line types. Value must be between 2 and 6. Read/write byte. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -140,7 +140,7 @@ byte
 | --- | --- |
 | getPeriod () | Specifies the period of the trend line for a moving average trend line. It is ignored for other trend line variants. Value must be between 2 and 255. Read/write byte. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -153,7 +153,7 @@ byte
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result**
+ **Result:**
 [Presentation](../presentation)
 
 
@@ -166,7 +166,7 @@ byte
 | --- | --- |
 | getRelatedLegendEntry () | Represents legend entry related with this trendline Read-only ILegendEntryProperties. |
 
- **Result**
+ **Result:**
 [LegendEntryProperties](../legendentryproperties)
 
 
@@ -179,7 +179,7 @@ byte
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result**
+ **Result:**
 [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
@@ -192,7 +192,7 @@ byte
 | --- | --- |
 | getTextFormat () | Returns text format. Read-only IChartTextFormat. |
 
- **Result**
+ **Result:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -205,7 +205,7 @@ byte
 | --- | --- |
 | getTextFrameForOverriding () | Can contain a rich formatted text. If this property is not null then this formatted text value overrides auto-generated text of data label. Auto-generated text of data label means text that is managed by ShowSeriesName, ShowValue, ... properties and is formatted with the TextFormatManager.TextFormat property. Read-only ITextFrame. |
 
- **Result**
+ **Result:**
 [TextFrame](../textframe)
 
 
@@ -218,7 +218,7 @@ byte
 | --- | --- |
 | getTrendlineName () | Gets or sets name of the trendline. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -231,7 +231,7 @@ String
 | --- | --- |
 | getTrendlineType () | Gets or sets type of trend line. Read/write TrendlineType. |
 
- **Result**
+ **Result:**
 int
 
 

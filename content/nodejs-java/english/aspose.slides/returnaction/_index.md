@@ -16,6 +16,23 @@ url: /aspose.slides/returnaction/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Continue | 0 | Operation should be continued. |
-| Abort | 1 | Operation should be aborted. |
+| [Continue](#Continue) | 0 | Operation should be continued. |
+| [Abort](#Abort) | 1 | Operation should be aborted. |
+
+
+---
+
+
+### Continue {#Continue}
+| Continue| 0 | Operation should be continued. |
+
+
+---
+
+### Abort {#Abort}
+| Abort| 1 | Operation should be aborted. |
+
+
+---
+
 

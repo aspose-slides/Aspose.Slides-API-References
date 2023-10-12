@@ -17,7 +17,7 @@ url: /aspose.slides/fontsources/
 | --- | --- |
 | FontSources() | Creates new default font options. |
 
- **Result**
+ **Result:**
 FontSources
 
 
@@ -30,7 +30,7 @@ FontSources
 | --- | --- |
 | getFontFolders () | Folders containing font files. All font files located in these folders are included in the collection. Folders that are recursively searched. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getMemoryFonts () | A collection of fonts represented as byte arrays. |
 
- **Result**
+ **Result:**
 byte
 
 

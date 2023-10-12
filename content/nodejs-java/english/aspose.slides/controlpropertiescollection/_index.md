@@ -17,7 +17,7 @@ url: /aspose.slides/controlpropertiescollection/
 | --- | --- |
 | add (String, String) | Adds a property to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -44,7 +44,7 @@ url: /aspose.slides/controlpropertiescollection/
 | --- | --- |
 | getCount () | Returns a number of properties in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -57,8 +57,8 @@ int
 | --- | --- |
 | getNamesOfProperties () | Returns the collection of properties names. Read-only IGenericCollection. |
 
- **Result**
-[LineFormatCollection](../lineformatcollection), [ExtraColorSchemeCollection](../extracolorschemecollection), [SmartArtShapeCollection](../smartartshapecollection), [RowCollection](../rowcollection), [VbaModuleCollection](../vbamodulecollection), [VbaReferenceCollection](../vbareferencecollection), [FontSubstRuleCollection](../fontsubstrulecollection), [SectionSlideCollection](../sectionslidecollection), [CellCollection](../cellcollection), SortedList, [SectionCollection](../sectioncollection), ReadOnlyCollection, [ColumnCollection](../columncollection), [TabCollection](../tabcollection), KeyedCollection, [ShapeCollection](../shapecollection), [CommentAuthorCollection](../commentauthorcollection), [ChartCategoryCollection](../chartcategorycollection), [CustomXmlPartCollection](../customxmlpartcollection), Dictionary, [SlideCollection](../slidecollection), SortedDictionary, LinkedList, [Column](../column), [ColorOperationCollection](../coloroperationcollection), [ChartDataPointCollection](../chartdatapointcollection), Collection, [MasterSlideCollection](../masterslidecollection), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [ImageCollection](../imagecollection), [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [SmartArtNodeCollection](../smartartnodecollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [VideoCollection](../videocollection), [TextAnimationCollection](../textanimationcollection), [EffectStyleCollection](../effectstylecollection), [ControlCollection](../controlcollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [DigitalSignatureCollection](../digitalsignaturecollection), [AudioCollection](../audiocollection), [ChartSeriesCollection](../chartseriescollection), [Row](../row), [CommentCollection](../commentcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), [TagCollection](../tagcollection), [GradientStopCollection](../gradientstopcollection), List, [GlobalLayoutSlideCollection](../globallayoutslidecollection), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [LayoutSlideCollection](../layoutslidecollection), [FillFormatCollection](../fillformatcollection)
+ **Result:**
+[LineFormatCollection](../lineformatcollection), [ExtraColorSchemeCollection](../extracolorschemecollection), [SmartArtShapeCollection](../smartartshapecollection), [RowCollection](../rowcollection), [VbaModuleCollection](../vbamodulecollection), [VbaReferenceCollection](../vbareferencecollection), [FontSubstRuleCollection](../fontsubstrulecollection), [SectionSlideCollection](../sectionslidecollection), SortedList, [SectionCollection](../sectioncollection), ReadOnlyCollection, [ColumnCollection](../columncollection), [CellCollection](../cellcollection), [TabCollection](../tabcollection), KeyedCollection, [ShapeCollection](../shapecollection), [CommentAuthorCollection](../commentauthorcollection), [ChartCategoryCollection](../chartcategorycollection), [CustomXmlPartCollection](../customxmlpartcollection), Dictionary, [SlideCollection](../slidecollection), SortedDictionary, LinkedList, [Column](../column), [ColorOperationCollection](../coloroperationcollection), [ChartDataPointCollection](../chartdatapointcollection), Collection, [MasterSlideCollection](../masterslidecollection), [MasterLayoutSlideCollection](../masterlayoutslidecollection), [SummaryZoomSectionCollection](../summaryzoomsectioncollection), [ImageCollection](../imagecollection), [GradientStopCollectionEffectiveData](../gradientstopcollectioneffectivedata), [SmartArtNodeCollection](../smartartnodecollection), [BehaviorPropertyCollection](../behaviorpropertycollection), [VideoCollection](../videocollection), [TextAnimationCollection](../textanimationcollection), [EffectStyleCollection](../effectstylecollection), [ControlCollection](../controlcollection), [FontFallBackRulesCollection](../fontfallbackrulescollection), [ImageTransformOCollectionEffectiveData](../imagetransformocollectioneffectivedata), [DigitalSignatureCollection](../digitalsignaturecollection), [AudioCollection](../audiocollection), [ChartSeriesCollection](../chartseriescollection), [Row](../row), [CommentCollection](../commentcollection), [ImageTransformOperationCollection](../imagetransformoperationcollection), [TagCollection](../tagcollection), [GradientStopCollection](../gradientstopcollection), List, [GlobalLayoutSlideCollection](../globallayoutslidecollection), [PieSplitCustomPointCollection](../piesplitcustompointcollection), [ChartDataWorksheetCollection](../chartdataworksheetcollection), [LayoutSlideCollection](../layoutslidecollection), [FillFormatCollection](../fillformatcollection)
 
 
 ---
@@ -70,13 +70,13 @@ int
 | --- | --- |
 | get_Item (String) | Returns or sets property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Name of property. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -89,7 +89,7 @@ String
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -102,7 +102,7 @@ String
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -115,7 +115,7 @@ String
 | --- | --- |
 | remove (String) | Removes a property with the specified name. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -131,7 +131,7 @@ String
 | --- | --- |
 | set_Item (String, String) | Returns or sets property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

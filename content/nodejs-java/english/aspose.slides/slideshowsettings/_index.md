@@ -17,7 +17,7 @@ url: /aspose.slides/slideshowsettings/
 | --- | --- |
 | getLoop () | Loop Slide Show |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -30,7 +30,7 @@ boolean
 | --- | --- |
 | getPenColor () | Pen Color for Slide Show |
 
- **Result**
+ **Result:**
 [ColorFormat](../colorformat)
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getShowAnimation () | Show Animation in Slide Show |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getShowMediaControls () | Show Media Controls |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getShowNarration () | Show Narration in Slide Show |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getSlideShowType () | Gets or sets the slide show type. Represented by the following SlideShowType( #getSlideShowType/ #setSlideShowType(SlideShowType)) ancestors: BrowsedAtKiosk, PresentedBySpeaker and BrowsedByIndividual |
 
- **Result**
+ **Result:**
 SlideShowType
 
 
@@ -95,7 +95,7 @@ SlideShowType
 | --- | --- |
 | getSlides () | Slides range |
 
- **Result**
+ **Result:**
 SlidesRange
 
 
@@ -108,7 +108,7 @@ SlidesRange
 | --- | --- |
 | getUseTimings () | Use Timings in Slide Show |
 
- **Result**
+ **Result:**
 boolean
 
 

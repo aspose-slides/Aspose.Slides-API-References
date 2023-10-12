@@ -17,11 +17,58 @@ url: /aspose.slides/mathnaryoperatortypes/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Summation | 0 | Summation: '?' |
-| Product | 1 | Product: '?' |
-| CoProduct | 2 | Coproduct: '?' |
-| Intersection | 3 | Intersection: '?' |
-| Union | 4 | Union: '?' |
-| LogicalAnd | 5 | Logical And: '?' |
-| LogicalOr | 6 | Logical Or: '?' |
+| [Summation](#Summation) | 0 | Summation: '?' |
+| [Product](#Product) | 1 | Product: '?' |
+| [CoProduct](#CoProduct) | 2 | Coproduct: '?' |
+| [Intersection](#Intersection) | 3 | Intersection: '?' |
+| [Union](#Union) | 4 | Union: '?' |
+| [LogicalAnd](#LogicalAnd) | 5 | Logical And: '?' |
+| [LogicalOr](#LogicalOr) | 6 | Logical Or: '?' |
+
+
+---
+
+
+### Summation {#Summation}
+| Summation| 0 | Summation: '?' |
+
+
+---
+
+### Product {#Product}
+| Product| 1 | Product: '?' |
+
+
+---
+
+### CoProduct {#CoProduct}
+| CoProduct| 2 | Coproduct: '?' |
+
+
+---
+
+### Intersection {#Intersection}
+| Intersection| 3 | Intersection: '?' |
+
+
+---
+
+### Union {#Union}
+| Union| 4 | Union: '?' |
+
+
+---
+
+### LogicalAnd {#LogicalAnd}
+| LogicalAnd| 5 | Logical And: '?' |
+
+
+---
+
+### LogicalOr {#LogicalOr}
+| LogicalOr| 6 | Logical Or: '?' |
+
+
+---
+
 

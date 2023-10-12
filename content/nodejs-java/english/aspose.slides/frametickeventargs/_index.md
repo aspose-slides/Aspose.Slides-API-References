@@ -17,7 +17,7 @@ url: /aspose.slides/frametickeventargs/
 | --- | --- |
 | getFrame () | Get the current PresentationPlayer frame. |
 
- **Result**
+ **Result:**
 BufferedImage
 
 
@@ -30,7 +30,7 @@ BufferedImage
 | --- | --- |
 | getPlayer () | Get the presentation player |
 
- **Result**
+ **Result:**
 PresentationPlayer
 
 

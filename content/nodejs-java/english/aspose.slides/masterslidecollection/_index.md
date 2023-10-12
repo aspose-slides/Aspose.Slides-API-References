@@ -17,13 +17,13 @@ url: /aspose.slides/masterslidecollection/
 | --- | --- |
 | addClone ([MasterSlide](../masterslide)) | Adds a copy of a specified master slide to the end of the collection. Linked layout slides will be copied too. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | sourceMaster | [MasterSlide](../masterslide) | Slide to clone. |
 
- **Result**
+ **Result:**
 [MasterSlide](../masterslide)
 
 
@@ -36,7 +36,7 @@ url: /aspose.slides/masterslidecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -49,7 +49,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only MasterSlide. |
 
- **Result**
+ **Result:**
 [MasterSlide](../masterslide)
 
 
@@ -62,14 +62,14 @@ Object
 | --- | --- |
 | insertClone (int, [MasterSlide](../masterslide)) | Inserts a copy of a specified master slide to specified position of the collection. Linked layout slides will be copied too. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new slide. |
 | sourceMaster | [MasterSlide](../masterslide) | Slide to clone. |
 
- **Result**
+ **Result:**
 [MasterSlide](../masterslide)
 
 
@@ -82,7 +82,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | remove ([MasterSlide](../masterslide)) | Removes the first occurrence of a specific object from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -137,7 +137,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -159,7 +159,7 @@ boolean
 | --- | --- |
 | removeUnused (boolean) | Removes unused master slides. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -175,7 +175,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

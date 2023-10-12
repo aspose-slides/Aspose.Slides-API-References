@@ -17,7 +17,7 @@ url: /aspose.slides/ooxmlexception/
 | --- | --- |
 | OOXMLException() | Default function. |
 
- **Result**
+ **Result:**
 OOXMLException
 
 
@@ -30,13 +30,13 @@ OOXMLException
 | --- | --- |
 | OOXMLException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 OOXMLException
 
 
@@ -49,14 +49,14 @@ OOXMLException
 | --- | --- |
 | OOXMLException(String, RuntimeException) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | RuntimeException | original exception |
 
- **Result**
+ **Result:**
 OOXMLException
 
 

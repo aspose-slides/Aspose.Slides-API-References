@@ -17,7 +17,7 @@ url: /aspose.slides/documentproperties/
 | --- | --- |
 | DocumentProperties() | Initializes new instance of class DocumentProperties. |
 
- **Result**
+ **Result:**
 DocumentProperties
 
 
@@ -50,7 +50,7 @@ DocumentProperties
 | --- | --- |
 | cloneT () | Clones current object |
 
- **Result**
+ **Result:**
 [DocumentProperties](../documentproperties)
 
 
@@ -63,13 +63,13 @@ DocumentProperties
 | --- | --- |
 | containsCustomProperty (String) | Check presents of a custom property with a specified name. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Name of a custom property to check. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | deepClone () | Clones current object |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -95,7 +95,7 @@ Object
 | --- | --- |
 | getAppVersion () | Returns the app version. Read-only String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -108,7 +108,7 @@ String
 | --- | --- |
 | getApplicationTemplate () | Returns or sets the template of a application. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -121,7 +121,7 @@ String
 | --- | --- |
 | getAuthor () | Returns or sets the author of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -134,7 +134,7 @@ String
 | --- | --- |
 | getCategory () | Returns or sets the category of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -147,7 +147,7 @@ String
 | --- | --- |
 | getComments () | Returns or sets the comments of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -160,7 +160,7 @@ String
 | --- | --- |
 | getCompany () | Returns or sets the company property. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -173,7 +173,7 @@ String
 | --- | --- |
 | getContentStatus () | Returns or sets the content status of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -186,7 +186,7 @@ String
 | --- | --- |
 | getContentType () | Returns or sets the content type of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -199,7 +199,7 @@ String
 | --- | --- |
 | getCountOfCustomProperties () | Returns the number of custom properties actually contained in a collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -212,7 +212,7 @@ int
 | --- | --- |
 | getCreatedTime () | Returns the date a presentation was created. Values are in UTC. Read/write java.util.Date. |
 
- **Result**
+ **Result:**
 Date
 
 
@@ -225,13 +225,13 @@ Date
 | --- | --- |
 | getCustomPropertyName (int) | Return a custom property name at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | The zero-based index of a custom property to get. |
 
- **Result**
+ **Result:**
 String
 
  **Error**
@@ -250,7 +250,7 @@ String
 | --- | --- |
 | getCustomPropertyValue (String, boolean[]) | Gets a named boolean value from the custom properties. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -267,7 +267,7 @@ String
 | --- | --- |
 | getCustomPropertyValue (String, int[]) | Gets a named integer value from the custom properties. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -284,7 +284,7 @@ String
 | --- | --- |
 | getCustomPropertyValue (String, java.util.Date[]) | Gets a named DateTime value from the custom properties. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -301,7 +301,7 @@ String
 | --- | --- |
 | getCustomPropertyValue (String, java.lang.String[]) | Gets a named string value from the custom properties. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -318,7 +318,7 @@ String
 | --- | --- |
 | getCustomPropertyValue (String, float[]) | Gets a named float value from the custom properties. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -335,7 +335,7 @@ String
 | --- | --- |
 | getCustomPropertyValue (String, double[]) | Gets a named double value from the custom properties. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -352,7 +352,7 @@ String
 | --- | --- |
 | getHyperlinkBase () | Returns or sets the HyperlinkBase document property. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -365,7 +365,7 @@ String
 | --- | --- |
 | getKeywords () | Returns or sets the keywords of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -378,7 +378,7 @@ String
 | --- | --- |
 | getLastPrinted () | Returns the date when a presentation was printed last time. Read/write java.util.Date. |
 
- **Result**
+ **Result:**
 Date
 
 
@@ -391,7 +391,7 @@ Date
 | --- | --- |
 | getLastSavedBy () | Returns or sets the name of a last person who modified a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -404,7 +404,7 @@ String
 | --- | --- |
 | getLastSavedTime () | Returns the date a presentation was last modified. Values are in UTC. Read-only in case of Presentation.DocumentProperties (because it will be updated internally while IPresentation object saving process). Can be changed via DocumentProperties instance returning by function IPresentationInfo#readDocumentProperties Please see the example in IPresentationInfo#updateDocumentProperties(IDocumentProperties) function summary. |
 
- **Result**
+ **Result:**
 Date
 
 
@@ -417,7 +417,7 @@ Date
 | --- | --- |
 | getManager () | Returns or sets the manager property. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -430,7 +430,7 @@ String
 | --- | --- |
 | getNameOfApplication () | Returns or sets the name of the application. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -443,7 +443,7 @@ String
 | --- | --- |
 | getPresentationFormat () | Returns or sets the intended format of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -456,7 +456,7 @@ String
 | --- | --- |
 | getRevisionNumber () | Returns or sets the presentation revision number. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -469,7 +469,7 @@ int
 | --- | --- |
 | getSharedDoc () | Determines whether the presentation is shared between multiple people. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -482,7 +482,7 @@ boolean
 | --- | --- |
 | getSubject () | Returns or sets the subject of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -495,7 +495,7 @@ String
 | --- | --- |
 | getTitle () | Returns or sets the title of a presentation. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -508,7 +508,7 @@ String
 | --- | --- |
 | getTotalEditingTime () | Total editing time of a presentation. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -521,7 +521,7 @@ double
 | --- | --- |
 | get_Item (String) | Returns or sets the custom property associated with a specified name. Read/write Object. Value can be int, float, String, boolean or Date. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -534,13 +534,13 @@ Object
 | --- | --- |
 | removeCustomProperty (String) | Remove a custom property associated with a specified name. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | name | String | Name of a custom property to remove. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -633,7 +633,7 @@ boolean
 | --- | --- |
 | setCustomPropertyValue (String, boolean) | Sets a named boolean custom property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -650,7 +650,7 @@ boolean
 | --- | --- |
 | setCustomPropertyValue (String, int) | Sets a named integer custom property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -667,7 +667,7 @@ boolean
 | --- | --- |
 | setCustomPropertyValue (String, Date) | Sets a named DateTime custom property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -684,7 +684,7 @@ boolean
 | --- | --- |
 | setCustomPropertyValue (String, String) | Sets a named string custom property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -701,7 +701,7 @@ boolean
 | --- | --- |
 | setCustomPropertyValue (String, float) | Sets a named float custom property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -718,7 +718,7 @@ boolean
 | --- | --- |
 | setCustomPropertyValue (String, double) | Sets a named double custom property. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

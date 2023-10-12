@@ -17,7 +17,7 @@ url: /aspose.slides/svgoptions/
 | --- | --- |
 | SVGOptions() | Initializes a new instance of the SVGOptions class. |
 
- **Result**
+ **Result:**
 SVGOptions
 
 
@@ -30,13 +30,13 @@ SVGOptions
 | --- | --- |
 | SVGOptions([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Initializes a new instance of the SVGOptions class specifying the link embedding controller object. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | linkEmbedController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | The link embedding controller reference. Link embedding controller is a delegate object that is responsible for making decisions if resources (such as images) need to be embedded or referenced as external resources. |
 
- **Result**
+ **Result:**
 SVGOptions
 
 
@@ -49,7 +49,7 @@ SVGOptions
 | --- | --- |
 | getDefault () | Returns default settings. Read-only SVGOptions. |
 
- **Result**
+ **Result:**
 SVGOptions
 
 
@@ -62,7 +62,7 @@ SVGOptions
 | --- | --- |
 | getDeletePicturesCroppedAreas () | A boolean flag indicates if the cropped parts remain as part of the document. If true the cropped parts will removed, if false they will be serialized in the document (which can possible lead to a larger file) |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | getDisable3DText () | Determines whether the 3D text is disabled in SVG. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | getDisableGradientSplit () | Disables splitting FromCornerX and FromCenter gradients. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -101,7 +101,7 @@ boolean
 | --- | --- |
 | getDisableLineEndCropping () | SVG 1.1 lacks ability to define insets for markers. Aspose.Slides SVG writing engine has workaround for that problem: it crops end of line with arrow, so, line doesn't overlap markers. This option switches off such behavior. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -114,7 +114,7 @@ boolean
 | --- | --- |
 | getExternalFontsHandling () | Determines a way of handling externally loaded fonts. Read/write SvgExternalFontsHandling. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -127,7 +127,7 @@ int
 | --- | --- |
 | getJpegQuality () | Determines JPEG encoding quality. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -140,7 +140,7 @@ int
 | --- | --- |
 | getMetafileRasterizationDpi () | Returns or sets the lower resolution limit for metafile rasterization. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -153,7 +153,7 @@ int
 | --- | --- |
 | getPicturesCompression () | Represents the pictures compression level |
 
- **Result**
+ **Result:**
 int
 
 
@@ -166,7 +166,7 @@ int
 | --- | --- |
 | getShapeFormattingController () | Returns and sets a callback interface which allows user to control shape conversion. Read/write ISvgShapeFormattingController. |
 
- **Result**
+ **Result:**
 [VideoPlayerHtmlController](../videoplayerhtmlcontroller)
 
 
@@ -179,7 +179,7 @@ int
 | --- | --- |
 | getSimple () | Returns settings for simpliest and smallest SVG file generation. Read-only SVGOptions. |
 
- **Result**
+ **Result:**
 SVGOptions
 
 
@@ -192,7 +192,7 @@ SVGOptions
 | --- | --- |
 | getUseFrameRotation () | Determines whether to perform the specified rotation of the shape when rendering or not. Read/write boolean. Default value is true. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -205,7 +205,7 @@ boolean
 | --- | --- |
 | getUseFrameSize () | Determines whether the text frame will be included in a rendering area or not. Read/write boolean. Default value is false. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -218,7 +218,7 @@ boolean
 | --- | --- |
 | getVectorizeText () | Determines whether the text on a slide will be saved as graphics. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -231,7 +231,7 @@ boolean
 | --- | --- |
 | getWYSIWYG () | Returns settings for most accurate SVG file generation. Read-only SVGOptions. |
 
- **Result**
+ **Result:**
 SVGOptions
 
 

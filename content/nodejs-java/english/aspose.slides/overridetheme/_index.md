@@ -27,7 +27,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getColorScheme () | Returns the color scheme. Read-only IColorScheme. |
 
- **Result**
+ **Result:**
 [ColorScheme](../colorscheme)
 
 
@@ -40,7 +40,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getFontScheme () | Returns the font scheme. Read-only IFontScheme. |
 
- **Result**
+ **Result:**
 [FontScheme](../fontscheme)
 
 
@@ -53,7 +53,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getFormatScheme () | Returns the shape format scheme. Read-only IFormatScheme. |
 
- **Result**
+ **Result:**
 [FormatScheme](../formatscheme)
 
 
@@ -66,7 +66,7 @@ url: /aspose.slides/overridetheme/
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 
@@ -95,7 +95,7 @@ long
 | --- | --- |
 | initColorSchemeFrom ([ColorScheme](../colorscheme)) | Init ColorScheme with new object for overriding ColorScheme of InheritedTheme. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -149,7 +149,7 @@ long
 | --- | --- |
 | initFontSchemeFrom ([FontScheme](../fontscheme)) | Init FontScheme with new object for overriding FontScheme of InheritedTheme. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -203,7 +203,7 @@ long
 | --- | --- |
 | initFormatSchemeFrom ([FormatScheme](../formatscheme)) | Init FormatScheme with new object for overriding FormatScheme of InheritedTheme. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -241,7 +241,7 @@ long
 | --- | --- |
 | isEmpty () | True value means that ColorScheme, FontScheme, FormatScheme is null and any overriding with this theme object are disabled. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

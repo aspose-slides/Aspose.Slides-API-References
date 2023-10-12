@@ -17,13 +17,13 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addClone ([Slide](../slide)) | Adds a copy of a specified slide to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | sourceSlide | [Slide](../slide) | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #addClone(ISlide,ILayoutSlide) or #addClone(ISlide,IMasterSlide,boolean) for cloning slides, IGlobalLayoutSlideCollection#addClone(ILayoutSlide) or IGlobalLayoutSlideCollection#addClone(ILayoutSlide,IMasterSlide) for cloning layouts and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -36,14 +36,14 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addClone ([Slide](../slide), [Section](../section)) | Adds a copy of a specified slide to the end of the specified section. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | section | [Section](../section) | Section for a new slide. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
  **Error**
@@ -62,14 +62,14 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addClone ([Slide](../slide), [LayoutSlide](../layoutslide)) | Adds a copy of a specified slide to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | destLayout | [LayoutSlide](../layoutslide) | Layout slide for a new slide. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -82,7 +82,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addClone ([Slide](../slide), [MasterSlide](../masterslide), boolean) | Adds a copy of a specified source slide to the end of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ url: /aspose.slides/slidecollection/
 | destMaster | [MasterSlide](../masterslide) | Master slide for a new slide. |
 | allowCloneMissingLayout | boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
  **Error**
@@ -109,13 +109,13 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addEmptySlide ([LayoutSlide](../layoutslide)) | Adds a new empty slide to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | layout | [LayoutSlide](../layoutslide) | Layout for a slide. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -128,7 +128,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromHtml (String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -136,7 +136,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -149,7 +149,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromHtml (String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -157,7 +157,7 @@ url: /aspose.slides/slidecollection/
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -170,13 +170,13 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromHtml (String) | Creates slides from HTML text and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | htmlText | String | Html to add. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -189,7 +189,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromHtmlFromStream  (SlideCollection, ReadStream, [ExternalResourceResolver](../externalresourceresolver),  String, Function) | Creates slides from HTML text and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -199,7 +199,7 @@ url: /aspose.slides/slidecollection/
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -212,7 +212,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromHtmlFromStream  (SlideCollection, ReadStream, [HtmlExternalResolver](../htmlexternalresolver), String,  Function) | Creates slides from HTML text and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -222,7 +222,7 @@ url: /aspose.slides/slidecollection/
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -235,7 +235,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromHtmlFromStream  (SlideCollection, ReadStream, Function) | Creates slides from HTML text and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -243,7 +243,7 @@ url: /aspose.slides/slidecollection/
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -256,13 +256,13 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromPdf (String) | Creates slides from the PDF document and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | path | String | A path to the PDF document |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -275,7 +275,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | addFromPdfFromStream  (SlideCollection, ReadStream, Function) | Creates slides from the PDF document and adds them to the end of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -283,7 +283,7 @@ url: /aspose.slides/slidecollection/
 | pdfStream | ReadStream | A stream which will be used as a source of the PDF document |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -296,7 +296,7 @@ url: /aspose.slides/slidecollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -309,7 +309,7 @@ Object
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. Read-only Slide. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -322,13 +322,13 @@ Object
 | --- | --- |
 | indexOf ([Slide](../slide)) | Returns an index of the specified slide in the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | slide | [Slide](../slide) | Slide to find. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -341,14 +341,14 @@ int
 | --- | --- |
 | insertClone (int, [Slide](../slide)) | Inserts a copy of a specified slide to specified position of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of new slide. |
 | sourceSlide | [Slide](../slide) | Slide to clone. When cloning a slide between different presentations slide's master can be cloned too. Internal registry is used to track automatically cloned masters to prevent creation of multiple clones of the same master slide. Manual cloning of master slides will be neither prevented nor registered. If you need more control over cloning process use #insertClone(int,ISlide,ILayoutSlide) or #insertClone(int,ISlide,IMasterSlide,boolean) for cloning slides and IMasterSlideCollection#addClone(IMasterSlide) for cloning masters. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -361,7 +361,7 @@ int
 | --- | --- |
 | insertClone (int, [Slide](../slide), [LayoutSlide](../layoutslide)) | Inserts a copy of a specified slide to specified position of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -369,7 +369,7 @@ int
 | sourceSlide | [Slide](../slide) | Slide to clone. |
 | destLayout | [LayoutSlide](../layoutslide) | Layout slide for a new slide. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -382,7 +382,7 @@ int
 | --- | --- |
 | insertClone (int, [Slide](../slide), [MasterSlide](../masterslide), boolean) | Inserts a copy of a specified source slide to specified position of the collection. Appropriate layout will be selected automatically from the specified master (appropriate layout is the layout with the same Type or Name as of layout of the source slide). If there is no appropriate layout then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -391,7 +391,7 @@ int
 | destMaster | [MasterSlide](../masterslide) | Master slide for a new slide. |
 | allowCloneMissingLayout | boolean | If there is no appropriate layout in specified master then layout of the source slide will be cloned (if allowCloneMissingLayout is true) or PptxEditException will be thrown (if allowCloneMissingLayout is false). |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
  **Error**
@@ -410,14 +410,14 @@ int
 | --- | --- |
 | insertEmptySlide (int, [LayoutSlide](../layoutslide)) | Inserts a copy of a specified slide to specified position of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a new slide. |
 | layout | [LayoutSlide](../layoutslide) | Layout for a slide. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -430,7 +430,7 @@ int
 | --- | --- |
 | insertFromHtml (int, String, [ExternalResourceResolver](../externalresourceresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -439,7 +439,7 @@ int
 | resolver | [ExternalResourceResolver](../externalresourceresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -452,7 +452,7 @@ int
 | --- | --- |
 | insertFromHtml (int, String, [HtmlExternalResolver](../htmlexternalresolver), String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -461,7 +461,7 @@ int
 | resolver | [HtmlExternalResolver](../htmlexternalresolver) | A callback object used to fetch external objects. If this parameter is null all external objects will be ignored. |
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -474,14 +474,14 @@ int
 | --- | --- |
 | insertFromHtml (int, String) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Position to insert. |
 | htmlText | String | Html to add. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -494,7 +494,7 @@ int
 | --- | --- |
 | insertFromHtmlFromStream  (SlideCollection, int, ReadStream,  [ExternalResourceResolver](../externalresourceresolver), String, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -505,7 +505,7 @@ int
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -518,7 +518,7 @@ int
 | --- | --- |
 | insertFromHtmlFromStream  (SlideCollection, int, ReadStream, [HtmlExternalResolver](../htmlexternalresolver),  String, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -529,7 +529,7 @@ int
 | uri | String | An URI of the specified HTML. Used to resolve relative links. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -542,7 +542,7 @@ int
 | --- | --- |
 | insertFromHtmlFromStream  (SlideCollection, int, ReadStream, Function) | Creates slides from HTML text and inserts them to the collection at the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -551,7 +551,7 @@ int
 | htmlStream | ReadStream | A Stream object which will be used as a source of a HTML file. |
 | callback | Function | callback(error, result) - Callback to be called when the method has completed |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -564,7 +564,7 @@ int
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -577,7 +577,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -590,7 +590,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -603,7 +603,7 @@ boolean
 | --- | --- |
 | remove ([Slide](../slide)) | Removes the first occurrence of a specific object from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -619,7 +619,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -641,7 +641,7 @@ boolean
 | --- | --- |
 | reorder (int, [Slide](../slide)) | Moves slide from the collection to the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -658,7 +658,7 @@ boolean
 | --- | --- |
 | reorder (int, com.aspose.slides.ISlide[]) | Moves slides from the collection to the specified position. Slides will be placed starting from index in order they appear in list. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -675,7 +675,7 @@ boolean
 | --- | --- |
 | size () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -688,7 +688,7 @@ int
 | --- | --- |
 | toArray () | Creates and returns an array with all slides in it. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -701,14 +701,14 @@ int
 | --- | --- |
 | toArray (int, int) | Creates and returns an array with all slides from the specified range in it. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | startIndex | int | An index of a first slide to add. |
 | count | int | A number of slides to add. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 

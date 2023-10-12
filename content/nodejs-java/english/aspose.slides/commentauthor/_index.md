@@ -17,7 +17,7 @@ url: /aspose.slides/commentauthor/
 | --- | --- |
 | getComments () | Returns the collection of comments made by this author. Read-only ICommentCollection. |
 
- **Result**
+ **Result:**
 [CommentCollection](../commentcollection)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/commentauthor/
 | --- | --- |
 | getInitials () | Returns or sets the authors initials. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getName () | Returns or sets the author's name. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 

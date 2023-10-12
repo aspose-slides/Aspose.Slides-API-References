@@ -16,10 +16,51 @@ url: /aspose.slides/mathintegraltypes/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Simple | 0 | Integral: '?' |
-| Double | 1 | Double Integral: '?' |
-| Triple | 2 | Triple Integral: '?' |
-| Contour | 3 | Contour Integral: '?' |
-| Surface | 4 | Surface Integral: '?' |
-| Volume | 5 | VolumeIntegral: '?' |
+| [Simple](#Simple) | 0 | Integral: '?' |
+| [Double](#Double) | 1 | Double Integral: '?' |
+| [Triple](#Triple) | 2 | Triple Integral: '?' |
+| [Contour](#Contour) | 3 | Contour Integral: '?' |
+| [Surface](#Surface) | 4 | Surface Integral: '?' |
+| [Volume](#Volume) | 5 | VolumeIntegral: '?' |
+
+
+---
+
+
+### Simple {#Simple}
+| Simple| 0 | Integral: '?' |
+
+
+---
+
+### Double {#Double}
+| Double| 1 | Double Integral: '?' |
+
+
+---
+
+### Triple {#Triple}
+| Triple| 2 | Triple Integral: '?' |
+
+
+---
+
+### Contour {#Contour}
+| Contour| 3 | Contour Integral: '?' |
+
+
+---
+
+### Surface {#Surface}
+| Surface| 4 | Surface Integral: '?' |
+
+
+---
+
+### Volume {#Volume}
+| Volume| 5 | VolumeIntegral: '?' |
+
+
+---
+
 

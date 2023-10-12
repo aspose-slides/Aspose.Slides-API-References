@@ -17,7 +17,7 @@ url: /aspose.slides/chart/
 | --- | --- |
 | createThemeEffective () | Returns an effective theme for this chart. |
 
- **Result**
+ **Result:**
 ThemeEffectiveData
 
 
@@ -30,7 +30,7 @@ ThemeEffectiveData
 | --- | --- |
 | getAxes () | Provide access to chart axes. Read-only IAxesManager. |
 
- **Result**
+ **Result:**
 [AxesManager](../axesmanager)
 
 
@@ -43,7 +43,7 @@ ThemeEffectiveData
 | --- | --- |
 | getBackWall () | Returns an object which allows to change format of the back wall of a 3D chart. Read-only IChartWall. |
 
- **Result**
+ **Result:**
 [ChartWall](../chartwall)
 
 
@@ -56,7 +56,7 @@ ThemeEffectiveData
 | --- | --- |
 | getChart () |  |
 
- **Result**
+ **Result:**
 [Chart](../chart)
 
 
@@ -69,7 +69,7 @@ ThemeEffectiveData
 | --- | --- |
 | getChartData () | Returns information about the linked or embedded data associated with a chart. Read-only IChartData. |
 
- **Result**
+ **Result:**
 [ChartData](../chartdata)
 
 
@@ -82,7 +82,7 @@ ThemeEffectiveData
 | --- | --- |
 | getChartDataTable () | Returns a data table of a chart. Read-only IDataTable. |
 
- **Result**
+ **Result:**
 [DataTable](../datatable)
 
 
@@ -95,7 +95,7 @@ ThemeEffectiveData
 | --- | --- |
 | getChartTitle () | Returns or sets a chart title. Read-only IChartTitle. |
 
- **Result**
+ **Result:**
 [ChartTitle](../charttitle)
 
 
@@ -108,7 +108,7 @@ ThemeEffectiveData
 | --- | --- |
 | getDisplayBlanksAs () | Returns or sets the way to plot blank cells on a chart. Read/write DisplayBlanksAsType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -121,7 +121,7 @@ int
 | --- | --- |
 | getFloor () | Returns an object which allows to change format of the floor of a 3D chart. Read-only IChartWall. |
 
- **Result**
+ **Result:**
 [ChartWall](../chartwall)
 
 
@@ -134,7 +134,7 @@ int
 | --- | --- |
 | getLegend () | Returns or sets a legend for a chart. Read-only ILegend. |
 
- **Result**
+ **Result:**
 [Legend](../legend)
 
 
@@ -147,7 +147,7 @@ int
 | --- | --- |
 | getPlotArea () | Represents the plot area of a chart. Read-only IChartPlotArea. |
 
- **Result**
+ **Result:**
 [ChartPlotArea](../chartplotarea)
 
 
@@ -160,7 +160,7 @@ int
 | --- | --- |
 | getPlotVisibleCellsOnly () | Determines whether the only visible cells are plotted. False to plot both visible and hidden cells. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -173,7 +173,7 @@ boolean
 | --- | --- |
 | getRotation3D () | Returns a 3D rotation of a chart. Read-only IRotation3D. |
 
- **Result**
+ **Result:**
 [Rotation3D](../rotation3d)
 
 
@@ -186,7 +186,7 @@ boolean
 | --- | --- |
 | getShowDataLabelsOverMaximum () | Specifies data labels over the maximum of the chart shall be shown. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -199,7 +199,7 @@ boolean
 | --- | --- |
 | getSideWall () | Returns an object which allows to change format of the side wall of a 3D chart. Read-only IChartWall. |
 
- **Result**
+ **Result:**
 [ChartWall](../chartwall)
 
 
@@ -212,7 +212,7 @@ boolean
 | --- | --- |
 | getStyle () | Returns or sets the chart style. Read/write StyleType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -225,7 +225,7 @@ int
 | --- | --- |
 | getTextFormat () | Returns chart text format. The property is not applicable for the following types: ChartType#Treemap, ChartType#Sunburst, ChartType#Waterfall, ChartType#Histogram, ChartType#Funnel, ChartType#BoxAndWhisker. Read-only IChartTextFormat. |
 
- **Result**
+ **Result:**
 [ChartTextFormat](../charttextformat)
 
 
@@ -238,7 +238,7 @@ int
 | --- | --- |
 | getThemeManager () | Returns theme manager. Read-only IOverrideThemeManager. |
 
- **Result**
+ **Result:**
 [NotesSlideThemeManager](../notesslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [SlideThemeManager](../slidethememanager)
 
 
@@ -251,7 +251,7 @@ int
 | --- | --- |
 | getType () | Returns or sets the chart type. Read/write ChartType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -264,7 +264,7 @@ int
 | --- | --- |
 | getUserShapes () | Specify the shapes drawn on top of the chart. Read-only IGroupShape. |
 
- **Result**
+ **Result:**
 [GroupShape](../groupshape)
 
 
@@ -277,7 +277,7 @@ int
 | --- | --- |
 | hasDataTable () | Determines whether a chart has a data table. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -290,7 +290,7 @@ boolean
 | --- | --- |
 | hasLegend () | Determines whether a chart has a legend. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -303,7 +303,7 @@ boolean
 | --- | --- |
 | hasRoundedCorners () | Specifies the chart area shall have rounded corners. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -316,7 +316,7 @@ boolean
 | --- | --- |
 | hasTitle () | Determines whether a chart has a visible title. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

@@ -16,12 +16,65 @@ url: /aspose.slides/shapesalignmenttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AlignLeft | 0 | Align left |
-| AlignRight | 1 | Align right |
-| AlignCenter | 2 | Align center |
-| AlignTop | 3 | Align top |
-| AlignMiddle | 4 | Align middle |
-| AlignBottom | 5 | Align bottom |
-| DistributeHorizontally | 6 | Distribute horizontally |
-| DistributeVertically | 7 | Distribute vertically |
+| [AlignLeft](#AlignLeft) | 0 | Align left |
+| [AlignRight](#AlignRight) | 1 | Align right |
+| [AlignCenter](#AlignCenter) | 2 | Align center |
+| [AlignTop](#AlignTop) | 3 | Align top |
+| [AlignMiddle](#AlignMiddle) | 4 | Align middle |
+| [AlignBottom](#AlignBottom) | 5 | Align bottom |
+| [DistributeHorizontally](#DistributeHorizontally) | 6 | Distribute horizontally |
+| [DistributeVertically](#DistributeVertically) | 7 | Distribute vertically |
+
+
+---
+
+
+### AlignLeft {#AlignLeft}
+| AlignLeft| 0 | Align left |
+
+
+---
+
+### AlignRight {#AlignRight}
+| AlignRight| 1 | Align right |
+
+
+---
+
+### AlignCenter {#AlignCenter}
+| AlignCenter| 2 | Align center |
+
+
+---
+
+### AlignTop {#AlignTop}
+| AlignTop| 3 | Align top |
+
+
+---
+
+### AlignMiddle {#AlignMiddle}
+| AlignMiddle| 4 | Align middle |
+
+
+---
+
+### AlignBottom {#AlignBottom}
+| AlignBottom| 5 | Align bottom |
+
+
+---
+
+### DistributeHorizontally {#DistributeHorizontally}
+| DistributeHorizontally| 6 | Distribute horizontally |
+
+
+---
+
+### DistributeVertically {#DistributeVertically}
+| DistributeVertically| 7 | Distribute vertically |
+
+
+---
+
 

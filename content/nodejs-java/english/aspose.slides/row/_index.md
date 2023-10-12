@@ -17,7 +17,7 @@ url: /aspose.slides/row/
 | --- | --- |
 | getHeight () | Returns the height of a row. Read-only double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -30,7 +30,7 @@ double
 | --- | --- |
 | getMinimalHeight () | Returns or sets the minimal possible height of a row. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -43,7 +43,7 @@ double
 | --- | --- |
 | getRowFormat () | Returns the RowFormat object that contains formatting properties for this row. Read-only IRowFormat. |
 
- **Result**
+ **Result:**
 [RowFormat](../rowformat)
 
 
@@ -66,7 +66,7 @@ double
 | --- | --- |
 | setTextFormat ([PortionFormat](../portionformat)) | Sets defined portion format properties to all row cells' portions. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -82,7 +82,7 @@ double
 | --- | --- |
 | setTextFormat ([ParagraphFormat](../paragraphformat)) | Sets defined paragraph format properties to all row cells' paragraphs. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -98,7 +98,7 @@ double
 | --- | --- |
 | setTextFormat ([TextFrameFormat](../textframeformat)) | Sets defined text frame format properties to all row cells' text frames. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

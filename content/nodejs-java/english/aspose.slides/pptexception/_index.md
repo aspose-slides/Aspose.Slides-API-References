@@ -17,7 +17,7 @@ url: /aspose.slides/pptexception/
 | --- | --- |
 | PptException() | Default function. |
 
- **Result**
+ **Result:**
 PptException
 
 
@@ -30,13 +30,13 @@ PptException
 | --- | --- |
 | PptException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 PptException
 
 
@@ -49,14 +49,14 @@ PptException
 | --- | --- |
 | PptException(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | Exception | original exception |
 
- **Result**
+ **Result:**
 PptException
 
 

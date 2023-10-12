@@ -18,13 +18,13 @@ url: /aspose.slides/coloroperation/
 | --- | --- |
 | ColorOperation(int) | Creates new color transform operation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | op | int | Operation type. |
 
- **Result**
+ **Result:**
 ColorOperation
 
 
@@ -37,14 +37,14 @@ ColorOperation
 | --- | --- |
 | ColorOperation(int, float) | Creates new color transform operation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | op | int | Operation type. |
 | parameter | float | Operation parameter. |
 
- **Result**
+ **Result:**
 ColorOperation
 
 
@@ -57,13 +57,13 @@ ColorOperation
 | --- | --- |
 | equals (Object) | Determines whether the two ColorOperation instances are equal. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The ColorOperation to compare with the current ColorOperation. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -76,7 +76,7 @@ boolean
 | --- | --- |
 | getOperationType () | Returns or sets the type of an operation. Read-only ColorTransformOperation. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -89,7 +89,7 @@ int
 | --- | --- |
 | getParameter () | Returns a parameter of an operation. Read-only float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -102,7 +102,7 @@ float
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result**
+ **Result:**
 int
 
 

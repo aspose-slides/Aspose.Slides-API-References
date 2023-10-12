@@ -16,6 +16,23 @@ url: /aspose.slides/transitionshredpattern/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Strip | 0 | Vertical strips |
-| Rectangle | 1 | Small rectangles |
+| [Strip](#Strip) | 0 | Vertical strips |
+| [Rectangle](#Rectangle) | 1 | Small rectangles |
+
+
+---
+
+
+### Strip {#Strip}
+| Strip| 0 | Vertical strips |
+
+
+---
+
+### Rectangle {#Rectangle}
+| Rectangle| 1 | Small rectangles |
+
+
+---
+
 

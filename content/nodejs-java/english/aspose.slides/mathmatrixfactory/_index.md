@@ -19,7 +19,7 @@ url: /aspose.slides/mathmatrixfactory/
 | --- | --- |
 | MathMatrixFactory() |  |
 
- **Result**
+ **Result:**
 MathMatrixFactory
 
 
@@ -32,14 +32,14 @@ MathMatrixFactory
 | --- | --- |
 | createMathMatrix (int, int) | Creates a math matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | rowCount | int | row count |
 | columnCount | int | column count |
 
- **Result**
+ **Result:**
 [MathMatrix](../mathmatrix)
 
 

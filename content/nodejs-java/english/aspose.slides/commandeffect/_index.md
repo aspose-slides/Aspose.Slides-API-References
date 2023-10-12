@@ -17,7 +17,7 @@ url: /aspose.slides/commandeffect/
 | --- | --- |
 | CommandEffect() | Creates new instance. |
 
- **Result**
+ **Result:**
 CommandEffect
 
 
@@ -30,7 +30,7 @@ CommandEffect
 | --- | --- |
 | getCommandString () | Defines command string. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -43,7 +43,7 @@ String
 | --- | --- |
 | getShapeTarget () | Defines shape target of command effect. Read/write IShape. |
 
- **Result**
+ **Result:**
 [LegacyDiagram](../legacydiagram), [Connector](../connector), [GraphicalObject](../graphicalobject), [Shape](../shape), [Ink](../ink), [GroupShape](../groupshape), [SmartArtShape](../smartartshape), [SummaryZoomSection](../summaryzoomsection), [ZoomObject](../zoomobject), [SmartArt](../smartart), [VideoFrame](../videoframe), [PictureFrame](../pictureframe), [ZoomFrame](../zoomframe), [AutoShape](../autoshape), [GeometryShape](../geometryshape), [OleObjectFrame](../oleobjectframe), [SectionZoomFrame](../sectionzoomframe), [AudioFrame](../audioframe), [Chart](../chart), [Table](../table), [SummaryZoomFrame](../summaryzoomframe)
 
 
@@ -56,7 +56,7 @@ String
 | --- | --- |
 | getType () | Defines command effect type of behavior. Read/write CommandEffectType. |
 
- **Result**
+ **Result:**
 byte
 
 

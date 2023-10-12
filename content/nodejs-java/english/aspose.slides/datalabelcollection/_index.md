@@ -17,7 +17,7 @@ url: /aspose.slides/datalabelcollection/
 | --- | --- |
 | getChart () | Returns the parent chart. Read-only IChart. |
 
- **Result**
+ **Result:**
 [Chart](../chart)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/datalabelcollection/
 | --- | --- |
 | getCount () | Gets the number of all data labels in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -43,7 +43,7 @@ int
 | --- | --- |
 | getCountOfVisibleDataLabels () | Gets the number of visible data labels in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getDefaultDataLabelFormat () | Gets the default data label format. Read-only IDataLabelFormat. |
 
- **Result**
+ **Result:**
 [DataLabelFormat](../datalabelformat)
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getLeaderLinesColor () | Gets or sets the color of all leader lines in the collection. Read/write java.awt.Color. |
 
- **Result**
+ **Result:**
 Color
 
 
@@ -82,7 +82,7 @@ Color
 | --- | --- |
 | getLeaderLinesFormat () | Represents data labels leader lines format. Read-only IChartLinesFormat. |
 
- **Result**
+ **Result:**
 [ChartLinesFormat](../chartlinesformat)
 
 
@@ -95,7 +95,7 @@ Color
 | --- | --- |
 | getParentSeries () | Gets the parent series. Read-only IChartSeries. |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
 
@@ -108,7 +108,7 @@ Color
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result**
+ **Result:**
 [Presentation](../presentation)
 
 
@@ -121,7 +121,7 @@ Color
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result**
+ **Result:**
 [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
@@ -134,7 +134,7 @@ Color
 | --- | --- |
 | get_Item (int) | Gets the data label for the data point with the specified index. Alternate way to access data label is: - series.getDataPoints().get_Item(i).getLabel() - manage label properties. |
 
- **Result**
+ **Result:**
 [DataLabel](../datalabel)
 
 
@@ -157,13 +157,13 @@ Color
 | --- | --- |
 | indexOf ([DataLabel](../datalabel)) | Returns an index of the specified DataLabel in the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | value | [DataLabel](../datalabel) | DataLabel to find. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -176,7 +176,7 @@ int
 | --- | --- |
 | isVisible () | False means that data label is not visible by default (and so all Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property are false). Read-only boolean. If data label is visible by default you can make it hidden by default with Hide() function. But if data label is not visible by default (IsVisible is false) you can make data label "visible by default" with setting Show*-flags (ShowValue, ...) of the DefaultDataLabelFormat property to true state. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -189,7 +189,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -202,7 +202,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 

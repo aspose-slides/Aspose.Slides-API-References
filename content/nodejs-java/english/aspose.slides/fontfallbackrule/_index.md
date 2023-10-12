@@ -17,7 +17,7 @@ url: /aspose.slides/fontfallbackrule/
 | --- | --- |
 | FontFallBackRule(long, long, String) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ url: /aspose.slides/fontfallbackrule/
 | endIndex | long | End index of unicode range |
 | fontNames | String | Font's name or names (delimited by comma) for FallBack |
 
- **Result**
+ **Result:**
 FontFallBackRule
 
 
@@ -38,7 +38,7 @@ FontFallBackRule
 | --- | --- |
 | FontFallBackRule(long, long, java.lang.String[]) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ FontFallBackRule
 | endIndex | long | End index of unicode range |
 | fontNames | java.lang.String[] | Font's name or names (delimited by comma) for FallBack |
 
- **Result**
+ **Result:**
 FontFallBackRule
 
 
@@ -59,7 +59,7 @@ FontFallBackRule
 | --- | --- |
 | addFallBackFonts (String) | Adds a new font(s) to the list of FallBack fonts. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ FontFallBackRule
 | --- | --- |
 | addFallBackFonts (java.lang.String[]) | Adds a new fonts to the list of FallBack fonts. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -101,7 +101,7 @@ FontFallBackRule
 | --- | --- |
 | getCount () | Gets the number of fonts actually defined for range. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | getRangeEndIndex () | Get last index of continuous unicode range. |
 
- **Result**
+ **Result:**
 long
 
 
@@ -127,7 +127,7 @@ long
 | --- | --- |
 | getRangeStartIndex () | Get first index of continuous unicode range. |
 
- **Result**
+ **Result:**
 long
 
 
@@ -140,7 +140,7 @@ long
 | --- | --- |
 | get_Item (int) | Gets the font name at the specified index. Read-only IFontFallBackRule. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -153,13 +153,13 @@ String
 | --- | --- |
 | indexOf (String) | Returns an index of the specified rule in the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | fontName | String | Font's name to find. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -172,7 +172,7 @@ int
 | --- | --- |
 | remove (String) | Removes the first occurrence of a specific FallBack font from the list. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -188,7 +188,7 @@ int
 | --- | --- |
 | removeAt (int) | Removes the FallBack font at the specified index of the list. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -224,7 +224,7 @@ int
 | --- | --- |
 | toArray () | Creates and returns an array with all FallBack fonts for this rule. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -237,14 +237,14 @@ String
 | --- | --- |
 | toArray (int, int) | Creates and returns an array with all FallBack fonts from the specified range in list. // Create a rule contains a list of fonts. IFontFallBackRule newRule = new FontFallBackRule(0x3040, 0x309F, "MS Mincho, MS Gothic, Tahoma, Times New Roman"); // Get a last two font names as array. String[] fontNames = newRule.toArray(2, 2); |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | startIndex | int | An index of a first font to add. |
 | count | int | A number of fonts to add. |
 
- **Result**
+ **Result:**
 String
 
 

@@ -23,7 +23,7 @@ url: /aspose.slides/chartseriesgroup/
 | --- | --- |
 | getBubbleSizeRepresentation () | Specifies how the bubble size values are represented on the bubble chart. Read/write BubbleSizeRepresentationType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -36,7 +36,7 @@ int
 | --- | --- |
 | getBubbleSizeScale () | Specifies the scale factor for the bubble chart (can be between 0 and 300 percents of the default size). Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -49,7 +49,7 @@ int
 | --- | --- |
 | getChart () | Returns the parent chart. Read-only IChart. |
 
- **Result**
+ **Result:**
 [Chart](../chart)
 
 
@@ -62,7 +62,7 @@ int
 | --- | --- |
 | getDoughnutHoleSize () | Specifies the size of the hole in a doughnut chart (can be between 0 and 90 percents of the size of the plot area.). Read/write byte. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -75,7 +75,7 @@ byte
 | --- | --- |
 | getFirstSliceAngle () | Gets or sets the angle of the first pie or doughnut chart slice, in degrees (clockwise from up, from 0 to 360 degrees). Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -88,7 +88,7 @@ int
 | --- | --- |
 | getGapDepth () | Returns or sets the distance, as a percentage of the marker width, between the data series in a 3D chart. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -101,7 +101,7 @@ int
 | --- | --- |
 | getGapWidth () | Specifies the space between bar or column clusters, as a percentage of the bar or column width. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -114,7 +114,7 @@ int
 | --- | --- |
 | getHiLowLinesFormat () | Specifies HiLowLines format. HiLowLines applied with HiLowClose, OpenHiLowClose, VolumeHiLowClose and VolumeOpenHiLowClose chart types. |
 
- **Result**
+ **Result:**
 [ChartLinesFormat](../chartlinesformat)
 
 
@@ -127,7 +127,7 @@ int
 | --- | --- |
 | getOverlap () | Specifies how much bars and columns shall overlap on 2-D charts (from -100 to 100). Read/write byte. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -140,7 +140,7 @@ byte
 | --- | --- |
 | getPieSplitBy () | Specifies how to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Read/write PieSplitType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -153,7 +153,7 @@ int
 | --- | --- |
 | getPieSplitCustomPoints () | The custom split information for a pie-of-pie or bar-of-pie chart with a custom split. Contains data points that shall be drawn in the second pie or bar in a pie-of-pie or bar-of-pie chart. Read-only PieSplitCustomPointCollection. |
 
- **Result**
+ **Result:**
 [PieSplitCustomPointCollection](../piesplitcustompointcollection)
 
 
@@ -166,7 +166,7 @@ int
 | --- | --- |
 | getPieSplitPosition () | Specifies a value that shall be used to determine which data points are in the second pie or bar on a pie-of-pie or bar-of-pie chart. Is used together with PieSplitBy property. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -179,7 +179,7 @@ double
 | --- | --- |
 | getPlotOnSecondAxis () | Indicates if series of this group is plotted on secondary axis. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -192,7 +192,7 @@ boolean
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a FillFormat. Read-only IPresentation. |
 
- **Result**
+ **Result:**
 [Presentation](../presentation)
 
 
@@ -205,7 +205,7 @@ boolean
 | --- | --- |
 | getSecondPieSize () | Specifies the size of the second pie or bar of a pie-of-pie chart or a bar-of-pie chart, as a percentage of the size of the first pie (can be between 5 and 200 percents). Read/write int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -218,7 +218,7 @@ int
 | --- | --- |
 | getSeries () | Returns a collection of series. Read-only IChartSeriesReadonlyCollection. |
 
- **Result**
+ **Result:**
 ChartSeriesReadonlyCollection
 
 
@@ -231,7 +231,7 @@ ChartSeriesReadonlyCollection
 | --- | --- |
 | getSlide () | Returns the parent slide of a FillFormat. Read-only BaseSlide. |
 
- **Result**
+ **Result:**
 [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
@@ -244,7 +244,7 @@ ChartSeriesReadonlyCollection
 | --- | --- |
 | getType () | Returns a type of this series group. Read-only CombinableSeriesTypesGroup. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -257,7 +257,7 @@ int
 | --- | --- |
 | getUpDownBars () | Provede access to up/down bars of Line- or Stock-chart. Read-only IUpDownBarsManager. |
 
- **Result**
+ **Result:**
 [UpDownBarsManager](../updownbarsmanager)
 
 
@@ -270,7 +270,7 @@ int
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
- **Result**
+ **Result:**
 [ChartSeries](../chartseries)
 
 
@@ -283,7 +283,7 @@ int
 | --- | --- |
 | hasSeriesLines () | True if chart has series lines. Applied to stacked bar and OfPie charts. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -296,7 +296,7 @@ boolean
 | --- | --- |
 | isColorVaried () | Specifies that each data marker in the series has a different color. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

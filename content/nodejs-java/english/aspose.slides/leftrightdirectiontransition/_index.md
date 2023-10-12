@@ -17,7 +17,7 @@ url: /aspose.slides/leftrightdirectiontransition/
 | --- | --- |
 | getDirection () | Direction of transition. Read/write TransitionLeftRightDirectionType. |
 
- **Result**
+ **Result:**
 int
 
 

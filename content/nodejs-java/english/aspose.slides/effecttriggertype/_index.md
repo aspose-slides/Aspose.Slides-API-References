@@ -16,7 +16,30 @@ url: /aspose.slides/effecttriggertype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| AfterPrevious | 0 |  |
-| OnClick | 1 |  |
-| WithPrevious | 2 |  |
+| [AfterPrevious](#AfterPrevious) | 0 |  |
+| [OnClick](#OnClick) | 1 |  |
+| [WithPrevious](#WithPrevious) | 2 |  |
+
+
+---
+
+
+### AfterPrevious {#AfterPrevious}
+| AfterPrevious| 0 |  |
+
+
+---
+
+### OnClick {#OnClick}
+| OnClick| 1 |  |
+
+
+---
+
+### WithPrevious {#WithPrevious}
+| WithPrevious| 2 |  |
+
+
+---
+
 

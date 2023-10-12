@@ -19,7 +19,7 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 | --- | --- |
 | setDateTimeAndChildDateTimesText (String) | Sets text to master slide date-time placeholder and all child date-time placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -35,7 +35,7 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 | --- | --- |
 | setDateTimeAndChildDateTimesVisibility (boolean) | Changes master slide date-time placeholder and all child date-time placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 | --- | --- |
 | setFooterAndChildFootersText (String) | Sets text to master slide footer placeholder and all child footer placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 | --- | --- |
 | setFooterAndChildFootersVisibility (boolean) | Changes master slide footer placeholder and all child footer placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -83,7 +83,7 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 | --- | --- |
 | setHeaderAndChildHeadersText (String) | Sets text to master notes slide header placeholder and all child header placeholders. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -99,7 +99,7 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 | --- | --- |
 | setHeaderAndChildHeadersVisibility (boolean) | Changes master notes slide header placeholder and all child header placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -115,7 +115,7 @@ url: /aspose.slides/masternotesslideheaderfootermanager/
 | --- | --- |
 | setSlideNumberAndChildSlideNumbersVisibility (boolean) | Changes master slide page number placeholder and all child page number placeholders visibility. Child placeholders mean placeholders are contained on depending notes slides. Depending notes slides use and depend on master notes slide. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

@@ -17,7 +17,7 @@ url: /aspose.slides/groupshapelock/
 | --- | --- |
 | getAspectRatioLocked () | Determines whether shape have to preserve aspect ratio on resizing. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -30,7 +30,7 @@ boolean
 | --- | --- |
 | getGroupingLocked () | Determines whether adding this shape to a group is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getPositionLocked () | Determines whether moving this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getRotationLocked () | Determines whether changing rotation angle of this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getSelectLocked () | Determines whether selecting this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getSizeLocked () | Determines whether resizing this shape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | getUngroupingLocked () | Determines whether splitting this groupshape is forbidden. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

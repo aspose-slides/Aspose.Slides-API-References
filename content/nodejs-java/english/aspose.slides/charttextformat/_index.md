@@ -17,7 +17,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | copyFrom ([TextFrame](../textframe)) | Copies text format from specified text frame. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | copyTo ([TextFrame](../textframe)) | Copies text format to specified text frame. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -49,7 +49,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | getParagraphFormat () | ParagraphFormat. Read-only IChartParagraphFormat. |
 
- **Result**
+ **Result:**
 [ParagraphFormat](../paragraphformat)
 
 
@@ -62,7 +62,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | getPortionFormat () | PortionFormat. Read-only IChartPortionFormat. |
 
- **Result**
+ **Result:**
 [ChartPortionFormat](../chartportionformat)
 
 
@@ -75,7 +75,7 @@ url: /aspose.slides/charttextformat/
 | --- | --- |
 | getTextBlockFormat () | TextBlockFormat. Read-only IChartTextBlockFormat. |
 
- **Result**
+ **Result:**
 [TextFrameFormat](../textframeformat)
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/controlcollection/
 | --- | --- |
 | addControl (int, float, float, float, float) | Creates and adds a new control to the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ url: /aspose.slides/controlcollection/
 | width | float | The width of shape's frame. |
 | height | float | The height of shape's frame. |
 
- **Result**
+ **Result:**
 [Control](../control)
 
 
@@ -50,7 +50,7 @@ url: /aspose.slides/controlcollection/
 | --- | --- |
 | getSyncRoot () | Returns a synchronization root. Read-only Object. |
 
- **Result**
+ **Result:**
 Object
 
 
@@ -63,13 +63,13 @@ Object
 | --- | --- |
 | get_Item (int) | Returns a control at the specified position. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of a control. |
 
- **Result**
+ **Result:**
 [Control](../control)
 
 
@@ -82,7 +82,7 @@ Object
 | --- | --- |
 | isSynchronized () | Returns a value indicating whether access to the collection is synchronized (thread-safe). Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -108,7 +108,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -121,7 +121,7 @@ boolean
 | --- | --- |
 | remove ([Control](../control)) | Removes an ActiveX control from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -137,7 +137,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes an ActiveX control stored at specified position from the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -153,7 +153,7 @@ boolean
 | --- | --- |
 | size () | Returns a number of objects in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 

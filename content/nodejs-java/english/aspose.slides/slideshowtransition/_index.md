@@ -17,13 +17,13 @@ url: /aspose.slides/slideshowtransition/
 | --- | --- |
 | equals (Object) | Determines whether the two SlideShowTransition instances are equal. Read/write boolean. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The SlideShowTransition to compare with the current SlideShowTransition. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -36,7 +36,7 @@ boolean
 | --- | --- |
 | getAdvanceAfter () | This attribute specifies if the slideshow will move to the next slide after a certain time. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -49,7 +49,7 @@ boolean
 | --- | --- |
 | getAdvanceAfterTime () | Specifies the time, in milliseconds, after which the transition should start. This setting may be used in conjunction with the advClick attribute. If this attribute is not specified then it is assumed that no auto-advance will occur. Read/write long. |
 
- **Result**
+ **Result:**
 long
 
 
@@ -62,7 +62,7 @@ long
 | --- | --- |
 | getAdvanceOnClick () | Specifies whether a mouse click will advance the slide or not. If this attribute is not specified then a value of true is assumed. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -75,7 +75,7 @@ boolean
 | --- | --- |
 | getSound () | Returns or sets the embedded audio data. Read/write IAudio. |
 
- **Result**
+ **Result:**
 [Audio](../audio)
 
 
@@ -88,7 +88,7 @@ boolean
 | --- | --- |
 | getSoundIsBuiltIn () | Specifies whether or not this sound is a built-in sound. If this attribute is set to true then the generating application is alerted to check the name attribute specified for this sound in it's list of built-in sounds and can then surface a custom name or UI as needed. Read-write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -101,7 +101,7 @@ boolean
 | --- | --- |
 | getSoundLoop () | This attribute specifies if the sound will loop until the next sound event occurs in slideshow. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -114,7 +114,7 @@ boolean
 | --- | --- |
 | getSoundMode () | Set or returns sound mode for slide transition. Read/write TransitionSoundMode. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -127,7 +127,7 @@ int
 | --- | --- |
 | getSoundName () | Specifies a human readable name for the sound of the transition. The Sound( #getSound/ #setSound(IAudio)) property must be assigned to get or set the sound name. Read-write String. |
 
- **Result**
+ **Result:**
 String
 
  **Error**
@@ -146,7 +146,7 @@ String
 | --- | --- |
 | getSpeed () | Specifies the transition speed that is to be used when transitioning from the current slide to the next. Read/write TransitionSpeed. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -159,7 +159,7 @@ int
 | --- | --- |
 | getType () | Type of transition. Read/write TransitionType. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -172,7 +172,7 @@ int
 | --- | --- |
 | getValue () | Slide show transition value. Read-only ITransitionValueBase. |
 
- **Result**
+ **Result:**
 [EmptyTransition](../emptytransition), [GlitterTransition](../glittertransition), [OrientationTransition](../orientationtransition), [EightDirectionTransition](../eightdirectiontransition), [RevealTransition](../revealtransition), [WheelTransition](../wheeltransition), [OptionalBlackTransition](../optionalblacktransition), [RippleTransition](../rippletransition), [LeftRightDirectionTransition](../leftrightdirectiontransition), [ShredTransition](../shredtransition), [SideDirectionTransition](../sidedirectiontransition), [InOutTransition](../inouttransition), [CornerDirectionTransition](../cornerdirectiontransition), [MorphTransition](../morphtransition), [FlyThroughTransition](../flythroughtransition), [TransitionValueBase](../transitionvaluebase), [SplitTransition](../splittransition)
 
 
@@ -185,7 +185,7 @@ int
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type, suitable for use in hashing algorithms and data structures like a hash table. |
 
- **Result**
+ **Result:**
 int
 
 

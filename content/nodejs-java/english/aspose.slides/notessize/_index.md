@@ -17,7 +17,7 @@ url: /aspose.slides/notessize/
 | --- | --- |
 | NotesSize() |  |
 
- **Result**
+ **Result:**
 NotesSize
 
 
@@ -30,7 +30,7 @@ NotesSize
 | --- | --- |
 | getSize () | Returns or sets the size in points. Read/write java.awt.geom.Dimension2D. |
 
- **Result**
+ **Result:**
 Dimension2D
 
 

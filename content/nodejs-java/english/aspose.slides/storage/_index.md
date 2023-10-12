@@ -17,7 +17,7 @@ url: /aspose.slides/storage/
 | --- | --- |
 | Storage() |  |
 
- **Result**
+ **Result:**
 Storage
 
 
@@ -30,13 +30,13 @@ Storage
 | --- | --- |
 | containsKey (String) | Determines whether the storage contains an element with the specified key. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | key | String | Key of the value. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -49,13 +49,13 @@ boolean
 | --- | --- |
 | get (String) | Gets the data from the storage. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | key | String | Key of the value. |
 
- **Result**
+ **Result:**
 TValue
 
 
@@ -68,7 +68,7 @@ TValue
 | --- | --- |
 | put (String, TValue) | Puts the value into the storage. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

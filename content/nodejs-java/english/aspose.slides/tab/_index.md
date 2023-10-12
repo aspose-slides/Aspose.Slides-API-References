@@ -17,14 +17,14 @@ url: /aspose.slides/tab/
 | --- | --- |
 | Tab(double, int) | Creates new Tab |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | position | double | Tab position. |
 | align | int | Align. |
 
- **Result**
+ **Result:**
 Tab
 
 
@@ -37,13 +37,13 @@ Tab
 | --- | --- |
 | compareTo (Object) | Compares the current instance with another object of the same type. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | An object to compare with this instance. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -56,7 +56,7 @@ int
 | --- | --- |
 | getAlignment () | Returns or sets align style of a tab. Read/write TabAlignment. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -69,7 +69,7 @@ int
 | --- | --- |
 | getPosition () | Returns or sets position of a tab. Assigning this property can change tab's index in collection and invalidate Enumerator. Read/write double. |
 
- **Result**
+ **Result:**
 double
 
 
@@ -82,7 +82,7 @@ double
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 

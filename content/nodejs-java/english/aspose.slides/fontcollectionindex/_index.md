@@ -16,7 +16,30 @@ url: /aspose.slides/fontcollectionindex/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| None | 0 |  |
-| Minor | 1 |  |
-| Major | 2 |  |
+| [None](#None) | 0 |  |
+| [Minor](#Minor) | 1 |  |
+| [Major](#Major) | 2 |  |
+
+
+---
+
+
+### None {#None}
+| None| 0 |  |
+
+
+---
+
+### Minor {#Minor}
+| Minor| 1 |  |
+
+
+---
+
+### Major {#Major}
+| Major| 2 |  |
+
+
+---
+
 

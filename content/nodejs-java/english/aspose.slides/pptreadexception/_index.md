@@ -17,7 +17,7 @@ url: /aspose.slides/pptreadexception/
 | --- | --- |
 | PptReadException() | Default function. |
 
- **Result**
+ **Result:**
 PptReadException
 
 
@@ -30,13 +30,13 @@ PptReadException
 | --- | --- |
 | PptReadException(String) | Constructor allowing a message to be added to this exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 
- **Result**
+ **Result:**
 PptReadException
 
 
@@ -49,14 +49,14 @@ PptReadException
 | --- | --- |
 | PptReadException(String, Exception) | Constructor for an exception containing a message and an embedded exception. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | message | String | message |
 | exception | Exception | original exception |
 
- **Result**
+ **Result:**
 PptReadException
 
 

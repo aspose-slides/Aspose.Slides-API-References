@@ -17,7 +17,7 @@ url: /aspose.slides/portioncollection/
 | --- | --- |
 | add ([Portion](../portion)) | Adds a Portion to the end of collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ url: /aspose.slides/portioncollection/
 | --- | --- |
 | add ([MathPortion](../mathportion)) | Adds a Portion to the end of collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -59,13 +59,13 @@ url: /aspose.slides/portioncollection/
 | --- | --- |
 | contains ([Portion](../portion)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Portion](../portion) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -78,13 +78,13 @@ boolean
 | --- | --- |
 | contains ([MathPortion](../mathportion)) | Determines whether the IGenericCollection contains a specific value. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathPortion](../mathportion) | The object to locate in the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -97,7 +97,7 @@ boolean
 | --- | --- |
 | copyTo (com.aspose.slides.IPortion[], int) | Copies the elements of the IGenericCollection to an Array, starting at a particular Array index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -120,7 +120,7 @@ boolean
 | --- | --- |
 | getCount () | Gets the number of elements actually contained in the collection. Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -133,7 +133,7 @@ int
 | --- | --- |
 | get_Item (int) | Gets the element at the specified index. |
 
- **Result**
+ **Result:**
 [Portion](../portion), [MathPortion](../mathportion)
 
 
@@ -146,13 +146,13 @@ int
 | --- | --- |
 | indexOf ([Portion](../portion)) | Determines the index of a specific item in the List. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Portion](../portion) | The object to locate in the List. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -165,13 +165,13 @@ int
 | --- | --- |
 | indexOf ([MathPortion](../mathportion)) | Determines the index of a specific item in the List. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathPortion](../mathportion) | The object to locate in the List. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -184,7 +184,7 @@ int
 | --- | --- |
 | insert (int, [Portion](../portion)) | Inserts a Portion into the collection at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -201,7 +201,7 @@ int
 | --- | --- |
 | insert (int, [MathPortion](../mathportion)) | Inserts a Portion into the collection at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -218,7 +218,7 @@ int
 | --- | --- |
 | isReadOnly () | Gets a value indicating whether the IGenericCollection is read-only. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -231,7 +231,7 @@ boolean
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -244,7 +244,7 @@ boolean
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -257,13 +257,13 @@ boolean
 | --- | --- |
 | remove ([Portion](../portion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [Portion](../portion) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -282,13 +282,13 @@ boolean
 | --- | --- |
 | remove ([MathPortion](../mathportion)) | Removes the first occurrence of a specific object from the IGenericCollection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | item | [MathPortion](../mathportion) | The object to remove from the IGenericCollection. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -307,7 +307,7 @@ boolean
 | --- | --- |
 | removeAt (int) | Removes the element at the specified index of the collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

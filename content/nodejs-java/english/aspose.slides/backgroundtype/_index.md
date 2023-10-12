@@ -16,7 +16,30 @@ url: /aspose.slides/backgroundtype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Themed | 0 |  |
-| OwnBackground | 1 |  |
+| [NotDefined](#NotDefined) | -1 |  |
+| [Themed](#Themed) | 0 |  |
+| [OwnBackground](#OwnBackground) | 1 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 |  |
+
+
+---
+
+### Themed {#Themed}
+| Themed| 0 |  |
+
+
+---
+
+### OwnBackground {#OwnBackground}
+| OwnBackground| 1 |  |
+
+
+---
+
 

@@ -16,7 +16,30 @@ url: /aspose.slides/markdownexporttype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Sequential | 0 | Render all items separately. One by one. |
-| TextOnly | 1 | Render only text. |
-| Visual | 2 | Render all items, items that are grouped - render together. |
+| [Sequential](#Sequential) | 0 | Render all items separately. One by one. |
+| [TextOnly](#TextOnly) | 1 | Render only text. |
+| [Visual](#Visual) | 2 | Render all items, items that are grouped - render together. |
+
+
+---
+
+
+### Sequential {#Sequential}
+| Sequential| 0 | Render all items separately. One by one. |
+
+
+---
+
+### TextOnly {#TextOnly}
+| TextOnly| 1 | Render only text. |
+
+
+---
+
+### Visual {#Visual}
+| Visual| 2 | Render all items, items that are grouped - render together. |
+
+
+---
+
 

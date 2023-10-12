@@ -37,13 +37,13 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- |
 | setExternalHyperlinkClick (String) | Set external hyperlink on click. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
- **Result**
+ **Result:**
 [Hyperlink](../hyperlink)
 
 
@@ -56,13 +56,13 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- |
 | setExternalHyperlinkMouseOver (String) | Sets external hyperlink mouse over. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | url | String | Hyperlink URL. |
 
- **Result**
+ **Result:**
 [Hyperlink](../hyperlink)
 
 
@@ -75,13 +75,13 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- |
 | setInternalHyperlinkClick ([Slide](../slide)) | Sets internal hyperlink on click. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | targetSlide | [Slide](../slide) | Target slide. |
 
- **Result**
+ **Result:**
 [Hyperlink](../hyperlink)
 
 
@@ -94,13 +94,13 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- |
 | setInternalHyperlinkMouseOver ([Slide](../slide)) | Sets internal hyperlink mouse over. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | targetSlide | [Slide](../slide) | Target slide. |
 
- **Result**
+ **Result:**
 [Hyperlink](../hyperlink)
 
 
@@ -113,13 +113,13 @@ url: /aspose.slides/hyperlinkmanager/
 | --- | --- |
 | setMacroHyperlinkClick (String) | Set Macro hyperlink on a click. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | macroName | String | Name of the macro |
 
- **Result**
+ **Result:**
 [Hyperlink](../hyperlink)
 
 

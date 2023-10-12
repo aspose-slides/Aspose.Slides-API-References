@@ -17,7 +17,7 @@ url: /aspose.slides/vbaproject/
 | --- | --- |
 | VbaProject() | This function creates new VBA project from scratch. Project will be created in 1252 Windows Latin 1 (ANSI) codepage |
 
- **Result**
+ **Result:**
 VbaProject
 
 
@@ -30,7 +30,7 @@ VbaProject
 | --- | --- |
 | VbaProject(byte[]) | This function loads VBA project from binary representation of OLE container. |
 
- **Result**
+ **Result:**
 VbaProject
 
 
@@ -43,7 +43,7 @@ VbaProject
 | --- | --- |
 | getModules () | Returns the list of all modules that are contained in the VBA project. Read-only IVbaModuleCollection. |
 
- **Result**
+ **Result:**
 [VbaModuleCollection](../vbamodulecollection)
 
 
@@ -56,7 +56,7 @@ VbaProject
 | --- | --- |
 | getName () | Returns the name of the VBA project. Read-only String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -69,7 +69,7 @@ String
 | --- | --- |
 | getReferences () | Returns the list of all references that are contained in the VBA project. Read-only IVbaReferenceCollection. |
 
- **Result**
+ **Result:**
 [VbaReferenceCollection](../vbareferencecollection)
 
 
@@ -82,7 +82,7 @@ String
 | --- | --- |
 | toBinary () | Returns the binary representation of the VBA project as OLE container |
 
- **Result**
+ **Result:**
 byte
 
 

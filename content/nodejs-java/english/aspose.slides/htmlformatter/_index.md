@@ -17,13 +17,13 @@ url: /aspose.slides/htmlformatter/
 | --- | --- |
 | createCustomFormatter ([EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | formattingController | [EmbeddedEotFontsHtmlController](../embeddedeotfontshtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result**
+ **Result:**
 HtmlFormatter
 
 
@@ -36,13 +36,13 @@ HtmlFormatter
 | --- | --- |
 | createCustomFormatter ([VideoPlayerHtmlController](../videoplayerhtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | formattingController | [VideoPlayerHtmlController](../videoplayerhtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result**
+ **Result:**
 HtmlFormatter
 
 
@@ -55,13 +55,13 @@ HtmlFormatter
 | --- | --- |
 | createCustomFormatter ([EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | formattingController | [EmbeddedWoffFontsHtmlController](../embeddedwofffontshtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result**
+ **Result:**
 HtmlFormatter
 
 
@@ -74,13 +74,13 @@ HtmlFormatter
 | --- | --- |
 | createCustomFormatter ([ResponsiveHtmlController](../responsivehtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | formattingController | [ResponsiveHtmlController](../responsivehtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result**
+ **Result:**
 HtmlFormatter
 
 
@@ -93,13 +93,13 @@ HtmlFormatter
 | --- | --- |
 | createCustomFormatter ([EmbedAllFontsHtmlController](../embedallfontshtmlcontroller)) | Creates and returns HTML formatter for custom callback-driven html generation. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | formattingController | [EmbedAllFontsHtmlController](../embedallfontshtmlcontroller) | Callback interface which controls html file generation. |
 
- **Result**
+ **Result:**
 HtmlFormatter
 
 
@@ -112,14 +112,14 @@ HtmlFormatter
 | --- | --- |
 | createDocumentFormatter (String, boolean) | Creates and returns HTML formatter for a simple document view which consists of sequences of slides one below another. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | css | String | Specifies CSS for this file. |
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
- **Result**
+ **Result:**
 HtmlFormatter
 
 
@@ -132,14 +132,14 @@ HtmlFormatter
 | --- | --- |
 | createSlideShowFormatter (String, boolean) | Creates and returns HTML formatter for a simple slide show html which shows slides one after another. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | css | String | Specifies URL of CCS file used. |
 | showSlideTitle | boolean | Add slide title if there is one above slide image. |
 
- **Result**
+ **Result:**
 HtmlFormatter
 
 

@@ -17,7 +17,7 @@ url: /aspose.slides/tabfactory/
 | --- | --- |
 | TabFactory() |  |
 
- **Result**
+ **Result:**
 TabFactory
 
 
@@ -30,14 +30,14 @@ TabFactory
 | --- | --- |
 | createTab (double, int) | Creates a new ITab instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | position | double | Tab position. |
 | align | int | Align. |
 
- **Result**
+ **Result:**
 [Tab](../tab)
 
 

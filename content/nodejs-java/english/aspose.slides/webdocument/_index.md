@@ -17,13 +17,13 @@ url: /aspose.slides/webdocument/
 | --- | --- |
 | WebDocument([WebDocumentOptions](../webdocumentoptions)) | WebDocument function. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | options | [WebDocumentOptions](../webdocumentoptions) | Options set for the document. |
 
- **Result**
+ **Result:**
 WebDocument
 
 
@@ -36,7 +36,7 @@ WebDocument
 | --- | --- |
 | getGlobal () | Returns global storage of the document. Read-only Storage. |
 
- **Result**
+ **Result:**
 Storage
 
 
@@ -49,7 +49,7 @@ Storage
 | --- | --- |
 | getInput () | Returns collection of input elements (templates) of the document. Read-only Input( #getInput). |
 
- **Result**
+ **Result:**
 Input
 
 
@@ -62,7 +62,7 @@ Input
 | --- | --- |
 | getOutput () | Returns collection of output elements of the document. Read-only Output( #getOutput). |
 
- **Result**
+ **Result:**
 Output
 
 

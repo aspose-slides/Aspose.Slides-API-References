@@ -17,7 +17,7 @@ url: /aspose.slides/notesslidemanager/
 | --- | --- |
 | addNotesSlide () | Returns the notes slide for the current slide, creating one if there isn't. |
 
- **Result**
+ **Result:**
 [NotesSlide](../notesslide)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/notesslidemanager/
 | --- | --- |
 | getNotesSlide () | Returns the notes slide for the current slide. Returns null if slide doesn't have notes slide. Read-only INotesSlide. |
 
- **Result**
+ **Result:**
 [NotesSlide](../notesslide)
 
 

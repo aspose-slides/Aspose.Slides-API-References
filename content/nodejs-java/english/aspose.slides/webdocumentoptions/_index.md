@@ -17,7 +17,7 @@ url: /aspose.slides/webdocumentoptions/
 | --- | --- |
 | WebDocumentOptions() |  |
 
- **Result**
+ **Result:**
 WebDocumentOptions
 
 
@@ -30,7 +30,7 @@ WebDocumentOptions
 | --- | --- |
 | getAnimateShapes () | Returns or sets shapes animation option. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -43,7 +43,7 @@ boolean
 | --- | --- |
 | getAnimateTransitions () | Returns or sets transitions animation option. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -56,7 +56,7 @@ boolean
 | --- | --- |
 | getEmbedImages () | Returns or sets images embedding option. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -69,7 +69,7 @@ boolean
 | --- | --- |
 | getOutputSaver () | Returns or sets output saver. Read/write IOutputSaver. |
 
- **Result**
+ **Result:**
 OutputSaverStub
 
 
@@ -82,7 +82,7 @@ OutputSaverStub
 | --- | --- |
 | getTemplateEngine () | Returns or sets templates engine. Read/write ITemplateEngine. |
 
- **Result**
+ **Result:**
 TemplateEngineStub
 
 

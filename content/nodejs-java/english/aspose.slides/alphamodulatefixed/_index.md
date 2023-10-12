@@ -18,13 +18,13 @@ url: /aspose.slides/alphamodulatefixed/
 | --- | --- |
 | equals (Object) | Determines whether the specified AlphaModulateFixed is equal to the current AlphaModulateFixed. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | obj | Object | The AlphaModulateFixed to compare. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -37,7 +37,7 @@ boolean
 | --- | --- |
 | getAmount () | Returns an amount of effect in percents. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -50,7 +50,7 @@ float
 | --- | --- |
 | getEffective () | Gets effective Alpha Modulate Fixed effect data with the inheritance applied. |
 
- **Result**
+ **Result:**
 AlphaModulateFixedEffectiveData
 
 
@@ -63,7 +63,7 @@ AlphaModulateFixedEffectiveData
 | --- | --- |
 | hashCode () | Serves as a hash function for a particular type. |
 
- **Result**
+ **Result:**
 int
 
 

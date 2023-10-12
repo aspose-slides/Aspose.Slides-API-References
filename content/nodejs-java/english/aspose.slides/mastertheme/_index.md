@@ -17,7 +17,7 @@ url: /aspose.slides/mastertheme/
 | --- | --- |
 | getColorScheme () | Returns the color scheme. Read-only IColorScheme. |
 
- **Result**
+ **Result:**
 [ColorScheme](../colorscheme)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/mastertheme/
 | --- | --- |
 | getExtraColorSchemes () | Returns the collection of additional color schemes. These schemes don't affect presentation's look, they can be selected as main color scheme for a slide. Read-only IExtraColorSchemeCollection. |
 
- **Result**
+ **Result:**
 [ExtraColorSchemeCollection](../extracolorschemecollection)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/mastertheme/
 | --- | --- |
 | getFontScheme () | Returns the font scheme. Read-only IFontScheme. |
 
- **Result**
+ **Result:**
 [FontScheme](../fontscheme)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/mastertheme/
 | --- | --- |
 | getFormatScheme () | Returns the shape format scheme. Read-only IFormatScheme. |
 
- **Result**
+ **Result:**
 [FormatScheme](../formatscheme)
 
 
@@ -69,7 +69,7 @@ url: /aspose.slides/mastertheme/
 | --- | --- |
 | getName () | Returns the name of a theme. Read/write String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -82,7 +82,7 @@ String
 | --- | --- |
 | getVersion () |  |
 
- **Result**
+ **Result:**
 long
 
 

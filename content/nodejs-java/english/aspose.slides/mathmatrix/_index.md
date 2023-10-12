@@ -20,14 +20,14 @@ url: /aspose.slides/mathmatrix/
 | --- | --- |
 | MathMatrix(int, int) | Initializes a new instance of the MathMatrix class. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | rowCount | int | row count |
 | columnCount | int | column count |
 
- **Result**
+ **Result:**
 MathMatrix
 
 
@@ -40,7 +40,7 @@ MathMatrix
 | --- | --- |
 | deleteColumn (int) | Deletes the specified column |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ MathMatrix
 | --- | --- |
 | deleteRow (int) | Deletes the specified row |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ MathMatrix
 | --- | --- |
 | getBaseJustification () | Specifies the vertical justification respect to surrounding text. Possible values are top, bottom, and center. Default: Center |
 
- **Result**
+ **Result:**
 int
 
 
@@ -97,8 +97,8 @@ int
 | --- | --- |
 | getChildren () | Get children elements |
 
- **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+ **Result:**
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
@@ -110,13 +110,13 @@ int
 | --- | --- |
 | getColumnAlignment (int) | Get the horizontal alignment of the specified column |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | columnIndex | int | Zero-based column index |
 
- **Result**
+ **Result:**
 int
 
 
@@ -129,7 +129,7 @@ int
 | --- | --- |
 | getColumnCount () | Number of columns in the matrix |
 
- **Result**
+ **Result:**
 int
 
 
@@ -142,7 +142,7 @@ int
 | --- | --- |
 | getColumnGap () | The value of horizontal spacing between columns of a matrix; If the ColumnGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the ColumnGapRule is set to 4 ("Multiple"), then the unit is interpreted as number of 0.5 em increments. In other cases ignored. Default: 0 |
 
- **Result**
+ **Result:**
 long
 
 
@@ -155,7 +155,7 @@ long
 | --- | --- |
 | getColumnGapRule () | The type of horizontal spacing between columns of a matrix; Horizontal spacing units can be ems or points (stored as twips). Default: SingleSpacingGap (0) |
 
- **Result**
+ **Result:**
 int
 
 
@@ -168,7 +168,7 @@ int
 | --- | --- |
 | getHidePlaceholders () | Hide the placeholders for empty matrix elements Default: false |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -181,7 +181,7 @@ boolean
 | --- | --- |
 | getMinColumnWidth () | Minimum column width in twips (1/20th of a point) The gap spacing (also referred to as “Column Gap” or “Gap Width”) is added to the MinColumnWidth to determine the total Matrix Column Spacing (distance between the same edges of different columns). Default: 0. |
 
- **Result**
+ **Result:**
 long
 
 
@@ -194,7 +194,7 @@ long
 | --- | --- |
 | getRowCount () | Number of rows in the matrix |
 
- **Result**
+ **Result:**
 int
 
 
@@ -207,7 +207,7 @@ int
 | --- | --- |
 | getRowGap () | The value of vertical spacing between rows of a matrix; If the RowGapRule is set to 3 ("Exactly"), then the unit is interpreted as twips (1/20th of a point) If the RowGapRule is set to 4 ("Multiple"), then the unit is interpreted as half-lines. Default: 0 |
 
- **Result**
+ **Result:**
 long
 
 
@@ -220,7 +220,7 @@ long
 | --- | --- |
 | getRowGapRule () | The type of vertical spacing between rows of a matrix; Vertical spacing units can be lines or points (stored as twips). Default: SingleSpacingGap (0) |
 
- **Result**
+ **Result:**
 int
 
 
@@ -233,15 +233,15 @@ int
 | --- | --- |
 | get_Item (int, int) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | row | int | The zero-based index of the row to get item |
 | column | int | The zero-based index of the column to get item |
 
- **Result**
-[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathGroupingCharacter](../mathgroupingcharacter), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathNaryOperator](../mathnaryoperator), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
+ **Result:**
+[MathLimit](../mathlimit), [MathBorderBox](../mathborderbox), [MathFraction](../mathfraction), [MathDelimiter](../mathdelimiter), [MathSuperscriptElement](../mathsuperscriptelement), [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement), [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement), [MathBox](../mathbox), [MathMatrix](../mathmatrix), [MathGroupingCharacter](../mathgroupingcharacter), [MathArray](../matharray), [MathBlock](../mathblock), [MathSubscriptElement](../mathsubscriptelement), [MathFunction](../mathfunction), [MathNaryOperator](../mathnaryoperator), [MathematicalText](../mathematicaltext), [BaseScript](../basescript), [MathAccent](../mathaccent), [MathRadical](../mathradical), [MathBar](../mathbar), [MathElementBase](../mathelementbase)
 
 
 ---
@@ -253,7 +253,7 @@ int
 | --- | --- |
 | insertColumnAfter (int) | Insert a new column after the specified one Initially all elements in the new column are null. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -269,7 +269,7 @@ int
 | --- | --- |
 | insertColumnBefore (int) | Insert a new column before the specified one Initially all elements in the new column are null. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -285,7 +285,7 @@ int
 | --- | --- |
 | insertRowAfter (int) | Insert a new row after the specified one Initially all elements in the new row are null. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -301,7 +301,7 @@ int
 | --- | --- |
 | insertRowBefore (int) | Insert a new row before the specified one Initially all elements in the new row are null. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -327,7 +327,7 @@ int
 | --- | --- |
 | setColumnAlignment (int, int) | Set the horizontal alignment of the specified column |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -364,7 +364,7 @@ int
 | --- | --- |
 | setColumnsAlignment (int, long, int) | Set the horizontal alignment of the specified columns |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -422,7 +422,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathLimit](../mathlimit)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -439,7 +439,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathBorderBox](../mathborderbox)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -456,7 +456,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathFraction](../mathfraction)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -473,7 +473,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathDelimiter](../mathdelimiter)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -490,7 +490,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathSuperscriptElement](../mathsuperscriptelement)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -507,7 +507,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathLeftSubSuperscriptElement](../mathleftsubsuperscriptelement)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -524,7 +524,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathRightSubSuperscriptElement](../mathrightsubsuperscriptelement)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -541,7 +541,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathBox](../mathbox)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -558,75 +558,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathMatrix](../mathmatrix)) | Element of matrix |
 
- **Parameters**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathArray](../matharray)) | Element of matrix |
-
- **Parameters**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathBlock](../mathblock)) | Element of matrix |
-
- **Parameters**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
-
- **Parameters**
-
-| Name | Type | Description |
-| --- | --- | --- |
-| row | int | The zero-based index of the row to get item |
-| column | int | The zero-based index of the column to get item |
-
-
----
-
-
-### set_Item {#set_Item}
-
-| Name | Description |
-| --- | --- |
-| set_Item (int, int, [MathFunction](../mathfunction)) | Element of matrix |
-
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -643,7 +575,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathGroupingCharacter](../mathgroupingcharacter)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -658,9 +590,60 @@ int
 
 | Name | Description |
 | --- | --- |
-| set_Item (int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
+| set_Item (int, int, [MathArray](../matharray)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathBlock](../mathblock)) | Element of matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathSubscriptElement](../mathsubscriptelement)) | Element of matrix |
+
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathFunction](../mathfunction)) | Element of matrix |
+
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -677,7 +660,24 @@ int
 | --- | --- |
 | set_Item (int, int, [MathNaryOperator](../mathnaryoperator)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
+
+| Name | Type | Description |
+| --- | --- | --- |
+| row | int | The zero-based index of the row to get item |
+| column | int | The zero-based index of the column to get item |
+
+
+---
+
+
+### set_Item {#set_Item}
+
+| Name | Description |
+| --- | --- |
+| set_Item (int, int, [MathematicalText](../mathematicaltext)) | Element of matrix |
+
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -694,7 +694,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathAccent](../mathaccent)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -711,7 +711,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathRadical](../mathradical)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -728,7 +728,7 @@ int
 | --- | --- |
 | set_Item (int, int, [MathBar](../mathbar)) | Element of matrix |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

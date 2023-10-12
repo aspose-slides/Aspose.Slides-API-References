@@ -17,7 +17,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([LegacyDiagram](../legacydiagram)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([Connector](../connector)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([GraphicalObject](../graphicalobject)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([Shape](../shape)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -69,7 +69,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([Ink](../ink)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -82,7 +82,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([GroupShape](../groupshape)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -95,7 +95,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([SmartArtShape](../smartartshape)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -108,7 +108,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([SummaryZoomSection](../summaryzoomsection)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -121,7 +121,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([ZoomObject](../zoomobject)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -134,7 +134,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([SmartArt](../smartart)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -147,7 +147,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([VideoFrame](../videoframe)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -160,7 +160,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([PictureFrame](../pictureframe)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -173,7 +173,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([ZoomFrame](../zoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -186,7 +186,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([AutoShape](../autoshape)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -199,7 +199,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([OleObjectFrame](../oleobjectframe)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -212,7 +212,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([SectionZoomFrame](../sectionzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -225,7 +225,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([AudioFrame](../audioframe)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -238,7 +238,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([Chart](../chart)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -251,7 +251,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([Table](../table)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -264,7 +264,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | add ([SummaryZoomFrame](../summaryzoomframe)) | Add new interactive sequence. Read/write Sequence. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -287,7 +287,7 @@ url: /aspose.slides/sequencecollection/
 | --- | --- |
 | getCount () | Returns the number of elements in a collection Read-only int. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -300,13 +300,13 @@ int
 | --- | --- |
 | get_Item (int) | Returns a sequense at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | index | int | Index of element. |
 
- **Result**
+ **Result:**
 [Sequence](../sequence)
 
 
@@ -319,7 +319,7 @@ int
 | --- | --- |
 | iterator () | Returns an enumerator that iterates through the collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -332,7 +332,7 @@ int
 | --- | --- |
 | iteratorJava () | Returns a java iterator for the entire collection. |
 
- **Result**
+ **Result:**
 
 
 
@@ -345,7 +345,7 @@ int
 | --- | --- |
 | remove ([Sequence](../sequence)) | Removes specified sequence from a collection. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ int
 | --- | --- |
 | removeAt (int) | Removes sequence at the specified index. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

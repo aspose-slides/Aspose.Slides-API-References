@@ -17,7 +17,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getHyperlinkQueries () | Provides easy access to contained hyperlinks. Read-only IHyperlinkQueries. |
 
- **Result**
+ **Result:**
 [HyperlinkQueries](../hyperlinkqueries)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getParagraphs () | Returns the list of all paragraphs in a frame. Read-only IParagraphCollection. |
 
- **Result**
+ **Result:**
 [ParagraphCollection](../paragraphcollection)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getPresentation () | Returns the parent presentation of a TextFrame. Read-only IPresentation. |
 
- **Result**
+ **Result:**
 [Presentation](../presentation)
 
 
@@ -56,7 +56,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getSlide () | Returns the parent slide of a TextFrame. Read-only IBaseSlide. |
 
- **Result**
+ **Result:**
 [MasterNotesSlide](../masternotesslide), [MasterHandoutSlide](../masterhandoutslide), [BaseSlide](../baseslide), [NotesSlide](../notesslide), [LayoutSlide](../layoutslide), [Slide](../slide), [MasterSlide](../masterslide)
 
 
@@ -69,7 +69,7 @@ url: /aspose.slides/textframe/
 | --- | --- |
 | getText () | Gets or sets the plain text for a TextFrame. Read/write String. Value: The text. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -82,7 +82,7 @@ String
 | --- | --- |
 | getTextFrameFormat () | Returns the formatting object for this TextFrame object. Read-only ITextFrameFormat. |
 
- **Result**
+ **Result:**
 [TextFrameFormat](../textframeformat)
 
 
@@ -95,7 +95,7 @@ String
 | --- | --- |
 | highlightRegex (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of regular expression in text frame text using specified color. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -113,7 +113,7 @@ String
 | --- | --- |
 | highlightText (String, Color) | Highlight all matches of sample in text frame text using specified color. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -130,7 +130,7 @@ String
 | --- | --- |
 | highlightText (String, Color, [TextHighlightingOptions](../texthighlightingoptions)) | Highlight all matches of sample in text frame text using specified color. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |

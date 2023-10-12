@@ -17,7 +17,7 @@ url: /aspose.slides/commonslideviewproperties/
 | --- | --- |
 | getScale () | Specifies the view scaling ratio in percentages. Read/write int. |
 
- **Result**
+ **Result:**
 int
 
  **Error**
@@ -36,7 +36,7 @@ int
 | --- | --- |
 | getVariableScale () | Specifies that the view content should automatically scale to best fit the current window size. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 

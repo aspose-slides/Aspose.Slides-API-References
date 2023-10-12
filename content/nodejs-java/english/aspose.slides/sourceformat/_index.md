@@ -16,7 +16,30 @@ url: /aspose.slides/sourceformat/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| Ppt | 0 | PPT format. |
-| Pptx | 1 | Pptx format. |
-| Odp | 2 | Odp format. |
+| [Ppt](#Ppt) | 0 | PPT format. |
+| [Pptx](#Pptx) | 1 | Pptx format. |
+| [Odp](#Odp) | 2 | Odp format. |
+
+
+---
+
+
+### Ppt {#Ppt}
+| Ppt| 0 | PPT format. |
+
+
+---
+
+### Pptx {#Pptx}
+| Pptx| 1 | Pptx format. |
+
+
+---
+
+### Odp {#Odp}
+| Odp| 2 | Odp format. |
+
+
+---
+
 

@@ -16,8 +16,37 @@ url: /aspose.slides/linejoinstyle/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Round | 0 |  |
-| Bevel | 1 |  |
-| Miter | 2 |  |
+| [NotDefined](#NotDefined) | -1 |  |
+| [Round](#Round) | 0 |  |
+| [Bevel](#Bevel) | 1 |  |
+| [Miter](#Miter) | 2 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 |  |
+
+
+---
+
+### Round {#Round}
+| Round| 0 |  |
+
+
+---
+
+### Bevel {#Bevel}
+| Bevel| 1 |  |
+
+
+---
+
+### Miter {#Miter}
+| Miter| 2 |  |
+
+
+---
+
 

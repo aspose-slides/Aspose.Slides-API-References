@@ -16,7 +16,30 @@ url: /aspose.slides/behavioraccumulatetype/
 
 | Name | Value | Description |
 | --- | --- | --- |
-| NotDefined | -1 |  |
-| Always | 0 |  |
-| None | 1 |  |
+| [NotDefined](#NotDefined) | -1 |  |
+| [Always](#Always) | 0 |  |
+| [None](#None) | 1 |  |
+
+
+---
+
+
+### NotDefined {#NotDefined}
+| NotDefined| -1 |  |
+
+
+---
+
+### Always {#Always}
+| Always| 0 |  |
+
+
+---
+
+### None {#None}
+| None| 1 |  |
+
+
+---
+
 

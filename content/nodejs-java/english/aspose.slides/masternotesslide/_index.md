@@ -17,7 +17,7 @@ url: /aspose.slides/masternotesslide/
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the master notes slide. Read-only IMasterHandoutSlideHeaderFooterManager. |
 
- **Result**
+ **Result:**
 [MasterNotesSlideHeaderFooterManager](../masternotesslideheaderfootermanager)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/masternotesslide/
 | --- | --- |
 | getNotesStyle () | Returns the style of a notes text. Read-only ITextStyle. |
 
- **Result**
+ **Result:**
 [TextStyle](../textstyle)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/masternotesslide/
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. For master slide itself this property always returns false. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
  **Error**
@@ -62,7 +62,7 @@ boolean
 | --- | --- |
 | getThemeManager () | Returns the theme manager. Read-only IMasterThemeManager. |
 
- **Result**
+ **Result:**
 [MasterThemeManager](../masterthememanager)
 
 

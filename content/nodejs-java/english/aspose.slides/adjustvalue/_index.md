@@ -18,7 +18,7 @@ url: /aspose.slides/adjustvalue/
 | --- | --- |
 | getAngleValue () | Returns or sets value, interpreting it as angle in degrees. Read/write float. |
 
- **Result**
+ **Result:**
 float
 
 
@@ -31,7 +31,7 @@ float
 | --- | --- |
 | getName () | Returns a name of this adjustment value. Read-only String. |
 
- **Result**
+ **Result:**
 String
 
 
@@ -44,7 +44,7 @@ String
 | --- | --- |
 | getRawValue () | Returns or sets ajustment value "as is". Read/write long. |
 
- **Result**
+ **Result:**
 long
 
 

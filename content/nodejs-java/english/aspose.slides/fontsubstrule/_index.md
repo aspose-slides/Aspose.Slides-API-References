@@ -17,14 +17,14 @@ url: /aspose.slides/fontsubstrule/
 | --- | --- |
 | FontSubstRule([FontData](../fontdata), [FontData](../fontdata)) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
 | sourceFont | [FontData](../fontdata) | Source font. |
 | destFont | [FontData](../fontdata) | Destination font. |
 
- **Result**
+ **Result:**
 FontSubstRule
 
 
@@ -37,7 +37,7 @@ FontSubstRule
 | --- | --- |
 | FontSubstRule([FontData](../fontdata), [FontData](../fontdata), int) | Creates new instance. |
 
- **Parameters**
+ **Parameters:**
 
 | Name | Type | Description |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ FontSubstRule
 | destFont | [FontData](../fontdata) | Destination font. |
 | fontSubstRule | int | Font subst rule. |
 
- **Result**
+ **Result:**
 FontSubstRule
 
 
@@ -58,7 +58,7 @@ FontSubstRule
 | --- | --- |
 | getDestFont () | Font to use for substitution. Read-only IFontData. |
 
- **Result**
+ **Result:**
 [FontData](../fontdata)
 
 
@@ -71,7 +71,7 @@ FontSubstRule
 | --- | --- |
 | getReplaceFontCondition () | Rule to apply for substitution. Read-only FontSubstCondition. |
 
- **Result**
+ **Result:**
 int
 
 
@@ -84,7 +84,7 @@ int
 | --- | --- |
 | getSourceFont () | Font to substitute. Read-only IFontData. |
 
- **Result**
+ **Result:**
 [FontData](../fontdata)
 
 

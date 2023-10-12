@@ -17,7 +17,7 @@ url: /aspose.slides/layoutslide/
 | --- | --- |
 | getDependingSlides () | Returns an array with all slides, which depend on this layout slide. |
 
- **Result**
+ **Result:**
 [Slide](../slide)
 
 
@@ -30,7 +30,7 @@ url: /aspose.slides/layoutslide/
 | --- | --- |
 | getHeaderFooterManager () | Returns HeaderFooter manager of the layout slide. Read-only ILayoutSlideHeaderFooterManager. |
 
- **Result**
+ **Result:**
 [LayoutSlideHeaderFooterManager](../layoutslideheaderfootermanager)
 
 
@@ -43,7 +43,7 @@ url: /aspose.slides/layoutslide/
 | --- | --- |
 | getLayoutType () | Returns layout type of this layout slide. Read-only SlideLayoutType. |
 
- **Result**
+ **Result:**
 byte
 
 
@@ -56,7 +56,7 @@ byte
 | --- | --- |
 | getMasterSlide () | Returns or sets the master slide for a layout. Read/write IMasterSlide. |
 
- **Result**
+ **Result:**
 [MasterSlide](../masterslide)
 
 
@@ -69,7 +69,7 @@ byte
 | --- | --- |
 | getShowMasterShapes () | Specifies if shapes on the master slide should be shown on slides or not. Read/write boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
@@ -82,7 +82,7 @@ boolean
 | --- | --- |
 | getThemeManager () | Returns the overriding theme manager. Read-only IOverrideThemeManager. |
 
- **Result**
+ **Result:**
 [NotesSlideThemeManager](../notesslidethememanager), [ChartThemeManager](../chartthememanager), [BaseOverrideThemeManager](../baseoverridethememanager), [LayoutSlideThemeManager](../layoutslidethememanager), [SlideThemeManager](../slidethememanager)
 
 
@@ -95,7 +95,7 @@ boolean
 | --- | --- |
 | hasDependingSlides () | Returns true if there exists at least one slide that depends on this layout slide. Read-only boolean. |
 
- **Result**
+ **Result:**
 boolean
 
 
